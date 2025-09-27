@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "丁磊养猪的主要目的是为了个人娱乐和兴趣。",
+    "reference_case": "丁磊养猪的主要目的是革新中国现有的养猪模式，探索安全健康的生态养猪新模式，解决食品安全问题。",
+    "error_detail": "将商业和社会责任目的错误地描述为个人娱乐目的。",
+    "original_question": "丁磊养猪的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "网易养猪场的初步框架在2010年1月1日宣布落户安吉县后开始接触设计机构。",
+    "reference_case": "网易养猪场的初步框架在2011年3月24日宣布落户安吉县后开始接触设计机构。",
+    "error_detail": "错误地提前了时间点。",
+    "original_question": "网易养猪场的初步框架是什么时候开始接触设计机构的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "网易养猪场的建设过程中仅包括选址调查和设计机构接触。",
+    "reference_case": "网易养猪场的建设过程中包括选址调查、设计机构接触、清华大学人居设计团队的参与、以及2011年7月的正式开工建设。",
+    "error_detail": "遗漏了关键的建设步骤。",
+    "original_question": "网易养猪场的建设过程中有哪些关键步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "网易养猪场的猪舍设计包括模拟人类卧室，训练猪定点睡觉。",
+    "reference_case": "网易养猪场的猪舍设计包括模拟抽水马桶，训练猪定点排便，并采用自动冲洗系统处理粪尿。",
+    "error_detail": "错误地描述了猪舍设计的特点。",
+    "original_question": "网易养猪场的猪舍设计有哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "非淀粉多糖酶（NSP酶）的应用效果影响动物种类和生理时期。",
+    "reference_case": "动物种类和生理时期影响非淀粉多糖酶（NSP酶）的应用效果，因为不同动物和不同生理时期对NSP的耐受程度不同。例如，成年猪对NSP具有较高耐受力，而幼龄阶段的猪对NSP的抗营养作用表现敏感。",
+    "error_detail": "错误地颠倒了因果关系。",
+    "original_question": "动物种类和生理时期如何影响非淀粉多糖酶（NSP酶）的应用效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "甘露寡糖（MOS）对黄曲霉毒素的结合能力较弱，添加量在100~200 mg/kg时，其结合力呈下降趋势。",
+    "reference_case": "甘露寡糖（MOS）可以作为霉菌毒素吸附剂使用，能够与黄曲霉毒素、玉米赤霉烯酮和猪曲霉毒素结合。研究表明，MOS对黄曲霉毒素的结合能力较强，添加量在500~1000 mg/kg时，其结合力呈上升趋势。",
+    "error_detail": "错误地描述了MOS的结合能力和趋势。",
+    "original_question": "甘露寡糖（MOS）如何与霉菌毒素结合？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "怀孕母猪料和哺乳母猪日粮的消化能分别为10:00 MJ/kg和10:50 MJ/kg。",
+    "reference_case": "怀孕母猪料和哺乳母猪日粮的消化能分别为12:51 MJ/kg和12:67 MJ/kg。",
+    "error_detail": "错误地降低了消化能的数值。",
+    "original_question": "试验中使用的妊娠母猪料和哺乳母猪料的消化能分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "怀孕母猪料和哺乳母猪日粮中粗蛋白质含量分别为10:00%和10:50%。",
+    "reference_case": "怀孕母猪料和哺乳母猪日粮中粗蛋白质含量分别为15:10%和15:91%。",
+    "error_detail": "错误地降低了粗蛋白质含量的数值。",
+    "original_question": "试验中使用的母猪饲料的粗蛋白质含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "复方中草药添加剂对母猪的猪瘟抗体效价没有显著影响。",
+    "reference_case": "复方中草药添加剂显著提高了母猪的猪瘟抗体效价，试验组在免疫第7天和第21天的抗体效价均明显高于对照组。",
+    "error_detail": "错误地否定了添加剂的效果。",
+    "original_question": "复方中草药添加剂对母猪猪瘟抗体效价的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "复方中草药添加剂对仔猪的初生质量和40日龄体质量没有显著影响。",
+    "reference_case": "复方中草药添加剂显著提高了仔猪的初生质量和40日龄体质量，其中添加0:50%和0:75%的组别与对照组相比差异极显著（P<0:01:。",
+    "error_detail": "错误地否定了添加剂的效果。",
+    "original_question": "复方中草药添加剂对仔猪初生质量和40日龄体质量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "复方中草药添加剂对母猪的产活仔数和成活率没有显著影响。",
+    "reference_case": "复方中草药添加剂显著提高了母猪的产活仔数和成活率，其中添加0:50%和0:75%的组别与对照组相比差异显著（P<0:05:。",
+    "error_detail": "错误地否定了添加剂的效果。",
+    "original_question": "复方中草药添加剂对母猪产仔性能的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "复方中草药添加剂增加了仔猪腹泻发生的频率。",
+    "reference_case": "复方中草药添加剂显著增强了母猪和新生仔猪的抗病能力，减少了仔猪腹泻发生的频率，从而促进了仔猪的生长发育。",
+    "error_detail": "错误地描述了添加剂的效果。",
+    "original_question": "试验中使用的复方中草药添加剂对母猪和仔猪的抗病能力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "与对照组相比，试验组血清免疫球蛋白G（IgG）的含量显著降低了10:00%。",
+    "reference_case": "与对照组相比，试验组血清免疫球蛋白G（IgG）的含量极显著提高了23:72%。",
+    "error_detail": "错误地描述了IgG含量的变化。",
+    "original_question": "试验中使用的复方中草药对断奶仔猪血清免疫球蛋白G（IgG）的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "发酵豆粕替代普通豆粕对仔猪的平均日增质量、料肉比、腹泻率和病死率没有显著影响。",
+    "reference_case": "具体的实验数据包括：单达聪等（2013:报道，发酵豆粕替代普通豆粕可有效提高仔猪的平均日增质量（14:50%），降低料肉比（9:50%）、腹泻率（29:1%）和病死率（50%）；王海超（2012:对哺乳仔猪的研究也得到了相似的结果；冯杰等（2007:研究了发酵豆粕对仔猪生长、血清及肠道形态的影响，结果表明，发酵豆粕使仔猪料肉比降低了 8:39%，腹泻指数降低了 39:96%，血清尿素氮含量降低 39:47%。",
+    "error_detail": "错误地否定了发酵豆粕的效果。",
+    "original_question": "发酵豆粕在猪生产中的应用研究中，有哪些具体的实验数据支持其效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "发酵豆粕替代普通豆粕对仔猪的生长性能没有显著影响。",
+    "reference_case": "具体研究结果包括：单达聪等（2013:报道，发酵豆粕替代普通豆粕可有效提高仔猪的平均日增质量，降低料肉比、腹泻率和病死率；王海超（2012:对哺乳仔猪的研究也得到了相似的结果；冯杰等（2007:研究了发酵豆粕对仔猪生长、血清及肠道形态的影响，结果表明，发酵豆粕使仔猪料肉比降低，腹泻指数降低，血清尿素氮含量降低。",
+    "error_detail": "错误地否定了发酵豆粕的效果。",
+    "original_question": "发酵豆粕在猪生产中的应用有哪些具体研究结果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "发酵豆粕对猪的生长性能没有显著影响。",
+    "reference_case": "发酵豆粕对猪的生长性能有显著影响，包括提高仔猪的平均日增质量、降低料肉比、腹泻率和病死率，同时也可以提高血清白蛋白和球蛋白比。",
+    "error_detail": "错误地否定了发酵豆粕的效果。",
+    "original_question": "发酵豆粕对猪的生长性能有哪些具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "发酵豆粕中的益生菌对猪的肠道健康没有积极作用。",
+    "reference_case": "发酵豆粕中的益生菌，如枯草芽孢杆菌和乳酸菌等，通过饲料进入畜禽肠道内，能分泌有机酸，降低肠道 pH，分泌抑制致病菌的天然抗生素，起到抑制有害菌的生长，调节肠道健康。同时，有益菌在肠道的繁殖过程中会产生免疫调节因子，刺激肠道局部免疫系统的发育。",
+    "error_detail": "错误地否定了益生菌的作用。",
+    "original_question": "发酵豆粕如何改善猪的肠道健康？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "发酵豆粕中的益生菌对猪的免疫功能没有积极作用。",
+    "reference_case": "发酵豆粕中的益生菌，如枯草芽孢杆菌和乳酸菌等，通过饲料进入畜禽肠道内，能分泌有机酸，降低肠道 pH，分泌抑制致病菌的天然抗生素，起到抑制有害菌的生长，调节肠道健康。同时，有益菌在肠道的繁殖过程中会产生免疫调节因子，刺激肠道局部免疫系统的发育。",
+    "error_detail": "错误地否定了益生菌的作用。",
+    "original_question": "发酵豆粕中的益生菌对猪的免疫功能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "研究中使用了不同的方法和试剂来测定试样的亚铁离子含量。",
+    "reference_case": "研究中吸取1 mL试样溶液于25 mL比色管中，加5 mL乙酸-乙酸钠缓冲液混匀，加2 mL邻菲罗啉溶液，用水稀释至25 mL，摇匀，常温下放置15 min，用试剂空白作为参比溶液，用1 cm比色皿测定510 nm波长处的吸光度。在工作曲线上查得试样分解液的铁含量。",
+    "error_detail": "错误地描述了测定方法。",
+    "original_question": "猪用微量元素预混料中亚铁离子的稳定性研究中，如何测定试样的亚铁离子含量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "研究中使用了不同的仪器和试剂。",
+    "reference_case": "研究中使用了FW80微型高速万能试样粉碎机、CP224S分析天平、Lambda 35紫外可见分光光度计等仪器，以及盐酸、0:1%邻菲罗啉溶液、乙酸-乙酸钠缓冲溶液、铁标准储备液和铁标准工作液等试剂。",
+    "error_detail": "错误地描述了使用的仪器和试剂。",
+    "original_question": "猪用微量元素预混料中亚铁离子的稳定性研究中使用了哪些仪器和试剂？",
+    "original_input": ""
+  }
+]

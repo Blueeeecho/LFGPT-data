@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "低血糖症会导致哺乳猪或断奶猪出现乳房炎或乳腺无功能，剖检通常无肉眼病变或无体脂或胃内无食物，通过血液检测可以诊断。",
+    "reference_case": "低血糖症会导致哺乳猪或断奶猪出现乳房炎或乳腺无功能，剖检通常无肉眼病变或无体脂或胃内无食物，通过剖检所见可以诊断。",
+    "error_detail": "将剖检所见诊断方法错误地改为血液检测",
+    "original_question": "低血糖症会导致猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "铁中毒会导致哺乳猪或断奶猪在最近有注射铁的历史后出现注射部位周围肌肉水肿和坏死，可通过血液检测诊断。",
+    "reference_case": "铁中毒会导致哺乳猪或断奶猪在最近有注射铁的历史后出现注射部位周围肌肉水肿和坏死，可通过剖检所见诊断。",
+    "error_detail": "将剖检所见诊断方法错误地改为血液检测",
+    "original_question": "铁中毒会导致猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "大肠杆菌败血症会导致哺乳猪或断奶猪出现发热、可能器官充血、淋巴结肿大、水肿，腹腔内可能有纤维素或变化不大，可通过血液检测确诊。",
+    "reference_case": "大肠杆菌败血症会导致哺乳猪或断奶猪出现发热、可能器官充血、淋巴结肿大、水肿，腹腔内可能有纤维素或变化不大，可通过分离大肠杆菌确诊。",
+    "error_detail": "将分离大肠杆菌确诊方法错误地改为血液检测",
+    "original_question": "大肠杆菌败血症会导致猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "引起断奶猪至成年猪贫血的常见疾病包括胃溃疡、铁缺乏、序满、猪丹虫、出血性回肠炎、增生性肠炎、附红细胞体病、黄曲霉毒素、单端孢霉烯、玉米赤霉烯酮和苄丙酮香豆素中毒。",
+    "reference_case": "引起断奶猪至成年猪贫血的常见疾病包括胃溃疡、铁缺乏、序满、猪丹虫、出血性回肠炎、增生性肠炎、附红细胞体病、黄曲霉毒素、单端孢霉烯、玉米赤霉烯酮和苄丙酮香豆素中毒。",
+    "error_detail": "虽然看起来相同，但'序满'和'猪丹虫'是错误的概念，应为'血吸虫病'和'猪丹毒'",
+    "original_question": "引起断奶猪至成年猪贫血的常见疾病有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "未断奶猪跛行的主要原因是营养不良和传染性多发性关节炎。",
+    "reference_case": "未断奶猪跛行的主要原因是创伤和传染性多发性关节炎。",
+    "error_detail": "将创伤错误地改为营养不良",
+    "original_question": "未断奶猪跛行的主要原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "传染性多发性关节炎主要发生在2～4周龄的未断奶猪。",
+    "reference_case": "传染性多发性关节炎主要发生在1～3周龄的未断奶猪。",
+    "error_detail": "错误地改变了年龄范围",
+    "original_question": "传染性多发性关节炎主要发生在哪个年龄段的未断奶猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "创伤导致未断奶猪跛行的特点是任何年龄都可能发生，特别是在出生后头24～48小时，临床症状各异。",
+    "reference_case": "创伤导致未断奶猪跛行的特点是任何年龄都可能发生，特别是在出生后头36～40小时，临床症状各异。",
+    "error_detail": "错误地改变了时间范围",
+    "original_question": "创伤导致未断奶猪跛行的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "抗体在感染后7天可查出，3-4周时出现高峰，逐渐减少至4-5个月时检测不到。",
+    "reference_case": "抗体在感染后9天可查出，4-5周时出现高峰，逐渐减少至5-6个月时检测不到。",
+    "error_detail": "错误地改变了时间数据",
+    "original_question": "猪繁殖和呼吸综合征的间接荧光抗体（IgG）试验结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "IgM最早在感染后3天查出，21天时减少到测不出来。IgM阳性的猪可能是近期有感染的携带猪。间接荧光抗体试验不能检出所有病毒株。",
+    "reference_case": "IgM最早在感染后5天查出，28天时减少到测不出来。IgM阳性的猪可能是近期有感染的携带猪。间接荧光抗体试验不能检出所有病毒株。",
+    "error_detail": "错误地改变了时间数据",
+    "original_question": "猪繁殖和呼吸综合征的间接荧光抗体（IgM）试验结果如何解释？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "检测病毒的美国株和欧洲株。抗体最早在感染后7-11天检测到，3-5周出现高峰，逐渐下降至3-4个月时检测不到。S/P值为0.3可认为阳性。",
+    "reference_case": "检测病毒的美国株和欧洲株。抗体最早在感染后9-13天检测到，4-6周出现高峰，逐渐下降至4-5个月时检测不到。S/P值为0.4可认为阳性。",
+    "error_detail": "错误地改变了时间数据和S/P值",
+    "original_question": "猪繁殖和呼吸综合征的酶联免疫吸附试验结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "1920年，Montgomery首次从肯尼亚报道了非洲猪瘟（ASF）。",
+    "reference_case": "1921年，Montgomery首次从肯尼亚报道了非洲猪瘟（ASF）。",
+    "error_detail": "错误地改变了年份",
+    "original_question": "非洲猪瘟（ASF）首次被报道是在哪一年？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟是由一种常见的非洲猪瘟病毒（ASFV）引起的。",
+    "reference_case": "非洲猪瘟是由一种不常见的非洲猪瘟病毒（ASFV）引起的。",
+    "error_detail": "错误地改变了病毒的描述",
+    "original_question": "非洲猪瘟是由哪种病毒引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "自然状况下，非洲猪瘟病毒主要感染猪和野猪。",
+    "reference_case": "自然状况下，非洲猪瘟病毒只感染猪。",
+    "error_detail": "错误地添加了野猪作为感染对象",
+    "original_question": "自然状况下，非洲猪瘟病毒主要感染哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟的临床表现从急性到隐性，急性病例的症状和病变最为明显，表现为高热、高致死率、广泛的出血、肺水肿和淋巴组织的广泛坏死。",
+    "reference_case": "非洲猪瘟的临床表现从超急性到隐性，急性病例的症状和病变最为明显，表现为高热、高致死率、广泛的出血、肺水肿和淋巴组织的广泛坏死。",
+    "error_detail": "错误地改变了临床表现的范围",
+    "original_question": "非洲猪瘟的临床表现有哪些类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟病毒主要在T细胞和B细胞中复制，也能在内皮细胞、肝细胞、肾小管上皮细胞和嗜中性粒细胞中复制。",
+    "reference_case": "非洲猪瘟病毒主要在单核巨噬细胞中复制，也能在内皮细胞、肝细胞、肾小管上皮细胞和嗜中性粒细胞中复制。",
+    "error_detail": "错误地改变了病毒复制的主要细胞类型",
+    "original_question": "非洲猪瘟病毒主要在哪些细胞中复制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "免疫学研究表明，非洲猪瘟表现为淋巴细胞增多症，这是因为淋巴器官T细胞区淋巴细胞增殖所致，但还没有病毒在T细胞和B细胞中复制的证据。",
+    "reference_case": "免疫学研究表明，非洲猪瘟表现为淋巴细胞减少症，这是因为淋巴器官T细胞区淋巴细胞凋亡所致，但还没有病毒在T细胞和B细胞中复制的证据。",
+    "error_detail": "错误地改变了免疫反应的表现",
+    "original_question": "非洲猪瘟病毒感染引起的免疫反应如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟病毒的隐性感染宿主通常为三种野公猪，即疣猪（Phacochoerus aethiopicus）、bushpigs（Potamochoerus porcus）和forest hogs（Hylochoerus meinertzhageni）。",
+    "reference_case": "非洲猪瘟病毒的隐性感染宿主通常为两种野公猪，即疣猪（Phacochoerus aethiopicus）和bushpigs（Potamochoerus porcus）。",
+    "error_detail": "错误地添加了第三种野公猪作为隐性感染宿主",
+    "original_question": "非洲猪瘟病毒的隐性感染宿主有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "从流行病学的观点看，ASFV的传播主要与用来自国际空港或海港的未煮熟的或感染ASFV的猪肉产品喂猪有关，以及通过蚊虫叮咬传播。",
+    "reference_case": "从流行病学的观点看，ASFV的传播主要与用来自国际空港或海港的未煮熟的或感染ASFV的猪肉产品喂猪有关。",
+    "error_detail": "错误地添加了蚊虫叮咬作为传播途径",
+    "original_question": "非洲猪瘟病毒的传播主要途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "现在还没有对非洲猪瘟治疗或有效的疫苗， ASF的控制主要靠实验室的快速诊断和执行严格的卫生防疫措施，以及使用抗生素治疗。",
+    "reference_case": "现在还没有对非洲猪瘟治疗或有效的疫苗， ASF的控制主要靠实验室的快速诊断和执行严格的卫生防疫措施。",
+    "error_detail": "错误地添加了使用抗生素治疗作为控制措施",
+    "original_question": "目前对非洲猪瘟有治疗方法或疫苗吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "ASFV的基因组为单股线性DNA分子，对一特定的毒株基因组大小为150~170 kb，并且基因末端倒置重复，中央保守区由100 kb组成末端可变。最近，ASFV的BA71v毒株的整个DNA序列已被测定和分析，其基因序列由160,101个核苷酸和141个开放阅读框架组成，编码五个多基因家族。",
+    "reference_case": "ASFV的基因组为双股线性DNA分子，对一特定的毒株基因组大小为170~190 kb，并且基因末端倒置重复，中央保守区由125 kb组成末端可变。最近，ASFV的BA71v毒株的整个DNA序列已被测定和分析，其基因序列由170,101个核苷酸和151个开放阅读框架组成，编码五个多基因家族。",
+    "error_detail": "错误地改变了基因组的结构和大小",
+    "original_question": "非洲猪瘟病毒的基因组特征是什么？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，猪链球菌2型的检出率为1:100%。",
+    "reference_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，猪链球菌2型的检出率为1:64%。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "河池市屠宰猪群中猪链球菌2型的流行病学调查中，猪链球菌2型的检出率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，环江的猪链球菌携带率最高，为77:17%。",
+    "reference_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，巴马的猪链球菌携带率最高，为77:17%。",
+    "error_detail": "错误地改变了最高携带率的县区",
+    "original_question": "河池市屠宰猪群中猪链球菌2型的流行病学调查中，哪个县区的猪链球菌携带率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，环江的猪链球菌2型携带率最高，为5:86%。",
+    "reference_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，环江的猪链球菌2型携带率最高，为2:86%。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "河池市屠宰猪群中猪链球菌2型的流行病学调查中，哪个县区的猪链球菌2型携带率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，猪链球菌2型可引起猪流感、关节炎和猝死等症状。",
+    "reference_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，猪链球菌2型可引起猪脑膜炎、关节炎和猝死等症状，一旦通过伤口感染人，可使人发病致死，严重威胁饲养员、屠宰场工作人员和兽医等从业人员的身体健康。",
+    "error_detail": "错误地将猪脑膜炎替换为猪流感",
+    "original_question": "河池市屠宰猪群中猪链球菌2型的流行病学调查中，猪链球菌2型的主要危害是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，扁桃体是猪链球菌入侵猪只体内最后定殖的器官。",
+    "reference_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，扁桃体是猪链球菌入侵猪只体内首先定殖的器官，同时也是猪隐形带菌的主要部位。",
+    "error_detail": "错误地改变了定殖的顺序",
+    "original_question": "河池市屠宰猪群中猪链球菌2型的流行病学调查中，扁桃体在猪链球菌感染中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，多重PCR检测的反应体系总体积为50微升。",
+    "reference_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，多重PCR检测的反应体系总体积为25微升。",
+    "error_detail": "数值被夸大",
+    "original_question": "河池市屠宰猪群中猪链球菌2型的流行病学调查中，多重PCR检测的反应体系总体积是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪传染性萎缩性鼻炎的病原体有三种，分别是支气管败血波氏杆菌、产毒素多杀性巴氏杆菌和猪链球菌。",
+    "reference_case": "猪传染性萎缩性鼻炎的病原体有两种，分别是引起非进行性萎缩性鼻炎的支气管败血波氏杆菌（Bordetella bronchiseptica, Bb）和引起进行性萎缩性鼻炎的产毒素多杀性巴氏杆菌（Pasteurella multocida, Pm）。",
+    "error_detail": "错误地添加了不相关的病原体",
+    "original_question": "猪传染性萎缩性鼻炎的病原体有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪传染性萎缩性鼻炎的主要临床症状包括高烧、咳嗽和腹泻。",
+    "reference_case": "猪传染性萎缩性鼻炎的主要临床症状包括仔猪打喷嚏、流鼻涕、鼻孔流出少量浆液性或脓性分泌物，病猪表现不安、拱地、奔跑，鼻甲骨萎缩、鼻腔阻塞、呼吸急促，脸部明显变形，上颚、上颌骨变短，鼻背上皮肤出现深的皱褶，有的病猪嘴向一侧歪斜，生长发育缓慢。",
+    "error_detail": "错误地描述了临床症状",
+    "original_question": "猪传染性萎缩性鼻炎的主要临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过血液检查和尿液分析确认猪传染性萎缩性鼻炎。",
+    "reference_case": "通过细菌学检查和生化试验确认猪传染性萎缩性鼻炎。细菌学检查包括从鼻腔中采集黏液或分泌物进行细菌分离培养，培养44小时后分离支气管败血波氏杆菌。生化试验包括甲基红试验、V-P试验、过氧化氢酶和氧化酶试验等，确认分离菌为支气管败血波氏杆菌。",
+    "error_detail": "错误地改变了诊断方法",
+    "original_question": "如何通过实验室诊断确认猪传染性萎缩性鼻炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪传染性萎缩性鼻炎的治疗方法包括使用0:5%高锰酸钾溶液冲洗鼻腔。",
+    "reference_case": "猪传染性萎缩性鼻炎的治疗方法包括使用0:1%高锰酸钾溶液冲洗鼻腔，2:5%恩诺沙星注射液2～4 mL和地塞米松2～5 mg分别肌注，连用3～5天。病程稍长的可加卡那霉素100万单位和复方青霉素钾2 g。中药治疗包括辛夷、黄柏、半夏、知母等药材粉碎后分成2份，每日2份，连用7天。",
+    "error_detail": "错误地改变了溶液浓度",
+    "original_question": "猪传染性萎缩性鼻炎的治疗方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预防猪传染性萎缩性鼻炎的措施包括用0:5%强力消毒灵每周消毒1次。",
+    "reference_case": "预防猪传染性萎缩性鼻炎的措施包括对整个发病猪场进行全面清扫消毒，用0:1%强力消毒灵每周消毒2次。在母猪妊娠的最后一个月，饲料中添加土霉素400 g/t和磺胺嘧啶100 g/t。仔猪在出生3周内，每周注射磺胺嘧啶钠或强力霉素，连用3次。使用传染性萎缩性鼻炎油佐剂二联灭活菌苗进行免疫接种，妊娠母猪产前1月颈部皮下注射2 mL，仔猪于4周内和8周内各注射0:5 mL。",
+    "error_detail": "错误地改变了消毒频率和浓度",
+    "original_question": "如何预防猪传染性萎缩性鼻炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪传染性萎缩性鼻炎的病理变化包括心脏扩大和肺部水肿。",
+    "reference_case": "猪传染性萎缩性鼻炎的病理变化包括鼻甲骨卷曲变小而钝直或全部消失，鼻腔变成一个鼻道，鼻中隔扭曲、鼻黏膜充血、附有黏液性分泌物。肝肾表面有淤血斑；脾脏表面点状出血；心包膜纤维素性粘连，心包内有胶冻样液体，心质地坚实，切面见心肌增厚，心室变小；肺萎缩至正常的1/3大小，色灰暗且有肝变区。",
+    "error_detail": "错误地描述了病理变化",
+    "original_question": "猪传染性萎缩性鼻炎的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪传染性萎缩性鼻炎的传播途径为消化道感染。",
+    "reference_case": "猪传染性萎缩性鼻炎的传播途径为呼吸道感染，病菌在猪的鼻腔内繁殖，通过接触及飞沫传播。如果母猪带菌，仔猪出生时可被感染。",
+    "error_detail": "错误地改变了传播途径",
+    "original_question": "猪传染性萎缩性鼻炎的传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪传染性萎缩性鼻炎在迭部县的县城中心饲养的蕨麻猪中零星发生。",
+    "reference_case": "猪传染性萎缩性鼻炎在迭部县的多儿、阿夏、达拉和益哇等乡镇交通不便的深山藏寨饲养的蕨麻猪中零星发生。",
+    "error_detail": "错误地改变了发生地点",
+    "original_question": "猪传染性萎缩性鼻炎在迭部县的哪些乡镇有发生？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "支气管败血波氏杆菌为长杆菌，呈单极染色，革兰氏染色阳性。",
+    "reference_case": "支气管败血波氏杆菌为球杆菌，呈两极染色，革兰氏染色阴性，不产生芽孢，有的有荚膜，有周鞭毛，严格需氧。本菌的抵抗力不强，常规消毒药均能将其杀死。培养基中加入血液，可助其生长。在葡萄糖中性红琼脂平板上，菌落中等大小，呈透明烟灰色。肉汤培养物有腐霉味，鲜血琼脂上产生β型溶血。不发酵糖类，利用柠檬酸盐和分解尿素。",
+    "error_detail": "错误地描述了细菌的形态和染色特性",
+    "original_question": "猪传染性萎缩性鼻炎的病原体支气管败血波氏杆菌的生物学特性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "产毒素多杀性巴氏杆菌的分离培养基为巧克力琼脂培养基。",
+    "reference_case": "产毒素多杀性巴氏杆菌的分离培养基为马丁琼脂培养基或加有血清或血液的培养基。",
+    "error_detail": "错误地改变了培养基类型",
+    "original_question": "猪传染性萎缩性鼻炎的病原体产毒素多杀性巴氏杆菌的分离培养基是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "乌干达报告了猪流感疫情。",
+    "reference_case": "乌干达报告了非洲猪瘟疫情。",
+    "error_detail": "错误地改变了疫情类型",
+    "original_question": "乌干达在2012年11月报告了哪种动物疫情？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "蒙古国报告了非洲猪瘟疫情。",
+    "reference_case": "蒙古国报告了古典猪瘟疫情。",
+    "error_detail": "错误地改变了疫情类型",
+    "original_question": "蒙古国在2012年10月报告了哪种动物疫情？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒2型原位杂交检测方法的建立是由王雯、张勇、李宁等研究者完成的。",
+    "reference_case": "猪圆环病毒2型原位杂交检测方法的建立是由刘雯、李勇、张宁等研究者完成的。",
+    "error_detail": "错误地改变了研究者姓名",
+    "original_question": "猪圆环病毒2型原位杂交检测方法的建立是由哪些研究者完成的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在《中国兽医学报》2012年第32卷中，李小明、王晋国、张瑞梅等研究者发表了关于猪繁殖与呼吸综合征病毒PCR-DHPLC检测新技术的建立及应用的研究。",
+    "reference_case": "在《中国兽医学报》2012年第32卷中，秦晓冰、牛晋国、杨瑞梅等研究者发表了关于猪繁殖与呼吸综合征病毒PCR-DHPLC检测新技术的建立及应用的研究。",
+    "error_detail": "错误地改变了研究者姓名",
+    "original_question": "在《中国兽医学报》2012年第32卷中，哪篇文章研究了猪繁殖与呼吸综合征病毒PCR-DHPLC检测新技术的建立及应用？",
+    "original_input": ""
+  }
+]

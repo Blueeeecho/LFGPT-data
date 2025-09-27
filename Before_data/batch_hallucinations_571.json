@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪疥螨病的临床症状包括皮肤出现红色斑点，但不伴有瘙痒。",
+    "reference_case": "猪疥螨病的临床症状包括皮肤出现丘疹样皮炎和水泡，水泡破溃后有少量液体渗出，皮肤变黑，被毛脏乱，剧烈瘙痒，病灶可能出血、结瘀、感染化脓，后期皮肤增厚，形成皱褶或龟裂，被毛脱落，并脱白色麸皮样皮屑。",
+    "error_detail": "错误地描述了猪疥螨病的临床症状，忽略了瘙痒这一关键症状。",
+    "original_question": "猪疥螨病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "阿维菌素片治疗猪疥螨病的推荐剂量是每千克体重5至10毫克。",
+    "reference_case": "阿维菌素片治疗猪疥螨病的推荐剂量是每千克体重0:3至1:2毫克，间隔1周投喂2次。",
+    "error_detail": "错误地提供了过高的剂量推荐，可能导致药物过量。",
+    "original_question": "阿维菌素片治疗猪疥螨病的推荐剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "在1996年的案例中，猪疥螨病通过污染的饲料传播。",
+    "reference_case": "在1996年的案例中，猪疥螨病通过引进的4头严重感染的种公猪传播，这些种公猪与健康母猪交配后，导致母猪及其仔猪和其他接触过的猪感染。",
+    "error_detail": "错误地描述了传播途径，忽略了通过种公猪直接接触传播的事实。",
+    "original_question": "在1996年的案例中，猪疥螨病是如何在猪场中传播的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪疥螨病的主要传播途径是空气传播。",
+    "reference_case": "猪疥螨病的主要传播途径是接触感染。",
+    "error_detail": "错误地描述了传播途径，猪疥螨病主要通过直接接触传播。",
+    "original_question": "猪疥螨病的主要传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "结肠小袋纤毛虫病主要感染狗和猫。",
+    "reference_case": "结肠小袋纤毛虫病主要感染猪和人，有时也感染牛和羊。",
+    "error_detail": "错误地描述了感染对象，结肠小袋纤毛虫病主要感染猪和人。",
+    "original_question": "结肠小袋纤毛虫病主要感染哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪繁殖障碍症的主要临床特征包括食欲不振和体重下降。",
+    "reference_case": "母猪繁殖障碍症的主要临床特征包括流产、死胎、木乃伊和产弱仔。",
+    "error_detail": "错误地描述了临床特征，忽略了繁殖相关的关键症状。",
+    "original_question": "母猪繁殖障碍症的主要临床特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "免疫失败的主要原因是疫苗本身无效。",
+    "reference_case": "有些猪场即使进行了免疫接种，仍然会出现免疫失败的情况，原因是防疫注射的密度很低，漏防甚多，注射部位不准确，疫苗剂量忽多忽少，器械和术部不消毒，导致接种质量差。",
+    "error_detail": "错误地假设了免疫失败的原因，忽略了实际操作中的问题。",
+    "original_question": "为什么有些猪场即使进行了免疫接种，仍然会出现免疫失败的情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "提高预防接种质量的方法包括减少接种次数。",
+    "reference_case": "在母猪繁殖障碍症的防治中，提高预防接种质量的方法包括高密度、高质量坚持连续3～8年的预防接种，确保注射部位准确，疫苗剂量适当，器械和术部消毒。",
+    "error_detail": "错误地建议减少接种次数，与高质量接种的要求相矛盾。",
+    "original_question": "在母猪繁殖障碍症的防治中，如何提高预防接种的质量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "母猪繁殖障碍症的易发季节是冬季。",
+    "reference_case": "母猪繁殖障碍症的易发季节是7～9月份。",
+    "error_detail": "错误地描述了易发季节，母猪繁殖障碍症主要在夏季高发。",
+    "original_question": "母猪繁殖障碍症的易发季节是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "应纳入猪场整体免疫程序的疾病包括流感。",
+    "reference_case": "在母猪繁殖障碍症的防治中，应纳入猪场整体免疫程序的疾病包括乙型脑炎、细小病毒、伪狂犬病和布氏杆菌病。",
+    "error_detail": "错误地添加了不相关的疾病到免疫程序中。",
+    "original_question": "在母猪繁殖障碍症的防治中，哪些疾病应纳入猪场的整体免疫程序？",
+    "original_input": ""
+  }
+]

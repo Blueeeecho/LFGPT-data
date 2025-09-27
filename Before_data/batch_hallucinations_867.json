@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "通过Western-blot分析，观察到猪圆环病毒2型（PCV-2:Cap蛋白在酵母菌中表达后，形成了60 ku左右的同源二聚体。",
+    "reference_case": "通过Western-blot分析，观察到猪圆环病毒2型（PCV-2:Cap蛋白在酵母菌中表达后，形成了54 ku左右的同源二聚体。",
+    "error_detail": "错误地报告了蛋白质分子量的大小",
+    "original_question": "猪圆环病毒2型（PCV-2:Cap蛋白在酵母菌中表达后，通过Western-blot分析观察到了什么结果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在猪圆环病毒2型（PCV-2:Cap蛋白亚单位疫苗的研究中，酵母菌的表达条件设定为25~28°C的温度，pH值为6:8~7:4，并使用葡萄糖作为碳源。",
+    "reference_case": "在猪圆环病毒2型（PCV-2:Cap蛋白亚单位疫苗的研究中，酵母菌的表达条件设定为28~30°C的温度，pH值为6:8~7:4，并使用葡萄糖作为碳源。",
+    "error_detail": "错误地报告了酵母菌的表达温度条件",
+    "original_question": "在猪圆环病毒2型（PCV-2:Cap蛋白亚单位疫苗的研究中，酵母菌的表达条件是如何设定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪圆环病毒2型（PCV-2:Cap蛋白在酵母菌中表达后，通过PCR和Western-blot方法进行了分析鉴定。",
+    "reference_case": "猪圆环病毒2型（PCV-2:Cap蛋白在酵母菌中表达后，通过PCR、SDS PAGE和Western-blot方法进行了分析鉴定。",
+    "error_detail": "遗漏了SDS PAGE分析方法",
+    "original_question": "猪圆环病毒2型（PCV-2:Cap蛋白在酵母菌中表达后，通过哪些方法进行了分析鉴定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪圆环病毒2型（PCV-2:Cap蛋白亚单位疫苗的研究中，ORF2基因通过优化后被成功构建为大肠杆菌重组表达质粒pGAPZaA-ORF2。",
+    "reference_case": "在猪圆环病毒2型（PCV-2:Cap蛋白亚单位疫苗的研究中，ORF2基因通过优化后被成功构建为酵母重组表达质粒pGAPZaA-ORF2。",
+    "error_detail": "错误地报告了表达宿主",
+    "original_question": "在猪圆环病毒2型（PCV-2:Cap蛋白亚单位疫苗的研究中，ORF2基因是如何被优化的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "腹腔镜和开腹胚胎移植手术都会使猪的血清皮质醇水平升高，但腹腔镜组的影响较小且恢复迅速，术后1天即恢复到手术前水平；而开腹组术后血清皮质醇水平迅速升高，在4小时达到最高点后开始下降，直至第3天仍没有恢复到手术前的水平。",
+    "reference_case": "腹腔镜和开腹胚胎移植手术都会使猪的血清皮质醇水平升高，但腹腔镜组的影响较小且恢复迅速，术后3天即恢复到手术前水平；而开腹组术后血清皮质醇水平迅速升高，在4小时达到最高点后开始下降，直至第3天仍没有恢复到手术前的水平。",
+    "error_detail": "错误地报告了腹腔镜组恢复时间",
+    "original_question": "腹腔镜和开腹胚胎移植手术对猪血清皮质醇水平的影响有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "左旋咪唑和黄茂多糖都能加强鸡新城疫I系弱毒冻干苗诱导猪内源性干扰素产生的作用，其中左旋咪唑的效果优于黄茂多糖。左旋咪唑组（A组）刺激猪产生内源性干扰素的水平略高于黄茂多糖组（B组），且持续时间也更长。",
+    "reference_case": "左旋咪唑和黄茂多糖都能加强鸡新城疫I系弱毒冻干苗诱导猪内源性干扰素产生的作用，其中黄茂多糖的效果优于左旋咪唑。黄茂多糖组（B组）刺激猪产生内源性干扰素的水平略高于左旋咪唑组（A组），且持续时间也更长。",
+    "error_detail": "错误地报告了效果比较",
+    "original_question": "左旋咪唑和黄茂多糖在刺激猪产生内源性干扰素方面的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "新城疫病毒在兽医临床上的应用效果非常理想，能够高效刺激猪产生内源性干扰素。",
+    "reference_case": "新城疫病毒在兽医临床上的应用效果有时并不十分理想，可能与单用新城疫病毒刺激猪产生内源性干扰素的水平有待提高有关。",
+    "error_detail": "错误地添加了应用效果的假设",
+    "original_question": "新城疫病毒在兽医临床上的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "A组猪外周血IFN-α水平在免疫后24小时达到最高峰。",
+    "reference_case": "A组猪外周血IFN-α水平在免疫后12小时达到最高峰。",
+    "error_detail": "错误地报告了达到最高峰的时间",
+    "original_question": "在免疫后，A组猪外周血IFN-α水平何时达到最高峰？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在免疫后4小时至12小时期间，A组猪外周血IFN-α水平一直低于B组，但差异不显著（P>0:05:。",
+    "reference_case": "在免疫后4小时至12小时期间，A组猪外周血IFN-α水平一直高于B组，但差异不显著（P>0:05:。",
+    "error_detail": "错误地报告了水平比较",
+    "original_question": "在免疫后4小时至12小时期间，A组和B组猪外周血IFN-α水平的差异是否显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "B组猪外周血IFN-α水平在免疫后12小时达到最高峰后开始下降。",
+    "reference_case": "B组猪外周血IFN-α水平在免疫后16小时达到最高峰后开始下降。",
+    "error_detail": "错误地报告了达到最高峰的时间",
+    "original_question": "B组猪外周血IFN-α水平在免疫后何时开始下降？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "左旋咪唑和黄苠多糖均能够加强新城疫病毒刺激猪产生内源性干扰素的能力，但左旋咪唑组（A组）的效果略高于黄苠多糖组（B组），且持续时间更长。",
+    "reference_case": "左旋咪唑和黄苠多糖均能够加强新城疫病毒刺激猪产生内源性干扰素的能力，但黄苠多糖组（B组）的效果略高于左旋咪唑组（A组），且持续时间更长。",
+    "error_detail": "错误地报告了效果比较",
+    "original_question": "左旋咪唑和黄苠多糖对新城疫病毒刺激猪产生内源性干扰素的能力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在猪群中，猪胸膜肺炎放线杆菌（App）和副猪嗜血杆菌（Hps）之间的混合感染非常罕见。",
+    "reference_case": "在猪群中，猪胸膜肺炎放线杆菌（App）和副猪嗜血杆菌（Hps）之间的混合感染十分普遍。",
+    "error_detail": "错误地添加了混合感染情况的假设",
+    "original_question": "猪胸膜肺炎放线杆菌（App）和副猪嗜血杆菌（Hps）在猪群中的混合感染情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "河湾子2号菌株的血清型是O157。",
+    "reference_case": "河湾子2号菌株的血清型是O8。",
+    "error_detail": "错误地报告了血清型",
+    "original_question": "吉林地区仔猪水肿病病原菌的分离实验中，河湾子2号菌株的血清型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "分离菌在麦康凯琼脂培养基上形成蓝色、中等大小的菌落。",
+    "reference_case": "分离菌在麦康凯琼脂培养基上形成红色、中等大小的菌落。",
+    "error_detail": "错误地报告了菌落颜色",
+    "original_question": "吉林地区仔猪水肿病病原菌的分离实验中，分离菌在麦康凯琼脂培养基上的菌落特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在吉林地区仔猪水肿病病原菌的分离实验中，从30头仔猪病料中分离出了8株病原菌。",
+    "reference_case": "在吉林地区仔猪水肿病病原菌的分离实验中，从21头仔猪病料中分离出了8株病原菌。",
+    "error_detail": "错误地报告了仔猪病料数量",
+    "original_question": "在吉林地区仔猪水肿病病原菌的分离实验中，从多少头仔猪病料中分离出了病原菌？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "反转录反应条件为50°C 30分钟，85°C 5分钟。PCR反应条件为94°C 5分钟；94°C 30秒，55°C 45秒，72°C 45秒，共35个循环；72°C 7分钟；4°C终止反应。",
+    "reference_case": "反转录反应条件为42°C 30分钟，85°C 5分钟。PCR反应条件为94°C 5分钟；94°C 30秒，50°C 45秒，72°C 45秒，共35个循环；72°C 7分钟；4°C终止反应。",
+    "error_detail": "错误地报告了反应温度",
+    "original_question": "猪捷申病毒（PTV）的RT-PCR检测反应条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "反应体系（25 μL）包括：DNA 2 μL，P1 1 μL，P3 1 μL，2× EasyTaq PCR Super Mix 12:5 μL，ddH2O 8:5 μL。",
+    "reference_case": "反应体系（25 μL）包括：DNA 1 μL，P1 1 μL，P3 1 μL，2× EasyTaq PCR Super Mix 12:5 μL，ddH2O 9:5 μL。",
+    "error_detail": "错误地报告了反应体系成分的体积",
+    "original_question": "猪圆环病毒2型（PCV-2:的PCR检测反应体系包括哪些成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "哺乳仔猪病变不明显，剖检可见脑膜和脑血管充血，心肌萎缩，肺脏表面可以看到一些粉红色的小结节，肾脏可见针尖状的出血点。断奶仔猪剖检可见间质性肺炎，脾脏表面有出血点，肾炎，淋巴组织退化，肠黏膜充血和出血。",
+    "reference_case": "哺乳仔猪病变不明显，剖检可见脑膜和脑血管充血，心肌萎缩，肺脏表面可以看到一些粉红色的小结节，肾脏可见针尖状的出血点，肝脏、脾脏和淋巴结没有明显变化。断奶仔猪剖检可见间质性肺炎，脾脏表面有出血点，肾炎，淋巴组织退化，肠黏膜充血和出血。",
+    "error_detail": "遗漏了肝脏、脾脏和淋巴结的描述",
+    "original_question": "猪圆环病毒2型（PCV-2:和猪捷申病毒（PTV）混合感染的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "目前，国内关于猪捷申病毒的报道较多，且两种病毒混合感染的报道在国内已有发表。",
+    "reference_case": "目前，国内关于猪捷申病毒的报道较少，且两种病毒混合感染的报道在国内尚未见发表。",
+    "error_detail": "错误地添加了报道情况的假设",
+    "original_question": "猪圆环病毒2型（PCV-2:和猪捷申病毒（PTV）混合感染在国内是否有报道？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "PCR产物经测序，在GenBank上进行序列比对，表明所扩增部分仅为PCV-2。",
+    "reference_case": "PCR产物经测序，在GenBank上进行序列比对，表明所扩增部分为PCV-2和PTV。",
+    "error_detail": "遗漏了PTV的检测结果",
+    "original_question": "猪圆环病毒2型（PCV-2:和猪捷申病毒（PTV）混合感染的序列测定结果如何？",
+    "original_input": ""
+  }
+]

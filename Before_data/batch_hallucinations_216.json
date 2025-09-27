@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的基因组结构包括纤突糖蛋白（S）、次要嵌膜蛋白（sM）、主要嵌膜蛋白（M）和核衣壳蛋白（N）四种主要结构蛋白，以及一种非结构蛋白（NS）。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的基因组结构包括纤突糖蛋白（S）、次要嵌膜蛋白（sM）、主要嵌膜蛋白（M）和核衣壳蛋白（N）四种主要结构蛋白。",
+    "error_detail": "添加了不存在的非结构蛋白（NS）作为主要蛋白。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的基因组结构包括哪些主要蛋白？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪圆环病毒2型（PCV2）衣壳蛋白具有自我组装能力，体外表达的该蛋白能组装为20~25 nm的病毒样颗粒（VLP），具有与天然病毒颗粒相似的免疫原性。",
+    "reference_case": "猪圆环病毒2型（PCV2）衣壳蛋白具有自我组装能力，体外表达的该蛋白能组装为14~17 nm的病毒样颗粒（VLP），具有与天然病毒颗粒相似的免疫原性。",
+    "error_detail": "错误地描述了病毒样颗粒的大小范围。",
+    "original_question": "猪圆环病毒2型（PCV2）衣壳蛋白的自我组装能力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "口蹄疫病毒的中和表位是通过将FMDV O/Mya-98/2010毒株的G-H环替换猪圆环病毒3型（PCV3）衣壳蛋白的自身中和表位，构建嵌合衣壳蛋白CaO，从而展示在VLP表面。",
+    "reference_case": "口蹄疫病毒的中和表位是通过将FMDV O/Mya-98/2010毒株的G-H环替换猪圆环病毒2型（PCV2）衣壳蛋白的自身中和表位，构建嵌合衣壳蛋白CaO，从而展示在VLP表面。",
+    "error_detail": "错误地将猪圆环病毒2型（PCV2）替换为猪圆环病毒3型（PCV3）。",
+    "original_question": "口蹄疫病毒（FMDV）的中和表位是如何展示在病毒样颗粒（VLP）表面的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "多杀性巴氏杆菌可以引起的动物疾病包括禽霍乱、牛出血性败血症、猪肺疫、猪萎缩性鼻炎和兔出血性败血症等。在人类中，它可以引起皮下感染、脓毒性关节炎、脑膜炎、心内膜炎、腹膜炎、肺炎和败血症等，以及糖尿病。",
+    "reference_case": "多杀性巴氏杆菌可以引起的动物疾病包括禽霍乱、牛出血性败血症、猪肺疫、猪萎缩性鼻炎和兔出血性败血症等。在人类中，它可以引起皮下感染、脓毒性关节炎、脑膜炎、心内膜炎、腹膜炎、肺炎和败血症等。",
+    "error_detail": "错误地添加了糖尿病作为多杀性巴氏杆菌引起的人类疾病。",
+    "original_question": "多杀性巴氏杆菌可以引起哪些动物和人类的疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在猪乳糖酶基因的研究中，使用了小鼠克隆结肠腺癌细胞（Caco-2）进行转染实验。",
+    "reference_case": "在猪乳糖酶基因的研究中，使用了人克隆结肠腺癌细胞（Caco-2）进行转染实验。",
+    "error_detail": "错误地将人克隆结肠腺癌细胞（Caco-2）描述为小鼠克隆结肠腺癌细胞。",
+    "original_question": "在猪乳糖酶基因的研究中，使用了哪种细胞系进行转染实验？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "A型增强子+GA型启动子的组合对基因表达的促进作用最强，其次是A/G型增强子+CG型启动子，最后是G型增强子+GA型启动子，以及B型增强子+GG型启动子。",
+    "reference_case": "A型增强子+GA型启动子的组合对基因表达的促进作用最强，其次是A/G型增强子+CG型启动子，最后是G型增强子+GA型启动子。",
+    "error_detail": "错误地添加了不存在的B型增强子+GG型启动子组合。",
+    "original_question": "猪LCT基因的增强子和启动子多态性位点组合形成的单倍型中，哪种组合对基因表达的促进作用最强？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪乳糖酶基因的增强子区存在CE2a（-894~-875 bp）、CE2b（-833~-814 bp）及nt20（-880~-875 bp）三个顺式作用元件，以及nt30（-890~-885 bp）。",
+    "reference_case": "猪乳糖酶基因的增强子区存在CE2a（-894~-875 bp）、CE2b（-833~-814 bp）及nt20（-880~-875 bp）三个顺式作用元件。",
+    "error_detail": "错误地添加了不存在的nt30（-890~-885 bp）顺式作用元件。",
+    "original_question": "猪乳糖酶基因的增强子区存在哪些顺式作用元件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在猪乳糖酶基因的研究中，采用现代的硅胶柱提取法提取基因组DNA。",
+    "reference_case": "在猪乳糖酶基因的研究中，采用传统的苯酚-氯仿抽提法提取基因组DNA。",
+    "error_detail": "错误地将传统的苯酚-氯仿抽提法描述为现代的硅胶柱提取法。",
+    "original_question": "在猪乳糖酶基因的研究中，如何提取基因组DNA？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪乳糖酶基因的启动子区存在第-308位为G或C的碱基多态性，以及第-301位为A或G的碱基多态性，以及第-305位为T或A的碱基多态性。",
+    "reference_case": "猪乳糖酶基因的启动子区存在第-308位为G或C的碱基多态性，以及第-301位为A或G的碱基多态性。",
+    "error_detail": "错误地添加了不存在的第-305位为T或A的碱基多态性。",
+    "original_question": "猪乳糖酶基因的启动子区存在哪些碱基多态性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪乳糖酶基因的增强子区多态性可能导致LCT表达过高，从而引起乳糖不耐受性腹泻。",
+    "reference_case": "猪乳糖酶基因的增强子区多态性可能导致LCT表达过低，从而引起乳糖不耐受性腹泻。",
+    "error_detail": "错误地将LCT表达过低描述为LCT表达过高。",
+    "original_question": "猪乳糖酶基因的增强子区多态性与乳糖不耐受性腹泻有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在猪 skMLCK 基因的真核表达载体构建中，使用了 BamH I 和 EcoR I 两个酶切位点。",
+    "reference_case": "在猪 skMLCK 基因的真核表达载体构建中，使用了 Nhe I 和 Hind III 两个酶切位点。",
+    "error_detail": "错误地将Nhe I和Hind III酶切位点描述为BamH I和EcoR I。",
+    "original_question": "猪 skMLCK 基因的真核表达载体构建中使用了哪些酶切位点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 skMLCK 基因的 cDNA 序列与人的同源性为 95%，与小鼠的同源性为 90%。",
+    "reference_case": "猪 skMLCK 基因的 cDNA 序列与人的同源性为 89%，与小鼠的同源性为 83%。",
+    "error_detail": "错误地提高了与人和小鼠的同源性百分比。",
+    "original_question": "猪 skMLCK 基因的 cDNA 序列与人和小鼠的同源性分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 skMLCK 基因的 cDNA 序列与 GenBank 上的预测序列的同源性为 95%。",
+    "reference_case": "猪 skMLCK 基因的 cDNA 序列与 GenBank 上的预测序列的同源性为 99%。",
+    "error_detail": "错误地降低了与GenBank上的预测序列的同源性百分比。",
+    "original_question": "猪 skMLCK 基因的 cDNA 序列与 GenBank 上的预测序列的同源性是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪 skMLCK 基因的真核表达载体构建中使用的重组质粒是 pEGFP-C1-skMLCK。",
+    "reference_case": "猪 skMLCK 基因的真核表达载体构建中使用的重组质粒是 pEGFP-N1-skMLCK。",
+    "error_detail": "错误地将pEGFP-N1-skMLCK描述为pEGFP-C1-skMLCK。",
+    "original_question": "猪 skMLCK 基因的真核表达载体构建中使用的重组质粒是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪 skMLCK 基因的真核表达载体是通过一步RT-PCR扩增，克隆、测序、合成，最终构建成重组质粒 pEGFP-N1-skMLCK。",
+    "reference_case": "猪 skMLCK 基因的真核表达载体是通过分段进行 RT-PCR 扩增，克隆、测序、拼接、合成，最终构建成重组质粒 pEGFP-N1-skMLCK。",
+    "error_detail": "错误地将分段进行RT-PCR扩增描述为一步RT-PCR扩增。",
+    "original_question": "猪 skMLCK 基因的真核表达载体是如何构建的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪 skMLCK 基因编码的骨骼肌肌球蛋白轻链激酶通过去磷酸化肌球蛋白轻链，激活肌球蛋白 ATP 酶，进而引起肌肉的舒缩，可能在骨骼肌的生长发育中起重要作用。",
+    "reference_case": "猪 skMLCK 基因编码的骨骼肌肌球蛋白轻链激酶通过磷酸化肌球蛋白轻链，激活肌球蛋白 ATP 酶，进而引起肌肉的舒缩，可能在骨骼肌的生长发育中起重要作用。",
+    "error_detail": "错误地将磷酸化肌球蛋白轻链描述为去磷酸化肌球蛋白轻链。",
+    "original_question": "猪 skMLCK 基因在骨骼肌发育中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪 skMLCK 基因的 cDNA 序列是通过一步RT-PCR技术扩增，克隆、测序后获得的。",
+    "reference_case": "猪 skMLCK 基因的 cDNA 序列是通过 RT-PCR 技术分两段扩增，克隆、测序、拼接后获得的。",
+    "error_detail": "错误地将分两段扩增描述为一步扩增。",
+    "original_question": "猪 skMLCK 基因的 cDNA 序列是如何获得的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 skMLCK 基因的全长 cDNA 序列长度为 2000 bp。",
+    "reference_case": "猪 skMLCK 基因的全长 cDNA 序列长度为 1851 bp。",
+    "error_detail": "错误地描述了全长cDNA序列的长度。",
+    "original_question": "猪 skMLCK 基因的全长 cDNA 序列长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪 skMLCK 基因的 cDNA 序列拼接后，保留了终止密码子，并在起始密码子前添加了 BamH I 酶切位点，在序列末端添加了 EcoR I 酶切位点，然后送公司合成。",
+    "reference_case": "猪 skMLCK 基因的 cDNA 序列拼接后，去除了终止密码子，并在起始密码子前添加了 Nhe I 酶切位点，在序列末端添加了 Hind III 酶切位点，然后送公司合成。",
+    "error_detail": "错误地描述了cDNA序列拼接后的处理方式。",
+    "original_question": "猪 skMLCK 基因的 cDNA 序列拼接后是如何合成的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪 skMLCK 基因的 cDNA 序列拼接后与 GenBank 上的预测猪 skMLCK 基因 cDNA 序列、人 skMLCK 基因 cDNA 序列和小鼠 skMLCK 基因 cDNA 序列以及大鼠 skMLCK 基因 cDNA 序列进行了同源性比较。",
+    "reference_case": "猪 skMLCK 基因的 cDNA 序列拼接后与 GenBank 上的预测猪 skMLCK 基因 cDNA 序列、人 skMLCK 基因 cDNA 序列和小鼠 skMLCK 基因 cDNA 序列进行了同源性比较。",
+    "error_detail": "错误地添加了大鼠 skMLCK 基因 cDNA 序列作为同源性比较的对象。",
+    "original_question": "猪 skMLCK 基因的 cDNA 序列拼接后与哪些物种的序列进行了同源性比较？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,889 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "双重PCR方法检测马链球菌兽疫亚种的敏感度是200 CFU，检测猪链球菌的敏感度是20 CFU。",
+    "reference_case": "双重PCR方法检测马链球菌兽疫亚种的敏感度是100 CFU，检测猪链球菌的敏感度是10 CFU。",
+    "error_detail": "敏感度数值错误",
+    "original_question": "双重PCR方法检测马链球菌兽疫亚种和猪链球菌的敏感度分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌至少有20个血清型，分为高、中、低三种毒力类型。",
+    "reference_case": "副猪嗜血杆菌至少有15个血清型，分为高、中、低三种毒力类型。",
+    "error_detail": "血清型数量错误",
+    "original_question": "副猪嗜血杆菌的血清型有多少种，它们如何分类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "EG集落的AKP染色呈阴性，阳性细胞呈现蓝色，而饲养层细胞和分化细胞着色。",
+    "reference_case": "EG集落的AKP染色呈阳性，阳性细胞呈现红（褐）色，而饲养层细胞和分化细胞不着色。",
+    "error_detail": "错误地描述了AKP染色的结果和颜色。",
+    "original_question": "在猪类肧胎生殖细胞（EG）培养的研究中，EG集落的AKP染色结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在F6代中，aa基因型个体在6月龄体重及8月龄体高上显著高于AA基因型个体。",
+    "reference_case": "在F6代中，aa基因型个体在4月龄体重及6月龄体高上显著高于AA基因型个体（P<0:01和P<0:05:。",
+    "error_detail": "错误地描述了生长性状的月龄。",
+    "original_question": "大河乌猪F6代中，aa基因型个体在哪些生长性状上显著高于AA基因型个体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在F5代中，Aa基因型个体在断奶重及日增重上显著高于AA基因型个体。",
+    "reference_case": "在F5代中，Aa基因型个体在初生重及背膘厚上显著高于AA基因型个体（P<0:05:。",
+    "error_detail": "错误地描述了生长性状的类型。",
+    "original_question": "大河乌猪F5代中，Aa基因型个体在哪些生长性状上显著高于AA基因型个体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大河乌猪PLTP基因内含子4的多态性位点包括1085、1192、1286、1305和1400 bp。",
+    "reference_case": "大河乌猪PLTP基因内含子4的多态性位点包括1085、1192、1286和1305 bp。",
+    "error_detail": "错误地添加了一个不存在的多态性位点。",
+    "original_question": "大河乌猪PLTP基因内含子4的多态性位点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "G2:1亚型包括我国的JS-2004-2株和泰国的M-NIAH100541和KU06RB株，以及美国的US-2013株。",
+    "reference_case": "G2:1亚型包括我国的JS-2004-2株和泰国的M-NIAH100541和KU06RB株。",
+    "error_detail": "添加了不存在的美国毒株",
+    "original_question": "猪流行性腹泻病毒（PEDV）的M基因的进化树分析中，G2:1亚型包括哪些毒株？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "G1:4亚型包括我国的CH/S株和2006年分离的PEDV流行毒株，以及2008年分离的另一株。",
+    "reference_case": "G1:4亚型包括我国的CH/S株和2006年分离的PEDV流行毒株。",
+    "error_detail": "错误地添加了不存在的2008年毒株",
+    "original_question": "在猪流行性腹泻病毒（PEDV）的M基因的进化树分析中，G1:4亚型包括哪些毒株？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "6株流行毒株之间的同源性为95%到100%。",
+    "reference_case": "6株流行毒株之间的同源性为98:2%到100%。",
+    "error_detail": "错误地降低了同源性的最低值",
+    "original_question": "在猪流行性腹泻病毒（PEDV）的M基因同源性分析中，6株流行毒株之间的同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同动物来源的血清（牛血清、马血清和猪血清）对副猪嗜血杆菌的生长影响有显著性差异，且较高浓度的血清（100 mL/L）对菌株的生长有较好的促进作用。",
+    "reference_case": "不同动物来源的血清（牛血清、马血清和猪血清）对副猪嗜血杆菌的生长影响无显著性差异，且较高浓度的血清（50 mL/L）对菌株的生长有较好的促进作用。",
+    "error_detail": "错误地声称有显著性差异并改变了血清浓度",
+    "original_question": "副猪嗜血杆菌对不同动物来源的血清反应如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌的分离株在培养基中添加NAD的最佳浓度为50 mg/L，这一浓度能够满足其生长需求。",
+    "reference_case": "副猪嗜血杆菌的分离株在培养基中添加NAD的最佳浓度为27:5 mg/L，这一浓度能够满足其生长需求。",
+    "error_detail": "错误地提高了NAD的最佳浓度",
+    "original_question": "副猪嗜血杆菌的分离株在培养基中添加NAD的最佳浓度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在中国南部地区，副猪嗜血杆菌的主要流行血清型是5型和4型，分别占30%和20%。此外，血清2型、15型、13型和12型也占一定比例。",
+    "reference_case": "在中国南部地区，副猪嗜血杆菌的主要流行血清型是5型和4型，分别占23%和17%。此外，血清2型、15型、13型和12型也占一定比例。",
+    "error_detail": "错误地提高了血清型的比例",
+    "original_question": "副猪嗜血杆菌的血清型分布在中国南部地区的主要流行类型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌对豚鼠具有较强的致病性。在致病性试验中，高剂量接种的豚鼠在攻毒后第一天死亡5只，第二天死亡3只，死亡的豚鼠肝脏中能够分离到副猪嗜血杆菌。",
+    "reference_case": "副猪嗜血杆菌对豚鼠具有较强的致病性。在致病性试验中，高剂量接种的豚鼠在攻毒后第一天死亡2只，第二天死亡1只，死亡的豚鼠肝脏中能够分离到副猪嗜血杆菌。",
+    "error_detail": "错误地增加了死亡豚鼠的数量",
+    "original_question": "副猪嗜血杆菌对豚鼠的致病性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "遗传进化树分析显示，福建省猪瘟野毒分离株FJ-1的E2基因与其他毒株差异较小，处于同一主干的同一分支。",
+    "reference_case": "遗传进化树分析显示，福建省猪瘟野毒分离株FJ-1的E2基因与其他毒株差异较大，处于同一主干的另一分支，表明国内CSFV毒株之间在进化上存在相关性。",
+    "error_detail": "错误地描述了FJ-1的E2基因与其他毒株的差异程度和分支位置。",
+    "original_question": "福建省猪瘟野毒分离株FJ-1的E2基因的遗传进化树分析结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪瘟病毒的基因组是一个有囊膜的DNA病毒，长度约为15 kb。",
+    "reference_case": "猪瘟病毒的基因组是一个有囊膜的RNA病毒，长度约为12:3 kb，包含一个大的开放阅读框（ORF），从5'端到3'端依次翻译成衣壳蛋白C和囊膜糖蛋白E2、E1、E3等4种结构蛋白，以及4种非结构蛋白。",
+    "error_detail": "错误地描述了猪瘟病毒的基因组类型和长度。",
+    "original_question": "猪瘟病毒（CSFV）的基因组结构是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "福建省猪瘟野毒分离株FJ-1的E2基因与中国C株、HCLV株、Shimen株、Alfort187株、Alfort A19株、Breseia株的标准参考株的同源性分别为80%、81%、82%、83%、84%、85%。",
+    "reference_case": "福建省猪瘟野毒分离株FJ-1的E2基因与中国C株、HCLV株、Shimen株、Alfort187株、Alfort A19株、Breseia株的标准参考株的同源性分别为94:2%、94:4%、91:5%、92:3%、92:3%、90:7%。",
+    "error_detail": "错误地提供了FJ-1的E2基因与标准参考株的同源性数据。",
+    "original_question": "福建省猪瘟野毒分离株FJ-1的E2基因与标准参考毒株的同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "福建省猪瘟野毒分离株FJ-1的E2基因与国内分离株GZ2009、Guangxi、Jiangxi、GXBH的同源性分别为70%、71%、72%、73%。",
+    "reference_case": "福建省猪瘟野毒分离株FJ-1的E2基因与国内分离株GZ2009、Guangxi、Jiangxi、GXBH的同源性分别为91:8%、93:1%、81%、98:1%。",
+    "error_detail": "错误地提供了FJ-1的E2基因与国内其他分离株的同源性数据。",
+    "original_question": "福建省猪瘟野毒分离株FJ-1的E2基因与国内其他分离株的同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "福建省猪瘟野毒分离株FJ-1的E2基因与C株的E2基因在氨基酸序列上没有差异。",
+    "reference_case": "福建省猪瘟野毒分离株FJ-1的E2基因与C株的E2基因在A抗原区有21个氨基酸发生了变异，C抗原区有6个氨基酸发生了变异，D抗原区有2个氨基酸发生了变异。",
+    "error_detail": "错误地否认了FJ-1的E2基因与C株的E2基因在氨基酸序列上的差异。",
+    "original_question": "福建省猪瘟野毒分离株FJ-1的E2基因与C株的E2基因在氨基酸序列上有哪些差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪肺炎支原体感染后，IL-2、TNF-β和IL-8等细胞炎性因子的表达会增加。",
+    "reference_case": "猪肺炎支原体感染后，IL-1β、TNF-α和IL-6等细胞炎性因子的表达会增加。",
+    "error_detail": "错误地列出了不同的细胞炎性因子。",
+    "original_question": "猪肺炎支原体感染后，哪些细胞炎性因子的表达会增加？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪肺炎支原体232型基因组的大小为1000000 bp，GC平均含量为50%。",
+    "reference_case": "猪肺炎支原体232型基因组的大小为892758 bp，GC平均含量为28:6%。",
+    "error_detail": "错误地提供了猪肺炎支原体232型基因组的大小和GC含量数据。",
+    "original_question": "猪肺炎支原体的基因组大小和GC含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "接种PCV-2疫苗的公猪精液带毒率显著降低。",
+    "reference_case": "接种PCV-2疫苗的公猪精液带毒率并未显著降低。然而，试验研究已经表明接种疫苗有助于降低精液的带毒比率。由于精液采集站和母猪繁育场同样具有PCV-2传播风险，因此，推荐在进入精液采集场之前接种疫苗或加强公猪的免疫反应性。",
+    "error_detail": "错误地声称接种PCV-2疫苗的公猪精液带毒率显著降低，而实际上并未显著降低。",
+    "original_question": "PCV-2疫苗对公猪精液带毒率的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "感染PCV-2的公猪性腺和副性腺中病毒DNA的检测量差异显著。",
+    "reference_case": "感染PCV-2的公猪性腺和副性腺含有病毒DNA或抗原。通过免疫组织化学（IHC）和原位杂交技术（ISH）均能检测到PCV-2抗原和DNA。实时定量PCR检测到试验感染公猪的睪丸、尿道球腺、附睪、前列腺和精囊含有PCV-2 DNA，阳性检测量基本相同。",
+    "error_detail": "错误地声称病毒DNA的检测量差异显著，而实际上阳性检测量基本相同。",
+    "original_question": "PCV-2感染公猪的性腺组织中病毒DNA的检测情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在接种PCV-2后5天到10天，公猪精液中的病毒DNA含量达到最高。",
+    "reference_case": "在接种PCV-2后9天到20天，公猪精液中的病毒DNA含量达到最高，为10^5:1到10^6:0基因拷贝/mL。",
+    "error_detail": "错误地缩短了病毒DNA含量达到最高的时间范围。",
+    "original_question": "PCV-2感染公猪后，其精液中的病毒DNA含量何时达到最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "空肠弯曲杆菌对青霉素表现出较高的耐药性。",
+    "reference_case": "空肠弯曲杆菌对红霉素、四环素和萘啶酸表现出较高的耐药性，其中对红霉素的耐药率最高，鸡源和猪源空肠弯曲杆菌对红霉素的耐药率分别达到100%和90%以上。",
+    "error_detail": "错误地添加了青霉素作为空肠弯曲杆菌的高耐药性抗生素，而实际上并未提及。",
+    "original_question": "空肠弯曲杆菌对哪些抗生素表现出较高的耐药性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪细小病毒首次在中国分离是在1990年。",
+    "reference_case": "猪细小病毒首次在中国分离是在1982年。",
+    "error_detail": "错误地推迟了猪细小病毒在中国首次分离的年份。",
+    "original_question": "猪细小病毒首次在中国分离是在哪一年？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在楚雄州猪细小病毒感染的血清学调查中，共采集了150份血清样本。",
+    "reference_case": "在楚雄州猪细小病毒感染的血清学调查中，共采集了276份血清样本。",
+    "error_detail": "错误地减少了血清样本的数量。",
+    "original_question": "楚雄州猪细小病毒感染的血清学调查中，采集了多少份血清样本？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "免疫效果较好的乡镇的防疫人员中大中专学历的人数显著多于较差的乡镇。",
+    "reference_case": "免疫效果较好的乡镇的防疫人员中大中专学历的人数多于较差的乡镇，但差异不显著。",
+    "error_detail": "错误地夸大了学历差异的显著性。",
+    "original_question": "田东县2010年至2012年猪瘟、口蹄疫和高致病性禽流感的抗体检测中，免疫效果较好的乡镇和较差的乡镇在防疫人员的学历上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "免疫效果较好的乡镇的二次免疫率为90%，而较差的乡镇为60%。",
+    "reference_case": "免疫效果较好的乡镇的二次免疫率为82:98%，而较差的乡镇为53:85%，差异极显著。",
+    "error_detail": "错误地简化了二次免疫率的数据，忽略了原始数据中的范围和差异显著性。",
+    "original_question": "田东县2010年至2012年猪瘟、口蹄疫和高致病性禽流感的抗体检测中，免疫效果较好的乡镇和较差的乡镇在二次免疫率上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "免疫效果较好的乡镇的人均服务动物数量显著多于较差的乡镇。",
+    "reference_case": "免疫效果较好的乡镇的人均服务动物数量稍多于较差的乡镇，但差异不显著。",
+    "error_detail": "错误地夸大了人均服务动物数量差异的显著性。",
+    "original_question": "田东县2010年至2012年猪瘟、口蹄疫和高致病性禽流感的抗体检测中，免疫效果较好的乡镇和较差的乡镇在人均服务动物数量上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "免疫效果较好的乡镇的人均服务面积为6:7 km²，而较差的乡镇为12:57 km²，差异显著。",
+    "reference_case": "免疫效果较好的乡镇的人均服务面积为6:7 km²，而较差的乡镇为12:57 km²，差异显著。",
+    "error_detail": "数值比例错误",
+    "original_question": "田东县2010年至2012年猪瘟、口蹄疫和高致病性禽流感的抗体检测中，免疫效果较好的乡镇和较差的乡镇在人均服务面积上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在1507名回答者中，90:7%的人认为中国应该制定动物福利法律，9:3%的人认为不应该。",
+    "reference_case": "在1507名回答者中，87:7%的人认为中国应该制定动物福利法律，12:3%的人认为不应该。",
+    "error_detail": "数值比例错误",
+    "original_question": "养殖企业从业人员对动物福利立法的态度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在1476名回答者中，40:5%的人完全赞同为动物福利立法，强迫生产者为猪鸡等提供良好的生长和生存条件，40:0%的人比较赞同，10:5%的人不太赞同，5:3%的人完全不赞同，4:7%的人没有考虑过。",
+    "reference_case": "在1476名回答者中，34:5%的人完全赞同为动物福利立法，强迫生产者为猪鸡等提供良好的生长和生存条件，42:0%的人比较赞同，12:5%的人不太赞同，3:3%的人完全不赞同，7:7%的人没有考虑过。",
+    "error_detail": "数值比例错误",
+    "original_question": "养殖企业从业人员对动物福利立法的具体态度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在1504名回答者中，35:3%的人认为工厂化养殖是“一种很好的生产方式”，40:1%的人认为是“一种科学的生产方式”，20:8%的人认为“限制了猪鸡的自由”，4:9%的人认为是“一种对猪鸡残忍的生产方式”。",
+    "reference_case": "在1504名回答者中，31:3%的人认为工厂化养殖是“一种很好的生产方式”，46:1%的人认为是“一种科学的生产方式”，16:8%的人认为“限制了猪鸡的自由”，5:9%的人认为是“一种对猪鸡残忍的生产方式”。",
+    "error_detail": "数值比例错误",
+    "original_question": "养殖企业从业人员对工厂化养殖的整体评价如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在1520名回答者中，80:2%的人完全赞同为猪、鸡提供足够的干净卫生的食物和饮水，15:0%的人比较赞同，合计高达95:2%。在1490名回答者中，70:4%的人完全赞同为猪、鸡提供适当的空间，20:8%的人比较赞同，合计高达91:2%。",
+    "reference_case": "在1520名回答者中，77:2%的人完全赞同为猪、鸡提供足够的干净卫生的食物和饮水，19:0%的人比较赞同，合计高达96:2%。在1490名回答者中，67:4%的人完全赞同为猪、鸡提供适当的空间，24:8%的人比较赞同，合计高达92:2%。",
+    "error_detail": "数值比例错误",
+    "original_question": "养殖企业从业人员对动物福利的生理福利和环境福利的认知如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在1502名回答者中，45:4%的人认为使用水泥地面养猪没什么不合适，40:0%的人认为不太合适，8:0%的人认为很不合适，6:5%的人选择无所谓。在1495名回答者中，20:7%的人认为在鸡笼附近杀鸡没什么不合适，40:0%的人认为不太合适，25:8%的人认为很不合适，13:4%的人选择无所谓。",
+    "reference_case": "在1502名回答者中，39:4%的人认为使用水泥地面养猪没什么不合适，42:0%的人认为不太合适，10:0%的人认为很不合适，8:5%的人选择无所谓。在1495名回答者中，18:7%的人认为在鸡笼附近杀鸡没什么不合适，45:0%的人认为不太合适，29:8%的人认为很不合适，6:4%的人选择无所谓。",
+    "error_detail": "数值比例错误",
+    "original_question": "养殖企业从业人员对动物福利的行为福利和心理福利的认知如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "根据1525份有效问卷的调查，80:4%的从业人员听说过动物福利，80:5%的从业人员赞成就动物福利立法，强迫生产者为猪鸡提供良好的生长和生存条件。从业人员普遍认同动物的生理福利和环境福利，但对行为福利等认知不足。",
+    "reference_case": "根据1525份有效问卷的调查，75:4%的从业人员听说过动物福利，76:5%的从业人员赞成就动物福利立法，强迫生产者为猪鸡提供良好的生长和生存条件。从业人员普遍认同动物的生理福利和环境福利，但对行为福利等认知不足。",
+    "error_detail": "数值比例错误",
+    "original_question": "中国畜牧行业从业人员对动物福利的基本认知情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中草药饲料添加剂在试验开始后80天时显著提高了生长猪血清中白蛋白的浓度（P<0:05:。",
+    "reference_case": "中草药饲料添加剂在试验开始后78天时显著提高了生长猪血清中白蛋白的浓度（P<0:05:。",
+    "error_detail": "数值错误",
+    "original_question": "中草药饲料添加剂对生长猪血清中白蛋白浓度的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中草药饲料添加剂在试验开始后40天时显著提高了生长猪血清中总蛋白的浓度（P<0:05:，但在其他时间点差异不显著。",
+    "reference_case": "中草药饲料添加剂在试验开始后35天时显著提高了生长猪血清中总蛋白的浓度（P<0:05:，但在其他时间点差异不显著。",
+    "error_detail": "数值错误",
+    "original_question": "中草药饲料添加剂对生长猪血清中总蛋白浓度的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中草药饲料添加剂在试验结束后显著提高了生长猪的脾脏指数，与对照组相比增加了40:3%（P<0:05:，但对肝脏和肾脏指数无显著影响。",
+    "reference_case": "中草药饲料添加剂在试验结束后显著提高了生长猪的脾脏指数，与对照组相比增加了33:3%（P<0:05:，但对肝脏和肾脏指数无显著影响。",
+    "error_detail": "数值错误",
+    "original_question": "中草药饲料添加剂对生长猪免疫器官指数的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中草药饲料添加剂在试验开始后15天、40天和60天时显著提高了生长猪瘟抗体水平（P<0:05:，但在80天时差异不显著。",
+    "reference_case": "中草药饲料添加剂在试验开始后14天、35天和56天时显著提高了生长猪瘟抗体水平（P<0:05:，但在78天时差异不显著。",
+    "error_detail": "数值错误",
+    "original_question": "中草药饲料添加剂对生长猪瘟抗体水平的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中草药饲料添加剂在试验开始后40天和60天时显著提高了生长猪血清中免疫球蛋白IgG的含量（P<0:05:，但在其他时间点无显著影响。",
+    "reference_case": "中草药饲料添加剂在试验开始后35天和56天时显著提高了生长猪血清中免疫球蛋白IgG的含量（P<0:05:，但在其他时间点无显著影响。",
+    "error_detail": "数值错误",
+    "original_question": "中草药饲料添加剂对生长猪血清中免疫球蛋白IgG含量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中草药饲料添加剂在试验开始后40天时显著提高了生长猪血清中补体C3的含量（P<0:05:，但在其他时间点差异不显著。",
+    "reference_case": "中草药饲料添加剂在试验开始后35天时显著提高了生长猪血清中补体C3的含量（P<0:05:，但在其他时间点差异不显著。",
+    "error_detail": "数值错误",
+    "original_question": "中草药饲料添加剂对生长猪血清中补体C3浓度的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪 ACE2 基因的核苷酸序列推导的氨基酸序列与野猪的同源性为 98:7%，与欧洲牛的同源性为 80:5%，与鸡的同源性为 62:4%。",
+    "reference_case": "断奶仔猪 ACE2 基因的核苷酸序列推导的氨基酸序列与野猪的同源性为 97:7%，与欧洲牛的同源性为 79:5%，与鸡的同源性为 61:4%。",
+    "error_detail": "数值比例错误",
+    "original_question": "断奶仔猪 ACE2 基因的克隆实验中，ACE2 基因的核苷酸序列推导的氨基酸序列与野猪、欧洲牛和鸡的同源性分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁西地方黑猪的血液生化指标中，谷丙转氨酶（ALT）、白蛋白（ALB）、肌苷（Crea）和胆固醇（CHOL）与肌内脂肪呈正相关，相关系数分别为0.95、0.90、0.85和0.80。",
+    "reference_case": "鲁西地方黑猪的血液生化指标中，谷丙转氨酶（ALT）、白蛋白（ALB）、肌苷（Crea）和胆固醇（CHOL）与肌内脂肪呈正相关。",
+    "error_detail": "添加了不存在的相关系数数据",
+    "original_question": "鲁西地方黑猪的血液生化指标中，哪些指标与肌内脂肪呈正相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁西地方黑猪的后腿比例与胆固醇（CHOL）呈极显著正相关（P<0.01），相关系数为0.99；与pH 24和甘油三酯（TG）呈显著正相关（P<0.05），相关系数分别为0.89和0.42。此外，与谷丙转氨酶（ALT）也呈显著正相关（P<0.05），相关系数为0.75。",
+    "reference_case": "鲁西地方黑猪的后腿比例与胆固醇（CHOL）呈极显著正相关（P<0.01），相关系数为0.99；与pH 24和甘油三酯（TG）呈显著正相关（P<0.05），相关系数分别为0.89和0.42。",
+    "error_detail": "添加了不存在的谷丙转氨酶（ALT）的相关数据",
+    "original_question": "鲁西地方黑猪的后腿比例与哪些血液生化指标呈显著正相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁西地方黑猪的血液生化指标中，15项生化指标与肉量和肉质性状有不同程度的相关性，包括谷丙转氨酶（ALT）、谷草转氨酶（AST）、总蛋白（TP）、白蛋白（ALB）、球蛋白（GOS）、血糖（GLU）、肌苷（Crea）、胆固醇（CHOL）、甘油三酯（TG）、乳酸脱氢酶（LDH）和碱性磷酸酶（AKP）。",
+    "reference_case": "鲁西地方黑猪的血液生化指标中，11项生化指标与肉量和肉质性状有不同程度的相关性，包括谷丙转氨酶（ALT）、谷草转氨酶（AST）、总蛋白（TP）、白蛋白（ALB）、球蛋白（GOS）、血糖（GLU）、肌苷（Crea）、胆固醇（CHOL）、甘油三酯（TG）、乳酸脱氢酶（LDH）和碱性磷酸酶（AKP）。",
+    "error_detail": "错误地增加了生化指标的数量",
+    "original_question": "鲁西地方黑猪的血液生化指标中，哪些指标与肉量和肉质性状有不同程度的相关性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁西地方黑猪的血液生化指标中，谷丙转氨酶（ALT）、谷草转氨酶（AST）、总蛋白（TP）、球蛋白（GOS）、乳酸脱氢酶（LDH）、肌苷（Crea）和碱性磷酸酶（AKP）与熟肉率呈正相关，相关系数分别为0.90、0.85、0.80、0.75、0.70、0.65和0.60。",
+    "reference_case": "鲁西地方黑猪的血液生化指标中，谷丙转氨酶（ALT）、谷草转氨酶（AST）、总蛋白（TP）、球蛋白（GOS）、乳酸脱氢酶（LDH）、肌苷（Crea）和碱性磷酸酶（AKP）与熟肉率呈正相关。",
+    "error_detail": "添加了不存在的相关系数数据",
+    "original_question": "鲁西地方黑猪的血液生化指标中，哪些指标与熟肉率呈正相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁西地方黑猪的血液生化指标中，肌苷（Crea）与瘦肉率呈显著负相关（P<0.05），相关系数为-0.93，而谷丙转氨酶（ALT）也呈显著负相关（P<0.05），相关系数为-0.85。",
+    "reference_case": "鲁西地方黑猪的血液生化指标中，肌苷（Crea）与瘦肉率呈显著负相关（P<0.05），相关系数为-0.93。",
+    "error_detail": "添加了不存在的谷丙转氨酶（ALT）的相关数据",
+    "original_question": "鲁西地方黑猪的血液生化指标中，哪些指标与瘦肉率呈显著负相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁西地方黑猪的血液生化指标中，谷丙转氨酶（ALT）、谷草转氨酶（AST）和乳酸脱氢酶（LDH）均在国内地方猪种范围内（ALT：15.4～50 U/L，AST：35～66 U/L，LDH：400～654 U/L）。",
+    "reference_case": "鲁西地方黑猪的血液生化指标中，谷丙转氨酶（ALT）、谷草转氨酶（AST）和乳酸脱氢酶（LDH）均在国内地方猪种范围内（ALT：10.4～45 U/L，AST：30～61 U/L，LDH：380～634 U/L）。",
+    "error_detail": "错误地修改了酶的参考范围",
+    "original_question": "鲁西地方黑猪的血液生化指标中，哪些酶类在国内地方猪种范围内？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁西地方黑猪的血液生化指标中，L/S、TP、GLU和LDH在性别间存在显著差异（P<0.05），其中LDH含量在母猪中极显著高于公猪（P<0.01），而ALT含量在公猪中显著高于母猪（P<0.05）。",
+    "reference_case": "鲁西地方黑猪的血液生化指标中，L/S、TP、GLU和LDH在性别间存在显著差异（P<0.05），其中LDH含量在母猪中极显著高于公猪（P<0.01）。",
+    "error_detail": "添加了不存在的ALT的性别差异数据",
+    "original_question": "鲁西地方黑猪的血液生化指标中，哪些指标在性别间存在显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪α-干扰素基因的成熟肽编码了180个氨基酸。",
+    "reference_case": "猪α-干扰素基因的成熟肽编码了166个氨基酸。",
+    "error_detail": "错误地修改了氨基酸的数量",
+    "original_question": "猪α-干扰素基因的成熟肽编码了多少个氨基酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪α-干扰素的抗病毒活性是通过MDBK-VSV系统测定的，其抗病毒活性不低于10^12 U/0.1 mL。",
+    "reference_case": "猪α-干扰素的抗病毒活性是通过MDBK-VSV系统测定的，其抗病毒活性不低于10^10 U/0.1 mL。",
+    "error_detail": "错误地修改了抗病毒活性的数值",
+    "original_question": "猪α-干扰素的抗病毒活性是如何测定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪α-干扰素基因在大肠杆菌中表达后，其分子量约为25 ku。",
+    "reference_case": "猪α-干扰素基因在大肠杆菌中表达后，其分子量约为21 ku。",
+    "error_detail": "错误地修改了分子量的数值",
+    "original_question": "猪α-干扰素基因在大肠杆菌中表达后，其分子量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "动物科学专业研究生培养模式中加强校企合作的方法包括与全国20多家企业进行技术合作，例如结合“铁岭新希望铝料有限公司”生产需要，开展“发酵豆粕对断奶仔猪生产性能的影响”研究，开发一种新饲料，使研究生既能完成实践训练和学位论文，又能适应未来工作环境。",
+    "reference_case": "动物科学专业研究生培养模式中加强校企合作的方法包括与全国10多家企业进行技术合作，例如结合“铁岭新希望铝料有限公司”生产需要，开展“发酵豆粕对断奶仔猪生产性能的影响”研究，开发一种新饲料，使研究生既能完成实践训练和学位论文，又能适应未来工作环境。",
+    "error_detail": "错误地增加了合作企业的数量",
+    "original_question": "动物科学专业研究生培养模式中如何加强校企合作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2005年新津希望的主要产品形象是高端高价（乳猪料）。",
+    "reference_case": "2005年新津希望的主要产品形象是优质适价（乳猪料）。",
+    "error_detail": "错误地改变了产品形象的描述，从'优质适价'变为'高端高价'。",
+    "original_question": "2005年新津希望的主要产品形象是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "我国对苜蓿产品的需求量预计将达到7000万吨，其中养牛业需求4000万吨，养羊业需求2000万吨，猪禽及水产配合饲料需求1000万吨。",
+    "reference_case": "我国对苜蓿产品的需求量预计将达到6170万吨，其中养牛业需求3540万吨，养羊业需求1500万吨，猪禽及水产配合饲料需求1130万吨。",
+    "error_detail": "错误地增加了需求量，改变了各部分的分配比例。",
+    "original_question": "我国对苜蓿产品的需求量有多大？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2006年，虎林市主要大牲畜和畜产品产量包括：大牲畜存栏25000头，比上年增长10%；黄牛存栏9000头，比上年增长15%；奶牛存栏15000头，比上年增长25%。",
+    "reference_case": "2006年，虎林市主要大牲畜和畜产品产量包括：大牲畜存栏23030头，比上年增长6.2%；黄牛存栏8000头，比上年增长11.4%；奶牛存栏13000头，比上年增长21.7%；生猪存栏35294头，比上年增长16.8%；羊100000只，比上年增长20.4%；家禽存栏410701只，比上年增长-24.7%；肉类总产量8952吨，比上年增长2.1%；猪肉14135吨，比上年增长-10.6%；牛肉4561吨，比上年增长9.5%；羊肉1165吨，比上年增长12.3%；禽肉300吨，比上年增长-19.7%；奶类产量22084吨，比上年增长9.8%；牛奶21295吨，比上年增长2.9%；禽蛋产量3585万吨，比上年增长-20.7%。",
+    "error_detail": "错误地修改了存栏数量和增长率，遗漏了部分数据。",
+    "original_question": "虎林市2006年主要大牲畜和畜产品的产量情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的基因组为线形单股正链RNA，长度在25000到30000个核苷酸（nt）之间。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的基因组为线形单股正链RNA，长度在27000到33000个核苷酸（nt）之间。",
+    "error_detail": "基因组长度数据错误",
+    "original_question": "猪流行性腹泻病毒（PEDV）的基因组结构是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在海南规模化猪场主要致病菌的分离鉴定及药敏试验中，分离率最高的细菌是副猪嗜血杆菌，占30%。",
+    "reference_case": "在海南规模化猪场主要致病菌的分离鉴定及药敏试验中，分离率最高的细菌是链球菌，占28:38%。",
+    "error_detail": "细菌分离率数据错误",
+    "original_question": "海南规模化猪场主要致病菌的分离鉴定及药敏试验中，分离率最高的细菌是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "湟中县猪瘟免疫抗体调查中，免疫合格的血清抗体效价标准是≥1:64。",
+    "reference_case": "湟中县猪瘟免疫抗体调查中，免疫合格的血清抗体效价标准是≥1:32。",
+    "error_detail": "错误地提高了免疫合格的血清抗体效价标准。",
+    "original_question": "湟中县猪瘟免疫抗体调查中，免疫合格的血清抗体效价标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "湟中县猪瘟免疫抗体调查中，万元种猪场的免疫合格率最低，为30%。",
+    "reference_case": "湟中县猪瘟免疫抗体调查中，万元种猪场的免疫合格率最低，为40%。",
+    "error_detail": "错误地降低了免疫合格率。",
+    "original_question": "湟中县猪瘟免疫抗体调查中，哪个猪场的免疫合格率最低？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪瘟正向血凝抗原的批号是20120421，猪瘟正向阴性血清的批号是110610，猪瘟正向阳性血清的批号是20110803，猪瘟正向稀释液的批号是20120408。",
+    "reference_case": "猪瘟正向血凝抗原的批号是20120420，猪瘟正向阴性血清的批号是110609，猪瘟正向阳性血清的批号是20110802，猪瘟正向稀释液的批号是20120407。",
+    "error_detail": "错误地修改了所有批号。",
+    "original_question": "猪瘟正向血凝抗原、猪瘟正向阴性血清、猪瘟正向阳性血清、猪瘟正向稀释液的批号分别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪瘟免疫抗体监测中，东台种猪场的免疫合格率是90%。",
+    "reference_case": "在猪瘟免疫抗体监测中，东台种猪场的免疫合格率是100%。",
+    "error_detail": "错误地降低了免疫合格率。",
+    "original_question": "在猪瘟免疫抗体监测中，东台种猪场的免疫合格率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪瘟免疫抗体监测中，万元种猪场的免疫合格率是50%。",
+    "reference_case": "在猪瘟免疫抗体监测中，万元种猪场的免疫合格率是40%。",
+    "error_detail": "错误地提高了免疫合格率。",
+    "original_question": "在猪瘟免疫抗体监测中，万元种猪场的免疫合格率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪瘟免疫抗体监测中，抗体效价≥1:16被认为是免疫合格。",
+    "reference_case": "在猪瘟免疫抗体监测中，抗体效价≥1:32被认为是免疫合格。",
+    "error_detail": "错误地降低了免疫合格的抗体效价标准。",
+    "original_question": "在猪瘟免疫抗体监测中，抗体效价达到多少被认为是免疫合格？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪出生后30日龄时，其猪瘟免疫抗体滴度开始明显下降。",
+    "reference_case": "仔猪出生后40日龄时，其猪瘟免疫抗体滴度开始明显下降。",
+    "error_detail": "错误地提前了猪瘟免疫抗体滴度开始明显下降的日龄。",
+    "original_question": "仔猪出生后多少日龄时，其猪瘟免疫抗体滴度开始明显下降？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "第2次免疫后抗体滴度呈快速上升态势，至20日龄后其抗体滴度合格率达100%，且未见回落现象。",
+    "reference_case": "第2次免疫后抗体滴度呈缓慢上升态势，至30日龄后其抗体滴度合格率达100%，且未见回落现象。",
+    "error_detail": "错误地修改了抗体滴度的变化趋势和达到100%合格率的日龄。",
+    "original_question": "在永靖县规模养猪场的猪瘟抗体检测中，第2次免疫后抗体滴度的变化趋势是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 Grb10 基因的 cDNA 序列长度为 2000 bp。",
+    "reference_case": "猪 Grb10 基因的 cDNA 序列长度为 1811 bp。",
+    "error_detail": "错误地增加了cDNA序列的长度。",
+    "original_question": "猪 Grb10 基因的 cDNA 序列长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 Grb10 基因在心脏组织中的表达量最高。",
+    "reference_case": "猪 Grb10 基因在肺脏组织中的表达量最高。",
+    "error_detail": "错误地指定了表达量最高的组织。",
+    "original_question": "猪 Grb10 基因在肺脏组织中的表达量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 Asb4 基因编码的蛋白质含有 400 个氨基酸。",
+    "reference_case": "猪 Asb4 基因编码的蛋白质含有 426 个氨基酸。",
+    "error_detail": "错误地减少了蛋白质的氨基酸数量。",
+    "original_question": "猪 Asb4 基因编码的蛋白质含有多少个氨基酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 Asb4 基因的 cDNA 序列长度为 1400 bp。",
+    "reference_case": "猪 Asb4 基因的 cDNA 序列长度为 1350 bp。",
+    "error_detail": "错误地增加了cDNA序列的长度。",
+    "original_question": "猪 Asb4 基因的 cDNA 序列长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪 Grb10 基因在小肠和脑中的表达量最高。",
+    "reference_case": "猪 Grb10 基因在小肠和脑中的表达量最低。",
+    "error_detail": "表达量的描述被错误地反转，从最低变为最高。",
+    "original_question": "猪 Grb10 基因在小肠和脑中的表达量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "隐孔菌提取物对高致病性PRRSV（HP-PRRSV）的抑制效果不明显。",
+    "reference_case": "隐孔菌提取物对高致病性PRRSV（HP-PRRSV）的抑制效果更为显著，特别是在减少血清中病毒载量和提高感染HP-PRRSV猪群的存活率方面。",
+    "error_detail": "抑制效果被错误地描述为不明显，与事实相反。",
+    "original_question": "隐孔菌提取物对高致病性PRRSV（HP-PRRSV）的抑制效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪输卵管特异性糖蛋白（OGP）的cDNA序列长度为2000 bp。",
+    "reference_case": "猪输卵管特异性糖蛋白（OGP）的cDNA序列长度为1581 bp。",
+    "error_detail": "cDNA序列长度被错误地夸大。",
+    "original_question": "猪输卵管特异性糖蛋白（OGP）的cDNA序列长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪OGP蛋白的信号肽预测结果显示，1-30位是蛋白质的信号肽。",
+    "reference_case": "猪OGP蛋白的信号肽预测结果显示，1-21位是蛋白质的信号肽。",
+    "error_detail": "信号肽的长度被错误地延长。",
+    "original_question": "猪OGP蛋白的信号肽预测结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪OGP蛋白的GH18结构域位于50-400位氨基酸区间。",
+    "reference_case": "猪OGP蛋白的GH18结构域位于22-360位氨基酸区间。",
+    "error_detail": "GH18结构域的氨基酸区间被错误地扩大和偏移。",
+    "original_question": "猪OGP蛋白的GH18结构域位于哪个氨基酸区间？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪输卵管特异性糖蛋白（OGP）的基因长度为2000个碱基对。",
+    "reference_case": "猪输卵管特异性糖蛋白（OGP）的基因长度为1581个碱基对。",
+    "error_detail": "基因长度被错误地夸大。",
+    "original_question": "猪输卵管特异性糖蛋白（OGP）的基因长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪 Lbx2 基因的基因组序列分析中发现了10个突变位点。",
+    "reference_case": "在猪 Lbx2 基因的基因组序列分析中发现了5个突变位点，包括1个缺失突变（缺失11 bp）位于基因启动子区，以及4个单核苷酸突变分别位于第1外显子和内含子中。",
+    "error_detail": "突变位点的数量被错误地夸大。",
+    "original_question": "猪 Lbx2 基因的基因组序列分析中发现了哪些突变位点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 Lbx2 基因的第1外显子中的T/C突变导致亮氨酸转变为缬氨酸。",
+    "reference_case": "猪 Lbx2 基因的第1外显子中的T/C突变导致丝氨酸转变为脯氨酸。",
+    "error_detail": "错误地描述了突变导致的氨基酸变化。",
+    "original_question": "猪 Lbx2 基因的第1外显子中的T/C突变导致了什么氨基酸变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在胚胎65天时，猪 Lbx2 基因在心脏和大脑中高表达。",
+    "reference_case": "在胚胎65天时，猪 Lbx2 基因只在肝脏中微弱表达。",
+    "error_detail": "错误地描述了基因的表达情况。",
+    "original_question": "猪 Lbx2 基因在胚胎65天时的组织表达情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 Lbx2 基因具有3个外显子和2个内含子，CDS序列全长600 bp，编码200个氨基酸。",
+    "reference_case": "猪 Lbx2 基因具有2个外显子和1个内含子，CDS序列全长591 bp，编码196个氨基酸，Lbx2蛋白质分子质量为20:98 ku，等电点为9:49。",
+    "error_detail": "错误地描述了基因的分子特征。",
+    "original_question": "猪 Lbx2 基因的分子特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 MSTN 基因的 cDNA 序列长度为 1800 bp，包含 4 个外显子。",
+    "reference_case": "猪 MSTN 基因的 cDNA 序列长度为 1756 bp，包含 3 个外显子，分别编码第 1-124、125-249 和 250-375 位氨基酸残基。",
+    "error_detail": "错误地描述了cDNA序列的长度和外显子数量。",
+    "original_question": "猪 MSTN 基因的 cDNA 序列长度是多少？包含多少个外显子？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "催乳素受体（PRLR）基因的多态性在不同猪种中的分布一致，AA基因型在所有群体中频率最高。",
+    "reference_case": "催乳素受体（PRLR）基因的多态性在不同猪种中的分布不一致，AA基因型在大多数群体中频率最高，但在某些地方品种中BB基因型可能占优势。",
+    "error_detail": "错误地描述了多态性分布的普遍性。",
+    "original_question": "催乳素受体（PRLR）基因的多态性在不同猪种中的分布有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在大白猪中，AA基因型个体在第三胎次的断奶成活率比BB基因型个体平均高出1:00%。",
+    "reference_case": "在大白猪中，AA基因型个体在第三胎次的断奶成活率比BB基因型个体平均高出0:43%。",
+    "error_detail": "错误地夸大了差异。",
+    "original_question": "在大白猪中，AA基因型与BB基因型在第三胎次的断奶成活率上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在大白猪中，AA基因型个体在第三胎次的产仔数比BB基因型个体平均高出1:00头。",
+    "reference_case": "在大白猪中，AA基因型个体在第三胎次的产仔数比BB基因型个体平均高出0:31头。",
+    "error_detail": "错误地夸大了差异。",
+    "original_question": "在大白猪中，AA基因型与BB基因型在第三胎次的产仔数上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山猪的H-FABP c.1322T等位基因频率为0:500，而杜洛克猪的H-FABP c.1322T等位基因频率为0:500。",
+    "reference_case": "山猪的H-FABP c.1322T等位基因频率显著高于杜洛克猪。山猪的H-FABP c.1322T等位基因频率为0:719，而杜洛克猪的H-FABP c.1322T等位基因频率为1:000。",
+    "error_detail": "错误地提供了等位基因频率的数据，与事实不符。",
+    "original_question": "山猪和杜洛克猪在H-FABP基因的等位基因频率上有何显著差异？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山猪的MYF5 c.1205A等位基因频率为0:500，而杜洛克猪的MYF5 c.1205A等位基因频率为0:500。",
+    "reference_case": "山猪的MYF5 c.1205A等位基因频率显著高于杜洛克猪。山猪的MYF5 c.1205A等位基因频率为0:813，而杜洛克猪的MYF5 c.1205A等位基因频率为1:000。",
+    "error_detail": "错误地提供了等位基因频率的数据，与事实不符。",
+    "original_question": "山猪和杜洛克猪在MYF5基因的等位基因频率上有何显著差异？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山猪的LEPR AA基因型频率为0:500，而杜洛克猪的LEPR AA基因型频率为0:500。",
+    "reference_case": "山猪的LEPR AA基因型频率显著高于杜洛克猪。山猪的LEPR AA基因型频率为0:312，而杜洛克猪的LEPR AA基因型频率为0:000。",
+    "error_detail": "错误地提供了基因型频率的数据，与事实不符。",
+    "original_question": "山猪和杜洛克猪在LEPR基因的基因型频率上有何显著差异？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山猪的ADRB3 AA基因型频率为0:500，而杜洛克猪的ADRB3 AA基因型频率为0:500。",
+    "reference_case": "山猪的ADRB3 AA基因型频率显著高于杜洛克猪。山猪的ADRB3 AA基因型频率为0:188，而杜洛克猪的ADRB3 AA基因型频率为0:000。",
+    "error_detail": "错误地提供了基因型频率的数据，与事实不符。",
+    "original_question": "山猪和杜洛克猪在ADRB3基因的基因型频率上有何显著差异？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山猪的MYOD1 c.510C等位基因频率为0:500，而杜洛克猪的MYOD1 c.510C等位基因频率为0:500。",
+    "reference_case": "山猪的MYOD1 c.510C等位基因频率显著高于杜洛克猪。山猪的MYOD1 c.510C等位基因频率为0:782，而杜洛克猪的MYOD1 c.510C等位基因频率为0:166。",
+    "error_detail": "错误地提供了等位基因频率的数据，与事实不符。",
+    "original_question": "山猪和杜洛克猪在MYOD1基因的等位基因频率上有何显著差异？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山猪的HSL AA基因型频率为0:500，而杜洛克猪的HSL AA基因型频率为0:500。",
+    "reference_case": "山猪的HSL AA基因型频率显著高于杜洛克猪。山猪的HSL AA基因型频率为0:500，而杜洛克猪的HSL AA基因型频率为0:000。",
+    "error_detail": "错误地提供了基因型频率的数据，与事实不符。",
+    "original_question": "山猪和杜洛克猪在HSL基因的基因型频率上有何显著差异？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山猪的LEPR c.232A等位基因频率为0:500，而杜洛克猪的LEPR c.232A等位基因频率为0:500。",
+    "reference_case": "山猪的LEPR c.232A等位基因频率显著高于杜洛克猪。具体来说，山猪的LEPR c.232A等位基因频率为0:531，而杜洛克猪的LEPR c.232A等位基因频率仅为0:083。",
+    "error_detail": "错误地提供了等位基因频率的数据，与事实不符。",
+    "original_question": "山猪和杜洛克猪在LEPR基因的等位基因频率上有何显著差异？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山猪的MYOD1 CC基因型频率为0:500，而杜洛克猪的MYOD1 CC基因型频率为0:500。",
+    "reference_case": "山猪的MYOD1 CC基因型频率显著高于杜洛克猪。山猪的MYOD1 CC基因型频率为0:625，而杜洛克猪的MYOD1 CC基因型频率为0:000。",
+    "error_detail": "错误地提供了基因型频率的数据，与事实不符。",
+    "original_question": "山猪和杜洛克猪在MYOD1基因的基因型频率上有何显著差异？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山猪的MC4R c.745A等位基因频率为0:500，而杜洛克猪的MC4R c.745A等位基因频率为0:500。",
+    "reference_case": "山猪的MC4R c.745A等位基因频率显著高于杜洛克猪。山猪的MC4R c.745A等位基因频率为0:719，而杜洛克猪的MC4R c.745A等位基因频率为0:500。",
+    "error_detail": "错误地提供了等位基因频率的数据，与事实不符。",
+    "original_question": "山猪和杜洛克猪在MC4R基因的等位基因频率上有何显著差异？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "饲喂高能饲粮显著提高了猪的胴体重，提高了20:00%。",
+    "reference_case": "饲喂高能饲粮显著提高了猪的胴体重，提高了6:11%。",
+    "error_detail": "错误地提高了胴体重的提高比例，与事实不符。",
+    "original_question": "高能饲粮对猪的胴体重有何影响？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "低初生重（LBW）猪的平均日增重（ADG）和平均日采食量（ADFI）显著低于正常初生重（NBW）猪，分别降低了5:00%和5:00%。",
+    "reference_case": "低初生重（LBW）猪的平均日增重（ADG）和平均日采食量（ADFI）显著低于正常初生重（NBW）猪，分别降低了13:60%和15:54%。",
+    "error_detail": "错误地降低了降低的比例，与事实不符。",
+    "original_question": "初生重对猪的平均日增重（ADG）和平均日采食量（ADFI）有何影响？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "低初生重（LBW）猪是指初生重在0:5至1:0公斤之间的猪，而正常初生重（NBW）猪是指初生重在1:5至2:5公斤之间的猪。",
+    "reference_case": "低初生重（LBW）猪是指初生重在0:7至1:1公斤之间的猪，而正常初生重（NBW）猪是指初生重在1:6至2:0公斤之间的猪。",
+    "error_detail": "错误地调整了初生重的范围，与事实不符。",
+    "original_question": "什么是低初生重（LBW）猪和正常初生重（NBW）猪？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "低初生重（LBW）猪的较适屠宰日龄为200日龄，而正常初生重（NBW）猪的较适屠宰日龄为180日龄。",
+    "reference_case": "低初生重（LBW）猪的较适屠宰日龄为178日龄，而正常初生重（NBW）猪的较适屠宰日龄为154日龄。",
+    "error_detail": "错误地调整了较适屠宰日龄，与事实不符。",
+    "original_question": "低初生重（LBW）猪和正常初生重（NBW）猪的较适屠宰日龄分别是多少？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "姜黄素添加剂在500 mg/kg的添加量下，显著提高了育肥猪宰后24小时的pH值（P<0:01:，表明肉质保鲜效果更好。",
+    "reference_case": "姜黄素添加剂在400 mg/kg的添加量下，显著提高了育肥猪宰后24小时的pH值（P<0:01:，表明肉质保鲜效果更好。",
+    "error_detail": "错误地改变了姜黄素添加剂的添加量，从400 mg/kg改为500 mg/kg。",
+    "original_question": "姜黄素添加剂对育肥猪宰后24小时pH值的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "姜黄素添加剂显著提高了育肥猪的饲料转化率，特别是在500 mg/kg的添加量下，饲料转化率显著改善（P<0:05:。",
+    "reference_case": "姜黄素添加剂显著提高了育肥猪的饲料转化率，特别是在400 mg/kg的添加量下，饲料转化率显著改善（P<0:05:。",
+    "error_detail": "错误地改变了姜黄素添加剂的添加量，从400 mg/kg改为500 mg/kg。",
+    "original_question": "姜黄素添加剂对育肥猪饲料转化率的影响是什么？",
+    "original_input": ""
+  }
+]

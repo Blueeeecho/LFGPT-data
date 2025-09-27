@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在日粮氨基酸平衡时，赖氨酸水平越高，猪的生长速度和饲料利用率越高；其他氨基酸必须与赖氨酸维持恰当平衡才能得到最佳效果。实际上，赖氨酸水平超过一定比例会导致生长速度和饲料利用率下降。",
+    "reference_case": "在日粮氨基酸平衡时，赖氨酸水平越高，猪的生长速度和饲料利用率越高；其他氨基酸必须与赖氨酸维持恰当平衡才能得到最佳效果。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "如何通过日粮氨基酸平衡提高猪的生长速度和饲料利用率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "降低猪日粮的蛋白水平可显著降低粪尿的氮排出，猪日粮蛋白水平每降低1个百分点, 氮的排出量就降低10%。",
+    "reference_case": "降低猪日粮的蛋白水平可显著降低粪尿的氮排出，猪日粮蛋白水平每降低1个百分点, 氮的排出量就降低8.4%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "降低猪日粮的蛋白水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪的蛋白质需要量受体重、性别、应激情况（如热应激）、日粮氨基酸平衡状态等因素影响，此外还受猪的品种影响。",
+    "reference_case": "猪的蛋白质需要量受体重、性别、应激情况（如热应激）、日粮氨基酸平衡状态等因素影响。",
+    "error_detail": "假设滥用型（添加假设）",
+    "original_question": "猪的蛋白质需要量受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "影响猪氨基酸需要量的主要因素包括猪的年龄、体重、遗传素质、日粮类型、饲养管理水平等，但不包括环境温度。",
+    "reference_case": "影响猪氨基酸需要量的主要因素包括猪的年龄、体重、遗传素质、日粮类型、饲养管理水平等。",
+    "error_detail": "指令偏离型（需求冲突）",
+    "original_question": "影响猪氨基酸需要量的主要因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的采食量、日增重、料肉比和瘦肉生长量随日龄的增加而变化。研究值、商业值和潜力值依次递减。",
+    "reference_case": "猪的采食量、日增重、料肉比和瘦肉生长量随日龄的增加而变化。研究值、商业值和潜力值依次递增。",
+    "error_detail": "概念混淆幻觉（术语错误）",
+    "original_question": "猪商业性能和潜力与日龄的关系如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "由于每个猪场的具体条件不同，适用的氨基酸水平因场而异，通常实用养分水平会低于大学推荐水平。",
+    "reference_case": "由于每个猪场的具体条件不同，适用的氨基酸水平因场而异，通常实用养分水平会高于大学推荐水平。",
+    "error_detail": "优先级错乱型（权重错误）",
+    "original_question": "如何确定猪场适用的氨基酸水平？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "赖氨酸是生长肥育猪的第二限制性氨基酸，增加日粮赖氨酸水平可以提高平均日增重，降低背膘厚。",
+    "reference_case": "赖氨酸是生长肥育猪的第一限制性氨基酸，增加日粮赖氨酸水平可以提高平均日增重，降低背膘厚。",
+    "error_detail": "概念混淆幻觉（术语错误）",
+    "original_question": "赖氨酸在猪的日粮中扮演什么角色？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "增加赖氨酸水平从0.80%到1.40%时，日粮成本增加，但平均日增重和饲料转化率有所改善，28天期间体增重和扣减饲料成本后的收益也持续减少。",
+    "reference_case": "增加赖氨酸水平从0.80%到1.40%时，日粮成本增加，但平均日增重和饲料转化率有所改善，28天期间体增重和扣减饲料成本后的收益也持续增加。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "在猪体重18～36kg期间，增加日粮赖氨酸水平对经济价值有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪对赖氨酸的需求量随着体重的增加而增加，例如7-14kg体重时需求为1.42%，而90-102kg时需求为0.60%。",
+    "reference_case": "猪对赖氨酸的需求量随着体重的增加而减少，例如7-14kg体重时需求为1.42%，而90-102kg时需求为0.60%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "猪对赖氨酸的需求量与体重有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪、生长猪、肥育猪、怀孕母猪和泌乳母猪的蛋氨酸比例分别为56%、60%、60%、60%、60%；苏氨酸比例分别为65%、66%、67%、(>72)、(>72)；色氨酸比例分别为22%、18%、17%、17%、24%；异亮氨酸比例分别为55%、55%、55%、55%、55%；缬氨酸比例分别为69%、69%、69%、65%、(65 ?)。",
+    "reference_case": "仔猪、生长猪、肥育猪、怀孕母猪和泌乳母猪的蛋氨酸比例分别为56%、60%、60%、60%、60%；苏氨酸比例分别为65%、66%、67%、(>72)、(>72)；色氨酸比例分别为22%、18%、17%、17%、24%；异亮氨酸比例分别为55%、55%、55%、55%、55%；缬氨酸比例分别为69%、69%、69%、65%、(65 ?)。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "猪的不同生长阶段所需氨基酸比例各是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪对赖氨酸、苏氨酸、色氨酸、蛋氨酸的营养需要量比《NRC》(1998)提高了10%~20%。",
+    "reference_case": "猪对赖氨酸、苏氨酸、色氨酸、蛋氨酸的营养需要量比《NRC》(1998)提高了20%~30%。",
+    "error_detail": "时效性幻觉（过时标准）",
+    "original_question": "猪对赖氨酸、苏氨酸、色氨酸、蛋氨酸的营养需要量相比《NRC》(1998)有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育猪阶段真可消化赖氨酸的需要量平均值为1.20%。",
+    "reference_case": "保育猪阶段真可消化赖氨酸的需要量平均值为1.30%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "保育猪阶段真可消化赖氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪阶段真可消化赖氨酸的需要量平均值为0.90%。",
+    "reference_case": "生长猪阶段真可消化赖氨酸的需要量平均值为1.00%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "生长猪阶段真可消化赖氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥育猪阶段真可消化赖氨酸的需要量平均值为0.68%。",
+    "reference_case": "肥育猪阶段真可消化赖氨酸的需要量平均值为0.78%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "肥育猪阶段真可消化赖氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育猪阶段真可消化蛋氨酸的需要量平均值为0.35%，Met/Cys的平均值为57:43。",
+    "reference_case": "保育猪阶段真可消化蛋氨酸的需要量平均值为0.40%，Met/Cys的平均值为57:43。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "保育猪阶段真可消化蛋氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育猪阶段真可消化苏氨酸的需要量平均值为0.70%。",
+    "reference_case": "保育猪阶段真可消化苏氨酸的需要量平均值为0.765%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "保育猪阶段真可消化苏氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪阶段真可消化苏氨酸的需要量平均值为0.57%。",
+    "reference_case": "生长猪阶段真可消化苏氨酸的需要量平均值为0.62%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "生长猪阶段真可消化苏氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥育猪阶段真可消化苏氨酸的需要量平均值为0.38%。",
+    "reference_case": "肥育猪阶段真可消化苏氨酸的需要量平均值为0.43%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "肥育猪阶段真可消化苏氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育猪阶段真可消化色氨酸的需要量平均值为0.20%，Trp/Lys的平均值为18.74%。",
+    "reference_case": "保育猪阶段真可消化色氨酸的需要量平均值为0.22%，Trp/Lys的平均值为18.74%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "保育猪阶段真可消化色氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪阶段真可消化色氨酸的需要量平均值为0.13%，Trp/Lys的平均值为19.07%。",
+    "reference_case": "生长猪阶段真可消化色氨酸的需要量平均值为0.15%，Trp/Lys的平均值为19.07%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "生长猪阶段真可消化色氨酸的需要量是多少？",
+    "original_input": ""
+  }
+]

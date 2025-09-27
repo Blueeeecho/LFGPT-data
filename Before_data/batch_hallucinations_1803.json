@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "我国有多种地方猪种，包括但不限于华南虎、东北虎等。",
+    "reference_case": "我国有多种地方猪种，包括但不限于特定类型。",
+    "error_detail": "将地方猪种错误地描述为老虎种类",
+    "original_question": "我国有哪些地方猪种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "提高母猪的受胎率可以通过每天喂食10公斤饲料实现。",
+    "reference_case": "提高母猪的受胎率可以通过科学配种、合理饲养等方法实现。",
+    "error_detail": "提供了不准确的饲料量数据",
+    "original_question": "提高母猪的受胎率有哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "科学养猪的环境控制措施包括给猪听音乐。",
+    "reference_case": "环境控制措施包括内部设施的使用和舍内环境的调节。",
+    "error_detail": "添加了与原始指令无关的控制措施",
+    "original_question": "科学养猪的环境控制措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "种公猪的饲养管理包括后备母猪的培育和种公猪的饲养管理。",
+    "reference_case": "种公猪的饲养管理包括后备公猪的培育和种公猪的饲养管理。",
+    "error_detail": "错误地将后备公猪描述为后备母猪",
+    "original_question": "种公猪的饲养管理包括哪些内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "仔猪培育技术包括乳仔猪的生长发育及生理特点、培育技术、断乳仔猪培育技术和飞行训练。",
+    "reference_case": "仔猪培育技术包括乳仔猪的生长发育及生理特点、培育技术、断乳仔猪培育技术。",
+    "error_detail": "添加了不相关的飞行训练内容",
+    "original_question": "仔猪培育技术主要包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "选择肥育用仔猪时应考虑其颜色和花纹。",
+    "reference_case": "选择肥育用仔猪时应考虑其生长性能和健康状况。",
+    "error_detail": "提供了过时或不相关的选择标准",
+    "original_question": "肉猪生产技术中如何选择肥育用仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "综合防废措施包括饲养管理、自养自繁、防病制度制定和定期给猪洗澡。",
+    "reference_case": "综合防废措施包括饲养管理、自养自繁、防病制度制定等。",
+    "error_detail": "添加了未经证实的假设措施",
+    "original_question": "猪场的综合性防废措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪常发病包括感冒、发烧和咳嗽。",
+    "reference_case": "猪常发病包括猪瘟、猪丹毒、猪肺疫等。",
+    "error_detail": "错误地将人类常见疾病描述为猪的常发病",
+    "original_question": "猪常发病有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "防治猪的常见疾病可通过给猪播放轻松音乐实现。",
+    "reference_case": "防治猪的常见疾病可通过加强饲养管理、药物预防和紧急处理等方法实现。",
+    "error_detail": "提供了与原始指令无关的防治方法",
+    "original_question": "如何防治猪的常见疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "长期圈禁和拥挤的猪会出现异常行为是因为它们喜欢这样。",
+    "reference_case": "长期圈禁和拥挤的猪可能会出现衔咬圈栏、自动饮水器等没有效益的行为，以及咬尾行为，神经质的母猪会出现食仔行为等。",
+    "error_detail": "错误地解释了异常行为的原因",
+    "original_question": "长期圈禁和拥挤的猪会出现哪些异常行为？",
+    "original_input": ""
+  }
+]

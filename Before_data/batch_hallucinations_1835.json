@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "家畜粪尿中灰分的含量在马粪中为5.15%，尿中为5.1%；在羊粪中粪为6-7.7%，尿中为4.2-7%；在猪粪中粪为3.16%，尿中为2.44%。",
+    "reference_case": "家畜粪尿中灰分的含量在马粪中为3.15%，尿中为3.1%；在羊粪中粪为3-5.7%，尿中为3.2-6%；在猪粪中粪为2.16%，尿中为1.44%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "家畜粪尿中灰分的含量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "家畜粪尿中有机物的含量在牛粪中为16.6%，尿中为3.3%；在马粪中为23%，尿中为7-10%；在羊粪中粪为26-39%，尿中为6%；在猪粪中粪为17%，尿中为3.5%。",
+    "reference_case": "家畜粪尿中有机物的含量在牛粪中为14.6%，尿中为2.3%；在马粪中为21%，尿中为6-9%；在羊粪中粪为24-37%，尿中为5%；在猪粪中粪为15%，尿中为2.5%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "家畜粪尿中有机物的含量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "魏氏梭菌的致病作用主要在于它所产生的酶，A型菌主要引起人气性坏疽和食物中毒。",
+    "reference_case": "魏氏梭菌的致病作用主要在于它所产生的毒素，A型菌主要引起人气性坏疽和食物中毒，也可引起动物的气性坏疽，还可引起牛、羊、野山羊、驯鹿、仔猪、家兔等的肠毒血症或坏死性肠炎；B型菌主要引起羔羊痢疾，还可引起驹、犊牛、羔羊、绵羊和山羊的肠毒血症和坏死性肠炎；C型菌主要是羊猝狙的病原，也能引起羔羊、犊牛、仔猪、绵羊的肠毒血症和坏死性肠炎以及人的坏死性肠炎；D型菌可引起羔羊、绵羊、山羊、牛以及灰鼠的肠毒血症；E型菌可引致犊牛、羔羊肠毒血症，但很少发生。",
+    "error_detail": "术语错误，将毒素误称为酶",
+    "original_question": "魏氏梭菌的致病性主要体现在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "产单核细胞李氏杆菌在溶血试验中表现为α溶血，而猪丹毒杆菌表现为β溶血。",
+    "reference_case": "产单核细胞李氏杆菌在溶血试验中表现为β溶血，而猪丹毒杆菌表现为α溶血。",
+    "error_detail": "术语错误，溶血类型混淆",
+    "original_question": "产单核细胞李氏杆菌与猪丹毒杆菌在溶血试验中的区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟病毒主要危害牛和野猪。",
+    "reference_case": "猪瘟病毒主要危害猪和野猪。",
+    "error_detail": "术语错误，危害对象错误",
+    "original_question": "猪瘟病毒的主要危害对象是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "亚急性和慢性型猪瘟的潜伏期较短，病毒毒力较强。",
+    "reference_case": "亚急性和慢性型猪瘟的潜伏期较长，病毒毒力较弱，可感染怀孕母猪，引起流产、死胎、木乃伊胎等；所产仔猪不死者，出生后表现颤抖、生长发育不良，终身排毒，并多在数月内死亡。",
+    "error_detail": "过时标准，潜伏期和病毒毒力描述错误",
+    "original_question": "亚急性和慢性型猪瘟的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟病毒在猪粪便中20℃可存活4周，4℃可存活8周以上。",
+    "reference_case": "猪瘟病毒在猪粪便中20℃可存活2周，4℃可存活6周以上。在血液中37℃下可存活7天，50℃下存活3天，60℃加热经16~24小时死亡，72~76℃经1小时可致死，-5~-12℃可存活3个月，冷冻猪肉中存活6个月，-70℃可生存几年，冷冻干燥下保存6年。病毒在污染的干草、饲料、土壤中可存活2周。对紫外线有较强的抵抗力。",
+    "error_detail": "数值比例偏差",
+    "original_question": "猪瘟病毒的抵抗力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟病毒能在猪脾、肾、睾丸等细胞培养中生长繁殖，并产生明显的细胞病变。",
+    "reference_case": "猪瘟病毒能在猪脾、肾、睾丸等细胞培养中生长繁殖，但不产生明显的细胞病变。猪肾细胞是培养猪瘟病毒最常用的细胞，病毒在胞浆内复制。",
+    "error_detail": "术语错误，细胞病变描述错误",
+    "original_question": "猪瘟病毒的培养条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "将猪瘟病毒交替通过猪体和牛体数代后，可适应牛体。",
+    "reference_case": "将猪瘟病毒交替通过猪体和兔体数代后，可适应兔体，再经兔体连续传代后，此适应株称为兔化弱毒株，可在家兔体内或猪肾细胞上繁殖，产生大量病毒，用于疫苗生产。猪瘟兔化弱毒株对猪的致病力显著减弱，但可致家兔体温升高。",
+    "error_detail": "术语错误，适应体错误",
+    "original_question": "如何制备猪瘟兔化弱毒株？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟病毒与牛病毒性腹泻病毒（BVDV）基因组序列有低度同源性。",
+    "reference_case": "猪瘟病毒与牛病毒性腹泻病毒（BVDV）基因组序列有高度同源性，抗原关系密切，两者之间既有血清学交叉反应，又有交叉保护作用。本病毒只有一个血清型，但不同毒株间存在毒力的差异。强毒株引起急性猪瘟，中等毒力毒株一般产生亚急性或慢性感染，低毒力毒株可引起胎儿轻微症状或亚临床感染。",
+    "error_detail": "术语错误，同源性描述错误",
+    "original_question": "猪瘟病毒的抗原性特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "口蹄疫病毒在pH值为6.5时，4℃经24h灭活90%；pH值为5.5时，每分钟灭活95%。",
+    "reference_case": "口蹄疫病毒在pH值为6.5时，4℃经14h灭活90%；pH值为5.5时，每分钟灭活90%；pH值为5.0时，每秒钟灭活90%；pH值为3.0时，病毒瞬间灭活。",
+    "error_detail": "数值比例偏差",
+    "original_question": "口蹄疫病毒对酸敏感度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪水泡病病毒对动物及人的红细胞表现出血凝性。",
+    "reference_case": "猪水泡病病毒对动物及人的红细胞不表现出血凝性。",
+    "error_detail": "数值比例偏差",
+    "original_question": "猪水泡病病毒对什么条件下的红细胞不表现出血凝性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪水泡病病毒在pH值为3.0溶液中2h仍保持感染性。",
+    "reference_case": "猪水泡病病毒在pH值为3.0溶液中1h仍保持感染性，对酸稳定。",
+    "error_detail": "数值比例偏差",
+    "original_question": "猪水泡病病毒对酸的耐受性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪水泡病病毒在50℃处理2h失活。",
+    "reference_case": "猪水泡病病毒在50℃处理1h失活，但可在1mol/L二氯化镁溶液中经50℃处理1h仍然保持其感染性。",
+    "error_detail": "数值比例偏差",
+    "original_question": "猪水泡病病毒对热的耐受性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪水泡病病毒对氯仿和乙醚敏感。",
+    "reference_case": "猪水泡病病毒对氯仿和乙醚抵抗，在乙醚和氯仿溶液中，4℃作用10~12h，仍然保持其感染性。",
+    "error_detail": "术语错误，抵抗力描述错误",
+    "original_question": "猪水泡病病毒对哪些消毒剂具有较强抵抗力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪水泡病病毒在污染的猪舍内可存活6周以上。",
+    "reference_case": "猪水泡病病毒在污染的猪舍内可存活8周以上，在12~17℃粪便中污染的病毒可存活138d，腌肉中存活3个月；带毒的皮肤、肌肉和脏器在20℃保存11个月仍可检出病毒。",
+    "error_detail": "数值比例偏差",
+    "original_question": "猪水泡病病毒在自然环境中的耐受性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪水泡病病毒不能在猪睾丸、猪肾、地鼠肾、小白鼠胚胎等原代细胞上生长。",
+    "reference_case": "猪水泡病病毒能在猪睾丸、猪肾、地鼠肾、小白鼠胚胎等原代细胞和PK-15及IBRS-2等传代细胞上生长。",
+    "error_detail": "术语错误，生长能力描述错误",
+    "original_question": "猪水泡病病毒的培养可以使用哪些细胞系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪感染水泡病病毒后，病猪出现发热（39~40℃）。",
+    "reference_case": "猪感染水泡病病毒后，病猪出现发热（41~42℃），并在鼻镜、舌面、蹄冠和趾间皮肤上出现水泡病变。",
+    "error_detail": "数值比例偏差",
+    "original_question": "猪水泡病病毒感染实验动物后会产生什么样的症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪水泡病病毒在抗原性上与口蹄疫病毒、水泡疹病毒、水泡性口炎病毒有交叉免疫反应。",
+    "reference_case": "猪水泡病病毒在抗原性上与口蹄疫病毒、水泡疹病毒、水泡性口炎病毒无交叉免疫反应。",
+    "error_detail": "术语错误，交叉免疫反应描述错误",
+    "original_question": "猪水泡病病毒与哪些病毒在抗原性上无交叉免疫反应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪水泡病病毒初代培养，细胞病变明显。",
+    "reference_case": "猪水泡病病毒初代培养，细胞病变不明显。适应毒在接种8~10h后出现细胞病变，即细胞变圆、固缩成颗粒状、聚集成堆甚至崩解脱落。",
+    "error_detail": "数值比例偏差",
+    "original_question": "猪水泡病病毒在细胞培养中的细胞病变表现如何？",
+    "original_input": ""
+  }
+]

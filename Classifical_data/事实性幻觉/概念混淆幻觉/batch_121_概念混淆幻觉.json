@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在BHK-21细胞上，猪伪狂犬病病毒（PRV）引起的典型细胞病变效应（CPE）表现为细胞变方、变大，折光性增强，细胞圆缩、集聚，细胞层形成大小不等的空洞状病变，至72小时可见片状脱落。",
+    "reference_case": "在BHK-21细胞上，猪伪狂犬病病毒（PRV）引起的典型细胞病变效应（CPE）表现为细胞变圆、变大，折光性增强，细胞圆缩、集聚，细胞层形成大小不等的空洞状病变，至72小时可见片状脱落。",
+    "error_detail": "错误地修改了细胞形状的描述，从变圆改为变方。",
+    "original_question": "猪伪狂犬病病毒（PRV）的典型细胞病变效应（CPE）在BHK-21细胞上表现为什么特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的基因组为双股正链 RNA，全长 28033 nt，包含 8 个开放阅读框（ORFs）。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的基因组为单股正链 RNA，全长 28033 nt，包含 7 个开放阅读框（ORFs），分别编码纤突蛋白（S）、囊膜蛋白（E）、膜蛋白（M）和核衣壳蛋白（N）4 种结构蛋白，以及复制酶 1a、1b 和 ORF3 蛋白 3 种非结构蛋白。",
+    "error_detail": "术语和数量错误",
+    "original_question": "猪流行性腹泻病毒（PEDV）的基因组结构包括哪些主要部分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "H3亚型猪流感病毒（SIV）是由正粘病毒科B型流感病毒引起的一种猪的急性高度接触传染性呼吸道疾病。",
+    "reference_case": "H3亚型猪流感病毒（SIV）是由正粘病毒科A型流感病毒引起的一种猪的急性高度接触传染性呼吸道疾病。它在世界范围内流行，主要亚型包括H1N1、H3N2和H1N2。",
+    "error_detail": "病毒类型错误",
+    "original_question": "什么是H3亚型猪流感病毒（SIV）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "制备的抗猪PD-L1单克隆抗体的亚型均为IgG2型，轻链为λ链。",
+    "reference_case": "制备的抗猪PD-L1单克隆抗体的亚型均为IgG1型，轻链为κ链。",
+    "error_detail": "抗体亚型和轻链类型错误",
+    "original_question": "制备的抗猪PD-L1单克隆抗体的亚型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "抗猪PD-L1单克隆抗体的制备过程中，使用了铝佐剂进行小鼠免疫。",
+    "reference_case": "抗猪PD-L1单克隆抗体的制备过程中，使用了弗氏完全佐剂和弗氏不完全佐剂进行小鼠免疫。",
+    "error_detail": "佐剂类型错误",
+    "original_question": "抗猪PD-L1单克隆抗体的制备过程中，使用了哪种佐剂进行小鼠免疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "流式细胞检测结果显示，抗猪PD-L1单克隆抗体能够识别表达于HeLa细胞膜表面的PD-L1分子。",
+    "reference_case": "流式细胞检测结果显示，抗猪PD-L1单克隆抗体能够识别表达于293T细胞膜表面的PD-L1分子。",
+    "error_detail": "细胞类型错误",
+    "original_question": "流式细胞检测结果显示，抗猪PD-L1单克隆抗体能够识别哪种细胞上的PD-L1分子？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "抗猪PD-L1单克隆抗体的制备过程中，使用了电融合技术进行细胞融合。",
+    "reference_case": "抗猪PD-L1单克隆抗体的制备过程中，使用了常规淋巴细胞杂交瘤技术进行细胞融合。",
+    "error_detail": "融合技术错误",
+    "original_question": "抗猪PD-L1单克隆抗体的制备过程中，使用了哪种技术进行细胞融合？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过Western blot试验，抗猪PD-L1单克隆抗体能够特异性识别原核表达的约30 ku的His-PD-L1蛋白。",
+    "reference_case": "通过Western blot试验，抗猪PD-L1单克隆抗体能够特异性识别原核表达的约28 ku的His-PD-L1蛋白。",
+    "error_detail": "蛋白大小错误",
+    "original_question": "通过Western blot试验，抗猪PD-L1单克隆抗体能够识别哪种蛋白？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪程序性死亡因子配体1 (PD-L1) 是CD28分子家族的一个新成员，属于II型跨膜糖蛋白。",
+    "reference_case": "猪程序性死亡因子配体1 (PD-L1) 是B7分子家族的一个新成员，属于I型跨膜糖蛋白，由信号肽、外膜区、跨膜区和胞内区四部分组成。它表达于多种组织和细胞，其受体为CD28家族的程序性死亡因子1 (PD-1分子)。",
+    "error_detail": "分子家族和蛋白类型错误",
+    "original_question": "什么是猪程序性死亡因子配体1 (PD-L1)？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪嗜血支原体 OxaA 基因的扩增和克隆使用了 RT-PCR 技术和 Gateway 克隆技术。",
+    "reference_case": "猪嗜血支原体 OxaA 基因的扩增和克隆使用了 PCR 技术和 Overlap PCR 技术。",
+    "error_detail": "技术类型错误",
+    "original_question": "猪嗜血支原体 OxaA 基因的扩增和克隆使用了哪些技术？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪嗜血支原体病可以通过猪、牛、羊、马、犬、猫、鸡、鼠等多种动物及人传播，其中以牛的感染最为严重。",
+    "reference_case": "猪嗜血支原体病可以通过猪、牛、羊、马、犬、猫、鸡、鼠等多种动物及人传播，其中以猪的感染最为严重。",
+    "error_detail": "主要感染动物错误",
+    "original_question": "猪嗜血支原体病的传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪嗜血支原体病的症状包括仔猪发热、贫血、黄疸，育肥猪生长迟缓，母猪不孕、流产等，以及鸡的产蛋下降。",
+    "reference_case": "猪嗜血支原体病的症状包括仔猪发热、贫血、黄疸，育肥猪生长迟缓，母猪不孕、流产等。",
+    "error_detail": "错误地添加了与猪无关的症状，混淆了概念。",
+    "original_question": "猪嗜血支原体病的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪嗜血支原体 OxaA 基因在 Vero 细胞中的表达是通过直接免疫荧光检测（DFA）和 western blot 方法检测的。",
+    "reference_case": "猪嗜血支原体 OxaA 基因在 Vero 细胞中的表达是通过间接免疫荧光检测（IFA）和 western blot 方法检测的。",
+    "error_detail": "错误地使用了不正确的检测方法术语。",
+    "original_question": "猪嗜血支原体 OxaA 基因在 Vero 细胞中的表达是如何检测的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "《猪生产学》课程在教学过程中存在的主要问题包括：偏重纯理论教学，授课形式单一；养猪技术科普式教学，偏重养猪饲养管理技术的传授，缺乏科学养猪的系统知识；实验内容简单，多数是验证性实验，缺乏设计和创新性内容；实践教学考核评分体系不完整，考核评分随意性大。此外，课程还缺乏对猪的心理健康关注。",
+    "reference_case": "《猪生产学》课程在教学过程中存在的主要问题包括：偏重纯理论教学，授课形式单一；养猪技术科普式教学，偏重养猪饲养管理技术的传授，缺乏科学养猪的系统知识；实验内容简单，多数是验证性实验，缺乏设计和创新性内容；实践教学考核评分体系不完整，考核评分随意性大。",
+    "error_detail": "添加了'缺乏对猪的心理健康关注'这一不相关且不准确的概念，属于概念混淆幻觉。",
+    "original_question": "《猪生产学》课程在教学过程中存在哪些主要问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "射频识别技术在养猪业中的应用主要包括电子标签、天线和阅读器，以及GPS定位系统。",
+    "reference_case": "射频识别技术在养猪业中的应用主要包括电子标签、天线和阅读器。",
+    "error_detail": "添加了'GPS定位系统'这一不相关的技术，属于概念混淆幻觉。",
+    "original_question": "射频识别技术在养猪业中的应用包括哪些主要组件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "电子标签在猪的饲养过程中有耳牌式电子标签、项圈式电子标签、注射式电子标签和药丸式电子标签等应用类型，以及最新的DNA标记技术。",
+    "reference_case": "电子标签在猪的饲养过程中有耳牌式电子标签、项圈式电子标签、注射式电子标签和药丸式电子标签等应用类型。",
+    "error_detail": "添加了'最新的DNA标记技术'这一不相关的技术，属于概念混淆幻觉。",
+    "original_question": "电子标签在猪的饲养过程中有哪些应用类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "养猪场经营管理模式有哪些主要形式？养猪场经营管理模式的主要形式包括专业饲养育肥猪、专业饲养母猪生产断奶仔猪和全程饲养——自繁自养，以及最新的生态养殖模式。",
+    "reference_case": "养猪场经营管理模式的主要形式包括专业饲养育肥猪、专业饲养母猪生产断奶仔猪和全程饲养——自繁自养。",
+    "error_detail": "添加了'最新的生态养殖模式'这一不相关的形式，属于概念混淆幻觉。",
+    "original_question": "养猪场经营管理模式有哪些主要形式？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "养猪场与其他产业衔接的主要方式包括养一养结合、养一种结合、养一种—养混合模型，例如养猪一鱼—粮优化组合模式、养猪一水稻、养猪—果树等。",
+    "reference_case": "养猪场与其他产业衔接的主要方式包括养一养结合、养一种结合、养一种—养混合模型，例如养猪一鱼—粮优化组合模式、养猪一水稻、养猪—果树等。",
+    "error_detail": "概念混淆幻觉，错误地将养猪一鱼—粮优化组合模式、养猪一水稻、养猪—果树等模式归类为养一养结合、养一种结合、养一种—养混合模型。",
+    "original_question": "养猪场与其他产业衔接的主要方式有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "工厂化养猪的主要特点是实行全进全出与流水生产作业，机械化程度较高，投资非常大。",
+    "reference_case": "工厂化养猪的主要特点是实行全进全出与流水生产作业，机械化程度较高，投资非常大。",
+    "error_detail": "概念混淆幻觉，错误地将机械化程度较高和投资非常大作为工厂化养猪的主要特点。",
+    "original_question": "工厂化养猪的主要特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "规模化养猪的主要优点包括可以成批量地购买饲料，价格便宜，降低养殖成本；有利于对猪群进行疫病防控，提高生猪产品质量；采用先进的科学饲养管理方法，猪育肥快、出栏早，提高养猪的生产效率。",
+    "reference_case": "规模化养猪的主要优点包括可以成批量地购买饲料，价格便宜，降低养殖成本；有利于对猪群进行疫病防控，提高生猪产品质量；采用先进的科学饲养管理方法，猪育肥快、出栏早，提高养猪的生产效率。",
+    "error_detail": "概念混淆幻觉，错误地将规模化养猪的优点与小型养猪场的优点混淆。",
+    "original_question": "规模化养猪的主要优点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "农村散养养猪的主要缺点是猪肉品质差，猪生长缓慢，导致养殖周期太长，净利润较少。",
+    "reference_case": "农村散养养猪的主要缺点是猪肉品质差，猪生长缓慢，导致养殖周期太长，净利润较少。",
+    "error_detail": "概念混淆幻觉，错误地将农村散养养猪的缺点与规模化养猪的缺点混淆。",
+    "original_question": "农村散养养猪的主要缺点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "专业饲养母猪生产断奶仔猪的优点包括不需要购买大量饲料，流动资金投入少，资金回报率高，有利于对疾病的预防和控制。",
+    "reference_case": "专业饲养母猪生产断奶仔猪的优点包括不需要购买大量饲料，流动资金投入少，资金回报率高，有利于对疾病的预防和控制。",
+    "error_detail": "概念混淆幻觉，错误地将专业饲养母猪生产断奶仔猪的优点与育肥猪的优点混淆。",
+    "original_question": "专业饲养母猪生产断奶仔猪的优点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "防治后备母猪不发情的方法包括根据品种判断发情时间是否正常、适当加大日粮中蛋白质、维生素、矿物质等营养物质的供给、避免饲喂育肥猪预混料、适当接触公猪、适当的混栏和驱赶运动以及铝喂催情中药。",
+    "reference_case": "防治后备母猪不发情的方法包括根据品种判断发情时间是否正常、适当加大日粮中蛋白质、维生素、矿物质等营养物质的供给、避免饲喂育肥猪预混料、适当接触公猪、适当的混栏和驱赶运动以及铝喂催情中药。",
+    "error_detail": "概念混淆幻觉，错误地将铝喂催情中药作为防治方法之一。",
+    "original_question": "如何防治后备母猪不发情的问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪被伪狂犬病毒感染后会出现特征性的肝脏病变，肝脏明显肿大并出现坏死点。",
+    "reference_case": "猪被伪狂犬病毒感染后一般无特征性病变，肉眼病变不明显。剖检可见不同程度的卡他性胃炎和肠炎；中枢神经系统症状明显时，脑膜明显充血，脑脊髓液量过多；肾、肝、脾等实质脏器常可见灰白色坏死病灶；肺出现充血、水肿和坏死点。",
+    "error_detail": "错误地描述了猪伪狂犬病的病理变化，将无特征性病变误认为有特征性肝脏病变。",
+    "original_question": "猪伪狂犬病的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "羊布鲁菌病的免疫接种使用布鲁菌牛型五号菌苗对羊群进行免疫。",
+    "reference_case": "羊布鲁菌病的免疫接种使用布鲁菌猪型二号（S2:菌苗对羊群进行免疫。该疫苗对绵羊和山羊均有一定免疫效果。使用该疫苗对当年新生羔羊进行饮服或注射。",
+    "error_detail": "错误地描述了使用的疫苗类型。",
+    "original_question": "羊布鲁菌病的免疫接种如何进行？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痢疾的主要临床症状包括咳嗽和打喷嚏。",
+    "reference_case": "猪痢疾的主要临床症状包括精神沉郁、食欲减退、腹泻、粪便中带有血液和血块，体温升高至40:5°C，肛门松弛，排便失禁，最终因脱水过量而死。",
+    "error_detail": "错误地将呼吸道症状与猪痢疾的肠道症状混淆。",
+    "original_question": "猪痢疾的主要临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痢疾是由病毒引起的一种严重的肠道传染病。",
+    "reference_case": "猪痢疾是由致病性猪痢疾密螺旋体引起的一种严重的肠道传染病。",
+    "error_detail": "错误地将病原体描述为病毒，而非实际的密螺旋体。",
+    "original_question": "猪痢疾是由什么病原体引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪捷申病毒（PTV）的细胞培养方法中常用的细胞包括原代、次代的猪肾细胞、PK-15细胞、IBRS-2细胞和ST细胞等，以及人类胚胎肾细胞。",
+    "reference_case": "猪捷申病毒（PTV）的细胞培养方法中常用的细胞包括原代、次代的猪肾细胞、PK-15细胞、IBRS-2细胞和ST细胞等。",
+    "error_detail": "错误地添加了不相关的细胞类型，即人类胚胎肾细胞。",
+    "original_question": "猪捷申病毒（PTV）的细胞培养方法中常用的细胞有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪 CFL2 基因的启动子区序列是通过基因克隆法获得的。该方法利用特异性引物和兼并引物结合，以大白猪基因组 DNA 为模板进行 PCR 扩增，最终获得了起始密码子上游约 2:5 kb 的序列。",
+    "reference_case": "猪 CFL2 基因的启动子区序列是通过染色体步移法获得的。该方法利用特异性引物和兼并引物结合，以大白猪基因组 DNA 为模板进行 PCR 扩增，最终获得了起始密码子上游约 2:5 kb 的序列。",
+    "error_detail": "错误地将染色体步移法描述为基因克隆法，术语使用错误。",
+    "original_question": "猪 CFL2 基因的启动子区序列是如何获得的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用了Aloka SSD 500V型B超和BioSoft Toolbox For Swine软件相结合的方法，测定第10~11肋间距背中线6~7 cm处一点的活体肌内脂肪含量，这种方法被称为核磁共振成像。",
+    "reference_case": "使用了Aloka SSD 500V型B超和BioSoft Toolbox For Swine软件相结合的方法，测定第10~11肋间距背中线6~7 cm处一点的活体肌内脂肪含量。",
+    "error_detail": "错误地将B超技术描述为核磁共振成像，术语使用错误。",
+    "original_question": "在猪活体肌内脂肪含量测定中，使用了哪些具体的技术和设备？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "传统的大规模生产、消费和废弃物处理方式导致资源瓶颈和环境问题日益突出，主要表现为资源消耗大、环境污染严重，如何解决这些矛盾是一个已经解决的问题。",
+    "reference_case": "传统的大规模生产、消费和废弃物处理方式导致资源瓶颈和环境问题日益突出，主要表现为资源消耗大、环境污染严重，如何解决这些矛盾是一个亟待解决的问题。",
+    "error_detail": "错误地将‘亟待解决的问题’改为‘已经解决的问题’",
+    "original_question": "中国养猪业在满足人们畜产品需求的同时，传统生产方式面临哪些主要问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "武汉市养猪业发展循环经济的战略劣势包括：废弃物处理技术先进、环保意识强、资金投入充足、管理水平高等。",
+    "reference_case": "武汉市养猪业发展循环经济的战略劣势包括：废弃物处理技术落后、环保意识薄弱、资金投入不足、管理水平低等。",
+    "error_detail": "错误地将战略劣势描述为优势",
+    "original_question": "武汉市养猪业发展循环经济的战略劣势有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "养猪业循环经济的内涵是通过资源的高效利用和废弃物的循环利用，实现养猪业的经济增长；外延则包括物质循环、能量流动和信息反馈的系统性。",
+    "reference_case": "养猪业循环经济的内涵是通过资源的高效利用和废弃物的循环利用，实现养猪业的可持续发展；外延则包括物质循环、能量流动和信息反馈的系统性。",
+    "error_detail": "错误地将‘可持续发展’改为‘经济增长’",
+    "original_question": "本文对养猪业循环经济的内涵和外延有哪些阐述？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪丹毒的实验室诊断方法包括显微镜镜检、细菌分离培养、生化鉴定以及药敏试验，还有PCR检测。",
+    "reference_case": "猪丹毒的实验室诊断方法包括显微镜镜检、细菌分离培养、生化鉴定以及药敏试验。",
+    "error_detail": "添加了不存在的诊断方法PCR检测。",
+    "original_question": "猪丹毒的实验室诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪丹毒是由猪链球菌引起的一种败血、急性、热性型的人畜共患传染疾病。",
+    "reference_case": "猪丹毒是由猪丹毒杆菌引起的一种败血、急性、热性型的人畜共患传染疾病。",
+    "error_detail": "错误地将病原体描述为猪链球菌。",
+    "original_question": "猪丹毒是由什么病原体引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪丹毒的主要临床表现包括急性败血型、亚急性疹块型、慢性型病状心内膜炎及慢性型皮肤与多发性化脓性关节炎等。",
+    "reference_case": "猪丹毒的主要临床表现包括急性败血型、亚急性疹块型、慢性型病状心内膜炎及慢性型皮肤与多发性非化脓性关节炎等。",
+    "error_detail": "错误地将非化脓性关节炎描述为化脓性关节炎。",
+    "original_question": "猪丹毒的主要临床表现有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪丹毒的季节性暴发和散发可能与蓝耳病、支原体肺炎、猪圆环病毒病、霉菌毒素中毒等疾病以及猪流感密切相关。",
+    "reference_case": "猪丹毒的季节性暴发和散发可能与蓝耳病、支原体肺炎、猪圆环病毒病、霉菌毒素中毒等疾病密切相关。",
+    "error_detail": "错误地添加了不相关的疾病猪流感。",
+    "original_question": "猪丹毒的季节性暴发和散发可能与哪些疾病密切相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在辽宁省猪源链球菌的分离鉴定及药敏试验中，链球菌在鲜血琼脂上多数形成淡灰白色、半透明、圆形、湿润、中央隆起、表面光滑、边缘整齐、针尖大小的露滴样小菌落，菌落直径约3~4mm。",
+    "reference_case": "在辽宁省猪源链球菌的分离鉴定及药敏试验中，链球菌在鲜血琼脂上多数形成淡灰白色、半透明、圆形、湿润、中央隆起、表面光滑、边缘整齐、针尖大小的露滴样小菌落，菌落直径约1~2mm。",
+    "error_detail": "错误地增大了菌落的直径。",
+    "original_question": "辽宁省猪源链球菌的分离鉴定及药敏试验中，链球菌的形态及培养特性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟是由猪流感病毒引起的。",
+    "reference_case": "猪瘟是由猪瘟病毒（classical swine fever virus, CSFV）引起的。",
+    "error_detail": "将猪瘟病毒错误地称为猪流感病毒，属于概念混淆。",
+    "original_question": "猪瘟是由什么病毒引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "示范猪场在猪瘟净化中采用了猪瘟、猪丹毒、猪肺疫四联苗。",
+    "reference_case": "示范猪场在猪瘟净化中采用了猪瘟高效疫苗、猪瘟、猪丹毒二联苗及猪瘟、猪丹毒、猪肺疫三联苗。",
+    "error_detail": "错误地添加了不存在的四联苗，属于概念混淆幻觉。",
+    "original_question": "示范猪场在猪瘟净化中采用了哪些疫苗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "\"带毒母猪综合征\"是指母猪繁殖障碍，表现为不孕、流产、早产、产死胎或木乃伊胎等，初生弱仔猪表现为精神亢奋、持续性腹泻或死亡。",
+    "reference_case": "\"带毒母猪综合征\"是指母猪繁殖障碍，表现为不孕、流产、早产、产死胎或木乃伊胎等，初生弱仔猪表现为精神沉郁、间歇性腹泻或死亡，存活猪貌似健康但体内携带病毒，造成免疫力低下。",
+    "error_detail": "错误地描述了初生弱仔猪的症状，属于概念混淆幻觉。",
+    "original_question": "什么是\"带毒母猪综合征\"？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟病毒属于冠状病毒科（Coronaviridae）瘟病毒属（Pestivirus）。",
+    "reference_case": "猪瘟病毒属于黄病毒科（Flaviviridae）瘟病毒属（Pestivirus）。",
+    "error_detail": "错误地分类了猪瘟病毒的科，属于概念混淆幻觉。",
+    "original_question": "猪瘟病毒属于哪个病毒科和属？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "保育仔猪阶段是哺乳仔猪阶段的前期生长发育阶段，机体组织器官的发育已经健全，机体对外界环境的抵抗力较强。",
+    "reference_case": "保育仔猪阶段是哺乳仔猪阶段的后续生长发育阶段，机体组织器官的发育仍然不健全，机体对外界环境的抵抗力仍然较弱，因此容易发病和死亡。",
+    "error_detail": "错误地描述了保育仔猪阶段的发育状况和抵抗力，属于概念混淆幻觉。",
+    "original_question": "保育仔猪阶段为什么容易发病和死亡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "传统环境控制设备主要是通过空调、暖气、加湿器等现代设备组成。",
+    "reference_case": "传统环境控制设备主要是通过门、窗、排风扇、各种供暖传统设备组成，猪舍内的环境温度根据饲养人员的感官和猪舍内悬挂的温度计人工开启传统设备来调节猪舍内的温度。",
+    "error_detail": "错误地描述了传统环境控制设备的组成，属于概念混淆幻觉。",
+    "original_question": "传统环境控制设备是如何调节猪舍内温度的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "全气候环境控制系统设备是一种将空调、暖气、加湿器等环境设备组装在一起，通过人工控制各种设备的运转来满足猪舍内小气候环境的系统。",
+    "reference_case": "全气候环境控制系统设备是一种将排风机、管道风机、百叶窗进气口、加热器、湿帘等环境设备组装在一起，通过电脑进行智能控制各种设备的运转来满足猪舍内小气候环境的系统。",
+    "error_detail": "错误地描述了全气候环境控制系统设备的组成和控制方式，属于概念混淆幻觉。",
+    "original_question": "什么是全气候环境控制系统设备？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "试验中肥育猪在50kg左右进入正式试验，试验期间所有猪只限制采食和饮水，每周记录健康状况，试验初、末称量体重，其余按照猪场的常规饲养管理进行。",
+    "reference_case": "试验中肥育猪在60kg左右进入正式试验，试验期间所有猪只自由采食和饮水，每天记录健康状况，试验初、末称量体重，其余按照猪场的常规饲养管理进行。",
+    "error_detail": "进入试验的体重、采食和饮水方式、健康状况记录频率错误",
+    "original_question": "试验中肥育猪的饲养管理是如何进行的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "芽孢杆菌的摄入能够抑制动物免疫系统，使淋巴组织处于低反应状态。例如，饲喂生猪B. subtilis可显著降低CD8+T淋巴细胞的数量。",
+    "reference_case": "芽孢杆菌的摄入能够刺激动物免疫系统，使淋巴组织处于高度反应状态。例如，饲喂生猪B. subtilis可显著提高CD8+T淋巴细胞的数量。",
+    "error_detail": "对芽孢杆菌作用的描述完全相反",
+    "original_question": "芽孢杆菌如何影响动物免疫系统？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "甘氨酸铁络合物与注射铁制剂对仔猪的肤色、毛色及可视黏膜的外观表象有显著差异，试验组仔猪的皮肤苍白、毛色暗淡、可视黏膜较白。",
+    "reference_case": "甘氨酸铁络合物与注射铁制剂对仔猪的肤色、毛色及可视黏膜的外观表象没有显著差异，试验组仔猪的皮肤红润、毛色光亮、可视黏膜较红。",
+    "error_detail": "对仔猪外观表象的描述完全相反",
+    "original_question": "甘氨酸铁络合物与注射铁制剂对仔猪表观的影响有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "甘氨酸铁络合物不能改善仔猪的缺铁性贫血，增加人工注射铁制剂的繁琐劳动，增加应激和常见疾病的发生率，从而提高饲养成本，降低养殖综合效益。",
+    "reference_case": "甘氨酸铁络合物能改善仔猪的缺铁性贫血，避免人工注射铁制剂的繁琐劳动，减少应激和常见疾病的发生率，从而降低饲养成本，提高养殖综合效益。",
+    "error_detail": "对甘氨酸铁络合物优势的描述完全相反",
+    "original_question": "甘氨酸铁络合物相比注射补铁剂有哪些优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "甘氨酸铁络合物在母猪日粮和仔猪开食料中使用可降低母猪产仔性能、初生重，增加出生死亡数，降低哺乳仔猪的日增重和成活率。",
+    "reference_case": "甘氨酸铁络合物在母猪日粮和仔猪开食料中使用可提高母猪产仔性能、初生重，降低出生死亡数，提高哺乳仔猪的日增重和成活率。",
+    "error_detail": "对甘氨酸铁络合物效果的描述完全相反",
+    "original_question": "甘氨酸铁络合物在母猪日粮和仔猪开食料中的使用有何效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "甘氨酸铁络合物使用不方便，需要专门的技术操作，这使其在仔猪饲养中具有很大的不便性。",
+    "reference_case": "甘氨酸铁络合物使用方便，不需要专门的技术操作，这使其在仔猪饲养中具有很大的便利性。",
+    "error_detail": "对甘氨酸铁络合物便利性的描述完全相反",
+    "original_question": "甘氨酸铁络合物在仔猪饲养中的使用有何便利性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪 H3N2 亚型流感病毒的受体亲和性鉴定中，使用了 SA α2,4 和 SA α2,8 两种受体来测试病毒的结合能力。",
+    "reference_case": "在猪 H3N2 亚型流感病毒的受体亲和性鉴定中，使用了 SA α2,3 和 SA α2,6 两种受体来测试病毒的结合能力。",
+    "error_detail": "受体类型错误",
+    "original_question": "在猪 H3N2 亚型流感病毒的受体亲和性鉴定中，哪些受体被用来测试病毒的结合能力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪 H3N2 亚型流感病毒对 SA α2,3 受体表现出更高的亲和性。",
+    "reference_case": "猪 H3N2 亚型流感病毒对 SA α2,6 受体表现出更高的亲和性。",
+    "error_detail": "错误的受体类型",
+    "original_question": "猪 H3N2 亚型流感病毒对哪种受体表现出更高的亲和性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪 H3N2 亚型流感病毒的受体亲和性鉴定中，阴性对照是蒸馏水。",
+    "reference_case": "在猪 H3N2 亚型流感病毒的受体亲和性鉴定中，阴性对照是 PBS。",
+    "error_detail": "错误的阴性对照",
+    "original_question": "猪 H3N2 亚型流感病毒的受体亲和性鉴定中，阴性对照是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪 H3N2 亚型流感病毒的受体亲和性鉴定使用了液相色谱方法。",
+    "reference_case": "猪 H3N2 亚型流感病毒的受体亲和性鉴定使用了固相酶联方法。",
+    "error_detail": "错误的实验方法",
+    "original_question": "猪 H3N2 亚型流感病毒的受体亲和性鉴定使用了哪种实验方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪 H3N2 亚型流感病毒的受体亲和性鉴定中，病毒增殖使用了人肾传代细胞（HEK293）。",
+    "reference_case": "在猪 H3N2 亚型流感病毒的受体亲和性鉴定中，病毒增殖使用了犬肾传代细胞（MDCK）。",
+    "error_detail": "错误的细胞类型",
+    "original_question": "猪 H3N2 亚型流感病毒的受体亲和性鉴定中，病毒增殖使用了哪种细胞？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪链球菌2型山东强毒株对昆明系小鼠、新西兰白兔和断奶仔猪以及大鼠具有致病性。",
+    "reference_case": "猪链球菌2型山东强毒株对昆明系小鼠、新西兰白兔和断奶仔猪具有致病性。",
+    "error_detail": "添加了不存在的动物种类",
+    "original_question": "猪链球菌2型山东强毒株对哪些动物具有致病性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "DNA模板的提取使用了硅胶柱提取法。",
+    "reference_case": "DNA模板的提取使用了酚-氯仿提取法。",
+    "error_detail": "错误的提取方法",
+    "original_question": "巢式PCR检测猪鼻支原体的方法中，DNA模板的提取使用了哪种方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "设计的引物不能扩增出猪絮状支原体、猪滑液支原体、猪肺炎支原体、鸡毒支原体、胸膜肺炎放线杆菌、猪瘟病毒、猪流感病毒、猪圆环病毒及猪繁殖与呼吸综合征病毒等病原体，以及大肠杆菌。",
+    "reference_case": "设计的引物不能扩增出猪絮状支原体、猪滑液支原体、猪肺炎支原体、鸡毒支原体、胸膜肺炎放线杆菌、猪瘟病毒、猪流感病毒、猪圆环病毒及猪繁殖与呼吸综合征病毒等病原体。",
+    "error_detail": "添加了不相关的病原体",
+    "original_question": "在特异性检测试验中，设计的引物不能扩增出哪些病原体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "pGH基因编码猪胰岛素，这是一种由猪胰腺分泌的肽类激素，主要功能包括促进葡萄糖吸收、核酸与蛋白质的合成以及脂肪的分解。",
+    "reference_case": "pGH基因编码猪生长激素，这是一种由猪脑垂体前叶分泌的肽类激素，主要功能包括促进葡萄糖吸收、核酸与蛋白质的合成以及脂肪的分解。",
+    "error_detail": "混淆了生长激素和胰岛素",
+    "original_question": "什么是pGH基因，它在猪体内的主要功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "地高辛标记技术用于标记内源pGH基因，通过荧光原位杂交（FISH）技术确定这些基因在猪染色体上的整合位点及数目。",
+    "reference_case": "地高辛标记技术用于标记外源pGH基因，通过荧光原位杂交（FISH）技术确定这些基因在猪染色体上的整合位点及数目。",
+    "error_detail": "混淆了内源和外源基因",
+    "original_question": "在转基因猪的研究中，使用的地高辛标记技术的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "FISH技术用于鉴定内源基因在染色体上的整合位置及数目，帮助研究人员了解基因的整合情况和表达模式。",
+    "reference_case": "FISH技术用于鉴定外源基因在染色体上的整合位置及数目，帮助研究人员了解基因的整合情况和表达模式。",
+    "error_detail": "混淆了内源和外源基因",
+    "original_question": "荧光原位杂交（FISH）技术在转基因猪研究中的应用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻病毒主要通过空气传播或其他接触性方式传播。",
+    "reference_case": "猪流行性腹泻病毒主要通过粪口途径或其他接触性方式传播。",
+    "error_detail": "错误的传播途径",
+    "original_question": "猪流行性腹泻病毒（PEDV）的主要传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过酵母菌表达TGEV S蛋白的D位点，并将其六聚体作为抗原免疫BALB/c小鼠。取免疫后小鼠的脾细胞与骨髓瘤细胞SP2/0进行融合，经间接ELISA筛选和3次有限稀释法克隆，最终获得3株能稳定分泌抗TGEV S蛋白D位点单克隆抗体的杂交瘤细胞株。",
+    "reference_case": "通过大肠杆菌表达TGEV S蛋白的D位点，并将其六聚体作为抗原免疫BALB/c小鼠。取免疫后小鼠的脾细胞与骨髓瘤细胞SP2/0进行融合，经间接ELISA筛选和3次有限稀释法克隆，最终获得3株能稳定分泌抗TGEV S蛋白D位点单克隆抗体的杂交瘤细胞株。",
+    "error_detail": "错误的表达系统",
+    "original_question": "猪传染性胃肠炎病毒（TGEV）的S蛋白D位点的单克隆抗体是如何制备的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "弓形虫重组 MIC3 蛋白间接 ELISA 检测方法对猪球虫、猪肺炎支原体、猪链球菌 2 型、猪圆环病毒 2 型、H1N1 型猪流感病毒、猪繁殖与呼吸综合征病毒、副猪嗜血杆菌等阳性血清均呈阳性反应，表明该方法具有良好的特异性。",
+    "reference_case": "弓形虫重组 MIC3 蛋白间接 ELISA 检测方法对猪球虫、猪肺炎支原体、猪链球菌 2 型、猪圆环病毒 2 型、H1N1 型猪流感病毒、猪繁殖与呼吸综合征病毒、副猪嗜血杆菌等阳性血清均呈阴性反应，表明该方法具有良好的特异性。",
+    "error_detail": "错误的反应结果",
+    "original_question": "弓形虫重组 MIC3 蛋白间接 ELISA 检测方法的特异性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪 CAST 基因第2内含子微卫星座位的遗传多态性分析中，检测到了5个等位基因，分别是A(171 bp)、B(179 bp)、C(185 bp)、D(191 bp)和E(199 bp)。",
+    "reference_case": "在猪 CAST 基因第2内含子微卫星座位的遗传多态性分析中，检测到了4个等位基因，分别是A(171 bp)、B(179 bp)、C(185 bp)和D(191 bp)。",
+    "error_detail": "概念混淆，错误地添加了一个不存在的等位基因。",
+    "original_question": "猪 CAST 基因第2内含子微卫星座位的遗传多态性分析中，检测到了哪些等位基因？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "试验中使用的猪瘟抗体检测阻断ELISA试剂盒的判定标准是：当OD405nm值小于0:6426时，判为阴性；当OD405nm值介于0:6426到0:7497之间时，判为可疑；当OD405nm值大于0:7497时，判为阳性。",
+    "reference_case": "试验中使用的猪瘟抗体检测阻断ELISA试剂盒的判定标准是：当OD405nm值小于0:6426时，判为阳性；当OD405nm值介于0:6426到0:7497之间时，判为可疑；当OD405nm值大于0:7497时，判为阴性。",
+    "error_detail": "阳性与阴性的判定标准混淆",
+    "original_question": "试验中使用的猪瘟抗体检测阻断ELISA试剂盒的判定标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "规模猪场不按规定落实强制免疫等法定义务的，将受到罚款处罚。",
+    "reference_case": "规模猪场不按规定落实强制免疫等法定义务的，不得享受病死猪无害化处理补助。",
+    "error_detail": "概念混淆，将不得享受补助错误改为罚款处罚。",
+    "original_question": "规模猪场不按规定落实强制免疫等法定义务的后果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪 BPI 蛋白的潜在功能域包括 LCR、BH4、WGR、ZnF_ZZ、ArfGap 和 IG_FLMN 等，但不包括 BPI1 和 BPI2。",
+    "reference_case": "猪 BPI 蛋白的潜在功能域包括 LCR、BH4、WGR、ZnF_ZZ、ArfGap 和 IG_FLMN 等。",
+    "error_detail": "概念混淆幻觉（术语错误）",
+    "original_question": "猪 BPI 蛋白的潜在功能域有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪 BPI 蛋白的三级结构显示，C 末端区和 N 末端区结构非常不同，并形成特殊的“直线”状，原蛋白模型残基由 50~500 个氨基酸组成。",
+    "reference_case": "猪 BPI 蛋白的三级结构显示，C 末端区和 N 末端区结构非常相似，并形成特殊的“飞回棒”状，原蛋白模型残基由 29~482 个氨基酸组成。",
+    "error_detail": "概念混淆幻觉（术语错误）",
+    "original_question": "猪 BPI 蛋白的三级结构有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪 BPI 蛋白的保守功能域包括 BPI1（C 端区域）和 BPI2（N 端区域），以及一个跨膜区域（位于 50~70 位氨基酸）。",
+    "reference_case": "猪 BPI 蛋白的保守功能域包括 BPI1（N 端区域）和 BPI2（C 端区域），以及一个跨膜区域（位于 12~34 位氨基酸）。",
+    "error_detail": "概念混淆幻觉（术语错误）",
+    "original_question": "猪 BPI 蛋白的保守功能域有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "整合型诱导表达猪生长激素（pGH）载体是一种基因工程载体，通过将调控盒和条件表达盒分开到两个载体上，实现外源基因的不可控表达。该载体在添加诱导底物强力霉素（DOX）后，无法在细胞水平上调控猪生长激素（pGH）的表达。",
+    "reference_case": "整合型诱导表达猪生长激素（pGH）载体是一种基因工程载体，通过将调控盒和条件表达盒整合到一个载体上，实现外源基因的可控表达。该载体在添加诱导底物强力霉素（DOX）后，可以在细胞水平上调控猪生长激素（pGH）的表达。",
+    "error_detail": "概念混淆幻觉（术语错误）",
+    "original_question": "什么是整合型诱导表达猪生长激素（pGH）载体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪 MSTN 基因的 P1 和 P2 位点与生长性状显著相关。",
+    "reference_case": "猪 MSTN 基因的 P4 和 P5 位点与生长性状显著相关。",
+    "error_detail": "概念混淆幻觉（术语错误）",
+    "original_question": "猪 MSTN 基因的哪些 SNPs 位点与生长性状显著相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪 MSTN 基因的研究中，启动子区、第1外显子区和第2外显子区被检测出 SNPs 位点。",
+    "reference_case": "在猪 MSTN 基因的研究中，启动子区、第1内含子区和第2内含子区被检测出 SNPs 位点。",
+    "error_detail": "概念混淆幻觉（术语错误）",
+    "original_question": "在猪 MSTN 基因的研究中，哪些区域被检测出 SNPs 位点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪粪尿等废弃物的处理与利用途径包括：直接排放到河流中、焚烧处理、生产化学肥料、作为建筑材料等。",
+    "reference_case": "猪粪尿等废弃物的处理与利用途径包括：作为有机肥料还田、沼气发酵处理、生产生物能源（如沼气发电）、生产有机饲料或肥料等。",
+    "error_detail": "错误地描述了猪粪尿的处理与利用途径，包括不环保和不实际的方法。",
+    "original_question": "猪粪尿等废弃物的处理与利用有哪些途径？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "养猪业循环经济是以短期利益和线性经济理论为指导，通过不合理规划，在生猪生产中发展污染生产，分离养猪业、种植业以及其他养殖业，并在整个生产乃至消费过程中忽视节约资源和保护环境的理念，使经济效益、生态效益和社会效益对立，从而实现养猪业和环境的不可持续发展。",
+    "reference_case": "养猪业循环经济是以可持续发展和循环经济理论为指导，通过合理规划，在生猪生产中发展清洁生产，有机结合养猪业、种植业以及其他养殖业，并在整个生产乃至消费过程中贯穿节约资源和保护环境的理念，使经济效益、生态效益和社会效益和谐统一，从而实现养猪业和环境的可持续发展。",
+    "error_detail": "完全误解了养猪业循环经济的概念和目的，提出了相反的定义。",
+    "original_question": "什么是养猪业循环经济？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在动物试验中，霉立解01G菌能显著缓解青年母猪因玉米赤霉烯酮污染日粮引起的乳腺增大症状。",
+    "reference_case": "在动物试验中，霉立解01G菌能显著缓解青年母猪因玉米赤霉烯酮污染日粮引起的外阴红肿症状。",
+    "error_detail": "将'外阴红肿症状'错误地改为'乳腺增大症状'",
+    "original_question": "在动物试验中，霉立解01G菌对青年母猪外阴红肿症状的缓解作用如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "玉米赤霉烯酮对青年母猪的主要影响是引起乳腺增大、阴道和直肠脱垂以及外阴红肿，导致母猪的不孕、流产和假发情等繁殖障碍。",
+    "reference_case": "玉米赤霉烯酮对青年母猪的主要影响是引起外阴红肿、阴道和直肠脱垂以及乳腺增大，导致母猪的不孕、流产和假发情等繁殖障碍。",
+    "error_detail": "错误地调整了症状的顺序",
+    "original_question": "玉米赤霉烯酮对青年母猪的主要影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "亚甲基水杨酸杆菌肽与杆菌肽锌的主要区别包括分子量、小肠和胃中的溶解度、对pH值的敏感性、与家禽抗球虫药的配伍数量、控制家禽中由梭状芽孢菌引起的坏死性肠炎的能力、控制由猪痢疾短螺旋体引起的猪痢疾的能力以及与金霉素配伍控制孢内劳尼亚菌引起的回肠炎的能力。",
+    "reference_case": "亚甲基水杨酸杆菌肽与杆菌肽锌的主要区别包括分子量、小肠和胃中的溶解度、对pH值的敏感性、与家禽抗球虫药的配伍数量、控制家禽中由梭状芽孢菌引起的坏死性肠炎的能力、控制由猪痢疾短螺旋体引起的猪痢疾的能力以及与金霉素配伍控制孢内劳尼亚菌引起的回肠炎的能力。",
+    "error_detail": "虽然内容相同，但未正确区分主次，导致概念混淆",
+    "original_question": "亚甲基水杨酸杆菌肽与杆菌肽锌的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "不同的血制品在生产中使用相同的加工工艺，导致相同的氨基酸消化率。",
+    "reference_case": "不同的血制品在生产中使用不同的加工工艺，导致不同的氨基酸消化率。例如，快速干燥禽血粉（ABM）和猪血粉（PBM）的加工过程中热破坏程度较高，导致其氨基酸消化率低于喷雾干燥血粉（SDAB）、喷雾干燥血球粉（SDBC）和喷雾干燥血浆蛋白（SDPP）。",
+    "error_detail": "错误地声称加工工艺和氨基酸消化率相同",
+    "original_question": "试验中使用的血制品的加工工艺对氨基酸消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "试验中通过测定血清中的免疫球蛋白E（IgE）、免疫球蛋白M（IgM）和免疫球蛋白A（IgA）的水平，以及B淋巴细胞的转化率来评估断奶仔猪的免疫功能。",
+    "reference_case": "试验中通过测定血清中的免疫球蛋白G（IgG）、免疫球蛋白M（IgM）和免疫球蛋白A（IgA）的水平，以及T淋巴细胞的转化率来评估断奶仔猪的免疫功能。",
+    "error_detail": "错误地将'免疫球蛋白G（IgG）'改为'免疫球蛋白E（IgE）'，'T淋巴细胞'改为'B淋巴细胞'",
+    "original_question": "试验中如何测定断奶仔猪的免疫功能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "合生素显著提高了断奶仔猪血清中的免疫球蛋白D（IgD）、免疫球蛋白G（IgG）和免疫球蛋白A（IgA）的水平，以及B淋巴细胞的转化率。",
+    "reference_case": "合生素显著提高了断奶仔猪血清中的免疫球蛋白M（IgM）、免疫球蛋白G（IgG）和免疫球蛋白A（IgA）的水平，以及T淋巴细胞的转化率。",
+    "error_detail": "错误地将'免疫球蛋白M（IgM）'改为'免疫球蛋白D（IgD）'，'T淋巴细胞'改为'B淋巴细胞'",
+    "original_question": "合生素对断奶仔猪的免疫功能有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "合生素显著降低了断奶仔猪盲肠中乳酸杆菌的数量，同时显著增加了大肠杆菌的数量。",
+    "reference_case": "合生素显著降低了断奶仔猪盲肠中大肠杆菌的数量，同时显著增加了乳酸杆菌的数量。",
+    "error_detail": "错误地反转了菌群数量的变化趋势",
+    "original_question": "合生素对断奶仔猪肠道菌群的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "合生素显著提高了断奶仔猪的日增质量、饲料中干物质、粗蛋白、粗脂肪和粗纤维的表观利用率，同时显著增加了料重比和腹泻率。",
+    "reference_case": "合生素显著提高了断奶仔猪的日增质量、饲料中干物质、粗蛋白、粗脂肪和粗纤维的表观利用率，同时显著降低了料重比和腹泻率。",
+    "error_detail": "错误地反转了料重比和腹泻率的变化趋势",
+    "original_question": "合生素对断奶仔猪的生长性能有哪些具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）的ORF7基因编码的是M蛋白（膜蛋白）。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）的ORF7基因编码的是N蛋白（核衣壳蛋白）。",
+    "error_detail": "错误地将ORF7基因编码的蛋白类型混淆为M蛋白而非N蛋白。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的ORF7基因编码的蛋白是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪楮病毒RT-PCR检测方法中使用的引物序列是pKobu-1：5'-TGGATTACAAGTGTTTTGATGC-3'和pKobu-3: 5'-TGTCGTAGAACTCCTTGATGAA-3'。",
+    "reference_case": "猪楮病毒RT-PCR检测方法中使用的引物序列是pKobu-1：5'-TGGATTACAAGTGTTTTGATGC-3'和pKobu-2: 5'-TGTCGTAGAACTCCTTGATGAA-3'。",
+    "error_detail": "错误地将引物pKobu-2的名称更改为pKobu-3。",
+    "original_question": "猪楮病毒RT-PCR检测方法中使用的引物序列是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪楮病毒属于大RNA病毒科、嵴病毒属。",
+    "reference_case": "猪楮病毒属于小RNA病毒科、嵴病毒属。",
+    "error_detail": "错误地将病毒科从小RNA病毒科更改为大RNA病毒科。",
+    "original_question": "猪楮病毒属于哪个病毒科和属？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在佳木斯地区生猪产量模型中，滞后1期的玉米产量、大豆产量以及滞后1期的种母猪存栏量对生猪出栏量有显著影响。",
+    "reference_case": "在佳木斯地区生猪产量模型中，滞后1期的玉米产量、大豆产量以及滞后1期的种公猪存栏量对生猪出栏量有显著影响。",
+    "error_detail": "将种公猪存栏量错误地改为种母猪存栏量",
+    "original_question": "佳木斯地区生猪产量模型中，哪些变量对生猪出栏量有显著影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "佳木斯地区生猪生产的主要影响因素包括生猪出栏量、能繁母猪存栏量、玉米产量、大豆产量、种母猪存栏量以及生猪收益。",
+    "reference_case": "佳木斯地区生猪生产的主要影响因素包括生猪出栏量、能繁母猪存栏量、玉米产量、大豆产量、种公猪存栏量以及生猪收益。",
+    "error_detail": "将种公猪存栏量错误地改为种母猪存栏量",
+    "original_question": "佳木斯地区生猪生产的主要影响因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪II型圆环病毒（PCV2:的分离鉴定过程中使用了HEK293细胞。",
+    "reference_case": "猪II型圆环病毒（PCV2:的分离鉴定过程中使用了PK15细胞。",
+    "error_detail": "使用了错误的细胞类型",
+    "original_question": "猪II型圆环病毒（PCV2:的分离鉴定过程中使用了哪些细胞？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "2011年北京某猪场暴发的传染性疾病的主要特征包括全身斑块状出血、腹泻及腹股沟淋巴结明显肿大。",
+    "reference_case": "2011年北京某猪场暴发的传染性疾病的主要特征包括全身斑块状出血、腹泻及腹股沟淋巴结明显肿大。",
+    "error_detail": "无错误，但可以添加不存在的症状如'高烧'",
+    "original_question": "2011年北京某猪场暴发的传染性疾病的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "BJ20111113株属于PCV2a基因型。",
+    "reference_case": "BJ20111113株属于PCV2b基因型。",
+    "error_detail": "基因型错误",
+    "original_question": "在猪II型圆环病毒（PCV2:的研究中，BJ20111113株属于哪个基因型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用的试剂和试剂盒包括DL2000 DNA Marker、Taq DNA聚合酶、dNTPs、胶回收试剂盒、DNA提取试剂盒、MEM、新生牛血清、特异性抗PCV2单抗血清、兔抗鼠IgG-FITC和D-Glucosamine。",
+    "reference_case": "使用的试剂和试剂盒包括DL2000 DNA Marker、Taq DNA聚合酶、dNTPs、胶回收试剂盒、DNA提取试剂盒、MEM、新生牛血清、特异性抗PCV2单抗血清、兔抗鼠IgG-FITC和D-Glucosamine。",
+    "error_detail": "无错误，但可以添加不存在的试剂如'RNA提取试剂盒'",
+    "original_question": "猪II型圆环病毒（PCV2:的分离鉴定过程中，使用了哪些试剂和试剂盒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "强毒株在76位为L，131位为P；弱毒株在76位为I，131位为T。",
+    "reference_case": "强毒株在76位为I，131位为T；弱毒株在76位为L，131位为P/I。",
+    "error_detail": "氨基酸位置和类型错误",
+    "original_question": "猪II型圆环病毒（PCV2:的ORF2基因序列中，强毒株和弱毒株在76位和131位的氨基酸差异是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在中国，猪链球菌的主要流行血清型为1、2、3、9型。",
+    "reference_case": "在中国，猪链球菌的主要流行血清型为1、2、7、9型。",
+    "error_detail": "血清型错误",
+    "original_question": "猪链球菌和马链球菌兽疫亚种在中国的主要流行血清型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PRRSV的基因组是负链、单股RNA病毒，全长约15 kb，包含9个开放阅读框架（ORF1a、ORF1b、ORF2a、ORF2b、ORF3至ORF7:，其中ORF6编码非糖基化的基质蛋白（M）。",
+    "reference_case": "PRRSV的基因组是正链、单股RNA病毒，全长约15 kb，包含9个开放阅读框架（ORF1a、ORF1b、ORF2a、ORF2b、ORF3至ORF7:，其中ORF6编码非糖基化的基质蛋白（M）。",
+    "error_detail": "基因组链性错误",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组结构是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PRRSV M-ELISA方法的特异性试验中，检测了猪瘟病毒（CSFV）、猪乙型脑炎病毒（JEV）、猪传染性胃肠炎病毒（TGEV）、猪伪狂犬病病毒（PRV）、猪细小病毒（PPV）和猪圆环病毒2型（PCV2:的阳性血清。",
+    "reference_case": "PRRSV M-ELISA方法的特异性试验中，检测了猪瘟病毒（CSFV）、猪乙型脑炎病毒（JEV）、猪传染性胃肠炎病毒（TGEV）、猪伪狂犬病病毒（PRV）、猪细小病毒（PPV）和猪圆环病毒2型（PCV2:的阳性血清。",
+    "error_detail": "无错误，但可以添加未检测的病原体如'猪流感病毒'",
+    "original_question": "PRRSV M-ELISA方法的特异性试验中，检测了哪些其他猪病病原的阳性血清？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "副猪嗜血杆菌病的临床特征包括纤维蛋白性多发性浆膜炎、关节炎和脑膜炎。",
+    "reference_case": "副猪嗜血杆菌病的临床特征包括纤维蛋白性多发性浆膜炎、关节炎和脑膜炎。",
+    "error_detail": "无错误，但可以添加不存在的症状如'肺炎'",
+    "original_question": "副猪嗜血杆菌病的临床特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "作者使用了Alu I、Ava II和Rsa I内切酶来分析副猪嗜血杆菌的tbpB基因。",
+    "reference_case": "作者使用了Alu I、Ava II和Rsa I内切酶来分析副猪嗜血杆菌的tbpB基因。",
+    "error_detail": "无错误，但可以添加未使用的内切酶如'EcoRI'",
+    "original_question": "在《副猪嗜血杆菌的分型技术研究进展》一文中，作者使用了哪些内切酶来分析副猪嗜血杆菌的tbpB基因？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪附红细胞体的分类经历了四个阶段：最初被认为属于原虫，后来归为立克次氏体、无形目、附红细胞体属，最终根据 16S rRNA 基因序列分析被分类到支原体，命名为猪血营养支原体。",
+    "reference_case": "猪附红细胞体的分类经历了三个阶段：最初被认为属于原虫，后来归为立克次氏体、无形目、附红细胞体属，最终根据 16S rRNA 基因序列分析被分类到支原体，命名为猪血营养支原体。",
+    "error_detail": "分类阶段数量错误",
+    "original_question": "猪附红细胞体的分类经历了哪些阶段？",
+    "original_input": ""
+  }
+]

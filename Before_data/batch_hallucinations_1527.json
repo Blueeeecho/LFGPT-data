@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "可添加小鱼、小虾等植物性饲料或乳类、肉类加工副产品、鱼粉等，以提高精液品质。",
+    "reference_case": "可添加小鱼、小虾等动物性饲料或乳类、肉类加工副产品、鱼粉等，以提高精液品质。",
+    "error_detail": "将动物性饲料错误地描述为植物性饲料",
+    "original_question": "配种季节可为公猪添加哪些动物性饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "日粮应营养全面，易于消化；公猪应减少运动，以降低新陈代谢强度，减少食欲，减弱体质，改善精液品质。",
+    "reference_case": "日粮应营养全面，易于消化；公猪应适度运动，以提高新陈代谢强度，促进食欲，增强体质，改善精液品质。",
+    "error_detail": "指令要求提高配种能力，但建议减少运动，与目标相反",
+    "original_question": "如何通过营养和运动提高公猪的配种能力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪栏外设运动场自由活动，每天逐头驱赶公猪到野外运动两次，上午早饲后，下午晚饲前进行，每次3小时左右，里程不少于5公里。",
+    "reference_case": "在猪栏外设运动场自由活动，每天逐头驱赶公猪到野外运动两次，上午早饲后，下午晚饲前进行，每次1小时左右，里程不少于1.5-2公里。",
+    "error_detail": "运动时间和里程数被夸大",
+    "original_question": "公猪运动的基本方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "确保公猪从小合群，避免从未见过面的公猪合群运动；一旦发生咬架，立即用木板隔开，并给予奖励。",
+    "reference_case": "确保公猪从小合群，避免从未见过面的公猪合群运动；一旦发生咬架，立即用木板隔开。",
+    "error_detail": "添加了不存在的奖励措施",
+    "original_question": "如何防止公猪咬架？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "经常用湿布或软刷子刷拭公猪皮肤，保持皮肤清洁、促进血液循环，加强新陈代谢和增进食欲。",
+    "reference_case": "经常用干草把或硬刷子刷拭公猪皮肤，保持皮肤清洁、促进血液循环，加强新陈代谢和增进食欲。",
+    "error_detail": "错误的清洁工具描述",
+    "original_question": "如何保持公猪皮肤清洁和促进新陈代谢？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "当母猪体格大、公猪体格小时，采用活动交配斜板。斜板宽度加大，将斜板放在母猪前面，让公猪站在斜板上爬跨母猪。",
+    "reference_case": "当母猪体格大、公猪体格小时，采用活动交配斜板。斜板宽度加大，将斜板放在母猪后面，让公猪站在斜板上爬跨母猪。",
+    "error_detail": "斜板位置描述错误，导致逻辑矛盾",
+    "original_question": "怎样进行活动交配？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "给猪配种最好在午饲和晚饲后一小时进行。",
+    "reference_case": "给猪配种最好在早饲和晚饲前一小时进行。",
+    "error_detail": "配种时间错误",
+    "original_question": "给猪配种的最佳时间是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "当公猪爬上母猪背后，要及时拉开母猪尾巴，保持环境安静，严禁大声叫和打公猪，配种后要用手轻按母猪腰部，防止柿液倒流，并立即给予食物奖励。",
+    "reference_case": "当公猪爬上母猪背后，要及时拉开母猪尾巴，保持环境安静，严禁大声叫和打公猪，配种后要用手轻按母猪腰部，防止柿液倒流。",
+    "error_detail": "添加了不存在的奖励措施",
+    "original_question": "配种时需要做哪些辅助动作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "控制公猪射精次数是为了减轻其体力消耗，公猪一次交配时间可长达30-40分钟，射精时间约为12分钟，射精时间大多数在开始的5分钟内完成。",
+    "reference_case": "控制公猪射精次数是为了减轻其体力消耗，公猪一次交配时间可长达15-20分钟，射精时间约为6分钟，射精时间大多数在开始的2分钟内完成。",
+    "error_detail": "时间和数据被夸大",
+    "original_question": "控制公猪射精次数的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "配种过早不仅头胎产仔少而弱，还会影响母猪本身的发育，从整个生产来说是极为有利的。",
+    "reference_case": "配种过早不仅头胎产仔少而弱，还会影响母猪本身的发育，从整个生产来说是极为不利的。",
+    "error_detail": "逻辑矛盾，结果描述错误",
+    "original_question": "配种过早对母猪有什么影响？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山猪的HSL AA基因型频率显著低于杜洛克猪。山猪的HSL AA基因型频率为0:300，而杜洛克猪的HSL AA基因型频率为0:000。",
+    "reference_case": "山猪的HSL AA基因型频率显著高于杜洛克猪。山猪的HSL AA基因型频率为0:500，而杜洛克猪的HSL AA基因型频率为0:000。",
+    "error_detail": "错误地描述了基因型频率的比较结果",
+    "original_question": "山猪和杜洛克猪在HSL基因的基因型频率上有何显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山猪的LEPR c.232A等位基因频率显著低于杜洛克猪。具体来说，山猪的LEPR c.232A等位基因频率为0:300，而杜洛克猪的LEPR c.232A等位基因频率为0:083。",
+    "reference_case": "山猪的LEPR c.232A等位基因频率显著高于杜洛克猪。具体来说，山猪的LEPR c.232A等位基因频率为0:531，而杜洛克猪的LEPR c.232A等位基因频率仅为0:083。",
+    "error_detail": "错误地描述了等位基因频率的比较结果",
+    "original_question": "山猪和杜洛克猪在LEPR基因的等位基因频率上有何显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山猪的MYOD1 CC基因型频率显著低于杜洛克猪。山猪的MYOD1 CC基因型频率为0:300，而杜洛克猪的MYOD1 CC基因型频率为0:000。",
+    "reference_case": "山猪的MYOD1 CC基因型频率显著高于杜洛克猪。山猪的MYOD1 CC基因型频率为0:625，而杜洛克猪的MYOD1 CC基因型频率为0:000。",
+    "error_detail": "错误地描述了基因型频率的比较结果",
+    "original_question": "山猪和杜洛克猪在MYOD1基因的基因型频率上有何显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山猪的MC4R c.745A等位基因频率显著低于杜洛克猪。山猪的MC4R c.745A等位基因频率为0:500，而杜洛克猪的MC4R c.745A等位基因频率为0:500。",
+    "reference_case": "山猪的MC4R c.745A等位基因频率显著高于杜洛克猪。山猪的MC4R c.745A等位基因频率为0:719，而杜洛克猪的MC4R c.745A等位基因频率为0:500。",
+    "error_detail": "错误地描述了等位基因频率的比较结果",
+    "original_question": "山猪和杜洛克猪在MC4R基因的等位基因频率上有何显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "高能饲粮是通过用20%的猪油替代对照饲粮中的玉米淀粉配制而成的。",
+    "reference_case": "高能饲粮是通过用10%的猪油替代对照饲粮中的玉米淀粉配制而成的。",
+    "error_detail": "错误地描述了高能饲粮的配制比例",
+    "original_question": "高能饲粮是如何配制的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "饲喂高能饲粮显著降低了猪的胴体重，降低了6:11%。",
+    "reference_case": "饲喂高能饲粮显著提高了猪的胴体重，提高了6:11%。",
+    "error_detail": "错误地描述了高能饲粮对猪胴体重的影响",
+    "original_question": "高能饲粮对猪的胴体重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "低初生重（LBW）猪的平均日增重（ADG）和平均日采食量（ADFI）显著高于正常初生重（NBW）猪，分别提高了13:60%和15:54%。",
+    "reference_case": "低初生重（LBW）猪的平均日增重（ADG）和平均日采食量（ADFI）显著低于正常初生重（NBW）猪，分别降低了13:60%和15:54%。",
+    "error_detail": "错误地描述了初生重对ADG和ADFI的影响",
+    "original_question": "初生重对猪的平均日增重（ADG）和平均日采食量（ADFI）有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "低初生重（LBW）猪是指初生重在1:6至2:0公斤之间的猪，而正常初生重（NBW）猪是指初生重在0:7至1:1公斤之间的猪。",
+    "reference_case": "低初生重（LBW）猪是指初生重在0:7至1:1公斤之间的猪，而正常初生重（NBW）猪是指初生重在1:6至2:0公斤之间的猪。",
+    "error_detail": "错误地定义了LBW和NBW猪的初生重范围",
+    "original_question": "什么是低初生重（LBW）猪和正常初生重（NBW）猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "低初生重（LBW）猪的较适屠宰日龄为154日龄，而正常初生重（NBW）猪的较适屠宰日龄为178日龄。",
+    "reference_case": "低初生重（LBW）猪的较适屠宰日龄为178日龄，而正常初生重（NBW）猪的较适屠宰日龄为154日龄。",
+    "error_detail": "错误地描述了LBW和NBW猪的较适屠宰日龄",
+    "original_question": "低初生重（LBW）猪和正常初生重（NBW）猪的较适屠宰日龄分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "较大日龄屠宰的猪的胴体重、平均背膘厚和眼肌面积显著增加，分别增加了15:82%、56:11%和29:33%，但屠宰率显著降低了5:19%。",
+    "reference_case": "较大日龄屠宰的猪的胴体重、平均背膘厚和眼肌面积显著增加，分别增加了9:82%、46:11%和19:33%，但屠宰率显著降低了2:19%。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "屠宰日龄对猪的胴体性状有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "较大日龄屠宰的猪的肌肉pH45min、剪切力、滴水损失和L值显著降低，而b值显著增加，分别降低了3:21%、10:54%、58:00%和6:87%，增加了4:55%。",
+    "reference_case": "较大日龄屠宰的猪的肌肉pH45min、剪切力、滴水损失和L值显著降低，而b值显著增加，分别降低了1:21%、8:54%、48:00%和4:87%，增加了2:55%。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "屠宰日龄对猪肉品质的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲喂高能饲粮显著提高了猪的平均日增重（ADG），降低了平均日采食量（ADFI）和饲料增重比（F/G），分别提高了10:43%，降低了15:11%和22:25%。",
+    "reference_case": "饲喂高能饲粮显著提高了猪的平均日增重（ADG），降低了平均日采食量（ADFI）和饲料增重比（F/G），分别提高了6:43%，降低了13:11%和18:25%。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "饲喂高能饲粮对猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "与正常初生重（NBW）猪相比，低初生重（LBW）猪的肌肉pH45min和L值显著降低，而滴水损失和剪切力显著增加，分别降低了3:21%和5:07%，增加了44:16%和25:83%。",
+    "reference_case": "与正常初生重（NBW）猪相比，低初生重（LBW）猪的肌肉pH45min和L值显著降低，而滴水损失和剪切力显著增加，分别降低了1:21%和3:07%，增加了34:16%和15:83%。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "低初生重（LBW）猪和正常初生重（NBW）猪在肉品质方面有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "环磷酰胺注射显著降低了仔猪的脾脏指数（P<0:01:。",
+    "reference_case": "环磷酰胺注射显著降低了仔猪的脾脏指数（P<0:05:。",
+    "error_detail": "错误地改变了显著性水平",
+    "original_question": "环磷酰胺注射对仔猪的脾脏指数有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳寡糖显著缓解了环磷酰胺应激后6小时单核细胞数目的降低（P<0:05:。",
+    "reference_case": "壳寡糖显著缓解了环磷酰胺应激后3小时单核细胞数目的降低（P<0:05:。",
+    "error_detail": "错误地改变了时间点",
+    "original_question": "壳寡糖对环磷酰胺应激后仔猪的单核细胞数目有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳寡糖显著提高了环磷酰胺应激后6小时仔猪血清中IL-10的含量（P<0:05:。",
+    "reference_case": "壳寡糖显著提高了环磷酰胺应激后3小时仔猪血清中IL-10的含量（P<0:05:。",
+    "error_detail": "错误地改变了时间点",
+    "original_question": "壳寡糖对环磷酰胺应激后仔猪的血清IL-10含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳寡糖显著提高了仔猪的全期日增重（P<0:01:，并极显著降低了料肉比（P<0:001:。",
+    "reference_case": "壳寡糖显著提高了仔猪的全期日增重（P<0:05:，并极显著降低了料肉比（P<0:01:。",
+    "error_detail": "错误地改变了显著性水平",
+    "original_question": "壳寡糖对仔猪全期日增重（ADG）和料肉比（F/G）有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "环磷酰胺在实验中用于建立仔猪的免疫抑制模型，通过腹腔注射100 mg/kg体重的剂量来抑制仔猪的免疫功能。",
+    "reference_case": "环磷酰胺在实验中用于建立仔猪的免疫抑制模型，通过腹腔注射50 mg/kg体重的剂量来抑制仔猪的免疫功能。",
+    "error_detail": "错误地改变了剂量",
+    "original_question": "环磷酰胺（CY）在实验中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "DDGS中含有大约15%的粗纤维，其中52:2%不可溶，1:7%可溶。不可溶纤维可以促进猪的小肠线毛高度，促进微生物菌群的生长，抑制病原体的生长，避免肠道黏膜破坏，从而保持肠道功能完整，减少疾病的发生，提高饲料的消化吸收率，促进家禽的生长和生产。",
+    "reference_case": "DDGS中含有大约10%的粗纤维，其中42:2%不可溶，0:7%可溶。不可溶纤维可以促进猪的小肠线毛高度，促进微生物菌群的生长，抑制病原体的生长，避免肠道黏膜破坏，从而保持肠道功能完整，减少疾病的发生，提高饲料的消化吸收率，促进家禽的生长和生产。",
+    "error_detail": "错误地改变了粗纤维比例和不可溶/可溶比例",
+    "original_question": "DDGS对动物肠道健康有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "姜黄素添加剂在400 mg/kg的添加量下，对育肥猪宰后24小时的pH值没有显著影响。",
+    "reference_case": "姜黄素添加剂在400 mg/kg的添加量下，显著提高了育肥猪宰后24小时的pH值（P<0:01:，表明肉质保鲜效果更好。",
+    "error_detail": "错误地声称姜黄素添加剂对pH值没有显著影响，与实验数据不符。",
+    "original_question": "姜黄素添加剂对育肥猪宰后24小时pH值的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "姜黄素添加剂在400 mg/kg的添加量下，对育肥猪的饲料转化率没有显著影响。",
+    "reference_case": "姜黄素添加剂显著提高了育肥猪的饲料转化率，特别是在400 mg/kg的添加量下，饲料转化率显著改善（P<0:05:。",
+    "error_detail": "错误地声称姜黄素添加剂对饲料转化率没有显著影响，与实验数据不符。",
+    "original_question": "姜黄素添加剂对育肥猪饲料转化率的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "姜黄素添加剂对育肥猪宰后1小时和24小时的肉色评分都有显著影响。",
+    "reference_case": "姜黄素添加剂对育肥猪宰后1小时的肉色评分没有显著影响（P>0:05:，但在400 mg/kg的添加量下，宰后24小时的肉色评分显著降低至3:47分（P<0:05:，表明肉色保持较好。",
+    "error_detail": "错误地声称姜黄素添加剂对宰后1小时的肉色评分有显著影响，与实验数据不符。",
+    "original_question": "姜黄素添加剂对育肥猪宰后1小时和24小时肉色的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "姜黄素添加剂在400 mg/kg的添加量下，对育肥猪的肌肉剪切力没有显著影响。",
+    "reference_case": "姜黄素添加剂显著降低了育肥猪的肌肉剪切力，特别是在400 mg/kg的添加量下，肌肉剪切力降低至2:45 kg·f（P<0:05:。",
+    "error_detail": "错误地声称姜黄素添加剂对肌肉剪切力没有显著影响，与实验数据不符。",
+    "original_question": "姜黄素添加剂对育肥猪肌肉剪切力的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "姜黄素添加剂在400 mg/kg的添加量下，对育肥猪的胴体GP没有显著影响。",
+    "reference_case": "姜黄素添加剂显著降低了育肥猪的胴体GP（糖酵解潜能），特别是在400 mg/kg的添加量下，胴体GP降低了6%（P<0:05:。",
+    "error_detail": "错误地声称姜黄素添加剂对胴体GP没有显著影响，与实验数据不符。",
+    "original_question": "姜黄素添加剂对育肥猪胴体GP的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "姜黄素添加剂在400 mg/kg的添加量下，显著提高了育肥猪的大理石纹评分。",
+    "reference_case": "姜黄素添加剂对育肥猪的大理石纹评分没有显著影响（P>0:05:，但在400 mg/kg的添加量下，脂肪含量低于对照组。",
+    "error_detail": "错误地声称姜黄素添加剂提高了大理石纹评分，与实验数据不符。",
+    "original_question": "姜黄素添加剂对育肥猪大理石纹评分的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "姜黄素添加剂对育肥猪的背膘厚和瘦肉率没有显著影响。",
+    "reference_case": "姜黄素添加剂显著降低了育肥猪的背膘厚，并在400 mg/kg的添加量下，背膘厚降低了14%（P<0:01:。同时，瘦肉率提高了5%（P<0:01:。",
+    "error_detail": "错误地声称姜黄素添加剂对背膘厚和瘦肉率没有显著影响，与实验数据不符。",
+    "original_question": "姜黄素添加剂如何影响育肥猪的背膘厚和瘦肉率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "试验中将176头85日龄、体重约35 kg的健康杜×长×大生长猪随机分为4组，每组1个重复，每个重复44头猪。",
+    "reference_case": "试验中将176头85日龄、体重约35 kg的健康杜×长×大生长猪随机分为4组，每组2个重复，每个重复22头猪。I组为对照组，饲喂基础日粮；II、III、IV组在基础日粮的基础上添加300 g/t的稀土超微螯合包，并分别添加0:3 mg/kg的酵母硒、高硒预混料和蛋白硒。",
+    "error_detail": "错误地描述了试验分组和重复数，与实际情况不符。",
+    "original_question": "试验中如何分组和处理生长猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "研究表明，添加量在30%～40%的双低菜籽粕对母猪的产仔数、仔猪的初生质量和断奶质量没有不良影响，但添加量超过40%会引起仔猪存活率降低。",
+    "reference_case": "研究表明，添加量在10%～20%的双低菜籽粕对母猪的产仔数、仔猪的初生质量和断奶质量没有不良影响，但添加量超过20%会引起仔猪存活率降低。哺乳母猪饲料中需要添加油脂以弥补双低菜籽粕在消化能上的不足。",
+    "error_detail": "错误地增加了菜籽粕的添加比例，可能导致对母猪和仔猪健康的不准确评估。",
+    "original_question": "菜籽饼（粕）在母猪饲料中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "给仔猪饲喂添加由香肠乳酸杆菌和鼠李糖乳酸杆菌组成的益生菌制剂的试验组与对照组相比，平均日增质量提高了 50:0%，料重比降低了 30:0%，成活率提高了 10:0%，腹泻率降低了 15:0%。",
+    "reference_case": "给仔猪饲喂添加由香肠乳酸杆菌和鼠李糖乳酸杆菌组成的益生菌制剂的试验组与对照组相比，平均日增质量提高了 78:2%，料重比降低了 51:0%，成活率提高了 15:3%，腹泻率降低了 20:1%。给仔猪饲喂添加由上述益生菌制剂与 APS 配伍成的新型微生物添加剂的试验组与对照组和益生菌制剂的试验组相比，平均日增质量分别提高了 8:57% 和 5:71%，成活率分别提高了 20:0% 和 5:0%。",
+    "error_detail": "错误地降低了益生菌制剂的效果数据，可能导致对产品效果的误解。",
+    "original_question": "APS 与其他制剂联合使用在改善生产性能方面有哪些协同作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在小母猪基础饲粮中添加 500 mg/kg APS 饲喂，有一定降低生产性能的趋势。",
+    "reference_case": "在小母猪基础饲粮中添加 500 mg/kg APS 饲喂，有一定提高生产性能的趋势，能够提高生长猪血清中球蛋白与白蛋白的比值，显著提高牛血清白蛋白（BSA）免疫抗体光密度值及植物血球凝集素（PHA），刺激皮褶厚度增加值。在断奶仔猪饲粮中添加 0:02%、0:05% 和 0:1% APS，饲喂 28 d，平均日增质量分别比对照组提高 2:35%、5:73% 和 4:77%，平均日采食量分别提高 0:48%、0:99% 和 1:53%。",
+    "error_detail": "错误地描述了APS对生产性能的影响，与实际情况相反。",
+    "original_question": "APS 在提高生产性能方面有哪些具体表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "长 × 大白猪的 MDH mRNA 表达与肌内脂肪含量呈显著正相关（P<0:05:，而 LPL mRNA 表达与肌内脂肪含量不相关（P>0:05:。",
+    "reference_case": "长 × 大白猪的 MDH mRNA 表达与肌内脂肪含量不相关（P>0:05:，而 LPL mRNA 表达与肌内脂肪含量呈显著正相关（P<0:05:。",
+    "error_detail": "错误地交换了MDH和LPL mRNA表达与肌内脂肪含量的相关性，与实际情况相反。",
+    "original_question": "长 × 大白猪的 MDH 和 LPL mRNA 表达与肌内脂肪含量的相关性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "野莱 F1 代猪和长 × 大白猪的肌内 MDH 基因表达在 20 至 70 公斤体重阶段呈下降趋势，在 70 至 90 公斤体重阶段呈上升趋势。",
+    "reference_case": "野莱 F1 代猪和长 × 大白猪的肌内 MDH 基因表达在 20 至 70 公斤体重阶段呈上升趋势，在 70 至 90 公斤体重阶段呈下降趋势。",
+    "error_detail": "错误地描述了MDH基因表达的变化趋势，与实际情况相反。",
+    "original_question": "野莱 F1 代猪和长 × 大白猪的肌内 MDH 基因表达在不同体重阶段的变化趋势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "野莱 F1 代猪和长 × 大白猪的肌内脂肪含量随着体重的增加呈现出先降低后升高的发育趋势。",
+    "reference_case": "野莱 F1 代猪和长 × 大白猪的肌内脂肪含量随着体重的增加呈现出先升高后降低再升高的发育趋势，在 50 公斤体重阶段达到最高水平，之后开始下降，从 70 公斤开始又处于上升阶段。",
+    "error_detail": "错误地简化了肌内脂肪含量的变化趋势，与实际情况不符。",
+    "original_question": "野莱 F1 代猪和长 × 大白猪的肌内脂肪含量在不同体重阶段的变化趋势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪精子顶体反应前期，sp32的表达量较低，但其酪氨酸磷酸化水平较获能和冷冻-解冻处理组高。",
+    "reference_case": "在猪精子顶体反应前期，sp32的表达量较高，但其酪氨酸磷酸化水平较获能和冷冻-解冻处理组低。这可能与顶体反应过程中相关蛋白的降解或释放有关。",
+    "error_detail": "错误地描述了sp32的表达量和酪氨酸磷酸化水平，与实际情况相反。",
+    "original_question": "猪精子顶体反应前期，sp32的表达和酪氨酸磷酸化水平如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪精子sp32有20个磷酸化位点，其中5个属于酪氨酸磷酸化位点。",
+    "reference_case": "猪精子sp32有14个磷酸化位点，其中3个属于酪氨酸磷酸化位点。",
+    "error_detail": "数值偏差",
+    "original_question": "猪精子sp32的酪氨酸磷酸化位点有多少个？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冷冻-解冻处理组的猪精子sp32酪氨酸磷酸化水平与其他处理组相比无显著差异。",
+    "reference_case": "冷冻-解冻处理组的猪精子sp32酪氨酸磷酸化水平与其他处理组相比有显著差异，其磷酸化程度最高。这可能与冷冻损伤导致的精子受精障碍有关。",
+    "error_detail": "数值偏差",
+    "original_question": "冷冻-解冻处理对猪精子sp32的酪氨酸磷酸化水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冷冻-解冻处理组的猪精子顶体膜蛋白在38～170 ku之间的蛋白表达量较鲜精处理组明显，而在25～38 ku区间的蛋白表达条带较不明显。",
+    "reference_case": "冷冻-解冻处理组的猪精子顶体膜蛋白在25～38 ku之间的蛋白表达量较鲜精处理组明显，而在38～170 ku区间的蛋白表达条带较不明显。这表明冷冻-解冻处理可能导致顶体膜蛋白的降解或修饰。",
+    "error_detail": "数值偏差",
+    "original_question": "猪精子在冷冻-解冻处理后，其顶体膜蛋白的分子质量分布有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪精子在获能过程中，顶体膜蛋白的分子质量分布未发生变化。",
+    "reference_case": "猪精子在获能过程中，顶体膜蛋白的分子质量分布发生变化，鲜精处理组在蛋白质分子质量38～170 ku区间的蛋白表达条带较其他处理组明显，而获能、冷冻-解冻和顶体反应处理组在25～38 ku之间的蛋白表达量较鲜精处理组明显。",
+    "error_detail": "数值偏差",
+    "original_question": "猪精子在获能过程中，顶体膜蛋白的分子质量分布有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪精子的不同处理组中，鲜精处理组的sp32表达量最高。",
+    "reference_case": "在猪精子的不同处理组中，获能和顶体反应处理组的sp32表达量略高于冷冻-解冻处理组，而显著高于鲜精处理组。这表明sp32的表达量在精子的获能和顶体反应过程中有所上调。",
+    "error_detail": "数值偏差",
+    "original_question": "在猪精子的不同处理组中，sp32的表达量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冷冻-解冻处理组的猪精子顶体膜蛋白中sp32的酪氨酸磷酸化水平较获能处理组低。",
+    "reference_case": "冷冻-解冻处理组的猪精子顶体膜蛋白中sp32的酪氨酸磷酸化水平较获能处理组高，尽管其表达量较低。这表明冷冻-解冻处理可能导致sp32的异常磷酸化。",
+    "error_detail": "数值偏差",
+    "original_question": "猪精子在冷冻-解冻处理后，其顶体膜蛋白的酪氨酸磷酸化水平与获能处理组相比有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大豆球蛋白显著提高了仔猪小肠上皮细胞中Occludin mRNA的相对表达量。",
+    "reference_case": "大豆球蛋白显著降低了仔猪小肠上皮细胞中Occludin mRNA的相对表达量，尤其是在高浓度（2:0 mg/mL及以上）时，表达量极显著下降。",
+    "error_detail": "数值偏差",
+    "original_question": "大豆球蛋白对仔猪小肠上皮细胞中Occludin mRNA表达的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大豆球蛋白能降低仔猪小肠上皮细胞的通透性，导致跨上皮细胞电阻值显著上升。",
+    "reference_case": "大豆球蛋白能增加仔猪小肠上皮细胞的通透性，导致跨上皮细胞电阻值显著下降，表明细胞屏障功能受损。",
+    "error_detail": "数值偏差",
+    "original_question": "大豆球蛋白对仔猪小肠上皮细胞通透性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪肺炎支原体NJ株和168株的LAMPs对猪肺泡上皮细胞的抑制作用较弱。",
+    "reference_case": "猪肺炎支原体NJ株和168株的LAMPs对猪肺泡上皮细胞的抑制作用较强，其抑制率较高，且NJ株的IC50最低，为0:13 mg·mL⁻¹。",
+    "error_detail": "数值偏差",
+    "original_question": "猪肺炎支原体NJ株和168株的LAMPs对猪肺泡上皮细胞的抑制作用如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪肺炎支原体J株和168致弱株的LAMPs对猪肺泡上皮细胞的抑制作用较强。",
+    "reference_case": "猪肺炎支原体J株和168致弱株的LAMPs对猪肺泡上皮细胞的抑制作用较弱，J株的IC50最高，为0:56 mg·mL⁻¹。",
+    "error_detail": "数值偏差",
+    "original_question": "猪肺炎支原体J株和168致弱株的LAMPs对猪肺泡上皮细胞的抑制作用如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "散养生猪的工具材料费从2002年的3.05元基本没太大变化，2014年为2.9元，降低了4.9%。小规模生猪的工具材料费在2003年降低到0.65元，2003-2014年逐渐升高，达到了4.08元，增长了8.41%。中规模的生猪工具材料费总体在缓慢上升。大规模的生猪工具材料费从2002年的1.2元上升到了2014年的3.14元，增长了6.18%。",
+    "reference_case": "散养生猪的工具材料费从2002年的3.05元基本没太大变化，2014年为2.9元，降低了4.9%。小规模生猪的工具材料费在2003年降低到0.65元，2003-2014年逐渐升高，达到了4.08元，增长了8.41%。中规模的生猪工具材料费总体在缓慢上升。大规模的生猪工具材料费从2002年的1.2元上升到了2014年的3.14元，增长了6.18%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "2002-2014年，不同规模生猪的工具材料费用呈现了怎样的变化趋势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同规模生猪的资金收益率波动较大。散养生猪的波动幅度最大，最高点为2009年的54%，最低点为22%，最高与最低相差76%；小规模生猪的最高点为2007年的36%，最低点为2010年的-1%，波动幅度为35%；中规模生猪的最高点为2008与2011年的35%，最低点为-3%，波动幅度为32%；大规模生猪的最高点为2007年的50%，最低点为2010年的6%，波动幅度为56%。",
+    "reference_case": "不同规模生猪的资金收益率波动较大。散养生猪的波动幅度最大，最高点为2009年的54%，最低点为22%，最高与最低相差76%；小规模生猪的最高点为2007年的36%，最低点为2010年的-1%，波动幅度为35%；中规模生猪的最高点为2008与2011年的35%，最低点为-3%，波动幅度为32%；大规模生猪的最高点为2007年的50%，最低点为2010年的6%，波动幅度为56%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "不同规模生猪的资金收益率波动情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同规模生猪的劳动生产率逐年上升。散养生猪的劳动生产率从2004年的55%上升到2014年的68%；小规模生猪从2004年的61%上升到2014年的72%；中规模生猪从2004年的62%上升到2014年的73%；大规模生猪从2004年的56%上升到2014年的72%。由此可见，大规模生猪的劳动生产率最高，其次是中规模和小规模，散养的劳动生产率最低。",
+    "reference_case": "不同规模生猪的劳动生产率逐年上升。散养生猪的劳动生产率从2004年的55%上升到2014年的68%；小规模生猪从2004年的61%上升到2014年的72%；中规模生猪从2004年的62%上升到2014年的73%；大规模生猪从2004年的56%上升到2014年的72%。由此可见，大规模生猪的劳动生产率最高，其次是中规模和小规模，散养的劳动生产率最低。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "不同规模生猪的劳动生产率如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在散养生猪的成本收益模型中，仔猪费用对收益有显著的负向影响，仔猪费用每增加1%，收益会减少2.422%。",
+    "reference_case": "在散养生猪的成本收益模型中，仔猪费用对收益有显著的负向影响，仔猪费用每增加1%，收益会减少2.422%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "散养生猪的成本收益模型中，仔猪费用对收益的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在小规模生猪的成本收益模型中，饲料费用对收益有显著的负向影响，饲料费用每增加1%，收益会减少3.344%。",
+    "reference_case": "在小规模生猪的成本收益模型中，饲料费用对收益有显著的负向影响，饲料费用每增加1%，收益会减少3.344%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "小规模生猪的成本收益模型中，饲料费用对收益的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在中规模生猪的成本收益模型中，仔猪费用对收益有显著的正向影响，仔猪费用每增加1%，收益会增加1.169%。",
+    "reference_case": "在中规模生猪的成本收益模型中，仔猪费用对收益有显著的正向影响，仔猪费用每增加1%，收益会增加1.169%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "中规模生猪的成本收益模型中，仔猪费用对收益的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在大规模生猪的成本收益模型中，人工成本对收益有显著的负向影响，人工成本每增加1%，收益会减少5.657%。",
+    "reference_case": "在大规模生猪的成本收益模型中，人工成本对收益有显著的负向影响，人工成本每增加1%，收益会减少5.657%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "大规模生猪的成本收益模型中，人工成本对收益的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大规模生猪养殖的饲料费用平均占物质服务费用的65%左右。",
+    "reference_case": "大规模生猪养殖的饲料费用平均占物质服务费用的65%左右。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "饲料费用在生猪养殖成本中所占的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "注射位点的消除半衰期最长，为200小时。",
+    "reference_case": "注射位点的消除半衰期最长，为160:8小时。",
+    "error_detail": "数值偏差",
+    "original_question": "头孢噻呋在猪体内的消除动力学参数中，哪个组织的消除半衰期最长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "建议的休药期是7天。",
+    "reference_case": "建议的休药期是5天。",
+    "error_detail": "数值偏差",
+    "original_question": "头孢噻呋在猪体内的残留消除研究中，建议的休药期是多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪细小病毒（PPV）为单股线状 DNA 病毒，无囊膜，自主复制型病毒，核苷酸长度约为 6000 nt，含有 3 个开放阅读框（ORF），分别编码 4 个结构蛋白（VP1、VP2、VP3、VP4）和 4 个非结构蛋白（NS1、NS2、NS3、NS4）。",
+    "reference_case": "猪细小病毒（PPV）为单股线状 DNA 病毒，无囊膜，自主复制型病毒，核苷酸长度约为 5000 nt，含有 2 个开放阅读框（ORF），分别编码 3 个结构蛋白（VP1、VP2、VP3）和 3 个非结构蛋白（NS1、NS2、NS3）。",
+    "error_detail": "数值和术语错误",
+    "original_question": "猪细小病毒（PPV）的基因组结构是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "经过中和试验，PPV 分离株能与标准阳性血清发生特异性结合，血清中和抗体效价为 1:64。经过血凝效价测定，该病毒的血凝效价（HA）为 1:2^9，4 单位的血凝效价即为 1:2^7，测定该病毒血凝抑制效价（HI）为 1:2^8。",
+    "reference_case": "经过中和试验，PPV 分离株能与标准阳性血清发生特异性结合，血清中和抗体效价为 1:32。经过血凝效价测定，该病毒的血凝效价（HA）为 1:2^8，4 单位的血凝效价即为 1:2^6，测定该病毒血凝抑制效价（HI）为 1:2^7。",
+    "error_detail": "数值偏差",
+    "original_question": "猪细小病毒（PPV）的血清学鉴定结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "针对 PPV 的 VP1 和 NS1 基因设计特异性引物，建立 PPV 的荧光定量 PCR 方法。使用荧光定量引物经普通 PCR 扩增后出现 200 bp 的目的片段，回收目的片段克隆测序，结果显示该片段与 PPV NS1 基因相似性为 98%。测定的重组质粒质量浓度为 300 ng/μL，根据公式计算 pMD19-T-NS1 的拷贝数为 9:00×10^10 copies/μL。",
+    "reference_case": "针对 PPV 的 VP1 和 NS1 基因设计特异性引物，建立 PPV 的荧光定量 PCR 方法。使用荧光定量引物经普通 PCR 扩增后出现 192 bp 的目的片段，回收目的片段克隆测序，结果显示该片段与 PPV NS1 基因相似性为 100%。测定的重组质粒质量浓度为 278 ng/μL，根据公式计算 pMD19-T-NS1 的拷贝数为 8:79×10^10 copies/μL。",
+    "error_detail": "数值偏差",
+    "original_question": "猪细小病毒（PPV）的荧光定量 PCR 方法是如何建立的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该方法的敏感性试验显示，检测PBoV1/PBoV2的最低限为4:0×10^-3 ng/μL，检测PBoV3/PBoV4/PBoV5的最低限为6:0×10^-3 ng/μL。",
+    "reference_case": "该方法的敏感性试验显示，检测PBoV1/PBoV2的最低限为3:6×10^-3 ng/μL，检测PBoV3/PBoV4/PBoV5的最低限为5:55×10^-3 ng/μL。",
+    "error_detail": "数值偏差",
+    "original_question": "猪博卡病毒的双重PCR检测方法的敏感性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在四川省的18份腹泻仔猪病料中，检测出12份为猪博卡病毒阳性，其中9份为PBoV3/PBoV4/PBoV5型，3份为PBoV1/PBoV2型，0份为PBoV1/PBoV2型及PBoV3/PBoV4/PBoV5型共感染。",
+    "reference_case": "在四川省的18份腹泻仔猪病料中，检测出10份为猪博卡病毒阳性，其中7份为PBoV3/PBoV4/PBoV5型，2份为PBoV1/PBoV2型，1份为PBoV1/PBoV2型及PBoV3/PBoV4/PBoV5型共感染。",
+    "error_detail": "数值偏差",
+    "original_question": "猪博卡病毒的双重PCR检测方法在四川省的应用结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在双重PCR反应条件的优化中，确定PBoV-F1/PBoV-R1各1:5 μL，PBoV-F2/PBoV-R2各0:75 μL时扩增效果最佳。",
+    "reference_case": "在双重PCR反应条件的优化中，确定PBoV-F1/PBoV-R1各1 μL，PBoV-F2/PBoV-R2各0:5 μL时扩增效果最佳。",
+    "error_detail": "数值偏差",
+    "original_question": "猪博卡病毒的双重PCR检测方法中，引物比例是如何优化的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "通过在不同温度下进行扩增，确定60°C为最适退火温度，能在50~54°C范围内扩增出2个目的片段。",
+    "reference_case": "通过在不同温度下进行扩增，确定52°C为最适退火温度，能在50~54°C范围内扩增出2个目的片段。",
+    "error_detail": "错误的退火温度数值",
+    "original_question": "猪博卡病毒的双重PCR检测方法中，退火温度是如何优化的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PCR反应的总体系为30 μL，其中PBoV-F1/PBoV-R1与PBoV-F2/PBoV-R2各0:5 μL，2×Mix 12:5 μL，ddH2O 9:5 μL，pMD-PBoVA和pMD-PBoVB各0:5 μL。",
+    "reference_case": "PCR反应的总体系为25 μL，其中PBoV-F1/PBoV-R1与PBoV-F2/PBoV-R2各0:5 μL，2×Mix 12:5 μL，ddH2O 9:5 μL，pMD-PBoVA和pMD-PBoVB各0:5 μL。",
+    "error_detail": "错误的PCR反应总体系数值",
+    "original_question": "猪博卡病毒的双重PCR检测方法中，PCR反应的总体系是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在重组猪α干扰素-白细胞介素-2复合蛋白的研究中，检测的病原包括PRRSV、CSFV、PCV2、PRV、T. suis、M. suis、S. suis、PPV、JEV、SIV、ASFV、HPS等10种病原。",
+    "reference_case": "在重组猪α干扰素-白细胞介素-2复合蛋白的研究中，检测的病原包括PRRSV、CSFV、PCV2、PRV、T. suis、M. suis、S. suis、PPV、JEV、SIV、ASFV、HPS等12种病原。",
+    "error_detail": "错误的病原数量",
+    "original_question": "在重组猪α干扰素-白细胞介素-2复合蛋白的研究中，哪些病原被检测以确保试验猪的健康状况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重组猪α干扰素-白细胞介素-2复合蛋白能有效抑制猪体内PRRSV的增殖，阳性对照组猪在35DPI时血清仍为PRRSV核酸阳性，而第3、4、5、7组猪血清中PRRSV核酸阳性维持时间分别为21、28、28、35天。",
+    "reference_case": "重组猪α干扰素-白细胞介素-2复合蛋白能有效抑制猪体内PRRSV的增殖，阳性对照组猪在35DPI时血清仍为PRRSV核酸阳性，而第3、4、5、7组猪血清中PRRSV核酸阳性维持时间分别为14、21、21、28天。",
+    "error_detail": "错误的PRRSV核酸阳性维持时间",
+    "original_question": "重组猪α干扰素-白细胞介素-2复合蛋白对猪体内PRRSV病原的检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌的acrA2基因在血清5型、8型和15型中存在。",
+    "reference_case": "副猪嗜血杆菌的acrA2基因在血清5型、8型和14型中存在。",
+    "error_detail": "错误的血清型",
+    "original_question": "副猪嗜血杆菌的acrA2基因在哪些血清型中存在？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌的acrA1基因在血清6型和10型菌株中的氨基酸同源性达到90%。",
+    "reference_case": "副猪嗜血杆菌的acrA1基因在血清6型和10型菌株中的氨基酸同源性达到100%。",
+    "error_detail": "错误的氨基酸同源性数值",
+    "original_question": "副猪嗜血杆菌的acrA1基因在血清6型和10型菌株中的氨基酸同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在副猪嗜血杆菌的15个血清型标准菌株中，血清5型、8型和15型存在两个acrA基因拷贝，分别为acrA1和acrA2。",
+    "reference_case": "在副猪嗜血杆菌的15个血清型标准菌株中，血清5型、8型和14型存在两个acrA基因拷贝，分别为acrA1和acrA2。",
+    "error_detail": "错误的血清型",
+    "original_question": "在副猪嗜血杆菌的15个血清型标准菌株中，哪些血清型存在两个acrA基因拷贝？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌不同血清型之间AcrA1氨基酸序列的同源性范围为80%到100%。",
+    "reference_case": "副猪嗜血杆菌不同血清型之间AcrA1氨基酸序列的同源性范围为89:8%到100%。",
+    "error_detail": "错误的同源性范围",
+    "original_question": "副猪嗜血杆菌不同血清型之间AcrA1氨基酸序列的同源性范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌的acrA1基因在血清1型菌株中位于一个独立的分支，且其AcrA1蛋白在序列上与其他血清型的AcrA1蛋白同源性相对较高（95%到100%）。",
+    "reference_case": "副猪嗜血杆菌的acrA1基因在血清1型菌株中位于一个独立的分支，且其AcrA1蛋白在序列上与其他血清型的AcrA1蛋白同源性相对较低（89:8%到92%）。",
+    "error_detail": "错误的同源性描述",
+    "original_question": "副猪嗜血杆菌的acrA1基因在血清1型菌株中的进化位置如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌的acrA1基因在血清8型菌株中的氨基酸序列长度为400个氨基酸，而其他血清型的AcrA1蛋白均小于379个氨基酸。",
+    "reference_case": "副猪嗜血杆菌的acrA1基因在血清8型菌株中的氨基酸序列长度为379个氨基酸，而其他血清型的AcrA1蛋白均大于400个氨基酸。",
+    "error_detail": "数值偏差，将血清8型的氨基酸序列长度错误地增加，同时错误地减少了其他血清型的氨基酸序列长度。",
+    "original_question": "副猪嗜血杆菌的acrA1基因在血清8型菌株中的氨基酸序列长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌的acrA1和acrA2基因在氨基酸序列上的同源性高于50%。",
+    "reference_case": "副猪嗜血杆菌的acrA1和acrA2基因在氨基酸序列上的同源性低于30%。",
+    "error_detail": "数值偏差，错误地提高了同源性比例。",
+    "original_question": "副猪嗜血杆菌的acrA1和acrA2基因在氨基酸序列上的同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "攻毒保护试验结果显示，免疫组小鼠在攻毒后4天内，攻打HN090511b菌株的小鼠死亡3只，攻打HN190菌株的小鼠死亡1只，攻打HN100708d菌株的小鼠死亡2只，而对照组小鼠在36小时内全部死亡。",
+    "reference_case": "攻毒保护试验结果显示，免疫组小鼠在攻毒后4天内，攻打HN090511b菌株的小鼠死亡1只，攻打HN190菌株的小鼠死亡2只，攻打HN100708d菌株的小鼠死亡3只，而对照组小鼠在36小时内全部死亡。",
+    "error_detail": "数值偏差，错误地交换了不同菌株攻毒后的小鼠死亡数量。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的攻毒保护试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "SDS-PAGE检测结果显示，HN090511b菌株外膜蛋白提取物的条带大小主要集中在20ku到30ku之间，说明提取物为大肠埃希菌外膜蛋白。",
+    "reference_case": "SDS-PAGE检测结果显示，HN090511b菌株外膜蛋白提取物的条带大小主要集中在31ku到43ku之间，说明提取物为大肠埃希菌外膜蛋白。",
+    "error_detail": "数值偏差，错误地改变了条带大小的范围。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的SDS-PAGE检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在小鼠体内，猪致病性大肠埃希菌外膜蛋白亚单位疫苗的抗体水平在免疫后14天开始检测到，7天内迅速增加，14天左右达到最高值，随后缓慢下降。",
+    "reference_case": "在小鼠体内，猪致病性大肠埃希菌外膜蛋白亚单位疫苗的抗体水平在免疫后7天开始检测到，14天内迅速增加，28天左右达到最高值，随后缓慢下降。",
+    "error_detail": "数值偏差，错误地调整了抗体水平检测和达到最高值的时间点。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗在小鼠体内的抗体水平变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "免疫血清对小鼠的保护率分别为：攻打HN090511b菌株的免疫组小鼠保护率为90%，攻打HN190菌株的免疫组小鼠保护率为70%，攻打HN100708d菌株的免疫组小鼠保护率为50%。",
+    "reference_case": "免疫血清对小鼠的保护率分别为：攻打HN090511b菌株的免疫组小鼠保护率为80%，攻打HN190菌株的免疫组小鼠保护率为60%，攻打HN100708d菌株的免疫组小鼠保护率为40%。",
+    "error_detail": "数值偏差，错误地提高了保护率。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的免疫血清对小鼠的保护率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "动物免疫试验设计为将30只小鼠随机分为5组，2个免疫组和3个对照组，每组6只。免疫组小鼠接种外膜蛋白疫苗，对照组小鼠注射完全弗氏佐剂。",
+    "reference_case": "动物免疫试验设计为将30只小鼠随机分为6组，3个免疫组和3个对照组，每组5只。免疫组小鼠接种外膜蛋白疫苗，对照组小鼠注射完全弗氏佐剂。",
+    "error_detail": "数值偏差，错误地改变了分组和小鼠数量。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的动物免疫试验设计如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪肺脏气道上皮干细胞的候选亚群中，基底细胞的阳性率接近80%。",
+    "reference_case": "猪肺脏气道上皮干细胞的候选亚群中，基底细胞的阳性率接近100%。",
+    "error_detail": "阳性率数值被错误地降低",
+    "original_question": "猪肺脏气道上皮干细胞的候选亚群中，基底细胞的阳性率接近多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪尿液中β2-受体激动剂的基质效应范围为50%到120%。",
+    "reference_case": "猪尿液中8种β2-受体激动剂的基质效应范围为71:0%到114:5%。",
+    "error_detail": "基质效应范围被错误地扩大",
+    "original_question": "猪尿液中β2-受体激动剂的基质效应范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在临床应用中，该方法检测了 18 份临床送检病料，检出猪瘟病毒阳性 10 份，猪繁殖与呼吸综合征病毒阳性 8 份，混合感染阳性 0 份。",
+    "reference_case": "在临床应用中，该方法检测了 18 份临床送检病料，检出猪瘟病毒阳性 5 份，猪繁殖与呼吸综合征病毒阳性 6 份，混合感染阳性 3 份。",
+    "error_detail": "阳性检出数量被错误地修改",
+    "original_question": "双重 RT-PCR 检测方法在临床应用中的检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟病毒的特异性片段长度为 400 bp，猪繁殖与呼吸综合征病毒的特异性片段长度为 200 bp。",
+    "reference_case": "猪瘟病毒的特异性片段长度为 310 bp，猪繁殖与呼吸综合征病毒的特异性片段长度为 161 bp。",
+    "error_detail": "片段长度被错误地增加",
+    "original_question": "在双重 RT-PCR 检测方法中，猪瘟病毒和猪繁殖与呼吸综合征病毒的特异性片段长度分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "随着丁酸梭状芽胞杆菌添加水平的提高，断奶仔猪血清总蛋白显著减少（P<0:05:。",
+    "reference_case": "随着丁酸梭状芽胞杆菌添加水平的提高，断奶仔猪血清总蛋白显著增加（P<0:05:。",
+    "error_detail": "血清总蛋白变化方向被错误地描述",
+    "original_question": "丁酸梭状芽胞杆菌对断奶仔猪血清总蛋白的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加丁酸梭状芽胞杆菌显著增加了断奶仔猪血清谷草转氨酶水平（P<0:05:。",
+    "reference_case": "添加丁酸梭状芽胞杆菌显著降低了断奶仔猪血清谷草转氨酶水平（P<0:05:。",
+    "error_detail": "血清谷草转氨酶水平变化方向被错误地描述",
+    "original_question": "在断奶仔猪饲粮中添加丁酸梭状芽胞杆菌对血清谷草转氨酶水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丁酸梭状芽胞杆菌对断奶仔猪血清球蛋白水平有显著影响（P<0:05:。",
+    "reference_case": "丁酸梭状芽胞杆菌对断奶仔猪血清球蛋白水平没有显著影响（P>0:05:，但具有增加的趋势。",
+    "error_detail": "错误地描述了血清球蛋白水平的影响",
+    "original_question": "丁酸梭状芽胞杆菌对断奶仔猪血清球蛋白水平的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加丁酸梭状芽胞杆菌显著增加了断奶仔猪血清尿素氮水平（P<0:05:。",
+    "reference_case": "添加丁酸梭状芽胞杆菌显著降低了断奶仔猪血清尿素氮水平（P<0:05:。",
+    "error_detail": "血清尿素氮水平变化方向被错误地描述",
+    "original_question": "丁酸梭状芽胞杆菌对断奶仔猪血清尿素氮水平的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丁酸梭状芽胞杆菌对断奶仔猪血清碱性磷酸酶水平有显著影响（P<0:05:。",
+    "reference_case": "丁酸梭状芽胞杆菌对断奶仔猪血清碱性磷酸酶水平没有显著影响（P>0:05:，但具有降低的趋势。",
+    "error_detail": "错误地描述了血清碱性磷酸酶水平的影响",
+    "original_question": "丁酸梭状芽胞杆菌对断奶仔猪血清碱性磷酸酶水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加丁酸梭状芽胞杆菌显著降低了断奶仔猪血清白蛋白与球蛋白之比（P<0:05:。",
+    "reference_case": "添加丁酸梭状芽胞杆菌显著增加了断奶仔猪血清白蛋白与球蛋白之比（P<0:05:。",
+    "error_detail": "血清白蛋白与球蛋白之比变化方向被错误地描述",
+    "original_question": "丁酸梭状芽胞杆菌对断奶仔猪血清白蛋白与球蛋白之比有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加丁酸梭状芽胞杆菌显著降低了断奶仔猪血清白蛋白水平（P<0:05:。",
+    "reference_case": "添加丁酸梭状芽胞杆菌显著增加了断奶仔猪血清白蛋白水平（P<0:05:。",
+    "error_detail": "血清白蛋白水平变化方向被错误地描述",
+    "original_question": "丁酸梭状芽胞杆菌在断奶仔猪饲粮中的应用对血清白蛋白水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加丁酸梭状芽胞杆菌显著提高了断奶仔猪血清谷丙转氨酶水平（P<0:05:。",
+    "reference_case": "添加丁酸梭状芽胞杆菌显著降低了断奶仔猪血清谷丙转氨酶水平（P<0:05:。",
+    "error_detail": "错误地改变了丁酸梭状芽胞杆菌对断奶仔猪血清谷丙转氨酶水平的影响方向。",
+    "original_question": "丁酸梭状芽胞杆菌对断奶仔猪血清谷丙转氨酶水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "青海省部分地区猪病毒性腹泻的病原检测中，TGEV的单独感染率最高，为25:0%。",
+    "reference_case": "青海省部分地区猪病毒性腹泻的病原检测中，TGEV的单独感染率最低，为1:67%。",
+    "error_detail": "错误地改变了TGEV的单独感染率的描述和数值。",
+    "original_question": "青海省部分地区猪病毒性腹泻的病原检测中，哪种病毒的单独感染率最低？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在青海省部分地区的猪病毒性腹泻中，PEDV/RV/TGEV混合感染型的感染率最低，为8:33%。",
+    "reference_case": "在青海省部分地区的猪病毒性腹泻中，PEDV/RV/TGEV混合感染型的感染率最高，为51:67%。",
+    "error_detail": "错误地改变了PEDV/RV/TGEV混合感染型的感染率的描述和数值。",
+    "original_question": "在青海省部分地区的猪病毒性腹泻中，哪种混合感染型的感染率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在青海省部分地区的猪病毒性腹泻中，RV的单独感染率最高，为25:0%。",
+    "reference_case": "在青海省部分地区的猪病毒性腹泻中，PEDV的单独感染率最高，为25:0%。",
+    "error_detail": "错误地改变了单独感染率最高的病毒类型。",
+    "original_question": "在青海省部分地区的猪病毒性腹泻中，哪种病毒的单独感染率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "青海省部分地区猪病毒性腹泻的病原检测中，PEDV/TGEV混合感染型的感染率为51:67%。",
+    "reference_case": "青海省部分地区猪病毒性腹泻的病原检测中，PEDV/TGEV混合感染型的感染率为8:33%。",
+    "error_detail": "错误地改变了PEDV/TGEV混合感染型的感染率数值。",
+    "original_question": "青海省部分地区猪病毒性腹泻的病原检测中，PEDV/TGEV混合感染型的感染率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "北京市目前有15家生猪定点屠宰企业，其中11家具有正常屠宰业务。",
+    "reference_case": "北京市目前有13家生猪定点屠宰企业，其中11家具有正常屠宰业务。",
+    "error_detail": "错误地改变了生猪定点屠宰企业的总数。",
+    "original_question": "北京市目前有多少家生猪定点屠宰企业，其中有多少家具有正常屠宰业务？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "北京市生猪屠宰检疫监管的工作内容包括严格生猪入场监督检查、加强生猪宰前检查、严格同步检疫和“瘦肉精”抽检、规范落实生物安全处理、扎实开展检疫出证等，以及每日进行100%的生猪检疫。",
+    "reference_case": "北京市生猪屠宰检疫监管的工作内容包括严格生猪入场监督检查、加强生猪宰前检查、严格同步检疫和“瘦肉精”抽检、规范落实生物安全处理、扎实开展检疫出证等。",
+    "error_detail": "添加了不存在的100%每日检疫要求",
+    "original_question": "北京市生猪屠宰检疫监管的工作内容包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "北京市动物卫生监督机构的执法人员全部纳入行政执法编制，依照公务员进行管理。目前全市在职在编行政执法人员799人，其中市级65人，区县734人。全市生猪屠宰厂派驻官方兽医共45名，设立生猪屠宰检疫签约兽医180名。",
+    "reference_case": "北京市动物卫生监督机构的执法人员全部纳入行政执法编制，依照公务员进行管理。目前全市在职在编行政执法人员699人，其中市级65人，区县634人。全市生猪屠宰厂派驻官方兽医共45名，设立生猪屠宰检疫签约兽医180名。",
+    "error_detail": "错误地增加了执法人员数量",
+    "original_question": "北京市生猪屠宰检疫监管的队伍建设情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "沈阳市的生猪屠宰检疫工作是从2000年开始正式实行的。",
+    "reference_case": "沈阳市的生猪屠宰检疫工作是从1998年开始正式实行的。",
+    "error_detail": "错误地改变了实行年份",
+    "original_question": "沈阳市的生猪屠宰检疫工作是从哪一年开始正式实行的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "温州市生猪屠宰检疫人员中，具备检疫签证资格的官方兽医有30人。",
+    "reference_case": "温州市生猪屠宰检疫人员中，具备检疫签证资格的官方兽医有20人。",
+    "error_detail": "错误地增加了官方兽医数量",
+    "original_question": "温州市生猪屠宰检疫人员中，具备检疫签证资格的官方兽医有多少人？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "温州市生猪屠宰场（点）中，有29个未取得动物防疫条件合格证。",
+    "reference_case": "温州市生猪屠宰场（点）中，有39个未取得动物防疫条件合格证。",
+    "error_detail": "错误地减少了未取得合格证的屠宰场数量",
+    "original_question": "温州市生猪屠宰场（点）中，有多少个未取得动物防疫条件合格证？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "温州市生猪屠宰场（点）中，有9个未列入设置规划。",
+    "reference_case": "温州市生猪屠宰场（点）中，有19个未列入设置规划。",
+    "error_detail": "错误地减少了未列入规划的数量",
+    "original_question": "温州市生猪屠宰场（点）中，有多少个未列入设置规划？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "温州市生猪屠宰检疫人员中，协检人员有53人。",
+    "reference_case": "温州市生猪屠宰检疫人员中，协检人员有43人。",
+    "error_detail": "错误地增加了协检人员数量",
+    "original_question": "温州市生猪屠宰检疫人员中，协检人员有多少人？",
+    "original_input": ""
+  }
+]

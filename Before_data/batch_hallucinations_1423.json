@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "免疫耐受发生时，猪群会对所有病毒感染不产生免疫反应，包括疫苗病毒和野毒感染。",
+    "reference_case": "特异性免疫耐受后对疫苗病毒感染不产生免疫反应，但受到野毒感染后可发病。如仔猪在妊娠早期发生先天性感染，产后仔猪对猪瘟病毒具有免疫耐受现象，只有遭到猪瘟强毒感染才会发生猪瘟。",
+    "error_detail": "错误地认为免疫耐受会导致对所有病毒感染不产生免疫反应，实际上仅对疫苗病毒不产生免疫反应。",
+    "original_question": "免疫耐受发生时，猪群会如何表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用疫苗的免疫剂量过大，机体免疫应答就会增强，不会发生免疫麻痹。",
+    "reference_case": "使用疫苗的免疫剂量过大，机体免疫应答就会受到抑制，发生免疫麻痹。超大剂量活疫苗感染在免疫抑制的情况下，甚至可导致猪只发生临床疾病。",
+    "error_detail": "错误地认为免疫剂量过大会增强免疫应答，实际上会抑制免疫应答，导致免疫麻痹。",
+    "original_question": "使用疫苗的免疫剂量过大有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪大肠杆菌疫苗在免疫1周后产生免疫力。",
+    "reference_case": "猪大肠杆菌疫苗在免疫2周后产生免疫力。",
+    "error_detail": "错误地缩短了疫苗产生免疫力的时间。",
+    "original_question": "猪大肠杆菌疫苗免疫后多长时间产生免疫力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "我国猪肉生产应达到有机食品标准。",
+    "reference_case": "我国猪肉生产应是无公害绿色食品，由此引起了养猪灭病的绿色革命。",
+    "error_detail": "错误地将无公害绿色食品标准混淆为有机食品标准。",
+    "original_question": "我国猪肉生产应达到什么标准？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪场应建立以饲养员为主，兽医为辅的防疫灭病组织。",
+    "reference_case": "猪场应建立厂长统一指挥，以兽医为主，饲养员和后勤职工紧密配合的防疫灭病组织，并制定严格的防疫制度，定期进行消毒、灭鼠、灭蝇、驱虫，实行封闭式管理，禁止职工私自养猪，并确保所需猪肉及其制品由本场供应。",
+    "error_detail": "错误地改变了防疫灭病组织的主导角色。",
+    "original_question": "猪场应如何制定兽医卫生防疫制度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "场址选择要合理，养殖场内的布局结构应符合防疫要求和管理要求，舍栋间距应达到50米。",
+    "reference_case": "场址选择要合理，养殖场内的布局结构应符合防疫要求和管理要求，舍栋间距应达到30米，病理解剖室应在养殖场主风向的下方，距离应达到200至500米，粪便发酵池应建在院墙外并能净化无污染，排污沟要加盖水泥盖板。",
+    "error_detail": "错误地增加了舍栋间距的要求。",
+    "original_question": "猪场应如何选择场址？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪场应设防疫围墙，猪舍之间、道路两旁种植树木鲜花，绿化美化并起到防疫屏障作用，无需设消毒池、更衣室等基础防疫设施。",
+    "reference_case": "猪场应设防疫围墙，猪舍之间、道路两旁种植树木鲜花，绿化美化并起到防疫屏障作用，并完善基础防疫设施，控制疫病发生，必须设消毒池、更衣室、洗澡间、兽医室、病死猪处理场以及完备的粪污处理设备。",
+    "error_detail": "错误地假设无需设消毒池、更衣室等基础防疫设施。",
+    "original_question": "猪场应如何进行环境控制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪场疾病监测方法仅包括临床学方法和病理解剖学方法。",
+    "reference_case": "猪场疾病监测方法包括临床学方法、病理解剖学方法、血液学监测和诊断、细菌培养和药敏、免疫学诊断技术。",
+    "error_detail": "错误地遗漏了血液学监测和诊断、细菌培养和药敏、免疫学诊断技术。",
+    "original_question": "猪场疾病监测的主要方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "病理解剖学方法仅通过对淘汰猪进行剖检，发现病变。",
+    "reference_case": "病理解剖学方法通过对淘汰猪、死猪、流产胎儿和死胎等进行剖检，发现病变，反映猪群的饲养管理、营养情况，提供早期预防措施。",
+    "error_detail": "错误地限制了病理解剖学方法的对象范围。",
+    "original_question": "病理解剖学方法在猪场疾病监测中起到什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "血液学监测和诊断通过检测红白细胞总数、血红素含量、白细胞分类，对传染病特别是营养代谢病提供早期监测诊断结论。",
+    "reference_case": "血液学监测和诊断通过检测红白细胞总数、血红素含量、白细胞分类、血清钙、磷、锌、硒等，对传染病特别是营养代谢病提供早期监测诊断结论。",
+    "error_detail": "错误地遗漏了血清钙、磷、锌、硒等的检测。",
+    "original_question": "血液学监测和诊断对猪群健康有何帮助？",
+    "original_input": ""
+  }
+]

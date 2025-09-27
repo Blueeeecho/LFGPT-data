@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "复方中草药制剂对早期断奶仔猪抗应激能力的影响是通过血清中肌酸激酶（CK）活力及葡萄糖（GLU）含量来评估的，其中CK活力提高了50%。",
+    "reference_case": "复方中草药制剂对早期断奶仔猪抗应激能力的影响是通过血清中肌酸激酶（CK）活力及葡萄糖（GLU）含量来评估的。",
+    "error_detail": "添加了不存在的CK活力提高50%的数据",
+    "original_question": "复方中草药制剂对早期断奶仔猪抗应激能力的影响是通过哪些指标来评估的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "复方中草药制剂显著降低了早期断奶仔猪血清中尿素氮（BUN）的含量（P<0:01:。",
+    "reference_case": "复方中草药制剂显著降低了早期断奶仔猪血清中尿素氮（BUN）的含量（P<0:05:。",
+    "error_detail": "使用了更严格的P值标准（P<0:01）而非原始输出中的P<0:05",
+    "original_question": "复方中草药制剂对早期断奶仔猪血清中尿素氮（BUN）含量的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪呼吸道疾病综合征（PRDC）是由病毒、细菌、支原体和真菌等多种因素引起的呼吸系统炎症性疾病。",
+    "reference_case": "猪呼吸道疾病综合征（PRDC）是由病毒、细菌、支原体、环境应激和猪群免疫力低下等多种因素引起的呼吸系统炎症性疾病。",
+    "error_detail": "错误地添加了真菌作为病因之一",
+    "original_question": "猪呼吸道疾病综合征（PRDC）的主要病因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "梅山猪LBP基因292G/A位点的PIC值小于0:20，表现为低度多态。",
+    "reference_case": "梅山猪LBP基因292G/A位点的PIC值小于0:25，表现为低度多态。",
+    "error_detail": "错误地降低了PIC值的阈值",
+    "original_question": "梅山猪LBP基因292G/A位点的遗传多态性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "梅山猪LBP基因1168G/A位点的PIC值大于0:5，表现为高度多态。",
+    "reference_case": "梅山猪LBP基因1168G/A位点的PIC值介于0:25到0:5之间，表现为中度多态。",
+    "error_detail": "错误地提高了PIC值的范围和分类",
+    "original_question": "梅山猪LBP基因1168G/A位点的遗传多态性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "梅山猪LBP基因292G/A位点的基因型频率为AA 0:950、AB 0:030、BB 0:020，基因频率为A 0:960、B 0:040。",
+    "reference_case": "梅山猪LBP基因292G/A位点的基因型频率为AA 0:902、AB 0:049、BB 0:049，基因频率为A 0:926、B 0:074。",
+    "error_detail": "错误地修改了基因型频率和基因频率的数值",
+    "original_question": "梅山猪LBP基因292G/A位点的基因型频率和基因频率如何分布？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "梅山猪LBP基因1168G/A位点的基因型频率为AA 0:700、AB 0:250、BB 0:050，基因频率为A 0:825、B 0:175。",
+    "reference_case": "梅山猪LBP基因1168G/A位点的基因型频率为AA 0:630、AB 0:309、BB 0:061，基因频率为A 0:784、B 0:216。",
+    "error_detail": "错误地修改了基因型频率和基因频率的数值",
+    "original_question": "梅山猪LBP基因1168G/A位点的基因型频率和基因频率如何分布？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "梅山猪LBP基因1168G/A位点的多态性与所检测的免疫指标均无显著差异，可能是因为样本量不足。",
+    "reference_case": "梅山猪LBP基因1168G/A位点的多态性与所检测的免疫指标均无显著差异。",
+    "error_detail": "添加了未经证实的假设（样本量不足）",
+    "original_question": "梅山猪LBP基因1168G/A位点的多态性与哪些免疫指标相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "梅山猪LBP基因292G/A位点的多态性对IFN-α水平有显著影响，IFN-α水平的变化导致了基因型差异。",
+    "reference_case": "梅山猪LBP基因292G/A位点的多态性对IFN-α水平有显著影响，BB基因型个体的IFN-α水平显著高于AA和AB基因型个体。",
+    "error_detail": "错误地颠倒了因果关系",
+    "original_question": "梅山猪LBP基因292G/A位点的多态性对IFN-α水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "梅山猪LBP基因292G/A位点的多态性检测结果显示，该位点存在MspI酶切位点，检测到四种基因型：AA、AB、BB和BC。",
+    "reference_case": "梅山猪LBP基因292G/A位点的多态性检测结果显示，该位点存在MspI酶切位点，检测到三种基因型：AA、AB和BB。其中，AA基因型出现的频率较高，AB和BB基因型出现频率较低。",
+    "error_detail": "错误地添加了不存在的基因型BC",
+    "original_question": "梅山猪LBP基因292G/A位点的多态性检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "梅山猪LBP基因1168G/A位点的多态性对所检测的免疫指标有显著影响，特别是对IL-6水平。",
+    "reference_case": "梅山猪LBP基因1168G/A位点的多态性对所检测的免疫指标均无显著影响。",
+    "error_detail": "错误地声称有显著影响，与原始输出矛盾",
+    "original_question": "梅山猪LBP基因1168G/A位点的多态性对免疫指标有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "梅山猪LBP基因1168G/A位点的多态性检测结果显示，该位点存在Bsh1236I酶切位点，检测到两种基因型：AA和AB。",
+    "reference_case": "梅山猪LBP基因1168G/A位点的多态性检测结果显示，该位点存在Bsh1236I酶切位点，检测到三种基因型：AA、AB和BB。其中，AA基因型出现的频率较高，AB和BB基因型出现频率较低。",
+    "error_detail": "错误地减少了基因型的数量",
+    "original_question": "梅山猪LBP基因1168G/A位点的多态性检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "梅山猪LBP基因292G/A位点的多态性与IFN-α水平相关，BB基因型个体的IFN-α水平显著高于AA和AB基因型个体，但与其他免疫指标无关。",
+    "reference_case": "梅山猪LBP基因292G/A位点的多态性与IFN-α水平相关，BB基因型个体的IFN-α水平显著高于AA和AB基因型个体。",
+    "error_detail": "添加了与原始输出无关的额外信息（与其他免疫指标无关）",
+    "original_question": "梅山猪LBP基因292G/A位点的多态性与哪些免疫指标相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "研究中使用了美系长白、大约克、杜洛克和皮特兰四种公猪。",
+    "reference_case": "研究中使用了美系长白、大约克和杜洛克三种公猪。",
+    "error_detail": "错误地添加了不存在的公猪品种（皮特兰）",
+    "original_question": "在黄茏多糖对猪精液冷冻保存效果的研究中，使用了哪些品种的公猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "黄茏多糖对猪精液冷冻保存的影响不存在种间差异，最优浓度下三种公猪的冻后精液质量无显著差异，这可能是因为所有品种对黄茏多糖的反应相似。",
+    "reference_case": "黄茏多糖对猪精液冷冻保存的影响不存在种间差异，最优浓度下三种公猪的冻后精液质量无显著差异。",
+    "error_detail": "添加了未经证实的假设（反应相似）",
+    "original_question": "黄茏多糖对猪精液冷冻保存的影响是否存在种间差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "黄茏多糖对杜洛克公猪的冻后精子顶体完整率有显著影响，因为杜洛克公猪的精子质量本身就优于大约克公猪。",
+    "reference_case": "黄茏多糖对杜洛克公猪的冻后精子顶体完整率有显著影响，在不添加黄茏多糖时显著高于大约克公猪。",
+    "error_detail": "错误地颠倒了因果关系",
+    "original_question": "黄茏多糖对哪种公猪的冻后精子顶体完整率有显著影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "黄茏多糖在猪精液冷冻保存中起到抗炎作用，能够显著改善冻后精液质量。",
+    "reference_case": "黄茏多糖在猪精液冷冻保存中起到抗氧化作用，能够显著改善冻后精液质量，包括提高精子活力、降低畸形率和提高顶体完整率。",
+    "error_detail": "错误地将抗氧化作用改为抗炎作用",
+    "original_question": "黄茏多糖在猪精液冷冻保存中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "黄茏多糖显著改善了猪精液冷冻保存的效果，最佳浓度0:08%下，冻后精子活力和顶体完整率最高，畸形率最低。",
+    "reference_case": "黄茏多糖显著改善了猪精液冷冻保存的效果，最佳浓度0:04%下，冻后精子活力和顶体完整率最高，畸形率最低。",
+    "error_detail": "错误地修改了最佳浓度",
+    "original_question": "黄茏多糖对猪精液冷冻保存的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "黄茏多糖通过增加精子内的ATP含量，防止精子膜上的多聚不饱和脂肪酸发生过氧化反应，从而改善冻后精子质量。",
+    "reference_case": "黄茏多糖通过清除多余的活性氧（ROS），防止精子膜上的多聚不饱和脂肪酸发生过氧化反应，从而改善冻后精子质量。",
+    "error_detail": "错误地改变了作用机理",
+    "original_question": "黄茏多糖对猪精液冷冻保存的作用机理是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "LPS应激后4小时，原花青素组显著降低了白介素-1β（IL-1β）、白介素-6（IL-6:和肿瘤坏死因子-α（TNF-α）的水平，其中IL-6降低了60%。",
+    "reference_case": "LPS应激后4小时，原花青素组显著降低了白介素-1β（IL-1β）、白介素-6（IL-6:和肿瘤坏死因子-α（TNF-α）的水平。",
+    "error_detail": "错误地添加了不存在的IL-6降低60%的数据",
+    "original_question": "在《日粮中添加原花青素对猪生长性能和免疫应答的影响》研究中，LPS应激后4小时，原花青素组对哪些细胞因子水平有显著影响？",
+    "original_input": ""
+  }
+]

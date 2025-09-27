@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "以北京市门头沟区圈门三八养猪场为例，精料占20-14%，玉米单位占17.8，可消化粗蛋白占2931.1克，磷占215.9克。",
+    "reference_case": "以北京市门头沟区圈门三八养猪场为例，精料占2-1.4%，玉米单位占1.78，可消化粗蛋白占293.11克，磷占21.59克。",
+    "error_detail": "数值比例被错误地放大了10倍",
+    "original_question": "种公猪夏季日粮配合的具体例子是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "定时定量喂养，夏天喂五次，冬天喂三次；铜料调制成稀粥状，每顿要喂得饱，留十成即可；每天还需提供少量饮水。",
+    "reference_case": "定时定量喂养，夏天喂三次，冬天喂两次；铜料调制成稠粥状，每顿不要喂得太饱，留九成即可；每天还需提供充足饮水。",
+    "error_detail": "喂养次数、饲料状态和饮水量的建议与原始指令冲突",
+    "original_question": "种公猪的喂养技术有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "一般要求上下午各运动一次，每次时间约3到4小时，里程约10到15公里；配种期加强运动，配种准备期和非配种期适度运动；夏天应在中午进行，冬天应在早间和傍晚进行；特别炎热和大风、下雪时适宜运动；实行放牧不可代替每天的运动。",
+    "reference_case": "一般要求上下午各运动一次，每次时间约1到2小时，里程约3到5公里；配种期适度运动，配种准备期和非配种期加强运动；夏天应在早间和傍晚进行，冬天应在中午前后进行；特别炎热和大风、下雪时不宜运动；实行放牧可代替每天的运动。",
+    "error_detail": "运动时间、里程和时段的建议与当前标准不符",
+    "original_question": "种公猪的运动要求是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "将种公猪从小就分开养，长大后能和睦相处，然后将它们放到狭窄的运动场内与其他公猪混养；最初几天由饲养员偶尔看守，防止打架，经过几周的熟悉后自然合群。",
+    "reference_case": "将种公猪从小就放在一起，长大后能和睦相处，然后将它们放到宽敞的运动场内与其他公猪混养；最初几天由饲养员经常看守，防止打架，经过几天的熟悉后自然合群。",
+    "error_detail": "添加了不合理的假设，如分开养和狭窄的运动场",
+    "original_question": "如何防治公猪打架？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "妥善安排喂、饮、运动、刷拭、休息、日光浴等生活日程，使之养成良好的生活习惯并增进健康；避免公猪整天被关在圈内导致自淫现象，但可以偶尔关在圈内。",
+    "reference_case": "妥善安排喂、饮、运动、刷拭、休息、日光浴等生活日程，使之养成良好的生活习惯并增进健康；避免公猪整天被关在圈内导致自淫现象。",
+    "error_detail": "添加了矛盾的指令，即避免整天关在圈内但可以偶尔关在圈内",
+    "original_question": "如何合理安排公猪的生活日程？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "定期称重，系统掌握公猪体重变化，检查公猪饲养是否适当；成年公猪体重应逐渐上升，始终保持上营养水平；幼龄公猪要求体重维持不变但不显过肥。",
+    "reference_case": "定期称重，系统掌握公猪体重变化，检查公猪饲养是否适当；成年公猪体重应维持不变，始终保持中上营养水平；幼龄公猪要求体重逐渐上升但不显过肥。",
+    "error_detail": "成年和幼龄公猪的体重管理建议被错误地颠倒",
+    "original_question": "如何掌握公猪体重变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在配种准备期内，每天检查一次精液品质；在配种期内，每隔三天定期检查公猪精液品质，以保证高度受胎率。",
+    "reference_case": "在配种准备期内，每星期检查一次精液品质；在配种期内，每隔七到十天定期检查公猪精液品质，以保证高度受胎率。",
+    "error_detail": "检查频率被错误地增加，与当前标准不符",
+    "original_question": "如何定期检查公猪精液品质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "兩岁以上的公猪，一般一天最好不超过四次，在心要的情况下，一天也可以配四到五次。",
+    "reference_case": "兩岁以上的公猪，一般一天最好不超过两次，在心要的情况下，一天也可以配两到三次。",
+    "error_detail": "配种次数被错误地翻倍",
+    "original_question": "兩岁以上的公猪每天配种最好不要超过几次？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪连续配种两次以上，最好每次间隔八到十二小时。",
+    "reference_case": "公猪连续配种两次以上，最好每次间隔四到六小时。",
+    "error_detail": "间隔时间被错误地延长",
+    "original_question": "公猪连续配种两次以上，每次间隔多久为宜？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "兩岁以內的小公猪，每天配种不应超过三次。",
+    "reference_case": "兩岁以內的小公猪，每天配种不应超过一次。",
+    "error_detail": "配种次数被错误地增加",
+    "original_question": "兩岁以內的小公猪每天配种不应超过几次？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "连续配种四到五天后，小公猪应当休息一天。",
+    "reference_case": "连续配种二到三天后，小公猪应当休息一天。",
+    "error_detail": "连续配种天数被错误地增加",
+    "original_question": "连续配种几天后，小公猪应当休息？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "过度或过肥的母猪在配种前会现不发情、排卵少、卵子活力弱，或造成空怀，但可以通过增加饲料量来改善。",
+    "reference_case": "过度或过肥的母猪在配种前会现不发情、排卵少、卵子活力弱，或造成空怀。",
+    "error_detail": "添加了不合理的改善方法",
+    "original_question": "过度或过肥的母猪在配种前会影响什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在配种准备期的日粮中，每个玉米单位应有可消化全价蛋白不少于一千克。",
+    "reference_case": "母猪在配种准备期的日粮中，每个玉米单位应有可消化全价蛋白不少于一百克。",
+    "error_detail": "蛋白质需求量被错误地放大10倍",
+    "original_question": "母猪在配种准备期的日粮中，每个玉米单位应有多少可消化全价蛋白？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在哺乳期配种时，日粮中的全价蛋白需求量应调整至二百二十到二百六十克。",
+    "reference_case": "母猪在哺乳期配种时，日粮中的全价蛋白需求量应调整至一百一十到一百三十克。",
+    "error_detail": "蛋白质需求量被错误地翻倍",
+    "original_question": "母猪在哺乳期配种时，日粮中的全价蛋白需求量应如何调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在配种准备期的日粮中，每百公斤体重应供給十六到二十四克钙和十到十六克磷。",
+    "reference_case": "母猪在配种准备期的日粮中，每百公斤体重应供給八到十二克钙和五到八克磷。",
+    "error_detail": "钙和磷的需求量被错误地翻倍",
+    "original_question": "母猪在配种准备期的日粮中，每百公斤体重应如何供給钙和磷？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "母猪在配种准备期需要维生素 B、C、K。",
+    "reference_case": "母猪在配种准备期需要维生素 A、D、E。",
+    "error_detail": "错误的维生素类型被列出",
+    "original_question": "母猪在配种准备期需要哪些维生素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在配种准备期日粮中维生素 A 的需要量是每百公斤体重供給十万至十五万国际单位。",
+    "reference_case": "母猪在配种准备期日粮中维生素 A 的需要量是每百公斤体重供給一万至一万五千国际单位。",
+    "error_detail": "维生素A的需求量被错误地放大10倍",
+    "original_question": "母猪在配种准备期日粮中维生素 A 的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在配种准备期日粮中维生素 D 的需要量是一万單位。",
+    "reference_case": "母猪在配种准备期日粮中维生素 D 的需要量是一千單位。",
+    "error_detail": "维生素D的需求量被错误地放大10倍",
+    "original_question": "母猪在配种准备期日粮中维生素 D 的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "母猪在配种准备期应调热日粮组成和给量，使它保持有十成膘。",
+    "reference_case": "母猪在配种准备期应调热日粮组成和给量，使它保持有六至八成膘。",
+    "error_detail": "膘情建议与原始指令冲突",
+    "original_question": "母猪在配种准备期应如何调热日粮组成和给量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "公猪长期不配种会使得睾丸产生精子机能减弱，而且因为长期不配种，旧存的衰退精子比例增多，这些精子常常是生活力较低，甚至产生畸形或死亡精子，但可以通过增加运动来改善。",
+    "reference_case": "公猪长期不配种会使得睾丸产生精子机能减弱，而且因为长期不配种，旧存的衰退精子比例增多，这些精子常常是生活力较低，甚至产生畸形或死亡精子。",
+    "error_detail": "添加了不合理的改善方法",
+    "original_question": "公猪长期不配种会有什么影响？",
+    "original_input": ""
+  }
+]

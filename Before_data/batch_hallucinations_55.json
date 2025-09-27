@@ -1,0 +1,47 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2005年畜牧业产值约为15000多亿元（按当年价格计算）。",
+    "reference_case": "2005年畜牧业产值约为13000多亿元（按当年价格计算）。",
+    "error_detail": "数值偏差，夸大了畜牧业产值。",
+    "original_question": "中国畜牧业在2005年的产值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "可变现净值计量模式适用于生猪资产能够可靠计量其总变现价值的情况。",
+    "reference_case": "可变现净值计量模式适用于生猪资产能够可靠计量其净变现价值的情况。",
+    "error_detail": "术语错误，将'净变现价值'误为'总变现价值'。",
+    "original_question": "可变现净值计量模式适用于哪些情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "成本效益原则制约了生猪资产的准确计量，因为准确计量需要高昂的成本，而企业的决策重要性与信息详尽程度成反比。",
+    "reference_case": "成本效益原则制约了生猪资产的准确计量，因为准确计量需要高昂的成本，而企业的决策重要性与信息详尽程度成正比。",
+    "error_detail": "指令偏离，错误地表述了决策重要性与信息详尽程度的关系。",
+    "original_question": "为什么说成本效益原则制约了生猪资产的准确计量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "2001年，河南省的肉类产品的AAI（绝对比较优势指数）在猪、牛、羊和禽类中均表现较好。",
+    "reference_case": "2001年，河南省的肉类产品的AAI（绝对比较优势指数）在猪、牛、羊和禽类中均表现较好。",
+    "error_detail": "时效性错误，虽然数据正确，但未说明是否为最新数据。",
+    "original_question": "2001年哪个省的肉类产品的AAI（绝对比较优势指数）在猪、牛、羊和禽类中均表现较好？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "六和集团在种禽（畜）业务方面是全国唯一集祖代肉种鸭、父母代肉种鸭、原种猪、祖代猪、父母代肉种鸡及商品肉鸡的多品种、高代次企业，并且在全球市场上也具有领先地位。",
+    "reference_case": "六和集团是全国唯一集祖代肉种鸭、父母代肉种鸭、原种猪、祖代猪、父母代肉种鸡及商品肉鸡的多品种、高代次企业。",
+    "error_detail": "添加了未提及的假设，即'在全球市场上也具有领先地位'。",
+    "original_question": "六和集团在种禽（畜）业务方面有哪些具体成就？",
+    "original_input": ""
+  }
+]

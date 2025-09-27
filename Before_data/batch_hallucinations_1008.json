@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪圆环病毒病是由PCV-3引起的一种广泛分布于世界各地的疾病，主要影响断奶仔猪、猪皮炎肾病综合征和增生性坏死性肺炎等。",
+    "reference_case": "猪圆环病毒病是由PCV-2引起的一种广泛分布于世界各地的疾病，主要影响断奶仔猪、猪皮炎肾病综合征和增生性坏死性肺炎等。",
+    "error_detail": "将PCV-2错误地表述为PCV-3",
+    "original_question": "什么是猪圆环病毒病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "PCV-2感染症状包括断奶仔猪多系统衰竭综合征、猪皮炎肾病综合征、先天性颤抖和肠炎等，以及高比例的死亡率。",
+    "reference_case": "PCV-2感染症状包括断奶仔猪多系统衰竭综合征、猪皮炎肾病综合征、先天性颤抖和肠炎等。",
+    "error_detail": "添加了不准确的高比例死亡率描述",
+    "original_question": "PCV-2的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "带毒的家畜和野猪是PCV-2的主要传染源，尤其是在亚洲地区。",
+    "reference_case": "带毒的家畜和野猪是PCV-2的主要传染源。",
+    "error_detail": "错误地限定了地域范围",
+    "original_question": "PCV-2的主要传染源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "PCV-2主要通过口鼻接触传播，因为猪群密度高，所以容易传播。",
+    "reference_case": "PCV-2主要通过口鼻接触传播，妊娠母猪可通过胎盘传染给胎儿，公猪可通过精液传播。",
+    "error_detail": "错误地解释了传播原因",
+    "original_question": "PCV-2的主要传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪和牛是PCV-2的易感动物。",
+    "reference_case": "猪是PCV-2的易感动物。",
+    "error_detail": "错误地添加了非易感动物",
+    "original_question": "PCV-2感染的易感动物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "采集肺、肾、肝、胰和淋巴结等组织，进行血清学检测是诊断猪圆环病毒病的常用方法。",
+    "reference_case": "采集肺、肾、肝、胰和淋巴结等组织，进行核糖核酸聚合酶链式反应（PCR）和免疫组织化学（IHC）是诊断猪圆环病毒病的常用方法。",
+    "error_detail": "使用了过时的诊断方法",
+    "original_question": "猪圆环病毒病的实验室诊断方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "断奶仔猪多系统衰竭综合征主要表现为淋巴组织病变，猪皮炎肾病综合征主要表现为双侧肾肿大，皮质表面细颗粒状，皮质红色点状坏死，且死亡率高达90%。",
+    "reference_case": "断奶仔猪多系统衰竭综合征主要表现为淋巴组织病变，猪皮炎肾病综合征主要表现为双侧肾肿大，皮质表面细颗粒状，皮质红色点状坏死。",
+    "error_detail": "添加了不准确的死亡率数据",
+    "original_question": "猪圆环病毒病的主要病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪链球菌共有50种血清型，其中最常见的是2型。",
+    "reference_case": "猪链球菌共有35种血清型，其中最常见的是2型。",
+    "error_detail": "错误地增加了血清型数量",
+    "original_question": "猪链球菌病的病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "带菌猪和病猪是猪链球菌病的主要传染源，尤其是野猪。",
+    "reference_case": "带菌猪和病猪是猪链球菌病的主要传染源。",
+    "error_detail": "错误地添加了野猪作为主要传染源",
+    "original_question": "猪链球菌病的主要传染源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪链球菌病主要通过消化道传播。",
+    "reference_case": "猪链球菌病主要通过呼吸道传播。",
+    "error_detail": "错误地改变了传播途径",
+    "original_question": "猪链球菌病的主要传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪和成年猪均易感，其中新生仔猪、哺乳仔猪的发病率及病死率最高，尤其是母猪。",
+    "reference_case": "仔猪和成年猪均易感，其中新生仔猪、哺乳仔猪的发病率及病死率最高。",
+    "error_detail": "错误地添加了母猪作为高发病率群体",
+    "original_question": "猪链球菌病的易感动物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪链球菌病的症状包括直肠温度高达45°C，时高时低的发烧，不同程度的食欲不振、精神沉郁或跛行，神经症状如运动失调、姿态反常，无法站立等。",
+    "reference_case": "猪链球菌病的症状包括直肠温度高达42.5°C，时高时低的发烧，不同程度的食欲不振、精神沉郁或跛行，神经症状如运动失调、姿态反常，无法站立等。",
+    "error_detail": "错误地提高了体温数据",
+    "original_question": "猪链球菌病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪链球菌病的主要病理变化包括脑膜炎、败血症、关节炎、肺炎和心内膜炎等，尤其是肝脏病变。",
+    "reference_case": "猪链球菌病的主要病理变化包括脑膜炎、败血症、关节炎、肺炎和心内膜炎等。",
+    "error_detail": "错误地添加了肝脏病变",
+    "original_question": "猪链球菌病的主要病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪链球菌病的诊断方法包括根据病猪的临床症状和病理变化进行初步诊断，确诊需要通过血液检测。",
+    "reference_case": "猪链球菌病的诊断方法包括根据病猪的临床症状和病理变化进行初步诊断，确诊需要分离病原菌和镜下观察组织的病理变化。",
+    "error_detail": "使用了不准确的诊断方法",
+    "original_question": "猪链球菌病的诊断方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪场内应禁止饲养鸡、鸭、狗、猫等除猪以外的其他畜禽，尤其是鸟类。",
+    "reference_case": "猪场内应禁止饲养鸡、鸭、狗、猫等除猪以外的其他畜禽。",
+    "error_detail": "错误地添加了鸟类作为禁止饲养的动物",
+    "original_question": "猪场内应禁止饲养哪些其他畜禽？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每批疫苗使用前应对约50头猪只进行安全试验，并观察14天，特别是对纯种猪群更应慎重使用。",
+    "reference_case": "每批疫苗使用前应对约30头猪只进行安全试验，并观察14天，特别是对纯种猪群更应慎重使用。",
+    "error_detail": "错误地增加了试验猪只数量",
+    "original_question": "疫苗使用前需要进行哪些安全试验？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "应考虑患病猪的年龄、体重、机体的抵抗能力、特殊生理阶段，以及抗菌药物的抗菌活性、药动学特点、不良反应及经济性，尤其是药物的颜色。",
+    "reference_case": "应考虑患病猪的年龄、体重、机体的抵抗能力、特殊生理阶段，以及抗菌药物的抗菌活性、药动学特点、不良反应及经济性。",
+    "error_detail": "错误地添加了药物颜色作为考虑因素",
+    "original_question": "在使用抗菌药物时应考虑哪些因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "首先检查猪群的发病记录，并全面了解病猪的发病、治疗、饲喂、食欲、免疫等情况。然后直接进行治疗。",
+    "reference_case": "首先检查猪群的发病记录，并全面了解病猪的发病、治疗、饲喂、食欲、免疫等情况。通过观察猪群的活动状态、精神状况和采食、饮水、粪便、呼吸情况、体位、姿势、运动及行为等表现，特别注意种母猪和仔猪的检查，进行综合分析与诊断，列出可能的疑似疾病。",
+    "error_detail": "偏离了诊断流程，直接跳到治疗",
+    "original_question": "如何进行猪病的临床诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "剖检是运用病理解剖学的知识，通过检查猪体的病理变化，获得诊断疾病的依据。剖检具有方便、快速、直接、客观的特点，可以一目了然地得到确诊，避免误诊，尤其是对活体猪的诊断。",
+    "reference_case": "剖检是运用病理解剖学的知识，通过检查猪体的病理变化，获得诊断疾病的依据。剖检具有方便、快速、直接、客观的特点，可以一目了然地得到确诊，避免误诊。",
+    "error_detail": "错误地添加了对活体猪的诊断",
+    "original_question": "猪病剖检的目的和特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "需准备好解剖刀、剪、镊子、塑料手套、石灰、挖坑用铲、手锯、斧子等工具。若要进行微生物检查，还需准备载玻片、灭菌培养皿，若要做组织学检查，则应配制20%福尔马林溶液或95%乙醇。同时要准备高浓度碘酸消毒剂、3%来苏儿、0.1%新洁尔灭等消毒剂，以及工作服、胶靴、一次性橡胶手套等。",
+    "reference_case": "需准备好解剖刀、剪、镊子、塑料手套、石灰、挖坑用铲、手锯、斧子等工具。若要进行微生物检查，还需准备载玻片、灭菌培养皿，若要做组织学检查，则应配制10%福尔马林溶液或95%乙醇。同时要准备高浓度碘酸消毒剂、3%来苏儿、0.1%新洁尔灭等消毒剂，以及工作服、胶靴、一次性橡胶手套等。",
+    "error_detail": "错误地改变了福尔马林溶液的浓度",
+    "original_question": "进行猪病剖检前需要准备哪些工具和器械？",
+    "original_input": ""
+  }
+]

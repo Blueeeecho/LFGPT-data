@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中锌的推荐添加量为60 g（仔猪和生长猪）、40 g（哺乳仔猪）。",
+    "reference_case": "预混料中锌的推荐添加量为50 g（仔猪和生长猪）、36.67 g（哺乳仔猪）。",
+    "error_detail": "数值偏差",
+    "original_question": "预混料中锌的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中碘的推荐添加量为0.6 g（仔猪和生长猪）、0.3 g（哺乳仔猪）。",
+    "reference_case": "预混料中碘的推荐添加量为0.5 g（仔猪和生长猪）、0.2 g（哺乳仔猪）。",
+    "error_detail": "数值偏差",
+    "original_question": "预混料中碘的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中硒的推荐添加量为0.1 g（仔猪和生长猪）、0.06 g（哺乳仔猪）。",
+    "reference_case": "预混料中硒的推荐添加量为0.075 g（仔猪和生长猪）、0.05 g（哺乳仔猪）。",
+    "error_detail": "数值偏差",
+    "original_question": "预混料中硒的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料的推荐添加量为2.5 kg（仔猪和生长猪）、3.5 kg（哺乳仔猪）/每吨饲料。",
+    "reference_case": "预混料的推荐添加量为2 kg（仔猪和生长猪）、3 kg（哺乳仔猪）/每吨饲料。",
+    "error_detail": "数值偏差",
+    "original_question": "预混料的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "快速养猪法以显著的经济效益和减少环境污染吸引了数以万计的农民和越来越多的畜牧战线专业人员。",
+    "reference_case": "快速养猪法以显著的经济效益吸引了数以万计的农民和越来越多的畜牧战线专业人员。",
+    "error_detail": "添加了减少环境污染的假设",
+    "original_question": "快速养猪法为什么能吸引大量农民和专业人员？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "中国科学院遗传研究所于1990年5月将快速养猪法引进北京，并在有关单位协助下试验成功，随后通过函授班推广。",
+    "reference_case": "中国科学院遗传研究所于1985年5月将快速养猪法引进北京，并在有关单位协助下试验成功，随后通过函授班推广。",
+    "error_detail": "时间错误",
+    "original_question": "快速养猪法和复合添加剂的诞生背景是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "快速养猪法可以使40公斤左右的中猪日增重1.5公斤左右，具有省劳力、饲料、燃料，提高出栏率，经济效益显著等特点。",
+    "reference_case": "快速养猪法可以使40公斤左右的中猪日增重1公斤左右，具有省劳力、饲料、燃料，提高出栏率，经济效益显著等特点。",
+    "error_detail": "日增重数据偏离",
+    "original_question": "快速养猪法的主要特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "快速养猪法简便易行，适合于我国农村，尤其是专业户和小型养猪场采用，且不需要任何技术支持。",
+    "reference_case": "快速养猪法简便易行，适合于我国农村，尤其是专业户和小型养猪场采用。",
+    "error_detail": "添加了不需要任何技术支持的假设",
+    "original_question": "快速养猪法适合哪些类型的养猪场所采用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "养第一代杂种猪可以提高生产性能，但会增加疾病风险。",
+    "reference_case": "养第一代杂种猪可以提高生产性能。",
+    "error_detail": "添加了矛盾的陈述",
+    "original_question": "为什么要养第一代杂种猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "驱虫、洗胃和健胃可以提高猪的健康水平和生产性能，且这些操作非常简单。",
+    "reference_case": "驱虫、洗胃和健胃可以提高猪的健康水平和生产性能。",
+    "error_detail": "添加了操作简单的假设",
+    "original_question": "为什么要驱虫、洗胃和健胃？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "人工授精需要专业设备和正确操作，以提高繁殖效率。",
+    "reference_case": "人工授精需要正确操作，以提高繁殖效率。",
+    "error_detail": "添加了专业设备的需求",
+    "original_question": "怎样进行猪的人工授精？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "预防猪的传染病需要采取综合措施，如疫苗接种和环境卫生管理，且需要定期进行。",
+    "reference_case": "预防猪的传染病需要采取综合措施，如疫苗接种和环境卫生管理。",
+    "error_detail": "添加了定期进行的假设",
+    "original_question": "怎样预防猪的传染病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "维生素参与猪体内的新陈代谢活动，有的是酶的组成部分，有的直接参与酶的活动。维生素不足会导致猪食欲减退、生长停滞，甚至出现特定疾病，且需要立即补充。",
+    "reference_case": "维生素参与猪体内的新陈代谢活动，有的是酶的组成部分，有的直接参与酶的活动。维生素不足会导致猪食欲减退、生长停滞，甚至出现特定疾病。",
+    "error_detail": "添加了立即补充的需求",
+    "original_question": "维生素在猪的体内起什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪体内的维生素分为脂溶性和水溶性两大类。脂溶性维生素包括维生素A、D、E等；水溶性维生素包括维生素B族（B1、B2等）和维生素K。",
+    "reference_case": "猪体内的维生素分为脂溶性和水溶性两大类。脂溶性维生素包括维生素A、D、E等；水溶性维生素包括维生素B族（B",
+    "error_detail": "错误地包括了维生素K在水溶性维生素中",
+    "original_question": "猪体内维生素分为哪两大类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪皮肤中的胆固醇经紫外线照射后可以转化为维生素D3，所以每天让猪在阳光下活动3-4小时即可基本满足维生素D的需求。",
+    "reference_case": "猪皮肤中的胆固醇经紫外线照射后可以转化为维生素D3，所以每天让猪在阳光下活动2-3小时即可基本满足维生素D的需求。",
+    "error_detail": "时间偏差",
+    "original_question": "猪在什么情况下可以通过自身合成满足维生素D的需求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "维生素B族对猪是极为重要的维生素，猪体内不能合成，需要从饲料中提供，且需求量很大。",
+    "reference_case": "维生素B族对猪是极为重要的维生素，猪体内不能合成，需要从饲料中提供。",
+    "error_detail": "添加了需求量很大的假设",
+    "original_question": "维生素B族对猪的重要性体现在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维生素C又叫抗坏血酸，一般猪在体内可以合成，足其自身需要，但在应激情况下需要额外补充。",
+    "reference_case": "维生素C又叫抗坏血酸，一般猪在体内可以合成，足其自身需要。",
+    "error_detail": "添加了应激情况下需要额外补充的错误信息",
+    "original_question": "维生素C在猪体内有什么特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的饲料按来源可以分为植物性饲料、动物性饲料、矿物质饲料和合成饲料。",
+    "reference_case": "猪的饲料按来源可以分为植物性饲料、动物性饲料和矿物质饲料。",
+    "error_detail": "错误地添加了合成饲料",
+    "original_question": "猪的饲料按来源可以分为哪几类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "植物性饲料来源于各类植物，含有丰富的碳水化合物、维生素和纤维素，是猪的主要饲料来源，且易于消化。",
+    "reference_case": "植物性饲料来源于各类植物，含有丰富的碳水化合物、维生素和纤维素，是猪的主要饲料来源。",
+    "error_detail": "添加了易于消化的假设",
+    "original_question": "植物性饲料的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "全价配合饲料根据生猪生长对各种营养物质的需要，按比例将能量饲料、蛋白质饲料、矿物质饲料和饲料添加剂混合配制而成，营养价值全面、均衡，且需要定期更换配方。",
+    "reference_case": "全价配合饲料根据生猪生长对各种营养物质的需要，按比例将能量饲料、蛋白质饲料、矿物质饲料和饲料添加剂混合配制而成，营养价值全面、均衡。",
+    "error_detail": "添加了定期更换配方的需求",
+    "original_question": "全价配合饲料的特点是什么？",
+    "original_input": ""
+  }
+]

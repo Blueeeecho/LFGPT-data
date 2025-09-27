@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "诊断方法包括组织染色标本检查、电镜检查、荧光抗体染色法、病毒分离及鉴定、抗体检查，以及PCR检测。",
+    "reference_case": "诊断方法包括组织染色标本检查、电镜检查、荧光抗体染色法、病毒分离及鉴定、抗体检查。",
+    "error_detail": "添加了不存在的诊断方法PCR检测。",
+    "original_question": "猪包含体鼻炎病毒的诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪嗜淋巴细胞疱疹病毒包括猪嗜淋巴细胞疱疹病毒A（PLHV-A）、猪嗜淋巴细胞疱疹病毒B（PLHV-B）和猪嗜淋巴细胞疱疹病毒C（PLHV-C）。",
+    "reference_case": "猪嗜淋巴细胞疱疹病毒包括猪嗜淋巴细胞疱疹病毒1（PLHV-1）、猪嗜淋巴细胞疱疹病毒2（PLHV-2）和猪嗜淋巴细胞疱疹病毒3（PLHV-3）。",
+    "error_detail": "错误地将病毒类型命名为A、B、C，而非正确的1、2、3。",
+    "original_question": "猪嗜淋巴细胞疱疹病毒包括哪几种类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "PLHV-1和PLHV-2在猪群中广泛存在，因为恶性卡他热是一种淋巴增生性炎性且通常致死性的疾病。",
+    "reference_case": "PLHV-1和PLHV-2在猪群中广泛存在，与引起恶性卡他热的反刍兽疱疹病毒密切相关，恶性卡他热是一种淋巴增生性炎性且通常致死性的疾病。",
+    "error_detail": "错误地将恶性卡他热作为PLHV-1和PLHV-2广泛存在的原因，而非与之相关。",
+    "original_question": "猪嗜淋巴细胞疱疹病毒对猪群的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PLHV-1和PLHV-2与人的流感病毒、人疱疹病毒8（Human Herpesvirus - 8）及其他γ疱疹病毒亚科中的成员相关。",
+    "reference_case": "PLHV-1和PLHV-2与人的EB病毒（Epstein-Barr virus）、人疱疹病毒8（Human Herpesvirus - 8）及其他γ疱疹病毒亚科中的成员相关。",
+    "error_detail": "错误地将EB病毒替换为流感病毒。",
+    "original_question": "猪嗜淋巴细胞疱疹病毒与人的病毒有什么关联？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒分为PCV-1、PCV-2和PCV-3三个基因型。",
+    "reference_case": "猪圆环病毒分为PCV-1和PCV-2两个基因型。",
+    "error_detail": "错误地添加了不存在的PCV-3基因型。",
+    "original_question": "猪圆环病毒有哪些基因型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "PCV-1对感染猪造成危害，是一种可以感染猪的常见病毒。",
+    "reference_case": "PCV-1不会对感染猪造成危害，是一种可以感染猪的常见病毒。",
+    "error_detail": "错误地陈述PCV-1对猪造成危害。",
+    "original_question": "PCV-1对猪的致病性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PCV-2具有致病性，主要引起断奶仔猪多系统衰竭综合征（PMWS）和猪流感。",
+    "reference_case": "PCV-2具有致病性，主要引起断奶仔猪多系统衰竭综合征（PMWS）。",
+    "error_detail": "错误地添加了PCV-2引起猪流感的陈述。",
+    "original_question": "PCV-2的致病性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PCV-2还能引起猪的皮炎和肾病综合征（PDNS）、增生性和坏死性肺炎、胎儿心肌炎、母猪繁殖障碍、肠炎、断奶仔猪与育肥猪的呼吸道疾病以及仔猪先天性震颤（CT）等，以及猪瘟。",
+    "reference_case": "PCV-2还能引起猪的皮炎和肾病综合征（PDNS）、增生性和坏死性肺炎、胎儿心肌炎、母猪繁殖障碍、肠炎、断奶仔猪与育肥猪的呼吸道疾病以及仔猪先天性震颤（CT）等。",
+    "error_detail": "错误地添加了PCV-2引起猪瘟的陈述。",
+    "original_question": "PCV-2还可能导致哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "圆环病毒的感染呈广泛宿主范围。",
+    "reference_case": "圆环病毒的感染呈宿主特异性或表现较窄的宿主范围。",
+    "error_detail": "错误地陈述圆环病毒感染呈广泛宿主范围。",
+    "original_question": "猪圆环病毒的感染呈什么特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "鸡传染性贫血病毒在抗原性上与其他圆环病毒相似，猪圆环病毒1型和喙羽病病毒在抗原性上也相似。",
+    "reference_case": "鸡传染性贫血病毒在抗原性上明显区别于其他圆环病毒，猪圆环病毒1型和喙羽病病毒在抗原性上也不同，但猪圆环病毒1型和2型具有共同的抗原决定簇。",
+    "error_detail": "错误地陈述鸡传染性贫血病毒和其他圆环病毒在抗原性上相似。",
+    "original_question": "圆环病毒的抗原性如何？",
+    "original_input": ""
+  }
+]

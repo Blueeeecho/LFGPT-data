@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "药敏试验结果显示，猪化脓隐秘杆菌对链霉素、磺胺异喛唑、四环素、庆大霉素、林可霉素、新诺明、诺氟沙星具有耐药性，且耐药性比例高达90%。",
+    "reference_case": "药敏试验结果显示，猪化脓隐秘杆菌对链霉素、磺胺异喛唑、四环素、庆大霉素、林可霉素、新诺明、诺氟沙星具有耐药性。",
+    "error_detail": "添加了不存在的耐药性比例数据",
+    "original_question": "猪化脓隐秘杆菌的药敏试验结果显示该菌对哪些药物具有耐药性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪化脓隐秘杆菌的毒力因子PLO（溶血素）能够溶解多种动物的红细胞、免疫细胞，并引起试验动物的皮肤坏死以及动物的死亡。PLO还呈现出对牛多形核粒细胞和袋鼠肾细胞的细胞毒性效应，且能促进细菌生长。",
+    "reference_case": "猪化脓隐秘杆菌的毒力因子PLO（溶血素）能够溶解多种动物的红细胞、免疫细胞，并引起试验动物的皮肤坏死以及动物的死亡。PLO还呈现出对牛多形核粒细胞和袋鼠肾细胞的细胞毒性效应。",
+    "error_detail": "错误地添加了PLO促进细菌生长的功能",
+    "original_question": "猪化脓隐秘杆菌的毒力因子PLO的主要功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在猪化脓隐秘杆菌的分离鉴定过程中，使用了绵羊鲜血琼脂平板、巧克力平板、营养肉汤和脑-心浸液培养基（BHI），这些培养基在全球范围内都适用。",
+    "reference_case": "在猪化脓隐秘杆菌的分离鉴定过程中，使用了绵羊鲜血琼脂平板、巧克力平板、营养肉汤和脑-心浸液培养基（BHI）。",
+    "error_detail": "错误地声称这些培养基在全球范围内都适用",
+    "original_question": "猪化脓隐秘杆菌的分离鉴定过程中使用了哪些培养基？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪化脓隐秘杆菌的毒力基因nanH的核苷酸序列与已发表基因序列的同源性为95%，其中有3个连续碱基的缺失和62处碱基发生了突变。",
+    "reference_case": "猪化脓隐秘杆菌的毒力基因nanH的核苷酸序列与已发表基因序列的同源性为89%，其中有3个连续碱基的缺失和62处碱基发生了突变。",
+    "error_detail": "错误地提高了同源性比例",
+    "original_question": "猪化脓隐秘杆菌的毒力基因nanH的核苷酸序列与已发表基因序列的同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "2012年分离的2:1c亚群猪瘟病毒有不断扩散的趋势，主要集中在广西省，并逐步向北方内陆扩散，且已在全球范围内流行。",
+    "reference_case": "2012年分离的2:1c亚群猪瘟病毒有不断扩散的趋势，主要集中在广西省，并逐步向北方内陆扩散。",
+    "error_detail": "错误地声称病毒已在全球范围内流行",
+    "original_question": "2012年分离的2:1c亚群猪瘟病毒的流行趋势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在2:1亚群中，2:1b是优势流行毒株，占2:1亚群的90%。",
+    "reference_case": "在2:1亚群中，2:1b是优势流行毒株，占2:1亚群的79:67%。",
+    "error_detail": "错误地提高了优势流行毒株的比例",
+    "original_question": "猪瘟病毒（CSFV）的2:1亚群中，哪个亚型是优势流行毒株？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "2012年分离的1:1亚群猪瘟病毒与HCLV毒株亲缘关系较近，而与Shimen毒株较远，且与另一未知毒株有高度同源性。",
+    "reference_case": "2012年分离的1:1亚群猪瘟病毒与HCLV毒株亲缘关系较近，而与Shimen毒株较远。",
+    "error_detail": "错误地添加了与未知毒株的高度同源性",
+    "original_question": "2012年分离的1:1亚群猪瘟病毒与哪些毒株的亲缘关系较近？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年分离的2:1b亚群猪瘟病毒与GDGZ2009毒株的核苷酸同源性为90%~95%。",
+    "reference_case": "2012年分离的2:1b亚群猪瘟病毒与GDGZ2009毒株的核苷酸同源性为93:1%~97:9%。",
+    "error_detail": "错误地降低了核苷酸同源性范围",
+    "original_question": "2012年分离的2:1b亚群猪瘟病毒与GDGZ2009毒株的核苷酸同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年分离的1:1亚群猪瘟病毒与HCLV毒株的核苷酸同源性为95%~98%。",
+    "reference_case": "2012年分离的1:1亚群猪瘟病毒与HCLV毒株的核苷酸同源性为97:4%~100:0%。",
+    "error_detail": "错误地降低了核苷酸同源性范围",
+    "original_question": "2012年分离的1:1亚群猪瘟病毒与HCLV毒株的核苷酸同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2:1b和2:1c亚群之间的平均核苷酸同源性为80%。",
+    "reference_case": "2:1b和2:1c亚群之间的平均核苷酸同源性为86:7%。",
+    "error_detail": "错误地降低了平均核苷酸同源性",
+    "original_question": "猪瘟病毒（CSFV）的2:1b和2:1c亚群之间的平均核苷酸同源性是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "E2基因是猪瘟病毒遗传进化分析的重要依据之一，特别是其5'端190 bp片段，位于2519~2708位核苷酸，是国际常用的分型区域，且能预测病毒的未来变异。",
+    "reference_case": "E2基因是猪瘟病毒遗传进化分析的重要依据之一，特别是其5'端190 bp片段，位于2519~2708位核苷酸，是国际常用的分型区域。",
+    "error_detail": "错误地添加了预测病毒未来变异的功能",
+    "original_question": "猪瘟病毒（CSFV）的E2基因在遗传进化分析中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年我国猪瘟病毒的主要流行亚群是1:1和2:1亚群，其中1:1亚群占50%，2:1亚群占50%。",
+    "reference_case": "2012年我国猪瘟病毒的主要流行亚群是1:1和2:1亚群，其中1:1亚群占45%，2:1亚群占55%。",
+    "error_detail": "错误地调整了亚群比例",
+    "original_question": "2012年我国猪瘟病毒（CSFV）的主要流行亚群是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "2:1b和2:1c亚群的主要区别位点在第88位氨基酸，2:1b中的毒株为丝氨酸（S），而2:1c中的毒株为苏氨酸（T），且这一差异导致2:1c亚群毒性更强。",
+    "reference_case": "2:1b和2:1c亚群的主要区别位点在第88位氨基酸，2:1b中的毒株为丝氨酸（S），而2:1c中的毒株为苏氨酸（T）。",
+    "error_detail": "错误地添加了毒性差异的结论",
+    "original_question": "猪瘟病毒（CSFV）的E2基因中，哪些氨基酸位点是2:1b和2:1c亚群的主要区别位点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年分离的2:1c亚群猪瘟病毒与GDHZ2009毒株的核苷酸同源性为90%~95%。",
+    "reference_case": "2012年分离的2:1c亚群猪瘟病毒与GDHZ2009毒株的核苷酸同源性为94:2%~98:4%。",
+    "error_detail": "错误地降低了核苷酸同源性范围",
+    "original_question": "2012年分离的2:1c亚群猪瘟病毒与GDHZ2009毒株的核苷酸同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪精液冷冻保存中，DMSO与甘油混合冷冻保护剂的最佳配比组（B组）解冻后精子的活率（40%）显著高于DMSO单独添加组（26%）。",
+    "reference_case": "在猪精液冷冻保存中，DMSO与甘油混合冷冻保护剂的最佳配比组（B组）解冻后精子的活率（37%）显著高于DMSO单独添加组（26%）。",
+    "error_detail": "错误地提高了B组解冻后精子的活率",
+    "original_question": "在猪精液冷冻保存中，DMSO与甘油混合冷冻保护剂的最佳配比组（B组）解冻后精子的活率与DMSO单独添加组相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪精液冷冻保存中，DMSO与甘油混合冷冻保护剂的最佳配比组（B组）解冻后精子的畸形率（10%）与DMSO单独添加组（16%）差异不显著。",
+    "reference_case": "在猪精液冷冻保存中，DMSO与甘油混合冷冻保护剂的最佳配比组（B组）解冻后精子的畸形率（13%）与DMSO单独添加组（16%）差异不显著。",
+    "error_detail": "错误地降低了B组解冻后精子的畸形率",
+    "original_question": "在猪精液冷冻保存中，DMSO与甘油混合冷冻保护剂的最佳配比组（B组）解冻后精子的畸形率与DMSO单独添加组相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪精液冷冻保存中，DMSO单独添加时，解冻后精子的活率（20%）显著低于对照组（49%）。",
+    "reference_case": "在猪精液冷冻保存中，DMSO单独添加时，解冻后精子的活率（26%）显著低于对照组（49%）。",
+    "error_detail": "错误地降低了DMSO单独添加组解冻后精子的活率",
+    "original_question": "在猪精液冷冻保存中，DMSO单独添加时，解冻后精子的活率与对照组相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "二甲基亚砜（DMSO）在猪精液冷冻保存中的最佳添加量是50 mL/L。",
+    "reference_case": "二甲基亚砜（DMSO）在猪精液冷冻保存中的最佳添加量是60 mL/L。",
+    "error_detail": "错误地降低了DMSO的最佳添加量",
+    "original_question": "二甲基亚砜（DMSO）在猪精液冷冻保存中的最佳添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪精液冷冻保存中，DMSO单独添加时，解冻后精子的活率是30%。",
+    "reference_case": "在猪精液冷冻保存中，DMSO单独添加时，解冻后精子的活率是26%。",
+    "error_detail": "错误地提高了DMSO单独添加组解冻后精子的活率",
+    "original_question": "在猪精液冷冻保存中，DMSO单独添加时，解冻后精子的活率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪精液冷冻保存中，DMSO单独添加时，解冻后精子的畸形率（18%）显著低于对照组（21%）。",
+    "reference_case": "在猪精液冷冻保存中，DMSO单独添加时，解冻后精子的畸形率（16%）显著低于对照组（21%）。",
+    "error_detail": "错误地提高了DMSO单独添加组解冻后精子的畸形率",
+    "original_question": "在猪精液冷冻保存中，DMSO单独添加时，解冻后精子的畸形率与对照组相比如何？",
+    "original_input": ""
+  }
+]

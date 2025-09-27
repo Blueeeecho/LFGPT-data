@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪伪狂犬病毒引起肺炎、腹泻。",
+    "reference_case": "猪伪狂犬病毒引起结膜炎、角膜炎。",
+    "error_detail": "错误地将猪伪狂犬病毒的症状混淆为肺炎和腹泻，实际上应为结膜炎和角膜炎。",
+    "original_question": "猪伪狂犬病毒引起哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪流感病毒引起结膜炎、肺炎。",
+    "reference_case": "猪流感病毒引起结膜炎。",
+    "error_detail": "错误地添加了肺炎作为猪流感病毒的症状，实际上仅为结膜炎。",
+    "original_question": "猪流感病毒引起哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的萎缩性鼻炎由猪流感病毒引起。",
+    "reference_case": "猪的萎缩性鼻炎由多杀巴氏杆菌（D 型）皮肤坏死毒素引起，导致鼻甲骨溶解和鼻腔变形。",
+    "error_detail": "错误地将猪的萎缩性鼻炎的病原体混淆为猪流感病毒，实际上应为多杀巴氏杆菌（D 型）皮肤坏死毒素。",
+    "original_question": "猪的萎缩性鼻炎由什么病原引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟病毒 African swine fever virus 与猪流感相关。",
+    "reference_case": "非洲猪瘟病毒 African swine fever virus 与猪瘟相关。",
+    "error_detail": "错误地将非洲猪瘟病毒与猪瘟混淆为猪流感。",
+    "original_question": "非洲猪瘟病毒 African swine fever virus 与哪种疾病相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪前肢骨骼包括肩胛骨、臂骨、前臂骨（桡骨、尺骨）、腕骨、掌骨、指骨。",
+    "reference_case": "猪前肢骨骼包括肩胛骨、臂骨、前臂骨（桡骨、尺骨）、腕骨、掌骨、指骨和籽骨。",
+    "error_detail": "错误地遗漏了籽骨作为猪前肢骨骼的一部分。",
+    "original_question": "猪前肢骨骼包括哪些部分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪消化系统的起始部是胃。",
+    "reference_case": "猪消化系统的起始部是口腔。",
+    "error_detail": "错误地将猪消化系统的起始部混淆为胃，实际上应为口腔。",
+    "original_question": "猪消化系统的起始部是什么器官？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪胃的特征是呈直线形。",
+    "reference_case": "猪胃的特征是呈弯曲的椭圆形，下缘凸出部叫大弯，上缘凹陷部叫小弯，与食道相接处叫贲门，与十二指肠相接处叫幽门。左端靠近食道有一小盲囊，叫胃幽门室。胃粘膜明显分为两部分，靠近贲门处粘膜色泽淡的，称无腺区，其余部分胃壁内有胃腺，分为胃底腺区和幽门腺区，能分泌胃液。",
+    "error_detail": "错误地描述了猪胃的形状为直线形，实际上应为弯曲的椭圆形。",
+    "original_question": "猪胃的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "家禽的正常体温范围如下：黄牛 37.9-38.6, 猪 38.7-39.8, 水牛 36.1-38.5, 乳牛 38.0-39.3, 绵羊 38.3-39.9, 山羊 38.5-39.7, 鸡 39.6-43.6, 鸭 41.0-43.0, 鹅 40.0-41.3。",
+    "reference_case": "家禽的正常体温范围如下：黄牛 37.9-38.6, 猪 38.7-39.8, 水牛 36.1-38.5, 乳牛 38.0-39.3, 绵羊 38.3-39.9, 山羊 38.5-39.7, 鸡 39.6-43.6, 鸭 41.0-43.0, 鹅 40.0-41.3。",
+    "error_detail": "虽然数据正确，但问题询问的是家禽的正常体温范围，而回答中包含了非家禽动物的数据，属于数据型幻觉。",
+    "original_question": "家禽的正常体温范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "眼结膜苍白是高血压的表现。",
+    "reference_case": "眼结膜苍白是贫血的表现，可见于仔猪贫血等。",
+    "error_detail": "错误地将眼结膜苍白混淆为高血压的表现，实际上应为贫血的表现。",
+    "original_question": "眼结膜苍白是什么表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "高热可能由猪流感引起。",
+    "reference_case": "高热见于急性传染病与广泛性炎症，如猪丹毒、大叶性肺炎以及中暑等。",
+    "error_detail": "错误地将高热的原因局限于猪流感，实际上还包括猪丹毒、大叶性肺炎以及中暑等。",
+    "original_question": "高热可能由哪些疾病引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "饮欲增强可能由猪丹毒引起。",
+    "reference_case": "饮欲增强，见于热性病、腹泻、呕吐，鸡、猪的食盐中毒等。",
+    "error_detail": "错误地将饮欲增强的原因局限于猪丹毒，实际上还包括热性病、腹泻、呕吐，鸡、猪的食盐中毒等。",
+    "original_question": "饮欲增强可能由哪些病症引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪便秘是肠管的运动和分泌机能增强，引起粪便增多的疾病。",
+    "reference_case": "肠管的运动和分泌机能减退，引起粪便停滞的疾病。",
+    "error_detail": "错误地将猪便秘描述为肠管的运动和分泌机能增强，引起粪便增多，实际上应为机能减退，引起粪便停滞。",
+    "original_question": "什么是猪便秘？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪便秘的主要病因是饲料过于精细。",
+    "reference_case": "饲料单调、喂不易消化的粗饲料、突然改变饲料和饲养方式、饮水少或运动不足、继发于热性病、寄生虫病、传染病。",
+    "error_detail": "错误地将猪便秘的主要病因局限于饲料过于精细，实际上还包括饲料单调、喂不易消化的粗饲料、突然改变饲料和饲养方式、饮水少或运动不足、继发于热性病、寄生虫病、传染病。",
+    "original_question": "猪便秘的主要病因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "营养不良性贫血病程快速，症状与急性失血性贫血相似。",
+    "reference_case": "营养不良性贫血病程缓慢，症状与慢性失血性贫血相似，多见于2-4周龄仔猪，常见生长受阻，间歇性腹泻。",
+    "error_detail": "错误地将营养不良性贫血的病程描述为快速，症状与急性失血性贫血相似，实际上应为病程缓慢，症状与慢性失血性贫血相似。",
+    "original_question": "营养不良性贫血的病程特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "僵猪病的主要症状包括高烧、食欲旺盛。",
+    "reference_case": "仔猪断奶后生长缓慢或停滞，不增长或很少增长体重，吃食不长肉，皮肤苍白，怕冷，行动迟缓，喜伏卧或呆立，肚大，屁股尖，有时有脓性眼眵，有的长期下痢，皮肤弹力减退，多被毛。",
+    "error_detail": "错误地将僵猪病的主要症状描述为高烧、食欲旺盛，实际上应为生长缓慢或停滞，皮肤苍白，怕冷等。",
+    "original_question": "僵猪病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "预防断脐带应采取的措施包括不进行任何消毒。",
+    "reference_case": "预防断脐带要严格消毒，加强初生仔猪的护理，防止相互吮吸，避免脐孔感染，搞好畜舍卫生。",
+    "error_detail": "错误地建议不进行任何消毒作为预防断脐带的措施，实际上应严格消毒。",
+    "original_question": "预防断脐带应采取哪些措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪丹毒的预防接种应在每年的冬季进行。",
+    "reference_case": "猪丹毒的预防接种应在每年的春或秋季，用兔化弱毒疫苗对所有猪进行一次肌肉或皮下注射1毫升。",
+    "error_detail": "错误地将猪丹毒的预防接种时间描述为冬季，实际上应为春或秋季。",
+    "original_question": "猪丹毒的预防接种如何进行？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪丹毒的病原体是猪流感病毒。",
+    "reference_case": "猪丹毒的病原体是猪丹毒杆菌，为细长小杆菌，菌体笔直或弯曲，革兰氏阳性。",
+    "error_detail": "错误地将猪丹毒的病原体混淆为猪流感病毒，实际上应为猪丹毒杆菌。",
+    "original_question": "猪丹毒的病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪丹毒主要通过空气传播。",
+    "reference_case": "猪丹毒主要通过病猪和带菌猪的粪、尿排出体外，污染饲料、饮水及周围环境，经消化道感染；也可通过受伤皮肤及吸血昆虫叮咬感染。",
+    "error_detail": "错误地将猪丹毒的主要传播途径描述为空气传播，实际上应为通过病猪和带菌猪的粪、尿排出体外，污染饲料、饮水及周围环境，经消化道感染；也可通过受伤皮肤及吸血昆虫叮咬感染。",
+    "original_question": "猪丹毒的主要传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪丹毒的治疗药物包括抗病毒药物。",
+    "reference_case": "猪丹毒的治疗可使用青霉素、链霉素、四环素、土霉素等抗生素。",
+    "error_detail": "错误地将猪丹毒的治疗药物描述为包括抗病毒药物，实际上应为青霉素、链霉素、四环素、土霉素等抗生素。",
+    "original_question": "猪丹毒的治疗药物有哪些？",
+    "original_input": ""
+  }
+]

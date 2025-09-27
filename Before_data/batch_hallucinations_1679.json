@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用米蛾卵作饲料时，先将卵制成卵卡，每一平方厘米的格子有卵1000粒左右，可以贮藏于冰箱中备用，可以有计划地全年大量饲养，一般每5-7天喂一次。",
+    "reference_case": "用米蛾卵作饲料时，先将卵制成卵卡，每一平方厘米的格子有卵450粒左右，可以贮藏于冰箱中备用，可以有计划地全年大量饲养，一般每2-3天喂一次。",
+    "error_detail": "错误地增加了卵的数量和喂食间隔时间",
+    "original_question": "草蛉幼虫饲养时，用米蛾卵作饲料有哪些建议？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "新线虫可通过培养大蜡蟓、花麻蚕、柞虫等虫体，以及植物组织（如树叶、草）汁液进行培养，其中虫体培养效果更好，产量较高。",
+    "reference_case": "新线虫可通过培养大蜡蟓、花麻蚕、柞虫等虫体，以及动物组织（如兔肝、猪肝、兔肉、猪肉）汁液进行培养，其中虫体培养效果更好，产量较高。",
+    "error_detail": "错误地将动物组织替换为植物组织",
+    "original_question": "新线虫的培养方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪苓、银耳、香菇、云芝、灰树花等多种单糖制剂。",
+    "reference_case": "猪苓、银耳、香菇、云芝、灰树花等多种多糖制剂。",
+    "error_detail": "错误地将多糖制剂称为单糖制剂",
+    "original_question": "药用真菌多糖制剂有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "豪猪刺的叶革质，椭圆形、披针形或倒披针形，主要生长于沙漠地区。",
+    "reference_case": "豪猪刺的叶革质，椭圆形、披针形或倒披针形。",
+    "error_detail": "错误地添加了生长地域信息",
+    "original_question": "豪猪刺的叶形态特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "豪猪刺生长于山顶岩石缝隙中。",
+    "reference_case": "豪猪刺生长于山坡林下、林缘或沟边。",
+    "error_detail": "错误地描述了生长环境",
+    "original_question": "豪猪刺的生长习性包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "口蹄疫是由口蹄疫病毒引起的一种慢性、冷性、低度接触性传染病。",
+    "reference_case": "口蹄疫是由口蹄疫病毒引起的一种急性、热性、高度接触性传染病。",
+    "error_detail": "错误地修改了传染病的性质",
+    "original_question": "什么是口蹄疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "认真搞好环境卫生与消毒，选用10%~20%烧碱溶液喷洒消毒。免疫接种使用猪O型口蹄疫BEI灭活苗。",
+    "reference_case": "认真搞好环境卫生与消毒，选用2%~4%烧碱溶液喷洒消毒。免疫接种使用猪O型口蹄疫BEI灭活苗。",
+    "error_detail": "错误地增加了烧碱溶液的浓度",
+    "original_question": "口蹄疫的防治措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "仔猪日龄越小，症状越严重，病初体温升高或正常，精神沉郁，食欲减退，排出水样粪便，呈灰黄色或灰色，有的仔猪吮乳后呕吐，病猪很快消瘦，后期粪水自肛门流出，不食，不愿走动，不断颤抖，1周龄内哺乳仔猪通常在腹泻后1~2天内因脱水而死亡。",
+    "reference_case": "仔猪日龄越小，症状越严重，病初体温升高或正常，精神沉郁，食欲减退，排出水样粪便，呈灰黄色或灰色，有的仔猪吮乳后呕吐，病猪很快消瘦，后期粪水自肛门流出，不食，不愿走动，不断颤抖，1周龄内哺乳仔猪通常在腹泻后2~4天内因脱水而死亡。",
+    "error_detail": "错误地缩短了死亡时间",
+    "original_question": "仔猪腹泻的症状特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "加强饲养管理，搞好环境卫生，经常消毒，隔离病猪，全场认真消毒，对病猪加强护理，保持猪舍温暖干燥，少喂料让猪多饮清洁的水，不使用任何药物。",
+    "reference_case": "加强饲养管理，搞好环境卫生，经常消毒，隔离病猪，全场认真消毒，对病猪加强护理，保持猪舍温暖干燥，少喂料让猪多饮清洁的水，对症疗法和使用抗生素防止并发症。",
+    "error_detail": "错误地排除了药物治疗",
+    "original_question": "仔猪腹泻的防治方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪黄痢是由晚发型大肠杆菌引起的一种常见传染病。",
+    "reference_case": "仔猪黄痢是由早发型大肠杆菌引起的一种常见传染病。",
+    "error_detail": "错误地修改了大肠杆菌的类型",
+    "original_question": "什么是仔猪黄痢？",
+    "original_input": ""
+  }
+]

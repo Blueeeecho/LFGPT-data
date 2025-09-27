@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "子猪比成年猪敏感，母猪比公猪敏感，妊娠母猪比空怀母猪敏感，营养水平差的猪比营养水平高的猪敏感。不同品种的猪对应激的敏感程度也不一样，其中约90%的子猪对应激源特别敏感。",
+    "reference_case": "子猪比成年猪敏感，母猪比公猪敏感，妊娠母猪比空怀母猪敏感，营养水平差的猪比营养水平高的猪敏感。不同品种的猪对应激的敏感程度也不一样。",
+    "error_detail": "添加了不存在的具体比例数据",
+    "original_question": "猪对不同应激源的敏感程度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "应激会使猪的生长发育受阻，日增重下降，甚至体重减轻，饲料转化率降低，这种现象被称为'猪的抑郁症'。",
+    "reference_case": "应激会使猪的生长发育受阻，日增重下降，甚至体重减轻，饲料转化率降低。",
+    "error_detail": "错误地引入了'猪的抑郁症'这一不相关术语",
+    "original_question": "应激对猪的生长发育有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "应激会导致繁殖母猪的受胎率降低，出现胎儿早期吸收、畸形胎、流产、难产或不孕现象，根据1980年的研究数据。",
+    "reference_case": "应激会导致繁殖母猪的受胎率降低，出现胎儿早期吸收、畸形胎、流产、难产或不孕现象。",
+    "error_detail": "引用了过时的研究数据",
+    "original_question": "应激对猪的繁殖能力有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "应激会导致公猪的精液品质下降，性欲减退，这种情况在热带地区尤为严重。",
+    "reference_case": "应激会导致公猪的精液品质下降，性欲减退。",
+    "error_detail": "添加了地域限制，原信息无此限制",
+    "original_question": "应激对猪的精液品质有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "PSE肉和DFD肉的出现会导致应激，进而影响猪的肉品品质。",
+    "reference_case": "应激会导致出栏肥猪在运输途中或屠宰前出现PSE肉（灰白色、肉质松软、弹性差、切开后有渗出物的肉)或DFD肉（肌肉干燥、质地粗硬、色泽深暗的肉）。",
+    "error_detail": "颠倒了因果关系",
+    "original_question": "应激对猪的肉品品质有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "应激对猪的生长发育、繁殖和肉品质都有不利影响，进而影响生产性能，但可以通过增加饲料添加剂来完全抵消这些影响。",
+    "reference_case": "应激对猪的生长发育、繁殖和肉品质都有不利影响，进而影响生产性能。",
+    "error_detail": "添加了未请求的解决方案",
+    "original_question": "应激对猪的生产性能有哪些不利影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "提高抗应激能力的措施包括选育抗应激品种，淘汰应激敏感品种，创造适宜的环境条件，避免过强的冷、热、噪声等应激源，改善饲养管理条件，减少转群次数，避免在高温或低温时间运输肥育猪等，假设所有农场都有能力实施这些措施。",
+    "reference_case": "提高抗应激能力的措施包括选育抗应激品种，淘汰应激敏感品种，创造适宜的环境条件，避免过强的冷、热、噪声等应激源，改善饲养管理条件，减少转群次数，避免在高温或低温时间运输肥育猪等。",
+    "error_detail": "添加了不合理的假设",
+    "original_question": "如何提高猪的抗应激能力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用50%氮来化钠和5%过氧乙酸的药液水深20厘米以上，每周更换1次，投入消毒池内混合均匀。",
+    "reference_case": "使用5%氮来化钠和0.5%过氧乙酸的药液水深20厘米以上，每周更换1次，投入消毒池内混合均匀。",
+    "error_detail": "错误地夸大了化学物质的浓度",
+    "original_question": "猪舍门口的消毒方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用3%氢氧化钠和10%石灰新等喷酒，每周1次，作用2小时以上，与常水配制。",
+    "reference_case": "使用3%氢氧化钠和10%石灰新等喷酒，每周1次，作用2小时以上，与常水配制。",
+    "error_detail": "保留了原文中的'喷酒'错误术语",
+    "original_question": "猪舍环境的消毒方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "使用3%来苏儿和0.3%农家福等喷雾，不定期，与净水配制，适用于所有类型的猪舍消毒。",
+    "reference_case": "使用3%来苏儿和0.3%农家福等喷雾，不定期，与净水配制。",
+    "error_detail": "错误地扩展了适用范围",
+    "original_question": "猪舍带猪消毒的方法是什么？",
+    "original_input": ""
+  }
+]

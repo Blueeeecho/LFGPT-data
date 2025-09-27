@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪传染性萎缩性鼻炎主要通过消化道传播，也可通过被污染的媒介物接触传播。",
+    "reference_case": "猪传染性萎缩性鼻炎主要通过呼吸道传播，也可通过被污染的媒介物接触传播。",
+    "error_detail": "错误地将主要传播途径从呼吸道改为消化道",
+    "original_question": "猪传染性萎缩性鼻炎的主要传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪感染放线菌病的表现症状是体温降低，精神亢奋，呼吸减少、无咳嗽，运动协调，四肢无肿胀，尿色清并无纤维素样物。公猪睾丸无肿胀。仔猪病死率低。",
+    "reference_case": "发病较多，体温升高，精神沉郁，呼吸增数、咳嗽，运动失调或跛行，四肢肿胀，尿色黄并混有淡红色纤维素样物。公猪睾丸肿胀。仔猪病死率高。",
+    "error_detail": "完全错误地描述了猪感染放线菌病的症状",
+    "original_question": "猪感染放线菌病的表现症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "肝片吸虫病在干旱年份多发，而在多雨年份发病少。",
+    "reference_case": "肝片吸虫病在多雨年份多发，而在干旱年份发病少。",
+    "error_detail": "错误地颠倒了肝片吸虫病与天气条件的关系",
+    "original_question": "肝片吸虫病的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪密螺旋体痢疾由非致病性猪痢疾蛇形螺旋体引起。",
+    "reference_case": "猪密螺旋体痢疾由致病性猪痢疾蛇形螺旋体（Serpulina hyodysenteriae）引起。",
+    "error_detail": "错误地将致病性改为非致病性",
+    "original_question": "猪密螺旋体痢疾由什么微生物引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "确诊猪密螺旋体痢疾不需要实验室检查，仅凭临床症状即可判定。",
+    "reference_case": "根据临床症状、病理变化和流行特点初步诊断，确诊需进行实验室检查，取新鲜粪便或大肠黏膜涂片镜检，多数视野有3条以上猪痢疾蛇形螺旋体样微生物时可判定为本病。",
+    "error_detail": "错误地省略了实验室检查的必要步骤",
+    "original_question": "如何确诊猪密螺旋体痢疾？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪传染性胃肠炎由猪传染性胃肠炎细菌引起。",
+    "reference_case": "猪传染性胃肠炎由猪传染性胃肠炎病毒引起。",
+    "error_detail": "错误地将病毒改为细菌",
+    "original_question": "猪传染性胃肠炎由什么病毒引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪传染性胃肠炎病毒主要通过皮肤接触传播。",
+    "reference_case": "猪传染性胃肠炎病毒主要通过消化道和呼吸道传播。",
+    "error_detail": "错误地改变了传播途径",
+    "original_question": "猪传染性胃肠炎病毒主要通过什么途径传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "确诊猪传染性胃肠炎不需要临床症状和流行病学特征，仅凭实验室检验即可。",
+    "reference_case": "根据临床症状和流行病学特征可作出初步诊断，确诊需进行实验室检验，收集急性期和恢复期双份血清测定中和抗体，根据血清抗体消长规律确定感染情况，也可进行病毒分离鉴定，培养物可用免疫荧光（IF）或电子显微镜（EM）检查病毒抗原。",
+    "error_detail": "错误地忽略了初步诊断的重要性",
+    "original_question": "如何确诊猪传染性胃肠炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪副伤寒由非伤寒沙门氏菌引起。",
+    "reference_case": "猪副伤寒由伤寒沙门氏菌引起。",
+    "error_detail": "错误地将伤寒沙门氏菌改为非伤寒沙门氏菌",
+    "original_question": "猪副伤寒由什么细菌引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪副伤寒主要发生于散养的所有年龄段的猪。",
+    "reference_case": "猪副伤寒主要发生于密集饲养的断奶后1～4月龄仔猪。",
+    "error_detail": "错误地改变了发病猪的年龄和饲养方式",
+    "original_question": "猪副伤寒主要感染哪些猪？",
+    "original_input": ""
+  }
+]

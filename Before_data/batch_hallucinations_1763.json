@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "急性感染后，体温升高至45℃～50℃，稽留15～20天",
+    "reference_case": "急性感染后，体温升高至40.5℃～42℃，稽留7～10天",
+    "error_detail": "体温和稽留时间的数值被夸大",
+    "original_question": "弓形体病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在病的后期，病猪体表尤其是耳、下腹部、其次是脾、肾、肠，全身淋巴结肿大，切面有栗米粒大的灰白色或黄色坏死和大小不一的出血点，尤以肠系膜淋巴结最为显著；肺呈小叶性肺炎，暗红色，间质增宽",
+    "reference_case": "在病的后期，病猪体表尤其是耳、下腹部、其次是脾、肾、肠，全身淋巴结肿大，切面有栗米粒大的灰白色或黄色坏死和大小不一的出血点，尤以肠系膜淋巴结最为显著；肺呈大叶性肺炎，暗红色，间质增宽",
+    "error_detail": "将'大叶性肺炎'错误地改为'小叶性肺炎'",
+    "original_question": "弓形体病的病理特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "平时要加强饲养管理，搞好猪场卫生和定期消毒工作；猪群生活区可以养猫，防止猪与其他动物混养并注意检疫",
+    "reference_case": "平时要加强饲养管理，搞好猪场卫生和定期消毒工作；猪群生活区禁止养猫，防止猪与其他动物混养并注意检疫",
+    "error_detail": "指令中明确禁止养猫，但幻觉案例中允许养猫",
+    "original_question": "弓形体病的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "引起猪球虫病的病原有很多种，目前还不确切，主要为猪等孢球虫和某些艾美耳属球虫。此外，还包括弓形虫",
+    "reference_case": "引起猪球虫病的病原有很多种，目前还不确切，主要为猪等孢球虫和某些艾美耳属球虫。",
+    "error_detail": "错误地将弓形虫包括在猪球虫病的病原中",
+    "original_question": "猪球虫病的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪黄痢多发生在5日龄内的仔猪，特别是1-2日龄最多见；而仔猪白痢则多发生在15-35日龄的仔猪，尤其是15-25日龄的仔猪。",
+    "reference_case": "仔猪黄痢多发生在7日龄内的仔猪，特别是1-3日龄最多见；而仔猪白痢则多发生在10-30日龄的仔猪，尤其是10-20日龄的仔猪。",
+    "error_detail": "日龄范围被错误地修改",
+    "original_question": "仔猪黄痢与仔猪白痢的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "搞好环境卫生，包括经常清扫猪舍并及时收集猪粪进行堆积发酵处理，对各种用具定期消毒。在污染的猪场，可以在产前和产后15天内给母猪饲料中添加氨丙啉、氟苯胍等抗球虫药。此外，还可以使用抗生素预防",
+    "reference_case": "搞好环境卫生，包括经常清扫猪舍并及时收集猪粪进行堆积发酵处理，对各种用具定期消毒。在污染的猪场，可以在产前和产后15天内给母猪饲料中添加氨丙啉、氟苯胍等抗球虫药。",
+    "error_detail": "添加了未提及的抗生素预防措施",
+    "original_question": "预防仔猪球虫病的最佳方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "通过临床症状及粪检，一克粪中虫卵数达2000个时可以诊断为球虫病。死后剖检时需在小肠中发现虫体和具有相应病变。",
+    "reference_case": "通过临床症状及粪检，一克粪中虫卵数达1000个时可以诊断为球虫病。死后剖检时需在小肠中发现虫体和具有相应病变。",
+    "error_detail": "虫卵数的诊断标准被错误地提高",
+    "original_question": "如何诊断仔猪球虫病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "可以使用10%百球清口服液（甲苯三嗪酮），按40 mg/kg体重3-6日龄（5日龄最佳）1次口服。也可用19.2%氨丙啉口服4 ml，1次/日，或氯苯胍60 mg/kg体重拌料4天。",
+    "reference_case": "可以使用5%百球清口服液（甲苯三嗪酮），按20 mg/kg体重3-6日龄（5日龄最佳）1次口服。也可用9.6%氨丙啉口服2 ml，1次/日，或氯苯胍30 mg/kg体重拌料4天。",
+    "error_detail": "药物浓度和剂量被错误地翻倍",
+    "original_question": "治疗仔猪球虫病的有效药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "应采取综合性防制措施，包括定期驱虫、保持饲料饮水清洁、保持猪舍和运动场清洁、猪粪的无害化处理，以及预防病原传入和扩大。此外，还应定期接种疫苗",
+    "reference_case": "应采取综合性防制措施，包括定期驱虫、保持饲料饮水清洁、保持猪舍和运动场清洁、猪粪的无害化处理，以及预防病原传入和扩大。",
+    "error_detail": "添加了未提及的疫苗接种措施",
+    "original_question": "如何预防猪蛔虫病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "通过粪检，一克粪中虫卵数达2000个时可以诊断为蛔虫病。死后剖检时需在小肠中发现虫体和具有相应病变。",
+    "reference_case": "通过粪检，一克粪中虫卵数达1000个时可以诊断为蛔虫病。死后剖检时需在小肠中发现虫体和具有相应病变。",
+    "error_detail": "虫卵数的诊断标准被错误地提高",
+    "original_question": "诊断猪蛔虫病的主要方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "可以使用敌百虫0.2 g/kg体重抖入饲料中空腹喂给，驱虫净（四咪唑）30-40 mg/kg体重拌料，噻嘧啶40-60 mg/kg体重一次口服，驱蛔灵0.4 g/kg体重口服。",
+    "reference_case": "可以使用敌百虫0.1 g/kg体重抖入饲料中空腹喂给，驱虫净（四咪唑）15-20 mg/kg体重拌料，噻嘧啶20-30 mg/kg体重一次口服，驱蛔灵0.2 g/kg体重口服。",
+    "error_detail": "药物剂量被错误地翻倍",
+    "original_question": "治疗猪蛔虫病的有效药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "上年转入母猪的配种头数和时间见表 6-1，9 月份基础母猪配种 4 头，10 月份配种 14 头，11 月份配种 16 头（含鉴定母猪 2 头），12 月份配种 6 头（含鉴定母猪 8 头），总计基础母猪 40 头，鉴定母猪 10 头。",
+    "reference_case": "上年转入母猪的配种头数和时间见表 6-1，9 月份基础母猪配种 2 头，10 月份配种 7 头，11 月份配种 8 头（含鉴定母猪 1 头），12 月份配种 3 头（含鉴定母猪 4 头），总计基础母猪 20 头，鉴定母猪 5 头。",
+    "error_detail": "配种头数和总计头数被错误地翻倍",
+    "original_question": "上年转入母猪的配种头数和时间是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "假设基础母猪年分娩指数 4，平均每胎 20 头。",
+    "reference_case": "假设基础母猪年分娩指数 2，平均每胎 10 头。",
+    "error_detail": "分娩指数和平均每胎产仔数被错误地翻倍",
+    "original_question": "假设基础母猪年分娩指数和平均每胎产仔数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "假设鉴定母猪年分娩指数 4，平均每胎 16 头。",
+    "reference_case": "假设鉴定母猪年分娩指数 2，平均每胎 8 头。",
+    "error_detail": "分娩指数和平均每胎产仔数被错误地翻倍",
+    "original_question": "假设鉴定母猪年分娩指数和平均每胎产仔数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "计划年度内检定母猪和基础母猪分别配种 26 头次和 112 头次。",
+    "reference_case": "计划年度内检定母猪和基础母猪分别配种 13 头次和 56 头次。",
+    "error_detail": "配种头次被错误地翻倍",
+    "original_question": "猪场计划年度内检定母猪和基础母猪分别配种多少头次？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "计划年度内检定母猪和基础母猪分别产出 36 窝和 122 窝仔猪。",
+    "reference_case": "计划年度内检定母猪和基础母猪分别产出 18 窝和 61 窝仔猪。",
+    "error_detail": "产出窝数被错误地翻倍",
+    "original_question": "猪场计划年度内检定母猪和基础母猪分别产出多少窝仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "计划年度内检定母猪和基础母猪分别产出 288 头和 1220 头仔猪。",
+    "reference_case": "计划年度内检定母猪和基础母猪分别产出 144 头和 610 头仔猪。",
+    "error_detail": "产出仔猪数被错误地翻倍",
+    "original_question": "猪场计划年度内检定母猪和基础母猪分别产出多少头仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪场计划年度内计划出售 100 头育成猪。",
+    "reference_case": "猪场计划年度内计划出售 50 头育成猪。",
+    "error_detail": "计划出售的育成猪数被错误地翻倍",
+    "original_question": "猪场计划年度内计划出售多少头育成猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪场计划年度内计划淘汰 26 头母猪。",
+    "reference_case": "猪场计划年度内计划淘汰 13 头母猪。",
+    "error_detail": "计划淘汰的母猪数被错误地翻倍",
+    "original_question": "猪场计划年度内计划淘汰多少头母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "年末存栏种公猪 6 头，基础母猪 56 头，各类育成猪 808 头，总计 870 头。",
+    "reference_case": "年末存栏种公猪 3 头，基础母猪 28 头，各类育成猪 404 头，总计 435 头。",
+    "error_detail": "存栏数被错误地翻倍",
+    "original_question": "年末存栏种公猪、基础母猪和各类育成猪合计多少头？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "活苗。",
+    "reference_case": "灭活苗。",
+    "error_detail": "混淆了疫苗的类型，将灭活苗错误地表述为活苗。",
+    "original_question": "预防猪传染性萎缩性鼻炎的疫苗类型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "140 日龄和 150 日龄各免疫 1 次，170 日龄再免疫第三次。",
+    "reference_case": "150 日龄和 160 日龄各免疫 1 次，180 日龄再免疫第三次。",
+    "error_detail": "免疫时间的数据错误，提前了免疫日龄。",
+    "original_question": "猪流行性乙型脑炎疫苗的免疫时间如何安排？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "30~40 日龄免疫，如不清楚是否接种，则于引入后 1 周内接种。",
+    "reference_case": "40~50 日龄免疫，如不清楚是否接种，则于引入后 1~2 周内接种。",
+    "error_detail": "免疫时间和引入后接种时间提前，不符合标准推荐。",
+    "original_question": "仔猪预防接种时，猪瘟疫苗的使用方法和时间是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "断奶后连续给药 30 天，使用料内添加抗生素。",
+    "reference_case": "断奶后连续给药 60 天，使用料内添加抗生素。",
+    "error_detail": "给药时间缩短了一半，不符合预防措施的标准。",
+    "original_question": "预防猪支原体肺炎的措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "断奶期间每天进行鼻内喷雾或注射。",
+    "reference_case": "断奶期间每周 1~2 次进行鼻内喷雾或注射。",
+    "error_detail": "喷雾或注射频率错误，过于频繁。",
+    "original_question": "猪传染性萎缩性鼻炎的预防方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "出生后 2 周内注射 1~2 次葡萄糖、构格酸铁，出生后 2 月内经常以水溶液喂给。",
+    "reference_case": "出生后 1 周内注射 1~2 次葡萄糖、构格酸铁，出生后 1 月内经常以水溶液喂给。",
+    "error_detail": "注射和喂给的时间延后，不符合预防措施的标准。",
+    "original_question": "预防猪贫血的措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "在料内拌喂抗生素。",
+    "reference_case": "必要时在料内拌喂抗生素。",
+    "error_detail": "忽略了“必要时”的条件，直接建议拌喂抗生素。",
+    "original_question": "如何预防猪下痢、猪痢疾？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "在引进后立即给予抗生索、维生素。",
+    "reference_case": "在引进后 1~2 周内给予抗生索、维生素。",
+    "error_detail": "添加了立即给予的假设，忽略了标准推荐的时间范围。",
+    "original_question": "如何预防猪应激？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "对新引入的猪在引进后立即给予驱虫药。",
+    "reference_case": "对新引入的猪在引进后 1~2 周内给予驱虫药。",
+    "error_detail": "驱虫时间提前，不符合标准推荐。",
+    "original_question": "仔猪驱虫的时机是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每天更换消毒液 1 次。",
+    "reference_case": "每周更换消毒液 1 次。",
+    "error_detail": "消毒液更换频率错误，过于频繁。",
+    "original_question": "猪舍消毒的频率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "牛、驴按成年畜的1/2价格计算；马、骡按成年畜的1/3价格计算；猪按成年猪的1/3价格计算；羊按成年羊的1/2价格计算。",
+    "reference_case": "牛、驴按成年畜的1/3价格计算；马、骡按成年畜的1/4价格计算；猪按成年猪的1/2价格计算；羊按成年羊的全价计算。",
+    "error_detail": "价格计算比例错误，不符合标准推荐。",
+    "original_question": "计算牧畜和家禽市场价格损失时，牛、驴、马、骡、猪和羊的价格如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "畜牧业生产包括养猪、养牛、养马、养羊、养禽等。",
+    "reference_case": "畜牧业生产包括养猪、养牛、养马、养羊、养禽等。",
+    "error_detail": "虽然内容看似正确，但遗漏了其他可能的畜牧业生产方面，如养兔、养鸭等。",
+    "original_question": "畜牧业生产包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "养猪业生产费用汇集包括分配工资和福利费、登记饲料、燃料和动力、兽药费用等步骤。",
+    "reference_case": "养猪业生产费用汇集包括分配工资和福利费、登记饲料、燃料和动力、兽药费用、产畜推销费、折旧费、修理费、低值易耗品购修费、分推共同生产费和企业管理费等步骤。",
+    "error_detail": "遗漏了多个重要的费用汇集步骤，导致信息不完整。",
+    "original_question": "养猪业生产费用汇集包括哪些步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "母猪、公猪、乳牛、绵羊、山羊和肉鸡、蛋鸡的维持蛋白质需要量相同。",
+    "reference_case": "母猪、公猪、乳牛、绵羊、山羊和肉鸡、蛋鸡的维持蛋白质需要量有所不同，具体数值见表1-4。",
+    "error_detail": "错误地认为所有动物的维持蛋白质需要量相同，忽略了差异。",
+    "original_question": "不同动物维持蛋白质需要量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "中国肉脂型后备母猪饲养标准中磷的给量为每千克饲粮0.60%。",
+    "reference_case": "中国肉脂型后备母猪饲养标准中磷的给量为每千克饲粮0.50%。",
+    "error_detail": "磷的给量数据错误，高于标准推荐。",
+    "original_question": "中国肉脂型后备母猪饲养标准中磷的给量有何要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "中国肉脂型后备母猪饲养标准中，10～20千克体重的消化能为13.55兆焦/千克，20-35千克体重的消化能为13.55兆焦/千克，35～60千克体重的消化能为13.34兆焦/千克，60～90千克体重的消化能为13.13兆焦/千克。",
+    "reference_case": "中国肉脂型后备母猪饲养标准中，10～20千克体重的消化能为12.55兆焦/千克，20-35千克体重的消化能为12.55兆焦/千克，35～60千克体重的消化能为12.34兆焦/千克，60～90千克体重的消化能为12.13兆焦/千克。",
+    "error_detail": "消化能数据错误，高于标准推荐。",
+    "original_question": "中国肉脂型后备母猪饲养标准中不同体重范围的消化能是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "小麦中影响其品质的因素是小麦中的蛋白质含量。",
+    "reference_case": "小麦作为猪、鸡饲料时，实际能值变异很大，其原因在于小麦中淀粉性肧乳细胞壁的主要成分为一种可溶性多糖——阿拉伯木聚糖。该物质与大麦中的 β- 葡聚糖一样，能增加鸡消化食糜的黏稠度，从而降低养分消化率和饲料利用率。在鸡日粮中添加阿拉伯木聚糖酶，可降低鸡消化道食糜的黏稠度，有效地提高养分消化率和饲料利用率。",
+    "error_detail": "错误地将小麦品质的影响因素归结为蛋白质含量，忽略了阿拉伯木聚糖的作用。",
+    "original_question": "小麦中影响其品质的因素是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "表2-11列出了仔猪、生长肥育猪、蛋鸡和肉用仔鸡对镁、铁、铜、锌、锰、钴、硒、碘和铝等微量元素需要量。",
+    "reference_case": "表2-11列出了仔猪、生长肥育猪、蛋鸡和肉用仔鸡对镁、铁、铜、锌、锰、钴、硒、碘和铝等微量元素需要量和饲料中最高限量。",
+    "error_detail": "遗漏了饲料中最高限量的信息，导致信息不完整。",
+    "original_question": "不同畜禽对微量元素的需要量和饲料中最高限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每吨饲料用量：鸡为3~30克，产蛋鸡禁用；哺乳仔猪为3~50克、断乳仔猪为3~30克；肉牛为6~50克。使用前5天停止用药。",
+    "reference_case": "每吨饲料用量：鸡为2~20克，产蛋鸡禁用；哺乳仔猪为2~40克、断乳仔猪为2~20克；肉牛为5~40克。使用前7天停止用药。",
+    "error_detail": "用量和停药时间的数据错误，不符合标准推荐。",
+    "original_question": "硫酸黏菌素的使用注意事项是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "四环素类抗生素每吨饲料用量：鸡为6~8.5克；猪为8.5~55克，产蛋鸡禁用。",
+    "reference_case": "四环素类抗生素每吨饲料用量：鸡为5~7.5克；猪为7.5~50克，产蛋鸡禁用。",
+    "error_detail": "用量数据错误，高于标准推荐。",
+    "original_question": "四环素类抗生素的推荐使用量是多少？",
+    "original_input": ""
+  }
+]

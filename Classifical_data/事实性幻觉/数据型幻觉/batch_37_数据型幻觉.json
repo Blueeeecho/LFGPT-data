@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪每隔10-15天，平均12天左右再次发情。",
+    "reference_case": "母猪每隔16-25天，平均21天左右再次发情。",
+    "error_detail": "错误地缩短了发情周期，属于数据型幻觉。",
+    "original_question": "母猪的发情周期是多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪每次发情持续期4-5天。",
+    "reference_case": "母猪每次发情持续期2-3天。",
+    "error_detail": "错误地延长了发情持续期，属于数据型幻觉。",
+    "original_question": "母猪的发情持续期是多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪排卵发生在发情开始后12-24小时，高峰在发情后24小时左右。",
+    "reference_case": "母猪排卵发生在发情开始后24-48小时，高峰在发情后36小时左右。",
+    "error_detail": "错误地提前了排卵时间，属于数据型幻觉。",
+    "original_question": "母猪排卵发生在发情周期的哪个阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪的排卵率受初情期、年龄和营养状况的影响，其中营养状况的影响占比最大。",
+    "reference_case": "母猪的排卵率受初情期、年龄和营养状况的影响。",
+    "error_detail": "添加了未经验证的比例关系",
+    "original_question": "母猪的排卵率受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "可增加喂料量2.0千克左右或在日粮中增加脂肪，添加量为饲料喂量的15-20%，最适宜的时间是在发情前11-14天。",
+    "reference_case": "可增加喂料量1.5千克左右或在日粮中增加脂肪，添加量为饲料喂量的5-10%，最适宜的时间是在发情前11-14天。",
+    "error_detail": "错误地增加了喂料量和脂肪添加比例",
+    "original_question": "如何通过催情补饲提高母猪的排卵数？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪每日每头的饲喂量依据体重不同有所差异，如90～120千克体重的母猪，妊娠前期每日采食风干料2.00千克，妊娠后期为2.50千克；120～150千克体重的母猪，妊娠前期每日采食风干料2.20千克，妊娠后期为2.70千克；>150千克体重的母猪，妊娠前期每日采食风干料2.30千克，妊娠后期为2.80千克。",
+    "reference_case": "妊娠母猪每日每头的饲喂量依据体重不同有所差异，如90～120千克体重的母猪，妊娠前期每日采食风干料1.70千克，妊娠后期为2.20千克；120～150千克体重的母猪，妊娠前期每日采食风干料1.90千克，妊娠后期为2.40千克；>150千克体重的母猪，妊娠前期每日采食风干料2.00千克，妊娠后期为2.50千克。",
+    "error_detail": "错误地增加了饲喂量",
+    "original_question": "妊娠母猪每日每头的饲喂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪妊娠期间的能量需要量除了维持需要外，每千克增重约需消化能30.00兆焦（7.2兆卡）。例如，1头体重120千克的母猪，妊娠期间预计日增重0.4千克，妊娠前期每天需要消化能15.00兆焦（3.58兆卡）加上增重所需的12.00兆焦（2.87兆卡），总共需要27.00兆焦（6.45兆卡）消化能。妊娠后期再加35%～40%，即大约需要36.45兆焦（8.71兆卡）左右。",
+    "reference_case": "妊娠母猪妊娠期间的能量需要量除了维持需要外，每千克增重约需消化能28.05兆焦（6.7兆卡）。例如，1头体重120千克的母猪，妊娠期间预计日增重0.4千克，妊娠前期每天需要消化能13.65兆焦（3.26兆卡）加上增重所需的11.22兆焦（2.68兆卡），总共需要24.87兆焦（5.94兆卡）消化能。妊娠后期再加25%～30%，即大约需要32.03兆焦（7.65兆卡）左右。",
+    "error_detail": "错误地增加了能量需要量和增加的百分比",
+    "original_question": "妊娠母猪妊娠期能量需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期母猪适宜的能量蛋白质比为150（千焦，消化能）：1（克，可消化粗蛋白质）或36（千卡）：1（克），后期为130（千焦，消化能）：1（克，可消化粗蛋白质）或31（千卡）：1（克）。以120千克体重的母猪为例，妊娠前期日需消化能25.00兆焦（5.97兆卡），粗蛋白质需求为175克；妊娠后期粗蛋白质需求为260克。",
+    "reference_case": "妊娠前期母猪适宜的能量蛋白质比为146（千焦，消化能）：1（克，可消化粗蛋白质）或35（千卡）：1（克），后期为125（千焦，消化能）：1（克，可消化粗蛋白质）或30（千卡）：1（克）。以120千克体重的母猪为例，妊娠前期日需消化能24.87兆焦（5.94兆卡），粗蛋白质需求为171克；妊娠后期粗蛋白质需求为256克。",
+    "error_detail": "错误地调整了能量蛋白质比和粗蛋白质需求",
+    "original_question": "妊娠母猪妊娠期所需粗蛋白质量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每头每日的采食风干料量为5.50千克至5.80千克，具体取决于母猪的体重范围。",
+    "reference_case": "哺乳母猪每头每日的采食风干料量为5.00千克至5.30千克，具体取决于母猪的体重范围。",
+    "error_detail": "错误地增加了采食量",
+    "original_question": "哺乳母猪每头每日的采食风干料量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪适宜的能量蛋白比为110 (千焦，消化能)：1（克，可消化粗蛋白质）或 26 (千卡) : 1 (克)。",
+    "reference_case": "哺乳母猪适宜的能量蛋白比为105 (千焦，消化能)：1（克，可消化粗蛋白质）或 25 (千卡) : 1 (克)。",
+    "error_detail": "错误地调整了能量蛋白比",
+    "original_question": "哺乳母猪的能量蛋白比为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪的消化能需要量为60.00兆焦（14.34兆卡）。",
+    "reference_case": "哺乳母猪的消化能需要量为58.89兆焦（14.06兆卡）。",
+    "error_detail": "错误地增加了消化能需要量",
+    "original_question": "哺乳母猪的能量需要量是多少兆焦？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪的可消化粗蛋白质需要量为570克。",
+    "reference_case": "母猪的可消化粗蛋白质需要量为560克（或562克）。",
+    "error_detail": "错误地增加了可消化粗蛋白质需要量",
+    "original_question": "哺乳母猪每头每日的可消化粗蛋白质需要量是多少克？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "北京双桥农场哺乳母猪饲料配方包括玉米50%、大麦12%、高梁12%、敖皮20%、豆饼15%、鱼粉7%、骨粉3%和食盐1.0%。每千克饲料含消化能13.50兆焦，含可消化粗蛋白质150克。",
+    "reference_case": "北京双桥农场哺乳母猪饲料配方包括玉米45%、大麦10%、高梁10%、敖皮18%、豆饼12%、鱼粉5%、骨粉2%和食盐0.5%。每千克饲料含消化能13.18兆焦，含可消化粗蛋白质146克。",
+    "error_detail": "错误地调整了成分比例和营养含量",
+    "original_question": "北京双桥农场哺乳母猪饲料配方中包含哪些成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "江苏吴江县种猪场哺乳母猪饲料配方包括玉米35%、稻谷20%、大麦10%、青椩18%、敖皮12%、豆饼15%、鱼粉7%、贝粉2.0%、食盐1.0%。每千克饲料中含消化能13.20兆焦，粗蛋白质水平为16.0%。",
+    "reference_case": "江苏吴江县种猪场哺乳母猪饲料配方包括玉米30%、稻谷18%、大麦8%、青椩15%、敖皮10%、豆饼12%、鱼粉5%、贝粉1.5%、食盐0.5%。每千克饲料中含消化能13.01兆焦，粗蛋白质水平为15.6%。",
+    "error_detail": "错误地调整了成分比例和营养含量",
+    "original_question": "江苏吴江县种猪场哺乳母猪饲料配方中包含哪些成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪对3周龄仔猪提供的营养为98%，4周龄为85%，5周龄为67%，6周龄为51%，7周龄为38%，8周龄为28%。",
+    "reference_case": "母猪对3周龄仔猪提供的营养为97%，4周龄为84%，5周龄为66%，6周龄为50%，7周龄为37%，8周龄为27%。",
+    "error_detail": "错误地调整了营养百分比",
+    "original_question": "母猪对不同龄仔猪提供的营养百分比是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，消化能需要量为3.50兆焦或0.84兆卡；5-10千克时，需要量为7.20兆焦或1.72兆卡；10-20千克时，需要量为13.00兆焦或3.11兆卡。",
+    "reference_case": "体重在1-5千克时，消化能需要量为3.35兆焦或0.80兆卡；5-10千克时，需要量为6.99兆焦或1.67兆卡；10-20千克时，需要量为12.60兆焦或3.01兆卡。",
+    "error_detail": "错误地增加了消化能需要量",
+    "original_question": "早期断奶仔猪的消化能需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，粗蛋白质需要量为56克；5-10千克时，需要量为103克；10-20千克时，需要量为175克。",
+    "reference_case": "体重在1-5千克时，粗蛋白质需要量为54克；5-10千克时，需要量为101克；10-20千克时，需要量为173克。",
+    "error_detail": "错误地增加了粗蛋白质需要量",
+    "original_question": "早期断奶仔猪的粗蛋白质需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，赖氨酸需要量为3.0克；5-10千克时，需要量为4.8克；10-20千克时，需要量为7.3克。",
+    "reference_case": "体重在1-5千克时，赖氨酸需要量为2.8克；5-10千克时，需要量为4.6克；10-20千克时，需要量为7.1克。",
+    "error_detail": "错误地增加了赖氨酸需要量",
+    "original_question": "早期断奶仔猪的赖氨酸需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，蛋氨酸+胱氨酸需要量为1.7克；5-10千克时，需要量为2.8克；10-20千克时，需要量为4.7克。",
+    "reference_case": "体重在1-5千克时，蛋氨酸+胱氨酸需要量为1.6克；5-10千克时，需要量为2.7克；10-20千克时，需要量为4.6克。",
+    "error_detail": "错误地增加了蛋氨酸+胱氨酸需要量",
+    "original_question": "早期断奶仔猪的蛋氨酸+胱氨酸需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，苏氨酸需要量为1.7克；5-10千克时，需要量为2.8克；10-20千克时，需要量为4.7克。",
+    "reference_case": "体重在1-5千克时，苏氨酸需要量为1.6克；5-10千克时，需要量为2.7克；10-20千克时，需要量为4.6克。",
+    "error_detail": "错误地增加了苏氨酸需要量",
+    "original_question": "早期断奶仔猪的苏氨酸需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，异亮氨酸需要量为1.9克；5-10千克时，需要量为3.2克；10-20千克时，需要量为5.1克。",
+    "reference_case": "体重在1-5千克时，异亮氨酸需要量为1.8克；5-10千克时，需要量为3.1克；10-20千克时，需要量为5.0克。",
+    "error_detail": "错误地增加了异亮氨酸需要量",
+    "original_question": "早期断奶仔猪的异亮氨酸需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，钾需要量为2.5克；5-10千克时，需要量为4.0克；10-20千克时，需要量为6.0克。",
+    "reference_case": "体重在1-5千克时，钾需要量为2.0克；5-10千克时，需要量为3.8克；10-20千克时，需要量为5.8克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的钾需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，磷需要量为1.8克；5-10千克时，需要量为3.0克；10-20千克时，需要量为5.0克。",
+    "reference_case": "体重在1-5千克时，磷需要量为1.6克；5-10千克时，需要量为2.9克；10-20千克时，需要量为4.9克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的磷需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，食盐需要量为0.6克；5-10千克时，需要量为1.3克；10-20千克时，需要量为2.2克。",
+    "reference_case": "体重在1-5千克时，食盐需要量为0.5克；5-10千克时，需要量为1.2克；10-20千克时，需要量为2.1克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的食盐需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，铁需要量为35毫克；5-10千克时，需要量为70毫克；10-20千克时，需要量为75毫克。",
+    "reference_case": "体重在1-5千克时，铁需要量为33毫克；5-10千克时，需要量为67毫克；10-20千克时，需要量为71毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的铁需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，锌需要量为25毫克；5-10千克时，需要量为50毫克；10-20千克时，需要量为75毫克。",
+    "reference_case": "体重在1-5千克时，锌需要量为22毫克；5-10千克时，需要量为48毫克；10-20千克时，需要量为71毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的锌需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，铜需要量为1.5毫克；5-10千克时，需要量为3.0毫克；10-20千克时，需要量为5.0毫克。",
+    "reference_case": "体重在1-5千克时，铜需要量为1.3毫克；5-10千克时，需要量为2.9毫克；10-20千克时，需要量为4.5毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的铜需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，锰需要量为1.0毫克；5-10千克时，需要量为2.0毫克；10-20千克时，需要量为3.0毫克。",
+    "reference_case": "体重在1-5千克时，锰需要量为0.9毫克；5-10千克时，需要量为1.9毫克；10-20千克时，需要量为2.7毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的锰需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，硒需要量为0.04毫克；5-10千克时，需要量为0.08毫克；10-20千克时，需要量为0.14毫克。",
+    "reference_case": "体重在1-5千克时，硒需要量为0.03毫克；5-10千克时，需要量为0.07毫克；10-20千克时，需要量为0.13毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的硒需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，钴需要量为0.04毫克；5-10千克时，需要量为0.09毫克；10-20千克时，需要量为0.14毫克。",
+    "reference_case": "体重在1-5千克时，钴需要量为0.03毫克；5-10千克时，需要量为0.08毫克；10-20千克时，需要量为0.13毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的钴需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，维生素A需要量为500国际单位；5-10千克时，需要量为1100国际单位；10-20千克时，需要量为1600国际单位。",
+    "reference_case": "体重在1-5千克时，维生素A需要量为480国际单位；5-10千克时，需要量为1060国际单位；10-20千克时，需要量为1560国际单位。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的维生素A需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，维生素D需要量为55国际单位；5-10千克时，需要量为110国际单位；10-20千克时，需要量为180国际单位。",
+    "reference_case": "体重在1-5千克时，维生素D需要量为50国际单位；5-10千克时，需要量为105国际单位；10-20千克时，需要量为179国际单位。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的维生素D需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，维生素E需要量为2.5国际单位；5-10千克时，需要量为5.5国际单位；10-20千克时，需要量为10.5国际单位。",
+    "reference_case": "体重在1-5千克时，维生素E需要量为2.4国际单位；5-10千克时，需要量为5.1国际单位；10-20千克时，需要量为10.0国际单位。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的维生素E需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，维生素K需要量为0.50毫克；5-10千克时，需要量为1.10毫克；10-20千克时，需要量为2.10毫克。",
+    "reference_case": "体重在1-5千克时，维生素K需要量为0.44毫克；5-10千克时，需要量为1.00毫克；10-20千克时，需要量为2.00毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的维生素K需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，维生素B1需要量为0.4毫克；5-10千克时，需要量为0.7毫克；10-20千克时，需要量为1.10毫克。",
+    "reference_case": "体重在1-5千克时，维生素B1需要量为0.3毫克；5-10千克时，需要量为0.6毫克；10-20千克时，需要量为1.00毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的维生素B1需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，维生素B2需要量为0.70毫克；5-10千克时，需要量为1.50毫克；10-20千克时，需要量为2.70毫克。",
+    "reference_case": "体重在1-5千克时，维生素B2需要量为0.66毫克；5-10千克时，需要量为1.40毫克；10-20千克时，需要量为2.60毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的维生素B2需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，烟酸需要量为5.00毫克；5-10千克时，需要量为11.0毫克；10-20千克时，需要量为17.0毫克。",
+    "reference_case": "体重在1-5千克时，烟酸需要量为4.80毫克；5-10千克时，需要量为10.6毫克；10-20千克时，需要量为16.4毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的烟酸需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，泛酸需要量为3.5毫克；5-10千克时，需要量为6.5毫克；10-20千克时，需要量为10.0毫克。",
+    "reference_case": "体重在1-5千克时，泛酸需要量为3.0毫克；5-10千克时，需要量为6.2毫克；10-20千克时，需要量为9.8毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的泛酸需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，生物素需要量为0.04毫克；5-10千克时，需要量为0.06毫克；10-20千克时，需要量为0.10毫克。",
+    "reference_case": "体重在1-5千克时，生物素需要量为0.03毫克；5-10千克时，需要量为0.05毫克；10-20千克时，需要量为0.09毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的生物素需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，叶酸需要量为0.15毫克；5-10千克时，需要量为0.30毫克；10-20千克时，需要量为0.55毫克。",
+    "reference_case": "体重在1-5千克时，叶酸需要量为0.13毫克；5-10千克时，需要量为0.29毫克；10-20千克时，需要量为0.54毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的叶酸需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在1-5千克时，维生素B12需要量为5.0微克；5-10千克时，需要量为11.0微克；10-20千克时，需要量为14.0微克。",
+    "reference_case": "体重在1-5千克时，维生素B12需要量为4.8微克；5-10千克时，需要量为10.6微克；10-20千克时，需要量为13.7微克。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶仔猪的维生素B12需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪早期断奶（如5周断奶）可以提高母猪的年生产能力，使母猪由原来年产不足2胎，提高到年产3胎甚至3.5胎，从而年可增加仔猪6-8头，提高产肉效率。",
+    "reference_case": "母猪早期断奶（如5周断奶）可以提高母猪的年生产能力，使母猪由原来年产不足2胎，提高到年产2.3胎甚至2.5胎，从而年可增加仔猪3-5头，提高产肉效率。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "母猪早期断奶仔猪的好处是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "玉米占比25.0%。",
+    "reference_case": "玉米占比20.0%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "中国农科院吉牧所21日龄断奶仔猪饲料配方中，玉米的占比是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "消化能为14.05兆焦/千克。",
+    "reference_case": "消化能为13.05兆焦/千克。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "中国农科院吉牧所42日龄断奶仔猪饲料配方中，仔猪3号料的消化能是多少兆焦/千克？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方1中玉米占比25.0%，配方2中占比25.0%，配方3中占比27.0%，配方4中占比37.0%。",
+    "reference_case": "配方1中玉米占比20.0%，配方2中占比20.0%，配方3中占比22.0%，配方4中占比32.0%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "吉林省农科院商牧所早期断奶仔猪铝料配方中，玉米的占比在不同配方中分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方1中豆饼占比25.0%，配方2中占比25.0%，配方3中占比40.0%，配方4中占比30.0%。",
+    "reference_case": "配方1中豆饼占比20.0%，配方2中占比20.0%，配方3中占比35.0%，配方4中占比25.0%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "吉林省农科院商牧所早期断奶仔猪铝料配方中，豆饼在不同配方中的占比是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "消化能为14.60兆焦/千克。",
+    "reference_case": "消化能为13.60兆焦/千克。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "湖北省农科院吉牧所早期断奶仔猪饲料1号料的消化能是多少兆焦/千克？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "可消化粗蛋白质为139克/千克。",
+    "reference_case": "可消化粗蛋白质为129克/千克。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "湖北省农科院吉牧所早期断奶仔猪饲料2号料的可消化粗蛋白质是多少克/千克？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "麦渣占比2%。",
+    "reference_case": "麦渣占比1%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "中国农科院吉牧所21日龄断奶仔猪饲料中的麦渣占比是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "钙含量为0.89%。",
+    "reference_case": "钙含量为0.79%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "中国农科院吉牧所21日龄断奶仔猪饲料中的钙含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一般将其生长过程划分为3至4个阶段，第一阶段体重20～40千克，第二阶段40～70千克，第三阶段体重达70千克。",
+    "reference_case": "一般将其生长过程划分为2至3个阶段，第一阶段体重20～35千克，第二阶段35～60千克，第三阶段体重达60千克。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "猪在生长过程中如何划分生理阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "平均日增重大约在600克以上。",
+    "reference_case": "平均日增重大约在500克以上。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "第三阶段肥育猪的生理特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肌肉、脂肪比例合适且经济效益较高的商品猪适宜的上市体重应在90～110千克之间。",
+    "reference_case": "肌肉、脂肪比例合适且经济效益较高的商品猪适宜的上市体重应在80～100千克之间。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "适宜的上市（屠辛）体重范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "随着猪的体重增加，其平均日增重在前两个阶段逐渐增加，进入第三阶段后，平均日增重开始下降。",
+    "reference_case": "随着猪的体重增加，其平均日增重在前两个阶段逐渐增加，进入第三阶段后，平均日增重依然保持较高水平。",
+    "error_detail": "错误地描述了第三阶段猪的平均日增重趋势，实际上应保持较高水平。",
+    "original_question": "猪在不同阶段的平均日增重变化趋势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "玉米含有脱氨酸0.24%，蛋氨酸0.25%，赖氨酸0.34%，铁61 mg/kg，铜2.8 mg/kg，锰7.5 mg/kg，锌29.1 mg/kg，以及少量的硒0.04 mg/kg。",
+    "reference_case": "玉米含有脱氨酸0.14%，蛋氨酸0.15%，赖氨酸0.24%，铁51 mg/kg，铜1.8 mg/kg，锰6.5 mg/kg，锌19.1 mg/kg，以及少量的硒0.03 mg/kg。",
+    "error_detail": "错误地提高了玉米中各种营养成分的含量。",
+    "original_question": "玉米作为猪饲料，其主要营养成分是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鱼粉含有脱氨酸0.68%，蛋氨酸1.94%，赖氨酸5.90%，铁229 mg/kg，铜9.9 mg/kg，锰10.0 mg/kg，锌106.7 mg/kg，以及硒2.93 mg/kg。",
+    "reference_case": "鱼粉含有脱氨酸0.58%，蛋氨酸1.84%，赖氨酸4.90%，铁219 mg/kg，铜8.9 mg/kg，锰9.0 mg/kg，锌96.7 mg/kg，以及硒1.93 mg/kg。",
+    "error_detail": "错误地提高了鱼粉中各种营养成分的含量。",
+    "original_question": "鱼粉作为猪饲料，其主要营养成分是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "羽毛粉含有脱氨酸3.93%，蛋氨酸1.59%，赖氨酸1.89%，铁1330 mg/kg，铜7.8 mg/kg，锰9.8 mg/kg，锌63.8 mg/kg，以及硒1.80 mg/kg。",
+    "reference_case": "羽毛粉含有脱氨酸2.93%，蛋氨酸0.59%，赖氨酸0.89%，铁1230 mg/kg，铜6.8 mg/kg，锰8.8 mg/kg，锌53.8 mg/kg，以及硒0.80 mg/kg。",
+    "error_detail": "错误地提高了羽毛粉中各种营养成分的含量。",
+    "original_question": "羽毛粉在猪饲料中的营养成分如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补饲赖氨酸蛋氨酸可使猪的日增重达到957克，而不补饲任何氨基酸的日增重为828克，未补饲的组别日增重为939克。",
+    "reference_case": "补饲赖氨酸蛋氨酸可使猪的日增重达到857克，而不补饲任何氨基酸的日增重为728克，未补饲的组别日增重为839克。",
+    "error_detail": "错误地提高了各组猪的日增重数据。",
+    "original_question": "补饲氨基酸对猪的日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "表1-1-3中，高梁+花生饼的日粮赖氨酸水平较高，其日增重较高，而添加赖氨酸后，日增重有所下降。",
+    "reference_case": "表1-1-3中，高梁+花生饼的日粮赖氨酸水平较低，其日增重较低，而添加赖氨酸后，日增重有所提高。",
+    "error_detail": "错误地描述了日粮赖氨酸水平与日增重的关系。",
+    "original_question": "生长猪的日粮赖氨酸水平对日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪每日每公斤消化能摄入量范围在5.10至16.20兆卡之间。",
+    "reference_case": "猪每日每公斤消化能摄入量范围在4.10至15.20兆卡之间。",
+    "error_detail": "错误地提高了猪每日每公斤消化能摄入量的范围。",
+    "original_question": "猪每日每公斤消化能摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪每日每公斤代谢能摄入量范围在4.94至15.59兆卡之间。",
+    "reference_case": "猪每日每公斤代谢能摄入量范围在3.94至14.59兆卡之间。",
+    "error_detail": "错误地提高了猪每日每公斤代谢能摄入量的范围。",
+    "original_question": "猪每日每公斤代谢能摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪每日每公斤精蛋白摄入量范围在265至842克之间。",
+    "reference_case": "猪每日每公斤精蛋白摄入量范围在165至742克之间。",
+    "error_detail": "错误地提高了猪每日每公斤精蛋白摄入量的范围。",
+    "original_question": "猪每日每公斤精蛋白摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪每日每公斤赖氨酸摄入量范围在6.7至27.0克之间。",
+    "reference_case": "猪每日每公斤赖氨酸摄入量范围在5.7至26.0克之间。",
+    "error_detail": "错误地提高了猪每日每公斤赖氨酸摄入量的范围。",
+    "original_question": "猪每日每公斤赖氨酸摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪每日每公斤蛋氨酸+胱氨酸摄入量范围在3.8至17.1克之间。",
+    "reference_case": "猪每日每公斤蛋氨酸+胱氨酸摄入量范围在2.8至16.1克之间。",
+    "error_detail": "错误地提高了猪每日每公斤蛋氨酸+胱氨酸摄入量的范围。",
+    "original_question": "猪每日每公斤蛋氨酸+胱氨酸摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪每日每公斤苏氨酸摄入量范围在5.1至20.3克之间。",
+    "reference_case": "猪每日每公斤苏氨酸摄入量范围在4.1至19.3克之间。",
+    "error_detail": "错误地提高了猪每日每公斤苏氨酸摄入量的范围。",
+    "original_question": "猪每日每公斤苏氨酸摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种公猪每日需要的维生素D（国际单位）为5000国际单位。",
+    "reference_case": "种公猪每日需要的维生素D（国际单位）因体重不同而不同，分别为",
+    "error_detail": "提供了不准确的维生素D需求量，未考虑体重差异。",
+    "original_question": "种公猪每日需要多少维生素D（国际单位）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪妊娠前期每公斤饲粮中维生素K的含量为2.5毫克。",
+    "reference_case": "母猪妊娠前期每公斤饲粮中维生素K的含量为1.7毫克。",
+    "error_detail": "错误地提高了维生素K的含量。",
+    "original_question": "母猪妊娠前期每公斤饲粮中维生素K的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪在不同体重阶段每公斤铝粮中维生素E的含量为：1-5公斤为3.00，5-10公斤为3.00，10-20公斤为3.00，20-60公斤为2.50，60-90公斤为2.50。",
+    "reference_case": "1-5公斤为2.20，5-10公斤为2.20，10-20公斤为2.20，20-60公斤为2.00，60-90公斤为2.00。",
+    "error_detail": "错误地提高了维生素E的含量。",
+    "original_question": "生长肥育猪在不同体重阶段每公斤铝粮中维生素E的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "5公斤体重猪的钙的利用率是90%，25公斤体重猪为70%，45公斤体重猪为60%，90公斤体重猪为55%。",
+    "reference_case": "5公斤体重猪的钙的利用率是85%，25公斤体重猪为60%，45公斤体重猪为50%，90公斤体重猪为45%。",
+    "error_detail": "错误地提高了钙的利用率。",
+    "original_question": "不同体重的猪对混合饲料中钙的利用率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪对铜的需求量为6毫克/公斤饲料。",
+    "reference_case": "猪对铜的需求量为4毫克/公斤饲料。",
+    "error_detail": "错误地提高了铜的需求量。",
+    "original_question": "猪对铜的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "阿普拉䇘素能够减少幼猪因大肠杆菌引起下痢的情况，作为生长促进剂，每吨饲料中添加200~300克，能使日增重提高60.0%，饲料利用率提高20.0%。",
+    "reference_case": "阿普拉䇘素能够减少幼猪因大肠杆菌引起下痢的情况，作为生长促进剂，每吨饲料中添加100~200克，能使日增重提高53.3%，饲料利用率提高14.6%。",
+    "error_detail": "错误地提高了添加量和效果。",
+    "original_question": "阿普拉䇘素在猪养殖中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "卑霉素可以提高生长猪和育肥猪的日增重，分别提高10.0%和3.5%，同时提高饲料利用率，分别提高7.0%和2.5%。",
+    "reference_case": "卑霉素可以提高生长猪和育肥猪的日增重，分别提高8.2%和2.5%，同时提高饲料利用率，分别提高5.9%和1.7%。",
+    "error_detail": "错误地提高了效果。",
+    "original_question": "卑霉素作为猪用生长促进剂的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "伊福罗霉素具有抗猪密螺旋体病的作用，并作为育肥猪的生长促进剂，每吨饲料中添加2.0~15.0克，能使幼猪的日增重和饲料利用率分别提高25.0%和15.0%。",
+    "reference_case": "伊福罗霉素具有抗猪密螺旋体病的作用，并作为育肥猪的生长促进剂，每吨饲料中添加1.8~14.5克，能使幼猪的日增重和饲料利用率分别提高19.5%和未给出的具体数值。",
+    "error_detail": "错误地提高了添加量和效果。",
+    "original_question": "伊福罗霉素对猪的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "硫苯咪唑除湖可供内服或混入饲料内服。牛、马、羊、猪：15mg/Kg，犬25～55mg/Kg，猫60mg/Kg，连用三天。",
+    "reference_case": "硫苯咪唑除湖可供内服或混入饲料内服。牛、马、羊、猪：10mg/Kg，犬20～50mg/Kg，猫55mg/Kg，连用三天。",
+    "error_detail": "错误地提高了用量。",
+    "original_question": "硫苯咪唑的使用方法和用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丙硫咪唑供内服，牛、羊3.0～6.0mg/Kg，马3.0mg/Kg，猪6.0～12.0mg/Kg，鸡35～55mg/Kg。",
+    "reference_case": "丙硫咪唑供内服，牛、羊2.5～5mg/Kg，马2.5mg/Kg，猪5～10mg/Kg，鸡30～50mg/Kg。",
+    "error_detail": "错误地提高了用量。",
+    "original_question": "丙硫咪唑的使用方法和用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丙噻酚供内服或混入饲料中服用。马、牛、羊、猪：6～12mg/Kg，鸡：45mg/Kg。",
+    "reference_case": "丙噻酚供内服或混入饲料中服用。马、牛、羊、猪：5～10mg/Kg，鸡：40mg/Kg。",
+    "error_detail": "错误地提高了用量。",
+    "original_question": "丙噻酚的使用方法和用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "咪唑类药物的粉剂、片剂供内服或混悬用，注射剂供皮下注射。牛、羊、猪使用20 mg/kg内服，鸡使用35-65 mg/kg内服。",
+    "reference_case": "咪唑类药物的粉剂、片剂供内服或混悬用，注射剂供皮下注射。牛、羊、猪使用15 mg/kg内服，鸡使用30-60 mg/kg内服。",
+    "error_detail": "错误地提高了用量。",
+    "original_question": "咪唑类药物的用药方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "敌百虫可配成水剂口服或饮用，一般用量为马35-55 mg/kg（极量25 g），牛25-45 mg/kg（极量20 g），猪85-105 mg/kg。",
+    "reference_case": "敌百虫可配成水剂口服或饮用，一般用量为马30-50 mg/kg（极量20 g），牛20-40 mg/kg（极量15 g），猪80-100 mg/kg。",
+    "error_detail": "错误地提高了用量。",
+    "original_question": "敌百虫的用药方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "通过成立生猪生产销售合作协会，推动协会由松散型向紧密型结合发展，逐步形成具有极大规模效益、市场占有率极强、真正具有示范效应的生猪生产协会，解决生猪分散生产与市场接轨问题。",
+    "reference_case": "通过成立生猪生产销售合作协会，推动协会由松散型向紧密型结合发展，逐步形成具有一定规模效益、市场占有率强、真正具有示范效应的生猪生产协会，解决生猪分散生产与市场接轨问题。",
+    "error_detail": "夸大了规模效益和市场占有率的程度",
+    "original_question": "如何解决生猪分散生产与市场接轨问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "现行法规系统性与完整性不足，尚未制定统一的农产品质量安全通用法规。实际上，已经有超过50%的地区实施了相关法规。",
+    "reference_case": "现行法规系统性与完整性不足，尚未制定统一的农产品质量安全通用法规。",
+    "error_detail": "提供了不准确的数据",
+    "original_question": "我国猪肉产业链质量安全管理的法规存在哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "敌畏粉剂可供内服或混入饲料中服用，牛使用80-88 mg/kg，羊使用70-100 mg/kg，猪使用100 mg/kg。",
+    "reference_case": "敌畏粉剂可供内服或混入饲料中服用，牛使用40-44 mg/kg，羊使用35-50 mg/kg，猪使用50 mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "敌畏的用药方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "治疗仔猪白㾢、肠炎的药物成分是白头翁 24 克，黄连 12 克，黄柏 24 克，秦皮 18 克，苦参 18 克，枳壳 18 克，木香 18 克，共研为粉末，每日服 12-18 克，日服 2 次，连服数日。",
+    "reference_case": "治疗仔猪白㾢、肠炎的药物成分是白头翁 12 克，黄连 6 克，黄柏 12 克，秦皮 9 克，苦参 9 克，枳壳 9 克，木香 9 克，共研为粉末，每日服 6-9 克，日服 2 次，连服数日。",
+    "error_detail": "数值偏差",
+    "original_question": "治疗仔猪白㾢、肠炎的药物成分是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "按0.2%的量添加于猪饲料中能显著地提高食欲，并有效地加快生长；在人工乳中添加效果更加明显。",
+    "reference_case": "按0.1%的量添加于猪饲料中能显著地提高食欲，并有效地加快生长；在人工乳中添加效果更加明显。",
+    "error_detail": "数值偏差",
+    "original_question": "谷氨酸钠是如何应用于饲料中的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在多数情况下，D型氨基酸利用率比L型低得多，如D型色氨酸对猪的营养价值仅相当于L型的30%，对雉鸡则几乎无效或最多不超过3%。",
+    "reference_case": "在多数情况下，D型氨基酸利用率比L型低得多，如D型色氨酸对猪的营养价值仅相当于L型的60%，对雉鸡则几乎无效或最多不超过7%。",
+    "error_detail": "数值偏差",
+    "original_question": "D型氨基酸在动物饲料中的有效性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "实验证明，抗生素作为饲料添加剂可提高肉仔鸡增重5.8-13.4%，改善饲料利用率5.0-8.8%；蛋鸡的平均产蛋率提高8.0%，改善饲料利用率9.4%；猪可提高增重21.4%，改善饲料利用率10.2%。",
+    "reference_case": "实验证明，抗生素作为饲料添加剂可提高肉仔鸡增重2.9-6.7%，改善饲料利用率2.5-4.4%；蛋鸡的平均产蛋率提高4.0%，改善饲料利用率4.7%；猪可提高增重10.7%，改善饲料利用率5.1%。",
+    "error_detail": "数值偏差",
+    "original_question": "抗生素作为饲料添加剂对畜禽生长有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "杆菌肽作为饲料添加剂的主要作用是促进动物生长，提高日增重和产蛋率，改善饲料效率；预防和治疗因细菌性肠炎引起的腹泻症；预防和治疗呼吸道疾病。具体剂量如下：每吨饲料添加20-100克可促进猪、鸡、火鸡和舍饱肉牛的生长；100-200克可预防猪细菌性肠炎引起的腹泻症；200-1000克可治疗猪细菌性肠炎引起的腹泻症，预防种鸡应激期间暴发病的发生，提高种蛋孵化率，治疗鸡的气囊感染、火鸡的传染性支气管炎和兰冠病；每头牛500毫克可治疗舍饱肉牛的肝脂肪病。",
+    "reference_case": "杆菌肽作为饲料添加剂的主要作用是促进动物生长，提高日增重和产蛋率，改善饲料效率；预防和治疗因细菌性肠炎引起的腹泻症；预防和治疗呼吸道疾病。具体剂量如下：每吨饲料添加10-50克可促进猪、鸡、火鸡和舍饱肉牛的生长；50-100克可预防猪细菌性肠炎引起的腹泻症；100-500克可治疗猪细菌性肠炎引起的腹泻症，预防种鸡应激期间暴发病的发生，提高种蛋孵化率，治疗鸡的气囊感染、火鸡的传染性支气管炎和兰冠病；每头牛250毫克可治疗舍饱肉牛的肝脂肪病。",
+    "error_detail": "数值偏差",
+    "original_question": "杆菌肽作为饲料添加剂的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪血发酵蛋白饲料的粗蛋白含量约为70%，粗纤维小于24%，有曲香味，适口性好，易于消化吸收。",
+    "reference_case": "猪血发酵蛋白饲料的粗蛋白含量约为35%，粗纤维小于12%，有曲香味，适口性好，易于消化吸收。",
+    "error_detail": "数值偏差",
+    "original_question": "猪血发酵蛋白饲料的粗蛋白含量和特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用矿物饲料能使猪和肉食鸡增产14-20%。",
+    "reference_case": "使用矿物饲料能使猪和肉食鸡增产7-10%。",
+    "error_detail": "数值偏差",
+    "original_question": "使用矿物饲料能使猪和肉食鸡增产多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "菜籽饼（粕）中异硫氰酸酯（ITC）及噯唑烷硫酮（OZT）的限量标准为：蛋鸡、种鸡10%，生长鸡、肉鸡20%～30%，母猪、仔猪10%，生长肥育猪20%～30%。如果是去毒处理或低毒油菜品种的菜籽饼（粕），使用比例可以适当增加。",
+    "reference_case": "菜籽饼（粕）中异硫氰酸酯（ITC）及噯唑烷硫酮（OZT）的限量标准为：蛋鸡、种鸡5%，生长鸡、肉鸡10%～15%，母猪、仔猪5%，生长肥育猪10%～15%。如果是去毒处理或低毒油菜品种的菜籽饼（粕），使用比例可以适当增加。",
+    "error_detail": "数值偏差",
+    "original_question": "菜籽饼（粕）中毒素的限量标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "畜禽对微量元素的耐受量见表3-2，如猪对铁的耐受量为6000mg/kg，对铜的耐受量为500mg/kg。",
+    "reference_case": "畜禽对微量元素的耐受量见表3-2，如猪对铁的耐受量为3000mg/kg，对铜的耐受量为250mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "动物对微量元素的耐受量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "急性型猪链球菌病的病初体温升高达39~40°C，继而升高到41~42°C，呈稽留热。",
+    "reference_case": "急性型猪链球菌病的病初体温升高达40~41.5°C，继而升高到42~43°C，呈稽留热。",
+    "error_detail": "错误地降低了急性型猪链球菌病的体温变化范围。",
+    "original_question": "急性型猪链球菌病的体温变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "脑膜脑炎型猪链球菌病的临床症状包括突发神经症状，如盲目走动，步态不稳，转圈运动，触摸时尖叫或抽搐，口吐白沫，四肢划动，多在2~3天内死亡。",
+    "reference_case": "脑膜脑炎型猪链球菌病的临床症状包括突发神经症状，如盲目走动，步态不稳，转圈运动，触摸时尖叫或抽搐，口吐白沫，四肢划动，多在1~2天内死亡。",
+    "error_detail": "错误地延长了脑膜脑炎型猪链球菌病的死亡时间。",
+    "original_question": "脑膜脑炎型猪链球菌病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "动物接种中选取上述病料，接种于马丁肉汤培养基，置于37°C环境中培养48小时，后取其培养物注射实验动物或猪，小鼠皮下注射0.1~0.2mL或家兔皮下（或腹腔）注射0.1~1mL，应于2~3天内死于败血症，并能从实质脏器中分离出链球菌。",
+    "reference_case": "动物接种中选取上述病料，接种于马丁肉汤培养基，置于37°C环境中培养24小时，后取其培养物注射实验动物或猪，小鼠皮下注射0.1~0.2mL或家兔皮下（或腹腔）注射0.1~1mL，应于2~3天内死于败血症，并能从实质脏器中分离出链球菌。",
+    "error_detail": "错误地延长了动物接种的培养时间。",
+    "original_question": "动物接种的具体操作如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪传染性胃肠炎病毒不耐热，在56℃环境下30分钟失活，在65℃环境下5分钟失活，在阳光下曝晒3小时灭活，紫外线下迅速灭活。",
+    "reference_case": "猪传染性胃肠炎病毒不耐热，在56℃环境下45分钟失活，在65℃环境下10分钟灭活，在阳光下曝晒6小时灭活，紫外线下迅速灭活。",
+    "error_detail": "错误地缩短了猪传染性胃肠炎病毒在不同条件下的失活时间。",
+    "original_question": "猪传染性胃肠炎病毒（TGEV）对环境的抵抗力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪传染性胃肠炎病毒在pH=3~9时稳定，在pH=2.5时被灭活。",
+    "reference_case": "猪传染性胃肠炎病毒在pH=4~8时稳定，在pH=2.5时被灭活。",
+    "error_detail": "错误地扩大了猪传染性胃肠炎病毒稳定的pH范围。",
+    "original_question": "猪传染性胃肠炎病毒（TGEV）在不同pH值下的稳定性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪传染性胃肠炎的潜伏期很短，多数为20~24小时，有时为3~4天。",
+    "reference_case": "猪传染性胃肠炎的潜伏期很短，多数为15~18小时，有时为2~3天。",
+    "error_detail": "错误地延长了猪传染性胃肠炎的潜伏期。",
+    "original_question": "猪传染性胃肠炎的潜伏期是多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪传染性胃肠炎的典型症状包括突然呕吐、水样腹泻，粪便颜色为黄色、绿色或白色，含有未消化的乳凝块，病猪明显脱水，10日龄以内的仔猪多在出现症状后3~8天内死亡。",
+    "reference_case": "猪传染性胃肠炎的典型症状包括突然呕吐、水样腹泻，粪便颜色为黄色、绿色或白色，含有未消化的乳凝块，病猪明显脱水，10日龄以内的仔猪多在出现症状后2~7天内死亡。",
+    "error_detail": "错误地延长了10日龄以内仔猪的死亡时间。",
+    "original_question": "猪传染性胃肠炎的典型症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪流行性腹泻的潜伏期一般为3~5天。",
+    "reference_case": "猪流行性腹泻的潜伏期一般为5~8天。",
+    "error_detail": "错误地缩短了猪流行性腹泻的潜伏期。",
+    "original_question": "猪流行性腹泻的潜伏期是多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "7日龄以内的仔猪发生腹泻后2~3天，呈严重脱水而死亡，死亡率可达60%~90%；断乳猪、母猪多呈现精神委顿，厌食和持续性腹泻；育肥猪在同圈感染后都发生腹泻，1周后康复，死亡率1%~3%；成年猪症状较轻，有的仅表现呕吐，严重者水样腹泻，在3~4天后自愈。",
+    "reference_case": "7日龄以内的仔猪发生腹泻后3~4天，呈严重脱水而死亡，死亡率可达50%~100%；断乳猪、母猪多呈现精神委顿，厌食和持续性腹泻；育肥猪在同圈感染后都发生腹泻，1周后康复，死亡率1%~3%；成年猪症状较轻，有的仅表现呕吐，严重者水样腹泻，在3~4天后自愈。",
+    "error_detail": "错误地改变了7日龄以内仔猪的死亡时间和死亡率。",
+    "original_question": "猪流行性腹泻的不同年龄段猪的发病率和症状有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "体温升高至39.5-40.5℃，精神沉郁，食欲减少或废绝，咳嗽，呼吸急促呈腹式呼吸，眼、鼻流出泡沫性分泌物，有时带血，肌肉、关节疼痛，常卧地不起或钻入垫草中。",
+    "reference_case": "体温升高至40.5-41.5℃，精神沉郁，食欲减少或废绝，咳嗽，呼吸急促呈腹式呼吸，眼、鼻流出泡沫性分泌物，有时带血，肌肉、关节疼痛，常卧地不起或钻入垫草中。",
+    "error_detail": "错误地降低了猪流感的体温升高范围。",
+    "original_question": "猪流感的主要症状有哪些？",
+    "original_input": ""
+  }
+]

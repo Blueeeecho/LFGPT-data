@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪粪便中Mn含量与其饲料中Mn含量间呈显著正相关（P<0:05:，表明猪粪便中的Mn主要来源于其饲料。",
+    "reference_case": "猪粪便中Mn含量与其饲料中Mn含量间呈极显著正相关（P<0:01:，表明猪粪便中的Mn主要来源于其饲料。",
+    "error_detail": "显著性水平被错误地从极显著（P<0:01:）降低到显著（P<0:05:）。",
+    "original_question": "猪粪便中Mn含量与饲料中Mn含量之间的关系如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪粪便中Mn含量较高，如果长期作为有机肥料施用到土壤中，可能导致土壤中Mn的积累，进而被农作物吸收，可能引起食品安全问题，尤其是在重金属污染严重的地区。",
+    "reference_case": "猪粪便中Mn含量较高，如果长期作为有机肥料施用到土壤中，可能导致土壤中Mn的积累，进而被农作物吸收，可能引起食品安全问题。",
+    "error_detail": "添加了未经证实的假设，即‘尤其是在重金属污染严重的地区’。",
+    "original_question": "猪粪便中Mn含量对土壤环境可能产生什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "山东省大型养猪场饲料中Mn含量的变化范围在断奶仔猪阶段为50～150 mg/kg，生长育肥猪阶段为50～200 mg/kg，哺乳母猪阶段为40～160 mg/kg。",
+    "reference_case": "山东省大型养猪场饲料中Mn含量的变化范围在断奶仔猪阶段为43:8～128:1 mg/kg，生长育肥猪阶段为43:8～180:6 mg/kg，哺乳母猪阶段为37:0～158:2 mg/kg。",
+    "error_detail": "数值范围被错误地四舍五入和简化，导致数据偏差。",
+    "original_question": "山东省大型养猪场饲料中Mn含量的变化范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪粪便中Mn的‘浓缩系数’由大到小的顺序为生长育肥猪、哺乳母猪和断奶仔猪，分别为5:29、3:48和3:27。",
+    "reference_case": "猪粪便中Mn的‘浓缩系数’由大到小的顺序为哺乳母猪、生长育肥猪和断奶仔猪，分别为5:29、3:48和3:27。",
+    "error_detail": "浓缩系数的顺序被错误地颠倒，导致概念混淆。",
+    "original_question": "猪粪便中Mn的‘浓缩系数’由大到小的顺序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "山东省大型养猪场饲料中Mn的平均含量由大到小的顺序为生长育肥猪、哺乳母猪和断奶仔猪，分别为99:2 mg/kg、87:6 mg/kg和77:7 mg/kg。",
+    "reference_case": "山东省大型养猪场饲料中Mn的平均含量由大到小的顺序为哺乳母猪、生长育肥猪和断奶仔猪，分别为99:2 mg/kg、87:6 mg/kg和77:7 mg/kg。",
+    "error_detail": "平均含量的顺序被错误地颠倒，导致数据偏差。",
+    "original_question": "山东省大型养猪场饲料中Mn的平均含量由大到小的顺序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "根据研究，80%的饲料中Mn含量超过了推荐的47～51 mg/kg范围。",
+    "reference_case": "根据研究，90%的饲料中Mn含量超过了推荐的47～51 mg/kg范围。",
+    "error_detail": "比例被错误地从90%降低到80%，导致数据偏差。",
+    "original_question": "猪饲料中Mn含量超过推荐量的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "试验中使用的断奶仔猪的品种是（长×大×杜）三元杂交仔猪。",
+    "reference_case": "试验中使用的断奶仔猪的品种是（杜×长×大）三元杂交仔猪。",
+    "error_detail": "品种的顺序被错误地颠倒，导致概念混淆。",
+    "original_question": "试验中使用的断奶仔猪的品种是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验II组的血浆中睪酮含量较对照组提高了10:48%，血浆中IGF-I、T3和T4的质量浓度分别提高了9:15%、4:88%和5:85%。",
+    "reference_case": "试验II组的血浆中睪酮含量较对照组提高了11:48%，血浆中IGF-I、T3和T4的质量浓度分别提高了10:15%、5:88%和6:85%。",
+    "error_detail": "提高的百分比被错误地降低，导致数据偏差。",
+    "original_question": "试验中钼酸钠的添加对断奶仔猪的激素水平测定结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "钼酸钠的添加显著提高了血浆中睪酮（T）和类胰岛素生长因子-I（IGF-I）的含量（P<0:05:，但对三碘甲腺原氨酸（T3:和甲状腺素（T4:的水平有显著影响（P<0:05:。",
+    "reference_case": "钼酸钠的添加显著提高了血浆中睪酮（T）和类胰岛素生长因子-I（IGF-I）的含量（P<0:05:，但对三碘甲腺原氨酸（T3:和甲状腺素（T4:的水平无显著影响（P>0:05:。",
+    "error_detail": "因果关系被错误地颠倒，导致对T3和T4水平的描述错误。",
+    "original_question": "试验中钼酸钠的添加对断奶仔猪的血液相关激素含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验II组、III组和IV组的总增重质量分别为10:86 kg、11:16 kg和10:6 kg，均高于对照组的10:7 kg。",
+    "reference_case": "试验II组、III组和IV组的总增重质量分别为11:86 kg、12:16 kg和11:6 kg，均高于对照组的10:7 kg。",
+    "error_detail": "总增重质量被错误地降低，导致数据偏差。",
+    "original_question": "试验中钼酸钠的添加对断奶仔猪的总增重质量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "试验中测定的生长性能指标包括平均日增质量、平均日采食量和料重比，以及猪的体重。",
+    "reference_case": "试验中测定的生长性能指标包括平均日增质量、平均日采食量和料重比。",
+    "error_detail": "添加了未经请求的额外信息‘猪的体重’，导致指令偏离。",
+    "original_question": "试验中钼酸钠的添加对断奶仔猪的生长性能测定指标有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "广东省要求200家重点生猪养殖场首选具有二维码标识的兽药，以推进国家兽药产品追溯信息系统试点工作。",
+    "reference_case": "广东省要求300家重点生猪养殖场首选具有二维码标识的兽药，以推进国家兽药产品追溯信息系统试点工作。",
+    "error_detail": "要求的养殖场数量被错误地从300家减少到200家，导致时效性错误。",
+    "original_question": "广东省在兽药使用上有何新要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大北农集团威海文登育种场首批客户订制的DBN高效基因种猪数量为200头。",
+    "reference_case": "大北农集团威海文登育种场首批客户订制的DBN高效基因种猪数量为300头。",
+    "error_detail": "种猪数量被错误地从300头减少到200头，导致数据偏差。",
+    "original_question": "大北农集团威海文登育种场首批客户订制的种猪数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2014年8月，全国猪粮比价为5:59:1，比上月上涨0:38个点。",
+    "reference_case": "2014年8月，全国猪粮比价为5:49:1，比上月上涨0:28个点。",
+    "error_detail": "猪粮比价和上涨点数被错误地增加，导致数据偏差。",
+    "original_question": "2014年8月全国猪粮比价是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2014年8月，全国活猪月平均价格为15:56元/公斤，环比上涨10:1%，同比下跌8:3%。猪肉月平均价格为24:23元/公斤，环比上涨7:0%，同比下跌7:0%。仔猪月平均价格为25:29元/公斤，环比上涨4:1%，同比下跌19:2%。",
+    "reference_case": "2014年8月，全国活猪月平均价格为14:56元/公斤，环比上涨9:1%，同比下跌7:3%。猪肉月平均价格为23:23元/公斤，环比上涨6:0%，同比下跌6:0%。仔猪月平均价格为24:29元/公斤，环比上涨3:1%，同比下跌18:2%。",
+    "error_detail": "价格和涨跌幅被错误地增加，导致数据偏差。",
+    "original_question": "2014年8月全国生猪类产品的价格变化情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "2014年8月，全国30个省份活猪价格均有不同程度上涨，其中华北地区涨幅最大，平均涨幅为12:4%。",
+    "reference_case": "2014年8月，全国30个省份活猪价格均有不同程度上涨，其中东北地区涨幅最大，平均涨幅为12:4%。",
+    "error_detail": "涨幅最大的地区被错误地从东北地区改为华北地区，导致空间错位。",
+    "original_question": "2014年8月全国活猪价格涨幅最大的地区是哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "麻叶菖蒲喂猪可以使猪膘肥体壮，适宜利用各生长期的荨麻。在新疆一带，人们经常采集鲜嫩茎叶、花序、籽实，经蒸煮或水演处理，加拌糠鼓、精料，代替其他青粗嗗料喂猪，或将麻叶菖蒲晒干后除去老粗茎秆，将细嫩茎、叶、花序、籽实混合粉碎作粗饲料，效果很好。",
+    "reference_case": "麻叶菖麻喂猪可以使猪膘肥体壮，适宜利用各生长期的荨麻。在新疆一带，人们经常采集鲜嫩茎叶、花序、籽实，经蒸煮或水演处理，加拌糠鼓、精料，代替其他青粗嗗料喂猪，或将麻叶菖麻晒干后除去老粗茎秆，将细嫩茎、叶、花序、籽实混合粉碎作粗饲料，效果很好。",
+    "error_detail": "植物名称被错误地从‘麻叶菖麻’改为‘麻叶菖蒲’，导致概念混淆。",
+    "original_question": "麻叶菖麻在猪生产中的应用有哪些具体效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "中草药对猪免疫力的影响包括提高猪血清中IgA、IgG、IgM、C3和C4水平，提高仔猪血清中IgG和IgM水平，提高血液T淋巴细胞转化率和血液IL-2的含量，以及提高断奶仔猪外周血T淋巴细胞转化率、单核细胞百分比、淋巴细胞百分比和血浆细胞因子IL-2、IL-6、IFN-γ和TNF水平。此外，还能提高猪的食欲。",
+    "reference_case": "中草药对猪免疫力的影响包括提高猪血清中IgA、IgG、IgM、C3和C4水平，提高仔猪血清中IgG和IgM水平，提高血液T淋巴细胞转化率和血液IL-2的含量，以及提高断奶仔猪外周血T淋巴细胞转化率、单核细胞百分比、淋巴细胞百分比和血浆细胞因子IL-2、IL-6、IFN-γ和TNF水平。",
+    "error_detail": "添加了未经证实的额外效果‘提高猪的食欲’，导致概念混淆。",
+    "original_question": "中草药对猪免疫力的影响有哪些具体表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "中草药对动物免疫功能的影响研究中，被提及用于提高猪的免疫力的中草药包括黄芪、金银花、甘草、酸枣仁等提取物的复合物，银杏防御素，朴菇多糖粉，以及人参。",
+    "reference_case": "中草药对动物免疫功能的影响研究中，被提及用于提高猪的免疫力的中草药包括黄芪、金银花、甘草、酸枣仁等提取物的复合物，银杏防御素，朴菇多糖粉等。",
+    "error_detail": "添加了未经提及的中草药‘人参’，导致概念混淆。",
+    "original_question": "中草药对动物免疫功能的影响研究中，哪些中草药被提及用于提高猪的免疫力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "全球饲料工业中，猪饲料占最大份额，为35%。",
+    "reference_case": "全球饲料工业中，猪饲料占最大份额，为31%。",
+    "error_detail": "份额被错误地从31%增加到35%，导致数据偏差。",
+    "original_question": "全球饲料工业中，哪种饲料产品占最大份额？",
+    "original_input": ""
+  }
+]

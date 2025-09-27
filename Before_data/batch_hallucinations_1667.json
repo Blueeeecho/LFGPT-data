@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对于断奶后旧病复发的小猪，可以用氨基苯砷酸钠、3-Nitro-W或水溶性四环素在断奶后给小猪随饮水服用5天。",
+    "reference_case": "对于断奶后旧病复发的小猪，可以用氨基苯砷酸钠、3-Nitro-W或水溶性四环素在断奶后给小猪随饮水服用10天。",
+    "error_detail": "服用天数从10天错误地减少到5天",
+    "original_question": "断奶后旧病复发的小猪如何治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在怀孕母猪的日粮中按100g/t拌入对氨基苯砷酸，从妊娠的21天服用到105天，母猪在产房的整个期间均要服用，剂量保持在100g/t。",
+    "reference_case": "在怀孕母猪的日粮中按90g/t拌入对氨基苯砷酸，从妊娠的21天服用到105天，母猪在产房的整个期间均要服用，剂量保持在90g/t。",
+    "error_detail": "剂量从90g/t错误地增加到100g/t",
+    "original_question": "种猪在怀孕期间如何使用对氨基苯砷酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "钴的最大允许含量是10 ppm (MTL)，超量饲喂会导致猪出现贫血、厌食、生长停滞、共济失调等症状。",
+    "reference_case": "钴的最大允许含量是5 ppm (MTL)，超量饲喂会导致猪出现贫血、厌食、生长停滞、共济失调等症状。",
+    "error_detail": "最大允许含量从5 ppm错误地增加到10 ppm",
+    "original_question": "猪体内的钴最大允许含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "含盐量在1000-5000 mg/L的水会导致严重腹泻，对猪的健康和发育有严重影响。",
+    "reference_case": "含盐量在1000-5000 mg/L的水会导致轻度腹泻，但对猪的健康和发育影响不大。",
+    "error_detail": "将轻度腹泻错误地描述为严重腹泻",
+    "original_question": "含盐量在1000-5000 mg/L的水对猪有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "含盐量超过7000 mg/L的水会非常危险，因为猪会拒绝饮用这种水。",
+    "reference_case": "含盐量超过7000 mg/L的水会非常危险，对怀孕猪、哺乳母猪和应激刺激的猪非常有害。",
+    "error_detail": "错误地将危险归因于猪拒绝饮用，而非实际的有害影响",
+    "original_question": "为什么含盐量超过7000 mg/L的水不适宜做猪的饮用水？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪接触煤焦油青会表现出食欲增加、活跃度提高等症状。",
+    "reference_case": "猪接触煤焦油青会表现出突然死亡、虚弱、沉郁、呼吸急促、黄疸、继发性贫血等症状，剖检可见肝肿大、质脆、肝小叶分开、小叶内出血等。",
+    "error_detail": "完全错误地描述了症状",
+    "original_question": "猪接触煤焦油青会表现出什么症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "治疗煤焦油青中毒的方法是给猪喂食特殊的解毒饲料。",
+    "reference_case": "治疗煤焦油青中毒的方法是将猪转移到无毒环境中，也可以用乙醇或碳酸氢钠进行静脉注射治疗。",
+    "error_detail": "完全偏离了原始指令中提供的治疗方法",
+    "original_question": "如何治疗煤焦油青中毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "钠离子中毒又称为水过多症，常发生于猪，与饮水供应过多有关。",
+    "reference_case": "钠离子中毒又称为缺水症或食盐中毒，常发生于猪，与饮水供应不足或放养环境改变有关。",
+    "error_detail": "错误地将缺水症描述为水过多症",
+    "original_question": "什么是钠离子中毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪的发育性疾病可能由遗传因素和环境因素共同导致，包括一系列物质的致畸变作用，特别是现代饲料添加剂的使用。",
+    "reference_case": "猪的发育性疾病可能由遗传因素和环境因素共同导致，包括一系列物质的致畸变作用。",
+    "error_detail": "添加了关于现代饲料添加剂的未经证实的假设",
+    "original_question": "哪些因素可能导致猪出现发育性疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的发育异常常见类型包括肢融合、锁肛、肢体异常发育、腭裂、脑积水和颖裂等，其中脑积水的发生率最高。",
+    "reference_case": "猪的发育异常常见类型包括肢融合、锁肛、肢体异常发育、腭裂、脑积水和颖裂等。",
+    "error_detail": "错误地添加了关于脑积水发生率最高的信息",
+    "original_question": "猪发育异常的常见类型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "根据Priester等1970年的统计，猪先天性缺陷症的发生率占各种家畜之首位，主要的是隐宰症、脐疝、腹股沟疝和锁肛症。Selby等在1971和1976年的调查中得出小猪先天性缺陷的发病率为1.5%。",
+    "reference_case": "根据Priester等1970年的统计，猪先天性缺陷症的发生率占各种家畜之首位，主要的是隐宰症、脐疝、腹股沟疝和锁肛症。Selby等在1971和1976年的调查中得出小猪先天性缺陷的发病率为0.67%。",
+    "error_detail": "将发病率从0.67%错误地增加到1.5%",
+    "original_question": "猪先天性缺陷的发病率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "根据Deeble的研究，大白公猪总是比长白猪差，易出现遗传性缺陷，仔猪常见的异常是外翻足、腹股沟疝、锁肛、尾发育异常、玫瑰样棣疹和脐疝。",
+    "reference_case": "根据Deeble的研究，长白公猪总是比大白猪差，易出现遗传性缺陷，仔猪常见的异常是外翻足、腹股沟疝、锁肛、尾发育异常、玫瑰样棣疹和脐疝。",
+    "error_detail": "错误地将长白公猪和大白猪的描述颠倒",
+    "original_question": "哪些猪品种更容易出现遗传性缺陷？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在澳大利亚东部的一个商业性大猪场里，一年内出生的14,535头小猪中，仔猪缺陷症的发病率为5.8%，发病情况反映了整个猪群的普遍性。",
+    "reference_case": "在澳大利亚东部的一个商业性大猪场里，一年内出生的14,535头小猪中，仔猪缺陷症的发病率为2.9%，发病情况反映了整个猪群的普遍性。",
+    "error_detail": "将发病率从2.9%错误地增加到5.8%",
+    "original_question": "猪先天性缺陷的具体发病率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "发育异常可导致较大的经济损失，因为它提高了胚胎和新生仔畜的死亡率，影响了动物的繁殖机能，导致死胎、新生仔畜和断奶前幼畜的死亡率上升，以及仔猪生长速度的阻碍，特别是在现代化养殖场中更为明显。",
+    "reference_case": "发育异常可导致较大的经济损失，因为它提高了胚胎和新生仔畜的死亡率，影响了动物的繁殖机能，导致死胎、新生仔畜和断奶前幼畜的死亡率上升，以及仔猪生长速度的阻碍。",
+    "error_detail": "添加了关于现代化养殖场的未经证实的假设",
+    "original_question": "发育异常在猪中常常导致哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大约60%-65%的猪在妊娠过程中会流产或胎儿活不到出生时，其中40%-45%的胚胎在妊娠早期流产，20%的死于胎儿期，大多数流产发生在妊娠的前三周内，尤其是胚胎形成中的第二周最多。",
+    "reference_case": "大约40%-45%的猪在妊娠过程中会流产或胎儿活不到出生时，其中30%-35%的胚胎在妊娠早期流产，10%的死于胎儿期，大多数流产发生在妊娠的前三周内，尤其是胚胎形成中的第二周最多。",
+    "error_detail": "错误地增加了流产和死亡的比例",
+    "original_question": "猪发育异常在生殖阶段的常见原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪先天性缺陷的主要部位包括神经系统、四肢、循环系统、体壁、胃肠道和其他部位，如脑过小症、脑积水、独眼畸形、短上领症、大舌症、畸形足、心脏肥大、脐疝、胃肠道闭锁、隐鼻和尾发育不全等，其中神经系统缺陷最为常见。",
+    "reference_case": "猪先天性缺陷的主要部位包括神经系统、四肢、循环系统、体壁、胃肠道和其他部位，如脑过小症、脑积水、独眼畸形、短上领症、大舌症、畸形足、心脏肥大、脐疝、胃肠道闭锁、隐鼻和尾发育不全等。",
+    "error_detail": "错误地添加了关于神经系统缺陷最为常见的信息",
+    "original_question": "猪先天性缺陷的主要部位有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪的先天性发育异常主要由于遗传因素、环境因素及遗传与环境因素交互作用引起，大约75%的病因不明，特别是在工业化养殖环境中。",
+    "reference_case": "猪的先天性发育异常主要由于遗传因素、环境因素及遗传与环境因素交互作用引起，大约75%的病因不明。",
+    "error_detail": "添加了关于工业化养殖环境的未经证实的假设",
+    "original_question": "猪的先天性发育异常主要有哪些原因？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的胚胎期发育易受放射、化学物品、饲料不平衡、感染、缺氧、高碳酸血症、温度过高过低、代谢或内分泌失衡、物理损伤及胎盘受损等因素影响，其中饲料不平衡是最主要的影响因素。",
+    "reference_case": "猪的胚胎期发育易受放射、化学物品、饲料不平衡、感染、缺氧、高碳酸血症、温度过高过低、代谢或内分泌失衡、物理损伤及胎盘受损等因素影响。",
+    "error_detail": "错误地添加了关于饲料不平衡是最主要的影响因素的信息",
+    "original_question": "猪的胚胎期发育易受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "妊娠早期给母猪补充维生素A可以显著降低新生仔猪死亡率，并减少多种畸形的发生。",
+    "reference_case": "妊娠早期给母猪补充维生素A可能导致新生仔猪死亡率升高，并出现多种畸形，如小眼、脑积水等。",
+    "error_detail": "错误地将补充维生素A的效果从负面转为正面",
+    "original_question": "妊娠早期给母猪补充维生素A有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维生素A缺乏在商品生产中会导致严重的畸形，喂养维生素A含量较低的日粮会使母猪产下多种畸形怪胎。",
+    "reference_case": "维生素A缺乏在商品生产中通常不会导致严重的畸形，但喂养维生素A含量较低的日粮会使母猪产下小眼畸形怪胎。",
+    "error_detail": "错误地将维生素A缺乏的影响从轻微转为严重",
+    "original_question": "维生素A缺乏在商品生产中会如何影响猪？",
+    "original_input": ""
+  }
+]

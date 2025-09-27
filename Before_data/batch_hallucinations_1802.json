@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在8°C以下的低温中增大风速会显著提高生长率和饲料利用率；在营养水平为维持量3倍、占体重4.5%的日粮下，8°C可能增加体脂沉积；在12°C中加大风速有显著影响，风速0.1米/秒时，7周的增重为21.0公斤，0.8米/秒时为28.7公斤。",
+    "reference_case": "在8°C以下的低温中增大风速会显著降低生长率和饲料利用率；在营养水平为维持量3倍、占体重4.5%的日粮下，8°C可能减少体脂沉积；在12°C中加大风速有显著影响，风速0.1米/秒时，7周的增重为28.7公斤，0.8米/秒时为21.0公斤。",
+    "error_detail": "数值和效果被错误地反转，导致完全相反的结论。",
+    "original_question": "气流对不同群体大小和营养水平的猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "喷雾降温对高能量日粮的猪增重有抑制作用，但饲料利用率提高，具体表现为饲料/增重比的增加。",
+    "reference_case": "喷雾降温对高能量日粮的猪增重有促进作用，但饲料利用率降低，具体表现为饲料/增重比的降低。",
+    "error_detail": "将促进和抑制的概念混淆，导致错误的结论。",
+    "original_question": "喷雾降温系统对不同营养水平的猪生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "湿球温度对牛体温升高的影响几乎为干球温度的三倍，对猪的影响为湿球温度的一倍，对鸡的影响为湿球温度的两倍。",
+    "reference_case": "湿球温度对牛体温升高的影响几乎为干球温度的两倍，对猪的影响为湿球温度的两倍，对鸡的影响为湿球温度的三倍。",
+    "error_detail": "数值比例被错误地调整，导致对影响程度的误解。",
+    "original_question": "喷雾降温系统对不同动物的热应激缓解效果有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "不，持续喷雾和每隔一定时间喷水都不能提高猪的增重率，喷水的效果也不优于喷雾。",
+    "reference_case": "是的，持续喷雾和每隔一定时间喷水都能提高猪的增重率，但喷水的效果优于喷雾。",
+    "error_detail": "因果关系被完全颠倒，导致错误的结论。",
+    "original_question": "猪在高温季节喷水是否能提高生产性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "喷水对猪的饲料消耗量和饲料利用率有显著差异。",
+    "reference_case": "喷水对猪的饲料消耗量和饲料利用率没有显著差异。",
+    "error_detail": "错误地声称存在显著差异，与事实不符。",
+    "original_question": "猪在高温季节喷水对饲料消耗量和饲料利用率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "喷雾的增重显著大于喷水，喷水又显著大于对照。",
+    "reference_case": "喷水的增重显著大于喷雾，喷雾又显著大于对照。",
+    "error_detail": "喷雾和喷水的效果被错误地反转。",
+    "original_question": "喷雾和喷水对肥育猪的日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "喷雾的饲料/增重比较低，喷水的次之，对照组最高。",
+    "reference_case": "喷水的饲料/增重比较低，喷雾的次之，对照组最高。",
+    "error_detail": "喷雾和喷水的效果被错误地反转。",
+    "original_question": "喷雾和喷水对肥育猪的饲料/增重比有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "喷雾的母猪，其仔猪的成活率较高，喷水和喷雾分别为86.3%和80.7%。",
+    "reference_case": "喷水的母猪，其仔猪的成活率较高，喷雾和喷水分别为80.7%和86.3%。",
+    "error_detail": "喷雾和喷水的成活率被错误地反转。",
+    "original_question": "喷水和喷雾对带仔母猪的仔猪成活率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在凉棚下装喷雾器能维持夏季公猪的良好授精力。",
+    "reference_case": "在凉棚下装喷水器能维持夏季公猪的良好授精力。",
+    "error_detail": "喷水器和喷雾器的概念被混淆。",
+    "original_question": "喷水和喷雾对公猪的授精力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "有喷水器的公猪呼吸率显著高于无喷水器的公猪。",
+    "reference_case": "有喷水器的公猪呼吸率显著低于无喷水器的公猪。",
+    "error_detail": "因果关系被完全颠倒。",
+    "original_question": "喷水和喷雾对公猪的呼吸率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "喷水对猪防暑效果远优于空调。",
+    "reference_case": "喷水对猪防暑效果不甚亚于空调。",
+    "error_detail": "效果比较被夸大，导致误解。",
+    "original_question": "喷水和喷雾对猪的防暑效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "水浴不能减轻热应激，对猪的增重率和饲料利用率没有影响。",
+    "reference_case": "水浴能显著减轻热应激，提高猪的增重率和饲料利用率。",
+    "error_detail": "因果关系被完全颠倒。",
+    "original_question": "猪在水浴时能获得哪些好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "水湿地面在气温升抵38°C时，才会使猪遭受与干燥地面气温为46.1°C时同样的痛苦。",
+    "reference_case": "水湿地面在气温升抵46.1°C时，才会使猪遭受与干燥地面气温为38°C时同样的痛苦。",
+    "error_detail": "温度数值被错误地反转。",
+    "original_question": "水浴对猪体温有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "滚浴和喷雾都不能提高猪的生产性能，对体温和呼吸率没有影响。",
+    "reference_case": "滚浴和喷雾都能显著提高猪的生产性能，降低体温和呼吸率。",
+    "error_detail": "效果被完全否定，与事实不符。",
+    "original_question": "滚浴和喷雾对猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "滚浴和喷雾都能降低猪的体温并减少呼吸率。喷雾效果更持久，能维持1小时，而滚浴只能维持15分钟。",
+    "reference_case": "滚浴和喷雾都能降低猪的体温并减少呼吸率。滚浴效果更持久，能维持1小时，而喷雾只能维持15分钟。",
+    "error_detail": "滚浴和喷雾的效果持续时间被错误地反转。",
+    "original_question": "滚浴和喷雾对猪的散热效果有什么不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪皮肤上的泥浆能缩短蒸发散热时间，每小时蒸发率可达400-450克/平方米，且只能维持30分钟，之后蒸发率下降。",
+    "reference_case": "猪皮肤上的泥浆能延长蒸发散热时间，每小时蒸发率可达800-850克/平方米，且能维持1小时，之后蒸发率下降。",
+    "error_detail": "蒸发率和持续时间被错误地减少。",
+    "original_question": "猪皮肤上的泥浆如何影响散热？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "在高温和高湿条件下，加强通风的效果非常显著，特别是对汗腺机能不发达的猪和无汗腺及羽毛很密的动物如鸡。",
+    "reference_case": "在高温和高湿条件下，加强通风的效果并不十分显著，特别是对汗腺机能不发达的猪和无汗腺及羽毛很密的动物如鸡。",
+    "error_detail": "效果被错误地夸大，与事实不符。",
+    "original_question": "在高温和高湿条件下，加强通风的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "碘化酪蛋白在炎热夏季对乳牛没有作用，不会提高产乳量，也不会增加产热量，体重也不会下降，且不会引起母猪烦躁不安及伤害仔猪的不良反应。",
+    "reference_case": "可以显著提高产乳量，增加产热量，但体重显著下降，且易引起母猪烦躁不安及伤害仔猪的不良反应。",
+    "error_detail": "效果被完全否定，与事实不符。",
+    "original_question": "碘化酪蛋白在炎热夏季对乳牛有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪没有消化系统、呼吸系统等生物学特性。",
+    "reference_case": "猪有消化系统、呼吸系统等生物学特性。",
+    "error_detail": "基本生物学特性被错误地否定。",
+    "original_question": "猪的生物学特性有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪不具有觅食、争斗、繁殖等行为学特点。",
+    "reference_case": "猪具有觅食、争斗、繁殖等行为学特点。",
+    "error_detail": "基本行为学特点被错误地否定。",
+    "original_question": "猪的行为学特点是什么？",
+    "original_input": ""
+  }
+]

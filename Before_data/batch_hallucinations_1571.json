@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪的性成熟期在3个月（长白猪）。",
+    "reference_case": "公猪的性成熟期在6个月（长白猪）。",
+    "error_detail": "数值偏差",
+    "original_question": "公猪的性成熟期是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪配种最早月龄为6月龄。",
+    "reference_case": "公猪配种最早月龄为8月龄。",
+    "error_detail": "数值偏差",
+    "original_question": "公猪配种最早月龄是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪发情持续期为1至2天。",
+    "reference_case": "猪发情持续期为2至3天。",
+    "error_detail": "数值偏差",
+    "original_question": "猪发情持续期多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪年产仔胎数为3.0至3.5胎。",
+    "reference_case": "母猪年产仔胎数为2.0至2.5胎。",
+    "error_detail": "数值偏差",
+    "original_question": "母猪年产仔胎数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪每次射精量为100至200毫升，含0.5亿至1亿精子。",
+    "reference_case": "公猪每次射精量为200至400毫升，含1亿至2亿精子。",
+    "error_detail": "数值偏差",
+    "original_question": "公猪每次射精量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪精子活力（10级制）为0.3。",
+    "reference_case": "公猪精子活力（10级制）为0.6。",
+    "error_detail": "数值偏差",
+    "original_question": "公猪精子活力（10级制）是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪精液中反常精子百分率为20至25%。",
+    "reference_case": "公猪精液中反常精子百分率为14至18%。",
+    "error_detail": "数值偏差",
+    "original_question": "公猪精液中反常精子百分率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪精液中未成热精子百分率为15%。",
+    "reference_case": "公猪精液中未成热精子百分率为10%。",
+    "error_detail": "数值偏差",
+    "original_question": "公猪精液中未成热精子百分率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "当病情紧急需要立即处理时，应优先治疗病因；当病情较缓可以逐步治疗时，应治疗症状。",
+    "reference_case": "当病情紧急需要立即处理时，应优先治疗症状；当病情较缓可以逐步治疗时，应从根本上治疗病因。例如，仔猪黄白痢时，应先处理腹泻和衰竭，再治本；猪体温超过40°C时，应先采取解热措施，再进行抗感染治疗。",
+    "error_detail": "指令偏离",
+    "original_question": "在猪病治疗中，“急则治其标，缓则治其本”的原则具体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "王今达等人根据中药解毒清热方药对抗内毒素的作用，提出了在救治感染性多脏器功能衰竭时采用“菌毒并治”的新主张，即使用抗生素抑菌杀菌，配合中药制剂拮抗内毒素，同时建议增加维生素C的补充。",
+    "reference_case": "王今达等人根据中药解毒清热方药对抗内毒素的作用，提出了在救治感染性多脏器功能衰竭时采用“菌毒并治”的新主张，即使用抗生素抑菌杀菌，配合中药制剂拮抗内毒素。",
+    "error_detail": "添加假设",
+    "original_question": "猪病治疗中的“菌毒并治”新主张是如何提出的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "猪在断奶、去势、运输、捕捉、换料或天气突变等情况下容易产生应激，应优先实施免疫注射。",
+    "reference_case": "猪在断奶、去势、运输、捕捉、换料或天气突变等情况下容易产生应激，不利于抗体产生，不宜实施免疫注射。",
+    "error_detail": "误解上下文",
+    "original_question": "为什么猪在某些情况下不宜实施免疫注射？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "根据猪的年龄选择不同规格的针头，哺乳仔猪使用16×38毫米的针头，种猪使用0.9×12毫米的针头。",
+    "reference_case": "根据猪的年龄选择不同规格的针头，哺乳仔猪使用0.9×12毫米的针头，保育猪使用12×25毫米的针头，肥育猪使用12×38毫米的针头，种猪使用16×38毫米的针头。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "疫苗接种时，如何选择合适的注射器和针头？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "包括口蹄疫、猪瘟、高致病性猪蓝耳病、猪伪狂犬病、猪流行性乙型脑炎、猪细小病毒病、猪传染性胃肠炎、猪流行性腹泻、猪肺疫、猪丹毒、猪链球菌病、猪大肠杆菌病、仔猪副伤寒、猪喘气病、猪传染性萎缩性鼻炎和猪传染性胸膜肺炎等，但不包括猪流感。",
+    "reference_case": "包括口蹄疫、猪瘟、高致病性猪蓝耳病、猪伪狂犬病、猪流行性乙型脑炎、猪细小病毒病、猪传染性胃肠炎、猪流行性腹泻、猪肺疫、猪丹毒、猪链球菌病、猪大肠杆菌病、仔猪副伤寒、猪喘气病、猪传染性萎缩性鼻炎和猪传染性胸膜肺炎等。",
+    "error_detail": "指令偏离",
+    "original_question": "猪病免疫推荐方案中包括哪些免疫病种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "驱除胃肠道线虫时，可选清晨饲喂前给药，并在投药后或同时应用盐类泻药，以促进麻痹虫体或残留的驱虫药排出体外。群体用药, 计算好用药量, 将药研碎, 均匀拌入料中。用药后，猪会排出含有虫体和虫卵的粪便，可造成严重污染。因此，使用驱虫药期间，猪粪应及时清理，并集中堆积发酵或焚烧处理，同时建议增加猪的饮水量。",
+    "reference_case": "驱除胃肠道线虫时，可选清晨饲喂前给药，并在投药后或同时应用盐类泻药，以促进麻痹虫体或残留的驱虫药排出体外。群体用药, 计算好用药量, 将药研碎, 均匀拌入料中。用药后，猪会排出含有虫体和虫卵的粪便，可造成严重污染。因此，使用驱虫药期间，猪粪应及时清理，并集中堆积发酵或焚烧处理。",
+    "error_detail": "添加假设",
+    "original_question": "猪驱虫时应注意哪些事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "胃蛋白酶用于治疗仔猪因胃蛋白酶缺乏引起的消化不良，在用药前先将稀盐酸加水稀释，再加入胃蛋白酶片，于饲喂后灌服，可与碱性药物配合使用。",
+    "reference_case": "胃蛋白酶用于治疗仔猪因胃蛋白酶缺乏引起的消化不良，在用药前先将稀盐酸加水稀释，再加入胃蛋白酶片，于饲喂前灌服，忌与碱性药物配合使用。",
+    "error_detail": "指令偏离",
+    "original_question": "胃蛋白酶在仔猪消化不良时如何使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "干酵母富含蛋白质、B族维生素及多种酶，用于治疗猪的食欲不振、消化不良和B族维生素缺乏症，同时建议增加维生素C的补充。",
+    "reference_case": "干酵母富含蛋白质、B族维生素及多种酶，用于治疗猪的食欲不振、消化不良和B族维生素缺乏症。",
+    "error_detail": "添加假设",
+    "original_question": "干酵母的主要成分及其作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "猪体内维生素的主要来源是饲料，猪大肠内的微生物也能合成多种维生素，且容易被宿主利用。",
+    "reference_case": "猪体内维生素的主要来源是饲料，猪大肠内的微生物也能合成多种维生素，但多半不易被宿主利用。",
+    "error_detail": "误解上下文",
+    "original_question": "猪体内维生素的来源有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "黄芩、黄连、黄柏和桅子配伍组成黄连解毒汤，适用于治疗猪丹毒、急性肠炎、菌痢及猪温热性疾病，但不适用于猪流感。",
+    "reference_case": "黄芩、黄连、黄柏和桅子配伍组成黄连解毒汤，适用于治疗猪丹毒、急性肠炎、菌痢及猪温热性疾病。",
+    "error_detail": "指令偏离",
+    "original_question": "黄芩、黄连、黄柏和桅子配伍组成黄连解毒汤，适用于治疗哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "麦芽与谷芽配伍拌料喂猪，可以治疗僵猪，同时建议增加维生素C的补充。",
+    "reference_case": "麦芽与谷芽配伍拌料喂猪，可以治疗僵猪。",
+    "error_detail": "添加假设",
+    "original_question": "麦芽与谷芽配伍拌料喂猪，可以治疗什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "常山与柴胡与盐霉素合用可提高治疗猪球虫病的效果，但不适用于猪流感。",
+    "reference_case": "常山与柴胡与盐霉素合用可提高治疗猪球虫病的效果。",
+    "error_detail": "指令偏离",
+    "original_question": "哪些中药与常山、柴胡合用可提高治疗效果？",
+    "original_input": ""
+  }
+]

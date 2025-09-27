@@ -1,0 +1,164 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪黄痢的潜伏期短的6小时，长的5天。",
+    "reference_case": "仔猪黄痢的潜伏期短的12小时，长的1～3天。",
+    "error_detail": "潜伏期的时间数据被错误地修改。",
+    "original_question": "仔猪黄痢的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪白痢的病原菌血清型以O9：K88较常见。",
+    "reference_case": "仔猪白痢的病原菌血清型一部分与仔猪黄痢和猪水肿病相同，以O8：K88较常见，有些地区K99血清型较多。",
+    "error_detail": "血清型被错误地修改为O9：K88。",
+    "original_question": "仔猪白痢的病原菌有哪些血清型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪水肿病的临床症状包括突然发病，精神沉郁，食欲减少或废绝，心跳加速，呼吸初期浅而快，后来慢而深。病猪行走四肢无力，共济失调，步态摇摆不稳，有时做圆圈运动。静卧时表现肌肉震颤，不时抽搐，四肢做游泳状，触摸时敏感发呻吟或鸣叫。体温明显升高。",
+    "reference_case": "猪水肿病的临床症状包括突然发病，精神沉郁，食欲减少或废绝，心跳加速，呼吸初期浅而快，后来慢而深。病猪行走四肢无力，共济失调，步态摇摆不稳，有时做圆圈运动。静卧时表现肌肉震颤，不时抽搐，四肢做游泳状，触摸时敏感发呻吟或鸣叫。体温变化不大。",
+    "error_detail": "体温的描述被错误地修改为明显升高。",
+    "original_question": "猪水肿病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "种公猪可能表现出睾丸变硬，输精管出血，阴茎水肿、出血或坏死；有的腹股沟淋巴结肿大。",
+    "reference_case": "种公猪可能表现出宰丸变硬，输精管出血，阴茎水肿、出血或坏死；有的腹股沟淋巴结肿大。",
+    "error_detail": "宰丸被错误地修改为睾丸。",
+    "original_question": "患病种公猪可能表现出哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪衣原体感染的实验室诊断方法包括触片染色、病原分离、血清学检测、PCR检测、鉴别诊断和基因测序。",
+    "reference_case": "猪衣原体感染的实验室诊断方法包括触片染色、病原分离、血清学检测、PCR检测、鉴别诊断。",
+    "error_detail": "添加了未提及的基因测序方法。",
+    "original_question": "猪衣原体感染的实验室诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "将疑似衣原体感染的发病猪新鲜样品经研磨、链霉素和庆大霉素处理、离心收集上清、微孔滤膜滤过除菌后，接种7日龄发育良好的SPF鸡胚，接种部位是卵黄囊（0.5mL），蜡封后置37~38.5℃温箱中孵育。",
+    "reference_case": "将疑似衣原体感染的发病猪新鲜样品经研磨、链霉素和庆大霉素处理、离心收集上清、微孔滤膜滤过除菌后，接种7日龄发育良好的SPF鸡胚，接种部位是卵黄囊（0.4mL），蜡封后置37~38.5℃温箱中孵育。",
+    "error_detail": "接种量被错误地修改为0.5mL。",
+    "original_question": "病原分离中鸡肧接种法的具体步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪衣原体感染的治疗药物包括四环素、强力霉素、青霉素、氯霉素、麦迪霉素、金霉素、泰乐菌素、螺旋霉素、土霉素、红霉素和链霉素。",
+    "reference_case": "猪衣原体感染的治疗药物包括四环素、强力霉素、青霉素、氯霉素、麦迪霉素、金霉素、泰乐菌素、螺旋霉素、土霉素、红霉素等。",
+    "error_detail": "添加了未提及的链霉素。",
+    "original_question": "猪衣原体感染的治疗药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "预防猪衣原体感染的措施包括加强引种检疫，强化猪场生物安全措施，免疫预防和定期消毒。",
+    "reference_case": "预防猪衣原体感染的措施包括加强引种检疫，强化猪场生物安全措施，免疫预防。",
+    "error_detail": "添加了未提及的定期消毒。",
+    "original_question": "预防猪衣原体感染的措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪旋毛虫病是由旋毛形线虫寄生于猪的肠道而引起的一种线虫病。",
+    "reference_case": "猪旋毛虫病是由旋毛形线虫寄生于猪的横纹肌而引起的一种线虫病。",
+    "error_detail": "寄生的部位被错误地修改为肠道。",
+    "original_question": "猪旋毛虫病是由什么寄生虫引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪肺线虫病主要表现为阵发性咳嗽、呼吸困难、气喘、鼻流浓黄色黏液、食欲减退、体重减轻，严重时出现呕吐、皮肤苍白、贫血、四肢无力等症状和发热。",
+    "reference_case": "猪肺线虫病主要表现为阵发性咳嗽、呼吸困难、气喘、鼻流浓黄色黏液、食欲减退、体重减轻，严重时出现呕吐、皮肤苍白、贫血、四肢无力等症状。",
+    "error_detail": "添加了未提及的发热症状。",
+    "original_question": "猪肺线虫病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肺线虫病的病原是前圆属的线虫。",
+    "reference_case": "猪肺线虫病的病原是后圆属的线虫，包括野猪后圆线虫、复阴后圆线虫和萨氏后圆线虫。",
+    "error_detail": "病原的属名被错误地修改为前圆属。",
+    "original_question": "猪肺线虫病的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "防治措施包括用吡喹酮或丙硫苯咪唑等药物进行治疗，以及采取预防措施如定期驱虫、科学饲养管理、不喂被狗粪污染的饲料和饮水等和加强环境卫生。",
+    "reference_case": "防治措施包括用吡喹酮或丙硫苯咪唑等药物进行治疗，以及采取预防措施如定期驱虫、科学饲养管理、不喂被狗粪污染的饲料和饮水等。",
+    "error_detail": "添加了未提及的加强环境卫生。",
+    "original_question": "如何防治猪肺线虫病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪棘球蚴病的主要症状包括长期慢性呼吸困难、微弱咳嗽、消化机能下降、生长发育受阻、体重减轻、肝脏和肺部出现虫体囊泡和心脏功能异常。",
+    "reference_case": "猪棘球蚴病的主要症状包括长期慢性呼吸困难、微弱咳嗽、消化机能下降、生长发育受阻、体重减轻、肝脏和肺部出现虫体囊泡。",
+    "error_detail": "添加了未提及的心脏功能异常。",
+    "original_question": "猪棘球蚴病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "中间宿主包括羊、猪、牛、鹿和鸡。",
+    "reference_case": "中间宿主包括羊、猪、牛、鹿等。",
+    "error_detail": "添加了未提及的鸡。",
+    "original_question": "棘球蚴病的中间宿主有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "常用的药物包括左咪唑（按每千克体重10 mg喂服或肌注）、甲苯咪唑（按每千克体重10-20 mg混饲）、氟苯咪唑（按每千克体重30 mg混饲5天或一次性口服5 g）和硫苯咪唑（按每千克体重3 mg连用3天）和伊维菌素。",
+    "reference_case": "常用的药物包括左咪唑（按每千克体重10 mg喂服或肌注）、甲苯咪唑（按每千克体重10-20 mg混饲）、氟苯咪唑（按每千克体重30 mg混饲5天或一次性口服5 g）和硫苯咪唑（按每千克体重3 mg连用3天）。",
+    "error_detail": "添加了未提及的伊维菌素。",
+    "original_question": "猪棘球蚴病如何治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪棘头虫的终末宿主是猪和狗。",
+    "reference_case": "猪棘头虫的终末宿主是猪。",
+    "error_detail": "添加了未提及的狗。",
+    "original_question": "猪棘头虫的终末宿主是哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪棘头虫的中间宿主包括金花龟属的金龟子、鳃角金龟属的金龟子（普通鳃角金龟子、鳃角金龟子）及其他甲虫和蜈蚣。",
+    "reference_case": "猪棘头虫的中间宿主包括金花龟属的金龟子、鳃角金龟属的金龟子（普通鳃角金龟子、鳃角金龟子）及其他甲虫。",
+    "error_detail": "添加了未提及的蜈蚣。",
+    "original_question": "猪棘头虫的中间宿主有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪吞食了含有棘头囊的甲虫成虫、蛹或其幼虫时，棘头囊在猪的消化道中脱囊，以吻突固着于肠壁上，经1~2个月发育为成虫，成虫在猪体内可以寄生10~24个月。",
+    "reference_case": "猪吞食了含有棘头囊的甲虫成虫、蛹或其幼虫时，棘头囊在猪的消化道中脱囊，以吻突固着于肠壁上，经3~4个月发育为成虫，成虫在猪体内可以寄生10~24个月。",
+    "error_detail": "发育时间被错误地修改为1~2个月。",
+    "original_question": "猪感染棘头虫后，虫体发育过程是怎样的？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉用野母猪野猪血统含量低于25%，应选择纯种野猪作种猪；高于60%，一般选择杂交后代作种公野猪，野猪血统含量不应低于75%。",
+    "reference_case": "肉用野母猪野猪血统含量低于37.5%，应选择纯种野猪作种猪；高于50%，一般选择杂交后代作种公野猪，野猪血统含量不应低于62.5%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "选择肉用野母猪作为种母猪的野猪血统含量标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "杂种野猪后代体形细长矮小，产肉率低，饲料转化率低，外形、毛色与纯种野猪不同，生长速度慢，不受市场欢迎。",
+    "reference_case": "杂种野猪后代体形粗壮高大，产肉率高，饲料转化率高，外形、毛色与纯种野猪相似，生长速度快，受市场欢迎。",
+    "error_detail": "术语错误",
+    "original_question": "杂种野猪的后代具有哪些优点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "主要原因包括仔野猪体质强健、行动灵活；母野猪产后精力充沛或无病、瘦弱等导致起卧不便；产房环境优良，如温度高、仔猪有保温设备等。",
+    "reference_case": "主要原因包括仔野猪体质较弱、行动不灵活；母野猪产后疲劳或有病、肥胖等导致起卧不便；产房环境不良，如温度低、仔猪无保温设备等。",
+    "error_detail": "因果错误",
+    "original_question": "出生后一周内压死仔野猪的主要原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "不可设置防压架或母猪限位架，限制母野猪的躺卧方式，使仔野猪无逃避机会；也不可使用高床母猪分娩栏。",
+    "reference_case": "可设置防压架或母猪限位架，限制母野猪的躺卧方式，使仔野猪有逃避机会；也可使用高床母猪分娩栏。",
+    "error_detail": "需求冲突",
+    "original_question": "如何通过防压设备减少母野猪压死仔野猪的情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "防止突然的响动，避免闲杂人员进入，固定好乳头，防止因仔野猪抢乳头造成母野猪烦躁不安，并且需要定期播放音乐以保持环境安静。",
+    "reference_case": "防止突然的响动，避免闲杂人员进入，固定好乳头，防止因仔野猪抢乳头造成母野猪烦躁不安。",
+    "error_detail": "添加假设",
+    "original_question": "保持产房环境安静可以采取哪些措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "保持母野猪良好的泌乳性能，及时哺乳，定时捉回仔野猪放在保温箱中，待行动灵活后再放回母猪圈，这种方法已经不再推荐使用。",
+    "reference_case": "保持母野猪良好的泌乳性能，及时哺乳，定时捉回仔野猪放在保温箱中，待行动灵活后再放回母猪圈。",
+    "error_detail": "过时标准",
+    "original_question": "加强饲养管理对提高仔猪成活率有何帮助？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "寄养和并窝的仔野猪出生日龄要远离，不让仔野猪吃到生母的初乳，选择性情暴躁、泌乳量差的母野猪，最好在白天进行。",
+    "reference_case": "寄养和并窝的仔野猪出生日龄要接近，让仔野猪吃到生母的初乳，选择性情温顺、泌乳量好的母野猪，最好在夜间进行。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "寄养和并窝时应注意哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "初生仔野猪体内储备的铁充足，母野猪奶中含铁量高，如果不补铁，其体内储存的铁将在一个月内耗完，导致贫血症。",
+    "reference_case": "初生仔野猪体内储备的铁不足，母野猪奶中含铁量低，如果不补铁，其体内储存的铁将在一周内耗完，导致贫血症。",
+    "error_detail": "术语错误",
+    "original_question": "初生仔野猪需要补铁的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "常用的补铁方法是肌内注射铁针剂，如牲血素、血多素、右旋酶注射液等，通常在仔猪1-2日龄注射100-150毫克。",
+    "reference_case": "常用的补铁方法是肌内注射铁针剂，如牲血素、血多素、右旋酶注射液等，通常在仔猪3-4日龄注射150-200毫克。",
+    "error_detail": "数值比例偏差",
+    "original_question": "补铁通常采用哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "硒是仔野猪生长发育不可缺少的微量元素，所有地区都需要给仔野猪补硒。",
+    "reference_case": "硒是仔野猪生长发育不可缺少的微量元素，缺硒地区需要给仔野猪补硒。",
+    "error_detail": "地域差异",
+    "original_question": "仔野猪补硒的必要性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "因为仔野猪生长速度慢，代谢不旺盛，不需要及时补水，可以饮用脏水和尿液不会造成下痢。",
+    "reference_case": "因为仔野猪生长速度快，代谢旺盛，需要及时补水，防止饮用脏水和尿液造成下痢。",
+    "error_detail": "过时标准",
+    "original_question": "为何需要在仔野猪3-5日龄开始训练其饮水？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "只有分泌胆汁后，仔野猪才能消化吸收植物性饲料，促进胃肠蠕动，防止下痢。",
+    "reference_case": "只有分泌盐酸后，仔野猪才能消化吸收植物性饲料，促进胃肠蠕动，防止下痢。",
+    "error_detail": "术语错误",
+    "original_question": "仔野猪什么时候开始有消化植物性饲料的能力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "开始换牙，牙床不发痒，不啃咬硬物消解牙痒，对闻、拱、咬不进行探究，没有模仿性。",
+    "reference_case": "开始换牙，牙床发痒，啃咬硬物消解牙痒，对闻、拱、咬进行探究，有很强的模仿性。",
+    "error_detail": "术语错误",
+    "original_question": "诱食期的仔野猪会表现出哪些行为？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "出生后5~10天，仔野猪易患白痢病。",
+    "reference_case": "出生后15~25天，仔野猪易患白痢病。",
+    "error_detail": "数值比例偏差",
+    "original_question": "仔野猪在哪个阶段容易患白痢病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "健康猪的尾巴会下垂不动。",
+    "reference_case": "健康猪的尾巴会卷起或左右摆动不停。",
+    "error_detail": "术语错误",
+    "original_question": "健康猪的尾巴表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病态猪的尾巴会卷起或左右摆动不停。",
+    "reference_case": "病态猪的尾巴会下垂不动。",
+    "error_detail": "术语错误",
+    "original_question": "病态猪的尾巴表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "健康猪采用胸式呼吸且呼吸不均匀。",
+    "reference_case": "健康猪采用胸腹式呼吸且呼吸均匀。",
+    "error_detail": "术语错误",
+    "original_question": "猪的正常呼吸方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪在这些疾病时呼吸会减慢或出现呼吸顺畅。",
+    "reference_case": "猪在这些疾病时呼吸会加快或出现呼吸困难。",
+    "error_detail": "术语错误",
+    "original_question": "猪感冒、发热、中毒、传染病等疾病时，呼吸会有什么异常表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过观察猪的尾巴是否下垂不动，若尾巴卷起或左右摆动则为病态。",
+    "reference_case": "通过观察猪的尾巴是否卷起或左右摆动，若尾巴下垂不动则为病态。",
+    "error_detail": "术语错误",
+    "original_question": "如何通过观察猪的尾巴来初步判断其是否患病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "这些疾病常常不出现神经症状。",
+    "reference_case": "这些疾病常常出现神经症状。",
+    "error_detail": "术语错误",
+    "original_question": "猪瘟、猪伪狂犬病、乙型脑炎、猪水肿病、狂犬病、猪传染性脑脊髓炎、猪链球菌病、李氏杆菌病等疾病的共同临床症状是什么？",
+    "original_input": ""
+  }
+]

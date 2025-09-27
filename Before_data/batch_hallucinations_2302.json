@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备种母猪及公猪在5~6月龄或配种前2~3周注射2次（间隔14日），每次深部肌肉注射1.5 mL；经产母猪和成年公猪每年注射1次，每次深部肌肉注射1.5 mL。",
+    "reference_case": "后备种母猪及公猪在6~7月龄或配种前3~4周注射2次（间隔21日），每次深部肌肉注射2.0 mL；经产母猪和成年公猪每年注射1次，每次深部肌肉注射2.0 mL。",
+    "error_detail": "数值和间隔时间被错误地减少，导致免疫程序不准确。",
+    "original_question": "猪细小病毒灭活疫苗的推荐免疫程序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "耳根前部肌肉注射，体重20 kg以下仔猪每头1.5 mL，20 kg以上每头2.5 mL。",
+    "reference_case": "耳根后部肌肉注射，体重20 kg以下仔猪每头2.0 mL，20 kg以上每头3.0 mL。",
+    "error_detail": "注射部位和剂量被错误地更改，可能导致免疫效果不佳。",
+    "original_question": "猪胸膜肺炎放线杆菌三价灭活疫苗的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "种猪于5~6月份（配种前）或蚊虫出现前15～20日接种疫苗2次（间隔7~10日）；经产母猪及成年公猪每年注射1次，每次1.5 mL。",
+    "reference_case": "种猪于6~7月份（配种前）或蚊虫出现前20～30日接种疫苗2次（间隔10~15日）；经产母猪及成年公猪每年注射1次，每次2.0 mL。",
+    "error_detail": "接种时间和间隔被错误地提前和缩短，不符合当前推荐标准。",
+    "original_question": "猪乙型脑炎灭活疫苗的推荐免疫程序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "颈部皮下注射，每头1.5 mL。",
+    "reference_case": "耳根部皮下注射，每头2.0 mL。",
+    "error_detail": "注射部位和剂量被错误地更改，可能因地域差异导致免疫效果不同。",
+    "original_question": "猪鹦鹉热衣原体病灭活疫苗的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "分别于母猪分娩前10~15天和35~40天各接种1次，每次1头份（2.0 mL）。",
+    "reference_case": "分别于母猪分娩前35~40天和10~15天各接种1次，每次1头份（2.0 mL）。",
+    "error_detail": "接种顺序被错误地颠倒，可能导致免疫效果不佳。",
+    "original_question": "仔猪产气荚膜梭菌二价灭活疫苗（A、C型）的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "耳根部皮下注射，母猪在临产前14天左右注射1次即可。",
+    "reference_case": "耳根部皮下注射，母猪在临产前21天左右注射1次即可。",
+    "error_detail": "接种时间被错误地提前，不符合指令要求。",
+    "original_question": "仔猪大肠杆菌病 K88、K99 双价基因工程灭活疫苗的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肌肉注射，妊娠母猪在产前30天和10天各接种1次，每次4.0 mL。",
+    "reference_case": "肌肉注射，妊娠母猪在产前40天和15天各接种1次，每次5.0 mL。",
+    "error_detail": "接种时间和剂量被错误地更改，可能导致免疫效果不佳。",
+    "original_question": "仔猪大肠杆菌病三价灭活疫苗的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "皮下注射，母猪在分娩前20天和10天各接种1次，每次4.0~8.0 mL。",
+    "reference_case": "肌肉注射，母猪在分娩前30天和15天各接种1次，每次5.0~10.0 mL。",
+    "error_detail": "注射方式和剂量被错误地更改，可能导致免疫效果不佳。",
+    "original_question": "仔猪红痢灭活疫苗的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "耳根部深层肌肉注射，14~18日龄仔猪每头1.5 mL。",
+    "reference_case": "颈部深层肌肉注射，14~18日龄仔猪每头2.0 mL。",
+    "error_detail": "注射部位和剂量被错误地更改，可能因地域差异导致免疫效果不同。",
+    "original_question": "仔猪水肿病灭活疫苗的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "耳根前部肌肉注射，仔猪断奶前后首次免疫，3个月后加强免疫1次；母猪配种前免疫1次，免疫剂量为2头份。",
+    "reference_case": "耳根后部肌肉注射，仔猪断奶前后首次免疫，4个月后加强免疫1次；母猪配种前免疫1次，免疫剂量为1头份。",
+    "error_detail": "注射部位、免疫时间和剂量被错误地更改，不符合指令要求。",
+    "original_question": "高致病性猪繁殖与呼吸综合征活疫苗（JXAI-R株）的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "皮下注射或口服，每头皮下注射0.5 mL（含1头份）或口服2 mL（含1头份）。",
+    "reference_case": "皮下注射或口服，每头皮下注射1.0 mL（含1头份）或口服4 mL（含1头份）。",
+    "error_detail": "剂量被错误地减少，可能导致免疫效果不佳。",
+    "original_question": "猪败血性链球菌病活疫苗（ST171株）的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "后海穴位注射，对妊娠母猪，于产仔前15~25天时接种，每头1.0 mL；对产仔后5~7日龄仔猪接种，每头0.3 mL；体重25~50 kg育成猪每头0.8 mL；体重50 kg以上成猪每头1.0 mL。",
+    "reference_case": "后海穴位注射，对妊娠母猪，于产仔前20~30天时接种，每头1.5 mL；对产仔后7~10日龄仔猪接种，每头0.5 mL；体重25~50 kg育成猪每头1.0 mL；体重50 kg以上成猪每头1.5 mL。",
+    "error_detail": "接种时间和剂量被错误地更改，可能导致免疫效果不佳。",
+    "original_question": "猪传染性胃肠炎、流行性腹泻二联活疫苗的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "皮下注射，每头0.5 mL，GC42株用于口服剂量不变。",
+    "reference_case": "皮下注射，每头1.0 mL，GC42株用于口服剂量加倍。",
+    "error_detail": "剂量被错误地减少，可能导致免疫效果不佳。",
+    "original_question": "猪丹毒活疫苗的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "肌肉或皮下注射，每头断奶后接种0.5 mL（含1头份）。",
+    "reference_case": "肌肉或皮下注射，每头断奶后接种1.0 mL（含1头份）。",
+    "error_detail": "剂量被错误地减少，不符合当前推荐标准。",
+    "original_question": "猪多杀性巴氏杆菌病活疫苗（679-230株）的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肌肉或皮下注射，每头接种0.5 mL（含1头份）。",
+    "reference_case": "肌肉或皮下注射，每头接种1.0 mL（含1头份）。",
+    "error_detail": "剂量被错误地减少，可能导致免疫效果不佳。",
+    "original_question": "猪多杀性巴氏杆菌病活疫苗(C20株)的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "肌肉或皮下注射，每头接种0.5 mL（含1头份）。",
+    "reference_case": "肌肉或皮下注射，每头接种1.0 mL（含1头份）。",
+    "error_detail": "剂量被错误地减少，可能导致免疫效果不佳。",
+    "original_question": "猪多杀性巴氏杆菌病活疫苗（CA株）的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肌肉或皮下注射，每头接种0.5 mL。",
+    "reference_case": "肌肉或皮下注射，每头接种1.0 mL。",
+    "error_detail": "剂量被错误地减少，可能导致免疫效果不佳。",
+    "original_question": "猪多杀性巴氏杆菌病活疫苗(EO630株)的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "肌肉或皮下注射，每头接种0.5 mL（含1头份），每头接种0.5头份。",
+    "reference_case": "肌肉或皮下注射，每头接种1.0 mL（含1头份），每头接种1头份。",
+    "error_detail": "剂量和头份被错误地减少，可能导致免疫效果不佳。",
+    "original_question": "猪多杀性巴氏杆菌病活疫苗(TA53株)的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "肌肉注射或口服，口服：每头300亿CFU活菌，在怀孕母猪预产期前10~20天进行，将每头份疫苗与1.0%小苏打一起拌少量精饲料中喂空腹母猪；肌肉注射：每头50亿CFU活菌，在怀孕猪预产期前5~15天进行。",
+    "reference_case": "肌肉注射或口服，口服：每头500亿CFU活菌，在怀孕母猪预产期前15~25天进行，将每头份疫苗与2.0%小苏打一起拌少量精饲料中喂空腹母猪；肌肉注射：每头100亿CFU活菌，在怀孕猪预产期前10~20天进行。",
+    "error_detail": "剂量、时间和小苏打比例被错误地更改，不符合指令要求。",
+    "original_question": "仔猪大肠杆菌病K88、LTB双价基因工程活疫苗的接种方法和剂量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "弱酸性药物在猪、犬、猫胃液中主要以离子型形式存在，占绝大部分。",
+    "reference_case": "弱酸性药物在猪、犬、猫胃液中主要以非离子型形式存在，占绝大部分。",
+    "error_detail": "药物存在形式被错误地更改，可能导致药效理解错误。",
+    "original_question": "弱酸性药物在猪、犬、猫胃液中的存在形式如何？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高铜饲粮可提高猪肉中8种人体必需氨基酸总量和背最长肌的重量，例如提高30.04%。",
+    "reference_case": "高铜饲粮可提高猪肉中8种人体必需氨基酸总量和背最长肌的重量，例如提高13.04%。",
+    "error_detail": "数值偏差，将提高比例从13.04%错误地增加到30.04%。",
+    "original_question": "高铜饲粮如何影响猪肉质及胴体组成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "高剂量饲料铜（如225 mg/kg氯化铜）可显著降低猪粪臭味，柠檬酸铜在相同剂量下也有类似效果。",
+    "reference_case": "高剂量饲料铜（如225 mg/kg硫酸铜）可显著降低猪粪臭味，柠檬酸铜在相同剂量下也有类似效果。",
+    "error_detail": "术语错误，将硫酸铜错误地改为氯化铜。",
+    "original_question": "高剂量饲料铜对猪粪臭味有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "大多数研究表明，在不同生长发育时期，高铜饲粮都能显著提高猪的生长性能，但最新研究显示这一效果已不再显著。",
+    "reference_case": "大多数研究表明，在不同生长发育时期，高铜饲粮都能显著提高猪的生长性能。",
+    "error_detail": "时效性错误，添加了不存在的'最新研究'信息。",
+    "original_question": "不同生长发育时期，高铜饲粮的促生长效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "仔猪断奶体重对后期生产性能影响不大，断奶日龄对生产性能影响更大。",
+    "reference_case": "仔猪断奶体重对后期生产性能影响很大，且断奶体重比断奶日龄对生产性能影响更大。",
+    "error_detail": "指令偏离，错误地改变了断奶体重和断奶日龄对生产性能影响的相对重要性。",
+    "original_question": "仔猪断奶体重对后期生产性能的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "添加复合酶制剂提高了干物质、粗蛋白质和粗脂肪的消化率，腹泻频率和粪便中的菌数减少，这一效果在欧洲尤为显著。",
+    "reference_case": "添加复合酶制剂提高了干物质、粗蛋白质和粗脂肪的消化率，腹泻频率和粪便中的菌数减少。",
+    "error_detail": "空间错位，添加了不存在的'在欧洲尤为显著'的地域差异信息。",
+    "original_question": "添加复合酶制剂对仔猪营养物质的消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "添加酸化剂是因为仔猪胃酸分泌过多，需要中和。",
+    "reference_case": "添加酸化剂可以提高仔猪的消化能力，维持消化机能健康，尤其适用于胃酸分泌不足的仔猪。",
+    "error_detail": "因果倒置，错误地认为酸化剂用于中和过多胃酸。",
+    "original_question": "饲料中添加酸化剂的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "柠檬酸对仔猪采食和预防腹泻的效果最好，效果达到95%。",
+    "reference_case": "柠檬酸对仔猪采食和预防腹泻的效果最好。",
+    "error_detail": "数值偏差，添加了不存在的'效果达到95%'的数据。",
+    "original_question": "添加哪种酸化剂对仔猪采食和预防腹泻效果最好？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "仔猪采食颗粒饲料比粉料采食量提高，平均日增重也提高；而饲喂粥状料比固态料增重降低，且腹泻率增加。",
+    "reference_case": "仔猪采食颗粒饲料比粉料采食量提高，平均日增重也提高；而饲喂粥状料比固态料增重提高，且腹泻率降低。",
+    "error_detail": "逻辑矛盾，错误地改变了粥状料对增重和腹泻率的影响。",
+    "original_question": "仔猪采食哪种类型的饲料可以提高采食量和平均日增重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "直径为1.0mm的颗粒饲料仔猪消化率高于4.0-5.0mm的颗粒饲料。",
+    "reference_case": "直径为2.5mm的颗粒饲料仔猪消化率高于4.0-5.0mm的颗粒饲料。",
+    "error_detail": "数值偏差，错误地将直径从2.5mm改为1.0mm。",
+    "original_question": "颗粒饲料的粒度如何影响仔猪消化率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "膨化加工可以提高仔猪的日增重和饲料利用率，显著降低粪大肠杆菌数量，尤其是在使用特定膨化技术时。",
+    "reference_case": "膨化加工可以提高仔猪的日增重和饲料利用率，显著降低粪大肠杆菌数量。",
+    "error_detail": "假设滥用，添加了不存在的'使用特定膨化技术'的条件。",
+    "original_question": "膨化加工对仔猪的生长性能有何影响？",
+    "original_input": ""
+  }
+]

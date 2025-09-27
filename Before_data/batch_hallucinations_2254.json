@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对于20-90kg的猪，赖氨酸的需要量根据生长模型估计为0.8%，其他氨基酸的需要量根据与赖氨酸的比例（理想蛋白质）估计；而3-20kg的猪，赖氨酸的每日需要量通过表中的百分率乘以采食量的估测值为1.2%，其他氨基酸的需要量同样根据其与赖氨酸的比例（理想蛋白质）进行估计。",
+    "reference_case": "对于20-90kg的猪，赖氨酸的需要量根据生长模型估计，其他氨基酸的需要量根据与赖氨酸的比例（理想蛋白质）估计；而3-20kg的猪，赖氨酸的每日需要量通过表中的百分率乘以采食量的估测值，其他氨基酸的需要量同样根据其与赖氨酸的比例（理想蛋白质）进行估计。",
+    "error_detail": "错误地添加了具体的百分比数值，而原始输出中并未提供具体数值。",
+    "original_question": "不同体重范围的猪对氨基酸的需求量有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对于发育公猪和后备母猪，钙、总磷和有效磷的需要量应提高0.15~0.2个百分点。",
+    "reference_case": "对于发育公猪和后备母猪，钙、总磷和有效磷的需要量应提高0.05~0.1个百分点。",
+    "error_detail": "错误地提高了钙、总磷和有效磷的需要量的百分比范围。",
+    "original_question": "不同体重范围的猪对矿物质的需求量有何特殊考虑？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期配种体重范围是100~130 kg、130~160 kg和>160 kg；妊娠后期配种体重范围是100~130 kg、130~160 kg和>160 kg。",
+    "reference_case": "妊娠前期配种体重范围是120~150 kg、150~180 kg和>180 kg；妊娠后期配种体重范围是120~150 kg、150~180 kg和>180 kg。",
+    "error_detail": "错误地修改了妊娠前期和妊娠后期的配种体重范围。",
+    "original_question": "妊娠母猪妊娠前期和妊娠后期的配种体重范围分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "妊娠前期和妊娠后期预期的窝产仔数分别是10和12。",
+    "reference_case": "妊娠前期和妊娠后期预期的窝产仔数都是",
+    "error_detail": "错误地添加了具体的窝产仔数，而原始输出中并未提供具体数值。",
+    "original_question": "妊娠母猪妊娠前期和妊娠后期预期的窝产仔数分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期的每日采食量是2.00 kg/d、2.00 kg/d和1.90 kg/d；妊娠后期的每日采食量是2.50 kg/d、2.70 kg/d和2.90 kg/d。",
+    "reference_case": "妊娠前期的每日采食量是2.10 kg/d、2.10 kg/d和2.00 kg/d；妊娠后期的每日采食量是2.60 kg/d、2.80 kg/d和3.00 kg/d。",
+    "error_detail": "错误地修改了妊娠前期和妊娠后期的每日采食量。",
+    "original_question": "妊娠母猪妊娠前期和妊娠后期的每日采食量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期消化能含量DE是12.50 MJ/kg（3000 kcal/kg）、12.10 MJ/kg（2900 kcal/kg）和11.90 MJ/kg（2900 kcal/kg）；妊娠后期消化能含量DE是12.50 MJ/kg（3000 kcal/kg）、12.30 MJ/kg（2950 kcal/kg）和12.30 MJ/kg（2950 kcal/kg）。",
+    "reference_case": "妊娠前期消化能含量DE是12.75 MJ/kg（3050 kcal/kg）、12.35 MJ/kg（2950 kcal/kg）和12.15 MJ/kg（2950 kcal/kg）；妊娠后期消化能含量DE是12.75 MJ/kg（3050 kcal/kg）、12.55 MJ/kg（3000 kcal/kg）和12.55 MJ/kg（3000 kcal/kg）。",
+    "error_detail": "错误地修改了妊娠前期和妊娠后期的消化能含量DE。",
+    "original_question": "妊娠母猪妊娠期间消化能含量DE分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期代谢能含量ME是12.00 MJ/kg（2900 kcal/kg）、11.60 MJ/kg（2800 kcal/kg）和11.40 MJ/kg（2800 kcal/kg）；妊娠后期代谢能含量ME是12.00 MJ/kg（2900 kcal/kg）、11.80 MJ/kg（2850 kcal/kg）和11.80 MJ/kg（2850 kcal/kg）。",
+    "reference_case": "妊娠前期代谢能含量ME是12.25 MJ/kg（2930 kcal/kg）、11.85 MJ/kg（2830 kcal/kg）和11.65 MJ/kg（2830 kcal/kg）；妊娠后期代谢能含量ME是12.25 MJ/kg（2930 kcal/kg）、12.05 MJ/kg（2880 kcal/kg）和12.05 MJ/kg（2880 kcal/kg）。",
+    "error_detail": "错误地修改了妊娠前期和妊娠后期的代谢能含量ME。",
+    "original_question": "妊娠母猪妊娠期间代谢能含量ME分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期粗蛋白质CP含量是12.0%、11.0%和11.0%；妊娠后期粗蛋白质CP含量是13.0%、12.0%和11.0%。",
+    "reference_case": "妊娠前期粗蛋白质CP含量是13.0%、12.0%和12.0%；妊娠后期粗蛋白质CP含量是14.0%、13.0%和12.0%。",
+    "error_detail": "错误地修改了妊娠前期和妊娠后期的粗蛋白质CP含量。",
+    "original_question": "妊娠母猪妊娠期间粗蛋白质CP含量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期能量蛋白比DE/CP是950 MJ/%（227 kcal/%）、1000 MJ/%（239 kcal/%）和980 MJ/%（239 kcal/%）；妊娠后期能量蛋白比DE/CP是880 MJ/%（210 kcal/%）、930 MJ/%（222 kcal/%）和1010 MJ/%（242 kcal/%）。",
+    "reference_case": "妊娠前期能量蛋白比DE/CP是981 MJ/%（235 kcal/%）、1029 MJ/%（246 kcal/%）和1013 MJ/%（246 kcal/%）；妊娠后期能量蛋白比DE/CP是911 MJ/%（218 kcal/%）、965 MJ/%（231 kcal/%）和1045 MJ/%（250 kcal/%）。",
+    "error_detail": "错误地修改了妊娠前期和妊娠后期的能量蛋白比DE/CP。",
+    "original_question": "妊娠母猪妊娠期间能量蛋白比DE/CP分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期赖氨酸能量比Lys/DE是0.40 g/MJ（1.67 g/Mcal）、0.38 g/MJ（1.58 g/Mcal）和0.36 g/MJ（1.50 g/Mcal）；妊娠后期赖氨酸能量比Lys/DE是0.40 g/MJ（1.67 g/Mcal）、0.39 g/MJ（1.63 g/Mcal）和0.36 g/MJ（1.53 g/Mcal）。",
+    "reference_case": "妊娠前期赖氨酸能量比Lys/DE是0.42 g/MJ（1.74 g/Mcal）、0.40 g/MJ（1.67 g/Mcal）和0.38 g/MJ（1.58 g/Mcal）；妊娠后期赖氨酸能量比Lys/DE是0.42 g/MJ（1.74 g/Mcal）、0.41 g/MJ（1.70 g/Mcal）和0.38 g/MJ（1.60 g/Mcal）。",
+    "error_detail": "错误地修改了妊娠前期和妊娠后期的赖氨酸能量比Lys/DE。",
+    "original_question": "妊娠母猪妊娠期间赖氨酸能量比Lys/DE分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的维生素K需要量为0.60 mg至1.30 mg。",
+    "reference_case": "肉脂型生长育肥猪的维生素K需要量为0.50 mg至1.10 mg。",
+    "error_detail": "错误地修改了维生素K的需要量范围。",
+    "original_question": "肉脂型生长育肥猪的维生素K需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的硫胺素需要量为1.2 mg至2.50 mg。",
+    "reference_case": "肉脂型生长育肥猪的硫胺素需要量为1.0 mg至2.20 mg。",
+    "error_detail": "错误地修改了硫胺素的需要量范围。",
+    "original_question": "硫胺素的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的核黄素需要量为4.0 mg至8.50 mg。",
+    "reference_case": "肉脂型生长育肥猪的核黄素需要量为3.5 mg至7.70 mg。",
+    "error_detail": "错误地修改了核黄素的需要量范围。",
+    "original_question": "核黄素的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的泛酸需要量为14 mg至28.0 mg。",
+    "reference_case": "肉脂型生长育肥猪的泛酸需要量为12 mg至26.4 mg。",
+    "error_detail": "错误地修改了泛酸的需要量范围。",
+    "original_question": "泛酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的烟酸需要量为12 mg至25 mg。",
+    "reference_case": "肉脂型生长育肥猪的烟酸需要量为10 mg至22 mg。",
+    "error_detail": "错误地修改了烟酸的需要量范围。",
+    "original_question": "烟酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的吡哆醇需要量为1.2 mg至2.50 mg。",
+    "reference_case": "肉脂型生长育肥猪的吡哆醇需要量为1.0 mg至2.20 mg。",
+    "error_detail": "错误地修改了吡哆醇的需要量范围。",
+    "original_question": "吡哆醇的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的生物素需要量为0.25 mg至0.50 mg。",
+    "reference_case": "肉脂型生长育肥猪的生物素需要量为0.20 mg至0.44 mg。",
+    "error_detail": "错误地修改了生物素的需要量范围。",
+    "original_question": "生物素的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的叶酸需要量为1.5 mg至3.00 mg。",
+    "reference_case": "肉脂型生长育肥猪的叶酸需要量为1.3 mg至2.86 mg。",
+    "error_detail": "错误地修改了叶酸的需要量范围。",
+    "original_question": "叶酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的维生素B12需要量为18 μg至36 μg。",
+    "reference_case": "肉脂型生长育肥猪的维生素B12需要量为15 μg至33 μg。",
+    "error_detail": "错误地修改了维生素B12的需要量范围。",
+    "original_question": "维生素B12的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的胆碱需要量为1.50 g至3.00 g。",
+    "reference_case": "肉脂型生长育肥猪的胆碱需要量为1.25 g至2.75 g。",
+    "error_detail": "错误地修改了胆碱的需要量范围。",
+    "original_question": "胆碱的需要量是多少？",
+    "original_input": ""
+  }
+]

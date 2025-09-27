@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "间接血凝试验大于1:5为阳性，小于1:2为阴性。",
+    "reference_case": "间接血凝试验大于1:10为阳性，小于1:5为阴性，介于两者之间为可疑，阴性和可疑者4周后重检，如两次为阴性，判为无喘气病，两次结果为可疑，判为阳性。",
+    "error_detail": "错误地调整了间接血凝试验的判定标准，可能导致诊断结果不准确。",
+    "original_question": "如何诊断猪支原体肺炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牛结核菌素皮内注射的观察反应时间是注射后24 h、48 h进行再次观察。",
+    "reference_case": "于注射后48 h、72 h进行再次观察。",
+    "error_detail": "错误地调整了观察反应的时间点，可能导致判定结果不准确。",
+    "original_question": "马、绵羊、山羊和猪进行结核菌素皮内注射的观察反应时间是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "文化水平、养殖规模、当地生猪市场体系建设状况对生猪养殖者市场风险程度认知呈正相关关系。",
+    "reference_case": "文化水平、养殖规模、当地生猪市场体系建设状况对生猪养殖者市场风险程度认知呈负相关关系。",
+    "error_detail": "将负相关关系错误地表述为正相关关系。",
+    "original_question": "根据研究，哪些因素对生猪养殖者的市场风险程度认知呈负相关关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "过度扩大养殖规模，生猪养殖者市场风险预控能力较强。",
+    "reference_case": "适度扩大养殖规模，生猪养殖者市场风险预控能力较强。",
+    "error_detail": "错误地将适度扩大养殖规模改为过度扩大养殖规模。",
+    "original_question": "文中提到，生猪养殖者的养殖规模对市场风险预控能力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "关键参数包括死猪处理量（100 kg/d，不破碎处理，1立方米堆肥箱放置100 kg尸体），堆肥辅料（猪粪和玉米秸秆，体积比2:1），辅料特性（密度750 kg/m³，含水率70~80%，碳氮比35~40），堆肥周期（12周），堆肥温度（75~85℃，持续2周以上），通风量（160~200 L/(m³·min)），搅拌器转速（24 r/min），通风方式（风机开启15分钟，关闭5分钟），保温方式（无保温层）。",
+    "reference_case": "关键参数包括死猪处理量（21 kg/d，破碎处理，1立方米堆肥箱放置60 kg尸体），堆肥辅料（猪粪和玉米秸秆，体积比1:2），辅料特性（密度650 kg/m³，含水率50~60%，碳氮比25~30），堆肥周期（6周），堆肥温度（55~65℃，持续1周以上），通风量（60~100 L/(m³·min)），搅拌器转速（12 r/min），通风方式（风机开启5分钟，关闭15分钟），保温方式（聚氨酯泡沫保温层）。",
+    "error_detail": "错误地修改了所有关键参数的数值和比例。",
+    "original_question": "死猪堆肥化处理系统的关键参数有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "口蹄疫病毒对外界环境的抵抗力较弱，被污染的饲料、土壤和毛皮传染性仅能保持数天，病毒对酸、碱、紫外线及热都不敏感，1%~2%氢氧化钠、3%~5%福尔马林、0.2%~0.5%过氧乙酸等常用消毒剂都不能将其杀死。",
+    "reference_case": "口蹄疫病毒对外界环境的抵抗力较强，被污染的饲料、土壤和毛皮传染性可保持数周至数月，但病毒对酸、碱、紫外线及热都十分敏感，1%~2%氢氧化钠、3%~5%福尔马林、0.2%~0.5%过氧乙酸等常用消毒剂都能将其迅速杀死。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "口蹄疫病毒对外界环境有何抵抗力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "可采集血液、脏器或疹块皮肤制成抹片，染色镜检，如发现革兰氏阳性纤细杆菌，可作初步诊断。确诊将新鲜病料接种血琼脂，培养24小时后，长出小菌落，表面光滑，边缘整齐，有蓝绿色荧光。",
+    "reference_case": "可采集血液、脏器或疹块皮肤制成抹片，染色镜检，如发现革兰氏阳性纤细杆菌，可作初步诊断。确诊将新鲜病料接种血琼脂，培养48小时后，长出小菌落，表面光滑，边缘整齐，有蓝绿色荧光。明胶穿刺呈试管刷状生长，不液化。还可将病料制成乳剂，分别接种小鼠、鸽和豚鼠，如小鼠和鸽死亡，尸体内可检出本菌，而豚鼠无反应，可确诊。",
+    "error_detail": "培养时间从48小时错误地改为24小时",
+    "original_question": "如何确诊猪丹毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "青霉素为本病特效药，用量为5000 IU/kg体重，肌肉注射，每天2次，直到体温和食欲恢复正常后24小时。",
+    "reference_case": "青霉素为本病特效药，用量为10000 IU/kg体重，肌肉注射，每天2次，直到体温和食欲恢复正常后24小时。另外土霉素、四环素、金霉素等都可用于治疗。不宜过早停药以防复发或转为慢性。",
+    "error_detail": "青霉素用量从10000 IU/kg错误地改为5000 IU/kg",
+    "original_question": "猪丹毒的治疗药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1925年。",
+    "reference_case": "1928年。",
+    "error_detail": "将发现年份从1928年错误地改为1925年",
+    "original_question": "猪附红细胞体病最早是在哪一年被发现的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1980年。",
+    "reference_case": "1982年。",
+    "error_detail": "将发现年份从1982年错误地改为1980年",
+    "original_question": "猪附红细胞体病最早是在我国哪个年份被发现的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发病率在10%~20%，有的地方发病率已达到40%~50%，甚至高达80%。",
+    "reference_case": "发病率在15%~22%，有的地方发病率已达到50%~60%，甚至高达90%。",
+    "error_detail": "发病率数据被错误地降低",
+    "original_question": "猪附红细胞体病的发病率范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "感染率均在80%左右。",
+    "reference_case": "感染率均在90%左右。",
+    "error_detail": "感染率从90%错误地改为80%",
+    "original_question": "猪附红细胞体病的感染率范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "附红细胞体对干燥和化学消毒剂比较敏感，1%石碳酸于37°C经3h可将其杀死，一般常用的消毒药在几分钟内即可使其死亡；但对低温冷冻的抵抗力较强，可存活数年之久。",
+    "reference_case": "附红细胞体对干燥和化学消毒剂比较敏感，0.5%石碳酸于37°C经3h可将其杀死，一般常用的消毒药在几分钟内即可使其死亡；但对低温冷冻的抵抗力较强，可存活数年之久。",
+    "error_detail": "石碳酸浓度从0.5%错误地改为1%",
+    "original_question": "猪附红细胞体病的病原体对哪些环境因素敏感？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该病隐性感染率高，可达90%。应激因素可使隐性感染动物大面积暴发本病，且死亡率明显上升。本病易复发。该病多流行于夏秋或雨水季节，尤其是高温高湿天气，冬季相对较少。",
+    "reference_case": "该病隐性感染率高，可达95%。应激因素可使隐性感染动物大面积暴发本病，且死亡率明显上升。本病易复发。该病多流行于夏秋或雨水季节，尤其是高温高湿天气，冬季相对较少。",
+    "error_detail": "隐性感染率从95%错误地改为90%",
+    "original_question": "猪附红细胞体病的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牛常见的是5:B、5:E；猪以4:A、5:B为主；家禽以4：A最常见。",
+    "reference_case": "牛常见的是6:B、6:E；猪以5:A、6:B为主；家禽以5：A最常见。",
+    "error_detail": "血清型数据被错误地修改",
+    "original_question": "多杀性巴氏杆菌的致病力依菌型及动物而异，不同动物感染的血清型有何区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "该病在受到免疫抑制性传染病的感染后，往往造成幼猪短期内大批发病和死亡，生长发育严重受阻，给养猪业带来巨大的经济损失。",
+    "reference_case": "该病在受到免疫抑制性传染病的感染后，往往造成幼猪短期内大批发病和死亡，生长发育严重受阻，给养猪业带来较大的经济损失。",
+    "error_detail": "夸大了经济损失的程度",
+    "original_question": "副猪嗜血杆菌病对养猪业有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "根据妊娠中后期发生流产、死胎、产弱仔、胎儿木乃伊和呼吸困难；新生仔猪的呼吸困难和高度的致死率（90%~100%）；青年猪的轻度症状和间质性肺炎可作出初步诊断。",
+    "reference_case": "根据妊娠中后期发生流产、死胎、产弱仔、胎儿木乃伊和呼吸困难；新生仔猪的呼吸困难和高度的致死率（80%~100%）；青年猪的轻度症状和间质性肺炎可作出初步诊断。",
+    "error_detail": "修改了致死率的数据",
+    "original_question": "猪繁殖与呼吸综合征的初步诊断依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "疫苗接种采用高致病性猪蓝耳病灭活疫苗，免疫后2周产生抗体，免疫期6个月以上。后备母猪在配种前进行2次免疫，首免在配种前2个月，间隔1个月进行二免。小猪在母源抗体消失前首免，母源抗体消失后进行再次免疫。公猪和妊娠母猪不能接种弱毒疫苗。",
+    "reference_case": "疫苗接种采用高致病性猪蓝耳病灭活疫苗，免疫后2周产生抗体，免疫期4个月以上。后备母猪在配种前进行2次免疫，首免在配种前2个月，间隔1个月进行二免。小猪在母源抗体消失前首免，母源抗体消失后进行再次免疫。公猪和妊娠母猪不能接种弱毒疫苗。",
+    "error_detail": "修改了免疫期的时长",
+    "original_question": "猪繁殖与呼吸综合征的疫苗接种方案是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2—5月龄多发，地方流行，多经消化道传播；与饲养条件、环卫、气候等有关（内源性感染），流行期长，发病率高。",
+    "reference_case": "2—4月龄多发，地方流行，多经消化道传播；与饲养条件、环卫、气候等有关（内源性感染），流行期长，发病率高。",
+    "error_detail": "修改了多发月龄的数据",
+    "original_question": "猪丹毒的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "急性体温42°C以上，腹泻，耳、胸、腹下发细；慢性者下痢，排灰白或黄绿色恶臭稀粪，皮肤有痘样湿疹，易继发其他疾病，最终死亡或呈僵猪。",
+    "reference_case": "急性体温41°C以上，腹泻，耳、胸、腹下发细；慢性者下痢，排灰白或黄绿色恶臭稀粪，皮肤有痘样湿疹，易继发其他疾病，最终死亡或呈僵猪。",
+    "error_detail": "将急性体温的数值从41°C错误地增加到42°C",
+    "original_question": "猪丹毒的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "急性体温40°C~42°C，高热不退，皮肤有出血点，结膜潮红、共济失调、多发性关节炎，后期出现呼吸困难。仔猪可见神经症状；慢性淋巴结脓肿。",
+    "reference_case": "急性体温41°C~42°C，高热不退，皮肤有出血点，结膜潮红、共济失调、多发性关节炎，后期出现呼吸困难。仔猪可见神经症状；慢性淋巴结脓肿。",
+    "error_detail": "将急性体温的最低值从41°C错误地降低到40°C",
+    "original_question": "猪链球菌病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "急性体温42°C以上，腹泻，耳、胸、腹下发细；慢性者下痢，排灰白或黄绿色恶臭稀粪，皮肤有痘样湿疹，易继发其他疾病，最终死亡或呈僵猪。",
+    "reference_case": "急性体温41°C以上，腹泻，耳、胸、腹下发细；慢性者下痢，排灰白或黄绿色恶臭稀粪，皮肤有痘样湿疹，易继发其他疾病，最终死亡或呈僵猪。",
+    "error_detail": "将急性体温的数值从41°C错误地增加到42°C",
+    "original_question": "猪副伤寒的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高热不退，便秘，咳嗽气喘、呼吸困难，有神经症状，后期体表充血、出血，孕猪发生流产、死胎或弱仔。",
+    "reference_case": "高热不退，便秘，咳嗽气喘、呼吸困难，有神经症状，后期体表充血、出血，孕猪发生流产、死胎或弱仔。",
+    "error_detail": "虽然内容看似相同，但错误地将'高热不退'理解为'高热持续'，实际上应为'高热不退'",
+    "original_question": "猪高热病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高热，黄疸，有的呼吸困难，后期便秘，血尿，在耳尖、胸腹、尾根、四肢末端等部位皮肤红紫，尿液发红或呈咖啡色。孕猪高热、繁殖障碍。",
+    "reference_case": "高热，黄疸，有的呼吸困难，后期便秘，血尿，在耳尖、胸腹、尾根、四肢末端等部位皮肤红紫，尿液发红或呈咖啡色。孕猪高热、繁殖障碍。",
+    "error_detail": "虽然内容看似相同，但错误地将'高热'理解为'高烧'，实际上应为'高热'",
+    "original_question": "附红细胞体病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "传染性胃肠炎病的实验室诊断方法是直接观察症状。",
+    "reference_case": "分离病毒，接种易感猪。",
+    "error_detail": "错误地提供了非实验室的诊断方法。",
+    "original_question": "传染性胃肠炎病的实验室诊断方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪瘟的主要症状是体温38-39°C。",
+    "reference_case": "体温40-41°C，先便秘、后腹泻，站立不稳，皮肤出血，公猪包皮积尿，结膜炎，个别有神经症状。",
+    "error_detail": "错误地提供了猪瘟的体温数据。",
+    "original_question": "猪瘟的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "结核病可侵害约30种哺乳动物。",
+    "reference_case": "结核病可侵害人和多种动物，报道约有50种哺乳动物、25种禽类可感染本病。家畜中牛最易感，特别是奶牛，其次为黄牛、牦牛、水牛，猪和家禽易感性也较强。而绵羊、山羊较少发病，单蹄兽罕见。",
+    "error_detail": "错误地提供了结核病侵害的哺乳动物种类数量。",
+    "original_question": "结核病的易感动物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "通过种植绿肥，例如用30%绿肥或青草，20%猪厩肥，50%河泥混合制作草塘泥，每年每公顷稻田施用2250至3000担，可以提高土壤肥力。",
+    "reference_case": "通过种植绿肥，例如用20%绿肥或青草，30%猪厩肥，50%河泥混合制作草塘泥，每年每公顷稻田施用2250至3000担，可以提高土壤肥力。",
+    "error_detail": "错误地提供了绿肥和猪厩肥的比例。",
+    "original_question": "如何通过种植绿肥提高土壤肥力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "用水合氯醛灌肠，牛、马20~30g/次，羊、猪3~5g/次，犬0.5~1.5g/次，配成1%~5%浓度。",
+    "reference_case": "用水合氯醛灌肠，牛、马10~25g/次，羊、猪2~4g/次，犬0.3~1g/次，配成1%~5%浓度。然后用0.5%~1%普鲁卡因液，混合少许植物油或液石蜡灌入食道。",
+    "error_detail": "错误地提供了水合氯醛的用量。",
+    "original_question": "怎样缓解反刍动物食管痉挛和疼痛？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "新生仔猪的低血糖症病死率高达 30% ~ 80%。",
+    "reference_case": "新生仔猪的低血糖症病死率高达 50% ~ 100%。",
+    "error_detail": "数值偏差",
+    "original_question": "低血糖症的病死率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "首要的是给予充足的青绿饲料，保证胰液和胆汁的分泌通畅，消除肠道微生物群体活动的干扰因素，可用维生素 K3 实施替代疗法，维生素 K3 可以肌肉注射，猪每天 20~40 mg，鸡每天 1.0~3.0 mg，连用 3~5 天，也可按每千克饲料添加 5~10 mg 或直接口服。",
+    "reference_case": "首要的是给予充足的青绿饲料，保证胰液和胆汁的分泌通畅，消除肠道微生物群体活动的干扰因素，可用维生素 K3 实施替代疗法，维生素 K3 可以肌肉注射，猪每天 10~30 mg，鸡每天 0.5~2.0 mg，连用 3~5 天，也可按每千克饲料添加 3~8 mg 或直接口服。",
+    "error_detail": "数值偏差",
+    "original_question": "维生素 K 缺乏症的防治措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "一般认为日粮中至少含锰量：牛 30 mg/kg ，猪、鸡 50 mg/kg ，产蛋鸡 70 mg/kg ，才可防止锰缺乏症。",
+    "reference_case": "一般认为日粮中至少含锰量：牛 20 mg/kg ，猪、鸡 40 mg/kg ，产蛋鸡 60 mg/kg ，才可防止锰缺乏症。",
+    "error_detail": "数值偏差",
+    "original_question": "防治锰缺乏症的日粮中含锰量标准是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "注意马铃薯的储存，应存放在干燥、凉爽、无阳光照射的地方，防止发芽变绿。如已发芽变绿，喂前应注意除去嫩芽及发绿部分，通过蒸煮降低毒性再饲喂。此外，控制马铃薯在日粮中的比例，一般不超过 30%，妊娠母猪最好不要喂。",
+    "reference_case": "注意马铃薯的储存，应存放在干燥、凉爽、无阳光照射的地方，防止发芽变绿。如已发芽变绿，喂前应注意除去嫩芽及发绿部分，通过蒸煮降低毒性再饲喂。此外，控制马铃薯在日粮中的比例，一般不超过 25%，妊娠母猪最好不要喂。",
+    "error_detail": "数值偏差",
+    "original_question": "预防马铃薯中毒应采取哪些措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "施用猪粪后，土壤速效磷含量为60.0 mg/kg，施用紫云英后为20.0 mg/kg，施用稻草后为5.0 mg/kg。",
+    "reference_case": "施用猪粪后，土壤速效磷含量为57.3 mg/kg，施用紫云英后为17.3 mg/kg，施用稻草后为4.9 mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "施用有机肥料后，土壤速效磷含量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪粪与紫云英的用量与土壤速效磷呈极显著正相关（r=0.95），表明它们能显著提高土壤速效磷含量。",
+    "reference_case": "猪粪与紫云英的用量与土壤速效磷呈极显著正相关（r=0.99），表明它们能显著提高土壤速效磷含量。",
+    "error_detail": "数值偏差",
+    "original_question": "猪粪和紫云英对土壤速效磷含量的影响有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪粪施入鱼塘后，必然会消耗全部能量和水中溶氧，因此在管理上必须十分注意调节水质和鱼病防治。",
+    "reference_case": "猪粪施入鱼塘后，必然会消耗部分能量和水中溶氧，因此在管理上必须十分注意调节水质和鱼病防治。",
+    "error_detail": "错误地夸大了猪粪施入鱼塘后对能量和溶氧的消耗程度。",
+    "original_question": "猪粪施入鱼塘后，可能带来哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鱼种放养前一周，应向鱼池亩施2000公斤发酵过的猪水粪作为基肥。",
+    "reference_case": "鱼种放养前一周，应向鱼池亩施1000公斤发酵过的猪水粪作为基肥。",
+    "error_detail": "错误地增加了发酵过的猪水粪的施用量。",
+    "original_question": "鱼种放养前一周，应向鱼池施用何种物质作为基肥？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "干鸡粪的蛋白质含量为40~50%，经加工后可达60%。",
+    "reference_case": "干鸡粪的蛋白质含量为20~30%，经加工后可达34%。",
+    "error_detail": "错误地提高了干鸡粪的蛋白质含量。",
+    "original_question": "鸡粪喂猪时，鸡粪的蛋白质含量通常为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "太湖猪以繁殖力高著称，母猪头胎产仔数平均20头，二胎25头，三胎及以上30头。",
+    "reference_case": "太湖猪以繁殖力高著称，母猪头胎产仔数平均12.14头，二胎14.48头，三胎及以上15.83头。",
+    "error_detail": "错误地夸大了太湖猪的繁殖性能。",
+    "original_question": "太湖猪的繁殖性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鸡粪饲料喂猪占日粮的20-30%效果很好。",
+    "reference_case": "鸡粪饲料喂猪占日粮的5-10%效果很好。",
+    "error_detail": "错误地提高了鸡粪饲料喂猪的最佳添加比例。",
+    "original_question": "鸡粪饲料喂猪的最佳添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "豪猪在冬季啃咬树木皮，损害树苗，尤其咬棕榈幼嫩根茎，每棵树每天被啃咬的面积可达10平方厘米。",
+    "reference_case": "豪猪在冬季啃咬树木皮，损害树苗，尤其咬棕榈幼嫩根茎。",
+    "error_detail": "添加了不存在的具体数据（每棵树每天被啃咬的面积可达10平方厘米）。",
+    "original_question": "豪猪对树木的损害方式有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "基肥不仅要求有机肥为主，氮磷钾齐全，还要求有充足的数量，可促进定植后的幼苗生长，叶面积扩大，根系发育以及第一穗果膨大，如每亩施2500 kg腐熟猪粪，比对照区株高、茎粗、叶面积大，总产量提高50%。",
+    "reference_case": "基肥不仅要求有机肥为主，氮磷钾齐全，还要求有充足的数量，可促进定植后的幼苗生长，叶面积扩大，根系发育以及第一穗果膨大，如每亩施2500 kg腐熟猪粪，比对照区株高、茎粗、叶面积大，总产量提高15.7%。",
+    "error_detail": "错误地提高了产量提高的比例（从15.7%提高到50%）。",
+    "original_question": "基肥对番茄生长和产量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪、鸡配合饲料、奶牛、肉牛精料补充料中的铅（以Pb计）允许量为10 mg/kg；产蛋鸡、肉用仔鸡浓缩饲料、仔猪、生长肥育猪浓缩饲料、骨粉、肉骨粉、鱼粉、石粉、磷酸盐中的铅（以Pb计）允许量分别为20 mg/kg、15 mg/kg、15 mg/kg、40 mg/kg、50 mg/kg（以1%添加量计）；产蛋鸡、肉用仔鸡复合预混合饲料、仔猪、生长肥育猪复合预混合饲料中的铅（以Pb计）允许量为50 mg/kg（以1%添加量计）。",
+    "reference_case": "猪、鸡配合饲料、奶牛、肉牛精料补充料中的铅（以Pb计）允许量为5 mg/kg；产蛋鸡、肉用仔鸡浓缩饲料、仔猪、生长肥育猪浓缩饲料、骨粉、肉骨粉、鱼粉、石粉、磷酸盐中的铅（以Pb计）允许量分别为13 mg/kg、10 mg/kg、10 mg/kg、30 mg/kg、40 mg/kg（以1%添加量计）；产蛋鸡、肉用仔鸡复合预混合饲料、仔猪、生长肥育猪复合预混合饲料中的铅（以Pb计）允许量为40 mg/kg（以1%添加量计）。",
+    "error_detail": "错误地提高了铅的允许量。",
+    "original_question": "铅（以Pb计）在不同饲料中的允许量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "加快沼气发酵的液化阶段可以通过预处理原料和增加可溶性有机物含量较多的人粪、猪粪以及嫩绿的水生植物来实现，通常需要将温度提高到60°C。",
+    "reference_case": "加快沼气发酵的液化阶段可以通过预处理原料和增加可溶性有机物含量较多的人粪、猪粪以及嫩绿的水生植物来实现。",
+    "error_detail": "添加了不存在的具体温度要求（60°C）。",
+    "original_question": "如何加快沼气发酵的液化阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "育肥猪体重从20千克开始，日喂沼液1.5千克；体重达40千克时，日喂沼液2.5千克；体重达60千克时，日喂沼液3.5千克；体重达100千克以上，日喂沼液5千克。",
+    "reference_case": "育肥猪体重从20千克开始，日喂沼液1.2千克；体重达40千克时，日喂沼液2千克；体重达60千克时，日喂沼液3千克；体重达100千克以上，日喂沼液4千克。",
+    "error_detail": "错误地提高了沼液的喂食量。",
+    "original_question": "育肥猪在不同体重阶段应如何调整喂食沼液的量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "口蹄疫的自然发病率和死亡率都很高，但随家畜种类和年龄、毒株毒力、季节、气温、地理环境、自然条件和社会因素的不同而变化。牛的发病率可达100%，犊牛致死率可达80%；猪中密集饲养的发病率较高，可达100%，仔猪常100%发病死亡。",
+    "reference_case": "口蹄疫的自然发病率和死亡率都很高，但随家畜种类和年龄、毒株毒力、季节、气温、地理环境、自然条件和社会因素的不同而变化。牛的发病率可达90%-100%，犊牛致死率可达50%-70%；猪中密集饲养的发病率较高，可达90%-100%，仔猪常100%发病死亡。",
+    "error_detail": "错误地提高了发病率和致死率。",
+    "original_question": "口蹄疫的危害程度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "非洲猪瘟病毒的基因组为 200 kb 的双链 DNA，呈二小面体对称，核心为 100 nm，成熟的非洲猪瘟病毒直径为 250 nm，完整的病毒颗粒 CsCl 悬浮密度为 1.30 g/cm³。",
+    "reference_case": "非洲猪瘟病毒的基因组为 170 kb 的双链 DNA，呈二小面体对称，核心为 80 nm，成熟的非洲猪瘟病毒直径为 175~215 nm，完整的病毒颗粒 CsCl 悬浮密度为 1.19~1.24 g/cm³。",
+    "error_detail": "错误地修改了基因组大小、核心直径、病毒直径和悬浮密度。",
+    "original_question": "非洲猪瘟病毒的基因组特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "好的地面要防滑且有弹性，并能耐磨耗，开发出的新产品有橡胶、塑胶材料，如将橡皮垫放置在新生仔猪的床面上，可以避免粗䊁或旧地面导致的损害，使用垫料的畜床利于休息，防滑且有弹性。橡胶垫的厚度应为10cm。",
+    "reference_case": "好的地面要防滑且有弹性，并能耐磨耗，开发出的新产品有橡胶、塑胶材料，如将橡皮垫放置在新生仔猪的床面上，可以避免粗䊁或旧地面导致的损害，使用垫料的畜床利于休息，防滑且有弹性。",
+    "error_detail": "添加了不存在的橡胶垫厚度数据",
+    "original_question": "如何改善牛或猪的休息条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "第一等猪体脂中碳水化合物形成的脂肪比例为56.7%，第二等猪体脂中这一比例为41.5%。第三等猪体脂中这一比例为30%。",
+    "reference_case": "第一等猪体脂中碳水化合物形成的脂肪比例为56.7%，第二等猪体脂中这一比例为41.5%。",
+    "error_detail": "添加了不存在的第三等猪体脂数据",
+    "original_question": "不同等级的猪体脂中，碳水化合物形成的脂肪比例有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪油的凝固点为27.1-29.9°C，4:游脂肪的凝固点为31-39°C。猪油的碘值为50。",
+    "reference_case": "猪油的凝固点为27.1-29.9°C，4:游脂肪的凝固点为31-39°C。",
+    "error_detail": "错误地添加了猪油的碘值数据",
+    "original_question": "猪油和4:游脂肪的凝固点分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪油的碘值范围为47-66.5。最佳碘值为60。",
+    "reference_case": "猪油的碘值范围为47-66.5。",
+    "error_detail": "错误地添加了最佳碘值数据",
+    "original_question": "猪油的碘值范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "玉树油对猪背脂含量的影响显著，表现为较高的背脂含量。具体增加比例为20%。",
+    "reference_case": "玉树油对猪背脂含量的影响显著，表现为较高的背脂含量。",
+    "error_detail": "错误地添加了具体的增加比例数据",
+    "original_question": "玉树油对猪背脂含量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪体形成体脂肪的主要脂肪酸中，以醋酸为最多，约占67%；丙酸次之，占19%。丁酸占10%。",
+    "reference_case": "猪体形成体脂肪的主要脂肪酸中，以醋酸为最多，约占67%；丙酸次之，占19%。",
+    "error_detail": "错误地添加了丁酸的数据",
+    "original_question": "猪体形成体脂肪的主要脂肪酸成分是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "微生态制剂通过调节肠道正常菌群达到预防疾病的目的，但对防治仔猪腹泻及大肠杆菌病无效。",
+    "reference_case": "微生态制剂通过调节肠道正常菌群达到预防疾病的目的，如促菌生、调病生等制剂对防治仔猪腹泻及大肠杆菌病有较好效果。",
+    "error_detail": "错误地描述了微生态制剂的效果，忽略了其对仔猪腹泻及大肠杆菌病的防治作用。",
+    "original_question": "微生态制剂如何通过调节正常菌群达到防病目的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪传染性胃肠炎的主要症状为轻微腹泻，不影响仔猪的死亡率。",
+    "reference_case": "猪传染性胃肠炎的主要症状为呕吐、严重腹泻、脱水和10日龄以内的仔猪高死亡率。",
+    "error_detail": "错误地描述了猪传染性胃肠炎的症状，低估了其对仔猪的影响。",
+    "original_question": "猪传染性胃肠炎的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪传染性胃肠炎仅影响成年猪，传播速度慢，10日龄内仔猪死亡率低。",
+    "reference_case": "各种年龄的猪均可感染发病，传播极快，一旦感染迅速蔓延全群，10日龄内仔猪死亡率高，其余猪症状较轻微，呈良性经过。",
+    "error_detail": "错误地描述了猪传染性胃肠炎的流行特点，低估了其传播速度和仔猪死亡率。",
+    "original_question": "猪传染性胃肠炎的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "伪狂犬病不易感动物种类少，仅影响猪，多发于夏秋两季，常呈大规模流行。",
+    "reference_case": "伪狂犬病易感动物种类多，包括牛、羊、犬、猫、兔、鹿、鼠类及多种野生动物，发病仔猪多，多发于冬春两季，常呈散发性或地方性流行。",
+    "error_detail": "错误地描述了伪狂犬病的流行特点，低估了其易感动物种类和流行季节。",
+    "original_question": "伪狂犬病的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪丹毒的主要症状仅包括急性败血型，表现为体温正常，食欲增加。",
+    "reference_case": "包括急性败血型、亚急性疹块型和慢性型。急性败血型表现为体温升高，虚弱，食欲废绝，呼吸困难，皮肤发红。亚急性疹块型出现界限明显的疹块，呈暗红色或紫红色。慢性型主要表现为心内膜炎或关节炎，病腿僵硬疼痛，生长缓慢，全身衰弱。",
+    "error_detail": "错误地描述了猪丹毒的症状，忽略了亚急性疹块型和慢性型的存在。",
+    "original_question": "猪丹毒的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "下降15%",
+    "reference_case": "下降1.5%",
+    "error_detail": "数值偏差",
+    "original_question": "湖南省在2011年猪、牛、羊肉类产量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "美国生猪产业政策通过种植业的补贴降低了养殖成本，具体表现为2000～2004年美国政府平均每年对玉米和大豆的补贴约为650亿元，使玉米和大豆产量分别提高了280%和420%，价格分别下降了320%和210%。其中，60%的玉米和47%的大豆用于美国国内畜牧业，使生猪养殖业直接节约了约150%的养殖成本。",
+    "reference_case": "美国生猪产业政策通过种植业的补贴降低了养殖成本，具体表现为2000～2004年美国政府平均每年对玉米和大豆的补贴约为65亿元，使玉米和大豆产量分别提高了28%和42%，价格分别下降了32%和21%。其中，60%的玉米和47%的大豆用于美国国内畜牧业，使生猪养殖业直接节约了约15%的养殖成本。",
+    "error_detail": "数值偏差",
+    "original_question": "美国生猪产业政策对养殖成本有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2009年，美国年存栏5000头以上的规模养猪场占全国养猪比重的75%，而年末存栏量为2000头以下的猪场从2002年的25%稳定降低到2009年的4%。",
+    "reference_case": "2009年，美国年存栏5000头以上的规模养猪场占全国养猪比重的55%，而年末存栏量为2000头以下的猪场从2002年的25%稳定降低到2009年的14%。",
+    "error_detail": "数值偏差",
+    "original_question": "美国2009年规模养猪场的分布情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "827 万头",
+    "reference_case": "82.7 万头",
+    "error_detail": "数值偏差",
+    "original_question": "进贤县生猪产业年出栏量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "47550 户",
+    "reference_case": "4755 户",
+    "error_detail": "数值偏差",
+    "original_question": "进贤县年出栏20头以上的养猪户有多少户？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "110 户",
+    "reference_case": "11 户",
+    "error_detail": "数值偏差",
+    "original_question": "进贤县年出栏10000头以上的养猪户有多少户？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "130 个",
+    "reference_case": "13 个",
+    "error_detail": "数值偏差",
+    "original_question": "进贤县通过无公害畜产品认证的养猪场有多少个？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1855120 头",
+    "reference_case": "185512 头",
+    "error_detail": "数值偏差",
+    "original_question": "进贤县获得国家能繁母猪饲养补贴的数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "15100 头",
+    "reference_case": "1510 头",
+    "error_detail": "数值偏差",
+    "original_question": "进贤县能繁母猪保险理赔的数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "340 个",
+    "reference_case": "34 个",
+    "error_detail": "数值偏差",
+    "original_question": "进贤县通过生猪标准化项目的规模养猪场数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1260 个",
+    "reference_case": "126 个",
+    "error_detail": "数值偏差",
+    "original_question": "进贤县实施生猪调出大县项目的中小规模养猪场数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪丹毒的治疗方案包括口服某些药物、肌肉注射药物以及中药治疗，但抗生素的使用量应为每日100mg/kg。",
+    "reference_case": "一般采用对症治疗和抗生素，或磺胺类药控制继发感染。具体包括口服某些药物、肌肉注射药物以及中药治疗。",
+    "error_detail": "错误地指定了抗生素的使用量，而原始输出中并未提及具体剂量。",
+    "original_question": "猪丹毒的治疗方案有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预防仔猪黄痢的关键措施包括使用0.5%高锰酸钾溶液清洗乳头。",
+    "reference_case": "加强饲养管理，母猪分娩时专人守护，所产猪仔放在有干净垫草的箩筐内，待产仔完毕后用0.1%高锰酸钾溶液清洗乳头。圈舍用生石灰消毒，保持环境清洁、干燥。母猪在春季或秋季产仔，产前48小时内注射长效抗菌剂或氧氟沙星进行预防。也可用特定的基因工程菌苗进行免疫预防。",
+    "error_detail": "错误地提高了高锰酸钾溶液的浓度。",
+    "original_question": "预防仔猪黄痢的关键措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "引发白痢的大肠杆菌主要血清型为O157:H7。",
+    "reference_case": "引发白痢的大肠杆菌主要血清型为O",
+    "error_detail": "错误地指定了不相关的血清型。",
+    "original_question": "引起仔猪白痢的大肠杆菌主要产生哪些血清型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "链霉素治疗猪李氏杆菌病的给药方法是链霉素5万U/kg，肌肉注射，每日3次。",
+    "reference_case": "链霉素2万～3万U/kg，肌肉注射，每日2次，连用2－3天。",
+    "error_detail": "错误地提高了剂量和给药频率。",
+    "original_question": "链霉素治疗猪李氏杆菌病的给药方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "氧氟沙星治疗猪李氏杆菌病的给药方法是氧氟沙星0.5mL/kg，肌肉注射，每日3次。",
+    "reference_case": "氧氟沙星0.3～0.4mL/kg，肌肉注射，每日2次，连用2－3天。",
+    "error_detail": "错误地提高了剂量和给药频率。",
+    "original_question": "氧氟沙星治疗猪李氏杆菌病的给药方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "复方磺胺嘧啶钠治疗猪李氏杆菌病的给药方法是复方磺胺嘧啶钠0.2g/kg，每日3次。",
+    "reference_case": "复方磺胺嘧啶钠0.1g/kg，肌肉注射或静脉注射，每日2次，连用2－3天。",
+    "error_detail": "错误地提高了剂量和给药频率。",
+    "original_question": "复方磺胺嘧啶钠治疗猪李氏杆菌病的给药方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "破伤风抗毒素的使用方法是成年猪每只为50万～100万IU，每日2次。",
+    "reference_case": "破伤风抗毒素（血清）成年猪每只为10万～40万IU，每日1次静脉注射或肌肉、皮下注射，连用3天。有资料介绍，一次大剂量使用破伤风抗毒素20万～80万IU，比少量多次注射效果好。",
+    "error_detail": "错误地提高了剂量和给药频率。",
+    "original_question": "破伤风抗毒素的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪的青绿饲料与混合精料的重量比为1:2，肥育猪的青绿饲料与混合精料的重量比为1:(0.8~1.0)。",
+    "reference_case": "生长猪的青绿饲料与混合精料的重量比为1:1，肥育猪的青绿饲料与混合精料的重量比为1:(0.5~0.7)。小猪不宜喂粗饲料，体重在10~20 kg的猪要求不超过日粮干物质总量的15%，生长肥育猪的日粮中粗纤维含量不宜超过10%（体重30 kg以下时不超过8%，体重在30 kg以上时不超过10%）。",
+    "error_detail": "修改了青绿饲料与混合精料的重量比，导致数据偏差。",
+    "original_question": "青绿饲料与混合精料的重量比对猪日粮的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长肥育猪的日粮中，粗纤维含量不宜超过15%。",
+    "reference_case": "在生长肥育猪的日粮中，粗纤维含量不宜超过10%（体重30 kg以下时不超过8%，体重在30 kg以上时不超过10%）。",
+    "error_detail": "错误地提高了粗纤维含量的上限。",
+    "original_question": "日粮中粗纤维的含量对猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在饲料产品的条形码编码规则中，畜禽品种用小写字母表示。",
+    "reference_case": "在饲料产品的条形码编码规则中，畜禽品种用大写字母表示，例如猪用A表示，蛋鸡用B表示，肉鸡用C表示，依此类推。",
+    "error_detail": "错误地改变了畜禽品种的表示方法。",
+    "original_question": "饲料产品的条形码编码规则中，畜禽品种如何表示？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "A组的免疫程序是应用FMD灭活疫苗免疫，每12个月免疫一次。",
+    "reference_case": "A组的免疫程序是应用FMD灭活疫苗免疫，每6个月免疫一次。",
+    "error_detail": "错误地延长了免疫间隔时间。",
+    "original_question": "在辽宁省进行的猪 O 型口蹄疫免疫抗体水平调查中，A组的免疫程序是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "B组的免疫程序是应用FMD灭活疫苗免疫，首免后间隔2个月加强免疫，然后每6个月免疫一次。",
+    "reference_case": "B组的免疫程序是应用FMD灭活疫苗免疫，首免后间隔1个月加强免疫，然后每6个月免疫一次。",
+    "error_detail": "错误地延长了首免和加强免疫之间的间隔时间。",
+    "original_question": "在辽宁省进行的猪 O 型口蹄疫免疫抗体水平调查中，B组的免疫程序与A组有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "C组的免疫程序是应用FMD灭活疫苗免疫，首免后间隔1个月加强免疫，然后每6个月免疫一次。",
+    "reference_case": "C组的免疫程序是应用FMD灭活疫苗免疫，首免后间隔1个月加强免疫，然后每4个月免疫一次。",
+    "error_detail": "错误地延长了加强免疫后的免疫间隔时间。",
+    "original_question": "在辽宁省进行的猪 O 型口蹄疫免疫抗体水平调查中，C组的免疫程序是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "抗体效价≥32时判为抗体合格。",
+    "reference_case": "抗体效价≥64时判为抗体合格。",
+    "error_detail": "错误地降低了抗体效价的合格标准。",
+    "original_question": "在辽宁省进行的猪 O 型口蹄疫免疫抗体水平调查中，抗体效价达到多少时判为抗体合格？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "A组的抗体离散度最低。",
+    "reference_case": "C组的抗体离散度最低。",
+    "error_detail": "错误地标识了抗体离散度最低的组别。",
+    "original_question": "在辽宁省进行的猪 O 型口蹄疫免疫抗体水平调查中，哪一组的抗体离散度最低？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "抗体效价≥32时，被免动物99%以上受保护；抗体效价<2时，被免动物不受保护；抗体效价在2到32之间时，被免疫动物50%受保护。",
+    "reference_case": "抗体效价≥64时，被免动物99%以上受保护；抗体效价<4时，被免动物不受保护；抗体效价在4到45之间时，被免疫动物50%受保护。",
+    "error_detail": "错误地修改了抗体效价与保护力的对应关系。",
+    "original_question": "在辽宁省进行的猪 O 型口蹄疫免疫抗体水平调查中，抗体效价与保护力的关系是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳聚糖对断奶仔猪的免疫器官指数有显著影响。",
+    "reference_case": "壳聚糖对断奶仔猪的免疫器官指数没有显著影响。尽管在14天和28天时，添加壳聚糖的组别胸腺、肝脏和脾脏指数均高于对照组，但这些差异并不呈现明显的剂量依赖关系。",
+    "error_detail": "错误地陈述了壳聚糖对免疫器官指数的影响。",
+    "original_question": "壳聚糖对断奶仔猪免疫器官指数有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳聚糖对断奶仔猪肠道发育的影响主要体现在增加十二指肠的相对重量和体重校正长度，以及空肠的体重校正长度。这些结果表明壳聚糖在一定程度上促进了断奶仔猪的肠道发育，特别是小肠的发育，且效果显著（P<0.01）。",
+    "reference_case": "壳聚糖对断奶仔猪肠道发育的影响主要体现在增加十二指肠的相对重量和体重校正长度，以及空肠的体重校正长度。这些结果表明壳聚糖在一定程度上促进了断奶仔猪的肠道发育，特别是小肠的发育。",
+    "error_detail": "添加了不存在的显著性水平（P<0.01）",
+    "original_question": "壳聚糖对断奶仔猪肠道发育的影响主要体现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳聚糖在断奶仔猪日粮中的添加量分别为0、200、600、1200和2500 mg/kg。",
+    "reference_case": "壳聚糖在断奶仔猪日粮中的添加量分别为0、100、500、1000和2000 mg/kg。",
+    "error_detail": "修改了壳聚糖的添加量",
+    "original_question": "壳聚糖在断奶仔猪日粮中的添加量有哪些不同水平？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳聚糖对断奶仔猪十二指肠相对重量的影响表现为在28天时，随着壳聚糖添加量的增加，十二指肠相对重量呈现显著的线性升高趋势（P=0.01）。",
+    "reference_case": "壳聚糖对断奶仔猪十二指肠相对重量的影响表现为在28天时，随着壳聚糖添加量的增加，十二指肠相对重量呈现一定的二次曲线升高趋势（P=0:063:。",
+    "error_detail": "错误地描述了趋势类型和显著性水平",
+    "original_question": "壳聚糖对断奶仔猪十二指肠相对重量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳聚糖对断奶仔猪空肠体重校正长度的影响表现为在14天时，随着壳聚糖添加量的增加，空肠的体重校正长度呈现显著的线性升高趋势（P=0.01）。",
+    "reference_case": "壳聚糖对断奶仔猪空肠体重校正长度的影响表现为在14天时，随着壳聚糖添加量的增加，空肠的体重校正长度呈现显著的二次曲线升高趋势（P=0:016:。",
+    "error_detail": "错误地描述了趋势类型和显著性水平",
+    "original_question": "壳聚糖对断奶仔猪空肠体重校正长度的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳聚糖对断奶仔猪肝脏指数的影响表现为在14天和28天时，添加壳聚糖的组别肝脏指数均显著高于对照组（P<0.05）。",
+    "reference_case": "壳聚糖对断奶仔猪肝脏指数的影响表现为在14天和28天时，添加壳聚糖的组别肝脏指数均高于对照组，但这些差异并不呈现明显的剂量依赖关系。",
+    "error_detail": "错误地添加了显著性差异的描述",
+    "original_question": "壳聚糖对断奶仔猪肝脏指数的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳聚糖对断奶仔猪脾脏指数的影响表现为在14天和28天时，添加壳聚糖的组别脾脏指数均显著高于对照组（P<0.05）。",
+    "reference_case": "壳聚糖对断奶仔猪脾脏指数的影响表现为在14天和28天时，添加壳聚糖的组别脾脏指数均高于对照组，但这些差异并不呈现明显的剂量依赖关系。",
+    "error_detail": "错误地添加了显著性差异的描述",
+    "original_question": "壳聚糖对断奶仔猪脾脏指数的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳聚糖对断奶仔猪胃相对重量的影响表现为在14天和28天时，添加壳聚糖的组别胃的相对重量均显著高于对照组（P<0.05）。",
+    "reference_case": "壳聚糖对断奶仔猪胃相对重量的影响表现为在14天和28天时，添加壳聚糖的组别胃的相对重量均高于对照组，但这些差异并不显著（P>0:05:。",
+    "error_detail": "错误地添加了显著性差异的描述",
+    "original_question": "壳聚糖对断奶仔猪胃相对重量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳聚糖对断奶仔猪结肠相对重量的影响表现为在14天和28天时，添加壳聚糖的组别结肠的相对重量均显著高于对照组（P<0.05）。",
+    "reference_case": "壳聚糖对断奶仔猪结肠相对重量的影响表现为在14天和28天时，添加壳聚糖的组别结肠的相对重量均高于对照组，但这些差异并不显著（P>0:05:。",
+    "error_detail": "错误地添加了显著性差异的描述",
+    "original_question": "壳聚糖对断奶仔猪结肠相对重量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳聚糖对断奶仔猪直肠相对重量的影响表现为在14天和28天时，添加壳聚糖的组别直肠的相对重量均显著高于对照组（P<0.05）。",
+    "reference_case": "壳聚糖对断奶仔猪直肠相对重量的影响表现为在14天和28天时，添加壳聚糖的组别直肠的相对重量均高于对照组，但这些差异并不显著（P>0:05:。",
+    "error_detail": "错误地添加了显著性差异的描述",
+    "original_question": "壳聚糖对断奶仔猪直肠相对重量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "转Bt玉米对断奶五指山猪的器官指数影响显著，试验组与对照组间差异显著（P < 0.05）。试验组的肝脏和肾脏指数显著降低，而胃脏指数显著提高。",
+    "reference_case": "转Bt玉米对断奶五指山猪的器官指数影响不大，试验组与对照组间差异不显著（P > 0:05:。试验组的肝脏和肾脏指数有所降低，而胃脏指数有所提高。",
+    "error_detail": "错误地描述了差异的显著性",
+    "original_question": "转Bt玉米对断奶五指山猪的器官指数有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在民猪和大白猪的背最长肌组织中，差异倍数在2倍以上的基因共有2000个。",
+    "reference_case": "在民猪和大白猪的背最长肌组织中，差异倍数在2倍以上的基因共有1098个。",
+    "error_detail": "错误地增加了差异基因的数量",
+    "original_question": "在民猪和大白猪的背最长肌组织中，差异倍数在2倍以上的基因有多少个？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在民猪和大白猪背最长肌组织中，有50个基因仅在民猪中表达。",
+    "reference_case": "在民猪和大白猪背最长肌组织中，有11个基因仅在民猪中表达。",
+    "error_detail": "错误地增加了仅在民猪中表达的基因数量",
+    "original_question": "民猪和大白猪背最长肌组织中，哪些基因仅在民猪中表达？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在民猪和大白猪背最长肌组织中，有500个基因仅在大白猪中表达。",
+    "reference_case": "在民猪和大白猪背最长肌组织中，有256个基因仅在大白猪中表达。",
+    "error_detail": "错误地增加了仅在大白猪中表达的基因数量",
+    "original_question": "民猪和大白猪背最长肌组织中，哪些基因仅在大白猪中表达？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "差异表达基因在细胞所处位置方面显著富集的条目包括细胞核、线粒体、内质网、高尔基体、溶酶体等共计25个。",
+    "reference_case": "差异表达基因在细胞所处位置方面显著富集的条目包括细胞质、膜旁细胞器、色素粒、水解性液泡、部分细胞内等共计18个。",
+    "error_detail": "错误地修改了富集的条目和数量",
+    "original_question": "民猪和大白猪背最长肌组织中，差异表达基因在细胞所处位置方面显著富集的条目有哪些？",
+    "original_input": ""
+  }
+]

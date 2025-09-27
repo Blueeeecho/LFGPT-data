@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "RT-LAMP技术在63°C下进行病毒RNA的扩增，扩增产物可以通过琼脂糖凝胶电泳、直接离心观察白色沉淀或加入SYBR Green I根据颜色变化来判定结果。",
+    "reference_case": "RT-LAMP技术具有高灵敏性、强特异性、操作简单和检测成本低的特点。它基于E2基因序列设计引物，在63°C下进行病毒RNA的扩增，扩增产物可以通过琼脂糖凝胶电泳、直接离心观察白色沉淀或加入SYBR Green I根据颜色变化来判定结果。",
+    "error_detail": "遗漏了RT-LAMP技术的高灵敏性、强特异性、操作简单和检测成本低的特点",
+    "original_question": "反转录环介导等温核酸扩增技术（RT-LAMP）在猪瘟病毒检测中的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "NS3蛋白含有两种病毒复制必需的酶活性：位于N末端的丝氨酸酶活性，以及位于C末端的NTP酶活性。",
+    "reference_case": "NS3蛋白含有三种病毒复制必需的酶活性：位于N末端的丝氨酸酶活性，以及位于C末端的NTP酶活性和解旋酶活性。此外，NS3还是一种IRES结合蛋白，与IRES结合后能够增强其转录功能。",
+    "error_detail": "遗漏了解旋酶活性和IRES结合蛋白的功能",
+    "original_question": "猪瘟病毒的NS3蛋白有哪些主要功能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "规模猪场猪瘟风险评估模型的建立采用了现场调查和经验判断两种方法。",
+    "reference_case": "规模猪场猪瘟风险评估模型的建立采用了现场调查、经验判断、Delphi专家咨询、专家评议、风险矩阵分析等方法。",
+    "error_detail": "遗漏了Delphi专家咨询、专家评议、风险矩阵分析等方法",
+    "original_question": "规模猪场猪瘟风险评估模型的建立采用了哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "规模猪场猪瘟风险评估模型中包含40项风险因素。",
+    "reference_case": "规模猪场猪瘟风险评估模型中包含41项风险因素，可归并为10大项，39个普通项，2个关键项。",
+    "error_detail": "风险因素数量错误",
+    "original_question": "规模猪场猪瘟风险评估模型中包含多少项风险因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟风险评估模型中的关键项是“本场家畜健康带毒即检测到猪瘟病毒的存在”。",
+    "reference_case": "猪瘟风险评估模型中的关键项是“本场家畜健康带毒即检测到猪瘟病毒的存在”和“本场家畜未免疫猪瘟疫苗”。",
+    "error_detail": "遗漏了“本场家畜未免疫猪瘟疫苗”这一关键项",
+    "original_question": "猪瘟风险评估模型中的关键项是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "规模猪场猪瘟风险评估模型的风险等级分为高度风险和低度风险两级。",
+    "reference_case": "规模猪场猪瘟风险评估模型的风险等级分为高度风险、中度风险和低度风险三级。高度风险的综合评估指数大于70，中度风险的综合评估指数在40到70之间，低度风险的综合评估指数小于40。",
+    "error_detail": "遗漏了中度风险等级",
+    "original_question": "规模猪场猪瘟风险评估模型的风险等级是如何划分的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "规模猪场猪瘟风险评估模型的现场评分由5人的现场评估专家进行。",
+    "reference_case": "规模猪场猪瘟风险评估模型的现场评分由不少于7人的现场评估专家进行，参照规模猪场猪瘟风险评估标准，对模型中各项风险因素进行客观评分。",
+    "error_detail": "评估专家数量错误",
+    "original_question": "规模猪场猪瘟风险评估模型的现场评分是如何进行的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "场址选择的风险因素包括与屠宰场或肉品加工厂及其他牲畜场的距离。",
+    "reference_case": "场址选择的风险因素包括与屠宰场或肉品加工厂及其他牲畜场的距离、与主干道或居民区的距离、与其他养猪场的距离、上风向有无屠宰场或其他牲畜场。",
+    "error_detail": "遗漏了与主干道或居民区的距离、与其他养猪场的距离、上风向有无屠宰场或其他牲畜场",
+    "original_question": "规模猪场猪瘟风险评估模型中，场址选择的风险因素包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "设施设备的风险因素包括四周围墙或防疫沟、绿化隔离带的建立。",
+    "reference_case": "设施设备的风险因素包括四周围墙或防疫沟、绿化隔离带的建立，警示标志的设置、生产区内各入口及各功能区之间消毒设施的建立、防风、防鼠、无害化处理设施的建立、专用场所及设备的设置、场内猪舍是否有良好的通风设备、是否具备引种隔离栏。",
+    "error_detail": "遗漏了多项风险因素",
+    "original_question": "规模猪场猪瘟风险评估模型中，设施设备的风险因素包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "免疫接种的风险因素包括免疫程序和免疫技术。",
+    "reference_case": "免疫接种的风险因素包括免疫程序、免疫前是否检查混合感染情况、免疫技术、抗体水平。",
+    "error_detail": "遗漏了免疫前是否检查混合感染情况和抗体水平",
+    "original_question": "规模猪场猪瘟风险评估模型中，免疫接种的风险因素包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "无害化处理的风险因素包括制度的建立。",
+    "reference_case": "无害化处理的风险因素包括制度的建立及执行情况、处理情况。",
+    "error_detail": "遗漏了执行情况、处理情况",
+    "original_question": "规模猪场猪瘟风险评估模型中，无害化处理的风险因素包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "Excel自动数据处理模型表格简化了数据计算流程。",
+    "reference_case": "Excel自动数据处理模型表格简化了数据计算流程，提高了评估结果的准确率，只需按照电子表格的步骤说明进行操作，将相应的评估分值填入表格即可自动核算评估结果，并能根据最终核算的结果判定风险等级。",
+    "error_detail": "遗漏了提高评估结果的准确率、自动核算评估结果、判定风险等级等功能",
+    "original_question": "规模猪场猪瘟风险评估模型的Excel自动数据处理模型表格有什么优点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在克隆五指山小型猪的妊娠诊断中，B超检测的最佳时间是胚胎移植后的第25天。",
+    "reference_case": "在克隆五指山小型猪的妊娠诊断中，B超检测的最佳时间是胚胎移植后的第30天。",
+    "error_detail": "最佳检测时间错误",
+    "original_question": "在克隆五指山小型猪的妊娠诊断中，B超检测的最佳时间是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用B超检测克隆五指山小型猪的妊娠时，可以在第52天检测到胎儿的数量。",
+    "reference_case": "使用B超检测克隆五指山小型猪的妊娠时，可以在第52天检测到胎儿的数量、胎儿骨骼及头部和脊柱。",
+    "error_detail": "遗漏了胎儿骨骼及头部和脊柱",
+    "original_question": "使用B超检测克隆五指山小型猪的妊娠时，可以在第52天检测到哪些胎儿特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在克隆五指山小型猪的妊娠诊断中，猪早孕检测试剂盒的检测结果判断标准为：待检样品A值大于C1值判为阳性。",
+    "reference_case": "在克隆五指山小型猪的妊娠诊断中，猪早孕检测试剂盒的检测结果判断标准为：待检样品A值大于C1值判为阴性，表明待检母猪未妊娠；待检样品A值小于C1值判为阳性，表明待检母猪已妊娠；待检样品A值在C1值和C2值之间判为可疑，应稍后再取样进行重测。",
+    "error_detail": "判断标准错误",
+    "original_question": "在克隆五指山小型猪的妊娠诊断中，猪早孕检测试剂盒的检测结果如何判断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "克隆五指山小型猪的妊娠诊断中，B超检测和猪早孕检测试剂盒的联合使用能够提高诊断速度。",
+    "reference_case": "克隆五指山小型猪的妊娠诊断中，B超检测和猪早孕检测试剂盒的联合使用能够及时排除干扰，提高克隆猪受体妊娠诊断的准确率。",
+    "error_detail": "错误地强调了诊断速度而非准确率",
+    "original_question": "克隆五指山小型猪的妊娠诊断中，B超检测和猪早孕检测试剂盒的联合使用有何优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在克隆五指山小型猪的妊娠诊断中，B超检测在第87天可以观察到胎心。",
+    "reference_case": "在克隆五指山小型猪的妊娠诊断中，B超检测在第87天可以观察到胎动。",
+    "error_detail": "观察到的现象错误",
+    "original_question": "在克隆五指山小型猪的妊娠诊断中，B超检测在第87天可以观察到什么现象？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在克隆五指山小型猪的妊娠诊断中，猪早孕检测试剂盒的检测结果与B超检测结果完全一致。",
+    "reference_case": "在克隆五指山小型猪的妊娠诊断中，猪早孕检测试剂盒的检测结果与B超检测结果基本一致，除了0139号检测结果不一致外，其余结果全部一致。",
+    "error_detail": "一致性描述错误",
+    "original_question": "在克隆五指山小型猪的妊娠诊断中，猪早孕检测试剂盒的检测结果与B超检测结果的一致性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "克隆五指山小型猪的妊娠诊断中，11头受体母猪妊娠，成功分娩出60头克隆五指山小型猪。",
+    "reference_case": "克隆五指山小型猪的妊娠诊断中，11头受体母猪妊娠，成功分娩出67头克隆五指山小型猪，受体母猪产仔率为6只/头，新生仔猪死亡率为32:84%。",
+    "error_detail": "分娩数量错误",
+    "original_question": "克隆五指山小型猪的妊娠诊断中，受体母猪的分娩情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在克隆五指山小型猪的妊娠诊断中，B超检测和猪早孕检测试剂盒的联合使用能够提高诊断速度。",
+    "reference_case": "在克隆五指山小型猪的妊娠诊断中，B超检测和猪早孕检测试剂盒的联合使用能够及时排除干扰，提高克隆猪受体妊娠诊断的准确率。",
+    "error_detail": "错误地强调了诊断速度而非准确率",
+    "original_question": "在克隆五指山小型猪的妊娠诊断中，B超检测和猪早孕检测试剂盒的联合使用对妊娠诊断的准确性有何影响？",
+    "original_input": ""
+  }
+]

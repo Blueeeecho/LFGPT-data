@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在撒坝猪 SLA - DQB 基因的不同基因型中，BG 基因型和 GG 基因型在 70 日龄～4 月龄日增重上表现出显著差异，CC 基因型和 CG 基因型在 4～6 月龄日增重上表现出显著差异，且差异幅度超过50%。",
+    "reference_case": "在撒坝猪 SLA - DQB 基因的不同基因型中，BG 基因型和 GG 基因型在 70 日龄～4 月龄日增重上表现出显著差异，CC 基因型和 CG 基因型在 4～6 月龄日增重上表现出显著差异。",
+    "error_detail": "添加了不存在的差异幅度数据",
+    "original_question": "撒坝猪 SLA - DQB 基因的不同基因型在日增重方面有哪些显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "撒坝猪 SLA - DQB 基因的研究主要集中在抗病育种、生长性状和繁殖性能方面，以及肉质改良。",
+    "reference_case": "撒坝猪 SLA - DQB 基因的研究主要集中在抗病育种、生长性状和繁殖性能方面。",
+    "error_detail": "添加了未提及的研究方面",
+    "original_question": "撒坝猪 SLA - DQB 基因的研究主要集中在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在撒坝猪 SLA - DQB 基因的研究中，CC 基因型和 BB 基因型在大多数性状上表现较好，其中 CC 基因型在90%的性状上表现比其他基因型好。",
+    "reference_case": "在撒坝猪 SLA - DQB 基因的研究中，CC 基因型和 BB 基因型在大多数性状上表现较好，其中 CC 基因型在大多数性状上表现比其他基因型好。",
+    "error_detail": "添加了不具体的比例数据",
+    "original_question": "撒坝猪 SLA - DQB 基因的研究中，哪些基因型在大多数性状上表现较好？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在撒坝猪 SLA - DQB 基因的研究中，可能导致基因型间差异不显著的因素包括 SLA 与生长性状间的相关性不大、样本来自经过选择的猪群以及 SLA 本身功能属于免疫系统与抗病性相关，此外，还可能因为实验设计存在缺陷。",
+    "reference_case": "在撒坝猪 SLA - DQB 基因的研究中，可能导致基因型间差异不显著的因素包括 SLA 与生长性状间的相关性不大、样本来自经过选择的猪群以及 SLA 本身功能属于免疫系统与抗病性相关。",
+    "error_detail": "添加了未经证实的假设",
+    "original_question": "撒坝猪 SLA - DQB 基因的研究中，哪些因素可能导致基因型间的差异不显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验采用了发酵床舍、地热舍、热风暖气舍、挤缩板 + 保温棉 + 苇草舍五种保温措施。",
+    "reference_case": "试验采用了发酵床舍、地热舍、热风暖气舍、挤缩板 + 保温棉 + 苇草舍四种保温措施。",
+    "error_detail": "错误地增加了保温措施的数量",
+    "original_question": "北方寒冷地区冬季不同保温措施对猪生长性能的影响研究中，试验采用了哪些保温措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "热风暖气舍的主要缺点是取暖费用高且温度起伏不定，导致猪只生长缓慢，且设备维护成本高。",
+    "reference_case": "热风暖气舍的主要缺点是取暖费用高且温度起伏不定，导致猪只生长缓慢。",
+    "error_detail": "添加了未经提及的缺点",
+    "original_question": "在北方寒冷地区冬季不同保温措施对猪生长性能的影响研究中，热风暖气舍的主要缺点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "挤缩板 + 保温棉 + 苇草舍的保温性能优秀，造价低，虽然雰水较多，但保温性能优秀。",
+    "reference_case": "挤缩板 + 保温棉 + 苇草舍的保温性能良好，造价低，虽然雰水较多，但保温性能良好。",
+    "error_detail": "夸大了保温性能的描述",
+    "original_question": "北方寒冷地区冬季不同保温措施对猪生长性能的影响研究中，挤缩板 + 保温棉 + 苇草舍的保温性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "挤缩板 + 保温棉 + 苇草舍的投入成本是4000元。",
+    "reference_case": "挤缩板 + 保温棉 + 苇草舍的投入成本是3900元。",
+    "error_detail": "错误地修改了投入成本数据",
+    "original_question": "在北方寒冷地区冬季不同保温措施对猪生长性能的影响研究中，挤缩板 + 保温棉 + 苇草舍的投入成本是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "发酵床舍的舍内温度最高且最稳定。",
+    "reference_case": "地热舍的舍内温度最高且最稳定。",
+    "error_detail": "错误地改变了保温措施的类型",
+    "original_question": "在北方寒冷地区冬季不同保温措施对猪生长性能的影响研究中，哪种保温措施的舍内温度最高且最稳定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发酵床舍的主要问题是舍内温度低且极度潮湿，需要定期人工清理，否则猪只没有地方躺卧，导致猪生长缓慢且患病率高达50%。",
+    "reference_case": "发酵床舍的主要问题是舍内温度低且极度潮湿，需要定期人工清理，否则猪只没有地方躺卧，导致猪生长缓慢且患病率高。",
+    "error_detail": "添加了不具体的患病率数据",
+    "original_question": "北方寒冷地区冬季不同保温措施对猪生长性能的影响研究中，发酵床舍的主要问题是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发酵床舍的成活率是85%。",
+    "reference_case": "发酵床舍的成活率是90%。",
+    "error_detail": "错误地修改了成活率数据",
+    "original_question": "在北方寒冷地区冬季不同保温措施对猪生长性能的影响研究中，发酵床舍的成活率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对照组的受胎率显著高于试验组，差异幅度超过20%。",
+    "reference_case": "对照组的受胎率高于试验组。",
+    "error_detail": "添加了不存在的差异幅度数据",
+    "original_question": "在智能化群养模式对母猪繁殖性能的影响研究中，试验组和对照组母猪的受胎率有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "试验组采用了德国 Big Dutchman 智能化母猪饲养管理系统，而对照组采用了传统的限位栏饲养模式。",
+    "reference_case": "试验组采用了荷兰 Nedap Velos 智能化母猪饲养管理系统，而对照组采用了传统的限位栏饲养模式。",
+    "error_detail": "错误地改变了饲养管理系统的品牌和国家",
+    "original_question": "智能化群养模式对母猪繁殖性能的影响研究中，试验组和对照组分别采用了哪种饲养系统？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "试验组采用Velos智能化母猪饲养管理系统，而对照组采用限位栏饲养模式，但分娩舍中的饲养管理方式均相同，且试验组的饲料配方更优。",
+    "reference_case": "试验组采用Velos智能化母猪饲养管理系统，而对照组采用限位栏饲养模式，但分娩舍中的饲养管理方式均相同。",
+    "error_detail": "添加了未经证实的饲料配方差异",
+    "original_question": "在智能化群养模式对母猪繁殖性能的影响研究中，试验组和对照组母猪的饲养管理方式有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对照组的发情至配种时间间隔显著低于试验组，差异幅度超过30%。",
+    "reference_case": "对照组的发情至配种时间间隔显著低于试验组。",
+    "error_detail": "添加了不存在的差异幅度数据",
+    "original_question": "智能化群养模式对母猪繁殖性能的影响研究中，试验组和对照组在发情至配种时间间隔上有何显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验组的断奶至配种时间间隔显著低于对照组，差异幅度超过25%。",
+    "reference_case": "试验组的断奶至配种时间间隔显著低于对照组。",
+    "error_detail": "添加了不存在的差异幅度数据",
+    "original_question": "在智能化群养模式对母猪繁殖性能的影响研究中，试验组和对照组在断奶至配种时间间隔上有何显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验组的断奶至发情时间间隔显著低于对照组，差异幅度超过15%。",
+    "reference_case": "试验组的断奶至发情时间间隔显著低于对照组。",
+    "error_detail": "添加了不存在的差异幅度数据",
+    "original_question": "智能化群养模式对母猪繁殖性能的影响研究中，试验组和对照组在断奶至发情时间间隔上有何显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对照组的母猪背膘变化显著高于试验组，差异幅度超过10%。",
+    "reference_case": "对照组的母猪背膘变化显著高于试验组。",
+    "error_detail": "添加了不存在的差异幅度数据",
+    "original_question": "在智能化群养模式对母猪繁殖性能的影响研究中，试验组和对照组母猪的背膘变化有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "对照组的分娩舍为直通单列式设计，每栋6套产床，可饲养12头分娩、哺乳母猪；试验组的分娩舍为直通双列式设计，每列6套产床，每栋共可饲养24头分娩、哺乳母猪。",
+    "reference_case": "对照组的分娩舍为小单元分娩舍，每栋6套产床，可饲养12头分娩、哺乳母猪；试验组的分娩舍为直通双列式设计，每列6套产床，每栋共可饲养24头分娩、哺乳母猪。",
+    "error_detail": "错误地改变了对照组分娩舍的设计描述",
+    "original_question": "智能化群养模式对母猪繁殖性能的影响研究中，试验组和对照组的分娩舍设计有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在云南省楚雄和禄丰地区撒坝猪大肠杆菌的研究中，使用了血琼脂培养基进行细菌的分离培养，并通过革兰染色和光学显微镜观察进行形态学观察。",
+    "reference_case": "在云南省楚雄和禄丰地区撒坝猪大肠杆菌的研究中，使用了麦康凯培养基进行细菌的分离培养，并通过革兰染色和光学显微镜观察进行形态学观察。",
+    "error_detail": "错误地改变了培养基的类型",
+    "original_question": "在云南省楚雄和禄丰地区撒坝猪大肠杆菌的研究中，使用了哪些方法进行细菌的分离培养与形态学观察？",
+    "original_input": ""
+  }
+]

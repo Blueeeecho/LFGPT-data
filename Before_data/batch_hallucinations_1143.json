@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重组蛋白的分子量为56 ku。",
+    "reference_case": "重组蛋白的分子量为46 ku。",
+    "error_detail": "分子量数值错误",
+    "original_question": "在猪肺炎支原体P159蛋白的截短表达实验中，重组蛋白的分子量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "western blot检测结果表明该重组蛋白能够与Mhp阳性血清发生特异性反应，表明该蛋白具有良好的免疫反应原性，并且可以用于疫苗开发。",
+    "reference_case": "western blot检测结果表明该重组蛋白能够与Mhp阳性血清发生特异性反应，表明该蛋白具有良好的免疫反应原性。",
+    "error_detail": "添加了未经证实的疫苗开发用途",
+    "original_question": "猪肺炎支原体P159蛋白的截短表达实验中，western blot检测的结果表明该重组蛋白具有什么特性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "表达的截短蛋白可以粘附于猪肺上皮细胞（SJPL）表面，并完全抑制Mhp对SJPL的粘附作用。",
+    "reference_case": "表达的截短蛋白可以粘附于猪肺上皮细胞（SJPL）表面，并部分抑制Mhp对SJPL的粘附作用。",
+    "error_detail": "将部分抑制错误表述为完全抑制",
+    "original_question": "猪肺炎支原体P159蛋白的截短表达实验中，表达的截短蛋白对猪肺上皮细胞（SJPL）的黏附作用如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用的表达载体是pET-32a(+)。",
+    "reference_case": "使用的表达载体是pET-28a(+)。",
+    "error_detail": "表达载体名称错误",
+    "original_question": "猪肺炎支原体P159蛋白的截短表达实验中，使用的表达载体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用于诱导表达的IPTG浓度是0.5 mM。",
+    "reference_case": "用于诱导表达的IPTG浓度是1 mM。",
+    "error_detail": "IPTG浓度数值错误",
+    "original_question": "猪肺炎支原体P159蛋白的截短表达实验中，用于诱导表达的IPTG浓度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "用于western blot检测的二抗是兔抗猪IgG-HRP。",
+    "reference_case": "用于western blot检测的二抗是羊抗猪IgG-HRP。",
+    "error_detail": "二抗来源错误",
+    "original_question": "猪肺炎支原体P159蛋白的截短表达实验中，用于western blot检测的二抗是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "用于黏附试验的细胞是人肺上皮细胞（A549）。",
+    "reference_case": "用于黏附试验的细胞是猪肺上皮细胞（SJPL）。",
+    "error_detail": "细胞类型错误",
+    "original_question": "猪肺炎支原体P159蛋白的截短表达实验中，用于黏附试验的细胞是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "流式细胞仪检测结果表明P159蛋白抗原片段对Mhp黏附SJPL细胞能够产生轻微的抑制作用。",
+    "reference_case": "流式细胞仪检测结果表明P159蛋白抗原片段对Mhp黏附SJPL细胞能够产生有效的抑制作用，并且抑制作用较强。",
+    "error_detail": "抑制作用程度描述错误",
+    "original_question": "猪肺炎支原体P159蛋白的截短表达实验中，流式细胞仪检测的结果表明P159蛋白抗原片段对Mhp黏附SJPL细胞的作用如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "引物P159-F的序列是5'-CTACAAGCTTTAAAACTCCCTCCAAAA G-3'，引物P159-R的序列是5'-TCTACTCGAGAATCAC CAAAGGCTAAT-3'。",
+    "reference_case": "引物P159-F的序列是5'-CTACAAGCTTTAAAACTCCCTCCAAAA G-3'，引物P159-R的序列是5'-TCTACTCGAGAATCAC CAAAGGCTAAT-3'。",
+    "error_detail": "引物序列正确，无错误",
+    "original_question": "猪肺炎支原体P159蛋白的截短表达实验中，用于PCR扩增的引物P159-F和P159-R的序列是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪CD81基因的全长约为810 bp。",
+    "reference_case": "猪CD81基因的全长约为710 bp。",
+    "error_detail": "基因全长数值错误",
+    "original_question": "猪CD81基因的全长是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪CD81基因的LEL区在不同物种间变异较小，但同一物种内部基本无变异。",
+    "reference_case": "猪CD81基因的LEL区在不同物种间变异较大，但同一物种内部基本无变异。",
+    "error_detail": "变异程度描述错误",
+    "original_question": "猪CD81基因的LEL区在不同物种间的变异情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪CD81基因的LEL区通过PCR扩增后，克隆到pET-28a(+)载体中，并在大肠杆菌中经IPTG诱导表达。",
+    "reference_case": "猪CD81基因的LEL区通过PCR扩增后，克隆到pGEX-4T-1载体中，并在大肠杆菌中经IPTG诱导表达。",
+    "error_detail": "表达载体名称错误",
+    "original_question": "猪CD81基因的LEL区是如何进行原核表达的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪CD81基因的LEL区重组蛋白主要以可溶性形式存在。",
+    "reference_case": "猪CD81基因的LEL区重组蛋白主要以包涵体形式存在。",
+    "error_detail": "蛋白存在形式错误",
+    "original_question": "猪CD81基因的LEL区重组蛋白主要以什么形式存在？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪CD81基因的LEL区重组蛋白的抗原性通过ELISA鉴定，使用GST单克隆抗体作为一抗，羊抗鼠IgG-HRP作为二抗，DAB显色试剂盒显色。",
+    "reference_case": "猪CD81基因的LEL区重组蛋白的抗原性通过Western blot鉴定，使用GST单克隆抗体作为一抗，羊抗鼠IgG-HRP作为二抗，DAB显色试剂盒显色。",
+    "error_detail": "鉴定方法错误",
+    "original_question": "猪CD81基因的LEL区重组蛋白的抗原性是如何鉴定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪CD81基因的LEL区重组蛋白在诱导6小时后出现一条蛋白条带，表明重组蛋白获得表达。",
+    "reference_case": "猪CD81基因的LEL区重组蛋白在诱导4小时后出现一条蛋白条带，表明重组蛋白获得表达。",
+    "error_detail": "诱导时间错误",
+    "original_question": "猪CD81基因的LEL区重组蛋白的表达量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪CD81基因的LEL区重组蛋白通过亲和层析纯化。",
+    "reference_case": "猪CD81基因的LEL区重组蛋白通过包涵体洗涤液充分洗涤包涵体，8 M尿素溶解，分光光度计测定浓度后保存备用。",
+    "error_detail": "纯化方法错误",
+    "original_question": "猪CD81基因的LEL区重组蛋白的纯化方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪CD81基因的LEL区重组蛋白的抗原性鉴定结果显示，重组蛋白可以被His单克隆抗体识别，表明重组蛋白以His融合蛋白形式表达。",
+    "reference_case": "猪CD81基因的LEL区重组蛋白的抗原性鉴定结果显示，重组蛋白可以被GST单克隆抗体识别，表明重组蛋白以GST融合蛋白形式表达。",
+    "error_detail": "抗体类型错误",
+    "original_question": "猪CD81基因的LEL区重组蛋白的抗原性鉴定结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪CD81基因的LEL区重组蛋白的表达载体是pET-28a(+)。",
+    "reference_case": "猪CD81基因的LEL区重组蛋白的表达载体是pGEX-4T-1。",
+    "error_detail": "表达载体名称错误",
+    "original_question": "猪CD81基因的LEL区重组蛋白的表达载体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪嵴病毒（PKV）最早是在2005年被检测到的。",
+    "reference_case": "猪嵴病毒（PKV）最早是在2007年被检测到的。",
+    "error_detail": "检测年份错误",
+    "original_question": "猪嵴病毒（PKV）最早是在哪一年被检测到的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "该研究由姜一峰、周艳君、王亚欣、朱建平、徐彦召、童武、虞凌雪、张光志完成。",
+    "reference_case": "该研究由姜一峰、周艳君、王亚欣、朱建平、徐彦召、童武、虞凌雪、童光志完成。",
+    "error_detail": "研究人员姓名错误",
+    "original_question": "高致病性猪繁殖与呼吸综合征病毒强弱毒 ORF1a、ORF1b、ORF2-ORF7 片段互换嵌合病毒的构建及其生物学特性的分析是由哪些研究人员完成的？",
+    "original_input": ""
+  }
+]

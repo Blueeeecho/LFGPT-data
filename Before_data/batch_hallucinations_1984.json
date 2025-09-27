@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的呼吸形式包括胸式呼吸、腹式呼吸和混合式呼吸。",
+    "reference_case": "猪的呼吸形式包括胸腹式呼吸、腹式呼吸和胸式呼吸。",
+    "error_detail": "将'胸腹式呼吸'错误地称为'混合式呼吸'，属于术语错误。",
+    "original_question": "猪在呼吸运动中有哪些呼吸形式？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "贫血的原因包括长期缺乏运动导致血液循环不畅。",
+    "reference_case": "由于大血管破裂，或肝、脾破裂，及外伤失血过多等引起失血性贫血；寄生虫产生毒素的作用，或一些病理产物的作用使红血球膜的脆性增高，红血球大量崩解、破坏，发生溶血性贫血；因饲料中缺乏蛋白质、铁质等成分，或病猪长期拉稀，营养物质吸收减少的情况下引起营养性贫血。",
+    "error_detail": "将'缺乏运动'作为贫血的原因，属于因果错误。",
+    "original_question": "贫血的原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "肌注：猪、羊3.0〜4.0，马、牛15.0～20.0。",
+    "reference_case": "肌注：猪、羊2.0〜3.0，马、牛10.0～15.0。",
+    "error_detail": "数值偏差，剂量被夸大。",
+    "original_question": "安胎针的常用剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "内服，猪、羊0.1～0.2；马、牛0.2～0.4。",
+    "reference_case": "内服，猪、羊0.05～0.1；马、牛0.1～0.3。",
+    "error_detail": "数值偏差，剂量被夸大。",
+    "original_question": "甲基睾丸素的常用剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪体内的水分含量在40%到50%之间。",
+    "reference_case": "猪体内的水分含量在55%到70%之间。",
+    "error_detail": "数值偏差，水分含量被低估。",
+    "original_question": "猪体内的水分含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "水在猪体内的主要生理作用是维持生命活动。",
+    "reference_case": "水在消化饲料、吸收养分、运输养分、排出废物、调节体温等方面起着重要的作用。",
+    "error_detail": "回答过于笼统，未具体说明水的生理作用。",
+    "original_question": "水在猪体内的主要生理作用有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪体缺水会导致立即死亡。",
+    "reference_case": "猪体缺水会影响血液循环，造成消化不良，代谢不畅，肢体无力，精神不振，甚至发生疾病或死亡。",
+    "error_detail": "添加了不合理的假设，缺水不会立即导致死亡。",
+    "original_question": "猪体缺水会对生理活动产生什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "泌乳母猪和幼猪对水分的需求量相同。",
+    "reference_case": "泌乳母猪需水量大，幼猪代谢旺盛需水也多。",
+    "error_detail": "错误地认为两者的需水量相同，忽略了具体差异。",
+    "original_question": "泌乳母猪和幼猪对水分的需求量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "中曲发酵饲料的制作方法是在夏季发酵室温30°C-35°C。",
+    "reference_case": "原料粉碎后加中曲和水搅拌均匀，冬季发酵室温15°C-20°C，上面覆盖麻袋保温，发酵一昼夜即可喂猪。",
+    "error_detail": "季节和温度条件错误，应为冬季15°C-20°C。",
+    "original_question": "中曲发酵饲料的制作方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "生料喂猪与熟料喂猪相比没有任何优点。",
+    "reference_case": "生料喂猪不需要蒸煮设备和燃料，节省人工，保全了饲料的养分，猪长得快，效果好。",
+    "error_detail": "逻辑矛盾，完全否认生料喂猪的优点。",
+    "original_question": "生料喂猪与熟料喂猪相比有什么优点？",
+    "original_input": ""
+  }
+]

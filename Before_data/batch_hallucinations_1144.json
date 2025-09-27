@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "该研究由侯绍华、柏丽华、郭晓宇、贾红、姜一曈、朱鸿飞和张三完成。",
+    "reference_case": "该研究由侯绍华、柏丽华、郭晓宇、贾红、姜一曈、朱鸿飞完成。",
+    "error_detail": "添加了不存在的作者张三",
+    "original_question": "非洲猪瘟病毒 p72 蛋白杆状病毒表达系统的构建及其抗原性分析是由哪些研究人员完成的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "非洲猪瘟病毒（ASFV）的基因组大小为150到170 kb。",
+    "reference_case": "非洲猪瘟病毒（ASFV）的基因组大小为170到190 kb。",
+    "error_detail": "基因组大小数据错误",
+    "original_question": "非洲猪瘟病毒（ASFV）的基因组大小是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "中国\"中草药饲料\"专利中，饲料的饲喂对象主要包括猪、禽类、畜禽类、牛、羊和水产动物等，以及宠物。",
+    "reference_case": "中国\"中草药饲料\"专利中，饲料的饲喂对象主要包括猪、禽类、畜禽类、牛、羊和水产动物等。",
+    "error_detail": "添加了不存在的饲喂对象宠物",
+    "original_question": "中国\"中草药饲料\"专利中，饲料的饲喂对象主要有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "研究目的是明确甘肃省猪流感抗体血清型分布，为甘肃省的猪流感防控提供科学依据。",
+    "reference_case": "研究目的是明确甘肃省猪流感抗体血清型分布，为甘肃省乃至全国的猪流感防控提供科学依据。",
+    "error_detail": "忽略了\"乃至全国\"的范围",
+    "original_question": "甘肃省猪流感抗体血清学调查的研究目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "使用了酶联免疫吸附试验（ELISA）方法检测猪流感 H1N1、H3N2亚型抗体，以及血凝（HA）和血凝抑制试验（HI）法进行猪流感 H5 和 H7 亚型抗体检测。",
+    "reference_case": "使用了酶联免疫吸附试验（ELISA）方法检测猪流感 H1N1、H3N2亚型抗体，以及血凝（HA）和血凝抑制试验（HI）法进行猪流感 H5 和 H9 亚型抗体检测。",
+    "error_detail": "将H9亚型错误地改为H7亚型",
+    "original_question": "甘肃省猪流感抗体血清学调查中使用了哪些检测方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "H3N2亚型抗体的阳性率在不同猪场之间的差异较大，最高达到80%，而有的地区未检出。",
+    "reference_case": "H3N2亚型抗体的阳性率在不同猪场之间的差异较大，最高达到66:67%，而有的地区未检出。",
+    "error_detail": "阳性率数据错误",
+    "original_question": "甘肃省猪流感抗体血清学调查中，H3N2亚型抗体的阳性率在不同猪场之间的差异如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "H5亚型抗体的阳性率在不同猪场之间的差异较大，最高达到30%，而有的地区未检出。",
+    "reference_case": "H5亚型抗体的阳性率在不同猪场之间的差异较大，最高达到20%，而有的地区未检出。",
+    "error_detail": "阳性率数据错误",
+    "original_question": "甘肃省猪流感抗体血清学调查中，H5亚型抗体的阳性率在不同猪场之间的差异如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "H9亚型抗体的阳性率在不同猪场之间的差异较大，最高达到60%，而有的地区未检出。",
+    "reference_case": "H9亚型抗体的阳性率在不同猪场之间的差异较大，最高达到52%，而有的地区未检出。",
+    "error_detail": "阳性率数据错误",
+    "original_question": "甘肃省猪流感抗体血清学调查中，H9亚型抗体的阳性率在不同猪场之间的差异如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "调查结果显示，各地区之间各血清型抗体阳性率有规律可循，总体情况看，各血清型抗体阳性率 H1N1>H3N2> H9>H5。",
+    "reference_case": "调查结果显示，各地区之间各血清型抗体阳性率无规律可循，但总体情况看，各血清型抗体阳性率 H1N1>H3N2> H9>H5。",
+    "error_detail": "错误地声称有规律可循",
+    "original_question": "甘肃省猪流感抗体血清学调查中，哪些因素影响了猪流感抗体的阳性率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪流感病毒主要通过消化道传播，是一种急性、热性和高度接触性的消化道传染病。",
+    "reference_case": "猪流感病毒主要通过呼吸道传播，是一种急性、热性和高度接触性的呼吸道传染病。",
+    "error_detail": "传播途径错误",
+    "original_question": "甘肃省猪流感抗体血清学调查中，猪流感病毒的传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪流感病毒的感染可直接引起感染猪死亡，生产性能下降，母猪流产，或与其他病毒或细菌并发或继发感染等，对养猪业造成极大损失，同时也会影响人类的健康。",
+    "reference_case": "猪流感病毒的感染可直接引起感染猪死亡，生产性能下降，母猪流产，或与其他病毒或细菌并发或继发感染等，对养猪业造成极大损失。",
+    "error_detail": "添加了未提及的人类健康影响",
+    "original_question": "甘肃省猪流感抗体血清学调查中，猪流感病毒的感染对养猪业的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在治疗猪病时，大禹逍遥康口服液的用量为500 mL。",
+    "reference_case": "在治疗猪病时，大禹逍遥康口服液的用量为1000 mL。",
+    "error_detail": "用量数据错误",
+    "original_question": "在治疗猪病时，大禹逍遥康口服液的用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在治疗不食猪时，使用了乃近 10 mL、柴胡 10 mL 进行肌肉注射，随后使用大禹逍遥康口服液 500 mL、大黄苏打粉 50 g 和去痛片 3 g（研细）拌料喂服。",
+    "reference_case": "在治疗不食猪时，使用了乃近 10 mL、柴胡 10 mL 进行肌肉注射，随后使用大禹逍遥康口服液 1000 mL、大黄苏打粉 100 g 和去痛片 5 g（研细）拌料喂服。",
+    "error_detail": "药物用量错误",
+    "original_question": "在治疗不食猪时，使用了哪些药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪、牛湿热痢疾的病因主要是在寒湿盛行之季，饲养管理不当，饲草、饲料发霉变质伤及脾胃，寒湿之邪入侵郁蒸肠胃，导致肠胃气运失调而发病。",
+    "reference_case": "猪、牛湿热痢疾的病因主要是在暑湿盛行之季，饲养管理不当，饲草、饲料发霉变质伤及脾胃，湿热之邪入侵郁蒸肠胃，导致肠胃气运失调而发病。",
+    "error_detail": "病因描述错误",
+    "original_question": "猪、牛湿热痢疾的病因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "清热燥湿法治疗猪湿热痢疾的方剂是药药汤加味，包括白苟、黄连、黄芩、桂枝、槟榔、木香、当归、荆芥、鲜茅根和甘草。",
+    "reference_case": "清热燥湿法治疗猪湿热痢疾的方剂是药药汤加味，包括白苟、黄连、黄芩、桂枝、槟榔、木香、当归、荆芥、鲜茅根。",
+    "error_detail": "添加了不存在的药材甘草",
+    "original_question": "清热燥湿法治疗猪湿热痢疾的方剂是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪黄白痢的主要病原体是产肠毒素性大肠埃希氏菌和沙门氏菌。",
+    "reference_case": "仔猪黄白痢的主要病原体是产肠毒素性大肠埃希氏菌。",
+    "error_detail": "添加了不存在的病原体沙门氏菌",
+    "original_question": "仔猪黄白痢的主要病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪黄痢多发于产后5-15天，而白痢多发于产后15天。",
+    "reference_case": "仔猪黄痢多发于产后3-10天，而白痢多发于产后10天。",
+    "error_detail": "发病时间数据错误",
+    "original_question": "仔猪黄痢和白痢的发病时间有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "仔猪自身因素包括胃肠系统发育不健全、胃酸分泌能力差、缺铁性贫血、低糖血症、硒和VE缺乏等营养代谢性疾病，以及遗传因素。",
+    "reference_case": "仔猪自身因素包括胃肠系统发育不健全、胃酸分泌能力差、缺铁性贫血、低糖血症、硒和VE缺乏等营养代谢性疾病。",
+    "error_detail": "添加了未提及的遗传因素",
+    "original_question": "仔猪黄白痢的发病原因中，仔猪自身因素包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "母猪胎次越多，仔猪黄白痢的发病率和死亡率越高；反之，母猪胎次减少，仔猪通过吸吮母乳获得母源抗体，具有一定的抵抗力。",
+    "reference_case": "母猪胎次越少，仔猪黄白痢的发病率和死亡率越高；反之，母猪胎次增加，仔猪通过吸吮母乳获得母源抗体，具有一定的抵抗力。",
+    "error_detail": "因果关系倒置",
+    "original_question": "母猪胎次如何影响仔猪黄白痢的发病率和死亡率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "环境因素如气候突变、圈舍潮湿、饲料突变、饮水卫生条件差及转群等应激因素，均可诱发或加重仔猪黄白痢的发生，尤其是当仔猪处于断奶期时。",
+    "reference_case": "环境因素如气候突变、圈舍潮湿、饲料突变、饮水卫生条件差及转群等应激因素，均可诱发或加重仔猪黄白痢的发生。",
+    "error_detail": "添加了未提及的断奶期因素",
+    "original_question": "环境因素如何诱发或加重仔猪黄白痢的发生？",
+    "original_input": ""
+  }
+]

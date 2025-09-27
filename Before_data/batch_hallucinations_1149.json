@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "环境消毒可以防止猪食入感染性虫卵而直接感染，通过加热消毒饲养员衣物和用具，以及喷洒消毒栏舍和车辆，减少猪体外的寄生虫对治疗猪的再次感染，效果达到90%。",
+    "reference_case": "环境消毒可以防止猪食入感染性虫卵而直接感染，通过加热消毒饲养员衣物和用具，以及喷洒消毒栏舍和车辆，减少猪体外的寄生虫对治疗猪的再次感染。",
+    "error_detail": "添加了未经验证的效果百分比",
+    "original_question": "环境消毒在控制猪寄生虫病中起到了什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "研究者使用了基因测序技术来检测猪肾细胞系IBRS-2中的猪细小病毒（PPV）。",
+    "reference_case": "研究者使用了聚合酶链式反应（PCR）技术来检测猪肾细胞系IBRS-2中的猪细小病毒（PPV）。",
+    "error_detail": "错误地将PCR技术替换为基因测序技术",
+    "original_question": "研究者使用了哪种技术来检测猪肾细胞系IBRS-2中的猪细小病毒（PPV）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪细小病毒（PPV）是由Mary和Mahnel于1986年从猪瘟病毒组织培养中首次发现的，并被认为是培养细胞内潜伏感染的病毒。",
+    "reference_case": "猪细小病毒（PPV）是由Mary和Mahnel于1966年从猪瘟病毒组织培养中首次发现的，并被认为是培养细胞内潜伏感染的病毒。",
+    "error_detail": "错误地更改了发现年份",
+    "original_question": "猪细小病毒（PPV）是如何首次被发现的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "研究者认为猪肾细胞系IBRS-2感染猪细小病毒（PPV）的主要原因可能是某些采购的或向别的实验室引进的种细胞早期潜伏感染PPV，经过多次细胞传代后显现出PPV细胞病变，或者是因为实验室环境污染。",
+    "reference_case": "研究者认为猪肾细胞系IBRS-2感染猪细小病毒（PPV）的主要原因可能是某些采购的或向别的实验室引进的种细胞早期潜伏感染PPV，经过多次细胞传代后显现出PPV细胞病变。",
+    "error_detail": "添加了未经证实的假设",
+    "original_question": "研究者认为猪肾细胞系IBRS-2感染猪细小病毒（PPV）的主要原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "研究者建议在病毒培养过程中应设置未接种PPV的空白细胞对照，以防PPV的非接种感染而出现的假阳性。此外，还应定期更换培养基。",
+    "reference_case": "研究者建议在病毒培养过程中应设置未接种PPV的空白细胞对照，以防PPV的非接种感染而出现的假阳性。若空白细胞对照出现PPV感染的细胞病变且PCR检测为PPV阳性，可判断培养用细胞之前已被PPV感染，则同批次的PPV增殖细胞全部都要弃去。",
+    "error_detail": "添加了无关的建议",
+    "original_question": "研究者建议在病毒培养过程中应采取哪些预防措施以避免猪细小病毒（PPV）的感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在猪肾细胞系IBRS-2的培养过程中，研究者观察到了细胞收缩、细胞颗粒增多、折光度增强、细胞崩解以及部分细胞从瓶壁脱落的现象，这些现象在美国的实验室中更为常见。",
+    "reference_case": "在猪肾细胞系IBRS-2的培养过程中，研究者观察到了细胞收缩、细胞颗粒增多、折光度增强、细胞崩解以及部分细胞从瓶壁脱落的现象。",
+    "error_detail": "错误地添加了地域性描述",
+    "original_question": "在猪肾细胞系IBRS-2的培养过程中，研究者观察到了哪些病变现象？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在PCR检测中，PPV阳性对照（PPV-N株）和10个批次出现类似PPV感染病变的IBRS-2细胞显示出了445 bp的PPV特异性核酸条带。",
+    "reference_case": "在PCR检测中，PPV阳性对照（PPV-N株）和5个批次出现类似PPV感染病变的IBRS-2细胞显示出了445 bp的PPV特异性核酸条带。",
+    "error_detail": "错误地更改了批次数量",
+    "original_question": "在PCR检测中，哪些样品显示出了猪细小病毒（PPV）的特异性核酸条带？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "张林坤将病死猪排骨加工后以每斤5元或6元的价格零散批发给快餐店。",
+    "reference_case": "张林坤将病死猪排骨加工后以每斤3:5元或4元的价格零散批发给快餐店。",
+    "error_detail": "错误地更改了价格",
+    "original_question": "张林坤将病死猪排骨加工后以什么价格批发给快餐店？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "张林坤以每斤5元的价格向张连泉收购病死猪排骨。",
+    "reference_case": "张林坤以每斤3元的价格向张连泉收购病死猪排骨。",
+    "error_detail": "错误地更改了价格",
+    "original_question": "张林坤向张连泉收购病死猪排骨的价格是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "张连泉从2010年9月开始向他人收购病死猪，经加工分装后作为食品投放市场销售，主要是因为经济困难。",
+    "reference_case": "张连泉从2010年9月开始向他人收购病死猪，经加工分装后作为食品投放市场销售。",
+    "error_detail": "添加了未经证实的动机",
+    "original_question": "张连泉从2010年9月开始从事的非法活动是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "沈金元向张连泉销售了2000公斤的病死猪肉。",
+    "reference_case": "沈金元向张连泉销售了1115公斤的病死猪肉。",
+    "error_detail": "错误地更改了数量",
+    "original_question": "沈金元在2011年9月至10月间向张连泉销售了多少公斤的病死猪肉？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "冻库内所存病死猪肉中含有猪繁殖与呼吸综合征病毒和流感病毒。",
+    "reference_case": "冻库内所存病死猪肉中含有猪繁殖与呼吸综合征病毒和圆环病毒。",
+    "error_detail": "错误地将圆环病毒替换为流感病毒",
+    "original_question": "冻库内所存病死猪肉中鉴定出的病毒有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "甲县动物卫生监督所对蒋某的行政处罚决定是没收（销毁）100千克病猪肉，并处2000元罚款。",
+    "reference_case": "甲县动物卫生监督所对蒋某的行政处罚决定是没收（销毁）73千克病猪肉，并处1500元罚款。",
+    "error_detail": "错误地更改了数量和罚款金额",
+    "original_question": "甲县动物卫生监督所对蒋某的行政处罚决定是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "余某某因贩卖含有“瘦肉精”的生猪被公安机关以涉嫌非法经营罪立案查办。",
+    "reference_case": "余某某因贩卖含有“瘦肉精”的生猪被公安机关以涉嫌生产、销售有毒、有害食品罪立案查办。",
+    "error_detail": "错误地更改了罪名",
+    "original_question": "余某某因贩卖含有“瘦肉精”的生猪被公安机关以什么罪名立案查办？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "禹某某未按规定将案件移送公安机关追究刑事责任，导致余某某继续投喂“瘦肉精”养殖生猪，危害公众健康，并且导致了更多的违法行为。",
+    "reference_case": "禹某某未按规定将案件移送公安机关追究刑事责任，导致余某某继续投喂“瘦肉精”养殖生猪，危害公众健康。",
+    "error_detail": "添加了未经证实的后果",
+    "original_question": "禹某某未按规定将案件移送公安机关追究刑事责任，导致了什么后果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "张仲秋在会议上强调了口蹄疫、高致病性禽流感、猪瘟、小反刍兽疫和狂犬病作为区域优先防治病种。",
+    "reference_case": "张仲秋在会议上强调了口蹄疫、高致病性禽流感、猪瘟、小反刍兽疫作为区域优先防治病种。",
+    "error_detail": "错误地添加了病种",
+    "original_question": "张仲秋在会议上强调了哪些优先防治的病种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪瘟病毒（CSFV）E2蛋白与病毒的毒力有关，突变E2的糖基化位点和抑制E1-E2或E2-E2二聚体的形成都能使CSFV毒力致弱。E2蛋白830位的苏氨酸被丙氨酸替代可增强CSFV的传播能力。此外，E2蛋白还可诱导机体产生具有保护性作用的中和性抗体和产生强烈的细胞免疫。研究还发现E2蛋白可以用于疫苗开发。",
+    "reference_case": "猪瘟病毒（CSFV）E2蛋白与病毒的毒力有关，突变E2的糖基化位点和抑制E1-E2或E2-E2二聚体的形成都能使CSFV毒力致弱。E2蛋白830位的苏氨酸被丙氨酸替代可增强CSFV的传播能力。此外，E2蛋白还可诱导机体产生具有保护性作用的中和性抗体和产生强烈的细胞免疫。",
+    "error_detail": "添加了无关的研究发现",
+    "original_question": "猪瘟病毒（CSFV）E2蛋白的主要功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2011年至2012年广东省规模化猪场猪流感病毒（SIV）感染的血清学调查中，采集了2000份血清样品。",
+    "reference_case": "2011年至2012年广东省规模化猪场猪流感病毒（SIV）感染的血清学调查中，采集了1050份血清样品。",
+    "error_detail": "错误地更改了样品数量",
+    "original_question": "2011年至2012年广东省规模化猪场猪流感病毒（SIV）感染的血清学调查中，采集了多少份血清样品？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "广东省规模化猪场猪流感病毒（SIV）感染的血清学调查中，部分猪场存在H9亚型的抗体，这表明H9亚型病毒可能在猪群中广泛传播。",
+    "reference_case": "广东省规模化猪场猪流感病毒（SIV）感染的血清学调查中，部分猪场存在H9亚型的抗体。",
+    "error_detail": "添加了未经证实的推论",
+    "original_question": "广东省规模化猪场猪流感病毒（SIV）感染的血清学调查中，是否存在H9亚型的抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "广东省规模化猪场猪流感病毒（SIV）感染的血清学调查中，1月龄至2月龄的保育猪SIV抗体阳性率为20%，4月龄至5月龄的育肥猪SIV抗体阳性率为70%，6月龄以上的种猪阳性率最高，为90%。",
+    "reference_case": "广东省规模化猪场猪流感病毒（SIV）感染的血清学调查中，1月龄至2月龄的保育猪SIV抗体阳性率为11:7%，4月龄至5月龄的育肥猪SIV抗体阳性率为62:0%，6月龄以上的种猪阳性率最高，为77:4%。",
+    "error_detail": "错误地更改了阳性率",
+    "original_question": "广东省规模化猪场猪流感病毒（SIV）感染的血清学调查中，不同生长阶段猪群的SIV感染率有何差异？",
+    "original_input": ""
+  }
+]

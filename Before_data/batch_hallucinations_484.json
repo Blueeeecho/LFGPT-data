@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪卵母细胞的体外胚胎培养液的基础成分是NCSU-23，其中包含108:73 mol NaCl、4:78 mol KCl、1:19 mol KH2PO4、1:19 mol MgSO4·7H2O、5:55 mol D-Glucose、1:00 mol Glutamine、7:00 mol Taurine、5:00 mol Hypotaurine、25:07 mol NaHCO3、1:70 mol CaCl2·2H2O和0:5% BSA。",
+    "reference_case": "猪卵母细胞的体外胚胎培养液的基础成分是NCSU-23，其中包含108:73 mol NaCl、4:78 mol KCl、1:19 mol KH2PO4、1:19 mol MgSO4·7H2O、5:55 mol D-Glucose、1:00 mol Glutamine、7:00 mol Taurine、5:00 mol Hypotaurine、25:07 mol NaHCO3、1:70 mol CaCl2·2H2O和0:4% BSA。",
+    "error_detail": "BSA的浓度被错误地修改为0:5%，而原始数据为0:4%。",
+    "original_question": "猪卵母细胞的体外胚胎培养液的基础成分是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加10%新生牛血清或10%猪卵泡液对猪卵母细胞体外受精后的第8天囊胚率有显著影响。试验组1和试验组2的第8天囊胚率分别为15:2%和12:1%，与对照组的8:7%相比有显著差异（P<0:05:。",
+    "reference_case": "添加10%新生牛血清或10%猪卵泡液对猪卵母细胞体外受精后的第8天囊胚率没有显著影响。试验组1和试验组2的第8天囊胚率分别为9:2%和7:1%，与对照组的8:7%相比无显著差异（P>0:05:。",
+    "error_detail": "囊胚率的数据被错误地修改为显著高于对照组，而原始数据表明无显著差异。",
+    "original_question": "在成熟过程中添加牛血清和猪卵泡液对猪卵母细胞体外受精后的第8天囊胚率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪囊尾蚴全虫用0:9% NaCl匀浆，以5000 r/min离心15分钟，取上清液分别检测或于20℃冻存备测。",
+    "reference_case": "猪囊尾蚴全虫用0:9% NaCl匀浆，以3000 r/min离心15分钟，取上清液分别检测或于20℃冻存备测。",
+    "error_detail": "离心速度被错误地修改为5000 r/min，而原始数据为3000 r/min。",
+    "original_question": "猪囊尾蚴组织匀浆是如何制备的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在不同延胡索酸底物浓度溶液中，阿苯达唑和奥芬达唑均能竞争性抑制猪囊尾蚴组织匀浆延胡索酸还原酶活性，抑制曲线基本类似，抑制程度接近。",
+    "reference_case": "在不同延胡索酸底物浓度溶液中，阿苯达唑和奥芬达唑均能非竞争性抑制猪囊尾蚴组织匀浆延胡索酸还原酶活性，抑制曲线基本类似，抑制程度接近。",
+    "error_detail": "抑制类型被错误地修改为竞争性抑制，而原始数据为非竞争性抑制。",
+    "original_question": "阿苯达唑和奥芬达唑对不同底物浓度延胡索酸还原酶活性的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "测定不同浓度的药物对猪囊尾蚴组织匀浆延胡索酸还原酶活性的抑制作用，延胡索酸还原酶测定反应液为ADP 0:2 mmol/L, NADH 0:08 mmol/L, 延胡索酸0:250 mol/L。",
+    "reference_case": "测定不同浓度的药物对猪囊尾蚴组织匀浆延胡索酸还原酶活性的抑制作用，延胡索酸还原酶测定反应液为ADP 0:1 mmol/L, NADH 0:04 mmol/L, 延胡索酸0:125 mol/L。",
+    "error_detail": "反应液的浓度被错误地修改为原始数据的两倍。",
+    "original_question": "阿苯达唑和奥芬达唑对延胡索酸还原酶活性的抑制作用是如何测定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "阿苯达唑和奥芬达唑对猪肌肉匀浆延胡索酸还原酶活性的抑制作用显著。",
+    "reference_case": "阿苯达唑和奥芬达唑对猪肌肉匀浆延胡索酸还原酶活性的抑制作用不明显。",
+    "error_detail": "抑制作用的描述被错误地修改为显著，而原始数据表明不明显。",
+    "original_question": "阿苯达唑和奥芬达唑对猪肌肉匀浆延胡索酸还原酶活性的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "阿苯达唑和奥芬达唑均能抑制猪囊尾蚴组织匀浆中的延胡索酸还原酶活性，提示苯并咪唑氨基甲酸酯类药物的作用机理可能是竞争性抑制延胡索酸还原酶复合体，从而导致虫体因能量耗竭而死亡。",
+    "reference_case": "阿苯达唑和奥芬达唑均能抑制猪囊尾蚴组织匀浆中的延胡索酸还原酶活性，提示苯并咪唑氨基甲酸酯类药物的作用机理可能是非竞争性抑制延胡索酸还原酶复合体，从而导致虫体因能量耗竭而死亡。",
+    "error_detail": "抑制类型被错误地修改为竞争性抑制，而原始数据为非竞争性抑制。",
+    "original_question": "阿苯达唑和奥芬达唑对猪囊尾蚴延胡索酸还原酶的抑制作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "OXF和ALB对猪肌肉匀浆FR活性的抑制作用显著。",
+    "reference_case": "OXF和ALB对猪肌肉匀浆FR活性的抑制作用不明显。",
+    "error_detail": "抑制作用的描述被错误地修改为显著，而原始数据表明不明显。",
+    "original_question": "OXF和ALB对猪肌肉匀浆FR活性的抑制作用如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "OXF在浓度为0:070 mmol/l时达到最大抑制率51:6%，而ALB在浓度为0:14 mmol/l时达到最大抑制率47:8%。",
+    "reference_case": "OXF在浓度为0:035 mmol/l时达到最大抑制率51:6%，而ALB在浓度为0:07 mmol/l时达到最大抑制率47:8%。",
+    "error_detail": "药物浓度被错误地修改为原始数据的两倍。",
+    "original_question": "不同浓度的OXF和ALB对猪尾蛒匀浆FR活性的最大抑制率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在日粮中添加0:25% CLA时，饲料效率平均提高12:8%，尤其在试验前四周饲料利用率更高，平均为15:4%。",
+    "reference_case": "在日粮中添加0:25% CLA时，饲料效率平均提高6:4%，尤其在试验前四周饲料利用率更高，平均为7:7%。",
+    "error_detail": "饲料效率的提高比例被错误地修改为原始数据的两倍。",
+    "original_question": "在CLA对生长猪生长性能的影响试验中，日粮中添加0:25% CLA对饲料效率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "共轭亚油酸（CLA）在猪营养中的作用包括改善生长性能、增加瘦肉率、降低背膘厚度、改善脂肪硬度、影响脂肪中脂肪酸组分、提高猪肉产品的色泽稳定性和货架寿命，以及降低免疫机能。",
+    "reference_case": "共轭亚油酸（CLA）在猪营养中的作用包括改善生长性能、增加瘦肉率、降低背膘厚度、改善脂肪硬度、影响脂肪中脂肪酸组分、提高猪肉产品的色泽稳定性和货架寿命，以及提高免疫机能。",
+    "error_detail": "免疫机能的影响被错误地修改为降低，而原始数据为提高。",
+    "original_question": "共轭亚油酸（CLA）在猪营养中的作用有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "Bassaganya等的研究发现，在仔猪断奶1-2周CLA的添加导致仔猪日增重和采食下降，3-5周后，日增重显著提高，到6-7周时，CLA的添加对生长性能有显著影响，并且CD8+细胞亚型增高，有防止与疾病相关的生长抑制现象。",
+    "reference_case": "Bassaganya等的研究发现，在仔猪断奶1-2周CLA的添加导致仔猪日增重和采食下降，3-5周后，日增重显著提高，到6-7周时，CLA的添加对生长性能无任何影响，并且CD8+细胞亚型增高，有防止与疾病相关的生长抑制现象。",
+    "error_detail": "6-7周时的生长性能影响被错误地修改为有显著影响，而原始数据为无任何影响。",
+    "original_question": "Bassaganya等研究了添加CLA对14日龄断奶仔猪在不同环境中生长性能和免疫机能的影响，结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "O'Quinn等的研究表明，日粮中添加CLA可降低生长猪脂肪中饱和脂肪酸的含量、提高不饱和脂肪酸含量和降低腹部脂肪硬度。",
+    "reference_case": "O'Quinn等的研究表明，日粮中添加CLA可提高生长猪脂肪中饱和脂肪酸的含量、降低不饱和脂肪酸含量和增加腹部脂肪硬度。",
+    "error_detail": "脂肪成分和硬度的变化被错误地修改为相反的方向。",
+    "original_question": "O'Quinn等的研究表明，日粮中添加CLA对生长猪的脂肪成分有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在仔猪的乳阶段添加4克/千克的CLA可以显著提高增重。",
+    "reference_case": "在仔猪的乳阶段添加2克/千克的CLA可以显著提高增重。",
+    "error_detail": "CLA的添加量被错误地修改为原始数据的两倍。",
+    "original_question": "在仔猪的乳阶段添加多少CLA可以显著提高增重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长猪中添加不同水平的CLA，脂肪沉积显著下降。在添加20克/千克CLA水平下，脂肪沉积减少62%（176克/天）。",
+    "reference_case": "在生长猪中添加不同水平的CLA，脂肪沉积显著下降。在添加10克/千克CLA水平下，脂肪沉积减少31%（88克/天）。",
+    "error_detail": "CLA的添加量和脂肪沉积的减少比例被错误地修改为原始数据的两倍。",
+    "original_question": "在生长猪中添加不同水平的CLA对脂肪沉积有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪特异制动麻醉复合剂的镇静效果通过观察对光和声音的反射情况来评价。判断标准为：呼唤、敲打保定台面，观察猪的反应。对声音刺激无反应计20分；表现耳动计16分；表现耳动、睁眼计12分；表现耳动、睁眼、肢体瞬间抽动计8分；表现抬头挣扎计4分。",
+    "reference_case": "猪特异制动麻醉复合剂的镇静效果通过观察对光和声音的反射情况来评价。判断标准为：呼唤、敲打保定台面，观察猪的反应。对声音刺激无反应计10分；表现耳动计8分；表现耳动、睁眼计6分；表现耳动、睁眼、肢体瞬间抽动计4分；表现抬头挣扎计2分。",
+    "error_detail": "评分标准被错误地修改为原始数据的两倍。",
+    "original_question": "猪特异制动麻醉复合剂的镇静效果如何评价？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪特异制动麻醉复合剂在猪全麻诱导中对呼吸和循环系统的影响显著。",
+    "reference_case": "猪特异制动麻醉复合剂在猪全麻诱导中对呼吸和循环系统的影响轻微，是一种安全、起效快的麻醉药。",
+    "error_detail": "影响的描述被错误地修改为显著，而原始数据为轻微。",
+    "original_question": "猪特异制动麻醉复合剂在猪全麻诱导中对呼吸和循环系统的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪特异制动麻醉复合剂的优点包括水溶性、起效慢、消除半衰期长以及对呼吸和循环系统影响显著。",
+    "reference_case": "猪特异制动麻醉复合剂的优点包括水溶性、起效快、消除半衰期短以及对呼吸和循环系统影响轻微。",
+    "error_detail": "优点的描述被错误地修改为相反的方向。",
+    "original_question": "猪特异制动麻醉复合剂的优点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪特异制动麻醉复合剂在猪全麻诱导中对呼吸和循环系统的影响显著，主要表现为对心电图和脑电图的影响较大，出现明显的异常现象。",
+    "reference_case": "猪特异制动麻醉复合剂在猪全麻诱导中对呼吸和循环系统的影响轻微，主要表现为对心电图和脑电图的影响较小，未出现明显的异常现象。",
+    "error_detail": "影响的描述被错误地修改为显著，而原始数据为轻微。",
+    "original_question": "猪特异制动麻醉复合剂在猪全麻诱导中对呼吸和循环系统的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪特异制动麻醉复合剂在猪麻醉过程中，注射5分钟后，脑电图由正常状态的高频、低幅快节律转化为低频、高幅、慢节律。60分钟后脑电有恢复的趋势，但差异不显著。",
+    "reference_case": "猪特异制动麻醉复合剂在猪麻醉过程中，注射5分钟后，脑电图由正常状态的高频、低幅快节律转化为低频、高幅、慢节律。30分钟后脑电有恢复的趋势，但差异不显著。",
+    "error_detail": "脑电恢复的时间被错误地修改为60分钟，而原始数据为30分钟。",
+    "original_question": "猪特异制动麻醉复合剂在猪麻醉过程中对脑电图的影响如何？",
+    "original_input": ""
+  }
+]

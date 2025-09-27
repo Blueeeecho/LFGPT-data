@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高锌日粮可以使母猪所产的仔猪生长速度快于低锌日粮母猪所产的仔猪，具体快50%。",
+    "reference_case": "高锌日粮可以使母猪所产的仔猪生长速度快于低锌日粮母猪所产的仔猪。",
+    "error_detail": "添加了不存在的具体数值快50%",
+    "original_question": "高锌日粮对仔猪生长有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "铬增强组织对胰岛素的敏感性，可减少母猪流产数、自然死亡率，提高返情率。常用酵母铬和甲基吡啶铬作为铬源，其中甲基吡啶铬效果更佳。",
+    "reference_case": "铬增强组织对胰岛素的敏感性，可减少母猪流产数、自然死亡率，提高返情率。常用酵母铬和甲基吡啶铬作为铬源。",
+    "error_detail": "添加了不存在的比较信息'甲基吡啶铬效果更佳'",
+    "original_question": "铬如何影响母猪的生产性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "钼缺乏可导致母猪繁殖力下降、流产。钼可能干扰黄体素（LH）分泌，影响后备母猪初情期以及类固醇激素的分泌，因此增加钼的摄入可以预防这些问题的发生。",
+    "reference_case": "钼缺乏可导致母猪繁殖力下降、流产。钼可能干扰黄体素（LH）分泌，影响后备母猪初情期以及类固醇激素的分泌。",
+    "error_detail": "错误地暗示增加钼的摄入可以预防问题，而原文并未提及",
+    "original_question": "钼对母猪繁殖性能的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "硒提高 GSH-Px 活性，降低 MDA 水平，提高血清和肌肉中 T-SOD 活力，显著提高 T-AOC，从而增强抗氧化能力，具体提高幅度为30%。",
+    "reference_case": "硒提高 GSH-Px 活性，降低 MDA 水平，提高血清和肌肉中 T-SOD 活力，显著提高 T-AOC，从而增强抗氧化能力。",
+    "error_detail": "添加了不存在的具体数值提高幅度为30%",
+    "original_question": "硒在改善生长肥育猪的抗氧化能力方面的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "酵母硒 II 相较于亚硒酸钠显著提高了机体的抗氧化能力，主要表现在血清和肌肉中 GSH-Px 和 T-SOD 活力的提高，以及 MDA 水平的降低和 T-AOC 的提高，其中酵母硒 II 的效果比亚硒酸钠好50%。",
+    "reference_case": "酵母硒 II 相较于亚硒酸钠显著提高了机体的抗氧化能力，主要表现在血清和肌肉中 GSH-Px 和 T-SOD 活力的提高，以及 MDA 水平的降低和 T-AOC 的提高。",
+    "error_detail": "添加了不存在的具体比较效果好50%",
+    "original_question": "不同硒源对肥育猪背最长肌和血清中抗氧化指标的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在不增加采食量的情况下，添加微量元素氨基酸螯合物可提高全期平均日增重、改善饲料效率，与对照组差异显著，具体提高20%。",
+    "reference_case": "在不增加采食量的情况下，添加微量元素氨基酸螯合物可提高全期平均日增重、改善饲料效率，与对照组差异显著。",
+    "error_detail": "添加了不存在的具体数值提高20%",
+    "original_question": "微量元素氨基酸螯合物如何影响肥育猪的生产性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "添加有机硒可以提高胴体瘦肉率，提高体内器官的含硒量和谷胱甘肽过氧化物酶的活性，预防细胞膜的氧化，改善胴体品质，其中有机硒的效果比无机硒好30%。",
+    "reference_case": "添加有机硒可以提高胴体瘦肉率，提高体内器官的含硒量和谷胱甘肽过氧化物酶的活性，预防细胞膜的氧化，改善胴体品质。",
+    "error_detail": "添加了不存在的比较信息'有机硒的效果比无机硒好30%'",
+    "original_question": "肥育猪日粮中添加有机矿物元素如何改善胴体品质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲喂酵母硒可以提高肌肉的保水能力，降低肉质滴水损失，改善猪肉肉色，延长猪肉货架期，具体延长5天。",
+    "reference_case": "饲喂酵母硒可以提高肌肉的保水能力，降低肉质滴水损失，改善猪肉肉色，延长猪肉货架期。",
+    "error_detail": "添加了不存在的具体数值延长5天",
+    "original_question": "饲喂酵母硒对猪的肉品质有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪的日粮中添加有机硒和其他抗氧化剂可以显著降低背最长肌的滴水损失，且屠宰后成熟时间越长，滴水损失越高，添加抗氧化剂的效果更明显，其中有机硒的效果最好。",
+    "reference_case": "在猪的日粮中添加有机硒和其他抗氧化剂可以显著降低背最长肌的滴水损失，且屠宰后成熟时间越长，滴水损失越高，添加抗氧化剂的效果更明显。",
+    "error_detail": "添加了不存在的比较信息'有机硒的效果最好'",
+    "original_question": "有机硒和其他抗氧化剂如何影响猪背最长肌的滴水损失？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "有机硒水平越高，猪肉颜色越苍白，添加有机硒组的背最长肌颜色改善效果更明显，因此应减少有机硒的添加。",
+    "reference_case": "有机硒水平越高，猪肉颜色越苍白，添加有机硒组的背最长肌颜色改善效果更明显。",
+    "error_detail": "错误地建议减少有机硒的添加，而原文并未提及",
+    "original_question": "有机硒对猪肉肉色有何影响？",
+    "original_input": ""
+  }
+]

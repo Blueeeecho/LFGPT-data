@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脂肪饱和度较高（如牛油、猪油）较之饱和度较低（如葵花籽油、大豆油）更难消化，这可能与后者更易于乳化有关，消化率差异可达50%。",
+    "reference_case": "脂肪饱和度较高（如牛油、猪油）较之饱和度较低（如葵花籽油、大豆油）更难消化，这可能与后者更易于乳化有关。",
+    "error_detail": "添加了未经验证的消化率差异百分比",
+    "original_question": "脂肪的饱和度如何影响家兔的脂肪消化率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "镁-Lascorbyl 2-磷酸作为仔兔和生长育肥猪的维生素 D 源是有效的。",
+    "reference_case": "镁-Lascorbyl 2-磷酸作为仔兔和生长育肥猪的维生素 C 源是有效的。",
+    "error_detail": "错误地将维生素C替换为维生素D",
+    "original_question": "镁-Lascorbyl 2-磷酸作为仔兔和生长育肥猪的维生素 C 源的有效性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "兔肉的PUFA含量高于其他肉类，占脂肪酸总量的50%-60%，其中C18:2n-6是兔肉的主要脂肪酸，占整个脂肪酸的40%，而C18:3n-3的含量也很丰富，占整个脂肪酸的5%。",
+    "reference_case": "兔肉的PUFA含量高于其他肉类，占脂肪酸总量的27%-33%，其中C18:2n-6是兔肉的主要脂肪酸，占整个脂肪酸的22%，而C18:3n-3的含量也很丰富，占整个脂肪酸的3%（绵羊羔肉为1.4%，猪肉为1%，牛肉为0.1%-2.3%）。",
+    "error_detail": "夸大了PUFA、C18:2n-6和C18:3n-3的含量比例",
+    "original_question": "兔肉的脂肪酸含量如何，与牛肉、猪肉相比有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在炎热气候或季节，建议降低蛋白质水平，以减少热量产生。",
+    "reference_case": "在炎热气候或季节，建议提高蛋白质水平，添加一些氨基酸，特别是赖氨酸，以减轻炎热天气对猪和家禽的影响。",
+    "error_detail": "错误地建议降低蛋白质水平，与当前研究相悖",
+    "original_question": "热应激期间如何调整家兔的蛋白质水平？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维生素 B1 在鱼油和动物肝脏中含量丰富。",
+    "reference_case": "维生素 B1 在米糠、麦麸、谷物、酵母及植物蛋白浓缩物等饲料原料中含量丰富，猪肉也是维生素 B1 的一个丰富来源。",
+    "error_detail": "错误地列出了维生素B1的丰富来源",
+    "original_question": "维生素 B1 在哪些类型的饲料中含量丰富？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "因为豆粕中的烟酸对鸡十分有效，所以黄玉米、小麦、高粱和燕麦中的烟酸以结合型存在。",
+    "reference_case": "黄玉米、小麦、高粱和燕麦中的烟酸以结合型存在，幼年猪对这种类型的烟酸大部分不能利用，但是，豆粕中的烟酸对鸡十分有效，对猪可能也同样有效。",
+    "error_detail": "错误地建立了因果关系",
+    "original_question": "烟酸在饲料中的转化情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "反映生物素需要量的生理生化指标主要是尿液中生物素浓度，另外血浆丙酷酸羧化酶活性也可作为评价猪生物素营养状况的指标之一。",
+    "reference_case": "反映生物素需要量的生理生化指标主要是血浆中生物素浓度，另外血浆丙酷酸羧化酶活性也可作为评价猪生物素营养状况的指标之一。",
+    "error_detail": "错误地将血浆中生物素浓度改为尿液中生物素浓度",
+    "original_question": "反映生物素需要量的生理生化指标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "大豆饼粕在猪饲料中的使用在欧洲被严格限制。",
+    "reference_case": "大豆饼粕是猪优质的蛋白质饲料原料，各阶段都可使用，对肉猪、种猪的适口性好，但要防止过食，在人工代乳料和仔猪补料中用量应加以限制。",
+    "error_detail": "错误地引入了地域限制信息",
+    "original_question": "大豆饼粕在猪饲料中的使用情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "品质优良的棉籽粕可完全取代豆粕而无不良影响。",
+    "reference_case": "品质优良的棉籽粕（溶剂提油且棉酚含量低者）可取代一半的豆粕而无不良影响，但要注意补充赖氨酸、钙及胡萝卜素等。品质不好或取代量太高则影响适口性，并有中毒可能。",
+    "error_detail": "错误地声称可以完全取代豆粕",
+    "original_question": "棉籽粕作为猪饲料的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪对游离棉酚的耐受量为200mg/kg。",
+    "reference_case": "猪对游离棉酚的耐受量为100mg/kg, 超过此量即抑制生长，并可能中毒死亡。肉猪饲料中游离棉酚含量在0.04%以下的棉籽饼粕，可用至10%-20%，母猪可用到5%-10%。游离棉酚含量超过0.04%的棉籽饼粕，在使用上必须很谨慎。",
+    "error_detail": "错误地提高了游离棉酚的耐受量",
+    "original_question": "不同动物对棉籽饼粕的耐受量有何差异？",
+    "original_input": ""
+  }
+]

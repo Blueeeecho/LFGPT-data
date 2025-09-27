@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "养户有能繁母猪，则其生猪发生疫病的可能性会增加0.27638；而育肥猪存栏增加1头，其生猪发生疫病的可能性会下降0.00008。",
+    "reference_case": "养户有能繁母猪，则其生猪发生疫病的可能性会增加0.17638；而育肥猪存栏增加1头，其生猪发生疫病的可能性会下降0.00004。",
+    "error_detail": "数值偏差",
+    "original_question": "养殖户是否有能繁母猪对生猪疫病发生的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "平均每头生猪的圈舍投资额增加1元，其生猪发生疫病的可能性下降0.00002。",
+    "reference_case": "平均每头生猪的圈舍投资额增加1元，其生猪发生疫病的可能性下降0.00001。",
+    "error_detail": "数值偏差",
+    "original_question": "平均每头生猪的圈舍投资额对生猪疫病的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对病死猪采取深埋或其他无害化处理方式，能够使生猪疫病发生的几率降低0.19597。",
+    "reference_case": "对病死猪采取深埋或其他无害化处理方式，能够使生猪疫病发生的几率降低0.09597。",
+    "error_detail": "数值偏差",
+    "original_question": "病死猪的处理方式对生猪疫病发生的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "生猪发生疫病会使仔猪成活率下降，尤其是在不采取任何治疗措施的情况下。",
+    "reference_case": "生猪发生疫病会使仔猪成活率下降。",
+    "error_detail": "添加了未经证实的假设",
+    "original_question": "生猪疫病发生对仔猪成活率的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "平均每头生猪圈舍投资额增加1元，对仔猪成活率的影响显著提高。",
+    "reference_case": "平均每头生猪圈舍投资额增加1元，对仔猪成活率的影响较小，因为这些因素对疫病的影响可能在长期内才能显现，短期的影响可能要小一些。",
+    "error_detail": "偏离了原始指令的谨慎评估",
+    "original_question": "平均每头生猪圈舍投资额对仔猪成活率的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "能繁母猪每窝的产仔数对仔猪成活率有显著影响。",
+    "reference_case": "未提供具体信息。",
+    "error_detail": "误解了上下文，添加了未提供的信息",
+    "original_question": "能繁母猪每窝的产仔数对仔猪成活率的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "养殖户养殖年限对仔猪成活率有显著影响。",
+    "reference_case": "未提供具体信息。",
+    "error_detail": "误解了上下文，添加了未提供的信息",
+    "original_question": "养殖户养殖年限对仔猪成活率的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "育肥猪存栏数量对仔猪成活率有显著影响。",
+    "reference_case": "未提供具体信息。",
+    "error_detail": "误解了上下文，添加了未提供的信息",
+    "original_question": "育肥猪存栏数量对仔猪成活率的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "疫病类型对仔猪成活率有显著影响。",
+    "reference_case": "未提供具体信息。",
+    "error_detail": "误解了上下文，添加了未提供的信息",
+    "original_question": "疫病类型对仔猪成活率的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "疫病、疫病的类型和每窝产仔数对仔猪成活率的影响最为显著，疫病对提高仔猪成活率有负影响，尤其是蓝耳病的影响最大，可以使仔猪成活率提高的概率下降0.16391。",
+    "reference_case": "疫病、疫病的类型和每窝产仔数对仔猪成活率的影响最为显著，疫病对提高仔猪成活率有负影响，尤其是蓝耳病的影响最大。",
+    "error_detail": "数值偏差",
+    "original_question": "疫病对仔猪成活率有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每窝多产1头仔猪时，仔猪成活率提高的概率增加0.14447，统计意义非常显著。",
+    "reference_case": "每窝多产1头仔猪时，仔猪成活率提高的概率增加0.04447，统计意义非常显著。",
+    "error_detail": "数值偏差",
+    "original_question": "每窝多产1头仔猪对仔猪成活率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "养殖户的生猪养殖年限增加1年，仔猪成活率上升的概率会下降0.10333。",
+    "reference_case": "养殖户的生猪养殖年限增加1年，仔猪成活率上升的概率会下降0.00333。",
+    "error_detail": "数值偏差",
+    "original_question": "生猪养殖年限增加对仔猪成活率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "平均每头生猪的圈舍投资增加1元，仔猪成活率提高的概率会增加0.00011。",
+    "reference_case": "平均每头生猪的圈舍投资增加1元，仔猪成活率提高的概率会增加0.00001。",
+    "error_detail": "数值偏差",
+    "original_question": "平均每头生猪的圈舍投资增加1元对仔猪成活率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "育肥猪存栏增加1头，则仔猪成活率提高的概率会下降0.00014。",
+    "reference_case": "育肥猪存栏增加1头，则仔猪成活率提高的概率会下降0.00004。",
+    "error_detail": "数值偏差",
+    "original_question": "育肥猪存栏增加1头对仔猪成活率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发生蓝耳病可以使仔猪成活率提高的概率下降0.16391。",
+    "reference_case": "发生蓝耳病可以使仔猪成活率提高的概率下降0.06391。",
+    "error_detail": "数值偏差",
+    "original_question": "蓝耳病对仔猪成活率有何具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发生猪瘟可以使仔猪成活率提高的概率下降0.14155。",
+    "reference_case": "发生猪瘟可以使仔猪成活率提高的概率下降0.04155。",
+    "error_detail": "数值偏差",
+    "original_question": "猪瘟对仔猪成活率有何具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发生口蹄疫可以使仔猪成活率提高的概率下降0.14155。",
+    "reference_case": "发生口蹄疫可以使仔猪成活率提高的概率下降0.04155。",
+    "error_detail": "数值偏差",
+    "original_question": "口蹄疫对仔猪成活率有何具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发生腹泻可以使仔猪成活率提高的概率下降0.12195。",
+    "reference_case": "发生腹泻可以使仔猪成活率提高的概率下降0.02195。",
+    "error_detail": "数值偏差",
+    "original_question": "腹泻对仔猪成活率有何具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "疫病、疫病的类型和每窝产仔数对仔猪成活率的影响最为显著，其次为养殖年限，每头生猪的圈舍投资和育肥猪的存栏影响较大。",
+    "reference_case": "疫病、疫病的类型和每窝产仔数对仔猪成活率的影响最为显著，其次为养殖年限，每头生猪的圈舍投资和育肥猪的存栏影响较小。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "疫病对仔猪成活率的影响如何排序？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪舍建设应考虑科学选址、场内布局、分区、远离交通主干线及村、镇和农户集中居住点、建设生物隔离带、科学规划、合理布局等，以及使用高科技设备。",
+    "reference_case": "猪舍建设应考虑科学选址、场内布局、分区、远离交通主干线及村、镇和农户集中居住点、建设生物隔离带、科学规划、合理布局等。",
+    "error_detail": "偏离了原始指令，添加了未提及的因素",
+    "original_question": "猪舍建设应考虑哪些因素？",
+    "original_input": ""
+  }
+]

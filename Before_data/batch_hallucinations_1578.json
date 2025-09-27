@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪屎豆是一种有毒的植物，不适合作为绿肥使用。",
+    "reference_case": "猪屎豆是耐酸、耐早、耐療的优良绿肥之一，常在茶园、果园间作种植，也可种在新垦的红黄壤荒地。",
+    "error_detail": "错误地将猪屎豆描述为有毒植物，与事实相反。",
+    "original_question": "什么是猪屎豆？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪屎豆含氮（N）1.59%，含磷（P₂O₅）0.56%，含钾（K₂O）1.70%。",
+    "reference_case": "含氮（N）0.59%，含磷（P₂O₅）0.26%，含钾（K₂O）0.70%。",
+    "error_detail": "养分含量数据被夸大，与实际情况不符。",
+    "original_question": "猪屎豆的养分含量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪屎豆的播种期约6～7月，每亩播种量5斤左右。",
+    "reference_case": "播种期约4～5月，每亩播种量3斤左右。",
+    "error_detail": "播种期和播种量被错误地修改，与标准做法不符。",
+    "original_question": "猪屎豆的播种期和播种量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "3月6日播种马铃薯，5月15～20日套种玉米，两作物共生期45～50天。",
+    "reference_case": "3月6日播种马铃薯，4月15～20日套种玉米，两作物共生期35～40天。",
+    "error_detail": "播种时间和共生期被错误地修改，与实际情况不符。",
+    "original_question": "大白菜与马铃薯、玉米的最佳播种时间是什么？",
+    "original_input": "7、15公斤。"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "鱼与猪结合养殖模式的原理是通过直接利用鱼粪养浮游生物，提供给猪的饲料。",
+    "reference_case": "通过直接利用猪粪养浮游生物，提供给杂食性和滤食性鱼类的饲料，水深1.8米以下的鱼塘每亩水面配养4~6头猪，1.8米以上的鱼塘每亩水面配养6~8头猪，猪粪发酵后直接入塘肥水，提高鱼的产量和质量。",
+    "error_detail": "错误地将鱼粪作为猪的饲料来源，与实际的养殖原理相反。",
+    "original_question": "鱼与猪结合养殖模式的原理是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪粪尿直接入塘会导致水质污染，不适合用于养殖鱼类。",
+    "reference_case": "猪粪尿培养浮游生物，增加滤食性和杂食性鱼类的饲料供应，同时塘泥和植物碎屑分解后成为牧草的良好基肥，提高鱼的产量。",
+    "error_detail": "错误地认为猪粪尿会导致水质污染，忽视了其在养殖中的实际用途。",
+    "original_question": "鱼、猪、草立体养殖模式中，猪粪尿如何利用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "该模式仅利用猪粪尿和塘泥种植蔬菜，不涉及其他循环利用方式。",
+    "reference_case": "该模式利用猪粪尿和塘泥种植蔬菜，蔬菜及其下脚料养猪和养鱼，猪粪和鱼齿直接养殖滤食性和杂食性鱼类，实现物质的多级循环利用，提高鱼的生产力。",
+    "error_detail": "错误地简化了物质循环利用的过程，忽略了多个循环环节。",
+    "original_question": "鱼、猪、草立体养殖模式如何实现物质的多级循环利用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "青贮料饲喂家畜时，产奶母牛每头每日应饲喂25～30千克。",
+    "reference_case": "青贮料饲喂家畜应由少到多，使其习惯。青贮料具有一定清泻作用，怀孕母畜一次不宜饲喂过多，以免引起流产。推荐的用量如下：每头每日：产奶母牛15～20千克，种公牛5～10千克，犊牛3～5千克，肉牛8～12千克，母猪1.5～3千克，公猪1.5千克，羊1～1.5千克。",
+    "error_detail": "错误地增加了产奶母牛的青贮料饲喂量，与推荐用量不符。",
+    "original_question": "青贮料饲喂家畜时应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "对于体重在100~130千克的母猪，在1~84天和85~114天的混合精料用量分别为2.0千克和2.75千克。",
+    "reference_case": "对于体重在100~130千克的母猪，在1~84天和85~114天的混合精料用量分别为1.0千克和1.75千克；对于体重在131~150千克的母猪，在1~84天和85~114天的混合精料用量分别为1.20千克和2.0千克。",
+    "error_detail": "错误地增加了混合精料的用量，与标准用量不符。",
+    "original_question": "妊娠母猪在不同体重范围内需要多少混合精料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "对于体重在100~130千克的母猪，在1~84天和85~114天的青绿饲料用量分别为15千克和12千克。",
+    "reference_case": "对于体重在100~130千克的母猪，在1~84天和85~114天的青绿饲料用量分别为12千克和9千克；对于体重在131~150千克的母猪，在1~84天和85~114天的青绿饲料用量分别为12千克和10千克。",
+    "error_detail": "错误地增加了青绿饲料的用量，与标准用量不符。",
+    "original_question": "妊娠母猪在不同体重范围内需要多少青绿饲料？",
+    "original_input": ""
+  }
+]

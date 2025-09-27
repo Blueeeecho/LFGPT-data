@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "环丙沙星的MPC90值为10 mg/L，左氧沙星的MPC90值为3 mg/L，恩诺沙星的MPC90值为5 mg/L，加替沙星的MPC90值为1 mg/L，吉米沙星的MPC90值为3 mg/L。",
+    "reference_case": "环丙沙星的MPC90值为8 mg/L，左氧沙星的MPC90值为2 mg/L，恩诺沙星的MPC90值为4 mg/L，加替沙星的MPC90值为0:5 mg/L，吉米沙星的MPC90值为2 mg/L。",
+    "error_detail": "数值偏差",
+    "original_question": "文章中提到的5种氟喹诺酮类药物对猪沙门菌的MPC90值分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "环丙沙星的MIC90值为2 mg/L，左氧沙星的MIC90值为1 mg/L，恩诺沙星的MIC90值为2 mg/L，加替沙星的MIC90值为0:5 mg/L，吉米沙星的MIC90值为1 mg/L。",
+    "reference_case": "环丙沙星的MIC90值为1 mg/L，左氧沙星的MIC90值为0:5 mg/L，恩诺沙星的MIC90值为1 mg/L，加替沙星的MIC90值为0:25 mg/L，吉米沙星的MIC90值为0:5 mg/L。",
+    "error_detail": "数值偏差",
+    "original_question": "文章中提到的5种氟喹诺酮类药物对猪沙门菌的MIC90值分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "5种氟喹诺酮类药物对猪沙门菌的MPC90值从高到低的顺序为环丙沙星>吉米沙星>恩诺沙星>左氧沙星>加替沙星。",
+    "reference_case": "5种氟喹诺酮类药物对猪沙门菌的MPC90值从高到低的顺序为环丙沙星>恩诺沙星>吉米沙星=左氧沙星>加替沙星。",
+    "error_detail": "顺序错误",
+    "original_question": "文章中提到的5种氟喹诺酮类药物对猪沙门菌的MPC90值从高到低的顺序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "5种氟喹诺酮类药物对猪沙门菌的血药浓度大于MIC90的时间顺序为加替沙星>吉米沙星>左氧沙星>恩诺沙星>环丙沙星。",
+    "reference_case": "5种氟喹诺酮类药物对猪沙门菌的血药浓度大于MIC90的时间顺序为加替沙星>左氧沙星>吉米沙星>恩诺沙星>环丙沙星。",
+    "error_detail": "顺序错误",
+    "original_question": "文章中提到的5种氟喹诺酮类药物对猪沙门菌的血药浓度大于MIC90的时间顺序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "产肠毒素大肠埃希菌（ETEC）和沙门菌在仔猪腹泻中的作用是相同的。",
+    "reference_case": "产肠毒素大肠埃希菌（ETEC）是临床上致仔猪腹泻的最常见病原，主要引起仔猪白痢、仔猪黄痢和猪水肿病。沙门菌则主要引起猪副伤寒，伴有严重的腹泻症状。",
+    "error_detail": "概念混淆",
+    "original_question": "什么是产肠毒素大肠埃希菌（ETEC）和沙门菌在仔猪腹泻中的作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "制备过程中使用了产肠毒素大肠埃希菌的标准菌株K88、K99、987P，以及导致仔猪副伤寒的3株沙门菌。",
+    "reference_case": "制备过程中使用了产肠毒素大肠埃希菌的标准菌株K88、K99、987P，以及导致仔猪副伤寒的2株沙门菌。",
+    "error_detail": "数值偏差",
+    "original_question": "鸡抗猪产肠毒素大肠埃希菌-沙门菌二联五价卵黄抗体的制备过程中使用了哪些菌株？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "研究中免疫接种了500羽待开产母鸡。",
+    "reference_case": "研究中免疫接种了400羽待开产母鸡。",
+    "error_detail": "数值偏差",
+    "original_question": "在鸡抗猪产肠毒素大肠埃希菌-沙门菌二联五价卵黄抗体的研究中，免疫接种的蛋鸡数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "喷雾干燥工艺中，进口温度为170°C，出口温度为90°C。",
+    "reference_case": "喷雾干燥工艺中，进口温度为165°C，出口温度为85°C。",
+    "error_detail": "数值偏差",
+    "original_question": "鸡抗猪产肠毒素大肠埃希菌-沙门菌二联五价卵黄抗体的喷雾干燥工艺中，进口和出口温度分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "研究中采用间接试管凝集法检测卵黄抗体的效价。",
+    "reference_case": "研究中采用直接试管凝集法检测卵黄抗体的效价。",
+    "error_detail": "概念混淆",
+    "original_question": "在鸡抗猪产肠毒素大肠埃希菌-沙门菌二联五价卵黄抗体的研究中，如何检测卵黄抗体的效价？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灭活苗的制备过程中，油相和水相的最佳混合比例为3:1。",
+    "reference_case": "灭活苗的制备过程中，油相和水相的最佳混合比例为2:1。",
+    "error_detail": "数值偏差",
+    "original_question": "鸡抗猪产肠毒素大肠埃希菌-沙门菌二联五价卵黄抗体的研究中，灭活苗的制备过程中油相和水相的最佳混合比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灭活苗的制备过程中，硬脂酸铝的最适添加量为25 g/L。",
+    "reference_case": "灭活苗的制备过程中，硬脂酸铝的最适添加量为20 g/L。",
+    "error_detail": "数值偏差",
+    "original_question": "鸡抗猪产肠毒素大肠埃希菌-沙门菌二联五价卵黄抗体的研究中，灭活苗的制备过程中硬脂酸铝的最适添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在二免和三免后，卵黄抗体效价出现明显的上升趋势，随后又下降并减少，最高可达1:2^12，试验结束时抗体效价为1:2^11。",
+    "reference_case": "在二免和三免后，卵黄抗体效价出现明显的下降趋势，随后又回升并增加，最高可达1:2^11，试验结束时抗体效价为1:2^10。",
+    "error_detail": "数值偏差",
+    "original_question": "在鸡抗猪产肠毒素大肠埃希菌-沙门菌二联五价卵黄抗体的研究中，卵黄抗体效价的总体变化情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "喷雾干燥后的卵黄抗体粉无蛋香味，色泽为白色，质地均匀，粒度大约在100目左右。",
+    "reference_case": "喷雾干燥后的卵黄抗体粉略有蛋香味，色泽略显黄色，质地均匀，粒度大约在80目左右。",
+    "error_detail": "概念混淆",
+    "original_question": "鸡抗猪产肠毒素大肠埃希菌-沙门菌二联五价卵黄抗体的研究中，喷雾干燥后的卵黄抗体粉的感官评定结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "结肠小袋虫的基因分型基于ITS1/2序列比对分析，分为A、B两个基因型。",
+    "reference_case": "结肠小袋虫的基因分型基于ITS1/2序列比对分析，分为A、B、C三个基因型。猪源和鸩鸟源结肠小袋虫分为A、B两个基因型，猩猩源的为C基因型。",
+    "error_detail": "概念混淆",
+    "original_question": "结肠小袋虫的基因分型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "结肠小袋虫可感染人和30种动物，其中猪的感染最为普遍，感染率高达15%～90%。人的感染率较低，全球估计在0:01%～0:5%之间，主要与猪有关，但也存在人与人传染的情况。",
+    "reference_case": "结肠小袋虫可感染人和33种动物，其中猪的感染最为普遍，感染率高达20%～100%。人的感染率较低，全球估计在0:02%～1%之间，主要与猪有关，但也存在人与人传染的情况。",
+    "error_detail": "数值偏差",
+    "original_question": "结肠小袋虫的流行病学特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "预防结肠小袋虫感染的关键是使用抗生素。治疗人的感染可选用青霉素、甲硝唑、双碘喹啉和多西环素等药物。病猪可用土霉素、四环素、甲硝唑等药物治疗。",
+    "reference_case": "预防结肠小袋虫感染的关键是保持良好的卫生习惯和避免水源污染。治疗人的感染可选用四环素、甲硝唑、双碘喹啉和多西环素等药物。病猪可用土霉素、四环素、甲硝唑等药物治疗。",
+    "error_detail": "概念混淆",
+    "original_question": "结肠小袋虫的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "肖正中等以长白猪、蓝塘猪及其杂种为材料，应用甲基化敏感扩增多态性（MSAP）技术对其耳组织基因组DNA胞嘧啶甲基化模式和程度进行评估，通过对其引物扩增检测，3个猪群中DNA甲基化程度都低，亲代和F1代甲基化水平无差异，证明使用MSAP技术检测猪种基因组甲基化多态性无效。",
+    "reference_case": "肖正中等以长白猪、蓝塘猪及其杂种为材料，应用甲基化敏感扩增多态性（MSAP）技术对其耳组织基因组DNA胞嘧啶甲基化模式和程度进行评估，通过对其引物扩增检测，3个猪群中DNA甲基化程度都高，亲代和F1代甲基化水平有差异，证明使用MSAP技术检测猪种基因组甲基化多态性非常有效。",
+    "error_detail": "概念混淆",
+    "original_question": "在猪的DNA甲基化研究中，MSAP技术如何用于评估猪基因组DNA甲基化模式？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "白小青等研究发现，体质量阶段不是猪基因组DNA甲基化水平的重要影响因素之一。DNA的甲基化水平在肝脏与半膜肌间不具有组织特异性，而在心脏与肝脏间、心脏与半膜肌间是否具有组织特异性与体质量阶段明显相关。",
+    "reference_case": "白小青等研究发现，体质量阶段是猪基因组DNA甲基化水平的重要影响因素之一。DNA的甲基化水平在肝脏与半膜肌间具有组织特异性，而在心脏与肝脏间、心脏与半膜肌间是否具有组织特异性与体质量阶段明显相关。",
+    "error_detail": "概念混淆",
+    "original_question": "在猪的DNA甲基化研究中，体质量阶段对猪基因组DNA甲基化水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪链球菌弱毒株ST171的活疫苗生产中采用了批培养、变速补料及溶氧反馈补料的三种培养策略。",
+    "reference_case": "猪链球菌弱毒株ST171的活疫苗生产中采用了批培养、恒速补料及溶氧反馈补料的三种培养策略。",
+    "error_detail": "概念混淆",
+    "original_question": "猪链球菌弱毒株ST171的活疫苗生产中，采用了哪三种培养策略？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪链球菌疫苗生产中，变速补料培养方式能延长活菌数的稳定期。",
+    "reference_case": "在猪链球菌疫苗生产中，恒速补料培养方式能延长活菌数的稳定期。",
+    "error_detail": "概念混淆",
+    "original_question": "在猪链球菌疫苗生产中，哪种培养方式能延长活菌数的稳定期？",
+    "original_input": ""
+  }
+]

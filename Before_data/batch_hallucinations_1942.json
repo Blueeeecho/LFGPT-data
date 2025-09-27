@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "输精技术实验实训内容包括输精器械的识别与安装、母猪及母马的输精、母牛及母羊的输精，以及家禽的输精。",
+    "reference_case": "输精技术实验实训内容包括输精器械的识别与安装、母猪及母马的输精、母牛及母羊的输精。",
+    "error_detail": "添加了不相关的家禽输精内容，导致概念混淆。",
+    "original_question": "输精技术实验实训内容是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "妊娠诊断技术实验实训内容包括猪的妊娠诊断、母牛的妊娠诊断，以及家禽的妊娠诊断。",
+    "reference_case": "妊娠诊断技术实验实训内容包括猪的妊娠诊断、母牛的妊娠诊断。",
+    "error_detail": "错误添加了家禽的妊娠诊断，数据不准确。",
+    "original_question": "妊娠诊断技术实验实训内容有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪每年可为农业生产提供氮素 150 多万吨，磷素 95 万吨，钾素 200 万吨。",
+    "reference_case": "猪每年可为农业生产提供氮素 130 多万吨，磷素 85 万吨，钾素 180 万吨。",
+    "error_detail": "数值偏差，增加了氮素、磷素和钾素的量。",
+    "original_question": "猪每年可为农业生产提供的氮素、磷素和钾素分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在我国，可用于艼麻的有机肥种类包括人粪尿、牛马粪、猪粪水、土杂肥、饼肥、塘泥、作物秸秆、绿肥、山青、水草等，以及化学肥料。",
+    "reference_case": "在我国，可用于艼麻的有机肥种类包括人粪尿、牛马粪、猪粪水、土杂肥、饼肥、塘泥、作物秸秆、绿肥、山青、水草等。",
+    "error_detail": "错误添加了化学肥料，导致概念混淆。",
+    "original_question": "在我国，可用于艼麻的有机肥种类有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "马: 38.0~39.0°C; 牛: 38.0~40.0°C; 猪: 39.0~40.0°C; 羊: 39.0~40.0°C; 犬：38.0~40.0°C；猫：39.0~40.0°C；鸡：41.0~43.0°C；兔：39.0~40.5°C。",
+    "reference_case": "马: 37.5~38.5°C; 牛: 37.5~39.5°C; 猪: 38.0~39.5°C; 羊: 38~39.5°C; 犬：37.5~39.0°C；猫：38.0~39.5°C；鸡：40.0~42.0°C；兔：38~39.5°C。",
+    "error_detail": "数值偏差，提高了所有家畜的体温范围。",
+    "original_question": "正常家畜的体温范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "马、牛 20~70g；猪、羊 7~20g；犬 4~10g；兔、禽 0.5~2.0g。",
+    "reference_case": "马、牛 15~60g；猪、羊 6~15g；犬 3~8g；兔、禽 0.3~1.5g。",
+    "error_detail": "数值偏差，增加了苦参的用量范围。",
+    "original_question": "苦参的用量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "马、牛 35~65g；猪、羊 15~30g；犬 4~6g。",
+    "reference_case": "马、牛 30~60g；猪、羊 10~25g；犬 3~5g。",
+    "error_detail": "数值偏差，增加了马齿苋的用量。",
+    "original_question": "马齿苋的用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "马、牛 130~190g；猪、羊 15~35g；犬、猫 3~7g。",
+    "reference_case": "马、牛 120~180g；猪、羊 10~30g；犬、猫 2~6g。",
+    "error_detail": "数值偏差，增加了火麻仁的用量范围。",
+    "original_question": "火麻仁的用量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "马、牛 25~65g；猪、羊 6~12g；犬 4~7g；兔、禽 1.5~2.5g。",
+    "reference_case": "马、牛 20~60g；猪、羊 5~10g；犬 3~6g；兔、禽 1~2g。",
+    "error_detail": "数值偏差，增加了郁李仁的用量范围。",
+    "original_question": "郁李仁的用量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "马、牛 130~250g；猪、羊 35~100g；犬 6~20g；兔、禽 4~12g。",
+    "reference_case": "马、牛 120~240g；猪、羊 30~90g；犬 5~15g；兔、禽 3~10g。",
+    "error_detail": "数值偏差，增加了蜂蜜的用量范围。",
+    "original_question": "蜂蜜的用量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "桔梗的用量范围为马、牛20~50g；猪、羊4~12g；犬3~6g；兔、禽1.5~2.0g。",
+    "reference_case": "桔梗的用量范围为马、牛15~45g；猪、羊3~10g；犬2~5g；兔、禽1~1.5g。",
+    "error_detail": "数值偏差，增加了桔梗的用量范围。",
+    "original_question": "桔梗的用量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "马、牛35～65g；猪、羊12～25g；犬7～10g；兔、禽1.0～2.0g。",
+    "reference_case": "马、牛30～60g；猪、羊10～20g；犬6～8g；兔、禽0.5～1.5g。",
+    "error_detail": "数值偏差，增加了瓜萎的用量范围。",
+    "original_question": "瓜萎的用量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "马、牛45～160g；猪、羊20～80g；犬6～18g；兔、禽6～12g。",
+    "reference_case": "马、牛40～150g；猪、羊15～75g；犬5～15g；兔、禽5～10g。",
+    "error_detail": "数值偏差，增加了桑树根皮的用药剂量范围。",
+    "original_question": "桑树根皮的用药剂量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "马、牛35～65g；猪、羊6～12g；犬、猫3～6g；兔、禽2～4g。",
+    "reference_case": "马、牛30～60g；猪、羊5～10g；犬、猫2～5g；兔、禽1～3g。",
+    "error_detail": "数值偏差，增加了陈皮的用药剂量范围。",
+    "original_question": "陈皮的用药剂量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪长散清热解毒，健脾补益，促进育肥猪增重，还能预防猪瘟。",
+    "reference_case": "猪长散清热解毒，健脾补益，促进育肥猪增重。",
+    "error_detail": "错误添加了预防猪瘟的功能，导致概念混淆。",
+    "original_question": "猪长散的主要功能和用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "测试前将未开封的检测卡和标本恢复至室温；从原包装铝箔袋中取出的检测卡，在2小时内使用；将检测卡平放，用塑料吸管垂直滴加3~4滴（80~120μL）待检血清样品于加样孔；25分钟内观察并记录实验结果，超过35分钟的结果只能作为参考。",
+    "reference_case": "测试前将未开封的检测卡和标本恢复至室温；从原包装铝箔袋中取出的检测卡，在1小时内使用；将检测卡平放，用塑料吸管垂直滴加2~3滴（70~100μL）待检血清样品于加样孔；20分钟内观察并记录实验结果，超过30分钟的结果只能作为参考。",
+    "error_detail": "偏离了原始指令，改变了时间、滴数和观察时间。",
+    "original_question": "胶体金免疫层析技术在猪蓝耳病抗体检测中的具体步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "被检样品检测线（T）条带的色泽≥对照卡中1:16（效价）位置条带色泽时，说明样品中猪蓝耳病抗体的滴度较高，暂不需要进行疫苗的接种免疫；被检样品检测线（T）条带的色泽＜对照卡中1:16（效价）位置条带色泽时，说明样品中猪蓝耳病抗体效价不够抵御猪蓝耳病强毒攻击的最低保护滴度，应进行疫苗接种；被检样品检测线（T）处无明显色带出现，说明样品中没有猪蓝耳病抗体，即使猪群健康也应进行疫苗接种；当被检样品检测线（T）条带的色泽特别深时，说明被检猪即使接种了疫苗，也可能被强毒感染，应立即隔离。",
+    "reference_case": "被检样品检测线（T）条带的色泽≥对照卡中1:16（效价）位置条带色泽时，说明样品中猪蓝耳病抗体的滴度较高，暂不需要进行疫苗的接种免疫；被检样品检测线（T）条带的色泽＜对照卡中1:16（效价）位置条带色泽时，说明样品中猪蓝耳病抗体效价不够抵御猪蓝耳病强毒攻击的最低保护滴度，应进行疫苗接种；被检样品检测线（T）处无明显色带出现，说明样品中没有猪蓝耳病抗体，即使猪群健康也应进行疫苗接种；当被检样品检测线（T）条带的色泽特别深时，说明被检猪即使接种了疫苗，也可能被强毒感染。",
+    "error_detail": "添加了立即隔离的建议，导致逻辑不完整。",
+    "original_question": "胶体金免疫层析技术检测蓝耳病抗体的诊断参考是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪囊尾蚴的大小为（7～12）mm×6mm。",
+    "reference_case": "猪囊尾蚴的大小为（6～10）mm×5mm。",
+    "error_detail": "数值偏差，增加了猪囊尾蚴的大小。",
+    "original_question": "猪囊尾蚴的大小范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪囊尾蚴的头节为乳白色黍粒大的小结节，中央有顶突，顶突上有30～60个角质小钩，呈匙首状，中央有一突起，分两圈交替排列，内圈的钩较大，外圈的钩较小。",
+    "reference_case": "猪囊尾蚴的头节为乳白色黍粒大的小结节，中央有顶突，顶突上有25～50个角质小钩，呈匙首状，中央有一突起，分两圈交替排列，内圈的钩较大，外圈的钩较小。",
+    "error_detail": "错误增加了角质小钩的数量，导致概念混淆。",
+    "original_question": "猪囊尾蚴的头节结构是什么样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪囊尾蚴主要寄生于猪、野猪及人的横纹肌、心肌、脑、眼等组织内，以及肝脏。",
+    "reference_case": "猪囊尾蚴主要寄生于猪、野猪及人的横纹肌、心肌、脑、眼等组织内。",
+    "error_detail": "错误添加了肝脏作为寄生组织，导致概念混淆。",
+    "original_question": "猪囊尾蚴寄生的组织有哪些？",
+    "original_input": ""
+  }
+]

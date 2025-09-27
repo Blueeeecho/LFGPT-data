@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "牛、羊、兔精液多呈弱碱性；马（驴）、猪精液呈弱酸性。",
+    "reference_case": "牛、羊、兔精液多呈弱酸性；马（驴）、猪精液呈弱碱性。",
+    "error_detail": "错误地交换了牛、羊、兔与马（驴）、猪精液的酸碱性描述。",
+    "original_question": "如何通过pH值判断牛羊和马猪的精液质量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪精液常用的稀释液配方为：10克葡萄糖，20毫升卵黄，200毫升蒸馏水，2000 IU/ml青霉素，2000 μg/ml链霉素。",
+    "reference_case": "猪精液常用的稀释液配方为：5克葡萄糖，10毫升卵黄，100毫升蒸馏水，1000 IU/ml青霉素，1000 μg/ml链霉素。",
+    "error_detail": "所有成分的数值被错误地翻倍。",
+    "original_question": "猪精液常用的稀释液配方是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "将10克葡萄糖溶解于20毫升卵黄和200毫升蒸馏水中，加入2000 IU/ml青霉素和2000 μg/ml链霉素。",
+    "reference_case": "将5克葡萄糖溶解于10毫升卵黄和100毫升蒸馏水中，加入1000 IU/ml青霉素和1000 μg/ml链霉素。",
+    "error_detail": "指令被错误地执行，所有成分的数值被翻倍。",
+    "original_question": "如何配制猪精液用的葡萄糖-卵黄稀释液？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "具有抗病毒效果，如海岸蒿、大托叶云实、苦楝、粗糠柴、菊花、东方荚果敵、番木瓜、花猪草、冠状岩黄蓡、短叶芦荟、藏青果和柔毛柿。",
+    "reference_case": "具有抗蠕虫效果，如海岸蒿、大托叶云实、苦楝、粗糠柴、菊花、东方荚果敵、番木瓜、花猪草、冠状岩黄蓡、短叶芦荟、藏青果和柔毛柿。",
+    "error_detail": "错误地将抗蠕虫效果描述为抗病毒效果。",
+    "original_question": "传统兽医中使用的某些植物制剂有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "腹泻猪的结肠对水分的吸收要比正常猪强很多，大部分水分由小肠远端和结肠吸收。",
+    "reference_case": "腹泻猪的结肠对水分的吸收要比正常猪弱很多，大部分水分由小肠远端和结肠吸收。",
+    "error_detail": "错误地描述了腹泻猪与正常猪在水分吸收上的差异。",
+    "original_question": "腹泻猪和正常猪的流体通量有何区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "沙门氏菌病作为一种人畜共患病，人、牛、绵羊、猪和家禽均可感染，但猫和狗不会感染。",
+    "reference_case": "沙门氏菌病作为一种人畜共患病，人、牛、绵羊、猪和家禽均可感染。",
+    "error_detail": "错误地添加了猫和狗不会感染的信息。",
+    "original_question": "沙门氏菌病作为一种人畜共患病，可感染哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "常见原因是脐带血管残留导致感染，病原菌种类包括链球菌、大肠杆菌、猪丹毒杆菌、多杀性巴氏杆菌、化脓性隐秘杆菌及坏死梭杆菌，但不包括沙门氏菌。",
+    "reference_case": "常见原因是脐带血管残留导致感染，病原菌种类包括链球菌、大肠杆菌、猪丹毒杆菌、多杀性巴氏杆菌、化脓性隐秘杆菌及坏死梭杆菌。",
+    "error_detail": "错误地排除了沙门氏菌，实际上沙门氏菌也可能是病原之一。",
+    "original_question": "关节病和脐病的常见原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪场和禽场的经营者会在未进行任何预防措施的情况下，贸然引进外地、本地或疫区的家畜。",
+    "reference_case": "猪场和禽场的经营者不会在未进行任何预防措施的情况下，贸然引进外地、本地或疫区的家畜。",
+    "error_detail": "错误地假设经营者会贸然引进家畜，忽视了预防措施的重要性。",
+    "original_question": "猪场和禽场如何避免传染病的传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "牛场经营者可以从养猪业中学习生物安全方面的先进经验，如不严格的预防措施。",
+    "reference_case": "牛场经营者可以从养猪业中学习生物安全方面的先进经验，如严格的预防措施。",
+    "error_detail": "错误地描述了预防措施的严格性。",
+    "original_question": "养牛业可以从养猪业中学习哪些生物安全方面的经验？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "配合饲料的好坏不直接关系到猪的增重速度、饲料利用率及经济效益，饲料单一不会影响猪的生长。",
+    "reference_case": "配合饲料的好坏直接关系到猪的增重速度、饲料利用率及经济效益，饲料单一会影响猪的生长。",
+    "error_detail": "错误地否定了配合饲料对猪生长的重要性。",
+    "original_question": "配合饲料对猪的生长有何重要性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "育肥猪日粮中的消化能为每千克 15000 ~ 16000 KJ。",
+    "reference_case": "育肥猪日粮中的消化能为每千克 12342 ~ 13807 KJ。",
+    "error_detail": "错误地提高了消化能的数值范围。",
+    "original_question": "育肥猪日粮中消化能含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "育肥猪日粮中粗蛋白含量为 20% ~ 25%。",
+    "reference_case": "育肥猪日粮中粗蛋白含量为 14% ~ 18%。",
+    "error_detail": "错误地提高了粗蛋白的含量范围。",
+    "original_question": "育肥猪日粮中粗蛋白的含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "骨粉占风干饲料的 5% 左右，用于补充钙、磷。",
+    "reference_case": "骨粉占风干饲料的 2% 左右，用于补充钙、磷。",
+    "error_detail": "错误地提高了骨粉的添加比例。",
+    "original_question": "育肥猪日粮中骨粉的添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "食盐含量为 1% ~ 1.5%。",
+    "reference_case": "食盐含量为 0.3% ~ 0.5%。",
+    "error_detail": "错误地提高了食盐的添加比例。",
+    "original_question": "育肥猪日粮中食盐的添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "育肥猪每天每头饲喂 3 ~ 5 kg 青绿饲料。",
+    "reference_case": "育肥猪每天每头饲喂 1 ~ 2.5 kg 青绿饲料。",
+    "error_detail": "错误地提高了青绿饲料的饲喂量。",
+    "original_question": "育肥猪每日应饲喂多少青绿饲料以满足维生素的供给？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "粗纤维水平应控制在 10% ~ 12% 以内。",
+    "reference_case": "粗纤维水平应控制在 6% ~ 8% 以内。",
+    "error_detail": "错误地提高了粗纤维的控制水平。",
+    "original_question": "育肥猪日粮中的粗纤维水平应控制在多少以内？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "采用限制饲喂和自由采食相结合的饲喂方式。",
+    "reference_case": "采用自由采食和限制饲喂相结合的饲喂方式。",
+    "error_detail": "错误地颠倒了饲喂方式的顺序。",
+    "original_question": "猪的饲喂方式有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "采用限制饲喂的方式，让猪充分发挥生长潜力。",
+    "reference_case": "采用自由采食的方式，让猪充分发挥生长潜力。",
+    "error_detail": "错误地改变了饲喂方式。",
+    "original_question": "育肥猪在小猪阶段和育肥前期应如何饲喂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每天 5 ~ 6 次定时定量的限制饲喂，可有效控制脂肪沉积，提高饲料利用率。",
+    "reference_case": "每天 3 ~ 4 次定时定量的限制饲喂，可有效控制脂肪沉积，提高饲料利用率。",
+    "error_detail": "错误地增加了饲喂次数。",
+    "original_question": "育肥后期猪如何饲喂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "在猪饲喂后，不需要投入青绿饲料和充足的饮水。",
+    "reference_case": "在猪饲喂后，投入一定量的青绿饲料和充足的饮水，可以弥补饲料中营养与水分的不足，促进消化吸收正常和增强猪的食欲。",
+    "error_detail": "错误地假设不需要投入青绿饲料和饮水。",
+    "original_question": "猪饲喂后如何处理？",
+    "original_input": ""
+  }
+]

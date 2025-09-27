@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪场空气环境中的细菌数是通过在空气中暴露营养琼脂平皿5分钟，37°C下培养48小时后计菌落数的方法测定的。",
+    "reference_case": "猪场空气环境中的细菌数是通过在空气中暴露营养琼脂平皿10分钟，37°C下培养24小时后计菌落数的方法测定的。具体方法是在生产区中心和距最边猪舍下风向10米处，1:2米高度处，日落前后在每个测点取2个营养琼脂平皿在空气中暴露10分钟，37°C下培养24小时，计菌落数，连测3天。",
+    "error_detail": "暴露时间和培养时间的数据错误",
+    "original_question": "本文中提到的猪场空气环境中的细菌数是如何测定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪场空气环境中的氨气浓度是通过气相色谱法测定的。",
+    "reference_case": "猪场空气环境中的氨气浓度是通过纳氏试剂比色法测定的。具体方法是在每天日落前后在猪场生产区中心和距最边猪舍下风向10米处，1:2米高度处，采集5L空气，同时记录气温与气压，测定空气中氨气浓度，连测3天。",
+    "error_detail": "测定方法的术语错误",
+    "original_question": "本文中提到的猪场空气环境中的氨气浓度是如何测定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪场饮用水水质的细菌总数是通过无菌操作取水样1ml，注入平皿中，倾注约15ml已融化并冷却至45°C的营养琼脂培养基，转动平皿使水样与培养基充分混匀，37°C下培养48小时，记菌落数的方法测定的。",
+    "reference_case": "猪场饮用水水质的细菌总数是通过无菌操作取水样1ml，注入平皿中，倾注约15ml已融化并冷却至45°C的营养琼脂培养基，转动平皿使水样与培养基充分混匀，37°C下培养24小时，记菌落数的方法测定的。大肠杆菌群的测定是按发酵法进行的。",
+    "error_detail": "培养时间的过时标准",
+    "original_question": "本文中提到的猪场饮用水水质的细菌总数和大肠杆菌群是如何测定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪场污水水质的BOD5是通过化学需氧量测定仪测定的。",
+    "reference_case": "猪场污水水质的BOD5是通过BOD5测定仪测定5日生化需氧量的方法测定的。COD的测定是按高猛酸钾氧化法进行的。",
+    "error_detail": "测定方法的术语错误",
+    "original_question": "本文中提到的猪场污水水质的BOD5和COD是如何测定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪场A和猪场B的污水水质在夏季和冬季的COD和BOD5含量均略超过国家农田灌溉水质标准。例如，夏季猪场A的COD含量为400mg/l，BOD5含量为200mg/l，而国家农田灌溉水质标准中COD含量为300mg/l，BOD5含量为150mg/l。",
+    "reference_case": "猪场A和猪场B的污水水质在夏季和冬季的COD和BOD5含量均远远超过国家农田灌溉水质标准。例如，夏季猪场A的COD含量为1770mg/l，BOD5含量为4140mg/l，而国家农田灌溉水质标准中COD含量为300mg/l，BOD5含量为150mg/l。",
+    "error_detail": "数值的偏差",
+    "original_question": "本文中提到的猪场A和猪场B的污水水质与国家农田灌溉水质标准相比有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "汶上县牧草种植的典型成功案例包括康驿乡寨子村种植牧草2公顷，第一年共卖鲜草200吨，收入6万元；汶上镇柳杭村养猪场利用牧草打浆喂母猪，每天降低饲养成本300元，每年节省开支10万元。",
+    "reference_case": "汶上县牧草种植的典型成功案例包括康驿乡寨子村种植牧草2公顷，第一年共卖鲜草180吨，收入5:4万元；汶上镇柳杭村养猪场利用牧草打浆喂母猪，每天降低饲养成本240元，每年节省开支8:76万元。",
+    "error_detail": "数值的偏差",
+    "original_question": "汶上县牧草种植的典型成功案例有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪育种技术的发展经历了基因型选择、育种值选择和表型值选择三个阶段。",
+    "reference_case": "猪育种技术的发展经历了表型值选择、育种值选择和基因型选择三个阶段。",
+    "error_detail": "阶段的顺序错误",
+    "original_question": "猪育种技术的发展经历了哪些阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪的食欲对生长速度和饲料转化率都有显著影响，食欲的下降会立即限制日增重和饲料转化率的长期选择进展，低食欲还会使哺乳母猪不能获得足够的能量而影响泌乳。",
+    "reference_case": "猪的食欲对生长速度和饲料转化率都有一定影响，食欲的下降可能会限制日增重和饲料转化率的长期选择进展，低食欲还会使哺乳母猪不能获得足够的能量而影响泌乳。",
+    "error_detail": "添加了假设性的显著影响和立即限制",
+    "original_question": "猪的食欲对其生长速度和饲料转化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的肉质评定包括pH值、肉色、系水力、嫩度、大理石纹、肌内脂肪含量和肌肉纤维直径等多项指标。",
+    "reference_case": "猪的肉质评定包括pH值、肉色、系水力、嫩度、大理石纹、肌内脂肪含量等多项指标。",
+    "error_detail": "添加了不存在的指标",
+    "original_question": "猪的肉质评定包括哪些指标？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪的产仔数遗传力低，完全受母体效应及其他环境因素的影响，因此选择提高的效果极差。",
+    "reference_case": "猪的产仔数遗传力低，容易受母体效应及其他环境因素的影响，因此选择提高的效果差。",
+    "error_detail": "添加了完全受影响的假设",
+    "original_question": "猪的繁殖性状中，产仔数的遗传力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪的体长对胴体长度和产肉量都有决定性的影响，产肉力高的猪必须具有较大的体长，猪体长的遗传力极高，因此参考体长进行选种会取得极好的效果。",
+    "reference_case": "猪的体长对胴体长度和产肉量都有一定的影响，产肉力高的猪往往具有较大的体长，猪体长的遗传力较高，因此参考体长进行选种会取得较好的效果。",
+    "error_detail": "添加了决定性的影响和必须具有的假设",
+    "original_question": "猪的体长对其产肉量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "英国\"超级猪\"计划的主要目标是每年每头母猪提供30头商品猪，90天达到100 kg活重，胴体瘦肉率达60%，每头母猪年产瘦肉量可达1200 kg。",
+    "reference_case": "英国\"超级猪\"计划的主要目标是每年每头母猪提供32头商品猪，100天达到100 kg活重，胴体瘦肉率达65%，每头母猪年产瘦肉量可达1400 kg。",
+    "error_detail": "数值的偏差",
+    "original_question": "英国\"超级猪\"计划的主要目标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪的脂肪选择目标是完全消除皮下脂肪和腹内脂肪，保持极少的肌间和肌内脂肪以保持良好的肉质。",
+    "reference_case": "猪的脂肪选择目标是降低皮下脂肪和腹内脂肪，保持适量的肌间和肌内脂肪以保持良好的肉质。",
+    "error_detail": "添加了完全消除和保持极少的假设",
+    "original_question": "猪的脂肪选择目标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "中国\"超级猪\"计划的技术措施包括利用高产仔数优良基因诊断盒、早期增重优良基因的DNA标记、双肌基因和\"肥胖\"基因的DNA标记、高温应激综合症基因诊断盒、基因组扫描技术、营养需要分析和饲料配方研制、饲养标准和生产推广体系的建立，以及基因编辑技术。",
+    "reference_case": "中国\"超级猪\"计划的技术措施包括利用高产仔数优良基因诊断盒、早期增重优良基因的DNA标记、双肌基因和\"肥胖\"基因的DNA标记、高温应激综合症基因诊断盒、基因组扫描技术、营养需要分析和饲料配方研制、饲养标准和生产推广体系的建立。",
+    "error_detail": "添加了不存在的技术",
+    "original_question": "中国\"超级猪\"计划的技术措施包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "湿喂法通过极低的pH值有助于极大维持许多消化酶的活性，特别是胃蛋白酶的活性。",
+    "reference_case": "湿喂法通过较低的pH值有助于维持许多消化酶的活性，特别是胃蛋白酶的活性。",
+    "error_detail": "添加了极低和极大的假设",
+    "original_question": "湿喂法对断奶仔猪的消化酶活性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "湿喂法能完全防止断奶仔猪采食量的急剧下降，极大提高干物质采食量和日增重。",
+    "reference_case": "湿喂法能有效防止断奶仔猪采食量的急剧下降，提高干物质采食量和日增重。",
+    "error_detail": "添加了完全和极大的假设",
+    "original_question": "湿喂法对断奶仔猪的采食量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "湿喂法能完全防止仔猪断奶后肠线毛萎缩和腺窝增深，极大维持肠壁的完整性。",
+    "reference_case": "湿喂法能有效防止仔猪断奶后肠线毛萎缩和腺窝增深，维持肠壁的完整性。",
+    "error_detail": "添加了完全和极大的假设",
+    "original_question": "湿喂法对断奶仔猪的消化道形态有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "湿喂法能极大提高断奶仔猪的日增重和饲料效率，因为日粮中极高的乳酸和醋酸能极大增加仔猪的生长性能。",
+    "reference_case": "湿喂法能提高断奶仔猪的日增重和饲料效率，因为日粮中较高的乳酸和醋酸能增加仔猪的生长性能。",
+    "error_detail": "添加了极大和极高的假设",
+    "original_question": "湿喂法如何影响断奶仔猪的生长速度和饲料效率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "湿喂法通过极大增加饲料中的乳酸菌数量和乳酸浓度，极低pH值，从而极大改善仔猪消化道的内环境，完全减少疾病。",
+    "reference_case": "湿喂法通过增加饲料中的乳酸菌数量和乳酸浓度，降低pH值，从而改善仔猪消化道的内环境，减少疾病。",
+    "error_detail": "添加了极大和极低的假设",
+    "original_question": "湿喂法如何改善断奶仔猪的消化道环境？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "湿喂法通过液体日粮发酵产生的极大量乳酸，维持胃内极低的pH值，从而极大影响消化道酸度。",
+    "reference_case": "湿喂法通过液体日粮发酵产生的大量乳酸，维持胃内较低的pH值，从而影响消化道酸度。",
+    "error_detail": "添加了极大量和极低的假设",
+    "original_question": "湿喂法如何影响断奶仔猪的消化道酸度？",
+    "original_input": ""
+  }
+]

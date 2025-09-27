@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重复性试验结果显示，对敏感性试验中各浓度的猪环曲病毒核酸重复检测5次，结果一致，表明该方法重复性较好。",
+    "reference_case": "重复性试验结果显示，对敏感性试验中各浓度的猪环曲病毒核酸重复检测3次，结果一致，表明该方法重复性较好。",
+    "error_detail": "检测次数被错误地从3次增加到5次。",
+    "original_question": "猪环曲病毒RT-PCR检测方法的重复性试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪环曲病毒RT-PCR检测方法的建立对于我国猪群中环曲病毒的分子流行病学调查提供了有效的技术支持，有助于早期感染猪群的诊断和监控，并且可以完全替代其他检测方法。",
+    "reference_case": "猪环曲病毒RT-PCR检测方法的建立对于我国猪群中环曲病毒的分子流行病学调查提供了有效的技术支持，有助于早期感染猪群的诊断和监控。",
+    "error_detail": "添加了可以完全替代其他检测方法的假设，这在原始输出中并未提及。",
+    "original_question": "猪环曲病毒RT-PCR检测方法的建立对于我国猪群中环曲病毒的分子流行病学调查有何意义？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "P97基因是猪肺炎支原体的重要黏附因子，存在于所有分离到的猪肺炎支原体中，是Mhp的特异性免疫原基因，位于该基因N端的R1区，被证实为P97的抗原决定簇，直接参与黏附。",
+    "reference_case": "P97基因是猪肺炎支原体的重要黏附因子，存在于所有分离到的猪肺炎支原体中，是Mhp的特异性免疫原基因，位于该基因C端的R1区，被证实为P97的抗原决定簇，直接参与黏附。",
+    "error_detail": "基因区域被错误地从C端改为N端。",
+    "original_question": "猪肺炎支原体（Mhp）的P97基因在研究中扮演了什么角色？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "TaqMan-BHQ荧光定量PCR方法在检测猪肺炎支原体时的最低检测限可达100 copies/μL。",
+    "reference_case": "TaqMan-BHQ荧光定量PCR方法在检测猪肺炎支原体时的最低检测限可达10 copies/μL。",
+    "error_detail": "最低检测限被错误地从10 copies/μL增加到100 copies/μL。",
+    "original_question": "TaqMan-BHQ荧光定量PCR方法在检测猪肺炎支原体时的最低检测限是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，调查了100个规模猪场。",
+    "reference_case": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，调查了54个规模猪场。",
+    "error_detail": "调查的猪场数量被错误地从54个增加到100个。",
+    "original_question": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，调查了多少个规模猪场？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在重庆市渝西地区的副猪嗜血杆菌血清学调查中，检测出的阳性血清样本数量是50份。",
+    "reference_case": "在重庆市渝西地区的副猪嗜血杆菌血清学调查中，检测出的阳性血清样本数量是39份。",
+    "error_detail": "阳性血清样本数量被错误地从39份增加到50份。",
+    "original_question": "在重庆市渝西地区的副猪嗜血杆菌血清学调查中，检测出的阳性血清样本数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，使用的检测方法是副猪嗜血杆菌反向间接血凝试验。",
+    "reference_case": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，使用的检测方法是副猪嗜血杆菌正向间接血凝试验。",
+    "error_detail": "检测方法被错误地从正向改为反向。",
+    "original_question": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，使用的检测方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，头孢类药物对分离菌株最敏感，敏感率达100%。",
+    "reference_case": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，头孢类药物对分离菌株最敏感，敏感率达94%。",
+    "error_detail": "敏感率被错误地从94%增加到100%。",
+    "original_question": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，哪些药物对分离菌株最敏感？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，新霉素、洛美沙星、林可霉素、土霉素、罗红霉素等药物对分离菌株的敏感性最差，敏感率仅有5%到20%。",
+    "reference_case": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，新霉素、洛美沙星、林可霉素、土霉素、罗红霉素等药物对分离菌株的敏感性最差，敏感率仅有18%到41%。",
+    "error_detail": "敏感率被错误地从18%-41%降低到5%-20%。",
+    "original_question": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，哪些药物对分离菌株的敏感性最差？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，分离出的疑似副猪嗜血杆菌菌株数量是25株。",
+    "reference_case": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，分离出的疑似副猪嗜血杆菌菌株数量是17株。",
+    "error_detail": "分离出的菌株数量被错误地从17株增加到25株。",
+    "original_question": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，分离出的疑似副猪嗜血杆菌菌株数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，分离菌株对左氧氟沙星、阿奇霉素和万古霉素的敏感率达到了90%。",
+    "reference_case": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，分离菌株对左氧氟沙星、阿奇霉素和万古霉素的敏感率达到了82%。",
+    "error_detail": "敏感率被错误地从82%增加到90%。",
+    "original_question": "重庆市渝西地区副猪嗜血杆菌的血清学调查中，分离菌株对哪些药物的敏感率达到了82%？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "试验结果表明，猪源脑心肌炎病毒GXLC株对仔猪具有较高的致病性，感染后仔猪表现出明显的临床症状和病理变化，并且所有感染仔猪均在48小时内死亡。",
+    "reference_case": "试验结果表明，猪源脑心肌炎病毒GXLC株对仔猪具有较高的致病性，感染后仔猪表现出明显的临床症状和病理变化。",
+    "error_detail": "添加了所有感染仔猪均在48小时内死亡的假设，这在原始输出中并未提及。",
+    "original_question": "猪源脑心肌炎病毒GXLC株对仔猪的致病性试验的结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "该系统的构建为研究猪霍乱沙门氏菌的毒力因子和免疫机制提供了重要工具，同时也为开发新型疫苗奠定了基础，并且已经成功应用于临床。",
+    "reference_case": "该系统的构建为研究猪霍乱沙门氏菌的毒力因子和免疫机制提供了重要工具，同时也为开发新型疫苗奠定了基础。",
+    "error_detail": "添加了已经成功应用于临床的假设，这在原始输出中并未提及。",
+    "original_question": "猪霍乱沙门氏菌C78-1株ΔcrpΔasd缺失株平衡致死载体系统的构建有何应用价值？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "试验结果表明，猪源脑心肌炎病毒GXLC株对仔猪具有较高的致病性，感染后仔猪表现出明显的临床症状和病理变化，但对成年猪无影响。",
+    "reference_case": "试验结果表明，猪源脑心肌炎病毒GXLC株对仔猪具有较高的致病性，感染后仔猪表现出明显的临床症状和病理变化。",
+    "error_detail": "添加了对成年猪无影响的信息，这与原始输出中仅讨论仔猪的致病性相冲突。",
+    "original_question": "猪源脑心肌炎病毒GXLC株对仔猪的致病性试验的结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发酵棉籽饼粕在猪的日粮中添加量达到25%时，对生长育肥期猪的生长性能无显著不良影响。",
+    "reference_case": "发酵棉籽饼粕在猪的日粮中添加量达到15%时，对生长育肥期猪的生长性能无显著不良影响。",
+    "error_detail": "添加量被错误地从15%增加到25%。",
+    "original_question": "发酵棉籽饼粕在猪的日粮中添加量达到多少时，对生长育肥期猪的生长性能无显著不良影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在犬细小病毒的血凝试验中，病毒分离株对鸡红细胞有凝集作用，HA效价均大于128，而对猪红细胞不凝集。",
+    "reference_case": "在犬细小病毒的血凝试验中，病毒分离株对猪红细胞有凝集作用，HA效价均大于128，而对鸡红细胞不凝集。",
+    "error_detail": "凝集作用的红细胞来源被错误地从猪改为鸡。",
+    "original_question": "犬细小病毒的血凝试验中，病毒分离株对哪些动物的红细胞有凝集作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在PRRSV感染细胞中，最佳固定条件为使用90%丙酮在4°C下固定20分钟。对于病料组织，最佳固定条件为使用90%丙酮在4°C下固定30分钟。",
+    "reference_case": "在PRRSV感染细胞中，最佳固定条件为使用80%丙酮在4°C下固定20分钟。对于病料组织，最佳固定条件为使用80%丙酮在4°C下固定30分钟。",
+    "error_detail": "丙酮浓度被错误地从80%增加到90%。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）直接免疫荧光检测方法的最佳固定条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "荧光抗体只与PRRSV细胞毒发生特异性反应，不与其他猪病发生交叉反应。在1:200倍稀释时，荧光抗体与PRRSV CC-11、CH-1R、JXAI-R三种PRRSV细胞毒反应，均能检测到阳性细胞，证明其敏感性很好。",
+    "reference_case": "荧光抗体只与PRRSV细胞毒发生特异性反应，不与其他猪病发生交叉反应。在1:400倍稀释时，荧光抗体与PRRSV CC-11、CH-1R、JXAI-R三种PRRSV细胞毒反应，均能检测到阳性细胞，证明其敏感性很好。",
+    "error_detail": "稀释倍数被错误地从1:400改为1:200。",
+    "original_question": "PRRSV直接免疫荧光检测方法中使用的荧光抗体的特异性和敏感性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "使用的病料组织类型包括猪肺、脾、肾和淋巴结等组织，以及心脏和肝脏。",
+    "reference_case": "使用的病料组织类型包括猪肺、脾、肾和淋巴结等组织。",
+    "error_detail": "添加了心脏和肝脏作为病料组织类型，这在原始输出中并未提及。",
+    "original_question": "PRRSV直接免疫荧光检测方法中使用的病料组织类型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪水肿病是一种主要影响成年猪的致死性细菌传染病，其主要病原体是产志贺样毒素型大肠杆菌（SLTEC），特别是产生Stx2e毒素的菌株。",
+    "reference_case": "猪水肿病是一种主要影响断奶仔猪的致死性细菌传染病，其主要病原体是产志贺样毒素型大肠杆菌（SLTEC），特别是产生Stx2e毒素的菌株。",
+    "error_detail": "受影响猪的年龄被错误地从断奶仔猪改为成年猪。",
+    "original_question": "什么是猪水肿病，其主要病原体是什么？",
+    "original_input": ""
+  }
+]

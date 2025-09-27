@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "细胞毒性 T 细胞（Tc 细胞）能识别与 MHC II 类分子相结合的抗原，通过直接接触、释放颗粒酶和诱导细胞凋亡来杀死靶细胞，对猪瘟病毒和非洲猪瘟病毒具有特异性。",
+    "reference_case": "细胞毒性 T 细胞（Tc 细胞）能识别与 MHC I 类分子相结合的抗原，通过直接接触、释放颗粒酶和诱导细胞凋亡来杀死靶细胞，对猪瘟病毒和非洲猪瘟病毒具有特异性。",
+    "error_detail": "将 MHC I 类分子错误地描述为 MHC II 类分子。",
+    "original_question": "细胞毒性 T 细胞在猪中对抗病毒和肿瘤细胞的免疫应答中起什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪血液中主要的免疫球蛋白种类是IgM。",
+    "reference_case": "猪血液中主要的免疫球蛋白种类是IgG。",
+    "error_detail": "错误地将主要的免疫球蛋白种类描述为IgM而非IgG。",
+    "original_question": "猪血液中主要的免疫球蛋白种类是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "IgG在猪血清和初乳中占Ig总量的30%以上。",
+    "reference_case": "IgG在猪血清和初乳中占Ig总量的60%以上。",
+    "error_detail": "错误地低估了IgG在猪血清和初乳中的比例。",
+    "original_question": "IgG在猪血清和初乳中的含量比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪血清中的IgA为6.4S单体和通过J链连接的两个单体，组成沉降系数为11S的二聚体。",
+    "reference_case": "猪血清中的IgA为6.4S单体和通过J链连接的两个单体，组成沉降系数为9.3S的二聚体。",
+    "error_detail": "错误地高估了IgA二聚体的沉降系数。",
+    "original_question": "猪血清中的IgA的沉降系数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "维生素 E 和硒的添加会降低猪对大肠杆菌的抗体反应。",
+    "reference_case": "维生素 E 可升高猪对大肠杆菌的抗体反应，添加维生素 E 或硒可提高猪对绵羊红细胞的抗体反应，饲料中添加维生素 E 和硒也可增加猪淋巴细胞对植物凝血毒素细胞化反应。",
+    "error_detail": "错误地描述了维生素 E 和硒对猪抗体反应的影响。",
+    "original_question": "维生素 E 和硒对青年猪的抗体水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "所有研究都发现饲料中添加维生素 E 和硒可增加猪淋巴细胞对植物凝血毒素细胞化反应。",
+    "reference_case": "有研究发现饲料中添加维生素 E 和硒可增加猪淋巴细胞对植物凝血毒素细胞化反应，但也有研究未发现其对青年猪免疫应答的影响。",
+    "error_detail": "错误地假设所有研究都支持维生素 E 和硒对猪免疫应答的积极影响。",
+    "original_question": "维生素 E 和硒是否在所有研究中都能提升猪的免疫应答？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "青年猪饲料中的黄曲霉毒素可提高猪对丹毒杆菌的免疫力。",
+    "reference_case": "青年猪饲料中的黄曲霉毒素可降低猪对丹毒杆菌的免疫力，并由于继发沙门氏菌而加重临床症状，增加口腔接种猪痢疾密螺旋体的易感性。",
+    "error_detail": "错误地描述了黄曲霉毒素对猪免疫力的影响。",
+    "original_question": "黄曲霉毒素对青年猪的免疫力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "成年猪可能发生急性胃炎和肠炎。",
+    "reference_case": "成年猪可能发生急性胃扩张和肠扭转。",
+    "error_detail": "错误地将急性胃扩张和肠扭转描述为急性胃炎和肠炎。",
+    "original_question": "成年猪可能发生哪些急性胃肠问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "怀孕母猪因为胃肠道健康所以不容易发生胃扩张和肠扭转。",
+    "reference_case": "怀孕母猪，特别是关在条板圈内且每天只喂一次的母猪，更容易发生胃扩张和肠扭转，因为这些因素可能导致胃肠道不适。",
+    "error_detail": "错误地描述了怀孕母猪发生胃扩张和肠扭转的原因。",
+    "original_question": "怀孕母猪为什么更容易发生胃扩张和肠扭转？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的常见腹泻病包括A型产气英膜梭状芽胞杆菌和流感病毒。",
+    "reference_case": "猪的常见腹泻病包括C型产气英膜梭状芽胞杆菌、大肠杆菌（ETEC, EPEC, PWD）、冠状病毒（TGEV, PEDV, CV777）、轮状病毒、隐孢子虫、猪等孢子球虫、Lawsonia intracellularis、沙门氏杆菌和Serpulina hyodysenteriae。",
+    "error_detail": "错误地列举了猪的常见腹泻病。",
+    "original_question": "猪的常见腹泻病有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "碳水化合物主要在胃内消化。",
+    "reference_case": "碳水化合物主要在小肠内消化。",
+    "error_detail": "错误地将碳水化合物的主要消化部位描述为胃。",
+    "original_question": "碳水化合物在猪体内的主要消化部位是哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "初生仔猪小肠近端的乳糖消化酶活性比在回肠部位低，4周内小猪的乳糖酶活性逐渐增加。",
+    "reference_case": "初生仔猪小肠近端的乳糖消化酶活性比在回肠部位高，4周内小猪的乳糖酶活性逐渐降低直至不到初生仔猪的一半。",
+    "error_detail": "错误地描述了乳糖酶活性的变化趋势。",
+    "original_question": "乳糖酶活性在初生仔猪和4周龄小猪中如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "切除大肠的猪无法生存。",
+    "reference_case": "切除大肠的猪仍可生存，但生长会受到轻微影响，大肠可以在一定程度上代偿小肠的功能。",
+    "error_detail": "错误地描述了切除大肠对猪生存的影响。",
+    "original_question": "切除大肠对猪的生存影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "成年猪大肠的长度为1.5~3米。",
+    "reference_case": "成年猪大肠的长度为3.5~6米，长度取决于饲料种类。",
+    "error_detail": "错误地低估了成年猪大肠的长度。",
+    "original_question": "成年猪大肠的长度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "成年猪结肠的容量是小肠的两倍。",
+    "reference_case": "成年猪结肠的容量与小肠相似，但长度只有小肠的1/4。",
+    "error_detail": "错误地高估了结肠的容量。",
+    "original_question": "成年猪结肠的容量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪乳腺位于背部，由肌肉组织和背筋膜紧密连接于背壁下。",
+    "reference_case": "猪乳腺位于胸廊与腹股沟之间、腹侧壁中线两侧平行排列，由脂肪组织和腹筋膜紧密连接于腹壁下。通常由1-2对胸侧乳头、4对腹侧乳头、1对腹股沟乳头组成，每侧共有6-7对乳腺。每个乳腺有一个乳头，两个相互独立的乳头管。乳头总数量较多时，常有小乳头和无功能的遗留附属乳头。",
+    "error_detail": "错误地描述了猪乳腺的位置和结构。",
+    "original_question": "母猪乳腺的外部结构特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "乳头排列不良的母猪通常有窄小的脐带，这会造成乳头排列整齐。",
+    "reference_case": "乳头的排列应尽可能保持平行，如果在脐带前后乳头偏离直线，产后乳头利用率不高，从而限制了仔猪的接近。乳头排列不良的母猪通常有宽大的脐带，这会造成乳头排列紊乱，导致母猪不能同时哺育11头或12头仔猪。",
+    "error_detail": "错误地描述了脐带大小对乳头排列的影响。",
+    "original_question": "影响母猪乳头排列的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "泌乳母猪的乳腺由排列在腺泡上的分泌单位组成的泡管腺，这些腺泡上排列有分泌乳汁的腺上皮细胞，由有分泌功能的导管连接并通向乳头的出口。",
+    "reference_case": "泌乳母猪的乳腺由排列在腺泡上的分泌单位组成的泡管腺，这些腺泡上排列有分泌乳汁的腺上皮细胞，由无分泌功能的导管连接并通向乳头的出口。母猪乳腺通常有两套完整的乳腺系统，相互交织，但每个系统组成部分相互独立。每个乳头有两个开口，分属于两个腺体系统，有时也常有第三个开口，但通常在乳头末端不通，也没有分泌功能。",
+    "error_detail": "错误地描述了导管的功能。",
+    "original_question": "母猪乳腺内部结构的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪每天哺乳小猪次数少于12次。",
+    "reference_case": "评价猪的泌乳量较为复杂，母猪乳头较小，有分泌功能的乳腺数量众多，使得手工或机械挤奶较为困难。母猪每天哺乳小猪次数超过24次。通常用外源性催产素诱发母猪的放奶，静脉注射小剂量催产素（10 IU）可获得较好效果。多年来研究人员常用以下五种方法来评价母猪的泌乳量。",
+    "error_detail": "错误地低估了母猪每天哺乳小猪的次数。",
+    "original_question": "如何评价母猪的泌乳量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪泌乳量与母猪年龄、妊娠期维生素和矿物质的摄取量、乳腺泌乳细胞大小有关。",
+    "reference_case": "母猪泌乳量与母猪体重、妊娠期蛋白质和能量的摄取量、乳腺泌乳细胞数量有关。",
+    "error_detail": "错误地描述了影响母猪泌乳量的因素。",
+    "original_question": "母猪泌乳量与哪些因素有关？",
+    "original_input": ""
+  }
+]

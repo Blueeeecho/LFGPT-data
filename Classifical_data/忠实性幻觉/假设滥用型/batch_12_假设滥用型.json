@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "因为皮下脂肪占的比重最大，并且背部的皮下脂肪厚度测量方便，可以通过测量背部的皮下脂肪厚度来推测生猪的胴体脂肪含量，尤其是在育肥期结束时。",
+    "reference_case": "因为皮下脂肪占的比重最大，并且背部的皮下脂肪厚度测量方便，可以通过测量背部的皮下脂肪厚度来推测生猪的胴体脂肪含量。",
+    "error_detail": "添加了未经证实的假设，即尤其是在育肥期结束时",
+    "original_question": "如何通过测量背部皮下脂肪厚度来推测生猪的胴体脂肪含量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "持续病原刺激导致猪免疫系统活跃，消耗营养成分影响瘦肉增长效率，引起肉质变差，尤其是在高密度饲养环境下。",
+    "reference_case": "持续病原刺激导致猪免疫系统活跃，消耗营养成分影响瘦肉增长效率，引起肉质变差。",
+    "error_detail": "添加了未经证实的假设，即尤其是在高密度饲养环境下",
+    "original_question": "疾病如何影响猪的肉质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "当猪舍温度控制在最适温度时，剩余能量更多转化为脂肪；当环境温度过高或过低时，剩余能量转化为脂肪减少，这一现象在冬季尤为明显。",
+    "reference_case": "当猪舍温度控制在最适温度时，剩余能量更多转化为脂肪；当环境温度过高或过低时，剩余能量转化为脂肪减少。",
+    "error_detail": "添加了未经证实的假设，即这一现象在冬季尤为明显",
+    "original_question": "环境温度如何影响剩余能量转化为脂肪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "有毒重金属对猪的生长、代谢和健康没有影响。",
+    "reference_case": "有毒重金属会影响猪的生长、代谢和健康。",
+    "error_detail": "假设滥用型（添加假设）",
+    "original_question": "石粉等矿物质原料中的有毒重金属对猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "广泛利用公共食堂和住户的残食食品养猪，可以大大增加集体农场的财富，前提是所有农场都采用这种方法。",
+    "reference_case": "广泛利用公共食堂和住户的残食食品养猪，可以大大增加集体农场的财富。",
+    "error_detail": "添加了不必要的假设条件",
+    "original_question": "怎样利用残食食品养猪能产生更好的经济效益？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "防治猪囊尾蚴病需采取综合性措施，普查患猪绦虫病人，彻底治疗，驱除成虫消灭传染源，加强肉品卫生检疫，严禁病猪肉上市并处理，人畜分开，及时发酵处理，猪囊虫病猪和猪绦虫病人可用吡喹酮、灭绦灵等药物治疗。同时，应避免食用未煮熟的猪肉。",
+    "reference_case": "防治猪囊尾蚴病需采取综合性措施，普查患猪绦虫病人，彻底治疗，驱除成虫消灭传染源，加强肉品卫生检疫，严禁病猪肉上市并处理，人畜分开，及时发酵处理，猪囊虫病猪和猪绦虫病人可用吡喹酮、灭绦灵等药物治疗。",
+    "error_detail": "添加了额外的假设性建议",
+    "original_question": "如何防治猪囊尾蚴病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "仔猪的时态生长模型包括建立Logistic模型、Gompertz模型以及分析断奶和营养对猪生长的影响。此外，还应考虑环境因素对猪生长的影响。",
+    "reference_case": "仔猪的时态生长模型包括建立Logistic模型、Gompertz模型以及分析断奶和营养对猪生长的影响。",
+    "error_detail": "添加了额外的假设性因素",
+    "original_question": "什么是仔猪的时态生长模型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "根据饲料酸结合力的概念，计算饲料系酸力，设计适合仔猪消化和吸收的饲料配方，假设所有仔猪对酸结合力的反应相同。",
+    "reference_case": "根据饲料酸结合力的概念，计算饲料系酸力，设计适合仔猪消化和吸收的饲料配方。",
+    "error_detail": "添加了不合理的假设",
+    "original_question": "饲料的酸结合力（系酸力）如何设计饲料配方？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "研究仔猪生长模型可以揭示仔猪生长发育的客观规律，为仔猪营养决策提供理论指导，假设所有仔猪的生长模型都相同。",
+    "reference_case": "研究仔猪生长模型可以揭示仔猪生长发育的客观规律，为仔猪营养决策提供理论指导。",
+    "error_detail": "添加了不合理的假设",
+    "original_question": "为什么需要研究仔猪生长模型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "影响仔猪蛋白质需要量的因素包括遗传基础、日龄、日粮能量浓度、蛋白品质和日粮粗纤维，以及环境温度。",
+    "reference_case": "影响仔猪蛋白质需要量的因素包括遗传基础、日龄、日粮能量浓度、蛋白品质和日粮粗纤维。",
+    "error_detail": "错误地添加了'环境温度'作为影响因素，偏离了原始信息。",
+    "original_question": "影响仔猪蛋白质需要量的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "日粮消化率低会加重小肠损伤，降低日粮蛋白质的消化吸收，导致较多蛋白质进入大肠发生腐败，因此应选择消化率和适口性都高的原料，尤其是在高温环境下。",
+    "reference_case": "日粮消化率低会加重小肠损伤，降低日粮蛋白质的消化吸收，导致较多蛋白质进入大肠发生腐败，因此应选择消化率和适口性都高的原料。",
+    "error_detail": "错误地添加了未经证实的假设条件。",
+    "original_question": "日粮消化率对仔猪采食量的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "通过调整玉米、脱脂奶粉、大豆粕等原料的比例，可以调整粗蛋白质、钙、磷等营养成分，同时添加维生素。",
+    "reference_case": "通过调整玉米、脱脂奶粉、大豆粕等原料的比例，可以调整粗蛋白质、钙、磷等营养成分。",
+    "error_detail": "添加假设",
+    "original_question": "如何通过饲料配方调整仔猪的营养成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "若增加蛋氨酸454 mg/kg，仔猪生长性能会更好，饲料转化率也可提高，同时减少疾病发生率。",
+    "reference_case": "若增加蛋氨酸454 mg/kg，仔猪生长性能会更好，饲料转化率也可提高。",
+    "error_detail": "添加假设",
+    "original_question": "仔猪生长性能受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "美国堪萨斯大学推荐的仔猪日粮配方中乳清粉、乳糖、大豆粕、脂肪粉、血浆蛋白粉、血粉、鱼粉的占比会随仔猪体重变化，同时维生素含量也会变化。",
+    "reference_case": "美国堪萨斯大学推荐的仔猪日粮配方中乳清粉、乳糖、大豆粕、脂肪粉、血浆蛋白粉、血粉、鱼粉的占比会随仔猪体重变化。",
+    "error_detail": "添加假设",
+    "original_question": "美国堪萨斯大学推荐的仔猪日粮配方中哪些原料的占比会随仔猪体重变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "仔猪饲料应新鲜，避免使用发霉变质、有毒或适口性不好的饲料，如菜籽饼应尽量少用或不用，薯类饲料宜熟饲，仔猪料应以熟化或生拌（湿）料饲喂，且必须添加抗生素。",
+    "reference_case": "仔猪饲料应新鲜，避免使用发霉变质、有毒或适口性不好的饲料，如菜籽饼应尽量少用或不用，薯类饲料宜熟饲，仔猪料应以熟化或生拌（湿）料饲喂。",
+    "error_detail": "添加了必须添加抗生素的假设",
+    "original_question": "仔猪饲料应如何调制和保持卫生？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "应定期清洗猪体、修剪蹄部，避免粗暴对待和过多喧哗，注意经常运动，保持猪舍干燥、通风良好，光线充足，并且每天播放音乐。",
+    "reference_case": "应定期清洗猪体、修剪蹄部，避免粗暴对待和过多喧哗，注意经常运动，保持猪舍干燥、通风良好，光线充足。",
+    "error_detail": "添加假设",
+    "original_question": "如何管理种公猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "如何进行带猪消毒？在消毒前应先给猪注射抗生素。",
+    "reference_case": "在消除传染源后，对可疑被污染的场地、物品和同圈猪进行消毒，可选用新洁尔灭（1%）、过氧乙酸（1%）、二氯异氰尿酸钠等。",
+    "error_detail": "错误地添加了消毒前应先给猪注射抗生素的假设。",
+    "original_question": "如何进行带猪消毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪水疱病是如何传播的？主要通过空气传播。",
+    "reference_case": "猪水疱病通过与病猪或带毒康复猪同居，或进入污染了病毒的栏、圈、车、船或采食污染了病毒的饲料和泔水而被感染，主要通过受伤的蹄部、鼻端皮肤或口腔及胃肠黏膜进入体内。",
+    "error_detail": "错误地添加了主要通过空气传播的假设。",
+    "original_question": "猪水疱病是如何传播的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在未流行蓝耳病地区使用蓝耳病疫苗可以预防其他疾病。",
+    "reference_case": "因为在没有猪蓝耳病流行的地区或猪场不建议使用蓝耳病疫苗，如需使用也应选择灭活疫苗。",
+    "error_detail": "添加了未经证实的假设",
+    "original_question": "为什么在未流行蓝耳病地区不建议使用蓝耳病疫苗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "临床症状包括发热、食欲不振、厌食、反应迟钝、呼吸困难、咳嗽、疼痛（尖叫）、关节肿胀、跛行、颤抖、共济失调、可视黏膜发绀、侧卧、消瘦和被毛凌乱，严重时可能导致死亡，尤其是在冬季。",
+    "reference_case": "临床症状包括发热、食欲不振、厌食、反应迟钝、呼吸困难、咳嗽、疼痛（尖叫）、关节肿胀、跛行、颤抖、共济失调、可视黏膜发绀、侧卧、消瘦和被毛凌乱，严重时可能导致死亡。",
+    "error_detail": "错误地添加了'尤其是在冬季'这一假设，与原始描述不符。",
+    "original_question": "副猪嗜血杆菌感染的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "病猪与健康猪直接接触，通过病猪咳嗽、气喘和喷嚏将含病原体的分泌物喷射出来，形成飞沫，经呼吸道而感染，尤其是在密闭空间内。",
+    "reference_case": "病猪与健康猪直接接触，通过病猪咳嗽、气喘和喷嚏将含病原体的分泌物喷射出来，形成飞沫，经呼吸道而感染。",
+    "error_detail": "错误地添加了'尤其是在密闭空间内'这一假设，与原始描述不符。",
+    "original_question": "猪支原体肺炎的感染途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪衣原体感染的实验室诊断方法包括触片染色、病原分离、血清学检测、PCR检测、鉴别诊断和基因测序。",
+    "reference_case": "猪衣原体感染的实验室诊断方法包括触片染色、病原分离、血清学检测、PCR检测、鉴别诊断。",
+    "error_detail": "添加了未提及的基因测序方法。",
+    "original_question": "猪衣原体感染的实验室诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "预防猪衣原体感染的措施包括加强引种检疫，强化猪场生物安全措施，免疫预防和定期消毒。",
+    "reference_case": "预防猪衣原体感染的措施包括加强引种检疫，强化猪场生物安全措施，免疫预防。",
+    "error_detail": "添加了未提及的定期消毒。",
+    "original_question": "预防猪衣原体感染的措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "防治措施包括用吡喹酮或丙硫苯咪唑等药物进行治疗，以及采取预防措施如定期驱虫、科学饲养管理、不喂被狗粪污染的饲料和饮水等和加强环境卫生。",
+    "reference_case": "防治措施包括用吡喹酮或丙硫苯咪唑等药物进行治疗，以及采取预防措施如定期驱虫、科学饲养管理、不喂被狗粪污染的饲料和饮水等。",
+    "error_detail": "添加了未提及的加强环境卫生。",
+    "original_question": "如何防治猪肺线虫病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "本病主要经消化道、呼吸道和损伤的皮肤感染，特别是在高温高湿环境下更易传播。",
+    "reference_case": "本病主要经消化道、呼吸道和损伤的皮肤感染。",
+    "error_detail": "添加了'特别是在高温高湿环境下更易传播'的假设，原始output未提及。",
+    "original_question": "猪链球菌病的主要传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "对疫点内畜舍、场地以及所有运载工具、饮水用具等必须进行严格彻底地消毒。应对病猪作无血扑杀处理，对同群猪立即进行强制免疫接种或用药物预防，并隔离观察14天。如果疫情扩散，还需封锁整个村庄。",
+    "reference_case": "对疫点内畜舍、场地以及所有运载工具、饮水用具等必须进行严格彻底地消毒。应对病猪作无血扑杀处理，对同群猪立即进行强制免疫接种或用药物预防，并隔离观察14天。必要时对同群猪进行扑杀处理。对病死猪及排泄物、可能被污染饲料、污水等按有关规定进行无害化处理；对可能被污染的物品、交通工具、用具、畜舍进行严格彻底消毒。",
+    "error_detail": "添加了'如果疫情扩散，还需封锁整个村庄'的假设，原始output未提及。",
+    "original_question": "在暴发流行时应采取哪些措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "饲槽和饮水装置应建在猪栏的中央位置。",
+    "reference_case": "应建在动物容易接近的地方，不能有破损的部件和带有尖锐突起的棱角。",
+    "error_detail": "错误地添加了关于位置的假设，而原始输出并未指定具体位置。",
+    "original_question": "猪栏内设置的饲槽和饮水装置应如何设置？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "皮肤病变可能与原发病变在皮肤以外的其他系统相关，如猪应激综合征、有机磷或氨基甲酸酯中毒、猪繁殖和呼吸综合征等，且通常会导致死亡。",
+    "reference_case": "皮肤病变可能与原发病变在皮肤以外的其他系统相关，如猪应激综合征、有机磷或氨基甲酸酯中毒、猪繁殖和呼吸综合征等。",
+    "error_detail": "错误添加了假设（通常会导致死亡），属于假设滥用。",
+    "original_question": "皮肤病变与原发病变在皮肤以外的其他系统之间的关系如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "这种循环传播方式使非洲猪瘟在非洲很容易消灭",
+    "reference_case": "这种循环传播方式使非洲猪瘟很难在非洲消灭",
+    "error_detail": "错误地添加了容易消灭的假设",
+    "original_question": "ASFV的传播对于非洲消灭非洲猪瘟的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "这表明发生了产后晚期感染",
+    "reference_case": "这表明发生了产后早期感染或先天感染",
+    "error_detail": "错误地添加了产后晚期感染的假设",
+    "original_question": "为什么在规模较小的猪群中，3周龄时排毒显著，5周龄时终止？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "感染猪的扁桃体组织成了病毒的次要扩散源",
+    "reference_case": "感染猪的扁桃体组织成了病毒的主要扩散源",
+    "error_detail": "错误地添加了次要扩散源的假设",
+    "original_question": "感染猪的扁桃体组织在病毒扩散中扮演什么角色？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "据报道，猪肠病毒可能与类似猪水疱病的皮下病变有关，尤其是在高温环境下。",
+    "reference_case": "据报道，猪肠病毒可能与类似猪水疱病的皮下病变有关。",
+    "error_detail": "错误地添加了高温环境作为条件，缺乏依据。",
+    "original_question": "猪肠病毒是否可能与类似猪水疱病的皮下病变有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "确保后备猪感染猪场中存在的病毒的最佳方法是直接注射病毒。",
+    "reference_case": "可以收集不同圈舍的断奶仔猪粪便，混合后加入饲料或用其包裹，让后备猪接触。",
+    "error_detail": "错误地添加了不存在的假设，改变了原始方法。",
+    "original_question": "在猪场中如何确保后备猪感染猪场中存在的病毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪细小病毒的快速诊断方法是通过PCR检测血液样本。",
+    "reference_case": "未提及具体方法，但文献表明可以通过观察木乃伊胎儿进行快速诊断。",
+    "error_detail": "错误地引入了未提及的诊断方法，添加了不存在的假设。",
+    "original_question": "猪细小病毒的快速诊断方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "仅在接触PRCV的母猪乳中观察到IgA抗体，且IgA抗体能有效保护哺乳猪抵抗肠道TGEV感染，这是因为PRCV和TGEV有相同的抗原结构。",
+    "reference_case": "需要进一步研究BALT与乳腺免疫间的联系，以及为什么IgA抗体仅发生于曾接触PRCV的母猪，且IgA抗体有效保护哺乳猪抵抗肠道TGEV感染的原因。",
+    "error_detail": "添加了未经证实的假设，即PRCV和TGEV有相同的抗原结构。",
+    "original_question": "为什么仅在接触PRCV的母猪乳中观察到IgA抗体，且IgA抗体能有效保护哺乳猪抵抗肠道TGEV感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "任何营养不良都会增加病势，导致仔猪食欲降低，可能变成弱仔或病猪，特别是缺乏维生素A的情况下。",
+    "reference_case": "任何营养不良都会增加病势，导致仔猪食欲降低，可能变成弱仔或病猪。",
+    "error_detail": "添加了未经证实的假设，即特别是缺乏维生素A的情况下。",
+    "original_question": "营养不良对猪萎缩性鼻炎有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "正常免疫过的母猪可以产生高滴度的抗多杀性巴氏杆菌抗体，并且这些抗体可以完全防止感染。",
+    "reference_case": "正常免疫过的母猪可以产生高滴度的抗多杀性巴氏杆菌抗体。",
+    "error_detail": "添加假设",
+    "original_question": "正常免疫过的母猪可以产生什么抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "减少与细菌接触。虽然还没有证明气肿疽梭菌是一种常见的土壤微生物，但是从几篇关于猪患此病的报道中有充分的证据表明，在已知污染猪场养猪或让猪采食死于黑腿病的反刍动物的尸体，都是发生此病的唯一因素。",
+    "reference_case": "减少与细菌接触。虽然还没有证明气肿疽梭菌是一种常见的土壤微生物，但是从几篇关于猪患此病的报道中有充分的证据表明，在已知污染猪场养猪或让猪采食死于黑腿病的反刍动物的尸体，都是发生此病的因素。",
+    "error_detail": "添加了'唯一因素'的假设，与原始信息不符。",
+    "original_question": "预防猪气肿疽梭菌感染的方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "通过实验在无菌猪中引入病原菌来复制猪的增生性出血性肠病，假设所有猪都对此病原菌敏感。",
+    "reference_case": "通过实验在无菌猪中引入病原菌来复制猪的增生性出血性肠病。",
+    "error_detail": "添加了未经证实的假设",
+    "original_question": "增生性出血性肠病的研究方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "需要研究经济而特异的检查感染动物的方法，清除和杀灭土壤、房舍及器械上存在的禽分枝杆菌，还需确定这些微生物的存活时间、传染源和传播方式，以及禽分枝杆菌血清型的稳定性及其遗传关系，同时需要研究疫苗的开发。",
+    "reference_case": "需要研究经济而特异的检查感染动物的方法，清除和杀灭土壤、房舍及器械上存在的禽分枝杆菌，还需确定这些微生物的存活时间、传染源和传播方式，以及禽分枝杆菌血清型的稳定性及其遗传关系。",
+    "error_detail": "添加假设",
+    "original_question": "猪结核病的预防需要进行哪些研究？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "清除剩料，提供干燥环境，使用广谱抗菌药，用甲醛蒸汽或 2% 甲醛水溶液消毒猪圈和围栏，同时需要定期更换饲料。",
+    "reference_case": "清除剩料，提供干燥环境，使用广谱抗菌药，用甲醛蒸汽或 2% 甲醛水溶液消毒猪圈和围栏。",
+    "error_detail": "添加假设",
+    "original_question": "清除猪舍中酵母菌感染的有效方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "通过科学管理防止感染，包括定期给猪注射疫苗，应用杀鼠药控制鼠类，及时移走猪死亡后的尸体，不使用野生动物的尸体和未煮熟的泔水喂猪，防止猫在饲料中拉粪应将饲料盖住。",
+    "reference_case": "通过科学管理防止感染，包括不要让猫进入养猪或存放饲料的房舍中，应用杀鼠药控制鼠类，及时移走猪死亡后的尸体，不使用野生动物的尸体和未煮熟的泔水喂猪，防止猫在饲料中拉粪应将饲料盖住。",
+    "error_detail": "添加了不存在的疫苗注射措施。",
+    "original_question": "如何防止猪刚第弓形虫的感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "是的，某些品种或品系的猪比其他品种或品系的先天性缺陷发病率更高，这主要是由于饲养环境的不同。",
+    "reference_case": "是的，某些品种或品系的猪比其他品种或品系的先天性缺陷发病率更高。",
+    "error_detail": "添加了不相关的饲养环境因素。",
+    "original_question": "先天性缺陷的发病率在品种间是否有差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "DNA检测法更准确、更经济、无需氟烷试验配合，但需要昂贵的设备，已取代血型分析法用于检测PSS易感猪。",
+    "reference_case": "DNA检测法更准确、更经济、无需氟烷试验配合，已取代血型分析法用于检测PSS易感猪。",
+    "error_detail": "添加了未经证实的假设，即需要昂贵的设备。",
+    "original_question": "DNA检测法与血型分析法相比有哪些优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "直肠脱垂前，猪未发生疾病，惟一常见的因素是轻度便秘和饲料变化。",
+    "reference_case": "直肠脱垂前，猪未发生疾病，惟一常见的因素是轻度便秘。",
+    "error_detail": "添加了未经证实的假设，即饲料变化也是常见因素。",
+    "original_question": "直肠脱垂前猪未出现的常见症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在一些病例中可选择性地使用去铁敏纠正日粮铁不平衡。这种方法在所有铁中毒病例中都有效。",
+    "reference_case": "在一些病例中可选择性地使用去铁敏纠正日粮铁不平衡。",
+    "error_detail": "添加了不存在的普遍有效性假设，导致假设滥用型幻觉。",
+    "original_question": "猪铁中毒没有有效的治疗方法，可以采取什么措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "所有研究都发现饲料中添加维生素 E 和硒可增加猪淋巴细胞对植物凝血毒素细胞化反应。",
+    "reference_case": "有研究发现饲料中添加维生素 E 和硒可增加猪淋巴细胞对植物凝血毒素细胞化反应，但也有研究未发现其对青年猪免疫应答的影响。",
+    "error_detail": "错误地假设所有研究都支持维生素 E 和硒对猪免疫应答的积极影响。",
+    "original_question": "维生素 E 和硒是否在所有研究中都能提升猪的免疫应答？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "产前让母猪适应新环境的时间应在1周以上，可以显著降低有问题仔猪的发病率。",
+    "reference_case": "产前让母猪适应新环境的时间应在1周以上，但对于降低有问题仔猪的发病率并无显著关系。",
+    "error_detail": "添加假设",
+    "original_question": "母猪临产时适应新环境的时间对降低有问题仔猪的发病率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "母猪泌乳期间的营养需求不随泌乳过程的发展而发生变化，体能贮存在早期更能提供充足能量。",
+    "reference_case": "母猪泌乳期间的营养需求随着泌乳过程的发展而发生变化，体能贮存在早期更能提供充足能量。",
+    "error_detail": "添加假设",
+    "original_question": "母猪泌乳期间的营养需求如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "为预防控制 PRRSV，可能会对公猪进行隔离。",
+    "reference_case": "为预防控制 PRRSV，可能会对公猪进行免疫接种。",
+    "error_detail": "错误地添加了未经证实的措施。",
+    "original_question": "为预防控制 PRRSV，可能会对公猪进行哪种措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪的皮肤病变可能由营养不良引起。",
+    "reference_case": "皮肤病可能由仅限于皮肤的疾病（如耳坏死、玫瑰糠疹、猪痘）或全身性疾病（如猪丹毒、猪瘟、皮炎/肾病综合征）引起。",
+    "error_detail": "错误地添加了未经证实的病因。",
+    "original_question": "猪的皮肤病变可能由哪些原因引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "为了培育出对于所有外来病原体具有抵抗力或不受侵染的猪种，同时提高其生长速度。",
+    "reference_case": "为了培育出对于所有外来病原体具有抵抗力或不受侵染的猪种。",
+    "error_detail": "添加了提高生长速度的无关假设",
+    "original_question": "家畜育种为何要选育具有普遍抗病性的猪种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "通过训练操作人员端正工作态度可以显著降低仔猪的断奶前死亡率，同时提高仔猪的生长速度。",
+    "reference_case": "通过训练操作人员端正工作态度可以显著降低仔猪的断奶前死亡率。",
+    "error_detail": "添加了提高生长速度的无关假设",
+    "original_question": "如何通过人为因素降低仔猪断奶前的死亡率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "预防仔猪自残包括合理筑窝，确保母猪安身舒适，提供充足的垫料，避免在开阔空间分娩，以及减少人为干扰，同时播放轻音乐。",
+    "reference_case": "预防仔猪自残包括合理筑窝，确保母猪安身舒适，提供充足的垫料，避免在开阔空间分娩，以及减少人为干扰。",
+    "error_detail": "添加了播放轻音乐的无关假设",
+    "original_question": "如何预防仔猪自残？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "如果猪场使用先进的通风系统，环境高温对母猪的心血管系统没有影响。",
+    "reference_case": "环境高温是某些猪群损失的重要因素，占全年死亡数的11%发生在3天连续的高温天气中。",
+    "error_detail": "添加假设",
+    "original_question": "环境高温如何影响母猪的心血管系统？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "乳汁期和早期妊娠期间的食物水平不会影响母猪的繁殖性能。",
+    "reference_case": "乳汁期和早期妊娠期间的食物水平会影响母猪的繁殖性能。",
+    "error_detail": "错误地否定了乳汁期和早期妊娠期间食物水平对母猪繁殖性能的影响，添加了不存在的假设。",
+    "original_question": "乳汁期和早期妊娠期间的食物水平如何影响母猪的繁殖性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "饲料板为刚断奶仔猪提供足够的采食空间，同时也是采食量低、最适温度临界高值较高的仔猪休息和保暖的地方，还能预防疾病。",
+    "reference_case": "饲料板为刚断奶仔猪提供足够的采食空间，同时也是采食量低、最适温度临界高值较高的仔猪休息和保暖的地方。",
+    "error_detail": "添加了预防疾病的假设，原回答未提及此功能。",
+    "original_question": "饲料板对刚断奶仔猪有何益处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "制定饲养计划时需要考虑猪厩肥分泌的养分造成的环境污染或特定日粮原料的强迫使用，以及猪的品种差异。",
+    "reference_case": "制定饲养计划时需要考虑猪厩肥分泌的养分造成的环境污染或特定日粮原料的强迫使用。",
+    "error_detail": "假设滥用导致的忠实性幻觉",
+    "original_question": "制定饲养计划时需要考虑哪些限制因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "多区同步断奶生产中会存在这样一种进退两难的情况，从每个全进/全出单元中每周性生产的每窝猪都是单独的群体，它们的健康状况都不同于以前的猪群，而又不存在连续性可使得一个稳定或变化的健康水平的可靠记录发展下去。此外，这种生产方式还会导致猪群之间的疾病传播。",
+    "reference_case": "多区同步断奶生产中会存在这样一种进退两难的情况，从每个全进/全出单元中每周性生产的每窝猪都是单独的群体，它们的健康状况都不同于以前的猪群，而又不存在连续性可使得一个稳定或变化的健康水平的可靠记录发展下去。",
+    "error_detail": "错误地添加了关于疾病传播的假设，原输出中未提及。",
+    "original_question": "多区同步断奶体系对猪群健康状况有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "在猪肉出口国，质量保证体系要素包括屠宰猪的血清学监测，监测感染人类食品的病原体，如旋毛虫、啮齿动物毒浆体原虫和沙门氏菌。",
+    "reference_case": "在猪肉出口国，质量保证体系要素包括屠宰猪的血清学监测，监测感染人类食品的病原体，如旋毛虫、啮齿动物毒浆体原虫和沙门氏菌。",
+    "error_detail": "添加了'啮齿动物毒浆体原虫'作为病原体，而实际上它并不在原始output中提到。",
+    "original_question": "屠宰猪的疾病监测对质量保证体系有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "对剖腹产母猪进行麻醉前或麻醉过程中用平衡电解质溶液进行输液是必要的，以防止血容量不足或出现休克等其他症状。",
+    "reference_case": "对剖腹产母猪进行麻醉前或麻醉过程中用平衡电解质溶液进行输液是必要的，以防止血容量不足或出现休克等其他症状。",
+    "error_detail": "添加了'出现休克等其他症状'作为输液的原因，而实际上原始output中没有提到。",
+    "original_question": "对猪进行剖腹产时，麻醉前或麻醉过程中为何需要输液？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "包括国内生猪生产模式对养殖户行为的影响、农户自身行为对生产的影响、市场经济对养殖户生产行为的影响以及政府政策的不确定性。",
+    "reference_case": "包括国内生猪生产模式对养殖户行为的影响、农户自身行为对生产的影响以及市场经济对养殖户生产行为的影响。",
+    "error_detail": "添加了未经提及的'政府政策的不确定性'因素",
+    "original_question": "影响生猪养殖户生产行为的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "仔猪断奶后，肠道免疫功能的增强体现在sIgA浓度显著增加，防御素基因表达量显著增加，淋巴细胞数目显著增多，以及肠道菌群结构发生显著变化。",
+    "reference_case": "仔猪断奶后，肠道免疫功能的增强体现在sIgA浓度显著增加，防御素基因表达量显著增加，以及淋巴细胞数目显著增多。",
+    "error_detail": "添加了关于肠道菌群结构的假设，原始output中未提及。",
+    "original_question": "仔猪断奶后肠道免疫功能的增强是如何体现的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "仔猪断奶后，肠道形态和免疫功能的变化导致肠道屏障功能受损，绒毛萎缩，隐窝增生，淋巴细胞增多，sIgA和防御素表达增加，这些变化有助于保护肠黏膜，抵御病原微生物的入侵，但也可能导致肠道炎症和营养吸收不良，以及生长性能下降。",
+    "reference_case": "仔猪断奶后，肠道形态和免疫功能的变化导致肠道屏障功能受损，绒毛萎缩，隐窝增生，淋巴细胞增多，sIgA和防御素表达增加，这些变化有助于保护肠黏膜，抵御病原微生物的入侵，但也可能导致肠道炎症和营养吸收不良。",
+    "error_detail": "添加了关于生长性能下降的假设，原始output中未提及。",
+    "original_question": "仔猪断奶后肠道形态和免疫功能的变化对仔猪健康有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在断奶期间，仔猪无法获得母源性Gln，容易发生Gln缺乏，导致肠道通透性增加和肠屏障功能破坏，因此补充外源性Gln对防止仔猪断奶应激具有重要意义，同时还能显著提高仔猪的生长速度。",
+    "reference_case": "在断奶期间，仔猪无法获得母源性Gln，容易发生Gln缺乏，导致肠道通透性增加和肠屏障功能破坏，因此补充外源性Gln对防止仔猪断奶应激具有重要意义。",
+    "error_detail": "添加了关于提高仔猪生长速度的假设，原始output中未提及。",
+    "original_question": "为什么在仔猪断奶期间补充外源性谷氨酰胺（Gln）具有重要意义？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "锰缺乏对猪的影响有哪些？猪不易发生缺锰症状，只有在以玉米为主的日粮所喂的猪群中可能发生。主要症状有跛行、腿短而弯曲变形、骨质疏松、关节肿大、胚胎易被吸收，初生仔猪生活力低，母猪泌乳量下降，公猪性欲降低",
+    "reference_case": "猪不易发生缺锰症状，只有在以玉米为主的日粮所喂的猪群中可能发生。主要症状有跛行、腿短而弯曲变形、骨质疏松、关节肿大、胚胎易被吸收，初生仔猪生活力低，母猪泌乳量下降，公猪",
+    "error_detail": "添加了未提及的公猪性欲降低",
+    "original_question": "锰缺乏对猪的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "铬对动物胰岛素敏感性的影响是什么？饲喂甲基吡啶铬后，猪对胰岛素的敏感性增强；生长猪日粮中添加甲基吡啶铬降低了血清胰岛素和葡萄糖浓度，同时也降低了胆固醇水平",
+    "reference_case": "饲喂甲基吡啶铬后，猪对胰岛素的敏感性增强；生长猪日粮中添加甲基吡啶铬降低了血清胰岛素和葡萄糖浓度",
+    "error_detail": "添加了未提及的胆固醇水平降低",
+    "original_question": "铬对动物胰岛素敏感性的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪和鸡对铅的抵抗力如何？猪和鸡的抵抗力较强，尤其是鸡对铅的抵抗力在所有家禽中是最强的",
+    "reference_case": "猪和鸡的抵抗力较强",
+    "error_detail": "添加了未提及的鸡对铅的抵抗力在所有家禽中最强的陈述",
+    "original_question": "猪和鸡对铅的抵抗力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "紫草粉碎混饲，马、牛15~45g/次, 驼20~60g/次, 羊、猪6~12g/次, 兔、禽0.3~1.2g/次，或在鸡饲料中添加5%混饲。假设鸡的体重在2kg以上。",
+    "reference_case": "紫草粉碎混饲，马、牛15~45g/次, 驼20~60g/次, 羊、猪6~12g/次, 兔、禽0.3~1.2g/次，或在鸡饲料中添加5%混饲。",
+    "error_detail": "添加了未经验证的假设",
+    "original_question": "紫草的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "可明显降低仔猪黄、白痢的发病率，提高仔猪成活率、断奶窝重及其初生窝重的增长率和泌乳力。假设母猪的日粮中蛋白质含量充足。",
+    "reference_case": "可明显降低仔猪黄、白痢的发病率，提高仔猪成活率、断奶窝重及其初生窝重的增长率和泌乳力。",
+    "error_detail": "添加了未经验证的假设",
+    "original_question": "苏德辉等（1993）用添加剂于母猪后有哪些效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪溶菌酶基因的研究背景是由于疾病给畜牧业带来巨大的经济损失，人们对疾病的防治一直很重视。随着对食品安全要求的提高，动物分子抗病育种成为健康养殖的新研究领域。溶菌酶作为一种广谱抗菌活性水解酶，具有杀菌、抗病毒、抗肿瘤细胞等多种作用，因此溶菌酶基因被作为重要的抗性基因进行研究。此外，研究还发现溶菌酶基因与猪的生长速度有直接关系。",
+    "reference_case": "猪溶菌酶基因的研究背景是由于疾病给畜牧业带来巨大的经济损失，人们对疾病的防治一直很重视。随着对食品安全要求的提高，动物分子抗病育种成为健康养殖的新研究领域。溶菌酶作为一种广谱抗菌活性水解酶，具有杀菌、抗病毒、抗肿瘤细胞等多种作用，因此溶菌酶基因被作为重要的抗性基因进行研究。",
+    "error_detail": "错误地添加了与生长速度相关的假设",
+    "original_question": "猪溶菌酶基因的研究背景是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在同样饲养管理条件下，以杜洛克猪为父本，上海白猪（农系）为母本的杜×上杂交组合瘦肉多，生长快、耗料省、肉质好，且抗病性强。",
+    "reference_case": "在同样饲养管理条件下，以杜洛克猪为父本，上海白猪（农系）为母本的杜×上杂交组合瘦肉多，生长快、耗料省、肉质好。",
+    "error_detail": "错误地添加了抗病性强的假设，原始output未提及。",
+    "original_question": "选择杜洛克猪作为父本的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在保持各猪种优良性状的同时，注意产瘦肉性状的定向选育提高，并提高抗病性。",
+    "reference_case": "在保持各猪种优良性状的同时，注意产瘦肉性状的定向选育提高。",
+    "error_detail": "错误地添加了提高抗病性的假设，原始output未提及。",
+    "original_question": "在选育猪种时应注意提高哪些性状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在引用国外瘦肉型猪种来杂交提高瘦肉率时，除注意其肉质外，更重要的应以我国猪种为母本开展杂交利用，不宜搞父、母本均是国外引进猪种，且应避免近亲繁殖。",
+    "reference_case": "在引用国外瘦肉型猪种来杂交提高瘦肉率时，除注意其肉质外，更重要的应以我国猪种为母本开展杂交利用，不宜搞父、母本均是国外引进猪种。",
+    "error_detail": "错误地添加了避免近亲繁殖的假设，原始output未提及。",
+    "original_question": "如何提高瘦肉率同时保证肉质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "喹乙醇对猪白痢和黄疸病疗效显著，对禽霍乱防治效果良好，且对猪瘟也有一定效果。",
+    "reference_case": "喹乙醇对猪白痢和黄疸病疗效显著，对禽霍乱防治效果良好。",
+    "error_detail": "错误地添加了对猪瘟也有一定效果的假设，原始output未提及。",
+    "original_question": "喹乙醇对防治哪些疾病效果显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "注射后半小时摘除睾丸观察，睾丸白膜变浅棕色，实质呈深棕色；注射后第十天摘除睾丸观察，睾丸坚硬，白膜青黄，实质呈棕色，状如湿黄土样，手指一捏，捏成碎块，精索变粗，血管间隙增大，充满白色渗出液；试验猪注射后第二天睾丸肿胀，第三、四天性欲消失，注射后两个月左右，睾丸逐渐萎缩成一个小残留物，纤维组织中仅见少数高度萎缩的细精管断面和萎缩的间质细胞，证明药物去势法有效且安全，且无副作用。",
+    "reference_case": "注射后半小时摘除睾丸观察，睾丸白膜变浅棕色，实质呈深棕色；注射后第十天摘除睾丸观察，睾丸坚硬，白膜青黄，实质呈棕色，状如湿黄土样，手指一捏，捏成碎块，精索变粗，血管间隙增大，充满白色渗出液；试验猪注射后第二天睾丸肿胀，第三、四天性欲消失，注射后两个月左右，睾丸逐渐萎缩成一个小残留物，纤维组织中仅见少数高度萎缩的细精管断面和萎缩的间质细胞，证明药物去势法有效且安全。",
+    "error_detail": "错误地添加了无副作用的假设，原始output未提及。",
+    "original_question": "药物去势法的动物试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "添加有机酸可以调节肠道pH值，促进消化酶的活性，提高饲料利用率，同时抑制有害微生物的生长，并增强免疫力。",
+    "reference_case": "添加有机酸可以调节肠道pH值，促进消化酶的活性，提高饲料利用率，同时抑制有害微生物的生长。",
+    "error_detail": "错误地添加了增强免疫力的假设，原始output未提及。",
+    "original_question": "断奶仔猪饲料中添加有机酸有何好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "动物日粮中缺乏维生素E会导致生长缓慢或停滞，肝脏坏死，脂肪组织变为黄褐色，肌肉组织蜡样变性、水肿和突然死亡，在繁殖期和泌乳期内，母猪日粮中缺乏维生素E可使胚胎死亡率增加，所产仔猪肝脏纤维变性和引起肌内共济运动失调，且易感染疾病。",
+    "reference_case": "动物日粮中缺乏维生素E会导致生长缓慢或停滞，肝脏坏死，脂肪组织变为黄褐色，肌肉组织蜡样变性、水肿和突然死亡，在繁殖期和泌乳期内，母猪日粮中缺乏维生素E可使胚胎死亡率增加，所产仔猪肝脏纤维变性和引起肌内共济运动失调。",
+    "error_detail": "错误地添加了易感染疾病的假设，原始output未提及。",
+    "original_question": "维生素E缺乏症在动物中有哪些危害？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "维生素 B2 缺乏会导致动物生长不良、被毛粗䊁、皮肤病、腹泻、呕吐，口腔、肛门、结肠发炎，母猪繁殖力下降，鸡生长缓慢、腹泻等，且易发生贫血。",
+    "reference_case": "维生素 B2 缺乏会导致动物生长不良、被毛粗䊁、皮肤病、腹泻、呕吐，口腔、肛门、结肠发炎，母猪繁殖力下降，鸡生长缓慢、腹泻等。",
+    "error_detail": "错误地添加了易发生贫血的假设，原始output未提及。",
+    "original_question": "缺乏维生素 B2 对动物有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "母猪表现有静立反应时为最佳输精时间，但最好在反应出现前进行输精以提高成功率。",
+    "reference_case": "母猪表现有静立反应时为最佳输精时间。",
+    "error_detail": "添加假设",
+    "original_question": "母猪配种的最佳输精时间是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "实验动物包括羊、猪、牛等家畜，以及实验室常用的小鼠和大鼠。",
+    "reference_case": "实验动物包括羊、猪、牛等家畜。",
+    "error_detail": "添加了未被提及的实验动物",
+    "original_question": "驱虫实验需要哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪对饲料的适应性强，能更广泛地利用各种饲料，充分挖掘猪的杂食性，广辟饲料来源，节约粮食，提高经济效益，尤其是在无抗生素饲养条件下。",
+    "reference_case": "猪对饲料的适应性强，能更广泛地利用各种饲料，充分挖掘猪的杂食性，广辟饲料来源，节约粮食，提高经济效益。",
+    "error_detail": "添加了无抗生素饲养条件的假设",
+    "original_question": "猪对饲料的适应性体现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "蛋白酶抑制剂对大多数动物有影响，尤其对幼龄动物更为显著。这些抑制剂可以与动物的消化酶不可逆结合，导致蛋白质消化率下降，胰腺分泌增加，造成必需氨基酸损失增加，增加动物的蛋白质需求量；对家禽会导致胰腺肥大，猪和犊牛的胰脏无明显变化。此外，蛋白酶抑制剂还会导致动物生长停滞。",
+    "reference_case": "蛋白酶抑制剂对大多数动物有影响，尤其对幼龄动物更为显著。这些抑制剂可以与动物的消化酶不可逆结合，导致蛋白质消化率下降，胰腺分泌增加，造成必需氨基酸损失增加，增加动物的蛋白质需求量；对家禽会导致胰腺肥大，猪和犊牛的胰脏无明显变化。",
+    "error_detail": "添加了未经证实的假设，即蛋白酶抑制剂会导致动物生长停滞",
+    "original_question": "豆科植物中的蛋白酶抑制剂对动物有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "工业'三废'的排放；含镉废水排入水体；矿物饲料原料中含有镉；配合饲料生产过程中使用表面镀镉的饲料加工设备、器皿；含镉药物污染，如部分猪用驱虫药和含镉杀真菌剂的使用。此外，家庭垃圾也是饲料中镉的重要来源。",
+    "reference_case": "工业'三废'的排放；含镉废水排入水体；矿物饲料原料中含有镉；配合饲料生产过程中使用表面镀镉的饲料加工设备、器皿；含镉药物污染，如部分猪用驱虫药和含镉杀真菌剂的使用。",
+    "error_detail": "添加了未经证实的来源",
+    "original_question": "饲料中镉的来源有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "预防措施应注意加强畜舍的清扫工作，粪便的收集和消毒，定期给猪群进行检查，发现有虫卵或有临床症状的给予驱虫。特别注意防止和中间宿主接触这一环节，特别注意幼猪感染。此外，还应使用特定的疫苗进行预防。",
+    "reference_case": "预防措施应注意加强畜舍的清扫工作，粪便的收集和消毒，定期给猪群进行检查，发现有虫卵或有临床症状的给予驱虫。特别注意防止和中间宿主接触这一环节，特别注意幼猪感染。",
+    "error_detail": "添加了未提及的疫苗信息。",
+    "original_question": "如何预防猪后圆线虫感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "防止旋毛虫病可通过禁止用废弃内脏饲喂猪，以及提高动物感染率的控制措施来预防。此外，还应定期对猪进行疫苗接种。",
+    "reference_case": "防止旋毛虫病可通过禁止用废弃内脏饲喂猪，以及提高动物感染率的控制措施来预防。",
+    "error_detail": "添加了未提及的疫苗接种信息。",
+    "original_question": "旋毛虫病的预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "母畜继续具有发情早期的表现特征，愿意接受其他母畜或公畜的爬跨，弓腰举尾、频频排沓、性欲旺盛；母牛、母猪阴门肿胀明显，母牛阴道黏液流出量多、透明，呈牵缕性，附着阴户、尾根。此外，母畜在发情期还会表现出攻击性行为。",
+    "reference_case": "母畜继续具有发情早期的表现特征，愿意接受其他母畜或公畜的爬跨，弓腰举尾、频频排沓、性欲旺盛；母牛、母猪阴门肿胀明显，母牛阴道黏液流出量多、透明，呈牵缕性，附着阴户、尾根。",
+    "error_detail": "添加了未提及的攻击性行为信息。",
+    "original_question": "母畜发情期的具体表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "通过建设鱼塘和高垄土地，种植饲料作物喂养猪、鸡和鱼，猪和鸡的粪便肥沃池塘水，池塘泥肥沃田地，形成封闭或半封闭的生产循环，这种方法在全球范围内广泛使用。",
+    "reference_case": "通过建设鱼塘和高垄土地，种植饲料作物喂养猪、鸡和鱼，猪和鸡的粪便肥沃池塘水，池塘泥肥沃田地，形成封闭或半封闭的生产循环。",
+    "error_detail": "添加了不存在的全球广泛使用的假设",
+    "original_question": "什么是鱼塘与农业、林业、畜牧业相结合的生态经济循环模式？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "剪口法是用耳号钳在猪耳上剪上缺口，每一缺口代表一个数字，把缺口的数字相加，即为该仔猪号。耳标法是把号数写在耳标上，用专门耳号钳固定在猪耳上，然后称重，登记卡片。这种方法在所有农场都适用。",
+    "reference_case": "剪口法是用耳号钳在猪耳上剪上缺口，每一缺口代表一个数字，把缺口的数字相加，即为该仔猪号。耳标法是把号数写在耳标上，用专门耳号钳固定在猪耳上，然后称重，登记卡片。",
+    "error_detail": "添加了不存在的普遍适用性假设",
+    "original_question": "如何给仔猪编号、称重、记录卡片？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "最好以同一窝为一群；如果需要混群并窝，应按来源、体重、体质、性情、吃食快慢等方面相近的猪合群饲养，这样可以完全避免争斗。",
+    "reference_case": "最好以同一窝为一群；如果需要混群并窝，应按来源、体重、体质、性情、吃食快慢等方面相近的猪合群饲养。",
+    "error_detail": "添加了不存在的完全避免争斗的假设",
+    "original_question": "如何避免猪合群时争斗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "预防母猪难产应严格选种配种，确保母猪体成熟，加强妊娠母猪的饲养管理，注意饲料搭配，供给充足营养和一定量青绿饲料，保证适量运动，同时避免使用任何药物。",
+    "reference_case": "预防母猪难产应严格选种配种，确保母猪体成熟，加强妊娠母猪的饲养管理，注意饲料搭配，供给充足营养和一定量青绿饲料，保证适量运动。",
+    "error_detail": "添加了避免使用任何药物的假设，导致假设滥用型幻觉。",
+    "original_question": "预防母猪难产的主要措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "北里霉素对猪的喘气病效果较好，同时有一定的促生长作用，且对所有猪都适用。",
+    "reference_case": "北里霉素对猪的喘气病效果较好，同时有一定的促生长作用。",
+    "error_detail": "错误地添加了适用所有猪的假设",
+    "original_question": "北里霉素对什么疾病效果较好？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "需要从流行情况、临床症状、剖检变化、实验室诊断等方面进行全面分析，且所有猪场都应采用相同的诊断标准。",
+    "reference_case": "需要从流行情况、临床症状、剖检变化、实验室诊断等方面进行全面分析。",
+    "error_detail": "错误地添加了所有猪场采用相同诊断标准的假设",
+    "original_question": "猪繁殖障碍疾病需要从哪些方面进行全面分析以实现综合诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "母猪轻度子宫内膜炎、胎盘部分钙化。胎儿水肿、软化吸收或脱水呈木乃伊化。脑非化脓性炎症，且这些症状在所有感染猪中都会出现。",
+    "reference_case": "母猪轻度子宫内膜炎、胎盘部分钙化。胎儿水肿、软化吸收或脱水呈木乃伊化。脑非化脓性炎症。",
+    "error_detail": "错误地添加了所有感染猪都会出现这些症状的假设",
+    "original_question": "猪细小病毒病的剖检变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "规模化猪场需要定期进行抗体监测，制定防疫具体措施和优化疫病防治计划，通过这些措施可以确保免疫工作的有效性，同时还需要进行基因编辑以提高猪的免疫力。",
+    "reference_case": "规模化猪场需要定期进行抗体监测，制定防疫具体措施和优化疫病防治计划，通过这些措施可以确保免疫工作的有效性。",
+    "error_detail": "添加了'进行基因编辑以提高猪的免疫力'这一未经证实的假设。",
+    "original_question": "规模化猪场需要通过哪些方式来确保免疫工作的有效性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "提高饲养管理水平可以给猪群创造一个良好的生长环境，通过通风、换气、保暖、降温、保持干燥清洁卫生等措施，减少饲养密度，避免饲喂发霉变质或含霉菌毒素的饲料，从而提高猪群的生产性能和健康水平，同时还需要进行基因编辑以提高猪的免疫力。",
+    "reference_case": "提高饲养管理水平可以给猪群创造一个良好的生长环境，通过通风、换气、保暖、降温、保持干燥清洁卫生等措施，减少饲养密度，避免饲喂发霉变质或含霉菌毒素的饲料，从而提高猪群的生产性能和健康水平。",
+    "error_detail": "添加了'进行基因编辑以提高猪的免疫力'这一未经证实的假设。",
+    "original_question": "提高饲养管理水平对防治猪病有哪些意义？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "布氏杆菌病尚无特效治疗药物，一般采用定期抽血检疫，淘汰病猪结合有计划地菌苗接种，可以控制本病，培养健康猪群。假设所有猪场都能严格执行这些措施。",
+    "reference_case": "布氏杆菌病尚无特效治疗药物，一般采用定期抽血检疫，淘汰病猪结合有计划地菌苗接种，可以控制本病，培养健康猪群。",
+    "error_detail": "添加了不合理的假设条件",
+    "original_question": "布氏杆菌病的控制措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "植物多酚在饲料中的应用可以通过在油脂中添加茶多酚母液，再将油脂以一定比例加入饲料，有效控制冷却猪肉脂肪氧化，显著降低氧化酸败异味的产生，从而起到抗氧化和保鲜双重功效，且无需任何其他添加剂。",
+    "reference_case": "植物多酚在饲料中的应用可以通过在油脂中添加茶多酚母液，再将油脂以一定比例加入饲料，有效控制冷却猪肉脂肪氧化，显著降低氧化酸败异味的产生，从而起到抗氧化和保鲜双重功效。",
+    "error_detail": "添加了无需任何其他添加剂的假设，原始输出中未提及。",
+    "original_question": "植物多酚在饲料中的应用如何实现保鲜效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "中药肠氨（CA）对仔猪致病性大肠杆菌具有较强的抑制作用，抑菌圈的直径随着药物质量浓度的增加而增大，且对所有细菌都有效。",
+    "reference_case": "中药肠氨（CA）对仔猪致病性大肠杆菌具有较强的抑制作用，抑菌圈的直径随着药物质量浓度的增加而增大。",
+    "error_detail": "添加了对所有细菌都有效的假设，原始输出中未提及。",
+    "original_question": "中药肠氨（CA）对仔猪致病性大肠杆菌的抑菌效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "按瓶签注明头份数用无菌生理盐水稀释，大小猪均为1mL。假设所有猪都已经接种过疫苗。",
+    "reference_case": "按瓶签注明头份数用无菌生理盐水稀释，大小猪均为1mL。",
+    "error_detail": "添加了不合理的假设，即所有猪都已经接种过疫苗。",
+    "original_question": "猪瘟活疫苗（III）——脾淋苗的使用方法是什么？",
+    "original_input": ""
+  }
+]

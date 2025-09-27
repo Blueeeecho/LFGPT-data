@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "进行猪瘟、口蹄疫、猪丹毒、猪副伤寒和猪肺疫的免疫接种，种猪还需进行猪伪狂犬病、猪细小病毒病和乙型脑炎的免疫接种，以及蓝耳病的预防。此外，还需进行猪流感疫苗的接种。",
+    "reference_case": "进行猪瘟、口蹄疫、猪丹毒、猪副伤寒和猪肺疫的免疫接种，种猪还需进行猪伪狂犬病、猪细小病毒病和乙型脑炎的免疫接种，以及蓝耳病的预防。",
+    "error_detail": "添加了不存在的猪流感疫苗接种",
+    "original_question": "对于养猪场来说，需要进行哪些主要的免疫接种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的大肠和盲肠中有很大的微生物活力，蛋白质在那里可被分解到一定程茺。",
+    "reference_case": "猪的大肠和盲肠中有很大的微生物活力，维素在那里可被分解到一定程茺。",
+    "error_detail": "将'维素'错误地替换为'蛋白质'",
+    "original_question": "猪的微生物活力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对乳仔猪和哺乳母猪，牧草能提供的每日干物质摄取量的百分率为20%，对肉用猪和妊娠猪为40%。",
+    "reference_case": "对乳仔猪和哺乳母猪，牧草能提供的每日干物质摄取量的百分率为10%，对肉用猪和妊娠猪为30%。",
+    "error_detail": "错误地提高了牧草提供的干物质摄取量的百分比",
+    "original_question": "猪对牧草摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肠便秘的主要病因是饲养管理不当，如长期喂含高蛋白多的饲料，缺水或饲料不洁，混有多量泥沙或其他异物。",
+    "reference_case": "猪肠便秘的主要病因是饲养管理不当，如长期喂含粗纤维多的饲料，缺水或饲料不洁，混有多量泥沙或其他异物。",
+    "error_detail": "将'粗纤维'错误地替换为'高蛋白'",
+    "original_question": "猪肠便秘的主要病因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肠便秘的症状包括精神沉郁，食欲减退或废绝，湿小粪球，听诊肠音减弱或消失，腹部触摸干硬粪球等。",
+    "reference_case": "猪肠便秘的症状包括精神沉郁，食欲减退或废绝，干小粪球，听诊肠音减弱或消失，腹部触摸干硬粪球等。",
+    "error_detail": "将'干小粪球'错误地替换为'湿小粪球'",
+    "original_question": "猪肠便秘的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "治疗措施包括停食2天，直肠灌入冷水，腹部按摩，以及内服硫酸镁或混合溶液和植物油或石蜡油等泻剂。",
+    "reference_case": "治疗措施包括停食1天，直肠灌入微温肥皂水，腹部按摩，以及内服硫酸镁或混合溶液和植物油或石蜡油等泻剂。",
+    "error_detail": "错误地延长了停食时间和使用了错误的灌肠液温度",
+    "original_question": "猪肠便秘的治疗措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "合理搭配饲料，适量增喂食盐，保证充足饮水，适度加强运动。此外，还需定期进行肠道按摩。",
+    "reference_case": "合理搭配饲料，适量增喂食盐，保证充足饮水，适度加强运动。",
+    "error_detail": "添加了不存在的预防措施'定期进行肠道按摩'",
+    "original_question": "预防猪肠便秘的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病猪脑膜脑炎在兴奋期常向前乱冲，摇头、虚嚼、口吐白沫。此外，还会出现转圈行为。",
+    "reference_case": "病猪脑膜脑炎在兴奋期常向前乱冲，摇头、虚嚼、口吐白沫。",
+    "error_detail": "添加了不存在的症状'转圈行为'",
+    "original_question": "病猪脑膜脑炎表现的兴奋症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "铜是铜蓝蛋白的成分，铜蓝蛋白可将Fe3+氧化成Fe2+，使Fe2+与运铁蛋白结合，运铁蛋白将铁运到骨髓的幼红细胞参与血红蛋白的合成。",
+    "reference_case": "铜是铜蓝蛋白的成分，铜蓝蛋白可将Fe2+氧化成Fe3+，使Fe3+与运铁蛋白结合，运铁蛋白将铁运到骨髓的幼红细胞参与血红蛋白的合成。",
+    "error_detail": "错误地颠倒了铁离子的氧化状态",
+    "original_question": "铜在红细胞生成中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "分为单一囊肿、多个大囊肿和多个小囊肿三种类型，不同类型的表现和治疗方式有所不同。此外，还有一种混合型囊肿。",
+    "reference_case": "分为单一囊肿、多个大囊肿和多个小囊肿三种类型，不同类型的表现和治疗方式有所不同。",
+    "error_detail": "添加了不存在的囊肿类型'混合型囊肿'",
+    "original_question": "猪卵巢囊肿分为哪几种类型？",
+    "original_input": ""
+  }
+]

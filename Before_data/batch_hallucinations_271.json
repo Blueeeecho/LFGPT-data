@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "神经介素 U（NMU）最初是从牛的脊髓中分离出来的。",
+    "reference_case": "神经介素 U（NMU）最初是从猪的脊髓中分离出来的。",
+    "error_detail": "错误地将分离NMU的动物从猪改为牛",
+    "original_question": "神经介素 U（NMU）最初是从哪种动物的脊髓中分离出来的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在2013年9月5日后的3天内，溧水区规模猪场有20头母猪出现了症状。",
+    "reference_case": "在2013年9月5日后的3天内，溧水区规模猪场有14头母猪出现了症状。",
+    "error_detail": "错误地增加了出现症状的母猪数量",
+    "original_question": "溧水区规模猪场在2013年9月5日后的3天内，有多少头母猪出现了症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "溧水区规模猪场在2013年9月5日后的3天内，对病死猪进行剖检时发现心脏、肝脏、脾脏、肺脏和肾脏均有严重病变。",
+    "reference_case": "溧水区规模猪场在2013年9月5日后的3天内，对病死猪进行剖检时发现胃底、幽门部严重，小肠、十二指肠、回肠黏膜上有小出血点，肠黏膜发生炎性水肿，淋巴结肿大、出血，脾肿大呈櫻桃红色或紫红色，肾脏出血肿大，肝充血肿大，肺脏充血肿大，部分坏死，心包积液，心肌有点状出血。",
+    "error_detail": "错误地简化了病理变化的描述",
+    "original_question": "溧水区规模猪场在2013年9月5日后的3天内，对病死猪进行剖检时发现了哪些病理变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在2013年9月5日后的3天内，溧水区规模猪场有3头母猪未发现症状急性死亡。",
+    "reference_case": "在2013年9月5日后的3天内，溧水区规模猪场有5头母猪未发现症状急性死亡。",
+    "error_detail": "错误地减少了未发现症状急性死亡的母猪数量",
+    "original_question": "溧水区规模猪场在2013年9月5日后的3天内，有多少头母猪未发现症状急性死亡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在2013年9月5日后的3天内，溧水区规模猪场的保育猪舍共有猪100头，死亡20头；育肥猪舍共有猪400头，死亡50头。",
+    "reference_case": "在2013年9月5日后的3天内，溧水区规模猪场的保育猪舍共有猪120头，死亡30头；育肥猪舍共有猪389头，死亡56头。",
+    "error_detail": "错误地修改了猪的数量和死亡数量",
+    "original_question": "溧水区规模猪场在2013年9月5日后的3天内，保育猪舍和育肥猪舍的死亡情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "溧水区规模猪场在2013年9月5日后的3天内，对出现症状的母猪采用了小剂量青霉素进行治疗，每公斤体重3万单位，1次/d，连续5天。",
+    "reference_case": "溧水区规模猪场在2013年9月5日后的3天内，对出现症状的母猪采用了大剂量青霉素进行治疗，每公斤体重5万单位，2次/d，连续3天。",
+    "error_detail": "错误地修改了青霉素的剂量和使用频率",
+    "original_question": "溧水区规模猪场在2013年9月5日后的3天内，对出现症状的母猪采取了什么治疗措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "溧水区规模猪场的生猪存栏量为800头，其中包括150头母猪、100头育肥猪、200头保育猪和350头仔猪。",
+    "reference_case": "溧水区规模猪场的生猪存栏量为750头，其中包括120头母猪、120头育肥猪、170头保育猪和240头仔猪。",
+    "error_detail": "错误地修改了生猪存栏量和各类猪的数量",
+    "original_question": "溧水区规模猪场的生猪存栏量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "溧水区规模猪场在2013年9月5日后的3天内，仅采取了隔离病猪和药物治疗的措施。",
+    "reference_case": "溧水区规模猪场在2013年9月5日后的3天内，采取了隔离病猪、药物治疗、消毒和疫苗免疫等防治措施。具体包括将发病猪与健康猪群进行严格隔离，使用青霉素和土霉素进行治疗，用消毒药对全场进行严格消毒，并对未发病的猪进行紧急免疫接种。",
+    "error_detail": "错误地省略了消毒和疫苗免疫的措施",
+    "original_question": "溧水区规模猪场在2013年9月5日后的3天内，采取了哪些防治措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2013年9月2日，溧水区规模猪场发现的两头母猪中，一头体温升高到40:8°C，呼吸急促，皮肤发红；另一头体温升高到41:3°C，症状与第一头相似。",
+    "reference_case": "2013年9月2日，溧水区规模猪场发现的两头母猪中，一头体温升高到41:8°C，呼吸急促，皮肤发红；另一头体温升高到42:3°C，症状与第一头相似。",
+    "error_detail": "错误地降低了母猪的体温数据",
+    "original_question": "2013年9月2日，溧水区规模猪场发现的两头母猪的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "2013年9月5日，溧水区规模猪场自行对病死猪进行剖检，未请专业技术人员到现场会诊。",
+    "reference_case": "2013年9月5日，溧水区规模猪场请区站专业技术人员到现场会诊，对病死猪进行剖检，并将病变实质内脏送江苏省动物疫控中心化验室进行检测。",
+    "error_detail": "错误地省略了请专业技术人员会诊和送检的步骤",
+    "original_question": "溧水区规模猪场在2013年9月5日采取了哪些措施来诊断猪病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "溧水区规模猪场在2013年9月5日后的3天内，实验室诊断结果显示高致病性猪蓝耳病和猪瘟病毒检测结果均为阳性。",
+    "reference_case": "溧水区规模猪场在2013年9月5日后的3天内，实验室诊断结果显示高致病性猪蓝耳病和猪瘟病毒检测结果均为阴性，从病料中分离培养出疑似丹毒杆菌的菌落。",
+    "error_detail": "错误地将检测结果从阴性改为阳性",
+    "original_question": "溧水区规模猪场在2013年9月5日后的3天内，实验室诊断的结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "传染途径包括鸟类接近猪场，其粪便污染饲料和水源。",
+    "reference_case": "传染途径包括犬、猫及其他肉食兽接近猪场，其粪便污染饲料和水源，以及用生肉喂犬、猫等终末宿主。",
+    "error_detail": "错误地将传染源从犬、猫改为鸟类",
+    "original_question": "泽库县牛羊膈肌住肉孢子虫感染情况调查中，住肉孢子虫的传染途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "使用了针对APP的apxI序列设计的引物和针对SS的16S rRNA基因序列设计的引物。",
+    "reference_case": "使用了针对APP的apxIV序列设计的引物和针对SS的gdh基因序列设计的引物。",
+    "error_detail": "错误地修改了引物设计的基因序列",
+    "original_question": "在胸膜肺炎放线杆菌和猪链球菌混合感染的PCR鉴定中，使用了哪些引物进行扩增？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "主要症状包括低烧、咳嗽、口鼻流清水。",
+    "reference_case": "主要症状包括高烧、呼吸困难、口鼻流泡沫，有的有血，死亡极快。",
+    "error_detail": "错误地修改了症状的描述",
+    "original_question": "2013年3月初，河南省某规模化猪场生长育肥猪突然发病的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "疫情在2周后得到了控制，猪群恢复正常，未再有发病死亡情况。",
+    "reference_case": "疫情在1周后得到了控制，猪群恢复正常，未再有发病死亡情况。",
+    "error_detail": "错误地延长了疫情控制的时间",
+    "original_question": "在胸膜肺炎放线杆菌和猪链球菌混合感染的防治措施中，疫情得到控制的时间是多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "对胸膜肺炎放线杆菌耐受的药物有青霉素、链霉素、氯霉素和磺胺类药物。",
+    "reference_case": "对胸膜肺炎放线杆菌耐受的药物有阿莫西林、氨苄西林、利福平、四环素、卡那霉素、红霉素、克林霉素、多西环素、庆大霉素、万古霉素、新霉素、复方新诺明、阿米卡星和林可霉素。",
+    "error_detail": "错误地修改了耐受药物的列表",
+    "original_question": "在胸膜肺炎放线杆菌和猪链球菌混合感染的药敏试验中，哪些药物对胸膜肺炎放线杆菌耐受？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在血平板上48小时长成针尖大小的半透明菌落，有β溶血现象。",
+    "reference_case": "在血平板上24小时长成针尖大小的半透明菌落，有α溶血现象。",
+    "error_detail": "错误地修改了菌落的生长时间和溶血类型",
+    "original_question": "在猪链球菌的培养特性中，该菌在血平板上的生长表现如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "对两种菌同时敏感的药物有青霉素、链霉素、氯霉素和磺胺类药物。",
+    "reference_case": "对两种菌同时敏感的药物有头孢哌酮、头孢噻肟、头孢他定、头孢曲松、头孢唑啉、头孢呋辛、氧氟沙星和氯霉素。",
+    "error_detail": "错误地修改了敏感药物的列表",
+    "original_question": "在胸膜肺炎放线杆菌和猪链球菌混合感染的药敏试验中，哪些药物对两种菌同时敏感？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "使用了分离纯化和培养特性等方法进行病原分离和鉴定。",
+    "reference_case": "使用了分离纯化、培养特性和PCR鉴定等方法进行病原分离和鉴定。",
+    "error_detail": "错误地省略了PCR鉴定的方法",
+    "original_question": "在胸膜肺炎放线杆菌和猪链球菌混合感染的诊断中，使用了哪些实验室方法进行病原分离和鉴定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "APP的扩增产物大小为400 bp，SS的扩增产物大小为700 bp。",
+    "reference_case": "APP的扩增产物大小为377 bp，SS的扩增产物大小为689 bp。",
+    "error_detail": "错误地修改了扩增产物的大小",
+    "original_question": "在胸膜肺炎放线杆菌和猪链球菌混合感染的PCR鉴定中，APP和SS的扩增产物大小分别是多少？",
+    "original_input": ""
+  }
+]

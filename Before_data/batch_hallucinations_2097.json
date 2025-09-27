@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中国县级草业经济数据库涵盖了年末大畜存栏数、年末牛存栏数、年末羊存栏数、出栏猪数、肉类总产量、猪、牛、羊肉产量、禽兔肉总量、牛奶产量、年末猪存栏、绵羊毛量、禽蛋产量、年末奶牛存栏、年末山羊存栏、年末奶山羊存栏、年末绵羊存栏、猪存栏数、马、驴、骡肉产量，以及年末鸡存栏数。",
+    "reference_case": "年末大畜存栏数、年末牛存栏数、年末羊存栏数、出栏猪数、肉类总产量、猪、牛、羊肉产量、禽兔肉总量、牛奶产量、年末猪存栏、绵羊毛量、禽蛋产量、年末奶牛存栏、年末山羊存栏、年末奶山羊存栏、年末绵羊存栏、猪存栏数、马、驴、骡肉产量。",
+    "error_detail": "添加了不存在的'年末鸡存栏数'指标",
+    "original_question": "中国县级草业经济数据库涵盖了哪些经济指标？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "NRC猪营养需要量（1998）包含了猪的营养需求和饲养管理建议。",
+    "reference_case": "NRC猪营养需要量（1998）包含了猪的营养需求。",
+    "error_detail": "错误添加了'饲养管理建议'，超出原内容范围",
+    "original_question": "NRC猪营养需要量（1998）包含了哪些内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "代乳品中的脂肪一般来源于植物油和动物脂肪。",
+    "reference_case": "典型的代乳品中所含的脂为白色牛羊脂或猪油，为了提高油脂的消化率，对油脂进行均质化，并且添加卵磷脂或甘油一酸酯进行乳化。",
+    "error_detail": "错误地将脂肪来源概括为'植物油和动物脂肪'，忽略了具体种类",
+    "original_question": "代乳品中的脂肪一般来源于哪些物质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "蚯蚓对猪粪中的锌有较强的吸收能力，富集系数为2.0；而对铜的吸收能力相对较弱，富集系数为0.5。",
+    "reference_case": "蚯蚓对猪粪中的锌有较强的吸收能力，富集系数为1.43；而对铜的吸收能力相对较弱，富集系数为0.61。通过蚯蚓与植物的联合处理，能有效降低腐熟猪粪中的铜和锌含量。",
+    "error_detail": "错误修改了富集系数的具体数值",
+    "original_question": "蚯蚓对猪粪中重金属的处理效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牛、猪、羊、鸡、兔的畜禽粪便生产力分别为2000、1500、1300、100、0.5 [kg/(hm² - 年)]。",
+    "reference_case": "牛、猪、羊、鸡、兔的畜禽粪便生产力分别为1702.",
+    "error_detail": "错误修改了粪便生产力的具体数值",
+    "original_question": "牛、猪、羊、鸡、兔的畜禽粪便生产力分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "西坡村粪便生产以鸡为主，飞马河村则以牛为主，南沟村以羊为主。",
+    "reference_case": "西坡村粪便生产以猪为主，飞马河村则以羊为主，南沟村以牛为主。",
+    "error_detail": "错误地修改了各村粪便生产的主要畜禽来源",
+    "original_question": "2、西坡村、飞马河村、南沟村的粪便生产力主要来源于哪种畜禽？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪和羊在西坡村畜产品生产力中的占比分别是70%和15%。",
+    "reference_case": "猪和羊在西坡村畜产品生产力中的占比分别是63.43%和20.4%。",
+    "error_detail": "错误修改了占比的具体数值",
+    "original_question": "猪和羊在西坡村畜产品生产力中的占比分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪和羊在飞马河村畜产品生产力中的占比分别是30%和60%。",
+    "reference_case": "猪和羊在飞马河村畜产品生产力中的占比分别是22.84%和65.01%。",
+    "error_detail": "错误修改了占比的具体数值",
+    "original_question": "猪和羊在飞马河村畜产品生产力中的占比分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪和羊在南沟村畜产品生产力中的占比分别是15%和70%。",
+    "reference_case": "猪和羊在南沟村畜产品生产力中的占比分别是12.44%和72.21%。",
+    "error_detail": "错误修改了占比的具体数值",
+    "original_question": "猪和羊在南沟村畜产品生产力中的占比分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "青霉素临诊首选用于猪丹毒、马腺疫、炭疽、气肿疽、羊链球菌病、李氏杆菌病等；其次是放线菌病、坏死杆菌病、败血症等；亦用于喉炎、气管炎、支气管肺炎和乳腺炎、化脓性子宫内膜炎、各种炎性肿胀（蜂窝织炎、脓肿）以及钩端螺旋体病和感冒。",
+    "reference_case": "青霉素临诊首选用于猪丹毒、马腺疫、炭疽、气肿疽、羊链球菌病、李氏杆菌病等；其次是放线菌病、坏死杆菌病、败血症等；亦用于喉炎、气管炎、支气管肺炎和乳腺炎、化脓性子宫内膜炎、各种炎性肿胀（蜂窝织炎、脓肿）以及钩端螺旋体病。",
+    "error_detail": "错误添加了'感冒'，超出原内容范围",
+    "original_question": "青霉素临床上主要用于哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "青霉素 G 盐适用于牛、马驹、犊牛、猪、羊和鸡的重症急性感染治疗。",
+    "reference_case": "青霉素 G 盐适用于牛、马驹、犊牛、猪、羊的重症急性感染治疗。",
+    "error_detail": "错误添加了'鸡'，超出原内容范围",
+    "original_question": "青霉素 G 盐适用于哪种动物的重症急性感染治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "邻氯青霉素钠适用于牛、马、猪、羊和鸡。",
+    "reference_case": "邻氯青霉素钠适用于生、马、猪、羊。",
+    "error_detail": "错误添加了'鸡'，超出原内容范围",
+    "original_question": "邻氯青霉素钠的适用动物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维生素 E 维持生殖器官、神经系统和横纹肌的正常机能，主治犊牛、羔羊、猪、驹的肌萎缩、白肌病和肌偎直，猪肝坏死、死胴、黄膘病，维鸡脑质软化、渗出性素质和肌萎缩，动物习惯性流产等本品缺乏症，还能预防感冒。",
+    "reference_case": "维生素 E 维持生殖器官、神经系统和横纹肌的正常机能，主治犊牛、羔羊、猪、驹的肌萎缩、白肌病和肌偎直，猪肝坏死、死胴、黄膘病，维鸡脑质软化、渗出性素质和肌萎缩，动物习惯性流产等本品缺乏症。",
+    "error_detail": "错误添加了'预防感冒'，超出原内容范围",
+    "original_question": "维生素 E 的主要功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生素AD针规格为A 10万单位/mL, D 1万单位/mL，牛、马肌注10～20毫升，驹、犏牛、猪、羊肌注4～8毫升，仔猪、羔羊肌注1～2毫升。",
+    "reference_case": "维生素AD针规格为A 5万单位/mL, D 0.5万单位/mL，牛、马肌注5～10毫升，驹、犏牛、猪、羊肌注2～4毫升，仔猪、羔羊肌注0.5～1毫升。",
+    "error_detail": "错误修改了规格和用量的具体数值",
+    "original_question": "维生素AD针的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "浓鱼肝油每毫升含A 1700单位，D 170单位，牛、马内服0.8～1.2毫升/100公斤体重，猪、羊内服20～60毫升。",
+    "reference_case": "浓鱼肝油每毫升含A 850单位，D 85单位，牛、马内服0.4～0.6毫升/100公斤体重，猪、羊内服10～30毫升。",
+    "error_detail": "错误修改了含量和用量的具体数值",
+    "original_question": "浓鱼肝油的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "胶性钙针含D 1万单位，钙1毫克/支，牛、马肌注5～20万单位，猪、羊肌注1～4万单位。",
+    "reference_case": "胶性钙针含D 0.5万单位，钙0.5毫克/支，牛、马肌注2.5～10万单位，猪、羊肌注0.5～2万单位。",
+    "error_detail": "错误修改了含量和用量的具体数值",
+    "original_question": "胶性钙针的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生素B1片20毫克/片，牛、马内服0.2～1克，犊、驹内服0.02克，猪、羊内服0.05～0.1克。",
+    "reference_case": "维生素B1片10毫克/片，牛、马内服0.1～0.5克，犊、驹内服0.01克，猪、羊内服0.025～0.05克。",
+    "error_detail": "错误修改了规格和用量的具体数值",
+    "original_question": "维生素B1片的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生素B2片剂10毫克/片，牛、马内服200～1000毫克，针剂10毫克或20毫克/支，猪、羊内服60毫克，禽30～40克/吨饲料。",
+    "reference_case": "维生素B2片剂5毫克/片，牛、马内服100～500毫克，针剂5毫克或10毫克/支，猪、羊内服30毫克，禽15～20克/吨饲料。",
+    "error_detail": "错误修改了规格和用量的具体数值",
+    "original_question": "维生素B2的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生素B12针0.2～2微克/支，牛、马肌注或皮下注射2～4毫克，猪、羊肌注或皮下注射0.6～0.8毫克，鸡4～8微克，每日或隔日1次。",
+    "reference_case": "维生素B12针0.1～1微克/支，牛、马肌注或皮下注射1～2毫克，猪、羊肌注或皮下注射0.3～0.4毫克，鸡2～4微克，每日或隔日1次。",
+    "error_detail": "错误修改了规格和用量的具体数值",
+    "original_question": "维生素B12针的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对于鸡，每日或隔日1次，摄入量为4～8微克；马内服时，摄入量为2～6克；牛、马肌肉注射或皮下注射时，摄入量为2～8克；猪、羊的摄入量分别为0.4～0.6克和0.4～1.2克。",
+    "reference_case": "对于鸡，每日或隔日1次，摄入量为2～4微克；马内服时，摄入量为1～3克；牛、马肌肉注射或皮下注射时，摄入量为1～4克；猪、羊的摄入量分别为0.2～0.3克和0.2～0.6克。",
+    "error_detail": "错误修改了摄入量的具体数值",
+    "original_question": "维生素C的推荐摄入量是多少？",
+    "original_input": ""
+  }
+]

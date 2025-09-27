@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "宫内发育迟缓（IUGR）导致仔猪胰腺发育受损，表现为胰岛面积减小50%，β细胞数量减少60%，胰岛素合成和储备下降70%。",
+    "reference_case": "宫内发育迟缓（IUGR）导致仔猪胰腺发育受损，表现为胰岛面积减小，β细胞数量减少，胰岛素合成和储备下降。",
+    "error_detail": "错误地添加了具体的百分比数据，这些数据在原输出中并未提及。",
+    "original_question": "什么是宫内发育迟缓（IUGR）对仔猪胰腺发育的主要影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "补充L-精氨酸后，IUGR仔猪的体重和胰腺绝对重量显著增加，胰腺相对重量也增加，且与正常仔猪相比差异显著。",
+    "reference_case": "补充L-精氨酸后，IUGR仔猪的体重和胰腺绝对重量显著增加，胰腺相对重量也增加，且与正常仔猪相比差异不显著。",
+    "error_detail": "错误地将'差异不显著'改为'差异显著'，与原输出矛盾。",
+    "original_question": "L-精氨酸对IUGR仔猪体重和胰腺重量的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "试验选取了12头IUGR仔猪和6头正常仔猪，IUGR仔猪随机分为三组，分别饲喂基础人工乳、基础人工乳加0:6% L-精氨酸和基础人工乳加1:2% L-精氨酸，正常仔猪饲喂基础人工乳。",
+    "reference_case": "试验选取了12头IUGR仔猪和6头正常仔猪，IUGR仔猪随机分为两组，分别饲喂基础人工乳和基础人工乳加0:6% L-精氨酸，正常仔猪饲喂基础人工乳。",
+    "error_detail": "错误地添加了一个额外的L-精氨酸剂量组，与原输出不符。",
+    "original_question": "在L-精氨酸对IUGR仔猪胰腺发育的调控研究中，试验动物的分组情况是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在0:5 mg·kg⁻¹水平下，纳米硒和酵母硒显著提高了仔猪的谷胱甘肽过氧化酶（GSH-PX）含量。",
+    "reference_case": "在0:5 mg·kg⁻¹水平下，纳米硒显著提高了仔猪的谷胱甘肽过氧化酶（GSH-PX）含量。",
+    "error_detail": "错误地添加了酵母硒，原输出中仅提到纳米硒。",
+    "original_question": "试验中哪种硒源在0:5 mg·kg⁻¹水平下显著提高了仔猪的谷胱甘肽过氧化酶（GSH-PX）含量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在0:5 mg·kg⁻¹水平下，纳米硒显著提高了仔猪的日增重。",
+    "reference_case": "在0:5 mg·kg⁻¹水平下，纳米硒和酵母硒显著提高了仔猪的日增重。",
+    "error_detail": "错误地省略了酵母硒，原输出中提到两者。",
+    "original_question": "试验中哪种硒源在0:5 mg·kg⁻¹水平下显著提高了仔猪的日增重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在0:5 mg·kg⁻¹水平下，纳米硒显著提高了仔猪的血清总抗氧化能力（T-AOC）。",
+    "reference_case": "在0:5 mg·kg⁻¹水平下，纳米硒和酵母硒显著提高了仔猪的血清总抗氧化能力（T-AOC）。",
+    "error_detail": "错误地省略了酵母硒，原输出中提到两者。",
+    "original_question": "试验中哪种硒源在0:5 mg·kg⁻¹水平下显著提高了仔猪的血清总抗氧化能力（T-AOC）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中仔猪的平均日龄是35 ± 4:5天。",
+    "reference_case": "试验中仔猪的平均日龄是28 ± 3:5天。",
+    "error_detail": "错误地改变了仔猪的平均日龄和标准差。",
+    "original_question": "试验中仔猪的平均日龄是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在0:5 mg·kg⁻¹水平下，酵母硒对仔猪的抗氧化能力提升效果最好。",
+    "reference_case": "在0:5 mg·kg⁻¹水平下，纳米硒对仔猪的抗氧化能力提升效果最好。",
+    "error_detail": "错误地将纳米硒改为酵母硒，与原输出矛盾。",
+    "original_question": "试验中哪种硒源在0:5 mg·kg⁻¹水平下对仔猪的抗氧化能力提升效果最好？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中仔猪的血浆硒含量在试验前后有显著差异。",
+    "reference_case": "试验中仔猪的血浆硒含量在试验前后没有显著差异。",
+    "error_detail": "错误地将'没有显著差异'改为'有显著差异'，与原输出矛盾。",
+    "original_question": "试验中仔猪的血浆硒含量在试验前后是否有显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在0:5 mg·kg⁻¹水平下，纳米硒显著降低了仔猪的料重比。",
+    "reference_case": "在0:5 mg·kg⁻¹水平下，酵母硒和纳米硒显著降低了仔猪的料重比。",
+    "error_detail": "错误地省略了酵母硒，原输出中提到两者。",
+    "original_question": "试验中哪种硒源在0:5 mg·kg⁻¹水平下显著降低了仔猪的料重比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "研究中使用的非洲猪瘟阳性血清是从美国非洲猪瘟参考实验室引进的。",
+    "reference_case": "研究中使用的非洲猪瘟阳性血清是从欧盟非洲猪瘟参考实验室引进的。",
+    "error_detail": "错误地将欧盟改为美国，与原输出不符。",
+    "original_question": "研究中使用的非洲猪瘟阳性血清是从哪里引进的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在 ELISA 试验中，p54 蛋白针对非洲猪瘟阳性血清的 P/N 值是 5:67。",
+    "reference_case": "在 ELISA 试验中，p54 蛋白针对非洲猪瘟阳性血清的 P/N 值是 4:67。",
+    "error_detail": "错误地改变了P/N值，与原输出不符。",
+    "original_question": "在 ELISA 试验中，p54 蛋白针对非洲猪瘟阳性血清的 P/N 值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灌服NCG对哺乳仔猪生长性能的影响与剂量无关。",
+    "reference_case": "是的，灌服NCG对哺乳仔猪生长性能的影响与剂量相关。100和150 mg·kg⁻¹体重的NCG显著提高了平均日增重，而200和250 mg·kg⁻¹体重的NCG则未显著改善生长性能。",
+    "error_detail": "错误地将'与剂量相关'改为'与剂量无关'，与原输出矛盾。",
+    "original_question": "灌服NCG对哺乳仔猪生长性能的影响是否与剂量相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灌服150 mg·kg⁻¹体重的NCG显著提高了哺乳仔猪血清中瓜氨酸的含量（P<0:05:，比对照组提高了55:23%。",
+    "reference_case": "灌服150 mg·kg⁻¹体重的NCG显著提高了哺乳仔猪血清中瓜氨酸的含量（P<0:05:，比对照组提高了45:23%。",
+    "error_detail": "错误地改变了提高的百分比，与原输出不符。",
+    "original_question": "哺乳仔猪灌服NCG后，血清中瓜氨酸含量的变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灌服NCG对哺乳仔猪小肠中CPS-I活性的影响一致。十二指肠、空肠和回肠中CPS-I活性均显著提高。",
+    "reference_case": "灌服NCG对哺乳仔猪小肠中CPS-I活性的影响不一致。十二指肠中CPS-I活性显著提高，而空肠和回肠中CPS-I活性仅在特定剂量组（100和150 mg·kg⁻¹）显著提高，其他剂量组则无显著变化或降低。",
+    "error_detail": "错误地将'影响不一致'改为'影响一致'，并省略了剂量组的差异，与原输出矛盾。",
+    "original_question": "灌服NCG对哺乳仔猪小肠中CPS-I活性的影响是否一致？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灌服NCG对哺乳仔猪小肠中CPS-I基因表达的影响与剂量无关。",
+    "reference_case": "是的，灌服NCG对哺乳仔猪小肠中CPS-I基因表达的影响与剂量相关。100和150 mg·kg⁻¹体重的NCG显著提高了十二指肠、空肠和回肠中CPS-I的基因表达量，而200和250 mg·kg⁻¹体重的NCG则未显著提高或降低了表达量。",
+    "error_detail": "错误地将'与剂量相关'改为'与剂量无关'，与原输出矛盾。",
+    "original_question": "灌服NCG对哺乳仔猪小肠中CPS-I基因表达的影响是否与剂量相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灌服100和150 mg·kg⁻¹体重的NCG显著提高了哺乳仔猪空肠和回肠中CPS-I的基因表达量（P<0:05:，其中150 mg·kg⁻¹组的回肠CPS-I表达量比对照组提高了46:67%。",
+    "reference_case": "灌服100和150 mg·kg⁻¹体重的NCG显著提高了哺乳仔猪空肠和回肠中CPS-I的基因表达量（P<0:05:，其中150 mg·kg⁻¹组的回肠CPS-I表达量比对照组提高了36:67%。",
+    "error_detail": "错误地改变了提高的百分比，与原输出不符。",
+    "original_question": "NCG对哺乳仔猪空肠和回肠中CPS-I基因表达的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "灌服NCG通过降低小肠中CPS-I的活性和基因表达量，抑制瓜氨酸的合成，进而减少精氨酸的内源合成，最终降低血清中精氨酸的含量。",
+    "reference_case": "灌服NCG通过提高小肠中CPS-I的活性和基因表达量，促进瓜氨酸的合成，进而增加精氨酸的内源合成，最终提高血清中精氨酸的含量。",
+    "error_detail": "错误地将'提高'改为'降低'，'促进'改为'抑制'，'增加'改为'减少'，'提高'改为'降低'，与原输出完全矛盾。",
+    "original_question": "灌服NCG对哺乳仔猪内源精氨酸合成代谢的影响机制是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灌服100和150 mg·kg⁻¹体重的NCG显著提高了7~21日龄哺乳仔猪的平均日增重（P<0:05:，其中150 mg·kg⁻¹组的效果最为显著，平均日增重比对照组提高了31:09%。",
+    "reference_case": "灌服100和150 mg·kg⁻¹体重的NCG显著提高了7~21日龄哺乳仔猪的平均日增重（P<0:05:，其中150 mg·kg⁻¹组的效果最为显著，平均日增重比对照组提高了21:09%。",
+    "error_detail": "错误地改变了提高的百分比，与原输出不符。",
+    "original_question": "N-氨甲酰谷氨酸（NCG）对哺乳仔猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灌服NCG显著提高了哺乳仔猪血清中精氨酸的含量（P<0:05:，其中150 mg·kg⁻¹组的精氨酸含量比对照组提高了53:84%。",
+    "reference_case": "灌服NCG显著提高了哺乳仔猪血清中精氨酸的含量（P<0:05:，其中150 mg·kg⁻¹组的精氨酸含量比对照组提高了43:84%。",
+    "error_detail": "错误地改变了提高的百分比，与原输出不符。",
+    "original_question": "NCG对哺乳仔猪血清中精氨酸含量的影响如何？",
+    "original_input": ""
+  }
+]

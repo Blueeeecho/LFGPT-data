@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在猪β2m基因突变体的构建过程中，使用了CRISPR-Cas9技术进行定点突变。",
+    "reference_case": "在猪β2m基因突变体的构建过程中，使用了PCR定点突变技术进行定点突变。",
+    "error_detail": "错误地将PCR定点突变技术替换为CRISPR-Cas9技术，导致概念混淆。",
+    "original_question": "猪β2m基因突变体的构建过程中，使用了哪种技术进行定点突变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组全长约20kb，包含15个开放阅读框（ORF）。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组全长约15kb，包含10个开放阅读框（ORF）。",
+    "error_detail": "错误地增加了基因组长度和ORF数量，导致数据型幻觉。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组结构是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）的Nsp7蛋白在动物感染PRRSV后，可较晚被检测到，研究价值有限。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）的Nsp7蛋白在动物感染PRRSV后，可较早被检测到，具有重要的研究价值。",
+    "error_detail": "错误地改变了Nsp7蛋白被检测到的时间和研究价值，导致时效性幻觉。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的Nsp7蛋白在感染后有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在冷冻保存过程中，添加500μmol/L海藻糖能显著提高猪精液质量。",
+    "reference_case": "在冷冻保存过程中，添加250μmol/L海藻糖能显著提高猪精液质量。",
+    "error_detail": "错误地增加了海藻糖的浓度，导致数据型幻觉。",
+    "original_question": "冷冻保存过程中海藻糖的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "研究发现，杜洛克猪的肌内脂肪含量对H-FABP基因多态性有显著影响。",
+    "reference_case": "研究发现，H-FABP基因多态性对杜洛克猪的肌内脂肪含量有显著影响。",
+    "error_detail": "错误地颠倒了因果关系，导致因果倒置幻觉。",
+    "original_question": "H-FABP基因多态性对猪肌内脂肪含量的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "大河乌猪CETP基因的研究中，PCR反应条件为：95°C预变性5分钟；95°C变性60秒，55°C退火60秒，72°C延伸60秒，共35个循环。",
+    "reference_case": "大河乌猪CETP基因的研究中，PCR反应条件为：94°C预变性3分钟；94°C变性45秒，54°C退火45秒，72°C延伸45秒，共40个循环；72°C延伸5分钟，4°C保存。",
+    "error_detail": "错误地改变了PCR反应的条件，导致数据型幻觉。",
+    "original_question": "大河乌猪CETP基因的研究中，PCR反应的条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "大河乌猪CETP基因的bb基因型在初生重、45日龄重和6月龄管围等生长性状上表现出不显著差异。",
+    "reference_case": "大河乌猪CETP基因的bb基因型在初生重、45日龄重和6月龄管围等生长性状上表现出显著差异。",
+    "error_detail": "错误地改变了bb基因型对生长性状的影响，导致数据型幻觉。",
+    "original_question": "大河乌猪CETP基因的bb基因型在哪些生长性状上表现出显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "大河乌猪CETP基因的研究表明，选择带有a等位基因的个体有望提高猪的初生重和其他生长性状。",
+    "reference_case": "大河乌猪CETP基因的研究表明，选择带有b等位基因的个体有望提高猪的初生重和其他生长性状。",
+    "error_detail": "错误地改变了等位基因的选择，导致假设滥用型幻觉。",
+    "original_question": "大河乌猪CETP基因的研究对猪育种有何意义？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "大河乌猪CETP基因的b等位基因在F4、F5和F6世代中的频率分别为0.4821、0.5042和0.5885。",
+    "reference_case": "大河乌猪CETP基因的b等位基因在F4、F5和F6世代中的频率分别为0.5821、0.6042和0.6885。",
+    "error_detail": "错误地降低了b等位基因的频率，导致数据型幻觉。",
+    "original_question": "大河乌猪CETP基因的b等位基因在不同世代中的频率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "大河乌猪CETP基因的基因型对初生重、45日龄重、6月龄管围等生长性状没有影响。",
+    "reference_case": "大河乌猪CETP基因的基因型对初生重、45日龄重、6月龄管围等生长性状有显著影响。",
+    "error_detail": "错误地否定了基因型对生长性状的影响，导致逻辑完整性幻觉。",
+    "original_question": "大河乌猪CETP基因的哪些生长性状受到基因型的影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "大河乌猪CETP基因的突变位点包括19、69、132、175、203、224和234bp处，共发现8个单核苷酸多态位点（SNPs）。",
+    "reference_case": "大河乌猪CETP基因的突变位点包括19、69、132、175、203、224和234bp处，共发现7个单核苷酸多态位点（SNPs）。",
+    "error_detail": "错误地增加了SNP的数量，导致数据型幻觉。",
+    "original_question": "大河乌猪CETP基因的哪些突变位点被检测到？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "大河乌猪血浆胆固醇酯转移蛋白（CETP）基因的多态性是通过测序技术检测的。",
+    "reference_case": "大河乌猪血浆胆固醇酯转移蛋白（CETP）基因的多态性是通过PCR-RFLP技术检测的。",
+    "error_detail": "错误地将PCR-RFLP技术替换为测序技术，导致概念混淆。",
+    "original_question": "大河乌猪血浆胆固醇酯转移蛋白（CETP）基因的多态性是如何检测的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "大河乌猪CETP基因的研究中使用了方差分析法。",
+    "reference_case": "大河乌猪CETP基因的研究中使用了最小二乘分析法。",
+    "error_detail": "错误地将最小二乘分析法替换为方差分析法，导致概念混淆。",
+    "original_question": "大河乌猪CETP基因的研究中使用了哪些统计分析方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "大河乌猪CETP基因的研究中使用的试剂包括RNA片段回收纯化试剂盒。",
+    "reference_case": "大河乌猪CETP基因的研究中使用的试剂包括DNA片段回收纯化试剂盒。",
+    "error_detail": "错误地将DNA片段回收纯化试剂盒替换为RNA片段回收纯化试剂盒，导致假设滥用型幻觉。",
+    "original_question": "大河乌猪CETP基因的研究中，哪些试剂和仪器被使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "大河乌猪CETP基因的研究中使用的引物序列为：CETP-F1:5'-TCGTGTGCCGCATCACCAAG-3'；CETP-R1:5'-CCGTGATATCTGGGTAGCTG-5'。",
+    "reference_case": "大河乌猪CETP基因的研究中使用的引物序列为：CETP-F1:5'-TCGTGTGCCGCATCACCAAG-3'；CETP-R1:5'-CCGTGATATCTGGGTAGCTG-3'。",
+    "error_detail": "错误地改变了引物序列的末端标记，导致数据型幻觉。",
+    "original_question": "大河乌猪CETP基因的研究中，引物的序列是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在陆川猪中，IGF2基因的A等位基因的分布频率为0.6988，而在大白猪中为0.7514。",
+    "reference_case": "在陆川猪中，IGF2基因的A等位基因的分布频率为0.7988，而在大白猪中为0.8514。",
+    "error_detail": "错误地降低了A等位基因的分布频率，导致数据型幻觉。",
+    "original_question": "在陆川猪和大白猪中，IGF2基因的A等位基因的分布频率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在陆川猪和大白猪中，IGF2基因的SNP位点是在内含子区检测到的G→A的点突变。",
+    "reference_case": "在陆川猪和大白猪中，IGF2基因的SNP位点是在外显子2区检测到的G→A的点突变。",
+    "error_detail": "错误地将外显子2区替换为内含子区，导致概念混淆。",
+    "original_question": "在陆川猪和大白猪中，IGF2基因的哪个SNP位点被检测到？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "在陆川猪和大白猪中，IGF2基因的GG基因型对初生重的影响不显著。",
+    "reference_case": "在陆川猪和大白猪中，IGF2基因的GG基因型对初生重的影响显著。",
+    "error_detail": "错误地否定了GG基因型对初生重的影响，导致逻辑完整性幻觉。",
+    "original_question": "在陆川猪和大白猪中，IGF2基因的GG基因型对初生重的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "在陆川猪中，IGF2基因的AA基因型对断奶重的影响显著。在大白猪中，AA基因型的断奶重不显著高于GG和AG基因型。",
+    "reference_case": "在陆川猪中，IGF2基因的AA基因型对断奶重的影响不显著。在大白猪中，AA基因型的断奶重显著高于GG和AG基因型。",
+    "error_detail": "错误地改变了AA基因型对断奶重的影响，导致逻辑完整性幻觉。",
+    "original_question": "在陆川猪和大白猪中，IGF2基因的AA基因型对断奶重的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "陆川猪和大白猪的胰岛素样生长因子2（IGF2）基因多态性与初生重、断奶重和平均日增重无关。",
+    "reference_case": "陆川猪和大白猪的胰岛素样生长因子2（IGF2）基因多态性与初生重、断奶重和平均日增重相关。",
+    "error_detail": "错误地否定了基因多态性与生长性状的相关性，导致假设滥用型幻觉。",
+    "original_question": "陆川猪和大白猪的胰岛素样生长因子2（IGF2）基因多态性与哪些生长性状相关？",
+    "original_input": ""
+  }
+]

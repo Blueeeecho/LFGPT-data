@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "马、牛15~60g/次，驼30~90g/次，羊、猪6~15g/次，兔、禽0.6~2g/次。",
+    "reference_case": "马、牛15~45g/次，驼30~60g/次，羊、猪6~12g/次，兔、禽0.6~1.5g/次。",
+    "error_detail": "数值范围被不正确地扩大",
+    "original_question": "蒲黄的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "获苓的用法用量是马、牛18~60g/次，驼45~84g/次，羊、猪9~18g/次，兔、禽1.5~3g/次。",
+    "reference_case": "马、牛18~60g/次，驼45~84g/次，羊、猪9~18g/次，兔、禽1.5~3g/次。",
+    "error_detail": "术语'获苓'应为'茯苓'",
+    "original_question": "获苓的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "何首乌粉碎混饲或煎汁自饮，马、牛15~100g/次，羊、猪9~20g/次，犬3~6g/次，兔、禽1.5~4g/次。",
+    "reference_case": "何首乌粉碎混饲或煎汁自饮，马、牛15~90g/次，羊、猪9~15g/次，犬3~5g/次，兔、禽1.5~3g/次。",
+    "error_detail": "用量标准被不正确地更新",
+    "original_question": "何首乌的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "五加皮粉碎混饲或煎汁自饮，马、牛15~90g/次，羊、猪9~15g/次，犬3~5g/次，兔、禽1.5~3g/次。此外，还可以用于治疗皮肤病。",
+    "reference_case": "五加皮粉碎混饲或煎汁自饮，马、牛15~90g/次，羊、猪9~15g/次，犬3~5g/次，兔、禽1.5~3g/次。",
+    "error_detail": "添加了未请求的额外信息",
+    "original_question": "五加皮的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "在母猪日粮中添加2.5%的当归，可使乳房炎发病率明显降低，泌乳量显著增加，从而提高母猪泌乳力，提高35日龄断奶仔猪窝重。",
+    "reference_case": "在母猪日粮中添加2.5%，可显著提高母猪泌乳力，提高35日龄断奶仔猪窝重，获得良好的经济效益。当归添入饲料中饲养家禽，可使家禽增重，增加产蛋量，提高饲料报酬，增强抗病力。用当归与其它药物配伍作为斂料药物添加剂，用于奶山羊、奶牛，使乳房炎发病率明显降低，泌乳量显著增加。",
+    "error_detail": "因果关系的错误描述",
+    "original_question": "当归在饲料中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "秦艽粉碎混饲，或浸渍饮水。马、牛15～45g/次，羊、猪3～12g/次，兔、禽1～1.5g/次。在美国，用量需减半。",
+    "reference_case": "秦艽粉碎混饲，或浸渍饮水。马、牛15～45g/次，羊、猪3～12g/次，兔、禽1～1.5g/次。",
+    "error_detail": "添加了不相关的地域差异信息",
+    "original_question": "秦艽的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "紫草粉碎混饲，马、牛15~45g/次, 驼20~60g/次, 羊、猪6~12g/次, 兔、禽0.3~1.2g/次，或在鸡饲料中添加5%混饲。假设鸡的体重在2kg以上。",
+    "reference_case": "紫草粉碎混饲，马、牛15~45g/次, 驼20~60g/次, 羊、猪6~12g/次, 兔、禽0.3~1.2g/次，或在鸡饲料中添加5%混饲。",
+    "error_detail": "添加了未经验证的假设",
+    "original_question": "紫草的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冰片的用法用量为粉碎混饲。马、牛3～9g/次，羊、猪1～2g/次。",
+    "reference_case": "冰片的用法用量为粉碎混饲。马、牛3～6g/次，羊、猪1～1.5g/次。",
+    "error_detail": "数值范围被不正确地扩大",
+    "original_question": "冰片的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "辽薬本的用法用量为粉碎混饲或煎水自饮。马、牛12～30g/次，羊、猪3～9g/次，兔、禽0.6～1.5g/次。",
+    "reference_case": "辽薬本的用法用量为粉碎混饲或煎水自饮。马、牛12～30g/次，羊、猪3～9g/次，兔、禽0.6～1.5g/次。",
+    "error_detail": "术语'辽薬本'应为'辽药本'",
+    "original_question": "辽薬本的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "土获苓的用法用量为粉碎混饲。或与明砜等药同煮，掺水泼酒鱼池。马、牛30～90g/次，羊、猪15～30g/次，犬、猫3～6g/次，兔、禽3～6g/次，鱼5～15g/kg。但犬和猫的用量不应超过3g。",
+    "reference_case": "土获苓的用法用量为粉碎混饲。或与明砜等药同煮，掺水泼酒鱼池。马、牛30～90g/次，羊、猪15～30g/次，犬、猫3～6g/次，兔、禽3～6g/次，鱼5～15g/kg。",
+    "error_detail": "添加了逻辑矛盾的信息",
+    "original_question": "土获苓的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "何首乌补肝肾，益精血；能抗衰老，增加机体免疫功能，促进肾上腺皮质，多作滋补催肥药用。此外，还能治疗心脏病。",
+    "reference_case": "何首乌补肝肾，益精血；能抗衰老，增加机体免疫功能，促进肾上腺皮质，多作滋补催肥药用。",
+    "error_detail": "添加了与上下文无关的信息",
+    "original_question": "何首乌在促进生猪生长中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥猪散主要成分包括何首乌35%、白芍20%、陈皮20%、神曲10%、石菖蒲10%、山楂5%。",
+    "reference_case": "肥猪散主要成分包括何首乌30%、白芍25%、陈皮15%、神曲15%、石菖蒲10%、山楂5%。",
+    "error_detail": "成分比例被错误地修改",
+    "original_question": "肥猪散的主要成分有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "肥猪散可使25kg以上猪的平均日增重高达900g，提高30%，饲料转化率提高20%，使生猪提前出栏。",
+    "reference_case": "肥猪散可使25kg以上猪的平均日增重高达837.5g，提高26.4%，饲料转化率提高16.6%，使生猪提前出栏。",
+    "error_detail": "数据被不正确地更新",
+    "original_question": "肥猪散对生长猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "使用猪催乳添加剂混饲，按2.5%添加在产后母猪的日粮中，添加至仔猪20日龄时结束，可提高泌乳力22.7%，仔猪35日龄断奶窝重提高19.7%。此外，还能提高母猪的繁殖性能。",
+    "reference_case": "使用猪催乳添加剂混饲，按2.5%添加在产后母猪的日粮中，添加至仔猪20日龄时结束，可提高泌乳力22.7%，仔猪35日龄断奶窝重提高19.7%。",
+    "error_detail": "添加了未请求的额外信息",
+    "original_question": "母猪产后缺乳如何治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "以上13味，粉碎为粗粉，混匀，封存，混饲或煎水内服，马、牛250～500g；羊、猪45～100g。",
+    "reference_case": "以上13味，粉碎为粗粉，混匀，封存，混饲或煎水内服，马、牛250～400g；羊、猪45～80g。",
+    "error_detail": "数值范围被不正确地扩大",
+    "original_question": "中药生长素复方的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "健猪散混饲，猪15～40g。",
+    "reference_case": "健猪散混饲，猪15～30g。",
+    "error_detail": "术语'健猪散'的用量被错误地修改",
+    "original_question": "健猪散的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "刘建国研究的配方对40日龄100头仔猪试验，试验组仔猪未发生泄痢病，每头增重2kg，对照组1.3kg，提早7d产蛋，成活率为99%，而对照组成活率为87.1%。",
+    "reference_case": "刘建国研究的配方对40日龄100头仔猪试验，试验组仔猪未发生泄痢病，每头增重1.7kg，对照组1.3kg，提早5d产蛋，成活率为98.2%，而对照组成活率为87.1%。",
+    "error_detail": "数据被不正确地更新",
+    "original_question": "刘建国研究的配方对仔猪和蛋鸡的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "增重率提高20%（P<0.05），饲料报酬提高15%。",
+    "reference_case": "增重率提高18.53%（P<0.05），饲料报酬提高13.33%。",
+    "error_detail": "数值被错误地修改",
+    "original_question": "周宗汉等（1989）用添加剂喂猪后有哪些效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "可明显降低仔猪黄、白痢的发病率，提高仔猪成活率、断奶窝重及其初生窝重的增长率和泌乳力。假设母猪的日粮中蛋白质含量充足。",
+    "reference_case": "可明显降低仔猪黄、白痢的发病率，提高仔猪成活率、断奶窝重及其初生窝重的增长率和泌乳力。",
+    "error_detail": "添加了未经验证的假设",
+    "original_question": "苏德辉等（1993）用添加剂于母猪后有哪些效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "消食健胃，补气养血，清热燥湿，驱虫杀菌，促进循环、代谢，增强生理调节功能，用于促进猪生长，降低料耗，提高饲料适口性和抗病能力。此外，还能提高猪的肉质。",
+    "reference_case": "消食健胃，补气养血，清热燥湿，驱虫杀菌，促进循环、代谢，增强生理调节功能，用于促进猪生长，降低料耗，提高饲料适口性和抗病能力。",
+    "error_detail": "添加了与上下文无关的信息",
+    "original_question": "PH中草药饲料添加剂的作用是什么？",
+    "original_input": ""
+  }
+]

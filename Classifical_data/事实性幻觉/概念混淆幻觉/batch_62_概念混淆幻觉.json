@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "清热、解毒、止泻，用于仔猪副伤寒。",
+    "reference_case": "清热、解毒、止痢，用于仔猪副伤寒。",
+    "error_detail": "术语错误，错误地将止痢改为止泻。",
+    "original_question": "仔猪副伤寒汤 I 号的功能与主治是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肠胃炎。",
+    "reference_case": "猪胃肠炎。",
+    "error_detail": "术语错误，错误地将猪胃肠炎改为猪肠胃炎。",
+    "original_question": "三桉汤用于治疗什么病症？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "清热，润燥，解毒，止咳平喘。用于热病暴渴，目赤，喉痹，黄疸，喘，泄泻，痢疾，便秘，痛疮肿毒。",
+    "reference_case": "清热，润燥，解毒，止咳平喘。用于热病暴渴，目赤，喉痹，黄疸，喘，泄泻，痢疾，便秘，痛疮肿毒。",
+    "error_detail": "术语错误，虽然看起来相同，但实际上在某个细节上可能有误，如遗漏或添加了某个症状。",
+    "original_question": "猪胆素/猪胆酸的主要功能与主治是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "对猪丹毒杆菌、禽巴氏杆菌、猪霍乱杆菌、金葡菌有杀灭作用。",
+    "reference_case": "对猪丹毒杆菌、禽巴氏杆菌、猪霍乱杆菌、金葡菌有抑制生长作用。",
+    "error_detail": "将'抑制生长作用'错误地描述为'杀灭作用'，概念混淆。",
+    "original_question": "复方胆素注射液对猪丹毒杆菌等细菌有何抑制作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "β - 激动剂缓释药囊皮下埋植对猪有提高胴体脂肪率，减少肌肉沉积和促进生长的作用。",
+    "reference_case": "β - 激动剂缓释药囊皮下埋植对猪有提高胴体瘦肉率，减少脂肪沉积和促进生长的作用。",
+    "error_detail": "将'提高胴体瘦肉率'和'减少脂肪沉积'错误地描述为'提高胴体脂肪率'和'减少肌肉沉积'，概念混淆。",
+    "original_question": "β - 激动剂缓释药囊对猪有哪些作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "磷酸泰乐菌素适用于猪、鸡和牛。",
+    "reference_case": "磷酸泰乐菌素适用于猪和鸡。",
+    "error_detail": "错误地添加了'牛'作为适用动物，概念混淆。",
+    "original_question": "磷酸泰乐菌素适用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "氨苯胂酸预混剂适用于猪、鸡和鸭。",
+    "reference_case": "氨苯胂酸预混剂适用于猪、鸡。",
+    "error_detail": "错误地添加了'鸭'作为适用动物，概念混淆。",
+    "original_question": "氨苯胂酸预混剂用于哪种动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "洛克沙胂预混剂适用于猪、鸡和鸭。",
+    "reference_case": "洛克沙胂预混剂适用于猪、鸡。",
+    "error_detail": "错误地添加了'鸭'作为适用动物，概念混淆。",
+    "original_question": "洛克沙胂预混剂的适用动物是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "杆菌肽锌预混剂适用于牛、猪、禽和羊。",
+    "reference_case": "杆菌肽锌预混剂适用于牛、猪、禽。",
+    "error_detail": "错误地添加了'羊'作为适用动物，概念混淆。",
+    "original_question": "杆菌肽锌预混剂适用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "黄霉素预混剂适用于牛、猪、鸡和鸭。",
+    "reference_case": "黄霉素预混剂适用于牛、猪、鸡。",
+    "error_detail": "错误地添加了'鸭'作为适用动物，概念混淆。",
+    "original_question": "黄霉素预混剂的适用动物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维吉尼（亚）霉素预混剂适用于猪、鸡和鸭。",
+    "reference_case": "维吉尼（亚）霉素预混剂适用于猪、鸡。",
+    "error_detail": "错误地添加了'鸭'作为适用动物，概念混淆。",
+    "original_question": "维吉尼（亚）霉素预混剂的适用动物是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "喹乙醇预混剂用于猪和鸡。",
+    "reference_case": "喹乙醇预混剂用于猪。",
+    "error_detail": "错误地添加了'鸡'作为适用动物，概念混淆。",
+    "original_question": "喹乙醇预混剂用于哪种动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "用于治疗猪支原体肺炎和嗜血杆菌胸膜性肺炎，也可用于治疗猪密螺旋体引起的痢疾和猪丹毒。",
+    "reference_case": "用于治疗猪支原体肺炎和嗜血杆菌胸膜性肺炎，也可用于治疗猪密螺旋体引起的痢疾。",
+    "error_detail": "错误地添加了'猪丹毒'作为治疗疾病，概念混淆。",
+    "original_question": "延胡索酸泰妙菌素预混剂用于治疗哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "适用于猪、鸡胃肠道线虫及绦虫的杀灭。",
+    "reference_case": "适用于猪、鸡胃肠道线虫及绦虫的驱除。",
+    "error_detail": "将'驱除'错误地描述为'杀灭'，概念混淆。",
+    "original_question": "氟苯咪唑预混剂适用于哪些动物驱虫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "用于防治猪赤痢、沙门氏菌病、大肠杆菌肠炎及支原体肺炎和猪丹毒。",
+    "reference_case": "用于防治猪赤痢、沙门氏菌病、大肠杆菌肠炎及支原体肺炎。",
+    "error_detail": "错误地添加了'猪丹毒'作为防治疾病，概念混淆。",
+    "original_question": "盐酸林可霉素、硫酸大观霉素预混剂用于防治哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "主要用于治疗猪胸膜肺炎放线杆菌、巴氏杆菌及支原体引起的感染和猪丹毒。",
+    "reference_case": "主要用于治疗猪胸膜肺炎放线杆菌、巴氏杆菌及支原体引起的感染。",
+    "error_detail": "错误地添加了'猪丹毒'作为治疗疾病，概念混淆。",
+    "original_question": "磷酸替米考星预混剂主要用于治疗什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "钙是构成畜禽骨、牙、蛋壳等的成分，参与维持神经、肌肉的正常兴奋性，缺乏时会导致血钙降低，出现抽搐或强直性惊厥，还可促进凝血、降低毛细血管壁的通透性和抗过敏。幼畜缺钙会发生佝偻病，成年畜缺乏会产生骨质疏松症。",
+    "reference_case": "钙是构成畜禽骨、牙、蛋壳等的成分，参与维持神经、肌肉的正常兴奋性，缺乏时会导致血钙降低，出现抽搐或强直性惊厥，还可促进凝血、降低毛细血管壁的通透性和抗过敏。幼畜缺钙会发生佝偻病，成年畜缺乏会产生软骨症，蛋禽、母猪缺钙会影响产蛋和泌乳与繁殖力。",
+    "error_detail": "将'软骨症'错误地替换为'骨质疏松症'。",
+    "original_question": "钙在畜禽体内的生理功能和营养作用有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "水解蛋白-矿物元素整合剂是单个或多个矿物元素（离子）与水解蛋白质分子的氨基酸（复合氨基酸）的螯合复合物，可用于牛、羊、猪、禽，能够显著提高动物的生产能力。",
+    "reference_case": "水解蛋白-矿物元素整合剂是单个或多个矿物元素（离子）与水解蛋白质分子的氨基酸（复合氨基酸）的螯合复合物，可用于牛、羊、猪、禽，能够提高动物的生产能力。",
+    "error_detail": "添加了'显著'一词，夸大了效果。",
+    "original_question": "如何通过水解蛋白-矿物元素整合剂提高动物生产能力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "核苷酸通过影响肠RNA和DNA含量而影响肠道蛋白质的合成，增加仔猪回肠的肠线毛高度与隐窝深度，从而提高饲料利用率和日增重，并显著提高仔猪断奶后十二指肠线毛高度和回肠黏膜DNA含量。此外，核苷酸还能直接转化为蛋白质。",
+    "reference_case": "核苷酸通过影响肠RNA和DNA含量而影响肠道蛋白质的合成，增加仔猪回肠的肠线毛高度与隐窝深度，从而提高饲料利用率和日增重，并显著提高仔猪断奶后十二指肠线毛高度和回肠黏膜DNA含量。",
+    "error_detail": "错误地声称核苷酸能直接转化为蛋白质",
+    "original_question": "核苷酸如何促进仔猪肠道的生长发育和成熟？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "酵母核苷酸对仔猪肠道菌群的影响包括促进肠道中双歧杆菌和乳酸菌的生长，降低大肠杆菌的数量，从而维持肠道菌群平衡，减少腹泻的发生，改善仔猪的生长性能和健康状况。此外，酵母核苷酸还能杀死所有有害细菌。",
+    "reference_case": "酵母核苷酸对仔猪肠道菌群的影响包括促进肠道中双歧杆菌和乳酸菌的生长，降低大肠杆菌的数量，从而维持肠道菌群平衡，减少腹泻的发生，改善仔猪的生长性能和健康状况。",
+    "error_detail": "错误地声称酵母核苷酸能杀死所有有害细菌",
+    "original_question": "酵母核苷酸对仔猪肠道菌群的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过熔解曲线对荧光定量 PCR 产物进行特异性分析。此外，还可以通过观察产物的颜色变化来判断特异性。",
+    "reference_case": "通过熔解曲线对荧光定量 PCR 产物进行特异性分析。",
+    "error_detail": "错误地添加了通过颜色变化判断特异性的方法",
+    "original_question": "猪 TIGAR mRNA 的 SYBR Green I 荧光定量 RT-PCR 方法中，如何检测 TIGAR 及 β-actin 基因荧光定量 PCR 的特异性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "缺乏维生素A会导致心脏病和高血压。",
+    "reference_case": "缺乏维生素A会导致干眼病和夜目症，引起上皮组织干燥、增生和过度角化，发生支气管炎，抗感染能力下降，公畜性机能减退，母畜不能受精或卵子不能植入，幼畜、幼禽缺乏维生素A发生眼炎，出现生长发育障碍，猪引起消化不良和下痢。",
+    "error_detail": "错误地将维生素A缺乏与心脏病和高血压联系起来",
+    "original_question": "缺乏维生素A会导致哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "甘氨酸主要用于提高动物的运动能力。",
+    "reference_case": "甘氨酸是动物特别是禽类必需的氨基酸之一，是饲料添加剂，也可用于防治仔猪和犊牛的腹泻，还可用作血液的诱食剂。",
+    "error_detail": "错误地将甘氨酸的作用与提高运动能力联系起来",
+    "original_question": "甘氨酸在动物饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "虫基（酸）鱼粉主要用于提高动物的免疫力。",
+    "reference_case": "作为乳猪及名贵鱼类（鲉、鰻、罗非鱼）、对虾的营养性饲料添加剂和诱食剂。",
+    "error_detail": "错误地将虫基（酸）鱼粉的主要作用与提高免疫力联系起来",
+    "original_question": "虫基（酸）鱼粉在饲料中的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "抗生素通过杀死所有肠道微生物来促进动物生长。",
+    "reference_case": "抗生素与肠道内特定的微生物群相互作用，刺激有益微生物群体特别是能合成某些营养物的微生物的优生繁殖；抑制有害微生物并减少与畜禽竞争养分的微生物；使由于病原微生物或炎症引起增厚的肠壁变薄，肠壁血液供应充分而促进了营养物质的吸收并能增进食欲；当日糧中脂溶性维生素及矿物质不足时，使用抗生素能提高它们的利用率；支持上述第(2)点解释的部分根据，是在无病或无菌的环境下和未被病菌污染的新猪圈使用抗生素饲喂的动物,其促长作用不明显；有认为抗生素可刺激脑下垂体分泌激素，促进动物生长发育；某些抗生素的促长作用，则以其抗寄生虫有关。",
+    "error_detail": "概念混淆",
+    "original_question": "抗生素在畜禽饲料中的促生长作用原理有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维吉尼霉素是一种广谱抗生素，对所有细菌都有效。",
+    "reference_case": "维吉尼霉素是一种多肽类动物专用抗生素，主要用于抗革兰氏阳性菌，不易产生耐药性，对多数耐药细菌都有效，且无交叉耐药性，作为动物促生长剂及防治猪痢疾病。",
+    "error_detail": "概念混淆",
+    "original_question": "维吉尼霉素的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "有机酸剂的主要作用是提高牛、羊瘤胃微生物对蛋白质的消化能力，降低仔猪胃肠内pH值。",
+    "reference_case": "提高牛、羊瘤胃微生物对纤维素的消化能力，降低仔猪胃肠内pH值，提高肉鸡和蛋鸡的生产能力，用于养鱼和经济动物的生长促进。",
+    "error_detail": "术语错误",
+    "original_question": "有机酸剂的主要作用有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "育肥散由石音、陈皮、神曲、柏子仁、松针粉、硫酸亚铁、硫酸铜、硫酸锌、硫酸镪、氯化钴、淀粉、亚硒酸钠、土霉素、鸡用多维等组成。",
+    "reference_case": "育肥散由石音、陈皮、神曲、柏子仁、松针粉、硫酸亚铁、硫酸铜、硫酸锌、硫酸镪、氯化钴、淀粉、亚硒酸钠、土霉素、猪用多维等组成。",
+    "error_detail": "术语错误",
+    "original_question": "什么是育肥散的成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "糖精钠（糖精）能增加15~105日龄仔猪的采食量和日增重，且适宜作鸡的饲料调味剂。",
+    "reference_case": "糖精钠（糖精）能增加15~105日龄仔猪的采食量和日增重，但不宜作鸡的饲料调味剂，特别是小鸡能区分出糖水和糖精水。",
+    "error_detail": "术语错误",
+    "original_question": "糖精钠（糖精）在饲料中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "低血糖症的新生仔猪会出现兴奋、跳跃、不怕冷、四肢有力、头前倾、四肢收缩站立、瞳孔缩小、口紧闭不流泡沫、体温升高甚至死亡等症状。",
+    "reference_case": "低血糖症的新生仔猪会出现不安、发抖、尖叫、怕冷、四肢绵软无力、四肢游泳状划动、头后仰、四肢伸直或叉开伏卧、瞳孔散大、口微张流出泡沫、体温降低甚至死亡等症状。",
+    "error_detail": "术语错误",
+    "original_question": "低血糖对新生仔猪的影响有哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "低血糖症仔猪的病理变化包括胸腔水肿、肝脏呈红色或红中带黄色、质地坚硬、肝小叶界限清晰、胆囊缩小内无胆汁、肾呈黑色且无出血点、膀胱无出血点、脾呈黑色且边钝。",
+    "reference_case": "低血糖症仔猪的病理变化包括腹腔水肿、肝脏呈䮐黄色或黄中带红色、质地柔软似嫩豆腐、肝小叶界限不清、胆囊膨大内充满半透明胆汁、肾呈土黄色且有小出血点、膀胱有出血点、脾呈桃红色且边锐。",
+    "error_detail": "术语错误",
+    "original_question": "低血糖症仔猪的病理变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "生物素缺乏会导致皮肤炎、毛发增多，鸡表现慢性者缓慢死亡，猪生长快速，被毛密集，皮肤光滑，鼠出现眼周围毛发增多、皮肤炎和毛发增多，毛皮兽皮肤光滑、毛发增多和不自晈毛。",
+    "reference_case": "生物素缺乏会导致皮炎、脱毛，鸡表现急性者突然死亡，猪生长缓慢，被毛稀疏，皮肤角化，鼠出现眼周围脱毛、皮炎和脱毛，毛皮兽皮肤过度角化、脱毛和自晈毛。",
+    "error_detail": "术语错误",
+    "original_question": "生物素缺乏会导致哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维生素B12缺乏会导致猪生长快速，被毛柔软，皮肤炎，应激性反应增强，运动协调，前肢有力，身体舒适；胸腺、脾脏以及肾上腺增大；肝和舌则常由于肉芽瘤组织的减少而缩小，有典型的大细胞性贫血；仔猪有时可出现便秘和食欲增加。",
+    "reference_case": "猪生长缓慢，被毛粗硬，皮炎，应激性反应减弱，运动失调，后肢软弱，身体疼痛；胸腺、脾脏以及肾上腺萎缩；肝和舌则常由于肉芽瘤组织的增生而肿大，有典型的小细胞性贫血；仔猪有时可出现腹泻和呕吐。",
+    "error_detail": "术语错误",
+    "original_question": "维生素B12缺乏会导致哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "长期用维生素C丰富的饲料且增补维生素C或添加量过多，是引起维生素C缺乏病的主要原因。如缺乏青绿饲料，饲料里金属离子过少、用草喂猪煮得不足使维生素C不被破坏。动物性饲料里维生素C含量较多，对食肉动物如不注意增补则更不易引起缺乏症。",
+    "reference_case": "长期用维生素C缺乏的饲料且不增补维生素C或添加量不足，是引起维生素C缺乏病的主要原因。如缺乏青绿饲料，饲料里金属离子过多、用草喂猪煮得过度使维生素C被破坏。动物性饲料里维生素C含量较少，对食肉动物如不注意增补则更易引起缺乏症。",
+    "error_detail": "术语错误",
+    "original_question": "维生素C缺乏病的主要病因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪表现为生长快速、体重增加、不出血、不贫血、关节不肿胀、骨不病变；母猪不导致仔猪先天性维生素C缺乏症；犬表现为不贫血和口膜炎；毛皮兽表现为新生仔兽四肢关节不肿胀、爪垫不溃疡；马和牛羊则表现为强壮、增重、消化机能增强。",
+    "reference_case": "猪表现为生长缓慢、体重降低、出血、贫血、关节肿胀、骨病变；母猪导致仔猪先天性维生素C缺乏症；犬表现为贫血和口膜炎；毛皮兽表现为新生仔兽四肢关节肿胀、爪垫溃疡；马和牛羊则表现为虚弱、消瘦、消化机能障碍。",
+    "error_detail": "术语错误",
+    "original_question": "维生素C缺乏症在不同动物中的表现有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "骨营养不良可影响猫、兔、鸭、鹅、鱼及家养的野生动物熊、虎等动物。",
+    "reference_case": "骨营养不良可影响马、牛、羊、猪、鸡、犬及家养的野生动物貂、狐等动物。",
+    "error_detail": "术语错误",
+    "original_question": "骨营养不良主要影响哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "妊娠、哺乳母猪，特别是产仔少的母猪需要注意补磷及日粮里钙、磷的不平衡。",
+    "reference_case": "妊娠、哺乳母猪，特别是产仔多的母猪需要注意补钙及日粮里钙、磷的平衡。",
+    "error_detail": "术语错误",
+    "original_question": "妊娠、哺乳母猪特别需要注意哪方面营养的补充？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "因种、属的不同，有的动物对某种传染病具有后天的不感受性，如马属动物易感染马传染性贫血病，而其他动物不感染；猪和野猪易感染猪瘟，其他动物则不感染；人对猪瘟、马传染性贫血、犬瘟热等动物疾病不感染。",
+    "reference_case": "因种、属的不同，有的动物对某种传染病具有先天的不感受性，如马属动物易感染马传染性贫血病，而其他动物不感染；猪和野猪易感染猪瘟，其他动物则不感染；人对猪瘟、马传染性贫血、犬瘟热等动物疾病不感染。",
+    "error_detail": "将'先天的不感受性'错误地改为'后天的不感受性'",
+    "original_question": "种、属的不感受性表现为什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痢疾短螺旋体培养时对好氧的要求极其严格，因此在分离培养过程中每一步骤都必须在严格好氧条件下进行。",
+    "reference_case": "猪痢疾短螺旋体培养时对厌氧的要求极其严格，因此在分离培养过程中每一步骤都必须在严格厌氧条件下进行。",
+    "error_detail": "将'厌氧'错误地改为'好氧'",
+    "original_question": "猪痢疾短螺旋体在培养时对环境有什么要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "EAEC与断奶幼猪和犊牛发生的腹泻无关。",
+    "reference_case": "EAEC与断奶幼猪和犊牛发生的腹泻相关。",
+    "error_detail": "错误地描述了EAEC与腹泻的关系",
+    "original_question": "EAEC与哪些动物的腹泻相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "金黄色葡萄球菌主要通过引起非化脓性局部感染，如组织坏死、脓肿。",
+    "reference_case": "金黄色葡萄球菌主要通过引起化脓性局部感染，如组织坏死、脓肿，导致炎症细胞浸润和纤维蛋白渗出，可能引起败血症或脓毒败血症，常见疾病包括马的创伤感染、蜂窝织炎，牛及羊的乳房炎，鸡的关节炎，猪的皮炎、流产等。",
+    "error_detail": "感染类型描述错误",
+    "original_question": "金黄色葡萄球菌的致病性主要体现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "副结核分枝杆菌主要感染人，也存在于一些野生动物如野兔、野猪和野牛等动物中。",
+    "reference_case": "副结核分枝杆菌主要感染牛、绵羊、山羊，也存在于一些野生动物如野兔、野猪和野牛等动物中。",
+    "error_detail": "主要感染对象描述错误",
+    "original_question": "副结核分枝杆菌主要感染哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "衣原体感染家畜如羊、牛、猪，不可感染人。",
+    "reference_case": "衣原体感染家畜如羊、牛、猪，也可感染人，如沙眼衣原体在人可以引起沙眼、弥漫性结膜炎、新生儿眼炎、非淋性尿道炎、淋性淋巴肉芽肿等。",
+    "error_detail": "人类感染描述错误",
+    "original_question": "衣原体感染哪些动物和人？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肺炎支原体的菌体呈长链状，有细胞壁。",
+    "reference_case": "菌体呈环状或短链状，无细胞壁，电镜观察可见两暗一明三层结构状膜，内含电子密度较强的块状或空泡状核蛋白体、细丝状 DNA 链以及小粒状蛋白质。",
+    "error_detail": "菌体形态和细胞壁描述错误",
+    "original_question": "猪肺炎支原体的菌体形态特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肺炎支原体引起的主要疾病是猪流感。",
+    "reference_case": "引起猪地方性流行性肺炎，是天然宿主仅限于猪的病原体。",
+    "error_detail": "疾病名称描述错误",
+    "original_question": "猪肺炎支原体引起的主要疾病是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪鼻支原体常从猪流感中分离到。",
+    "reference_case": "常从地方流行性肺炎和猪萎缩性鼻炎的猪群中分离到，并引起仔猪发生多发性浆膜炎和多发性关节炎。",
+    "error_detail": "疾病名称描述错误",
+    "original_question": "猪鼻支原体引起的主要疾病是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪嗜血支原体通过间接分裂在猪红细胞内繁殖。",
+    "reference_case": "通过直接分裂、二分裂、三分裂、出芽分裂等方式在猪红细胞内繁殖，不能在血液外组织繁殖。",
+    "error_detail": "繁殖方式描述错误",
+    "original_question": "猪嗜血支原体的生长繁殖方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪嗜血支原体引起仔猪和母猪的贫血、黄疸、发热，但不影响生长速度。",
+    "reference_case": "引起仔猪和母猪的贫血、黄疸、发热，生长缓慢，母猪流产、死胎，公猪性欲减退，精子活力降低。",
+    "error_detail": "生长速度影响描述错误",
+    "original_question": "猪嗜血支原体的主要致病性表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "烟曲霉震颤素 A 和 B 可使牛、绵羊、猪、鸡中毒，主要引起腹泻。",
+    "reference_case": "烟曲霉震颤素 A 和 B 可使牛、绵羊、猪、鸡中毒，主要引起震颤、兴奋性增强、共济失调，家禽中毒以倠鸡最敏感，主要是震颤和共济失调。",
+    "error_detail": "中毒症状描述错误",
+    "original_question": "烟曲霉震颤素 A 和 B 对家禽的毒性作用如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "非洲猪瘟病毒科的代表病毒是猪流感病毒。",
+    "reference_case": "非洲猪瘟病毒属的代表种是非洲猪瘟病毒（African swine fever virus）。",
+    "error_detail": "病毒名称描述错误",
+    "original_question": "非洲猪瘟病毒科的代表病毒是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "牛副流感病毒3型可以引起牛和猪的呼吸道疾病，对绵羊、羔羊可以引起肺炎。还可以使公牛精液和母牛生殖道中发现病毒，并可引起不育。实验性接种牛犊后，可引起发热、结膜炎、黏液-脓性鼻炎和阴道炎等。此外，还能感染人类。",
+    "reference_case": "牛副流感病毒3型可以引起牛和猪的呼吸道疾病，对绵羊、羔羊可以引起肺炎。还可以使公牛精液和母牛生殖道中发现病毒，并可引起不育。实验性接种牛犊后，可引起发热、结膜炎、黏液-脓性鼻炎和阴道炎等。",
+    "error_detail": "添加了不相关的信息，错误地声称病毒能感染人类。",
+    "original_question": "牛副流感病毒3型可以引起哪些动物疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪腮腺炎病毒主要编码9种蛋白，包括N、P、V、W、C、M、F、HN、L等。此外，还编码一种未知功能的蛋白X。",
+    "reference_case": "猪腮腺炎病毒主要编码9种蛋白，包括N、P、V、W、C、M、F、HN、L等。",
+    "error_detail": "错误地添加了一种未知功能的蛋白X。",
+    "original_question": "猪腮腺炎病毒主要编码哪些蛋白？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪可能会出现脑炎、肺炎和角膜混浊，成年猪会出现不育，个别猪会出现角膜混浊和轻度的食欲下降。此外，还可能出现心脏疾病。",
+    "reference_case": "仔猪可能会出现脑炎、肺炎和角膜混浊，成年猪会出现不育，个别猪会出现角膜混浊和轻度的食欲下降。",
+    "error_detail": "错误地添加了可能出现心脏疾病的信息。",
+    "original_question": "猪腮腺炎病毒感染的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "牛、猪、羊对口蹄疫的敏感性不同，牛通过舌部上皮注射一个单位的病毒就可以发生感染，猪通过鼻腔感染需要1000U甚至更高的病毒量，羊通常不容易发生感染，需要10000U以上的病毒量。此外，人类也非常容易感染。",
+    "reference_case": "牛、猪、羊对口蹄疫的敏感性不同，牛通过舌部上皮注射一个单位的病毒就可以发生感染，猪通过鼻腔感染需要1000U甚至更高的病毒量，羊通常不容易发生感染，需要10000U以上的病毒量。",
+    "error_detail": "错误地添加了人类也非常容易感染的信息。",
+    "original_question": "不同动物对口蹄疫感染的敏感性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪水疱疹病毒（VESV）可引起猪以唇、齿龈、舌、腭、鼻镜及四肢的蹄踵和趾间发生水疱性炎症为主要特征的一种急性、热性、高度接触性传染病。此外，还能引起心脏疾病。",
+    "reference_case": "猪水疱疹病毒（VESV）可引起猪以唇、齿龈、舌、腭、鼻镜及四肢的蹄踵和趾间发生水疱性炎症为主要特征的一种急性、热性、高度接触性传染病。",
+    "error_detail": "错误地添加了能引起心脏疾病的信息。",
+    "original_question": "猪水疱疹病毒（VESV）引起的疾病有哪些特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）属于甲型冠状病毒属（Alphacoronavirus）。此外，还属于乙型冠状病毒属。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）属于甲型冠状病毒属（Alphacoronavirus）。",
+    "error_detail": "错误地添加了还属于乙型冠状病毒属的信息。",
+    "original_question": "猪流行性腹泻病毒（PEDV）属于哪个病毒属？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "复制酶多聚蛋白基因（基因1）占全基因组2/3，长20346 nt，包括ORF1a（12354 nt）和ORF1b（8037 nt）两个开放阅读框架，二者之间有46 nt的重叠序列，重叠处有滑动序列（UUUAAAC）和假结结构，它们能使核糖体进行移码阅读从而保证基因1的正确翻译。此外，还有一个额外的开放阅读框架。",
+    "reference_case": "复制酶多聚蛋白基因（基因1）占全基因组2/3，长20346 nt，包括ORF1a（12354 nt）和ORF1b（8037 nt）两个开放阅读框架，二者之间有46 nt的重叠序列，重叠处有滑动序列（UUUAAAC）和假结结构，它们能使核糖体进行移码阅读从而保证基因1的正确翻译。",
+    "error_detail": "错误地添加了一个额外的开放阅读框架。",
+    "original_question": "猪流行性腹泻病毒的复制酶多聚蛋白基因如何被翻译？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒对乙醚和氯仿敏感。此外，还对酒精敏感。",
+    "reference_case": "猪流行性腹泻病毒对乙醚和氯仿敏感。",
+    "error_detail": "错误地添加了对酒精敏感的信息。",
+    "original_question": "猪流行性腹泻病毒对哪些化学物质敏感？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "与其他冠状病毒相比，猪流行性腹泻病毒（PEDV）的细胞培养相对比较困难，早期尝试用不同的方法将PEDV适应细胞都没有取得成功。此外，现在已经有了成功的培养方法。",
+    "reference_case": "与其他冠状病毒相比，猪流行性腹泻病毒（PEDV）的细胞培养相对比较困难，早期尝试用不同的方法将PEDV适应细胞都没有取得成功。",
+    "error_detail": "错误地添加了现在已经有了成功的培养方法的信息。",
+    "original_question": "猪流行性腹泻病毒的细胞培养有哪些挑战？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒会引起以腹泻、呕吐、脱水和对哺乳仔猪高致死率为特征的高度接触性呼吸道传染病。",
+    "reference_case": "猪流行性腹泻病毒会引起以腹泻、呕吐、脱水和对哺乳仔猪高致死率为特征的高度接触性肠道传染病。",
+    "error_detail": "错误地将肠道传染病改为呼吸道传染病。",
+    "original_question": "猪流行性腹泻病毒的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "病毒分离：采取病料如病变的肝脏组织经过无菌处理，接种Vero或Vero-E6细胞进行传代培养，观察细胞病变。",
+    "reference_case": "病毒分离：采取病料如病变的小肠组织经过无菌处理，接种Vero或Vero-E6细胞进行传代培养，观察细胞病变。",
+    "error_detail": "错误地将小肠组织改为肝脏组织。",
+    "original_question": "猪流行性腹泻病毒如何诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PEDV的病史初步诊断依据为死亡率、传播速度以及与PRRS的区别。",
+    "reference_case": "PEDV的病史初步诊断依据为死亡率、传播速度以及与TGE的区别。",
+    "error_detail": "错误地将TGE改为PRRS。",
+    "original_question": "猪冠状病毒（PEDV）的病史初步诊断依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "感染症状包括呕吐、厌食、腹泻、进行性消瘦，某些病例迅速发展为致死性的脑脊髓炎。",
+    "reference_case": "感染症状包括呕吐、厌食、便秘、进行性消瘦，某些病例迅速发展为致死性的脑脊髓炎。",
+    "error_detail": "错误地将便秘改为腹泻。",
+    "original_question": "猪凝血性脑脊髓炎病毒（HEV）的感染症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "BCoV的病毒粒子具有核衣壳蛋白（N）、整体膜糖蛋白（M）、囊膜纤突糖蛋白（S）和血凝酯酶糖蛋白（HE）五种主要结构蛋白。",
+    "reference_case": "BCoV的病毒粒子具有核衣壳蛋白（N）、整体膜糖蛋白（M）、囊膜纤突糖蛋白（S）和血凝酯酶糖蛋白（HE）四种主要结构蛋白。",
+    "error_detail": "错误地增加了主要结构蛋白的数量，从四种到五种。",
+    "original_question": "猪冠状病毒（BCoV）的病毒粒子具有哪些主要结构蛋白？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒主要感染牛。",
+    "reference_case": "猪繁殖与呼吸综合征病毒主要感染猪。",
+    "error_detail": "错误地将猪改为牛。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）主要感染哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "四角法非常方便，适用于设计猪禽的浓缩料配方，例如，计算反刍动物的饲料配方，通过列出各原料能量、蛋白质及蛋白质与能量比值，使用四角法得出各种原料应使用的能量之比。",
+    "reference_case": "四角法非常方便，适用于设计猪禽的浓缩料配方，例如，计算反刍动物的饲料配方，通过列出各原料能量、蛋白质及蛋白质与能量比值，使用四角法得出各种原料应使用的能量之比。",
+    "error_detail": "将反刍动物的饲料配方与猪禽的浓缩料配方混淆",
+    "original_question": "四角法在设计猪禽的浓缩料配方中如何应用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "我国猪饲养标准的数据偏高，更适用于进口瘦肉型猪品种。",
+    "reference_case": "我国猪饲养标准的数据偏低，更适用于本地品种猪或本地品种与进口瘦肉型猪品种杂交的商品猪。",
+    "error_detail": "错误地描述了我国猪饲养标准的适用性和数据水平",
+    "original_question": "我国猪饲养标准与NRC（1998）的营养水平相比，哪个更适用本地品种猪或杂交商品猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的饲养管理分为仔猪、生长育肥猪和种猪，处于这三种时期的猪对营养物质的需求量相同，可以混用。",
+    "reference_case": "猪的饲养管理分为仔猪、生长育肥猪和种猪，处于这三种时期的猪对营养物质的需求量不同，不得混用。",
+    "error_detail": "错误地描述了猪对营养物质需求量的相同性",
+    "original_question": "猪的饲养管理分为哪三大类，不同类别的猪对营养物质的需求量是否相同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪饲料分为断奶前和断奶后两种。",
+    "reference_case": "仔猪饲料分为断奶前和断奶后两种。",
+    "error_detail": "分类正确，无幻觉",
+    "original_question": "仔猪饲料分为哪两种类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "开食料要求营养全价，不具备香、甜、脆等适口性好的优点。",
+    "reference_case": "开食料不要求营养全价，但应具备香、甜、脆等适口性好的优点，主要目的在于引导仔猪提前进食，促进消化系统发育，有利于今后的生长发育。",
+    "error_detail": "错误地描述了开食料的营养要求和适口性",
+    "original_question": "开食料有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "反刍动物精饲料重在补充粗饲料的营养不足，营养含量应根据粗饲料质与量、动物的生产性能而定，称为精料补充料，原料应以猪禽能有效利用的饲料为主。",
+    "reference_case": "反刍动物精饲料重在补充粗饲料的营养不足，营养含量应根据粗饲料质与量、动物的生产性能而定，称为精料补充料，原料应以猪禽不能有效利用的饲料为主。",
+    "error_detail": "错误地描述了精饲料原料的选择标准",
+    "original_question": "精饲料与单胃动物的全价配合饲料有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "布氏杆菌病有治疗价值，一般予以治疗。",
+    "reference_case": "布氏杆菌病由于无治疗价值，一般不予治疗，主要是防止羊群免受本病侵入，主要措施是定期对羊群进行检疫，发现阳性或可疑反应的羊只及时隔离，30天后重检仍为阳性或可疑反应者，应淘汰屠宰，对被污染的用具和场所彻底消毒，流产胎儿、胎衣、羊水和产道分泌物应深埋。为增强羊群抵抗力，可使用布氏杆菌猪型2号苗或羊型5号苗进行预防接种。在流行区有可能接触感染布氏杆菌病的人员，应定期进行检查，并进行免疫接种，以免感染本病。",
+    "error_detail": "错误地描述了布氏杆菌病的治疗价值",
+    "original_question": "防治布氏杆菌病的主要措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "要注意季节性和饲养方式，可以与矿物质共存，避免光照、高温、高湿条件，现用现加，防止添加剂在储存过程中失效。",
+    "reference_case": "要注意季节性和饲养方式，避免与矿物质共存，避免光照、高温、高湿条件，现用现加，防止添加剂在储存过程中失效。",
+    "error_detail": "错误地描述了维生素添加剂与矿物质的共存性",
+    "original_question": "维生素添加剂使用时需要注意哪些事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "过去动物疫病的传播途径主要是垂直传播和水平传播，但现在一些常见传播途径如猪瘟、狂犬病等正在不断发生改变，水平传播现象增多，导致防疫工作难度加大。",
+    "reference_case": "过去动物疫病的传播途径主要是水平传播和垂直传播，但现在一些常见传播途径如猪瘟、狂犬病等正在不断发生改变，垂直传播现象增多，导致防疫工作难度加大。",
+    "error_detail": "错误地描述了动物疫病传播途径的变化趋势",
+    "original_question": "动物疫病的传播途径有哪些变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟和鸡新城疫的预防措施重点是治疗。",
+    "reference_case": "猪瘟和鸡新城疫的预防措施重点是预防接种。",
+    "error_detail": "错误地描述了预防措施的重点",
+    "original_question": "猪瘟和鸡新城疫的预防措施重点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "控制猪气喘病的重点措施是使用抗生素治疗。",
+    "reference_case": "控制猪气喘病的重点措施是控制病猪和带菌猪。",
+    "error_detail": "错误地将治疗措施与控制措施混淆。",
+    "original_question": "控制猪气喘病的重点措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟感染后会出现食欲增加、低热、结膜炎等症状。",
+    "reference_case": "病猪明显减食或停食、高热、结膜炎、初便秘后下痢、排出恶臭稀便、步态不稳、四肢痉挛呈游泳运动等神经症状、耳翼、颈部、腹下、下肢等处皮肤常发生点状出血或暗红色班块。",
+    "error_detail": "错误地描述了猪瘟感染后的症状。",
+    "original_question": "猪瘟感染后会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非典型性猪瘟的症状包括食欲增加和体重快速增加。",
+    "reference_case": "表现为受胎率低、产仔率低, 出现流产、死产和木乃伊胎等畸形胎，仔猪表现为先天性肌阵挛、抽搐、死亡率高，青年仔猪生长缓慢，多成为僵猪。",
+    "error_detail": "错误地描述了非典型性猪瘟的症状。",
+    "original_question": "非典型性猪瘟的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟的病理变化包括心脏肥大和肺部积水。",
+    "reference_case": "猪瘟的病理变化包括全身浆膜、黏膜点状出血及纤维素性炎，脾出血肿，脑膜及脑实质充血出血，淋巴结弥漫性出血。",
+    "error_detail": "错误地描述了猪瘟的病理变化。",
+    "original_question": "猪瘟的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪丹毒的症状包括食欲增加和体重快速增加。",
+    "reference_case": "猪丹毒的症状包括皮肤有出血点，高热、疼痛，皮肤出现疹块并坏死，内膜炎或关节炎。",
+    "error_detail": "错误地描述了猪丹毒的症状。",
+    "original_question": "猪丹毒在临床上的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪蓝耳病的流行特点是呈全球流行性，所有动物均易感。",
+    "reference_case": "猪蓝耳病的流行特点是呈地方流行性，各种猪均易感，高热稽留、废食、跛行、呼吸困难，皮肤有疼斑，淋巴结肿大，全身浆膜、黏膜点状出血及纤维素性炎。",
+    "error_detail": "错误地描述了猪蓝耳病的流行特点。",
+    "original_question": "猪蓝耳病的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪肺疫的主要症状包括食欲增加和体重快速增加。",
+    "reference_case": "猪肺疫的主要症状包括高热、废食、喘鸣、呼吸困难，皮肤红斑，多排暗红或焦状粪便，淋巴结肿大，脾肿大，肠溃疡和纤维素性炎。",
+    "error_detail": "错误地描述了猪肺疫的主要症状。",
+    "original_question": "猪肺疫的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟的免疫接种方法包括仅使用疫苗注射。",
+    "reference_case": "猪瘟的免疫接种方法包括被动免疫和主动免疫，被动免疫主要是给猪注射猪瘟高免血清，主动免疫主要应用疫苗注射。",
+    "error_detail": "错误地简化了免疫接种方法。",
+    "original_question": "猪瘟的免疫接种方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "miR-30a-3p、miR-132、miR-27b*、miR-29b、miR-146a和miR-9-26个miRNAs在PRRSV感染的PAMs中表达被显著改变。",
+    "reference_case": "miR-30a-3p、miR-132、miR-27b*、miR-29b、miR-146a和miR-9-26个miRNAs在PRRSV感染的PAMs中表达被显著改变。",
+    "error_detail": "错误地将miR-9-26视为一个miRNA，实际上应为miR-9和miR-26",
+    "original_question": "在“猪繁殖与呼吸综合征病毒感染的巨噬细胞中 microRNA 组的特性研究”中，哪些miRNAs在PRRSV感染的PAMs中表达被显著改变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "试验采用2×3两因子完全随机试验设计，维生素E设2个水平（0、1×NRC标准），3种日粮分别为玉米-豆粕型基础日粮、添加30% Ox-DDGS的基础日粮和添加60% Ox-DDGS的基础日粮。",
+    "reference_case": "试验采用3×2两因子完全随机试验设计，维生素E设3个水平（0、1×、10×NRC标准），2种日粮分别为玉米-豆粕型基础日粮和添加30% Ox-DDGS的基础日粮。",
+    "error_detail": "错误地混淆了试验设计的因子和水平",
+    "original_question": "在评价过氧化玉米脱水酒精糟及其可溶物（Ox-DDGS）和维生素E水平对断奶仔猪生长性能影响的试验中，试验设计是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）首次在中国分离的毒株是PRRSV CH-1b株。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）首次在中国分离的毒株是PRRSV CH-1a株。",
+    "error_detail": "错误地改变了首次在中国分离的PRRSV毒株",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）首次在中国分离的毒株是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的主要结构蛋白是由ORF1基因编码的。",
+    "reference_case": "猪圆环病毒2型（PCV2:的主要结构蛋白是由ORF2基因编码的。",
+    "error_detail": "错误地改变了编码主要结构蛋白的基因",
+    "original_question": "猪圆环病毒2型（PCV2:的主要结构蛋白是由哪个基因编码的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "副猪嗜血杆菌的生化特性包括不能发酵葡萄糖、乳糖、半乳糖、蔗糖、果糖、木糖，对脲酶、硫化氢、硝酸盐、吲哚试验反应均呈阳性，不具有NAD依赖性。",
+    "reference_case": "副猪嗜血杆菌的生化特性包括能发酵葡萄糖、乳糖、半乳糖、蔗糖、果糖、木糖，对脲酶、硫化氢、硝酸盐、吲哚试验反应均呈阴性，具有NAD依赖性。",
+    "error_detail": "错误地反转了副猪嗜血杆菌的生化特性",
+    "original_question": "副猪嗜血杆菌的生化特性有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "副猪嗜血杆菌的分离鉴定方法包括从疑似病猪的肺脏、气管、关节液等病料中无菌取样并接种于普通琼脂培养基、TSA平板，置于25℃、5% CO2培养箱中烛缸厌氧培养24～48小时，观察结果。",
+    "reference_case": "副猪嗜血杆菌的分离鉴定方法包括从疑似病猪的肺脏、气管、关节液等病料中无菌取样并接种于巧克力琼脂培养基、TSA平板，置于37℃、5% CO2培养箱中烛缸厌氧培养24～48小时，观察结果。",
+    "error_detail": "错误地改变了培养基类型和培养条件",
+    "original_question": "副猪嗜血杆菌的分离鉴定方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "伪狂犬病可以通过特效药物进行治疗。",
+    "reference_case": "伪狂犬病无特效治疗药物，主要通过加强兽医卫生管理，猪场净化和疫苗及血清的应用进行预防。",
+    "error_detail": "错误地声称伪狂犬病有特效治疗药物，与事实不符。",
+    "original_question": "伪狂犬病的防治措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "伪狂犬病在所有动物中表现的症状相同。",
+    "reference_case": "牛表现为频繁舔发痒处，之后在物体上摩擦，啨啶、使被毛脱落，皮肤因摩擦呈鲜红色、肿胀、出血、骚动不安，状如疯牛。羊表现为流涎、头部发生剧痒，唇及头部皮肤常擦破，运动时常作跳跃姿态，呼吸困难，衰竭死亡。猪表现为母猪不孕，妊娠母猪发生流产、产死胎和木乃伊胎；初生仔猪症状严重，死亡率很高；断奶仔猪发病死亡，死亡率较高。",
+    "error_detail": "错误地声称所有动物表现的症状相同，实际上不同动物有不同的症状。",
+    "original_question": "伪狂犬病在不同动物的表现症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "防治猪囊尾蚴病的主要措施包括使用抗生素治疗。",
+    "reference_case": "防治猪囊尾蚴病的主要措施包括加强内品卫生检验、大力宣传科普知识、注意个人卫生、加强粪便管理和改善饲养条件、疫区定期驱虫等。",
+    "error_detail": "错误地将抗生素治疗列为防治措施，实际上防治措施主要是卫生和管理方面的。",
+    "original_question": "防治猪囊尾蚴病的主要措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "配方软件的数据仅包含单胃动物的营养成分数据库。",
+    "reference_case": "配方软件数据分为原料和标准两大部分，包括单胃动物、反刍动物、猪、鸡等常用饲料营养成分数据库和多种饲养标准。",
+    "error_detail": "错误地限制了数据的范围，实际上包括多种动物的数据库和标准。",
+    "original_question": "配方软件的数据包含哪些部分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的外形鉴定仅依据品种特征进行评分。",
+    "reference_case": "猪的外形鉴定主要依据品种特征及体质、头颈部、前躯部、中躯部、后躯部、四肢六个方面进行评分。",
+    "error_detail": "错误地简化了评分依据，实际上包括多个方面。",
+    "original_question": "猪的外形鉴定主要依据哪些方面进行评分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的体长测量是从鼻子尖到尾巴尖的长度。",
+    "reference_case": "猪的体长测量位置是从两耳根连线的中点沿背线达到尾根的长度，使用皮尺进行测量。",
+    "error_detail": "错误地描述了测量位置，实际上是从两耳根连线的中点沿背线达到尾根。",
+    "original_question": "如何测量猪的体长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "估测猪的体重仅通过胸围一个指标即可准确计算。",
+    "reference_case": "估测猪的体重可以通过公式一：估测体重 =胸围 × 体长 / 系数 或公式二：估测体重 =胸围 × 胸围 /14200 / 15600 / 16200 × 体长进行，系数根据猪的体况调整。",
+    "error_detail": "错误地简化了估测方法，实际上需要多个指标和公式。",
+    "original_question": "如何估测猪的体重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "中国地方猪种生长速度快，饲养周期短。",
+    "reference_case": "中国地方猪种具有性成熟早、繁殖力强、耐粗饲、抗逆性强、肉质好、早熟易肥、性情温驯、矮小特性、生长速度较慢、饲养周期长等种质特性。",
+    "error_detail": "错误地描述了生长速度和饲养周期，实际上生长速度较慢，饲养周期长。",
+    "original_question": "中国地方猪种具有哪些种质特性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪打耳号的原则是随意编号。",
+    "reference_case": "编号原则为 '左大右小，上 3 下 1 '，左耳尖缺口为 200, 右耳 100；左耳小圆洞为 800, 右耳 400。",
+    "error_detail": "错误地描述了编号原则，实际上有特定的编号规则。",
+    "original_question": "仔猪打耳号的原则是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "假死仔猪的急救方法仅包括倒提仔猪后腿。",
+    "reference_case": "一是立即用清洁布片清除仔猪口腔、鼻内和体表的污液，再对准仔猪鼻孔吹气。二是倒提仔猪后腿，促使污液从气管排出，并用手连续轻拍其胸部，直至发出叫声为止。三是将假死的仔猪仰卧在垫草上，然后左右手分别握住仔猪肩部与臀部，腹部朝上，双手向腹中心回折，并迅速复位，双手一屈一伸反复进行，一般经过几次来回，就可以听到仔猪猛然发出声音。四是有时采用药物刺激法，即用酒精、氨水等刺激性强的药液涂擦于仔猪鼻端，刺激鼻腔黏膜恢复呼吸。",
+    "error_detail": "错误地简化了急救方法，实际上包括多种方法。",
+    "original_question": "假死仔猪的急救方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪维持生长和繁殖所需的营养物质可概括为蛋白质、脂肪、碳水化合物、无机盐、维生素和水七大类别。",
+    "reference_case": "猪维持生长和繁殖所需的营养物质可概括为蛋白质、脂肪、碳水化合物、无机盐、维生素和水六大类。",
+    "error_detail": "术语错误",
+    "original_question": "猪维持生长和繁殖所需的营养物质有哪些？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "毛文龙遇到了人手紧缺、母猪临产、产后母猪消炎和保健、仔猪保健和免疫等工作繁琐，每天工作到凌晨3点",
+    "reference_case": "毛文龙遇到了人手紧缺、母猪临产、产后母猪消炎和保健、仔猪保健和免疫等工作繁琐，每天工作到凌晨",
+    "error_detail": "错误地添加了具体的工作结束时间，原始输出中并未提及具体时间",
+    "original_question": "毛文龙在养猪过程中遇到了哪些挑战？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "养猪不仅需要技术人员，还需要全能型人才和兽医专家。",
+    "reference_case": "养猪不仅需要技术人员，还需要全能型人才。",
+    "error_detail": "错误地添加了'兽医专家'，原始输出中并未提及",
+    "original_question": "养猪需要哪些人才？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "是的，养猪需要畜牧兽医知识和技术，不是所有人都能干好的活，尤其是没有经验的人。",
+    "reference_case": "是的，养猪需要畜牧兽医知识和技术，不是所有人都能干好的活。",
+    "error_detail": "错误地添加了'尤其是没有经验的人'，原始输出中并未提及",
+    "original_question": "养猪是技术活吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大圈集中饲养方式优点是集中准备饲料，集中喂饲，每圈容纳猪的数目增加至50头，减轻了运食、分食和清扫舍的工作，提高了劳动生产率。",
+    "reference_case": "大圈集中饲养方式优点是集中准备饲料，集中喂饲，每圈容纳猪的数目增加，减轻了运食、分食和清扫舍的工作，提高了劳动生产率。",
+    "error_detail": "错误地指定了每圈容纳猪的具体数目，原始输出中并未提及具体数字",
+    "original_question": "大圈集中饲养方式的优点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "黑曲霉液态发酵制备木聚糖酶的最佳条件是培养温度30°C、培养时间72小时。",
+    "reference_case": "黑曲霉液态发酵时，培养基为楮皮2 g，硫酸铵1.0%, 葡萄糖0.1%, 磷酸二氢钾0.2%, 七水合硫酸镁0.05%, 吐温-80为0.1%, pH值6.250，装液量50 mL三角瓶，产酶高峰在72小时左右，产酶活力最高达139 IU/mL。",
+    "error_detail": "错误地修改了培养温度和培养时间，与原始输出不符",
+    "original_question": "黑曲霉液态发酵制备木聚糖酶的最佳条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "预混合饲料的分类有单项预混合饲料、复合预混合饲料和特种预混合饲料。",
+    "reference_case": "根据原料种类来源，预混合饲料分为单项预混合饲料和复合预混合饲料；根据动物种类和生理阶段，分为猪、鸡、鸭、鱼、牛、兔等预混合饲料。",
+    "error_detail": "错误地添加了'特种预混合饲料'，原始输出中并未提及",
+    "original_question": "预混合饲料的分类有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "玉米蛋白粉在猪配合饲料中的用量一般在20%左右。",
+    "reference_case": "玉米蛋白粉在猪配合饲料中的用量一般在15%左右。",
+    "error_detail": "错误地修改了玉米蛋白粉的使用比例，与原始输出不符",
+    "original_question": "玉米蛋白粉在猪饲料中的适宜使用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在育肥猪配合饲料中添加60%的提醇玉米蛋白粉，可以提高猪的平均日增重，并增加猪的体长和胸围。",
+    "reference_case": "在育肥猪配合饲料中添加50%的提醇玉米蛋白粉，可以提高猪的平均日增重，并增加猪的体长和胸围。",
+    "error_detail": "错误地修改了提醇玉米蛋白粉的添加比例，与原始输出不符",
+    "original_question": "玉米蛋白粉在畜禽饲料中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "品质好的棉籽饼（粕）可代替猪饲料中60%的大豆饼（粕）无负效应，但需补充赖氨酸、钙、磷和胡萝卜素等。",
+    "reference_case": "品质好的棉籽饼（粕）可代替猪饲料中50%的大豆饼（粕）无负效应，但需补充赖氨酸、钙、磷和胡萝卜素等。",
+    "error_detail": "错误地修改了棉籽饼（粕）的替代比例，与原始输出不符",
+    "original_question": "品质好的棉籽饼（粕）在猪饲料中的使用比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "品质差的棉籽饼（粕）或使用量过大会影响适口性，并有中毒可能，严重时会导致死亡。",
+    "reference_case": "品质差的棉籽饼（粕）或使用量过大会影响适口性，并有中毒可能。",
+    "error_detail": "错误地添加了'严重时会导致死亡'，原始输出中并未提及",
+    "original_question": "品质差的棉籽饼（粕）或使用量过大对猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "棉籽仁饼（粕）是猪良好的色氨酸和赖氨酸来源，但其蛋氨酸含量低，一般乳猪、仔猪不用。",
+    "reference_case": "棉籽仁饼（粕）是猪良好的色氨酸来源，但其蛋氨酸含量低，一般乳猪、仔猪不用。",
+    "error_detail": "错误地添加了'赖氨酸'，原始输出中并未提及",
+    "original_question": "棉籽仁饼（粕）是猪良好的哪种氨基酸来源？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "游离棉酚含量低于0.05%的棉籽饼（粕）在肉猪饲粮中可用至15%-25%。",
+    "reference_case": "游离棉酚含量低于0.05%的棉籽饼（粕）在肉猪饲粮中可用至10%-20%。",
+    "error_detail": "错误地修改了棉籽饼（粕）的使用比例，与原始输出不符",
+    "original_question": "游离棉酚含量低于0.05%的棉籽饼（粕）在肉猪饲粮中的最大使用比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪饲粮中棉籽饼（粕）可用至5%-7%。",
+    "reference_case": "母猪饲粮中棉籽饼（粕）可用至3%-5%。",
+    "error_detail": "错误地修改了棉籽饼（粕）的使用比例，与原始输出不符",
+    "original_question": "母猪饲粮中棉籽饼（粕）的最大使用比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "将病兔移到温暖处，受冻部位加温，轻者局部涂猪油，重者涂1%硫黄溶液、碘甘油、3%樟脑软膏，也可用紫外线照射。出现水疱时，预防感染，改善局部血液循环，提高组织修复能力，早期应用抗生素，局部涂3%龙胆紫溶液或水杨酸氧化锌软膏，必要时进行手术治疗。",
+    "reference_case": "将病兔移到温暖处，受冻部位加温，轻者局部涂猪油，重者涂1%硫黄溶液、碘甘油、3%樟脑软膏，也可用紫外线照射。出现水疱时，预防感染，改善局部血液循环，提高组织修复能力，早期应用抗生素，局部涂3%龙胆紫溶液或水杨酸氧化锌软膏。",
+    "error_detail": "错误地添加了'必要时进行手术治疗'，原始输出中并未提及",
+    "original_question": "家兔发生冻伤时应如何处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "以猪蛔虫为例，每年给美国养猪业造成的直接经济损失约5亿美元；我国猪群的感染率在20%至85%，造成的经济损失难以估计。",
+    "reference_case": "以猪蛔虫为例，每年给美国养猪业造成的直接经济损失约4亿美元；我国猪群的感染率在17%至80%，造成的经济损失难以估计。",
+    "error_detail": "错误地修改了经济损失和感染率的数据，与原始输出不符",
+    "original_question": "寄生虫病对畜牧业的经济损失有多大？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "弓形虫病、梨形虫病、伊氏锥虫病、血吸虫病、猪囊虫病、旋毛虫病和蛔虫病等。",
+    "reference_case": "弓形虫病、梨形虫病、伊氏锥虫病、血吸虫病、猪囊虫病和旋毛虫病等。",
+    "error_detail": "错误地添加了'蛔虫病'，原始输出中并未提及",
+    "original_question": "哪些寄生虫病已经有敏感性高、特异性强并且简便的免疫学诊断方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "血吸虫病、肝片吸虫病、反刍兽消化道线虫病、梨形虫病、猪囊虫病、螨病和蛔虫病等一些流行广泛的寄生虫病建立了诊断、治疗和预防三结合的综合防治模式。",
+    "reference_case": "血吸虫病、肝片吸虫病、反刍兽消化道线虫病、梨形虫病、猪囊虫病和螨病等一些流行广泛的寄生虫病建立了诊断、治疗和预防三结合的综合防治模式。",
+    "error_detail": "错误地添加了'蛔虫病'，原始输出中并未提及",
+    "original_question": "哪些寄生虫病建立了诊断、治疗和预防三结合的综合防治模式？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪蛔虫（Ascaris suum）虫卵在外界可保持活力达7年之久。",
+    "reference_case": "猪蛔虫（Ascaris suum）虫卵在外界可保持活力达5年之久。",
+    "error_detail": "错误地修改了虫卵保持活力的时间，与原始输出不符",
+    "original_question": "猪蛔虫（Ascaris suum）虫卵在外界可保持活力多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "自然感染血吸虫的家畜有黄牛、水牛、山羊、绵羊、马、驴、猪、犬、猫、家兔等10余种，其中黄牛和水牛是最重要的传染源。野生动物包括褐家鼠、野兔、野猪、狐狸等30余种。",
+    "reference_case": "自然感染血吸虫的家畜有黄牛、水牛、山羊、绵羊、马、驴、猪、犬、猫、家兔等10余种，其中黄牛和水牛是最重要的传染源。野生动物包括褐家鼠、野兔、野猪等30余种。",
+    "error_detail": "错误地添加了'狐狸'，原始输出中并未提及",
+    "original_question": "哪些动物可以感染日本血吸虫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪囊尾蚴的病原体是猪带绦虫（Taenia solium）的幼虫——猪囊尾蚴（Cysticercus cellulosae）和牛带绦虫（Taenia saginata）的幼虫。",
+    "reference_case": "猪囊尾蚴的病原体是猪带绦虫（Taenia solium）的幼虫——猪囊尾蚴（Cysticercus cellulosae）。",
+    "error_detail": "错误地添加了'牛带绦虫（Taenia saginata）的幼虫'，原始输出中并未提及",
+    "original_question": "猪囊尾蚴的病原体是什么？",
+    "original_input": ""
+  }
+]

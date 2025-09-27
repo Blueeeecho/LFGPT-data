@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "记录了母猪的耳号、胎次、配种计划与实际配种情况、配种与复配日期、预产期、妊娠检查结果、死亡情况、流产情况、出栏情况及备注信息，以及配种成功率100%。",
+    "reference_case": "记录了母猪的耳号、胎次、配种计划与实际配种情况、配种与复配日期、预产期、妊娠检查结果、死亡情况、流产情况、出栏情况及备注信息。",
+    "error_detail": "添加了不存在的配种成功率100%的数据",
+    "original_question": "配种记录报表中记录了哪些信息？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "种公（母）猪的个体号和耳号信息，以及其DNA序列。",
+    "reference_case": "种公（母）猪的个体号和耳号信息。",
+    "error_detail": "错误地添加了DNA序列信息，与原始问题无关",
+    "original_question": "种公（母）猪谱系卡包含哪些信息？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "记录了妊娠母猪、空怀母猪、后备母猪、种公猪的存栏情况及转入、转出、死亡情况，以及配种记录，假设所有猪都健康。",
+    "reference_case": "记录了妊娠母猪、空怀母猪、后备母猪、种公猪的存栏情况及转入、转出、死亡情况，以及配种记录。",
+    "error_detail": "添加了所有猪都健康的假设，与原始输出不符",
+    "original_question": "配种妊娠车间报表中记录了哪些猪的存栏情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "记录了母猪和公猪的耳号、品种、配种日期、一配和二配精液及其评分、三配精液情况及输精员信息，使用过时的评分标准。",
+    "reference_case": "记录了母猪和公猪的耳号、品种、配种日期、一配和二配精液及其评分、三配精液情况及输精员信息。",
+    "error_detail": "使用了过时的评分标准",
+    "original_question": "人工授精周报表中记录了哪些信息？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪场疫病防控需注意病原体、传染途径和易感性三个方面，以及猪的日常饮食。",
+    "reference_case": "猪场疫病防控需注意病原体、传染途径和易感性三个方面。",
+    "error_detail": "添加了与指令无关的猪的日常饮食信息",
+    "original_question": "猪场疫病防控应注重哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "病原体可通过消化道、呼吸道、皮肤、伤口、活动行为以及空气、饮水、饲料、生产用具、昆虫、鸟、鼠和生产操作等途径传播，特别是在热带地区。",
+    "reference_case": "病原体可通过消化道、呼吸道、皮肤、伤口、活动行为以及空气、饮水、饲料、生产用具、昆虫、鸟、鼠和生产操作等途径传播。",
+    "error_detail": "错误地添加了地域限制，与原始输出不符",
+    "original_question": "病原体在猪场中的传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "是的，猪只抵抗力强则易感性小，抵抗力弱则易感性大，集约化猪场常通过疫苗接种来降低猪群的易感性，但有时疫苗接种无效。",
+    "reference_case": "是的，猪只抵抗力强则易感性小，抵抗力弱则易感性大，集约化猪场常通过疫苗接种来降低猪群的易感性。",
+    "error_detail": "添加了与原始逻辑矛盾的疫苗接种无效的情况",
+    "original_question": "提高猪群的抵抗力可以降低其易感性吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "集约化猪场需进行消毒、免疫、治疗，还需加强管理，保证营养平衡，优化场区和畜舍环境，以及定期进行基因检测。",
+    "reference_case": "集约化猪场需进行消毒、免疫、治疗，还需加强管理，保证营养平衡，优化场区和畜舍环境。",
+    "error_detail": "错误地添加了基因检测，与原始问题无关",
+    "original_question": "集约化猪场的防疫措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "场长负责整体防疫条件，健全防疫制度并监督执行；兽医负责防疫制度的贯彻与落实；饲养员负责执行防疫制度，观察猪群，发现问题及时报告；门卫职工负责监督外来人员执行防疫制度，其中门卫职工的职责最为重要。",
+    "reference_case": "场长负责整体防疫条件，健全防疫制度并监督执行；兽医负责防疫制度的贯彻与落实；饲养员负责执行防疫制度，观察猪群，发现问题及时报告；门卫职工负责监督外来人员执行防疫制度。",
+    "error_detail": "错误地强调了门卫职工的职责最为重要，与原始输出不符",
+    "original_question": "猪场防疫责任的定位是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "应配备消毒池、紫外线消毒区、兽医室、病死猪处理场、装猪台和使用一次性饲料袋，以及至少两个消毒池。",
+    "reference_case": "应配备消毒池、紫外线消毒区、兽医室、病死猪处理场、装猪台和使用一次性饲料袋。",
+    "error_detail": "添加了不存在的至少两个消毒池的要求",
+    "original_question": "集约化猪场应配备哪些防疫基础设施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "外来人员需经场长批准，更衣消毒后方可进入生产区，且必须携带健康证明。",
+    "reference_case": "外来人员需经场长批准，更衣消毒后方可进入生产区。",
+    "error_detail": "错误地添加了携带健康证明的要求，与原始上下文不符",
+    "original_question": "猪场防疫制度要求外来人员进入生产区需经过什么程序？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "生产区工作人员家中不准养猪，除非在特定地区。",
+    "reference_case": "生产区工作人员家中不准养猪。",
+    "error_detail": "错误地添加了地域限制，与原始输出不符",
+    "original_question": "生产区工作人员家中是否有养猪的限制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪场兽医不随便外出就诊，不到其他猪场搞防疫、治疗和现场指导，除非有紧急情况。",
+    "reference_case": "猪场兽医不随便外出就诊，不到其他猪场搞防疫、治疗和现场指导。",
+    "error_detail": "添加了紧急情况的假设，与原始输出不符",
+    "original_question": "猪场的兽医在防疫工作中有哪些限制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "对病猪进行隔离治疗或屠宰、焚烧，健康猪只进行紧急预防接种或药物治疗，并对污染的场地、用具、环境及其他污染物进行彻底消毒，以及对水源进行检测。",
+    "reference_case": "对病猪进行隔离治疗或屠宰、焚烧，健康猪只进行紧急预防接种或药物治疗，并对污染的场地、用具、环境及其他污染物进行彻底消毒。",
+    "error_detail": "错误地添加了对水源进行检测，与原始问题无关",
+    "original_question": "猪场如何处理病猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保证后备母猪使用前合格率在95%以上，后备公猪使用前合格率85%以上。",
+    "reference_case": "保证后备母猪使用前合格率在90%以上，后备公猪使用前合格率80%以上。",
+    "error_detail": "错误地提高了合格率的数据",
+    "original_question": "后备猪饲养管理的目标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "后备母猪6月龄以前自由采食，7月龄适当限制，配种使用前一月或半个月优饲，限饲时喂料量控制在2kg以下，优饲时2.5kg以上或自由采食，但有时限饲和优饲可以同时进行。",
+    "reference_case": "后备母猪6月龄以前自由采食，7月龄适当限制，配种使用前一月或半个月优饲，限饲时喂料量控制在2kg以下，优饲时2.5kg以上或自由采食。",
+    "error_detail": "添加了限饲和优饲可以同时进行的矛盾逻辑",
+    "original_question": "后备母猪的限饲优饲计划是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "从5月龄开始记录，仔细观察初次发情期，以便在第二、三次发情时及时配种并做好记录。",
+    "reference_case": "从6月龄开始记录，仔细观察初次发情期，以便在第二、三次发情时及时配种并做好记录。",
+    "error_detail": "错误地改变了开始记录的月龄",
+    "original_question": "后备母猪的发情记录如何进行？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "后备公猪单栏饲养，圈舍不够时可2-3头一栏；后备母猪小群饲养，5-8头一栏，以及定期进行运动。",
+    "reference_case": "后备公猪单栏饲养，圈舍不够时可2-3头一栏；后备母猪小群饲养，5-8头一栏。",
+    "error_detail": "添加了与指令无关的定期进行运动的信息",
+    "original_question": "后备公猪的饲养方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "外引后备猪的有效隔离期约8周（56天）。",
+    "reference_case": "外引后备猪的有效隔离期约6周（40天）。",
+    "error_detail": "错误地延长了隔离期",
+    "original_question": "外引后备猪的隔离期是多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "饲料中适当添加抗应激药物和抗生素，假设所有后备母猪都会发情。",
+    "reference_case": "饲料中适当添加抗应激药物和抗生素。",
+    "error_detail": "添加了所有后备母猪都会发情的假设，与原始输出不符",
+    "original_question": "怎样通过饲料刺激后备母猪发情？",
+    "original_input": ""
+  }
+]

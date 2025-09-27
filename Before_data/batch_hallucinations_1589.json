@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "怀孕后备母猪暴露在猪细小病毒侵染场合试验引起了生殖疾病，最新的研究表明此现象在2020年首次发现。",
+    "reference_case": "怀孕后备母猪暴露在猪细小病毒侵染场合试验引起了生殖疾病，Mengeling W. L. 和 Gutlip R. C. 在1976年的研究中发现此现象。",
+    "error_detail": "错误地更新了研究发现的年份，导致时效性错误。",
+    "original_question": "怀孕后备母猪暴露在猪细小病毒侵染场合试验引起的生殖疾病是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "通过电子和免疫电子显微镜检査技术，利用X射线进行观察，已有可能把这些房毒性房原体和肠道疾病联系起来，并对它们进行分类。",
+    "reference_case": "通过电子和免疫电子显微镜检査技术，利用荧光抗体进行观察，已有可能把这些房毒性房原体和肠道疾病联系起来，并对它们进行分类。",
+    "error_detail": "错误地将荧光抗体观察替换为X射线观察，导致概念混淆。",
+    "original_question": "如何通过电子和免疫电子显微镜检査技术发现牛和猪的致病肠道病毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪传染性胃肠炎病毒的免疫球蛋白特征，Bohl E. H. 和 Saif L. J. 在1985年的研究中进行了研究。",
+    "reference_case": "猪传染性胃肠炎病毒的免疫球蛋白特征，Bohl E. H. 和 Saif L. J. 在1975年的研究中进行了研究。",
+    "error_detail": "错误地更改了研究年份，导致数据型错误。",
+    "original_question": "猪传染性胃肠炎病毒的免疫球蛋白特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "进行卵子移植时，需要将卵子从供体中取出，并在实验室中进行培养，然后再将其移植到受体中。",
+    "reference_case": "进行卵子移植时，需要将卵子从供体中取出，并将其移植到受体中。",
+    "error_detail": "添加了实验室培养的步骤，偏离了原始指令。",
+    "original_question": "牛、羊和猪的卵子移植过程中需要哪些步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "以牛为单位估算，其他动物根据相同数量的食物消耗和排泄物生产量等量转换为一个单位。因此，十头猪、三分之二头水牛、一匹马、一匹骡子、两头驴或一百只鸡等同于一个动物单位。",
+    "reference_case": "以牛为单位估算，其他动物根据相同数量的食物消耗和排泄物生产量等量转换为一个单位。因此，五头猪、三分之二头水牛、一匹马、一匹骡子、两头驴或一百只鸡等同于一个动物单位。",
+    "error_detail": "错误地更改了猪的数量，导致数据型错误。",
+    "original_question": "如何估算动物单位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "精特率复都猪肉的具体数值分别为15，0，57，24。",
+    "reference_case": "精特率复都猪肉的具体数值分别为10，0，57，24。",
+    "error_detail": "错误地更改了第一个数值，导致数据型错误。",
+    "original_question": "精特率复都猪肉的各项具体数值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "精特率复都猪肉的Bcef Mution Epos的具体数值分别为0.9，0.3，0.2，0.1。",
+    "reference_case": "精特率复都猪肉的Bcef Mution Epos的具体数值分别为0.9，0.3，0.1，0.1。",
+    "error_detail": "错误地更改了第三个数值，导致数据型错误。",
+    "original_question": "精特率复都猪肉的Bcef Mution Epos的各项具体数值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "第二表展示了水牛、牛（青年）、骡、马、驴、骡子、猪、山羊、绵羊、山羊、猪、公牛、奶牛和绵羊的百分比，以及鸡和鸭的百分比。",
+    "reference_case": "第二表展示了水牛、牛（青年）、骡、马、驴、骡子、猪、山羊、绵羊、山羊、猪、公牛、奶牛和绵羊的百分比。",
+    "error_detail": "添加了鸡和鸭的百分比，导致逻辑完整性错误。",
+    "original_question": "第二表展示了哪几种家畜的百分比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "施用猪粪可以显著提高作物的发棵能力，例如黄泥土施用猪粪，前发能力由24.1%提高到44.4-45.5%。",
+    "reference_case": "施用猪粪可以显著提高作物的发棵能力，例如黄泥土施用猪粪，前发能力由24.1%提高到34.4-35.5%。",
+    "error_detail": "错误地提高了前发能力的百分比，导致数据型错误。",
+    "original_question": "猪粪对土壤发棵性的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "富含有机质和微生物，改善土壤胶体品质；冬季为热性肥，促进土温活动；夏天为冷性肥，降低土温；此外，还能增加土壤的透气性。",
+    "reference_case": "富含有机质和微生物，改善土壤胶体品质；冬季为热性肥，促进土温活动；夏天为冷性肥，降低土温。",
+    "error_detail": "添加了增加土壤透气性的假设，导致假设滥用。",
+    "original_question": "养猪积肥对红壤有哪些改土作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪粪质量与所喂饲料种类密切相关，以玉米饲喂的猪粪营养丰富，代谢性能好。",
+    "reference_case": "猪粪质量与所喂饲料种类密切相关，以油枯（饼肥）饲喂的猪粪营养丰富，代谢性能好。",
+    "error_detail": "错误地将油枯（饼肥）替换为玉米，导致概念混淆。",
+    "original_question": "养猪积肥时，猪粪质量受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "江西省红星殖场，每亩2.5-3头猪，土壤有机质含量可稳定在2.5-3%，含氮0.14-0.15%，全磷0.12-0.14%，产量连续多年亩产超千斤。",
+    "reference_case": "江西省红星殖场，每亩1.5-2头猪，土壤有机质含量可稳定在2.5-3%，含氮0.14-0.15%，全磷0.12-0.14%，产量连续多年亩产超千斤。",
+    "error_detail": "错误地更改了每亩猪的数量，导致数据型错误。",
+    "original_question": "养猪积肥改造红壤的典型单位有哪些经验？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪在噪声刺激下受胎率下降，流产、早产现象增多。75 dB 以下的噪声对仔猪无影响。",
+    "reference_case": "母猪在噪声刺激下受胎率下降，流产、早产现象增多。65 dB 以下的噪声对仔猪无影响。",
+    "error_detail": "错误地提高了噪声的分贝数，导致数据型错误。",
+    "original_question": "噪声对猪的受胎率和仔猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "确定畜禽采食宽度的依据是每圈饲养头数及每头所需地面面积，不同种类的畜禽其采食宽度不同，如牛的采食宽度为40-125 cm，猪的采食宽度为18-40 cm，蛋鸡的采食宽度为2.5-24 cm。",
+    "reference_case": "确定畜禽采食宽度的依据是每圈饲养头数及每头所需地面面积，不同种类的畜禽其采食宽度不同，如牛的采食宽度为30-125 cm，猪的采食宽度为18-40 cm，蛋鸡的采食宽度为2.5-24 cm。",
+    "error_detail": "错误地更改了牛的采食宽度，导致数据型错误。",
+    "original_question": "确定畜禽采食宽度的依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "家畜粪尿中造成环境污染数量最大的是牛粪尿，占46.6%。",
+    "reference_case": "家畜粪尿中造成环境污染数量最大的是猪粪尿，占46.6%。",
+    "error_detail": "错误地将猪粪尿替换为牛粪尿，导致数据型错误。",
+    "original_question": "家畜粪尿中造成环境污染数量最大的是哪一种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "牛对二氧化硫较敏感，30-100 mg/m³即出现呼吸困难，口吐白沫和体温升高；仔猪在300 mg/m³时生长发育受阻，5000 mg/m³时则精神萎靡，不吃奶，很快死亡。",
+    "reference_case": "牛对二氧化硫较敏感，30-100 mg/m³即出现呼吸困难，口吐白沫和体温升高；仔猪在300 mg/m³时生长发育受阻，4000 mg/m³时则精神萎靡，不吃奶，很快死亡。",
+    "error_detail": "错误地提高了仔猪的二氧化硫浓度，导致数据型错误。",
+    "original_question": "二氧化硫对牛和猪的健康影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "向仔猪注射0.2%的亚硒酸钠溶液0.5~1.0ml，防止仔猪出现水肿病和断奶后患白肌病。",
+    "reference_case": "向仔猪注射0.1%的亚硒酸钠溶液0.5~1.0ml，防止仔猪出现水肿病和断奶后患白肌病。",
+    "error_detail": "错误地提高了亚硒酸钠溶液的浓度，导致数据型错误。",
+    "original_question": "如何预防仔猪出现水肿病和白肌病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪出生后5~7日龄开始在补饲间设饮水槽，并稍加甜味剂，以防止仔猪口渴时喝脏水或尿，引起下痢。",
+    "reference_case": "仔猪出生后3~5日龄开始在补饲间设饮水槽，并稍加甜味剂，以防止仔猪口渴时喝脏水或尿，引起下痢。",
+    "error_detail": "错误地更改了开始设饮水槽的日龄，导致数据型错误。",
+    "original_question": "仔猪何时开始设置饮水槽并给予清洁饮水？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "从7日龄开始补料，方法是在干燥清洁的木板上撒少许乳猪颗粒料，强制让其吃料3~4天，当仔猪开始采食乳猪料时，可采用料槽。补料时要尽量少添勤添，每天喂7~8次，防止饲料浪费；每天清洗消毒料槽后再用。",
+    "reference_case": "从7日龄开始补料，方法是在干燥清洁的木板上撒少许乳猪颗粒料，强制让其吃料3~4天，当仔猪开始采食乳猪料时，可采用料槽。补料时要尽量少添勤添，每天喂5~6次，防止饲料浪费；每天清洗消毒料槽后再用。",
+    "error_detail": "错误地增加了每天的喂食次数，导致指令偏离。",
+    "original_question": "如何促进仔猪胃肠道发育并降低断奶后的应激？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在仔猪补料5~10天后可完全采食乳猪料，利用这一时机促使仔猪大量采食，从而弥补母乳的不足，促进仔猪快速生长，提高断奶窝重，降低断奶应激。",
+    "reference_case": "在仔猪补料10~15天后可完全采食乳猪料，利用这一时机促使仔猪大量采食，从而弥补母乳的不足，促进仔猪快速生长，提高断奶窝重，降低断奶应激。",
+    "error_detail": "错误地缩短了补料天数，导致数据型错误。",
+    "original_question": "母猪泌乳高峰期过后，仔猪应如何获得足够的营养？",
+    "original_input": ""
+  }
+]

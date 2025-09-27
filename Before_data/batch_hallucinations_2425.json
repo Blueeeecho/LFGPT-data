@@ -1,0 +1,47 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "日粮营养水平较高，每千克饲料含消化能为13.70~14.10MJ，粗蛋白为15%~16%。",
+    "reference_case": "日粮营养水平较低，但需重视蛋白质和能量的供给，每千克饲料含消化能为11.70~12.10MJ，粗蛋白为12%~13%。应供给大量青绿多汁饲料，利于母猪迅速补充矿物质消耗和恢复繁殖功能。",
+    "error_detail": "错误地提高了日粮的营养水平和蛋白质含量，与原始output不符。",
+    "original_question": "空怀母猪在配种前的饲养日粮应如何配置？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "采用长期优饲的方法，断奶当天继续饲喂低营养浓度的催情料，喂量增至1.5~2kg/天。",
+    "reference_case": "采用短期优饲的方法，断奶当天继续饲喂高营养浓度的催情料，喂量增至3.5~5kg/天，2~3天后大部分母猪发情，可参与配种。",
+    "error_detail": "错误地将'短期优饲'改为'长期优饲'，并降低了催情料的营养浓度和喂量。",
+    "original_question": "哺乳后期膘情不佳的母猪应采取怎样的饲养方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "增加配合饲料喂量，减少青粗饲料，并减少运动。",
+    "reference_case": "减少配合饲料喂量，增加青粗饲料，并加强运动，使其恢复适度膘情，发情正常后再配种。",
+    "error_detail": "完全相反的建议，增加了配合饲料喂量并减少运动和青粗饲料。",
+    "original_question": "膘情很好的母猪应如何调整饲养？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "干燥、清洁，温度25~28°C，相对湿度85%~95%，通风、光照良好。",
+    "reference_case": "干燥、清洁，温度15~18°C，相对湿度65%~75%，通风、光照良好。",
+    "error_detail": "错误地提高了温度和湿度，与原始output不符。",
+    "original_question": "空怀母猪舍应保持怎样的环境条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "立即用无气味的消毒药进行逐头冲洗，断奶后第一餐高的情况下，于第二餐或第三餐料中添加右旋咪唑驱除体内外寄生虫。",
+    "reference_case": "立即用气味浓的消毒药进行逐头冲洗，彻底消毒洗澡，断奶后第一餐不高的情况下，于第二餐或第三餐料中添加左旋咪唑驱除体内外寄生虫。",
+    "error_detail": "错误地改变了消毒药的气味和驱虫药物的种类，与原始output不符。",
+    "original_question": "空怀母猪断奶后应如何进行消毒和驱虫？",
+    "original_input": ""
+  }
+]

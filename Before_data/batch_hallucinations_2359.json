@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "粪便的干物质排出量减少了50%。",
+    "reference_case": "粪便的干物质排出量减少了21%。",
+    "error_detail": "数值偏差",
+    "original_question": "降低饲料粒度对母猪粪便干物质排出量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "粪便中氮的排出量减少了50%。",
+    "reference_case": "粪便中氮的排出量减少了31%。",
+    "error_detail": "数值偏差",
+    "original_question": "降低饲料粒度对母猪粪便中氮的排出量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "最佳颗粒大小为500μm。",
+    "reference_case": "最佳颗粒大小为700μm。",
+    "error_detail": "数值偏差",
+    "original_question": "生长育肥猪饲料的最佳颗粒大小是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "降低饲料粒度对猪的增重效率没有影响。",
+    "reference_case": "降低饲料粒度可提高增重效率。",
+    "error_detail": "指令偏离",
+    "original_question": "降低饲料粒度对猪的增重效率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "搅拌时间从 0 min 增加到 1 min 可使生长猪的日增重和肉料比明显提高。",
+    "reference_case": "搅拌时间从 0 min 增加到 0.5 min 可使生长猪的日增重和肉料比明显提高，但进一步延长搅拌时间至 4 min 对生长性能影响不大。",
+    "error_detail": "数值偏差",
+    "original_question": "混合均匀度对生长猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "搅拌时间从 0 min 增加到 4 min，日粮均匀度提高，育肥猪的生长性能显著提高。",
+    "reference_case": "搅拌时间从 0 min 增加到 4 min，日粮均匀度提高，但对育肥猪的生长性能（如平均日增重、平均日采食量、增重/耗料比、屠宰率、背膘厚和骨骼强度）影响不大。",
+    "error_detail": "指令偏离",
+    "original_question": "混合均匀度对育肥猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在我国国家饲料卫生标准中，木薯干中氰化物含量不得超过150 mg/kg。",
+    "reference_case": "在我国国家饲料卫生标准中，木薯干中氰化物含量不得超过100 mg/kg，胡麻饼（粕）不得超过350 mg/kg，鸡配合饲料和猪配合、混合饲料不得超过50 mg/kg。",
+    "error_detail": "过时标准",
+    "original_question": "饲料中氰化物的卫生标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "肉用仔鸡、生长鸡、仔猪配合饲料中黄曲霉毒素B1允许含量为≤0.02 mg/kg。",
+    "reference_case": "肉用仔鸡、生长鸡、仔猪配合饲料中黄曲霉毒素B1允许含量为≤0.01 mg/kg；产蛋鸡配合饲料中黄曲霉毒素B1允许含量为≤0.02 mg/kg；生长育肥猪配合、混合饲料中黄曲霉毒素B1允许含量为≤0.02 mg/kg。",
+    "error_detail": "过时标准",
+    "original_question": "饲料中黄曲霉毒素的允许含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪内脏的综合利用不包括心脏和动脉。",
+    "reference_case": "猪内脏的综合利用包括心脏和动脉、脾脏、胆汁等方面。",
+    "error_detail": "指令偏离",
+    "original_question": "猪内脏的综合利用包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "心脏和动脉不能用于制备任何产品。",
+    "reference_case": "心脏和动脉可以制备细胞色素C、辅酶Q",
+    "error_detail": "指令偏离",
+    "original_question": "心脏和动脉在猪内脏综合利用中有哪些具体产品？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "新鲜猪脾水洗，剔除脂肪组织，蒸熘水波洗，晾干备用。然后称取猪脾500g，分二次匀浆，每次加入150ml试剂，匀浆1分钟，试剂1为氯化钾和柠橉酸三钠的溶液。",
+    "reference_case": "新鲜猪脾水洗，剔除脂肪组织，蒸熘水波洗，晾干备用。然后称取猪脾500g，分二次匀浆，每次加入150ml试剂，匀浆1分钟，试剂1为氯化钠和柠橉酸三钠的溶液。",
+    "error_detail": "术语错误",
+    "original_question": "如何提取新鲜猪脾以用于后续实验？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "胃蛋白酶活力最大的区域为胃基底表面下深度1-2毫米处。",
+    "reference_case": "胃蛋白酶活力最大的区域为胃基底表面下深度2-3毫米处，幽门区的活力较低。",
+    "error_detail": "数值偏差",
+    "original_question": "胃蛋白酶在猪胃不同部位的分布情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "取健康猪眼球，洗涤后切开，放出眼房前液和玻璃体液，冷藏后用蒸馏水浸泡。",
+    "reference_case": "取健康猪眼球，洗涤后切开，放出眼房前液和玻璃体液，冷藏后用生理盐水浸泡，除蛋白后分装灭菌。",
+    "error_detail": "指令偏离",
+    "original_question": "如何制备猪眼球组织液？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "将猪油或氢化猪油与葵花子油混合进行相互酯化的作用是改变其颜色。",
+    "reference_case": "改变其油脂中甘油酯的脂肪酸组成，优化脂肪酸组成以适应特定食品加工需求。",
+    "error_detail": "指令偏离",
+    "original_question": "将猪油或氢化猪油与葵花子油混合进行相互酯化的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪油氢化后在食品的口感方面有所提升。",
+    "reference_case": "提高了消化吸收利用率，增加了食品的贮藏时间和稳定性。",
+    "error_detail": "指令偏离",
+    "original_question": "猪油氢化后在哪些方面性能有所提升？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪的品种只包括国外引进品种。",
+    "reference_case": "猪的品种包括国外引进品种、国内品种，适合品种的选择需综合考虑。",
+    "error_detail": "指令偏离",
+    "original_question": "猪的品种有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "母猪的发情鉴定与配种方法属于饲养技术的一部分。",
+    "reference_case": "母猪的发情鉴定与配种方法属于繁殖技术的一部分。",
+    "error_detail": "指令偏离",
+    "original_question": "母猪的发情鉴定与配种方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪的营养需要不包括蛋白质。",
+    "reference_case": "猪的营养需要包括蛋白质、能量、矿物质、维生素等。",
+    "error_detail": "指令偏离",
+    "original_question": "猪的营养需要有哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪的生活习性包括独居、安静等。",
+    "reference_case": "猪的生活习性包括喜群居、好动、嗜睡等。",
+    "error_detail": "指令偏离",
+    "original_question": "猪的生活习性有哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪场（舍）设计不包括农户猪舍设计。",
+    "reference_case": "猪场（舍）设计包括农户猪舍设计、小规模猪场设计、养猪常用设备等内容。",
+    "error_detail": "指令偏离",
+    "original_question": "猪场（舍）设计包括哪些内容？",
+    "original_input": ""
+  }
+]

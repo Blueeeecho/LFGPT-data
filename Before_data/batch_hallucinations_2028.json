@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对自然发病体温上升的病猪作降温试验P<0.01(效果显著)。",
+    "reference_case": "对自然发病体温上升的病猪作降温试验P<0.001(效果极显著)。",
+    "error_detail": "P值被错误地报告为0.01，而实际上应为0.001，导致效果显著性的描述不准确。",
+    "original_question": "复方胆素注射液对病猪的降温试验有何效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "对猪丹毒杆菌、禽巴氏杆菌、猪霍乱杆菌、金葡菌有杀灭作用。",
+    "reference_case": "对猪丹毒杆菌、禽巴氏杆菌、猪霍乱杆菌、金葡菌有抑制生长作用。",
+    "error_detail": "将'抑制生长作用'错误地描述为'杀灭作用'，概念混淆。",
+    "original_question": "复方胆素注射液对猪丹毒杆菌等细菌有何抑制作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肌内注射：小猪1～3毫升，中猪3～5毫升，大猪10毫升，牛10～20毫升，马、骡10～15毫升，羊5毫升，成年鸡、鸭、兔0.3～0.5毫升，犬0.5～1毫升。",
+    "reference_case": "肌内注射：小猪2～5毫升，中猪5～10毫升，大猪15毫升，牛15～30毫升，马、骡15～25毫升，羊10毫升，成年鸡、鸭、兔0.5～1毫升，犬1～2毫升。",
+    "error_detail": "注射用量被错误地减少，可能导致治疗效果不足。",
+    "original_question": "复方胆素注射液的肌内注射用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "β - 激动剂缓释药囊皮下埋植对猪有提高胴体脂肪率，减少肌肉沉积和促进生长的作用。",
+    "reference_case": "β - 激动剂缓释药囊皮下埋植对猪有提高胴体瘦肉率，减少脂肪沉积和促进生长的作用。",
+    "error_detail": "将'提高胴体瘦肉率'和'减少脂肪沉积'错误地描述为'提高胴体脂肪率'和'减少肌肉沉积'，概念混淆。",
+    "original_question": "β - 激动剂缓释药囊对猪有哪些作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "磷酸泰乐菌素适用于猪、鸡和牛。",
+    "reference_case": "磷酸泰乐菌素适用于猪和鸡。",
+    "error_detail": "错误地添加了'牛'作为适用动物，概念混淆。",
+    "original_question": "磷酸泰乐菌素适用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "磷酸泰乐菌素在猪中的最低用量是10单位/吨配合饲料。",
+    "reference_case": "磷酸泰乐菌素在猪中的最低用量是20单位/吨配合饲料。",
+    "error_detail": "最低用量被错误地减少，可能导致治疗效果不足。",
+    "original_question": "磷酸泰乐菌素在猪中的最低用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "磷酸泰乐菌素在猪中的最高用量是80单位/吨配合饲料。",
+    "reference_case": "磷酸泰乐菌素在猪中的最高用量是100单位/吨配合饲料。",
+    "error_detail": "最高用量被错误地减少，可能导致治疗效果不足。",
+    "original_question": "磷酸泰乐菌素在猪中的最高用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维吉尼霉素在猪中的最低用量是5单位/吨配合饲料。",
+    "reference_case": "维吉尼霉素在猪中的最低用量是10单位/吨配合饲料。",
+    "error_detail": "最低用量被错误地减少，可能导致治疗效果不足。",
+    "original_question": "维吉尼霉素在猪中的最低用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维吉尼霉素在猪中的最高用量是40单位/吨配合饲料。",
+    "reference_case": "维吉尼霉素在猪中的最高用量是50单位/吨配合饲料。",
+    "error_detail": "最高用量被错误地减少，可能导致治疗效果不足。",
+    "original_question": "维吉尼霉素在猪中的最高用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "氨苯胂酸预混剂适用于猪、鸡和鸭。",
+    "reference_case": "氨苯胂酸预混剂适用于猪、鸡。",
+    "error_detail": "错误地添加了'鸭'作为适用动物，概念混淆。",
+    "original_question": "氨苯胂酸预混剂用于哪种动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "洛克沙胂预混剂适用于猪、鸡和鸭。",
+    "reference_case": "洛克沙胂预混剂适用于猪、鸡。",
+    "error_detail": "错误地添加了'鸭'作为适用动物，概念混淆。",
+    "original_question": "洛克沙胂预混剂的适用动物是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "杆菌肽锌预混剂适用于牛、猪、禽和羊。",
+    "reference_case": "杆菌肽锌预混剂适用于牛、猪、禽。",
+    "error_detail": "错误地添加了'羊'作为适用动物，概念混淆。",
+    "original_question": "杆菌肽锌预混剂适用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "黄霉素预混剂适用于牛、猪、鸡和鸭。",
+    "reference_case": "黄霉素预混剂适用于牛、猪、鸡。",
+    "error_detail": "错误地添加了'鸭'作为适用动物，概念混淆。",
+    "original_question": "黄霉素预混剂的适用动物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维吉尼（亚）霉素预混剂适用于猪、鸡和鸭。",
+    "reference_case": "维吉尼（亚）霉素预混剂适用于猪、鸡。",
+    "error_detail": "错误地添加了'鸭'作为适用动物，概念混淆。",
+    "original_question": "维吉尼（亚）霉素预混剂的适用动物是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "喹乙醇预混剂用于猪和鸡。",
+    "reference_case": "喹乙醇预混剂用于猪。",
+    "error_detail": "错误地添加了'鸡'作为适用动物，概念混淆。",
+    "original_question": "喹乙醇预混剂用于哪种动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "用于治疗猪支原体肺炎和嗜血杆菌胸膜性肺炎，也可用于治疗猪密螺旋体引起的痢疾和猪丹毒。",
+    "reference_case": "用于治疗猪支原体肺炎和嗜血杆菌胸膜性肺炎，也可用于治疗猪密螺旋体引起的痢疾。",
+    "error_detail": "错误地添加了'猪丹毒'作为治疗疾病，概念混淆。",
+    "original_question": "延胡索酸泰妙菌素预混剂用于治疗哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "适用于猪、鸡胃肠道线虫及绦虫的杀灭。",
+    "reference_case": "适用于猪、鸡胃肠道线虫及绦虫的驱除。",
+    "error_detail": "将'驱除'错误地描述为'杀灭'，概念混淆。",
+    "original_question": "氟苯咪唑预混剂适用于哪些动物驱虫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "用于防治猪赤痢、沙门氏菌病、大肠杆菌肠炎及支原体肺炎和猪丹毒。",
+    "reference_case": "用于防治猪赤痢、沙门氏菌病、大肠杆菌肠炎及支原体肺炎。",
+    "error_detail": "错误地添加了'猪丹毒'作为防治疾病，概念混淆。",
+    "original_question": "盐酸林可霉素、硫酸大观霉素预混剂用于防治哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "主要用于治疗猪胸膜肺炎放线杆菌、巴氏杆菌及支原体引起的感染和猪丹毒。",
+    "reference_case": "主要用于治疗猪胸膜肺炎放线杆菌、巴氏杆菌及支原体引起的感染。",
+    "error_detail": "错误地添加了'猪丹毒'作为治疗疾病，概念混淆。",
+    "original_question": "磷酸替米考星预混剂主要用于治疗什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型猪后备母猪（小型）和（大型）在锰、铜、硒的需求量与瘦肉型生长肥育猪相同，但种公猪的需求量不同，分别为8.0毫克、4.0毫克和0.10毫克。",
+    "reference_case": "肉脂型猪后备母猪（小型）和（大型）在锰、铜、硒的需求量与瘦肉型生长肥育猪相同，但种公猪的需求量不同，分别为9.0毫克、5.0毫克和0.12毫克。",
+    "error_detail": "种公猪的需求量被错误地减少，可能导致营养不足。",
+    "original_question": "肉脂型猪与瘦肉型生长肥育猪在后备母猪阶段对哪些微量元素的需求量不同？",
+    "original_input": ""
+  }
+]

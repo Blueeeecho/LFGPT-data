@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪用喂饲机械的形式取决于猪的品种和年龄。",
+    "reference_case": "猪用喂饲机械的形式取决于饲料的类型和喂饲方式。",
+    "error_detail": "错误地将猪的品种和年龄作为决定因素，而非饲料类型和喂饲方式。",
+    "original_question": "猪用喂饲机械的形式取决于什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "干饲料自动饲槽的工作原理是饲料由饲槽下方的输送器运送。",
+    "reference_case": "干饲料自动饲槽有一装料箱，饲料由饲槽上方的输送器运送，各装料箱依次装满后，输送器自动停止。猪可任意去饲槽自由采食，当猪用鼻子掀开饲槽盖子时，就有一份饲料从箱中流出。",
+    "error_detail": "错误地描述了饲料输送的方向，应为上方而非下方。",
+    "original_question": "干饲料自动饲槽的工作原理是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "湿料喂猪的方式有：粉料与水同时进入饲槽；粉料与水混合后，呈固态送入饲槽；粉料与水制成糊状送入饲槽。",
+    "reference_case": "湿料喂猪的方式有：粉料与水同时进入饲槽；粉料与水混合后，呈流质状态送入饲槽；粉料与水制成糊状送入饲槽。",
+    "error_detail": "错误地将流质状态描述为固态。",
+    "original_question": "湿料喂猪的方式有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "拌料箱内有一搅拌器，为了加速将饲料与水拌匀，离心泵可通过转换阀门建立外部大循环。",
+    "reference_case": "拌料箱内有一拌料器，为了加速将饲料与水拌匀，离心泵可通过转换阀门建立内部小循环（不经管道网），饲料经拌匀后，由离心泵将饲料通过总管道和支管送入各猪圈饲槽（大循环）。",
+    "error_detail": "错误地描述了循环的类型和方向。",
+    "original_question": "湿料喂猪的第二种方式中，拌料箱内有什么设备？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "粉料与水制成的糊状饲料含水量为40%。",
+    "reference_case": "粉料与水制成的糊状饲料含水量为60%。",
+    "error_detail": "错误地提供了含水量数据。",
+    "original_question": "湿料喂猪的第三种方式中，粉料与水制成的糊状饲料含水量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪用饮水器趋向于更复杂的、带饮水杯的乳咀式或嚼铁式饮水器。",
+    "reference_case": "猪用饮水器趋向于更简单的、不带饮水杯的乳咀式或嚼铁式饮水器。",
+    "error_detail": "错误地描述了饮水器的发展趋势。",
+    "original_question": "猪用饮水器的发展趋势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪水泡性病有猪流感病毒和猪瘟病毒。",
+    "reference_case": "猪水泡疹病毒、由猪肠道病毒引起的猪水泡病病毒。",
+    "error_detail": "错误地列举了病毒类型。",
+    "original_question": "猪水泡性病有哪些类型的病毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪水泡疹最早出现在中国。",
+    "reference_case": "美国加利福尼亚州。",
+    "error_detail": "错误地描述了猪水泡疹的最早出现地点。",
+    "original_question": "猪水泡疹最早出现在哪个国家？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "1952-1960年，猪水泡疹给美国造成的损失约为1,000万美元。",
+    "reference_case": "1952-1960年，猪水泡疹给美国造成的损失约为3,950万美元。",
+    "error_detail": "错误地提供了经济损失数据。",
+    "original_question": "猪水泡疹的流行导致了哪些经济损失？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在蹄冠、蹄踵、趾间及鼻轮处发生大小约为5-10毫米的水泡。",
+    "reference_case": "在蹄冠、蹄踵、趾间及鼻轮处发生大小约为1-3毫米的水泡，水泡内含清液，2-3日后破裂。",
+    "error_detail": "错误地描述了水泡的大小。",
+    "original_question": "猪水泡疹的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "病毒在1M氯化镁中50°C下不稳定一小时后灭能，对酸不稳定，对乙醚不敏感。",
+    "reference_case": "病毒在1M氯化镁中50°C下稳定一小时后灭能，对酸稳定，对乙醚敏感。",
+    "error_detail": "错误地描述了病毒的理化特性。",
+    "original_question": "猪水泡疹的病毒理化特性有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪水泡疹病毒在50°C、1M氯化镁中稳定，而口蹄疫病毒则相反；水疱疹病毒的沉淀系数为150S，浮密度为1.34克，猪水泡疹病毒则分别为160—170S及1.37克。",
+    "reference_case": "猪水泡疹病毒在50°C、1M氯化镁中不稳定，而口蹄疫病毒则相反；水疱疹病毒的沉淀系数为160—170S，浮密度为1.37克，猪水泡疹病毒则分别为150S及1.34克。",
+    "error_detail": "错误地比较了两种病毒的理化特性。",
+    "original_question": "猪水泡疹病毒与口蹄疫病毒有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "通过空气和水可以传播。",
+    "reference_case": "通过人畜的移动及饲喂泔水可以传播。",
+    "error_detail": "错误地描述了传播途径。",
+    "original_question": "猪水泡疹的传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "1960年最早发生于意大利。",
+    "reference_case": "1966年最早发生于意大利。",
+    "error_detail": "错误地提供了猪水泡病的最早发生年份。",
+    "original_question": "猪水泡病最早在哪年发生？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在1M氯化镁中50°C灭能一小时后不稳定，不抗酸。",
+    "reference_case": "在1M氯化镁中50°C灭能一小时后稳定，抗酸。",
+    "error_detail": "错误地描述了病毒的理化特性。",
+    "original_question": "猪水泡病的病毒理化特性有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "本病病毒在50°C、1M氯化镁中稳定，而口蹄疫病毒则相反；病毒的沉淀系数和浮密度相同。",
+    "reference_case": "本病病毒在50°C、1M氯化镁中不稳定，而口蹄疫病毒则相反；病毒的沉淀系数和浮密度也不同。",
+    "error_detail": "错误地比较了两种病毒的理化特性。",
+    "original_question": "猪水泡病与口蹄疫有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪瘟目前在非洲和南美洲仍是一个重要的问题。",
+    "reference_case": "法国、比利时、东德、西德、荷兰、苏联、捷克斯洛伐克、意大利、奥地利等国家。",
+    "error_detail": "错误地列举了猪瘟问题严重的地区。",
+    "original_question": "猪瘟目前在哪些国家和地区仍是一个重要的问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪瘟给非洲和南美洲的养猪业带来了巨大损失。",
+    "reference_case": "美国、阿根廷、巴西、智利、秘鲁、古巴、日本、印度、缅甸、泰国、马来西亚、菲律宾等国家。",
+    "error_detail": "错误地列举了猪瘟带来巨大损失的国家。",
+    "original_question": "猪瘟给哪些国家的养猪业带来了巨大损失？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "确诊猪瘟的方法有：血液检测、尿液检测和粪便检测。",
+    "reference_case": "荧光抗体技术、新城疫病毒加强反应、琼脂扩散沉淀反应等方法。",
+    "error_detail": "错误地列举了确诊方法。",
+    "original_question": "确诊猪瘟的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "荧光抗体技术诊断猪瘟的优点是检出率较低，费时间较长。",
+    "reference_case": "荧光抗体技术诊断猪瘟的优点是检出率较高，费时间较短。",
+    "error_detail": "错误地描述了荧光抗体技术的优点。",
+    "original_question": "荧光抗体技术诊断猪瘟的主要优点是什么？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "2014年1-4月份猪价呈现上涨态势，与2010年的涨势相似。",
+    "reference_case": "2014年1-4月份猪价呈现下跌态势，与2010年的跌势相似。",
+    "error_detail": "错误地描述了猪价的走势方向，与实际情况相反。",
+    "original_question": "2014年1-4月份猪价的走势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "2010年政府连续启动的5次收储中，所有收储都对猪价起到了企稳作用，猪价在每次收储后都有所回升。",
+    "reference_case": "2010年政府连续启动的5次收储中，只有第一批收储对猪价起到了企稳作用，之后的收储未能带来猪价的回升，反而在收储后猪价持续下探。",
+    "error_detail": "错误地描述了收储对猪价的影响，与实际情况不符。",
+    "original_question": "2010年政府连续启动的5次收储对猪价的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2014年第一批中央储备冻猪肉收储竞标于2014年4月27日展开，收储数量为7万吨。",
+    "reference_case": "2014年第一批中央储备冻猪肉收储竞标于2014年3月27日展开，收储数量为6:5万吨。",
+    "error_detail": "错误地描述了收储竞标的具体时间和收储数量。",
+    "original_question": "2014年第一批中央储备冻猪肉收储竞标的具体时间和收储数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "双汇集团在2014年的肉猪年屠宰量超过1500万头。",
+    "reference_case": "双汇集团在2014年的肉猪年屠宰量超过1300万头。",
+    "error_detail": "错误地描述了双汇集团的肉猪年屠宰量。",
+    "original_question": "双汇集团在2014年的肉猪年屠宰量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "中国养猪业在国际竞争力方面存在的问题包括价格和安全性方面已经与丹麦、美国等国家相当，显示出中国养猪业在国际竞争力上的提升。",
+    "reference_case": "中国养猪业在国际竞争力方面存在的问题包括价格和安全性方面远不能与丹麦、美国等国家相比，显示出中国养猪业在慢慢丧失国际竞争力。",
+    "error_detail": "错误地描述了中国养猪业的国际竞争力状况。",
+    "original_question": "中国养猪业在国际竞争力方面存在哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "2014年首批冻猪肉收储的品种为符合国家标准GB9959:2-2008的1、3号分割冻猪肉。",
+    "reference_case": "2014年首批冻猪肉收储的品种为符合国家标准GB9959:2-2008的2、4号分割冻猪肉。",
+    "error_detail": "错误地描述了收储的冻猪肉品种。",
+    "original_question": "2014年首批冻猪肉收储的品种和标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "2010年政府启动的冻猪肉收储中，所有收储都对猪价起到了企稳作用，猪价在每次收储后都有所回升。",
+    "reference_case": "2010年政府启动的冻猪肉收储中，只有第一批收储对猪价起到了企稳作用，之后的收储未能带来猪价的回升，反而在收储后猪价持续下探。",
+    "error_detail": "错误地描述了收储对猪价的影响，与实际情况不符。",
+    "original_question": "2010年政府启动的冻猪肉收储对猪价的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2010年我国政府启动了3次冻猪肉收储以应对猪价下跌。",
+    "reference_case": "2010年我国政府启动了5次冻猪肉收储以应对猪价下跌。",
+    "error_detail": "错误地描述了政府启动的冻猪肉收储次数。",
+    "original_question": "2010年我国政府启动了几次冻猪肉收储以应对猪价下跌？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "双汇集团进口美国猪肉的消息引发了消费者的强烈支持，许多人在网络平台上表达支持，甚至有人号召增加购买双汇猪肉。",
+    "reference_case": "双汇集团进口美国猪肉的消息引发了养猪人的强烈反应，许多人在网络平台上表达不满，甚至有人号召抵制双汇猪肉。",
+    "error_detail": "错误地描述了公众对双汇集团进口美国猪肉消息的反应。",
+    "original_question": "双汇集团进口美国猪肉的消息引发了哪些反应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "2014年第一批中央储备冻猪肉收储的品种是符合国家标准GB9959:2-2008的1、3号分割冻猪肉。",
+    "reference_case": "2014年第一批中央储备冻猪肉收储的品种是符合国家标准GB9959:2-2008的2、4号分割冻猪肉。",
+    "error_detail": "错误地描述了收储的冻猪肉品种。",
+    "original_question": "2014年第一批中央储备冻猪肉收储的品种是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "我国生猪养殖模式主要分为家庭养殖（年出栏生猪50头以下）、小规模养殖（年出栏生猪50～499头）和规模化养殖（年出栏生猪500头及以上）。",
+    "reference_case": "我国生猪养殖模式主要分为小规模养殖（年出栏生猪100头以下）、中等规模养殖（年出栏生猪100～999头）和规模化养殖（年出栏生猪1000头及以上）。",
+    "error_detail": "错误地描述了生猪养殖模式的分类标准。",
+    "original_question": "我国生猪养殖模式的主要分类是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "我国规模化养猪场的母猪年产活仔数可达25头以上，而小型种猪场的母猪年产活仔数仅为10～15头。",
+    "reference_case": "我国规模化养猪场的母猪年产活仔数可达20头以上，而小型种猪场的母猪年产活仔数仅为15～18头。",
+    "error_detail": "错误地描述了母猪的年产活仔数。",
+    "original_question": "我国规模化养猪场的母猪年产活仔数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "我国种猪更新率一般在15%到25%之间，具体取决于养殖模式。传统栏舍饲养的母猪年更新比例为15%，而工厂化限位饲养的母猪年更新比例为20%～25%。",
+    "reference_case": "我国种猪更新率一般在25%到35%之间，具体取决于养殖模式。传统栏舍饲养的母猪年更新比例为25%，而工厂化限位饲养的母猪年更新比例为30%～35%。",
+    "error_detail": "错误地描述了种猪的更新率。",
+    "original_question": "我国种猪更新率的一般范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2010年我国种母猪总需求约为6000万头，种公猪需求约为60万头。",
+    "reference_case": "2010年我国种母猪总需求约为5210万头，种公猪需求约为52万头。",
+    "error_detail": "错误地描述了种猪市场的总需求。",
+    "original_question": "2010年我国种猪市场的总需求是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "我国生猪平均单产为85公斤，而美国等发达国家的生猪平均单产在100公斤以上。",
+    "reference_case": "我国生猪平均单产为76公斤，而美国等发达国家的生猪平均单产在90公斤以上。",
+    "error_detail": "错误地描述了生猪的平均单产。",
+    "original_question": "我国生猪平均单产与美国等发达国家相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "影响我国猪种业市场需求的主要因素包括猪肉进口量、家庭养殖模式、单位成本、能繁母猪健康状况、生猪出生率、种猪淘汰率、种用合格率和饲料价格等。",
+    "reference_case": "影响我国猪种业市场需求的主要因素包括猪肉消费量、规模养殖模式、单位产量、能繁母猪繁殖能力、生猪死亡率、种猪更新率、种用合格率和种猪价格等。",
+    "error_detail": "错误地描述了影响猪种业市场需求的主要因素。",
+    "original_question": "影响我国猪种业市场需求的主要因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "预计到2020年，我国仔猪市场容量将从2010年的2000亿元上升到2500亿元。",
+    "reference_case": "预计到2020年，我国仔猪市场容量将从2010年的2000亿元下降到1200亿元。",
+    "error_detail": "错误地描述了仔猪市场容量的变化趋势。",
+    "original_question": "2020年我国仔猪市场的预计容量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "我国猪种业市场主要由种猪市场和猪肉市场组成。种猪市场包括曾祖代种猪、祖代种猪和父母代种猪的生产和销售，而猪肉市场则围绕商品猪肉的生产和销售形成。",
+    "reference_case": "我国猪种业市场主要由种猪市场和仔猪市场组成。种猪市场包括曾祖代种猪、祖代种猪和父母代种猪的生产和销售，而仔猪市场则围绕商品仔猪的生产和销售形成。",
+    "error_detail": "错误地描述了猪种业市场的主要组成部分。",
+    "original_question": "我国猪种业市场的主要组成部分是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "根据《中国养殖业可持续发展战略报告（综合卷）》的预测，2020年我国猪肉消费量约为6000万吨，比2010年提高20%。",
+    "reference_case": "根据《中国养殖业可持续发展战略报告（综合卷）》的预测，2020年我国猪肉消费量约为5700万吨，比2010年提高13%。",
+    "error_detail": "错误地描述了猪肉消费量的预测数据。",
+    "original_question": "2020年我国猪肉消费量的预测是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "我国猪种业市场的发展趋势包括种猪市场增长空间有限，仔猪市场则相对扩大。随着家庭养猪业的发展，种猪产业市场容量将有所减少，而仔猪市场容量将增加。此外，国产品种长期占据原种猪市场，发展特色种猪品种才能赢取竞争。",
+    "reference_case": "我国猪种业市场的发展趋势包括种猪市场增长空间较大，仔猪市场则相对缩小。随着规模化养猪业的发展，种猪产业市场容量将有所增加，而仔猪市场容量将下降。此外，进口品种长期占据原种猪市场，发展特色种猪品种才能赢取竞争。",
+    "error_detail": "错误地描述了猪种业市场的发展趋势。",
+    "original_question": "我国猪种业市场的发展趋势是什么？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "初生仔猪有连续而强烈的胃运动，没有静止期；随着年龄增长，静止期逐渐缩短，排空时间逐渐减少；排空时间与饲料种类关系不大。",
+    "reference_case": "初生仔猪有连续而微弱的胃运动，没有静止期；随着年龄增长，静止期逐渐延长，排空时间逐渐增加；排空时间与饲料种类关系密切。",
+    "error_detail": "修改了胃运动的强度和排空时间的变化趋势，以及与饲料种类的关系。",
+    "original_question": "胃的运动和排空有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "初生仔猪胃含有大量盐酸，食物主要在胃内消化；胰液和肠液消化作用不重要，胆汁分泌量多，促进脂肪消化吸收；随年龄增长，胆汁分泌量减少，限制脂肪消化率提高。",
+    "reference_case": "初生仔猪胃缺乏盐酸，食物主要在小肠内消化；胰液和肠液消化作用重要，胆汁分泌量少，限制脂肪消化吸收；随年龄增长，胆汁分泌量增加，促进脂肪消化率提高。",
+    "error_detail": "错误地描述了胃中盐酸的存在、消化部位、胰液和肠液的作用，以及胆汁分泌量的变化。",
+    "original_question": "仔猪肠内消化的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "新生仔猪从母体获得肠道微生物群系，现代化养猪设备促进了新生仔猪时体、粪便和泥土的接触，从而帮助其肠道内特定完整的微生物群系的建立和维持。",
+    "reference_case": "新生仔猪从母体获得肠道微生物群系，但现代化养猪设备限制了新生仔猪时体、粪便和泥土的接触，从而妨碍其肠道内特定完整的微生物群系的建立和维持。",
+    "error_detail": "错误地描述了现代化养猪设备对新生仔猪肠道微生物群系建立的影响。",
+    "original_question": "新生仔猪如何获得肠道保护性微生物群系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "细菌在消化道定植的顺序首先是专性厌氧菌，然后是兼性厌氧菌，最后是需氧菌。",
+    "reference_case": "细菌在消化道定植的顺序首先是需氧菌，然后是兼性厌氧菌，最后是专性厌氧菌。",
+    "error_detail": "错误地描述了细菌在消化道定植的顺序。",
+    "original_question": "细菌在猪消化道定植的顺序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加低聚果糖能降低断奶仔猪平均日增重、饲料效率比和采食量，恶化肠道菌群、血液指标、免疫指标及肠线毛的密度。",
+    "reference_case": "添加低聚果糖能提高断奶仔猪平均日增重、饲料效率比和采食量，改善肠道菌群、血液指标、免疫指标及肠线毛的密度。",
+    "error_detail": "错误地描述了低聚果糖对断奶仔猪生长性能的影响。",
+    "original_question": "添加低聚果糖对断奶仔猪生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪饲料中各种营养物质含量不是评价饲料营养价值的基础。",
+    "reference_case": "猪饲料中各种营养物质含量是评价饲料营养价值的基础。",
+    "error_detail": "错误地否定了营养物质含量在饲料营养价值评价中的基础作用。",
+    "original_question": "猪饲料营养价值评价的基础是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "粪分析法主要用于测定脂肪的消化率，评估猪营养的研究。",
+    "reference_case": "粪分析法主要用于测定氨基酸的消化率，评估猪营养的研究。",
+    "error_detail": "错误地描述了粪分析法的主要用途。",
+    "original_question": "粪分析法的主要用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "Cr₂O₃被广泛应用于猪的消化率试验中，使用时无需注意其回收率变异、致癌可能、氧化不饱和脂肪酸、改变日粮颜色、适口性下降、对环境有污染、可能影响其他金属离子利用率等问题。",
+    "reference_case": "Cr₂O₃被广泛应用于猪的消化率试验中，但在使用时需注意其回收率变异较大、具有致癌可能、氧化不饱和脂肪酸、改变日粮颜色、适口性下降、对环境有污染、可能影响其他金属离子利用率等问题。",
+    "error_detail": "错误地描述了使用Cr₂O₃时无需注意的问题。",
+    "original_question": "如何使用Cr₂O₃作为指示剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "不同粗纤维和淀粉含量的饲料对猪的中肠消化过程有影响。",
+    "reference_case": "不同粗纤维和淀粉含量的饲料对猪的前肠和后肠消化过程有影响。",
+    "error_detail": "错误地描述了饲料对猪消化过程影响的部位。",
+    "original_question": "不同粗纤维和淀粉含量对猪肠道消化过程有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "单一因素影响蛋白质在大鼠和猪体内的消化率。",
+    "reference_case": "多个因素影响蛋白质在大鼠和猪体内的消化率。",
+    "error_detail": "错误地简化了影响蛋白质消化率的因素。",
+    "original_question": "哪些因素影响蛋白质在大鼠和猪体内的消化率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用间接法、总和法和比例法测定大麦和菜籽粕对猪的表观肠内氨基酸消化率。",
+    "reference_case": "使用直接法、差值法和回归法测定大麦和菜籽粕对猪的表观肠内氨基酸消化率。",
+    "error_detail": "错误地描述了测定表观肠内氨基酸消化率的方法。",
+    "original_question": "如何测定大麦和菜籽粕对猪的表观肠内氨基酸消化率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "饲料中氨基酸水平不影响猪的表观肠内氨基酸消化率。",
+    "reference_case": "饲料中氨基酸水平影响猪的表观肠内氨基酸消化率。",
+    "error_detail": "错误地否定了饲料中氨基酸水平对表观肠内氨基酸消化率的影响。",
+    "original_question": "饲料中氨基酸水平对猪表观肠内氨基酸消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "奶中代谢能 = (5.83 × ADG × N) - (100 × N)，其中ADG表示哺乳期间仔猪平均日增重（g/d），N表示窝仔数。",
+    "reference_case": "奶中代谢能 = (6.83 × ADG × N) - (125 × N)，其中ADG表示哺乳期间仔猪平均日增重（g/d），N表示窝仔数。",
+    "error_detail": "错误地修改了奶中代谢能的计算公式中的系数。",
+    "original_question": "奶中代谢能的计算公式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "如果日粮能量不足，猪体将不会分解体组织以提供产奶所需必要养分。",
+    "reference_case": "如果日粮能量不足，猪体会分解体组织以提供产奶所需必要养分。",
+    "error_detail": "错误地描述了日粮能量不足时猪体的反应。",
+    "original_question": "如果日粮能量不足，猪体将如何提供产奶所需养分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备公猪和青年母猪必须限制采食，直至大约50kg体重时选为种用，以便评定其潜在生长速度和瘦肉增重；选为种用后，应自由能量摄入量，以使其在配种时具有理想的体重。",
+    "reference_case": "后备公猪和青年母猪必须自由采食，直至大约100kg体重时选为种用，以便评定其潜在生长速度和瘦肉增重；选为种用后，应限制能量摄入量，以使其在配种时具有理想的体重。",
+    "error_detail": "错误地修改了后备公猪和青年母猪的采食策略和选为种用的体重标准。",
+    "original_question": "后备公猪和青年母猪在选为种用前的能量管理策略是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "配种公猪的能量需要量仅是维持和配种活动的总和。",
+    "reference_case": "配种公猪的能量需要量是维持、配种活动、精液生成和生长需要的总和。",
+    "error_detail": "错误地简化了配种公猪的能量需要量。",
+    "original_question": "配种公猪的能量需要包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "日粮蛋白质类型对早期断奶仔猪断奶综合症没有影响。",
+    "reference_case": "日粮蛋白质类型对早期断奶仔猪断奶综合症有影响。",
+    "error_detail": "错误地否定了日粮蛋白质类型对早期断奶仔猪断奶综合症的影响。",
+    "original_question": "日粮蛋白质类型对早期断奶仔猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "日粮苏氨酸的盈缺状况不影响猪的免疫功能，但影响循环中 T 淋巴细胞的成熟。提高日粮苏氨酸水平不利于生长猪 BSA（生血清蛋白）抗体的生成，在一定范围内提高日粮苏氨酸水平使猪瘟弱毒疫苗抗体生成减少。",
+    "reference_case": "日粮苏氨酸的盈缺状况影响猪的免疫功能，但不影响循环中 T 淋巴细胞的成熟。提高日粮苏氨酸水平有利于生长猪 BSA（生血清蛋白）抗体的生成，在一定范围内提高日粮苏氨酸水平使猪瘟弱毒疫苗抗体生成增加。",
+    "error_detail": "错误地描述了日粮苏氨酸对猪免疫功能的影响。",
+    "original_question": "苏氨酸对猪的免疫功能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪食入的蛋白质主要在消化道外由蛋白质消化酶作用消化、吸收。饲料中的蛋白质首先在小肠蛋白酶和碱的作用下，发生变性并初步少量降解，这些分解产物连同未经消化的蛋白质一道进入胃，在胃蛋白酶、糜蛋白酶和弹性蛋白酶的作用下进一步消化为游离氨基酸和少量小肽。",
+    "reference_case": "猪食入的蛋白质主要在消化道内由蛋白质消化酶作用消化、吸收。饲料中的蛋白质首先在胃蛋白酶和盐酸的作用下，发生变性并初步少量降解，这些分解产物连同未经消化的蛋白质一道进入小肠，在胰蛋白酶、糜蛋白酶和弹性蛋白酶的作用下进一步消化为游离氨基酸和少量小肽。",
+    "error_detail": "错误地描述了猪体内蛋白质消化的过程和部位。",
+    "original_question": "猪体内蛋白质消化的过程如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪主要以大肽的形式吸收蛋白质，吸收部位主要在胃，尤其是胃底，此外也可吸收少量的游离氨基酸。",
+    "reference_case": "猪主要以游离氨基酸的形式吸收蛋白质，吸收部位主要在小肠，尤其是回肠，此外也可吸收少量的小肽。",
+    "error_detail": "错误地描述了猪吸收蛋白质的形式和部位。",
+    "original_question": "猪小肠主要以什么形式吸收蛋白质？",
+    "original_input": ""
+  }
+]

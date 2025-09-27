@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年生猪市场的盈利水平较2011年有所上升，2012年头均盈利为400元/头，较2011年的352:57元/头上升了13:5%。",
+    "reference_case": "2012年生猪市场的盈利水平较2011年大幅下降，2012年头均盈利为63:16元/头，较2011年的352:57元/头下降了82:09%。",
+    "error_detail": "错误地描述了盈利水平的变化方向和具体数值。",
+    "original_question": "2012年生猪市场的盈利水平与2011年相比有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年中国生猪市场的饲料成本下降，玉米、豆粕等饲料原料价格节节下降。",
+    "reference_case": "2012年中国生猪市场的饲料成本高企，玉米、豆粕等饲料原料价格节节攀升，最终转嫁至猪料，致使2012年生猪养殖饲料成本高企。",
+    "error_detail": "错误地描述了饲料成本的变化趋势和原料价格的方向。",
+    "original_question": "2012年中国生猪市场的饲料成本情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年中国生猪市场的猪肉进口量减少，冷鲜冻猪肉进口总量预计将破40万t，较2011年下降20%左右。",
+    "reference_case": "2012年中国生猪市场的猪肉进口量增加，冷鲜冻猪肉进口总量预计将破55万t，较2011年上涨20%左右；猪杂碎进口量将达到100万t，较2011年上涨13:35%；全年中国猪肉进口量（含杂碎）总计达155万t，同比上涨15%，创历史新高。",
+    "error_detail": "错误地描述了猪肉进口量的变化方向和具体数值。",
+    "original_question": "2012年中国生猪市场的猪肉进口情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年中国生猪市场的种猪补栏减少，种猪进口总量预计将破1万头，同比下降20%。",
+    "reference_case": "2012年中国生猪市场的种猪补栏加大，部分有实力的企业不惜重金纷纷投建种猪场，预计种猪进口总量将破1:5万头，同比上涨39%，再创新高。",
+    "error_detail": "错误地描述了种猪补栏的变化方向和具体数值。",
+    "original_question": "2012年中国生猪市场的种猪补栏情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2013年中国生猪市场的猪价整体或将存在上行空间，猪价或将维持在18～22元/kg，仔猪价格也将在40元/kg以上水平运行。",
+    "reference_case": "2013年中国生猪市场的猪价整体或将存在下行空间，猪价或将维持在12～16元/kg，仔猪价格也将在30元/kg以下水平运行。",
+    "error_detail": "错误地描述了猪价的预测方向和具体数值范围。",
+    "original_question": "2013年中国生猪市场的猪价走势预测如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2011年，中国生猪平均胴体重为89:18 kg/头，而美国的生猪平均胴体重为76:37 kg/头。",
+    "reference_case": "2011年，中国生猪平均胴体重为76:37 kg/头，而美国的生猪平均胴体重为89:18 kg/头，中国的胴体重比美国低14:4%。这意味着中国育肥猪的部分生产潜能没有完全发挥出来。",
+    "error_detail": "错误地描述了中美国生猪胴体重的数据，颠倒了数值。",
+    "original_question": "中国养猪业在胴体重方面与美国的差距有多大？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年，中国大豆进口量为5000万吨，同比减少10:9%。2011年，中国玉米进口总量为200万吨，2012年达到300万吨，同比增长50:0%。",
+    "reference_case": "2012年，中国大豆进口量为5838:5万吨，同比增加10:9%。2011年，中国玉米进口总量为175:4万吨，2012年达到520:8万吨，同比增长197:0%。预计未来几年内，玉米等能量饲料原料的进口仍将大幅增长。",
+    "error_detail": "错误地描述了饲料原料进口的具体数据和增长比例。",
+    "original_question": "中国养猪业在饲料原料进口方面有哪些具体数据？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "长武县规模养殖户是指肉牛、奶牛存栏10头以上；猪羊存栏100头（只）以上；鸡兔存栏200只以上的标准。2014年底，全县规模养殖场（户）发展到500个，占全县2660个养殖场户的18.8%。",
+    "reference_case": "长武县规模养殖户是指肉牛、奶牛存栏5头以上；猪羊存栏50头（只）以上；鸡兔存栏100只以上的标准。2014年底，全县规模养殖场（户）发展到224个，占全县2660个养殖场户的8.4%。",
+    "error_detail": "数值和比例被夸大",
+    "original_question": "长武县规模养殖户的定义是什么？目前全县规模养殖场（户）的数量占全县养殖场户总数的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2014年长武县畜产品市场供需数据显示，猪肉市场需求5000吨，实际产量3000吨；羊肉市场需求1500吨，实际产量400吨；牛肉市场需求900吨，实际产量700吨；鲜奶市场需求5500吨，实际产量3200吨；禽蛋市场需求2600吨，实际产量900吨。其中，猪肉自给率为60%，羊肉自给率为26.7%，牛肉自给率为77.8%，鲜奶自给率为58.2%，禽蛋自给率为34.6%。",
+    "reference_case": "2014年长武县畜产品市场供需数据显示，猪肉市场需求4250吨，实际产量2870吨；羊肉市场需求1360吨，实际产量323吨；牛肉市场需求850吨，实际产量692吨；鲜奶市场需求5100吨，实际产量3000吨；禽蛋市场需求2550吨，实际产量840吨。其中，猪肉自给率为67.5%，羊肉自给率为23.8%，牛肉自给率为81.4%，鲜奶自给率为58.8%，禽蛋自给率为32.9%。",
+    "error_detail": "数值和比例被夸大",
+    "original_question": "长武县畜产品的市场供需情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "我国生猪养殖中散户（年出栏 1-49 头）占养殖户数量的比例在2011—2014年期间平均约为90%至92%，呈下降趋势，但比例依然庞大。",
+    "reference_case": "我国生猪养殖中散户（年出栏 1-49 头）占养殖户数量的比例在2011—2014年期间平均约为94.7%至95.25%，呈下降趋势，但比例依然庞大。",
+    "error_detail": "比例被低估",
+    "original_question": "我国生猪养殖中散户（年出栏 1-49 头）占养殖户数量的比例在2011—2014年期间平均是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪肉价格的仔猪弹性为0.6。",
+    "reference_case": "猪肉价格的仔猪弹性为0.497。",
+    "error_detail": "数值被夸大",
+    "original_question": "猪肉价格的仔猪弹性为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪、蛋鸡、肉鸡、奶牛规模饲养比重分别达到60%、70%、90%和95%。",
+    "reference_case": "猪、蛋鸡、肉鸡、奶牛规模饲养比重分别达到57%、65%、86%和93%。",
+    "error_detail": "比例被夸大",
+    "original_question": "洛阳市畜牧业在2009年底生猪、蛋鸡、肉鸡、奶牛的规模化饲养比重分别达到多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳产品年加工量达到40万吨；生猪年屠宰量达160万头；禽类年屠宰加工4500万只；牛羊年屠宰加工20万头。",
+    "reference_case": "乳产品年加工量达到36万吨；生猪年屠宰量达150万头；禽类年屠宰加工4000万只；牛羊年屠宰加工15万头。",
+    "error_detail": "数值被夸大",
+    "original_question": "洛阳市四大畜产品的加工量和屠宰量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "偃师众品年产15万吨无公害猪肉，计划分四期建设：第一期建设年产10万吨猪肉加工项目，第二期建设年产5万吨熟肉制品加工项目，第三期建设特色农产品加工及冷链物流配套项目，第四期建设其他相关项目。",
+    "reference_case": "偃师众品年产10万吨无公害猪肉，计划分三期建设：第一期建设年产10万吨猪肉加工项目，第二期建设年产3万吨熟肉制品加工项目，第三期建设特色农产品加工及冷链物流配套项目。",
+    "error_detail": "数值和计划被夸大",
+    "original_question": "偃师众品年产多少万吨无公害猪肉？计划分几期建设？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中国养猪业在养殖企业应对市场变化方面的建议包括将饲养规模扩大至原来的两倍，以增强应对未来市场变化的能力。",
+    "reference_case": "中国养猪业在养殖企业应对市场变化方面的建议包括综合考虑当地饲料资源和环境等多方面因素并合理规划饲养规模，研究和建立节粮型或低耗粮型等多种生猪养殖模式，以增强应对未来市场变化的能力。",
+    "error_detail": "错误地建议扩大饲养规模至原来的两倍，忽略了合理规划和多种养殖模式的重要性。",
+    "original_question": "中国养猪业在养殖企业应对市场变化方面有哪些建议？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2004-2005年PRRSV ORF5序列之间的同源性为50%到60%，而2006年的同源性最高达到70%到80%。",
+    "reference_case": "2004-2005年PRRSV ORF5序列之间的同源性为83:6%到99:3%，而2006年的同源性最高达到98:3%到99:2%。",
+    "error_detail": "错误地低估了2004-2005年和2006年PRRSV ORF5序列之间的同源性。",
+    "original_question": "浙江省猪繁殖与呼吸综合征病毒（PRRSV）ORF5基因的变异分析中，2004-2005年与2006年的核苷酸序列同源性有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "试验中使用了50头健康（长×大）杂交经产母猪，随机分为5个试验组，每组10头猪。",
+    "reference_case": "试验中使用了40头健康（长×大）杂交经产母猪，随机分为4个试验组，每组10头猪。",
+    "error_detail": "错误地增加了母猪的数量和试验组的数量。",
+    "original_question": "试验中使用了多少头母猪，并如何分组？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "GABA对母猪初乳的影响不大，但在常规乳中，试验III组的乳糖提高了50%，显著高于试验I组，乳脂率和乳蛋白也有所提高，但差异不显著。",
+    "reference_case": "GABA对母猪初乳的影响不大，但在常规乳中，试验III组的乳糖提高了37:22%，显著高于试验I组，乳脂率和乳蛋白也有所提高，但差异不显著。",
+    "error_detail": "错误地夸大了乳糖提高的比例。",
+    "original_question": "试验中GABA对母猪乳汁成分的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "刺五加多糖（ASPS）可以显著降低血浆中总蛋白（TP）的含量，提高尿素氮（BUN）含量，但对血糖（Glu）的影响不显著。",
+    "reference_case": "刺五加多糖（ASPS）可以显著提高血浆中总蛋白（TP）的含量，降低尿素氮（BUN）含量，但对血糖（Glu）的影响不显著。",
+    "error_detail": "错误地颠倒了ASPS对TP和BUN的影响。",
+    "original_question": "试验中，刺五加多糖（ASPS）对断奶仔猪的血浆生化指标有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "膨化大豆在仔猪饲料中可降低仔猪的平均日增质量，增加腹泻率和皮褶厚度，降低营养物质的表观消化率，增加仔猪的增质量成本。研究表明，膨化大豆可以显著降低仔猪断奶2周后和全期的平均日增质量，延长仔猪腹泻持续时间，增加仔猪腹泻率，并降低粗蛋白、粗脂肪、干物质、粗灰分和有机物的表观消化率。",
+    "reference_case": "膨化大豆在仔猪饲料中可提高仔猪的平均日增质量，降低腹泻率和皮褶厚度，提高营养物质的表观消化率，降低仔猪的增质量成本。研究表明，膨化大豆可以显著增加仔猪断奶2周后和全期的平均日增质量，缩短仔猪腹泻持续时间，降低仔猪腹泻率，并提高粗蛋白、粗脂肪、干物质、粗灰分和有机物的表观消化率。",
+    "error_detail": "错误地颠倒了膨化大豆对仔猪生长性能的影响。",
+    "original_question": "膨化大豆在仔猪饲料中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在育肥猪日粮中添加甘氨酸铜可以降低增质量，增加饲料消耗。具体来说，与添加甘氨酸组和甘氨酸 + 硫酸铜组比较，分别降低日增质量17:6%和8:5%，增加饲料消耗12:1%和6:7%。",
+    "reference_case": "在育肥猪日粮中添加甘氨酸铜可以提高增质量，降低饲料消耗。具体来说，与添加甘氨酸组和甘氨酸 + 硫酸铜组比较，分别提高日增质量17:6%和8:5%，降低饲料消耗12:1%和6:7%。",
+    "error_detail": "错误地颠倒了甘氨酸铜对增质量和饲料消耗的影响。",
+    "original_question": "在育肥猪日粮中添加甘氨酸铜对增质量和饲料消耗有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在动物生产性能方面，植物乳杆菌能够降低断奶仔猪的日增质量和日采食量，同时能够降低饲料转化率。例如，添加0:25%和0:5%的植物乳杆菌能显著降低断奶仔猪的平均日增质量，提高料重比。",
+    "reference_case": "在动物生产性能方面，植物乳杆菌能够提高断奶仔猪的日增质量和日采食量，同时能够提高饲料转化率。例如，添加0:25%和0:5%的植物乳杆菌能显著提高断奶仔猪的平均日增质量，降低料重比。",
+    "error_detail": "错误地颠倒了植物乳杆菌对断奶仔猪生产性能的影响。",
+    "original_question": "植物乳杆菌在动物生产性能方面有哪些具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "日粮中添加植物乳杆菌制剂，断奶仔猪血清尿素氮（BUN）上升，表明植物乳杆菌可以降低仔猪氨基酸的利用，减少蛋白质的沉积，从而影响仔猪的生长性能。",
+    "reference_case": "日粮中添加植物乳杆菌制剂，断奶仔猪血清尿素氮（BUN）下降，表明植物乳杆菌可以改善仔猪氨基酸的利用，增加蛋白质的沉积，从而影响仔猪的生长性能。",
+    "error_detail": "错误地颠倒了植物乳杆菌对血清尿素氮的影响。",
+    "original_question": "植物乳杆菌如何影响动物血清生化指标？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "中草药添加剂1号使保育猪的血清中免疫球蛋白G水平降低了28:85%，而中草药添加剂2号使保育猪的血清中免疫球蛋白G水平降低了25%。",
+    "reference_case": "中草药添加剂1号使保育猪的血清中免疫球蛋白G水平提高了28:85%，而中草药添加剂2号使保育猪的血清中免疫球蛋白G水平提高了25%。",
+    "error_detail": "错误地颠倒了中草药添加剂对免疫球蛋白G水平的影响。",
+    "original_question": "中草药添加剂1号和2号对保育猪的免疫球蛋白G（IgG）水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "病猪2号组的日增质量高于正常对照组24:59%，但病猪2号组的猪只无死亡，且临床症状明显减轻或消失，而病猪对照组相继全部死亡。",
+    "reference_case": "病猪2号组的日增质量低于正常对照组24:59%，但病猪2号组的猪只无死亡，且临床症状明显减轻或消失，而病猪对照组相继全部死亡。",
+    "error_detail": "错误地颠倒了病猪2号组与正常对照组的日增质量比较。",
+    "original_question": "试验中病猪对照组和病猪2号组的日增质量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中酵母硒的添加水平为500 mg/kg时，对育肥猪的日增质量影响效果最佳。",
+    "reference_case": "试验中酵母硒的添加水平为300 mg/kg时，对育肥猪的日增质量影响效果最佳。",
+    "error_detail": "数值偏差",
+    "original_question": "试验中哪种添加剂的添加水平对育肥猪的日增质量影响效果最佳？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中维生素C的添加水平为200 mg/kg时，对育肥猪的采食量影响效果最佳。",
+    "reference_case": "试验中维生素C的添加水平为100 mg/kg时，对育肥猪的采食量影响效果最佳。",
+    "error_detail": "数值偏差",
+    "original_question": "试验中哪种添加剂的添加水平对育肥猪的采食量影响效果最佳？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中酵母硒的添加水平为400 mg/kg时，对育肥猪的料重比影响效果最佳。",
+    "reference_case": "试验中酵母硒的添加水平为300 mg/kg时，对育肥猪的料重比影响效果最佳。",
+    "error_detail": "数值偏差",
+    "original_question": "试验中哪种添加剂的添加水平对育肥猪的料重比影响效果最佳？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "西宁市在2008年至2012年间共申购和签收了2568600枚猪耳标、1381616枚牛耳标和2880970枚羊耳标。",
+    "reference_case": "西宁市在2008年至2012年间共申购和签收了2568600枚猪耳标、1381616枚牛耳标和2880970枚羊耳标。",
+    "error_detail": "数值偏差",
+    "original_question": "西宁市在2008年至2012年间共申购和签收了多少枚猪耳标、牛耳标和羊耳标？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "西宁市在2008年至2012年间共佩戴了738285枚二维码耳标，其中猪佩戴197841枚，牛佩戴151136枚，羊佩戴389308枚。",
+    "reference_case": "西宁市在2008年至2012年间共佩戴了738285枚二维码耳标，其中猪佩戴197841枚，牛佩戴151136枚，羊佩戴389308枚。",
+    "error_detail": "数值偏差",
+    "original_question": "西宁市在2008年至2012年间共佩戴了多少枚二维码耳标？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "研究中使用的肉样来源包括湖南省16个猪场送检的病死猪临床样53份，以及市场购买的猪肉130份，其中包括长沙市某超市30份，某品牌猪肉40份，集贸市场60份。",
+    "reference_case": "研究中使用的肉样来源包括湖南省16个猪场送检的病死猪临床样53份，以及市场购买的猪肉130份，其中包括长沙市某超市30份，某品牌猪肉40份，集贸市场60份。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "研究中使用的肉样来源有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冷水滩区在专项整治活动中检测了674个生猪尿样，“瘦肉精”等违禁药物检测全部合格。",
+    "reference_case": "冷水滩区在专项整治活动中检测了674个生猪尿样，“瘦肉精”等违禁药物检测全部合格。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "冷水滩区在专项整治活动中检测了多少个生猪尿样，结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "拉脱维亚农业部向OIE通报了17头野猪感染了古典猪瘟。",
+    "reference_case": "拉脱维亚农业部向OIE通报了17头野猪感染了古典猪瘟。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "2013年1月4日，拉脱维亚农业部向OIE通报了多少头野猪感染了古典猪瘟？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年，成都市各级动物卫生监督机构共销毁了6200公斤病死猪肉及脏器。",
+    "reference_case": "2012年，成都市各级动物卫生监督机构共销毁了6200公斤病死猪肉及脏器。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "2012年，成都市各级动物卫生监督机构共销毁了多少公斤病死猪肉及脏器？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PCR扩增程序包括：95°C预变性5分钟；94°C变性40秒，55°C退火40秒，72°C延伸40秒，共25个循环；最后72°C终延伸10分钟。",
+    "reference_case": "PCR扩增程序包括：95°C预变性5分钟；94°C变性40秒，55°C退火40秒，72°C延伸40秒，共25个循环；最后72°C终延伸10分钟。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "猪GM-CSF基因的PCR扩增程序是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "结果显示，3、1:5、0:750、0:370 μg/mL的猪GM-CSF蛋白具有显著的淋巴细胞增殖作用，其中13、6、3、1:5、0:750、0:370、0:180 μg/mL的蛋白孔与对照孔作用效果差异极显著（**P<0:01:，26 μg/mL的蛋白孔与对照作用效果差异显著（*P<0:05:。",
+    "reference_case": "结果显示，3、1:5、0:750、0:370 μg/mL的猪GM-CSF蛋白具有显著的淋巴细胞增殖作用，其中13、6、3、1:5、0:750、0:370、0:180 μg/mL的蛋白孔与对照孔作用效果差异极显著（**P<0:01:，26 μg/mL的蛋白孔与对照作用效果差异显著（*P<0:05:。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "猪GM-CSF蛋白的生物学活性分析结果显示哪些浓度具有显著的淋巴细胞增殖作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV-2:的基因组长度为1767 bp。",
+    "reference_case": "猪圆环病毒2型（PCV-2:的基因组长度为1767 bp。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "猪圆环病毒2型（PCV-2:的基因组长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV-2）的主要致病症状包括生长缓慢、贫血、呼吸困难、黄疸等，以及高达90%的死亡率。",
+    "reference_case": "猪圆环病毒2型（PCV-2）的主要致病症状包括生长缓慢、贫血、呼吸困难、黄疸等。",
+    "error_detail": "添加了不存在的死亡率数据",
+    "original_question": "猪圆环病毒2型（PCV-2）的主要致病症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV-2）的全基因组扩增使用了引物F-PCV-2-Sac II和R-PCV-2-Sac II，其序列分别为5'-GAA CCG CGG GCT GGC TGA ACT TTT GAA AGT-3'和5'-GCA CCG CGG AAA TTT CTG ACA AAC GTT ACA-3'，以及一个额外的引物序列。",
+    "reference_case": "猪圆环病毒2型（PCV-2）的全基因组扩增使用了引物F-PCV-2-Sac II和R-PCV-2-Sac II，其序列分别为5'-GAA CCG CGG GCT GGC TGA ACT TTT GAA AGT-3'和5'-GCA CCG CGG AAA TTT CTG ACA AAC GTT ACA-3'。",
+    "error_detail": "添加了不存在的引物序列",
+    "original_question": "猪圆环病毒2型（PCV-2）的全基因组扩增使用了哪些引物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "SYBR Green I实时荧光定量PCR检测方法对猪瘟病毒（CSFV）、猪传染性胃肠炎病毒（TGEV）、猪流行性腹泻病毒（PEDV）和猪日本脑炎病毒（JEV）均不发生交叉反应，具有100%的特异性。",
+    "reference_case": "SYBR Green I实时荧光定量PCR检测方法对猪瘟病毒（CSFV）、猪传染性胃肠炎病毒（TGEV）、猪流行性腹泻病毒（PEDV）和猪日本脑炎病毒（JEV）均不发生交叉反应，具有很好的特异性。",
+    "error_detail": "错误地添加了具体的百分比数据",
+    "original_question": "SYBR Green I实时荧光定量PCR检测方法的特异性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）GX1003株的基因组全长为15320个核苷酸（nt），包括Poly(A)尾。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）GX1003株的基因组全长为15320个核苷酸（nt），不包括Poly(A)尾。",
+    "error_detail": "错误地包括了Poly(A)尾",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）GX1003株的基因组全长是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痘病毒的主要临床症状包括发热、表皮损伤、形成痘疹和结痂，以及高达50%的死亡率。",
+    "reference_case": "猪痘病毒的主要临床症状包括发热、表皮损伤、形成痘疹和结痂。",
+    "error_detail": "添加了不存在的死亡率数据",
+    "original_question": "猪痘病毒的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在江西省的猪痘病毒检测中，PCR检测的阳性率是90%。",
+    "reference_case": "在江西省的猪痘病毒检测中，PCR检测的阳性率是80%。",
+    "error_detail": "错误地修改了阳性率数据",
+    "original_question": "在江西省的猪痘病毒检测中，PCR检测的阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痘病毒的P35基因在核苷酸水平上与参考毒株的同源性为90%到95%。",
+    "reference_case": "猪痘病毒的P35基因在核苷酸水平上与参考毒株的同源性为96.3%到98.4%。",
+    "error_detail": "错误地修改了同源性数据",
+    "original_question": "猪痘病毒的P35基因在核苷酸水平上与参考毒株的同源性是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痘病毒的P35基因在核苷酸水平上，不同样品之间的同源性为90%到95%。",
+    "reference_case": "猪痘病毒的P35基因在核苷酸水平上，不同样品之间的同源性为97.7%到100%。",
+    "error_detail": "错误地修改了同源性数据",
+    "original_question": "猪痘病毒的P35基因在核苷酸水平上，不同样品之间的同源性是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痘病毒的P35基因在氨基酸水平上，不同样品之间的同源性为90%到95%。",
+    "reference_case": "猪痘病毒的P35基因在氨基酸水平上，不同样品之间的同源性为98.2%到100%。",
+    "error_detail": "错误地修改了同源性数据",
+    "original_question": "猪痘病毒的P35基因在氨基酸水平上，不同样品之间的同源性是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌的血清型与毒力之间有直接的相关性，血清型越高，毒力越强。",
+    "reference_case": "副猪嗜血杆菌的血清型通常被认为是毒力的一个指征，但研究发现同一血清型的菌株毒力存在很大差异，因此血清型和毒力之间没有确切的相关性。",
+    "error_detail": "错误地认为血清型与毒力之间存在直接的正相关关系。",
+    "original_question": "副猪嗜血杆菌的血清型与毒力之间有什么关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "庚糖基转移酶负责将庚糖转移到LPS上，但庚糖的缺失不会影响LPS的结构。",
+    "reference_case": "庚糖基转移酶负责将庚糖转移到LPS上，庚糖I、II和III的缺失会影响LPS的结构，进而影响细菌对宿主细胞的黏附和入侵能力。",
+    "error_detail": "错误地认为庚糖的缺失不会影响LPS的结构及其功能。",
+    "original_question": "副猪嗜血杆菌的庚糖基转移酶在LPS生物合成中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪红细胞体外双修饰及异源输血试验中，未使用无菌生理盐水和肝素钠。",
+    "reference_case": "在猪红细胞体外双修饰及异源输血试验中，使用了无菌生理盐水、α-半乳糖苷酶、肝素钠、单甲氧基聚乙二醇琥珀酰亚胺碳酸酯、离心机、离心管、血液分析仪、尿液分析仪、一次性注射器、一次性输液器和显微镜。",
+    "error_detail": "错误地否认了无菌生理盐水和肝素钠的使用。",
+    "original_question": "在猪红细胞体外双修饰及异源输血试验中，使用了哪些试剂和仪器？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪红细胞体外双修饰后，渗透脆性增加。未修饰猪红细胞在NaCl浓度达到5 g/L时开始溶血，溶血范围为5:0 g/L至4:2 g/L，而修饰后猪红细胞的溶血范围为5:5 g/L至4:8 g/L。",
+    "reference_case": "猪红细胞体外双修饰后，渗透脆性降低。未修饰猪红细胞在NaCl浓度达到5 g/L时开始溶血，溶血范围为5:0 g/L至4:2 g/L，而修饰后猪红细胞的溶血范围为4:6 g/L至3:4 g/L。",
+    "error_detail": "错误地认为修饰后渗透脆性增加，且提供了错误的溶血范围数据。",
+    "original_question": "猪红细胞体外双修饰后，渗透脆性有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "输血后犬的血常规检测结果显示，红细胞数和血红蛋白含量均显著下降。",
+    "reference_case": "输血后犬的血常规检测结果显示，红细胞数升高，第2天逐渐下降在正常范围内波动；血红蛋白含量在第1天内升高，第2天开始降低并在正常范围内波动。",
+    "error_detail": "错误地认为红细胞数和血红蛋白含量均显著下降，而实际上它们先升高后波动在正常范围内。",
+    "original_question": "猪红细胞体外双修饰后，输血后犬的血常规检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "输血后犬的呼吸频率显著增加，超出正常范围。",
+    "reference_case": "输血后犬的呼吸频率始终在正常范围内波动，输血后的犬可视黏膜无异常变化，精神状况也正常。",
+    "error_detail": "错误地认为呼吸频率显著增加并超出正常范围。",
+    "original_question": "猪红细胞体外双修饰后，输血后犬的呼吸频率有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "输血后犬的精神状况不佳，体温和心跳显著升高，超出正常临床指标范围。",
+    "reference_case": "输血后犬的精神状况良好，犬的体温稍微升高，心跳也有所加快，引起犬的略微发热反应，但都在正常临床指标范围内。",
+    "error_detail": "错误地认为犬的精神状况不佳，且体温和心跳超出正常范围。",
+    "original_question": "猪红细胞体外双修饰后，输血后犬的精神状况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "输血后犬的可视黏膜颜色异常，出现明显的变色。",
+    "reference_case": "输血后犬的可视黏膜颜色正常，无异常变化。",
+    "error_detail": "错误地认为可视黏膜颜色异常并出现变色。",
+    "original_question": "猪红细胞体外双修饰后，输血后犬的可视黏膜颜色有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "河南省部分地区猪伪狂犬病病毒（PRV）、猪圆环病毒2型（PCV-2:和猪瘟病毒（CSFV）的混合感染类型包括PRV/PCV-2和PRV/CSFV两种。",
+    "reference_case": "河南省部分地区猪伪狂犬病病毒（PRV）、猪圆环病毒2型（PCV-2:和猪瘟病毒（CSFV）的混合感染类型包括PRV/PCV-2、PRV/CSFV、PCV-2/CSFV和PRV/PCV-2/CSFV四种。",
+    "error_detail": "错误地减少了混合感染类型的数量。",
+    "original_question": "河南省部分地区猪伪狂犬病病毒（PRV）、猪圆环病毒2型（PCV-2:和猪瘟病毒（CSFV）的混合感染类型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在河南省部分地区，猪伪狂犬病病毒（PRV）和猪瘟病毒（CSFV）的混合感染率为10:57%。",
+    "reference_case": "在河南省部分地区，猪伪狂犬病病毒（PRV）和猪瘟病毒（CSFV）的混合感染率为3:57%。",
+    "error_detail": "错误地提高了混合感染率的数据。",
+    "original_question": "在河南省部分地区，猪伪狂犬病病毒（PRV）和猪瘟病毒（CSFV）的混合感染率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "河南省部分地区猪圆环病毒2型（PCV-2:和猪瘟病毒（CSFV）的混合感染率为5:71%。",
+    "reference_case": "河南省部分地区猪圆环病毒2型（PCV-2:和猪瘟病毒（CSFV）的混合感染率为10:71%。",
+    "error_detail": "错误地降低了混合感染率的数据。",
+    "original_question": "河南省部分地区猪圆环病毒2型（PCV-2:和猪瘟病毒（CSFV）的混合感染率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）最早是在1980年由比利时的Pensaert发现的。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）最早是在1977年由比利时的Pensaert发现的。",
+    "error_detail": "错误的发现年份",
+    "original_question": "猪流行性腹泻病毒（PEDV）最早是在哪一年被发现的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的套式RT-PCR检测中，外引物P1和P2扩增的产物大小是300 bp。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的套式RT-PCR检测中，外引物P1和P2扩增的产物大小是297 bp。",
+    "error_detail": "错误的产物大小",
+    "original_question": "猪流行性腹泻病毒（PEDV）的套式RT-PCR检测中，外引物P1和P2扩增的产物大小是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的套式RT-PCR检测中，内引物Z1和Z2扩增的产物大小是200 bp。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的套式RT-PCR检测中，内引物Z1和Z2扩增的产物大小是212 bp。",
+    "error_detail": "错误的产物大小",
+    "original_question": "猪流行性腹泻病毒（PEDV）的套式RT-PCR检测中，内引物Z1和Z2扩增的产物大小是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪流行性腹泻病毒（PEDV）的分离过程中，病毒培养物在Vero细胞上出现特征性细胞病变（CPE）的传代次数是10代以后。",
+    "reference_case": "在猪流行性腹泻病毒（PEDV）的分离过程中，病毒培养物在Vero细胞上出现特征性细胞病变（CPE）的传代次数是20代以后。",
+    "error_detail": "错误的传代次数",
+    "original_question": "在猪流行性腹泻病毒（PEDV）的分离过程中，病毒培养物在Vero细胞上出现特征性细胞病变（CPE）的传代次数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的毒价测定（TCID50:和中和试验（SN）中，SDbz毒株的TCID50是10^-4:47/0:1 mL。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的毒价测定（TCID50:和中和试验（SN）中，SDbz毒株的TCID50是10^-5:47/0:1 mL。",
+    "error_detail": "错误的TCID50值",
+    "original_question": "猪流行性腹泻病毒（PEDV）的毒价测定（TCID50:和中和试验（SN）中，SDbz毒株的TCID50是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "投喂摇蚊幼虫、猪肉、牛肉、羊肉和小鱼虾后，中国大鲵幼苗的体长分别增加了10:09厘米、6:45厘米、6:28厘米、5:57厘米和7:82厘米。",
+    "reference_case": "投喂摇蚊幼虫、猪肉、牛肉、羊肉和小鱼虾后，中国大鲵幼苗的体长分别增加了8:09厘米、5:45厘米、5:28厘米、4:57厘米和6:82厘米。",
+    "error_detail": "错误的体长增加数据",
+    "original_question": "中国大鲵幼苗在投喂不同饵料后的体长增加情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "投喂摇蚊幼虫、猪肉、牛肉、羊肉和小鱼虾后，中国大鲵幼苗的体重分别增加了30:97克、15:68克、14:82克、13:86克和25:67克。",
+    "reference_case": "投喂摇蚊幼虫、猪肉、牛肉、羊肉和小鱼虾后，中国大鲵幼苗的体重分别增加了25:97克、12:68克、11:82克、10:86克和20:67克。",
+    "error_detail": "错误的体重增加数据",
+    "original_question": "中国大鲵幼苗在投喂不同饵料后的体重增加情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在华东地区，5周龄至15周龄的猪对猪萨佩罗病毒最易感。",
+    "reference_case": "在华东地区，10周龄至20周龄的猪对猪萨佩罗病毒最易感。",
+    "error_detail": "错误的易感年龄段",
+    "original_question": "在华东地区，哪个年龄段的猪对猪萨佩罗病毒最易感？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪萨佩罗病毒的RdRp基因间的同源性为90:0%至99:9%，而VP1基因间的同源性为75:4%至99:4%。",
+    "reference_case": "猪萨佩罗病毒的RdRp基因间的同源性为87:0%至99:9%，而VP1基因间的同源性为72:4%至99:4%。",
+    "error_detail": "错误的同源性数据",
+    "original_question": "猪萨佩罗病毒的RdRp基因和VP1基因的同源性分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪萨佩罗病毒的系统进化分析结果提示，PSV可能至少存在5种不同的抗原基因亚型。",
+    "reference_case": "猪萨佩罗病毒的系统进化分析结果提示，PSV可能至少存在3种不同的抗原基因亚型。",
+    "error_detail": "错误的亚型数量",
+    "original_question": "猪萨佩罗病毒的系统进化分析结果提示了什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在仔猪感染PRRSV后1天到7天内，肝脏和肾脏的病毒阳性细胞数量最多。",
+    "reference_case": "在仔猪感染PRRSV后1天到7天内，肺门淋巴结和扁桃体的病毒阳性细胞数量最多。",
+    "error_detail": "错误地改变了病毒阳性细胞数量最多的器官。",
+    "original_question": "在仔猪感染PRRSV后，哪些器官在感染后1天到7天内病毒阳性细胞数量最多？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在仔猪感染PRRSV后14天到28天内，心脏的病毒阳性细胞数量最多。",
+    "reference_case": "在仔猪感染PRRSV后14天到28天内，脾脏的病毒阳性细胞数量最多。",
+    "error_detail": "错误地改变了病毒阳性细胞数量最多的器官。",
+    "original_question": "在仔猪感染PRRSV后，哪些器官在感染后14天到28天内病毒阳性细胞数量最多？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在仔猪感染PRRSV后1天，心脏和肝脏即可检出病毒。",
+    "reference_case": "在仔猪感染PRRSV后1天，气管、肺门淋巴结和扁桃体即可检出病毒。",
+    "error_detail": "错误地改变了可检出病毒的器官。",
+    "original_question": "在仔猪感染PRRSV后，哪些器官在感染后1天即可检出病毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "免疫过氧化酶单层细胞试验（IPMA）可用于检测猪血清中的SIV抗体，其特点是特异性弱，可检出感染7天后的抗体效价。",
+    "reference_case": "免疫过氧化酶单层细胞试验（IPMA）可用于检测猪血清中的SIV抗体，其特点是特异性强，可检出感染3天后的抗体效价。",
+    "error_detail": "错误地改变了IPMA的特性和检出时间。",
+    "original_question": "血清学诊断中的免疫过氧化酶单层细胞试验（IPMA）在猪流感诊断中的应用特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2007年至2011年间，关于猪繁殖与呼吸综合征（PRRS）的高被引论文中，被引频次最高的论文是《PRRSV Variants: Outbreaks in China》，被引频次为50次。",
+    "reference_case": "2007年至2011年间，关于猪繁殖与呼吸综合征（PRRS）的高被引论文中，被引频次最高的论文是《Emergence of Fatal PRRSV Variants: Unparalleled Outbreaks of Atypical PRRS in China and Molecular Dissection of the Unique Hallmark》，被引频次为99次。",
+    "error_detail": "错误地改变了被引频次最高的论文和被引频次。",
+    "original_question": "2007年至2011年间，关于猪繁殖与呼吸综合征（PRRS）的高被引论文中，被引频次最高的论文是哪一篇？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "石河子地区规模猪场中猪圆环病毒2型（PCV-2:的感染率为50%（8/16:。",
+    "reference_case": "石河子地区规模猪场中猪圆环病毒2型（PCV-2:的感染率为100%（16/16:。",
+    "error_detail": "错误地改变了感染率。",
+    "original_question": "石河子地区规模猪场中猪圆环病毒2型（PCV-2:的感染率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "文章中提到的豕链球菌的16S rDNA序列与猪链球菌2型的同源性为80%。",
+    "reference_case": "文章中提到的豕链球菌的16S rDNA序列与猪链球菌2型的同源性为93%。",
+    "error_detail": "错误地改变了同源性百分比。",
+    "original_question": "文章中提到的豕链球菌的16S rDNA序列与猪链球菌2型的同源性是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "文章中提到的豕链球菌的PCR鉴定结果显示，用猪链球菌通用引物及猪链球菌的1,2,7、9型特异性引物对可疑菌提取的基因组DNA的扩增结果显示均出现目标条带。",
+    "reference_case": "文章中提到的豕链球菌的PCR鉴定结果显示，用猪链球菌通用引物及猪链球菌的1,2,7、9型特异性引物对可疑菌提取的基因组DNA的扩增结果显示均没有目标条带出现。",
+    "error_detail": "错误地报告了PCR扩增结果，实际上没有目标条带出现。",
+    "original_question": "文章中提到的豕链球菌的PCR鉴定结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "神木县猪场中PRRSV和PCV-2混合感染较为普遍，20家猪场中有18家存在混合感染的情况，最高感染率为80%。",
+    "reference_case": "神木县猪场中PRRSV和PCV-2混合感染较为普遍，20家猪场中有14家存在混合感染的情况，最高感染率为60%。",
+    "error_detail": "错误地报告了混合感染的猪场数量和最高感染率。",
+    "original_question": "神木县猪场中PRRSV和PCV-2混合感染的情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "神木县猪场中PRRSV抗体阳性率最高的猪场感染率为90%。",
+    "reference_case": "神木县猪场中PRRSV抗体阳性率最高的猪场感染率为80%。",
+    "error_detail": "错误地报告了最高感染率。",
+    "original_question": "神木县猪场中PRRSV抗体阳性率最高的猪场感染率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "神木县猪场中PCV-2抗体阳性率最低的猪场感染率为50%。",
+    "reference_case": "神木县猪场中PCV-2抗体阳性率最低的猪场感染率为60%。",
+    "error_detail": "错误地报告了最低感染率。",
+    "original_question": "神木县猪场中PCV-2抗体阳性率最低的猪场感染率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2007-2011年新疆地区屠宰场、规模养猪场和散养户中，散养户的猪瘟病原阳性检出率最高，为0:60%。",
+    "reference_case": "2007-2011年新疆地区屠宰场、规模养猪场和散养户中，散养户的猪瘟病原阳性检出率最高，为0:53%。",
+    "error_detail": "错误地报告了散养户的猪瘟病原阳性检出率。",
+    "original_question": "2007-2011年新疆地区屠宰场、规模养猪场和散养户中，哪个场点的猪瘟病原阳性检出率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2007-2011年新疆地区屠宰场、规模养猪场和散养户中，规模养猪场的猪瘟病原阳性检出率最低，为0:25%。",
+    "reference_case": "2007-2011年新疆地区屠宰场、规模养猪场和散养户中，规模养猪场的猪瘟病原阳性检出率最低，为0:32%。",
+    "error_detail": "错误地报告了规模养猪场的猪瘟病原阳性检出率。",
+    "original_question": "2007-2011年新疆地区屠宰场、规模养猪场和散养户中，哪个场点的猪瘟病原阳性检出率最低？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2007-2011年新疆地区屠宰场猪瘟病原学检测的样品总数为6000份。",
+    "reference_case": "2007-2011年新疆地区屠宰场猪瘟病原学检测的样品总数为5643份。",
+    "error_detail": "数值偏差",
+    "original_question": "2007-2011年新疆地区屠宰场猪瘟病原学检测的样品总数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2007-2011年新疆地区规模养猪场猪瘟病原学检测的样品总数为3000份。",
+    "reference_case": "2007-2011年新疆地区规模养猪场猪瘟病原学检测的样品总数为2847份。",
+    "error_detail": "数值偏差",
+    "original_question": "2007-2011年新疆地区规模养猪场猪瘟病原学检测的样品总数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2007-2011年新疆地区散养户猪瘟病原学检测的样品总数为3500份。",
+    "reference_case": "2007-2011年新疆地区散养户猪瘟病原学检测的样品总数为3187份。",
+    "error_detail": "数值偏差",
+    "original_question": "2007-2011年新疆地区散养户猪瘟病原学检测的样品总数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在临汾市某县的猪瘟病毒抗体检测中，企业的抗体阳性率为80%，大户为50%，散户为50%。",
+    "reference_case": "在临汾市某县的猪瘟病毒抗体检测中，企业的抗体阳性率为69:88%，大户为42:19%，散户为43:59%。企业的抗体阳性率明显高于大户和散户。",
+    "error_detail": "数值偏差",
+    "original_question": "在临汾市某县的猪瘟病毒抗体检测中，企业、大户和散户的抗体阳性率有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在河池市的屠宰猪群中，猪链球菌2型的带菌率为5%。",
+    "reference_case": "在河池市的屠宰猪群中，猪链球菌2型的带菌率为1:64%。",
+    "error_detail": "数值偏差",
+    "original_question": "在河池市的屠宰猪群中，猪链球菌2型的带菌率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在民和县的监测调查中，育肥猪尿样的采样比例是50:1。",
+    "reference_case": "在民和县的监测调查中，育肥猪尿样的采样比例是30:1。",
+    "error_detail": "数值偏差",
+    "original_question": "民和县的监测调查中，育肥猪尿样的采样比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，共采集了500份扁桃体样品。",
+    "reference_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，共采集了426份扁桃体样品。",
+    "error_detail": "数值偏差",
+    "original_question": "河池市屠宰猪群中猪链球菌2型的流行病学调查中，采集了多少份扁桃体样品？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "我国生猪养殖业在快速发展的同时，面临的主要问题包括：生猪养殖户普遍规模较小，缺乏专业化和规模化；养殖户为了利益最大化，可能采取不科学的养殖方法，导致猪肉质量问题；养殖设备简陋，技术方法不科学，疫病控制不力；市场上出现瘦肉精、激素猪肉等伪劣产品，威胁消费者健康；监管机制不完善，养殖户的安全意识和技术水平有待提高。这些问题严重影响了我国生猪养殖业的发展和猪肉市场的安全。",
+    "reference_case": "我国生猪养殖业在快速发展的同时，面临的主要问题包括：生猪养殖户普遍规模较小，缺乏专业化和规模化；养殖户为了利益最大化，可能采取不科学的养殖方法，导致猪肉质量问题；养殖设备简陋，技术方法不科学，疫病控制不力；市场上出现瘦肉精、激素猪肉等伪劣产品，威胁消费者健康；监管机制不完善，养殖户的安全意识和技术水平有待提高。这些问题严重影响了我国生猪养殖业的发展和猪肉市场的安全。",
+    "error_detail": "数据型幻觉，错误地描述了问题的严重程度",
+    "original_question": "我国生猪养殖业在快速发展的同时，面临哪些主要问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "17.5%",
+    "reference_case": "17.5%",
+    "error_detail": "数据型幻觉，错误地描述了比例",
+    "original_question": "在南雄市生猪养殖农户中，有多少比例的农户是通过自己供应的方式提供生猪饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "31%",
+    "reference_case": "31%",
+    "error_detail": "数据型幻觉，错误地描述了比例",
+    "original_question": "在生猪出现病情时，有多少比例的农户会咨询兽医或邀请兽医前来诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "42.5%",
+    "reference_case": "42.5%",
+    "error_detail": "数据型幻觉，错误地描述了比例",
+    "original_question": "在生猪出现病情时，有多少比例的农户会凭借自身经验处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，猪链球菌2型的检出率为1:100%。",
+    "reference_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，猪链球菌2型的检出率为1:64%。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "河池市屠宰猪群中猪链球菌2型的流行病学调查中，猪链球菌2型的检出率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，环江的猪链球菌2型携带率最高，为5:86%。",
+    "reference_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，环江的猪链球菌2型携带率最高，为2:86%。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "河池市屠宰猪群中猪链球菌2型的流行病学调查中，哪个县区的猪链球菌2型携带率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，多重PCR检测的反应体系总体积为50微升。",
+    "reference_case": "在河池市屠宰猪群中猪链球菌2型的流行病学调查中，多重PCR检测的反应体系总体积为25微升。",
+    "error_detail": "数值被夸大",
+    "original_question": "河池市屠宰猪群中猪链球菌2型的流行病学调查中，多重PCR检测的反应体系总体积是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪传染性萎缩性鼻炎的治疗方法包括使用0:5%高锰酸钾溶液冲洗鼻腔。",
+    "reference_case": "猪传染性萎缩性鼻炎的治疗方法包括使用0:1%高锰酸钾溶液冲洗鼻腔，2:5%恩诺沙星注射液2～4 mL和地塞米松2～5 mg分别肌注，连用3～5天。病程稍长的可加卡那霉素100万单位和复方青霉素钾2 g。中药治疗包括辛夷、黄柏、半夏、知母等药材粉碎后分成2份，每日2份，连用7天。",
+    "error_detail": "错误地改变了溶液浓度",
+    "original_question": "猪传染性萎缩性鼻炎的治疗方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预防猪传染性萎缩性鼻炎的措施包括用0:5%强力消毒灵每周消毒1次。",
+    "reference_case": "预防猪传染性萎缩性鼻炎的措施包括对整个发病猪场进行全面清扫消毒，用0:1%强力消毒灵每周消毒2次。在母猪妊娠的最后一个月，饲料中添加土霉素400 g/t和磺胺嘧啶100 g/t。仔猪在出生3周内，每周注射磺胺嘧啶钠或强力霉素，连用3次。使用传染性萎缩性鼻炎油佐剂二联灭活菌苗进行免疫接种，妊娠母猪产前1月颈部皮下注射2 mL，仔猪于4周内和8周内各注射0:5 mL。",
+    "error_detail": "错误地改变了消毒频率和浓度",
+    "original_question": "如何预防猪传染性萎缩性鼻炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "张岭岭、王金凤、李巍等研究者报道了猪脑心肌炎病毒RT-LAMP检测方法的建立，该方法准确率高达99.9%。",
+    "reference_case": "张岭岭、王金凤、李巍等研究者报道了猪脑心肌炎病毒RT-LAMP检测方法的建立。",
+    "error_detail": "添加了未提及的准确率数据",
+    "original_question": "哪篇文章报道了猪脑心肌炎病毒RT-LAMP检测方法的建立？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高致病性猪繁殖与呼吸综合征病毒（HP-PRRSV）NM1株的全基因组长度为15356 bp，不包括PolyA尾。",
+    "reference_case": "高致病性猪繁殖与呼吸综合征病毒（HP-PRRSV）NM1株的全基因组长度为15356 bp，包括PolyA尾。",
+    "error_detail": "错误地排除了PolyA尾",
+    "original_question": "高致病性猪繁殖与呼吸综合征病毒（HP-PRRSV）NM1株的全基因组长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "HP-PRRSV NM1株的动物接种试验中，接种猪出现体温升高（≥41°C持续3天以上）、呼吸困难、抽搐或后肢瘫痪、食欲下降、精神沉郁、耳部及全身皮肤发绀等临床症状，但未记录体温数据。",
+    "reference_case": "HP-PRRSV NM1株的动物接种试验中，接种猪出现体温升高（≥41°C持续3天以上）、呼吸困难、抽搐或后肢瘫痪、食欲下降、精神沉郁、耳部及全身皮肤发绀等临床症状。",
+    "error_detail": "错误地添加了未记录体温数据的陈述",
+    "original_question": "HP-PRRSV NM1株的动物接种试验中，接种猪的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "实验中使用的表达系统是大肠杆菌 DH5α 和 pET-28a-TsCL-1 重组质粒。",
+    "reference_case": "实验中使用的表达系统是大肠杆菌 BL21 和 pGEX-4T-TsCL-1 重组质粒。",
+    "error_detail": "错误地提供了表达系统的具体型号和质粒名称。",
+    "original_question": "猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达条件优化实验中，使用的表达系统是什么？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "定期称重，系统掌握公猪体重变化，检查公猪饲养是否适当；成年公猪体重应逐渐上升，始终保持上营养水平；幼龄公猪要求体重维持不变但不显过肥。",
+    "reference_case": "定期称重，系统掌握公猪体重变化，检查公猪饲养是否适当；成年公猪体重应维持不变，始终保持中上营养水平；幼龄公猪要求体重逐渐上升但不显过肥。",
+    "error_detail": "成年和幼龄公猪的体重管理建议被错误地颠倒",
+    "original_question": "如何掌握公猪体重变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "兩岁以上的公猪，一般一天最好不超过四次，在心要的情况下，一天也可以配四到五次。",
+    "reference_case": "兩岁以上的公猪，一般一天最好不超过两次，在心要的情况下，一天也可以配两到三次。",
+    "error_detail": "配种次数被错误地翻倍",
+    "original_question": "兩岁以上的公猪每天配种最好不要超过几次？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪连续配种两次以上，最好每次间隔八到十二小时。",
+    "reference_case": "公猪连续配种两次以上，最好每次间隔四到六小时。",
+    "error_detail": "间隔时间被错误地延长",
+    "original_question": "公猪连续配种两次以上，每次间隔多久为宜？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "兩岁以內的小公猪，每天配种不应超过三次。",
+    "reference_case": "兩岁以內的小公猪，每天配种不应超过一次。",
+    "error_detail": "配种次数被错误地增加",
+    "original_question": "兩岁以內的小公猪每天配种不应超过几次？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "连续配种四到五天后，小公猪应当休息一天。",
+    "reference_case": "连续配种二到三天后，小公猪应当休息一天。",
+    "error_detail": "连续配种天数被错误地增加",
+    "original_question": "连续配种几天后，小公猪应当休息？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在配种准备期的日粮中，每个玉米单位应有可消化全价蛋白不少于一千克。",
+    "reference_case": "母猪在配种准备期的日粮中，每个玉米单位应有可消化全价蛋白不少于一百克。",
+    "error_detail": "蛋白质需求量被错误地放大10倍",
+    "original_question": "母猪在配种准备期的日粮中，每个玉米单位应有多少可消化全价蛋白？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在哺乳期配种时，日粮中的全价蛋白需求量应调整至二百二十到二百六十克。",
+    "reference_case": "母猪在哺乳期配种时，日粮中的全价蛋白需求量应调整至一百一十到一百三十克。",
+    "error_detail": "蛋白质需求量被错误地翻倍",
+    "original_question": "母猪在哺乳期配种时，日粮中的全价蛋白需求量应如何调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在配种准备期的日粮中，每百公斤体重应供給十六到二十四克钙和十到十六克磷。",
+    "reference_case": "母猪在配种准备期的日粮中，每百公斤体重应供給八到十二克钙和五到八克磷。",
+    "error_detail": "钙和磷的需求量被错误地翻倍",
+    "original_question": "母猪在配种准备期的日粮中，每百公斤体重应如何供給钙和磷？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在配种准备期日粮中维生素 A 的需要量是每百公斤体重供給十万至十五万国际单位。",
+    "reference_case": "母猪在配种准备期日粮中维生素 A 的需要量是每百公斤体重供給一万至一万五千国际单位。",
+    "error_detail": "维生素A的需求量被错误地放大10倍",
+    "original_question": "母猪在配种准备期日粮中维生素 A 的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在配种准备期日粮中维生素 D 的需要量是一万單位。",
+    "reference_case": "母猪在配种准备期日粮中维生素 D 的需要量是一千單位。",
+    "error_detail": "维生素D的需求量被错误地放大10倍",
+    "original_question": "母猪在配种准备期日粮中维生素 D 的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪初配年龄受猪的品种、当地气候和猪场的饲养管理等条件的影响，通常在6-8个月。",
+    "reference_case": "母猪初配年龄受猪的品种、当地气候和猪场的饲养管理等条件的影响。",
+    "error_detail": "添加了不准确的初配年龄范围",
+    "original_question": "母猪初配年龄受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每头日粮应包含500-1000克可消化粗蛋白。",
+    "reference_case": "哺乳母猪每头日粮应包含490-935克可消化粗蛋白。",
+    "error_detail": "错误地扩大了可消化粗蛋白的范围",
+    "original_question": "哺乳母猪每头日粮应包含多少可消化粗蛋白？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每增加一头哺乳仔猪应加0.5个玉米单位。",
+    "reference_case": "哺乳母猪每增加一头哺乳仔猪应加0.3个玉米单位。",
+    "error_detail": "错误地增加了玉米单位的数量",
+    "original_question": "哺乳母猪每增加一头哺乳仔猪应加多少玉米单位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每增加一头哺乳仔猪应加50克可消化粗蛋白质。",
+    "reference_case": "哺乳母猪每增加一头哺乳仔猪应加40克可消化粗蛋白质。",
+    "error_detail": "错误地增加了可消化粗蛋白质的数量",
+    "original_question": "哺乳母猪每增加一头哺乳仔猪应加多少可消化粗蛋白质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "末成年哺乳母猪每头按标准再加0.5玉米单位。",
+    "reference_case": "末成年哺乳母猪每头按标准再加0.3-0.4玉米单位。",
+    "error_detail": "错误地增加了玉米单位的数量",
+    "original_question": "哺乳母猪若为末成年哺乳母猪，每头按标准再加多少玉米单位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳仔猪出生后十天内，体重较初生重增大三倍。",
+    "reference_case": "哺乳仔猪出生后十天内，体重较初生重增大二点一倍。",
+    "error_detail": "错误地增加了体重增长的比例",
+    "original_question": "哺乳仔猪在出生后十天内的体重变化情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳仔猪在一个月龄时，体重较初生重增大五倍。",
+    "reference_case": "哺乳仔猪在一个月龄时，体重较初生重增大四点三倍。",
+    "error_detail": "错误地增加了体重增长的比例",
+    "original_question": "哺乳仔猪在一个月龄时的体重变化情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳仔猪在二个月龄时，体重较初生重增大十二倍。",
+    "reference_case": "哺乳仔猪在二个月龄时，体重较初生重增大十到十一倍。",
+    "error_detail": "错误地增加了体重增长的比例",
+    "original_question": "哺乳仔猪在二个月龄时的体重变化情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断乳仔猪日粮中各类饲料的配合比例见表139，具体包括精饲料占比50%、糠料20%、粗饲料15%、制暴料10%和多汁料5%的比例。",
+    "reference_case": "断乳仔猪日粮中各类饲料的配合比例见表139，具体包括精饲料、糠料、粗饲料、制暴料和多汁料的比例。",
+    "error_detail": "修改了各类饲料的具体比例，导致数据型幻觉。",
+    "original_question": "断乳仔猪日粮中各类饲料的配合比例是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备幼猪日粮中，以精料为主的日粮中精料占比10-15%，青料60-70%，粗料10-15%，槽渣料5-10%，多汁料为5%；以粗料为主的日粮中精料占比5-10%，青料40-50%，粗料20-30%，槽渣料20-30%，多汁料为10%。",
+    "reference_case": "后备幼猪日粮中，以精料为主的日粮中精料占比2-4%，青料75-85%，粗料6-13%，槽渣料5-10%，多汁料为0%；以粗料为主的日粮中精料占比2-5%，青料50-55%，粗料10-24%，槽渣料25-29%，多汁料为0%。",
+    "error_detail": "修改了各类饲料的具体比例，导致数据型幻觉。",
+    "original_question": "后备幼猪的日粮中哪些类型的比例是主要考虑的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冬季每天带它们到阳光充足的地方往返运动五到五公里。",
+    "reference_case": "冬季每天带它们到阳光充足的地方往返运动三到三公里。",
+    "error_detail": "修改了运动距离，导致数据型幻觉。",
+    "original_question": "冬季如何进行后备幼猪的放牧管理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "放牧前应根据牧草生长情况和每头猪每天需要的饲料量，把放牧地划分为若干小区，每个小区一般能够放牧五到六天。",
+    "reference_case": "放牧前应根据牧草生长情况和每头猪每天需要的饲料量，把放牧地划分为若干小区，每个小区一般能够放牧三到四天。",
+    "error_detail": "修改了放牧天数，导致数据型幻觉。",
+    "original_question": "如何根据牧草生长情况划分放牧地？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一贯肥育法在整个肥育期内猪的体重是直线上升的，每日增重速度较为一致；而阶段肥育法则在吊架子期增重较慢，日增重仅为150克。",
+    "reference_case": "一贯肥育法在整个肥育期内猪的体重是直线上升的，每日增重速度较为一致；而阶段肥育法则在吊架子期增重较慢。",
+    "error_detail": "添加了具体的日增重数据，导致数据型幻觉。",
+    "original_question": "一贯肥育法与阶段肥育法在肥育期内猪的体重增长有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每天喂猪的次数根据天日长短来决定，天短时每天喂两次，天长时喂三次；给食的多少看猪的大小来决定，尽量让猪吃饱，养成猪定时吃食的习惯，每次喂食间隔不超过6小时。",
+    "reference_case": "每天喂猪的次数根据天日长短来决定，天短时每天喂两次，天长时喂三次；给食的多少看猪的大小来决定，尽量让猪吃饱，养成猪定时吃食的习惯。",
+    "error_detail": "添加了关于喂食间隔的描述，导致数据型幻觉。",
+    "original_question": "一贯肥育法如何做到定时定量喂猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一贯肥育法的猪平均日增重为395克，而阶段肥育法的猪平均日增重为274克，前者比后者多出121克，增重速度快44.2%，并且饲料转化率更高。",
+    "reference_case": "一贯肥育法的猪平均日增重为395克，而阶段肥育法的猪平均日增重为274克，前者比后者多出121克，增重速度快44.2%。",
+    "error_detail": "添加了关于饲料转化率的描述，导致数据型幻觉。",
+    "original_question": "一贯肥育法与阶段肥育法在日增重方面有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一贯肥育法每增重一公斤所需的玉米单位比阶段肥育法少，但消耗的精料量较多；例如，荣昌猪每增重一公斤，需3.22玉米单位，而阶段肥育的则为3.7玉米单位，并且一贯肥育法的饲料成本更低。",
+    "reference_case": "一贯肥育法每增重一公斤所需的玉米单位比阶段肥育法少，但消耗的精料量较多；例如，荣昌猪每增重一公斤，需3.22玉米单位，而阶段肥育的则为3.7玉米单位。",
+    "error_detail": "添加了关于饲料成本的描述，导致数据型幻觉。",
+    "original_question": "一贯肥育法与阶段肥育法在精料消耗上有什么区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一贯肥育法的猪屠宰率低，胴体脂肪较多，小肠不发达；而阶段肥育法的猪花板油少，大肠不发达。",
+    "reference_case": "一贯肥育法的猪屠宰率高，胴体瘦肉较多，小肠发达；而阶段肥育法的猪花板油多，大肠发达，这是因为阶段肥育的猪在架子期内体身中部发育略为受阻，喂给容积大的饲料，以及内部脂肪沉积集中在肥育晚期。",
+    "error_detail": "错误地反转了一贯肥育法和阶段肥育法在屠宰率和胴体特性上的描述。",
+    "original_question": "一贯肥育法与阶段肥育法在屠宰率方面有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公拇猪与母猪的原则上比例是一比五十。",
+    "reference_case": "公拇猪与母猪的原则上比例是一比三十。",
+    "error_detail": "错误地增加了公猪与母猪的比例。",
+    "original_question": "公拇猪与母猪的比例原则上是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "通常是检查仔猪成活数和猪只平均日增重是否超过计划要求的150%。",
+    "reference_case": "通常是检查仔猪成活数和猪只平均日增重是否完成计划要求。",
+    "error_detail": "数值偏差，将完成计划要求错误地改为超过计划要求的150%。",
+    "original_question": "产品变的分析通常检查什么内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "因为土种猪在我国猪总数中占比较大，因此制定饲养标准时要以土种猪的营养需要为主，占比达到90%。",
+    "reference_case": "因为土种猪在我国猪总数中占比较大，因此制定饲养标准时要以土种猪的营养需要为主。",
+    "error_detail": "数值偏差，错误地将占比具体化为90%。",
+    "original_question": "在制定饲养标准时，为什么要以占我国猪数最多的土种猪的营养需要为主？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "Mark Lyons博士认为未来20年的中国食品和饲料工业将是非常令人兴奋的，预计生产效率的提高将减少母猪数量，并提高每头母猪的年产小猪数量至30头。",
+    "reference_case": "Mark Lyons博士认为未来20年的中国食品和饲料工业将是非常令人兴奋的，预计生产效率的提高将减少母猪数量，并提高每头母猪的年产小猪数量。",
+    "error_detail": "错误地增加了每头母猪的年产小猪数量的具体数值，而原始输出中并未提供具体数字。",
+    "original_question": "Mark Lyons博士对未来20年中国食品和饲料工业的看法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪乙型脑炎的免疫时间是在每年蚊虫出现前3个月，根据具体情况确定免疫时间。",
+    "reference_case": "猪乙型脑炎的免疫时间是在每年蚊虫出现前1～2个月，根据具体情况确定免疫时间，对猪等易感家畜进行两次免疫，间隔1～2个月。",
+    "error_detail": "错误地改变了免疫时间的前置期，而原始输出中明确指出是1～2个月。",
+    "original_question": "猪乙型脑炎的免疫时间是如何确定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪伪狂犬病病毒三基因缺失疫苗的安全性试验中，新生仔猪的接种剂量是10⁶ TCID₅₀病毒液。",
+    "reference_case": "在猪伪狂犬病病毒三基因缺失疫苗的安全性试验中，新生仔猪的接种剂量是10⁵ TCID₅₀病毒液。",
+    "error_detail": "错误地改变了接种剂量，而原始输出中明确指出是10⁵ TCID₅₀。",
+    "original_question": "猪伪狂犬病病毒三基因缺失疫苗的安全性试验中，新生仔猪的接种剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪伪狂犬病病毒三基因缺失疫苗的TCID₅₀值为6:75至7:125。",
+    "reference_case": "猪伪狂犬病病毒三基因缺失疫苗的TCID₅₀值为5:75至6:125。",
+    "error_detail": "错误地改变了TCID₅₀值的范围，而原始输出中明确指出是5:75至6:125。",
+    "original_question": "猪伪狂犬病病毒三基因缺失疫苗的TCID₅₀值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪伪狂犬病病毒三基因缺失疫苗的攻毒保护试验中，注射生理盐水的对照组在攻毒后第3天开始出现典型的PRV症状。",
+    "reference_case": "在猪伪狂犬病病毒三基因缺失疫苗的攻毒保护试验中，注射生理盐水的对照组在攻毒后第2天开始出现典型的PRV症状，7天后全部死亡。",
+    "error_detail": "错误地改变了症状出现的时间，而原始输出中明确指出是第2天。",
+    "original_question": "猪伪狂犬病病毒三基因缺失疫苗的攻毒保护试验中，对照组的结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丙硫咪唑对猪囊尾蚴病有显著疗效。",
+    "reference_case": "丙硫咪唑对猪囊尾蚴病有一定疗效。",
+    "error_detail": "夸大了药物的疗效，从'有一定疗效'改为'有显著疗效'。",
+    "original_question": "丙硫咪唑对猪囊尾蚴病有何疗效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪疥螨的发育过程分为卵、幼虫、成虫 3 个阶段。",
+    "reference_case": "猪疥螨的发育过程分为卵、幼虫、若虫和成虫 4 个阶段。",
+    "error_detail": "错误地减少了发育阶段的数量。",
+    "original_question": "猪疥螨的发育过程分为哪些阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "病畜应隔离饲养，先用冷水刷洗痂皮。",
+    "reference_case": "病畜应隔离饲养，先用温水刷洗痂皮，再用1.5%-2.0%敌百虫水溶液涂擦或喷洒患部，每天1次；或用0.05%辛硫磷涂擦、喷雾，间隔5天1次；或用烟草水擦洗患部。伊维菌素1-1.2mg/kg体重皮下注射，轻者1次治愈，重者1周后再用药1次。阿佛菌素口服或皮下注射0.3mg/kg体重，或0.3mg/kg体重沿背中线涂抹，7-10天后重复1次。",
+    "error_detail": "错误地将温水改为冷水，可能影响治疗效果。",
+    "original_question": "猪疥螨病的病畜如何进行隔离和治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "12至14月龄的猪感染率最高。",
+    "reference_case": "8至10月龄的猪感染率最高。",
+    "error_detail": "错误地改变了感染率最高的年龄段。",
+    "original_question": "哪些猪的感染率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "菜籽饼粕中毒的常见症状包括极度兴奋。",
+    "reference_case": "精神沉郁，消瘦，腹泻，粪中带血，腹痛，尿频，血红蛋白尿，末梢发凉，可视粘膜发绀，呼吸困难，鼻孔流出粉红色泡沫液体，牛表现前胃驰缓，妊娠母猪流产，鸡生长发育受阻，甲状腺肿大，严重者出现\"骨短粗病\"。",
+    "error_detail": "错误地添加了不相关的症状。",
+    "original_question": "菜籽饼粕中毒的常见症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "治疗猪食盐中毒的主要措施是立即给予大量饮水。",
+    "reference_case": "本病无特效解毒剂，应采取综合治疗措施。首先停喂含盐多的饲料或饮水，早期可少量多次给予清洁饮水，切忌暴饮。症状明显后应限制饮水，以免加速细胞崩解。其次维持血液中阳离子平衡，可静脉滴注5%葡萄糖酸钙溶液200～400ml或10%氯化钙溶液100～200ml。同时静脉滴注20%甘露醇或高渗葡萄糖溶液，以降低脑内压，改善神经症状；也可应用硫酸镁和溴化钾来对抗钠离子引起的痉挛症。另外，可用双氢克尿噻利尿和油类泻剂，以加速食盐排出。",
+    "error_detail": "错误地建议了治疗方法，可能加重病情。",
+    "original_question": "治疗猪食盐中毒的主要措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预防猪食盐中毒的关键措施是增加食盐添加量。",
+    "reference_case": "严格控制食盐添加量，并混合均匀，保证饮水供应，猪和禽占日粮干物质的0.5%，反刍兽可占1%。在饲喂富含食盐的加工副产品时，也应将其含盐量计算在内。",
+    "error_detail": "错误地建议了预防措施，可能导致中毒。",
+    "original_question": "预防猪食盐中毒的关键措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小挑花法适用于1-4月龄，体重5-20kg的小母猪。",
+    "reference_case": "小挑花法适用于1-3月龄，体重5-15kg的小母猪。",
+    "error_detail": "数值偏差",
+    "original_question": "小挑花法适用于母猪的哪个阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "螺旋藻可以利用牛粪稀释液、猪场废水、纺织废水、化肥厂废水、糖蜜发酵废水、沼气池废液和生活污水等类型的废水和废弃物进行养殖，但效果不佳。",
+    "reference_case": "螺旋藻可以利用牛粪稀释液、猪场废水、纺织废水、化肥厂废水、糖蜜发酵废水、沼气池废液和生活污水等类型的废水和废弃物进行养殖。",
+    "error_detail": "数值偏差",
+    "original_question": "螺旋藻可以利用哪些类型的废水和废弃物进行养殖？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪场曝气废水中，添加1克/升氯化钠、1克/升碳酸氢钠和2毫克/升硫酸亚铁后培养钝顶螺旋藻，8天后藻浓度可达0.5克/升，氨氮和总磷分别被去除50%和20%。",
+    "reference_case": "在猪场曝气废水中，添加2克/升氯化钠、2克/升碳酸氢钠和4毫克/升硫酸亚铁后培养钝顶螺旋藻，8天后藻浓度可达1.1克/升，氨氮和总磷分别被去除95%和34%。",
+    "error_detail": "数值偏差",
+    "original_question": "螺旋藻在猪场曝气废水中培养的具体条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1人一年产生的粪便可产生10 m³沼气；1头猪一年产生的粪便可产生100 m³沼气；1头牛一年产生的粪便可产生250 m³沼气；1只鸡一年产生的粪便可产生5 m³沼气。",
+    "reference_case": "1人一年产生的粪便可产生5.4 m³沼气；1头猪一年产生的粪便可产生78.6 m³沼气；1头牛一年产生的粪便可产生208.0 m³沼气；1只鸡一年产生的粪便可产生2.7 m³沼气。",
+    "error_detail": "数值偏差",
+    "original_question": "人、猪、牛、鸡和一个人一年产生的粪便分别能产生多少沼气？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "人粪、猪粪、牛粪和鸡粪的干物质含量分别为25%、30%、25%和35%。",
+    "reference_case": "人粪、猪粪、牛粪和鸡粪的干物质含量分别为20%、28%、20%和30%。",
+    "error_detail": "干物质含量的数值被夸大",
+    "original_question": "发酵原料的人粪、猪粪、牛粪和鸡粪的干物质含量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "人粪、猪粪和牛粪的年产干物质重量分别为20 kg、310 kg和1100 kg。",
+    "reference_case": "人粪、猪粪和牛粪的年产干物质重量分别为18 kg、306 kg和1095 kg。",
+    "error_detail": "年产干物质重量的数值被夸大",
+    "original_question": "发酵原料的人粪、猪粪和牛粪的年产干物质重量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "人粪、猪粪、牛粪和鸡粪的实际沼气转换率分别为0.35 m³/kg、0.30 m³/kg、0.24 m³/kg和0.30 m³/kg。",
+    "reference_case": "人粪、猪粪、牛粪和鸡粪的实际沼气转换率分别为0.30 m³/kg、0.25 m³/kg、0.19 m³/kg和0.25 m³/kg。",
+    "error_detail": "沼气转换率的数值被夸大",
+    "original_question": "发酵原料的人粪、猪粪、牛粪和鸡粪的实际沼气转换率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "水合氮醛的麻醉一次量为马、牛 15~30 g；猪、羊 3~5 g；犬 0.5~1.5 g。镇静一次量为马、牛 150~300 mg/kg。",
+    "reference_case": "水合氮醛的麻醉一次量为马、牛 10~25 g；猪、羊 2~4 g；犬 0.3~1 g。镇静一次量为马、牛 100~250 mg/kg。",
+    "error_detail": "麻醉和镇静剂量的数值被夸大",
+    "original_question": "水合氮醛的麻醉和镇静剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "硫酸亚铁片剂规格为0.5 g，内服量为马、牛3-12 g；猪、羊1-3 g；犬0.1-0.6 g。",
+    "reference_case": "硫酸亚铁片剂规格为0.3 g，内服量为马、牛2-10 g；猪、羊0.5-2 g；犬0.05-0.5 g。",
+    "error_detail": "片剂规格和内服量的数值被夸大",
+    "original_question": "硫酸亚铁作为补铁制剂，其片剂规格和内服量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "马铃薯茎叶含龙葵素和硝酸盐，猪过量食入易中毒，喂食需谨慎控制用量。",
+    "reference_case": "马铃薯茎叶含龙葵素和硝酸盐，猪过量食入易中毒，喂食需谨慎控制用量。",
+    "error_detail": "错误地提供了具体的控制用量数据，而原始输出并未提及具体数值。",
+    "original_question": "马铃薯茎叶为何不宜喂猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "稻草、甘薯藤、青干草、秸秆等要铡短后才能饲喂，喂牛的稻草可铡短至2~3cm，喂马、骡的铡短至1~2cm，喂猪的甘薯藤铡短至1~2cm。",
+    "reference_case": "稻草、甘薯藤、青干草、秸秆等要铡短后才能饲喂，喂牛的稻草可铡短至2~3cm，喂马、骡的铡短至1~2cm，喂猪的甘薯藤铡短至1~2cm。",
+    "error_detail": "错误地提供了具体的铡短长度，而原始输出并未提及具体数值。",
+    "original_question": "如何铡短饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "将蚕蛹反复煮沸去掉油脂，晾干后粉碎制成蚕蛹粉，含粗蛋白质45%左右，适宜饲喂猪及家禽。",
+    "reference_case": "将蚕蛹反复煮沸去掉油脂，晾干后粉碎制成蚕蛹粉，含粗蛋白质45%左右，适宜饲喂猪及家禽。",
+    "error_detail": "错误地提供了具体的蛋白质含量，而原始输出并未提及具体数值。",
+    "original_question": "蚕蛹粉的加工方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "用500g海带泡胀切碎，加猪油100g煮汤喂母猪，产后一个月每隔7天喂一次，第二个月每隔5天喂一次，增加母猪泌乳量。",
+    "reference_case": "用500g海带泡胀切碎，加猪油100g煮汤喂母猪，产后一个月每隔7天喂一次，第二个月每隔5天喂一次，增加母猪泌乳量。",
+    "error_detail": "错误地提供了具体的喂食频率和量，而原始输出并未提及具体数值。",
+    "original_question": "喂母猪时，如何使用海带？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在断奶仔猪基础日粮中添加2%海带粉，可提高日增重和饲料转化率。",
+    "reference_case": "在断奶仔猪基础日粮中添加2%海带粉，可提高日增重和饲料转化率。",
+    "error_detail": "错误地提供了具体的添加比例，而原始输出并未提及具体数值。",
+    "original_question": "喂仔猪时，饲料中加入海带粉的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "糖蜜的添加量一般为2%~5%。",
+    "reference_case": "糖蜜的添加量一般为2%~5%。",
+    "error_detail": "错误地提供了具体的添加量范围，而原始输出并未提及具体数值。",
+    "original_question": "糖蜜在猪饲料中的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在鸡饲料中添加2%-2.5%艾叶粉，可使总增重提高10%-22%，每增加1kg毛重少消耗精料0.4kg，提高经济效益12.5%；在仔猪饲料中添加3%-4%艾叶粉、育成猪添加1.5%-2.0%，可使日增重提高5%-8%，饲料消耗率降低7%-12%。",
+    "reference_case": "在鸡饲料中添加2%-2.5%艾叶粉，可使总增重提高10%-22%，每增加1kg毛重少消耗精料0.4kg，提高经济效益12.5%；在仔猪饲料中添加3%-4%艾叶粉、育成猪添加1.5%-2.0%，可使日增重提高5%-8%，饲料消耗率降低7%-12%。",
+    "error_detail": "错误地提供了具体的添加比例和效果数据，而原始输出并未提及具体数值。",
+    "original_question": "艾叶对家禽和仔猪的增重及经济效益有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "乳牛的安全剂量为30～50 mg/kg，育肥牛为40～50 mg/kg，绵羊为70～100 mg/kg，猪为70～100 mg/kg，母鸡为150～300 mg/kg。",
+    "reference_case": "乳牛的安全剂量为30～50 mg/kg，育肥牛为40～50 mg/kg，绵羊为70～100 mg/kg，猪为70～100 mg/kg，母鸡为150～300 mg/kg。",
+    "error_detail": "错误地提供了具体的安全剂量数据，而原始输出并未提及具体数值。",
+    "original_question": "饲料中氟的安全剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的经济类型包括三个品种，具体种类在文中提及。",
+    "reference_case": "猪的经济类型包括多个品种，具体种类在文中提及。",
+    "error_detail": "错误地减少了猪的经济类型的品种数量。",
+    "original_question": "猪的经济类型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥育阶段划分为四个阶段，分别为小猪阶段（10 kg以上到25 kg左右）、架子猪阶段（25～50 kg）、催肥阶段（50 kg到出栏）和超肥阶段（出栏后）。",
+    "reference_case": "肥育阶段划分为三个阶段，分别为小猪阶段（10 kg以上到25 kg左右）、架子猪阶段（25～50 kg）和催肥阶段（50 kg到出栏）。",
+    "error_detail": "错误地添加了一个不存在的阶段。",
+    "original_question": "肥育阶段如何划分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小猪阶段的日粮中精料的比重较小，要求日增重达到100～150 g。",
+    "reference_case": "小猪阶段的日粮中精料的比重较大，要求日增重达到200～250 g。",
+    "error_detail": "错误地减少了精料的比重和日增重。",
+    "original_question": "小猪阶段的日粮特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "架子猪阶段的青粗饲料为辅，日增重较快，为250～300 g。",
+    "reference_case": "架子猪阶段的青粗饲料为主，日增重较慢，为150～200 g。",
+    "error_detail": "错误地改变了饲料比重和日增重。",
+    "original_question": "架子猪阶段的日粮特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪年可繁殖3.0～3.5胎，每头母猪育成仔猪数达28～33头，仔猪断奶时间为25日龄，肥猪150日龄体重达120～130 kg，生长育肥期料重比在2.2:1左右。",
+    "reference_case": "母猪年可繁殖2.0～2.5胎，每头母猪育成仔猪数达18～23头，仔猪断奶时间为35日龄，肥猪180日龄体重达90～100 kg，生长育肥期料重比在3.2:1左右。",
+    "error_detail": "错误地改变了所有技术经济指标。",
+    "original_question": "集约化养猪生产的技术经济指标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪在金属限位设备饲养下，每头约占2.16 m²，哺乳母猪6 m²，肥育猪为1.7～1.9 m²。",
+    "reference_case": "妊娠母猪在金属限位设备饲养下，每头约占1.16 m²，哺乳母猪4 m²，肥育猪为0.7～0.9 m²。",
+    "error_detail": "错误地增加了猪舍面积。",
+    "original_question": "集约化养猪中妊娠母猪、哺乳母猪和肥育猪所需猪舍面积是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种公猪全年需要在猪舍中停留300天。",
+    "reference_case": "种公猪全年需要在猪舍中停留365天。",
+    "error_detail": "错误地减少了种公猪在猪舍中的停留天数。",
+    "original_question": "种公猪全年需要在猪舍中停留多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "待配种幼母猪在准备配种前需要进行14天的准备。",
+    "reference_case": "待配种幼母猪在准备配种前需要进行28天的准备。",
+    "error_detail": "错误地减少了准备天数。",
+    "original_question": "待配种幼母猪在准备配种前需要进行多少天的准备？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠后期母猪需要占用猪舍100天。",
+    "reference_case": "妊娠后期母猪需要占用猪舍84天。",
+    "error_detail": "错误地增加了占用猪舍的天数。",
+    "original_question": "妊娠后期母猪需要占用猪舍多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育舍幼猪记录卡片主要记录增重情况、转入和转出的平均活重、成活率、饲料消耗、疾病和死亡原因，以及每日的饮水量。",
+    "reference_case": "保育舍幼猪记录卡片主要记录增重情况、转入和转出的平均活重、成活率、饲料消耗、疾病和死亡原因。",
+    "error_detail": "添加了不存在的记录项'每日的饮水量'",
+    "original_question": "保育舍幼猪记录卡片主要记录哪些内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪在妊娠3个月后较易摸到胎儿。触诊时，可抓痒让母猪卧下，然后再用一只手或两只手在最后两对乳房上壁处前后滑动，触摸是否有硬物而判断。",
+    "reference_case": "猪在妊娠2.5个月后较易摸到胎儿。触诊时，可抓痒让母猪卧下，然后再用一只手或两只手在最后两对乳房上壁处前后滑动，触摸是否有硬物而判断。",
+    "error_detail": "错误地延长了妊娠时间",
+    "original_question": "猪在妊娠早期如何通过外部观察法判断是否妊娠？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牛产后子宫内膜再生一般在20天左右完成，猪在产后第一周开始再生，第三周完成，马产后第一次发情时子宫内膜再生约在产后13至25天内完成。",
+    "reference_case": "牛产后子宫内膜再生一般在30天左右完成，猪在产后第一周开始再生，第三周完成，马产后第一次发情时子宫内膜再生约在产后13至25天内完成。",
+    "error_detail": "错误地缩短了牛产后子宫内膜再生的时间",
+    "original_question": "产后子宫内膜恢复需要多长时间？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "产后子宫复原时间：牛约20至30天、羊约17至20天、猪约25至28天、马约12至14天，完全复原一般在产后1个月左右。",
+    "reference_case": "产后子宫复原时间：牛约30至45天、羊约17至20天、猪约25至28天、马约12至14天，完全复原一般在产后1个月左右。",
+    "error_detail": "错误地缩短了牛产后子宫复原的时间范围",
+    "original_question": "产后子宫复原大约需要多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪窝产仔数一般为8～10头，太湖猪平均达14～17头，年平均产仔窝数为1.8～2.2窝，母猪情期受胎率为70%～80%，总受胎率85%～95%，繁殖年限8～10岁。",
+    "reference_case": "猪窝产仔数一般为10～12头，太湖猪平均达14～17头，年平均产仔窝数为1.8～2.2窝，母猪情期受胎率为70%～80%，总受胎率85%～95%，繁殖年限8～10岁。",
+    "error_detail": "错误地降低了猪窝产仔数的一般范围",
+    "original_question": "猪的正常繁殖力特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "混饮泰妙菌素时，每升水中猪的用量范围是70~100 mg。",
+    "reference_case": "混饮泰妙菌素时，每升水中猪的用量范围是90~120 mg。",
+    "error_detail": "错误地降低了泰妙菌素的用量范围",
+    "original_question": "混饮泰妙菌素时，每升水中猪的用量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "混饲泰妙菌素时，每1000公斤饲料中猪的用量范围是30~80 g。",
+    "reference_case": "混饲泰妙菌素时，每1000公斤饲料中猪的用量范围是40~100 g。",
+    "error_detail": "错误地降低了泰妙菌素的用量范围",
+    "original_question": "混饲泰妙菌素时，每1000公斤饲料中猪的用量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "环丙沙星内服、肌注吸收迅速，生物利用度种属间差异较大，猪、犊牛内服的生物利用度分别是30.0%、50.0%。血药浓度的达峰时间为1-3小时，在动物体内的分布广泛，主要通过肾脏排泄。",
+    "reference_case": "环丙沙星内服、肌注吸收迅速，生物利用度种属间差异较大，猪、犊牛内服的生物利用度分别是37.3%、53.0%。血药浓度的达峰时间为1-3小时，在动物体内的分布广泛，主要通过肾脏排泄。",
+    "error_detail": "错误地降低了猪和犊牛内服的生物利用度",
+    "original_question": "环丙沙星的药动学特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "内服，一次量，每1kg体重，猪、犬3~10mg，2次/d。混饮，每1L饮用水，禽25~50mg。肌内注射，一次量，每1kg体重，家畜2.5mg，家禽5mg，2次/d。",
+    "reference_case": "内服，一次量，每1kg体重，猪、犬5~15mg，2次/d。混饮，每1L饮用水，禽25~50mg。肌内注射，一次量，每1kg体重，家畜2.5mg，家禽5mg，2次/d。",
+    "error_detail": "错误地降低了猪、犬的内服剂量范围",
+    "original_question": "环丙沙星的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "六氯对二甲苯对耕牛血吸虫、牛羊肝片吸虫、前后盘吸虫、复腔吸虫均有极高疗效，对猪姜片吸虫效果显著。",
+    "reference_case": "对耕牛血吸虫、牛羊肝片吸虫、前后盘吸虫、复腔吸虫均有较高疗效，对猪姜片吸虫也有一定效果。",
+    "error_detail": "夸大了疗效，将'较高'改为'极高'，'有一定效果'改为'效果显著'。",
+    "original_question": "六氯对二甲苯对哪些寄生虫有效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "地美硝唑的使用限制是连续用药鸡不得超过15天，产蛋期禁用。休药期，猪5天，鸡5天。",
+    "reference_case": "连续用药鸡不得超过10天，产蛋期禁用。休药期，猪3天，鸡3天。",
+    "error_detail": "将'10天'改为'15天'，'3天'改为'5天'。",
+    "original_question": "地美硝唑的使用限制是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "酚磺乙胺注射液：2 ml: 0.5 g; 10 ml: 2.5 g。肌内、静脉注射，一次量，马、牛0.5（或2.5）5 g，猪、羊0.5~1 g。",
+    "reference_case": "酚磺乙胺注射液：2 ml: 0.25 g; 10 ml: 1.25 g。肌内、静脉注射，一次量，马、牛0.25（或1.25）2.5 g，猪、羊0.25~0.5 g。",
+    "error_detail": "将剂量翻倍，导致数值偏差。",
+    "original_question": "酚磺乙胺的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "6-氨基己酸注射液：10 ml: 2 g; 10 ml: 4 g。静脉注射，首次量，牛、马40~80 g，加于1000 ml生理盐水或5%葡萄糖液中，猪、羊8~12 g，加于200 ml生理盐水或5%葡萄糖液中。维持量，牛、马，每1 h 6~12 g，猪、羊2 g。",
+    "reference_case": "6-氨基己酸注射液：10 ml: 1 g; 10 ml: 2 g。静脉注射，首次量，牛、马20~40 g，加于500 ml生理盐水或5%葡萄糖液中，猪、羊4~6 g，加于100 ml生理盐水或5%葡萄糖液中。维持量，牛、马，每1 h 3~6 g，猪、羊1 g。",
+    "error_detail": "将剂量和液体量翻倍，导致数值偏差。",
+    "original_question": "6-氨基己酸的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪腹腔注射法的注射部位在距耻骨前缘 10 cm 处腹中线旁。",
+    "reference_case": "猪腹腔注射法的注射部位在距耻骨前缘 3~5 cm 处腹中线旁。",
+    "error_detail": "将'3~5 cm'改为'10 cm'，导致数值偏差。",
+    "original_question": "猪腹腔注射法的注射部位在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "环境温度从14°C升高到29°C时，产蛋母鸡的生存时间从10天缩短到5天。在35°C时，白色来航鸡每小时通过呼吸蒸发的水分量为3.0克，而在20°C时则为0.3克/小时。",
+    "reference_case": "环境温度从14°C升高到29°C时，产蛋母鸡的生存时间从8天缩短到6天。在35°C时，白色来航鸡每小时通过呼吸蒸发的水分量为2.6克，而在20°C时则为0.5克/小时。",
+    "error_detail": "修改了生存时间和蒸发水分量的数值，导致数据偏差。",
+    "original_question": "温度变化如何影响家禽的饮水量和代谢？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "必须补加倍铜料消耗量以保持每日增重。",
+    "reference_case": "必须补加铜料消耗量以保持每日增重。",
+    "error_detail": "添加了'加倍'的错误信息。",
+    "original_question": "在寒冷时期对任意进食的猪，必须补加多少铜料消耗量以保持每日增重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在热应激时，每日进食量减少约80克/℃，相应地减少日增重20-40克/℃。例如，猪保持在适宜温度以上10℃时，每日进食量会减少800克，需要大幅调整粗蛋白含量以满足需求。",
+    "reference_case": "在热应激时，每日进食量减少约40克/℃，相应地减少日增重10-20克/℃。例如，猪保持在适宜温度以上5℃时，每日进食量会减少200克，需要调整粗蛋白含量以满足需求。",
+    "error_detail": "将数值翻倍，导致数据偏差。",
+    "original_question": "在热应激期间，日粮粗蛋白需要如何调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "当猪在适宜温度以上5℃时，进食量减少200克，校正后的粗蛋白含量应大于15.5%，计算得到为16.42%。",
+    "reference_case": "根据日增重需要，计算校正日粮的粗蛋白含量。例如，当猪在适宜温度以上5℃时，进食量减少200克，校正后的粗蛋白含量应大于13.5%，计算得到为14.42%。",
+    "error_detail": "数值偏差，粗蛋白含量的百分比被错误地提高。",
+    "original_question": "如何计算校正日粮的粗蛋白含量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪生长发育的适宜温度范围为25-35℃。",
+    "reference_case": "猪生长发育的适宜温度范围为15-25℃。",
+    "error_detail": "数据型幻觉，温度范围被错误地提高。",
+    "original_question": "猪舍内适宜的温度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1日龄40℃；2-4日龄35-36℃；5-7日龄30-32℃；8-35日龄25-30℃。",
+    "reference_case": "1日龄35℃；2-4日龄33-34℃；5-7日龄28-30℃；8-35日龄20-28℃。",
+    "error_detail": "数据型幻觉，温度范围被错误地提高。",
+    "original_question": "仔猪周围最适宜的温度范围是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对仔猪来说，日光是生长发育的必要条件，成年公猪和母猪需要强烈的自然光照，而肥育猪对光照的需要较高。",
+    "reference_case": "对仔猪来说，日光是生长发育的必要条件，成年公猪和母猪需要适当的自然光照，而肥育猪对光照的需要较低。",
+    "error_detail": "错误地提高了成年公猪、母猪和肥育猪对光照的需求量。",
+    "original_question": "不同生长阶段的猪对光照需要量有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟兔化疫苗按瓶签服用，断奶仔猪接种后免疫力不够强，需在断奶后再注射2次，保存温度为-20°C，保存期为30天。",
+    "reference_case": "猪瘟兔化疫苗按瓶签服用，断奶仔猪接种后免疫力不够强，需在断奶后再注射1次，保存温度为-15°C，保存期为15天。",
+    "error_detail": "错误地增加了注射次数，改变了保存温度和保存期。",
+    "original_question": "猪瘟兔化疫苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "三联苗按瓶签要求用30%铝胶生理盐水稀释，每头猪肌肉注射2mL，末断奶猪注射后1个月再注射1次，注射后7～14天产生免疫力，保存温度为-20°C，保存期为2个月；0～8°C保存8个月；20～25°C保存15天。",
+    "reference_case": "三联苗按瓶签要求用20%铝胶生理盐水稀释，每头猪肌肉注射1mL，末断奶猪注射后2个月再注射1次，注射后14～21天产生免疫力，保存温度为-15°C，保存期为1个月；0～8°C保存6个月；20～25°C保存10天。",
+    "error_detail": "错误地改变了稀释比例、注射量、注射间隔、免疫力产生时间、保存温度和保存期。",
+    "original_question": "猪瘟、猪丹毒、猪肺疫三联苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冻干苗按瓶签标明头份，30%铝胶生理盐水稀释，于猪耳后浅层肌肉注射2mL，常发病地区可在断奶前后间隔5～6周各免疫1次，注射14天产生免疫力，保存温度为-20°C，保存期为2年；2～8°C保存10个月。",
+    "reference_case": "冻干苗按瓶签标明头份，20%铝胶生理盐水稀释，于猪耳后浅层肌肉注射1mL，常发病地区可在断奶前后间隔3～4周各免疫1次，注射7天产生免疫力，保存温度为-15°C，保存期为1年；2～8°C保存8个月。",
+    "error_detail": "错误地改变了稀释比例、注射量、免疫间隔、免疫力产生时间、保存温度和保存期。",
+    "original_question": "仔猪副伤寒弱毒疫苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预防猪链球菌病，断奶后仔猪至成年猪每头肌肉或皮下注射2mL，注射14～21天产生免疫力，保存温度为-20°C，保存期为2年；2～8°C保存10个月；15～20°C保存45天。",
+    "reference_case": "预防猪链球菌病，断奶后仔猪至成年猪每头肌肉或皮下注射1mL，注射7～14天产生免疫力，保存温度为-15°C，保存期为1年；2～8°C保存8个月；15～20°C保存30天。",
+    "error_detail": "错误地改变了注射量、免疫力产生时间、保存温度和保存期。",
+    "original_question": "猪链球菌弱毒冻干菌苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "按瓶签标明头份稀释后，耳根后肌肉注射2mL，公猪1年3次，母猪配种前2个月免疫1次，保存温度为-20°C，保存期为2年。",
+    "reference_case": "按瓶签标明头份稀释后，耳根后肌肉注射1mL，公猪1年2次，母猪配种前1个月免疫1次，保存温度为-15°C，保存期为1年。",
+    "error_detail": "错误地改变了注射量、免疫次数、免疫时间、保存温度和保存期。",
+    "original_question": "猪细小病毒弱毒疫苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预防猪传染性胃肠炎。后海穴注射，被动免疫妊娠母猪于产前14～21天注射3mL；主动免疫初生仔猪注射1mL；10～50kg注射2mL；50kg以上注射3mL。",
+    "reference_case": "预防猪传染性胃肠炎。后海穴注射，被动免疫妊娠母猪于产前21～30天注射2mL；主动免疫初生仔猪注射0.5mL；10～50kg注射1mL；50kg以上注射2mL。",
+    "error_detail": "错误地改变了注射时间和注射量。",
+    "original_question": "猪传染性胃肠炎弱毒疫苗的主要用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "0～4℃保存。",
+    "reference_case": "2～8℃保存。",
+    "error_detail": "错误地改变了保存温度范围。",
+    "original_question": "猪流行性腹泻疫苗的保存条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳猪股内侧肌肉接种1mL；断奶仔猪股内侧肌肉或臀部肌肉接种2mL；成年猪臀部肌肉接种3mL；生产母猪于每次配种前接种2次，其所产乳猪在断奶时再接种2mL。",
+    "reference_case": "乳猪股内侧肌肉接种0.5mL；断奶仔猪股内侧肌肉或臀部肌肉接种1mL；成年猪臀部肌肉接种2mL；生产母猪于每次配种前接种1次，其所产乳猪在断奶时再接种1mL。",
+    "error_detail": "错误地增加了注射量和接种次数。",
+    "original_question": "猪伪狂犬病弱毒冻干苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保存期为2年。",
+    "reference_case": "保存期为1.5年。",
+    "error_detail": "错误地延长了保存期。",
+    "original_question": "猪传染性萎缩性鼻炎灭活油乳剂苗的保存期是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保存期为1.5年。",
+    "reference_case": "保存期为1年。",
+    "error_detail": "错误地延长了保存期。",
+    "original_question": "猪传染性胸膜肺炎灭活油乳剂苗的保存期是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2℃保存2年。",
+    "reference_case": "4℃保存1年。",
+    "error_detail": "错误地改变了保存温度和保存期。",
+    "original_question": "猪繁殖与呼吸综合征灭活疫苗的保存条件是什么？",
+    "original_input": ""
+  }
+]

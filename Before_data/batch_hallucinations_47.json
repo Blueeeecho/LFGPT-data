@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "内部传导机制对生猪生产波动的影响较大，占 80.00%。",
+    "reference_case": "内部传导机制对生猪生产波动的影响较大，占 71.56%。",
+    "error_detail": "数值偏差",
+    "original_question": "在生猪生产波动的因素分析中，内部传导机制占多少比例？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "农民人均收入对生猪产量的弹性系数为负值，说明农民人均收入的提高可能导致生猪产量增加。",
+    "reference_case": "农民人均收入对生猪产量的弹性系数为负值，说明农民人均收入的提高可能导致部分养殖户从生猪养殖业转移，从而对生猪产量产生负面影响。",
+    "error_detail": "概念混淆",
+    "original_question": "农民人均收入对生猪产量的弹性系数为负值，这说明了什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "湖南生猪生产函数模型的调整后 R² 值为 0.95，说明模型的拟合度较高。",
+    "reference_case": "湖南生猪生产函数模型的调整后 R² 值为 0.999327，说明模型的拟合度较高。",
+    "error_detail": "数值偏差",
+    "original_question": "湖南生猪生产函数模型的调整后 R² 值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生猪价格对生猪生产的弹性系数为 0.80，说明生猪价格对生猪产量的影响较大。",
+    "reference_case": "生猪价格对生猪生产的弹性系数为 0.60，说明生猪价格对生猪产量的影响较大。",
+    "error_detail": "数值偏差",
+    "original_question": "生猪价格对生猪生产的弹性系数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "农村人口数对生猪生产的弹性系数为负值，原因是生猪生产的发展导致农村人口减少。",
+    "reference_case": "农村人口数对生猪生产的弹性系数为负值，原因有两个方面：一是农村土地和其他资源有限，农村人口多时，主要资源投入到粮食生产；二是农村人口减少为生猪发展提供必要的空间与环境，促使养殖户提高养殖效率和扩大规模。",
+    "error_detail": "因果倒置",
+    "original_question": "农村人口数对生猪生产的弹性系数为负值，这符合实际情况的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "政府生猪政策对生猪产量的影响不显著的原因有四：一是湖南生猪主要是散户饲养，农民不了解政府政策的变化；二是政策力度不大，不足以改变农民的养殖习惯和结构；三是政策建立在不准确的统计数据基础上，不能有效降低养殖风险；四是政策执行不力。",
+    "reference_case": "政府生猪政策对生猪产量的影响不显著的原因有三：一是湖南生猪主要是散户饲养，农民不了解政府政策的变化；二是政策力度不大，不足以改变农民的养殖习惯和结构；三是政策建立在不准确的统计数据基础上，不能有效降低养殖风险。",
+    "error_detail": "添加假设",
+    "original_question": "政府生猪政策对生猪产量的影响为何不显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "湖南生猪生产与农民收入之间存在短期的均衡关系。",
+    "reference_case": "湖南生猪生产与农民收入之间存在长期的均衡关系，生猪生产是农民收入的格兰杰原因，发展生猪生产对农民收入有显著影响。",
+    "error_detail": "概念混淆",
+    "original_question": "湖南生猪生产与农民收入之间存在什么样的关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "虚报率为30.00%。",
+    "reference_case": "虚报率为27.75%。",
+    "error_detail": "数值偏差",
+    "original_question": "文本提到1996年生猪统计数据存在虚报，虚报率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "波动指数=（生猪趋势年出栏数-生猪实际年出栏数）/生猪趋势年出栏数。",
+    "reference_case": "波动指数=（生猪实际年出栏数-生猪趋势年出栏数）/生猪趋势年出栏数。",
+    "error_detail": "概念混淆",
+    "original_question": "文中提到的波动指数是如何计算的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "根据预测，2010-2019年我国猪肉供需缺口在500.00万吨左右。",
+    "reference_case": "根据预测，2010-2019年我国猪肉供需缺口在480.93万吨左右，这是造成生猪和猪肉价格达到历史新高的原因，也是中国持续大量从美国进口猪肉的原因。",
+    "error_detail": "数值偏差",
+    "original_question": "我国全国猪肉供应缺口的现状如何？",
+    "original_input": ""
+  }
+]

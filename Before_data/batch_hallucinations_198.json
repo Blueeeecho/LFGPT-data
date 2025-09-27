@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "扑灭媒介蜱、疥螨、虫和吸血昆虫是为了直接杀死病原体，减少猪附红细胞体病的传播风险。",
+    "reference_case": "扑灭媒介蜱、疥螨、虫和吸血昆虫是为了防止这些昆虫传播病原体，减少猪附红细胞体病的传播风险。",
+    "error_detail": "错误地将扑灭媒介昆虫的目的描述为直接杀死病原体，而非防止传播。",
+    "original_question": "猪附红细胞体病的防治中，为什么需要扑灭媒介蜱、疥螨、虫和吸血昆虫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "防治措施包括在饲养场地安装纱门、纱窗，封闭式管理，设置粘蝇纸灭蚊蝇，使用10%氢氧化钠消毒，无害化处理病死仔猪，紧急隔离发病仔猪，全群饲料中添加青霉素，饮水中添加电解多维，以及肌肉注射贝尼尔。",
+    "reference_case": "防治措施包括在饲养场地安装纱门、纱窗，封闭式管理，设置粘蝇纸灭蚊蝇，使用4%氢氧化钠消毒，无害化处理病死仔猪，紧急隔离发病仔猪，全群饲料中添加土霉素，饮水中添加电解多维，以及肌肉注射贝尼尔。",
+    "error_detail": "错误地修改了消毒剂浓度和饲料中添加的药物。",
+    "original_question": "猪附红细胞体病的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "注水牛肉在屠宰环节的监管存在的主要问题是，所有省市都制定了牛的屠宰管理办法，但执行不力。",
+    "reference_case": "注水牛肉在屠宰环节的监管存在的主要问题是，大部分省市未制定牛的屠宰管理办法，导致管理部门不明，直接处罚依据缺失，注水牛肉无法像注水猪肉那样由特定的管理部门直接拦下，相关责任人无法被严厉处罚，注水牛肉通过各种渠道流向市场。",
+    "error_detail": "错误地声称所有省市都制定了牛的屠宰管理办法，与事实不符。",
+    "original_question": "注水牛肉在屠宰环节的监管存在哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "ROSA26基因敲入猪模型的研究成果发表在《自然》期刊上。",
+    "reference_case": "ROSA26基因敲入猪模型的研究成果发表在《细胞研究》期刊上。",
+    "error_detail": "错误地声称研究成果发表在《自然》期刊上，而非《细胞研究》。",
+    "original_question": "ROSA26基因敲入猪模型的研究成果发表在哪个期刊上？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "ROSA26基因敲入猪模型可直接用于人类干细胞治疗，无需进一步研究。",
+    "reference_case": "ROSA26基因敲入猪模型可为揭示和人类干细胞相关的疾病机理和实施干细胞治疗提供大动物实验依据。",
+    "error_detail": "错误地添加了无需进一步研究的假设，与原始输出不符。",
+    "original_question": "ROSA26基因敲入猪模型如何应用于干细胞研究？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "ROSA26基因敲入猪模型的创新点在于首次实现了猪基因敲入技术。",
+    "reference_case": "ROSA26基因敲入猪模型的创新点在于成功实现了猪重组酶介导的基因交换，解决了转基因猪研究领域效率低下、表型不确定的问题。",
+    "error_detail": "错误地将创新点描述为首次实现猪基因敲入技术，而非重组酶介导的基因交换。",
+    "original_question": "ROSA26基因敲入猪模型的创新点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "《生猪屠宰管理条例》第二十九条规定，销售、使用非生猪定点屠宰厂屠宰的生猪产品、未经肉品品质检验或检验不合格的生猪产品以及注水或注入其他物质的生猪产品，处罚措施包括没收相关产品和违法所得，并处货值金额1倍以上3倍以下的罚款，情节严重的吊销证照。",
+    "reference_case": "《生猪屠宰管理条例》第二十九条规定，销售、使用非生猪定点屠宰厂屠宰的生猪产品、未经肉品品质检验或检验不合格的生猪产品以及注水或注入其他物质的生猪产品，处罚措施包括没收相关产品和违法所得，并处货值金额3倍以上5倍以下的罚款，情节严重的吊销证照。",
+    "error_detail": "错误地修改了罚款的倍数范围。",
+    "original_question": "《生猪屠宰管理条例》第二十九条对销售不合格生猪产品的处罚是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "研究人员在ROSA26位点引入一对同源loxp位点，通过重组酶介导的基因交换，将EGFP基因替换为红色荧光蛋白tdTomato基因，从而实现目的基因在大动物所有组织中的无差异表达。",
+    "reference_case": "研究人员在ROSA26位点引入一对异源loxp位点，通过重组酶介导的基因交换，将EGFP基因替换为红色荧光蛋白tdTomato基因，从而实现目的基因在大动物所有组织中的无差异表达。",
+    "error_detail": "错误地将异源loxp位点描述为同源loxp位点。",
+    "original_question": "ROSA26基因敲入猪模型如何实现目的基因的无差异表达？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "PRRSV感染猪肺泡巨噬细胞（PAMs）后，NEMO蛋白被切割，产生一条大小约50 ku的蛋白条带。",
+    "reference_case": "PRRSV感染猪肺泡巨噬细胞（PAMs）后，NEMO蛋白被切割，产生一条大小约40 ku的蛋白条带。",
+    "error_detail": "错误地修改了蛋白条带的大小。",
+    "original_question": "PRRSV感染猪肺泡巨噬细胞（PAMs）后，NEMO蛋白会发生什么变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PRRSV的非结构蛋白NSP1、NSP2、NSP3和NSP11均具有抑制I型干扰素（IFN-I）产生的功能。",
+    "reference_case": "PRRSV的非结构蛋白NSP1、NSP2、NSP4和NSP11均具有抑制I型干扰素（IFN-I）产生的功能。",
+    "error_detail": "错误地将NSP4替换为NSP3。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的哪些非结构蛋白具有抑制I型干扰素（IFN-I）产生的功能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪繁殖与呼吸综合征（PRRS）是由猪繁殖与呼吸综合征病毒（PRRSV）引起的一种猪细菌性传染病，能够导致妊娠母猪繁殖障碍和各种年龄阶段猪的呼吸症状。",
+    "reference_case": "猪繁殖与呼吸综合征（PRRS）是由猪繁殖与呼吸综合征病毒（PRRSV）引起的一种猪病毒性传染病，能够导致妊娠母猪繁殖障碍和各种年龄阶段猪的呼吸症状。",
+    "error_detail": "错误地将病毒性传染病描述为细菌性传染病。",
+    "original_question": "什么是猪繁殖与呼吸综合征（PRRS）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在副猪嗜血杆菌 VtaA1 蛋白的表达过程中，25°C 和 37°C 条件被用于诱导表达。",
+    "reference_case": "在副猪嗜血杆菌 VtaA1 蛋白的表达过程中，22°C 和 37°C 条件被用于诱导表达。",
+    "error_detail": "错误地修改了诱导表达的温度条件。",
+    "original_question": "在副猪嗜血杆菌 VtaA1 蛋白的表达过程中，哪些温度条件被用于诱导表达？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "副猪嗜血杆菌 VtaA1 蛋白的中间区段（VtaA1M）与胸膜肺炎放线杆菌血清 2 型假定蛋白及 12 型粘附素具有较高的同源性，约为 50%。",
+    "reference_case": "副猪嗜血杆菌 VtaA1 蛋白的中间区段（VtaA1M）与胸膜肺炎放线杆菌血清 2 型假定蛋白及 12 型粘附素具有较高的同源性，约为 33%。",
+    "error_detail": "错误地修改了同源性百分比。",
+    "original_question": "副猪嗜血杆菌 VtaA1 蛋白的中间区段（VtaA1M）与哪些细菌的蛋白具有较高的同源性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "副猪嗜血杆菌 VtaA1 蛋白的 N-端（VtaA1N）和 C-端（VtaA1C）被用于原核表达。",
+    "reference_case": "副猪嗜血杆菌 VtaA1 蛋白的 N-端（VtaA1N）、C-端（VtaA1C）和中间区段（VtaA1M）被用于原核表达。",
+    "error_detail": "错误地遗漏了中间区段（VtaA1M）的描述。",
+    "original_question": "副猪嗜血杆菌 VtaA1 蛋白的哪些区段被用于原核表达？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "副猪嗜血杆菌 VtaA1 蛋白的 C-端（VtaA1C）与脑膜炎奈瑟氏菌和副泡沫溶血嗜血杆菌等粘附素具有较高的同源性，约为 50%。",
+    "reference_case": "副猪嗜血杆菌 VtaA1 蛋白的 C-端（VtaA1C）与脑膜炎奈瑟氏菌和副泡沫溶血嗜血杆菌等粘附素具有较高的同源性，约为 35%。",
+    "error_detail": "错误地修改了同源性百分比。",
+    "original_question": "副猪嗜血杆菌 VtaA1 蛋白的 C-端（VtaA1C）与哪些细菌的蛋白具有较高的同源性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "副猪嗜血杆菌 VtaA1M 和 VtaA1C 蛋白在小鼠免疫攻毒试验中的保护率均为 80%。",
+    "reference_case": "副猪嗜血杆菌 VtaA1M 和 VtaA1C 蛋白在小鼠免疫攻毒试验中的保护率均为 60%。",
+    "error_detail": "错误地修改了保护率。",
+    "original_question": "副猪嗜血杆菌 VtaA1M 和 VtaA1C 蛋白在小鼠免疫攻毒试验中的保护率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "副猪嗜血杆菌 VtaA1 蛋白的 N-端（VtaA1N）与大肠杆菌粘附素具有较高的同源性，约为 50%。",
+    "reference_case": "副猪嗜血杆菌 VtaA1 蛋白的 N-端（VtaA1N）与大肠杆菌粘附素具有较高的同源性，约为 32%。",
+    "error_detail": "错误地修改了同源性百分比。",
+    "original_question": "副猪嗜血杆菌 VtaA1 蛋白的哪些区段与大肠杆菌粘附素具有较高的同源性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在副猪嗜血杆菌 VtaA1 蛋白的表达过程中，VtaA1N 和 VtaA1C 能够通过亲和层析纯化，而 VtaA1M 无法被纯化。",
+    "reference_case": "在副猪嗜血杆菌 VtaA1 蛋白的表达过程中，VtaA1M 和 VtaA1C 能够通过亲和层析纯化，而 VtaA1N 无法被纯化。",
+    "error_detail": "错误地交换了可纯化和不可纯化的区段。",
+    "original_question": "在副猪嗜血杆菌 VtaA1 蛋白的表达过程中，哪些部分能够被纯化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "通过以血清 5 型 HPS 株基因组为模板，使用 PCR 方法扩增 VtaA1 编码基因的 N-端、C-端和中间区段，并将各基因片段克隆于表达载体 pET-28a(+) 中构建重组表达质粒 pET-VtaA1N、pET-VtaA1C 和 pET-VtaA1M，然后将重组质粒分别转化到 E.coli BL21（DE3:感受态中，在 22°C 和 37°C 条件下经 IPTG 诱导表达，最终通过免疫小鼠并检测其免疫保护效率来鉴定。此外，还进行了体外细胞实验。",
+    "reference_case": "通过以血清 5 型 HPS 株基因组为模板，使用 PCR 方法扩增 VtaA1 编码基因的 N-端、C-端和中间区段，并将各基因片段克隆于表达载体 pET-28a(+) 中构建重组表达质粒 pET-VtaA1N、pET-VtaA1C 和 pET-VtaA1M，然后将重组质粒分别转化到 E.coli BL21（DE3:感受态中，在 22°C 和 37°C 条件下经 IPTG 诱导表达，最终通过免疫小鼠并检测其免疫保护效率来鉴定。",
+    "error_detail": "错误地添加了未提及的体外细胞实验。",
+    "original_question": "副猪嗜血杆菌（HPS）自转运三聚体 VtaA1 蛋白的免疫保护效率是如何鉴定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "副猪嗜血杆菌 VtaA1 蛋白的免疫原性和保护效力研究表明 VtaA1M 和 VtaA1C 具有良好的免疫原性和保护率，为 HPS 新的血清学诊断试剂和亚单位疫苗的研制奠定了基础，且已成功应用于临床。",
+    "reference_case": "副猪嗜血杆菌 VtaA1 蛋白的免疫原性和保护效力研究表明 VtaA1M 和 VtaA1C 具有良好的免疫原性和保护率，为 HPS 新的血清学诊断试剂和亚单位疫苗的研制奠定了基础。",
+    "error_detail": "错误地添加了已成功应用于临床的假设。",
+    "original_question": "副猪嗜血杆菌 VtaA1 蛋白的免疫原性和保护效力研究对疫苗研制有何意义？",
+    "original_input": ""
+  }
+]

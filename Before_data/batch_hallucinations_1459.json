@@ -1,0 +1,173 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "太湖猪是我国乃至全世界猪种中繁殖力最高，产仔数最多的品种。品种内类群结构丰富，有广泛的遗传基础。肌内脂肪较少，肉质较差。",
+    "reference_case": "太湖猪是我国乃至全世界猪种中繁殖力最高，产仔数最多的品种。品种内类群结构丰富，有广泛的遗传基础。肌内脂肪较多，肉质较好。",
+    "error_detail": "错误地减少了肌内脂肪的含量并贬低了肉质",
+    "original_question": "太湖猪的主要特点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "碳水化合物是植物性饲料的主要成分，分解吸收后能供给猪体蛋白质。",
+    "reference_case": "碳水化合物是植物性饲料的主要成分，分解吸收后能供给猪体热能。",
+    "error_detail": "错误地将碳水化合物的功能从供给热能改为供给蛋白质",
+    "original_question": "碳水化合物在植物性饲料中的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "碳水化合物进入猪体后，被氧化后产生热，用来作为呼吸、运动、循环、消化、吸收、分泌、细胞更新、神经传导及维持体温等各种生命活动的能源，但这些活动反过来又消耗碳水化合物。",
+    "reference_case": "碳水化合物进入猪体后，被氧化后产生热，用来作为呼吸、运动、循环、消化、吸收、分泌、细胞更新、神经传导及维持体温等各种生命活动的能源。",
+    "error_detail": "错误地添加了生命活动消耗碳水化合物的因果倒置描述",
+    "original_question": "碳水化合物进入猪体后主要起到什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "剩余的碳水化合物可以转化为蛋白质。",
+    "reference_case": "剩余的碳水化合物可以转化为脂肪。",
+    "error_detail": "错误地将碳水化合物的转化目标从脂肪改为蛋白质",
+    "original_question": "碳水化合物在猪体内的剩余部分可以转化为什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "无氮浸出物难消化，是植物性饲料中产生热能的主要物质。",
+    "reference_case": "无氮浸出物易消化，是植物性饲料中产生热能的主要物质。",
+    "error_detail": "错误地改变了无氮浸出物的消化性质",
+    "original_question": "无氮浸出物在猪饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "过多的粗纤维会提高饲料中其它养分的消化率，故猪饲料中粗纤维含量应尽可能高。",
+    "reference_case": "过多的粗纤维会影响饲料中其它养分的消化率，故猪饲料中粗纤维含量不宜过高。",
+    "error_detail": "错误地颠倒了粗纤维对养分消化率的影响并建议增加其含量",
+    "original_question": "过多的粗纤维对猪饲料有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "适量的粗纤维能提供全部能量，抑制胃、肠蠕动，不利于消化和排泄以及具有填充作用，使猪具有饱感。",
+    "reference_case": "适量的粗纤维能提供部分能量，促进胃、肠蠕动，有利于消化和排泄以及具有填充作用，使猪具有饱感。",
+    "error_detail": "错误地夸大了粗纤维的能量贡献并颠倒了其对消化系统的影响",
+    "original_question": "适量的粗纤维在猪饲养中有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "脂肪在猪体内的主要功能是储存能量。",
+    "reference_case": "脂肪在猪体内的主要功能是氧化供能。",
+    "error_detail": "错误地将脂肪的主要功能从氧化供能改为储存能量",
+    "original_question": "脂肪在猪体内的主要功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "多余部分可被排出猪体外。",
+    "reference_case": "多余部分可被积存猪体内。",
+    "error_detail": "错误地改变了脂肪过剩时的处理方式",
+    "original_question": "脂肪过剩时会如何处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "除米糠、虫粉和部分油饼外，猪饲料中通常含脂肪很多。",
+    "reference_case": "除米糠、虫粉和部分油饼外，猪饲料中通常含脂肪不多。",
+    "error_detail": "错误地增加了猪饲料中脂肪的含量描述",
+    "original_question": "猪饲料中通常含脂肪多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "20至60公斤瘦肉型生长猪的日粮应具有以下养分水平：消化能3500千卡/公斤；粗蛋白质18%；赖氨酸0.85%；钙0.7%；磷0.6%；食盐0.33%。",
+    "reference_case": "消化能3100千卡/公斤；粗蛋白质16%；赖氨酸0.75%；钙0.6%；磷0.5%；食盐0.23%。",
+    "error_detail": "错误地提高了所有养分水平的数值",
+    "original_question": "20至60公斤瘦肉型生长猪的日粮应具有哪些养分水平？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的纯种繁育是指在异品种间进行繁殖和选育，以保持和发展某一品种或品系的优良特性。",
+    "reference_case": "猪的纯种繁育是指在同品种内进行繁殖和选育，以保持和发展某一品种或品系的优良特性。",
+    "error_detail": "错误地将纯种繁育的定义从同品种改为异品种间",
+    "original_question": "猪的纯种繁育是指什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "同胞选择法适用于公猪本身表现的性状，如生长速度、饲料转化率等，以及屠宰率、胴体品质等不能或不易活体度量的性状。",
+    "reference_case": "同胞选择法适用于公猪本身不表现的性状，如繁殖力、泌乳力等，以及屠宰率、胴体品质等不能或不易活体度量的性状。",
+    "error_detail": "错误地改变了同胞选择法适用的性状类型",
+    "original_question": "同胞选择法适用于哪些性状的评价？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "后裔测验法主要应用于种母猪，也可用于鉴定公猪。",
+    "reference_case": "后裔测验法主要应用于种公猪，也可用于鉴定母猪。",
+    "error_detail": "错误地颠倒了后裔测验法主要应用的对象",
+    "original_question": "后裔测验法主要应用于哪类个体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在配种前一个月，标准增加40~45%。",
+    "reference_case": "在配种前一个月，标准增加20~25%。",
+    "error_detail": "错误地提高了配种前喂养标准的增加比例",
+    "original_question": "配种前一个月如何调整种公猪的喂养标准？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冬季严寒期，标准增加26~30%。",
+    "reference_case": "冬季严寒期，标准增加16~20%。",
+    "error_detail": "错误地提高了冬季严寒期喂养标准的增加比例",
+    "original_question": "冬季严寒期对种公猪的喂养标准有何调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "种公猪性成熟后，会出现互相攻击和自残的行为，严重时会造成生殖器官损伤。",
+    "reference_case": "种公猪性成熟后，会出现互相爬跨和自淫的行为，严重时会造成生殖器官损伤。",
+    "error_detail": "错误地改变了性成熟后种公猪的行为描述",
+    "original_question": "种公猪在性成熟后会出现哪些行为问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在配种季节，可在种公猪的日粮中补加适量的植物性蛋白饲料，以保持和提高精液品质。",
+    "reference_case": "在配种季节，可在种公猪的日粮中补加适量的动物性蛋白饲料，以保持和提高精液品质。",
+    "error_detail": "错误地将补加的饲料类型从动物性蛋白改为植物性蛋白",
+    "original_question": "人工采精时对种公猪的饲养有何要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1~2岁为青年阶段，每周可配3~4次；2~5岁为壮年阶段，每天可配3~4次，最好是早、晚各一次；5岁以上每周休息1~2天，每隔2~3天使用1次。",
+    "reference_case": "1~2岁为青年阶段，每周可配1~2次；2~5岁为壮年阶段，每天可配1~2次，最好是早、晚各一次；5岁以上每周休息2~3天，每隔1~2天使用1次。",
+    "error_detail": "错误地提高了种公猪在不同年龄段的使用频率",
+    "original_question": "种公猪在不同年龄段的使用频率是怎样的？",
+    "original_input": ""
+  }
+]

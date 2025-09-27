@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪疥螨感染的猪会出现皮肤溃烂、体重急剧下降、被毛脱落、皮肤严重角化。",
+    "reference_case": "擦伤、体重下降、被毛粗、皮肤角化。",
+    "error_detail": "错误地添加了皮肤溃烂和被毛脱落等严重症状，与原始描述不符。",
+    "original_question": "猪疥螨感染的猪会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "增生性肠炎主要影响1—3月龄的猪，贫血最突出。",
+    "reference_case": "哺乳猪到成年猪，2—5月龄贫血最突出。",
+    "error_detail": "错误地缩小了年龄范围，与原始描述不符。",
+    "original_question": "增生性肠炎主要影响哪些年龄段的猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "真菌毒素黄曲霉毒素主要影响成年猪，年轻猪症状较轻。",
+    "reference_case": "各种年龄，年轻猪症状较重。",
+    "error_detail": "错误地反转了年龄与症状严重程度的关系。",
+    "original_question": "真菌毒素黄曲霉毒素主要影响哪些猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "左环14酮酚中毒可能导致猪出现抽搐、昏迷、死亡。",
+    "reference_case": "跛行、步态僵硬、嗜眠。",
+    "error_detail": "错误地添加了抽搐、昏迷、死亡等严重症状，与原始描述不符。",
+    "original_question": "左环14酮酚中毒可能导致猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "链球菌、猪沙门氏菌、类马沙门氏菌感染会导致母猪出现肝脏坏死、脾脏破裂、心脏出血。",
+    "reference_case": "实质器官充血、纤维素丝、淋巴结肿大、脑膜炎、多关节炎。",
+    "error_detail": "错误地添加了肝脏坏死、脾脏破裂、心脏出血等严重病变，与原始描述不符。",
+    "original_question": "链球菌、猪沙门氏菌、类马沙门氏菌感染会导致母猪出现哪些剖检变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "低血糖会导致母猪出现胃溃疡、肠道出血。",
+    "reference_case": "无肉眼病变、无体脂、胃中无食物。",
+    "error_detail": "错误地添加了胃溃疡、肠道出血等病变，与原始描述不符。",
+    "original_question": "低血糖会导致母猪出现哪些剖检变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "败血症门氏杆菌病会导致发热 (39.5-40.5°C)，多数猪发现时已死亡，扎堆、发病率 20%、死亡率极高、1-2天后可能腹泻、沉郁、厌食。",
+    "reference_case": "发热 (40.5-41.6°C)，少 数 猪发现时已死亡，扎堆、发病率 10%、死亡率高、3-4天后可能腹泻、沉郁、厌食。",
+    "error_detail": "错误地修改了温度范围、死亡比例、发病率和死亡率，与原始描述不符。",
+    "original_question": "败血症门氏杆菌病会导致什么症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "副猪嗜血杆菌感染会导致1-6月龄/发热（39.5-41°C），厌食、沉郁、发绀、步态僵硬、不愿动、犬坐、腿睑可能水肿、呼吸困难。",
+    "reference_case": "1-4月龄/发热（40.5-42°C），厌食、沉郁、发绀、步态僵硬、不愿动、犬坐、腿睑可能水肿、呼吸困难。",
+    "error_detail": "错误地扩大了年龄范围和修改了温度范围，与原始描述不符。",
+    "original_question": "副猪嗜血杆菌感染会导致什么症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "断奶猪和成年猪死亡的原因可能包括兴奋、过度活跃、皮肤苍白、无呼吸困难、无腹泻和呕吐、无流产等症状。",
+    "reference_case": "断奶猪和成年猪死亡的原因可能包括沉郁、不愿起立、发热、厌食、皮肤充血、呼吸困难、可能腹泻和呕吐、流产等症状。",
+    "error_detail": "错误地反转了症状描述，与原始描述不符。",
+    "original_question": "断奶猪和成年猪死亡的原因有哪些临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟对病猪的临床症状包括兴奋、过度活跃、皮肤苍白、无呼吸困难、无腹泻和呕吐、无流产；剖检变化包括无水肿、无腹水、无胸腔积液、心外膜和肺无出血斑点、淋巴结无肿胀、无水肿、无出血、脾无肿大、无梗死、肺无水肿、退缩、肝无肿大、肾无出血、无肠炎、无结肠溃疡。",
+    "reference_case": "非洲猪瘟的临床症状包括沉郁、不愿起立、发热、厌食、皮肤充血、呼吸困难、可能腹泻和呕吐、流产；剖检变化包括水肿、腹水、胸腔积液、心外膜和肺散在出血斑点、淋巴结肿胀、水肿、出血（特别是胃、肝）、脾肿大有梗死、肺水肿、不退缩、肝肿大、肾出血、不同程度的肠炎、结肠溃疡。",
+    "error_detail": "错误地反转了临床症状和剖检变化的描述，与原始描述不符。",
+    "original_question": "非洲猪瘟对病猪的临床症状和剖检变化是什么？",
+    "original_input": ""
+  }
+]

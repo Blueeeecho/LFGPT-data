@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "黄曲霉毒素的半数致死量为小猪每千克体重5~10毫克，大猪为每千克体重30~50毫克。",
+    "reference_case": "黄曲霉毒素的半数致死量为小猪每千克体重0.5~1毫克，大猪为每千克体重3~5毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "黄曲霉毒素的半数致死量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "氟化物中毒会导致猪出现呕吐和腹泻。",
+    "reference_case": "急性严重时抽搐昏迷；慢性四肢痽，肌肉颤抖，头下垂。",
+    "error_detail": "术语错误",
+    "original_question": "氟化物中毒会导致猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "赤霉菌毒素中毒会导致猪出现食欲不振和体重下降。",
+    "reference_case": "肌肉痉挛，特别是颈部肌部痉挛性收缩，头颈后仰。",
+    "error_detail": "过时标准",
+    "original_question": "赤霉菌毒素中毒会导致猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪青霉毒素中毒会导致猪出现皮肤发红和发热。",
+    "reference_case": "不安、肌肉不随意震颤，步态摇晃。",
+    "error_detail": "地域差异",
+    "original_question": "猪青霉毒素中毒会导致猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪魏氏梭菌病会导致猪出现食欲增加。",
+    "reference_case": "有的死前共济失调，狂躁，口鼻流红色或白色泡沫，呼吸困难。",
+    "error_detail": "因果错误",
+    "original_question": "猪魏氏梭菌病会导致猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪\"蓝眼病\"会导致猪出现眼睛发蓝和视力下降。",
+    "reference_case": "共济失调，阵发抽搐痉挛。高度尖叫和兴奋。",
+    "error_detail": "需求冲突",
+    "original_question": "猪\"蓝眼病\"会导致猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "灰灰菜中毒会导致猪出现皮肤瘙痒。",
+    "reference_case": "摇头、尖叫、蹦跳、四肢无力，走路摇摆，低头独立墙角。",
+    "error_detail": "误解上下文",
+    "original_question": "灰灰菜中毒会导致猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "茷麻中毒会导致猪出现安静和嗜睡。",
+    "reference_case": "肌肉震颤，严重的突然倒地，四肢痉挛，头向后仰，不断鸣叫，肌肉震颤。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "茷麻中毒会导致猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪杘豆中毒会导致猪出现食欲增加和体重增加。",
+    "reference_case": "嗜眠、四肢软弱，站立不稳，共济失调，全身发抖，卧地四肢划水。",
+    "error_detail": "添加假设",
+    "original_question": "猪杘豆中毒会导致猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "黑斑病甘著中毒会导致猪出现轻微的食欲不振。",
+    "reference_case": "发生阵发性痉挛，运动障碍，步态不稳。重时头抵墙，盲目奔走，倒地抽搐而亡。",
+    "error_detail": "权重错误",
+    "original_question": "黑斑病甘著中毒会导致猪出现哪些症状？",
+    "original_input": ""
+  }
+]

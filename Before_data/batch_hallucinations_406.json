@@ -1,0 +1,65 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "文章中提到的猪瘟疫情中，猪群出现了高热、严重腹泻、便秘、不食等症状，体温持续升高，精神极度萎靡，被毛杂乱无光，寒战，大部分猪耳后和四肢内侧皮肤上有红色斑块，多数变为蓝紫色或黑色，多数猪有神经病状，共济失调。",
+    "reference_case": "文章中提到的猪瘟疫情中，猪群出现了低热、腹泻、便秘、不食等症状，体温忽高忽低，精神萎靡不振，被毛粗乱无光，寒战，个别猪耳后和四肢内侧皮肤上有红色斑块，有的变为蓝紫色或黑色，个别猪有神经病状，共济失调。",
+    "error_detail": "夸大了症状的严重程度和普遍性",
+    "original_question": "文章中提到的猪瘟疫情中，猪群出现了哪些临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "文章中提到的猪瘟疫情中，寄生虫学检查的结果是检查到了大量虫卵和虫体。",
+    "reference_case": "文章中提到的猪瘟疫情中，寄生虫学检查的结果是均未检查到虫卵和虫体。",
+    "error_detail": "错误地报告了寄生虫学检查的结果",
+    "original_question": "文章中提到的猪瘟疫情中，寄生虫学检查的结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "文章中提到的猪瘟疫情中，细菌学检验的结果是发现了多种病原菌。",
+    "reference_case": "文章中提到的猪瘟疫情中，细菌学检验的结果是均未见病原菌。",
+    "error_detail": "错误地报告了细菌学检验的结果",
+    "original_question": "文章中提到的猪瘟疫情中，细菌学检验的结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "文章中描述的猪瘟疫情发生在四川省成都市某个体养猪专业户。",
+    "reference_case": "文章中描述的猪瘟疫情发生在甘肃省武威市某个体养猪专业户。",
+    "error_detail": "错误地报告了疫情发生的地点",
+    "original_question": "文章中描述的猪瘟疫情发生在哪个地区？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在对185头瑞典种猪的检测中，有50头猪对禽型提纯结核菌素反应呈阳性。",
+    "reference_case": "在对185头瑞典种猪的检测中，有5头猪对禽型提纯结核菌素反应呈阳性。",
+    "error_detail": "夸大了阳性反应的数量",
+    "original_question": "在对185头瑞典种猪的检测中，有多少头猪对禽型提纯结核菌素反应呈阳性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "结核病可以感染人类及牛、马、羊、猪、犬、猫、野生动物、禽类、鱼类等多个物种。",
+    "reference_case": "结核病可以感染人类及牛、马、羊、猪、犬、猫、野生动物、禽类等多个物种。",
+    "error_detail": "错误地添加了鱼类作为可感染物种",
+    "original_question": "结核病可以感染哪些物种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在60头健康屠猪的淋巴结带菌情况抽查中，共分离出500株细菌。",
+    "reference_case": "在60头健康屠猪的淋巴结带菌情况抽查中，共分离出307株细菌。",
+    "error_detail": "夸大了分离出的细菌数量",
+    "original_question": "在60头健康屠猪的淋巴结带菌情况抽查中，共分离出多少株细菌？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "梅里亚中国引入了害获灭（IVOMEC）、猪克伪（Akipor）、猪克喘（Hyoresp）等治疗产品。",
+    "reference_case": "梅里亚中国引入了害获灭（IVOMEC）、猪克伪（Akipor）、猪克喘（Hyoresp）等预防保健产品。",
+    "error_detail": "将预防保健产品错误地描述为治疗产品。",
+    "original_question": "梅里亚中国引入了哪些产品来提升养猪产业的生产效率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "梅里亚公司研发的猪圆环病毒II型疫苗是猪克环（Circovac Plus）。",
+    "reference_case": "梅里亚公司研发的猪圆环病毒II型疫苗是猪克环（Circovac）。",
+    "error_detail": "错误地添加了不存在的产品名称后缀。",
+    "original_question": "梅里亚公司研发的猪圆环病毒II型疫苗是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "梅里亚公司的猪萎缩性鼻炎灭活疫苗是猪克鼻（Rhiniffa）。",
+    "reference_case": "梅里亚公司的猪萎缩性鼻炎灭活疫苗是猪克鼻（Rhiniffa T）。",
+    "error_detail": "错误地省略了产品名称中的字母'T'。",
+    "original_question": "梅里亚公司的猪萎缩性鼻炎灭活疫苗是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "仔猪在断奶阶段容易出现缺铁性贫血，主要是因为断奶仔猪的体重和血液红细胞体积迅速增加，对铁的需求量很大。",
+    "reference_case": "仔猪在断奶阶段容易出现缺铁性贫血，主要是因为仔猪出生时体内储存的铁含量少，且母乳中的铁不足以满足仔猪对铁的需求。此外，断奶仔猪的体重和血液红细胞体积迅速增加，对铁的需求量很大，如果不能及时、有效地补充铁，就会导致缺铁性贫血。",
+    "error_detail": "错误地将次要原因描述为主要原因。",
+    "original_question": "仔猪在断奶阶段为什么容易出现缺铁性贫血？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "影响断奶仔猪铁吸收的因素包括体内铁含量、肠道pH值及日粮成分。铁含量高时促进铁的吸收，肠腔内pH值高时有利于机体对铁的吸收。",
+    "reference_case": "影响断奶仔猪铁吸收的因素包括体内铁含量、肠道pH值及日粮成分。铁含量低时促进铁的吸收，肠腔内pH值低时有利于机体对铁的吸收。此外，酸性饲粮、维生素C、谷胱甘肽等还原性物质可促进铁吸收，而饲料蛋白质不足、纤维素、植酸、矿物元素及抗营养因子等可抑制铁的吸收。",
+    "error_detail": "错误地颠倒了铁含量和pH值对铁吸收的影响。",
+    "original_question": "影响断奶仔猪铁吸收的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "氨基酸螯合铁在断奶仔猪中的应用研究进展包括其在提高仔猪生产性能、增强免疫功能、减少环境污染等方面的作用。研究表明，氨基酸螯合铁可以完全替代传统铁源。",
+    "reference_case": "氨基酸螯合铁在断奶仔猪中的应用研究进展包括其在提高仔猪生产性能、增强免疫功能、减少环境污染等方面的作用。研究表明，氨基酸螯合铁可以促进断奶仔猪的生长性能，提高仔猪对营养物质的消化率，并减少粪便中铁的排出。",
+    "error_detail": "错误地添加了未经证实的假设。",
+    "original_question": "氨基酸螯合铁在断奶仔猪中的应用有哪些研究进展？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "氨基酸螯合铁的双重营养作用是指它不仅为动物体提供了铁元素，还提供了机体所需的维生素。",
+    "reference_case": "氨基酸螯合铁的双重营养作用是指它不仅为动物体提供了铁元素，还提供了机体所需的氨基酸。氨基酸螯合铁中的氨基酸可以缓冲仔猪肠腔内的pH值，与铁形成螯合物，防止铁在肠道碱性环境中生成不溶物，并促进日粮铁的吸收。",
+    "error_detail": "错误地将氨基酸替换为维生素。",
+    "original_question": "氨基酸螯合铁的双重营养作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "氨基酸螯合铁在断奶仔猪生产中的应用存在生产工艺简单、生产条件要求不严格等缺陷。",
+    "reference_case": "氨基酸螯合铁在断奶仔猪生产中的应用存在生产工艺复杂、生产条件要求严格、产品螯合率和稳定性尚不能完全控制、成本相对较高、检测螯合率和稳定性困难、作用机制和代谢机制尚未研究清楚等缺陷。",
+    "error_detail": "错误地低估了生产工艺的复杂性和生产条件的严格性。",
+    "original_question": "氨基酸螯合铁在断奶仔猪生产中的应用存在哪些缺陷？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "氨基酸螯合铁在断奶仔猪日粮中的最佳添加量因研究不同而有所差异。例如，郭海涛等（2005:研究指出，在饲料中添加100 mg/kg FeSO4的基础上，复合氨基酸螯合铁的最佳添加剂量为150 mg/kg。",
+    "reference_case": "氨基酸螯合铁在断奶仔猪日粮中的最佳添加量因研究不同而有所差异。例如，郭海涛等（2005:研究指出，在饲料中添加100 mg/kg FeSO4的基础上，复合氨基酸螯合铁的最佳添加剂量为75 mg/kg。王明镇等（2007:报道，氨基酸螯合铁的适宜添加量在100～120 mg/kg之间。",
+    "error_detail": "错误地修改了最佳添加剂量的数值。",
+    "original_question": "氨基酸螯合铁在断奶仔猪日粮中的最佳添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "氨基酸螯合铁在断奶仔猪中的应用可以增加粪便中铁的排出，从而增加对环境的污染。",
+    "reference_case": "氨基酸螯合铁在断奶仔猪中的应用可以减少粪便中铁的排出，从而减少对环境的污染。研究表明，添加氨基酸螯合铁的仔猪粪便中铁的浓度减少，表明氨基酸螯合铁的生物利用率较高，减少了铁的环境排放。",
+    "error_detail": "错误地颠倒了氨基酸螯合铁对环境的影响。",
+    "original_question": "氨基酸螯合铁在断奶仔猪中的应用对环境污染有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "复合益生素组和抗生素+益生素组的生产性能明显低于对照组，平均日增重和平均日采食量显著减少，腹泻率显著增加。",
+    "reference_case": "复合益生素组和抗生素+益生素组的生产性能明显高于对照组，平均日增重和平均日采食量显著增加，腹泻率显著降低。",
+    "error_detail": "错误地颠倒了生产性能的比较结果。",
+    "original_question": "复合益生素对断奶仔猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "复合益生素组的干物质、粗蛋白质和粗脂肪表观消化率显著低于对照组，表明复合益生素可以降低日粮中这些养分的消化率。",
+    "reference_case": "复合益生素组的干物质、粗蛋白质和粗脂肪表观消化率显著高于对照组，表明复合益生素可以提高日粮中这些养分的消化率。",
+    "error_detail": "错误地颠倒了表观消化率的比较结果。",
+    "original_question": "复合益生素对断奶仔猪的养分表观消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "复合益生素组的仔猪直肠大肠杆菌数量明显高于对照组和抗生素组，而乳酸杆菌数量显著减少，表明复合益生素能有效促进大肠杆菌并抑制乳酸杆菌的生长。",
+    "reference_case": "复合益生素组的仔猪直肠大肠杆菌数量明显低于对照组和抗生素组，而乳酸杆菌数量显著增加，表明复合益生素能有效抑制大肠杆菌并促进乳酸杆菌的生长。",
+    "error_detail": "错误地颠倒了菌群数量的变化趋势。",
+    "original_question": "复合益生素对断奶仔猪的肠道菌群有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "试验中使用的断奶仔猪为杜长大三元杂交仔猪，初始体重约为10:12公斤。",
+    "reference_case": "试验中使用的断奶仔猪为杜长大三元杂交仔猪，初始体重约为6:9公斤。",
+    "error_detail": "错误地修改了初始体重的数值。",
+    "original_question": "试验中使用的断奶仔猪的品种和初始体重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "对照组饲喂基础日粮加抗敌素和杆菌肽锌，抗生素组饲喂基础日粮，抗生素+益生素组饲喂基础日粮加复合益生素和低剂量抗敌素及杆菌肽锌，益生素组饲喂基础日粮加高剂量复合益生素。",
+    "reference_case": "对照组饲喂基础日粮，抗生素组饲喂基础日粮加抗敌素和杆菌肽锌，抗生素+益生素组饲喂基础日粮加复合益生素和低剂量抗敌素及杆菌肽锌，益生素组饲喂基础日粮加高剂量复合益生素。",
+    "error_detail": "错误地交换了对照组和抗生素组的饲料配方。",
+    "original_question": "试验中各组仔猪的饲料配方有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "试验采用部分收粪法连续进行3天的消化试验，测定饲料和粪样中的干物质、粗蛋白质、粗脂肪、粗纤维、钙和磷的含量，计算各自的表观消化率。",
+    "reference_case": "试验采用全收粪法连续进行7天的消化试验，测定饲料和粪样中的干物质、粗蛋白质、粗脂肪、粗纤维、钙和磷的含量，计算各自的表观消化率。",
+    "error_detail": "错误地修改了试验方法和持续时间。",
+    "original_question": "试验中如何测定仔猪的养分表观消化率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "试验中使用灭菌棉棒直接插入仔猪口腔内刮取口腔内容物，将内容物放入灭菌塑料袋中低温冷藏，运回实验室进行大肠杆菌和乳酸杆菌菌落计数。",
+    "reference_case": "试验中使用灭菌棉棒直接插入仔猪直肠内刮取直肠内容物，将内容物放入灭菌塑料袋中低温冷藏，运回实验室进行大肠杆菌和乳酸杆菌菌落计数。",
+    "error_detail": "错误地将采样部位从直肠改为口腔。",
+    "original_question": "试验中如何测定仔猪的直肠菌群数量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "复合益生素组的仔猪腹泻率显著高于对照组，且与抗生素组相比无显著差异，表明复合益生素能有效增加仔猪的腹泻率。",
+    "reference_case": "复合益生素组的仔猪腹泻率显著低于对照组，且与抗生素组相比无显著差异，表明复合益生素能有效减少仔猪的腹泻率。",
+    "error_detail": "错误地颠倒了腹泻率的变化趋势。",
+    "original_question": "试验中使用的复合益生素对仔猪的腹泻率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "复合益生素组的料重比显著高于对照组，表明复合益生素能降低饲料的转化效率。",
+    "reference_case": "复合益生素组的料重比显著低于对照组，表明复合益生素能提高饲料的转化效率。",
+    "error_detail": "错误地颠倒了料重比的比较结果。",
+    "original_question": "试验中使用的复合益生素对仔猪的料重比有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "2012年上半年检测的猪料和禽料中，黄曲霉毒素的污染水平在禽料中远高于猪料。",
+    "reference_case": "2012年上半年检测的猪料和禽料中，玉米赤霉烯酮的污染水平在禽料中远高于猪料。",
+    "error_detail": "错误地将玉米赤霉烯酮替换为黄曲霉毒素。",
+    "original_question": "2012年上半年检测的猪料和禽料中，哪种霉菌毒素的污染水平在禽料中远高于猪料？",
+    "original_input": ""
+  }
+]

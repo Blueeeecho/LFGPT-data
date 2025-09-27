@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "建议使用党参100 g、黄花100 g、熟地100 g、通草80 g、穿山甲80 g、王不留行100 g加水煎服。",
+    "reference_case": "建议使用党参50 g、黄花50 g、熟地50 g、通草40 g、穿山甲40 g、王不留行50 g加水煎服。",
+    "error_detail": "数值偏差，药材用量被错误地翻倍。",
+    "original_question": "对于因怀孕期饲养不当或患有慢性胃病导致的无乳母猪，建议使用哪些中草药进行治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "建议采取寄养和减少母猪营养的措施，包括将部分小猪寄养到产仔较少的母猪身边，以及采用低能量蛋白饲料减少母猪的泌乳量。",
+    "reference_case": "建议采取寄养和加强母猪营养的措施，包括将部分小猪寄养到产仔较少的母猪身边，以及采用高能量蛋白饲料增强母猪的泌乳量。",
+    "error_detail": "指令偏离，建议的措施与增强泌乳量的需求相冲突。",
+    "original_question": "对于产仔在16头以上的母猪，建议采取哪些措施来满足仔猪的乳量需求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该巨型脾的长度为44 cm，脾尾向腹面弯曲17 cm，实际总长度为61 cm。",
+    "reference_case": "该巨型脾的长度为22 cm，脾尾向腹面弯曲8.5 cm，实际总长度为30.5 cm。",
+    "error_detail": "数值偏差，脾的长度和弯曲长度被错误地翻倍。",
+    "original_question": "盐城肉联厂在2000年11月7日检出的69号屠宰猪的巨型脾的长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "建议使用适口性好的饲料，如麦敖搵汤、牛皮菜、海带等，并减少饲喂次数。",
+    "reference_case": "建议使用适口性好的饲料，如麦敖搵汤、牛皮菜、海带等，并增加饲喂次数。",
+    "error_detail": "概念混淆，建议的措施与改善食欲的需求相冲突。",
+    "original_question": "在母猪产后并发症的治疗中，建议使用哪些饲料来改善母猪的食欲？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "建议使用益母草100 g、当归60 g、红花40 g、川芎40 g、蒲公英100 g、金银花100 g，加水煎服，每日1剂，连服4到6天。",
+    "reference_case": "建议使用益母草50 g、当归30 g、红花20 g、川芎20 g、蒲公英50 g、金银花50 g，加水煎服，每日1剂，连服2到3天。",
+    "error_detail": "数值偏差，药材用量和治疗天数被错误地翻倍。",
+    "original_question": "对于因发生子宫炎、乳房炎、产后综合症等导致的无乳母猪，建议使用哪些中草药进行治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用了4%盐酸普鲁卡因作菱形浸润麻醉。",
+    "reference_case": "使用了2%盐酸普鲁卡因作菱形浸润麻醉。",
+    "error_detail": "概念混淆，麻醉药物的浓度被错误地翻倍。",
+    "original_question": "对于仔猪肝脏脱出的手术治疗中，使用了哪种麻醉方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "成因分析中提到，可能的原因包括购买苗猪时的捕捉、运输途中的挤压、驱赶、跌撞等多种原因所致的机械性损伤，伤及猪的左胸腹部，致使脾受损破裂出血，以及可能的遗传因素。",
+    "reference_case": "成因分析中提到，可能的原因包括购买苗猪时的捕捉、运输途中的挤压、驱赶、跌撞等多种原因所致的机械性损伤，伤及猪的左胸腹部，致使脾受损破裂出血。",
+    "error_detail": "假设滥用，添加了未经证实的遗传因素作为可能的原因。",
+    "original_question": "69号屠宰猪的巨型脾的成因分析中提到了哪些可能的原因？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "建议使用催乳素皮下注射，每次1000到2000 U，连注4次显效。",
+    "reference_case": "建议使用催乳素皮下注射，每次500到1000 U，连注2次显效。",
+    "error_detail": "数值偏差，药物用量和注射次数被错误地翻倍。",
+    "original_question": "对于母猪过肥导致的泌乳少或缺乳，建议使用哪些激素进行催乳？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该巨型脾的重量为2400 g，是正常脾的12到14倍。",
+    "reference_case": "该巨型脾的重量为1200 g，是正常脾的6到7倍。",
+    "error_detail": "数值偏差，脾的重量和与正常脾的比例被错误地翻倍。",
+    "original_question": "69号屠宰猪的巨型脾的重量是多少，与正常脾相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在治疗由紫花苜蓿引起的光过敏症时，采取了增加苜蓿草的供应、将病猪赶到阳光下、皮肤患处涂抹氧化锌油膏以及肌肉注射苯海拉明等措施。",
+    "reference_case": "在治疗由紫花苜蓿引起的光过敏症时，采取了清除剩余的苜蓿草、将病猪赶到蔽荫处、皮肤患处涂抹氧化锌油膏以及肌肉注射苯海拉明等措施。",
+    "error_detail": "指令偏离，建议的措施与治疗光过敏症的需求相冲突。",
+    "original_question": "在治疗由紫花苜蓿引起的光过敏症时，采取了哪些措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "紫花苜蓿引起猪光过敏症的发病时间是在12月份，此时低温多雨，阳光不足。",
+    "reference_case": "紫花苜蓿引起猪光过敏症的发病时间是在8月份，此时高温少雨，阳光充足。",
+    "error_detail": "时效性错误，发病时间和天气条件被错误地描述。",
+    "original_question": "紫花苜蓿引起猪光过敏症的发病时间是在什么季节？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "紫花苜蓿引起猪光过敏症的主要症状包括皮肤出现水泡及严重肿胀，并伴有发热。",
+    "reference_case": "紫花苜蓿引起猪光过敏症的主要症状包括皮肤出现红斑及轻微肿胀，并伴有痛痒。",
+    "error_detail": "概念混淆，症状被错误地描述为更严重的情况。",
+    "original_question": "紫花苜蓿引起猪光过敏症的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "腹部皮下静脉注射法与传统耳静脉穿刺相比，有效避免了因猪耳静脉血管细小难以保定而经常“跑”针的现象，提高了治疗效率，但受针头大小的影响，输液滴速慢，延长了治疗补液时间。",
+    "reference_case": "腹部皮下静脉注射法与传统耳静脉穿刺相比，有效避免了因猪耳静脉血管细小难以保定而经常“跑”针的现象，提高了治疗效率，且基本不受针头大小的影响，输液滴速快，大大缩短了治疗补液时间。",
+    "error_detail": "逻辑矛盾，描述中同时存在提高效率和延长治疗时间的矛盾。",
+    "original_question": "腹部皮下静脉注射法与传统耳静脉穿刺相比有哪些优点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "腹部皮下静脉注射法适用于临产前5至6天的妊娠母猪及哺乳期母猪。",
+    "reference_case": "腹部皮下静脉注射法适用于临产前2至3天的妊娠母猪及哺乳期母猪。",
+    "error_detail": "指令偏离，适用时间被错误地延长。",
+    "original_question": "腹部皮下静脉注射法适用于哪些母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪的肝脏手术中，肝脏脱出的长度约为14厘米。",
+    "reference_case": "在猪的肝脏手术中，肝脏脱出的长度约为7厘米。",
+    "error_detail": "数值偏差，肝脏脱出的长度被错误地翻倍。",
+    "original_question": "在猪的肝脏手术中，肝脏脱出的长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪的肝脏手术中，手术结束时在切口内撒入青霉素粉，并肌注青霉素320万U，外打结系细带。",
+    "reference_case": "在猪的肝脏手术中，手术结束时在切口内撒入青霉素粉，并肌注青霉素160万U，外打结系细带。",
+    "error_detail": "数值偏差，青霉素的用量被错误地翻倍。",
+    "original_question": "在猪的肝脏手术中，手术结束时采取了哪些措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪群暴发细颈囊尾蚴病的典型症状包括咳嗽、便秘、体温升高、呻吟、唐牙、夹尾巴于两后腿之间并紧贴腹壁等。",
+    "reference_case": "猪群暴发细颈囊尾蚴病的典型症状包括呕吐、水样泄泻、体温降低、呻吟、唐牙、夹尾巴于两后腿之间并紧贴腹壁等。",
+    "error_detail": "概念混淆，症状被错误地描述为相反的情况。",
+    "original_question": "猪群暴发细颈囊尾蚴病的典型症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "腹部皮下静脉注射法适用于临产前5至6天的妊娠母猪及哺乳期母猪。",
+    "reference_case": "腹部皮下静脉注射法适用于临产前2至3天的妊娠母猪及哺乳期母猪。",
+    "error_detail": "指令偏离，适用时间被错误地延长。",
+    "original_question": "腹部皮下静脉注射法适用于哪些母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "腹膜被剥离至腹肌上，低于腹肌的腹膜被切除，然后进行多次螺旋缝合。",
+    "reference_case": "腹膜被剥离至腹肌下，高出腹肌的腹膜被切除，然后进行一次性螺旋缝合。",
+    "error_detail": "概念混淆，腹膜的处理方式被错误地描述。",
+    "original_question": "在猪的肝脏手术中，腹膜是如何处理的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "典型症状包括皮肤出现水泡及严重的肿胀，并伴有发热。",
+    "reference_case": "典型症状包括皮肤出现红斑及轻微的肿胀，并伴有痛痒。",
+    "error_detail": "概念混淆，症状被错误地描述为更严重的情况。",
+    "original_question": "紫花苜蓿引起猪光过敏症的典型症状是什么？",
+    "original_input": ""
+  }
+]

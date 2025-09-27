@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鱼粉作为家禽、猪、草食动物和水产动物的饲料具有良好的蛋白质与必需氨基酸来源，提高饲料报酬和增重效果，建议添加量为10%-15%。",
+    "reference_case": "鱼粉作为家禽、猪、草食动物和水产动物的饲料具有良好的蛋白质与必需氨基酸来源，提高饲料报酬和增重效果。",
+    "error_detail": "添加了不存在的建议添加量数据",
+    "original_question": "鱼粉与动物饲料的价值如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鱼粉改善饲料报酬和提高增重，仔猪需使用10%-15%的良质鱼粉，否则可能造成胴体变软或鱼臭。",
+    "reference_case": "鱼粉改善饲料报酬和提高增重，仔猪需使用3%-5%的良质鱼粉，否则可能造成胴体变软或鱼臭。",
+    "error_detail": "错误地提高了鱼粉的建议添加量",
+    "original_question": "鱼粉对猪的饲料价值表现如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鸡与火鸡不可超过5 mg/kg, 生长猪不可超过20 mg/kg, 某些水产动物须禁用或慎用。",
+    "reference_case": "鸡与火鸡不可超过2 mg/kg, 生长猪不可超过10 mg/kg, 某些水产动物须禁用或慎用。",
+    "error_detail": "错误地提高了维生素K3的饲料添加量限制",
+    "original_question": "维生素K3的饲料添加量有何限制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "主要用于防治禽衣原体病、仔猪白痢、鸡白痢、犊牛痢疾、放线菌病及钩端螺旋体病，并可促进生长，提高饲料效率，节约蛋白质，同时还能预防禽流感。",
+    "reference_case": "主要用于防治禽衣原体病、仔猪白痢、鸡白痢、犊牛痢疾、放线菌病及钩端螺旋体病，并可促进生长，提高饲料效率，节约蛋白质。",
+    "error_detail": "错误地添加了土霉素不具预防禽流感的功能",
+    "original_question": "土霉素作为饲料添加剂的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪：50 mg/kg；鸡：10-15 mg/kg, 60-120 mg/kg, 120-240 mg/kg；犊牛：30-80 mg/(头·天), 120 mg；肉牛：80 mg/(头·天), 1200-4500 mg；乳牛：80-110 mg/头/天。",
+    "reference_case": "猪：33 mg/kg；鸡：5.5-8.3 mg/kg, 50-110 mg/kg, 100-220 mg/kg；犊牛：25-75 mg/(头·天), 110 mg；肉牛：75 mg/(头·天), 1100-4400 mg；乳牛：75-100 mg/头/天。",
+    "error_detail": "错误地提高了土霉素在不同动物中的推荐使用剂量范围",
+    "original_question": "土霉素在不同动物中的推荐使用剂量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一般在肌肉、脂肪、心脏消失较快，肾、肝分布的浓度较高，有残留。鸡、猪饲喂200mg/kg, 21～53天后停药一天，肌肉、肝脏、肾脏内的残留已降至检测界限以下。",
+    "reference_case": "一般在肌肉、脂肪、心脏消失较快，肾、肝分布的浓度较高，有残留。鸡、猪饲喂100mg/kg, 21～53天后停药一天，肌肉、肝脏、肾脏内的残留已降至检测界限以下。",
+    "error_detail": "错误地提高了土霉素钙盐在鸡和猪体内的饲喂量",
+    "original_question": "2. 土霉素钙盐在猪和鸡体内的分布和残留情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鸡、猪、牛的饲喂试验表明，对动物无不良影响。8周龄以内的鸡，喂用2000mg/kg（大于通常用量的36倍）没有发现对鸡的健康有不良影响，鸡的增重和饲料效率反而有所改善。",
+    "reference_case": "鸡、猪、牛的饲喂试验表明，对动物无不良影响。8周龄以内的鸡，喂用1000mg/kg（大于通常用量的18倍）没有发现对鸡的健康有不良影响，鸡的增重和饲料效率反而有所改善。",
+    "error_detail": "错误地提高了金霉素对鸡的饲喂量",
+    "original_question": "7. 金霉素对动物的安全性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪饲料中连续5天添加2000mg/kg未发现任何异常。",
+    "reference_case": "猪饲料中连续5天添加1000mg/kg未发现任何异常。",
+    "error_detail": "错误地提高了猪饲料中添加的金霉素量",
+    "original_question": "猪饲料中连续5天添加1000mg/kg是否有异常？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在血液、肌肉、肝脏、肾脏等各组织中无任何残留，停药期为7天。",
+    "reference_case": "在血液、肌肉、肝脏、肾脏等各组织中无任何残留。",
+    "error_detail": "错误地添加了不存在的停药期信息",
+    "original_question": "猪饲料中添加泰乐菌素200mg/kg 30天内各组织是否有残留？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在鸡饲料中，推荐添加量为8.8～110mg/kg用于促进生长，产蛋鸡可提高产蛋率，减少破蛋及软蛋；在猪饲料中，推荐添加量为22～88mg/kg用于促进生长及改善饲料效率，200～220mg/kg用于传染性萎缩性鼻炎。",
+    "reference_case": "在鸡饲料中，推荐添加量为4.4～55mg/kg用于促进生长，产蛋鸡可提高产蛋率，减少破蛋及软蛋；在猪饲料中，推荐添加量为11～44mg/kg用于促进生长及改善饲料效率，100～110mg/kg用于传染性萎缩性鼻炎。",
+    "error_detail": "错误地提高了泰乐霉（菌）素在鸡和猪饲料中的推荐添加量",
+    "original_question": "泰乐霉（菌）素在鸡、猪饲料中的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪在屠宰前5天停药。",
+    "reference_case": "猪在屠宰前3天停药。",
+    "error_detail": "错误地延长了泰乐霉（菌）素在猪饲料中的停药期",
+    "original_question": "泰乐霉（菌）素在猪饲料中的停药期是多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用量为猪、鸡均为10～20mg/kg，连用8～10周，宰杀前三天停药，可与各种抗生素同时使用，并有协同作用。",
+    "reference_case": "用量为猪、鸡均为5～10mg/kg，连用8～10周，宰杀前三天停药，可与各种抗生素同时使用，并有协同作用。",
+    "error_detail": "错误地提高了越西素A的用量",
+    "original_question": "越西素A的作用和应用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用量为非产蛋期鸡及50kg以下的猪20～26.4mg/kg，连用1～2个月，猪宰前72h，鸡宰前5天停药。",
+    "reference_case": "用量为非产蛋期鸡及50kg以下的猪10～13.2mg/kg，连用1～2个月，猪宰前48h，鸡宰前3天停药。",
+    "error_detail": "错误地提高了潮霉素B的用量和停药期",
+    "original_question": "潮霉素B的作用和应用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "酪多精（Lactozyme）含有10亿个/克以上的乳酸菌，还含有酶Remnin、Lactase等以及B族维生素和未知生长因子，添加量一般为人工乳及仔猪料0.2%，中猪以上0.1%，鸡0.1%，鳗鱼0.1%至0.3%。",
+    "reference_case": "酪多精（Lactozyme）含有5亿个/克以上的乳酸菌，还含有酶Remnin、Lactase等以及B族维生素和未知生长因子，添加量一般为人工乳及仔猪料0.1%，中猪以上0.05%，鸡0.05%，鳗鱼0.05%至0.15%。",
+    "error_detail": "错误地提高了酪多精中乳酸菌的含量和添加量",
+    "original_question": "什么是酪多精（Lactozyme）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "腐植酸及其钠盐可吸收肠道排泄物及残饵腐败物中近200%的NH3及大约40%的H2S，可用于净化水质，预防各种疾病的发生。猪、鸡饲料添加量为0.1%至0.2%。",
+    "reference_case": "腐植酸及其钠盐可吸收肠道排泄物及残饵腐败物中近100%的NH3及大约20%的H2S，可用于净化水质，预防各种疾病的发生。猪、鸡饲料添加量为0.05%至0.1%。",
+    "error_detail": "错误地提高了腐植酸及其钠盐的吸收能力和添加量",
+    "original_question": "腐植酸及其钠盐对畜禽的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "利血平有镇静，降低血压及抗应激作用，持续饲服，有利于增重，用量为鸡与火鸡2到6mg/kg，猪及其他家畜抗应激用量宜加倍。",
+    "reference_case": "利血平有镇静，降低血压及抗应激作用，持续饲服，有利于增重，用量为鸡与火鸡1到3mg/kg，猪及其他家畜抗应激用量宜加倍。",
+    "error_detail": "错误地提高了利血平的用量",
+    "original_question": "利血平的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "生长激素是一种很有希望的新一代激素产品，能促进生长、增加泌乳，提高猪的瘦肉率和饲料转化率，同时还能预防疾病。",
+    "reference_case": "生长激素是一种很有希望的新一代激素产品，能促进生长、增加泌乳，提高猪的瘦肉率和饲料转化率。",
+    "error_detail": "错误地添加了生长激素不具预防疾病的功能",
+    "original_question": "生长激素的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "免疫球蛋白是一种由猪乳分离而得的G免疫球蛋白抗体，能使动物防御系统对细菌或病毒产生沉淀反应或毒素中和反应，防止乳猪下痢，同时还能提高生长速度。",
+    "reference_case": "免疫球蛋白是一种由猪乳分离而得的G免疫球蛋白抗体，能使动物防御系统对细菌或病毒产生沉淀反应或毒素中和反应，防止乳猪下痢。",
+    "error_detail": "错误地添加了免疫球蛋白不具提高生长速度的功能",
+    "original_question": "免疫球蛋白的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "芒可提高肉鸡及猪的增重，提高蛋鸡产蛋率，减少蛋壳破损，防止啄肛。用量：肉鸡、肉鸭0.5%，蛋鸡0.6%，猪0.5%~0.8%。",
+    "reference_case": "芒可提高肉鸡及猪的增重，提高蛋鸡产蛋率，减少蛋壳破损，防止啄肛。用量：肉鸡、肉鸭0.25%，蛋鸡0.3%，猪0.25%~0.4%。",
+    "error_detail": "错误地提高了泻下利水药芒的用量",
+    "original_question": "泻下利水药芒在养殖中的应用及其常用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种猪饲料中粗脂肪的含量范围为5%到7%。",
+    "reference_case": "种猪饲料中粗脂肪的含量范围为3.4%到5.4%。",
+    "error_detail": "错误地提高了种猪饲料中粗脂肪的含量范围",
+    "original_question": "种猪饲料中粗脂肪的含量范围是多少？",
+    "original_input": ""
+  }
+]

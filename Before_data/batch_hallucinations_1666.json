@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪血虫的传播方式为空气传播。",
+    "reference_case": "猪血虫的传播方式为直接接触感染。",
+    "error_detail": "错误地将直接接触感染的概念混淆为空气传播。",
+    "original_question": "猪血虫的传播方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪血虫感染时可引起猪贫血，使生长缓慢，饲料报酬降低，体重增长每天减慢100g，可使皮革质量降低。",
+    "reference_case": "猪血虫感染时可引起猪贫血，使生长缓慢，饲料报酬降低，体重增长每天减慢50g，可使皮革质量降低。",
+    "error_detail": "数值偏差，将体重增长每天减慢的数值从50g错误地改为100g。",
+    "original_question": "猪血虫感染时可引起哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪血虫的虫病的经济意义已经被充分估计和重视。",
+    "reference_case": "猪血虫的虫病的经济意义尚未给予充分的估计和重视。",
+    "error_detail": "添加了未被证实的假设，即经济意义已经被充分估计和重视。",
+    "original_question": "猪血虫的虫病对经济的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "当发现猪蹭或摩擦时，可考虑皮肤病。并通过皮肤样本进行鉴定确诊。",
+    "reference_case": "当发现猪蹭或摩擦时，可考虑虫病。并通过成虫及附着于毛干基部的卵进行鉴定确诊。应仔细检査耳内面井与疥螨病作鉴别诊断。",
+    "error_detail": "错误地将虫病的概念混淆为皮肤病。",
+    "original_question": "如何诊断猪血虫感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "喷酒剂、浇注剂、粉剂均可用于猪血虫的治疗。在冬季最好用喷酒剂，而少用浇注剂和粉剂。",
+    "reference_case": "喷酒剂、浇注剂、粉剂均可用于猪血虫的治疗。也可往垫料中放入含有杀虫剂的颗粒进行预防。在冬季最好用浇注剂和粉剂，而少用喷酒剂。",
+    "error_detail": "过时标准，错误地改变了冬季使用药物的推荐。",
+    "original_question": "猪血虫的治疗和控制方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "球虫病预防应在发病前5天对全窝仔猪投药。",
+    "reference_case": "球虫病预防应在发病前2-3天对全窝仔猪投药。",
+    "error_detail": "数值偏差，将投药时间从发病前2-3天错误地改为5天。",
+    "original_question": "球虫病预防的最佳投药时间是何时？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每头小猪应口服治疗7天，比如使用抗球虫药氨丙啉，按每千克体重50-100 mg的剂量给药。",
+    "reference_case": "每头小猪应口服治疗5天，比如使用抗球虫药氨丙啉，按每千克体重25-65 mg的剂量给药。",
+    "error_detail": "数值偏差，将治疗天数和剂量范围错误地改变。",
+    "original_question": "治疗球虫病的药物如何给小猪口服？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "在产前两周与产后一周内用氨丙啉治疗母猪，可有效预防生出的小猪得临床型球虫病。",
+    "reference_case": "在产前一周与产后2周内用氨丙啉治疗母猪，可有效预防生出的小猪得临床型球虫病。",
+    "error_detail": "过时标准，错误地改变了治疗的时间框架。",
+    "original_question": "如何通过母猪给药预防小猪球虫病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "在仔猪饮水中加入抗球虫药或与维生素合并使用。",
+    "reference_case": "在仔猪饮水中加入抗球虫药或与铁剂合并使用。",
+    "error_detail": "需求冲突，错误地将铁剂改为维生素。",
+    "original_question": "如何使用抗球虫药物保护仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "狗、狼、浣熊和红狐是猪的米氏住肉孢子虫的终末宿主；猫是猪猫住肉孢子虫的终末宿主；猪是猪人住肉孢子虫的终末宿主。",
+    "reference_case": "狗、狼、浣熊和红狐是猪的米氏住肉孢子虫的终末宿主；猫是猪猫住肉孢子虫的终末宿主；人是猪人住肉孢子虫的终末宿主。",
+    "error_detail": "错误地将人的概念混淆为猪。",
+    "original_question": "住肉孢子虫病的终末宿主有哪些？",
+    "original_input": ""
+  }
+]

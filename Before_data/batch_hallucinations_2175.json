@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "铜（以硫酸铜的形式，浓度为500 mg/kg）和锌（以氧化锌的形式，浓度为6000 mg/kg）对促进仔猪的生长有独特的作用，其日粮中的含量水平远超过猪对这些营养素的需求。",
+    "reference_case": "铜（以硫酸铜的形式，浓度为250 mg/kg）和锌（以氧化锌的形式，浓度为3000 mg/kg）对促进仔猪的生长有独特的作用，其日粮中的含量水平远超过猪对这些营养素的需求。",
+    "error_detail": "数值偏差，铜和锌的浓度被夸大",
+    "original_question": "铜和锌对仔猪的生长有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "氨基酸（赖氨酸、色氨酸、苏氨酸和甲硫氨酸）的中毒在猪的实际营养中是常见的。",
+    "reference_case": "氨基酸（赖氨酸、色氨酸、苏氨酸和甲硫氨酸）的中毒在猪的实际营养中是极少见的。只有在日粮中加入过多的结晶型氨基酸时，才能引起中毒。",
+    "error_detail": "概念混淆，将‘极少见’错误地改为‘常见’",
+    "original_question": "过量摄入氨基酸（如赖氨酸、色氨酸、苏氨酸和甲硫氨酸）会导致什么情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "已有资料证明某些营养素具有耐受水平，因为已经报道猪过量摄入可以产生副作用。",
+    "reference_case": "还没有资料证明某些营养素具有耐受水平，因为还没有报道猪过量摄入可以产生副作用。",
+    "error_detail": "时效性错误，错误地声称已有资料证明",
+    "original_question": "对猪过量摄入某些营养素的安全性有何了解？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "营养缺乏症和营养过剩症的临床症状没有区别。",
+    "reference_case": "营养缺乏症表现为厌食/摄食减少、关节炎、运动失调、血液引力增加、关节出血、血便、体重降低、呼吸困难、酮体背脂增加、白内障、昏迷、先天不足、惊厥、膀胱炎、死亡、脱水、抑郁、皮炎、腹泻、嗜睡、憔悴、胎存活降低、癇病发作、失去平衡、眼周分泌物、分婏率降低、饲料转换率降低、自发性骨折、口流涎沫、躈步、步态歪直和夸张、甲状腺肿、毛被粗硬、毛色变淡、脱毛、疼斑性出血、皮下出血、冠状带角质与皮肤分离、角质龟裂、驼背、过敏、迟钝、运动失调/蹒跚运动、全身性黄病、关节肿大、泌乳停止、跛行、弓形腿、脊柱前凸、黏液性水肿、夜盲症、软骨病、苍白、角化不全、麻痹、分娩时间延长、跛冠变弱、新生仔猪无毛和变弱、新生仔猪苍白和出血、新生仔猪弱小、虚脱、何偻病、皮脂溢出、骨骼畸形、皮肤坏死、皮肤粗糙和干燥；营养过剩症表现为维生素A、维生素D、胆碱、铬、钴、铜、铁、锌、能量（妊娠母猪）、甲硫氨酸、苏氨酸、色氨酸、锌、能量、铬、铁、硒、钠和氮、铬、铁、硒、钠和氯、研、铁、硒、钠和氯、锌、钙、磷、蛋白质、赖氨酸、甲硫氨酸、色氨酸、能量、脂肪、蛋白质、铜、钴、维生素A、维生素D、铁、硒、钠和氯、维生素A、钠和氮、维生素E、铁、硒、钠和氯、铁、研、钴、锤、钙、磷、研、钠和氯、铁、研、钠和氯、研、研、钠和氯、研、研、钠和氯、研、研、钠和氯、研、研、钠和氯、研、研、钠和氯、研、研、钠和氯、研。",
+    "error_detail": "逻辑矛盾，错误地声称没有区别",
+    "original_question": "营养缺乏症和营养过剩症的临床症状有哪些区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "过量赖氨酸补充对生长-育肥猪的性能没有影响。",
+    "reference_case": "过量赖氨酸补充对生长-育肥猪的性能有影响。",
+    "error_detail": "指令偏离，错误地声称没有影响",
+    "original_question": "过量赖氨酸补充对生长-育肥猪性能的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "PSS与环境温度较低、运输、与其它猪只混群、屠宰时的电刺激、机械性及缺氧刺激等应激因素有关。",
+    "reference_case": "PSS与环境温度较高、运输、与其它猪只混群、屠宰时的电刺激、机械性及缺氧刺激等应激因素有关。",
+    "error_detail": "空间错位，错误地将‘较高’改为‘较低’",
+    "original_question": "PSS与哪些应激因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "PSS突变基因的扩散与养猪业对瘦肉率的忽视、屠宰场提供的经济激励、缺乏对提供低质猪肉厂家的惩处措施以及现代养猪业的金字塔型结构有关。",
+    "reference_case": "PSS突变基因的扩散与养猪业对瘦肉率的重视、屠宰场提供的经济激励、缺乏对提供低质猪肉厂家的惩处措施以及现代养猪业的金字塔型结构有关。",
+    "error_detail": "因果倒置，错误地将‘重视’改为‘忽视’",
+    "original_question": "PSS突变基因的扩散与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PSS突变基因携带猪种的数量在20世纪70年代到80年代迅速增加，特别是在采取了全国范围筛选计划的国家中效果更为明显。",
+    "reference_case": "PSS突变基因携带猪种的数量在20世纪70年代到80年代迅速减少，特别是在采取了全国范围筛选计划的国家中效果更为明显。",
+    "error_detail": "数据型幻觉，错误地将‘减少’改为‘增加’",
+    "original_question": "PSS突变基因携带猪种的数量在20世纪70年代到80年代有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在瑞士长白猪种中，氟烷刺激试验阳性率从1978年的18%降到1982年的10%；法国由18%降到1984年的15%；芬兰由12%降到1984年的10%；挪威由6%降到1983年的5%。",
+    "reference_case": "在瑞士长白猪种中，氟烷刺激试验阳性率从1978年的18%降到1982年的1%；法国由18%降到1984年的5%；芬兰由12%降到1984年的5%；挪威由6%降到1983年的2%。",
+    "error_detail": "数据型幻觉，数值偏差",
+    "original_question": "PSS突变基因的阳性率在哪些国家有所下降？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PSS易感猪的肌肉对应激刺激的反应表现为代谢性和收缩性反应不足。",
+    "reference_case": "PSS易感猪的肌肉对应激刺激的反应表现为代谢性和收缩性反应过度，包括代谢性增强导致的氧和糖原消耗加速、热量和酸性代谢产物释放增加，以及钾离子、二氧化碳及肌蛋白等进入血液循环。",
+    "error_detail": "概念混淆，错误地将‘过度’改为‘不足’",
+    "original_question": "PSS易感猪的肌肉对刺激的反应特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PSS易感性仅限于PSS基因杂合体猪。",
+    "reference_case": "PSS易感性仅限于PSS基因纯合体猪，骨骼肌对刺激的反应表现为不适宜或过度的代谢性和收缩性反应。",
+    "error_detail": "概念混淆，错误地将‘纯合体’改为‘杂合体’",
+    "original_question": "PSS易感性与骨骼肌对刺激的反应有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "PSE猪肉的形成原因是屠宰前发生的糖原分解和糖酵解反应。",
+    "reference_case": "PSE猪肉的形成原因是屠宰后发生的糖原分解和糖酵解反应，这些反应由突然缺氧、儿茶酚胺的释放以及对运动神经的机械刺激等引起。",
+    "error_detail": "因果倒置，错误地将‘屠宰后’改为‘屠宰前’",
+    "original_question": "PSE猪肉的形成原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "PSE猪肉主要发生在腿部和颈部的肌肉。",
+    "reference_case": "PSE猪肉主要发生在臀部和腰部的肌肉，特别是背最长肌、前腱肌和腓肌。",
+    "error_detail": "空间错位，错误地改变了肌肉的位置",
+    "original_question": "PSE猪肉主要发生在哪些肌肉中？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PSE猪肉的特点包括含水能力增强、光散射减弱、折射系数不变以及肌原纤维节的缩短等。",
+    "reference_case": "PSE猪肉的特点包括含水能力丧失、光散射增强、折射系数改变以及肌原纤维节的延长等，这些变化导致了PSE猪肉的产生。",
+    "error_detail": "概念混淆，错误地改变了特点的描述",
+    "original_question": "PSE猪肉的特点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PSE猪肉的发生与高比例的'红'纤维有关。",
+    "reference_case": "PSE猪肉的发生与高比例的'白'纤维有关，这些纤维具有较高的糖酵解能力，如背最长肌为70%-85%，白半腱肌为79%-93%，臀肌为81%。",
+    "error_detail": "数据型幻觉，错误地将‘白’改为‘红’",
+    "original_question": "PSE猪肉的产生与肌肉纤维类型有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PSS易感猪的肌纤维直径比非易感猪的小。",
+    "reference_case": "PSS易感猪的肌纤维直径比非易感猪的大，但各种类型纤维的比例与同一品种的PSS非易感猪无明显差异。",
+    "error_detail": "概念混淆，错误地将‘大’改为‘小’",
+    "original_question": "PSS易感猪的肌纤维直径与非易感猪有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "环境和管理因素不影响PSS易感猪PSE肉的出现。",
+    "reference_case": "环境和管理因素通过影响对肌肉的刺激程度和肌肉代谢产物即糖原的量，从而影响PSS易感猪PSE肉的出现程度。屠宰前降低糖原含量可限制PSE猪肉的发生，但过度降低可能导致DFD猪肉的产生。",
+    "error_detail": "因果倒置，错误地声称不影响",
+    "original_question": "环境和管理因素如何影响PSS易感猪PSE肉的出现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "屠辛前运输超过1000 km可促进PSE猪肉的产生。",
+    "reference_case": "屠辛前运输超过500 km可促进PSE猪肉的产生。",
+    "error_detail": "数据型幻觉，数值偏差",
+    "original_question": "屠辛前运输超过500 km对PSE猪肉产生有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "汉普夏猪携带RN基因的比例较高时，其白肌内糖原的含量比不带者高30%。",
+    "reference_case": "汉普夏猪携带RN基因的比例较高时，其白肌内糖原的含量比不带者高70%，死后糖原分解代谢持续的时间较长，但其反应的速度未变，肌肉pH降低，肉质显著下降。",
+    "error_detail": "数据型幻觉，数值偏差",
+    "original_question": "汉普夏猪携带RN基因的比例较高时，其肉质有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PSE猪肉所造成的经济损失不包括胴体和猪肉在贮存、运输及加工过程中的水分散失。",
+    "reference_case": "PSE猪肉所造成的经济损失包括胴体和猪肉在贮存、运输及加工过程中的水分散失，导致猪肉的萎缩和重量的丢失，结果是其市场价值的降低，PSE猪肉还可能被选做低档肉产品，由于PSE猪肉的保鲜期缩短，会给养猪业和屠宰加工厂等造成经济损失。",
+    "error_detail": "概念混淆，错误地声称不包括",
+    "original_question": "PSE猪肉所造成的经济损失包括哪些方面？",
+    "original_input": ""
+  }
+]

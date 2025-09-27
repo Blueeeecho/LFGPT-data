@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪细环病毒I型的PCR检测中，预期扩增的DNA片段长度为500bp。",
+    "reference_case": "在猪细环病毒I型的PCR检测中，预期扩增的DNA片段长度为300bp。",
+    "error_detail": "数值偏差",
+    "original_question": "猪细环病毒I型（TTV1:的PCR检测中，预期扩增的DNA片段长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "陕西榆林动物疫病采样技能比武大赛的技能现场操作包括牛、羊、猪、鸡的采血和猪、鸡的剖解及样品采集，以及狗的疫苗接种。",
+    "reference_case": "陕西榆林动物疫病采样技能比武大赛的技能现场操作包括牛、羊、猪、鸡的采血和猪、鸡的剖解及样品采集。",
+    "error_detail": "添加了未提及的内容",
+    "original_question": "陕西榆林动物疫病采样技能比武大赛的技能现场操作包括哪些内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "2011年3月，甲市甲区动物卫生监督所查获一批从甲县运输进来的生猪，发现猪的耳标号码与出具检疫证明的地点不符，并且检疫证明号码都相连，但使用的时间顺序先后颠倒。乙县畜牧兽医局查明，涉案检疫证明为当地动物卫生监督所所长魏某某、动物检疫员赵某某经手发放，且魏某某以2000元的价格将空白《出县境动物检疫合格证明》和《动物及动物产品运载工具消毒证明》各50份卖给甲县的运猪户韩某，并伪造检疫结果存根交回本局。",
+    "reference_case": "2011年3月，甲市甲区动物卫生监督所查获一批从甲县运输进来的生猪，发现猪的耳标号码与出具检疫证明的地点不符，并且检疫证明号码都相连，但使用的时间顺序先后颠倒。乙县畜牧兽医局查明，涉案检疫证明为当地动物卫生监督所所长魏某某、动物检疫员赵某某经手发放，且魏某某以1000元的价格将空白《出县境动物检疫合格证明》和《动物及动物产品运载工具消毒证明》各50份卖给甲县的运猪户韩某，并伪造检疫结果存根交回本局。",
+    "error_detail": "数值偏差",
+    "original_question": "魏某某、赵某某动植物检疫徇私舞弊案的简要案情是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "魏某某和赵某某在2011年3月以2000元的价格将空白《出县境动物检疫合格证明》和《动物及动物产品运载工具消毒证明》各50份卖给甲县的运猪户韩某，并伪造检疫结果存根交回本局。",
+    "reference_case": "魏某某和赵某某在2011年3月以1000元的价格将空白《出县境动物检疫合格证明》和《动物及动物产品运载工具消毒证明》各50份卖给甲县的运猪户韩某，并伪造检疫结果存根交回本局。",
+    "error_detail": "数值偏差",
+    "original_question": "魏某某和赵某某在2011年3月做了什么违法行为？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "韩某在运输生猪时使用了魏某某卖给他的《出县境动物检疫合格证明》和《动物及动物产品运载工具消毒证明》，以及自行伪造的健康证明。",
+    "reference_case": "韩某在运输生猪时使用了魏某某卖给他的《出县境动物检疫合格证明》和《动物及动物产品运载工具消毒证明》。",
+    "error_detail": "添加了未提及的内容",
+    "original_question": "韩某在运输生猪时使用了哪些证明文件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "中越双方在跨境动物疫病防控方面采取了流行病学调查、疫情联合监测、免疫效果评估及信息及时共享等防控措施，有效降低禽流感、口蹄疫、猪蓝耳病等疫病发生风险，共同提高边境地区动物卫生与公共卫生安全水平，并建立了联合实验室。",
+    "reference_case": "中越双方在跨境动物疫病防控方面采取了流行病学调查、疫情联合监测、免疫效果评估及信息及时共享等防控措施，有效降低禽流感、口蹄疫、猪蓝耳病等疫病发生风险，共同提高边境地区动物卫生与公共卫生安全水平。",
+    "error_detail": "添加了未提及的内容",
+    "original_question": "中越双方在跨境动物疫病防控方面采取了哪些具体措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "中越双方提出了在建立流行病控制区（epizone）基本构想的基础上，共同采取流行病学调查、疫情联合监测、免疫效果评估及信息及时共享等防控措施，有效降低禽流感、口蹄疫、猪蓝耳病等疫病发生风险，并计划在未来五年内实现零病例。",
+    "reference_case": "中越双方提出了在建立流行病控制区（epizone）基本构想的基础上，共同采取流行病学调查、疫情联合监测、免疫效果评估及信息及时共享等防控措施，有效降低禽流感、口蹄疫、猪蓝耳病等疫病发生风险。",
+    "error_detail": "添加了未提及的内容",
+    "original_question": "中越双方在跨境动物疫病防控方面提出了哪些具体措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "双方提出了在建立流行病控制区（epizone）基本构想的基础上，共同采取流行病学调查、疫情联合监测、免疫效果评估及信息及时共享等防控措施，有效降低禽流感、口蹄疫、猪蓝耳病等疫病发生风险，并签署了合作协议。",
+    "reference_case": "双方提出了在建立流行病控制区（epizone）基本构想的基础上，共同采取流行病学调查、疫情联合监测、免疫效果评估及信息及时共享等防控措施，有效降低禽流感、口蹄疫、猪蓝耳病等疫病发生风险。",
+    "error_detail": "添加了未提及的内容",
+    "original_question": "中越跨境动物疫病防控及公共卫生安全第二次双边会议中，双方提出了哪些具体的防控措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的基因组通过线性复制方式进行复制。",
+    "reference_case": "猪圆环病毒2型（PCV2:的基因组通过滚环式复制方式进行复制。",
+    "error_detail": "术语错误",
+    "original_question": "猪圆环病毒2型（PCV2:的基因组复制方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的临床样品检测阳性率是 50%。",
+    "reference_case": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的临床样品检测阳性率是 34%。",
+    "error_detail": "数值偏差",
+    "original_question": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的临床样品检测阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的最低检测限是 100 copies/μL。",
+    "reference_case": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的最低检测限是 69 copies/μL。",
+    "error_detail": "数值偏差",
+    "original_question": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的最低检测限是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的建立基于副猪嗜血杆菌 23 S rRNA 基因的保守序列。",
+    "reference_case": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的建立基于副猪嗜血杆菌 16 S rRNA 基因的保守序列。",
+    "error_detail": "术语错误",
+    "original_question": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的建立基于哪个基因的保守序列？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的扩增效率是 0:95。",
+    "reference_case": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的扩增效率是 0:99。",
+    "error_detail": "数值偏差",
+    "original_question": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的扩增效率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的批内和批间变异系数均小于 5%。",
+    "reference_case": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的批内和批间变异系数均小于 3%。",
+    "error_detail": "数值偏差",
+    "original_question": "副猪嗜血杆菌 TaqMan 实时荧光定量 PCR 检测方法的批内和批间变异系数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细环病毒（TTSuV）分为TTSuV1和TTSuV3两种类型。",
+    "reference_case": "猪细环病毒（TTSuV）分为TTSuV1和TTSuV2两种类型。",
+    "error_detail": "术语错误",
+    "original_question": "猪细环病毒（TTSuV）分为哪两种类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的ORF2基因编码膜蛋白。",
+    "reference_case": "猪圆环病毒2型（PCV2:的ORF2基因编码衣壳蛋白。",
+    "error_detail": "术语错误",
+    "original_question": "猪圆环病毒2型（PCV2:的ORF2基因编码什么蛋白？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的基因型包括PCV2a、PCV2b和PCV2c。",
+    "reference_case": "猪圆环病毒2型（PCV2:的基因型包括PCV2a、PCV2b和PCV2d。",
+    "error_detail": "术语错误",
+    "original_question": "猪圆环病毒2型（PCV2:的基因型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在2012年的调查中，安徽省的猪群中PCV2与TTSuV1的混合感染率最高，达到90%。",
+    "reference_case": "在2012年的调查中，安徽省的猪群中PCV2与TTSuV1的混合感染率最高，达到100%。",
+    "error_detail": "数值偏差",
+    "original_question": "在2012年的调查中，哪些省份的猪群中PCV2与TTSuV1的混合感染率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪细环病毒（TTSuV）的传播途径包括粪-口途径、垂直传播和疫苗注射等，以及空气传播。",
+    "reference_case": "猪细环病毒（TTSuV）的传播途径包括粪-口途径、垂直传播和疫苗注射等。",
+    "error_detail": "添加了未提及的内容",
+    "original_question": "猪细环病毒（TTSuV）的传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在2012年中国八省份的调查中，PCV2的感染率为80%，PCV2与TTSuV1的混合感染率为50%，PCV2与TTSuV2的混合感染率为40%，三种病原体的混合感染率为30%。",
+    "reference_case": "在2012年中国八省份的调查中，PCV2的感染率为71:37%，PCV2与TTSuV1的混合感染率为44:05%，PCV2与TTSuV2的混合感染率为36:12%，三种病原体的混合感染率为29:52%。",
+    "error_detail": "数值偏差",
+    "original_question": "猪圆环病毒2型（PCV2:和猪细环病毒（TTSuV）的混合感染率在2012年中国八省份的调查中分别是多少？",
+    "original_input": ""
+  }
+]

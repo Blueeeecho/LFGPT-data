@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "皮特兰猪生长发育和饲料利用率非常高，背膘厚，胴体瘦肉率低。",
+    "reference_case": "皮特兰猪生长发育和饲料利用率一般，但背膘薄，胴体瘦肉率很高。",
+    "error_detail": "错误地提高了皮特兰猪的生长发育和饲料利用率，并错误地描述了背膘和胴体瘦肉率的情况。",
+    "original_question": "皮特兰猪的生长发育和饲料利用率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪年产仔数15头，每头母猪年育成15头仔猪。",
+    "reference_case": "母猪年产仔数11.64头，每头母猪年育成11.64头仔猪。",
+    "error_detail": "错误地提高了拉康白猪的母猪年产仔数和每头母猪年育成仔猪数。",
+    "original_question": "拉康白猪的母猪年产仔数和每头母猪年育成仔猪数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "试验猪只数、年龄、体重、体况、生长势、性能水平、所处的环境等各方面条件可以不一致；参加杂交组合的群体与对照组群体不需要具有各自群体的代表性；每组含量可以少；试验不需要严格按试验规定进行。",
+    "reference_case": "试验猪只数、年龄、体重、体况、生长势、性能水平、所处的环境等各方面条件应尽量一致；参加杂交组合的群体与对照组群体应具有各自群体的代表性，减少取样误差；每组有一定含量；试验严格按试验规定进行，确保度量准确，具有可比性；重复试验的条件与前次一样。",
+    "error_detail": "错误地描述了杂交组合试验的要求，与原始指令严重偏离。",
+    "original_question": "进行杂交组合试验时，试验要求应包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "汉普夏与荣昌猪的重是25.00。",
+    "reference_case": "汉普夏与荣昌猪的重是20.80。",
+    "error_detail": "错误地提高了汉普夏与荣昌猪的重数值。",
+    "original_question": "汉普夏与荣昌猪的重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "汉普夏与甘肃黑猪的消化能是10.00MJ。",
+    "reference_case": "汉普夏与甘肃黑猪的消化能是9.64MJ。",
+    "error_detail": "错误地提高了汉普夏与甘肃黑猪的消化能数值。",
+    "original_question": "汉普夏与甘肃黑猪的消化能是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "每个血统公猪后代一窝各1公1母共12头，从20kg开始，100kg结束，计算平均日增重、饲料消耗；体重达100kg时屠宰，按地方规程进行胴体品质测定和肉质分析。",
+    "reference_case": "每个血统公猪后代两窝各1公1母共24头，从25kg开始，90kg结束，计算平均日增重、饲料消耗；体重达90kg时屠宰，按全国统一规程进行胴体品质测定和肉质分析。",
+    "error_detail": "错误地修改了育肥性能和胴体品质测定的具体方法，与原始指令严重偏离。",
+    "original_question": "育肥性能和胴体品质测定的具体方法是什么？",
+    "original_input": "母猪2:1选种；4月龄初选淘汰生长发育较差者；6月龄根据公猪的多方面指标进行综合选择。"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "产仔数的变异系数为25.00%，产活仔数的变异系数为30.00%。",
+    "reference_case": "产仔数的变异系数为21.67%，产活仔数的变异系数为26.36%。",
+    "error_detail": "错误地提高了经产母猪的产仔数和产活仔数的变异系数。",
+    "original_question": "经产母猪的产仔数和产活仔数的变异系数分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五世代后备公猪的6月龄体重比一世代增加15.00kg，达到95.80kg；五世代后备母猪的6月龄体重增加了5.00kg，达到82.61kg。",
+    "reference_case": "五世代后备公猪的6月龄体重比一世代增加10.14kg，达到90.94kg；五世代后备母猪的6月龄体重增加了0.16kg，达到77.77kg。",
+    "error_detail": "错误地提高了五世代后备公猪和后备母猪的6月龄体重增加量。",
+    "original_question": "五世代与一世代相比，后备公猪和后备母猪的6月龄体重变化情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "五世代后备公猪的体长、胸围、半臀围均比一世代有所减少，尤其是后备公猪的减少更为显著；后备母猪的这些指标变化较大。",
+    "reference_case": "五世代后备公猪的体长、胸围、半臀围均比一世代有所增加，尤其是后备公猪的增加更为显著；后备母猪的这些指标变化较小。",
+    "error_detail": "错误地描述了五世代后备公猪和后备母猪的体长、胸围、半臀围的变化趋势，与原始数据相反。",
+    "original_question": "五世代与一世代相比，后备公猪和后备母猪的体长、胸围、半臀围的变化趋势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五世代后备公猪的活体膘厚减少了0.10cm，而后备母猪的活体膘厚增加了0.05cm。",
+    "reference_case": "五世代后备公猪的活体膘厚增加了0.13cm，而后备母猪的活体膘厚减少了0.02cm。",
+    "error_detail": "错误地描述了五世代后备公猪和后备母猪的活体膘厚变化情况，与原始数据相反。",
+    "original_question": "五世代与一世代相比，后备公猪和后备母猪的活体膘厚变化情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪所需要的营养物质约有30多种，可归纳为能量、蛋白质、矿物质、维生素四大类。",
+    "reference_case": "猪所需要的营养物质约有40多种，可归纳为能量、蛋白质、矿物质、维生素和水五大类。",
+    "error_detail": "错误地减少了猪所需要的营养物质种类，并遗漏了水这一大类。",
+    "original_question": "猪所需要的营养物质有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪的饲养标准由能量、蛋白质、矿物质、维生素和水五大类组成。",
+    "reference_case": "猪的饲养标准由其中的主要营养成分组成。",
+    "error_detail": "错误地具体化了猪的饲养标准的组成，与原始指令不符。",
+    "original_question": "猪的饲养标准由哪些主要营养成分组成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的生长阶段划分为仔猪阶段（0-10kg）、生长猪阶段（10-50kg）、肥育猪阶段（50-80kg）。",
+    "reference_case": "猪的生长阶段划分为仔猪阶段（0-20kg）、生长猪阶段（20-60/70kg）、肥育猪阶段（60/70-90/120kg），或幼猪阶段（20-35/40kg）、中猪阶段（35/40-60kg）、大猪阶段（60-80/90kg）。",
+    "error_detail": "错误地修改了猪的生长阶段的划分标准和范围。",
+    "original_question": "猪的生长阶段如何划分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "哺乳仔猪阶段的营养主要来自饲料。",
+    "reference_case": "哺乳仔猪阶段的营养主要来自母乳。",
+    "error_detail": "错误地描述了哺乳仔猪阶段的主要营养来源，与原始数据不符。",
+    "original_question": "哺乳仔猪阶段的主要营养来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "初生时，哺乳仔猪体脂含量为1%，1周龄时达5%，2周龄达10%，4周龄达15%；体蛋白由初生时的10%略增到4周龄的12.8%。",
+    "reference_case": "初生时，哺乳仔猪体脂含量为2%，1周龄时达10%，2周龄达15%，4周龄达18%；体蛋白由初生时的12%略增到4周龄的14.8%。",
+    "error_detail": "错误地降低了哺乳仔猪在不同周龄时体脂和体蛋白含量的数值。",
+    "original_question": "哺乳仔猪在不同周龄时体脂和体蛋白含量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳仔猪日采食乳量为500~800g，其中干物质100~150g。",
+    "reference_case": "哺乳仔猪日采食乳量为700~1000g，其中干物质140~200g。",
+    "error_detail": "错误地降低了哺乳仔猪的日采食乳量和干物质量。",
+    "original_question": "哺乳仔猪的日采食乳量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "早期断奶可降低母猪的年繁殖窝数，但对仔猪影响较小。",
+    "reference_case": "早期断奶可提高母猪的年繁殖窝数，但对仔猪打击较大。",
+    "error_detail": "错误地描述了早期断奶对母猪和仔猪的影响，与原始数据相反。",
+    "original_question": "早期断奶对母猪和仔猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪的能量浓度多在12.00~13.00MJ/kg之间。",
+    "reference_case": "仔猪的能量浓度多在13.80~14.60MJ/kg之间。",
+    "error_detail": "错误地降低了仔猪的能量浓度范围。",
+    "original_question": "仔猪的能量浓度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "哺乳母猪必需氨基酸的需要量按占饲粮的百分比见表4-10，包括精氨酸、组氨酸、亮氨酸、异亮氨酸、赖氨酸、蛋氨酸+胱氨酸、苯丙氨酸+酪氨酸、苏氨酸、色氨酸和缬氨酸的需要量，具体数值为表4-10的两倍。",
+    "reference_case": "哺乳母猪必需氨基酸的需要量按占饲粮的百分比见表4-10，包括精氨酸、组氨酸、亮氨酸、异亮氨酸、赖氨酸、蛋氨酸+胱氨酸、苯丙氨酸+酪氨酸、苏氨酸、色氨酸和缬氨酸的需要量。",
+    "error_detail": "错误地提高了哺乳母猪必需氨基酸的需要量，与原始指令不符。",
+    "original_question": "哺乳母猪必需氨基酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪泌乳阶段蛋白质的必需供给量为20.00g、10.00g、35.00g、20.00g、30.00g、15.00g、35.00g、20.00g、5.00g、25.00g，占饲粮的0.50%、0.25%、0.80%、0.45%、0.70%、0.35%、0.80%、0.45%、0.12%、0.55%。",
+    "reference_case": "母猪泌乳阶段蛋白质的必需供给量为17.71g、9.72g、31.14g、17.02g、28.26g、12.67g、29.80g、16.4g、4.40g、20.42g，占饲粮的0.40%、0.22%、0.71%、0.39%、0.64%、0.29%、0.68%、0.37%、0.10%、0.46%。",
+    "error_detail": "错误地提高了母猪泌乳阶段蛋白质的必需供给量和占饲粮的百分比。",
+    "original_question": "母猪泌乳阶段的蛋白质需要量是多少？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生素A过量对猪的影响是导致其生长速度加快。",
+    "reference_case": "维生素A过量具有致畸变作用。",
+    "error_detail": "错误地描述了维生素A过量的影响，实际上过量会导致致畸变而非生长加速。",
+    "original_question": "维生素A过量对猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "小眼畸形可能与猪流感病毒感染和遗传有关。",
+    "reference_case": "小眼畸形可能与猪瘟病毒感染和遗传有关。",
+    "error_detail": "错误地将猪瘟病毒混淆为猪流感病毒。",
+    "original_question": "小眼畸形与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "妊娠后期母猪食用被F-2毒素污染的谷物会导致母猪自身健康问题，而不影响仔猪。",
+    "reference_case": "妊娠后期母猪食用被F-2毒素污染的谷物可能导致死胎、新生仔猪典型性组织病理学变化，并增加外翻足的发病率和致死率。",
+    "error_detail": "错误地认为F-2毒素只影响母猪而不影响仔猪，实际上对仔猪有严重影响。",
+    "original_question": "妊娠后期母猪食用被F-2毒素污染的谷物会导致什么后果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "妊娠早期给母猪喂饲烟草杆会导致新生仔猪出现心脏问题。",
+    "reference_case": "妊娠早期给母猪喂饲烟草杆可引起关节弯曲症，导致新生仔猪出现不同程度的关节弯曲和畸形。",
+    "error_detail": "错误地描述了烟草杆对仔猪的影响，实际上主要导致关节弯曲而非心脏问题。",
+    "original_question": "妊娠早期给母猪喂饲烟草杆会导致什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "先天性外翻足在仔猪中表现为前肢软弱无力，后肢不受影响。",
+    "reference_case": "先天性外翻足在仔猪中表现为不同程度的后肢软弱无力，前肢有时也受影响，部分病猪可艰难地站立行走，但严重者多不能站立，表现为站立时后（前）肢向外翻展。",
+    "error_detail": "错误地描述了外翻足的表现，实际上后肢更常受影响。",
+    "original_question": "先天性外翻足在仔猪中常见的表现形式有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "妊娠2到3个月内母猪采食曼陀罗中毒是引起仔猪关节弯曲症的唯一原因。",
+    "reference_case": "是，妊娠2到3个月内母猪采食曼陀罗中毒被疑似为引起一窝仔猪发生关节弯曲症的原因。",
+    "error_detail": "错误地添加了‘唯一原因’的假设，实际上只是疑似原因之一。",
+    "original_question": "妊娠2到3个月内母猪采食曼陀罗中毒是否会引起仔猪关节弯曲症？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "毒芹中毒不会引起新生仔猪的关节弯曲症。",
+    "reference_case": "是，毒芹中毒可引起新生仔猪的关节弯曲症。",
+    "error_detail": "错误地否定了毒芹中毒与关节弯曲症的关系，实际上存在这种关系。",
+    "original_question": "毒芹中毒是否会引起新生仔猪的关节弯曲症？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "妊娠母猪采食野生黑櫻桃的树叶树皮会导致所生仔猪出现心脏发育不全。",
+    "reference_case": "会导致所生仔猪出现多种先天性异常症，其中也包括关节弯曲症，相随的异常症有尾发育不全、锁肛和外生殖器退化。",
+    "error_detail": "错误地描述了野生黑櫻桃的影响，实际上主要导致关节弯曲等异常而非心脏问题。",
+    "original_question": "妊娠母猪采食野生黑櫻桃的树叶树皮会导致所生仔猪哪些先天性异常症？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "腹股沟疝的发病率约为1%到2%，脐疝的发病率母猪超过2%，公猪为1%。",
+    "reference_case": "腹股沟疝的发病率约为0.4%到0.5%，脐疝的发病率母猪超过1%，公猪为0.6%。",
+    "error_detail": "错误地提高了疝病的发病率数据。",
+    "original_question": "猪的腹股沟疝与脐疝的发病率对比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在德国统计到猪锁肛症的发病率约为1%。",
+    "reference_case": "在丹麦统计到猪锁肛症的发病率约为0.4%，在荷兰长白猪中的发病率亦基本相同。",
+    "error_detail": "错误地改变了统计地域和发病率数据。",
+    "original_question": "锁肛症的发病率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "确认致畸物需要通过实验室检测，无法通过观察和管理记录确认。",
+    "reference_case": "确认致畸物通常靠偶然观察发现和对环境管理作详细的记录，尤其是妊娠母猪的管理记录。如果某种特征性的发育异常症的发病率升高，或者这种异常症的发生率随着某种已知环境因素的改变而升高，或者已知妊娠早期的动物经历了某种环境因素的改变并导致其后代出现特征性发育异常，那么可以确认存在致畸物。",
+    "error_detail": "错误地否定了通过观察和管理记录确认致畸物的可能性。",
+    "original_question": "如何确认环境中的致畸物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪最为常见的肿瘤类型包括淋巴肉瘤、肾癌和黑色素瘤。",
+    "reference_case": "猪最为常见的肿瘤类型包括淋巴肉瘤、肧胎性肾瘤和黑色素瘤。",
+    "error_detail": "错误地将肧胎性肾瘤混淆为肾癌。",
+    "original_question": "猪最常见的肿瘤类型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "淋巴肉瘤在猪身上可表现为共济失调、麻序、浅表淋巴结肿大（特别是下颌淋巴结和肩前淋巴结）、厌食、呕吐、呼吸困难、心动过速及突然死亡。",
+    "reference_case": "淋巴肉瘤在猪身上可表现为共济失调、麻序、浅表淋巴结肿大（特别是下颌淋巴结和肩前淋巴结）、厌食、呕吐、呼吸困难、心动徐缓及突然死亡。",
+    "error_detail": "错误地将心动徐缓改为心动过速。",
+    "original_question": "淋巴肉瘤在猪身上有哪些临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "淋巴肉瘤在猪身上可分为两类临床病理学类型：多中心型和皮肤型。",
+    "reference_case": "淋巴肉瘤在猪身上可分为三类临床病理学类型：多中心型、胸腺型和皮肤型，其中多中心型和胸腺型最为常见。",
+    "error_detail": "错误地遗漏了胸腺型。",
+    "original_question": "淋巴肉瘤在猪身上可分为哪几种临床病理学类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "遗传因素可以影响动物对抗钩端螺旋体病等传染病的抵抗力，如某些猪品系对抗钩端螺旋体病的遗传力为0.30。",
+    "reference_case": "遗传因素可以影响动物对抗钩端螺旋体病等传染病的抵抗力，如某些猪品系对抗钩端螺旋体病的遗传力为0.20。",
+    "error_detail": "错误地提高了遗传力的数值。",
+    "original_question": "遗传因素如何影响动物对传染病的抵抗力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "通过选择性育种，可以完全消除猪对猪丹毒的易感性。",
+    "reference_case": "通过选择性育种，可以提高猪对猪丹毒的抵抗力，后代经病原菌接种后仅在局部出现轻微病变。",
+    "error_detail": "错误地添加了‘完全消除’的假设，实际上只能提高抵抗力。",
+    "original_question": "遗传因素如何影响动物对猪丹毒的抵抗力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "遗传因素不影响巴克加郎猪对猪瘟的抵抗力。",
+    "reference_case": "遗传因素可以影响巴克加郎猪对猪瘟的抵抗力，但很难确定这种抵抗力是否具有特异性。",
+    "error_detail": "错误地否定了遗传因素的影响。",
+    "original_question": "遗传因素如何影响动物对猪瘟的抵抗力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "近交可产生对布氏杆菌病具有遗传抗性的猪，这种抗性以显性性状遗传。",
+    "reference_case": "近交可产生对布氏杆菌病具有遗传抗性的猪，这种抗性以隐性性状遗传。",
+    "error_detail": "错误地将隐性性状遗传改为显性性状遗传。",
+    "original_question": "遗传因素如何影响动物对布氏杆菌病的抵抗力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "小型猪对炭疽杆菌感染不具有抵抗力，病原微生物能在体内生长繁殖。",
+    "reference_case": "小型猪对炭疽杆菌感染具有抵抗力，但这些芽孢不生长繁殖，并且病原微生物能很快地被机体清除。",
+    "error_detail": "错误地描述了小型猪对炭疽杆菌的抵抗力。",
+    "original_question": "遗传因素如何影响动物对炭疽杆菌的抵抗力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同品种和杂交猪对类圆线虫感染的反应性相同。",
+    "reference_case": "不同品种和杂交猪对类圆线虫感染的反应性不同，杜洛克猪反应性低，汉普夏猪反应性高，杂交后代反应性介于两者之间。",
+    "error_detail": "错误地认为所有猪对类圆线虫的反应性相同。",
+    "original_question": "遗传因素如何影响动物对类圆线虫的抵抗力？",
+    "original_input": ""
+  }
+]

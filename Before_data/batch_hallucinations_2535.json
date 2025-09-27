@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PCV2疫苗免疫猪血清抗体在35天时的抗体效价均达到1:1600以上。",
+    "reference_case": "PCV2疫苗免疫猪血清抗体在35天时的抗体效价均达到1:800以上。",
+    "error_detail": "抗体效价数值被夸大",
+    "original_question": "PCV2疫苗免疫猪血清抗体在35天时的抗体效价达到多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的基因组长度为1800到1802个核苷酸（nt）。",
+    "reference_case": "猪圆环病毒2型（PCV2:的基因组长度为1766到1768个核苷酸（nt）。",
+    "error_detail": "基因组长度数值错误",
+    "original_question": "猪圆环病毒2型（PCV2:的基因组长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PCV2疫苗免疫后，猪血清抗体阳性率在21天时为60%，在28天时为90%。",
+    "reference_case": "PCV2疫苗免疫后，猪血清抗体阳性率在21天时为50%，在28天时为100%。",
+    "error_detail": "阳性率数值错误",
+    "original_question": "PCV2疫苗免疫后，猪血清抗体阳性率在21天和28天时分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪博卡病毒基因群间的核苷酸序列同源性较高，基因 1 群和基因 2 群之间最高为 80:2%，最低为 50:4%；基因 1 群和基因 3 群之间最高为 75:7%，最低仅为 30:3%；基因 2 群和基因 3 群之间最高为 85:6%，最低只有 40:0%。",
+    "reference_case": "猪博卡病毒基因群间的核苷酸序列同源性非常低，基因 1 群和基因 2 群之间最高为 53:2%，最低为 31:4%；基因 1 群和基因 3 群之间最高为 52:7%，最低仅为 9:3%；基因 2 群和基因 3 群之间最高为 59:6%，最低只有 11:0%。",
+    "error_detail": "同源性数值被夸大",
+    "original_question": "猪博卡病毒基因群间的核苷酸序列同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "研究参考了 GenBank 中登录的 50 条猪博卡病毒全基因组序列信息。",
+    "reference_case": "研究参考了 GenBank 中登录的 28 条猪博卡病毒全基因组序列信息。",
+    "error_detail": "参考序列数量错误",
+    "original_question": "猪博卡病毒的基因分型研究参考了多少条全基因组序列？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪博卡病毒基因群内的核苷酸序列同源性较低，基因 1 群最高为 90:6%，基因 2 群最高为 85:6%，基因 3 群则高达 95%。",
+    "reference_case": "猪博卡病毒基因群内的核苷酸序列同源性较高，基因 1 群最高为 99:6%，基因 2 群最高为 96:6%，基因 3 群则高达 100%。",
+    "error_detail": "同源性数值被低估",
+    "original_question": "猪博卡病毒基因群内的核苷酸序列同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪博卡病毒的 NP1 和 VP1 蛋白在不同基因群之间存在特征性区域差异，基因 1 群和基因 3 群与基因 2 群相比，在 NP1 和 VP1 蛋白的特定区域均存在不同数量氨基酸的缺失。",
+    "reference_case": "猪博卡病毒的 NP1 和 VP1 蛋白在不同基因群之间存在特征性区域差异，基因 1 群和基因 3 群与基因 2 群相比，在 NP1 和 VP1 蛋白的特定区域均存在相同数量氨基酸的缺失。",
+    "error_detail": "氨基酸缺失数量描述错误",
+    "original_question": "猪博卡病毒的 NP1 和 VP1 蛋白在不同基因群之间有何特征性差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪博卡病毒的基因组为双链环状 DNA，长度约为 10 kb，包含 5 个开放阅读框（ORFs），分别编码 3 个非结构蛋白 NS1、NS2 和 NP1，以及 3 个结构蛋白 VP1、VP2 和 VP3。",
+    "reference_case": "猪博卡病毒的基因组为单链线状 DNA，长度约为 5 kb，包含 3 个开放阅读框（ORFs），分别编码 2 个非结构蛋白 NS1 和 NP1，以及 2 个结构蛋白 VP1/VP2。",
+    "error_detail": "基因组结构和编码蛋白描述错误",
+    "original_question": "猪博卡病毒（PBoV）的基因组结构是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "VP1 基因是猪博卡病毒的核蛋白，可以很大程度上反映出病毒株的复制能力，因此可以作为基因分型的次要基因。当 VP1 基因核苷酸序列同源性小于 80% 时，可以鉴定为新的基因型。",
+    "reference_case": "VP1 基因是猪博卡病毒的衣壳蛋白，可以很大程度上反映出病毒株的抗原性，因此可以作为基因分型的首选基因。当 VP1 基因核苷酸序列同源性小于 60% 时，可以鉴定为新的基因型。",
+    "error_detail": "VP1基因功能和分型标准描述错误",
+    "original_question": "猪博卡病毒的 VP1 基因在基因分型中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同基因群的猪博卡病毒基因组结构存在差异，主要体现在 ORF2 和 ORF3 编码的氨基酸数量上。基因 1 群编码 500-510 个氨基酸，基因 2 群编码 600-610 个氨基酸，基因 3 群编码 550-560 个氨基酸。",
+    "reference_case": "不同基因群的猪博卡病毒基因组结构存在差异，主要体现在 ORF2 和 ORF3 编码的氨基酸数量上。基因 1 群编码 621-624 个氨基酸，基因 2 群编码 705-710 个氨基酸，基因 3 群编码 683-689 个氨基酸。",
+    "error_detail": "编码氨基酸数量错误",
+    "original_question": "猪博卡病毒的基因组结构在不同基因群之间有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "研究采用了猪博卡病毒的部分基因组序列、NS1 基因和 VP1 基因的核苷酸序列进行分析，并构建了系统进化树。",
+    "reference_case": "研究采用了猪博卡病毒的全基因组序列、NS1 基因、NP1 基因和 VP1 基因的核苷酸序列进行分析，并构建了系统进化树。",
+    "error_detail": "遗漏了NP1基因的分析",
+    "original_question": "猪博卡病毒的基因分型研究采用了哪些基因序列进行分析？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "系统进化树分析结果显示，猪博卡病毒被划分为 5 个基因群。",
+    "reference_case": "系统进化树分析结果显示，猪博卡病毒被划分为 3 个基因群。",
+    "error_detail": "基因群数量错误",
+    "original_question": "猪博卡病毒的系统进化树分析结果显示其分为几个基因群？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "研究采用了 BioEdit 生物信息学软件，通过 Muscle 算法进行核苷酸序列分析和系统进化树构建。",
+    "reference_case": "研究采用了 DNAStar 生物信息学软件，通过 ClustalW 算法进行核苷酸序列分析和系统进化树构建。",
+    "error_detail": "使用的软件和算法错误",
+    "original_question": "猪博卡病毒的基因分型研究采用了哪些生物信息学工具？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪伪狂犬病病毒（PRV）的基因组由独特的长区段（UL）和短区段（US）及位于US两侧的末端重复序列（TR）和内部重复序列（IR）所组成，形成了UL-US-TR-IR结构。",
+    "reference_case": "猪伪狂犬病病毒（PRV）的基因组由独特的长区段（UL）和短区段（US）及位于US两侧的末端重复序列（TR）和内部重复序列（IR）所组成，形成了UL-IR-US-IR结构。",
+    "error_detail": "基因组结构描述错误",
+    "original_question": "猪伪狂犬病病毒（PRV）的基因组结构是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "表达PPV VP2基因的重组病毒SA215（B）具有良好免疫原性，可以用于预防猪PPV和PRV。免疫仔猪后，抗PPV的HI抗体最高达1:48，抗PRV的半数保护量（PD50:最高达1:428，可以作为猪PPV-PRV二价重组疫苗候选株。",
+    "reference_case": "表达PPV VP2基因的重组病毒SA215（B）具有良好免疫原性，可以用于预防猪PPV和PRV。免疫仔猪后，抗PPV的HI抗体最高达1:24，抗PRV的半数保护量（PD50:最高达1:214，可以作为猪PPV-PRV二价重组疫苗候选株。",
+    "error_detail": "抗体效价和半数保护量数值错误",
+    "original_question": "猪细小病毒（PPV）/PRV重组疫苗的免疫效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "表达SIV HA基因的rPRV-HA接种细胞后能够稳定表达HA，并且建立了三种可以区分重组病毒疫苗和PRV及SIV自然感染的鉴别检测方法。将rPRV-HA滴鼻免疫小鼠，可以保护其免受SIV攻击；免疫小猪后14天可以检测到高滴度抗SIV的HI抗体。",
+    "reference_case": "表达SIV HA基因的rPRV-HA接种细胞后能够稳定表达HA，并且建立了两种可以区分重组病毒疫苗和PRV及SIV自然感染的鉴别检测方法。将rPRV-HA滴鼻免疫小鼠，可以保护其免受SIV攻击；免疫小猪后7天可以检测到高滴度抗SIV的HI抗体。",
+    "error_detail": "检测方法数量和抗体检测时间错误",
+    "original_question": "猪流感病毒（SIV）/PRV重组疫苗的免疫效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "表达PCV2 ORF1和ORF2融合蛋白的rPRV-PCV2免疫小鼠后，小鼠产生了抗PRV和抗PCV2特异性抗体，并可以抵抗PRV Ea强毒株的致死性攻击；将其免疫猪后，可以有效的诱导抗PRV和PCV2免疫反应，但无法抵抗PCV2的攻击。",
+    "reference_case": "表达PCV2 ORF1和ORF2融合蛋白的rPRV-PCV2免疫小鼠后，小鼠产生了抗PRV和抗PCV2特异性抗体，并可以抵抗PRV Ea强毒株的致死性攻击；将其免疫猪后，可以有效的诱导抗PRV和PCV2免疫反应。",
+    "error_detail": "添加了无法抵抗PCV2攻击的错误信息",
+    "original_question": "猪圆环病毒II型（PCV2:/PRV重组疫苗的免疫效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "表达JEV SA14-14-2株非结构蛋白NS1基因的rPRV TK/gG/NS1+，能够表达具有生物活性的NS1蛋白，可以作为猪乙型脑炎与伪狂犬病双价基因工程疫苗株。该重组病毒免疫小鼠、断奶仔猪和妊娠母猪均具有良好的安全性，免疫的小鼠能够抵抗PRV Ea株的致死性攻击，免疫的断奶仔猪能够产生PRV特异性抗体和JEV特异性抗体。",
+    "reference_case": "表达JEV SA14-14-2株非结构蛋白NS1基因的rPRV TK/gG/NS1+，能够表达具有生物活性的NS1蛋白，可以作为猪乙型脑炎与伪狂犬病双价基因工程疫苗株。该重组病毒免疫小鼠、断奶仔猪和妊娠母猪均具有良好的安全性，免疫的小鼠能够抵抗PRV Ea株的致死性攻击，免疫的断奶仔猪能够产生PRV特异性抗体和JEV特异性CTL活性。",
+    "error_detail": "JEV特异性反应类型描述错误",
+    "original_question": "乙型脑炎病毒（JEV）/PRV重组疫苗的免疫效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "表达PRRSV GP3基因的rPRV不仅不影响PRV的增殖以及强弱毒的鉴别，而且能够优化PRV弱毒疫苗株，有助于预防PR和PRRS。表达PRRSV GP5基因的rPRV-GP5免疫绵羊，可以完全抵抗10^5 LD50 PRV强毒S株的攻击；免疫仔猪，能够产生抗PRRSV的初次免疫应答。",
+    "reference_case": "表达PRRSV GP3基因的rPRV不仅不影响PRV的增殖以及强弱毒的鉴别，而且能够优化PRV弱毒疫苗株，有助于预防PR和PRRS。表达PRRSV GP5基因的rPRV-GP5免疫绵羊，可以完全抵抗10^3 LD50 PRV强毒S株的攻击；免疫仔猪，能够产生抗PRRSV的回忆性免疫应答。",
+    "error_detail": "LD50数值和免疫应答类型错误",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）/PRV重组疫苗的免疫效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "实验中选择的猪的体重范围在70至90公斤之间。",
+    "reference_case": "实验中选择的猪的体重范围在85至115公斤之间。",
+    "error_detail": "体重范围错误",
+    "original_question": "实验中选择的猪的体重范围是多少？",
+    "original_input": ""
+  }
+]

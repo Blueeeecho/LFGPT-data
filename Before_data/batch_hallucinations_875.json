@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟的临床特征包括发病猪高热䄸留、细小血管壁变性导致各器官组织的广泛出血、脾脏梗死等，且死亡率高达90%。",
+    "reference_case": "猪瘟的临床特征包括发病猪高热䄸留、细小血管壁变性导致各器官组织的广泛出血、脾脏梗死等。",
+    "error_detail": "添加了不准确的死亡率数据",
+    "original_question": "猪瘟（CSF）的临床特征有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "如果检测线区（T）及对照线区（C）同时出现紫红色线，且检测线区（T）颜色较深，表明猪体内的猪瘟病毒滴度很高。",
+    "reference_case": "如果检测线区（T）及对照线区（C）同时出现紫红色线，且检测线区（T）颜色较深，表明猪体内的猪瘟抗体滴度很高。",
+    "error_detail": "将抗体滴度错误地表述为病毒滴度",
+    "original_question": "猪瘟抗体快速金标检测卡的检测结果如何解释？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "RT-PCR检测中，猪瘟病毒的阳性条带大小为372 bp。",
+    "reference_case": "RT-PCR检测中，猪瘟病毒的阳性条带大小为272 bp。",
+    "error_detail": "错误的条带大小",
+    "original_question": "RT-PCR检测中，猪瘟病毒的阳性条带大小是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "母猪的产乳量和乳汁组成受日粮结构影响。当给哺乳母猪饲喂高能量饲料并采用高饲喂水平时，乳脂率增加，仔猪脂肪沉积提高，但母猪在哺乳期失重也会减少。",
+    "reference_case": "母猪的产乳量和乳汁组成受日粮结构影响。当给哺乳母猪饲喂高能量饲料并采用高饲喂水平时，乳脂率增加，仔猪脂肪沉积提高，但母猪在哺乳期失重也会增加。",
+    "error_detail": "错误的因果关系，哺乳期失重应增加而非减少",
+    "original_question": "母猪的产乳量和乳汁组成受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪饲料中，为了维持合适的U:S比率，大豆油应与猪油一起使用，比例分别为35%和65%。",
+    "reference_case": "在猪饲料中，为了维持合适的U:S比率，大豆油应与猪油一起使用，比例分别为25%和75%。",
+    "error_detail": "错误的比例数据",
+    "original_question": "在猪饲料中，如何选择脂肪源以维持合适的U:S比率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "添加脂肪可以降低猪对蛋白和氨基酸的回肠表观消化率。",
+    "reference_case": "添加脂肪可以提高猪对蛋白和氨基酸的回肠表观消化率。",
+    "error_detail": "错误地表述了脂肪对消化率的影响",
+    "original_question": "添加脂肪对猪的蛋白和氨基酸回肠表观消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在母猪饲粮中添加10%的葵花籽油后，仔猪体内的脂肪水解酶（胰蛋白酶和CCK）水平增高。",
+    "reference_case": "在母猪饲粮中添加8%的葵花籽油后，仔猪体内的脂肪水解酶（胰蛋白酶和CCK）水平增高。",
+    "error_detail": "错误的添加比例",
+    "original_question": "在母猪饲粮中添加葵花籽油对仔猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在肉鸡料中，鸡油的经济价值至少是80%猪油加20%大豆油。",
+    "reference_case": "在肉鸡料中，鸡油的经济价值至少是70%猪油加30%大豆油。",
+    "error_detail": "错误的比例数据",
+    "original_question": "在肉鸡料中，鸡油的经济价值如何计算？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在肉鸡饲料中添加菜籽油代替猪油会显著降低肉鸡胸肉和腹部脂肪的不饱和脂肪酸含量。",
+    "reference_case": "在肉鸡饲料中添加菜籽油代替猪油会显著增加肉鸡胸肉和腹部脂肪的不饱和脂肪酸含量。",
+    "error_detail": "错误地表述了菜籽油对脂肪酸含量的影响",
+    "original_question": "在肉鸡饲料中添加菜籽油代替猪油会产生什么效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "不同脂肪源对猪肉产品的品质没有显著影响。",
+    "reference_case": "不同脂肪源对猪肉产品的品质有显著影响。",
+    "error_detail": "错误地否定了脂肪源对品质的影响",
+    "original_question": "不同脂肪源对猪肉产品的品质有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "25-羟基维生素 D3 在母猪中的应用能改善母体和新生仔猪的维生素 D 状况，提高怀孕率及窝产仔数，效果提高50%。",
+    "reference_case": "25-羟基维生素 D3 在母猪中的应用能改善母体和新生仔猪的维生素 D 状况，提高怀孕率及窝产仔数。",
+    "error_detail": "添加了不准确的效果提高比例",
+    "original_question": "25-羟基维生素 D3 在母猪中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "益生菌通过增加大肠杆菌K88在肠道黏膜表面的定植，降低断奶后腹泻。",
+    "reference_case": "益生菌通过降低大肠杆菌K88在肠道黏膜表面的定植，降低断奶后腹泻。",
+    "error_detail": "错误地表述了益生菌的作用机制",
+    "original_question": "益生菌如何改善断奶仔猪的生产性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "断奶仔猪在断奶后可能面临的不利因素包括养分和能量摄入量不足、不适当的肠道菌群数量和平衡、不成熟和被抑制的免疫功能，以及身心失调等，且这些因素都会导致仔猪立即死亡。",
+    "reference_case": "断奶仔猪在断奶后可能面临的不利因素包括养分和能量摄入量不足、不适当的肠道菌群数量和平衡、不成熟和被抑制的免疫功能，以及身心失调等。",
+    "error_detail": "添加了不合理的极端后果假设",
+    "original_question": "断奶仔猪在断奶后可能面临哪些不利因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "需要发展新的管理和饲养策略来刺激断奶仔猪肠道的发育和健康，以保持养猪业的长期可持续发展，特别是在完全禁止使用抗菌复合物如抗生素生长促进剂和重金属混合物的使用的情况下。",
+    "reference_case": "需要发展新的管理和饲养策略来刺激断奶仔猪肠道的发育和健康，以保持养猪业的长期可持续发展，特别是在减少抗菌复合物如抗生素生长促进剂和重金属混合物的使用的情况下。",
+    "error_detail": "添加了不合理的完全禁止假设",
+    "original_question": "为什么需要发展新的管理和饲养策略来刺激断奶仔猪肠道的发育和健康？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低蛋白日粮可以改善断奶仔猪胃肠道的健康指标，并保持生产性能，特别是在断奶后10天内。",
+    "reference_case": "低蛋白日粮可以改善断奶仔猪胃肠道的健康指标，并保持生产性能，特别是在断奶后5天内。",
+    "error_detail": "错误的时间框架",
+    "original_question": "低蛋白日粮如何影响断奶仔猪的胃肠道健康？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "中国•散营养国际论坛的宗旨是“推动全球猪业技术交流”。",
+    "reference_case": "中国•散营养国际论坛的宗旨是“凝聚全球科研力量，驱动猪业创新思维”。",
+    "error_detail": "错误的宗旨表述",
+    "original_question": "中国•散营养国际论坛的宗旨是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发酵豆粕替代普通豆粕可以提高断奶仔猪的血清白蛋白含量。试验组的血清白蛋白含量为35:7 g/L，而对照组为26:7 g/L。",
+    "reference_case": "发酵豆粕替代普通豆粕可以提高断奶仔猪的血清白蛋白含量。试验组的血清白蛋白含量为31:7 g/L，而对照组为26:7 g/L，提高了18:73%。",
+    "error_detail": "错误的试验组数据",
+    "original_question": "发酵豆粕替代普通豆粕对断奶仔猪的血清白蛋白含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发酵豆粕替代普通豆粕可以显著降低断奶仔猪的死淘率。试验组的死淘率为2:3%，而对照组为6:6%。",
+    "reference_case": "发酵豆粕替代普通豆粕可以显著降低断奶仔猪的死淘率。试验组的死淘率为3:3%，而对照组为6:6%，降低了50%。",
+    "error_detail": "错误的试验组数据",
+    "original_question": "发酵豆粕替代普通豆粕对断奶仔猪的死淘率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发酵豆粕替代普通豆粕可以降低断奶仔猪的料重比。试验组的料重比为1:52，而对照组为1:79。",
+    "reference_case": "发酵豆粕替代普通豆粕可以降低断奶仔猪的料重比。试验组的料重比为1:62，而对照组为1:79，降低了9:50%。",
+    "error_detail": "错误的试验组数据",
+    "original_question": "发酵豆粕替代普通豆粕对断奶仔猪的料重比有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发酵豆粕替代普通豆粕可以提高断奶仔猪的血清白球比。试验组的血清白球比为0:85，而对照组为0:72。",
+    "reference_case": "发酵豆粕替代普通豆粕可以提高断奶仔猪的血清白球比。试验组的血清白球比为0:80，而对照组为0:72，提高了11:11%。",
+    "error_detail": "错误的试验组数据",
+    "original_question": "发酵豆粕替代普通豆粕对断奶仔猪的血清白球比有何影响？",
+    "original_input": ""
+  }
+]

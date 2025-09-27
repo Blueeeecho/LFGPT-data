@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "多重 RT-PCR 检测方法的特异性通过分别对猪伪狂犬病毒（PRV）、猪细小病毒（PPV）、猪圆环病毒 2 型（PCV2:和流行性乙型脑炎病毒（JEV）进行 RT-PCR 检测来验证，结果显示这些病毒的检测结果均为阳性。",
+    "reference_case": "多重 RT-PCR 检测方法的特异性通过分别对猪伪狂犬病毒（PRV）、猪细小病毒（PPV）、猪圆环病毒 2 型（PCV2:和流行性乙型脑炎病毒（JEV）进行 RT-PCR 检测来验证，结果显示这些病毒的检测结果均为阴性。",
+    "error_detail": "错误地将检测结果从阴性改为阳性，导致数据型幻觉。",
+    "original_question": "多重 RT-PCR 检测方法的特异性如何验证？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "多重 RT-PCR 检测方法在临床上主要用于快速鉴别和检测猪瘟病毒（CSFV）和猪繁殖与呼吸综合征病毒（PRRSV）的单纯或混合感染，以及猪流感病毒（SIV）。",
+    "reference_case": "多重 RT-PCR 检测方法在临床上主要用于快速鉴别和检测猪瘟病毒（CSFV）和猪繁殖与呼吸综合征病毒（PRRSV）的单纯或混合感染。",
+    "error_detail": "错误地添加了猪流感病毒（SIV）作为检测目标，导致概念混淆幻觉。",
+    "original_question": "多重 RT-PCR 检测方法在临床上的主要应用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪支原体肺炎的主要临床症状为咳嗽和气喘，病猪生长缓慢，且伴有高烧。",
+    "reference_case": "猪支原体肺炎的主要临床症状为咳嗽和气喘，病猪生长缓慢。",
+    "error_detail": "错误地添加了高烧作为症状，导致时效性幻觉。",
+    "original_question": "猪支原体肺炎（MPS）的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪瘟病毒（CSFV）的衣壳蛋白（C蛋白）在ST细胞中主要定位于细胞膜。",
+    "reference_case": "猪瘟病毒（CSFV）的衣壳蛋白（C蛋白）在ST细胞中主要定位于细胞质和核仁。",
+    "error_detail": "错误地将定位从细胞质和核仁改为细胞膜，导致空间错位幻觉。",
+    "original_question": "猪瘟病毒（CSFV）的衣壳蛋白（C蛋白）在ST细胞中的主要定位是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪嵴病毒（PKV）属于大RNA病毒科嵴病毒属。",
+    "reference_case": "猪嵴病毒（PKV）属于小RNA病毒科嵴病毒属。",
+    "error_detail": "错误地将病毒科从小RNA病毒科改为大RNA病毒科，导致概念混淆幻觉。",
+    "original_question": "猪嵴病毒（PKV）属于哪个病毒科和属？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在河南地区，猪嵴病毒（PKV）的检测使用了ELISA方法。",
+    "reference_case": "在河南地区，猪嵴病毒（PKV）的检测使用了RT-PCR方法。",
+    "error_detail": "错误地将检测方法从RT-PCR改为ELISA，导致数据型幻觉。",
+    "original_question": "在河南地区，猪嵴病毒（PKV）的检测使用了哪种方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "河南地区的8个PKV VP1基因序列分布在遗传进化树的五个分支中，显示出一定的遗传多样性。",
+    "reference_case": "河南地区的8个PKV VP1基因序列分布在遗传进化树的三个分支中，显示出一定的遗传多样性。",
+    "error_detail": "错误地将分支数量从三个改为五个，导致数据型幻觉。",
+    "original_question": "猪嵴病毒（PKV）的VP1基因在河南地区的检测中显示了怎样的遗传多样性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪嵴病毒（PKV）的基因组大小为7:2 kb到7:3 kb。",
+    "reference_case": "猪嵴病毒（PKV）的基因组大小为8:2 kb到8:3 kb。",
+    "error_detail": "错误地将基因组大小从8:2 kb到8:3 kb改为7:2 kb到7:3 kb，导致数据型幻觉。",
+    "original_question": "猪嵴病毒（PKV）的基因组大小是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪嵴病毒（PKV）的VP1基因是已知的三种嵴病毒中变异最小的结构蛋白，而Aichi病毒的VP1区是衣壳基因中变异最小的区域。",
+    "reference_case": "猪嵴病毒（PKV）的VP1基因是已知的三种嵴病毒中变异最大的结构蛋白，而Aichi病毒的VP1区是衣壳基因中变异最大的区域。",
+    "error_detail": "错误地将变异描述从最大改为最小，导致概念混淆幻觉。",
+    "original_question": "猪嵴病毒（PKV）的VP1基因与Aichi病毒的VP1基因有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪嵴病毒（PKV）的多聚蛋白被水解后产生4个结构蛋白（VP0、VP3、VP1和VP2:和6个非结构蛋白（2A-2C和3A-3D）。",
+    "reference_case": "猪嵴病毒（PKV）的多聚蛋白被水解后产生3个结构蛋白（VP0、VP3和VP1:和7个非结构蛋白（2A-2C和3A-3D）。",
+    "error_detail": "错误地改变了结构蛋白和非结构蛋白的数量，导致数据型幻觉。",
+    "original_question": "猪嵴病毒（PKV）的多聚蛋白被水解后产生哪些结构蛋白和非结构蛋白？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "河南地区的8个PKV VP1基因序列与中国其他地区的PKV VP1基因的核苷酸同源性为70:7%到89:9%。",
+    "reference_case": "河南地区的8个PKV VP1基因序列与中国其他地区的PKV VP1基因的核苷酸同源性为80:7%到99:9%。",
+    "error_detail": "错误地改变了核苷酸同源性的范围，导致数据型幻觉。",
+    "original_question": "猪嵴病毒（PKV）的VP1基因在河南地区的检测中显示了怎样的核苷酸同源性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "河南地区的8个PKV VP1基因序列与中国其他地区的PKV VP1基因的氨基酸同源性为73:9%到89:6%。",
+    "reference_case": "河南地区的8个PKV VP1基因序列与中国其他地区的PKV VP1基因的氨基酸同源性为83:9%到99:6%。",
+    "error_detail": "错误地改变了氨基酸同源性的范围，导致数据型幻觉。",
+    "original_question": "猪嵴病毒（PKV）的VP1基因在河南地区的检测中显示了怎样的氨基酸同源性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪感染PRRSV的主要症状包括妊娠期在90天以上的母猪大批出现流产、早产、产出死胎、弱胎和木乃伊胎，仔猪死亡率高达60%～80%。",
+    "reference_case": "母猪感染PRRSV的主要症状包括妊娠期在100天以上的母猪大批出现流产、早产、产出死胎、弱胎和木乃伊胎，仔猪死亡率高达80%～100%。",
+    "error_detail": "错误地改变了妊娠期和仔猪死亡率的数值，导致数据型幻觉。",
+    "original_question": "PRRSV的临床检测中，母猪感染PRRSV的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪繁殖与呼吸综合征（PRRS）是由PRRS细菌（PRRSB）引起的。",
+    "reference_case": "猪繁殖与呼吸综合征（PRRS）是由PRRS病毒（PRRSV）引起的。",
+    "error_detail": "错误地将病原体从病毒改为细菌，导致概念混淆幻觉。",
+    "original_question": "猪繁殖与呼吸综合征（PRRS）是由什么病毒引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "精子经 TritonX-100 和液氮反复冻融处理后，EGFP 阳性胚胎率显著增加，与对照组相比差异显著。处理组胚胎的卵裂率显著高于对照组，且 TritonX-100 处理组的囊胚发育率显著高于对照组。",
+    "reference_case": "精子经 TritonX-100 和液氮反复冻融处理后，EGFP 阳性胚胎率虽有增加，但与对照组相比差异不显著。处理组胚胎的卵裂率显著低于对照组，且 TritonX-100 处理组的囊胚发育率显著低于对照组。",
+    "error_detail": "错误地改变了实验结果的方向和显著性，导致数据型幻觉。",
+    "original_question": "精子处理方式对猪 ICSI 转基因胚胎的发育有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "NCSU-23 培养液根据猪胚胎代谢和营养需求设计，主要以果糖作为能量物质。NCSU-23 包含必需和非必需氨基酸，而 PZM-3 则不含有氨基酸。",
+    "reference_case": "NCSU-23 培养液根据猪胚胎代谢和营养需求设计，主要以葡萄糖作为能量物质。NCSU-23 不包含必需和非必需氨基酸，而 PZM-3 则含有氨基酸。",
+    "error_detail": "错误地改变了能量物质和氨基酸的描述，导致概念混淆幻觉。",
+    "original_question": "猪 ICSI 转基因胚胎的体外培养中，NCSU-23 培养液的成分有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PZM-3 培养液根据猪输卵管液成分并添加了维生素，主要以葡萄糖和果糖作为能量物质。研究表明，PZM-3 中的葡萄糖和果糖更有利于猪囊胚的形成和总细胞数，并能通过维持细胞内氧化型辅酶/还原型辅酶（NAD+/NADH）的比例，降低细胞的凋亡率。",
+    "reference_case": "PZM-3 培养液根据猪输卵管液成分并添加了氨基酸，主要以丙酮酸盐和乳酸作为能量物质。研究表明，PZM-3 中的丙酮酸盐和乳酸更有利于猪囊胚的形成和总细胞数，并能通过维持细胞内氧化型辅酶/还原型辅酶（NAD+/NADH）的比例，降低细胞的凋亡率。",
+    "error_detail": "错误地改变了添加物和能量物质的描述，导致概念混淆幻觉。",
+    "original_question": "猪 ICSI 转基因胚胎的体外培养中，PZM-3 培养液的成分有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪 ICSI 转基因胚胎的体外培养中，TSA 处理的最佳条件是 50 nmol/L 处理 48 小时。该处理方式可得到较对照组高的卵裂率和囊胚发育率，但 EGFP 阳性胚胎率无显著增加。",
+    "reference_case": "在猪 ICSI 转基因胚胎的体外培养中，TSA 处理的最佳条件是 25 nmol/L 处理 24 小时。该处理方式可得到较对照组高的卵裂率和囊胚发育率，但 EGFP 阳性胚胎率无显著增加。",
+    "error_detail": "错误地改变了TSA处理的浓度和时间，导致数据型幻觉。",
+    "original_question": "在猪 ICSI 转基因胚胎的体外培养中，TSA 处理的最佳条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在 PZM-3 培养液中添加 50 nmol/L TSA 处理 48 小时，卵裂率、EGFP 阳性胚胎率和囊胚发育率均较处理 12 小时组有所增加，且卵裂率和囊胚发育率显著高于对照组。",
+    "reference_case": "在 PZM-3 培养液中添加 25 nmol/L TSA 处理 24 小时，卵裂率、EGFP 阳性胚胎率和囊胚发育率均较处理 12 小时组有所增加，且卵裂率和囊胚发育率略高于对照组，但差异不显著。",
+    "error_detail": "错误地改变了TSA处理的浓度和时间，以及结果的显著性，导致数据型幻觉。",
+    "original_question": "TSA 处理对猪 ICSI 转基因胚胎的发育有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪转基因胚胎的体外培养中，NCSU-23 和 PZM-3 培养液的卵裂率、EGFP 阳性胚胎率和囊胚发育率均有显著差异。PZM-3 培养液的卵裂率和囊胚发育率显著高于 NCSU-23 培养液。",
+    "reference_case": "在猪转基因胚胎的体外培养中，NCSU-23 和 PZM-3 培养液的卵裂率、EGFP 阳性胚胎率和囊胚发育率均无显著差异。然而，PZM-3 培养液的卵裂率和囊胚发育率略高于 NCSU-23 培养液。",
+    "error_detail": "错误地改变了结果的描述和显著性，导致数据型幻觉。",
+    "original_question": "在猪转基因胚胎的体外培养中，NCSU-23 和 PZM-3 培养液的效果有何差异？",
+    "original_input": ""
+  }
+]

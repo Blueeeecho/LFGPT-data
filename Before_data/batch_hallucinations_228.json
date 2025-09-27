@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟病毒和牛病毒性腹泻病毒都属于冠状病毒科瘟病毒属。",
+    "reference_case": "猪瘟病毒和牛病毒性腹泻病毒都属于黄病毒科瘟病毒属。",
+    "error_detail": "错误地将黄病毒科混淆为冠状病毒科。",
+    "original_question": "猪瘟病毒和牛病毒性腹泻病毒属于哪个病毒科和属？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "因为这两种病毒在基因组序列上有很高的同源性，所以它们属于同一病毒科。",
+    "reference_case": "因为这两种病毒在基因组序列上有很高的同源性，交叉污染会导致诊断困难，影响疫苗的质量控制。",
+    "error_detail": "错误地将基因组序列同源性作为分类依据，而非交叉污染的影响。",
+    "original_question": "为什么猪瘟病毒和牛病毒性腹泻病毒的交叉污染会给疫病诊断和疫苗质量控制带来麻烦？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "双重 RT-PCR 方法的特异性通过检测猪瘟病毒、牛病毒性腹泻病毒以及其他相关病毒的扩增结果来验证，结果显示该方法对所有检测病毒都有特异性扩增。",
+    "reference_case": "双重 RT-PCR 方法的特异性通过检测猪瘟病毒、牛病毒性腹泻病毒以及其他相关病毒的扩增结果来验证，结果显示该方法仅对猪瘟病毒和牛病毒性腹泻病毒有特异性扩增。",
+    "error_detail": "错误地假设该方法对所有检测病毒都有特异性扩增。",
+    "original_question": "双重 RT-PCR 方法的特异性如何验证？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "双重 RT-PCR 方法对猪繁殖与呼吸综合征病毒、猪日本脑炎病毒、猪伪狂犬病病毒、猪流行性腹泻病毒、猪传染性胃肠炎病毒、猪圆环病毒 2 型的扩增结果均为阳性。",
+    "reference_case": "双重 RT-PCR 方法对猪繁殖与呼吸综合征病毒、猪日本脑炎病毒、猪伪狂犬病病毒、猪流行性腹泻病毒、猪传染性胃肠炎病毒、猪圆环病毒 2 型的扩增结果均为阴性。",
+    "error_detail": "错误地将扩增结果从阴性改为阳性。",
+    "original_question": "双重 RT-PCR 方法在检测其他病毒时的表现如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪瘟病毒和牛病毒性腹泻病毒双重 RT-PCR 方法的最佳退火温度为 60°C。",
+    "reference_case": "猪瘟病毒和牛病毒性腹泻病毒双重 RT-PCR 方法的最佳退火温度为 56°C。",
+    "error_detail": "错误地改变了退火温度的数值。",
+    "original_question": "猪瘟病毒和牛病毒性腹泻病毒双重 RT-PCR 方法的退火温度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "双重 RT-PCR 方法在临床检测中表现出低特异性和敏感性，不适用于猪瘟病毒和牛病毒性腹泻病毒的临床分子检测。",
+    "reference_case": "双重 RT-PCR 方法在临床检测中表现出高特异性和敏感性，可以用于猪瘟病毒和牛病毒性腹泻病毒的临床分子检测，也可用于猪瘟疫苗的质量控制。",
+    "error_detail": "错误地改变了方法的评价和应用范围。",
+    "original_question": "双重 RT-PCR 方法在临床检测中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "双重 RT-PCR 方法可以检测猪瘟疫苗和原材料中是否混有猪繁殖与呼吸综合征病毒，确保疫苗的质量控制。",
+    "reference_case": "双重 RT-PCR 方法可以检测猪瘟疫苗和原材料中是否混有牛病毒性腹泻病毒，确保疫苗的质量控制。",
+    "error_detail": "错误地假设该方法用于检测猪繁殖与呼吸综合征病毒。",
+    "original_question": "双重 RT-PCR 方法在检测猪瘟疫苗和原材料中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "双重 RT-PCR 方法的引物是根据 GenBank 上猪繁殖与呼吸综合征病毒和牛病毒性腹泻病毒标准株的基因组序列，选取各自的保守基因区域设计的。",
+    "reference_case": "双重 RT-PCR 方法的引物是根据 GenBank 上猪瘟病毒和牛病毒性腹泻病毒标准株的基因组序列，选取各自的保守基因区域设计的。",
+    "error_detail": "错误地将猪瘟病毒混淆为猪繁殖与呼吸综合征病毒。",
+    "original_question": "双重 RT-PCR 方法是如何设计引物的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在接触酶试验中，Hps和Pm表现为阴性，而App的结果变化不定。",
+    "reference_case": "在接触酶试验中，Hps和Pm表现为阳性，而App的结果变化不定。",
+    "error_detail": "错误地改变了Hps和Pm的试验结果。",
+    "original_question": "猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌的接触酶试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "16 SrDNA技术通过扩增细菌的16 SrDNA序列并进行测序和比对，可以快速鉴定这三种细菌，但具有快速、客观的缺点。",
+    "reference_case": "16 SrDNA技术通过扩增细菌的16 SrDNA序列并进行测序和比对，可以快速鉴定这三种细菌，具有快速、客观的优点，特别是在鉴定营养要求高和生化反应谱模糊不清的细菌时更具优越性。",
+    "error_detail": "错误地将优点描述为缺点。",
+    "original_question": "16 SrDNA技术在鉴定猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在V因子依赖性试验中，Hps和Pm表现为V因子依赖菌，即它们需要V因子才能生长，表现为“卫星现象”；而App则不需要V因子，生长良好，无“卫星现象”。",
+    "reference_case": "在V因子依赖性试验中，Hps和App表现为V因子依赖菌，即它们需要V因子才能生长，表现为“卫星现象”；而Pm则不需要V因子，生长良好，无“卫星现象”。",
+    "error_detail": "错误地将App和Pm的依赖关系混淆。",
+    "original_question": "猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌的V因子依赖性试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在溶血性试验中，App菌落周围无溶血现象，而Hps和Pm菌落周围均有溶血现象。",
+    "reference_case": "在溶血性试验中，App菌落周围有明显的溶血现象，而Hps和Pm菌落周围均无溶血现象。",
+    "error_detail": "错误地改变了App、Hps和Pm的溶血性试验结果。",
+    "original_question": "猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌的溶血性试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "主要区别包括V因子依赖性（Hps和Pm依赖V因子，App不依赖）、溶血性（App无溶血现象，Hps和Pm有溶血现象）、尿素酶（App阴性，Hps和Pm阳性）、接触酶（Hps和Pm阴性，App变化不定）、靛基质（Pm阴性，Hps和App阳性）等。",
+    "reference_case": "主要区别包括V因子依赖性（Hps和App依赖V因子，Pm不依赖）、溶血性（App有溶血现象，Hps和Pm无溶血现象）、尿素酶（App阳性，Hps和Pm阴性）、接触酶（Hps和Pm阳性，App变化不定）、靛基质（Pm阳性，Hps和App阴性）等。",
+    "error_detail": "错误地混淆了多种生化特性的结果。",
+    "original_question": "猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌在生化特性上有哪些主要区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在靛基质试验中，Pm表现为阴性，而Hps和App表现为阳性。",
+    "reference_case": "在靛基质试验中，Pm表现为阳性，而Hps和App表现为阴性。",
+    "error_detail": "错误地改变了Pm、Hps和App的靛基质试验结果。",
+    "original_question": "猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌的靛基质试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "生化鉴定方法包括V因子依赖性试验、溶血性试验、尿素酶试验、接触酶试验、靛基质试验。",
+    "reference_case": "生化鉴定方法包括V因子依赖性试验、溶血性试验、尿素酶试验、接触酶试验、靛基质试验、山梨醇试验、葡萄糖试验、半乳糖试验、蔗糖试验、甘露糖试验、麦芽糖试验、木糖试验、果糖试验和阿拉伯糖试验。",
+    "error_detail": "错误地省略了多种生化鉴定方法。",
+    "original_question": "猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌的生化鉴定方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在山梨醇试验中，Hps和App表现为阳性，而Pm的结果因菌株不同而有所变化，Pm-A为阴性，Pm-B为阳性。",
+    "reference_case": "在山梨醇试验中，Hps和App表现为阴性，而Pm的结果因菌株不同而有所变化，Pm-A为阳性，Pm-B为阴性。",
+    "error_detail": "错误地改变了Hps、App和Pm的山梨醇试验结果。",
+    "original_question": "猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌的山梨醇试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在尿素酶试验中，App表现为阴性，而Hps和Pm表现为阳性。",
+    "reference_case": "在尿素酶试验中，App表现为阳性，而Hps和Pm表现为阴性。",
+    "error_detail": "错误地改变了App、Hps和Pm的尿素酶试验结果。",
+    "original_question": "猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌的尿素酶试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "结合生化鉴定和16 SrDNA技术可以提高鉴定的效率和准确性。生化鉴定虽然耗时较长，但仍是当前最准确有效的诊断方法；而16 SrDNA技术虽然快速，但单独使用时可能会因为同源性高或数据库信息不全而得出错误结论。因此，应该只使用生化鉴定方法。",
+    "reference_case": "结合生化鉴定和16 SrDNA技术可以提高鉴定的效率和准确性。生化鉴定虽然耗时较长，但仍是当前最准确有效的诊断方法；而16 SrDNA技术虽然快速，但单独使用时可能会因为同源性高或数据库信息不全而得出错误结论。",
+    "error_detail": "错误地得出了只使用生化鉴定方法的结论。",
+    "original_question": "在猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌的鉴定中，为什么需要结合生化鉴定和16 SrDNA技术？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪增生性肠炎（PPE）是由专性胞内劳森菌（Lawsonia intracellularis, LI）和猪繁殖与呼吸综合征病毒共同引起的。",
+    "reference_case": "猪增生性肠炎（PPE）是由专性胞内劳森菌（Lawsonia intracellularis, LI）引起的。",
+    "error_detail": "错误地添加了猪繁殖与呼吸综合征病毒作为共同病原体。",
+    "original_question": "猪增生性肠炎（PPE）是由哪种病原体引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "在广东省，惠州地区猪增生性肠炎阳性率较高的可能原因是该地区气候潮湿，适合病原体生存。",
+    "reference_case": "在广东省，惠州地区猪增生性肠炎阳性率较高的可能原因是该地区畜牧行业繁荣，散养户多，管理较差。",
+    "error_detail": "错误地将阳性率高的原因归咎于气候而非管理。",
+    "original_question": "在广东省，惠州地区猪增生性肠炎阳性率较高的可能原因是什么？",
+    "original_input": ""
+  }
+]

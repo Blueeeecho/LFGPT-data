@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟病毒科的核酸类型是单股 RNA。",
+    "reference_case": "非洲猪瘟病毒科的核酸类型是双股 DNA。",
+    "error_detail": "错误地将非洲猪瘟病毒科的核酸类型从双股 DNA 混淆为单股 RNA。",
+    "original_question": "非洲猪瘟病毒科的核酸类型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪流行性感冒病毒可引起副猪嗜血杆菌、巴氏杆菌、肺炎链球菌及沙门氏菌等继发感染，以及大肠杆菌。",
+    "reference_case": "猪流行性感冒病毒可引起副猪嗜血杆菌、巴氏杆菌、肺炎链球菌及沙门氏菌等继发感染。",
+    "error_detail": "错误地添加了大肠杆菌作为猪流行性感冒病毒的继发感染之一。",
+    "original_question": "猪流行性感冒病毒会引起哪些继发感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "日粮中含微量FB可引起猪肺水肿，大量FB导致家畜突然死亡。还可引起马脑白质软化、家禽猝死、牛羊的肝肾损伤和免疫力下降，以及猫的神经系统损伤。",
+    "reference_case": "日粮中含微量FB可引起猪肺水肿，大量FB导致家畜突然死亡。还可引起马脑白质软化、家禽猝死、牛羊的肝肾损伤和免疫力下降。",
+    "error_detail": "错误地添加了猫的神经系统损伤作为FB中毒的表现之一。",
+    "original_question": "B2和B3。\n5. 镰刀菌毒素（FB）中毒对家畜有哪些表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "伪狂犬病病毒主要感染怀孕母猪、仔猪、牛、羊、犬、猫等，以及人类。",
+    "reference_case": "伪狂犬病病毒主要感染怀孕母猪、仔猪、牛、羊、犬、猫等。",
+    "error_detail": "错误地将人类添加为伪狂犬病病毒的感染对象之一。",
+    "original_question": "伪狂犬病病毒主要感染哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "每管加入用0.5%石炭酸生理盐水稀释的布氏杆菌试管凝集抗原0.5ml，抗原稀释按瓶签说明，通常为1:20。",
+    "reference_case": "每管加入用0.5%石炭酸生理盐水稀释的布氏杆菌试管凝集抗原0.5ml，抗原稀释按瓶签说明，通常为1:10。",
+    "error_detail": "错误地将抗原稀释比例从1:10改为1:20。",
+    "original_question": "7管分别加入1:12.5的阳性血清和阴性血清。\n2. 在试管凝集试验中，如何加入抗原？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪圆环病毒（PCV）可引起猪圆环病毒病，影响猪的健康和生产性能，以及导致猪的死亡。",
+    "reference_case": "猪圆环病毒（PCV）可引起猪圆环病毒病，影响猪的健康和生产性能。",
+    "error_detail": "错误地添加了导致猪的死亡作为猪圆环病毒的影响之一。",
+    "original_question": "猪圆环病毒（PCV）会引起哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "伪狂犬病病毒是一种引起猪伪狂犬病的病毒，也能引起牛的伪狂犬病。",
+    "reference_case": "伪狂犬病病毒是一种引起猪伪狂犬病的病毒。",
+    "error_detail": "错误地添加了牛作为伪狂犬病病毒的感染对象之一。",
+    "original_question": "什么是伪狂犬病病毒（PRV）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "单宿主寄生虫的发育过程不需要中间宿主的参与，如猪蛔虫，发育过程中仅需要适宜的温度和湿度，以及光照。",
+    "reference_case": "单宿主寄生虫的发育过程不需要中间宿主的参与，如猪蛔虫，发育过程中仅需要适宜的温度和湿度。",
+    "error_detail": "错误地添加了光照作为单宿主寄生虫发育过程的条件之一。",
+    "original_question": "单宿主寄生虫的发育过程需要哪些条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "专一宿主寄生虫只寄生于某一特定的宿主，对宿主有严格选择性，如鸡球虫只寄生于鸡和鸭。",
+    "reference_case": "专一宿主寄生虫只寄生于某一特定的宿主，对宿主有严格选择性，如鸡球虫只寄生于鸡。",
+    "error_detail": "错误地将鸭添加为鸡球虫的宿主之一。",
+    "original_question": "专一宿主寄生虫的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪囊尾蚴主要寄生于横纹肌，尤其是咬肌、舌肌、膈肌、心肌等处，严重时还可寄生于肝、肺、肾、脑等内脏器官，以及皮肤。",
+    "reference_case": "猪囊尾蚴主要寄生于横纹肌，尤其是咬肌、舌肌、膈肌、心肌等处，严重时还可寄生于肝、肺、肾、脑等内脏器官。",
+    "error_detail": "错误地添加了皮肤作为猪囊尾蚴的寄生部位之一。",
+    "original_question": "猪囊尾蚴主要寄生于哪些部位？",
+    "original_input": ""
+  }
+]

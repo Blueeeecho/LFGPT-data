@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪圆环病毒（PCV）在人类细胞中生长，但在原代胎猪肾细胞、佰河猴肾细胞、BHK-21细胞上不能生长。",
+    "reference_case": "猪圆环病毒（PCV）在PK-15细胞中生长，但在原代胎猪肾细胞、佰河猴肾细胞、BHK-21细胞上不能生长。",
+    "error_detail": "错误地将PCV的生长细胞类型从PK-15细胞改为人类细胞，导致概念混淆。",
+    "original_question": "猪圆环病毒（PCV）在哪些细胞中可以生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪圆环病毒（PCV）的直径为20 nm，沉降系数为60 S。",
+    "reference_case": "猪圆环病毒（PCV）的直径为17 nm，沉降系数为52 S。",
+    "error_detail": "错误地修改了PCV的直径和沉降系数的数值。",
+    "original_question": "猪圆环病毒（PCV）的直径和沉降系数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪感染PCV后的临床症状包括发热、多动、被毛光滑、皮肤红润、体重增加、发育迅速、无咳嗽、呼吸正常等。",
+    "reference_case": "猪感染PCV后的临床症状包括发热、少动、被毛粗乱、皮肤苍白、进行性消瘦、发育障碍、咳嗽、喷德、呼吸加快及呼吸困难等。",
+    "error_detail": "错误地描述了PCV感染的临床症状，导致概念混淆。",
+    "original_question": "猪感染PCV后的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪圆环病毒（PCV）分为PCV-3和PCV-4两种类型。PCV-3无致病性，PCV-4有致病性，可引起断奶仔猪多系统衰竭综合征（PMWS）。",
+    "reference_case": "猪圆环病毒（PCV）分为PCV-1和PCV-2两种类型。PCV-1无致病性，PCV-2有致病性，可引起断奶仔猪多系统衰竭综合征（PMWS）。",
+    "error_detail": "错误地修改了PCV的类型，导致概念混淆。",
+    "original_question": "猪圆环病毒（PCV）的两种类型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪感染PCV后的病理变化包括全身淋巴结缩小、肺萎缩、肝脏发亮增大、脾脏缩小、肾脏干燥发黑等。",
+    "reference_case": "猪感染PCV后的病理变化包括全身淋巴结肿大、肺肿胀、肝脏发暗萎缩、脾脏肿大、肾脏水肿苍白等。",
+    "error_detail": "错误地描述了PCV感染的病理变化，导致概念混淆。",
+    "original_question": "猪感染PCV后的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪圆环病毒（PCV）仅在亚洲国家发生，血清学调查显示在中国、日本、韩国等国的猪群中PCV抗体呈阳性。",
+    "reference_case": "猪圆环病毒（PCV）在世界许多国家都有发生，血清学调查显示在德国、加拿大、新西兰、英国、北爱尔兰、美国等国的猪群中PCV抗体呈阳性。",
+    "error_detail": "错误地将PCV的发生地域从全球多个国家限制为仅亚洲国家，导致空间错位。",
+    "original_question": "猪圆环病毒（PCV）在世界范围内的感染率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪圆环病毒（PCV）的基因组由一条共价结合形成闭环状的DNA单链组成，DNA长约2000 bp，相对分子质量为6:0×10^5。",
+    "reference_case": "猪圆环病毒（PCV）的基因组由一条共价结合形成闭环状的DNA单链组成，DNA长约1760 bp，相对分子质量为5:8×10^5。",
+    "error_detail": "错误地修改了PCV基因组的长度和相对分子质量的数值。",
+    "original_question": "猪圆环病毒（PCV）的基因组结构是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪圆环病毒（PCV）的防制措施包括不采取任何措施，让病毒自然消失。",
+    "reference_case": "猪圆环病毒（PCV）的防制措施包括加强饲养管理、降低饲养密度、减少环境应激因素、实施严格的生物安全措施、对早期发现疑似感染猪进行检查、隔离、淘汰等。",
+    "error_detail": "错误地描述了PCV的防制措施，完全偏离了正确的防制方法。",
+    "original_question": "猪圆环病毒（PCV）的防制措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪圆环病毒（PCV）的衣壳蛋白为一条多肽链，其相对分子质量为4:0×10^4。",
+    "reference_case": "猪圆环病毒（PCV）的衣壳蛋白为一条多肽链，其相对分子质量为3:6×10^4。",
+    "error_detail": "错误地修改了PCV衣壳蛋白的相对分子质量的数值。",
+    "original_question": "猪圆环病毒（PCV）的衣壳蛋白的分子量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪圆环病毒（PCV）的实验室诊断方法包括直接观察、听诊和触诊。",
+    "reference_case": "猪圆环病毒（PCV）的实验室诊断方法包括间接免疫荧光试验（IIF）、原位核酸杂交试验（ISH）、PCR试验和酶联免疫吸附试验（ELISA）。",
+    "error_detail": "错误地描述了PCV的实验室诊断方法，导致概念混淆。",
+    "original_question": "猪圆环病毒（PCV）的实验室诊断方法有哪些？",
+    "original_input": ""
+  }
+]

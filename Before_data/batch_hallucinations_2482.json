@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪伪狂犬病主要通过血液传播，也可经胎盘垂直传播。病毒潜伏在肝脏，造成隐性带毒。",
+    "reference_case": "猪伪狂犬病主要通过呼吸道或消化道水平传播，也可经胎盘垂直传播。病毒潜伏在三叉神经节，造成隐性带毒。",
+    "error_detail": "错误地描述了猪伪狂犬病的传播途径和病毒潜伏位置。",
+    "original_question": "猪伪狂犬病的传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪伪狂犬病的血清学检测结果显示，PRV gB抗体阳性率为85%，PRV gE抗体阳性率为73%。这表明猪场存在野毒感染。",
+    "reference_case": "猪伪狂犬病的血清学检测结果显示，PRV gB抗体阳性率为95%，PRV gE抗体阳性率为63%。这表明猪场存在野毒感染。",
+    "error_detail": "错误地报告了PRV gB和gE抗体的阳性率。",
+    "original_question": "猪伪狂犬病的血清学检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "家兔接种发病仔猪和流产胎儿病料组织匀浆上清后，出现典型奇痒症状并很快死亡。接种仔猪病料的兔子在24小时内死亡，接种流产胎儿病料的兔子在48小时内死亡。",
+    "reference_case": "家兔接种发病仔猪和流产胎儿病料组织匀浆上清后，出现典型奇痒症状并很快死亡。接种仔猪病料的兔子在48小时内死亡，接种流产胎儿病料的兔子在72小时内死亡。",
+    "error_detail": "错误地缩短了兔子死亡的时间。",
+    "original_question": "猪伪狂犬病的家兔接种实验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪伪狂犬病的实验室诊断方法包括流行病学调查、临床观察、病理学检查、病原学检查和血清学检测。病原学检查包括家兔接种和gE基因检测，血清学检测则使用PRV gD抗体和gB抗体检测试剂盒。",
+    "reference_case": "猪伪狂犬病的实验室诊断方法包括流行病学调查、临床观察、病理学检查、病原学检查和血清学检测。病原学检查包括家兔接种和gD基因检测，血清学检测则使用PRV gE抗体和gB抗体检测试剂盒。",
+    "error_detail": "错误地交换了gD和gE基因在病原学检查和血清学检测中的应用。",
+    "original_question": "猪伪狂犬病的实验室诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪伪狂犬病的流行病学调查结果显示，猪场使用的是国外生产的PRV Bartha K61 gE基因缺失疫苗，饲养管理规范。2011年6月2日产房仔猪最先发病，随后疫情加重，不同日龄育肥猪均出现扎堆、皮肤发红、呼吸困难症状，70～100日龄猪发病率达90%，死亡率在25%左右。",
+    "reference_case": "猪伪狂犬病的流行病学调查结果显示，猪场使用的是国内生产的PRV Bartha K61 gE基因缺失疫苗，饲养管理规范。2011年6月2日产房仔猪最先发病，随后疫情加重，不同日龄育肥猪均出现扎堆、皮肤发红、呼吸困难症状，70～100日龄猪发病率达80%，死亡率在15%左右。",
+    "error_detail": "错误地报告了疫苗的来源、发病率和死亡率。",
+    "original_question": "猪伪狂犬病的流行病学调查结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪伪狂犬病的gD基因检测结果显示，发病仔猪和流产胎儿脑组织DNA的PCR扩增产物大小为317bp，与预期片段大小相符，且与基因库中多个PRV gD基因核苷酸序列同源性在87%到89%之间。",
+    "reference_case": "猪伪狂犬病的gD基因检测结果显示，发病仔猪和流产胎儿脑组织DNA的PCR扩增产物大小为217bp，与预期片段大小相符，且与基因库中多个PRV gD基因核苷酸序列同源性在97%到99%之间。",
+    "error_detail": "错误地报告了PCR扩增产物的大小和同源性百分比。",
+    "original_question": "猪伪狂犬病的gD基因检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪伪狂犬病的病理学变化包括化脓性扁桃体炎、坏死性淋巴结炎、出血性间质性肺炎、化脓性心肌炎和化脓性脑炎。具体表现为扁桃体充血出血、肺脏出血水肿、心肌色淡、心包积液、脑膜充血等。",
+    "reference_case": "猪伪狂犬病的病理学变化包括坏死性扁桃体炎、出血性淋巴结炎、出血性间质性肺炎、间质性心肌炎和非化脓性脑炎。具体表现为扁桃体充血出血、肺脏出血水肿、心肌色淡、心包积液、脑膜充血等。",
+    "error_detail": "错误地描述了病理学变化的类型。",
+    "original_question": "猪伪狂犬病的病理学变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "速眠新 II 单独使用时对巴马小型猪的呼吸和循环功能有轻微抑制作用。实验结果显示，诱导后1分钟，速眠新 II 组的呼吸频率（RR）、血氧饱和度（SpO2:、平均动脉压（MAP）和心率（HR）均轻微下降（P>0:05:，通气量（VE）显著下降（P<0:05:。",
+    "reference_case": "速眠新 II 单独使用时对巴马小型猪的呼吸和循环功能有显著抑制作用。实验结果显示，诱导后1分钟，速眠新 II 组的呼吸频率（RR）、血氧饱和度（SpO2:、平均动脉压（MAP）和心率（HR）均显著下降（P<0:05:，通气量（VE）极显著下降（P<0:01:。",
+    "error_detail": "错误地低估了速眠新 II 的抑制作用。",
+    "original_question": "速眠新 II 单独使用时对巴马小型猪的呼吸和循环功能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "速眠新 II 与氯胺酮复合麻醉对巴马小型猪的呼吸和循环功能有轻微影响。实验结果显示，诱导后1分钟，速眠新 II 与氯胺酮复合组的呼吸频率（RR）、血氧饱和度（SpO2:、平均动脉压（MAP）和心率（HR）等参数与诱导前相比均有轻微变化（P<0:05:。",
+    "reference_case": "速眠新 II 与氯胺酮复合麻醉对巴马小型猪的呼吸和循环功能没有显著影响。实验结果显示，诱导后1分钟，速眠新 II 与氯胺酮复合组的呼吸频率（RR）、血氧饱和度（SpO2:、平均动脉压（MAP）和心率（HR）等参数与诱导前相比均无显著变化（P>0:05:。",
+    "error_detail": "错误地报告了复合麻醉对呼吸和循环功能的影响。",
+    "original_question": "速眠新 II 与氯胺酮复合麻醉对巴马小型猪的呼吸和循环功能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "蜂胶在体外能够减弱PK-15细胞抗猪细小病毒（PPV）感染的能力，并且能够增加PK-15细胞培养体系中PPV的含量。这种效果与蜂胶的浓度和加药方式有关，浓度越低效果越差，且以先加PPV后加蜂胶的方式效果最差。",
+    "reference_case": "蜂胶在体外能够增强PK-15细胞抗猪细小病毒（PPV）感染的能力，并且能够降低PK-15细胞培养体系中PPV的含量。这种效果与蜂胶的浓度和加药方式有关，浓度越高效果越好，且以先加蜂胶后加PPV的方式效果最佳。",
+    "error_detail": "错误地描述了蜂胶对PPV感染能力和PPV含量的影响。",
+    "original_question": "蜂胶在体外对猪细小病毒（PPV）感染PK-15细胞的能力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在豫南地区疫苗免疫猪场中，PRRSV和PCV2抗体合格率最低的猪群是育肥猪，合格率分别为56:5%和51:5%。",
+    "reference_case": "在豫南地区疫苗免疫猪场中，PRRSV和PCV2抗体合格率最低的猪群是育肥猪，合格率分别为46:5%和41:5%。",
+    "error_detail": "错误地提高了PRRSV和PCV2抗体的合格率。",
+    "original_question": "豫南地区疫苗免疫猪场中，PRRSV和PCV2抗体合格率最低的猪群是哪种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在豫南地区非疫苗免疫猪群中，PCV2抗体阳性率最高的是100头母猪以下规模场，阳性率为88:6%。",
+    "reference_case": "在豫南地区非疫苗免疫猪群中，PCV2抗体阳性率最高的是50头母猪以下规模场，阳性率为78:6%。",
+    "error_detail": "错误地报告了猪场规模和PCV2抗体阳性率。",
+    "original_question": "豫南地区非疫苗免疫猪群中，PCV2抗体阳性率最高的猪场规模是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在豫南地区，100～200头母猪规模场的PRRSV和PCV2抗体合格率最高，分别为66:8%和67:4%。",
+    "reference_case": "在豫南地区，200～500头母猪规模场的PRRSV和PCV2抗体合格率最高，分别为76:8%和77:4%。",
+    "error_detail": "错误地报告了猪场规模和抗体合格率。",
+    "original_question": "豫南地区不同规模猪场中，PRRSV和PCV2抗体合格率最高的猪场规模是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在豫南地区疫苗免疫猪场中，PRRSV抗体合格率在第1季度最低，为67:1%，在第2季度最高，为71:7%，第3季度和第4季度分别为65:7%和70:5%。",
+    "reference_case": "在豫南地区疫苗免疫猪场中，PRRSV抗体合格率在第1季度最低，为57:1%，在第2季度最高，为81:7%，第3季度和第4季度分别为75:7%和60:5%。",
+    "error_detail": "错误地报告了PRRSV抗体合格率在不同季度的变化。",
+    "original_question": "豫南地区疫苗免疫猪场中，PRRSV抗体合格率在不同季度中的变化情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在豫南地区非疫苗免疫猪群中，PCV2抗体阳性率最低的猪群是母猪，阳性率为47:5%。",
+    "reference_case": "在豫南地区非疫苗免疫猪群中，PCV2抗体阳性率最低的猪群是公猪，阳性率为37:5%。",
+    "error_detail": "错误地报告了PCV2抗体阳性率最低的猪群和阳性率。",
+    "original_question": "豫南地区非疫苗免疫猪群中，PCV2抗体阳性率最低的猪群是哪种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在豫南地区非疫苗免疫猪群中，PRRSV和PCV2抗体阳性率最高的猪群是育肥猪，阳性率分别为62:5%和72:2%。",
+    "reference_case": "在豫南地区非疫苗免疫猪群中，PRRSV和PCV2抗体阳性率最高的猪群是断奶仔猪，阳性率分别为72:5%和82:2%。",
+    "error_detail": "错误地报告了PRRSV和PCV2抗体阳性率最高的猪群和阳性率。",
+    "original_question": "豫南地区非疫苗免疫猪群中，PRRSV和PCV2抗体阳性率最高的猪群是哪种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在豫南地区非疫苗免疫猪群中，PRRSV抗体阳性率最低的是50～100头母猪规模场，阳性率为56:5%。",
+    "reference_case": "在豫南地区非疫苗免疫猪群中，PRRSV抗体阳性率最低的是100～200头母猪规模场，阳性率为46:5%。",
+    "error_detail": "错误地报告了猪场规模和PRRSV抗体阳性率。",
+    "original_question": "豫南地区非疫苗免疫猪群中，PRRSV抗体阳性率最低的猪场规模是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在豫南地区疫苗免疫猪场中，PRRSV和PCV2抗体合格率最高的猪群是母猪，合格率分别为76:3%和67:1%。",
+    "reference_case": "在豫南地区疫苗免疫猪场中，PRRSV和PCV2抗体合格率最高的猪群是公猪，合格率分别为86:3%和77:1%。",
+    "error_detail": "错误地报告了PRRSV和PCV2抗体合格率最高的猪群和合格率。",
+    "original_question": "豫南地区疫苗免疫猪场中，PRRSV和PCV2抗体合格率最高的猪群是哪种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在豫南地区规模化猪场中，PRRSV疫苗免疫猪群的抗体合格率为58:8%，PCV2疫苗免疫猪群的抗体合格率为48:7%。",
+    "reference_case": "在豫南地区规模化猪场中，PRRSV疫苗免疫猪群的抗体合格率为68:8%，PCV2疫苗免疫猪群的抗体合格率为58:7%。",
+    "error_detail": "错误地报告了PRRSV和PCV2疫苗免疫猪群的抗体合格率。",
+    "original_question": "豫南地区规模化猪场中，猪繁殖与呼吸综合征病毒（PRRSV）和猪圆环病毒2型（PCV2:疫苗免疫猪群的抗体合格率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "黄芙多糖在饲料中的应用可以显著降低断奶仔猪的免疫功能，增加腹泻，减慢生长速度，减弱仔猪细胞免疫功能和Th1类细胞因子的分泌量。",
+    "reference_case": "黄芙多糖在饲料中的应用可以显著提高断奶仔猪的免疫功能，减少腹泻，改善生长速度，增强仔猪细胞免疫功能和Th1类细胞因子的分泌量。",
+    "error_detail": "错误地描述了黄芙多糖对断奶仔猪生长性能的影响。",
+    "original_question": "黄芙多糖在饲料中的应用对断奶仔猪的生长性能有何影响？",
+    "original_input": ""
+  }
+]

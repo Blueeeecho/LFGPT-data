@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痘病毒江西株（SWPV-JX01 株）在兔体内能够增殖，通过 PCR 检测可以从兔的肾脏、脾脏、皮肤、心肌、淋巴结中扩增到 P35 基因，且扩增序列与 SWPV-JX01 株同源性为 95%。然而，该病毒不能在昆明鼠体内增殖。",
+    "reference_case": "猪痘病毒江西株（SWPV-JX01 株）在兔体内能够增殖，通过 PCR 检测可以从兔的肾脏、脾脏、皮肤、心肌、淋巴结中扩增到 P35 基因，且扩增序列与 SWPV-JX01 株同源性为 100%。然而，该病毒不能在昆明鼠体内增殖。",
+    "error_detail": "同源性比例被错误地从100%降低到95%",
+    "original_question": "猪痘病毒江西株（SWPV-JX01 株）在兔和小鼠体内的增殖情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痘病毒的主要宿主是牛，尤其是 3 月龄以内的牛，成年牛很少发生或症状轻微。",
+    "reference_case": "猪痘病毒的主要宿主是猪，尤其是 3 月龄以内的猪，成年猪很少发生或症状轻微。",
+    "error_detail": "主要宿主被错误地从猪改为牛",
+    "original_question": "猪痘病毒的主要宿主是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痘病毒主要通过空气传播，与猪的饲养卫生条件差相关。",
+    "reference_case": "猪痘病毒主要通过猪虱等叮咬机械传播，与猪的饲养卫生条件差相关。",
+    "error_detail": "传播方式被错误地从猪虱叮咬改为空气传播",
+    "original_question": "猪痘病毒通过什么方式传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痘病毒和痘苗病毒感染猪后，都会导致皮肤上出现不同的症状，如红斑、丘疹、脓疱和结痂，临床上难以区分。",
+    "reference_case": "猪痘病毒和痘苗病毒感染猪后，都会导致皮肤上出现类似的症状，如红斑、丘疹、脓疱和结痂，临床上难以区分。",
+    "error_detail": "症状描述被错误地从类似改为不同",
+    "original_question": "猪痘病毒与痘苗病毒在临床症状上有何相似之处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痘病毒江西株（SWPV-JX01 株）的 P35 基因与猪痘病毒参考株（AF410153:1:的同源性为 90:9%，与牛疮皮肤病毒（LSDV）在同一分支，亲缘关系最近。",
+    "reference_case": "猪痘病毒江西株（SWPV-JX01 株）的 P35 基因与猪痘病毒参考株（AF410153:1:的同源性为 97:9%，与牛疮皮肤病毒（LSDV）在同一分支，亲缘关系最近。",
+    "error_detail": "同源性比例被错误地从97:9%降低到90:9%",
+    "original_question": "猪痘病毒江西株（SWPV-JX01 株）的 P35 基因与哪些病毒具有较高的同源性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痘病毒江西株（SWPV-JX01 株）在 PK15 细胞中连续传代至第 5 代仍能继续盲传，培养液中漂浮的死细胞较多，传代时胰酶消化的时间明显缩短。",
+    "reference_case": "猪痘病毒江西株（SWPV-JX01 株）在 PK15 细胞中连续传代至第 10 代仍能继续盲传，培养液中漂浮的死细胞较多，传代时胰酶消化的时间明显缩短。",
+    "error_detail": "传代次数被错误地从第10代改为第5代",
+    "original_question": "猪痘病毒江西株（SWPV-JX01 株）在 PK15 细胞中的传代培养表现如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痘病毒江西株（SWPV-JX01 株）的 P35 基因扩增片段大小为 800 bp。",
+    "reference_case": "猪痘病毒江西株（SWPV-JX01 株）的 P35 基因扩增片段大小为 975 bp。",
+    "error_detail": "扩增片段大小被错误地从975 bp改为800 bp",
+    "original_question": "猪痘病毒江西株（SWPV-JX01 株）的 P35 基因扩增片段大小是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪痘病毒江西株（SWPV-JX01 株）的人工感染试验中，PCR 检测的样本来源包括兔的肾脏、脾脏、皮肤、心肌、淋巴结以及小鼠的肾脏、脾脏、肝脏、心肌、淋巴结和大脑。",
+    "reference_case": "在猪痘病毒江西株（SWPV-JX01 株）的人工感染试验中，PCR 检测的样本来源包括兔的肾脏、脾脏、皮肤、心肌、淋巴结以及小鼠的肾脏、脾脏、肝脏、心肌、淋巴结。",
+    "error_detail": "样本来源被错误地添加了大脑",
+    "original_question": "猪痘病毒江西株（SWPV-JX01 株）的人工感染试验中，PCR 检测的样本来源有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痘病毒江西株（SWPV-JX01 株）的 P35 基因序列分析使用了 BLAST 软件进行同源性分析。",
+    "reference_case": "猪痘病毒江西株（SWPV-JX01 株）的 P35 基因序列分析使用了 DNAStar 软件进行同源性分析。",
+    "error_detail": "分析软件被错误地从DNAStar改为BLAST",
+    "original_question": "猪痘病毒江西株（SWPV-JX01 株）的 P35 基因序列分析使用了哪些软件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "应激条件下，猪的生产性能会受到显著影响，表现为生长停滞、体重下降、饲料转化率降低、产品质量下降等。例如，热应激、断奶或环境应激会导致猪采食量、日增重下降，降低其生产性能。此外，应激还会导致猪的繁殖性能下降。",
+    "reference_case": "应激条件下，猪的生产性能会受到显著影响，表现为生长停滞、体重下降、饲料转化率降低、产品质量下降等。例如，热应激、断奶或环境应激会导致猪采食量、日增重下降，降低其生产性能。",
+    "error_detail": "错误地添加了应激对繁殖性能的影响",
+    "original_question": "应激对猪的生产性能有哪些具体影响？",
+    "original_input": ""
+  }
+]

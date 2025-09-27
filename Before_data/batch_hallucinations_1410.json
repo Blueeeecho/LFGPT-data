@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "先天性锁肛为两对隐性遗传。",
+    "reference_case": "先天性锁肛为两对显性（上位）遗传。",
+    "error_detail": "错误地将显性遗传描述为隐性遗传。",
+    "original_question": "先天性锁肛在猪中的遗传方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "先天性兔唇为常染色体显性遗传。",
+    "reference_case": "先天性兔唇的遗传方式不明。",
+    "error_detail": "错误地指定了遗传方式，而实际上遗传方式不明。",
+    "original_question": "先天性兔唇在猪中的遗传方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "先天性脑班为伴性隐性遗传。",
+    "reference_case": "先天性脑班为常染色体显性遗传。",
+    "error_detail": "错误地将常染色体显性遗传描述为伴性隐性遗传。",
+    "original_question": "先天性脑班在猪中的遗传方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "脑积水为常染色体隐性遗传。",
+    "reference_case": "脑积水为伴性显性遗传。",
+    "error_detail": "错误地将伴性显性遗传描述为常染色体隐性遗传。",
+    "original_question": "脑积水在猪中的遗传方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "血友病为常染色体显性遗传。",
+    "reference_case": "血友病为伴性隐性遗传。",
+    "error_detail": "错误地将伴性隐性遗传描述为常染色体显性遗传。",
+    "original_question": "血友病在猪中的遗传方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "先天性震颤为常染色体显性遗传。",
+    "reference_case": "先天性震颤为伴性性联遗传。",
+    "error_detail": "错误地将伴性性联遗传描述为常染色体显性遗传。",
+    "original_question": "先天性震颤在猪中的遗传方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "采用特定引物扩增500 bp片段（含有1843突变位点），然后用Hha I或HgiA I酶切，根据酶切图谱中的带型判断基因型。",
+    "reference_case": "采用特定引物扩增659 bp片段（含有1843突变位点），然后用Hha I或HgiA I酶切，根据酶切图谱中的带型判断基因型。",
+    "error_detail": "错误地描述了扩增的片段大小为500 bp，而实际上应为659 bp。",
+    "original_question": "什么是猪应激敏感基因的PCR-RFLP电泳方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "现代育种主要选择那些影响猪的生长速度和体型的重要经济性状。",
+    "reference_case": "现代育种主要选择那些影响猪的生产成本或市场价值的重要经济性状。",
+    "error_detail": "错误地将选择标准从生产成本或市场价值偏离到生长速度和体型。",
+    "original_question": "现代育种主要注重哪些经济性状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "活猪的食用品质可以直接从其自身的食用品质的实测数据得到，这将大大降低育种成本。",
+    "reference_case": "活猪的食用品质可以从其亲属食用品质的实测数据间接得到，但这将大大增加育种成本。",
+    "error_detail": "错误地假设可以直接从活猪自身得到食用品质数据，并错误地认为这会降低育种成本。",
+    "original_question": "为什么选择活体测定性状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "瘦肉型猪的父系猪种主要考虑肉质性状如肌内脂肪含量、肉质指数等，以及产肉性状如日增重、背膘厚、饲料转化率、瘦肉率、眼肌面积等。",
+    "reference_case": "瘦肉型猪的父系猪种主要考虑产肉性状如日增重、背膘厚、饲料转化率、瘦肉率、眼肌面积等，以及肉质性状如肌内脂肪含量、肉质指数等。",
+    "error_detail": "错误地颠倒了产肉性状和肉质性状的优先级。",
+    "original_question": "在育种方案中，瘦肉型猪主要考虑哪些产肉性状？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "好的地面要防滑且有弹性，并能耐磨耗，开发出的新产品有橡胶、塑胶材料，如将橡皮垫放置在新生仔猪的床面上，可以避免粗䊁或旧地面导致的损害，使用垫料的畜床利于休息，防滑且有弹性。橡胶垫的厚度应为10cm。",
+    "reference_case": "好的地面要防滑且有弹性，并能耐磨耗，开发出的新产品有橡胶、塑胶材料，如将橡皮垫放置在新生仔猪的床面上，可以避免粗䊁或旧地面导致的损害，使用垫料的畜床利于休息，防滑且有弹性。",
+    "error_detail": "添加了不存在的橡胶垫厚度数据",
+    "original_question": "如何改善牛或猪的休息条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "母猪与仔猪兼顾才是真正的动物福利，设计分娩栏时需兼顾母猪和仔猪的需求，保护仔猪免受母猪躺下时的压迫。分娩栏应配备自动喂食系统。",
+    "reference_case": "母猪与仔猪兼顾才是真正的动物福利，设计分娩栏时需兼顾母猪和仔猪的需求，保护仔猪免受母猪躺下时的压迫。",
+    "error_detail": "添加了未提及的自动喂食系统",
+    "original_question": "如何提高母猪和仔猪的福利？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "建立良好的亲和关系有助于降低动物对人的逃避反应，使肉用牛和猪的捕捉管理变得容易，提高乳牛和鸡的生产性能。亲和关系主要通过喂食建立。",
+    "reference_case": "建立良好的亲和关系有助于降低动物对人的逃避反应，使肉用牛和猪的捕捉管理变得容易，提高乳牛和鸡的生产性能。",
+    "error_detail": "错误地将亲和关系的建立方式限定为喂食",
+    "original_question": "建立良好的家畜与人的亲和关系对家畜有何好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "既能满足沼气池所需的发酵原料，又可代替化肥，提高土壤有机质；鸡能捕食害虫，产粪、产蛋、产肉，实现多层次利用，促进果牧结合。建议每天喂食鸡三次。",
+    "reference_case": "既能满足沼气池所需的发酵原料，又可代替化肥，提高土壤有机质；鸡能捕食害虫，产粪、产蛋、产肉，实现多层次利用，促进果牧结合。",
+    "error_detail": "添加了与问题无关的喂食建议",
+    "original_question": "农户庭院或果园养猪、养鸡对果园有何益处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "经过厌氧发酵，产生的沼肥可培肥地力，强壮树势，减少果树病虫害发生；沼液可作为添加剂喂猪，节约饲料，加快出栏；沼液用于树冠喷施，提高坐果率，杀灭或抑制果树病虫害。沼液的使用量应为每亩1000kg。",
+    "reference_case": "经过厌氧发酵，产生的沼肥可培肥地力，强壮树势，减少果树病虫害发生；沼液可作为添加剂喂猪，节约饲料，加快出栏；沼液用于树冠喷施，提高坐果率，杀灭或抑制果树病虫害。",
+    "error_detail": "添加了过时或不准确的沼液使用量数据",
+    "original_question": "沼气池发酵后的猪粪有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "从改善市场供应和提高全民生活水平出发，有的地方决定从牲猪经营环节提取技术改进费，用于牲猪生产的发展。技术改进费的具体金额为每头猪50元。",
+    "reference_case": "从改善市场供应和提高全民生活水平出发，有的地方决定从牲猪经营环节提取技术改进费，用于牲猪生产的发展。",
+    "error_detail": "错误地强调了技术改进费的具体金额，偏离了主要目的",
+    "original_question": "资金需求的迫切性在科学养猪技术推广中被提到了议事日程上，主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "用于鼓励各地的养猪专业户生产或扶持其他肉用牲畜生产。具体政策包括提供免费疫苗。",
+    "reference_case": "用于鼓励各地的养猪专业户生产或扶持其他肉用牲畜生产。",
+    "error_detail": "添加了不普遍适用的免费疫苗政策",
+    "original_question": "屠宰税新增部分如何用于农业发展？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病的特征为头、颈、领下和舌的放线菌肿，牛常发生骨质疏松性骨炎，猪常发生乳房和颚骨的肿胀。治疗方法包括使用抗生素。",
+    "reference_case": "病的特征为头、颈、领下和舌的放线菌肿，牛常发生骨质疏松性骨炎，猪常发生乳房和颚骨的肿胀。",
+    "error_detail": "错误地添加了治疗方法，而问题仅询问症状",
+    "original_question": "牛放线菌病的典型症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "第一等猪体脂中碳水化合物形成的脂肪比例为56.7%，第二等猪体脂中这一比例为41.5%。第三等猪体脂中这一比例为30%。",
+    "reference_case": "第一等猪体脂中碳水化合物形成的脂肪比例为56.7%，第二等猪体脂中这一比例为41.5%。",
+    "error_detail": "添加了不存在的第三等猪体脂数据",
+    "original_question": "不同等级的猪体脂中，碳水化合物形成的脂肪比例有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪油的凝固点为27.1-29.9°C，4:游脂肪的凝固点为31-39°C。猪油的碘值为50。",
+    "reference_case": "猪油的凝固点为27.1-29.9°C，4:游脂肪的凝固点为31-39°C。",
+    "error_detail": "错误地添加了猪油的碘值数据",
+    "original_question": "猪油和4:游脂肪的凝固点分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪油的碘值范围为47-66.5。最佳碘值为60。",
+    "reference_case": "猪油的碘值范围为47-66.5。",
+    "error_detail": "错误地添加了最佳碘值数据",
+    "original_question": "猪油的碘值范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "不同植物油（如火麻油、花生油、棉籽油、五味子油和玉树油）对猪体膘厚有不同影响。所有植物油都会增加猪体膘厚。",
+    "reference_case": "不同植物油（如火麻油、花生油、棉籽油、五味子油和玉树油）对猪体膘厚有不同影响。",
+    "error_detail": "错误地概括了所有植物油的影响，与原始回答矛盾",
+    "original_question": "不同植物油对猪体膘厚有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "不同植物油（如火麻油、花生油、棉籽油、五味子油和玉树油）对猪的体重有不同的影响。建议每天更换植物油种类。",
+    "reference_case": "不同植物油（如火麻油、花生油、棉籽油、五味子油和玉树油）对猪的体重有不同的影响。",
+    "error_detail": "添加了未提及的更换植物油种类的建议",
+    "original_question": "不同植物油如何影响猪的体重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "五味子油与猪体膘厚的关系表现为一定的调节作用。猪体膘厚增加会导致五味子油效果增强。",
+    "reference_case": "五味子油与猪体膘厚的关系表现为一定的调节作用。",
+    "error_detail": "错误地颠倒了因果关系",
+    "original_question": "五味子油与猪体膘厚的关系是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "玉树油对猪背脂含量的影响显著，表现为较高的背脂含量。具体增加比例为20%。",
+    "reference_case": "玉树油对猪背脂含量的影响显著，表现为较高的背脂含量。",
+    "error_detail": "错误地添加了具体的增加比例数据",
+    "original_question": "玉树油对猪背脂含量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "不同植物油（如火麻油、花生油、棉籽油、五味子油和玉树油）对猪背脂含量有不同的影响。猪背脂含量与猪的品种无关。",
+    "reference_case": "不同植物油（如火麻油、花生油、棉籽油、五味子油和玉树油）对猪背脂含量有不同的影响。",
+    "error_detail": "错误地引入了与问题无关的猪的品种因素",
+    "original_question": "不同植物油对猪背脂含量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "不同植物油（如火麻油、花生油、棉籽油、五味子油和玉树油）对猪体膘厚度有不同的影响。建议使用火麻油以获得最佳效果。",
+    "reference_case": "不同植物油（如火麻油、花生油、棉籽油、五味子油和玉树油）对猪体膘厚度有不同的影响。",
+    "error_detail": "添加了未请求的建议",
+    "original_question": "不同植物油对猪体膘厚度的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "五味子油与猪背脂含量的关系表现为一定的调节作用。猪背脂含量增加会提高五味子油的效果。",
+    "reference_case": "五味子油与猪背脂含量的关系表现为一定的调节作用。",
+    "error_detail": "错误地颠倒了因果关系",
+    "original_question": "五味子油与猪背脂含量的关系是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "肥育猪体内的脂肪来源于饲料中的脂肪。主要来源于玉米。",
+    "reference_case": "肥育猪体内的脂肪来源于饲料中的脂肪。",
+    "error_detail": "错误地将脂肪来源限定为玉米",
+    "original_question": "肥育猪体内脂肪的来源有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪体形成体脂肪的主要脂肪酸中，以醋酸为最多，约占67%；丙酸次之，占19%。丁酸占10%。",
+    "reference_case": "猪体形成体脂肪的主要脂肪酸中，以醋酸为最多，约占67%；丙酸次之，占19%。",
+    "error_detail": "错误地添加了丁酸的数据",
+    "original_question": "猪体形成体脂肪的主要脂肪酸成分是什么？",
+    "original_input": ""
+  }
+]

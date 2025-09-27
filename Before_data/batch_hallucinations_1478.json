@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的发情周期为30至35天，发情期为5至7天，妊娠期约为150至160天。",
+    "reference_case": "猪的发情周期为18至21天，发情期为2至3天，妊娠期约为113至114天。",
+    "error_detail": "数值偏差导致繁殖周期描述错误",
+    "original_question": "猪的繁殖周期是多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪是肉食性动物，适应力弱，难以饲养，繁殖慢，被毛颜色单一，如灰色。",
+    "reference_case": "猪是杂食性动物，适应力强，易于饲养，繁殖快，被毛颜色多样，如黑色、白色、酱红色或黑白花等。",
+    "error_detail": "术语错误导致猪的饲养特性和被毛颜色描述错误",
+    "original_question": "猪适宜养殖的条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的养殖经济效益体现在繁殖力低，每胎5头左右，全年可供仔猪10头左右；生长期长，200日龄左右体重可达到50千克，适于慢速周转。",
+    "reference_case": "猪的养殖经济效益体现在繁殖力高，每胎14头左右，全年可供仔猪30头左右；生长期短，150日龄左右体重可达到100千克，适于快速周转。",
+    "error_detail": "数值偏差导致经济效益描述错误",
+    "original_question": "猪的养殖经济效益体现在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的生物学特性包括繁殖力低、世代间隔长、生长期长、周转慢、食性窄、饲料转化率低、觉和听觉不灵敏、视觉发达、仔猪不怕冷、大猪不怕热。",
+    "reference_case": "猪的生物学特性包括繁殖力高、世代间隔短、生长期短、周转快、食性广、饲料转化率高、觉和听觉灵敏、视觉不发达、仔猪怕冷、大猪怕热。",
+    "error_detail": "术语错误导致生物学特性描述错误",
+    "original_question": "猪的生物学特性包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在配料时应注意日粮的不可消化性和片面性，更要注意营养不平衡，因为猪对中粗纤维的消化力强于反刍家畜，但不能消化青粗饲料和各种动植物饲料及矿物质饲料。",
+    "reference_case": "在配料时应注意日粮的消化性和全面性，更要注意营养平衡，因为猪对中粗纤维的消化力远不及反刍家畜，但能消化青粗饲料和各种动植物饲料及矿物质饲料。",
+    "error_detail": "术语错误导致饲养注意事项描述错误",
+    "original_question": "猪的饲养注意事项有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪抗应激能力强，脂肪多，皮厚，不容易受凉发病。",
+    "reference_case": "仔猪抗应激能力差，脂肪少，皮薄，容易受凉发病。",
+    "error_detail": "术语错误导致仔猪难养原因描述错误",
+    "original_question": "仔猪为何较难养？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大猪适宜温度为5至15°C。",
+    "reference_case": "大猪适宜温度为10至30°C。",
+    "error_detail": "数值偏差导致适宜温度描述错误",
+    "original_question": "大猪适宜的环境温度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "环境温度达到30°C时，无论湿度多高，大猪均易中暑死亡，采食量下降，增重降低，饲料利用率低。",
+    "reference_case": "环境温度达到40°C时，无论湿度多高，大猪均易中暑死亡，采食量下降，增重降低，饲料利用率低。",
+    "error_detail": "数值偏差导致温度影响描述错误",
+    "original_question": "环境温度超过40°C时，大猪有何反应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "根据猪嗅觉和听觉灵敏的特性进行调教，可提高劳动生产率，但需要额外的训练设备。",
+    "reference_case": "根据猪嗅觉和听觉灵敏的特性进行调教，可提高劳动生产率。",
+    "error_detail": "添加假设导致描述不准确",
+    "original_question": "猪嗅觉和听觉灵敏，这对饲养管理有何意义？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "猪会发出多种声音，告知伙伴不同的信息。",
+    "reference_case": "猪会发出一种声音，告知伙伴。",
+    "error_detail": "误解上下文导致声音描述错误",
+    "original_question": "猪在吃奶、吃料及被追打时会发出什么声音？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪是家畜中最不爱清洁的动物，常在睡觉区、采食区排泄，不会定点排泄。",
+    "reference_case": "猪是家畜中最爱清洁的动物，从不在睡觉区、采食区排泄，会定点排泄。",
+    "error_detail": "术语错误导致排泄行为描述错误",
+    "original_question": "猪如何排泄？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪爱独居，但必须建立在熟悉的前提下，每圈最多不宜超过10头。",
+    "reference_case": "猪爱群居，但必须建立在熟悉的前提下，每圈最多不宜超过80头。",
+    "error_detail": "数值偏差导致群居行为描述错误",
+    "original_question": "猪为何喜欢群居？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "初产母猪的典型攻击行为表现为分娩时不咬或挤压新产仔猪，有的还让接触乳房。",
+    "reference_case": "初产母猪的典型攻击行为表现为分娩时咬或挤压新产仔猪，有的还不让接触乳房。",
+    "error_detail": "术语错误导致攻击行为描述错误",
+    "original_question": "母猪分娩时为何会咬或挤压新产仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "攻击行为是对入侵者和应激因素的第二反应。",
+    "reference_case": "攻击行为是对入侵者和应激因素的第一反应。",
+    "error_detail": "逻辑矛盾导致行为描述错误",
+    "original_question": "猪的攻击行为通常因什么而起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪在宫缩、腹胀、分娩的疼痛, 以及受吓和抚仔时，会经常发生转向行为，尤其是在夜间。",
+    "reference_case": "猪在宫缩、腹胀、分娩的疼痛, 以及受吓和抚仔时，会经常发生转向行为。",
+    "error_detail": "添加假设导致行为描述不准确",
+    "original_question": "猪在什么样的情况下会发生转向行为？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "母猪在分娩前后会表现出不做窝、不哺乳、不抚仔等行为。",
+    "reference_case": "母猪在分娩前后会表现出做窝、哺乳、抚仔等行为。",
+    "error_detail": "术语错误导致母性行为描述错误",
+    "original_question": "母猪在分娩前后会表现出哪些母性行为？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "猪的探究行为通常表现为低头四处张望或抬头去感觉、去闻和尝试，行走过程中不会排粪、排尿作标记。",
+    "reference_case": "猪的探究行为通常表现为抬头四处张望或低头去感觉、去闻和尝试，行走过程中会排粪、排尿作标记。",
+    "error_detail": "误解上下文导致探究行为描述错误",
+    "original_question": "猪的探究行为通常如何表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "喂食要多、饲料难消化，具有加重便秘、减弱修复免疫的作用，分娩后不能保持体况，乳腺堵塞，初乳减少。",
+    "reference_case": "喂食要少、饲料易消化，具有轻泻通便、增强修复免疫的作用，分娩后能保持体况，乳腺畅通，初乳增多。",
+    "error_detail": "术语错误导致营养需求描述错误",
+    "original_question": "母猪分娩前后1周的营养需求有哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "厌食、便秘、乳腺炎、子宫内膜炎、高血钙症、高血糖症、拉稀等。",
+    "reference_case": "厌食、便秘、乳腺炎、子宫内膜炎、低血钙症、低血糖症、拉稀等。",
+    "error_detail": "术语错误导致奶水不足原因描述错误",
+    "original_question": "母猪哺乳期如发生哪些问题会导致奶水不足？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每头猪每天喂蛋白质含量10%的饲料3~4kg，饮水10~15kg。",
+    "reference_case": "每头猪每天喂蛋白质含量15%的饲料5~6kg，饮水18~24kg。",
+    "error_detail": "数值偏差导致饲料和饮水量描述错误",
+    "original_question": "哺乳期母猪每天的饲料和饮水量是多少？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "粪液经粪泉和管道送入发酵罐进行厌氧发酵，产生的沼气由导出管输入贮气罐中，发酵后的粪便成为优质肥料，发酵时间为24小时。",
+    "reference_case": "粪液经粪泉和管道送入发酵罐进行厌氧发酵，产生的沼气由导出管输入贮气罐中，发酵后的粪便成为优质肥料。",
+    "error_detail": "添加了不存在的发酵时间数据",
+    "original_question": "猪场粪便污水的无公害处理方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "健康猪在温度适宜时常取站立姿势，四肢伸展；在低温环境中采取四肢蜷于腹下的平卧姿势，站立平稳，呼吸均匀深长，被毛整齐有光泽，无色素沉着的皮肤呈粉红色。",
+    "reference_case": "健康猪在温度适宜时常取侧卧姿势，四肢伸展；在低温环境中采取四肢蜷于腹下的平卧姿势，站立平稳，呼吸均匀深长，被毛整齐有光泽，无色素沉着的皮肤呈粉红色。",
+    "error_detail": "将侧卧姿势错误描述为站立姿势",
+    "original_question": "健康猪群的静态观察要点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "健康猪起立敏捷，行动灵活，步态平稳，有生人接近时出现警惕性疑视，采食时节奏轻快，尾巴自由甩动，粪呈圆柱形，落地后变形，颜色受饲料影响，一般呈绿色。",
+    "reference_case": "健康猪起立敏捷，行动灵活，步态平稳，有生人接近时出现警惕性疑视，采食时节奏轻快，尾巴自由甩动，粪呈圆柱形，落地后变形，颜色受饲料影响，一般呈黑色。",
+    "error_detail": "错误的粪便颜色描述",
+    "original_question": "动态观察健康猪群的要点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "学会猪群健康观察，为猪病治疗提供依据。",
+    "reference_case": "学会猪群健康观察，为猪病诊断打好基础。",
+    "error_detail": "将诊断基础错误描述为治疗依据",
+    "original_question": "猪场健康观察的目的要求是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "健康猪的皮肤无出血、丘疹、肿胀、结节、脱毛等，皮肤颜色正常，无色素沉着，皮肤呈白色。",
+    "reference_case": "健康猪的皮肤无出血、丘疹、肿胀、结节、脱毛等，皮肤颜色正常，无色素沉着，皮肤呈粉红色。",
+    "error_detail": "错误的皮肤颜色描述",
+    "original_question": "健康猪的皮肤颜色和状态如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "健康猪饮食时节奏轻快，尾巴自由甩动，粪呈圆柱形，落地后变形，颜色受饲料影响，一般呈黑色，这是因为猪的健康状况良好。",
+    "reference_case": "健康猪饮食时节奏轻快，尾巴自由甩动，粪呈圆柱形，落地后变形，颜色受饲料影响，一般呈黑色。",
+    "error_detail": "错误地将粪便颜色与健康状况直接关联",
+    "original_question": "健康猪的饮食排泄情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "采集病死猪或病猪发热期的脑组织（中脑、桥脑和延脑）、扁桃体等病料，剪成小块放入70%的甘油生理盐水中保存，或用5~10倍含双抗的生理盐水将病料研磨制成悬液，经低速离心后吸去上清液，20°C冰箱保存备用。将病料悬液离心上清液接种于家兔的肋部和腹侧皮下，每只0.5ml，接种后48~72小时后观察家兔发病情况。",
+    "reference_case": "采集病死猪或病猪发热期的脑组织（中脑、桥脑和延脑）、扁桃体等病料，剪成小块放入50%的甘油生理盐水中保存，或用5~10倍含双抗的生理盐水将病料研磨制成悬液，经低速离心后吸去上清液，20°C冰箱保存备用。将病料悬液离心上清液接种于家兔的肋部和腹侧皮下，每只0.5ml，接种后48~72小时后观察家兔发病情况。",
+    "error_detail": "错误的甘油生理盐水浓度",
+    "original_question": "伪狂犬病的动物接种方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "根据不同病型采集病料，败血症型病猪无菌采取心、脾、肝、肺等；淋巴结脓肿病猪无菌吸取未破溃淋巴结脓肿内的脓汁；脑膜炎型病猪无菌操作采取脑脊髓及少量脑组织，所有病料均需在高温下保存。",
+    "reference_case": "根据不同病型采集病料，败血症型病猪无菌采取心、脾、肝、肺等；淋巴结脓肿病猪无菌吸取未破溃淋巴结脓肿内的脓汁；脑膜炎型病猪无菌操作采取脑脊髓及少量脑组织。",
+    "error_detail": "添加了与无菌操作矛盾的高温保存要求",
+    "original_question": "猪链球菌病的病料采集方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪附红细胞体病的诊断方法包括观察血液变化、瑞氏染色法、姬姆萨染色法、呋啶橙染色法和PCR检测。",
+    "reference_case": "猪附红细胞体病的诊断方法包括观察血液变化、瑞氏染色法、姬姆萨染色法、呋啶橙染色法。",
+    "error_detail": "添加了不存在的PCR检测方法",
+    "original_question": "猪附红细胞体病的诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪产后体重为200 kg。",
+    "reference_case": "母猪产后体重为175 kg。",
+    "error_detail": "错误的产后体重数据",
+    "original_question": "母猪产后体重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪在不同体重阶段对钴的需要量分别为1.00%、0.90%、0.80%、0.70%、0.60%和0.50%。",
+    "reference_case": "生长猪在不同体重阶段对钴的需要量分别为0.90%、0.80%、0.70%、0.60%、0.50%和0.45%。",
+    "error_detail": "错误的钴需要量数据",
+    "original_question": "生长猪在不同体重阶段对钴的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同体重阶段生长猪对总磷的需要量分别为0.80%、0.70%、0.60%、0.50%、0.45%和0.40%。",
+    "reference_case": "不同体重阶段生长猪对总磷的需要量分别为0.70%、0.65%、0.60%、0.50%、0.45%和0.40%。",
+    "error_detail": "错误的总磷需要量数据",
+    "original_question": "不同体重阶段生长猪对总磷的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同体重阶段生长猪对有效磷的需要量分别为0.60%、0.45%、0.35%、0.25%、0.20%和0.15%。",
+    "reference_case": "不同体重阶段生长猪对有效磷的需要量分别为0.55%、0.40%、0.32%、0.23%、0.19%和0.15%。",
+    "error_detail": "错误的有效磷需要量数据",
+    "original_question": "不同体重阶段生长猪对有效磷的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪在不同体重阶段对氯的需要量分别为0.30%、0.25%、0.20%、0.10%、0.10%和0.10%。",
+    "reference_case": "生长猪在不同体重阶段对氯的需要量分别为0.25%、0.20%、0.15%、0.08%、0.08%和0.08%。",
+    "error_detail": "错误的氯需要量数据",
+    "original_question": "生长猪在不同体重阶段对氯的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪在不同体重阶段对铁的需要量分别为0.05%、0.05%、0.05%、0.05%、0.05%和0.05%。",
+    "reference_case": "生长猪在不同体重阶段对铁的需要量分别为0.04%、0.04%、0.04%、0.04%、0.04%和0.04%。",
+    "error_detail": "错误的铁需要量数据",
+    "original_question": "生长猪在不同体重阶段对铁的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪在不同体重阶段对钾的需要量分别为0.35%、0.30%、0.28%、0.25%、0.20%和0.18%。",
+    "reference_case": "生长猪在不同体重阶段对钾的需要量分别为0.30%、0.28%、0.26%、0.23%、0.19%和0.17%。",
+    "error_detail": "错误的钾需要量数据",
+    "original_question": "生长猪在不同体重阶段对钾的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同体重阶段生长猪对生物素的需要量分别为0.10 mg、0.08 mg、0.08 mg、0.08 mg、0.08 mg和0.08 mg。",
+    "reference_case": "不同体重阶段生长猪对生物素的需要量分别为0.08 mg、0.05 mg、0.05 mg、0.05 mg、0.05 mg和0.05 mg。",
+    "error_detail": "错误的生物素需要量数据",
+    "original_question": "不同体重阶段生长猪对生物素的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同体重阶段生长猪对叶酸的需要量分别为0.35 mg、0.30 mg、0.30 mg、0.30 mg、0.30 mg和0.30 mg。",
+    "reference_case": "不同体重阶段生长猪对叶酸的需要量均为0.30 mg。",
+    "error_detail": "错误的叶酸需要量数据",
+    "original_question": "不同体重阶段生长猪对叶酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同体重阶段生长猪对维生素E的需要量分别为18 IU、18 IU、12 IU、12 IU、12 IU和12 IU。",
+    "reference_case": "不同体重阶段生长猪对维生素E的需要量分别为16 IU、16 IU、11 IU、11 IU、11 IU和11 IU。",
+    "error_detail": "错误的维生素E需要量数据",
+    "original_question": "不同体重阶段生长猪对维生素E的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪在不同体重阶段对维生素B12的需要量分别为2.00 mg、1.50 mg、1.50 mg、1.50 mg、1.50 mg和1.50 mg。",
+    "reference_case": "生长猪在不同体重阶段对维生素B12的需要量分别为1.50 mg、1.00 mg、1.00 mg、1.00 mg、1.00 mg和1.00 mg。",
+    "error_detail": "错误的维生素B12需要量数据",
+    "original_question": "生长猪在不同体重阶段对维生素B12的需要量是多少？",
+    "original_input": ""
+  }
+]

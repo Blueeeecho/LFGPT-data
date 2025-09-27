@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪伪狂犬病的PCR诊断中，通过琼脂糖凝胶电泳检测扩增到的片段大小与预期大小相差50bp，且病料核酸片段大小与阳性对照大小不一致，阴性对照没有条带，初步判定该病料为猪伪狂犬病病毒病料。",
+    "reference_case": "在猪伪狂犬病的PCR诊断中，通过琼脂糖凝胶电泳检测扩增到的片段大小与预期大小相符，且病料核酸片段大小与阳性对照大小一致，阴性对照没有条带，初步判定该病料为猪伪狂犬病病毒病料。",
+    "error_detail": "错误地描述了扩增片段大小与预期大小的差异，导致数据型幻觉。",
+    "original_question": "在猪伪狂犬病的PCR诊断中，如何鉴定病料为猪伪狂犬病病毒病料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "该病例中的犬是一只6岁雄性凉山本地猎犬，体重10:0 kg。它因被野猪獠牙攻击到会阴部而受伤，受伤后食欲正常，但随后出现食欲废绝、呕吐、尿液偏黄和明显消瘦等症状。根据2010年的标准，诊断为犬肠扭转。",
+    "reference_case": "该病例中的犬是一只6岁雄性凉山本地猎犬，体重10:0 kg。它因被野猪獠牙攻击到会阴部而受伤，受伤后食欲正常，但随后出现食欲废绝、呕吐、尿液偏黄和明显消瘦等症状。",
+    "error_detail": "错误地引用了过时的诊断标准，导致时效性幻觉。",
+    "original_question": "在2012年11月，四川农业大学教学动物医院收治的犬肠扭转病例中，犬的发病情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪卵泡抑素（FS）主要通过与活化素（ACT）结合，中和循环系统中的ACT，从而促进促卵泡素（FSH）的释放。这种促进作用有助于调节卵泡发育和卵母细胞的成熟。",
+    "reference_case": "猪卵泡抑素（FS）主要通过与活化素（ACT）结合，中和循环系统中的ACT，从而抑制促卵泡素（FSH）的释放。这种抑制作用有助于调节卵泡发育和卵母细胞的成熟。",
+    "error_detail": "错误地将抑制作用描述为促进作用，导致概念混淆幻觉。",
+    "original_question": "猪卵泡抑素（FS）的主要生物学功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪卵泡抑素基因成熟肽的理论分子质量是26181 u。这一理论值由232个氨基酸残基组成，其中N端36个残基来自pRSET-A质粒序列，包含6个组氨酸残基，以及196个FS氨基酸残基。根据最新研究，实际分子质量应为27181 u。",
+    "reference_case": "猪卵泡抑素基因成熟肽的理论分子质量是26181 u。这一理论值由232个氨基酸残基组成，其中N端36个残基来自pRSET-A质粒序列，包含6个组氨酸残基，以及196个FS氨基酸残基。",
+    "error_detail": "错误地提供了与实际不符的分子质量数据，导致数据型幻觉。",
+    "original_question": "猪卵泡抑素基因成熟肽的理论分子质量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "最佳的IPTG诱导浓度是0:5 mmol/L，最佳诱导时间是5小时。在这些条件下，表达量达到最高，约占总菌体蛋白的30%。",
+    "reference_case": "最佳的IPTG诱导浓度是0:2 mmol/L，最佳诱导时间是3小时。在这些条件下，表达量达到最高，约占总菌体蛋白的30%。",
+    "error_detail": "错误地提供了IPTG诱导浓度和时间的数值，导致数据型幻觉。",
+    "original_question": "在猪卵泡抑素基因成熟肽的表达过程中，最佳的IPTG诱导浓度和时间是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "选择pRSET-A作为表达载体是因为它具有高水平的蛋白表达量，且载体中含有6个组氨酸残基（His-Tag）和EK蛋白酶裂解位点，便于通过亲和层析进行蛋白纯化，并且对目的肽段的空间结构影响较小。此外，pRSET-A载体还能提高蛋白的稳定性。",
+    "reference_case": "选择pRSET-A作为表达载体是因为它具有高水平的蛋白表达量，且载体中含有6个组氨酸残基（His-Tag）和EK蛋白酶裂解位点，便于通过亲和层析进行蛋白纯化，并且对目的肽段的空间结构影响较小。",
+    "error_detail": "错误地添加了关于pRSET-A载体提高蛋白稳定性的假设，导致假设滥用型幻觉。",
+    "original_question": "在猪卵泡抑素基因成熟肽的表达过程中，为什么选择pRSET-A作为表达载体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪卵泡抑素（FS）基因的成熟肽序列是通过设计并合成一对引物，使用PCR扩增技术从FS基因编码区序列中获得的。扩增产物随后被克隆入pMD18-T载体，并转化到E. coli DH5α感受态细胞中进行验证。需要注意的是，这一过程可能需要多次尝试才能成功。",
+    "reference_case": "猪卵泡抑素（FS）基因的成熟肽序列是通过设计并合成一对引物，使用PCR扩增技术从FS基因编码区序列中获得的。扩增产物随后被克隆入pMD18-T载体，并转化到E. coli DH5α感受态细胞中进行验证。",
+    "error_detail": "错误地添加了关于过程可能需要多次尝试的说明，导致指令偏离型幻觉。",
+    "original_question": "猪卵泡抑素（FS）基因的成熟肽序列是如何克隆的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "表达产物通过Ni-NTA凝胶在非变性条件下进行纯化。这种方法利用了表达载体pRSET-A中的6个连续组氨酸序列（His-Tag），使得重组蛋白能够与固定化的金属离子结合，从而通过亲和层析进行纯化。",
+    "reference_case": "表达产物通过Ni-NTA凝胶在变性条件下进行纯化。这种方法利用了表达载体pRSET-A中的6个连续组氨酸序列（His-Tag），使得重组蛋白能够与固定化的金属离子结合，从而通过亲和层析进行纯化。",
+    "error_detail": "错误地将变性条件描述为非变性条件，导致概念混淆幻觉。",
+    "original_question": "猪卵泡抑素基因成熟肽的表达产物是如何纯化的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪卵泡抑素基因成熟肽的表达和纯化为制备增加排卵率的基因工程疫苗及提高动物的繁殖性能奠定了基础。通过基因工程方法制备的FS成熟肽融合蛋白具有纯度高、免疫原性好、价格低廉等优点，可以用于动物试验以提高FSH水平和排卵率。此外，这种方法还能显著提高动物的生长速度。",
+    "reference_case": "猪卵泡抑素基因成熟肽的表达和纯化为制备增加排卵率的基因工程疫苗及提高动物的繁殖性能奠定了基础。通过基因工程方法制备的FS成熟肽融合蛋白具有纯度高、免疫原性好、价格低廉等优点，可以用于动物试验以提高FSH水平和排卵率。",
+    "error_detail": "错误地添加了关于提高动物生长速度的假设，导致假设滥用型幻觉。",
+    "original_question": "猪卵泡抑素基因成熟肽的表达和纯化对动物繁殖性能有何潜在应用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "最佳的诱导条件通过SDS-PAGE分析表达产物来确定。实验结果表明，当细菌密度处于生长对数期中期（D600 nm=0:8～1:2:时添加IPTG，表达量最高。最佳IPTG浓度为0:3 mmol/L，最佳诱导时间为4小时。",
+    "reference_case": "最佳的诱导条件通过SDS-PAGE分析表达产物来确定。实验结果表明，当细菌密度处于生长对数期中期（D600 nm=0:6～1:0:时添加IPTG，表达量最高。最佳IPTG浓度为0:2 mmol/L，最佳诱导时间为3小时。",
+    "error_detail": "错误地提供了细菌密度、IPTG浓度和诱导时间的数值，导致数据型幻觉。",
+    "original_question": "在猪卵泡抑素基因成熟肽的表达过程中，如何确定最佳的诱导条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在克隆过程中，使用了EcoR I和Xho I两个酶切位点。这些位点用于将FS基因成熟肽序列插入到表达载体pRSET-A中。",
+    "reference_case": "在克隆过程中，使用了BamH I和Hind III两个酶切位点。这些位点用于将FS基因成熟肽序列插入到表达载体pRSET-A中。",
+    "error_detail": "错误地描述了使用的酶切位点，导致概念混淆幻觉。",
+    "original_question": "在猪卵泡抑素基因成熟肽序列的克隆过程中，使用了哪些酶切位点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "表达验证通过SDS-PAGE分析进行，结果显示在27:1 ku处有一条明显的新增条带，与预期的分子质量相符。此外，通过PCR、双酶切及测序进一步验证了表达的正确性。",
+    "reference_case": "表达验证通过SDS-PAGE分析进行，结果显示在26:1 ku处有一条明显的新增条带，与预期的分子质量相符。此外，通过PCR、双酶切及测序进一步验证了表达的正确性。",
+    "error_detail": "错误地提供了分子质量的数值，导致数据型幻觉。",
+    "original_question": "猪卵泡抑素基因成熟肽在E. coli BL21（DE3:中的表达是如何验证的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "布鲁菌 bp26-间接 ELISA 抗体检测试剂盒具有良好的特异性，与牛结核菌、副猪嗜血杆菌、链球菌等多种病原体的阳性血清均有交叉反应。",
+    "reference_case": "布鲁菌 bp26-间接 ELISA 抗体检测试剂盒具有良好的特异性，与牛结核菌、副猪嗜血杆菌、链球菌等多种病原体的阳性血清均无交叉反应。",
+    "error_detail": "错误地描述了试剂盒的特异性，导致概念混淆幻觉。",
+    "original_question": "布鲁菌 bp26-间接 ELISA 抗体检测试剂盒的特异性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在辽宁地区疑似患有PMWS的猪群中，PCV2的检测方法是ELISA（酶联免疫吸附试验）。",
+    "reference_case": "在辽宁地区疑似患有PMWS的猪群中，PCV2的检测方法是PCR（聚合酶链式反应）。",
+    "error_detail": "错误地描述了检测方法，导致概念混淆幻觉。",
+    "original_question": "在辽宁地区疑似患有PMWS的猪群中，PCV2的检测方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的基因组长度是1867或1868个碱基对（bp）。",
+    "reference_case": "猪圆环病毒2型（PCV2:的基因组长度为1767或1768个碱基对（bp）。",
+    "error_detail": "错误地提供了基因组长度的数值，导致数据型幻觉。",
+    "original_question": "猪圆环病毒2型（PCV2:的基因组长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:主要引起猪流感、猪瘟和猪丹毒等多种疾病。",
+    "reference_case": "猪圆环病毒2型（PCV2:主要引起断奶仔猪多系统衰竭综合征（PMWS）、猪皮炎和肾病综合征（PDNS）、猪呼吸道疾病综合征（PRDC）及幼龄仔猪的先天性震颤（CT）等多种疾病。",
+    "error_detail": "错误地描述了PCV2引起的疾病，导致概念混淆幻觉。",
+    "original_question": "猪圆环病毒2型（PCV2:主要引起哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的传播方式包括空气传播和食物传播。",
+    "reference_case": "猪圆环病毒2型（PCV2:的传播方式包括水平传播和垂直传播。",
+    "error_detail": "错误地描述了PCV2的传播方式，导致概念混淆幻觉。",
+    "original_question": "猪圆环病毒2型（PCV2:的传播方式有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:不具有致病性，是断奶仔猪多系统衰竭综合征（PMWS）的次要病原。",
+    "reference_case": "猪圆环病毒2型（PCV2:具有致病性，是断奶仔猪多系统衰竭综合征（PMWS）的主要病原。",
+    "error_detail": "错误地描述了PCV2的致病性，导致概念混淆幻觉。",
+    "original_question": "猪圆环病毒2型（PCV2:的致病性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪圆环病毒2型ORF1基因的克隆与原核表达实验中，重组蛋白主要以可溶性蛋白的形式表达。",
+    "reference_case": "在猪圆环病毒2型ORF1基因的克隆与原核表达实验中，重组蛋白主要以包涵体的形式表达。",
+    "error_detail": "错误地描述了重组蛋白的表达形式，导致概念混淆幻觉。",
+    "original_question": "猪圆环病毒2型ORF1基因的克隆与原核表达实验中，重组蛋白主要以什么形式表达？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪圆环病毒2型ORF1基因的原核表达实验中，重组蛋白的分子质量约为52 ku。",
+    "reference_case": "在猪圆环病毒2型ORF1基因的原核表达实验中，重组蛋白的分子质量约为42 ku。",
+    "error_detail": "错误地提供了分子质量的数值，导致数据型幻觉。",
+    "original_question": "在猪圆环病毒2型ORF1基因的原核表达实验中，重组蛋白的分子质量是多少？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "英国的猪健康保健控制协会公布了它的猪群无EP、SD、AR、伪狂犬病、餈螨和猪二型链球菌脑膜炎，以及猪流感。",
+    "reference_case": "英国的猪健康保健控制协会公布了它的猪群无EP、SD、AR、伪狂犬病、餈螨和猪二型链球菌脑膜炎。",
+    "error_detail": "添加了不存在的疾病猪流感",
+    "original_question": "猪的健康保健控制协会公布了哪些猪群无疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "混饮给药方法适用于治疗所有猪病，包括急性和慢性病例。",
+    "reference_case": "混饮给药方法适用于治疗急性病症中反应显著的猪病，但对于慢性病例反应不明显。",
+    "error_detail": "错误地声称混饮给药适用于所有猪病，包括慢性病例",
+    "original_question": "混饮给药方法适用于治疗哪些猪病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "混饮给药治疗猪病时，适宜的药物浓度是每升水加入100mg药物。",
+    "reference_case": "表70.1提供了对一些猪病混饮给药治疗的适宜浓度。",
+    "error_detail": "提供了具体的药物浓度，而原始输出仅指向一个表格",
+    "original_question": "混饮给药治疗猪病时，适宜的药物浓度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪群分娩时的群体给药存在问题是因为药物会导致猪的饮水量增加。",
+    "reference_case": "病猪一般厌食，应用药物拌料方法不可能使体内药物达到适宜的水平，因而当病猪尚能继续饮水时，将药物混饮会导致病猪的饮水量下降。",
+    "error_detail": "错误地认为药物会导致饮水量增加，而实际上会导致下降",
+    "original_question": "为什么猪群分娩时的群体给药存在一个问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "四环素类药物仅对革兰氏阳性菌有效。",
+    "reference_case": "四环素类药物对感染猪的多种革兰氏阳性和阴性菌均有效；另外，对引起猪附红细胞体病的病原体也有作用。",
+    "error_detail": "错误地限制了四环素类药物的抗菌范围",
+    "original_question": "四环素类药物对哪类细菌有效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪群中需要慎重选择比例混合器，因为所有商品药通过比例混合器后所测出的浓度都能达到药物有效治疗浓度。",
+    "reference_case": "因为许多商品药通过比例混合器后所测出的浓度不能达到药物有效治疗浓度，且可能堵塞比例混合器的阀。",
+    "error_detail": "错误地声称所有药物都能达到有效浓度",
+    "original_question": "为什么猪群中需要慎重选择比例混合器？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "混饮给药治疗猪病的优点是当大批动物需要进行治疗时，这还是一种较佳的给药途径，且不存在任何不良反应。",
+    "reference_case": "混饮给药治疗猪病的优点是当大批动物需要进行治疗时，这还是一种较佳的给药途径，但存在病猪饮水量下降的不良反应。",
+    "error_detail": "错误地声称不存在不良反应",
+    "original_question": "混饮给药治疗猪病的优点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "泰乐菌素的常用剂量为5 mg/kg体重。",
+    "reference_case": "泰乐菌素的常用剂量为11 mg/kg体重，实践中更多采用15-22 mg/kg剂量。",
+    "error_detail": "提供了错误的剂量信息",
+    "original_question": "泰乐菌素在猪临床上的应用剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肌注泰乐菌素有刺激作用，使这种作用在商品猪上完全消除大约需要2周时间。",
+    "reference_case": "肌注泰乐菌素有刺激作用，使这种作用在商品猪上完全消除大约需要4周时间。",
+    "error_detail": "错误地缩短了恢复期时间",
+    "original_question": "泰乐菌素的肌注给药后，恢复期需要多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "泰乐菌素对猪肺炎霉形体有效。",
+    "reference_case": "泰乐菌素对猪滑液霉形体有效。",
+    "error_detail": "错误地指定了霉形体类型",
+    "original_question": "泰乐菌素对哪种霉形体有效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "林可霉素非经肠道给药治疗猪霉形体感染的剂量为20-30 mg/kg体重。",
+    "reference_case": "林可霉素非经肠道给药治疗猪霉形体感染的剂量为5.5-11 mg/kg体重。",
+    "error_detail": "提供了错误的剂量范围",
+    "original_question": "林可霉素在治疗猪霉形体感染中的常用剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "磺胺二甲氧嘧啶在治疗仔猪大肠杆菌性肠炎时的优点是作用时间短、应用剂量大。",
+    "reference_case": "该药作用时间长、应用剂量小、具有广谱活性，大部分转化为溶解度高的葡糖苷酸，减少在脱水病畜的肾脏中产生沉淀的危险。",
+    "error_detail": "错误地描述了药物的优点",
+    "original_question": "磺胺二甲氧嘧啶在治疗仔猪大肠杆菌性肠炎时的优点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肌注泰乐菌素的刺激作用在商品猪上完全消除大约需要2周时间。",
+    "reference_case": "肌注泰乐菌素的刺激作用在商品猪上完全消除大约需要4周时间。",
+    "error_detail": "错误地缩短了恢复期时间",
+    "original_question": "泰乐菌素对商品猪的肌注作用在多长时间内消除？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在一项研究中发现，每克干日粮料中有多达10000个肠杆菌。",
+    "reference_case": "在一项研究中发现，每克干日粮料中有多达5000个肠杆菌。",
+    "error_detail": "错误地增加了肠杆菌的数量",
+    "original_question": "猪的饲料中可能会受到哪些微生物污染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "几乎50%的4月龄或更大的健康猪携带有β-溶血性链球菌。",
+    "reference_case": "几乎90%的4月龄或更大的健康猪携带有β-溶血性链球菌，母猪常经粪便排出TGEV。",
+    "error_detail": "错误地降低了携带比例",
+    "original_question": "猪作为媒介物可能会携带哪些病原微生物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "分批或全进一全出体系在仔猪健康和生长方面取得巨大的效益，且没有任何缺点。",
+    "reference_case": "这种方法在仔猪健康和生长方面取得巨大的效益。",
+    "error_detail": "错误地声称没有任何缺点",
+    "original_question": "分批或全进一全出体系有何益处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在与原有的猪混群以前，应当隔离1周。",
+    "reference_case": "在与原有的猪混群以前，应当隔离3—4周，并在隔离期间经常观察新来者有否急性病的症状。",
+    "error_detail": "错误地缩短了隔离时间",
+    "original_question": "引入新猪时应采取什么措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "声音对猪的影响很大，会显著降低猪的生产力。",
+    "reference_case": "声音对猪的影响很小，但当噪声高于猪的哼哼声时，可能会干扰仔猪的哺乳行为。",
+    "error_detail": "错误地夸大了声音对猪的影响",
+    "original_question": "声音对猪的健康和生产力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "全漏缝地板对猪蹄的损伤最轻。",
+    "reference_case": "全漏缝地板对猪蹄的损伤最严重，而宽条板、塑料漏缝地板和土地饲养的猪蹄损伤较轻。光滑干净的地板比粗糙脏的地板好。",
+    "error_detail": "错误地描述了地板类型对猪蹄健康的影响",
+    "original_question": "猪舍地板类型如何影响猪的蹄部健康？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "实性墙与带孔墙在猪舍中的作用没有区别。",
+    "reference_case": "实性墙可以控制病原传播、限制猪群接触和减少贼风；带孔墙允许空气自由流动，但需安装分散系统以保持通风质量。",
+    "error_detail": "错误地声称两种墙的作用没有区别",
+    "original_question": "实性墙与带孔墙在猪舍中的作用有什么不同？",
+    "original_input": ""
+  }
+]

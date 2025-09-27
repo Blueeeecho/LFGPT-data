@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪链球菌主要通过消化道传播，其次是皮肤创口感染。",
+    "reference_case": "猪链球菌主要通过呼吸道传播，其次是皮肤创口感染。",
+    "error_detail": "错误地将呼吸道传播改为消化道传播",
+    "original_question": "猪链球菌病的主要传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪链球菌病的临床类型包括链球菌性淋巴结脓肿、链球菌性败血症和链球菌性肺炎。",
+    "reference_case": "猪链球菌病的临床类型包括链球菌性淋巴结脓肿、链球菌性败血症和链球菌性脑膜脑炎。",
+    "error_detail": "错误地将链球菌性脑膜脑炎改为链球菌性肺炎",
+    "original_question": "猪链球菌病的临床类型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "链球菌性脑膜脑炎多发于 12 周龄仔猪，病初体温可升高到 39.5～41.5°C，后期体温可降至正常，有神经症状。",
+    "reference_case": "链球菌性脑膜脑炎多发于 8 周龄仔猪，病初体温可升高到 40.5～42.5°C，后期体温可降至正常，有神经症状，如共济失调，转圈，空嚼、磨牙，伏卧，后肢麻痹，四肢作游泳状运动，甚至昏迷不醒。",
+    "error_detail": "错误的年龄和体温范围",
+    "original_question": "链球菌性脑膜脑炎的典型临床表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "剖检变化可见胸、腹及四肢下端呈紫红色，胸腔或腹腔内常有清水，气管内常有白色泡沫。",
+    "reference_case": "剖检变化可见胸、腹及四肢下端呈紫红色，胸腔或腹腔内常有黄色水液，气管内常有暗红色泡沫，肺部疼血水肿，呈暗红色，肝、脾有时肿大，血液凝固不良，淋巴结疼血水肿。脑炎型的可见脑膜和脑实质充血、出血。",
+    "error_detail": "错误的水液和泡沫颜色描述",
+    "original_question": "猪链球菌病的剖检变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "每年进行链球菌苗预防注射，一般在出生后进行免疫 1 次，免疫期为一年。",
+    "reference_case": "每年进行链球菌苗预防注射，一般在断乳后进行免疫 1 次，免疫期为半年，种猪应隔 6 个月后再免疫 1 次。同时采用药物预防，每吨饲料中加入四环素 125 g，饲喂 4～6 周。",
+    "error_detail": "错误的免疫时间和免疫期",
+    "original_question": "预防猪链球菌病的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "青霉素按每千克体重 1 万～2 万国际单位肌肉注射，每日 1 次，连用 5 天。",
+    "reference_case": "青霉素按每千克体重 2 万～3 万国际单位肌肉注射，每日 2 次，连用 3 天；复方磺胺嘧啶钠按每千克体重 0.1 g 肌肉注射, 首次倍量，每天 2 次，连用 4～5 天；对淋巴结脓肿型的切开排脓，而后抗菌消炎；对脑炎型的病猪采用林可霉素或红霉素治疗。",
+    "error_detail": "错误的青霉素剂量和用药频率",
+    "original_question": "猪链球菌病的治疗方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪肺疫的病原是链球菌，是一种长形的、革兰氏阳性的杆菌。",
+    "reference_case": "猪肺疫的病原是多杀性巴氏杆菌，是一种短小的、革兰氏阴性的球杆菌。",
+    "error_detail": "错误的病原体描述",
+    "original_question": "猪肺疫的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "体重 20 kg 以上患猪用卡那霉素 50 万国际单位、链霉素 50 万国际单位、地塞米松 2.5 ml，混合后肺俞穴 1 次注入。",
+    "reference_case": "体重 20 kg 以上患猪用卡那霉素 100 万国际单位（或猪喘平 10 ml）、链霉素 100 万国际单位、地塞米松 5 ml，混合后肺俞穴（倒数第 6 肋间，与过髋关节水平线的交点上肌肉内，左右侧各 1 穴） 1 次注入。每次取 1 穴，对穴位处进行严格消毒，针呈 45° 角斜向前下方刺入，进针深度视猪大小、肥瘦而定，一般 2~3 cm 即可。",
+    "error_detail": "错误的药物剂量",
+    "original_question": "肺俞穴药物注射治疗猪支原体肺炎的方法是什么？",
+    "original_input": "体重 20 kg 以上患猪用卡那霉素 100 万国际单位（或猪喘平 10 ml）、链霉素 100 万国际单位、地塞米松 5 ml，混合后肺俞穴（倒数第 6 肋间，与过髋关节水平线的交点上肌肉内，左右侧各 1 穴） 1 次注入。每次取 1 穴，对穴位处进行严格消毒，针呈 45° 角斜向前下方刺入，进针深度视猪大小、肥瘦而定，一般 2~3 cm 即可。"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "饲养管理不良，如猪栏干燥宽敞、蛋白质和矿物质充足，可使猪病发病率猛增。",
+    "reference_case": "饲养管理不良，如猪栏潮湿拥挤、缺乏蛋白质和矿物质（特别是钙）、维生素，可使猪病发病率猛增。",
+    "error_detail": "错误的因果关系描述",
+    "original_question": "饲养管理如何影响猪病的发生和发展？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "症状包括急性型的低热、呼吸困难、咳嗽、心衰，慢性型的持续性咳嗽、食欲增加、生长快速。",
+    "reference_case": "症状包括急性型的高热、呼吸困难、咳嗽、心衰，慢性型的间歇性咳嗽、食欲减少、生长缓慢、肺炎区纤维素性物质和结节。",
+    "error_detail": "错误的症状描述",
+    "original_question": "猪传染性胸膜肺炎的主要症状有哪些？",
+    "original_input": ""
+  }
+]

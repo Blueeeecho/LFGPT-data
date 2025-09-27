@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "小袋纤毛虫病的确诊需要通过血液检查发现大量小袋纤毛虫滋养体和包含体。",
+    "reference_case": "宿主粪中含有大量小袋纤毛虫滋养体和包含体，通过粪便涂片检查可以确诊。病猪死后可刮取直肠黏膜涂片检查有多量纤毛虫而确诊。",
+    "error_detail": "错误地将粪便检查改为血液检查，混淆了诊断方法。",
+    "original_question": "小袋纤毛虫病如何确诊？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪胃溃疡的主要症状是腹泻和水泻，这是最常见的表现。",
+    "reference_case": "猪胃溃疡常因长途运输环境突然变化等应激因素引起，胃黏膜出血，大便变黑且呈臭柏油状，眼结膜苍白、贫血，不一定表现腹泻或水泻。胃区疼痛，压诊呻吟，严重时以突然死亡为特点。",
+    "error_detail": "错误地增加了腹泻和水泻作为主要症状，与实际情况不符。",
+    "original_question": "猪胃溃疡的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪胃溃疡的诊断依据是病猪表现出明显的腹泻症状。",
+    "reference_case": "亚急性或慢性型胃溃疡病猪排出黑色干硬或黑弹丸状粪便。有些慢性胃溃疡生前不显任何异常，仅死后剖检才发现。",
+    "error_detail": "错误地假设腹泻是诊断依据，与原始信息不符。",
+    "original_question": "猪胃溃疡的诊断依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪痢疾、沙门氏菌病、传染性胃肠炎、肠腺瘤、肠扭转、双香豆素中毒与小袋纤毛虫病的区别在于前者不会引起腹泻。",
+    "reference_case": "这些疾病常引起粪便带血或腹泻等症状，需根据临床表现和实验室检查进行区别诊断。",
+    "error_detail": "错误地认为这些疾病不会引起腹泻，与实际情况相反。",
+    "original_question": "猪痢疾、沙门氏菌病、传染性胃肠炎、肠腺瘤、肠扭转、双香豆素中毒如何与小袋纤毛虫病区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪痢疾、猪沙门氏菌病（副伤寒）、传染性胃肠炎的确诊仅需通过临床表现即可。",
+    "reference_case": "猪痢疾、猪沙门氏菌病（副伤寒）、传染性胃肠炎的确诊需根据病史、临床表现和实验室检查进行区别诊断。",
+    "error_detail": "忽略了实验室检查的重要性，偏离了原始指令。",
+    "original_question": "猪痢疾、猪沙门氏菌病（副伤寒）、传染性胃肠炎如何确诊？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "营养性肝坏死的主要症状是腹泻，这是由于肝细胞坏死直接引起的。",
+    "reference_case": "营养性肝坏死常与硒缺乏症有关，因猪缺硒致肠上皮细胞代谢紊乱，引起黏膜细胞坏死和脱落，肝细胞坏死影响胆汁生成、排泄，致腹泻。",
+    "error_detail": "错误地将腹泻直接归因于肝细胞坏死，忽略了中间过程。",
+    "original_question": "营养性肝坏死的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "马铃薯中毒的主要症状是呕吐和腹痛，腹泻和便血较为罕见。",
+    "reference_case": "马铃薯中毒是因猪食用过多发芽的马铃薯或腐败霉烂的薯类引起，表现为腹泻、便血。病史调查易于诊断。",
+    "error_detail": "错误地低估了腹泻和便血的普遍性，反映了过时的理解。",
+    "original_question": "马铃薯中毒的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "菜子饼中毒的主要症状在亚洲猪中表现为严重的神经系统症状。",
+    "reference_case": "菜子饼味苦，适口性差，饲料中掺人少量，在长期采食条件下可引起猪胃肠炎，腹痛，腹泻，粪中混血。病史调查不难诊断。",
+    "error_detail": "错误地将神经系统症状与菜子饼中毒联系起来，且地域特异性不准确。",
+    "original_question": "菜子饼中毒的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "猪屎豆中毒的临床表现不包括任何消化系统症状。",
+    "reference_case": "猪屎豆中毒可引起上吐、下泻，因毒素可致血管损伤和破裂，引起全身多器官出血，尤其是胃底出血斑，肠黏膜和肠系膜淤血、出血。临床上通过病史调查可诊断。",
+    "error_detail": "错误地排除了消化系统症状，与原始信息矛盾。",
+    "original_question": "猪屎豆中毒的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪瘟的传播速度非常快，主要因空气传播引起。",
+    "reference_case": "猪瘟的传播速度较慢，多因未接种疫苗或疫苗保管不善引起。",
+    "error_detail": "错误地高估了传播速度并错误地指定了传播途径。",
+    "original_question": "猪瘟的传播速度受到哪些因素影响？",
+    "original_input": ""
+  }
+]

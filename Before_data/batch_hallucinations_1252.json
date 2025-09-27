@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在莱克多巴胺残留限量协调过程中，中国提供了莱克多巴胺在猪肺脏中的风险评估结果，显示残留量为0.1ppm。",
+    "reference_case": "在莱克多巴胺残留限量协调过程中，中国提供了莱克多巴胺在猪肺脏中的风险评估结果。",
+    "error_detail": "添加了具体的数值数据，原始输出中未提及具体数值。",
+    "original_question": "在莱克多巴胺残留限量协调过程中，中国提供了哪些数据？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "喹烯酮通过抑制细菌RNA的合成，选择性地抑制消化道内病原微生物的生长和繁殖。",
+    "reference_case": "喹烯酮通过抑制细菌DNA的合成，选择性地抑制消化道内病原微生物的生长和繁殖，但不影响有益的大肠杆菌和其他革兰氏阳性菌，从而有效控制小猪腹泻和禽巴氏杆菌病等。",
+    "error_detail": "将DNA错误地改为RNA，导致概念混淆。",
+    "original_question": "喹烯酮的主要作用机理是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪11ß-HSD1基因的cDNA是通过从长白猪肝脏组织中提取RNA，然后利用传统的PCR技术反转录得到的。",
+    "reference_case": "猪11ß-HSD1基因的cDNA是通过从长白猪肝脏组织中提取RNA，然后利用反转录一聚合酶链式反应（RT-PCR）技术反转录得到的。",
+    "error_detail": "使用了过时的技术描述，未提及RT-PCR。",
+    "original_question": "猪11ß-HSD1基因的cDNA是如何获得的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪11ß-HSD1基因的CDS区域与非洲象、长颈鹿、斑马和狮子的11ß-HSD1基因CDS区域具有较高的同源性。",
+    "reference_case": "猪11ß-HSD1基因的CDS区域与犬、牛、羊、人和鼠的11ß-HSD1基因CDS区域具有较高的同源性，表明该基因在这些物种中具有保守性。",
+    "error_detail": "错误地引用了非洲动物，与原始输出中的物种不符。",
+    "original_question": "猪11ß-HSD1基因的CDS区域与其他物种的同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪11ß-HSD1基因的克隆过程中，使用了pUC19载体进行TA克隆。",
+    "reference_case": "在猪11ß-HSD1基因的克隆过程中，使用了pGEM-T Easy载体进行TA克隆。",
+    "error_detail": "错误地使用了不同的载体名称。",
+    "original_question": "在猪11ß-HSD1基因的克隆过程中，使用了哪种载体进行TA克隆？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪11ß-HSD1基因的PCR扩增中，使用了Taq DNA聚合酶，反应温度为72°C。",
+    "reference_case": "在猪11ß-HSD1基因的PCR扩增中，使用了LA Taq DNA聚合酶。",
+    "error_detail": "错误地更改了DNA聚合酶的类型和反应温度。",
+    "original_question": "在猪11ß-HSD1基因的PCR扩增中，使用了哪种DNA聚合酶？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组为双股正链RNA，全长约为20 kb，共有12个开放阅读框。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组为单股正链RNA，全长约为15 kb，共有9个开放阅读框。",
+    "error_detail": "错误地更改了基因组的类型、长度和开放阅读框的数量。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组结构是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪繁殖与呼吸综合征病毒GZ-KY1株的分离实验中，使用了HEK293细胞进行病毒分离。",
+    "reference_case": "在猪繁殖与呼吸综合征病毒GZ-KY1株的分离实验中，使用了PK-15细胞进行病毒分离。",
+    "error_detail": "错误地使用了不同的细胞系。",
+    "original_question": "在猪繁殖与呼吸综合征病毒GZ-KY1株的分离实验中，使用了哪种细胞进行病毒分离？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因长度为500 bp。",
+    "reference_case": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因长度为603 bp。",
+    "error_detail": "错误地更改了基因长度。",
+    "original_question": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒GZ-KY1株与国内强毒株的氨基酸一致性高于弱毒株，因此GZ-KY1株是强毒株。",
+    "reference_case": "猪繁殖与呼吸综合征病毒GZ-KY1株与国内强毒株的氨基酸一致性高于弱毒株。",
+    "error_detail": "错误地推导了因果关系，原始输出未提及GZ-KY1株的性质。",
+    "original_question": "猪繁殖与呼吸综合征病毒GZ-KY1株与国内强毒株的氨基酸一致性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因扩增反应中，退火温度为60°C。",
+    "reference_case": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因扩增反应中，退火温度为57°C。",
+    "error_detail": "错误地更改了退火温度。",
+    "original_question": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因扩增反应中，退火温度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因扩增产物经过电泳鉴定后，送美国Thermo Fisher公司进行测序。",
+    "reference_case": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因扩增产物经过电泳鉴定后，送生工生物工程（上海）有限公司进行测序。",
+    "error_detail": "错误地更改了测序公司的名称和所在地。",
+    "original_question": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因扩增产物经过电泳鉴定后，送哪家公司进行测序？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因与国内高致病性强毒株SY0608的氨基酸序列一致性为95%。",
+    "reference_case": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因与国内高致病性强毒株SY0608的氨基酸序列一致性为100%。",
+    "error_detail": "错误地降低了氨基酸序列一致性。",
+    "original_question": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因与国内高致病性强毒株SY0608的氨基酸序列一致性是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冷应激导致猪脂肪和肝脏组织中SOCS3 mRNA的表达量随着温度的降低而逐渐降低。",
+    "reference_case": "冷应激导致猪脂肪和肝脏组织中SOCS3 mRNA的表达量随着温度的降低而逐渐升高，且总体差异显著（P<0:05:。",
+    "error_detail": "错误地反转了表达量的变化趋势。",
+    "original_question": "冷应激对猪脂肪和肝脏组织中SOCS3 mRNA表达的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在冷应激条件下，SOCS3 mRNA在猪肝脏组织中的表达量随着温度的降低而逐渐降低。",
+    "reference_case": "在冷应激条件下，SOCS3 mRNA在猪肝脏组织中的表达量随着温度的降低而逐渐升高，-5°C和-10°C试验组与正常对照组相比表达差异极显著（P<0:01:。",
+    "error_detail": "错误地反转了表达量的变化趋势。",
+    "original_question": "在冷应激条件下，SOCS3 mRNA在猪肝脏组织中的表达变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冷应激导致猪腹腔脂肪组织中SOCS3 mRNA的表达量显著降低。",
+    "reference_case": "冷应激导致猪腹腔脂肪组织中SOCS3 mRNA的表达量显著升高，0°C和5°C试验组与正常对照组相比差异显著（P<0:05:，-5°C和-10°C试验组与正常对照组相比差异极显著（P<0:01:。",
+    "error_detail": "错误地反转了表达量的变化趋势。",
+    "original_question": "冷应激对猪腹腔脂肪组织中SOCS3 mRNA表达的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冷应激导致猪颈部皮下脂肪组织中SOCS3 mRNA的表达量在0°C条件下开始有变化，-5°C和-10°C条件下表达量迅速下降。",
+    "reference_case": "冷应激导致猪颈部皮下脂肪组织中SOCS3 mRNA的表达量在0°C条件下开始有变化，-5°C和-10°C条件下表达量迅速上升，且与正常组相比差异均极显著（P<0:01:。",
+    "error_detail": "错误地反转了表达量的变化趋势。",
+    "original_question": "冷应激对猪颈部皮下脂肪组织中SOCS3 mRNA表达的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冷应激导致猪胸部皮下脂肪组织中SOCS3 mRNA的表达量在不同冷应激温度下逐渐下降。",
+    "reference_case": "冷应激导致猪胸部皮下脂肪组织中SOCS3 mRNA的表达量在不同冷应激温度下逐渐上升，5°C、0°C、-5°C试验组与正常对照组相比差异极显著（P<0:01:，-10°C试验组与正常对照组相比差异显著（P<0:05:。",
+    "error_detail": "错误地反转了表达量的变化趋势。",
+    "original_question": "冷应激对猪胸部皮下脂肪组织中SOCS3 mRNA表达的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "在冷应激条件下，SOCS3 mRNA在猪不同脂肪组织中的表达变化相同。",
+    "reference_case": "在冷应激条件下，SOCS3 mRNA在猪不同脂肪组织中的表达变化不同。在肝脏组织中，SOCS3 mRNA表达量随温度降低逐渐升高；在腹腔脂肪组织中，SOCS3 mRNA在5°C条件下开始上升；在颈部皮下脂肪组织中，SOCS3 mRNA在0°C条件下开始上升；在胸部皮下脂肪组织中，SOCS3 mRNA在5°C条件下表达量最高，随后随温度降低逐渐恢复。",
+    "error_detail": "错误地统一了不同组织的表达变化，与原始输出中的描述矛盾。",
+    "original_question": "冷应激条件下，SOCS3 mRNA在猪不同脂肪组织中的表达变化有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "冷应激对猪脂肪组织中SOCS3 mRNA表达的影响与瘦素（leptin）、TNF-α、FIAF、PPARγ2等细胞因子的信号转导有关，特别是通过激活NF-κB通路。",
+    "reference_case": "冷应激对猪脂肪组织中SOCS3 mRNA表达的影响与瘦素（leptin）、TNF-α、FIAF、PPARγ2等细胞因子的信号转导有关。",
+    "error_detail": "错误地添加了NF-κB通路的假设，原始输出未提及。",
+    "original_question": "冷应激对猪脂肪组织中SOCS3 mRNA表达的影响与哪些细胞因子有关？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪的特异性条带属于Neisseria dentiae和Neisseria shayeganii，而育肥猪的特异性条带主要是链球菌亚种（Streptococcus sp.）。",
+    "reference_case": "仔猪的特异性条带属于Neisseria dentiae和Neisseria shayeganii，而育肥猪的特异性条带主要是葡萄球菌亚种（Staphylococcus sp.）。",
+    "error_detail": "将葡萄球菌亚种错误地替换为链球菌亚种",
+    "original_question": "仔猪和育肥猪唾液中的特异性条带分别属于哪些细菌？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在PCR-DGGE图谱中，共性条带属于发酵乳杆菌（Lactobacillus fermentum）、大肠杆菌（Escherichia coli）、Mycobacterium arosiense、厚壁菌（Firmicutes）和猪链球菌（Streptococcus suis），以及乳酸菌（Lactobacillus sp.）。",
+    "reference_case": "在PCR-DGGE图谱中，共性条带属于发酵乳杆菌（Lactobacillus fermentum）、大肠杆菌（Escherichia coli）、Mycobacterium arosiense、厚壁菌（Firmicutes）和猪链球菌（Streptococcus suis）。",
+    "error_detail": "添加了不存在的乳酸菌（Lactobacillus sp.）",
+    "original_question": "在PCR-DGGE图谱中，哪些细菌是仔猪和育肥猪唾液中的共性条带？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "育肥猪唾液细菌种群的多样性指数、均匀度和丰富度分别为3:50、0:900和30:00，而仔猪分别为3:20、0:850和25:00。",
+    "reference_case": "育肥猪唾液细菌种群的多样性指数、均匀度和丰富度分别为3:34、0:877和28:40，而仔猪分别为3:17、0:834和23:20。",
+    "error_detail": "数值偏差",
+    "original_question": "育肥猪和仔猪唾液细菌种群的多样性指数、均匀度和丰富度分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "发酵罐中加入GM17培养基，120°C湿热灭菌30分钟，冷却至32°C后补加红霉素（10 mg/mL）及PAMJ399-PLF/MG1363菌种（体积比1:250:，发酵24小时后无菌条件下收集菌液。",
+    "reference_case": "发酵罐中加入GM17培养基，115°C湿热灭菌30分钟，冷却至32°C后补加红霉素（10 mg/mL）及PAMJ399-PLF/MG1363菌种（体积比1:250:，发酵24小时后无菌条件下收集菌液。",
+    "error_detail": "灭菌温度错误",
+    "original_question": "表达猪乳铁蛋白的重组乳酸乳球菌的发酵培养条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "发酵培养过程中使用了pAMJ399/MG1363、pAMJ399-PLF/MG1363菌种、兔抗猪乳铁蛋白血清、辣根过氧化物酶标记的山羊抗兔免疫球蛋白G、溶菌酶、青霉素、GM17培养基等。",
+    "reference_case": "发酵培养过程中使用了pAMJ399/MG1363、pAMJ399-PLF/MG1363菌种、兔抗猪乳铁蛋白血清、辣根过氧化物酶标记的山羊抗兔免疫球蛋白G、溶菌酶、红霉素、GM17培养基等。",
+    "error_detail": "将红霉素错误地替换为青霉素",
+    "original_question": "表达猪乳铁蛋白的重组乳酸乳球菌的发酵培养过程中使用了哪些主要试剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "表达猪乳铁蛋白的重组乳酸乳球菌的总表达量约为10:5 μg/mL。",
+    "reference_case": "表达猪乳铁蛋白的重组乳酸乳球菌的总表达量约为9:8 μg/mL。",
+    "error_detail": "数值偏差",
+    "original_question": "表达猪乳铁蛋白的重组乳酸乳球菌的总表达量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "与对照组和抗生素组相比，添加表达猪乳铁蛋白的重组乳酸乳球菌显著提高了血清中的白细胞介素-1含量（P<0:01:，并极显著提高了白细胞介素-2含量（P<0:001:。",
+    "reference_case": "与对照组和抗生素组相比，添加表达猪乳铁蛋白的重组乳酸乳球菌显著提高了血清中的白细胞介素-1含量（P<0:05:，并极显著提高了白细胞介素-2含量（P<0:01:。",
+    "error_detail": "P值错误",
+    "original_question": "表达猪乳铁蛋白的重组乳酸乳球菌对断奶仔猪血清中的白细胞介素-1和白细胞介素-2含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "表达猪乳铁蛋白的重组乳酸乳球菌显著提高了断奶仔猪的平均日增重（P<0:01:，并极显著降低了料重比（P<0:001:。",
+    "reference_case": "表达猪乳铁蛋白的重组乳酸乳球菌显著提高了断奶仔猪的平均日增重（P<0:05:，并极显著降低了料重比（P<0:01:。",
+    "error_detail": "P值错误",
+    "original_question": "表达猪乳铁蛋白的重组乳酸乳球菌对断奶仔猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "表达猪乳铁蛋白的重组乳酸乳球菌作为饲料添加剂可以增强断奶仔猪的免疫功能，显著提高血清中的免疫球蛋白M和肠黏液中的分泌型免疫球蛋白A含量，并显著提高血清中的白细胞介素-1和白细胞介素-2含量。",
+    "reference_case": "表达猪乳铁蛋白的重组乳酸乳球菌作为饲料添加剂可以增强断奶仔猪的免疫功能，显著提高血清中的免疫球蛋白G和肠黏液中的分泌型免疫球蛋白A含量，并显著提高血清中的白细胞介素-1和白细胞介素-2含量。",
+    "error_detail": "将免疫球蛋白G错误地替换为免疫球蛋白M",
+    "original_question": "表达猪乳铁蛋白的重组乳酸乳球菌作为饲料添加剂对断奶仔猪的免疫系统有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "添加表达猪乳铁蛋白的重组乳酸乳球菌显著提高了断奶仔猪的脾脏指数和胸腺指数（P<0:01:。",
+    "reference_case": "添加表达猪乳铁蛋白的重组乳酸乳球菌显著提高了断奶仔猪的脾脏指数和胸腺指数（P<0:05:。",
+    "error_detail": "P值错误",
+    "original_question": "表达猪乳铁蛋白的重组乳酸乳球菌对断奶仔猪的免疫器官指数有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "与对照组相比，添加表达猪乳铁蛋白的重组乳酸乳球菌显著提高了血清中的免疫球蛋白G和肠黏液中的分泌型免疫球蛋白A含量（P<0:01:，但与抗生素组相比未达到显著水平（P>0:05:。",
+    "reference_case": "与对照组相比，添加表达猪乳铁蛋白的重组乳酸乳球菌显著提高了血清中的免疫球蛋白G和肠黏液中的分泌型免疫球蛋白A含量（P<0:05:，但与抗生素组相比未达到显著水平（P>0:05:。",
+    "error_detail": "P值错误",
+    "original_question": "表达猪乳铁蛋白的重组乳酸乳球菌对断奶仔猪血清中的免疫球蛋白G和肠黏液中的分泌型免疫球蛋白A有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "添加表达猪乳铁蛋白的重组乳酸乳球菌显著降低了盲肠中大肠杆菌的数量（P<0:001:，并显著提高了乳酸乳球菌的数量（P<0:001:。",
+    "reference_case": "添加表达猪乳铁蛋白的重组乳酸乳球菌显著降低了盲肠中大肠杆菌的数量（P<0:01:，并显著提高了乳酸乳球菌的数量（P<0:01:。",
+    "error_detail": "P值错误",
+    "original_question": "在断奶仔猪的饲粮中添加表达猪乳铁蛋白的重组乳酸乳球菌对盲肠菌群数量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "添加表达猪乳铁蛋白的重组乳酸乳球菌显著提高了十二指肠和空肠的绒毛高度（P<0:01:，并极显著提高了绒毛高度/隐窝深度（P<0:001:。",
+    "reference_case": "添加表达猪乳铁蛋白的重组乳酸乳球菌显著提高了十二指肠和空肠的绒毛高度（P<0:05:，并极显著提高了绒毛高度/隐窝深度（P<0:01:。",
+    "error_detail": "P值错误",
+    "original_question": "表达猪乳铁蛋白的重组乳酸乳球菌对断奶仔猪的肠黏膜形态有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在断奶仔猪的饲粮中添加吉他霉素显著降低了料重比（P<0:01:。",
+    "reference_case": "在断奶仔猪的饲粮中添加吉他霉素显著降低了料重比（P<0:05:。",
+    "error_detail": "P值错误",
+    "original_question": "在断奶仔猪的饲粮中添加吉他霉素对料重比有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪源性 PR39 抗菌肽显著提高了断奶仔猪的平均日增重（P<0:01:。",
+    "reference_case": "猪源性 PR39 抗菌肽显著提高了断奶仔猪的平均日增重（P<0:05:。",
+    "error_detail": "P值错误",
+    "original_question": "猪源性 PR39 抗菌肽对断奶仔猪的平均日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在断奶仔猪的饲粮中添加天蚕素抗菌肽显著降低了腹泻率（P<0:01:。",
+    "reference_case": "在断奶仔猪的饲粮中添加天蚕素抗菌肽显著降低了腹泻率（P<0:05:。",
+    "error_detail": "P值错误",
+    "original_question": "在断奶仔猪的饲粮中添加天蚕素抗菌肽对腹泻率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪源性 PR39 抗菌肽显著提高了断奶仔猪肠道中双歧杆菌的数量（P<0:01:。",
+    "reference_case": "猪源性 PR39 抗菌肽显著提高了断奶仔猪肠道中双歧杆菌的数量（P<0:05:。",
+    "error_detail": "P值错误",
+    "original_question": "猪源性 PR39 抗菌肽对断奶仔猪肠道中双歧杆菌的数量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "天蚕素抗菌肽显著降低了断奶仔猪肠道中大肠杆菌的数量（P<0:01:。",
+    "reference_case": "天蚕素抗菌肽显著降低了断奶仔猪肠道中大肠杆菌的数量（P<0:05:。",
+    "error_detail": "P值错误",
+    "original_question": "天蚕素抗菌肽对断奶仔猪肠道中大肠杆菌的数量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪源性 PR39 抗菌肽显著提高了断奶仔猪血清免疫球蛋白 G（IgG）含量（P<0:01:。",
+    "reference_case": "猪源性 PR39 抗菌肽显著提高了断奶仔猪血清免疫球蛋白 G（IgG）含量（P<0:05:。",
+    "error_detail": "P值错误",
+    "original_question": "猪源性 PR39 抗菌肽对断奶仔猪血清免疫球蛋白 G（IgG）含量的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "研究通过体外培养猪肠上皮细胞（IPEC-1:，在不同浓度和时间段下分别加入血根碱、白屈菜红碱、原阿片碱和别隐品碱，使用CCK-8染色法检测细胞增殖情况。",
+    "reference_case": "研究通过体外培养猪肠上皮细胞（IPEC-1:，在不同浓度和时间段下分别加入血根碱、白屈菜红碱、原阿片碱和别隐品碱，使用MTT染色法检测细胞增殖情况。",
+    "error_detail": "将MTT染色法错误地替换为CCK-8染色法",
+    "original_question": "博落回生物碱对猪肠上皮细胞（IPEC-1:增殖的影响是如何研究的？",
+    "original_input": ""
+  }
+]

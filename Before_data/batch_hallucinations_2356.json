@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "主要存在于内脏器官、分泌物、排泄物和血液中，以及肌肉组织中。",
+    "reference_case": "主要存在于内脏器官、分泌物、排泄物和血液中。",
+    "error_detail": "添加了不存在的肌肉组织作为病毒存在部位。",
+    "original_question": "猪瘟病毒主要存在于患病猪和带毒猪的哪些部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟病毒是动物病毒中对外界环境抵抗力较弱的一种。",
+    "reference_case": "猪瘟病毒是动物病毒中对外界环境抵抗力较强的一种。",
+    "error_detail": "错误地将猪瘟病毒的抵抗力描述为较弱。",
+    "original_question": "猪瘟病毒对外界环境的抵抗力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "血液中的病毒在37℃存活14天，在50℃存活6天，在60℃加热32~48小时或72~76℃加热2小时才可杀死。",
+    "reference_case": "血液中的病毒在37℃存活7天，在50℃存活3天，在60℃加热16~24小时或72~76℃加热1小时才可杀死。",
+    "error_detail": "错误地延长了病毒在不同温度下的存活时间。",
+    "original_question": "猪瘟病毒在不同温度下存活的时间是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪体内的早期抗体在清除PRRSV方面非常有效，能够迅速清除病毒。",
+    "reference_case": "猪体内的早期抗体在清除PRRSV方面并不是特别有效，已证实抗体可增强病毒感染，亚中和滴度的IgG有助于发病。",
+    "error_detail": "错误地描述了早期抗体在清除PRRSV方面的效果。",
+    "original_question": "猪体内早期的抗体在清除PRRSV方面的作用如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "仔猪吸吮免疫母猪的乳汁可免受感染，但需要连续吸吮7天以上。",
+    "reference_case": "仔猪吸吮免疫母猪的乳汁可免受感染。",
+    "error_detail": "添加了不存在的连续吸吮7天以上的条件。",
+    "original_question": "仔猪如何通过母猪获得免疫力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "PRRSV可以侵害任何年龄的猪，对其他家畜和动物也常见发病报道。",
+    "reference_case": "PRRSV可以侵害任何年龄的猪，对其他家畜和动物未见发病报道。",
+    "error_detail": "错误地描述了PRRSV对其他家畜和动物的影响。",
+    "original_question": "PRRSV对不同年龄段的猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪怀孕后期受病毒感染后，流产死胎数大量增加，可达80%以上。",
+    "reference_case": "母猪怀孕后期受病毒感染后，流产死胎数大量增加，可达50%以上。",
+    "error_detail": "错误地提高了流产死胎的比例。",
+    "original_question": "PRRSV感染母猪后会有什么症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病毒分离培养与鉴定方法包括用猪的肝、肾、死胎儿的脑及腹水、胎儿血清、母猪血液、鼻拭子和粪便等组织和病料分离病毒。",
+    "reference_case": "病毒分离培养与鉴定方法包括用猪的肺、脾、死胎儿的肠及腹水、胎儿血清、母猪血液、鼻拭子和粪便等组织和病料分离病毒。",
+    "error_detail": "错误地描述了用于病毒分离的组织和病料。",
+    "original_question": "PRRSV的病毒分离培养与鉴定方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "对PRRSV目前已有特效药物进行治疗。",
+    "reference_case": "对PRRSV目前尚无有效药物进行治疗。",
+    "error_detail": "错误地声称已有特效药物治疗PRRSV。",
+    "original_question": "PRRSV的免疫与治疗方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "禽流感病毒（AIV）能凝集人、马、驴、猪、兔、豚鼠和小白鼠的红细胞，而新城疫病毒（NDV）能凝集人、马、驴、猪、兔、豚鼠和鸭的红细胞。",
+    "reference_case": "禽流感病毒（AIV）能凝集人、马、驴、猪、兔、豚鼠和小白鼠的红细胞，而新城疫病毒（NDV）能凝集人、马、驴、猪、兔、豚鼠和鸡的红细胞。",
+    "error_detail": "错误地将新城疫病毒能凝集的红细胞种类从鸡改为鸭。",
+    "original_question": "禽流感病毒与新城疫病毒如何通过凝集红细胞的种类进行初步鉴别？",
+    "original_input": ""
+  }
+]

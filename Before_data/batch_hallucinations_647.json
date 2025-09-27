@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该疫苗二免后对猪的免疫保护期至少可达一年。",
+    "reference_case": "该疫苗二免后对猪的免疫保护期至少可达半年。",
+    "error_detail": "免疫保护期的时间被错误地延长了。",
+    "original_question": "猪链球菌病氢氧化铝二联灭活疫苗的免疫保护期至少可达多长时间？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "传统仔猪水肿病疫苗的主要抗原基础是致水肿病大肠杆菌菌株的K抗原。",
+    "reference_case": "传统仔猪水肿病疫苗的主要抗原基础是致水肿病大肠杆菌菌株的O抗原。",
+    "error_detail": "抗原类型被错误地标识为K抗原而非O抗原。",
+    "original_question": "传统仔猪水肿病疫苗的主要抗原基础是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在改进仔猪水肿病疫苗时，除了O抗原外，还考虑了水肿毒素SLT-lla抗原和菌毛F18抗原。",
+    "reference_case": "在改进仔猪水肿病疫苗时，除了O抗原外，还考虑了水肿毒素SLT-lle抗原和菌毛F18抗原。",
+    "error_detail": "毒素类型被错误地标识为SLT-lla而非SLT-lle。",
+    "original_question": "在改进仔猪水肿病疫苗时，除了O抗原外，还考虑了哪些抗原？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪传染性胃肠炎病毒（TGEV）和猪呼吸道冠状病毒（PRCV）在基因组上的主要区别在于PRCV在S基因的5'端约300bp处存在一约0.8 kb的碱基缺失。",
+    "reference_case": "猪传染性胃肠炎病毒（TGEV）和猪呼吸道冠状病毒（PRCV）在基因组上的主要区别在于PRCV在S基因的5'端约200bp处存在一约0.6 kb的碱基缺失。",
+    "error_detail": "碱基缺失的位置和长度被错误地描述。",
+    "original_question": "猪传染性胃肠炎病毒（TGEV）和猪呼吸道冠状病毒（PRCV）在基因组上的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "PRRSV在猪群中持续存在的主要表现是病毒在猪体内持续存在数周。",
+    "reference_case": "PRRSV在猪群中持续存在的主要表现是病毒在猪体内持续存在数月甚至更长时间，并且可以在猪群中长期保持其感染性。",
+    "error_detail": "病毒持续存在的时间被错误地缩短了。",
+    "original_question": "PRRSV在猪群中持续存在的主要表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪繁殖与呼吸综合征（PRRS）是由猪繁殖与呼吸综合征细菌（PRRSB）引起的。",
+    "reference_case": "猪繁殖与呼吸综合征（PRRS）是由猪繁殖与呼吸综合征病毒（PRRSV）引起的。",
+    "error_detail": "病原体类型被错误地标识为细菌而非病毒。",
+    "original_question": "猪繁殖与呼吸综合征（PRRS）是由什么病毒引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "PRRSV的抗原变异能力使得根据某一PRRSV分离株制备的疫苗无法有效保护猪群对抗具有抗原差异的PRRSV野毒株的感染，因此未来疫苗设计应考虑抗原的变异性，并且应该使用多种病毒株进行疫苗制备。",
+    "reference_case": "PRRSV的抗原变异能力使得根据某一PRRSV分离株制备的疫苗无法有效保护猪群对抗具有抗原差异的PRRSV野毒株的感染，因此未来疫苗设计应考虑抗原的变异性。",
+    "error_detail": "添加了未经证实的假设，即应该使用多种病毒株进行疫苗制备。",
+    "original_question": "PRRSV的抗原变异能力对其疫苗设计有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "PRRS弱毒疫苗的使用可能导致猪病毒血症，接种猪具有散毒的危险，且弱毒疫苗毒株可能发生返祖现象，变为强毒株，造成PRRS的再度暴发，因此不建议使用。",
+    "reference_case": "PRRS弱毒疫苗的使用可能导致猪病毒血症，接种猪具有散毒的危险，且弱毒疫苗毒株可能发生返祖现象，变为强毒株，造成PRRS的再度暴发。",
+    "error_detail": "添加了主观建议，即不建议使用，这与原始指令不符。",
+    "original_question": "PRRS弱毒疫苗的使用可能带来哪些隐患？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PRRSV的持续感染机制中，宿主因素的具体表现包括PRRSV在猪群中长期存在并保持感染性，康复猪体内仍有病毒血症存在，且抗体水平一致。",
+    "reference_case": "PRRSV的持续感染机制中，宿主因素的具体表现包括PRRSV在猪群中长期存在并保持感染性，康复猪体内仍有病毒血症存在，且抗体水平参差不齐，导致病毒在体内持续存在。",
+    "error_detail": "抗体水平的描述被错误地改为一致，而非参差不齐。",
+    "original_question": "PRRSV的持续感染机制中，宿主因素有哪些具体表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PRRSV的毒力差异主要表现在对猪致病性上的差异，欧洲型LV株和低毒力的美国PRRSV分离株引起严重的临床症状，而高致病力的美国分离株能引起较温和的呼吸症状、发热、厌食、嗜睡等。",
+    "reference_case": "PRRSV的毒力差异主要表现在对猪致病性上的差异，欧洲型LV株和低毒力的美国PRRSV分离株引起较温和的临床症状，而高致病力的美国分离株能引起严重的呼吸症状、发热、厌食、嗜睡等。",
+    "error_detail": "毒力差异的描述被错误地反转。",
+    "original_question": "PRRSV的毒力差异主要表现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "人为因素如动物的运输和人工授精可能导致PRRSV的传播不局限于同一地区，定期引进易感猪和猪舍饲养密度过高等也会加剧PRRSV的流行，因此应该限制动物的运输。",
+    "reference_case": "人为因素如动物的运输和人工授精可能导致PRRSV的传播不局限于同一地区，定期引进易感猪和猪舍饲养密度过高等也会加剧PRRSV的流行。",
+    "error_detail": "添加了未经证实的假设，即应该限制动物的运输。",
+    "original_question": "人为因素如何影响PRRSV的传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "标记疫苗通过在致弱病毒全长cDNA中插入非选择性标记基因，免疫动物后可以区分抗体来自于自然感染还是标记疫苗免疫，从而断定动物发病情况。",
+    "reference_case": "标记疫苗通过在致弱病毒全长cDNA中插入选择性标记基因，免疫动物后可以区分抗体来自于自然感染还是标记疫苗免疫，从而断定动物发病情况。",
+    "error_detail": "标记基因的类型被错误地描述为非选择性。",
+    "original_question": "标记疫苗在猪瘟病毒（CSFV）研究中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟病毒（CSFV）的基因组长度约为15 kb。",
+    "reference_case": "猪瘟病毒（CSFV）的基因组长度约为12.5 kb。",
+    "error_detail": "基因组长度被错误地延长了。",
+    "original_question": "猪瘟病毒（CSFV）的基因组长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟病毒（CSFV）的基因组包含4000个氨基酸残基。",
+    "reference_case": "猪瘟病毒（CSFV）的基因组包含3898个氨基酸残基。",
+    "error_detail": "氨基酸残基的数量被错误地增加了。",
+    "original_question": "猪瘟病毒（CSFV）的基因组包含多少个氨基酸残基？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "基因工程亚单位疫苗利用原核细胞高效表达系统表达猪瘟病毒的免疫原蛋白，如E2基因cDNA重组入核型多角体病毒（AcNPV）并在sf21细胞中表达。",
+    "reference_case": "基因工程亚单位疫苗利用真核细胞高效表达系统表达猪瘟病毒的免疫原蛋白，如E2基因cDNA重组入核型多角体病毒（AcNPV）并在sf21细胞中表达。",
+    "error_detail": "表达系统的类型被错误地描述为原核细胞。",
+    "original_question": "基因工程亚单位疫苗是如何制备的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "核酸探针技术通过制备病毒DNA基因组的探针，利用Southern-Blotting技术在不同病毒基因组cDNA上产生特异的条带，用于区别CSFV和其他病毒如BVDV。",
+    "reference_case": "核酸探针技术通过制备病毒RNA基因组的探针，利用Southern-Blotting技术在不同病毒基因组cDNA上产生特异的条带，用于区别CSFV和其他病毒如BVDV。",
+    "error_detail": "基因组类型被错误地描述为DNA而非RNA。",
+    "original_question": "核酸探针技术在猪瘟病毒（CSFV）诊断中的应用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟病毒（CSFV）的结构蛋白包括C、E0、E1和E3。",
+    "reference_case": "猪瘟病毒（CSFV）的结构蛋白包括C、E0、E1和E2。",
+    "error_detail": "结构蛋白的类型被错误地描述为E3而非E2。",
+    "original_question": "猪瘟病毒（CSFV）的结构蛋白有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "RT-PCR技术具有检出率高、特异性强，极微量的病料即可用于诊断，且灵敏性可达10^6 TCID50。",
+    "reference_case": "RT-PCR技术具有检出率高、特异性强，极微量的病料即可用于诊断，且灵敏性可达10^4 TCID50。",
+    "error_detail": "灵敏性的数值被错误地提高了。",
+    "original_question": "RT-PCR技术在猪瘟病毒（CSFV）诊断中的优势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "全长感染性cDNA技术通过构建病毒全长cDNA克隆，体外转录出病毒RNA并转染到敏感细胞中，用于研究病毒的复制机理、毒力及其决定因素、致病机理等，并且可以用于疫苗的快速开发。",
+    "reference_case": "全长感染性cDNA技术通过构建病毒全长cDNA克隆，体外转录出病毒RNA并转染到敏感细胞中，用于研究病毒的复制机理、毒力及其决定因素、致病机理等。",
+    "error_detail": "添加了未经证实的假设，即可以用于疫苗的快速开发。",
+    "original_question": "全长感染性cDNA技术在猪瘟病毒（CSFV）研究中的应用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟病毒（CSFV）的E0蛋白具有DNA酶活性，可降解病毒和细胞的DNA，并且与CSFV对宿主细胞的嗜性以及致病力有密切关系。",
+    "reference_case": "猪瘟病毒（CSFV）的E0蛋白具有RNA酶活性，可降解病毒和细胞的RNA，并且与CSFV对宿主细胞的嗜性以及致病力有密切关系。",
+    "error_detail": "酶活性的类型被错误地描述为DNA酶而非RNA酶。",
+    "original_question": "猪瘟病毒（CSFV）的E0蛋白具有哪些功能？",
+    "original_input": ""
+  }
+]

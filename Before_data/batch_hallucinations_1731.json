@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "贫血苍白；皮下组织浆膜、黏膜黄染；膀胱积尿，呈浓茶样；肝脏肿大。",
+    "reference_case": "贫血苍白；皮下组织浆膜、黏膜黄染；膀胱积尿，呈浓茶样。",
+    "error_detail": "添加了不相关的症状'肝脏肿大'，属于概念混淆。",
+    "original_question": "猪钩端螺旋体病的剖检变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "全年均可发病，尤其在干燥地区。",
+    "reference_case": "夏秋季多雨潮湿、鼠较多的地区。",
+    "error_detail": "错误地描述了发病的地域和季节特点，属于空间错位。",
+    "original_question": "猪钩端螺旋体病的发病特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "所有年龄的猪均易感。",
+    "reference_case": "哺乳仔猪和母猪。",
+    "error_detail": "扩大了易感年龄范围，属于数据型幻觉。",
+    "original_question": "猪附红细胞体病的易发年龄是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "发热、贫血和黄疸，尿液呈棕红色，伴有咳嗽。",
+    "reference_case": "发热、贫血和黄疸，尿液呈棕红色。",
+    "error_detail": "添加了不相关的症状'伴有咳嗽'，属于概念混淆。",
+    "original_question": "猪附红细胞体病的主要临床特征有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "全身皮肤黄染，脂肪黄染，血液稀薄如水。心外膜和心冠脂肪出血轻度黄染，有针尖大出血点，心肌苍白松软，肝脏硬化。",
+    "reference_case": "全身皮肤黄染，脂肪黄染，血液稀薄如水。心外膜和心冠脂肪出血轻度黄染，有针尖大出血点，心肌苍白松软。",
+    "error_detail": "添加了过时的病理变化'肝脏硬化'，属于时效性幻觉。",
+    "original_question": "猪附红细胞体病的剖检变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "全年均可发病，尤其在寒冷地区。",
+    "reference_case": "夏秋季多雨潮湿、吸血昆虫繁殖高峰期。",
+    "error_detail": "错误地描述了发病的地域和季节特点，属于空间错位。",
+    "original_question": "猪附红细胞体病的发病特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "病原学诊断包括病毒的分离与鉴定及分子生物学诊断；血清学诊断包括免疫过氧化物酶单层试验、间接免疫荧光抗体试验、间接 ELISA 和血清中和试验。还需要进行病理学检查。",
+    "reference_case": "病原学诊断包括病毒的分离与鉴定及分子生物学诊断；血清学诊断包括免疫过氧化物酶单层试验、间接免疫荧光抗体试验、间接 ELISA 和血清中和试验。",
+    "error_detail": "添加了不必要的诊断步骤'病理学检查'，属于指令偏离。",
+    "original_question": "诊断猪繁殖与呼吸障碍综合征需进行哪些步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "采取母猪血清，也可用 70 日龄以上感染胎儿的心血或组织浸出液；采集流产或死产胎儿的新鲜脏器，如脑、肾、肝、肺、睾丸、胎盘及肠系膜淋巴结；病毒分离与鉴定，可用间接荧光抗体试验或电子显微镜检查病毒抗原。假设所有胎儿都感染了病毒。",
+    "reference_case": "采取母猪血清，也可用 70 日龄以上感染胎儿的心血或组织浸出液；采集流产或死产胎儿的新鲜脏器，如脑、肾、肝、肺、睾丸、胎盘及肠系膜淋巴结；病毒分离与鉴定，可用间接荧光抗体试验或电子显微镜检查病毒抗原。",
+    "error_detail": "添加了不合理的假设'假设所有胎儿都感染了病毒'，属于假设滥用。",
+    "original_question": "如何进行猪细小病毒病的病原学诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "血凝抑制试验、血清中和试验、酶联免疫吸附试验、琼脂扩散试验和补体结合试验；其中琼脂扩散试验操作简单，反应快速。",
+    "reference_case": "血凝抑制试验、血清中和试验、酶联免疫吸附试验、琼脂扩散试验和补体结合试验；其中血凝抑制试验操作简单，反应快速。",
+    "error_detail": "错误地描述了哪种试验操作简单，属于数据型幻觉。",
+    "original_question": "血清学诊断猪细小病毒病常用哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "加强饲养管理，严格实行全进全出的饲养管理方式；对引进猪严格检疫和隔离饲养；建立健全生物安全体系，定期消毒；做好猪群饲养管理，提高抵抗力；控制细菌性继发感染；定期监测；封锁发病猪场，无害化处理流产胎衣等；免疫接种。其中最重要的是免疫接种。",
+    "reference_case": "加强饲养管理，严格实行全进全出的饲养管理方式；对引进猪严格检疫和隔离饲养；建立健全生物安全体系，定期消毒；做好猪群饲养管理，提高抵抗力；控制细菌性继发感染；定期监测；封锁发病猪场，无害化处理流产胎衣等；免疫接种。",
+    "error_detail": "错误地指定了最重要的防治措施，属于优先级错乱。",
+    "original_question": "猪繁殖与呼吸障碍综合征的防治措施有哪些？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪背最长肌维生素D受体基因（VDR）的Fok1位点多态性有四种基因型：野生型f型、突变型F型、杂合型Ff型和新型X型。",
+    "reference_case": "猪背最长肌维生素D受体基因（VDR）的Fok1位点多态性有三种基因型：野生型f型、突变型F型和杂合型Ff型。",
+    "error_detail": "添加了不存在的基因型",
+    "original_question": "猪背最长肌维生素D受体基因（VDR）的Fok1位点多态性有哪几种基因型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "突变型F型的剪切力平均为3:00 kg，显著高于野生型f型的2:08 kg，差异达到极显著水平（P<0:01:。",
+    "reference_case": "突变型F型的剪切力平均为2:69 kg，显著高于野生型f型的2:08 kg，差异达到极显著水平（P<0:01:。",
+    "error_detail": "夸大了突变型F型的剪切力数值",
+    "original_question": "猪背最长肌VDR基因Fok1位点的突变型F型与野生型f型在剪切力上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "杂合型Ff型在申农1号和杜山杂交组合中表达较高，分别占60:00%和57:62%。",
+    "reference_case": "杂合型Ff型在申农1号和杜山杂交组合中表达较高，分别占50:00%和47:62%。",
+    "error_detail": "夸大了表达比例",
+    "original_question": "猪背最长肌VDR基因Fok1位点的杂合型Ff型在哪些猪种中表达较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪背最长肌VDR基因Fok1位点的多态性对猪肉嫩度的影响主要受基因型影响，而猪种和性别对猪肉嫩度的影响不明显，除非在极端环境下。",
+    "reference_case": "猪背最长肌VDR基因Fok1位点的多态性对猪肉嫩度的影响主要受基因型影响，而猪种和性别对猪肉嫩度的影响不明显。",
+    "error_detail": "添加了不存在的极端环境条件",
+    "original_question": "猪背最长肌VDR基因Fok1位点的多态性对猪肉嫩度的影响是否受到猪种和性别的影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "是的，猪背最长肌VDR基因Fok1位点的多态性对猪肉嫩度的影响显著（P<0:01:，且f型和F型之间的差异达到极显著水平（P<0:001:。",
+    "reference_case": "是的，猪背最长肌VDR基因Fok1位点的多态性对猪肉嫩度的影响显著（P<0:05:，且f型和F型之间的差异达到极显著水平（P<0:01:。",
+    "error_detail": "夸大了统计显著性",
+    "original_question": "猪背最长肌VDR基因Fok1位点的多态性对猪肉嫩度的影响是否显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "突变型F型在长白猪和大约克猪中表达较高，分别达到97:50%和85:00%。",
+    "reference_case": "突变型F型在长白猪和大约克猪中表达较高，分别达到87:50%和75:00%。",
+    "error_detail": "夸大了表达比例",
+    "original_question": "猪背最长肌VDR基因Fok1位点的突变型F型在哪些猪种中表达较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "山猪背最长肌的剪切力最小，为1:07 kg，显著低于其他猪种，如长白猪的2:51 kg和大约克猪的2:32 kg。",
+    "reference_case": "山猪背最长肌的剪切力最小，为2:07 kg，显著低于其他猪种，如长白猪的2:51 kg和大约克猪的2:32 kg。",
+    "error_detail": "低估了山猪的剪切力数值",
+    "original_question": "山猪背最长肌的剪切力与其他猪种相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "野生型f型在山猪和杂交山猪中表达较高，山猪中f型占22:50%，杂交山猪中f型占43:33%。",
+    "reference_case": "野生型f型在山猪和杂交山猪中表达较高，山猪中f型占12:50%，杂交山猪中f型占33:33%。",
+    "error_detail": "夸大了表达比例",
+    "original_question": "猪背最长肌VDR基因Fok1位点的野生型f型在哪些猪种中表达较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪精浆作为牛精液稀释液可以显著抑制牛PMNs对精子的趋化性和吞噬性，从而降低人工授精后子宫的炎症反应，提高人工授精的受胎率，尤其是在高温环境下。",
+    "reference_case": "猪精浆作为牛精液稀释液可以显著抑制牛PMNs对精子的趋化性和吞噬性，从而降低人工授精后子宫的炎症反应，提高人工授精的受胎率。",
+    "error_detail": "添加了不存在的环境条件",
+    "original_question": "猪精浆作为牛精液稀释液的潜在优势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪精浆是通过手握法从4头大白公猪采集富含精子部分的精液，经过离心分离后，将上清液（精浆）在10000×g条件下离心，最终分装并在-20°C冰箱中冷冻保存备用。",
+    "reference_case": "猪精浆是通过手握法从4头大白公猪采集富含精子部分的精液，经过离心分离后，将上清液（精浆）在20000×g条件下离心，最终分装并在-20°C冰箱中冷冻保存备用。",
+    "error_detail": "使用了过时的离心条件",
+    "original_question": "实验中使用的猪精浆是如何制备的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "当猪精浆的浓度达到10%及以上时，能够显著抑制牛PMNs对精子的趋化性和吞噬性（P<0:01:。这表明猪精浆中的某些成分具有免疫抑制作用，能够减少PMNs向子宫内的迁移并保护精子免受吞噬。",
+    "reference_case": "当猪精浆的浓度达到5%及以上时，能够显著抑制牛PMNs对精子的趋化性和吞噬性（P<0:05:。这表明猪精浆中的某些成分具有免疫抑制作用，能够减少PMNs向子宫内的迁移并保护精子免受吞噬。",
+    "error_detail": "夸大了所需猪精浆的浓度",
+    "original_question": "猪精浆对牛嗜中性粒细胞（PMNs）的趋化性和吞噬性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "新风系统显著降低猪舍内的需氧菌浓度。试验组在离地高度0:3米和1:5米处的需氧菌浓度（中位数）最高降幅分别达34:81%（P<0:01:和37:85%（P<0:01:。",
+    "reference_case": "新风系统显著降低猪舍内的需氧菌浓度。试验组在离地高度0:3米和1:5米处的需氧菌浓度（中位数）最高降幅分别达24:81%（P<0:01:和27:85%（P<0:01:。",
+    "error_detail": "夸大了降幅比例",
+    "original_question": "新风系统对猪舍内需氧菌浓度的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "新风系统对仔猪生产性能有积极影响。试验组仔猪的日增重呈升高趋势，死淘率呈降低趋势，尽管这些变化在统计学上不显著（P>0:05:，但在特定饲料条件下可能显著。",
+    "reference_case": "新风系统对仔猪生产性能有积极影响。试验组仔猪的日增重呈升高趋势，死淘率呈降低趋势，尽管这些变化在统计学上不显著（P>0:05:。",
+    "error_detail": "添加了不存在的饲料条件",
+    "original_question": "新风系统对仔猪生产性能的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "新风系统对仔猪血液生化指标有显著影响。与对照组相比，试验组仔猪血清谷草转氨酶（AST）活性显著下降（P<0:01:，而对照组仔猪血清AST活性极显著升高（P<0:001:。",
+    "reference_case": "新风系统对仔猪血液生化指标有显著影响。与对照组相比，试验组仔猪血清谷草转氨酶（AST）活性显著下降（P<0:05:，而对照组仔猪血清AST活性极显著升高（P<0:01:。",
+    "error_detail": "夸大了统计显著性",
+    "original_question": "新风系统对仔猪血液生化指标的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "新风系统通过热交换器回收污风中的能量，减少舍内温度波动，节省能源消耗。在室外温度0°C左右时，舍内仍可保持在20°C以上，比全密闭猪舍仅低1~2°C。",
+    "reference_case": "新风系统通过热交换器回收污风中的能量，减少舍内温度波动，节省能源消耗。在室外温度0°C左右时，舍内仍可保持在15°C以上，比全密闭猪舍仅低1~2°C。",
+    "error_detail": "夸大了舍内保持的温度",
+    "original_question": "新风系统对猪舍内温度的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "新风系统在猪舍中的应用效果显著。试验组猪舍内的氨气、二氧化碳、粉尘和需氧菌浓度均大幅下降，空气质量显著改善，且仔猪的生产性能和血液生化、免疫指标也有所提升，尤其是在使用特定过滤器时。",
+    "reference_case": "新风系统在猪舍中的应用效果显著。试验组猪舍内的氨气、二氧化碳、粉尘和需氧菌浓度均大幅下降，空气质量显著改善，且仔猪的生产性能和血液生化、免疫指标也有所提升。",
+    "error_detail": "添加了不存在的过滤器条件",
+    "original_question": "新风系统在猪舍中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "新风系统显著降低猪舍内的粉尘浓度。试验组在离地高度0:3米和1:5米处的PM1、PM2:5、PM4、PM10、PM15粉尘浓度最高降幅分别达57:38%、57:85%、60:84%、71:87%、69:58%（P<0:01:。",
+    "reference_case": "新风系统显著降低猪舍内的粉尘浓度。试验组在离地高度0:3米和1:5米处的PM1、PM2:5、PM4、PM10、PM15粉尘浓度最高降幅分别达47:38%、47:85%、50:84%、61:87%、59:58%（P<0:01:。",
+    "error_detail": "夸大了降幅比例",
+    "original_question": "新风系统对猪舍内粉尘浓度的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "新风系统通过持续送入新风和排出污风，结合热交换器和过滤净化系统，有效降低猪舍内的氨气、二氧化碳、粉尘和需氧菌浓度，从而显著改善空气质量，尤其是在使用高效过滤器时。",
+    "reference_case": "新风系统通过持续送入新风和排出污风，结合热交换器和过滤净化系统，有效降低猪舍内的氨气、二氧化碳、粉尘和需氧菌浓度，从而显著改善空气质量。",
+    "error_detail": "添加了不存在的过滤器条件",
+    "original_question": "新风系统如何改善猪舍内的空气质量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "新风系统在寒冷季节对密闭猪舍空气质量有显著改善作用。研究表明，运行新风系统后，猪舍内0:3米和1:5米处的氨气、二氧化碳、粉尘（PM1、PM2:5、PM4、PM10、PM15:和需氧菌浓度均极显著下降（P<0:001:。",
+    "reference_case": "新风系统在寒冷季节对密闭猪舍空气质量有显著改善作用。研究表明，运行新风系统后，猪舍内0:3米和1:5米处的氨气、二氧化碳、粉尘（PM1、PM2:5、PM4、PM10、PM15:和需氧菌浓度均极显著下降（P<0:01:。",
+    "error_detail": "夸大了统计显著性",
+    "original_question": "新风系统在寒冷季节对密闭猪舍空气质量的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "副猪嗜血杆菌细胞致死膨胀毒素（CDT）由CdtA、CdtB、CdtC和CdtD四个亚基组成。",
+    "reference_case": "副猪嗜血杆菌细胞致死膨胀毒素（CDT）由CdtA、CdtB和CdtC三个亚基组成。",
+    "error_detail": "添加了不存在的亚基",
+    "original_question": "副猪嗜血杆菌细胞致死膨胀毒素（CDT）由哪些亚基组成？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重组 IL-2 的活性通过 MTT 法检测，使用重组腺病毒 rAd5VP1-2A-poIL-2 感染 PK-15 细胞，收集细胞上清，检测其对猪外周血淋巴细胞增殖的影响，活性为50%。",
+    "reference_case": "重组 IL-2 的活性通过 MTT 法检测，使用重组腺病毒 rAd5VP1-2A-poIL-2 感染 PK-15 细胞，收集细胞上清，检测其对猪外周血淋巴细胞增殖的影响。",
+    "error_detail": "添加了不存在的活性百分比数据",
+    "original_question": "重组 IL-2 的活性是如何检测的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "重组腺病毒 rAd5VP1-2A-poIL-2 是通过将 FMDV VP1-2A 基因和猪 IL-2 基因串联并克隆到腺病毒穿梭载体 pAdenoVator-CMV5-IRES-GFP 中，然后在受体菌中与腺病毒骨架载体 pAdenoVator ΔE1/E3 同源重组构建的，使用了PCR技术。",
+    "reference_case": "重组腺病毒 rAd5VP1-2A-poIL-2 是通过将 FMDV VP1-2A 基因和猪 IL-2 基因串联并克隆到腺病毒穿梭载体 pAdenoVator-CMV5-IRES-GFP 中，然后在受体菌中与腺病毒骨架载体 pAdenoVator ΔE1/E3 同源重组构建的。",
+    "error_detail": "错误地添加了PCR技术的使用",
+    "original_question": "重组腺病毒 rAd5VP1-2A-poIL-2 是如何构建的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "非洲猪瘟病毒的基因组全长为150 kb到170 kb。",
+    "reference_case": "非洲猪瘟病毒的基因组全长为170 kb到190 kb。",
+    "error_detail": "错误地缩小了基因组长度的范围",
+    "original_question": "非洲猪瘟病毒（ASFV）的基因组长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "非洲猪瘟病毒p54基因的转录发生在病毒感染的早期。",
+    "reference_case": "非洲猪瘟病毒p54基因的转录发生在病毒感染的晚期。",
+    "error_detail": "错误地改变了转录发生的时间阶段",
+    "original_question": "非洲猪瘟病毒p54基因的转录发生在病毒感染的哪个阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "非洲猪瘟病毒p54蛋白的分子质量约为30 ku。",
+    "reference_case": "非洲猪瘟病毒p54蛋白的分子质量约为25 ku。",
+    "error_detail": "错误地增加了分子质量",
+    "original_question": "非洲猪瘟病毒p54蛋白的分子质量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在非洲猪瘟病毒p54基因的原核表达实验中，使用了pET-28a（+）表达载体。",
+    "reference_case": "在非洲猪瘟病毒p54基因的原核表达实验中，使用了pET-52b（+）3C/LIC表达载体。",
+    "error_detail": "错误地改变了表达载体的类型",
+    "original_question": "在非洲猪瘟病毒p54基因的原核表达实验中，使用了哪种表达载体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "非洲猪瘟病毒p54蛋白在病毒生命周期中主要参与病毒DNA的复制。",
+    "reference_case": "非洲猪瘟病毒p54蛋白在病毒生命周期中主要参与病毒蛋白经内质网膜转化成病毒包膜前体的过程。",
+    "error_detail": "错误地描述了p54蛋白的功能",
+    "original_question": "非洲猪瘟病毒p54蛋白在病毒生命周期中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "非洲猪瘟病毒p54蛋白的间接ELISA检测方法具有100%的特异性。",
+    "reference_case": "非洲猪瘟病毒p54蛋白的间接ELISA检测方法具有较好的特异性，只有非洲猪瘟阳性血清样品可判为阳性，其余常见疾病的阳性血清均为阴性。",
+    "error_detail": "错误地夸大了特异性",
+    "original_question": "非洲猪瘟病毒p54蛋白的间接ELISA检测方法的特异性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "非洲猪瘟病毒p54蛋白的间接ELISA检测方法的灵敏度与西班牙INGEZIM公司的竞争ELISA试剂盒相当。",
+    "reference_case": "非洲猪瘟病毒p54蛋白的间接ELISA检测方法的灵敏度稍差于西班牙INGEZIM公司的竞争ELISA试剂盒，后者可以检测到1:10240稀释的阳性血清样品。",
+    "error_detail": "错误地改变了灵敏度的比较结果",
+    "original_question": "非洲猪瘟病毒p54蛋白的间接ELISA检测方法与西班牙INGEZIM公司的竞争ELISA试剂盒的检测灵敏度相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在建立检测非洲猪瘟p54抗体的间接ELISA方法中，最佳的抗原包被浓度是5 µg/mL。",
+    "reference_case": "在建立检测非洲猪瘟p54抗体的间接ELISA方法中，最佳的抗原包被浓度是2:5 µg/mL。",
+    "error_detail": "错误地改变了抗原包被浓度",
+    "original_question": "在建立检测非洲猪瘟p54抗体的间接ELISA方法中，最佳的抗原包被浓度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在非洲猪瘟病毒p54基因的原核表达实验中，IPTG的最佳诱导浓度是0.5 mmol/L，最佳诱导时间是1小时。",
+    "reference_case": "在非洲猪瘟病毒p54基因的原核表达实验中，IPTG的最佳诱导浓度是1 mmol/L，最佳诱导时间是2小时。",
+    "error_detail": "错误地改变了诱导浓度和时间",
+    "original_question": "在非洲猪瘟病毒p54基因的原核表达实验中，IPTG的最佳诱导浓度和诱导时间是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "非洲猪瘟病毒p54蛋白的间接ELISA检测方法可以检测到1:640稀释的阳性血清样品。",
+    "reference_case": "非洲猪瘟病毒p54蛋白的间接ELISA检测方法可以检测到1:1280稀释的阳性血清样品。",
+    "error_detail": "错误地降低了检测灵敏度",
+    "original_question": "非洲猪瘟病毒p54蛋白的间接ELISA检测方法的灵敏度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV-2:的基因组全长1800 bp。",
+    "reference_case": "猪圆环病毒2型（PCV-2:的基因组全长1767 bp或1768 bp。",
+    "error_detail": "错误地改变了基因组长度",
+    "original_question": "猪圆环病毒2型（PCV-2:的基因组长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "ELISA检测小鼠抗体水平的时间点为首免后14、21、35、42、56 d。",
+    "reference_case": "ELISA检测小鼠抗体水平的时间点为首免后7、14、28、35、49 d。",
+    "error_detail": "错误地改变了检测时间点",
+    "original_question": "在猪圆环病毒Cap基因重组质粒的构建及对小鼠免疫效果研究中，ELISA检测小鼠抗体水平的时间点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "小鼠的抗体水平是通过直接ELISA法测定血清中抗体水平来检测的。",
+    "reference_case": "小鼠的抗体水平是通过间接ELISA法测定血清中抗体水平来检测的。",
+    "error_detail": "错误地改变了检测方法",
+    "original_question": "猪圆环病毒Cap基因重组质粒的构建及对小鼠免疫效果研究中，小鼠的抗体水平是如何检测的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PCR扩增条件为：95°C预变性10 min；95°C 1 min，56°C 1 min，72°C 2 min，30个循环；72°C 15 min。",
+    "reference_case": "PCR扩增条件为：95°C预变性5 min；95°C 30 s，56°C 30 s，72°C 1 min 30 s，35个循环；72°C 10 min。",
+    "error_detail": "错误地改变了PCR扩增条件",
+    "original_question": "猪圆环病毒Cap基因重组质粒的构建及对小鼠免疫效果研究中，PCR扩增Cap基因的条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "研究中使用的限制性内切酶有EcoR I、Xho I和Sal I。",
+    "reference_case": "研究中使用的限制性内切酶有Hind III、BamH I和Pst I。",
+    "error_detail": "错误地改变了限制性内切酶的种类",
+    "original_question": "猪圆环病毒Cap基因重组质粒的构建及对小鼠免疫效果研究中，使用的限制性内切酶有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小鼠的免疫程序为：右后腿肌肉注射，每组质粒免疫剂量50 μg/只，首免后21 d和35 d于后腿相同部位加强免疫接种1次。",
+    "reference_case": "小鼠的免疫程序为：左后腿肌肉注射，每组质粒免疫剂量100 μg/只，首免后14 d和28 d于后腿相同部位加强免疫接种1次。",
+    "error_detail": "错误地改变了免疫程序和剂量",
+    "original_question": "猪圆环病毒Cap基因重组质粒的构建及对小鼠免疫效果研究中，小鼠的免疫程序是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "文章中提到的乳酸菌主要来源于健康牛、羊及现代乳制品。",
+    "reference_case": "文章中提到的乳酸菌主要来源于健康猪（非哺乳期仔猪）、鸡及传统乳制品。",
+    "error_detail": "错误地改变了乳酸菌的来源",
+    "original_question": "文章中提到的乳酸菌的主要来源有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "硼能提高骨的形成速率，降低骨的再吸收，增加骨的强度和韧性，与维生素D协同增加骨中矿物质含量。例如，基础日粮中添加10mg/kg硼，可提高母猪股骨的强度，饲料中添加硼会促进肉鸡胫骨中钙和磷的沉积。",
+    "reference_case": "硼能提高骨的形成速率，降低骨的再吸收，增加骨的强度和韧性，与维生素D协同增加骨中矿物质含量。例如，基础日粮中添加5mg/kg硼，可提高母猪股骨的强度，饲料中添加硼会促进肉鸡胫骨中钙和磷的沉积。",
+    "error_detail": "错误地改变了硼的添加量",
+    "original_question": "硼如何改善动物的骨代谢？",
+    "original_input": ""
+  }
+]

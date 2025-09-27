@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "家畜运动场内应设有滑梯，便于猪使用。",
+    "reference_case": "家畜运动场内应设有水浴池，便于猪使用。",
+    "error_detail": "将水浴池错误地替换为滑梯，概念混淆。",
+    "original_question": "家畜运动场内应设置什么设施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "家畜运动场设计时应考虑地势较低且排水便利，还应设有水浴池供猪使用。",
+    "reference_case": "家畜运动场设计时应考虑地势较高且排水便利，还应设有水浴池供猪使用。",
+    "error_detail": "将地势较高错误地改为地势较低，空间错位。",
+    "original_question": "家畜运动场设计应注意哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "肥育猪的三个生长阶段分别是：断奶后四月增重阶段、6-9月龄阶段（长骨架阶段）和10-13月龄阶段（肥育阶段）。",
+    "reference_case": "肥育猪的三个生长阶段分别是：断奶后三月增重阶段、5-8月龄阶段（长骨架阶段）和9-12月龄阶段（肥育阶段）。",
+    "error_detail": "生长阶段的时间数据错误。",
+    "original_question": "肥育猪的三个生长阶段是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "断奶后的仔猪因为消化机能紊乱，所以从吃奶转为完全吃饲料。",
+    "reference_case": "断奶后的仔猪从吃奶转为完全吃饲料，容易引起消化机能紊乱。",
+    "error_detail": "因果倒置，错误地将消化机能紊乱作为原因。",
+    "original_question": "为什么断奶后的仔猪容易出现消化机能紊乱？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "断奶猪的饲养管理应注意以下事项：改善管理、充分供应含有高蛋白质的日粮、每天梳刷皮毛、夏天还需要洗沐。",
+    "reference_case": "断奶猪的饲养管理应注意以下事项：改善管理、充分供应含有高蛋白质的日粮、每天梳刷皮毛、夏天还需要洗沐、晴朗天气多给运动和晒太阳，增进猪体的健康。",
+    "error_detail": "遗漏了部分注意事项，指令偏离。",
+    "original_question": "断奶猪的饲养管理应注意哪些事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在长骨架阶段，应多给精料和多汁饲料，使猪的皮松好长架子，为下阶段进行肥育打下有利基础。",
+    "reference_case": "在长骨架阶段，应多给粗料和多汁饲料，使猪的皮松好长架子，为下阶段进行肥育打下有利基础。",
+    "error_detail": "将粗料错误地替换为精料，概念混淆。",
+    "original_question": "在长骨架阶段，如何合理搭配饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "第一类和第二类饲料混合使用可获得品质良好的猪肉；第三类饲料占比30%，第一类饲料40%，第二类饲料30%时也能获得品质良好的猪肉。",
+    "reference_case": "第一类和第二类饲料混合使用可获得品质良好的猪肉；第三类饲料占比25%，第一类饲料50%，第二类饲料25%时也能获得品质良好的猪肉。",
+    "error_detail": "饲料比例数据错误。",
+    "original_question": "不同类型的饲料混合使用对猪肉品质有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪催肥的期限一般为三个月，分为三期，每期30天，精饲料逐期增加。",
+    "reference_case": "猪催肥的期限一般为两个月，分为三期，每期20天，精饲料逐期增加。",
+    "error_detail": "催肥期限和每期天数数据错误。",
+    "original_question": "猪催肥的期限一般为多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "催肥开始后，运动时间应逐渐减少，第三期每头猪减至20-25分钟。",
+    "reference_case": "催肥开始后，运动时间应逐渐减少，第三期每头猪减至10-15分钟。",
+    "error_detail": "运动时间数据错误。",
+    "original_question": "催肥过程中猪的运动时间如何调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "每顿食后应立即清扫饲料残渣。",
+    "reference_case": "每顿食后应立即清扫饲料残渣，每尾猪每周还需用热水木灰水冲洗一次。",
+    "error_detail": "遗漏了每周冲洗的指令，指令偏离。",
+    "original_question": "在喂食后如何处理饲料残渣？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪舍的温度和湿度应保持较高，阳光也应充足，以促进猪的生长。",
+    "reference_case": "猪舍的温度和湿度不宜过高，阳光也不得过强，以免影响猪的生长。",
+    "error_detail": "温度和湿度的建议相反，概念混淆。",
+    "original_question": "猪舍的温度和湿度应如何控制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "甲基磺胺嘧啶能促进甲状腺激素的分泌，提高新陈代谢作用，增加蛋白质、脂肪和糖类的分解，提高成年猪的长肉率。",
+    "reference_case": "甲基磺胺嘧啶能抑制甲状腺激素的分泌，降低新陈代谢作用，减少蛋白质、脂肪和糖类的分解，提高成年猪的长肉率。",
+    "error_detail": "对甲基磺胺嘧啶的作用描述相反，概念混淆。",
+    "original_question": "促进猪生长的化学制品有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用甲基磺胺嘧啶一周后，猪的毛色开始发亮，每天可增重2斤以上，最初两星期内增重最快，每天可达3斤以上，但两周后下降，四星期内增重更慢。",
+    "reference_case": "使用甲基磺胺嘧啶一周后，猪的毛色开始发亮，每天可增重1斤以上，最初两星期内增重最快，每天可达2斤以上，但两周后下降，四星期内增重更慢。",
+    "error_detail": "增重数据错误。",
+    "original_question": "甲基磺胺嘧啶对猪的生长有何具体效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "做好清洁卫生，并根据当地过去疫情流行情况实施预防注射。",
+    "reference_case": "做好清洁卫生，定期消毒，并根据当地过去疫情流行情况实施预防注射。",
+    "error_detail": "遗漏了定期消毒的指令，指令偏离。",
+    "original_question": "推行技术措施时，如何保障猪只的安全？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "建立配种、生仔、成活、死亡、增重等原始材料登记和统计制度。",
+    "reference_case": "建立配种、生仔、成活、死亡、增重、饲料消耗等原始材料登记和统计制度。",
+    "error_detail": "遗漏了饲料消耗的登记，指令偏离。",
+    "original_question": "养猪场需要建立哪些原始材料登记和统计制度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "固定猪群、实行定员管理的好处是可以经常更换饲养员，尤其对于母猪的饲养需要掌握适时配种和培育仔猪的技术。",
+    "reference_case": "可以加强饲养员的责任心，尤其对于母猪的饲养需要掌握适时配种和培育仔猪的技术，因此不能经常更换饲养员。",
+    "error_detail": "因果倒置，错误地将固定猪群的好处描述为可以经常更换饲养员。",
+    "original_question": "固定猪群、实行定员管理的好处是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "推广青贮方法能解决肥育猪粗料不足的问题，从而促进集体养猪业的正常发展。",
+    "reference_case": "推广青贮方法能解决肥育猪精料不足的问题，从而促进集体养猪业的正常发展。",
+    "error_detail": "将精料不足错误地改为粗料不足，概念混淆。",
+    "original_question": "推广青贮方法能够解决什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪只增重快慢与猪的品种、仔猪培育情况以及饲料的质量都有一定的影响。",
+    "reference_case": "猪只增重快慢与猪的品种以及仔猪培育情况都有一定的影响。",
+    "error_detail": "添加了饲料质量的假设，假设滥用。",
+    "original_question": "猪只增重快慢与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "甲級猪每日金積 0.15 元，每头共为 27 元，乙級猪每头为 30 元，西級猪每头为 40 元。后备母豬与丙級肥豬相同。母豬每日 0.20 元，每头定額72元。种豬每日0.25元，每头定額90元。仔豬每日 0.05元，每头 3 元。",
+    "reference_case": "甲級猪每日金積 0.13 元，每头共为 23.4 元，乙級猪每头为 27.3 元，西級猪每头为 35.1 元。后备母豬与丙級肥豬相同。母豬每日 0.18 元，每头定額64.8元。种豬每日0.22元，每头定額79.2元。仔豬每日 0.04元，每头 2.4 元。",
+    "error_detail": "金额数据错误。",
+    "original_question": "包铜科装的标准是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "关猪数大体这样划分：小栏 5 — 6 头，大栏 7-11 头，后备母豬和公、母豬分別关开。甲、乙级豬在包养期内应交 200 担肥料（包括草），丙級肥豬交肥 180 担，母豬全年交 600 担，公豬全年交 250 担。",
+    "reference_case": "关猪数大体这样划分：小栏 4 — 5 头，大栏 6-10 头，后备母豬和公、母豬分別关开。甲、乙级豬在包养期内应交 180 担肥料（包括草），丙級肥豬交肥 160 担，母豬全年交 540 担，公豬全年交 200 担。",
+    "error_detail": "关猪数和肥料数量数据错误。",
+    "original_question": "定量施肥的标准是什么？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "我国兽用生物制品产业的产品结构不合理，主要表现为科技含量低及产品老化。2011年，75家全国兽用生物制品生产企业生产的217种产品种类中，90%以上为禽用、猪用、牛羊用疫苗，水禽疫苗、诊断试剂缺乏，经济动物如猫、兔、犬、狐、貂等用的生物制品仍是空白。",
+    "reference_case": "我国兽用生物制品产业的产品结构不合理，主要表现为科技含量低及产品老化。2011年，75家全国兽用生物制品生产企业生产的217种产品种类中，80%以上为禽用、猪用、牛羊用疫苗，水禽疫苗、诊断试剂缺乏，经济动物如猫、兔、犬、狐、貂等用的生物制品仍是空白。",
+    "error_detail": "修改了禽用、猪用、牛羊用疫苗的比例，从80%以上改为90%以上。",
+    "original_question": "我国兽用生物制品产业的产品结构存在哪些不合理之处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长育肥猪日粮中，玉米酒精糟（DDGS）的添加量为生长期15%和育肥期20%。",
+    "reference_case": "在生长育肥猪日粮中，玉米酒精糟（DDGS）的添加量为生长期10%和育肥期15%。",
+    "error_detail": "修改了玉米酒精糟（DDGS）的添加量，生长期从10%改为15%，育肥期从15%改为20%。",
+    "original_question": "玉米酒精糟（DDGS）在生长育肥猪日粮中的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "玉米酒精糟（DDGS）和复合酶对生长育肥猪的血液生化指标（如AKP、γ-GT、GOT和GPT）有显著影响。",
+    "reference_case": "玉米酒精糟（DDGS）和复合酶对生长育肥猪的血液生化指标（如AKP、γ-GT、GOT和GPT）没有显著影响。",
+    "error_detail": "修改了玉米酒精糟（DDGS）和复合酶对生长育肥猪的血液生化指标的影响，从没有显著影响改为有显著影响。",
+    "original_question": "玉米酒精糟（DDGS）和复合酶对生长育肥猪的血液生化指标有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "玉米酒精糟（DDGS）和复合酶增加了生长育肥猪的十二指肠和回肠绒毛高度与隐窝深度的比值，特别是在生长期，试验2组的比值显著高于对照组。",
+    "reference_case": "玉米酒精糟（DDGS）和复合酶增加了生长育肥猪的十二指肠和回肠绒毛高度与隐窝深度的比值，特别是在育肥期，试验2组的比值显著高于对照组。",
+    "error_detail": "修改了玉米酒精糟（DDGS）和复合酶对生长育肥猪的十二指肠和回肠绒毛高度与隐窝深度的比值的影响时期，从育肥期改为生长期。",
+    "original_question": "玉米酒精糟（DDGS）和复合酶对生长育肥猪的肠道形态有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "玉米酒精糟（DDGS）和复合酶显著增加了生长期粪样中的乳酸菌数量，并显著减少了育肥期粪样中的大肠杆菌数量。",
+    "reference_case": "玉米酒精糟（DDGS）和复合酶显著增加了育肥期粪样中的乳酸菌数量，并显著减少了生长期粪样中的大肠杆菌数量。",
+    "error_detail": "修改了玉米酒精糟（DDGS）和复合酶对生长育肥猪粪样中的乳酸菌和大肠杆菌数量的影响时期，从育肥期改为生长期，生长期改为育肥期。",
+    "original_question": "玉米酒精糟（DDGS）和复合酶对生长育肥猪粪样中的乳酸菌和大肠杆菌数量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "玉米酒精糟（DDGS）和复合酶对生长育肥猪的肝、脾指数有显著影响。",
+    "reference_case": "玉米酒精糟（DDGS）和复合酶对生长育肥猪的肝、脾指数没有显著影响。",
+    "error_detail": "修改了玉米酒精糟（DDGS）和复合酶对生长育肥猪的肝、脾指数的影响，从没有显著影响改为有显著影响。",
+    "original_question": "玉米酒精糟（DDGS）和复合酶对生长育肥猪的肝、脾指数有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "玉米酒精糟（DDGS）和复合酶通过增加十二指肠和回肠绒毛高度与隐窝深度的比值，促进乳酸菌的生长，抑制大肠杆菌的生长，从而有助于维持肠道健康，并且还能提高饲料转化率。",
+    "reference_case": "玉米酒精糟（DDGS）和复合酶通过增加十二指肠和回肠绒毛高度与隐窝深度的比值，促进乳酸菌的生长，抑制大肠杆菌的生长，从而有助于维持肠道健康。",
+    "error_detail": "添加了玉米酒精糟（DDGS）和复合酶能提高饲料转化率的假设。",
+    "original_question": "玉米酒精糟（DDGS）和复合酶对生长育肥猪的肠道健康有何积极作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "玉米酒精糟（DDGS）的添加显著提高了饲料成本，同时保持了与玉米-豆粕型日粮相当的生产性能。",
+    "reference_case": "玉米酒精糟（DDGS）的添加显著降低了饲料成本，同时保持了与玉米-豆粕型日粮相当的生产性能。",
+    "error_detail": "修改了玉米酒精糟（DDGS）对饲料成本的影响，从降低改为提高。",
+    "original_question": "玉米酒精糟（DDGS）和复合酶对生长育肥猪的饲料成本有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "玉米酒精糟（DDGS）和复合酶的添加量（生长期15%，育肥期20%）所引起的霉菌毒素水平升高尚未超出生长育肥猪的耐受剂量，未对肝脏、脾脏造成明显的损伤。",
+    "reference_case": "玉米酒精糟（DDGS）和复合酶的添加量（生长期10%，育肥期15%）所引起的霉菌毒素水平升高尚未超出生长育肥猪的耐受剂量，未对肝脏、脾脏造成明显的损伤。",
+    "error_detail": "修改了玉米酒精糟（DDGS）和复合酶的添加量，生长期从10%改为15%，育肥期从15%改为20%。",
+    "original_question": "玉米酒精糟（DDGS）和复合酶对生长育肥猪的霉菌毒素耐受性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "研究中使用了酵母表达系统（Yeast expression system）来分泌表达猪圆环病毒2型（PCV2:Cap蛋白。",
+    "reference_case": "研究中使用了杆状病毒表达系统（Bac-to-Bac expression system）来分泌表达猪圆环病毒2型（PCV2:Cap蛋白。",
+    "error_detail": "修改了表达系统，从杆状病毒表达系统改为酵母表达系统。",
+    "original_question": "猪圆环病毒2型（PCV2:Cap蛋白的分泌表达研究中使用了哪种表达系统？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "通过聚丙烯酰胺凝胶电泳分析（SDS-PAGE）和Western blotting验证重组蛋白的表达。SDS-PAGE显示在30 kDa处有目的条带，Western blotting使用猪PCV2的特异性抗体确认了重组蛋白的反应原性。",
+    "reference_case": "通过聚丙烯酰胺凝胶电泳分析（SDS-PAGE）和Western blotting验证重组蛋白的表达。SDS-PAGE显示在27 kDa处有目的条带，Western blotting使用猪PCV2的特异性抗体确认了重组蛋白的反应原性。",
+    "error_detail": "修改了SDS-PAGE显示的目的条带的大小，从27 kDa改为30 kDa。",
+    "original_question": "在猪圆环病毒2型Cap蛋白的分泌表达研究中，如何验证重组蛋白的表达？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "重组蛋白的免疫原性通过免疫BALB/c小鼠来测试。结果显示，重组蛋白能够刺激小鼠产生较高水平的特异性抗体，并且还能提高小鼠的免疫力。",
+    "reference_case": "重组蛋白的免疫原性通过免疫BALB/c小鼠来测试。结果显示，重组蛋白能够刺激小鼠产生较高水平的特异性抗体。",
+    "error_detail": "添加了重组蛋白能提高小鼠的免疫力的假设。",
+    "original_question": "猪圆环病毒2型Cap蛋白的分泌表达研究中，重组蛋白的免疫原性是如何测试的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重组杆状病毒（rBac-Cap）的滴度为2:2×10^9 pfu/mL。",
+    "reference_case": "重组杆状病毒（rBac-Cap）的滴度为2:2×10^8 pfu/mL。",
+    "error_detail": "修改了重组杆状病毒（rBac-Cap）的滴度，从2:2×10^8 pfu/mL改为2:2×10^9 pfu/mL。",
+    "original_question": "猪圆环病毒2型Cap蛋白的分泌表达研究中，重组杆状病毒（rBac-Cap）的滴度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重组蛋白在感染High Five细胞24小时后开始有明显的分泌，48至72小时达到最大值，72小时后有下降趋势。",
+    "reference_case": "重组蛋白在感染High Five细胞48小时后开始有明显的分泌，72至108小时达到最大值，96小时后有下降趋势。",
+    "error_detail": "修改了重组蛋白的分泌表达时相，从48小时后开始有明显的分泌改为24小时后，72至108小时达到最大值改为48至72小时，96小时后有下降趋势改为72小时后。",
+    "original_question": "猪圆环病毒2型Cap蛋白的分泌表达研究中，重组蛋白的分泌表达时相分析结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用人胰岛素信号肽（Human insulin signal peptide）来引导外源蛋白的分泌表达。",
+    "reference_case": "使用蜂毒信号肽（Melittin）来引导外源蛋白的分泌表达。",
+    "error_detail": "修改了信号肽，从蜂毒信号肽改为人胰岛素信号肽。",
+    "original_question": "猪圆环病毒2型Cap蛋白的分泌表达研究中，使用哪种信号肽来引导外源蛋白的分泌表达？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小鼠在第一次免疫后第1周即可检测到抗体的产生，第二次免疫后一周抗体水平迅速提高，至第二次免疫后第2周抗体继续呈上升趋势。",
+    "reference_case": "小鼠在第一次免疫后第2周即可检测到抗体的产生，第二次免疫后一周抗体水平迅速提高，至第二次免疫后第3周抗体继续呈上升趋势。",
+    "error_detail": "修改了小鼠抗体产生的时间，第一次免疫后从第2周改为第1周，第二次免疫后从第3周改为第2周。",
+    "original_question": "猪圆环病毒2型Cap蛋白的分泌表达研究中，重组蛋白的免疫原性测试中，小鼠的抗体水平是如何变化的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "抗原浓缩的10HFS组的抗体水平相对较高。",
+    "reference_case": "抗原浓缩的5HFS组的抗体水平相对较高。",
+    "error_detail": "修改了抗原浓缩的组别，从5HFS组改为10HFS组。",
+    "original_question": "猪圆环病毒2型Cap蛋白的分泌表达研究中，重组蛋白的免疫原性测试中，哪种处理组的抗体水平相对较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "小鼠的免疫剂量与抗体产生量没有明显的量效关系，不同浓度的重组蛋白均能诱导小鼠产生针对PCV2 Cap蛋白的特异性抗体。",
+    "reference_case": "小鼠的免疫剂量与抗体产生量有明显的量效关系，不同浓度的重组蛋白均能诱导小鼠产生针对PCV2 Cap蛋白的特异性抗体。",
+    "error_detail": "修改了小鼠的免疫剂量与抗体产生量的关系，从有明显的量效关系改为没有明显的量效关系。",
+    "original_question": "猪圆环病毒2型Cap蛋白的分泌表达研究中，重组蛋白的免疫原性测试中，小鼠的免疫剂量与抗体产生量之间有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪日粮中添加蔗糖铁可以显著提高母乳中铁含量，提高哺乳仔猪的平均初生重、21日龄断奶重和平均日增重，并降低哺乳仔猪的腹泻率和死亡率，还能提高仔猪的免疫力。",
+    "reference_case": "母猪日粮中添加蔗糖铁可以显著提高母乳中铁含量，提高哺乳仔猪的平均初生重、21日龄断奶重和平均日增重，并降低哺乳仔猪的腹泻率和死亡率。",
+    "error_detail": "添加了蔗糖铁能提高仔猪的免疫力的假设。",
+    "original_question": "母猪日粮中添加蔗糖铁对哺乳仔猪的生长性能有哪些具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "蔗糖铁在母猪日粮中的添加量为2000 mg/kg，其中铁的含量为300 mg/kg。",
+    "reference_case": "蔗糖铁在母猪日粮中的添加量为1000 mg/kg，其中铁的含量为150 mg/kg。",
+    "error_detail": "修改了蔗糖铁的添加量和铁的含量，添加量从1000 mg/kg改为2000 mg/kg，铁的含量从150 mg/kg改为300 mg/kg。",
+    "original_question": "蔗糖铁在母猪日粮中的添加量是多少？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "单克隆抗体5G2不能与猪水疱病病毒（SVDV）及水疱性口炎病毒（VSV）发生反应，也不能与流感病毒发生反应。",
+    "reference_case": "单克隆抗体5G2不能与猪水疱病病毒（SVDV）及水疱性口炎病毒（VSV）发生反应。",
+    "error_detail": "添加了不相关的病毒类型",
+    "original_question": "单克隆抗体5G2不能与哪些病毒发生反应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪附红细胞体病的病原体最终被归为细菌。",
+    "reference_case": "猪附红细胞体病的病原体最终被归为柔膜体纲支原体属（Mycoplasma haemosuis）。",
+    "error_detail": "使用了过时的分类信息",
+    "original_question": "猪附红细胞体病的病原体最终被归为哪一类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪附红细胞体病的病原体最初被误认为是病毒。",
+    "reference_case": "猪附红细胞体病的病原体最初被误认为是类立克氏体。",
+    "error_detail": "错误地改变了病原体的初始误解类型",
+    "original_question": "猪附红细胞体病的病原体最初被误认为是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪附红细胞体病的病原体是猪附红细胞体（Mycoplasma suis），它仅寄生于猪的红细胞中。",
+    "reference_case": "猪附红细胞体病的病原体是猪附红细胞体（Mycoplasma suis），它寄生于猪的红细胞、血浆、组织液和骨髓中。",
+    "error_detail": "减少了病原体的寄生范围",
+    "original_question": "猪附红细胞体病的病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磷酸替米考星可溶性粉在40至60 mg/L剂量组显示出显著的治疗效果。",
+    "reference_case": "磷酸替米考星可溶性粉在60至80 mg/L及以上剂量组显示出显著的治疗效果。",
+    "error_detail": "错误地降低了有效剂量范围",
+    "original_question": "磷酸替米考星可溶性粉在治疗猪支原体肺炎时，哪些剂量组显示出显著的治疗效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在磷酸替米考星可溶性粉的临床试验中，受试猪的死亡率为5%。",
+    "reference_case": "在磷酸替米考星可溶性粉的临床试验中，所有剂量组的受试猪死亡率均为0%。",
+    "error_detail": "错误地增加了死亡率数据",
+    "original_question": "磷酸替米考星可溶性粉的临床试验中，受试猪的死亡率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "肺部病变评分根据最新的评判方法进行，根据5个肺叶的病变程度评分，最大得分为20分。",
+    "reference_case": "肺部病变评分根据MADEC和KOBISCH（1982:评判方法进行，根据7个肺叶的病变程度评分，最大得分为28分。",
+    "error_detail": "使用了错误的评判方法和肺叶数量",
+    "original_question": "磷酸替米考星可溶性粉的临床试验中，受试猪的肺部病变评分是如何进行的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磷酸替米考星可溶性粉240 mg/L组显示出最佳的相对增重效果，而其他剂量组的增重率显著低于对照组。",
+    "reference_case": "磷酸替米考星可溶性粉240 mg/L组显示出最佳的相对增重效果，而100、80、60 mg/L组和替米考星可溶性粉药物对照组的增重率接近。",
+    "error_detail": "错误地描述了其他剂量组的增重效果",
+    "original_question": "磷酸替米考星可溶性粉的临床试验中，受试猪的增重效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磷酸替米考星可溶性粉在40至60 mg/L剂量下的治疗效果与市售替米考星可溶性粉（75 mg/L）的效果相当。",
+    "reference_case": "磷酸替米考星可溶性粉在60至80 mg/L剂量下的治疗效果与市售替米考星可溶性粉（75 mg/L）的效果相当。",
+    "error_detail": "错误地降低了有效剂量范围",
+    "original_question": "磷酸替米考星可溶性粉对猪支原体肺炎的治疗效果与市售替米考星可溶性粉相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "治疗效果仅通过检测受试猪的死亡率和治愈率进行评估。",
+    "reference_case": "治疗效果通过检测受试猪的死亡率、治愈率、有效率、增重效果以及感染仔猪的支原体肺炎肺部病变评分等指标进行评估。",
+    "error_detail": "减少了评估指标",
+    "original_question": "磷酸替米考星可溶性粉对猪支原体肺炎的治疗效果如何评估？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磷酸替米考星可溶性粉240 mg/L组显示出最佳的治愈率，与所有其他剂量组相比差异显著。",
+    "reference_case": "磷酸替米考星可溶性粉240 mg/L组显示出最佳的治愈率，与120、80、60 mg/L组相比差异显著，与100 mg/L组效果相当。",
+    "error_detail": "错误地描述了与其他剂量组的比较结果",
+    "original_question": "磷酸替米考星可溶性粉的临床试验中，受试猪的治愈率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "2011-2012年期间，中国广东、福建、浙江等省市的猪流行性腹泻病毒（PEDV）感染率较高，阳性率为56:2%。",
+    "reference_case": "2011-2012年期间，中国江苏、安徽、山东、江西、河北、上海、北京等省市的猪流行性腹泻病毒（PEDV）感染率较高，阳性率为56:2%。",
+    "error_detail": "错误地改变了高感染率地区",
+    "original_question": "2011-2012年期间，中国哪些地区的猪流行性腹泻病毒（PEDV）感染率较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group1组包括CV777、Br187、IZC、JSSH2008等毒株，这些毒株的ORF3基因遗传变异不同。",
+    "reference_case": "在猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group1组包括CV777、Br187、IZC、JSSH2008等毒株，这些毒株的ORF3基因遗传变异相同。",
+    "error_detail": "错误地描述了Group1组的遗传变异特征",
+    "original_question": "猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group1组的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group2组包括疫苗株CV777vs、CH/GSJIII/07，致弱株DR13，韩国野毒株DBI865，这些毒株的ORF3基因有小片段的缺失。",
+    "reference_case": "在猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group2组包括疫苗株CV777vs、CH/GSJIII/07，致弱株DR13，韩国野毒株DBI865，这些毒株的ORF3基因有大片段的缺失。",
+    "error_detail": "错误地描述了缺失片段的大小",
+    "original_question": "猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group2组的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group3-2组包括韩国2003-2007年的4个野毒株、Chinju9以及中国的CH/S，这些毒株的ORF3基因与Group3-1和Group3-3组之间有1处核苷酸的改变（238T-G）。",
+    "reference_case": "在猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group3-2组包括韩国2003-2007年的4个野毒株、Chinju9以及中国的CH/S，这些毒株的ORF3基因与Group3-1和Group3-3组之间有2处核苷酸的改变（238T-G、394T-C）。",
+    "error_detail": "错误地减少了核苷酸改变的数量",
+    "original_question": "猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group3-2组的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group3-1组包括中国2001-2011年的6个野毒株，有3处核苷酸的改变（39T-C、75T-C、99C-T），不同于其他各组。",
+    "reference_case": "在猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group3-1组包括中国2001-2011年的6个野毒株，有6处核苷酸的改变（39T-C、75T-C、99C-T、135C-T、208A-G、318T-C、320C-T），不同于其他各组。",
+    "error_detail": "错误地减少了核苷酸改变的数量",
+    "original_question": "猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group3-1组的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的ORF3基因编码一种结构蛋白，已有研究表明ORF3与病毒的复制无关。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的ORF3基因编码一种非结构蛋白，已有研究表明ORF3与病毒的毒力有关，并且可能编码一种调节病毒复制的钾离子通道蛋白。",
+    "error_detail": "错误地描述了ORF3基因的功能",
+    "original_question": "猪流行性腹泻病毒（PEDV）的ORF3基因在病毒中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的ORF3基因系统进化树分析显示，PEDV可以分为2组。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的ORF3基因系统进化树分析显示，PEDV可以分为3组，其中13个病毒属于PEDV 3组，另外1个属于PEDV 1组。",
+    "error_detail": "错误地减少了分组数量",
+    "original_question": "猪流行性腹泻病毒（PEDV）的ORF3基因系统进化树分析显示，PEDV可以分为几组？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group3-3组包括2011-2012年的11个野毒株和3株韩国野毒株，有2处核苷酸突变（237C-T、369C-T），不同于Group3-2组。",
+    "reference_case": "在猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group3-3组包括2011-2012年的11个野毒株和3株韩国野毒株，有4处核苷酸突变（237C-T、369C-T、543T-C、534T-C），不同于Group3-2组。",
+    "error_detail": "错误地减少了核苷酸突变的数量",
+    "original_question": "猪流行性腹泻病毒（PEDV）的ORF3基因遗传变异分析中，Group3-3组的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "在猪卵母细胞体外成熟过程中，核质蛋白的表达导致Npm基因的表达增加。",
+    "reference_case": "在猪卵母细胞体外成熟过程中，核质蛋白的表达与Npm基因的表达呈正相关。随着Npm基因表达量的增加，核质蛋白的表达量也随之增加。",
+    "error_detail": "错误地描述了因果关系",
+    "original_question": "在猪卵母细胞体外成熟过程中，核质蛋白的表达与Npm基因的表达有何关联？",
+    "original_input": ""
+  }
+]

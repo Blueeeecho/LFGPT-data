@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丙酸睾丸酮注射液：肌肉注射量：猪0.2g，每1天注射一次。",
+    "reference_case": "丙酸睾丸酮注射液：肌肉注射量：猪0.1g，每2~3天注射一次。",
+    "error_detail": "注射量和注射频率的错误",
+    "original_question": "丙酸睾丸酮注射液的肌肉注射量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "孕马血清促性腺素应用于猪后，可引起单胎，减少产仔数。",
+    "reference_case": "孕马血清促性腺素应用于猪后，可引起超数排卵，促进多胎，增加产仔数。",
+    "error_detail": "效果描述的完全相反",
+    "original_question": "孕马血清促性腺素应用于猪时，可引起什么效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "孕马血清促性腺素皮下或肌肉注射量：猪20～24mL。",
+    "reference_case": "孕马血清促性腺素皮下或肌肉注射量：猪10～12mL。",
+    "error_detail": "注射量的错误",
+    "original_question": "孕马血清促性腺素的皮下或肌肉注射量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "注射用绒促性素：肌肉注射量：猪2000～3000 IU。",
+    "reference_case": "注射用绒促性素：肌肉注射量：猪500～1000 IU。临用前用生理盐水或注射用水溶解后应用。",
+    "error_detail": "注射量的错误",
+    "original_question": "绒促性素的肌肉注射剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "盐酸氯丙嗪注射液的肌注剂量范围是猪5~10mg/kg。",
+    "reference_case": "盐酸氯丙嗪注射液的肌注剂量范围是猪1~3mg/kg。",
+    "error_detail": "剂量范围的错误",
+    "original_question": "盐酸氯丙嗪注射液的肌注剂量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "戊酸暌菊酯（速灭杀丁）的制剂及用法为40%溶液，临用前加水稀释即可，杀灭猪螨的有效浓度为160～400 mg/L，杀灭猪风的有效浓度为10 mg/L。",
+    "reference_case": "戊酸暌菊酯（速灭杀丁）的制剂及用法为20%溶液，临用前加水稀释即可，杀灭猪螨的有效浓度为80～200 mg/L，杀灭猪风的有效浓度为5 mg/L。",
+    "error_detail": "浓度和有效浓度的错误",
+    "original_question": "戊酸暌菊酯（速灭杀丁）的制剂及用法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "拌料用药可以交替使用黄金大败毒与利瑞欣或金泰妙的组合，但不推荐。",
+    "reference_case": "拌料用药可以交替使用黄金大败毒与利瑞欣或金泰妙的组合。",
+    "error_detail": "添加了不推荐的指令",
+    "original_question": "治疗猪群疾病时，可以交替使用哪些拌料药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "保持猪舍地面清洁，加强带猪消毒，假设猪舍已经安装了自动清洁系统。",
+    "reference_case": "保持猪舍地面清洁，加强带猪消毒。",
+    "error_detail": "添加了不存在的假设",
+    "original_question": "保持猪舍卫生的重要措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪球虫病主要表现为仔猪便秘，粪便呈硬块状，黑色至绿色。",
+    "reference_case": "猪球虫病主要表现为仔猪腹泻，粪便呈水样或糊状，黄色至白色，有时呈棕色，持续4-6天，导致脱水和体重下降，严重的可能导致死亡。",
+    "error_detail": "症状描述的完全相反",
+    "original_question": "猪球虫病的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪球虫病的防治药物有青霉素、链霉素。",
+    "reference_case": "盐酸氨丙啉、盐霉素、莫能菌素、磺胺噁唑啉、磺胺二甲嘧啶等其他磺胺类药物。",
+    "error_detail": "药物种类的错误",
+    "original_question": "猪球虫病的防治药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "通过血液检测即可确诊猪球虫病。",
+    "reference_case": "通过剖检病变及刮取空肠、回肠粘膜制成抹片染色镜检，发现裂殖子、裂殖体和配子体即可确诊。",
+    "error_detail": "诊断方法的错误",
+    "original_question": "如何确诊猪球虫病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该病主要发生在1-7日龄的仔猪，发病率一般较低（10%-20%）。",
+    "reference_case": "该病主要发生在7-21日龄的仔猪，发病率一般较高（50%-75%），但死亡率变化较大，受猪吞食孢子化卵囊数量和环境条件的影响。",
+    "error_detail": "发病日龄和发病率的错误",
+    "original_question": "猪球虫病的流行病学特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "空肠和回肠呈慢性炎症，肠壁变薄，无粘液性渗出物附着。",
+    "reference_case": "空肠和回肠呈急性卡他性炎症，肠壁增厚，有粘液性渗出物附着，严重时可见坏死性肠炎，粘膜上附着黄色纤维素坏死性假膜。",
+    "error_detail": "病理变化的错误描述",
+    "original_question": "猪球虫病的病理变化有哪些特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "感染肉孢子虫的动物可能出现食欲增加、体重上升、无发热等症状。",
+    "reference_case": "感染肉孢子虫的动物可能出现厌食、消瘦、高热、贫血、水肿、肌肉无力和颤抖等症状，严重感染时可引起角弓反张、四肢强直、肌肉僵硬，流产，甚至死亡；感染肉孢子虫的牛肉、猪肉和羊肉对小鼠、豚鼠、家兔均具有毒性，其中以猪肉孢子虫和牛肉孢子虫毒性最强。",
+    "error_detail": "症状描述的完全相反",
+    "original_question": "肉孢子虫的致病作用和症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "家畜弓形虫病仅在冬季发病。",
+    "reference_case": "家畜弓形虫病一年四季均可发病，但一般以夏秋季居多，我国大部分地区猪的发病季节在每年的 5～10 月份。",
+    "error_detail": "发病季节的错误",
+    "original_question": "弓形虫感染季节有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病猪食欲增加，体温正常。",
+    "reference_case": "病猪突然废食，体温升高至 41 C 以上，稽留 \\(7 \\sim 10\\) 天；呼吸急促呈腹式或犬坐姿势呼吸，流清鼻涕，眼内出现浆液性或胧性分泌物；初期便秘，拉附有粘液的干粪球，发病后期拉稀；尿呈槅黄色；精神沉郁，显著衰弱，发病后数天出现癫病样痉挛等神经症状，后肢麻痹；体表淋巴结，尤其是腹股沟淋巴结明显肿大；在耳翼、鼻端、下肢、股内侧、下腹部等处出现紫红或间有小点状出血；有的病猪在耳壳上形成痂皮，耳尖发生干性坏死；最后因呼吸极度困难和体温急剧下降而死亡；孕猪常发生流产或死胎，有的发生视网膜脉络膜炎，甚至失明；有的可转为慢性，外观症状不明显，仅食欲和精神稍差，最后变为偅猪。",
+    "error_detail": "症状描述的完全相反",
+    "original_question": "弓形虫病在猪的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "预防措施包括开展灭鼠活动，禁止养猫，加强饲料的保管，假设所有猪都已经接种了疫苗。",
+    "reference_case": "预防措施包括开展灭鼠活动，禁止养猫，加强饲料的保管，定期对猪群进行流行病学监测，发现阳性猪只进行隔离或淘汰，密切接触家畜的人群应注意个人防护，定期做血清学检测，不食用生乳、生蛋或未熟的肉类，切生、熟的用具应严格分开。",
+    "error_detail": "添加了不存在的假设",
+    "original_question": "弓形虫病的预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "隐孢子虫仅寄生于家鼠。",
+    "reference_case": "寄生于家鼠、牛、羊、猪、犬、鸡、鸭、鹅、火鸡等。",
+    "error_detail": "寄生动物的错误",
+    "original_question": "隐孢子虫寄生于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "选择外形像石头和木头状的作种苓。",
+    "reference_case": "选择外形像猪屎和马屎状的作种苓，灰苓生活力强，断面菌丝白色，含水量大，萌发新苓多，是最佳的种苓。将苓块放在菌材两端和蜜环菌菌索多的部位，与菌材和蜜环菌索紧密靠拢。",
+    "error_detail": "种苓选择的错误",
+    "original_question": "如何种植猪苓菌核？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪苓耐高温，喜干燥，将坑内温度控制在30℃左右。",
+    "reference_case": "猪苓耐寒凉，喜阴湿，将坑内温度控制在20℃左右，不要超过28℃。夏季高温干旱时，苓坑附近应遮阳，并用树枝杂草覆盖降温和喷水降温，尽量使其环境凉爽。干旱季节注意喷水保湿，雨季开沟排水，防止水淹菌床。",
+    "error_detail": "环境条件的错误描述",
+    "original_question": "猪苓栽培时应注意哪些环境条件？",
+    "original_input": ""
+  }
+]

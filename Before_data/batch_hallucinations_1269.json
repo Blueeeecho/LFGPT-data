@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "李四等提出了构建猪的优化饲养理论和技术体系。",
+    "reference_case": "刘作华等提出了构建猪的优化饲养理论和技术体系。",
+    "error_detail": "错误地更改了提出者的姓名，导致概念混淆。",
+    "original_question": "谁提出了构建猪的优化饲养理论和技术体系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "第二届'中国•猪营养国际论坛'于2015年10月25日至26日在上海松江开元名都大酒店举办。",
+    "reference_case": "第二届'中国•猪营养国际论坛'于2012年10月25日至26日在上海松江开元名都大酒店举办。",
+    "error_detail": "错误地更改了论坛的举办年份，导致时效性错误。",
+    "original_question": "第二届'中国•猪营养国际论坛'的举办时间和地点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "'中国•猪营养国际论坛'的宗旨是'推动全球猪业发展'，主题是'健康、生长、效率'。",
+    "reference_case": "'中国•猪营养国际论坛'的宗旨是'凝聚全球科研力量，驱动猪业创新思维'，主题是'营养、效率、价值'。",
+    "error_detail": "错误地更改了论坛的宗旨和主题，偏离了原始指令。",
+    "original_question": "'中国•猪营养国际论坛'的宗旨和主题分别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "出席第二届'中国•猪营养国际论坛'的重要人物包括美国动物科学学会总裁John Doe教授、首席执行官Jane Doe博士、上海亘泰实业集团总裁张三先生，以及来自美洲、欧洲和亚洲的动物营养领域顶级专家、学者和国内500多名行业精英。",
+    "reference_case": "出席第二届'中国•猪营养国际论坛'的重要人物包括美国动物科学学会总裁James Sartin教授、首席执行官Meghan Wulster-Radcliffe博士、上海亘泰实业集团总裁宋济生先生，以及来自美洲、欧洲和亚洲的动物营养领域顶级专家、学者和国内400多名行业精英。",
+    "error_detail": "错误地更改了出席者的姓名和人数，导致数据型幻觉。",
+    "original_question": "哪些重要人物出席了第二届'中国•猪营养国际论坛'？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "伍国耀博士在论坛上做了两个主题报告，分别是《怀孕母猪的蛋白质营养和繁殖性能》和《猪的必需氨基酸营养需要》。",
+    "reference_case": "伍国耀博士在论坛上做了两个主题报告，分别是《怀孕母猪的精氨酸营养和繁殖性能》和《猪的非必需氨基酸营养需要》。",
+    "error_detail": "错误地更改了报告的主题内容，导致概念混淆。",
+    "original_question": "伍国耀博士在论坛上做了哪些主题报告？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "关于断奶仔猪的生理应激和肠道健康的报告是由英国剑桥大学博士后Mike Smith博士和澳大利亚默尔多大学教授John Pluske博士主讲的。",
+    "reference_case": "关于断奶仔猪的生理应激和肠道健康的报告是由美国爱荷华州立大学博士后Joy Campbell博士和澳大利亚默尔多大学教授John Pluske博士主讲的。",
+    "error_detail": "错误地更改了主讲人的所属机构，导致空间错位。",
+    "original_question": "论坛上关于断奶仔猪的生理应激和肠道健康的报告是由谁主讲的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "关于猪饲粮中纤维的利用及其酶的报告是由美国伊利诺伊大学教授Tom Johnson博士主讲的。",
+    "reference_case": "关于猪饲粮中纤维的利用及其酶的报告是由加拿大阿尔伯塔大学教授Ron Ball博士主讲的。",
+    "error_detail": "错误地更改了主讲人的姓名和所属机构，导致概念混淆。",
+    "original_question": "论坛上关于猪饲粮中纤维的利用及其酶的报告是由谁主讲的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "关于提高母猪繁殖力的营养技术的报告是由中国农业大学教授李四博士主讲的。",
+    "reference_case": "关于提高母猪繁殖力的营养技术的报告是由四川农业大学教授吴德博士主讲的。",
+    "error_detail": "错误地更改了主讲人的姓名和所属机构，导致概念混淆。",
+    "original_question": "论坛上关于提高母猪繁殖力的营养技术的报告是由谁主讲的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "关于丹猪的永其酸营养需要的报告是由美国威斯康星大学教授David Brown博士主讲的。",
+    "reference_case": "关于丹猪的永其酸营养需要的报告是由加拿大阿尔伯塔大学教授Ron Ball博士主讲的。",
+    "error_detail": "错误地更改了主讲人的姓名和所属机构，导致概念混淆。",
+    "original_question": "论坛上关于丹猪的永其酸营养需要的报告是由谁主讲的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "关于美国目前和未来的保育猪饲养方案的报告是由美国明尼苏达大学教授Alice Green博士主讲的。",
+    "reference_case": "关于美国目前和未来的保育猪饲养方案的报告是由美国堪萨斯州立大学教授Bob Goodband博士主讲的。",
+    "error_detail": "错误地更改了主讲人的姓名和所属机构，导致概念混淆。",
+    "original_question": "论坛上关于美国目前和未来的保育猪饲养方案的报告是由谁主讲的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "该论坛的主要目的是促进全球猪业的技术交流和市场拓展。",
+    "reference_case": "该论坛的主要目的是促进动物营养研究工作的交流，特别是与中国在畜牧业方面的合作，以及推动全球养殖业的发展。",
+    "error_detail": "错误地更改了论坛的主要目的，偏离了原始指令。",
+    "original_question": "上海亘泰实业集团与美国动物科学学会联合举办的'中国•猪营养国际论坛'的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "首届'中国•猪营养国际论坛'的主题是'健康、生长、效率'。",
+    "reference_case": "首届'中国•猪营养国际论坛'的主题是'小猪、营养、免疫'。",
+    "error_detail": "错误地更改了论坛的主题，导致概念混淆。",
+    "original_question": "首届'中国•猪营养国际论坛'的主题是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "上海亘泰实业集团与美国动物科学学会共同举办'中国•猪营养国际论坛'的原因是，集团希望通过论坛扩大其在中国市场的影响力。",
+    "reference_case": "上海亘泰实业集团与美国动物科学学会共同举办'中国•猪营养国际论坛'的原因是，集团着眼于长远的未来，相信行业朝着更科学的方向发展会带来更多的赢利机会，因此支持学术性论坛以推动行业发展。",
+    "error_detail": "错误地添加了假设，偏离了原始原因。",
+    "original_question": "上海亘泰实业集团与美国动物科学学会共同举办'中国•猪营养国际论坛'的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "首届'中国•猪营养国际论坛'的主题是'健康、生长、效率'。",
+    "reference_case": "首届'中国•猪营养国际论坛'的主题是'小猪、营养、免疫'。",
+    "error_detail": "错误地更改了论坛的主题，导致概念混淆。",
+    "original_question": "首届'中国•猪营养国际论坛'的主题是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "宋济生先生认为中国养猪业存在的主要问题是缺乏先进的技术和设备。",
+    "reference_case": "宋济生先生认为中国养猪业存在的主要问题包括过度依赖药物而非营养和合理设备来解决生产问题，以及缺乏合理的营养配方和必要的设备投入。",
+    "error_detail": "错误地简化了问题描述，偏离了原始指令。",
+    "original_question": "宋济生先生认为中国养猪业存在的主要问题是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "我国养猪业存在的主要误区是不注重动物的健康和福利。",
+    "reference_case": "我国养猪业存在的主要误区包括用药物解决营养问题和设备问题，而不注重营养物质的调控和合理的营养配方，以及不进行必要的设备投入和管理。",
+    "error_detail": "错误地更改了误区的描述，偏离了原始指令。",
+    "original_question": "我国养猪业存在的主要误区是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "伍国耀教授在国际上首次阐明了各种氨基酸在肝脏中的代谢规律，并在功能性氨基酸方面进行了研究，包括'必需氨基酸'在猪的作用和需要量。",
+    "reference_case": "伍国耀教授在国际上首次阐明了各种氨基酸在肠道黏膜中的代谢规律，并在功能性氨基酸方面进行了研究，包括'非必需氨基酸'在猪的作用和需要量。",
+    "error_detail": "错误地更改了代谢规律的研究部位和氨基酸类型，导致概念混淆。",
+    "original_question": "伍国耀教授在氨基酸营养和代谢方面的主要研究成果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "伍国耀教授建议通过加入维生素和矿物质来提高小肠生理功能，减少腹泻。",
+    "reference_case": "伍国耀教授建议通过加入精氨酸、谷氨酸、谷氨酰胺来提高小肠生理功能，减少腹泻，并采取饲喂血浆、增加日粮纤维以及添加益生素等措施。",
+    "error_detail": "错误地更改了建议的内容，偏离了原始指令。",
+    "original_question": "伍国耀教授对仔猪'早期断奶综合征'的预防建议是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "伍国耀教授建议养猪配方要固定不变，满足动物的基本营养需求。",
+    "reference_case": "伍国耀教授建议养猪配方要灵活掌握，满足动物的蛋白质和氨基酸需求，注意添加'非必需氨基酸'，并加强管理、检测技术和疫病预防。",
+    "error_detail": "错误地更改了建议的内容，偏离了原始指令。",
+    "original_question": "伍国耀教授对我国未来养猪业发展的建议是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "宰后羊肉的AMPK活性变化与宰后猪肉的AMPK活性变化相似，都是在宰后1:0至1:5小时内达到最高，之后开始下降。",
+    "reference_case": "宰后羊肉的AMPK活性变化与宰后猪肉的AMPK活性变化相似，都是在宰后0:5至1:0小时内达到最高，之后开始下降。",
+    "error_detail": "错误地更改了活性变化的时间，导致数据型幻觉。",
+    "original_question": "宰后羊肉的AMPK活性变化与宰后猪肉的AMPK活性变化有何相似之处？",
+    "original_input": ""
+  }
+]

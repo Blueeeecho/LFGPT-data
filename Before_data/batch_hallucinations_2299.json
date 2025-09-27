@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟病毒主要通过口、鼻、眼泪、尿、粪便等途径排毒，也可通过生殖道、皮肤伤口传播，还可经胎盘垂直传播。此外，病毒还能通过空气传播。",
+    "reference_case": "猪瘟病毒主要通过口、鼻、眼泪、尿、粪便等途径排毒，也可通过生殖道、皮肤伤口传播，还可经胎盘垂直传播。",
+    "error_detail": "添加了不存在的传播途径——空气传播",
+    "original_question": "猪瘟病毒主要通过哪些途径排毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪细小病毒病的主要临床症状包括受感染母猪发生流产、产死胎、木乃伊胎、畸形胎、弱仔及屡配不孕等，且发生率高达90%。",
+    "reference_case": "猪细小病毒病的主要临床症状包括受感染母猪发生流产、产死胎、木乃伊胎、畸形胎、弱仔及屡配不孕等。",
+    "error_detail": "添加了不准确的发生率数据",
+    "original_question": "猪细小病毒病的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "可以通过实验室诊断方法，如病毒核酸检测、抗原捕获ELISA、反向间接血凝试验、免疫荧光抗体试验、病毒分离与鉴定、血清学诊断以及动物接种试验来区分。此外，还可以通过观察临床症状来区分。",
+    "reference_case": "可以通过实验室诊断方法，如病毒核酸检测、抗原捕获ELISA、反向间接血凝试验、免疫荧光抗体试验、病毒分离与鉴定、血清学诊断以及动物接种试验来区分。",
+    "error_detail": "添加了不相关的区分方法——观察临床症状",
+    "original_question": "如何区别猪水疱病和口蹄疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪水疱病病毒引起的疾病临诊特征为猪的口、鼻、乳腺和蹄部形成水疱性病变，同时伴有高热。",
+    "reference_case": "猪水疱病病毒引起的疾病临诊特征为猪的口、鼻、乳腺和蹄部形成水疱性病变。",
+    "error_detail": "添加了不存在的症状——高热",
+    "original_question": "猪水疱病病毒引起的疾病有哪些临诊特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪水疱病病毒属于杯状病毒科水疱疹病毒属成员，同时也是RNA病毒。",
+    "reference_case": "猪水疱病病毒属于杯状病毒科水疱疹病毒属成员。",
+    "error_detail": "添加了不相关的分类信息——RNA病毒",
+    "original_question": "猪水疱病病毒属于哪一类病毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪水疱病病毒的基因组为单链正义RNA，全长为10 kb。",
+    "reference_case": "猪水疱病病毒的基因组为单链正义RNA，全长为8.2 kb。",
+    "error_detail": "错误的基因组长度",
+    "original_question": "猪水疱病病毒的基因组特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪水疱病病毒在室温下可存活7天以上，在-20°C下可存活2年，在-70°C下保存18年仍然有感染性，在62°C下经60 min或在64°C下经30 min可使之灭活。在50%甘油中4°C下能够存活2.5年，在污染肉屑中的病毒在7°C下保存1个月仍有感染性，经84°C处理也不能破坏其感染性，在污染猪舍中能够存活数月。病毒对乙醚、氯仿有抵抗力，在pH 5.0条件下稳定。2%氢氧化钠（钾）溶液15 min处理可灭活。此外，病毒在紫外线照射下也能迅速灭活。",
+    "reference_case": "猪水疱病病毒在室温下可存活7天以上，在-20°C下可存活2年，在-70°C下保存18年仍然有感染性，在62°C下经60 min或在64°C下经30 min可使之灭活。在50%甘油中4°C下能够存活2.5年，在污染肉屑中的病毒在7°C下保存1个月仍有感染性，经84°C处理也不能破坏其感染性，在污染猪舍中能够存活数月。病毒对乙醚、氯仿有抵抗力，在pH 5.0条件下稳定。2%氢氧化钠（钾）溶液15 min处理可灭活。",
+    "error_detail": "添加了不存在的灭活方法——紫外线照射",
+    "original_question": "猪水疱病病毒在外界环境中的抵抗力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "病猪和带毒猪是主要传染源，同时野生动物也能传播病毒。",
+    "reference_case": "病猪和带毒猪是主要传染源。",
+    "error_detail": "添加了不存在的传染源——野生动物",
+    "original_question": "猪水疱病病毒的主要传染源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪水疱病病毒主要通过口、鼻、水疱液等途径排出，同时也能通过空气传播。",
+    "reference_case": "猪水疱病病毒主要通过口、鼻、水疱液等途径排出。",
+    "error_detail": "添加了不存在的传播途径——空气传播",
+    "original_question": "猪水疱病病毒主要通过哪些途径排出？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "健康猪与病猪的直接接触或与污染的饲料、饮水、泔水、屠宰下脚料等间接接触而感染，经消化道感染是猪群中传播的主要方式。此外，病毒还能通过空气传播。",
+    "reference_case": "健康猪与病猪的直接接触或与污染的饲料、饮水、泔水、屠宰下脚料等间接接触而感染，经消化道感染是猪群中传播的主要方式。",
+    "error_detail": "添加了不存在的传播途径——空气传播",
+    "original_question": "猪水疱病病毒如何传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪感染猪水疱疹病毒后可产生高水平的中和抗体，且抗体水平可持续终身。",
+    "reference_case": "猪感染猪水疱疹病毒后可产生高水平的中和抗体。",
+    "error_detail": "添加了不准确的抗体持续时间——终身",
+    "original_question": "猪感染猪水疱病病毒后会产生什么样的免疫反应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "根据水疱、跛行、流涎、体温变化等可作出初步诊断，但因与口蹄疫、猪水疱病、猪水疱性口炎在临诊症状上极为相似，很难确诊，必须通过实验室诊断加以区分。此外，还可以通过观察猪的行为变化来区分。",
+    "reference_case": "根据水疱、跛行、流涎、体温变化等可作出初步诊断，但因与口蹄疫、猪水疱病、猪水疱性口炎在临诊症状上极为相似，很难确诊，必须通过实验室诊断加以区分。",
+    "error_detail": "添加了不相关的区分方法——观察猪的行为变化",
+    "original_question": "如何区别猪水疮疹与其他有水疮症状的猪病?",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟的临诊特征是高热、皮肤发绀以及淋巴结和内脏器官的严重出血，死亡率可高达100%，且病毒能感染人类。",
+    "reference_case": "非洲猪瘟的临诊特征是高热、皮肤发绀以及淋巴结和内脏器官的严重出血，死亡率可高达100%。",
+    "error_detail": "添加了不存在的感染对象——人类",
+    "original_question": "非洲猪瘟的临诊特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟病毒（African swine fever virus, ASFV），属于非洲猪瘟病毒科（Asfarviridae）非洲猪瘟病毒属（Asfarvirus）的唯一成员，同时也是DNA病毒。",
+    "reference_case": "非洲猪瘟病毒（African swine fever virus, ASFV），属于非洲猪瘟病毒科（Asfarviridae）非洲猪瘟病毒属（Asfarvirus）的唯一成员。",
+    "error_detail": "添加了不相关的分类信息——DNA病毒",
+    "original_question": "非洲猪瘟的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在感染的猪巨噬细胞中有200种以上的病毒诱导蛋白。",
+    "reference_case": "在感染的猪巨噬细胞中有100种以上的病毒诱导蛋白。",
+    "error_detail": "错误的病毒诱导蛋白数量",
+    "original_question": "非洲猪瘟病毒在感染的猪巨噬细胞中有多少种以上的病毒诱导蛋白？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "在pH 3.9~13.4条件下2h仍有感染性；室温干燥或冷冻数年仍可存活，室温下经18个月仍能够从血液中分离出病毒，在某些腌制的猪肉制品中ASFV能够存活140d；对酸性环境不敏感。但是对高热的抵抗力不强，60°C 30min可使病毒很快失活；对许多脂溶剂和常用消毒剂敏感，10%邻苯基苯酚是非常有效的消毒剂。此外，病毒在紫外线照射下也能迅速灭活。",
+    "reference_case": "在pH 3.9~13.4条件下2h仍有感染性；室温干燥或冷冻数年仍可存活，室温下经18个月仍能够从血液中分离出病毒，在某些腌制的猪肉制品中ASFV能够存活140d；对酸性环境不敏感。但是对高热的抵抗力不强，60°C 30min可使病毒很快失活；对许多脂溶剂和常用消毒剂敏感，10%邻苯基苯酚是非常有效的消毒剂。",
+    "error_detail": "添加了不存在的灭活方法——紫外线照射",
+    "original_question": "非洲猪瘟病毒的抵抗力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "病猪和带毒猪是传染源，可从其各种分泌物、排泄物、组织器官中分离出病毒。病毒可通过直接接触、呼吸道、消化道等传播，也可经人员、车辆、器具之间机械性传播，多种软蜱是重要的传播媒介。在非洲，ASFV以循环感染非洲野猪和软蜱的方式传播；在欧洲，患病动物与健康动物的直接接触是主要传播途径。此外，病毒还能通过空气传播。",
+    "reference_case": "病猪和带毒猪是传染源，可从其各种分泌物、排泄物、组织器官中分离出病毒。病毒可通过直接接触、呼吸道、消化道等传播，也可经人员、车辆、器具之间机械性传播，多种软蜱是重要的传播媒介。在非洲，ASFV以循环感染非洲野猪和软蜱的方式传播；在欧洲，患病动物与健康动物的直接接触是主要传播途径。",
+    "error_detail": "添加了不存在的传播途径——空气传播",
+    "original_question": "非洲猪瘟的传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪、野猪、大林猪、疣猪等是病毒的自然宿主, 但仅猪和野猪感染后发病。非洲钝缘蜱、伊比利亚半岛的游走性钝缘蜱等软蜱是重要的保毒宿主。猪群一旦感染，传播迅速，发病率和死亡率都很高。此外，病毒也能感染人类。",
+    "reference_case": "猪、野猪、大林猪、疣猪等是病毒的自然宿主, 但仅猪和野猪感染后发病。非洲钝缘蜱、伊比利亚半岛的游走性钝缘蜱等软蜱是重要的保毒宿主。猪群一旦感染，传播迅速，发病率和死亡率都很高。",
+    "error_detail": "添加了不存在的感染对象——人类",
+    "original_question": "非洲猪瘟的流行病学特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PTV 以前被命名为猪肠道病毒（porcine enterovirus, PEV），同时也是RNA病毒。",
+    "reference_case": "PTV 以前被命名为猪肠道病毒（porcine enterovirus, PEV）。",
+    "error_detail": "添加了不相关的分类信息——RNA病毒",
+    "original_question": "PTV 以前被命名为什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪肠道病毒分为 3 个群、4 个血清型。",
+    "reference_case": "猪肠道病毒分为 2 个群、3 个血清型。",
+    "error_detail": "错误的群和血清型数量",
+    "original_question": "猪肠道病毒分为几个群、几个血清型？",
+    "original_input": ""
+  }
+]

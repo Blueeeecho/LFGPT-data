@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "本菌可感染多种动物。犬最为易感，马、牛、猪、绵羊次之。实验动物中，家兔最为易感，静脉注射本菌后24小时即可致死。大鼠、小鼠、豚鼠、地鼠亦可感染发病。",
+    "reference_case": "本菌可感染多种动物。马最为易感，犬、牛、猪、绵羊次之。实验动物中，家兔最为易感，静脉注射本菌后48小时即可致死。大鼠、小鼠、豚鼠、地鼠亦可感染发病。",
+    "error_detail": "修改了易感动物的顺序和致死时间，导致数据型幻觉。",
+    "original_question": "哪些动物容易感染葡萄球菌？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "宿主范围广泛，可以危害大鼠、小鼠、仓鼠、豚鼠、犬、狐狸、猫、马、猪、松鼠、猴及鸟类。",
+    "reference_case": "宿主范围广泛，可以危害大鼠、小鼠、仓鼠、豚鼠、犬、狐狸、猫、马、猪、松鼠、猴及人类。",
+    "error_detail": "将'人类'错误地替换为'鸟类'，导致概念混淆幻觉。",
+    "original_question": "兔脑细胞内原虫的宿主范围包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在小麦中，肟草晍与除草剂以200克/公顷的比例使用时，对猪殃殃的鲜重抑制率为-5%。",
+    "reference_case": "在小麦中，肟草晍与除草剂以200克/公顷的比例使用时，对猪殃殃的鲜重抑制率为-11%。",
+    "error_detail": "修改了鲜重抑制率的数值，导致数据型幻觉。",
+    "original_question": "在小麦中，除草剂与肟草晍以200克/公顷的比例使用时，对猪殃殃的鲜重抑制率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在磺苯腈剂量为0克/公顷时，2甲4氯丙酸剂量分别为100、200、400、800克/公顷对猪殃殃的防治效果依次为5.3、2.3、2.3、2.0、1.9。",
+    "reference_case": "在磺苯腈剂量为0克/公顷时，2甲4氯丙酸剂量分别为",
+    "error_detail": "添加了具体的防治效果数据，导致指令偏离型幻觉。",
+    "original_question": "2甲4氯丙酸和磺苯腈以不同配比防治猪殃殃的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在磺苯腈剂量为0克/公顷时，2甲4氯丙酸剂量分别为100、200、400、800克/公顷对繁缕的防治效果依次为3.1、2.0、2.2、1.6、1.5。",
+    "reference_case": "在磺苯腈剂量为0克/公顷时，2甲4氯丙酸剂量分别为",
+    "error_detail": "添加了具体的防治效果数据，导致指令偏离型幻觉。",
+    "original_question": "2甲4氯丙酸和磺苯腈以不同配比防治繁缕的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "恶唑禾草灵与氟草烟混用对婆婆纳、大巢菜、猪荗殃等杂草总体防效较高，表现出拮抗作用。",
+    "reference_case": "恶唑禾草灵与氟草烟混用对婆婆纳、大巢菜、猪荗殃等杂草总体防效较高，不表现出拮抗作用。",
+    "error_detail": "错误地表示混用表现出拮抗作用，导致概念混淆幻觉。",
+    "original_question": "恶唑禾草灵和氟草烟混用对婆婆纳、大巢菜、猪荗殃等杂草的防效如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪饲粮配方设计时需要考虑猪的生长阶段、营养需求、饲料成本等因素，确保配方满足猪的营养需求同时经济合理，还需要考虑猪的品种。",
+    "reference_case": "猪饲粮配方设计时需要考虑猪的生长阶段、营养需求、饲料成本等因素，确保配方满足猪的营养需求同时经济合理。",
+    "error_detail": "添加了'猪的品种'这一未提及的因素，导致假设滥用型幻觉。",
+    "original_question": "猪饲粮配方设计时需要考虑哪些因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "表2-2列出了玉米、稻谷、䊁米、碎米、皮大麦、裸大麦、高粱、粟和除壳粟的消化能含量，包括消化能(猪)、消化能(肉牛)、消化能(羊)、代谢能(鸡)和产奶净能(奶牛)。",
+    "reference_case": "表2-2列出了玉米、稻谷、䊁米、碎米、皮大麦、裸大麦、高粱、粟和除壳粟的消化能含量，包括消化能(猪)、消化能(肉牛)、消化能(羊)、代谢能(鸡)和产奶净能(奶牛)。",
+    "error_detail": "错误地拼写了'䊁米'，导致概念混淆幻觉。",
+    "original_question": "不同谷物饲料中哪些成分的消化能含量被列出？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "表2-2中的消化能数据适用于猪、肉牛、羊、鸡、奶牛和鱼类。",
+    "reference_case": "表2-2中的消化能数据适用于猪、肉牛、羊、鸡和奶牛。",
+    "error_detail": "添加了'鱼类'这一未提及的动物，导致指令偏离型幻觉。",
+    "original_question": "表2-2中的消化能数据适用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪消化玉米的赖氨酸真消化率为70%。",
+    "reference_case": "猪消化玉米的赖氨酸真消化率为65%。",
+    "error_detail": "修改了赖氨酸真消化率的数值，导致数据型幻觉。",
+    "original_question": "猪消化玉米的赖氨酸真消化率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "玉米作为饲料对猪、鸡、牛、羊等草食动物的饲用效果较好，对鱼类的效果也非常理想。",
+    "reference_case": "玉米作为饲料对猪、鸡、牛、羊等草食动物的饲用效果较好，对鱼类的效果不够理想。",
+    "error_detail": "错误地表示玉米对鱼类的饲用效果非常理想，导致概念混淆幻觉。",
+    "original_question": "玉米作为饲料时，对哪些动物的饲用效果较好？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "玉米作为能量饲料对育肥猪的饲用效果虽好，但应避免过多饲用，否则猪背膘增厚，瘦肉率下降，甚至产生'白膘肉'。",
+    "reference_case": "玉米作为能量饲料对育肥猪的饲用效果虽好，但应避免过多饲用，否则猪背膘增厚，瘦肉率下降，甚至产生'黄膘肉'。",
+    "error_detail": "错误地将'黄膘肉'改为'白膘肉'，导致数据型幻觉。",
+    "original_question": "玉米作为能量饲料时对育肥猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小麦可作为猪的能量饲料，减少蛋白质饲料用量，提高肉品质，但消化能值高于玉米。猪饲料中宜磨碎使用。",
+    "reference_case": "小麦可作为猪的能量饲料，减少蛋白质饲料用量，提高肉品质，但消化能值低于玉米。猪饲料中宜磨碎使用。",
+    "error_detail": "错误地表示小麦的消化能值高于玉米，导致数据型幻觉。",
+    "original_question": "小麦对猪的能量饲料作用如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "建议直接用稻谷喂猪、鸡等单胃动物，因稻壳含量高，消化率低。",
+    "reference_case": "不建议直接用稻谷喂猪、鸡等单胃动物，因稻壳含量高，消化率低。",
+    "error_detail": "错误地建议直接用稻谷喂单胃动物，导致概念混淆幻觉。",
+    "original_question": "直接用稻谷喂单胃动物是否可行？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "木薯在饲用前，最好要测定其中氢氰酸含量，符合卫生标准方能饲用，若超标，要对其进行脱毒处理。在家禽饲粮中，木薯干用量一般控制在15%以下为宜，但在蛋鸡饲粮中可酌情增加用量。在肉猪饲粮中，木薯干用量可达30%。在肉牛饲粮中，也可用30%的木薯干。",
+    "reference_case": "木薯在饲用前，最好要测定其中氢氰酸含量，符合卫生标准方能饲用，若超标，要对其进行脱毒处理。在家禽饲粮中，木薯干用量一般控制在10%以下为宜，但在蛋鸡饲粮中可酌情增加用量。在肉猪饲粮中，木薯干用量可达30%。在肉牛饲粮中，也可用30%的木薯干。",
+    "error_detail": "修改了家禽饲粮中木薯干的用量，导致数据型幻觉。",
+    "original_question": "木薯的饲用方法有哪些注意事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补饲油脂可使日增重增加50g。",
+    "reference_case": "补饲油脂可使日增重增加40g。",
+    "error_detail": "修改了日增重的增加量，导致数据型幻觉。",
+    "original_question": "补饲油脂对生长肥育猪的日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪补饲油脂可使其日产奶量增加10%。",
+    "reference_case": "哺乳母猪补饲油脂可使其日产奶量增加8.9%。",
+    "error_detail": "修改了日产奶量的增加比例，导致数据型幻觉。",
+    "original_question": "哺乳母猪补饲油脂对其日产奶量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鱼粉在家禽饲粮中的用量应控制在10%以下，猪饲粮中的用量应控制在8%以下。",
+    "reference_case": "鱼粉在家禽饲粮中的用量应控制在8%以下，猪饲粮中的用量应控制在6%以下。",
+    "error_detail": "修改了鱼粉在家禽和猪饲粮中的用量，导致数据型幻觉。",
+    "original_question": "鱼粉的适宜使用比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "向日葵仁饼在产蛋鸡饲粮中的用量为15%以内，向日葵仁饼在肉猪饲粮中的用量可取代60%的大豆饼（粕）。",
+    "reference_case": "向日葵仁饼在产蛋鸡饲粮中的用量为10%以内，向日葵仁饼在肉猪饲粮中的用量可取代50%的大豆饼（粕）。",
+    "error_detail": "修改了向日葵仁饼在产蛋鸡和肉猪饲粮中的用量，导致数据型幻觉。",
+    "original_question": "向日葵仁饼在产蛋鸡饲粮中和肉猪饲粮中的最大用量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "亚麻仁饼（粕）在肉猪饲粮中的用量应控制在10%以内。",
+    "reference_case": "亚麻仁饼（粕）在肉猪饲粮中的用量应控制在8%以内。",
+    "error_detail": "修改了亚麻仁饼（粕）在肉猪饲粮中的用量，导致数据型幻觉。",
+    "original_question": "亚麻仁饼（粕）在肉猪饲粮中的最大用量是多少？",
+    "original_input": ""
+  }
+]

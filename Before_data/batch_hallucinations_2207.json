@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "主要采取猪粪肥和鱼塘塘沉肥，以及鸡粪肥。",
+    "reference_case": "主要采取猪粪肥和鱼塘塘沉肥。",
+    "error_detail": "添加了不存在的有机肥料种类",
+    "original_question": "张庄村采取的有机肥料主要有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "包括水虻虫粉、陆生动蚹、福寿螺肉、蚕蛹粉、轮虫、枝角类、图虫幼体、水解毛发粉、河蚌肉、水解羽毛粉、蚯蚓新、猪血粉和骨粉等，以及大豆蛋白粉。",
+    "reference_case": "包括水虻虫粉、陆生动蚹、福寿螺肉、蚕蛹粉、轮虫、枝角类、图虫幼体、水解毛发粉、河蚌肉、水解羽毛粉、蚯蚓新、猪血粉和骨粉等。",
+    "error_detail": "添加了不属于鱼粉替代物的种类",
+    "original_question": "鱼粉替代物的种类有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "蚕蛹粉的蛋白质含量为60%，猪血粉为85%，水解羽毛粉为80%，水解毛发粉为50%。",
+    "reference_case": "蚕蛹粉的蛋白质含量为54.3%，猪血粉为80.7%，水解羽毛粉为76.1%，水解毛发粉为44.8%。",
+    "error_detail": "蛋白质含量数值被夸大",
+    "original_question": "哪些动物性鱼粉替代物的蛋白质含量较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "1985年实现一人一猪，猪只存栏数达到20000头。",
+    "reference_case": "1985年实现一人一猪，猪只存栏数达到15000头。",
+    "error_detail": "存栏数目标被错误提高",
+    "original_question": "1985年全社猪只存栏数目标是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪只全年饲养量达到三万头，年末存栏二万头，比去年增长百分之五十。",
+    "reference_case": "猪只全年饲养量达到二万二千五百头，年末存栏一万四千八百头，比去年增长百分之三十四。",
+    "error_detail": "饲养量和存栏数被夸大，增长率错误",
+    "original_question": "公社畜牧业发展如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪的肠音听诊部位主要在右侧肷部上1/3（小肠音）和左侧肷部（盲肠音）。",
+    "reference_case": "猪的肠音听诊部位主要在左侧肷部上1/3（小肠音）和右侧肷部（盲肠音）。",
+    "error_detail": "听诊部位左右颠倒",
+    "original_question": "猪的肠音听诊部位有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "正常的猪小肠蠕动音频率为每分钟15至20次。",
+    "reference_case": "正常的猪小肠蠕动音频率为每分钟8至12次。",
+    "error_detail": "蠕动音频率被夸大",
+    "original_question": "正常的猪小肠蠕动音频率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "黄牛血红蛋白浓度为1.2 (g/L)；水牛为1.5 (g/L)；奶牛为1.0 (g/L)；马为1.5 (g/L)；驴为1.2 (g/L)；猪为1.3 (g/L)；奶山羊为0.9 (g/L)；绵羊为0.8 (g/L)；骆驼为1.2 (g/L)；牦牛为1.2 (g/L)。",
+    "reference_case": "黄牛血红蛋白浓度为0.955±0.1 (g/L)；水牛为1.23±1.66 (g/L)；奶牛为0.837±0.07 (g/L)；马为1.277±0.205 (g/L)；驴为1.099±0.302 (g/L)；猪为1.116±0.142 (g/L)；奶山羊为0.833±0.075 (g/L)；绵羊为0.72±0.127 (g/L)；骆驼为1.105±0.117 (g/L)；牦牛为1.117±0.117 (g/L)。",
+    "error_detail": "血红蛋白浓度数值被简化且不准确",
+    "original_question": "血红蛋白浓度的参考值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪主要靠胃和小肠中的纤维分解菌分解一定数量的纤维素和半纤维素。",
+    "reference_case": "猪主要靠结肠和盲肠中的纤维分解菌分解一定数量的纤维素和半纤维素，由发酵产生挥发性脂肪酸，经肠壁吸收而利用。对淀粉的消化率与反刍家畜近似，在小肠中将淀粉分解成葡萄糖为肠壁吸收。猪对碳水化合物的消化利用，是以葡萄糖代谢为主，挥发性脂肪酸代谢为辅。",
+    "error_detail": "错误地指出了纤维分解菌的位置",
+    "original_question": "猪对碳水化合物的消化代谢特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳清粉在犊牛、仔猪的人工乳中的添加比例为20%。",
+    "reference_case": "乳清粉在犊牛、仔猪的人工乳中的添加比例为适量。",
+    "error_detail": "添加比例被具体化且可能不准确",
+    "original_question": "乳清粉在犊牛、仔猪的人工乳中的添加比例是多少？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "是的，饲料费用是养猪生产成本构成的次要因素。",
+    "reference_case": "是的，饲料费用是养猪生产成本构成的首要因素。",
+    "error_detail": "错误地将首要因素改为次要因素，导致数据型幻觉。",
+    "original_question": "饲料费用是养猪生产成本构成的首要因素吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "9340 元",
+    "reference_case": "934 元",
+    "error_detail": "数值被错误地放大了10倍，导致数据型幻觉。",
+    "original_question": "育肥专业户每头肥猪的饲养成本是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "400 元",
+    "reference_case": "40 元",
+    "error_detail": "数值被错误地放大了10倍，导致数据型幻觉。",
+    "original_question": "自繁自养户每头仔猪的疫苗和药物费用是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "500 kg",
+    "reference_case": "50 kg",
+    "error_detail": "数值被错误地放大了10倍，导致数据型幻觉。",
+    "original_question": "自繁自养户每头仔猪的饲料消耗量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2825.6 kg",
+    "reference_case": "282.56 kg",
+    "error_detail": "数值被错误地放大了10倍，导致数据型幻觉。",
+    "original_question": "育肥专业户每头肥猪的饲料消耗量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "60 元/kg",
+    "reference_case": "6 元/kg",
+    "error_detail": "数值被错误地放大了10倍，导致数据型幻觉。",
+    "original_question": "自繁自养户每头仔猪的饲料价格是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟、口蹄疫、猪丹毒、猪肺疫和蓝耳病的平均接种率都在65%以下。",
+    "reference_case": "猪瘟、口蹄疫、猪丹毒、猪肺疫和蓝耳病的平均接种率都在65%以上。",
+    "error_detail": "错误地将接种率从65%以上改为65%以下，导致概念混淆幻觉。",
+    "original_question": "文中提到的传统疫病中哪些的平均接种率在65%以上？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪舍简陋，设施不完善，通风、采光和保暖效果差，水泥地面不易消毒，有害气体浓度高，易导致疾病发生，粪便和污物处理不当，影响环境卫生。此外，猪舍还经常遭受洪水侵袭。",
+    "reference_case": "猪舍简陋，设施不完善，通风、采光和保暖效果差，水泥地面不易消毒，有害气体浓度高，易导致疾病发生，粪便和污物处理不当，影响环境卫生。",
+    "error_detail": "添加了未经证实的假设（洪水侵袭），导致假设滥用型幻觉。",
+    "original_question": "猪舍的建设及环境存在哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "自繁自养减少，近交衰退，种猪选择不当，引进品种管理不善，导致品种退化，生产性能低，母猪产仔率低。",
+    "reference_case": "自繁自养增加，近交衰退，种猪选择不当，引进品种管理不善，导致品种退化，生产性能低，母猪产仔率低。",
+    "error_detail": "将自繁自养增加改为减少，导致逻辑矛盾。",
+    "original_question": "猪品种质量方面存在哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "卫生防疫意识淡薄，消毒不彻底，新购猪不隔离，疫苗注射密度低，乱用兽药和疫苗，人员随意出入猪舍，增加疾病传播机会。此外，养猪户还经常忽视猪的饮食管理。",
+    "reference_case": "卫生防疫意识淡薄，消毒不彻底，新购猪不隔离，疫苗注射密度低，乱用兽药和疫苗，人员随意出入猪舍，增加疾病传播机会。",
+    "error_detail": "添加了与指令无关的内容（饮食管理），导致指令偏离型幻觉。",
+    "original_question": "防疫不规范主要表现在哪些方面？",
+    "original_input": ""
+  }
+]

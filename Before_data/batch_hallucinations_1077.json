@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在公猪的日粮中添加L-肉碱和亚麻油能够增强公猪的性欲、精子中二十二碳六烯酸（DHA）的含量以及精液抗氧化性能，从而提高种公猪的精液产量、精子活力和精子密度，具体提高比例为50%。",
+    "reference_case": "在公猪的日粮中添加L-肉碱和亚麻油能够增强公猪的性欲、精子中二十二碳六烯酸（DHA）的含量以及精液抗氧化性能，从而提高种公猪的精液产量、精子活力和精子密度。",
+    "error_detail": "添加了不存在的具体提高比例数据",
+    "original_question": "在公猪的日粮中添加L-肉碱和亚麻油对精液品质有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "L-肉碱可以显著提高母猪的泌乳量，并且乳汁中的总肉碱浓度和游离肉碱浓度均明显高于对照组，此外，脂肪和乳糖的数量也高于对照组。",
+    "reference_case": "L-肉碱可以显著提高母猪的泌乳量，并且乳汁中的总肉碱浓度和游离肉碱浓度均明显高于对照组，此外，蛋白质和乳糖的数量也高于对照组。",
+    "error_detail": "将蛋白质错误地替换为脂肪",
+    "original_question": "L-肉碱对母猪泌乳量和乳成分有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在断奶仔猪日粮中添加L-肉碱可以使仔猪的平均日增重呈线性增加，料肉比呈二次方增加，特别是在日粮中提供大豆油时，添加左旋肉碱更加有效，可以更好地提高断奶仔猪的生产性能。根据2010年的研究，效果最佳。",
+    "reference_case": "在断奶仔猪日粮中添加L-肉碱可以使仔猪的平均日增重呈线性增加，料肉比呈二次方增加，特别是在日粮中提供大豆油时，添加左旋肉碱更加有效，可以更好地提高断奶仔猪的生产性能。",
+    "error_detail": "添加了过时的研究年份",
+    "original_question": "L-肉碱在断奶仔猪日粮中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "中国•猪营养国际论坛由美国动物科学学会和北京亘泰实业集团联合主办。",
+    "reference_case": "中国•猪营养国际论坛由美国动物科学学会和上海亘泰实业集团联合主办。",
+    "error_detail": "将上海亘泰实业集团错误地替换为北京亘泰实业集团",
+    "original_question": "中国•猪营养国际论坛的主办方是谁？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "生长猪的赖氨酸需要量可以用每千克增重需要的克数、每能量单位的克数或每体积单位的克数来表达。",
+    "reference_case": "生长猪的赖氨酸需要量可以用每千克增重需要的克数、每能量单位的克数或每体重单位的克数来表达。",
+    "error_detail": "将体重单位错误地替换为体积单位",
+    "original_question": "生长猪的赖氨酸需要量是如何表达的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪的标准回肠可消化赖氨酸需要量大致为每千克增重需要25克。",
+    "reference_case": "仔猪的标准回肠可消化赖氨酸需要量大致为每千克增重需要19克。",
+    "error_detail": "错误地提高了赖氨酸需要量的数值",
+    "original_question": "仔猪的标准回肠可消化赖氨酸需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "肥育猪的赖氨酸需要量比仔猪更加多变和复杂，主要由于能量摄取、健康状况、瘦肉沉积能力和环境因素的差异。肥育猪的赖氨酸需要量大致为每千克增重需要20克。",
+    "reference_case": "肥育猪的赖氨酸需要量比仔猪更加多变和复杂，主要由于瘦肉沉积能力、健康状况、能量摄取和环境因素的差异。肥育猪的赖氨酸需要量大致为每千克增重需要20克。",
+    "error_detail": "错误地调整了影响因素的顺序",
+    "original_question": "肥育猪的赖氨酸需要量与仔猪相比有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "苏氨酸与赖氨酸的比值从15公斤猪的60%增加到110公斤猪的70%。对于10-20公斤的猪，最适比例为64%-66%。",
+    "reference_case": "苏氨酸与赖氨酸的比值从15公斤猪的58%增加到110公斤猪的65%。对于10-20公斤的猪，最适比例为64%-66%。",
+    "error_detail": "错误地调整了苏氨酸与赖氨酸的比值",
+    "original_question": "苏氨酸与赖氨酸的比值在不同体重阶段的猪中有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "总含硫氨基酸与赖氨酸的比值在生长猪中为50%-55%，且此数值会随着达到市场体重而稍有增高。",
+    "reference_case": "总含硫氨基酸与赖氨酸的比值在生长猪中为55%-60%，且此数值会随着达到市场体重而稍有增高。",
+    "error_detail": "错误地降低了总含硫氨基酸与赖氨酸的比值",
+    "original_question": "总含硫氨基酸与赖氨酸的比值在不同体重阶段的猪中有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "色氨酸与赖氨酸的比值在仔猪中为18%-22%，而在育肥猪中，最适比值仍存在争议，但一般认为18:5%是一个安全范围值。",
+    "reference_case": "色氨酸与赖氨酸的比值在仔猪中为16%-20%，而在育肥猪中，最适比值仍存在争议，但一般认为16:5%是一个安全范围值。",
+    "error_detail": "错误地调整了色氨酸与赖氨酸的比值",
+    "original_question": "色氨酸与赖氨酸的比值在不同体重阶段的猪中有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "缬氨酸与赖氨酸的比值在仔猪中为60%-65%，而在欧洲的研究中，此比值可能高达75%。",
+    "reference_case": "缬氨酸与赖氨酸的比值在仔猪中为65%-66%，而在欧洲的研究中，此比值可能高达70%。",
+    "error_detail": "错误地调整了缬氨酸与赖氨酸的比值",
+    "original_question": "缬氨酸与赖氨酸的比值在不同体重阶段的猪中有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "异亮氨酸与赖氨酸的比值在含有血粉或血球细胞的日粮中需要为65%或更高，而在不含血粉的日粮中，此比值可以低至55%。",
+    "reference_case": "异亮氨酸与赖氨酸的比值在含有血粉或血球细胞的日粮中需要为60%或更高，而在不含血粉的日粮中，此比值可以低至50%。",
+    "error_detail": "错误地调整了异亮氨酸与赖氨酸的比值",
+    "original_question": "异亮氨酸与赖氨酸的比值在不同体重阶段的猪中有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "犬瘟热病毒的自然感染宿主已由传统的犬科、鼠科和浣熊科扩展到了食肉目所有8个科、偶蹄目猪科、灵长目的猕猴属和鳍足目海豹科等多种动物，其危害也越来越大。此外，还包括鸟类。",
+    "reference_case": "犬瘟热病毒的自然感染宿主已由传统的犬科、鼠科和浣熊科扩展到了食肉目所有8个科、偶蹄目猪科、灵长目的猕猴属和鳍足目海豹科等多种动物，其危害也越来越大。",
+    "error_detail": "错误地添加了鸟类作为感染宿主",
+    "original_question": "犬瘟热病毒的自然感染宿主范围有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "绵羊伪狂犬病病毒的gC基因序列与1998年分离于北美洲美国的猪伪狂犬病病毒株（JF460033，JF460034，JF460035:的遗传关系最近。",
+    "reference_case": "绵羊伪狂犬病病毒的gC基因序列与1998年分离于南美洲阿根廷的猪伪狂犬病病毒株（JF460033，JF460034，JF460035:的遗传关系最近。",
+    "error_detail": "错误地将南美洲阿根廷替换为北美洲美国",
+    "original_question": "绵羊伪狂犬病病毒的gC基因序列与哪些病毒株的遗传关系最近？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪源样品来自上海市奉贤区、浦东区的3个规模化猪场及嘉定区的1个屠宰场；人源样品来自上海市徐汇区某医院。",
+    "reference_case": "猪源样品来自上海市奉贤区、浦东区的3个规模化猪场及嘉定区的1个屠宰场；人源样品来自上海市闵行区某医院。",
+    "error_detail": "错误地将闵行区替换为徐汇区",
+    "original_question": "上海市猪源和人源耐甲氧西林金黄色葡萄球菌（MRSA）的分离样品分别来自哪些地点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用了75 g/L氯化钠肉汤预增菌、显色培养基显色培养和双重PCR（nuc和mecA基因）方法进行分离鉴定。此外，还使用了质谱分析。",
+    "reference_case": "使用了75 g/L氯化钠肉汤预增菌、显色培养基显色培养和双重PCR（nuc和mecA基因）方法进行分离鉴定。",
+    "error_detail": "错误地添加了质谱分析方法",
+    "original_question": "上海市猪源和人源MRSA的分离鉴定使用了哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "上海市猪源MRSA的主要分子分型为ST9-SCCmecIVb型，其中40株为spa t899型，2株为spa t2922型。",
+    "reference_case": "上海市猪源MRSA的主要分子分型为ST9-SCCmecIVb型，其中37株为spa t899型，2株为spa t2922型。",
+    "error_detail": "错误地调整了spa t899型的数量",
+    "original_question": "上海市猪源MRSA的主要分子分型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "上海市猪源MRSA的分子分型为ST9-SCCmecIVb型，而国内其他地区如四川、河北、湖北和陕西的猪源MRSA主要为SCCmec II型。",
+    "reference_case": "上海市猪源MRSA的分子分型为ST9-SCCmecIVb型，而国内其他地区如四川、河北、湖北和陕西的猪源MRSA主要为SCCmec III型。",
+    "error_detail": "错误地将SCCmec III型替换为SCCmec II型",
+    "original_question": "上海市猪源MRSA的分子分型与国内其他地区相比有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "上海市猪源和人源MRSA之间暂未发现有相互传播的迹象，但可能存在未被检测到的传播途径。",
+    "reference_case": "上海市猪源和人源MRSA之间暂未发现有相互传播的迹象。",
+    "error_detail": "错误地添加了未被检测到的传播途径的假设",
+    "original_question": "上海市猪源和人源MRSA之间是否存在相互传播的迹象？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪滕病毒属于大核糖核酸病毒科。",
+    "reference_case": "猪滕病毒属于小核糖核酸病毒科。",
+    "error_detail": "错误地将小核糖核酸病毒科替换为大核糖核酸病毒科",
+    "original_question": "猪滕病毒属于哪个病毒科？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "利用单重PCR对临床症状表现疑似仔猪进行病毒鉴定，无菌采取病猪脑组织，全部做病理组织学检查，供病毒分离和抗原检测，病毒分离时将脑组织悬液接种于猪肾原代单层细胞，并用红细胞凝集试验、免疫荧光染色试验或电镜检查法鉴定病毒。",
+    "reference_case": "利用多重PCR对临床症状表现疑似仔猪进行病毒鉴定，无菌采取病猪脑组织，一半做病理组织学检查，一半供病毒分离和抗原检测，病毒分离时将脑组织悬液接种于猪肾原代单层细胞，并用红细胞凝集试验、免疫荧光染色试验或电镜检查法鉴定病毒。",
+    "error_detail": "将多重PCR错误地改为单重PCR，且错误地描述了脑组织的处理方式。",
+    "original_question": "猪血凝性脑脊髓炎病毒的诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "鱼杆菌样套式病毒属的成员包括猪环曲病毒和鲤鱼病毒。",
+    "reference_case": "鱼杆菌样套式病毒属的成员包括猪环曲病毒和白鳊病毒。",
+    "error_detail": "将白鳊病毒错误地改为鲤鱼病毒，属于概念混淆。",
+    "original_question": "鱼杆菌样套式病毒属的成员有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒的基因组包含从5'端到3'端依次排列的7个开放读码框，分别是ORF",
+    "reference_case": "猪繁殖与呼吸综合征病毒的基因组包含从5'端到3'端依次排列的9个开放读码框，分别是ORF",
+    "error_detail": "将开放读码框的数量错误地从9个改为7个。",
+    "original_question": "猪繁殖与呼吸综合征病毒的基因组包含哪些开放读码框？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "ORF1主要编码病毒的RNA复制酶和聚合酶，占基因组全长的70%。",
+    "reference_case": "ORF1主要编码病毒的RNA复制酶和聚合酶，占基因组全长的80%。",
+    "error_detail": "将ORF1占基因组全长的比例错误地从80%改为70%。",
+    "original_question": "ORF1主要编码什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒的主要结构蛋白包括GP3、GP2a、E蛋白、GP4等。",
+    "reference_case": "猪繁殖与呼吸综合征病毒的主要结构蛋白包括GP3、GP2a、E蛋白、GP5等。",
+    "error_detail": "将GP5错误地改为GP4，属于概念混淆。",
+    "original_question": "猪繁殖与呼吸综合征病毒的主要结构蛋白有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "GP3蛋白在病毒中的功能是作为病毒的主要中和抗原。",
+    "reference_case": "GP3蛋白在病毒中的结构功能尚存争议，但研究显示它可能参与了病毒免疫逃避，且是一种高度糖基化蛋白。",
+    "error_detail": "错误地描述了GP3蛋白的功能，将其与GP5蛋白的功能混淆。",
+    "original_question": "GP3蛋白在病毒中的功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高致病性猪繁殖与呼吸综合征病毒已蔓延至我国20个省份。",
+    "reference_case": "高致病性猪繁殖与呼吸综合征病毒已蔓延至我国25个省份。",
+    "error_detail": "将蔓延至的省份数量错误地从25个改为20个。",
+    "original_question": "高致病性猪繁殖与呼吸综合征病毒的流行范围如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒的ORF1a基因编码NSP1、NSP2、NSP3、NSP4、NSP5、NSP6、NSP7非结构蛋白。",
+    "reference_case": "猪繁殖与呼吸综合征病毒的ORF1a基因编码NSP2、NSP3、NSP4、NSP5、NSP6、NSP7和NSP8非结构蛋白。",
+    "error_detail": "错误地添加了NSP1，并遗漏了NSP8。",
+    "original_question": "猪繁殖与呼吸综合征病毒的ORF1a基因编码哪些非结构蛋白？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "哪些家畜对基孔肯雅病毒具有反应性抗体？猪（4.06%）、犬（1.8%）、黄胸鼠和树䶃（15.8%）体内存在反应性抗体。",
+    "reference_case": "哪些家畜对基孔肯雅病毒具有反应性抗体？猪（4.06%）、犬（1.8%）、黄胸鼠和树䶃（18.8%）体内存在反应性抗体。",
+    "error_detail": "将黄胸鼠和树䶃的反应性抗体比例错误地从18.8%改为15.8%。",
+    "original_question": "哪些家畜对基孔肯雅病毒具有反应性抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "黄鳝养殖池中如何提供隐蔽环境？池底用三合土捶打结实，垫适量的秸秆或猪、牛粪，以增加有机质，再投以石块、断砖，创造穴栖环境，再放入20 cm左右厚的肥土。",
+    "reference_case": "池底用三合土捶打结实，垫适量的秸秆或猪、牛粪，以增加有机质，再投以石块、断砖，创造穴栖环境，再放入30 cm左右厚的肥土。",
+    "error_detail": "将肥土的厚度错误地从30 cm改为20 cm。",
+    "original_question": "黄鳝养殖池中如何提供隐蔽环境？",
+    "original_input": ""
+  }
+]

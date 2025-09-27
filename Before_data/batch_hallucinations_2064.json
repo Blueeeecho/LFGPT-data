@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "按照市场最高价格计算赔款，死猪折价归被保险人处理；建议修改为按当地食品公司收购毛猪的最高价计算或按死猪体重几个档次的价格计算，残值归被保险人处理。",
+    "reference_case": "按照市场中等价格计算赔款，死猪折价归被保险人处理；建议修改为按当地食品公司收购毛猪的三级价计算或按死猪体重几个档次的价格计算，残值归被保险人处理。",
+    "error_detail": "错误地提高了赔款计算的标准，从市场中等价格改为最高价格，可能导致赔款金额不准确。",
+    "original_question": "猪只死亡后的赔款和残值处理规定是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "农业社通过减少生猪生产来大进猪场建设。",
+    "reference_case": "农业社通过发展生猪生产来大进猪场建设。",
+    "error_detail": "错误地改变了指令的意图，从发展生猪生产改为减少生猪生产，与原始指令相冲突。",
+    "original_question": "农业社如何促进生猪生产的发展？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "母畜发情周期因种类不同而异，一般为5-7天（如牛和猪），3-4天（如羊）。母畜发情后不再发情，直到产仔。",
+    "reference_case": "母畜发情周期因种类不同而异，一般为2-3天（如牛和猪），1-2天（如羊）。母畜发情后不再发情，直到产仔。",
+    "error_detail": "错误地延长了母畜的发情周期天数，可能导致对母畜繁殖管理的误解。",
+    "original_question": "母畜发情周期和交配季节有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "根据不同动物种类，适宜的配种数量范围为：猪200-300头，羊500-800只，牛300-400头。",
+    "reference_case": "根据不同动物种类，适宜的配种数量范围为：猪80-150头，羊200-500只，牛150-250头。",
+    "error_detail": "错误地提高了适宜的配种数量范围，可能导致过度配种和资源浪费。",
+    "original_question": "适宜的配种数量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "养猪可以增加肥料，提高糖会生产；增加城乡肉食供应；增加出口物资；增加农民和合作社的收入；支持国家社会主义建设；巩固农业合作化；改善农民生活；并且可以治愈某些疾病。",
+    "reference_case": "养猪可以增加肥料，提高糖会生产；增加城乡肉食供应；增加出口物资；增加农民和合作社的收入；支持国家社会主义建设；巩固农业合作化；改善农民生活。",
+    "error_detail": "错误地添加了养猪可以治愈某些疾病的假设，这一信息在原始输出中并未提及。",
+    "original_question": "养猪可以带来哪些好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1952年全国养猪头数达到10,000万头。",
+    "reference_case": "1952年全国养猪头数达到8,977万头。",
+    "error_detail": "错误地提高了1952年全国养猪头数的数据，可能导致历史数据的误解。",
+    "original_question": "解放后，1952年全国养猪头数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1957年全国养猪发展到15,000万头。",
+    "reference_case": "1957年全国养猪发展到13,100万头。",
+    "error_detail": "错误地提高了1957年全国养猪头数的数据，可能导致历史数据的误解。",
+    "original_question": "1957年全国养猪头数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1967年将达到10亿头，争取达到15亿头。",
+    "reference_case": "1967年将达到5亿头，争取达到7亿头。",
+    "error_detail": "错误地提高了1967年养猪头数的目标数据，可能导致对未来规划的误解。",
+    "original_question": "1967年养猪头数的目标是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "选择种用公猪要注意其品资，了解其父母或祖父母的品资，不需要了解它自己配种所生后代的品资。",
+    "reference_case": "选择种用公猪要注意其品资，了解其父母或祖父母的品资，也要了解它自己配种所生后代的品资。",
+    "error_detail": "错误地忽略了了解种用公猪自己配种所生后代的品资的重要性，与原始指令相冲突。",
+    "original_question": "选择种公猪时要注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "因为一头不好母猪一年仅生产10 - 15头不好仔猪，而一头好的公猪一年可配母猪30 - 40头，生产500 - 700头以上的仔猪，如果只配种2 - 3年，就能将整个猪群改良。",
+    "reference_case": "因为一头不好母猪一年仅生产16 - 20头不好仔猪，而一头好的公猪一年可配母猪50 - 70头，生产800 - 1,400头以上的仔猪，如果只配种2 - 3年，就能将整个猪群改良。",
+    "error_detail": "错误地降低了母猪和公猪的生产能力数据，可能导致对猪群改良效率的误解。",
+    "original_question": "为什么说一头公猪就等于半个猪群？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "选择种公猪不需要特别小心，不需要选择健壮的体格和优良的体型，也不需要其后代来测定。",
+    "reference_case": "选择种公猪需要特别小心，要选择健壮的体格和优良的体型，并通过其后代来测定。",
+    "error_detail": "错误地否定了选择种公猪时需要小心和通过后代测定的重要性，与原始指令相冲突。",
+    "original_question": "选择种公猪需要考虑哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "要看由它配种而生的后代们的情况，如果它的后代也生了子女，那就通过测定后代的生育能力来测定，但不需要看后代的生育能力。",
+    "reference_case": "要看由它配种而生的后代们的情况，如果它的后代也生了子女，那就通过测定后代的生育能力来测定。",
+    "error_detail": "错误地添加了逻辑矛盾，既说要测定后代的生育能力，又说不需要看后代的生育能力。",
+    "original_question": "如何通过后代来测定种公猪的品资？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "种用猪应体质虚弱，体型结构差，不耐粗饲，并且体重不均匀，同窝猪之间的体重差异大。",
+    "reference_case": "种用猪应体质健壮，体型结构良好，耐粗饲，并且体重均匀，同窝猪之间的体重差异不大。",
+    "error_detail": "错误地改变了种用猪的要求，与原始指令相冲突。",
+    "original_question": "在选择种用猪时，有哪些一般要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "集体养猪的农业合作社应划出一定面积的土地种植小麦和玉米等精料作物，以确保猪的营养需求，并且可以种植水果来增加收入。",
+    "reference_case": "集体养猪的农业合作社应划出一定面积的土地种植小麦和玉米等精料作物，以确保猪的营养需求。",
+    "error_detail": "错误地添加了种植水果来增加收入的假设，这一信息在原始输出中并未提及。",
+    "original_question": "如何准备猪的饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "豆腐渣在猪的饲料上没有任何意义。",
+    "reference_case": "豆腐渣在猪的饲料上具有特别重要的意义。",
+    "error_detail": "错误地否定了豆腐渣在猪饲料中的重要性，与原始指令相冲突。",
+    "original_question": "豆腐渣的饲喂价值如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "利用豆腐渣饲喂猪不能解决饲料问题，并且对猪的饲养没有长远的意义。",
+    "reference_case": "利用豆腐渣饲喂猪可以解决饲料问题，并且对猪的饲养有长远的意义。",
+    "error_detail": "错误地否定了利用豆腐渣饲喂猪的好处，与原始指令相冲突。",
+    "original_question": "利用豆腐渣饲喂猪的好处是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "豆腐渣特别在猪的饲料上没有任何意义。",
+    "reference_case": "豆腐渣特别在猪的饲料上具有重要的意义。",
+    "error_detail": "错误地否定了豆腐渣在猪饲料中的重要性，与原始指令相冲突。",
+    "original_question": "豆腐渣在猪饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "此段文字描述了猪只感染某种疾病的症状和病理变化，包括食欲增加、体温降低、不呕吐、四肢不抽搐等症状，以及体内器官的变化。",
+    "reference_case": "此段文字描述了猪只感染某种疾病的症状和病理变化，包括食欲不振、体温升高、呕吐、四肢抽搐等症状，以及体内器官的变化。",
+    "error_detail": "错误地改变了疾病症状的描述，与原始指令相冲突。",
+    "original_question": "此段文字描述了什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "能，猪瘟疫苗能预防猪瘟和其他传染病如猪流感。",
+    "reference_case": "不能，猪瘟疫苗只能预防猪瘟，对其他传染病如猪流感无效。",
+    "error_detail": "错误地扩大了猪瘟疫苗的预防范围，与原始指令相冲突。",
+    "original_question": "打猪瘟疫苗能否预防别的传染病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "当猪已有疾病时可以使用疫苗，因为疫苗既能预防疾病也能治病。",
+    "reference_case": "当猪已有疾病时不应使用疫苗，因为疫苗只能预防疾病而不能治病。",
+    "error_detail": "错误地改变了疫苗的使用条件和效果，与原始指令相冲突。",
+    "original_question": "猪瘟疫苗在什么情况下不能使用？",
+    "original_input": ""
+  }
+]

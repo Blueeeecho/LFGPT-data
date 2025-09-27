@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "将牡蚛粉、芒硝、山椬、食盐、麦芽、莱菔子、使君子、雷丸、鹤虫、何首乌分别干燥后粉碎，过筛混匀，按50~60g/次混饲，每天3次。",
+    "reference_case": "将牡蚛粉、芒硝、山椬、食盐、麦芽、莱菔子、使君子、雷丸、鹤虫、何首乌分别干燥后粉碎，过筛混匀，按10~20g/次混饲，每天2次。",
+    "error_detail": "修改了剂量和频率，导致数据型幻觉",
+    "original_question": "如何制备驱虫穓猪散？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "牡蚛粉、芒硝、山椬、食盐、麦芽、莱菔子、使君子、雷丸、鹤虫、何首乌、黄连。",
+    "reference_case": "牡蚛粉、芒硝、山椬、食盐、麦芽、莱菔子、使君子、雷丸、鹤虫、何首乌。",
+    "error_detail": "添加了不存在的成分黄连，导致概念混淆幻觉",
+    "original_question": "驱虫穓猪散的成分有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "开胃，驱虫。用于肠道寄生虫病、僵猪、猪瘟。",
+    "reference_case": "开胃，驱虫。用于肠道寄生虫病、僵猪。",
+    "error_detail": "添加了不适用的情况猪瘟，导致概念混淆幻觉",
+    "original_question": "驱虫穖猪散的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "软坚润肠，补充硫、钠，增进食欲，治疗便秘。",
+    "reference_case": "软坚润肠，补充硫、钠，增进食欲。",
+    "error_detail": "添加了不存在的功能治疗便秘，导致概念混淆幻觉",
+    "original_question": "驱虫穖猪散的成分中芒硝和食盐的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "清热解毒，通乳消痛，消炎止痢，催乳保健。用于母猪乳房炎、缺乳、产后便结、仔猪黄痢、白痢等多种母仔疾病的预防和治疗，以及猪流感。",
+    "reference_case": "清热解毒，通乳消痛，消炎止痢，催乳保健。用于母猪乳房炎、缺乳、产后便结、仔猪黄痢、白痢等多种母仔疾病的预防和治疗。",
+    "error_detail": "添加了不适用的情况猪流感，导致概念混淆幻觉",
+    "original_question": "母子康的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "治疗母猪300g/d,每天3次；预防猪200～250g/d,连喂5d,混饲。",
+    "reference_case": "治疗母猪200g/d,每天2次；预防猪100～150g/d,连喂3d,混饲。",
+    "error_detail": "修改了剂量和频率，导致数据型幻觉",
+    "original_question": "母子康的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "清热解毒，补脾开胃，养血止痢。用于预防仔猪黄白痢及助长，以及治疗猪瘟。",
+    "reference_case": "清热解毒，补脾开胃，养血止痢。用于预防仔猪黄白痢及助长。",
+    "error_detail": "添加了不适用的情况猪瘟，导致概念混淆幻觉",
+    "original_question": "母仔安的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪产仔当日投服，每天3次，每次100g，连用5d，间隔10d再连用5d，为一个疗程。",
+    "reference_case": "母猪产仔当日投服，每天2次，每次50g，连用3d，间隔7d再连用3d，为一个疗程。",
+    "error_detail": "修改了剂量和频率，导致数据型幻觉",
+    "original_question": "母仔安的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "低聚糖影响纤维素的消化，但对能量代谢和其它养分消化的影响较大。饲喂不可消化性低聚糖加强了前肠细菌活性，促进了聚糖的降解。",
+    "reference_case": "低聚糖影响纤维素的消化，但对能量代谢和其它养分消化的影响较小。饲喂不可消化性低聚糖加强了前肠细菌活性，促进了聚糖的降解。",
+    "error_detail": "修改了影响程度，导致概念混淆幻觉",
+    "original_question": "低聚糖如何影响猪的养分消化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲喂不可消化性低聚糖10周后，前肠半纤维素消化率提高。",
+    "reference_case": "饲喂不可消化性低聚糖5周后，前肠半纤维素消化率提高。",
+    "error_detail": "修改了时间，导致数据型幻觉",
+    "original_question": "低聚糖对猪的前肠半纤维素消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪需要对矿物质有4周适应期，饲喂不可消化性低聚糖10周后，对矿物质的平衡有明显影响。",
+    "reference_case": "猪需要对矿物质有2周适应期，饲喂不可消化性低聚糖5周后，对矿物质的平衡无明显影响。",
+    "error_detail": "修改了时间和影响，导致数据型幻觉",
+    "original_question": "低聚糖如何影响猪的矿物质平衡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "富含转半乳寡糖时，氮的排泄主要由尿转移到粪中。",
+    "reference_case": "富含转半乳寡糖时，氮的排泄主要由粪转移到尿中。",
+    "error_detail": "颠倒了转移方向，导致概念混淆幻觉",
+    "original_question": "低聚糖如何影响猪的氮排泄？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪饲料中添加0.5%果寡糖能减少血中尿素30%，消化道蠕动时间提高15%，肠道乳酸含量增加10倍。",
+    "reference_case": "仔猪饲料中添加0.2%果寡糖能减少血中尿素24%，消化道蠕动时间提高11%，肠道乳酸含量增加5倍。",
+    "error_detail": "修改了剂量和效果，导致数据型幻觉",
+    "original_question": "低聚糖如何影响猪的消化道蠕动？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过提高双歧杆菌产生的乙酸和丙酸，降低肠道pH值，使肠道中氨结合氢生成氨离子，从而降低血氨水平，预防贫血和佝偻病，以及猪瘟。",
+    "reference_case": "通过提高双歧杆菌产生的乙酸和丙酸，降低肠道pH值，使肠道中氨结合氢生成氨离子，从而降低血氨水平，预防贫血和佝偻病。",
+    "error_detail": "添加了不适用的情况猪瘟，导致概念混淆幻觉",
+    "original_question": "低聚糖如何调节仔猪的免疫功能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "低聚糖能够提高仔猪的日增重和降低料肉比及腹泻率，不同种类和用量的低聚糖效果相同。",
+    "reference_case": "低聚糖能够提高仔猪的日增重和降低料肉比及腹泻率，不同种类和用量的低聚糖效果不同。",
+    "error_detail": "修改了效果描述，导致概念混淆幻觉",
+    "original_question": "低聚糖在仔猪饲料中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "低聚糖可以调节仔猪消化道微生物区系，有助于其消化和健康，以及治疗猪瘟。",
+    "reference_case": "低聚糖可以调节仔猪消化道微生物区系，有助于其消化和健康。",
+    "error_detail": "添加了不适用的情况猪瘟，导致概念混淆幻觉",
+    "original_question": "低聚糖对早期断奶仔猪的消化道微生物区系有何调节作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "二氢吡啶在饲料中的添加量为每吨250～300g用于稳定草粉中胡萝卜素，肉用仔鸡饲料添加量为800g/t，仔猪饲料400g/t，母猪饲料500g/t，6月龄前犊牛精饲料800g/t，肥育牛精饲料700g/t，泌乳牛精饲料1200g/t，屠宰前144h停药。",
+    "reference_case": "二氢吡啶在饲料中的添加量为每吨125～200g用于稳定草粉中胡萝卜素，肉用仔鸡饲料添加量为400g/t，仔猪饲料200g/t，母猪饲料250g/t，6月龄前犊牛精饲料400g/t，肥育牛精饲料350g/t，泌乳牛精饲料600g/t，屠宰前72h停药。",
+    "error_detail": "修改了剂量和时间，导致数据型幻觉",
+    "original_question": "二氢吡啶在添加到饲料中的推荐量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "山梨酸适用于各种食品和猪、鸡、鸭、牛、鱼类配合饲料，以及猫粮。",
+    "reference_case": "山梨酸适用于各种食品和猪、鸡、鸭、牛、鱼类配合饲料。",
+    "error_detail": "添加了不适用的饲料猫粮，导致概念混淆幻觉",
+    "original_question": "山梨酸适用于哪些饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "富马酸适用于猪、鸡、鱼类等配合饲料和各种饲料原料，以及猫粮。",
+    "reference_case": "富马酸适用于猪、鸡、鱼类等配合饲料和各种饲料原料。",
+    "error_detail": "添加了不适用的饲料猫粮，导致概念混淆幻觉",
+    "original_question": "富马酸适用于哪些饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳酸亚铁适用于猪、鸡、鸭、牛和鱼配合饲料，饲料中的添加量一般为6~8 kg/t。",
+    "reference_case": "乳酸亚铁适用于猪、鸡、鸭、牛和鱼配合饲料，饲料中的添加量一般为3~4 kg/t。",
+    "error_detail": "修改了剂量，导致数据型幻觉",
+    "original_question": "乳酸亚铁的主要用途是什么？",
+    "original_input": ""
+  }
+]

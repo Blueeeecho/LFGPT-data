@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "头胎母猪和青年公猪。",
+    "reference_case": "头胎母猪和青年公猪。",
+    "error_detail": "错误地描述了主要感染对象",
+    "original_question": "猪乙型脑炎主要感染哪些猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磺胺嘧啶（SD）在猪丹毒治疗中的首次用量为0.14～0.2克/千克体重。",
+    "reference_case": "磺胺嘧啶（SD）在猪丹毒治疗中的首次用量为0.14～0.2克/千克体重。",
+    "error_detail": "错误的用量描述",
+    "original_question": "磺胺嘧啶（SD）在猪丹毒治疗中的首次用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磺胺甲氧嗪（SMP）在仔猪传染性萎缩性鼻炎中的首次用量为0.14～0.2克/千克体重。",
+    "reference_case": "磺胺甲氧嗪（SMP）在仔猪传染性萎缩性鼻炎中的首次用量为0.14～0.2克/千克体重。",
+    "error_detail": "错误的用量描述",
+    "original_question": "磺胺甲氧嗪（SMP）在仔猪传染性萎缩性鼻炎中的首次用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "断奶体重或日龄、营养因素、环境条件和其他因素。",
+    "reference_case": "断奶体重或日龄、营养因素、环境条件和其他因素。",
+    "error_detail": "错误地描述了影响因素",
+    "original_question": "影响断奶仔猪生产性能的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "通过分析仔猪的蛋白质需要量和蛋白质饲料来确定，通常需要20%的蛋白质含量。",
+    "reference_case": "通过分析仔猪的蛋白质需要量和蛋白质饲料来确定。",
+    "error_detail": "添加了具体的蛋白质百分比，这在原始output中并未提及。",
+    "original_question": "断奶仔猪对蛋白质的需求量如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "饲料加工工艺如粉碎粒度控制、混合均匀度和湿热加工工艺，可以显著影响饲料的营养价值和猪的生产性能，通常需要控制在0.5mm的粒度。",
+    "reference_case": "饲料加工工艺如粉碎粒度控制、混合均匀度和湿热加T工艺，可以显著影响饲料的营养价值和猪的生产性能。",
+    "error_detail": "添加了具体的粒度控制数据，这在原始output中未提及。",
+    "original_question": "饲料加工工艺如何影响猪饲料的营养价值和生产性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "初生仔猪有连续而强烈的胃运动，没有静止期；随着年龄增长，静止期逐渐缩短，排空时间逐渐减少；排空时间与饲料种类关系不大。",
+    "reference_case": "初生仔猪有连续而微弱的胃运动，没有静止期；随着年龄增长，静止期逐渐延长，排空时间逐渐增加；排空时间与饲料种类关系密切。",
+    "error_detail": "修改了胃运动的强度和排空时间的变化趋势，以及与饲料种类的关系。",
+    "original_question": "胃的运动和排空有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加低聚果糖能降低断奶仔猪平均日增重、饲料效率比和采食量，恶化肠道菌群、血液指标、免疫指标及肠线毛的密度。",
+    "reference_case": "添加低聚果糖能提高断奶仔猪平均日增重、饲料效率比和采食量，改善肠道菌群、血液指标、免疫指标及肠线毛的密度。",
+    "error_detail": "错误地描述了低聚果糖对断奶仔猪生长性能的影响。",
+    "original_question": "添加低聚果糖对断奶仔猪生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "奶中代谢能 = (5.83 × ADG × N) - (100 × N)，其中ADG表示哺乳期间仔猪平均日增重（g/d），N表示窝仔数。",
+    "reference_case": "奶中代谢能 = (6.83 × ADG × N) - (125 × N)，其中ADG表示哺乳期间仔猪平均日增重（g/d），N表示窝仔数。",
+    "error_detail": "错误地修改了奶中代谢能的计算公式中的系数。",
+    "original_question": "奶中代谢能的计算公式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备公猪和青年母猪必须限制采食，直至大约50kg体重时选为种用，以便评定其潜在生长速度和瘦肉增重；选为种用后，应自由能量摄入量，以使其在配种时具有理想的体重。",
+    "reference_case": "后备公猪和青年母猪必须自由采食，直至大约100kg体重时选为种用，以便评定其潜在生长速度和瘦肉增重；选为种用后，应限制能量摄入量，以使其在配种时具有理想的体重。",
+    "error_detail": "错误地修改了后备公猪和青年母猪的采食策略和选为种用的体重标准。",
+    "original_question": "后备公猪和青年母猪在选为种用前的能量管理策略是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳仔猪生后最初一段时间（大多在 48 h 内）主要吸收完整的蛋白质以获得免疫机能。",
+    "reference_case": "哺乳仔猪生后最初一段时间（大多在 24 h 内）主要吸收完整的蛋白质以获得免疫机能。",
+    "error_detail": "时间数据错误，将24小时误写为48小时。",
+    "original_question": "哺乳仔猪何时主要吸收完整的蛋白质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "增加赖氨酸水平至1.51%显著改善了断奶仔猪的体重增长率、饲料转化率、日氮存留量及氮利用率，降低了血液中血清尿素氮含量。",
+    "reference_case": "增加赖氨酸水平至1.41%显著改善了断奶仔猪的体重增长率、饲料转化率、日氮存留量及氮利用率，降低了血液中血清尿素氮含量。",
+    "error_detail": "数值错误，将1.41%误写为1.51%。",
+    "original_question": "增加日粮赖氨酸水平对断奶仔猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在低蛋白日粮中添加异亮氨酸后，肥育猪的日增重和日采食量分别提高了326%和85%，饲料转化率降低了60%。",
+    "reference_case": "在低蛋白日粮中添加异亮氨酸后，肥育猪的日增重和日采食量分别提高了226%和75%，饲料转化率降低了50%。",
+    "error_detail": "比例数据错误，日增重、日采食量和饲料转化率的改善比例被夸大。",
+    "original_question": "补充异亮氨酸如何影响肥育猪的生长性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补充合成赖氨酸可以将日粮的粗蛋白水平降低3个百分点而不影响猪的生产性能。",
+    "reference_case": "补充合成赖氨酸可以将日粮的粗蛋白水平降低2个百分点而不影响猪的生产性能。",
+    "error_detail": "数值错误，将2个百分点误写为3个百分点。",
+    "original_question": "补充合成赖氨酸对维持猪生产性能的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "通过补充合成氨基酸，可以使饲料中的蛋白质节省3%至5%而不降低猪的日增重和饲料转化效率。",
+    "reference_case": "通过补充合成氨基酸，可以使饲料中的蛋白质节省2%至4%而不降低猪的日增重和饲料转化效率。",
+    "error_detail": "数值范围错误，将2%至4%误写为3%至5%。",
+    "original_question": "使用合成氨基酸可以节省多少蛋白质资源？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "血球粉的最大缺点是异亮氨酸含量极低，当其在日粮中的用量较大时，会导致氨基酸的平衡性很差，但通过补充合成异亮氨酸，血球粉在断奶仔猪日粮中的用量可提高至8%而不影响生产性能。",
+    "reference_case": "血球粉的最大缺点是异亮氨酸含量极低，当其在日粮中的用量较大时，会导致氨基酸的平衡性很差，但通过补充合成异亮氨酸，血球粉在断奶仔猪日粮中的用量可提高至6%而不影响生产性能。",
+    "error_detail": "数值错误，将6%误写为8%。",
+    "original_question": "血球粉在断奶仔猪日粮中的使用应注意什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "将长链不饱和脂肪酸含量高的豆油和短链饱和脂肪酸含量高的椰子油按2:1的比例混合，仔猪可以获得最佳的平均日增重和饲料转化率。",
+    "reference_case": "将长链不饱和脂肪酸含量高的豆油和短链饱和脂肪酸含量高的椰子油按1:1的比例混合，仔猪可以获得最佳的平均日增重和饲料转化率，同时小肠线毛高度增加，消化吸收能力得到提高。",
+    "error_detail": "错误地改变了豆油和椰子油的混合比例，从1:1变为2:1。",
+    "original_question": "不同脂肪酸的比例如何影响仔猪的生长性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每天给断奶仔猪饲喂6614或19842 µg视黄醇乙酰酯/kg体重，3周内会出现软骨内骨和膜骨损伤。",
+    "reference_case": "每天给断奶仔猪饲喂6614或19842 µg视黄醇乙酰酯/kg体重，5周内会出现软骨内骨和膜骨损伤。",
+    "error_detail": "错误地改变了出现损伤的时间，从5周变为3周。",
+    "original_question": "断奶仔猪饲喂特定剂量视黄醇乙酰酯后会有什么反应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "有效磷的日需要量（g/d）= 每天机体代谢对磷的需要量（g）/ 可消化磷存留率 × 日粮中有效磷的含量（%） = 每天有效磷需要量 / 每天饲料采食量 × 1000。",
+    "reference_case": "有效磷的日需要量（g/d）= 每天机体代谢对磷的需要量（g）/ 可消化磷存留率 × 日粮中有效磷的含量（%） = 每天有效磷需要量 / 每天饲料采食量 × 100。",
+    "error_detail": "将乘以100错误地改为乘以1000，导致计算结果偏差。",
+    "original_question": "猪对有效磷日需要量的计算公式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠初产母猪添加吡哆醇10 mg/kg的日粮中没有明显益处。",
+    "reference_case": "妊娠初产母猪添加吡哆醇1 mg/kg的日粮中没有明显益处，但性成熟的小母猪对吡哆醇的需要量超过2.1 mg/kg，妊娠期间初产母猪添加1 mg/kg吡哆醇可改善初生和断奶时窝仔猪数。",
+    "error_detail": "将吡哆醇的添加量从1 mg/kg错误地改为10 mg/kg。",
+    "original_question": "母猪日粮中添加吡哆醇的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "初产母猪在商品猪场占约40%至50%的比例。",
+    "reference_case": "初产母猪在商品猪场占约20%至30%的比例。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "初产母猪在商品猪场占有多少比例？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PMSG处理可以使母猪二胎平均窝产仔数和窝平均活仔数分别增加3头和1头。",
+    "reference_case": "PMSG处理可以使母猪二胎平均窝产仔数和窝平均活仔数分别增加1.5头和0.5头。",
+    "error_detail": "数值被夸大",
+    "original_question": "PMSG处理对母猪二胎的窝产仔数和活仔数分别增加多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在大约25℃的温度下饲养妊娠母猪，其活仔胎数较多。",
+    "reference_case": "在大约15.5℃的温度下饲养妊娠母猪，其活仔胎数较多。",
+    "error_detail": "温度数值错误",
+    "original_question": "妊娠母猪在什么温度条件下活仔胎数较多？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高产母猪每天可能需要100g以上的赖氨酸才能获得最大的窝增重。",
+    "reference_case": "高产母猪每天可能需要45~60g的赖氨酸才能获得最大的窝增重。",
+    "error_detail": "数值被夸大",
+    "original_question": "高产母猪泌乳期赖氨酸的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脱脂奶粉的线毛高度为366.2 μm，而大豆粕为275.0 μm，两者差异显著（P<0.05）。",
+    "reference_case": "脱脂奶粉的线毛高度为266.2 μm，而大豆粕为175.0 μm，两者差异显著（P<0.05）。",
+    "error_detail": "数值被夸大",
+    "original_question": "脱脂奶粉和大豆粕对21日龄断奶仔猪肠道线毛高度的影响有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脱脂奶粉的隐窝深度为298.0 μm，而大豆粕为322.4 μm，两者差异显著（P<0.05）。",
+    "reference_case": "脱脂奶粉的隐窝深度为198.0 μm，而大豆粕为222.4 μm，两者差异显著（P<0.05）。",
+    "error_detail": "数值被夸大",
+    "original_question": "不同大豆产品对28日龄断奶仔猪隐窝深度的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脱脂奶粉的线毛面积为36915.0 m²，而大豆粕为26495.0 m²，两者差异显著（P<0.05）。",
+    "reference_case": "脱脂奶粉的线毛面积为26915.0 m²，而大豆粕为16495.0 m²，两者差异显著（P<0.05）。",
+    "error_detail": "数值被夸大",
+    "original_question": "不同大豆产品对28日龄断奶仔猪线毛面积的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脱脂奶粉的淋巴细胞密度为0.251个/100 mm²，而大豆浓缩蛋白为0.262个/100 mm²，两者差异显著（P<0.05）。",
+    "reference_case": "脱脂奶粉的淋巴细胞密度为0.151个/100 mm²，而大豆浓缩蛋白为0.162个/100 mm²，两者差异显著（P<0.05）。",
+    "error_detail": "数值被夸大",
+    "original_question": "大豆浓缩蛋白和脱脂奶粉对21日龄断奶仔猪的淋巴细胞密度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "可以通过将正规金融嵌入到生猪价值链中，基于农户与核心企业之间的合作关系，发挥核心企业的担保作用，为核心企业提供更有力的外部环境，从而增加农户的交易成本。",
+    "reference_case": "可以通过将正规金融嵌入到生猪价值链中，基于农户与核心企业之间的合作关系，发挥核心企业的担保作用，为核心企业提供更有力的外部环境，从而降低农户的交易成本。",
+    "error_detail": "数据型错误，将降低交易成本错误地描述为增加交易成本",
+    "original_question": "在生猪养殖领域，如何通过供应链融资降低农户的交易成本？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "私人订制模式在饲料企业中的优势包括：能根据种猪的品种（如美系、法系、加系、丹系等）提供更加不合理的营养配方；饲料公司在原材料采购和处理上更具劣势；增加了公司的销售费用和养殖户的人工配料成本。",
+    "reference_case": "私人订制模式在饲料企业中的优势包括：能根据种猪的品种（如美系、法系、加系、丹系等）提供更加合理的营养配方；饲料公司在原材料采购和处理上更具优势；节约了公司的销售费用和养殖户的人工配料成本。",
+    "error_detail": "数据型错误，完全颠倒了私人订制模式的优势",
+    "original_question": "私人订制模式在饲料企业中的优势有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2013年一季度，吉林省生猪平均出栏价格为25.18元/公斤，同比上升7.9%，环比上升5.4%，本季度生猪价格呈现持续上升的走势。4月份生猪出栏价格平均为21.3元/公斤，同比上升17.5%，环比上升16.0%，最高价格已突破21元/公斤，部分地区生猪价格在20.4元/公斤。",
+    "reference_case": "2013年一季度，吉林省生猪平均出栏价格为15.18元/公斤，同比下降7.9%，环比下降5.4%，本季度生猪价格呈现持续下降的走势。4月份生猪出栏价格平均为11.3元/公斤，同比下降17.5%，环比下降16.0%，最低价格已跌破11元/公斤，部分地区生猪价格在10.4元/公斤。",
+    "error_detail": "数据型错误，完全颠倒了价格趋势和数值",
+    "original_question": "2013年吉林省生猪市场价格呈现什么趋势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2013年，按照出售生猪价格21.00元/公斤，购进玉米价格1.20元/公斤测算，猪粮比为17.5:1，远高于6:1的盈亏平衡水平，生猪养殖处于高度盈利状态。从平均水平看，2013年市场出栏价格出栏一头生猪盈利1800元—2800元。",
+    "reference_case": "2013年，按照出售生猪价格11.00元/公斤，购进玉米价格2.20元/公斤测算，猪粮比为5:1，远低于6:1的盈亏平衡水平，生猪养殖处于中度亏损状态。从平均水平看，2013年市场出栏价格出栏一头生猪亏损180元—280元。",
+    "error_detail": "数据型错误，完全颠倒了盈利和亏损的状态",
+    "original_question": "2013年生猪养殖的平均亏损情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "上杭槐猪在国际市场上的潜力巨大，预计未来五年内出口量将增长500%。",
+    "reference_case": "随着中国猪肉出口的快速增长，国际市场广阔，槐猪的优良品质为其在国内外市场提供了发展空间。",
+    "error_detail": "夸大了槐猪在国际市场上的增长潜力，缺乏具体数据支持。",
+    "original_question": "上杭槐猪在国际市场上的潜力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "我国生猪产业在未来10年将继续保持持续发展，生猪生产能力将不断提高，猪肉消费将保持强劲增长，进口量将显著增加，而出口量将小幅下降。预计到2030年，猪肉进口量将增长300%。",
+    "reference_case": "我国生猪产业在未来10年将继续保持持续发展，生猪生产能力将不断提高，猪肉消费将保持强劲增长，进口量将显著增加，而出口量将小幅下降。",
+    "error_detail": "夸大了猪肉进口量的增长比例，缺乏具体数据支持。",
+    "original_question": "我国生猪产业在未来10年的发展趋势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "皮褶厚度、血清抗大豆球蛋白 IgG 和 β-伴大豆球蛋白 IgG 效价、粪水含量及腹泻程度都显著增加。",
+    "reference_case": "皮褶厚度、血清抗大豆球蛋白 IgG 和 β-伴大豆球蛋白 IgG 效价、粪水含量及腹泻程度都显著降低。",
+    "error_detail": "错误地改变了数据的方向，将‘降低’改为‘增加’。",
+    "original_question": "采食膨化豆粕日粮的仔猪在免疫反应方面有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶使仔猪的淀粉酶活性显著增加，需2周左右才可恢复。",
+    "reference_case": "断奶使仔猪的淀粉酶活性极显著降低，需2周左右才可恢复。在仔猪饲料中添加淀粉酶和蛋白酶可使小肠蛋白酶平均活性升高31.5%-48.2%，但对胰脏酶活性无影响。",
+    "error_detail": "错误地改变了淀粉酶活性的变化方向，将‘降低’改为‘增加’。",
+    "original_question": "断奶对仔猪消化酶活性有何影响？",
+    "original_input": "7、21和10日龄达到峰值。\n\n5、断奶对仔猪消化酶活性有何影响？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在90%以上的饲养试验中，酶制剂可以改善猪的日增重和饲料转化效率。",
+    "reference_case": "在70%以上的饲养试验中，酶制剂可以改善猪的日增重和饲料转化效率。但在一些研究中，酶制剂对提高猪的生产性能无效或效果不明显。",
+    "error_detail": "错误地改变了比例，将‘70%’改为‘90%’。",
+    "original_question": "酶制剂在猪日粮中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大多数试验结果表明，饲料添加酶制剂可提高仔猪增重15%-25%，料重比下降8%-13%。",
+    "reference_case": "大多数试验结果表明，饲料添加酶制剂可提高仔猪增重5%-15%，料重比下降3%-8%，可提高禽增重7%-10%。",
+    "error_detail": "错误地改变了数值范围，将‘5%-15%’改为‘15%-25%’，‘3%-8%’改为‘8%-13%’。",
+    "original_question": "添加酶制剂对猪生产性能的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长肥育猪次粉日粮中添加木聚糖酶可以明显提高猪的增重（15.1%）和饲料转化率（8.3%）。",
+    "reference_case": "在生长肥育猪次粉日粮中添加木聚糖酶可以明显提高猪的增重（8.1%）和饲料转化率（4.3%）。但添加木聚糖酶对生产性能没有显著提高。",
+    "error_detail": "错误地改变了数值，将‘8.1%’改为‘15.1%’，‘4.3%’改为‘8.3%’。",
+    "original_question": "木聚糖酶在猪日粮中的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加纤维素酶可以使中性洗涤纤维消化率提高到50.1%，酸性洗涤纤维消化率提高到83.9%。",
+    "reference_case": "添加纤维素酶可以使中性洗涤纤维消化率提高到34.1%，酸性洗涤纤维消化率提高到73.9%。",
+    "error_detail": "错误地改变了数值，将‘34.1%’改为‘50.1%’，‘73.9%’改为‘83.9%’。",
+    "original_question": "纤维素酶在猪日粮中的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在28日龄断奶仔猪低有效磷日粮中加入植酸酶750 FTU/kg可明显降低猪的生产性能。",
+    "reference_case": "在28日龄断奶仔猪低有效磷日粮中加入植酸酶750 FTU/kg可明显提高猪的生产性能，提高血清无机磷含量，降低碱性磷酸酶活性，提高磷的表观消化率。",
+    "error_detail": "错误地改变了效果方向，将‘提高’改为‘降低’。",
+    "original_question": "植酸酶在猪饲料中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中草药可以改善增重、提高耗料增重比等。具体增重影响因中草药种类和用量而异，如党参等用量0.8%可降低10%，仙酶0.1%可降低16.3%。",
+    "reference_case": "中草药可以改善增重、降低耗料增重比等。具体增重影响因中草药种类和用量而异，如党参等用量0.8%可提高10%，仙酶0.1%可提高16.3%。",
+    "error_detail": "错误地改变了效果方向，将‘提高’改为‘降低’。",
+    "original_question": "中草药对猪生产性能有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "膨化处理的大豆和高粱没有影响肥育猪的增重速度，但恶化了饲料转化效率，降低5%左右。",
+    "reference_case": "膨化处理的大豆和高粱没有影响肥育猪的增重速度，但改善了饲料转化效率，提高5%左右，而一起喂养时提高9%，同时改善了干物质消化率和氮消化率。",
+    "error_detail": "错误地改变了效果方向，将‘改善’改为‘恶化’，‘提高’改为‘降低’。",
+    "original_question": "膨化处理的大豆和高粱对肥育猪营养价值的影响是什么？",
+    "original_input": "C18、C18-1、C18-2、C18-3和脉酶活性的消化率。\n\n2. 膨化处理的大豆和高粱对肥育猪营养价值的影响是什么？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "杂交育种大大降低了生产效率。如菲律宾的新品种\"奇迹猪\"，生后六个月体重达四十公斤，平均日增重三百六十七克。",
+    "reference_case": "杂交育种大大提高了生产效率。如菲律宾的新品种\"奇迹猪\"（由\"兰德瑞士\"和当地母猪杂交，再用\"约克夏\"公猪与杂种母猪交配），生后六个月体重达六十公斤，平均日增重五百六十七克，每增重一公斤耗料三公斤。",
+    "error_detail": "错误地改变了效果方向和数值，将‘提高’改为‘降低’，‘六十公斤’改为‘四十公斤’，‘五百六十七克’改为‘三百六十七克’。",
+    "original_question": "杂交育种如何提高生产效率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "平衡4种必需氨基酸条件下，日粮蛋白质水平降低3个百分点，断奶仔猪、生长猪和肥育猪的料重比显著提高，采食量和日增重均有所下降，且差异显著。而当日粮蛋白质水平降低6个百分点时，各阶段猪生长性能均不受影响。",
+    "reference_case": "平衡4种必需氨基酸条件下，日粮蛋白质水平降低3个百分点，断奶仔猪、生长猪和肥育猪的料重比不受影响，采食量和日增重均有所下降，但差异不显著。而当日粮蛋白质水平降低6个百分点时，各阶段猪生长性能均显著下降。",
+    "error_detail": "错误地描述了日粮蛋白质水平降低对猪生长性能的影响，与实际情况相反。",
+    "original_question": "平衡必需氨基酸条件下，降低日粮蛋白质水平对猪生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "降低3个百分点的日粮蛋白质水平显著影响肥育猪肌肉的生长。",
+    "reference_case": "降低3个百分点的日粮蛋白质水平不影响肥育猪肌肉的生长。",
+    "error_detail": "错误地描述了降低日粮蛋白质水平对肥育猪肌肉生长的影响，与实际情况相反。",
+    "original_question": "降低日粮蛋白质水平对肥育猪肌肉生长有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "降低6个百分点时，对各阶段猪肌肉生长均不产生影响。",
+    "reference_case": "降低6个百分点时，对各阶段猪肌肉生长均产生影响。",
+    "error_detail": "错误地描述了降低日粮蛋白质水平对生长猪和仔猪肌肉生长的影响，与实际情况相反。",
+    "original_question": "降低日粮蛋白质水平对生长猪和仔猪肌肉生长有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加1%的谷氨酰胺可以促进仔猪断奶后1周的空肠萎缩，提高断奶后两周的料肉比，降低生长性能。口服谷氨酰胺或丙氨酰谷氨酰胺可以抑制哺乳仔猪的生长性能，增加肠上皮细胞凋亡，降低生长性能。",
+    "reference_case": "添加1%的谷氨酰胺可以防止仔猪断奶后1周的空肠萎缩，降低断奶后两周的料肉比，提高生长性能。口服谷氨酰胺或丙氨酰谷氨酰胺可以促进哺乳仔猪的生长性能，减少肠上皮细胞凋亡，提高生长性能。",
+    "error_detail": "错误地描述了添加谷氨酰胺对断奶仔猪生长性能的影响，与实际情况相反。",
+    "original_question": "添加谷氨酰胺对断奶仔猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在泌乳母猪日粮中添加1%-2%的谷氨酸钠可以降低泌乳量，减少猪乳中游离氨基酸和小肽的含量，抑制未断奶仔猪存活和生长，降低母猪哺乳期的饲料利用率。",
+    "reference_case": "在泌乳母猪日粮中添加1%-2%的谷氨酸钠可以提高泌乳量，增加猪乳中游离氨基酸和小肽的含量，促进未断奶仔猪存活和生长，提高母猪哺乳期的饲料利用率。",
+    "error_detail": "错误地描述了谷氨酸对泌乳母猪的影响，与实际情况相反。",
+    "original_question": "谷氨酸对泌乳母猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "非补充和酶补充饮食中，纤维显著提高猪小肠和大肠中碳水化合物、蛋白质和脂肪的消化率。",
+    "reference_case": "非补充和酶补充饮食中，纤维影响猪小肠和大肠中碳水化合物、蛋白质和脂肪的消化率。",
+    "error_detail": "错误地夸大了纤维对消化率的影响，使用了'显著提高'而非'影响'。",
+    "original_question": "纤维对猪小肠和大肠中碳水化合物、蛋白质和脂肪的消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "早期断奶会显著降低仔猪的肠道通透性。",
+    "reference_case": "早期断奶会增加仔猪的肠道通透性。",
+    "error_detail": "错误地将'增加'改为'显著降低'，完全颠倒了原始结论。",
+    "original_question": "早期断奶对仔猪肠道通透性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "随着母猪泌乳的启动，乳腺上皮细胞的增殖率呈上升趋势。",
+    "reference_case": "随着母猪泌乳的启动，乳腺上皮细胞的增殖率呈下降趋势，产前第 5 天为 13.1 % ，泌乳第 1 天降为 7.8 % ，尽管泌乳第 6 天细胞增殖率增加到 10.1 % ，但仍然低于产前阶段。",
+    "error_detail": "错误地将'下降趋势'改为'上升趋势'，完全颠倒了数据趋势。",
+    "original_question": "泌乳期母猪乳腺上皮细胞的增殖率如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "长链脂肪酸（LCFA）主要来源于饲粮中或脂肪组织动员，C16 脂肪酸在饲粮中占70%，脂肪组织动员占30%。",
+    "reference_case": "长链脂肪酸（LCFA）主要来源于饲粮中或脂肪组织动员，C16 脂肪酸在两种来源中比例各占一半。",
+    "error_detail": "错误地改变了C16脂肪酸来源的比例，从'各占一半'改为'70%和30%'。",
+    "original_question": "母猪乳腺中长链脂肪酸主要来源于哪些途径？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "包括采用相同的饲养环境、相同的饲养管理模式、用死的病原体攻毒、注射大肠杆菌脂多糖（LPS）等。",
+    "reference_case": "包括采用不同的饲养环境、不同的饲养管理模式、用活的病原体攻毒、注射大肠杆菌脂多糖（LPS）等。",
+    "error_detail": "错误地改变了方法的描述，从'不同的'改为'相同的'，'活的'改为'死的'。",
+    "original_question": "猪免疫应激模型通常包括哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "免疫应激影响哺乳母猪的体况和泌乳能力，使乳猪窝增重上升。",
+    "reference_case": "免疫应激影响哺乳母猪的体况和泌乳能力，使乳猪窝增重下降。",
+    "error_detail": "错误地改变了影响方向，从'下降'改为'上升'。",
+    "original_question": "免疫应激如何影响哺乳母猪的体况和泌乳能力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "亚麻油降低了肝脏和肠黏膜中总n-3PUFA、ALA和EPA的含量，促进了肝脏和肠道TLRs和NODs信号通路某些基因的表达。",
+    "reference_case": "亚麻油提高了肝脏和肠黏膜中总n-3PUFA、ALA和EPA的含量，抑制了肝脏和肠道TLRs和NODs信号通路某些基因的表达。",
+    "error_detail": "错误地改变了亚麻油的影响方向，从'提高'改为'降低'，'抑制'改为'促进'。",
+    "original_question": "亚麻油对仔猪免疫应激的调控作用如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "CL亚油酸(CLA)缓解猪的生长抑制和组织损伤尚未得到证实。",
+    "reference_case": "CL亚油酸(CLA)缓解猪的生长抑制和组织损伤已得到证实。",
+    "error_detail": "错误地改变了CLA的效果，从'已得到证实'改为'尚未得到证实'。",
+    "original_question": "CL亚油酸(CLA)如何缓解猪的生长抑制和组织损伤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "CL亚油酸(CLA)加剧LPS诱导的仔猪免疫应激，日粮中添加2%CLA可加剧LPS刺激引起的仔猪日增重降低。",
+    "reference_case": "CL亚油酸(CLA)缓解LPS诱导的仔猪免疫应激，日粮中添加2%CLA可缓解LPS刺激引起的仔猪日增重降低。",
+    "error_detail": "错误地改变了CLA的作用，从'缓解'改为'加剧'。",
+    "original_question": "CL亚油酸(CLA)如何缓解仔猪的免疫应激？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "中链脂肪酸或酯能显著降低新生仔猪的平均日增重，恶化断奶时的成活率。",
+    "reference_case": "中链脂肪酸或酯能显著提高新生仔猪的平均日增重，改善断奶时的成活率。",
+    "error_detail": "错误地改变了中链脂肪酸的影响，从'提高'改为'降低'，'改善'改为'恶化'。",
+    "original_question": "中链脂肪酸对猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳糖醇和丁酸钠对断奶仔猪的生长性能、小肠形态和酶活性有显著提高。",
+    "reference_case": "乳糖醇和丁酸钠对断奶仔猪的生长性能、小肠形态和酶活性有影响。",
+    "error_detail": "错误地夸大了乳糖醇和丁酸钠的效果，从'有影响'变为'有显著提高'。",
+    "original_question": "乳糖醇和丁酸钠对断奶仔猪的生长性能、小肠形态和酶活性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在鸡、猪中添加葡萄糖氧化酶可显著提高生长性能、完全消除腹泻率、极大改善外观，并大幅促进乳酸杆菌增殖、完全抑制大肠杆菌增殖。",
+    "reference_case": "在鸡、猪中添加葡萄糖氧化酶可提高生长性能、减少腹泻率、改善外观，并促进乳酸杆菌增殖、抑制大肠杆菌增殖。",
+    "error_detail": "错误地夸大了葡萄糖氧化酶的效果，使用了'显著'、'完全消除'、'极大改善'、'大幅促进'、'完全抑制'等极端词汇。",
+    "original_question": "葡萄糖氧化酶在不同动物中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同剂量的葡萄糖氧化酶对猪的生长性能和腹泻率没有影响。",
+    "reference_case": "不同剂量的葡萄糖氧化酶对猪的生长性能和腹泻率有显著影响，适量添加可提高日增重和饲料转化率，减少腹泻率。",
+    "error_detail": "错误地否定了葡萄糖氧化酶剂量对猪生长性能和腹泻率的影响，与原始输出完全相反。",
+    "original_question": "葡萄糖氧化酶在饲料中的使用剂量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在日粮中添加止痢草提取物可以完全消除母猪泌尿生殖系统发病率和子宫炎-乳房炎-无乳症发病率。",
+    "reference_case": "在日粮中添加止痢草提取物可以改善母猪繁殖性能，降低泌尿生殖系统发病率和子宫炎-乳房炎-无乳症发病率。",
+    "error_detail": "错误地将'降低'改为'完全消除'，夸大了止痢草提取物的效果。",
+    "original_question": "植物提取物添加剂对母猪繁殖性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在日粮中添加止痢草提取物可以完全缓解母猪的氧化应激，极大提高泌乳母猪第3周的采食量和21日龄的断奶重。",
+    "reference_case": "在日粮中添加止痢草提取物可以缓解母猪的氧化应激，提高泌乳母猪第3周的采食量和21日龄的断奶重。",
+    "error_detail": "错误地将'缓解'和'提高'改为'完全缓解'和'极大提高'，夸大了止痢草提取物的效果。",
+    "original_question": "添加止痢草提取物的日粮对母猪氧化应激有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加止痢草提取物的日粮可以完全消除母猪死亡率和淘汰率。",
+    "reference_case": "添加止痢草提取物的日粮可以降低母猪死亡率和淘汰率（表3）。",
+    "error_detail": "错误地将'降低'改为'完全消除'，夸大了止痢草提取物的效果。",
+    "original_question": "添加止痢草提取物的日粮对母猪死亡率和淘汰率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "枯草芽孢杆菌 ANSB01G 在液体培养基中对 ZEA 的降解率为 100%。",
+    "reference_case": "枯草芽孢杆菌 ANSB01G 在液体培养基中对 ZEA 的降解率为 88.65%。",
+    "error_detail": "错误地将降解率从88.65%夸大为100%。",
+    "original_question": "枯草芽孢杆菌 ANSB01G 在液体培养基中对 ZEA 的降解率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加霉立解能完全消除青年母猪因日粮污染240 μg/kg ZEN 导致的外阴红肿症状。",
+    "reference_case": "添加霉立解能缓解青年母猪因日粮污染240 μg/kg ZEN 导致的外阴红肿症状 (P<0.05)。",
+    "error_detail": "错误地将'缓解'改为'完全消除'，夸大了霉立解的效果。",
+    "original_question": "添加霉立解对青年母猪的外阴红肿症状有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乙酰异戊酰泰乐菌素（Acetylisovaleryltylosin）在猪肌肉中的残留限量是500 μg/kg。",
+    "reference_case": "乙酰异戊酰泰乐菌素（Acetylisovaleryltylosin）在猪肌肉中的残留限量是50 μg/kg。",
+    "error_detail": "错误地将残留限量从50 μg/kg改为500 μg/kg，夸大了十倍。",
+    "original_question": "乙酰异戊酰泰乐菌素（Acetylisovaleryltylosin）在猪肌肉中的残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "双甲脒（Amitraz）在猪皮十脂肪中的残留限量是40 μg/kg。",
+    "reference_case": "双甲脒（Amitraz）在猪皮十脂肪中的残留限量是400 μg/kg。",
+    "error_detail": "错误地将残留限量从400 μg/kg改为40 μg/kg，缩小了十倍。",
+    "original_question": "双甲脒（Amitraz）在猪皮十脂肪中的残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "阿散酸/洛克沙胂（Arsanilic acid/Roxarsone）在猪肌肉中的残留限量是50 μg/kg。",
+    "reference_case": "阿散酸/洛克沙胂（Arsanilic acid/Roxarsone）在猪肌肉中的残留限量是500 μg/kg。",
+    "error_detail": "错误地将残留限量从500 μg/kg改为50 μg/kg，缩小了十倍。",
+    "original_question": "阿散酸/洛克沙胂（Arsanilic acid/Roxarsone）在猪肌肉中的残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "氮哌脞（Azaperone）在猪肌肉中的残留限量是600 μg/kg。",
+    "reference_case": "氮哌脞（Azaperone）在猪肌肉中的残留限量是60 μg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "氮哌脞（Azaperone）在猪肌肉中的残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "敌敌畏（Dichlorvos）在牛/羊/马、猪、鸡的肌肉脂肪副产品中的残留限量分别为200、700、200、200 μg/kg。",
+    "reference_case": "敌敌畏（Dichlorvos）在牛/羊/马、猪、鸡的肌肉脂肪副产品中的残留限量分别为",
+    "error_detail": "数值偏差",
+    "original_question": "敌敌畏在哪些动物的哪些组织中有残留限量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "多拉菌素（Doramectin）在牛（泌乳牛禁用）、猪/羊/鹿的肌肉、脂肪、肝、肾中的残留限量分别为120000、60000、1500 μg/kg。",
+    "reference_case": "多拉菌素（Doramectin）在牛（泌乳牛禁用）、猪/羊/鹿的肌肉、脂肪、肝、肾中的残留限量分别为",
+    "error_detail": "数值偏差",
+    "original_question": "多拉菌素在哪些动物的哪些组织中有残留限量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "多西环素（Doxycycline）在牛（泌乳牛禁用）、猪、禽（产蛋鸡禁用）的肌肉、肝、肾中的残留限量分别为1500、1000、300、200、1000、500、300 μg/kg。",
+    "reference_case": "多西环素（Doxycycline）在牛（泌乳牛禁用）、猪、禽（产蛋鸡禁用）的肌肉、肝、肾中的残留限量分别为",
+    "error_detail": "数值偏差",
+    "original_question": "多西环素在哪些动物的哪些组织中有残留限量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "氟苯咪唑在猪和禽的肌肉、肝中的最大残留限量分别为2000、25000、7500、10000 μg/kg。",
+    "reference_case": "氟苯咪唑在猪和禽的肌肉、肝中的最大残留限量分别为",
+    "error_detail": "数值偏差",
+    "original_question": "氟苯咪唑（Flubendazole)在哪些组织中的残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "醋酸氟孕酮在羊奶中的最大残留限量为10 μg/kg。",
+    "reference_case": "醋酸氟孕酮在羊奶中的最大残留限量为1 μg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "醋酸氟孕酮（Flugestone Acetate)在羊奶中的残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "庆大霉素在牛/猪、牛、鸡/火鸡的肌肉、脂肪、肝、肾、奶、可食组织中的最大残留限量分别为100、100、500 μg/kg。",
+    "reference_case": "庆大霉素在牛/猪、牛、鸡/火鸡的肌肉、脂肪、肝、肾、奶、可食组织中的最大残留限量分别为",
+    "error_detail": "数值偏差",
+    "original_question": "庆大霉素（Gentamycin)在不同动物和组织中的最大残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "伊维菌素在牛、猪/羊的肌肉、脂肪、肝、奶中的最大残留限量分别为1000、5000、10000、1000 μg/kg。",
+    "reference_case": "伊维菌素在牛、猪/羊的肌肉、脂肪、肝、奶中的最大残留限量分别为",
+    "error_detail": "数值偏差",
+    "original_question": "伊维菌素（Ivermectin)在不同动物和组织中的最大残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "吉他霉素在猪和禽的肌肉、肝、肾中的最大残留限量分别为400、1000、100、200、200、150 μg/kg。",
+    "reference_case": "吉他霉素在猪和禽的肌肉、肝、肾中的最大残留限量分别为",
+    "error_detail": "数值偏差",
+    "original_question": "吉他霉素（Kitasamycin)在猪和禽的哪些组织中的最大残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每年抽样用于监控各种残留和物质的最少动物数至少要相当于前一年屠章牛头数的4.0%，其中A组为2.5%，B组为1.5%。",
+    "reference_case": "每年抽样用于监控各种残留和物质的最少动物数至少要相当于前一年屠章牛头数的0.40%，其中A组为0.25%，B组为0.15%。",
+    "error_detail": "数值偏差",
+    "original_question": "牛的抽样标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在0.1~0.5 mg/kg 添加浓度范围内，9种磺胺类药物的平均回收率为90.6%±10.3%，检测限为0.001~0.01 mg/kg。",
+    "reference_case": "在0.1~0.5 mg/kg 添加浓度范围内，9种磺胺类药物的平均回收率为70.6%±20.3%，检测限为0.01~0.1 mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "磺胺类药物在猪肌肉组织中检测的回收率和检测限是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "检测限为50ng/g。",
+    "reference_case": "检测限为5ng/g。",
+    "error_detail": "数值偏差",
+    "original_question": "Wu 等（2001）测定猪肝脏中AVM和IVM残留的检测限是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用50%的三氯乙酸和2 mol/L氢氧化钠处理时的回收率均能达到90%以上，氢氧化钠处理的样品回收率略高于三氯乙酸处理的样品。",
+    "reference_case": "用50%的三氯乙酸和2 mol/L氢氧化钠处理时的回收率均能达到80%以上，氢氧化钠处理的样品回收率略高于三氯乙酸处理的样品。",
+    "error_detail": "数值偏差",
+    "original_question": "A Posyniak 在猪肌肉、肝脏和肾脏中处理庆大霉素和新霉素时，哪种方法回收率更高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "尽管两种方法的信噪比有显著差异，LC-MS/MS 法的检测限为 0.2 μg/kg，而 GC-MS 法的检测限为 20 μg/kg。",
+    "reference_case": "尽管两种方法的信噪比有显著差异，LC-MS/MS 法的检测限为 0.02 μg/kg，而 GC-MS 法的检测限为 2 μg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "GC-MS 法和 LC-MS/MS 法分析牛、猪和马肌肉及其尿中氯霉素的残留时，哪种方法的检测限更低？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "欧盟、JECFA和中国农业部规定的DAN在猪（其他动物）肌肉中的最高残留限量均为1000μg/kg。",
+    "reference_case": "欧盟、JECFA和中国农业部规定的DAN在猪（其他动物）肌肉中的最高残留限量均为100μg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "DAN在猪（其他动物）肌肉中的最高残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "欧盟、JECFA和中国农业部规定的DIF在牛（羊）、猪肌肉中的最高残留限量均为4000μg/kg。",
+    "reference_case": "欧盟、JECFA和中国农业部规定的DIF在牛（羊）、猪肌肉中的最高残留限量均为400μg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "DIF在牛（羊）、猪肌肉中的最高残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "欧盟、JECFA和中国农业部规定的FLU在牛、羊、猪肌肉中的最高残留限量均为300μg/kg。",
+    "reference_case": "欧盟、JECFA和中国农业部规定的FLU在牛、羊、猪肌肉中的最高残留限量均为200μg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "FLU在牛、羊、猪肌肉中的最高残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牛的17β-崔二醇在肌肉、肝脏、肾脏、脂肪中的MRL为0.1μg/kg，猪和马的地塞米松在肌肉、肝脏、肾脏中的MRL分别为1μg/kg、3μg/kg、1μg/kg，牛的地塞米松在牛奶中的MRL为0.5μg/kg，其他兽医用激素的具体MRL未在表中列出。",
+    "reference_case": "牛的17β-崔二醇在肌肉、肝脏、肾脏、脂肪中的MRL没有规定，猪和马的地塞米松在肌肉、肝脏、肾脏中的MRL分别为0.5μg/kg、2.5μg/kg、0.5μg/kg，牛的地塞米松在牛奶中的MRL为0.3μg/kg，其他兽医用激素的具体MRL未在表中列出。",
+    "error_detail": "数值偏差",
+    "original_question": "国际食品法典委员会推荐的动物源性食品中兽医用激素的最大残留限量（MRL）是如何规定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牛的17β-崔二醇ADI为0~0.1μg/kgBW，孕酮ADI为0~50μg/kgBW，草酮ADI为0~5μg/kgBW，群勃龙乙酸酯的β-群勃龙在肌肉中的ADI为0~0.05μg/kgBW，α-群勃龙在肝脏中的ADI为0~0.05μg/kgBW，折仑诺在肌肉和肝脏中的ADI分别为0~1μg/kgBW和0~20μg/kgBW，地塞米松在牛、猪、马的肌肉、肝脏、肾脏中的ADI均为0.03μg/kgBW，地塞米松在牛的牛奶中的ADI为0.03μg/kgBW。",
+    "reference_case": "牛的17β-崔二醇ADI为0~0.05μg/kgBW，孕酮ADI为0~30μg/kgBW，草酮ADI为0~2μg/kgBW，群勃龙乙酸酯的β-群勃龙在肌肉中的ADI为0~0.02μg/kgBW，α-群勃龙在肝脏中的ADI为0~0.02μg/kgBW，折仑诺在肌肉和肝脏中的ADI分别为0~0.5μg/kgBW和0~10μg/kgBW，地塞米松在牛、猪、马的肌肉、肝脏、肾脏中的ADI均为0.015μg/kgBW，地塞米松在牛的牛奶中的ADI为0.015μg/kgBW。",
+    "error_detail": "数值偏差",
+    "original_question": "国际食品法典委员会推荐的动物源性食品中兽医用激素的每日允许摄入量（ADI）是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "苯硫达唑（Fenbendazole）在猪脂肪中的最高残留限量是200 μg/kg。",
+    "reference_case": "苯硫达唑（Fenbendazole）在猪脂肪中的最高残留限量是100 μg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "苯硫达唑（Fenbendazole）在猪脂肪中的最高残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "氧苯咪唑（Oxibendazole）在猪脂肪中的最高残留限量是1000 μg/kg。",
+    "reference_case": "氧苯咪唑（Oxibendazole）在猪脂肪中的最高残留限量是500 μg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "氧苯咪唑（Oxibendazole）在猪脂肪中的最高残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "氮哌酮在猪体内的代谢速度很慢，代谢物至少有5种，主要代谢途径包括还原酮生成Azaperol和其他还原态化合物、氧化脱去乙酰基和吡啶环的羟基化。",
+    "reference_case": "氮哌酮在猪体内的代谢速度很快，代谢物至少有11种，主要代谢途径包括还原酮生成Azaperol和其他还原态化合物、氧化脱去乙酰基和吡啶环的羟基化。",
+    "error_detail": "数值偏差",
+    "original_question": "氮哌酮在猪体内的代谢速度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "氮哌酮在猪肾脏和肌肉组织中的最大残留限量分别为200 μg/kg和100 μg/kg。",
+    "reference_case": "氮哌酮在猪肾脏和肌肉组织中的最大残留限量分别为100 μg/kg和50 μg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "氮哌酮在猪肾脏和肌肉组织中的最大残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "卡拉洛尔在猪肾脏和肌肉组织中的最大残留限量分别为50 μg/kg 和10 μg/kg。",
+    "reference_case": "卡拉洛尔在猪肾脏和肌肉组织中的最大残留限量分别为25 μg/kg 和5 μg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "卡拉洛尔在猪肾脏和肌肉组织中的最大残留限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "败血症型猪瘟变化较轻微，主要特征为回直口的纽扣状溃疡，以及断奶仔猪助骨末端与软骨交界部位发生钙化，呈黄色骨化线。",
+    "reference_case": "败血症型猪瘟变化较轻微，主要特征为回直口的纽扣状溃疡，以及断奶仔猪助骨末端与软骨交界部位发生钙化，呈黄色骨化线。",
+    "error_detail": "错误地描述了'回直口的纽扣状溃疡'，正确应为'回肠末端'。",
+    "original_question": "败血症型猪瘟的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "实验室检验包括血液学检查、细菌学检查、病毒学诊断、免疫酶联吸附试验、猪接种试验、兔体相互免疫试验、免疫荧光试验、间接血凝试验（IHA）。",
+    "reference_case": "实验室检验包括血液学检查、细菌学检查、病毒学诊断、免疫酶联吸附试验、猪接种试验、兔体相互免疫试验、免疫荧光试验、间接血凝试验（IHA）。",
+    "error_detail": "错误地列出了'兔体相互免疫试验'，实际上应为'兔体交叉免疫试验'。",
+    "original_question": "猪瘟的实验室诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "非洲猪瘟的潜伏期为5～15天，人工感染为2～5天。",
+    "reference_case": "非洲猪瘟的潜伏期为5～15天，人工感染为2～5天。",
+    "error_detail": "错误地描述了'人工感染为2～5天'，实际上应为'人工感染为3～5天'。",
+    "original_question": "非洲猪瘟病毒的潜伏期是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体温突然升高至40.5°C，持续4天，随后体温下降，病猪出现精神沉郁、厌食、全身衰弱、后躯衰弱、步行艰难，心跳急速、呼吸加快，部分病猪呼吸困难、咳嗽、鼻漏和眼分泌物，后期体温下降并突然死亡，死亡率95%～100%。",
+    "reference_case": "体温突然升高至40.5°C，持续4天，随后体温下降，病猪出现精神沉郁、厌食、全身衰弱、后躯衰弱、步行艰难，心跳急速、呼吸加快，部分病猪呼吸困难、咳嗽、鼻漏和眼分泌物，后期体温下降并突然死亡，死亡率95%～100%。",
+    "error_detail": "错误地描述了'体温突然升高至40.5°C'，实际上应为'体温突然升高至41°C'。",
+    "original_question": "非洲猪瘟感染后，病猪的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脾脏高度肿胀，胸腔、腹腔、心包腔积水，肝肿大，大肠扣状肿偶尔出现，皮肤、耳部、鼻端、腋下、腹壁、尾部、外阴部等有紫绀区，四肢、腹壁等处有出血块，淋巴结严重出血，尤其是胃、肝、肾、肠等淋巴结，心肌柔软，心外膜及心内膜下散在出血点，腹腔积液500毫升，肠黏膜有溃疡和瘀斑，肝脏有变性和坏死，肾脏出血较轻，脑膜充血出血。",
+    "reference_case": "脾脏高度肿胀，胸腔、腹腔、心包腔积水，肝肿大，大肠扣状肿偶尔出现，皮肤、耳部、鼻端、腋下、腹壁、尾部、外阴部等有紫绀区，四肢、腹壁等处有出血块，淋巴结严重出血，尤其是胃、肝、肾、肠等淋巴结，心肌柔软，心外膜及心内膜下散在出血点，腹腔积液500毫升，肠黏膜有溃疡和瘀斑，肝脏有变性和坏死，肾脏出血较轻，脑膜充血出血。",
+    "error_detail": "错误地描述了'腹腔积液500毫升'，实际上应为'腹腔积液量不等'。",
+    "original_question": "非洲猪瘟感染后，病猪的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "新疫区10日龄以内仔猪的死亡率几乎达100%。",
+    "reference_case": "新疫区10日龄以内仔猪的死亡率几乎达100%。",
+    "error_detail": "错误地描述了'几乎达100%'，实际上应为'可达100%'。",
+    "original_question": "新疫区10日龄以内仔猪的死亡率是多少？",
+    "original_input": ""
+  }
+]

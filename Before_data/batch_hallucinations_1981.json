@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "需从97公斤饲料中获得16公斤粗蛋白质，计算得出97公斤饲料的蛋白质水平应为18.5%，从而确定混合能量饲料和豆饼的比例。",
+    "reference_case": "需从97公斤饲料中获得16公斤粗蛋白质，计算得出97公斤饲料的蛋白质水平应为16.5%，从而确定混合能量饲料和豆饼的比例。",
+    "error_detail": "蛋白质水平的数值被错误地提高，导致计算出的比例不准确。",
+    "original_question": "如何通过对角线法计算猪日粮中能量饲料和豆饼的数量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "根据配合饲料中磷和钙的需要，确定骨粉和石粉的比例，最终确定骨粉1.3公斤，石粉0.1公斤。",
+    "reference_case": "根据配合饲料中磷和钙的需要，确定骨粉和石粉的比例，最终确定骨粉1.1公斤，石粉0.2公斤。",
+    "error_detail": "骨粉和石粉的比例被错误地调整，导致营养配比不准确。",
+    "original_question": "猪配合饲料中骨粉和石粉的比例如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪1-5公斤时，每公斤饲料含粗蛋白30%，赖氨酸1.6%，消化能4.20兆卡；5-10公斤时，每公斤饲料含粗蛋白25%，赖氨酸1.20%，消化能3.82兆卡；10-20公斤时，每公斤饲料含粗蛋白22%，赖氨酸0.88%，消化能3.51兆卡。",
+    "reference_case": "仔猪1-5公斤时，每公斤饲料含粗蛋白27%，赖氨酸1.4%，消化能4.00兆卡；5-10公斤时，每公斤饲料含粗蛋白22%，赖氨酸1.00%，消化能3.62兆卡；10-20公斤时，每公斤饲料含粗蛋白19%，赖氨酸0.78%，消化能3.31兆卡。",
+    "error_detail": "养分含量被错误地提高，导致饲料配方不符合实际需要。",
+    "original_question": "仔猪不同体重阶段的每公斤饲料养分含量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪1-5公斤时，日增重180克，增重/饲料比900克/公斤；5-10公斤时，日增重300克，增重/饲料比700克/公斤；10-20公斤时，日增重450克，增重/饲料比500克/公斤。",
+    "reference_case": "仔猪1-5公斤时，日增重160克，增重/饲料比800克/公斤；5-10公斤时，日增重280克，增重/饲料比600克/公斤；10-20公斤时，日增重420克，增重/饲料比462克/公斤。",
+    "error_detail": "日增重和增重/饲料比的数值被错误地提高，导致生长性能评估不准确。",
+    "original_question": "仔猪在不同体重阶段的日增重和增重/饲料比有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "生长肥育猪每日每头营养需要量包括赖氨酸、苏氨酸、异亮氨酸、蛋氨酸、磷、维生素A、胡萝卜素、维生素D、维生素E、维生素K、烟酸、叶酸、维生素B1、生物素、胆碱等。",
+    "reference_case": "生长肥育猪每日每头营养需要量包括赖氨酸、苏氨酸、异亮氨酸、蛋氨酸、磷、维生素A、胡萝卜素、维生素D、维生素E、维生素K、烟酸、叶酸、维生素B",
+    "error_detail": "添加了未在原始output中提到的养分，导致信息不忠实于原始数据。",
+    "original_question": "生长肥育猪每日每头营养需要量包括哪些养分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "后备母猪每日每头营养需要量包括粗蛋白、赖氨酸、消化能、维生素A、维生素D、维生素E、维生素K、烟酸、叶酸、维生素B1、生物素、胆碱等。",
+    "reference_case": "未提供具体数据，但通常包括粗蛋白、赖氨酸、消化能、维生素A、维生素D、维生素E、维生素K、烟酸、叶酸、维生素B",
+    "error_detail": "添加了未在原始output中提到的养分，导致信息不忠实于原始数据。",
+    "original_question": "后备母猪每日每头营养需要量包括哪些养分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "青干草粉在肥商猪饲料中的含量为8.0%。",
+    "reference_case": "青干草粉在肥商猪饲料中的含量为6.0%。",
+    "error_detail": "青干草粉的含量被错误地提高，导致饲料配方不准确。",
+    "original_question": "青干草粉在肥商猪饲料中的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每公斤肥商猪饲料含有的消化能为3.50兆卡。",
+    "reference_case": "每公斤肥商猪饲料含有的消化能为3.10兆卡。",
+    "error_detail": "消化能的数值被错误地提高，导致能量评估不准确。",
+    "original_question": "每公斤肥商猪饲料含有的消化能是多少兆卡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥商猪饲料中相朊的含量为15.1%。",
+    "reference_case": "肥商猪饲料中相朊的含量为13.1%。",
+    "error_detail": "相朊的含量被错误地提高，导致蛋白质评估不准确。",
+    "original_question": "肥商猪饲料中相朊的含量是多少百分比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥商猪饲料中粗纤维的含量为3.89%。",
+    "reference_case": "肥商猪饲料中粗纤维的含量为2.89%。",
+    "error_detail": "粗纤维的含量被错误地提高，导致纤维评估不准确。",
+    "original_question": "肥商猪饲料中粗纤维的含量是多少百分比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥商猪饲料中钙的含量为0.45%。",
+    "reference_case": "肥商猪饲料中钙的含量为0.35%。",
+    "error_detail": "钙的含量被错误地提高，导致矿物质评估不准确。",
+    "original_question": "肥商猪饲料中钙的含量是多少百分比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥商猪饲料中赖氨酸的含量为0.69%。",
+    "reference_case": "肥商猪饲料中赖氨酸的含量为0.59%。",
+    "error_detail": "赖氨酸的含量被错误地提高，导致氨基酸评估不准确。",
+    "original_question": "肥商猪饲料中赖氨酸的含量是多少百分比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥商猪饲料中蛋氨酸的含量为0.48%。",
+    "reference_case": "肥商猪饲料中蛋氨酸的含量为0.38%。",
+    "error_detail": "蛋氨酸的含量被错误地提高，导致氨基酸评估不准确。",
+    "original_question": "肥商猪饲料中蛋氨酸的含量是多少百分比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥商猪饲料中维生素的添加量为每吨混合料加53克上海禽用多维。",
+    "reference_case": "肥商猪饲料中维生素的添加量为每吨混合料加43克上海禽用多维。",
+    "error_detail": "维生素的添加量被错误地提高，导致维生素评估不准确。",
+    "original_question": "肥商猪饲料中维生素的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "各种家畜精子生生成周期因品种不同而异，例如公绵羊为59~60天、公牛70天、公猪54~55天、公马59~60天，加上精子在附睾中运行的时间后，精子从发生到排出体外的时间大约是三个月左右。",
+    "reference_case": "各种家畜精子生生成周期因品种不同而异，例如公绵羊为49~50天、公牛60天、公猪44~45天、公马49~50天，加上精子在附睾中运行的时间后，精子从发生到排出体外的时间大约是两个月左右。",
+    "error_detail": "精子生成周期的时间被错误地延长，导致生殖生理评估不准确。",
+    "original_question": "精子的生生成周期是多少时间？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牛、羊、猪的精子在母畜生殖道内可存活2至3天，马大约7天。",
+    "reference_case": "牛、羊、猪的精子在母畜生殖道内可存活1至2天，马大约6天。",
+    "error_detail": "精子存活时间被错误地延长，导致生殖生理评估不准确。",
+    "original_question": "精子在母畜生殖道内的存活时间是多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牛卵子的寿命大约为30至34小时，绵羊为26至34小时，猪为18至20小时，马为16至18小时。",
+    "reference_case": "牛卵子的寿命大约为20至24小时，绵羊为16至24小时，猪为8至10小时，马为6至8小时。",
+    "error_detail": "卵子寿命的时间被错误地延长，导致生殖生理评估不准确。",
+    "original_question": "卵子在母畜生殖道内的存活时间是多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的精子需4至7小时，绵羊约2.5小时，牛可能3至4小时。",
+    "reference_case": "猪的精子需3至6小时，绵羊约1.5小时，牛可能2至3小时。",
+    "error_detail": "精子获得受精能力的时间被错误地延长，导致生殖生理评估不准确。",
+    "original_question": "精子在母畜生殖道内停留多久才能获得受精能力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠期，母猪子宫动脉在35天以后可触摸到搏动，一个月后粗如筷子或铅笔；2个月以后粗如中指或拇指；60天以后可摸到胎儿。",
+    "reference_case": "妊娠期，母猪子宫动脉在25天以后可触摸到搏动，一个月后粗如筷子或铅笔；2个月以后粗如小指或食指；60天以后可摸到胎儿。",
+    "error_detail": "子宫动脉搏动和粗细的描述被错误地修改，导致妊娠评估不准确。",
+    "original_question": "妊娠期母猪子宫动脉的变化有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "多胎动物的胎儿颈部和四肢较长，不改变胎势，如猪的胎儿从两个子宫角产出，产势为头前置或前肢前置。",
+    "reference_case": "多胎动物的胎儿颈部和四肢较短，不改变胎势，如猪的胎儿从两个子宫角产出，产势为头前置或后肢前置。",
+    "error_detail": "胎儿颈部和四肢的描述被错误地修改，导致分娩评估不准确。",
+    "original_question": "多胎动物在分娩时的胎位如何？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪痘是由细菌引起的急性热型传染病。",
+    "reference_case": "猪痘是由病毒引起的急性热型传染病。",
+    "error_detail": "将病毒错误地描述为细菌。",
+    "original_question": "猪痘是由什么病毒引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "病猪体温升高到42°C~43°C，幼猪发病率可达60%~70%，死亡率一般不超过5%。",
+    "reference_case": "病猪体温升高到41.5°C~41.8°C，幼猪发病率可达30%~50%，死亡率一般不超过1%。",
+    "error_detail": "数值偏差，提高了体温、发病率和死亡率的数据。",
+    "original_question": "猪痘的典型症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "用5%的敌百虫喷酒，或用汽油或生猪板油直接涂搽杀猪䖝。",
+    "reference_case": "用1%的敌百虫喷酒，或用煤油或生猪板油直接涂搽杀猪䖝。",
+    "error_detail": "过时的标准，提高了敌百虫的浓度并错误地使用了汽油。",
+    "original_question": "猪痘的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "感染后的2~6月龄猪表现为食欲增加、体重快速增长。",
+    "reference_case": "感染后的2~6月龄猪表现为消化不良、瘦弱、生长发育不良，被毛粗乱。",
+    "error_detail": "错误地描述了感染后的症状。",
+    "original_question": "猪蛔虫病的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "驱虫药物包括敌百虫、左旋咪唑、使君子、乌梅、苦楝皮、槟榔、鹤风、驱虫精、伊维菌素、阿维菌素等，使用剂量为常规剂量的两倍。",
+    "reference_case": "驱虫药物包括敌百虫、左旋咪唑、使君子、乌梅、苦楝皮、槟榔、鹤风、驱虫精、伊维菌素、阿维菌素等。",
+    "error_detail": "数值偏差，错误地建议了使用剂量。",
+    "original_question": "防治猪蛔虫病的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "感染轻度时症状明显，严重时症状减轻。",
+    "reference_case": "感染轻度时症状不明显，严重时出现精神差、食欲减少、消瘦、贫血、皮炎、生长发育不良、尿液混浊带黏液性脓块、后肢无力或麻痹、母猪不孕或流产、公猪跛行、性欲减退或失去配种能力。",
+    "error_detail": "错误地描述了感染后的症状变化。",
+    "original_question": "猪肾虫病的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "药物治疗包括丙硫苯咪唑、海群生、敌百虫、噻苯咪唑、伊维菌素、阿维菌素等，但建议使用最新的药物X。",
+    "reference_case": "药物治疗包括丙硫苯咪唑、海群生、敌百虫、噻苯咪唑、伊维菌素、阿维菌素等。",
+    "error_detail": "添加了不存在的药物X作为最新推荐。",
+    "original_question": "防治猪肾虫病的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "轻度感染时症状明显，严重时症状减轻。",
+    "reference_case": "轻度感染时症状不明显，严重时出现阵发性咳嗽、鼻流黄色黏液、呼吸迫促、生长停滞、仔猪急性支气管肺炎、精神萎靡、消瘦、食欲不振、体温上升，严重时死亡。",
+    "error_detail": "错误地描述了感染后的症状变化。",
+    "original_question": "猪肺丝虫病的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "改放牧为圈养，防止猪吞食蚯蚓；药物治疗包括左旋咪唑、碘溶液注射剂、氰乙酰肼、伊维菌素、阿维菌素等，但建议使用最新的药物Y。",
+    "reference_case": "改放牧为圈养，防止猪吞食蚯蚓；药物治疗包括左旋咪唑、碘溶液注射剂、氰乙酰肼、伊维菌素、阿维菌素等。",
+    "error_detail": "添加了不存在的药物Y作为最新推荐。",
+    "original_question": "防治猪肺丝虫病的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "急性感染表现为食欲增加、体重快速增长。",
+    "reference_case": "急性感染表现为食欲不振或废食、疼痛、弓背、痉挛性频繁排尿、顽固性下痢、消瘦贫血、虚弱而死亡；慢性感染只有严重时才出现临床症状。",
+    "error_detail": "错误地描述了急性感染的症状。",
+    "original_question": "猪食道口线虫病的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "改善饲养管理，保持猪圈干燥并定期驱虫；药物治疗包括敌百虫、硫化二苯胺、福尔马林、雷丸、榧子、槟榔、使君子、大黄、阿维菌素、依维菌素等，使用剂量为常规剂量的三倍。",
+    "reference_case": "改善饲养管理，保持猪圈干燥并定期驱虫；药物治疗包括敌百虫、硫化二苯胺、福尔马林、雷丸、榧子、槟榔、使君子、大黄、阿维菌素、依维菌素等。",
+    "error_detail": "数值偏差，错误地建议了使用剂量。",
+    "original_question": "防治猪食道口线虫病的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "A类疫病包括10种，B类疫病包括90种。",
+    "reference_case": "A类疫病包括15种，如口蹄疫、水疱性口炎、非洲猪瘟、非洲马疽、新城疫、高致病性禽流感等；B类疫病包括80种，如炭疽病、狂犬病、地方性牛白血病、传染性法氏囊病、兔出血热、蜂螨病等。",
+    "error_detail": "错误地描述了A类和B类疫病的数量。",
+    "original_question": "《国际动物卫生法典》规定了哪两类疫病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟病毒属于Herpesviridae家族的一个成员。",
+    "reference_case": "猪瘟病毒属于Flaviridae pestivirus的一个成员，直径40～50nm，球形，有囊膜，基因组为SSRNA，长12.2kb，仅含有一个ORF。",
+    "error_detail": "错误地将猪瘟病毒归类到Herpesviridae家族。",
+    "original_question": "猪瘟病毒的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "pH3～12稳定，但不耐受pH2。",
+    "reference_case": "pH5～10稳定，但不耐受pH3。",
+    "error_detail": "数值偏差，错误地描述了pH稳定范围。",
+    "original_question": "猪瘟病毒在什么条件下稳定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "包括兔体交互免疫和猪接种，可以将可疑病料制作乳剂进行兔体静脉注射。",
+    "reference_case": "包括兔体交互免疫和猪接种，可以将可疑病料制作乳剂进行兔体皮下注射，观察体温反应，或者病毒分离与NDV强化法、病毒抗原检查、RT-PCR和髓细胞检查法。",
+    "error_detail": "错误地描述了注射方法。",
+    "original_question": "如何进行猪瘟的生物学诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "副结核分枝杆菌主要引起羊发病。",
+    "reference_case": "副结核分枝杆菌主要引起牛（尤其是奶牛）发病，幼年牛最易感。绵羊、骆驼、猪、马、驴、鹿等动物也可罹患。",
+    "error_detail": "错误地描述了主要受影响的动物。",
+    "original_question": "副结核分枝杆菌主要影响哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "旋毛虫的主要宿主有牛、羊等。",
+    "reference_case": "人、猪、犬、猫、鼠类等。",
+    "error_detail": "错误地描述了旋毛虫的主要宿主。",
+    "original_question": "旋毛虫的主要宿主有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪囊尾蚴外观圆形，囊壁上没有头节。",
+    "reference_case": "猪囊尾蚴外观椭圆形，呈米粒或黄豆大半透明包囊状，囊内充满液体，囊壁上有一个圆形粟粒大乳白色向内翻的头节。头节上有4个圆形的吸盘，有顶突，上有两圈角质小钩。",
+    "error_detail": "错误地描述了猪囊尾蚴的外观和结构。",
+    "original_question": "如何通过目检识别猪囊尾蚴？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪囊尾蚴主要寄生于心脏和大脑。",
+    "reference_case": "猪囊尾蚴主要寄生于横纹肌内，如咬肌、舌肌、膈肌、深腰肌、肋间肌、心肌以及颈、肩、腹部等处的肌肉。严重感染时在其他器官中也可发现，如肝、肺、肾、脑及脂肪等处。",
+    "error_detail": "错误地描述了猪囊尾蚴的主要寄生部位。",
+    "original_question": "猪囊尾蚴主要寄生于哪些部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "牛囊尾蚴外观上与猪囊尾蚴相似，但头节上有6个吸盘。",
+    "reference_case": "牛囊尾蚴外观上与猪囊尾蚴相似，但头节上只有4个吸盘，没有顶突和角质小钩。",
+    "error_detail": "错误地描述了牛囊尾蚴的头节吸盘数量。",
+    "original_question": "如何通过目检识别牛囊尾蚴？",
+    "original_input": ""
+  }
+]

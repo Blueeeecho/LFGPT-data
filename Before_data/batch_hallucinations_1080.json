@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "TSA 和 5-Aza-CdR 在适当浓度下能显著提高猪孤雌胚胎的囊胚率。50 nmol/L TSA 处理 24 小时显著提高了囊胚率和囊胚细胞个数，而 40 nmol/L 5-Aza-CdR 处理 48 小时显著提高了囊胚率，但对卵裂率和囊胚细胞个数影响不大。",
+    "reference_case": "TSA 和 5-Aza-CdR 在适当浓度下能显著提高猪孤雌胚胎的囊胚率。40 nmol/L TSA 处理 24 小时显著提高了囊胚率和囊胚细胞个数，而 30 nmol/L 5-Aza-CdR 处理 48 小时显著提高了囊胚率，但对卵裂率和囊胚细胞个数影响不大。",
+    "error_detail": "修改了TSA和5-Aza-CdR的最佳处理浓度，导致数据型幻觉。",
+    "original_question": "曲古抑菌素 A (TSA) 和 5-氮杂-2'-脱氧胞苷 (5-Aza-CdR) 对猪孤雌胚胎发育的主要影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "TSA 通过抑制DNA甲基转移酶，导致组蛋白超乙酰化，改变染色质结构，促进基因表达。5-Aza-CdR 通过抑制组蛋白去乙酰化酶，降低DNA甲基化水平，从而影响基因表达和胚胎发育。",
+    "reference_case": "TSA 通过抑制组蛋白去乙酰化酶，导致组蛋白超乙酰化，改变染色质结构，促进基因表达。5-Aza-CdR 通过抑制 DNA 甲基转移酶，降低 DNA 甲基化水平，从而影响基因表达和胚胎发育。",
+    "error_detail": "混淆了TSA和5-Aza-CdR的作用机制，导致概念混淆幻觉。",
+    "original_question": "在猪孤雌胚胎发育的研究中，TSA 和 5-Aza-CdR 的作用机制是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "TSA 的最佳处理浓度是 50 nmol/L，处理时间为 24 小时，这显著提高了猪孤雌胚胎的囊胚率和囊胚细胞个数。",
+    "reference_case": "TSA 的最佳处理浓度是 40 nmol/L，处理时间为 24 小时，这显著提高了猪孤雌胚胎的囊胚率和囊胚细胞个数。",
+    "error_detail": "修改了TSA的最佳处理浓度，导致数据型幻觉。",
+    "original_question": "在猪孤雌胚胎发育的研究中，TSA 的最佳处理浓度和时间是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "5-Aza-CdR 的最佳处理浓度是 40 nmol/L，处理时间为 48 小时，这显著提高了猪孤雌胚胎的囊胚率。",
+    "reference_case": "5-Aza-CdR 的最佳处理浓度是 30 nmol/L，处理时间为 48 小时，这显著提高了猪孤雌胚胎的囊胚率。",
+    "error_detail": "修改了5-Aza-CdR的最佳处理浓度，导致数据型幻觉。",
+    "original_question": "在猪孤雌胚胎发育的研究中，5-Aza-CdR 的最佳处理浓度和时间是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "TSA 和 5-Aza-CdR 处理对猪孤雌胚胎的卵裂率有显著影响，卵裂率在处理后显著提高。",
+    "reference_case": "TSA 和 5-Aza-CdR 处理对猪孤雌胚胎的卵裂率没有显著影响，卵裂率在处理前后无明显变化。",
+    "error_detail": "错误地描述了TSA和5-Aza-CdR处理对卵裂率的影响，导致数据型幻觉。",
+    "original_question": "猪孤雌胚胎的卵裂率在 TSA 和 5-Aza-CdR 处理后的变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "TSA 处理对猪孤雌胚胎的囊胚细胞个数没有显著影响，而 5-Aza-CdR 处理显著提高了囊胚细胞个数。",
+    "reference_case": "TSA 处理显著提高了猪孤雌胚胎的囊胚细胞个数，而 5-Aza-CdR 处理对囊胚细胞个数没有显著影响。",
+    "error_detail": "错误地描述了TSA和5-Aza-CdR处理对囊胚细胞个数的影响，导致数据型幻觉。",
+    "original_question": "猪孤雌胚胎的囊胚细胞个数在 TSA 和 5-Aza-CdR 处理后的变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "卵母细胞体外成熟培养液包括 TCM-199 (Earle's 液)、20% 猪卵泡液 (pFF)、0:57 mmol/L L-半胱氨酸、4 ng/mL 表皮生长因子 (EGF)、10 IU/mL 孕马血清促性腺激素 (PMSG) 和 10 IU/mL 人绒毛膜促性腺激素 (hCG)。",
+    "reference_case": "卵母细胞体外成熟培养液包括 TCM-199 (Earle's 液)、10% 猪卵泡液 (pFF)、0:57 mmol/L L-半胱氨酸、4 ng/mL 表皮生长因子 (EGF)、10 IU/mL 孕马血清促性腺激素 (PMSG) 和 10 IU/mL 人绒毛膜促性腺激素 (hCG)。",
+    "error_detail": "修改了猪卵泡液的浓度，导致数据型幻觉。",
+    "original_question": "猪孤雌胚胎的卵母细胞体外成熟培养液的成分是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "卵母细胞在成熟培养 48 小时后，用 0:1% 透明质酸酶脱去卵丘细胞，挑选成熟卵母细胞，用激活液洗涤并平衡 1 分钟，然后在电融合仪中进行直流脉冲刺激，静置 1 分钟后转入 PZM-3 + CB + CHX 中作用 4 小时，最后转移到 PZM-3 中培养。",
+    "reference_case": "卵母细胞在成熟培养 44 小时后，用 0:1% 透明质酸酶脱去卵丘细胞，挑选成熟卵母细胞，用激活液洗涤并平衡 1 分钟，然后在电融合仪中进行直流脉冲刺激，静置 1 分钟后转入 PZM-3 + CB + CHX 中作用 4 小时，最后转移到 PZM-3 中培养。",
+    "error_detail": "修改了卵母细胞的成熟培养时间，导致数据型幻觉。",
+    "original_question": "在猪孤雌胚胎发育的研究中，卵母细胞的孤雌激活方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "取出第 8 天的囊胚，在含 3:7% 多聚甲醛的 DPBS 中洗涤并固定 5 分钟，然后将囊胚转移到含 10 µg/mL Hoechst33342 的 DPBS 中避光室温孵育 10 分钟，最后将囊胚转移到载玻片的甘油滴上，用凡士林/石蜡固定，盖上盖玻片并用指甲油封片，在荧光显微镜下观察并统计囊胚细胞个数。",
+    "reference_case": "取出第 7 天的囊胚，在含 3:7% 多聚甲醛的 DPBS 中洗涤并固定 5 分钟，然后将囊胚转移到含 10 µg/mL Hoechst33342 的 DPBS 中避光室温孵育 10 分钟，最后将囊胚转移到载玻片的甘油滴上，用凡士林/石蜡固定，盖上盖玻片并用指甲油封片，在荧光显微镜下观察并统计囊胚细胞个数。",
+    "error_detail": "修改了囊胚的取出时间，导致数据型幻觉。",
+    "original_question": "在猪孤雌胚胎发育的研究中，囊胚细胞染色的方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山小型猪 PDCD10 cDNA 的全长是 1300 bp。",
+    "reference_case": "五指山小型猪 PDCD10 cDNA 的全长是 1250 bp。",
+    "error_detail": "修改了PDCD10 cDNA的全长，导致数据型幻觉。",
+    "original_question": "五指山小型猪 PDCD10 cDNA 的全长是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山小型猪 PDCD10 基因的开放阅读框长度是 700 bp。",
+    "reference_case": "五指山小型猪 PDCD10 基因的开放阅读框长度是 636 bp。",
+    "error_detail": "修改了PDCD10基因的开放阅读框长度，导致数据型幻觉。",
+    "original_question": "五指山小型猪 PDCD10 基因的开放阅读框（ORF）长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "五指山小型猪 PDCD10 基因的核苷酸序列与植物、真菌、细菌等具有较高的相似性。",
+    "reference_case": "五指山小型猪 PDCD10 基因的核苷酸序列与人、小鼠、牛、鸡、非洲爪蟾、斑马鱼、黑腹果蝇等具有较高的相似性。",
+    "error_detail": "错误地描述了PDCD10基因的核苷酸序列相似性，导致概念混淆幻觉。",
+    "original_question": "五指山小型猪 PDCD10 基因的核苷酸序列与哪些动物的序列具有较高的相似性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山小型猪 PDCD10 蛋白的 212 个氨基酸中，160 个氨基酸可能形成 α 螺旋。",
+    "reference_case": "五指山小型猪 PDCD10 蛋白的 212 个氨基酸中，152 个氨基酸可能形成 α 螺旋。",
+    "error_detail": "修改了可能形成α螺旋的氨基酸数量，导致数据型幻觉。",
+    "original_question": "五指山小型猪 PDCD10 蛋白的氨基酸序列中，哪些氨基酸可能形成 α 螺旋？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山小型猪 PDCD10 蛋白的 212 个氨基酸中，15 个氨基酸可能形成 β 折叠。",
+    "reference_case": "五指山小型猪 PDCD10 蛋白的 212 个氨基酸中，11 个氨基酸可能形成 β 折叠。",
+    "error_detail": "修改了可能形成β折叠的氨基酸数量，导致数据型幻觉。",
+    "original_question": "五指山小型猪 PDCD10 蛋白的氨基酸序列中，哪些氨基酸可能形成 β 折叠？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山小型猪 PDCD10 蛋白的 212 个氨基酸中，60 个氨基酸可能形成无规则卷曲。",
+    "reference_case": "五指山小型猪 PDCD10 蛋白的 212 个氨基酸中，49 个氨基酸可能形成无规则卷曲。",
+    "error_detail": "修改了可能形成无规则卷曲的氨基酸数量，导致数据型幻觉。",
+    "original_question": "五指山小型猪 PDCD10 蛋白的氨基酸序列中，哪些氨基酸可能形成无规则卷曲？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "五指山小型猪 PDCD10 基因的克隆使用了实时荧光定量PCR方法，生物信息学分析使用了多种生物信息学软件进行核苷酸序列分析、蛋白质理化性质预测和二级结构预测。",
+    "reference_case": "五指山小型猪 PDCD10 基因的克隆使用了菌落 PCR 方法，生物信息学分析使用了多种生物信息学软件进行核苷酸序列分析、蛋白质理化性质预测和二级结构预测。",
+    "error_detail": "错误地描述了PDCD10基因的克隆方法，导致概念混淆幻觉。",
+    "original_question": "五指山小型猪 PDCD10 基因的克隆和生物信息学分析使用了哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "五指山小型猪 PDCD10 基因的克隆和生物信息学分析的主要目的是为了研究该基因的核苷酸序列、编码蛋白的理化性质及二级结构，为基因治疗奠定基础。",
+    "reference_case": "五指山小型猪 PDCD10 基因的克隆和生物信息学分析的主要目的是为了研究该基因的核苷酸序列、编码蛋白的理化性质及二级结构，为进一步研究其功能奠定基础。",
+    "error_detail": "错误地描述了PDCD10基因克隆和生物信息学分析的主要目的，导致指令偏离型幻觉。",
+    "original_question": "五指山小型猪 PDCD10 基因的克隆和生物信息学分析的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "陆川猪产于中国广东省桂东南地区的玉林市陆川县。",
+    "reference_case": "陆川猪产于中国广西省桂东南地区的玉林市陆川县。",
+    "error_detail": "错误地描述了陆川猪的产地，导致空间错位幻觉。",
+    "original_question": "陆川猪的产地是哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "陆川猪具有内质好、营养丰富、特殊的生长和繁殖性能等优点，以及抗病能力强。",
+    "reference_case": "陆川猪具有内质好、营养丰富、特殊的生长和繁殖性能等优点。",
+    "error_detail": "添加了陆川猪的抗病能力强这一未提及的优点，导致指令偏离型幻觉。",
+    "original_question": "陆川猪有哪些主要的优点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "除陆川县外，陆川猪还在广西省内的玉林、贵港、钦州、北海、梧州、贺州、南宁、河池等40多个县市区饲养，广东省粤西地区和海南省部分农村地区也有饲养，以及福建省部分地区。",
+    "reference_case": "除陆川县外，陆川猪还在广西省内的玉林、贵港、钦州、北海、梧州、贺州、南宁、河池等40多个县市区饲养，广东省粤西地区和海南省部分农村地区也有饲养。",
+    "error_detail": "错误地添加了福建省部分地区作为陆川猪的饲养地，导致空间错位幻觉。",
+    "original_question": "陆川猪在哪些地区有饲养？",
+    "original_input": ""
+  }
+]

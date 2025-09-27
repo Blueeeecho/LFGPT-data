@@ -1,0 +1,164 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "简单杂交使用多个品种猪，而多品种杂交固定使用两个品种猪。",
+    "reference_case": "简单杂交固定使用两个品种猪，而多品种杂交可以利用杂种母猪的优势，使生产水平进一步提高。",
+    "error_detail": "混淆了简单杂交和多品种杂交的定义",
+    "original_question": "简单杂交与多品种杂交的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "两品种固定杂交的优点是父本和母本都是纯种，可以得到父本和母本的杂种优势。",
+    "reference_case": "由于父本和母本都是纯种，无法得到父本和母本的杂种优势，杂一代全部作为商品肥育猪，繁殖性能的杂种优势不能充分利用。",
+    "error_detail": "错误地认为纯种可以带来杂种优势",
+    "original_question": "两品种固定杂交的缺点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "两品种轮回杂交的优点是母猪始终都是纯种，可以保持纯种母猪的优势。",
+    "reference_case": "除第一次杂交外，母猪始终都是杂种，可以保持杂种母猪的杂种优势，组织工作方便。",
+    "error_detail": "错误地假设母猪为纯种",
+    "original_question": "两品种轮回杂交的优点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "两品种轮回杂交的缺点是杂种优势可以保持100%。",
+    "reference_case": "代代要更换公猪，即使杂交效果好的公猪也不能继续使用，杂种优势不能保持100%，杂种优势会停滞在一定水平上。",
+    "error_detail": "错误地认为杂种优势可以保持100%",
+    "original_question": "两品种轮回杂交的缺点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "非配种期种公猪的饲料配方中赖氨酸含量在1.5%到2.0%之间。",
+    "reference_case": "非配种期种公猪的饲料配方中赖氨酸含量在0.67%到0.99%之间。",
+    "error_detail": "错误地提高了赖氨酸含量的范围",
+    "original_question": "非配种期种公猪的饲料配方中赖氨酸含量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "非配种期种公猪的饲料配方中消化能在20.00兆焦/千克到25.00兆焦/千克之间。",
+    "reference_case": "非配种期种公猪的饲料配方中消化能在11.88兆焦/千克到14.90兆焦/千克之间。",
+    "error_detail": "错误地提高了消化能的范围",
+    "original_question": "非配种期种公猪的饲料配方中消化能范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "妊娠母猪在受精卵着床前的前10天，应加强饲养管理。",
+    "reference_case": "妊娠母猪在受精卵着床前的前20天，应加强饲养管理，以保证胎儿正常发育。",
+    "error_detail": "错误地缩短了加强饲养管理的时间",
+    "original_question": "妊娠母猪在受精卵着床前的关键管理点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "妊娠母猪在临产前应减少饲养管理，以避免胎儿过大。",
+    "reference_case": "妊娠母猪在临产前应加强饲养管理，确保胎儿能够获得足够的营养，同时避免过肥而影响胎儿发育。",
+    "error_detail": "错误地建议减少饲养管理",
+    "original_question": "妊娠母猪在临产前的关键管理点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "妊娠母猪的繁殖潜力是指实际产仔数，而实际繁殖力是指成年母猪每次排卵数目。",
+    "reference_case": "妊娠母猪的繁殖潜力是指成年母猪每次排卵数目，而实际繁殖力是指实际产仔数，两者之间的差异是由于卵子未能全部受精或受精卵在胚胎期死亡造成的。",
+    "error_detail": "混淆了繁殖潜力和实际繁殖力的定义",
+    "original_question": "妊娠母猪的繁殖潜力与实际繁殖力有何区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "影响胚胎成活率的因素不包括遗传和排卵数。",
+    "reference_case": "影响胚胎成活率的因素包括遗传、排卵数、母猪体格大小、胎次、妊娠持续期以及胎儿在子宫角的位置等。",
+    "error_detail": "错误地排除了遗传和排卵数作为影响因素",
+    "original_question": "影响胚胎成活率的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪的维持代谢能需要每天每千克代谢体重0.60兆焦。",
+    "reference_case": "母猪的维持代谢能需要每天每千克代谢体重0.44兆焦。",
+    "error_detail": "错误地提高了维持代谢能的需要量",
+    "original_question": "妊娠母猪的维持代谢能需要每天每千克代谢体重多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "120至215千克的母猪每天需要维持代谢能30至40兆焦。",
+    "reference_case": "120至215千克的母猪每天需要维持代谢能17至25兆焦。",
+    "error_detail": "错误地提高了维持代谢能的需要量范围",
+    "original_question": "120至215千克的母猪每天需要多少维持代谢能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "妊娠母猪的蛋白质维持需要量范围是150至200克。",
+    "reference_case": "妊娠母猪的蛋白质维持需要量范围是90至140克。",
+    "error_detail": "错误地提高了蛋白质维持需要量的范围",
+    "original_question": "妊娠母猪的蛋白质维持需要量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "妊娠母猪在妊娠1至84天每千克增重需要代谢能30兆焦。",
+    "reference_case": "妊娠母猪在妊娠1至84天每千克增重需要代谢能22兆焦。",
+    "error_detail": "错误地提高了代谢能的需要量",
+    "original_question": "妊娠母猪在妊娠1至84天每千克增重需要多少代谢能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "妊娠母猪在妊娠后期每千克增重需要粗蛋白质400克。",
+    "reference_case": "妊娠母猪在妊娠后期每千克增重需要粗蛋白质300克。",
+    "error_detail": "错误地提高了粗蛋白质的需要量",
+    "original_question": "妊娠母猪在妊娠后期每千克增重需要多少粗蛋白质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "妊娠母猪的营养需要仅包括维持营养需要。",
+    "reference_case": "妊娠母猪的营养需要包括维持营养需要和妊産生产营养需要两部分。",
+    "error_detail": "错误地忽略了妊産生产营养需要",
+    "original_question": "妊娠母猪的营养需要包括哪两部分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "妊娠前期母猪维持营养需要约占总需要的80%。",
+    "reference_case": "妊娠前期母猪维持营养需要约占总需要的94%。",
+    "error_detail": "错误地降低了维持营养需要的比例",
+    "original_question": "妊娠前期母猪维持营养需要占总需要的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "妊娠后期母猪维持营养需要约占总需要的50%。",
+    "reference_case": "妊娠后期母猪维持营养需要约占总需要的75%。",
+    "error_detail": "错误地降低了维持营养需要的比例",
+    "original_question": "妊娠后期母猪维持营养需要占总需要的比例是多少？",
+    "original_input": ""
+  }
+]

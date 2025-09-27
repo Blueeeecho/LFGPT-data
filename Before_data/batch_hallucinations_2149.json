@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "常突然发病，病程稍长，体温升高至45～50℃，呈稽留热，精神沉郁、嗜卧，呼吸促迫，间有咳嗽，鼻镜干燥，流出浆液性或脓性鼻汁，皮肤呈紫红色，并有出血点，个别病例出现血尿、便秘或腹泻。",
+    "reference_case": "常突然发病，病程稍长，体温升高至40～43℃，呈稽留热，精神沉郁、嗜卧，呼吸促迫，间有咳嗽，鼻镜干燥，流出浆液性或脓性鼻汁，皮肤呈紫红色，并有出血点，个别病例出现血尿、便秘或腹泻。",
+    "error_detail": "体温范围被错误地扩大到了45～50℃，与实际情况不符。",
+    "original_question": "猪败血性链球菌病的急性型临床表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "多表现为多发性关节炎，关节周围肌肉肿胀，高度跛行，有痛感，站立困难，严重病例后肢瘫痪，最后因心脏衰竭或麻痹死亡。",
+    "reference_case": "多表现为多发性关节炎，关节周围肌肉肿胀，高度跛行，有痛感，站立困难，严重病例后肢瘫痪，最后因衰竭或麻痹死亡。",
+    "error_detail": "错误地添加了'心脏衰竭'作为死亡原因，与原始描述不符。",
+    "original_question": "猪败血性链球菌病的慢性型临床表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "至少可划分为20种血清型，另有超过30%的分离菌株无法定型。",
+    "reference_case": "至少可划分为15种血清型，另有超过20%的分离菌株无法定型。",
+    "error_detail": "血清型数量和无法定型的比例被错误地增加。",
+    "original_question": "副猪嗜血杆菌可划分为多少种血清型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "临床症状包括发热、食欲不振、厌食、反应迟钝、呼吸困难、咳嗽、疼痛（尖叫）、关节肿胀、跛行、颤抖、共济失调、可视黏膜发绀、侧卧、消瘦和被毛凌乱，严重时可能导致死亡，尤其是在冬季。",
+    "reference_case": "临床症状包括发热、食欲不振、厌食、反应迟钝、呼吸困难、咳嗽、疼痛（尖叫）、关节肿胀、跛行、颤抖、共济失调、可视黏膜发绀、侧卧、消瘦和被毛凌乱，严重时可能导致死亡。",
+    "error_detail": "错误地添加了'尤其是在冬季'这一假设，与原始描述不符。",
+    "original_question": "副猪嗜血杆菌感染的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "主要症状为连续性的湿性咳嗽和气喘，病变的特征是肺的尖叶、心叶、中间叶和膈叶前缘呈肉样或虾肉样实变。",
+    "reference_case": "主要症状为连续性的干性咳嗽和气喘，病变的特征是肺的尖叶、心叶、中间叶和膈叶前缘呈肉样或虾肉样实变。",
+    "error_detail": "错误地将'干性咳嗽'改为'湿性咳嗽'，与实际情况不符。",
+    "original_question": "猪支原体肺炎的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "饲养管理和卫生条件是重要因素，尤以饲料的质量，猪舍潮湿和拥挤、通风不良等影响较大，但遗传因素也不容忽视。",
+    "reference_case": "饲养管理和卫生条件是重要因素，尤以饲料的质量，猪舍潮湿和拥挤、通风不良等影响较大。",
+    "error_detail": "错误地添加了'遗传因素'，与原始描述不符。",
+    "original_question": "影响猪支原体肺炎发病率和死亡率的因素是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病原为猪肺炎支原体（Mycoplasma hyopneumoniae 或 M. suipneumoniae），属细菌科（Bacteriaceae）支原体属（Mycoplasma）成员。",
+    "reference_case": "病原为猪肺炎支原体（Mycoplasma hyopneumoniae 或 M. suipneumoniae），属支原体科（Mycoplasmataceae）支原体属（Mycoplasma）成员。",
+    "error_detail": "错误地将'支原体科'改为'细菌科'，与实际情况不符。",
+    "original_question": "猪支原体肺炎的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "病猪与健康猪直接接触，通过病猪咳嗽、气喘和喷嚏将含病原体的分泌物喷射出来，形成飞沫，经呼吸道而感染，尤其是在密闭空间内。",
+    "reference_case": "病猪与健康猪直接接触，通过病猪咳嗽、气喘和喷嚏将含病原体的分泌物喷射出来，形成飞沫，经呼吸道而感染。",
+    "error_detail": "错误地添加了'尤其是在密闭空间内'这一假设，与原始描述不符。",
+    "original_question": "猪支原体肺炎的感染途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "应经药敏试验，选择敏感的抗生素进行治疗。本菌对新霉素、磺胺甲氧嗪钠、卡那霉素、红霉素、氨芐青霉素、先锋霉素和青霉素敏感。",
+    "reference_case": "应经药敏试验，选择敏感的抗生素进行治疗。本菌对新霉素、磺胺甲氧嗪钠、卡那霉素、红霉素、氨芐青霉素、先锋霉素敏感。",
+    "error_detail": "错误地添加了'青霉素'，与原始描述不符。",
+    "original_question": "治疗猪支原体肺炎应选择哪种抗生素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "对养猪业危害很大，常与多杀性巴氏杆菌、副猪嗜血杆菌或胸膜肺炎放线杆菌等病原菌协同引起猪地方性肺炎，还常与猪繁殖与呼吸综合征病毒、猪圆环病毒 2 型或猪流感病毒共同致病，引起猪呼吸道综合征，尤其是在高密度饲养条件下。",
+    "reference_case": "对养猪业危害很大，常与多杀性巴氏杆菌、副猪嗜血杆菌或胸膜肺炎放线杆菌等病原菌协同引起猪地方性肺炎，还常与猪繁殖与呼吸综合征病毒、猪圆环病毒 2 型或猪流感病毒共同致病，引起猪呼吸道综合征。",
+    "error_detail": "错误地添加了'尤其是在高密度饲养条件下'，与原始描述不符。",
+    "original_question": "猪支原体肺炎对养猪业的危害如何？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "引物设计针对的是猪流感病毒（SIV）的 HA 基因保守区域。",
+    "reference_case": "引物设计针对的是猪流感病毒（SIV）的 NP 基因保守区域。",
+    "error_detail": "错误地将NP基因替换为HA基因，导致概念混淆。",
+    "original_question": "猪流感病毒 LAMP 检测方法的建立中，引物设计针对的是哪个基因的保守区域？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪流感病毒 LAMP 检测方法与 RT-PCR 方法在临床样品检测中的符合率为 95%。",
+    "reference_case": "猪流感病毒 LAMP 检测方法与 RT-PCR 方法在临床样品检测中的符合率为 100%。",
+    "error_detail": "错误地降低了符合率的数据。",
+    "original_question": "猪流感病毒 LAMP 检测方法与 RT-PCR 方法在临床样品检测中的符合率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪流感病毒 LAMP 检测方法的最低检测量为 10 拷贝/μL 质粒 DNA。",
+    "reference_case": "猪流感病毒 LAMP 检测方法的最低检测量为 100 拷贝/μL 质粒 DNA。",
+    "error_detail": "错误地提高了检测灵敏度。",
+    "original_question": "猪流感病毒 LAMP 检测方法的最低检测量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "绵羊肺炎支原体（Mo）Y98株Hsp70蛋白的系统进化树分析显示，它与牛肺炎支原体的亲缘关系最近。",
+    "reference_case": "绵羊肺炎支原体（Mo）Y98株Hsp70蛋白的系统进化树分析显示，它与猪肺炎支原体的亲缘关系最近。",
+    "error_detail": "错误地将猪肺炎支原体替换为牛肺炎支原体。",
+    "original_question": "绵羊肺炎支原体（Mo）Y98株Hsp70蛋白的系统进化树分析显示，它与哪种支原体的亲缘关系最近？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "通过单因素试验法对上、下游引物浓度，目标探针 Pb-A 与内标探针 Pb-B 浓度及 Mg2+ 浓度进行优化，确定最佳反应体系。",
+    "reference_case": "通过正交试验法对上、下游引物浓度，目标探针 Pb-A 与内标探针 Pb-B 浓度及 Mg2+ 浓度进行优化，确定最佳反应体系。",
+    "error_detail": "错误地将正交试验法替换为单因素试验法。",
+    "original_question": "在荧光定量 RT-PCR 检测高致病性猪繁殖与呼吸综合征病毒方法中，如何优化反应体系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "通过 RT-PCR 扩增含 MS2 噬菌体的成熟酶蛋白和包膜蛋白基因，将其插入 pET-28a 原核表达载体，同时人工合成与荧光定量 RT-PCR 具有相似序列的片段，插入 pET-28a 载体下游，将重组质粒转化大肠杆菌 BL21 工程菌，IPTG 诱导表达，制备病毒样颗粒内标。",
+    "reference_case": "通过 RT-PCR 扩增含 MS2 噬菌体的成熟酶蛋白和包膜蛋白基因，将其插入 pET-32a 原核表达载体，同时人工合成与荧光定量 RT-PCR 具有相似序列的片段，插入 pET-32a 载体下游，将重组质粒转化大肠杆菌 BL21 工程菌，IPTG 诱导表达，制备病毒样颗粒内标。",
+    "error_detail": "错误地将pET-32a替换为pET-28a。",
+    "original_question": "在荧光定量 RT-PCR 检测高致病性猪繁殖与呼吸综合征病毒方法中，如何制备病毒样颗粒内标？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "通过 RNA 酶和 DNA 酶消化后，采用柱式法提取核酸，分别设加反转录酶和不加反转录酶的荧光定量 RT-PCR 反应，结果显示不加反转录酶的有扩增曲线，加反转录酶的无扩增曲线，表明病毒样颗粒制备成功。",
+    "reference_case": "通过 RNA 酶和 DNA 酶消化后，采用柱式法提取核酸，分别设加反转录酶和不加反转录酶的荧光定量 RT-PCR 反应，结果显示不加反转录酶的无扩增曲线，加反转录酶的有扩增曲线，表明病毒样颗粒制备成功。",
+    "error_detail": "错误地反转了扩增曲线的结果。",
+    "original_question": "在荧光定量 RT-PCR 检测高致病性猪繁殖与呼吸综合征病毒方法中，如何验证病毒样颗粒内标的制备成功？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "对 42 份疑似高致病性猪繁殖与呼吸综合征病毒阳性的猪肺脏、脾脏及血清病料进行检测，结果显示阳性率均为 50%，与农业部备案试剂盒检测结果完全一致。",
+    "reference_case": "对 42 份疑似高致病性猪繁殖与呼吸综合征病毒阳性的猪肺脏、脾脏及血清病料进行检测，结果显示阳性率均为 78:57%，与农业部备案试剂盒检测结果完全一致。",
+    "error_detail": "错误地改变了阳性率的数据。",
+    "original_question": "荧光定量 RT-PCR 检测高致病性猪繁殖与呼吸综合征病毒方法的临床应用结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "通过优化反应体系，确定最佳反应条件为：50°C 逆转录 30 分钟；95°C 预变性 3 分钟；95°C 变性 5 秒，55°C 退火 40 秒，在 55°C 时设定检测 FAM 和 VIC 的荧光信号，40 个循环。",
+    "reference_case": "通过优化反应体系，确定最佳反应条件为：48°C 逆转录 30 分钟；94°C 预变性 3 分钟；94°C 变性 5 秒，60°C 退火 40 秒，在 60°C 时设定检测 FAM 和 VIC 的荧光信号，40 个循环。",
+    "error_detail": "错误地改变了反应温度和时间。",
+    "original_question": "荧光定量 RT-PCR 检测高致病性猪繁殖与呼吸综合征病毒方法的反应条件是如何优化的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "该方法的灵敏度为 10 TCID50/mL 病毒液。",
+    "reference_case": "该方法的灵敏度为 1 TCID50/mL 病毒液。",
+    "error_detail": "错误地降低了灵敏度。",
+    "original_question": "荧光定量 RT-PCR 检测高致病性猪繁殖与呼吸综合征病毒方法的灵敏度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "高致病性猪繁殖与呼吸综合征病毒在其 Nsp2 基因片段的 1500-1600 处碱基缺失，变异后的病毒毒力增强，导致母猪流产，仔猪和育肥猪死亡率增高。",
+    "reference_case": "高致病性猪繁殖与呼吸综合征病毒在其 Nsp2 基因片段的 1594-1680 处碱基缺失，变异后的病毒毒力增强，导致母猪流产，仔猪和育肥猪死亡率增高。",
+    "error_detail": "错误地改变了碱基缺失的位置。",
+    "original_question": "高致病性猪繁殖与呼吸综合征病毒与普通猪繁殖与呼吸综合征病毒的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "病毒样颗粒内标在荧光定量 RT-PCR 检测高致病性猪繁殖与呼吸综合征病毒方法中用于监控从 DNA 提取到结果出现的全过程，防止出现假阴性样品，并提高检测结果的可靠性。",
+    "reference_case": "病毒样颗粒内标在荧光定量 RT-PCR 检测高致病性猪繁殖与呼吸综合征病毒方法中用于监控从 RNA 提取到结果出现的全过程，防止出现假阴性样品，并提高检测结果的可靠性。",
+    "error_detail": "错误地将RNA提取替换为DNA提取。",
+    "original_question": "病毒样颗粒内标在荧光定量 RT-PCR 检测高致病性猪繁殖与呼吸综合征病毒方法中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "通过检测 10 株不同病毒样本，结果显示只有高致病性猪繁殖与呼吸综合征病毒出现扩增曲线，验证了该方法的特异性。",
+    "reference_case": "通过检测 8 株不同病毒样本，结果显示只有高致病性猪繁殖与呼吸综合征病毒出现扩增曲线，验证了该方法的特异性。",
+    "error_detail": "错误地增加了检测的病毒样本数量。",
+    "original_question": "荧光定量 RT-PCR 检测高致病性猪繁殖与呼吸综合征病毒方法的特异性是如何验证的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "MS2 噬菌体的成熟酶蛋白和衣壳蛋白基因序列被定向插入 pET-28a 载体的相应位置，并在载体下游插入人工合成包含引物和探针的内标基因序列，通过双酶切和 PCR 鉴定阳性质粒，最终转化大肠杆菌 BL21 工程菌，IPTG 诱导表达，制备病毒样颗粒内标。",
+    "reference_case": "MS2 噬菌体的成熟酶蛋白和衣壳蛋白基因序列被定向插入 pET-32a 载体的相应位置，并在载体下游插入人工合成包含引物和探针的内标基因序列，通过双酶切和 PCR 鉴定阳性质粒，最终转化大肠杆菌 BL21 工程菌，IPTG 诱导表达，制备病毒样颗粒内标。",
+    "error_detail": "错误地将pET-32a替换为pET-28a。",
+    "original_question": "在荧光定量 RT-PCR 检测高致病性猪繁殖与呼吸综合征病毒方法中，MS2 噬菌体的成熟酶蛋白和衣壳蛋白基因序列是如何被利用的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "天蚕素抗菌肽显著提高了断奶仔猪血清中的尿素氮含量，表明其能降低蛋白质和氨基酸的利用率，减少氮沉积。",
+    "reference_case": "天蚕素抗菌肽显著降低了断奶仔猪血清中的尿素氮含量，表明其能提高蛋白质和氨基酸的利用率，促进氮沉积。",
+    "error_detail": "错误地反转了尿素氮含量的变化及其意义。",
+    "original_question": "天蚕素抗菌肽对断奶仔猪的血清尿素氮含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "天蚕素抗菌肽显著提高了断奶仔猪血清中的血糖含量，表明其能降低断奶仔猪的抗应激能力。",
+    "reference_case": "天蚕素抗菌肽显著降低了断奶仔猪血清中的血糖含量，表明其能提高断奶仔猪的抗应激能力。",
+    "error_detail": "错误地反转了血糖含量的变化及其意义。",
+    "original_question": "天蚕素抗菌肽对断奶仔猪的血清血糖含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在断奶仔猪日粮中，天蚕素抗菌肽的添加量为300 mg/kg。",
+    "reference_case": "在断奶仔猪日粮中，天蚕素抗菌肽的添加量为350 mg/kg。",
+    "error_detail": "错误地降低了添加量。",
+    "original_question": "天蚕素抗菌肽在断奶仔猪日粮中的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "天蚕素抗菌肽显著提高了断奶仔猪血清中的尿素氮和血糖含量，同时显著降低了血清中总蛋白和白蛋白的含量。",
+    "reference_case": "天蚕素抗菌肽显著降低了断奶仔猪血清中的尿素氮和血糖含量，同时显著提高了血清中总蛋白和白蛋白的含量。",
+    "error_detail": "错误地反转了血清生化指标的变化。",
+    "original_question": "天蚕素抗菌肽对断奶仔猪的血清生化指标有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "天蚕素抗菌肽显著降低了断奶仔猪血清中的总蛋白含量，表明其能抑制蛋白质的合成和吸收。",
+    "reference_case": "天蚕素抗菌肽显著提高了断奶仔猪血清中的总蛋白含量，表明其能促进蛋白质的合成和吸收。",
+    "error_detail": "错误地反转了总蛋白含量的变化及其意义。",
+    "original_question": "天蚕素抗菌肽对断奶仔猪的血清总蛋白含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "是的，在断奶仔猪日粮中添加300 mg/kg的高剂量天蚕素抗菌肽可以完全取代饲用抗生素。",
+    "reference_case": "是的，在断奶仔猪日粮中添加350 mg/kg的高剂量天蚕素抗菌肽可以完全取代饲用抗生素。",
+    "error_detail": "错误地降低了添加量。",
+    "original_question": "天蚕素抗菌肽在断奶仔猪日粮中的应用是否可以完全替代抗生素？",
+    "original_input": ""
+  }
+]

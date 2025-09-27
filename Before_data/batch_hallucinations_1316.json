@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪低血糖病的主要症状包括神经症状，如先天性震颤和猪传染性脑脊髓炎。",
+    "reference_case": "仔猪低血糖病的主要症状包括神经症状，如先天性震颤和猪传染性脑脊髓炎。",
+    "error_detail": "将仔猪低血糖病的症状与猪传染性脑脊髓炎的症状混淆",
+    "original_question": "仔猪低血糖病的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "可以使用猪传染性胃肠炎灭活疫苗进行预防。",
+    "reference_case": "可以使用猪传染性胃肠炎灭活疫苗进行预防。",
+    "error_detail": "未提及疫苗的时效性或更新情况",
+    "original_question": "可试用猪传染性胃肠炎灭活疫苗进行预防。",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "主要传染源是病猪、带毒猪和带毒鼠类。",
+    "reference_case": "主要传染源是病猪、带毒猪和带毒鼠类。",
+    "error_detail": "未考虑地域差异可能导致的传染源不同",
+    "original_question": "猪流行性腹泻的主要传染源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "依据临诊症状不能与传染性胃肠炎相区别。最好的诊断为将小肠作成冰冻切片后用直接荧光抗体法检查。",
+    "reference_case": "依据临诊症状不能与传染性胃肠炎相区别。最好的诊断为将小肠作成冰冻切片后用直接荧光抗体法检查。",
+    "error_detail": "未完全遵循指令提供诊断方法",
+    "original_question": "如何进行猪流行性腹泻的诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "参照“猪传染性胃肠炎”，并可试用猪流行性腹泻灭活疫苗进行预防。",
+    "reference_case": "参照“猪传染性胃肠炎”，并可试用猪流行性腹泻灭活疫苗进行预防。",
+    "error_detail": "假设读者知道“猪传染性胃肠炎”的预防措施",
+    "original_question": "猪流行性腹泻的主要预防措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "病猪、带毒猪和带毒鼠类是主要传染源。",
+    "reference_case": "病猪、带毒猪和带毒鼠类是主要传染源。",
+    "error_detail": "未明确说明传染源与疾病传播的因果关系",
+    "original_question": "伪狂犬病的主要传染源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "所有小猪都应注射耐过猪全血，经12~14天后重复注射一次。禁止猪及饲料出入。常发病地区可注射伪狂犬病活疫苗进行预防。",
+    "reference_case": "所有小猪都应注射耐过猪全血，经12~14天后重复注射一次。禁止猪及饲料出入。常发病地区可注射伪狂犬病活疫苗进行预防。",
+    "error_detail": "预防措施的优先级未明确",
+    "original_question": "伪狂犬病的预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "病猪兴奋不安，横冲直撞，叫声嘶哑、流涎，用鼻掘地面，攻击人、畜。在发作间歇期间，常钻入垫草中，稍有声响即跃起乱跑。最后麻痹，经2~4天死亡。",
+    "reference_case": "病猪兴奋不安，横冲直撞，叫声嘶哑、流涎，用鼻掘地面，攻击人、畜。在发作间歇期间，常钻入垫草中，稍有声响即跃起乱跑。最后麻痹，经2~4天死亡。",
+    "error_detail": "死亡时间的数据可能不准确",
+    "original_question": "狂犬病病猪的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "根据临诊症状如兴奋、攻击人、畜和麻痹死亡可作出诊断。确诊可取脑作触片，染色镜猃，观察有无内基氏小体。",
+    "reference_case": "根据临诊症状如兴奋、攻击人、畜和麻痹死亡可作出诊断。确诊可取脑作触片，染色镜猃，观察有无内基氏小体。",
+    "error_detail": "诊断逻辑不完整，未提及所有必要步骤",
+    "original_question": "如何确诊狂犬病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "捷申病毒属于肠道病毒属，大小约20~25纳米。病毒存在于病猪的脑和脊髓，可在鸡胚和猪肾细胞中生长。病毒对干燥抵抗力甚强。60C20分钟及0.15%福尔马林可使病毒灭活。",
+    "reference_case": "捷申病毒属于肠道病毒属，大小约20~25纳米。病毒存在于病猪的脑和脊髓，可在鸡胚和猪肾细胞中生长。病毒对干燥抵抗力甚强。60C20分钟及0.15%福尔马林可使病毒灭活。",
+    "error_detail": "将捷申病毒的特性与其他病毒混淆",
+    "original_question": "捷申病毒的特性是什么？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,900 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "缺锌可显著降低 CCK mRNA 水平，提高动物采食量。高锌明显改变其转录水平。静脉注射锌可显著提高仔猪下丘脑 CCK mRNA 水平，但采食量并未明显变化。",
+    "reference_case": "缺锌可显著提高 CCK mRNA 水平，降低动物采食量。高锌并未明显改变其转录水平。静脉注射锌可显著降低仔猪下丘脑 CCK mRNA 水平，但采食量并未明显变化。",
+    "error_detail": "错误地颠倒了锌对 CCK mRNA 水平和采食量的影响",
+    "original_question": "锌对胆囊收缩素（CCK）有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "锌能抑制 NPY 的基因转录、表达及修饰等过程。缺锌可使大鼠脑内 NPY 前体和 mRNA 水平下降，但采食量却上升。高锌日粮可显著降低仔猪血浆 NPY 浓度和采食量。",
+    "reference_case": "锌能影响 NPY 的基因转录、表达及修饰等过程。缺锌可使大鼠脑内 NPY 前体和 mRNA 水平升高，但采食量却下降。高锌日粮可显著提高仔猪血浆 NPY 浓度和采食量。",
+    "error_detail": "错误地颠倒了锌对 NPY 的基因转录、表达及修饰等过程的影响",
+    "original_question": "锌对神经肽 Y（NPY）的表达有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "锌在 ghrelin 转录后的分泌过程中有抑制作用。饲料中添加高浓度氧化锌能显著降低生长猪血清 ghrelin 浓度和采食量。体外试验发现，添加氧化锌能减少胃黏膜细胞分泌的 ghrelin 含量。",
+    "reference_case": "锌在 ghrelin 转录后的分泌过程中有刺激作用。饲料中添加高浓度氧化锌能显著提高生长猪血清 ghrelin 浓度和采食量。体外试验发现，添加氧化锌能增加胃黏膜细胞分泌的 ghrelin 含量。",
+    "error_detail": "错误地颠倒了锌对 ghrelin 转录后的分泌过程的影响",
+    "original_question": "锌对促生长激素神经肽（ghrelin）有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "卵泡直径对猪卵母细胞的体外成熟没有显著影响。随着卵泡直径的增大，可用卵的比率显著下降，大卵泡卵母细胞的体外成熟率显著低于小卵泡和中卵泡。",
+    "reference_case": "卵泡直径对猪卵母细胞的体外成熟有显著影响。随着卵泡直径的增大，可用卵的比率显著升高，大卵泡卵母细胞的体外成熟率显著高于小卵泡和中卵泡。",
+    "error_detail": "错误地颠倒了卵泡直径对猪卵母细胞体外成熟的影响",
+    "original_question": "卵泡直径对猪卵母细胞的体外成熟有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "输精前稀释精液中加5单位催产素，受胎率高达95%，比对照组高7.5个百分点，窝产仔11.3头，比对照组多2.9头。因此，催产素是提高受胎率和窝产仔数的唯一因素。",
+    "reference_case": "舒华生（1986）试验结果显示，输精前稀释精液中加5单位催产素，受胎率高达95%，比对照组高7.5个百分点，窝产仔11.3头，比对照组多2.9头。",
+    "error_detail": "因果错误",
+    "original_question": "催产素在猪人工授精中的作用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "肥育猪舍要保持安静，避免突然惊扰，保持猪舍清洁干燥，减少用水冲洗地面，保持干燥环境，有利于肥育猪增重。",
+    "reference_case": "肥育猪舍要保持安静，避免突然惊扰，保持猪舍清洁干燥，减少用水冲洗地面，保持干燥环境，有利于肥育猪增重。",
+    "error_detail": "虽然看起来相同，但假设了干燥环境是增重的原因，而非结果，导致因果倒置幻觉。",
+    "original_question": "肥育猪舍应保持何种环境？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "在仔猪饲料中添加外源酶制剂（如淀粉酶、蛋白酶和脂肪酶）可以减少进入大肠的食糜数量，从而促进饲料组分在胃和小肠中的有效消化，提高能量效率。",
+    "reference_case": "在仔猪饲料中添加外源酶制剂（如淀粉酶、蛋白酶和脂肪酶）可以促进饲料组分在胃和小肠中的有效消化，减少进入大肠的食糜数量，从而提高能量效率。",
+    "error_detail": "颠倒了因果关系",
+    "original_question": "外源酶制剂如何影响仔猪的消化效率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪对石粉粒度要求较粗是因为猪的消化系统更适合大颗粒，而禽的消化系统则更适合细小颗粒的饲料。",
+    "reference_case": "猪对石粉粒度要求较细是因为猪的消化系统更适合细小颗粒，而禽的消化系统则更适合较大颗粒的饲料。",
+    "error_detail": "因果倒置幻觉（因果错误）",
+    "original_question": "为什么添加石粉时，猪要求粒度较细，而禽要求粒度较粗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "益康XP能有效增加断奶仔猪的腹泻头数和腹泻率，促进断奶仔猪健康生长。",
+    "reference_case": "益康XP能有效降低断奶仔猪的腹泻头数和腹泻率，促进断奶仔猪健康生长。",
+    "error_detail": "因果倒置，错误地认为益康XP增加腹泻率",
+    "original_question": "益康XP如何影响断奶仔猪的腹泻率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "带仔头数多的泌乳量高，因为泌乳量多的母猪能带更多的仔猪。",
+    "reference_case": "带仔头数多的泌乳量高，因为带仔数多的母猪通过仔猪拱揉乳头刺激母猪泌乳，总泌乳量较多。",
+    "error_detail": "因果倒置，错误地认为泌乳量多导致带仔数多。",
+    "original_question": "泌乳量与带仔数有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "随仔猪日龄的增长，胆汁分泌减弱，对饱和脂肪酸的乳化能力降低。",
+    "reference_case": "随仔猪日龄的增长，胆汁分泌增强，对饱和脂肪酸的乳化能力提高。",
+    "error_detail": "因果错误",
+    "original_question": "仔猪日龄增长对胆汁分泌有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "有机酸本身没有杀菌作用，但能通过降低胃液pH值来间接抑制有害菌的繁殖。",
+    "reference_case": "降低仔猪胃液pH值，有利于胃肠道内乳酸菌的繁殖，抑制大肠杆菌等有害菌的繁殖，保持肠道微生态平衡，防止和减少腹泻发生，有机酸本身也有杀菌作用。",
+    "error_detail": "错误地否定了有机酸本身的杀菌作用，颠倒了因果关系。",
+    "original_question": "在仔猪日粮中添加有机酸的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "安全、有效、无残余毒力、不带毒不排毒，毒力不返祖，适用于猪瘟的防控。因此，猪瘟兔化弱毒苗是导致猪瘟的主要原因。",
+    "reference_case": "安全、有效、无残余毒力、不带毒不排毒，毒力不返祖，适用于猪瘟的防控。",
+    "error_detail": "错误地声称疫苗是导致猪瘟的原因",
+    "original_question": "猪瘟兔化弱毒苗的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "高致病性猪蓝耳病的主要症状包括母猪流产、死胎、弱胎，以及仔猪呼吸困难、败血症，且发病率和死亡率高。这些症状是由于饲料质量差引起的。",
+    "reference_case": "高致病性猪蓝耳病的主要症状包括母猪流产、死胎、弱胎，以及仔猪呼吸困难、败血症，且发病率和死亡率高。",
+    "error_detail": "错误地归因于饲料质量",
+    "original_question": "高致病性猪蓝耳病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪角化不全症由于日粮中高锌、钙不足，必需脂肪酸相对缺乏而致病。",
+    "reference_case": "猪角化不全症由于日粮中高钙、锌不足，必需脂肪酸相对缺乏而致病。",
+    "error_detail": "因果错误",
+    "original_question": "猪角化不全症的主要病因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "因为按照生猪对钙、磷的需要量，尽管各种饲料比较齐全，其他营养物质都能达到饲养标准，唯独钙差得比较多，必须添加骨粉、贝壳粉、石灰石粉才能达到需要量。",
+    "reference_case": "因为按照生猪对钙、磷的需要量，尽管各种饲料比较齐全，其他营养物质都能达到饲养标准，唯独钙差得比较多，必须添加骨粉、贝壳粉、石灰石粉才能达到需要量。",
+    "error_detail": "因果错误",
+    "original_question": "为什么拟定饲料配方时需要添加骨粉、贝壳粉、石灰石粉？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "快速养猪法因为提高了猪的食欲，所以使用了复合添加剂。",
+    "reference_case": "因为复合添加剂不仅促进了猪的生长，还改善了猪的食欲，使其更愿意进食。",
+    "error_detail": "因果倒置，错误描述了添加剂和食欲的关系",
+    "original_question": "快速养猪法为什么能提高猪的食欲？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "贫血的原因包括长期缺乏运动导致血液循环不畅。",
+    "reference_case": "由于大血管破裂，或肝、脾破裂，及外伤失血过多等引起失血性贫血；寄生虫产生毒素的作用，或一些病理产物的作用使红血球膜的脆性增高，红血球大量崩解、破坏，发生溶血性贫血；因饲料中缺乏蛋白质、铁质等成分，或病猪长期拉稀，营养物质吸收减少的情况下引起营养性贫血。",
+    "error_detail": "将'缺乏运动'作为贫血的原因，属于因果错误。",
+    "original_question": "贫血的原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "主要依据公猪女儿的生产成绩来评定。",
+    "reference_case": "主要依据公猪女儿的生产成绩来评定。",
+    "error_detail": "错误地认为公猪的生产力评定仅依赖于其女儿的生产成绩，忽略了其他可能的评定标准和方法。",
+    "original_question": "公猪生产力评定主要依据什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "皮肤潮红或有出血点、出血斑可能表示猪瘟、猪丹毒等传染病。",
+    "reference_case": "皮肤潮红或有出血点、出血斑可能表示猪瘟、猪丹毒等传染病。",
+    "error_detail": "错误地将皮肤潮红或有出血点、出血斑直接归因于猪瘟、猪丹毒等传染病，忽略了其他可能的病因。",
+    "original_question": "皮肤潮红或有出血点、出血斑可能表示什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "限食法能有效地增加小母猪与母猪的肥胖，同时提高铜料成本。",
+    "reference_case": "限食法能有效地防止小母猪与母猪过于肥胖，同时降低铜料成本。",
+    "error_detail": "因果倒置，错误地描述了限食法的作用。",
+    "original_question": "小母猪与母猪采用限食法的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "酒糟用来喂猪和牛，喂量过大或酸败可引起中毒，主要为酒精中毒，因酒糟中含有少量的醋酸和有机酸。",
+    "reference_case": "酒糟用来喂猪和牛，喂量过大或酸败可引起中毒，主要为醋酸中毒，因酒糟中含有少量的酒精和有机酸。",
+    "error_detail": "将'醋酸中毒'和'酒精'的位置颠倒，导致因果倒置。",
+    "original_question": "酒糟中毒的主要原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "争斗行为主要由调整群居结构引起，也可由争夺饲料和地盘引起。",
+    "reference_case": "争斗行为主要由争夺饲料和地盘引起，也可调整群居结构，新合群的猪争斗以争夺群居位次为主，位次关系有垂直、并列或三角形。",
+    "error_detail": "错误地将调整群居结构作为争斗行为的主要原因，颠倒了因果关系。",
+    "original_question": "猪的争斗行为通常由什么引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "母猪的赖氨酸需要量平均比阉公高5%，因为采食量低于阉公。",
+    "reference_case": "母猪的赖氨酸需要量平均比阉公高5%，但采食量低于阉公。",
+    "error_detail": "错误地将采食量低于阉公作为赖氨酸需要量高的原因，而实际上两者是并列关系。",
+    "original_question": "母猪和阉公的采食量有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "包被氧化锌的添加水平对仔猪肌内脂肪含量的影响呈非线性增加。",
+    "reference_case": "是的，包被氧化锌的添加水平对仔猪肌内脂肪含量的影响呈线性增加。",
+    "error_detail": "错误的因果关系被引用。",
+    "original_question": "包被氧化锌的添加水平对仔猪肌内脂肪含量的影响是否呈线性增加？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "包被氧化锌的添加水平与仔猪肌内脂肪含量及其合成相关基因表达水平无显著相关性。",
+    "reference_case": "是的，包被氧化锌的添加水平与仔猪肌内脂肪含量及其合成相关基因表达水平呈显著正相关。",
+    "error_detail": "错误的因果关系被引用。",
+    "original_question": "包被氧化锌的添加水平对仔猪肌内脂肪含量及其合成相关基因表达的影响是否具有显著正相关性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "包被氧化锌的添加水平对仔猪肌内脂肪合成相关基因（ACC、FAS、H-FABP、A-FABP）表达的影响呈非线性增加。",
+    "reference_case": "是的，包被氧化锌的添加水平对仔猪肌内脂肪合成相关基因（ACC、FAS、H-FABP、A-FABP）表达的影响呈线性增加。",
+    "error_detail": "错误的因果关系被引用。",
+    "original_question": "包被氧化锌的添加水平对仔猪肌内脂肪合成相关基因表达的影响是否呈线性增加？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "提高繁殖猪群产仔数的方法是通过减少饲料供给",
+    "reference_case": "通过优化管理方式提高繁殖猪群产仔数",
+    "error_detail": "因果错误",
+    "original_question": "提高繁殖猪群产仔数的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "补喂钴盐对猪的生长具有不良作用。",
+    "reference_case": "补喂钴盐对猪的生长具有良好作用。",
+    "error_detail": "错误地描述了补喂钴盐对猪生长的影响",
+    "original_question": "猪补喂钴盐有何好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "对良好生产条件下饲养的猪无效，而对不良卫生条件下饲养的仔猪可提高增重率，增加饲料消耗量，提高饲料转换率，减少腹泻，因为粪链球菌直接增加了饲料的营养价值。",
+    "reference_case": "对良好生产条件下饲养的猪无效，而对不良卫生条件下饲养的仔猪可提高增重率，增加饲料消耗量，提高饲料转换率，减少腹泻。",
+    "error_detail": "错误地解释了粪链球菌的作用机制，属于因果倒置。",
+    "original_question": "粪链球菌在不同饲养条件下对猪的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "本病毒可经呼吸道感染，肺是蓝耳病的原发性靶器官，空气传播是本病的主要传播方式。公猪的精液经生殖道在同猪群间水平传播，本病也可垂直传播，怀孕母猪感染病毒后，经胎盘感染胎儿，造成繁殖障碍。",
+    "reference_case": "本病毒可经呼吸道感染，肺是蓝耳病的原发性靶器官，空气传播是本病的主要传播方式。公猪的精液经生殖道在同猪群间水平传播，本病也可垂直传播，怀孕母猪感染病毒后，经胎盘感染胎儿，造成繁殖障碍。",
+    "error_detail": "虽然内容相同，但错误地认为垂直传播是主要原因",
+    "original_question": "猪繁殖与呼吸障碍综合征（PRRS）的传播途径有哪些？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "可通过水平和垂直两种方式传播，水平传播可通过口腔、呼吸道途径感染不同年龄的猪，垂直传播可通过怀孕母猪感染 PCV-2 后，经胎盘传播给仔猪。",
+    "reference_case": "可通过水平和垂直两种方式传播，水平传播可通过口腔、呼吸道途径感染不同年龄的猪，垂直传播可通过怀孕母猪感染 PCV-2 后，经胎盘传播给仔猪。",
+    "error_detail": "虽然内容相同，但错误地认为垂直传播是主要原因",
+    "original_question": "猪圆环病毒的传播途径有哪些？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "家畜产生的热量与二氧化碳和水汽的产生量无关。",
+    "reference_case": "从表中可以看出，家畜产生的热量与体重、二氧化碳和水汽的产生量有关，例如干erset牛及产崽二个月前小牛，300kg体重产生的可覆热为319，总热为2778。",
+    "error_detail": "错误地否认了家畜产生的热量与二氧化碳和水汽的产生量之间的关系。",
+    "original_question": "从表中可以看出，家畜产生的热量与哪些因素有关？",
+    "original_input": "2、3个月的母猪，100kg体重产生的CO2量为36L/h，而200kg体重的母猪产生的CO2量为48L/h。"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "在烟酸不足的情况下，家禽产蛋量明显下降并出现下痢及皮肤炎，猪生长受阻。",
+    "reference_case": "在烟酸不足的情况下，猪生长受阻并出现下痢及皮肤炎，家禽产蛋量明显下降。",
+    "error_detail": "错误地颠倒了猪和家禽的症状。",
+    "original_question": "烟酸在猪和家禽中的缺乏症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "大麦数不利于提高猪肉品质。",
+    "reference_case": "大麦数有利于提高猪肉品质。",
+    "error_detail": "错误地颠倒了因果关系。",
+    "original_question": "大麦数如何影响猪肉品质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "磺化盐通过预防支气管肺炎，从而提高了仔猪的健康状况和增重。",
+    "reference_case": "磺化盐有助于预防和减少仔猪支气管肺炎的发生，从而提高仔猪的健康状况和增重。",
+    "error_detail": "因果错误",
+    "original_question": "磺化盐对支气管肺炎的预防有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "因为小公猪可以晚些被阉割，所以阄猪长得更快。",
+    "reference_case": "因为小公猪可以早些被阉割。",
+    "error_detail": "错误地描述了阄猪长得更快的原因。",
+    "original_question": "为什么阄猪长得更快？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "类鼻疽病在养猪业上造成的主要问题是提高了猪肉的质量。",
+    "reference_case": "类鼻疽病在养猪业上造成经济损失。",
+    "error_detail": "错误地认为类鼻疽病提高了猪肉的质量，实际上应为造成经济损失。",
+    "original_question": "类鼻疽病在养猪业上造成的主要问题是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "对李氏杆菌病较易感的动物包括那些已经接种疫苗的动物。",
+    "reference_case": "绵羊、猪、家兔对李氏杆菌病较易感，牛、山羊次之，马、犬、猫较少，家禽中的鸡、火鸡和鹅较易感，鸭较少。",
+    "error_detail": "错误地认为已经接种疫苗的动物对李氏杆菌病较易感，实际上应为绵羊、猪等。",
+    "original_question": "哪些动物对李氏杆菌病较易感？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "无害短螺旋体具有致病性，而猪痢疾短螺旋体无致病性。",
+    "reference_case": "猪痢疾短螺旋体具有致病性，而无害短螺旋体无致病性。",
+    "error_detail": "致病性的描述被错误地倒置了。",
+    "original_question": "猪痢疾短螺旋体和无害短螺旋体的致病性有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "依据母猪症状、病原学分类、流产胎龄、胎儿与胎盘病变及其他诊断要点进行诊断。",
+    "reference_case": "依据病原学分类、母猪症状、流产胎龄、胎儿与胎盘病变及其他诊断要点进行诊断。",
+    "error_detail": "诊断依据顺序错误",
+    "original_question": "母猪流产、死胎和胎儿木乃伊化的诊断依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "胎儿常死于同一发育阶段，常有木乃伊、死胎和弱胎，分解的胎盘紧贴着胎儿，窝仔数减少。",
+    "reference_case": "胎儿常死于不同发育阶段，常有木乃伊、死胎和弱胎，分解的胎盘紧贴着胎儿，窝仔数减少。",
+    "error_detail": "胎儿死亡阶段描述错误",
+    "original_question": "细小病毒导致母猪流产、死胎和胎儿木乃伊化的原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "胎儿死于同一发育阶段，因胎儿吸收窝仔数减少，死胎，木乃伊，坏死性胎盘炎。",
+    "reference_case": "胎儿死于不同发育阶段，因胎儿吸收窝仔数减少，死胎，木乃伊，坏死性胎盘炎。",
+    "error_detail": "胎儿死亡阶段描述错误",
+    "original_question": "伪狂犬病病毒导致母猪流产、死胎和胎儿木乃伊化的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "胎儿死于同一发育阶段，因胎儿吸收窝仔数减少，死胎，木乃伊，新生仔虚弱。",
+    "reference_case": "胎儿死于不同发育阶段，因胎儿吸收窝仔数减少，死胎，木乃伊，新生仔虚弱。",
+    "error_detail": "胎儿死亡阶段描述错误",
+    "original_question": "猪流感病毒导致母猪流产、死胎和胎儿木乃伊化的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "胎儿常死于同一发育阶段，从母体采集双份血清样品进行检测。",
+    "reference_case": "胎儿常死于不同发育阶段，从母体采集双份血清样品进行检测。",
+    "error_detail": "胎儿死亡阶段描述错误",
+    "original_question": "肠病毒、腺病毒、coli病毒和巨细胞病毒导致母猪流产、死胎和胎儿木乃伊化的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪痢疾的病原为猪痢疾密螺旋体，主要发生在2~3月龄仔猪，临床特征先是排软粪，逐渐变为黄色稀粪，内混黏液或带血，严重时排出红色糊状稀粪，内含大量黏液、血块及脓性分泌物，有的排出灰色、褐色或绿色粪便，内含气泡、黏液及纤维素伪膜，这是由于饲料中蛋白质含量过高引起的。",
+    "reference_case": "猪痢疾的病原为猪痢疾密螺旋体，主要发生在2~3月龄仔猪，临床特征先是排软粪，逐渐变为黄色稀粪，内混黏液或带血，严重时排出红色糊状稀粪，内含大量黏液、血块及脓性分泌物，有的排出灰色、褐色或绿色粪便，内含气泡、黏液及纤维素伪膜。",
+    "error_detail": "错误地解释了疾病的成因",
+    "original_question": "猪痢疾的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "外源核苷酸通过促进断奶小鼠B淋巴细胞和Th细胞抗原的表达，进而促进肠淋巴细胞的分化和成熟，显著提高细胞因子IL-2、IL-4、IL-8的基因表达和Th2、IL-5的分泌，从而促进免疫细胞分化与成熟和免疫球蛋白的分泌，提高机体肠道免疫力。因此，所有免疫细胞的成熟都依赖于外源核苷酸。",
+    "reference_case": "外源核苷酸通过促进断奶小鼠B淋巴细胞和Th细胞抗原的表达，进而促进肠淋巴细胞的分化和成熟，显著提高细胞因子IL-2、IL-4、IL-8的基因表达和Th2、IL-5的分泌，从而促进免疫细胞分化与成熟和免疫球蛋白的分泌，提高机体肠道免疫力。",
+    "error_detail": "错误地声称所有免疫细胞的成熟都依赖于外源核苷酸",
+    "original_question": "外源核苷酸如何影响仔猪的肠道免疫功能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "添加赖氨酸会导致仔猪腹泻。",
+    "reference_case": "在蛋白质含量过高的人工乳和仔猪前期饲料中减少蛋白质而添加赖氨酸，可防止仔猪腹泻。",
+    "error_detail": "错误地认为添加赖氨酸会导致腹泻，实际上是为了防止腹泻",
+    "original_question": "减少蛋白质添加赖氨酸对仔猪有何益处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "铜绿假单胞菌可引起创口感染、泌尿系统感染、牛乳房炎及生殖道感染，还加重猪萎缩性鼻炎鼻黏膜的化脓病变等，因为这些感染导致了铜绿假单胞菌的存在。",
+    "reference_case": "铜绿假单胞菌可引起创口感染、泌尿系统感染、牛乳房炎及生殖道感染，还加重猪萎缩性鼻炎鼻黏膜的化脓病变等。",
+    "error_detail": "错误地描述了因果关系",
+    "original_question": "铜绿假单胞菌的主要致病途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪腮腺炎病毒主要通过呼吸道传播，尿液中有大量具感染性的病毒，可发生垂直传播。此外，还可以通过食物传播。",
+    "reference_case": "猪腮腺炎病毒主要通过呼吸道传播，尿液中有大量具感染性的病毒，可发生垂直传播。",
+    "error_detail": "错误地添加了可以通过食物传播的信息。",
+    "original_question": "猪腮腺炎病毒的传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒主要通过感染动物的粪便等污染物经消化道感染。此外，还可以通过空气传播。",
+    "reference_case": "猪流行性腹泻病毒主要通过感染动物的粪便等污染物经消化道感染。",
+    "error_detail": "错误地添加了可以通过空气传播的信息。",
+    "original_question": "猪流行性腹泻病毒主要通过什么途径感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪感染囊虫病的主要因素是猪的遗传特性。",
+    "reference_case": "猪感染囊虫病主要取决于环境卫生及对猪的饲养管理方法。猪食人患猪带绦虫病人排出的粪便和污染过的饲料、饮水等便会感染囊虫病。有些地方人无固定测所，养猪无圈或使用连茅圈，使猪接触人粪机会增多，造成该病流行。",
+    "error_detail": "错误地将猪感染囊虫病归因于遗传特性，实际上是环境卫生和饲养管理方法。",
+    "original_question": "猪感染囊虫病的主要因素是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "两品种固定杂交的优点是父本和母本都是纯种，可以得到父本和母本的杂种优势。",
+    "reference_case": "由于父本和母本都是纯种，无法得到父本和母本的杂种优势，杂一代全部作为商品肥育猪，繁殖性能的杂种优势不能充分利用。",
+    "error_detail": "错误地认为纯种可以带来杂种优势",
+    "original_question": "两品种固定杂交的缺点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "断奶对仔猪是一个难关，可能会导致仔猪出现突然腹泻、水肺病、瘦弱等健康问题。这些健康问题会导致仔猪的消化能力和抵抗力明显降低。",
+    "reference_case": "断奶对仔猪是一个难关，可能会导致仔猪出现突然腹泻、水肺病、瘦弱等健康问题。突然由母乳转为固体饲料，失去母猪的保护，完全新的环境，这些因素会明显地降低仔猪的消化能力和抵抗力。",
+    "error_detail": "错误地将健康问题作为消化能力和抵抗力降低的原因",
+    "original_question": "仔猪断奶时消化能力和抵抗力会如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "由于猪从22千克到100千克对饲料蛋白质、氨基酸、矿物质和维生素等需要量逐渐上升，所以需要分成2个阶段来满足不同阶段的营养需求。",
+    "reference_case": "由于猪从22千克到100千克对饲料蛋白质、氨基酸、矿物质和维生素等需要量逐渐下降，所以需要分成2个阶段来满足不同阶段的营养需求。",
+    "error_detail": "因果错误",
+    "original_question": "为什么生长肥育猪饲料要分成2个阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "种猪使用灭活疫苗是因为它可以增加疫苗带来的伪狂犬病暴发风险，同时确保种猪群体的健康。",
+    "reference_case": "种猪使用灭活疫苗是因为它可以有效避免疫苗带来的伪狂犬病暴发风险，同时确保种猪群体的健康。",
+    "error_detail": "错误的因果关系",
+    "original_question": "种猪使用灭活疫苗的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "坏死杆菌病的主要防治措施是全群淘汰，因为药物治疗无效。",
+    "reference_case": "一旦发现坏死杆菌病，最好全群淘汰，对猪场彻底清扫和消毒，并空圈2～3个月，经严格检疫后再引进新猪。当病猪数量多、流行面广时，可用微量源集试验或其他方法进行检疫，对感染猪群实行药物治疗，无病猪群实行药物预防，经常彻底消毒，及时清除粪便，改进饲养管理；以控制本病的发展。",
+    "error_detail": "药物治疗有效性描述错误",
+    "original_question": "坏死杆菌病的主要防治措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪肠便秘的主要病因是缺乏运动导致的饲料不洁。",
+    "reference_case": "喂给干硬不易消化的饲料和含纤维过多的饲料，饲料不洁，突然变换饲料，饮水和运动不足，纯米糠喂刚断乳的仔猪、妊娠后期或分娩不久伴有肠驰缓的猪猪，某些传染病或其他热性病、慢性胃肠病经过中也常继发本病。",
+    "error_detail": "错误地将缺乏运动作为饲料不洁的原因，因果倒置。",
+    "original_question": "猪肠便秘的主要病因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "从年老的公猪与年老的母猪或极年幼的公猪与年老的母猪所生的猪，生长结束较早和脂肪沉积较快；而成年的与幼年的但发育良好的公猪和母猪所生的猪还未发现这种现象。这种现象是由于遗传因素导致的。",
+    "reference_case": "从年老的公猪与年老的母猪或极年幼的公猪与年老的母猪所生的猪，生长结束较早和脂肪沉积较快；而成年的与幼年的但发育良好的公猪和母猪所生的猪还未发现这种现象。",
+    "error_detail": "错误地归因于遗传因素",
+    "original_question": "双亲年龄如何影响仔猪的生长和脂肪沉积？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "因为回肠末端收粪法会受到大肠和盲肠微生物的干扰，所以肛门收粪法更为准确可靠。",
+    "reference_case": "因为肛门收取粪便会受到大肠和盲肠微生物的干扰，而回肠末端收粪法不会受到这些微生物的影响，因此更为准确可靠。",
+    "error_detail": "错误地颠倒了两种方法的准确性和可靠性。",
+    "original_question": "为何采用回肠末端收粪法测定猪饲料氨基酸消化率更为准确可靠？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "种公猪对必需氨基酸的需要影响妊娠母猪的需要。",
+    "reference_case": "种公猪对必需氨基酸的需要与妊娠母猪相同。",
+    "error_detail": "错误地暗示了种公猪的需要影响妊娠母猪的需要，而非相同。",
+    "original_question": "种公猪对必需氨基酸的需要与妊娠母猪有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "年老而肥胖的猪比年幼而瘦小的猪更容易散失体内多余的热。",
+    "reference_case": "年幼而瘦小的猪比年老而肥胖的猪更容易散失体内多余的热。",
+    "error_detail": "错误地颠倒了猪的年龄和体型对散热能力的影响。",
+    "original_question": "体型大小不同的猪在不同环境温度下的采食量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "在育成期水貂的试验中，猪油（IV组）对公貂的总能有显著影响，因为公貂的总能增加，所以猪油（IV组）的代谢能显著高于豆油（I组）和鱼油（III组）（P<0:05:。",
+    "reference_case": "在育成期水貂的试验中，猪油（IV组）对公貂的总能有显著影响，显著高于豆油（I组）和鱼油（III组）（P<0:05:。",
+    "error_detail": "错误地解释了因果关系",
+    "original_question": "在育成期水貂的试验中，哪种脂肪源对公貂的总能有显著影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "饲粮异黄酮添加水平增加时，肝脏中谷胱甘肽过氧化物酶（Gpx）活性呈显著的线性下降（P<0:05:，因为Gpx活性的下降导致了异黄酮添加水平的增加。",
+    "reference_case": "饲粮异黄酮添加水平增加时，肝脏中谷胱甘肽过氧化物酶（Gpx）活性呈显著的线性下降（P<0:05:，特别是在添加水平为80、160和320 mg/kg时，Gpx活性显著降低（P<0:05:。",
+    "error_detail": "错误地解释了因果关系",
+    "original_question": "饲粮异黄酮添加水平对肥育猪肝脏中谷胱甘肽过氧化物酶（Gpx）活性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "在试验的前2周，益生菌组的平均日采食量和料重比显著低于对照组，因为平均日增重没有显著影响。而在试验的3-5周，益生菌组与对照组之间的平均日增重、平均日采食量和料重比均没有显著差异。",
+    "reference_case": "在试验的前2周，益生菌组的平均日采食量和料重比显著低于对照组，但对平均日增重没有显著影响。而在试验的3-5周，益生菌组与对照组之间的平均日增重、平均日采食量和料重比均没有显著差异。",
+    "error_detail": "错误地解释了因果关系",
+    "original_question": "益生菌对断奶仔猪生长性能的影响在试验的前2周和3-5周有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "在试验的第15天，复合菌组的肝脏指数显著高于对照组、植物乳杆菌组和枯草芽孢杆菌组，因为复合菌组的饲料中添加了特殊的营养素。在试验的第36天，各组肝脏指数和脾脏指数无显著差异。",
+    "reference_case": "在试验的第15天，复合菌组的肝脏指数显著高于对照组、植物乳杆菌组和枯草芽孢杆菌组，而各组脾脏指数无显著差异。在试验的第36天，各组肝脏指数和脾脏指数无显著差异。",
+    "error_detail": "错误地解释了肝脏指数提高的原因",
+    "original_question": "益生菌对断奶仔猪免疫器官指数的影响在试验的第15天和第36天有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "低温可抑制动物发情，如牛和猪在冬季发情率较低。湿度高加剧低温对发情的影响，如北方寒冷冬季。",
+    "reference_case": "高温可抑制动物发情，如牛和猪在夏季发情率较低。湿度高加剧高温对发情的影响，如南方炎热夏季。",
+    "error_detail": "因果错误",
+    "original_question": "气温和湿度如何影响发情动物的发情？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "通过切尾刺激生猪的生长，降低其增重速度。",
+    "reference_case": "通过切尾刺激生猪的生长，提高其增重速度。",
+    "error_detail": "错误地认为切尾会降低增重速度，与事实相反。",
+    "original_question": "切尾育肥的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "缺锰会导致母鸡的蛋发育缓慢，母鸡的脊椎骨变形。猪饲以含锰低的饲料后，后脚踝关节扩大，腿弯曲，且这些症状会反过来影响锰的吸收。",
+    "reference_case": "缺锰会导致母鸡的蛋发育缓慢，母鸡的脊椎骨变形。猪饲以含锰低的饲料后，后脚踝关节扩大，腿弯曲。",
+    "error_detail": "错误地添加了症状会影响锰的吸收的因果关系，原始输出中未提及。",
+    "original_question": "缺锰如何影响家禽和猪的生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "钼缺乏可导致母猪繁殖力下降、流产。钼可能干扰黄体素（LH）分泌，影响后备母猪初情期以及类固醇激素的分泌，因此增加钼的摄入可以预防这些问题的发生。",
+    "reference_case": "钼缺乏可导致母猪繁殖力下降、流产。钼可能干扰黄体素（LH）分泌，影响后备母猪初情期以及类固醇激素的分泌。",
+    "error_detail": "错误地暗示增加钼的摄入可以预防问题，而原文并未提及",
+    "original_question": "钼对母猪繁殖性能的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "有机硒水平越高，猪肉颜色越苍白，添加有机硒组的背最长肌颜色改善效果更明显，因此应减少有机硒的添加。",
+    "reference_case": "有机硒水平越高，猪肉颜色越苍白，添加有机硒组的背最长肌颜色改善效果更明显。",
+    "error_detail": "错误地建议减少有机硒的添加，而原文并未提及",
+    "original_question": "有机硒对猪肉肉色有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "病猪虚弱、消瘦、黄疸等；幼虫间或进入猪肺，引起胸膜肺炎；寄生量多时，严重影响猪的生长和发育。",
+    "reference_case": "病猪虚弱、消瘦、黄疸等；寄生量多时，严重影响猪的生长和发育；幼虫间或进入猪肺，引起胸膜肺炎。",
+    "error_detail": "颠倒了症状和原因的顺序，可能导致因果倒置幻觉。",
+    "original_question": "猪细颈囊尾蚴病的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪因骨骼逐渐变形导致疾病，如关节肿胀，四肢变形，肋骨内弯，胸围狭小等。",
+    "reference_case": "猪因疾病导致骨骼逐渐变形，如关节肿胀，四肢变形，肋骨内弯，胸围狭小等。",
+    "error_detail": "颠倒了疾病和骨骼变形之间的因果关系，属于因果倒置幻觉。",
+    "original_question": "猪骨骼变形的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "针对PCV2基因组的小干扰RNA在细胞上可显著抑制PCV2的复制，在小鼠感染模型体内，腹股沟淋巴结的显微病变也显著降低，可作为潜在的治疗药物之一。",
+    "reference_case": "针对PCV2基因组的小干扰RNA在细胞上可显著抑制PCV2的复制，在小鼠感染模型体内，腹股沟淋巴结的显微病变也显著降低，可作为潜在的治疗药物之一。",
+    "error_detail": "因果倒置幻觉：错误地将小干扰RNA的作用与显微病变的降低直接关联。",
+    "original_question": "siRNA应用于猪圆环病毒2（PCV2）的复制抑制效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "PLHV-1和PLHV-2在猪群中广泛存在，因为恶性卡他热是一种淋巴增生性炎性且通常致死性的疾病。",
+    "reference_case": "PLHV-1和PLHV-2在猪群中广泛存在，与引起恶性卡他热的反刍兽疱疹病毒密切相关，恶性卡他热是一种淋巴增生性炎性且通常致死性的疾病。",
+    "error_detail": "错误地将恶性卡他热作为PLHV-1和PLHV-2广泛存在的原因，而非与之相关。",
+    "original_question": "猪嗜淋巴细胞疱疹病毒对猪群的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "PCV-1对感染猪造成危害，是一种可以感染猪的常见病毒。",
+    "reference_case": "PCV-1不会对感染猪造成危害，是一种可以感染猪的常见病毒。",
+    "error_detail": "错误地陈述PCV-1对猪造成危害。",
+    "original_question": "PCV-1对猪的致病性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "主要原因包括仔野猪体质强健、行动灵活；母野猪产后精力充沛或无病、瘦弱等导致起卧不便；产房环境优良，如温度高、仔猪有保温设备等。",
+    "reference_case": "主要原因包括仔野猪体质较弱、行动不灵活；母野猪产后疲劳或有病、肥胖等导致起卧不便；产房环境不良，如温度低、仔猪无保温设备等。",
+    "error_detail": "因果错误",
+    "original_question": "出生后一周内压死仔野猪的主要原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "缺钠会导致猪生长受阻，缺氯则使猪对养分的利用率下降。",
+    "reference_case": "缺钠会使猪对养分的利用率下降，且影响母猪的繁殖；缺氯则导致猪生长受阻。钾缺乏时，肌肉弹性和收缩力降低，肠道膨胀。在热应激条件下，易发生低血钾症。",
+    "error_detail": "因果倒置",
+    "original_question": "氯、钠、钾缺乏会对猪产生哪些危害？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪体内脂肪含量随着年龄的增长而降低，导致水分含量增加。",
+    "reference_case": "猪体内水分含量随日龄变化而变化的主要原因是猪体内脂肪含量随着年龄的增长而升高，而脂肪组织中含水量又大大低于肌肉组织的含水量。",
+    "error_detail": "因果倒置",
+    "original_question": "猪体内水分含量随日龄变化而变化的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "中小型养殖户应忽视防疫工作，因为疫病对猪价没有影响。",
+    "reference_case": "中小型养殖户应全面做好防疫工作，因为疫病是导致猪价暴涨的关键性因素。在生猪价格上涨过程中，养殖户应保持较强的投资意愿，做好防疫工作，以避免后期疫病多发，造成更大的经济损失。",
+    "error_detail": "错误地认为疫病对猪价没有影响，忽视了防疫工作的重要性。",
+    "original_question": "中小型养殖户在防疫工作方面应采取哪些措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "过早断奶非常适合当前养猪生产，因为它能提高母猪繁殖性能。",
+    "reference_case": "过早断奶不适合当前养猪生产的原因包括：过早断奶降低母猪繁殖性能；母猪窝产仔数提高，导致仔猪个体发育不均匀；饲养成本增加，养猪生产者不愿淘汰生长稍慢的仔猪；实际生产条件下，养猪水平远低于人们对早期断奶能提高养猪效益的期望；劳动力成本逐年增加；疾病流行性发生了变化；早期隔离断奶采取全进全出的方式，降低猪栏利用效率；早期隔离断奶使所有仔猪都经历运输，增加成本和风险。",
+    "error_detail": "错误地认为过早断奶能提高母猪繁殖性能，与实际情况相反。",
+    "original_question": "为什么过早断奶不适合当前养猪生产？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "紧急接种后猪群中发病数可能会增多一段时间，因为疫苗本身会导致猪发病。",
+    "reference_case": "因紧急接种后，外表正常无病的猪中可能混有潜伏期患猪，这些猪接种疫苗后不能获得保护，反而促使它们更快发病。",
+    "error_detail": "错误地将发病数的增多归因于疫苗本身，而非潜伏期患猪的存在。",
+    "original_question": "为什么紧急接种后猪群中发病数可能会增多一段时间？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪囊尾蚴病多表现为营养不良、生长受阻、贫血、水肿、呼吸困难、视力障碍、急性脑炎或突然死亡，但在大量感染或某一器官受损时，可能不表现临床症状。",
+    "reference_case": "猪囊尾蚴病多不表现临床症状，但在大量感染或某一器官受损时，可表现为营养不良、生长受阻、贫血、水肿、呼吸困难、视力障碍、急性脑炎或突然死亡。",
+    "error_detail": "错误地将猪囊尾蚴病的症状表现与其感染程度和器官受损的关系倒置。",
+    "original_question": "猪囊尾蚴病的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "高能量日粮摄入可增加脐静脉血中蛋白质含量、提高肌酸激酶和乳酸脱氢酶活性，上调胎猪肌肉生长相关基因、胰岛素样生长因子1和胰岛生长结合蛋白5的mRNA丰度，增加相关蛋白表达，加速胎猪肌肉分化和成熟。",
+    "reference_case": "高能量日粮摄入可减少脐静脉血中蛋白质含量、降低肌酸激酶和乳酸脱氢酶活性，下调胎猪肌肉生长相关基因、胰岛素样生长因子1和胰岛生长结合蛋白5的mRNA丰度，减少相关蛋白表达，延迟胎猪肌肉分化和成熟。",
+    "error_detail": "错误地将高能量日粮对胎猪发育的影响描述为与实际情况完全相反的效果。",
+    "original_question": "妊娠期母猪饲喂高能量日粮如何影响胎猪的发育？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "锌对动物体内硫胺素的活动有不良影响，可以增加猪尿中排出的丙酮酸。",
+    "reference_case": "锌对动物体内硫胺素的活动有良好影响，可以减少猪尿中排出的丙酮酸。",
+    "error_detail": "错误地颠倒了锌对硫胺素活动和丙酮酸排出的影响。",
+    "original_question": "锌对动物体内硫胺素的活动有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "补加碳酸锌可以加重猪的非常规角质化病。",
+    "reference_case": "补加碳酸锌可以治疗猪的非常规角质化病。",
+    "error_detail": "错误地颠倒了补加碳酸锌对非常规角质化病的影响。",
+    "original_question": "补加碳酸锌对猪非常规角质化病有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "增加日粮含钙量会减轻猪非常规角质化病的发生。",
+    "reference_case": "增加日粮含钙量会加重猪非常规角质化病的发生。",
+    "error_detail": "错误地颠倒了增加日粮含钙量对非常规角质化病的影响。",
+    "original_question": "增加日粮含钙量会如何影响猪非常规角质化病的发生？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "含锌量越低，仔猪发生非常规角质化病的情况越轻。",
+    "reference_case": "含锌量越高，仔猪发生非常规角质化病的情况越轻。",
+    "error_detail": "错误地颠倒了含锌量对非常规角质化病发生情况的影响。",
+    "original_question": "含锌量对仔猪发生非常规角质化病的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "含锌量和含钙量的不同配合会影响仔猪发生非常规角质化病的情况，含锌量越高、含钙量越低，仔猪发生此病的风险越大。",
+    "reference_case": "含锌量和含钙量的不同配合会影响仔猪发生非常规角质化病的情况，含锌量越低、含钙量越高，仔猪发生此病的风险越大。",
+    "error_detail": "错误地颠倒了含锌量和含钙量对非常规角质化病风险的影响。",
+    "original_question": "含锌量和含钙量对仔猪非常规角质化病的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "添加锌和铁可降低猪的平均日增重，其中添加锌和铁的效果更差。",
+    "reference_case": "添加锌和铁可提高猪的平均日增重，其中添加锌和铁的效果更佳。",
+    "error_detail": "错误地颠倒了添加锌和铁对猪平均日增重的影响。",
+    "original_question": "添加锌和铁对猪的平均日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "当日粮中含鋅量特别少时，使猪对鋅的需要量提高，同时供应鋅不充分，可能发生非常规角质化病。日粮含鈣过多也是产生缺鋅病的条件。",
+    "reference_case": "当日粮中含鋅量特别多时，使猪对鋅的需要量提高，同时供应鋅不充分，可能发生非常规角质化病。日粮含鈣过多也是产生缺鋅病的条件。",
+    "error_detail": "将'含鋅量特别多'错误地改为'含鋅量特别少'，导致因果关系错误。",
+    "original_question": "猪的非常规角质化病与什么因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "使用特异的泛素羧基末端水解酶 L1 抑制剂发现其可能在后期向中期转化的生理过程中发挥作用。",
+    "reference_case": "使用特异的泛素羧基末端水解酶 L1 抑制剂发现其可能在中期向后期转化的生理过程中发挥作用。",
+    "error_detail": "将'中期向后期转化'错误地改为'后期向中期转化'。",
+    "original_question": "2、泛素羧基末端水解酶 L1 抑制剂在猪卵母细胞成熟中的作用是什么？",
+    "original_input": "精胺合成酶等蛋白质，这些蛋白质的表达丰度甚至高于肌动蛋白。"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪受胁迫和炎症将影响心肌中解毒相关蛋白质的特异表达，表明心肺功能异常和脑膜炎可能是导致体细胞无性繁殖的小猪晚期死亡的原因。",
+    "reference_case": "猪受胁迫和炎症将影响心肌中解毒相关蛋白质的特异表达，表明心肺功能异常和脑膜炎可能是导致体细胞无性繁殖的小猪早期死亡的原因。",
+    "error_detail": "将'早期死亡'错误地改为'晚期死亡'。",
+    "original_question": "猪受胁迫和炎症如何影响心肌蛋白质表达？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪的体重增长随采食量和摄食频率的增加而增加。",
+    "reference_case": "猪的采食量和摄食频率随体重增长而增加。",
+    "error_detail": "错误地将体重增长和采食量、摄食频率之间的因果关系倒置。",
+    "original_question": "猪的采食量与体重增长有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "断奶仔猪的能量需要增加是因为其采食量上升。",
+    "reference_case": "断奶仔猪的能量需要受限于其体内脂肪储备有限、消化道容积小和断奶应激导致的采食量下降。",
+    "error_detail": "错误地将断奶仔猪能量需要的原因从采食量下降混淆为采食量上升。",
+    "original_question": "断奶仔猪的能量需要与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "甜菜碱对生长猪的生长性能有显著促进作用。研究表明，生长猪的日均采食量、日增重和胴体瘦肉率的提高可以显著增加血清中生长激素（GH）、类胰岛素生长因子-I（IGF-I）等激素水平。",
+    "reference_case": "甜菜碱对生长猪的生长性能有显著促进作用。研究表明，添加1000 mg/kg甜菜碱可以显著提高生长猪的日均采食量、日增重和胴体瘦肉率，降低料重比和背膘厚。甜菜碱通过提高血清中生长激素（GH）、类胰岛素生长因子-I（IGF-I）等激素水平，促进猪的生长。",
+    "error_detail": "错误地颠倒了甜菜碱作用与激素水平提高之间的因果关系，导致因果倒置幻觉。",
+    "original_question": "甜菜碱对生长猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "断奶仔猪的网床培育可以减少仔猪接触污染的机会，从而提高仔猪的生长速度和成活率，因为网床培育减少了地面传导散热损失。",
+    "reference_case": "断奶仔猪的网床培育可以减少地面传导散热损失，提高饲养温度，减少仔猪接触污染的机会，保持床面清洁卫生、干燥，从而提高仔猪的生长速度和成活率。",
+    "error_detail": "错误地解释了因果关系",
+    "original_question": "断奶仔猪的网床培育有哪些优点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "2014年元旦以来生猪价格直线上升，春节期间突破盈亏平衡点，涨势持续，导致大批养殖户出现盈利。",
+    "reference_case": "2014年元旦以来生猪价格直线下跌，春节期间跌破盈亏平衡点，跌势持续，导致大批养殖户出现亏损。",
+    "error_detail": "错误地改变了生猪价格的变化趋势和结果，从下跌改为上升，从亏损改为盈利。",
+    "original_question": "2014年元旦以来生猪价格的变化趋势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "在美国，亚胺硫磷（包括其氧化物在内）的允许残留量为0.05 ppm。",
+    "reference_case": "在美国，亚胺硫磷（包括其氧化物在内）的允许残留量为0.02 ppm。",
+    "error_detail": "因果错误",
+    "original_question": "美国牛、羊、猪肉和脂肪中亚胺硫磷（包括其氧化物在内）的允许残留量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "母猪的泌乳力越高，体况越好，仔猪断奶窝重越小。",
+    "reference_case": "母猪的体况越好，泌乳力越高，仔猪断奶窝重越大。",
+    "error_detail": "因果关系被颠倒，错误描述了体况和泌乳力的关系。",
+    "original_question": "哺乳母猪的体况和泌乳力的关系是什么？",
+    "original_input": ""
+  }
+]

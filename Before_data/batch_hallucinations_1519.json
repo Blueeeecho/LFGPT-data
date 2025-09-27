@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "治疗苦楝中毒的方法包括肌肉或静脉注射20%葡萄糖酸钙50—100毫升，肌肉或皮下注射维生素B200—400毫克，注射绿筌芦碱或灌服2%硫酸铜100毫升催吐。",
+    "reference_case": "治疗苦楝中毒的方法包括肌肉或静脉注射10%葡萄糖酸钙20—50毫升，肌肉或皮下注射维生素B100—200毫克，注射绿筌芦碱或灌服1%硫酸铜50毫升催吐，同时进行对症疗法。还有内服盐类泻剂，注射葡萄糖和安钠加，腹痛严重的注射阿托品。并用中草药治疗：鲜鱼腥草150克，萝卜籽60克炒熟研碎，白糖100克，鸡蛋清4个，混合后加适量冷水内服；麻仁、莱菔子、元明粉各15克（50斤重猪剂量）煎服。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "苦楝中毒的治疗方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "防止猪吃苦楝树皮和果实，同时避免接触任何植物。",
+    "reference_case": "防止猪吃苦楝树皮和果实。",
+    "error_detail": "添加了不必要的避免接触任何植物的指令",
+    "original_question": "如何预防苦楝中毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "椿中毒的动物有牛、羊。",
+    "reference_case": "马、猪。",
+    "error_detail": "术语错误，错误的动物种类",
+    "original_question": "椿中毒的动物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "水华中的一些有害水华如绿藻水华，可引起马、牛、羊、猪、家禽、野生动物和人中毒死亡或严重病患。",
+    "reference_case": "水华中的一些有害水华如蓝藻水华，可引起马、牛、羊、猪、家禽、野生动物和人中毒死亡或严重病患。某些蓝藻会产生毒素，导致肝脏、肾脏、心脏、肺部及大脑中枢神经系统的损害。",
+    "error_detail": "过时的标准，错误的藻类类型",
+    "original_question": "水华对人类和动物有哪些危害？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "鱼类内脏中毒的主要症状是猪看起来很瘦，但实则是全身性水肿，特别是头、颈和领下，四肢上端和腹下部最明显，皮肤呈淡蓝色，走路不正常，善饮水，食欲虽不减但生长缓慢。",
+    "reference_case": "猪看起来很肥，但实则是全身性水肿，特别是头、颈和领下，四肢上端和腹下部最明显，皮肤呈淡黄色，走路不正常，善饮水，食欲虽不减但生长缓慢。",
+    "error_detail": "地域差异，错误的症状描述",
+    "original_question": "鱼类内脏中毒的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "寄生虫如马圆形线虫、猪囊尾蚴、棘球蚴、兔球虫、牛羊肝片吸虫等侵入肝脏，一方面对肝组织产生直接的占位性压迫作用，另一方面摄取肝脏的营养，排出有毒代谢产物，从而破坏肝细胞，导致肝功能障碍。但是这些寄生虫对肝脏没有影响。",
+    "reference_case": "寄生虫如马圆形线虫、猪囊尾蚴、棘球蚴、兔球虫、牛羊肝片吸虫等侵入肝脏，一方面对肝组织产生直接的占位性压迫作用，另一方面摄取肝脏的营养，排出有毒代谢产物，从而破坏肝细胞，导致肝功能障碍。",
+    "error_detail": "逻辑矛盾，前后陈述矛盾",
+    "original_question": "家畜的许多寄生虫病如何导致肝功能不全？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牛、羊的预饲期和实验期均为20~28天；马的预饲期为14~20天，实验期为16~20天；猪的预饲期为10~20天，实验期为12~20天；家禽（进行代谢实验）的预饲期为6~10天，实验期为8~10天，采用强饲法。",
+    "reference_case": "牛、羊的预饲期和实验期均为10~14天；马的预饲期为7~10天，实验期为8~10天；猪的预饲期为5~10天，实验期为6~10天；家禽（进行代谢实验）的预饲期为3~5天，实验期为4~5天，采用强饲法。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "不同种动物的预饲期和实验期分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "应重点考虑 CP 水平和第一、第二限制性氨基酸平衡，以及维生素和矿物质的补充。",
+    "reference_case": "应重点考虑 CP 水平和第一、第二限制性氨基酸平衡。",
+    "error_detail": "添加了不必要的维生素和矿物质的补充指令",
+    "original_question": "设计后备种猪生长阶段的配合饲料时，应重点考虑哪些营养素？",
+    "original_input": "维生素 B6、维生素 B12、生物素、尼克酸、泛酸、胆碱（集约化生产）、生长促进剂和保健剂。"
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "微量元素预混剂重点考虑 Fe、Zn、Mn、Cu、I、Se，特别是 Fe、Zn 在生长期尤为重要，以及假设所有动物都需要相同的微量元素。",
+    "reference_case": "微量元素预混剂重点考虑 Fe、Zn、Mn、Cu、I、Se，特别是 Fe、Zn 在生长期尤为重要。",
+    "error_detail": "添加了不必要的假设",
+    "original_question": "微量元素预混剂设计时需要考虑哪些元素？",
+    "original_input": "维生素 B6、维生素 B12、泛酸、尼克酸。对于繁殖母猪，还需考虑维生素 K、胆碱、生物素。"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小型猪为4-3.9 Mcal/kg，大型猪为4-3.95 Mcal/kg。",
+    "reference_case": "小型猪为3-2.9 Mcal/kg，大型猪为3-2.95 Mcal/kg。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "后备母猪饲粮中消化能的含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小型猪为0.8-0.62%，大型猪为0.72-0.58%。",
+    "reference_case": "小型猪为0.7-0.52%，大型猪为0.62-0.48%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "后备母猪饲粮中赖氨酸的含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小型猪为0.55-0.44%，大型猪为0.5-0.41%。",
+    "reference_case": "小型猪为0.45-0.34%，大型猪为0.4-0.31%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "后备母猪饲粮中苏氨酸的含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "钙的含量为1.2%。",
+    "reference_case": "钙的含量为0.6%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "后备母猪饲粮中钙的含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小型猪为142-86 mg/kg，大型猪为106-76 mg/kg。",
+    "reference_case": "小型猪为71-43 mg/kg，大型猪为53-38 mg/kg。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "后备母猪饲粮中铁的含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小型猪为3120-2240国际单位/kg，大型猪为2320-2220国际单位/kg。",
+    "reference_case": "小型猪为1560-1120国际单位/kg，大型猪为1160-1110国际单位/kg。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "后备母猪饲粮中维生素A的含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小型猪为356-260国际单位/kg，大型猪为356-230国际单位/kg。",
+    "reference_case": "小型猪为178-130国际单位/kg，大型猪为178-115国际单位/kg。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "后备母猪饲粮中维生素D的含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "保持饲养箱中土壤含水量适宜，箱顶略高出地面，防止雨水流入，表土下约12-18 cm 深处添加腐熟猪粪或鲜马铃薯。",
+    "reference_case": "保持饲养箱中土壤含水量适宜，箱顶略高出地面，防止雨水流入，表土下约6-9 cm 深处添加腐熟猪粪或鲜马铃薯。",
+    "error_detail": "指令偏离，错误的深度描述",
+    "original_question": "如何确保金龟子幼虫的土壤湿度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "蛋白质消化吸收的主要场所是大肠，并在酶的作用下，最终以大量氨基酸及少量寡肽的形式被机体吸收。",
+    "reference_case": "蛋白质消化吸收的主要场所是小肠，并在酶的作用下，最终以大量氨基酸及少量寡肽的形式被机体吸收。",
+    "error_detail": "误解上下文，错误的消化吸收场所",
+    "original_question": "单胃家畜猪蛋白质代谢过程的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "蛋白质消化吸收的主要场所是胃，其过程与猪大致相同。",
+    "reference_case": "蛋白质消化吸收的主要场所也是小肠，其过程与猪大致相同。",
+    "error_detail": "误解上下文，错误的消化吸收场所",
+    "original_question": "家禽蛋白质消化吸收的主要特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "5～20kg阶段为200，20～50kg阶段为200，50～100kg阶段为200。",
+    "reference_case": "5～20kg阶段为100，20～50kg阶段为100，50～100kg阶段为100。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "猪三阶段必需氨基酸的理想模型中赖氨酸含量分别是多少？",
+    "original_input": ""
+  }
+]

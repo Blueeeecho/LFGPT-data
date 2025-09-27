@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪早期断奶后，胃酸分泌不足会影响蛋白质的消化吸收，造成蛋白质在肠内腐败，最终导致腹泻的概率高达90%。",
+    "reference_case": "仔猪早期断奶后，胃酸分泌不足会影响蛋白质的消化吸收，造成蛋白质在肠内腐败，最终导致腹泻。",
+    "error_detail": "添加了不存在的概率数据",
+    "original_question": "仔猪早期断奶后，胃酸分泌不足会导致什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "早期断奶仔猪对环境温度、通风与风速、相对湿度和光照等都有具体的规定，特别是在冬季，需要额外加热以确保其良好的生长环境。",
+    "reference_case": "早期断奶仔猪对环境温度、通风与风速、相对湿度和光照等都有具体的规定，以确保其良好的生长环境。",
+    "error_detail": "添加了冬季需要额外加热的假设",
+    "original_question": "早期断奶仔猪对环境条件有哪些具体要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "早期断奶仔猪的饲养管理中实行“全进全出”制的主要目的是为了减少饲料浪费。",
+    "reference_case": "早期断奶仔猪的饲养管理中实行“全进全出”制的主要目的是尽量减少来自外部环境的病原微生物感染，确保仔猪的健康和生长环境的安全。",
+    "error_detail": "错误地解释了“全进全出”制的目的",
+    "original_question": "早期断奶仔猪的饲养管理中，为什么要实行“全进全出”制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "仔猪早期断奶后，营养应激对仔猪的影响主要表现在采食量减少，饲料利用率降低，并因消化不良而引起腹泻，但这些影响不会对仔猪的生长造成任何负面影响。",
+    "reference_case": "仔猪早期断奶后，营养应激对仔猪的影响主要表现在采食量减少，饲料利用率降低，并因消化不良而引起腹泻。",
+    "error_detail": "添加了与前面描述矛盾的结论",
+    "original_question": "仔猪早期断奶后，营养应激对仔猪的影响主要表现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在早期断奶仔猪日粮中添加酶制剂可以减轻或消除饲料抗营养因子的影响，弥补内源性消化酶的不足，刺激仔猪消化系统的发育，促进内源性酶的分泌，这是根据2000年的研究得出的结论。",
+    "reference_case": "在早期断奶仔猪日粮中添加酶制剂可以减轻或消除饲料抗营养因子的影响，弥补内源性消化酶的不足，刺激仔猪消化系统的发育，促进内源性酶的分泌。",
+    "error_detail": "添加了过时的研究时间信息",
+    "original_question": "在早期断奶仔猪日粮中添加酶制剂的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "文章中提到猪瘟疫苗的注射过程中需要注意器械消毒、注射部位消毒、针头粗细等操作规范，但实际上这些规范并不重要。",
+    "reference_case": "文章中提到猪瘟疫苗的注射过程中需要注意器械消毒、注射部位消毒、针头粗细等操作规范。",
+    "error_detail": "偏离了原文的指令，添加了不相关的观点",
+    "original_question": "文章中提到猪瘟疫苗的注射过程中需要注意哪些操作规范？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "文章中提到猪瘟冻干苗在-15°C以下保存期为18个月，而在8-15°C的疫苗的有效期仅为5天。",
+    "reference_case": "文章中提到猪瘟冻干苗在-15°C以下保存期为18个月，而在8-15°C的疫苗的有效期仅为10天。",
+    "error_detail": "错误地修改了疫苗的有效期数据",
+    "original_question": "文章中提到猪瘟冻干苗的保存温度与有效期有什么关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "文章中提到猪瘟疫苗的免疫程序需要根据疫病变化进行调整，特别是近年某些疫病出现非典型化和慢性化变化时，这意味着所有的疫苗都需要频繁更换。",
+    "reference_case": "文章中提到猪瘟疫苗的免疫程序需要根据疫病变化进行调整，特别是近年某些疫病出现非典型化和慢性化变化时。",
+    "error_detail": "误解了上下文，添加了不相关的结论",
+    "original_question": "文章中提到猪瘟疫苗的免疫程序是否需要根据疫病变化进行调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪瘟疫苗的免疫程序中，仔猪断奶时应该进行两次免疫。",
+    "reference_case": "在猪瘟疫苗的免疫程序中，仔猪断奶时应该进行一次免疫。",
+    "error_detail": "错误地修改了免疫次数",
+    "original_question": "在猪瘟疫苗的免疫程序中，仔猪断奶时应该进行什么操作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "文章中提到猪瘟疫苗稀释后在15°C以下应在12小时内用完，而在15-27°C应在6小时内用完。",
+    "reference_case": "文章中提到猪瘟疫苗稀释后在15°C以下应在6小时内用完，而在15-27°C应在3小时内用完。",
+    "error_detail": "错误地修改了疫苗的使用时间数据",
+    "original_question": "文章中提到猪瘟疫苗的稀释后使用时间有什么要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "优质牧草对畜牧业的经济价值体现在其适口性好、营养丰富、粗蛋白含量高，可以作为猪、鸡的好饲料，降低饲料成本，提高养殖效益，尤其是在没有其他饲料来源的情况下。",
+    "reference_case": "优质牧草对畜牧业的经济价值体现在其适口性好、营养丰富、粗蛋白含量高，可以作为猪、鸡的好饲料，降低饲料成本，提高养殖效益。",
+    "error_detail": "添加了没有根据的假设",
+    "original_question": "优质牧草对畜牧业的经济价值体现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一头100 kg重的肥猪可以节省精料30～60 kg。",
+    "reference_case": "一头100 kg重的肥猪可以节省精料60～120 kg。",
+    "error_detail": "错误地修改了节省精料的数据",
+    "original_question": "一头100 kg重的肥猪可以节省多少精料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪白痢的主要特征是排黑色或深绿色浆糊样稀类。",
+    "reference_case": "仔猪白痢的主要特征是排乳白色或黄绿色浆糊样稀类。",
+    "error_detail": "错误地修改了粪便的颜色描述",
+    "original_question": "仔猪白痢的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "治疗仔猪白痢的民间验方中，使用大蒜的方法是将去皮大蒜500g捣成浆，加入适量蜜糖、炭粉，可供20头仔猪灌服，1次/d，连用3d。",
+    "reference_case": "治疗仔猪白痢的民间验方中，使用大蒜的方法是将去皮大蒜250g捣成浆，加入适量蜜糖、炭粉，可供10头仔猪灌服，1次/d，连用3d。",
+    "error_detail": "错误地修改了大蒜的用量和适用仔猪数量",
+    "original_question": "治疗仔猪白痢的民间验方中，使用大蒜的方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "治疗仔猪白痢的民间验方中，使用玉米棒灰的方法是将脱粒后的玉米棒烧成灰或碾成细末，仔猪按20g/头拌料饲喂，3次/d。如果仔猪尚在哺乳中，取玉米渣灰400g饲喂母猪，效果相同，连用2～3d。",
+    "reference_case": "治疗仔猪白痢的民间验方中，使用玉米棒灰的方法是将脱粒后的玉米棒烧成灰或碾成细末，仔猪按10g/头拌料饲喂，3次/d。如果仔猪尚在哺乳中，取玉米渣灰200g饲喂母猪，效果相同，连用2～3d。",
+    "error_detail": "错误地修改了玉米棒灰的用量",
+    "original_question": "治疗仔猪白痢的民间验方中，使用玉米棒灰的方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "金华猪生长发育性状中，4月龄体质量、6月龄体质量、6月龄体长、6月龄体高和6月龄胸围的遗传力较高，分别为0:58、0:57、0:59、0:58和0:53。",
+    "reference_case": "金华猪生长发育性状中，4月龄体质量、6月龄体质量、6月龄体长、6月龄体高和6月龄胸围的遗传力较高，分别为0:48、0:47、0:49、0:48和0:43。",
+    "error_detail": "错误地修改了遗传力的数据",
+    "original_question": "金华猪生长发育性状的遗传力估计中，哪些性状的遗传力较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "金华猪6月龄体质量与6月龄体长的遗传相关是0:94。",
+    "reference_case": "金华猪6月龄体质量与6月龄体长的遗传相关是0:84。",
+    "error_detail": "错误地修改了遗传相关的数据",
+    "original_question": "金华猪6月龄体质量与6月龄体长的遗传相关是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "金华猪生长性状的遗传参数估计使用了最小二乘法（LS）。",
+    "reference_case": "金华猪生长性状的遗传参数估计使用了动物模型约束性最大似然法（REML）。",
+    "error_detail": "错误地修改了遗传参数估计的方法",
+    "original_question": "金华猪生长性状的遗传参数估计使用了哪种方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "金华猪4月龄体质量与6月龄体质量的遗传相关是0:94。",
+    "reference_case": "金华猪4月龄体质量与6月龄体质量的遗传相关是0:84。",
+    "error_detail": "错误地修改了遗传相关的数据",
+    "original_question": "金华猪4月龄体质量与6月龄体质量的遗传相关是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "金华猪生长发育性状的遗传力估计中，4月龄体质量、6月龄体质量、6月龄体长、6月龄体高、6月龄胸围、腿围、背厚和2～6月平均日增重的遗传力与国内外文献报道结果相近，这表明金华猪的遗传特性在全球范围内都是独一无二的。",
+    "reference_case": "金华猪生长发育性状的遗传力估计中，4月龄体质量、6月龄体质量、6月龄体长、6月龄体高、6月龄胸围、腿围、背厚和2～6月平均日增重的遗传力与国内外文献报道结果相近。",
+    "error_detail": "添加了没有根据的结论",
+    "original_question": "金华猪生长发育性状的遗传力估计中，哪些性状的遗传力与国内外文献报道结果相近？",
+    "original_input": ""
+  }
+]

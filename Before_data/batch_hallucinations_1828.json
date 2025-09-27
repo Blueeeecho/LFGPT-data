@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "可以增加胚胎存活率至90%，减少难产率至5%，减少母猪和新生仔猪的死亡率至2%，减少哺乳期失重至3kg，有利于泌乳期食欲旺盛，降低养猪料成本至50%，减少乳房炎发病率和肢蹄病发生率至1%，延长母猪使用寿命至10年。",
+    "reference_case": "可以增加胚胎存活率，减少难产，减少母猪和新生仔猪的死亡率，减少哺乳期失重，有利于泌乳期食欲旺盛，降低养猪料成本，减少乳房炎发病率和肢蹄病发生率，延长母猪使用寿命。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "妊娠母猪限制饲养的好处有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "包括单栏饲养法、隔日供料法、日粮稀释法和母猪电子识别饲喂系统，以及定期禁食法。",
+    "reference_case": "包括单栏饲养法、隔日供料法、日粮稀释法和母猪电子识别饲喂系统。",
+    "error_detail": "术语错误",
+    "original_question": "妊娠母猪限制饲料的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "NRC（1988）建议泌乳母猪每天的维持能量需求量（MEm）为500 kJ/kgBW^0.75。",
+    "reference_case": "NRC（1998）建议泌乳母猪每天的维持能量需求量（MEm）为443 kJ/kgBW^0.75或460 kJ/kgBW^0.75。",
+    "error_detail": "过时标准",
+    "original_question": "泌乳母猪的维持能量需求是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "泌乳期间（3~5周）母猪的体重损失一般为5~10kg。",
+    "reference_case": "泌乳期间（3~5周）母猪的体重损失一般为9~15kg。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "泌乳期间母猪的体重损失为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "仔猪需要在原母猪或其他母猪处吃1天的初乳。",
+    "reference_case": "仔猪需要在原母猪或其他母猪处吃2至3天的初乳。",
+    "error_detail": "需求冲突",
+    "original_question": "仔猪需要在原母猪或其他母猪处吃几天的初乳？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "选择产期相差5天以内、泌乳性能高、体质好的母猪做“继母”猪，且必须是同一品种。",
+    "reference_case": "选择产期相差3天以内、泌乳性能高、体质好的母猪做“继母”猪。",
+    "error_detail": "添加假设",
+    "original_question": "选择做“继母”猪的标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "过哺最好是安排在白天进行。",
+    "reference_case": "过哺最好是安排在夜间进行。",
+    "error_detail": "地域差异",
+    "original_question": "过哺仔猪的最佳时间是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "仔猪在出生后的1至2日龄内进行编号。",
+    "reference_case": "仔猪在出生后的2至7日龄内进行编号。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "仔猪在出生后的哪段时间内进行编号？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "操作者在打耳号时只需注意防止母猪咬伤操作者。",
+    "reference_case": "操作者在打耳号时要避开大的血管，注意防止母猪咬伤操作者。",
+    "error_detail": "权重错误",
+    "original_question": "操作者在打耳号时应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "哺乳仔猪需要进行剪牙、断尾、去势和疫苗接种等处理。",
+    "reference_case": "哺乳仔猪需要进行剪牙、断尾、去势等处理。",
+    "error_detail": "术语错误",
+    "original_question": "哺乳仔猪需要进行哪些处理？",
+    "original_input": ""
+  }
+]

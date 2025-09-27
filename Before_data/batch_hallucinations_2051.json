@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "轮状病毒对外界环境有顽强的抵抗力，加之其他动物也可散播传染，使轮状病毒在成猪、中猪、仔猪之间反复循环感染。",
+    "reference_case": "轮状病毒对外界环境有顽强的抵抗力，加之人和其他动物也可散播传染，使轮状病毒在成猪、中猪、仔猪之间反复循环感染。",
+    "error_detail": "遗漏了人类作为传播源的重要性",
+    "original_question": "哪些因素会使轮状病毒在猪场内反复循环感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "轮状病毒感染多发生在幼颇仔猪，特别是10周龄以下的仔猪发病率最高。",
+    "reference_case": "轮状病毒感染多发生在幼颇仔猪，特别是8周龄以下的仔猪发病率最高。",
+    "error_detail": "错误的年龄数据",
+    "original_question": "轮状病毒引起腹泻的病猪多为哪个年龄段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "发现病猪立即停止喂乳，以葡萄糖盐水或复方葡萄糖溶液给病猪自由饮用。同时，进行对症治疗，如投用抗生素，以防止继发细菌性感染。",
+    "reference_case": "发现病猪立即停止喂乳，以葡萄糖盐水或复方葡萄糖溶液给病猪自由饮用。同时，进行对症治疗，如投用收敛止泻剂，使用抗菌药物，以防止继发细菌性感染。",
+    "error_detail": "错误地替换了药物类型",
+    "original_question": "治疗轮状病毒感染的病猪时，通常使用哪些药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "在流行地区，由于大多数成年猪都已感染而获得免疫力，发病猪多是10周龄以下的仔猪，发病率与日龄成正比，日龄越小的仔猪发病率越高。",
+    "reference_case": "在流行地区，由于大多数成年猪都已感染而获得免疫力，发病猪多是8周龄以下的仔猪，发病率与日龄成正比，日龄越小的仔猪发病率越高。",
+    "error_detail": "错误的年龄数据",
+    "original_question": "轮状病毒对母猪和仔猪的免疫有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "可采取仔猪发病后48小时内的粪便，进行夹心法酶联免疫吸附试验、电镜或免疫电镜检查等。",
+    "reference_case": "可采取仔猪发病后24小时内的粪便，进行夹心法酶联免疫吸附试验、电镜或免疫电镜检查等。",
+    "error_detail": "错误的时间窗口假设",
+    "original_question": "猪轮状病毒的实验室确诊方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "油佐剂灭活苗于怀孕母猪临产前20天，肌内注射2毫升；仔猪于7日龄和21日龄各注射1次，每次每头注射0.5毫升。弱毒苗于临产前5周和2周分别肌内注射1次，每次每头注射1毫升。",
+    "reference_case": "油佐剂灭活苗于怀孕母猪临产前30天，肌内注射2毫升；仔猪于7日龄和21日龄各注射1次，每次每头注射0.5毫升。弱毒苗于临产前5周和2周分别肌内注射1次，每次每头注射1毫升。",
+    "error_detail": "错误的接种时间",
+    "original_question": "猪轮状病毒油佐剂灭活疫苗和弱毒疫苗的接种时间是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "劳森菌感染常见于8-20周龄的生长育成猪，发病率为5%-25%。",
+    "reference_case": "劳森菌感染常见于6-20周龄的生长育成猪，发病率为5%-25%。",
+    "error_detail": "错误的年龄数据",
+    "original_question": "劳森菌感染的常见年龄段是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "劳森菌主要是经皮肤感染，病猪和带菌猪及其排泄物是主要的传染源。",
+    "reference_case": "劳森菌主要是经口感染，病猪和带菌猪及其排泄物是主要的传染源。",
+    "error_detail": "错误的传播途径",
+    "original_question": "劳森菌感染的主要传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "感染猪虽有病原体存在，却无明显的临床症状，也可能发生严重腹泻，但并不引起人们注意，生长速度和饲料利用率明显下降。",
+    "reference_case": "感染猪虽有病原体存在，却无明显的临床症状，也可能发生轻微腹泻，但并不引起人们注意，生长速度和饲料利用率明显下降。",
+    "error_detail": "错误的症状严重程度假设",
+    "original_question": "劳森菌感染的亚临床型如何表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "病猪可能出现眼睑水肿、偏瘫、发育障碍、神经症状（如脑膜充血、脑脊液增加）、便秘、食欲不振、高热、打喷嚏或咳嗽、精神沉郁、流产、死产及延迟分娩等。",
+    "reference_case": "病猪可能出现眼睑水肿、偏瘫、发育障碍、神经症状（如脑膜充血、脑脊液增加）、便秘、食欲不振、微热、打喷嚏或咳嗽、精神沉郁、流产、死产及延迟分娩等。",
+    "error_detail": "错误的症状描述",
+    "original_question": "伪狂犬病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪感染伪狂犬病在妊娠30天以上时，常导致流产、死产及延迟分娩，流产和死产的胎儿大小无显著差异，无畸形，死产胎儿有软化现象，流产胎儿通常较为新鲜，脑壳和背部皮肤有出血点，胸腔、腹腔及心包腔有多量褐色潴留液，肾及心肌出血，肝、脾有灰白色坏死点。",
+    "reference_case": "母猪感染伪狂犬病在妊娠40天以上时，常导致流产、死产及延迟分娩，流产和死产的胎儿大小无显著差异，无畸形，死产胎儿有软化现象，流产胎儿通常较为新鲜，脑壳和背部皮肤有出血点，胸腔、腹腔及心包腔有多量褐色潴留液，肾及心肌出血，肝、脾有灰白色坏死点。",
+    "error_detail": "错误的妊娠天数",
+    "original_question": "伪狂犬病感染母猪会对胎儿造成哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "病猪死后常见脑膜充血、脑脊液增加、鼻咽部充血、扁桃体、咽喉部及其淋巴结坏死、肝、脾有1-2毫米灰白色坏死点、心包液增加、肺可见水肿和出血点。",
+    "reference_case": "病猪死后常见脑膜充血、脑脊液增加、鼻咽部充血、扁桃体、咽喉部及其淋巴结坏死、肝、脾有1-2毫米灰白色坏死点、心包液增加、肺可见水肿和出血点。",
+    "error_detail": "遗漏了部分病理解剖变化",
+    "original_question": "伪狂犬病的病理解剖变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "在病猪出现神经症状后，注射高免血清或病愈猪血液有一定疗效，但耐过猪需继续隔离饲养。",
+    "reference_case": "在病猪出现神经症状前，注射高免血清或病愈猪血液有一定疗效，但耐过猪需继续隔离饲养。",
+    "error_detail": "错误的治疗时机",
+    "original_question": "伪狂犬病的治疗措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "包括自洁净猪场引进种猪、进行严格检疫、每月消毒猪舍地面、墙壁、设施及用具、捕灭猪舍鼠类及野生动物、种猪场母猪每3个月采血检查1次、发病肥育猪场采取免疫接种并加强综合性防制措施。",
+    "reference_case": "包括自洁净猪场引进种猪、进行严格检疫、每周消毒猪舍地面、墙壁、设施及用具、捕灭猪舍鼠类及野生动物、种猪场母猪每3个月采血检查1次、发病肥育猪场采取免疫接种并加强综合性防制措施。",
+    "error_detail": "错误的消毒频率",
+    "original_question": "伪狂犬病的预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "根除计划旨在通过使用传统疫苗和鉴别诊断方法，提高猪群对伪狂犬病的免疫力并减少疾病暴发。",
+    "reference_case": "根除计划旨在通过使用基因缺失疫苗和鉴别诊断方法，提高猪群对伪狂犬病的免疫力并减少疾病暴发。",
+    "error_detail": "错误的疫苗类型",
+    "original_question": "伪狂犬病根除计划的目标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "伪狂犬病毒通过空气传播，可在高度污染的种猪场中通过全群淘汰更新或淘汰阳性反应猪等方式清除。",
+    "reference_case": "伪狂犬病毒通过种猪间传播，可在高度污染的种猪场中通过全群淘汰更新或淘汰阳性反应猪等方式清除。",
+    "error_detail": "错误的传播途径",
+    "original_question": "伪狂犬病的传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "种猪使用灭活疫苗是因为它可以增加疫苗带来的伪狂犬病暴发风险，同时确保种猪群体的健康。",
+    "reference_case": "种猪使用灭活疫苗是因为它可以有效避免疫苗带来的伪狂犬病暴发风险，同时确保种猪群体的健康。",
+    "error_detail": "错误的因果关系",
+    "original_question": "种猪使用灭活疫苗的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "双基因缺失弱毒疫苗适用于所有年龄段的猪。",
+    "reference_case": "双基因缺失弱毒疫苗适用于肥育用的仔猪和架子猪。",
+    "error_detail": "错误的适用对象",
+    "original_question": "双基因缺失弱毒疫苗适用于哪些猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "种猪免疫程序包括普遍注射基因缺失灭活浓缩疫苗1次，间隔2~3周后再加强免疫1次，之后每半年注射1次。",
+    "reference_case": "种猪免疫程序包括普遍注射基因缺失灭活浓缩疫苗1次，间隔4~6周后再加强免疫1次，之后每半年注射1次。",
+    "error_detail": "错误的免疫间隔时间",
+    "original_question": "伪狂犬病根除计划中，种猪免疫程序如何进行？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "已经注射过疫苗的猪场需将疫苗更换为浓缩单基因缺失灭活疫苗，按每6个月注射1次的免疫程序进行。",
+    "reference_case": "已经注射过疫苗的猪场需将疫苗更换为浓缩单基因缺失灭活疫苗，按每4个月注射1次的免疫程序进行。",
+    "error_detail": "错误的免疫频率",
+    "original_question": "对已经注射过疫苗的猪场，免疫计划有何不同？",
+    "original_input": ""
+  }
+]

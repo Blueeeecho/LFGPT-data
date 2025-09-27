@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "([96.2-0.87 × CF]+[100.0-0.67 × NDF]) / 3",
+    "reference_case": "([96.2-0.87 × CF]+[100.0-0.67 × NDF]) / 2",
+    "error_detail": "分母数值错误，将2改为3",
+    "original_question": "生长猪对部分脱壳葵花籽粕饲料氮消化率（dN, %）的预测模型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "84.7-2.34 × Ash −1.31 × CF+0.92 × CP",
+    "reference_case": "84.7-2.34 × Ash −1.31 × CF+0.92 × CP",
+    "error_detail": "公式中的术语使用正确，无幻觉",
+    "original_question": "压榨棕榈核仁粕中生长猪对饲料氮消化率（dN, %）的预测模型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "84.7-2.34×Ash-1.31×CF+ 0.92 × CP",
+    "reference_case": "84.7-2.34×Ash-1.31×CF+ 0.92 × CP",
+    "error_detail": "公式中的系数可能过时，未反映最新研究",
+    "original_question": "脱水苜蓿，CP(%DM) <16% 的生长猪饲料氮消化率（dN, %）的预测模型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "84.7-2.34×Ash −1.31 × CF+0.92 × CP",
+    "reference_case": "84.7-2.34×Ash −1.31 × CF+0.92 × CP",
+    "error_detail": "公式可能不适用于所有地域的生长猪",
+    "original_question": "脱水苜蓿，CP(%DM) 18%~19% 的生长猪饲料氮消化率（dN, %）的预测模型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "84.7-2.34×Ash-1.31×CF+0.92×CP",
+    "reference_case": "84.7-2.34×Ash-1.31×CF+0.92×CP",
+    "error_detail": "公式中的因果关系可能被误解",
+    "original_question": "脱水苜蓿，CP(%DM) 22%~25% 的生长猪饲料氮消化率（dN, %）的预测模型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "见附表4.5，具体比例包括MEg/DEg、NEg/MEg、MEs/DEs、NEs/MEs和DEs/DEg，根据不同作物而有所不同。",
+    "reference_case": "见附表4.5，具体比例包括MEg/DEg、NEg/MEg、MEs/DEs、NEs/MEs和DEs/DEg，根据不同作物而有所不同。",
+    "error_detail": "回答未具体说明比值，仅指向附表",
+    "original_question": "玉米、大麦、糙米、黑麦、高粱、黑小麦、细硬质小麦和硬质小麦等陶料类型与生长猪和母猪能值之间的比值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "仔猪消化器官容积大，消化机能健全",
+    "reference_case": "仔猪消化器官容积小，消化机能尚未健全，胃和小肠的容积及长度在断奶前后变化显著。",
+    "error_detail": "错误描述了仔猪消化器官的特点",
+    "original_question": "仔猪消化器官的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "仔猪在生长发育过程中需要较低的蛋白质、维生素和矿物质水平。",
+    "reference_case": "仔猪在生长发育过程中需要较高的蛋白质、维生素和矿物质水平。",
+    "error_detail": "逻辑矛盾，描述了相反的需求",
+    "original_question": "仔猪在生长发育过程中需要较高的什么水平？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪日粮中每公斤饲料含消化能不宜少于3000大卡，粗蛋白质不宜少于15%，赖氨酸含量占粗蛋白质4.5%或日粮的0.9%。",
+    "reference_case": "仔猪日粮中每公斤饲料含消化能不宜少于3300大卡，粗蛋白质不宜少于18%，赖氨酸含量占粗蛋白质4.5%或日粮的0.9%。",
+    "error_detail": "消化能和粗蛋白质的最低要求数值错误",
+    "original_question": "仔猪日粮中蛋白质的要求是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "仔猪饲料应新鲜，避免使用发霉变质、有毒或适口性不好的饲料，如菜籽饼应尽量少用或不用，薯类饲料宜熟饲，仔猪料应以熟化或生拌（湿）料饲喂，且必须添加抗生素。",
+    "reference_case": "仔猪饲料应新鲜，避免使用发霉变质、有毒或适口性不好的饲料，如菜籽饼应尽量少用或不用，薯类饲料宜熟饲，仔猪料应以熟化或生拌（湿）料饲喂。",
+    "error_detail": "添加了必须添加抗生素的假设",
+    "original_question": "仔猪饲料应如何调制和保持卫生？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "仔猪断奶后需要供给适宜的饲料，提供充足的蛋白质、矿物质和维生素，粗蛋白质含量不宜少于14%，以16%为宜，避免使用含粗纤维和碳水化合物过多的饲料。",
+    "reference_case": "仔猪断奶后需要供给适宜的饲料，提供充足的蛋白质、矿物质和维生素，粗蛋白质含量不宜少于16%，以18%为宜，避免使用含粗纤维和碳水化合物过多的饲料。",
+    "error_detail": "粗蛋白质含量的要求数值过时",
+    "original_question": "仔猪断奶后对饲料有什么特殊要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "本配方适用于10～50千克体重的瘦肉型生长猪和杜长大三元杂交生长猪。",
+    "reference_case": "本配方适用于20～60千克体重的瘦肉型生长猪和杜长大三元杂交生长猪。",
+    "error_detail": "体重范围错误",
+    "original_question": "本配方适用于哪些体重范围的生长猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "次粉中含有大量的水溶性非淀粉多糖（NSP），会提高猪对饲料的利用，减少猪腹泻或便秘的发生率。",
+    "reference_case": "次粉中含有大量的水溶性非淀粉多糖（NSP），会影响猪对饲料的利用，导致猪腹泻或便秘的发生率增高。",
+    "error_detail": "因果倒置，描述了相反的效果",
+    "original_question": "次粉在饲料配方中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "Econase wheat F Plus产品可以加速次粉中水溶性非淀粉多糖的分解，提高饲料的利用率，减少猪腹泻或便秘的发生率。",
+    "reference_case": "Econase wheat F Plus产品可以加速次粉中水溶性非淀粉多糖的分解，提高饲料的利用率，减少猪腹泻或便秘的发生率。",
+    "error_detail": "回答正确，无幻觉",
+    "original_question": "使用Econase wheat F Plus产品对饲料配方有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方中的酒糟单细胞蛋白对猪日增重有显著影响，适用于20～50千克体重的生长猪。",
+    "reference_case": "配方中的酒糟单细胞蛋白对猪日增重有显著影响，适用于30～60千克体重的生长猪。",
+    "error_detail": "适用的体重范围错误",
+    "original_question": "配方中的酒糟单细胞蛋白对猪日增重的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪的消化能需要量为3000千卡/千克。",
+    "reference_case": "妊娠母猪的消化能需要量为3200千卡/千克。",
+    "error_detail": "消化能需要量数值错误",
+    "original_question": "妊娠母猪的消化能需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪的赖氨酸需要量为0.55%。",
+    "reference_case": "哺乳母猪的赖氨酸需要量为0.65%。",
+    "error_detail": "赖氨酸需要量数值错误",
+    "original_question": "哺乳母猪的赖氨酸需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪的钙需要量为0.65%。",
+    "reference_case": "妊娠母猪的钙需要量为0.75%。",
+    "error_detail": "钙需要量数值错误",
+    "original_question": "妊娠母猪的钙需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪的磷需要量为0.50%。",
+    "reference_case": "妊娠母猪的磷需要量为0.60%。",
+    "error_detail": "磷需要量数值错误",
+    "original_question": "妊娠母猪的磷需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪的铁需要量为60毫克/千克。",
+    "reference_case": "妊娠母猪的铁需要量为80毫克/千克。",
+    "error_detail": "铁需要量数值错误",
+    "original_question": "妊娠母猪的铁需要量是多少？",
+    "original_input": ""
+  }
+]

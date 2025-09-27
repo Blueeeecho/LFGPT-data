@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PRRSV的传播途径包括病猪和带毒猪为主要传染源，通过接触传播、空气传播、精波传播和垂直传播，以及通过蚊子叮咬传播。",
+    "reference_case": "病猪和带毒猪为主要传染源，通过接触传播、空气传播、精波传播和垂直传播。",
+    "error_detail": "添加了不存在的传播途径——蚊子叮咬传播。",
+    "original_question": "PRRSV的传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "最急性型猪瘟的主要病变是全身黏膜、浆膜和皮下组织有少量出血点。",
+    "reference_case": "最急性型猪瘟表现为全身黏膜、浆膜和皮下组织有大量出血点，尤其以咽部及其周围结缔组织的出血最为特征，领部皮肤切开时可见大量胶冻样淡黄色或灰色血液和水肿，心外膜和心包膜有小出血点，肺急性水肿充血，纤维素性肺炎多发生于肺尖叶、心膈叶和膈叶背部，肺有不同程度的肝变区，病变周围常伴不同程度的水肿和气肿，切面呈大理石样，气管、支气管内有泡沫状黏液，胸膜常有纤维素性附着物，严重的肺与胸膜发生粘连，胸腔及心包积液，有纤维素性心包炎。",
+    "error_detail": "将‘大量出血点’错误地改为‘少量出血点’。",
+    "original_question": "最急性型猪瘟的主要病变是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "慢性型猪瘟表现为肺肝变区缩小，并有红色坏死灶。",
+    "reference_case": "慢性型猪瘟表现为肺肝变区扩大，并有黄色或灰色坏死灶，外面有结缔组织包裹，内有干酪样物质，有的形成空洞与支气管相通，常无纤维素性胸膜炎与心包炎，并有胸腔及心包积液，肺与胸膜粘连。",
+    "error_detail": "将‘肺肝变区扩大’错误地改为‘肺肝变区缩小’，并将‘黄色或灰色坏死灶’改为‘红色坏死灶’。",
+    "original_question": "慢性型猪瘟的主要病变是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟的兔疫接种方法是根据猪的抗病能力，可采用静脉注射方法，3天后产生免疫力，免疫期12个月。",
+    "reference_case": "根据高猪的抗病能力，可采用兔瘾接种方法，7天后产生免疫力，免疫期6个月。本菌苗只能口服，严禁注射。菌苗稀释后6小时内用完。病弱及临产母猪不得服用。",
+    "error_detail": "将‘兔瘾接种方法’错误地改为‘静脉注射方法’，并错误地修改了免疫产生时间和免疫期。",
+    "original_question": "猪瘟的兔疫接种方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪瘟疫苗包括EO-630弱毒苗、猪瘟猪肺疫一联弱毒苗等，其中EO-630弱毒苗用10%锅胶生理盐水稀释为每头份2ml。",
+    "reference_case": "猪瘟疫苗包括EO-630弱毒苗、猪瘟猪肺疫一联弱毒苗等，其中EO-630弱毒苗用20%锅胶生理盐水稀释为每头份1ml，摇匀，断奶后半个月以上的仔猪，肌肉注射1ml，注射7天后产生免疫力，免疫期6个月。",
+    "error_detail": "将‘20%锅胶生理盐水稀释为每头份1ml’错误地改为‘10%锅胶生理盐水稀释为每头份2ml’。",
+    "original_question": "猪瘟疫苗有哪些类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪副伤寒的病原为大肠杆菌属细菌。",
+    "reference_case": "猪副伤寒的病原为沙门氏菌属细菌，革兰氏染色阴性，一般无荚膜，有鞭毛能运动，包括猪霍乱沙门氏菌、猪伤寒沙门氏菌等。",
+    "error_detail": "将‘沙门氏菌属细菌’错误地改为‘大肠杆菌属细菌’。",
+    "original_question": "猪副伤寒的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "沙门氏菌的主要传染源是病鸡和带菌鸡。",
+    "reference_case": "沙门氏菌的主要传染源是病猪和带菌猪，通过粪便排出病菌污染环境、饲料和饮水，主要经消化道传播。",
+    "error_detail": "将‘病猪和带菌猪’错误地改为‘病鸡和带菌鸡’。",
+    "original_question": "沙门氏菌的主要传染源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "急性型沙门氏菌感染的病猪会出现体温升高至39~40℃。",
+    "reference_case": "急性型沙门氏菌感染的病猪会出现体温升高至41~42℃，精神不振，食欲废绝，先便秘后下痢，呼吸困难，耳根、胸前和腹下皮肤有紫红色斑点，多数病程为2~4天，少数出现症状后24小时内死亡。",
+    "error_detail": "将‘体温升高至41~42℃’错误地改为‘体温升高至39~40℃’。",
+    "original_question": "急性型沙门氏菌感染的病猪会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "亚急性和慢性型沙门氏菌感染的病猪会出现体温升高至39.5~40℃。",
+    "reference_case": "亚急性和慢性型沙门氏菌感染的病猪会出现体温升高至40.5~41.5℃，精神不振，寒战，食欲减退，初便秘后下痢，粪便淡黄色或灰绿色，恶臭，有时排干粪后再次下痢，病程2~3周甚至更长，皮肤出现弥漫性湿疹，极度消瘦，衰竭死亡。",
+    "error_detail": "将‘体温升高至40.5~41.5℃’错误地改为‘体温升高至39.5~40℃’。",
+    "original_question": "亚急性和慢性型沙门氏菌感染的病猪会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "O8:K99、O68:K88、O184:K61、O141:K88、O115:K99等，多具有K99抗原。",
+    "reference_case": "O8:K99、O68:K88、O184:K61、O141:K88、O115:K99等，多具有K88抗原。",
+    "error_detail": "将‘多具有K88抗原’错误地改为‘多具有K99抗原’。",
+    "original_question": "O8:K99、O68:K88、O184:K61、O141:K88、O115:K99等，多具有K88抗原。",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "林可霉素用于猪的剂量是每头猪每西每头2g混饮，连用14d。",
+    "reference_case": "每头猪每西每头lg混饮，连用21d。",
+    "error_detail": "将‘每头猪每西每头lg混饮，连用21d’错误地改为‘每头猪每西每头2g混饮，连用14d’。",
+    "original_question": "林可霉素用于猪的剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磺胺二甲嘧啶（SM2）用于猪的剂量是每头猪每克体重50mg，一次服用，每天两次，连用5~10天。",
+    "reference_case": "每头猪每克体重100mg，一次服用，每天一次，连用3~7天。",
+    "error_detail": "将剂量、服用频率和连用天数都错误地修改。",
+    "original_question": "磺胺二甲嘧啶（SM2）用于猪的剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪小袋纤毛虫病的主要症状包括便秘，粪便为硬块状。",
+    "reference_case": "主要症状包括腹泻，粪便为泥状，混有黏液及血液，有恶臭味，严重者引起仔猪死亡。",
+    "error_detail": "将‘腹泻，粪便为泥状’错误地改为‘便秘，粪便为硬块状’。",
+    "original_question": "猪小袋纤毛虫病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪小袋纤毛虫病的感染途径是通过空气传播。",
+    "reference_case": "主要通过污染的食物、水经口感染。",
+    "error_detail": "将‘通过污染的食物、水经口感染’错误地改为‘通过空气传播’。",
+    "original_question": "猪小袋纤毛虫病的感染途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪小袋纤毛虫病的潜伏期是20~30天。",
+    "reference_case": "潜伏期为5~16天。",
+    "error_detail": "将‘潜伏期为5~16天’错误地改为‘潜伏期是20~30天’。",
+    "original_question": "猪小袋纤毛虫病的潜伏期是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "如何诊断猪小袋纤毛虫病？血液检查可以发现滋养体或包囊。",
+    "reference_case": "粪便检查和死后摘检可以发现滋养体或包囊。",
+    "error_detail": "将‘粪便检查和死后摘检’错误地改为‘血液检查’。",
+    "original_question": "如何诊断猪小袋纤毛虫病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪小袋纤毛虫病的防治措施包括使用抗生素治疗。",
+    "reference_case": "预防措施包括搞好猪场环境卫生和消毒工作，保持饲料和饮水的清洁卫生，发病时应及时隔离治疗病猪。",
+    "error_detail": "添加了不存在的防治措施——使用抗生素治疗。",
+    "original_question": "猪小袋纤毛虫病的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪后圆线虫病的主要症状是食欲增加，生长快速。",
+    "reference_case": "表现为强烈的阵咳，呼吸困难，病猪脱水，食欲丧失，生长缓慢。",
+    "error_detail": "将症状完全错误地描述为相反的情况。",
+    "original_question": "猪后圆线虫病的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪后圆线虫病的病原是前圆科前圆属线虫。",
+    "reference_case": "由后圆科后圆属线虫寄生于猪的支气管和细支气管。",
+    "error_detail": "将‘后圆科后圆属线虫’错误地改为‘前圆科前圆属线虫’。",
+    "original_question": "猪后圆线虫病的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪后圆线虫病的感染途径是猪直接吸入空气中的感染性幼虫。",
+    "reference_case": "后圆线虫的发育需以螨线作为中间宿主，猪吞食了带有感染性幼虫的螨线或由虾螨体内释出的感染性幼虫引起感染。",
+    "error_detail": "将感染途径错误地描述为‘猪直接吸入空气中的感染性幼虫’。",
+    "original_question": "猪后圆线虫病的感染途径是什么？",
+    "original_input": ""
+  }
+]

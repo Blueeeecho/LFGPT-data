@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪出现静立反应，即压背时母猪安静不动并用力支撑，伴有坚耳、弓背、颤抖等动作，同时会发出特定的叫声。",
+    "reference_case": "母猪出现静立反应，即压背时母猪安静不动并用力支撑，伴有坚耳、弓背、颤抖等动作。",
+    "error_detail": "添加了不存在的特定叫声描述",
+    "original_question": "母猪发情鉴定中，压背试验的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "母猪在前情期前期及发情期表现出静立反应，此时母猪会允许人接触其外阴部。",
+    "reference_case": "母猪在前情期后期及发情期表现出静立反应，此时母猪会允许人接触其外阴部。",
+    "error_detail": "错误地将前情期前期作为静立反应的表现时期",
+    "original_question": "母猪在什么情况下表现静立反应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "试情公猪应年龄较小、气味轻、性情温和、有忍让性，且听从指挥，能够配合配种员按次序逐栏进行检查。",
+    "reference_case": "试情公猪应年龄较大、气味重、性情温和、有忍让性，且听从指挥，能够配合配种员按次序逐栏进行检查。",
+    "error_detail": "错误地描述了试情公猪的年龄和气味",
+    "original_question": "试情公猪应具备哪些条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪场通常每天进行三次试情。",
+    "reference_case": "猪场通常每天早晚进行两次试情。",
+    "error_detail": "错误地增加了试情的频率",
+    "original_question": "猪场通常采用什么频率进行试情？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪在试情公猪前出现静立反射，即静立不动并用力支撑，伴有坚耳、弓背、颤抖等动作，同时会主动接近公猪。",
+    "reference_case": "母猪在试情公猪前出现静立反射，即静立不动并用力支撑，伴有坚耳、弓背、颤抖等动作。",
+    "error_detail": "添加了不存在的主动接近公猪的行为描述",
+    "original_question": "试情公猪查情法中，如何确定母猪是否发情？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "成年母猪一般在发情开始后12~24小时排卵。",
+    "reference_case": "成年母猪一般在发情开始后24~48小时排卵。",
+    "error_detail": "错误地缩短了排卵的时间范围",
+    "original_question": "母猪一般在发情后多长时间排卵？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "排卵持续时间为5~10小时。",
+    "reference_case": "排卵持续时间为10~15小时。",
+    "error_detail": "错误地缩短了排卵的持续时间",
+    "original_question": "母猪的排卵持续期有多长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "一般是10~20小时。",
+    "reference_case": "一般是20~30小时。",
+    "error_detail": "错误地缩短了精子在母猪生殖道内存活且具有受精能力的时间",
+    "original_question": "精子在母猪生殖道内存活且具有受精能力的时间一般是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "一般为4~8小时。",
+    "reference_case": "一般为8~10小时。",
+    "error_detail": "错误地缩短了卵子在母猪生殖道内存活且具有受精能力的时间",
+    "original_question": "卵子在母猪生殖道内存活且具有受精能力的时间一般为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "理论上推算，母猪在发情后10~20小时配种适时。",
+    "reference_case": "理论上推算，母猪在发情后19~30小时配种适时。",
+    "error_detail": "错误地缩短了配种的适时时间范围",
+    "original_question": "根据影响因素推算，母猪在发情后多长时间配种适时？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "应考虑母猪的品种、年龄、胎次以及发情表现等因素，还应考虑天气条件。",
+    "reference_case": "应考虑母猪的品种、年龄、胎次以及发情表现等因素。",
+    "error_detail": "添加了不相关的天气条件因素",
+    "original_question": "确定配种时间时，应考虑哪些因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "易造成公母猪乱交、滥配，母猪缺乏配种记录，无法推算预产期；公猪滥配，使用过度，影响健康；此外，还可能导致母猪的生育能力下降。",
+    "reference_case": "易造成公母猪乱交、滥配，母猪缺乏配种记录，无法推算预产期；公猪滥配，使用过度，影响健康。",
+    "error_detail": "添加了未经证实的母猪生育能力下降的假设",
+    "original_question": "自然交配的缺点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "配种时要注意：在公猪熟悉的环境下进行，地面不要太滑；公母猪体格相当；配种前公母猪清洁消毒，防止配种时细菌进人生殖道，产生炎症；确定母猪发情了但又不接受爬跨时，应更换一头公猪或采用人工授精；母猪配完后要按压其背部，令其轻轻走动，不让精液倒流；配种完的公母猪不能冷水淋浴，也不能躺卧在潮湿的地面。此外，还应确保配种时的温度适宜。",
+    "reference_case": "配种时要注意：在公猪熟悉的环境下进行，地面不要太滑；公母猪体格相当；配种前公母猪清洁消毒，防止配种时细菌进人生殖道，产生炎症；确定母猪发情了但又不接受爬跨时，应更换一头公猪或采用人工授精；母猪配完后要按压其背部，令其轻轻走动，不让精液倒流；配种完的公母猪不能冷水淋浴，也不能躺卧在潮湿的地面。",
+    "error_detail": "添加了不相关的温度适宜要求",
+    "original_question": "人工辅助交配时需要注意哪些事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "1. 提高良种公猪的利用率；2. 克服体格大小的差别；3. 有效控制疾病的传播；4. 解决自然交配不能完成配种过程的问题；5. 克服时间和区域的差异，适时配种；6. 节省人力、物力、财力, 提高经济效益；7. 提高母猪的生育能力。",
+    "reference_case": "1. 提高良种公猪的利用率；2. 克服体格大小的差别；3. 有效控制疾病的传播；4. 解决自然交配不能完成配种过程的问题；5. 克服时间和区域的差异，适时配种；6. 节省人力、物力、财力, 提高经济效益。",
+    "error_detail": "添加了未经证实的提高母猪生育能力的好处",
+    "original_question": "人工授精的意义是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "人工授精的缺点包括造成母猪子宫炎增多、受胎率低和产仔数少的情况，还可能导致母猪的生育能力永久性下降。",
+    "reference_case": "人工授精的缺点包括造成母猪子宫炎增多、受胎率低和产仔数少的情况。",
+    "error_detail": "添加了未经证实的母猪生育能力永久性下降的假设",
+    "original_question": "人工授精的缺点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "人工授精的具体操作方法包括公猪采精、精液检查、精液的稀释与保存、消毒、输精和注意事项，还包括精液的长期储存方法。",
+    "reference_case": "人工授精的具体操作方法包括公猪采精、精液检查、精液的稀释与保存、消毒、输精和注意事项。",
+    "error_detail": "添加了不相关的精液长期储存方法",
+    "original_question": "人工授精的具体操作方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "公猪采精时需要注意准备采精杯、公猪和采精室，采精前应将公猪尿囊中的残尿挤出，阴毛剪短，全身特别是包皮部位清洁消毒，避免精液污染，还应确保采精时的环境安静。",
+    "reference_case": "公猪采精时需要注意准备采精杯、公猪和采精室，采精前应将公猪尿囊中的残尿挤出，阴毛剪短，全身特别是包皮部位清洁消毒，避免精液污染。",
+    "error_detail": "添加了不相关的环境安静要求",
+    "original_question": "公猪采精时需要注意哪些事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "输精管插入时应沿着阴道壁斜向上方的角度，慢慢逆时针旋转插人，避免误入膀胱，遇阻时不要强行插入，防止损伤阴道黏膜，还应确保输精管的温度适宜。",
+    "reference_case": "输精管插入时应沿着阴道壁斜向上方的角度，慢慢逆时针旋转插人，避免误入膀胱，遇阻时不要强行插入，防止损伤阴道黏膜。",
+    "error_detail": "添加了不相关的输精管温度适宜要求",
+    "original_question": "输精管插入母猪阴道时需要注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "妊娠母猪饲养管理的好坏，是保证胎儿生长发育、增加产仔数的关键，是使母猪高产、多产的重要环节，还应考虑母猪的心理健康。",
+    "reference_case": "妊娠母猪饲养管理的好坏，是保证胎儿生长发育、增加产仔数的关键，是使母猪高产、多产的重要环节。",
+    "error_detail": "添加了不相关的母猪心理健康考虑",
+    "original_question": "妊娠母猪饲养管理的重要性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "保证受精卵、肧胎与胎儿在母体内的正常发育，减少胚胎死亡，防止化胎、死胎与流产现象的发生，获得数量多、初生重、大而健壮的仔猪；保证母猪在妊娠后期有良好的膘情；保证妊娠母猪的乳房发育，为哺乳期的泌乳进行贮备；对初产青年母猪还要保证其自身的正常生长发育；还应考虑母猪的心理健康。",
+    "reference_case": "保证受精卵、肧胎与胎儿在母体内的正常发育，减少胚胎死亡，防止化胎、死胎与流产现象的发生，获得数量多、初生重、大而健壮的仔猪；保证母猪在妊娠后期有良好的膘情；保证妊娠母猪的乳房发育，为哺乳期的泌乳进行贮备；对初产青年母猪还要保证其自身的正常生长发育。",
+    "error_detail": "添加了不相关的母猪心理健康考虑",
+    "original_question": "妊娠母猪的饲养任务有哪些？",
+    "original_input": ""
+  }
+]

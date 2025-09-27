@@ -1,0 +1,200 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "菜籽饼作为蛋白质饲料，但在配方中限制其用量，以防猪中毒，建议用量为15%。",
+    "reference_case": "菜籽饼作为蛋白质饲料，但在配方中限制其用量，以防猪中毒。",
+    "error_detail": "错误地给出了菜籽饼的具体用量比例，而原始输出并未提供具体数值。",
+    "original_question": "菜籽饼在饲料配方中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "菜籽饼含有恶唑烷硫酮及异硫氰酸酯，过量饲喂易导致猪中毒，这些物质是维生素。",
+    "reference_case": "菜籽饼含有恶唑烷硫酮及异硫氰酸酯，过量饲喂易导致猪中毒。",
+    "error_detail": "错误地将恶唑烷硫酮及异硫氰酸酯描述为维生素，实际上它们是抗营养因子。",
+    "original_question": "菜籽饼在配方中的使用量为什么有限制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "主要包含玉米、碎米、细米、稻谷、次粉、赤皮、干草粉、豆饼、棉籽饼、米糠饼、鱼粉、贝壳粉、石粉、微量元素添加剂和食盐，这些原料在美国常用。",
+    "reference_case": "主要包含玉米、碎米、细米、稻谷、次粉、赤皮、干草粉、豆饼、棉籽饼、米糠饼、鱼粉、贝壳粉、石粉、微量元素添加剂和食盐。",
+    "error_detail": "错误地指定了原料的使用地域，而原始输出并未提及地域信息。",
+    "original_question": "生长肥育猪的饲料配方中主要包含哪些原料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "鱼粉作为动物性蛋白质饲料，其限制性氨基酸组成好，营养价值高，因此猪的肉质会下降。",
+    "reference_case": "鱼粉作为动物性蛋白质饲料，其限制性氨基酸组成好，营养价值高，可提高猪的肉质。",
+    "error_detail": "错误地描述了鱼粉对猪肉质的影响，实际上鱼粉能提高肉质。",
+    "original_question": "鱼粉在饲料配方中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "主要包含鱼粉、豆饼、玉米、大麦或者高粱，以及大量的糖蜜。",
+    "reference_case": "主要包含鱼粉、豆饼、玉米、大麦或者高粱。",
+    "error_detail": "错误地添加了糖蜜这一成分，偏离了原始输出的内容。",
+    "original_question": "生长肥育猪的饲料配方中主要包含哪些成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "豆饼是猪的主要碳水化合物饲料，加上鱼粉对猪的生长非常有利。",
+    "reference_case": "豆饼是猪的主要蛋白质饲料，加上鱼粉对猪的生长非常有利。",
+    "error_detail": "错误地将豆饼描述为碳水化合物饲料，实际上它是蛋白质饲料。",
+    "original_question": "豆饼在猪饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "大麦是喂猪的好饲料，特别是喂肥育猪，能生产白色硬脂肪的优质猪肉，这是最新的研究结果。",
+    "reference_case": "大麦是喂猪的好饲料，特别是喂肥育猪，能生产白色硬脂肪的优质猪肉。",
+    "error_detail": "错误地声称这是最新的研究结果，而原始输出并未提供时效性信息。",
+    "original_question": "大麦对肥育猪有何益处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "这一组配合饲料是按饲料标准配制的典型日粮，猪日增重在800~1000克。",
+    "reference_case": "这一组配合饲料是按饲料标准配制的典型日粮，猪日增重在500~700克。",
+    "error_detail": "错误地提高了猪日增重的数值范围。",
+    "original_question": "配方 \\(55 \\sim 60\\) 的饲料标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪的饲料配方中，玉米的比例分别为67号配方58.0%，68号配方67.0%，69号配方63.0%，70号配方57.5%。",
+    "reference_case": "生长肥育猪的饲料配方中，玉米的比例分别为67号配方48.0%，68号配方57.0%，69号配方53.0%，70号配方47.5%。",
+    "error_detail": "错误地提高了玉米的比例数值。",
+    "original_question": "生长肥育猪的饲料配方中，玉米的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "配方72主要适用于美国的长白猪。",
+    "reference_case": "配方72主要适用于北京黑猪。",
+    "error_detail": "错误地指定了配方适用的猪种和地域。",
+    "original_question": "配方72主要适用于哪种猪种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪饲料配方中常用的能量饲料包括玉米、麸皮和大麦。",
+    "reference_case": "猪饲料配方中常用的能量饲料包括玉米和麸皮。",
+    "error_detail": "错误地添加了大麦这一成分，偏离了原始输出的内容。",
+    "original_question": "猪饲料配方中常用的能量饲料有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪饲料配方中常用的蛋白质饲料包括鱼粉、花生饼和豆饼。",
+    "reference_case": "猪饲料配方中常用的蛋白质饲料包括鱼粉和花生饼。",
+    "error_detail": "错误地添加了豆饼这一成分，偏离了原始输出的内容。",
+    "original_question": "猪饲料配方中常用的蛋白质饲料有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "因为花生饼中赖氨酸和蛋氨酸含量过高，不能满足猪的需要，与动物性蛋白质饲料配合可以减少这些氨基酸的过量。",
+    "reference_case": "因为花生饼中赖氨酸和蛋氨酸含量不足，不能满足猪的需要，与动物性蛋白质饲料配合可以补充这些氨基酸的不足。",
+    "error_detail": "错误地描述了花生饼中氨基酸的含量及其影响。",
+    "original_question": "为什么花生饼与动物性蛋白质饲料配合使用效果更好？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "玉米、大麦、小麦、稻谷粉、赤皮分别是矿物质饲料和维生素饲料，提供猪所需的矿物质和维生素。",
+    "reference_case": "玉米、大麦、小麦、稻谷粉、赤皮分别是能量饲料和蛋白质饲料，提供猪所需的能量和蛋白质。",
+    "error_detail": "错误地将这些原料描述为矿物质和维生素饲料。",
+    "original_question": "配方73～78中玉米、大麦、小麦、稻谷粉、赤皮在饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪饲料配方中的消化能是指每千克饲料提供的热量，单位为千卡/千克。",
+    "reference_case": "猪饲料配方中的消化能是指每千克饲料提供的能量，单位为兆焦/千克。",
+    "error_detail": "错误地定义了消化能的单位和描述。",
+    "original_question": "猪饲料配方中的消化能如何定义？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方 91 的平均日增重为 652 克，配方 92 为 670 克，配方 93 为 636 克，配方 94 为 614 克。",
+    "reference_case": "配方 91 的平均日增重为 552 克，配方 92 为 570 克，配方 93 为 536 克，配方 94 为 514 克。",
+    "error_detail": "错误地提高了平均日增重的数值。",
+    "original_question": "92、93、94 中菜籽饼比例的平均日增重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "建议菜籽饼用量以 18% 最好，以加速早期生长。",
+    "reference_case": "建议菜籽饼用量以 8% 最好，以加速早期生长。",
+    "error_detail": "错误地提高了菜籽饼的建议用量比例。",
+    "original_question": "建议菜籽饼用量以多少比例最好？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "18% 菜籽饼水平不仅影响甲状腺功能，还显著影响增重和肉的化学成分。",
+    "reference_case": "18% 菜籽饼水平只影响甲状腺功能，对增重和肉的化学成分无显著影响。",
+    "error_detail": "错误地描述了菜籽饼用量对增重和肉的化学成分的影响。",
+    "original_question": "如何理解菜籽饼用量对生长肥育猪的影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "配方包括玉米、碎米、敖皮、菜籽粕、棉籽粕、豆粕、肠衣粉、细米糠、青饲料、骨粉、添加剂、食盐等成分，以及大量的糖蜜。",
+    "reference_case": "配方包括玉米、碎米、敖皮、菜籽粕、棉籽粕、豆粕、肠衣粉、细米糠、青饲料、骨粉、添加剂、食盐等成分。",
+    "error_detail": "错误地添加了糖蜜这一成分，偏离了原始输出的内容。",
+    "original_question": "什么是生长肥育猪20～35千克体重的饲料配方？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用膨化大豆可以降低猪对日粮氮、脂肪和氨基酸的利用率，也可以降低日粮脂肪和亚油酸等脂肪酸的回肠消化率。",
+    "reference_case": "使用膨化大豆可以改善猪对日粮氮、脂肪和氨基酸的利用率，也可以改善日粮脂肪和亚油酸等脂肪酸的回肠消化率。",
+    "error_detail": "错误地描述了膨化大豆对猪的影响。",
+    "original_question": "使用膨化大豆替代豆粕和豆油对猪有什么好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "配方21试用于美国的约克夏猪。",
+    "reference_case": "配方21试用于汉花猪与广东花猪杂交猪。",
+    "error_detail": "错误地指定了配方适用的猪种和地域。",
+    "original_question": "配方21试用于哪种猪种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "配方19的菜籽饼用量过高，会对猪的甲状腺产生积极影响。",
+    "reference_case": "配方19的菜籽饼用量过高，会对猪的甲状腺产生影响。",
+    "error_detail": "错误地描述了菜籽饼用量对猪甲状腺的影响。",
+    "original_question": "配方19的菜籽饼用量对猪有什么影响？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪对粗纤维的消化主要依靠胃和小肠内细菌的作用。",
+    "reference_case": "猪对粗纤维的消化主要依靠盲肠和结肠内细菌的作用。",
+    "error_detail": "错误地将消化粗纤维的主要部位从盲肠和结肠混淆为胃和小肠。",
+    "original_question": "猪对粗纤维的消化主要依靠哪些部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪的采食行为仅受到饲料适口性的影响。",
+    "reference_case": "猪的采食行为受到品种、个体差异、年龄特征、饲料适口性等因素影响。",
+    "error_detail": "错误地假设饲料适口性是影响猪采食行为的唯一因素，忽略了其他重要因素。",
+    "original_question": "猪的采食行为受到哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪的体重增长随采食量和摄食频率的增加而增加。",
+    "reference_case": "猪的采食量和摄食频率随体重增长而增加。",
+    "error_detail": "错误地将体重增长和采食量、摄食频率之间的因果关系倒置。",
+    "original_question": "猪的采食量与体重增长有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪的饮水量仅受环境温度影响。",
+    "reference_case": "猪的饮水量受环境温度、体重、采食量及生理状态等因素影响。",
+    "error_detail": "错误地偏离了指令，仅提到环境温度对饮水量的影响，忽略了其他因素。",
+    "original_question": "猪的饮水量受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "高粱对猪的饲用价值为玉米的90%~92%。",
+    "reference_case": "高粱对猪的饲用价值为玉米的96%~98%。",
+    "error_detail": "错误地提供了高粱对猪饲用价值的数值，与实际情况有偏差。",
+    "original_question": "高粱对猪的饲用价值为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "黑麦作为饲料使用时，应优先考虑其适口性，饲喂量可以超过30%。",
+    "reference_case": "黑麦应粉碎使用，适口性较差，饲喂量应限制在30%以下，用于肉猪时用量不宜超过10%，否则会影响生长。",
+    "error_detail": "错误地优先考虑了适口性，忽视了饲喂量的限制，可能导致生长受影响。",
+    "original_question": "黑麦作为饲料使用时应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "蛋白质饲料是养猪生产中的辅助饲料，用于补充猪对蛋白质的需求。",
+    "reference_case": "蛋白质饲料是养猪生产中的主要饲料之一，用于满足猪对蛋白质数量和质量的要求。",
+    "error_detail": "错误地将蛋白质饲料的作用从主要饲料混淆为辅助饲料。",
+    "original_question": "蛋白质饲料在养猪生产中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "猪配合饲料中主要使用的是矿物质饲料和维生素饲料。",
+    "reference_case": "猪配合饲料中主要使用的是植物性蛋白质饲料和动物性蛋白质饲料。",
+    "error_detail": "错误地断裂了上下文，提到了不相关的饲料类型。",
+    "original_question": "猪配合饲料中主要使用哪些蛋白质饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "未经脱毒处理的棉籽饼（粕），其喂量以不超过饲粮的15%为宜。",
+    "reference_case": "未经脱毒处理的棉籽饼（粕），其喂量以不超过饲粮的10%为宜，对于仔猪和母猪给量尤应严格控制。",
+    "error_detail": "错误地提供了棉籽饼（粕）的喂量限制，与实际情况有偏差。",
+    "original_question": "棉籽饼（粕）的喂量限制是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪的锌需要量为50～70 mg/kg，生长肥育猪的锌需要量为20～30 mg/kg。",
+    "reference_case": "仔猪的锌需要量为78～110 mg/kg，生长肥育猪的锌需要量为37～55 mg/kg。",
+    "error_detail": "错误地提供了仔猪和生长肥育猪的锌需要量，与实际情况有偏差。",
+    "original_question": "仔猪和生长肥育猪的锌需要量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪配合饲料中常用的抗生素只有青霉素和链霉素。",
+    "reference_case": "猪配合饲料中常用的抗生素包括硫酸黏杆菌素、土霉素、泰乐菌素、恩拉霉素、北里霉素、维吉尼亚霉素等。",
+    "error_detail": "错误地假设猪配合饲料中只使用青霉素和链霉素，忽略了其他常用抗生素。",
+    "original_question": "猪配合饲料中常用的抗生素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "土霉素作为饲料添加剂的作用已经不再被认可，目前禁止使用。",
+    "reference_case": "土霉素具有广谱抗菌作用，能促进猪生长和提高饲料利用率，但易产生抗药性，目前仍在广泛使用土霉素钙。",
+    "error_detail": "错误地提供了土霉素的时效性信息，与实际情况不符。",
+    "original_question": "土霉素作为饲料添加剂的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "泰乐菌素添加量大时可促进生长和提高饲料效率，添加量小时可控制猪痢疾、肺炎、萎缩性鼻炎等传染病。",
+    "reference_case": "泰乐菌素添加量大时可控制猪痢疾、肺炎、萎缩性鼻炎等传染病，添加量小时可促进生长和提高饲料效率，是一种安全无毒的添加剂。",
+    "error_detail": "错误地颠倒了泰乐菌素添加量大小与作用之间的关系，导致逻辑矛盾。",
+    "original_question": "泰乐菌素作为饲料添加剂的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "恩拉霉素对革兰氏阴性菌有很强的抑制作用。",
+    "reference_case": "恩拉霉素对革兰氏阳性菌有很强的抑制作用，可促进猪增重和提高饲料利用率，且残留量很小。",
+    "error_detail": "错误地将恩拉霉素的作用对象从革兰氏阳性菌混淆为革兰氏阴性菌。",
+    "original_question": "恩拉霉素作为饲料添加剂的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "喹乙醇在饲料中的作用仅限于防止猪痢疾。",
+    "reference_case": "喹乙醇对猪肠道有害菌有明显的抑制作用，可防止猪痢疾，同时强化体内蛋白质同化作用，促进猪的生长和增重，提高胴体的瘦肉率，减少饲料消耗。",
+    "error_detail": "错误地偏离了指令，仅提到喹乙醇防止猪痢疾的作用，忽略了其他重要作用。",
+    "original_question": "喹乙醇在饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "有机酸添加剂在饲料中的作用因地域差异而异，在某些地区可能无效。",
+    "reference_case": "有机酸添加剂可增加仔猪胃内的酸度，提高胃蛋白酶的活性，减慢胃的排空速度，抑制胃、小肠内有害菌的繁殖，促进有益菌的生长，增强仔猪健康，减少疾病，提高生长速度和饲料利用率。",
+    "error_detail": "错误地引入了地域差异的概念，与有机酸添加剂的普遍作用不符。",
+    "original_question": "有机酸添加剂在饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "当日粮中维生素 A 缺乏时，可能导致猪的生长速度减慢。",
+    "reference_case": "当日粮中维生素 A 缺乏时，可能导致睾丸肿胀或萎缩，不能产生精子，失去繁殖能力。",
+    "error_detail": "错误地断裂了上下文，提到了维生素A缺乏对生长速度的影响，而非繁殖能力。",
+    "original_question": "维生素 A 缺乏对猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "断奶仔猪的能量需要增加是因为其采食量上升。",
+    "reference_case": "断奶仔猪的能量需要受限于其体内脂肪储备有限、消化道容积小和断奶应激导致的采食量下降。",
+    "error_detail": "错误地将断奶仔猪能量需要的原因从采食量下降混淆为采食量上升。",
+    "original_question": "断奶仔猪的能量需要与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "油脂在仔猪日粮中的作用仅是提供能量。",
+    "reference_case": "油脂提供充足能量，延缓食物在胃肠道的排空，增加营养物质的消化吸收时间，是必需脂肪酸和脂溶性维生素的来源。",
+    "error_detail": "错误地假设油脂的作用仅限于提供能量，忽略了其他重要作用。",
+    "original_question": "油脂在仔猪日粮中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "断奶仔猪对植物油和动物油在前一周利用率差异不大，四周后植物油利用率显著高于动物油。",
+    "reference_case": "断奶仔猪对植物油和动物油在前一周利用率差异大，主要是因为植物油中短链不饱和脂肪酸较多，消化率高；四周后两种油脂利用率基本一致，楖子油、黄油和猪油利用率较高，玉米油和豆油次之，牛油效果最差。",
+    "error_detail": "错误地提供了断奶仔猪对植物油和动物油利用率的数据，与实际情况有偏差。",
+    "original_question": "不同类型的油脂对断奶仔猪利用率有何差异？",
+    "original_input": ""
+  }
+]

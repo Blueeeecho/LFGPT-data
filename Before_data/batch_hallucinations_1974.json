@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "酸化剂的最佳投喂时间包括：母猪在产仔前后20~25天；新生仔猪在最初6~7天；哺乳仔猪从7~9日龄到20~25日龄；断奶仔猪在断奶前15~20天；补料仔猪或肥育猪在转群或运输前后15~20天；实施分群、接种等的仔猪在实施前后10~15天。",
+    "reference_case": "酸化剂的最佳投喂时间包括：母猪在产仔前后10~15天；新生仔猪在最初4~5天；哺乳仔猪从5~7日龄到15~20日龄；断奶仔猪在断奶前10~15天；补料仔猪或肥育猪在转群或运输前后10~15天；实施分群、接种等的仔猪在实施前后7~10天。",
+    "error_detail": "数值偏差，时间范围被错误地扩大",
+    "original_question": "酸化剂的最佳投喂时间是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "碳酸氢钠在养猪业中应用于提高仔猪免疫力、促进猪只生长、增加母猪产仔数和改善猪肉品质。",
+    "reference_case": "碳酸氢钠在养猪业中应用于降低仔猪腹泻、加快育肥进程、提高母猪泌乳量和有益于母猪产后恢复、提高断奶仔猪窝重。",
+    "error_detail": "概念混淆，错误地描述了碳酸氢钠的应用效果",
+    "original_question": "碳酸氢钠在养猪业中的主要应用有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪日粮中添加硫酸钠可显著提高平均日增重，添加量以1.2%最佳。",
+    "reference_case": "猪日粮中添加硫酸钠可显著提高平均日增重，添加量以0.6%最佳。",
+    "error_detail": "数值偏差，添加量被错误地翻倍",
+    "original_question": "添加硫酸钠如何提高猪的日增重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪日粮中添加硫酸钠可显著提高饲料转化率，但需要额外添加维生素E以抵消其副作用。",
+    "reference_case": "猪日粮中添加硫酸钠可显著提高饲料转化率。",
+    "error_detail": "指令偏离，添加了未请求的额外信息",
+    "original_question": "添加硫酸钠如何提高猪的饲料转化率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪用预混料中每吨预混料的维生素A添加量为6400000 IU（哺乳仔猪）、6000000 IU（仔猪）、5000000 IU（生长猪）。",
+    "reference_case": "猪用预混料中每吨预混料的维生素A添加量为5400000 IU（哺乳仔猪）、5000000 IU（仔猪）、4000000 IU（生长猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "猪用预混料中每吨预混料的维生素A添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中维生素D3的推荐添加量为770000 IU（哺乳仔猪）、1200000 IU（仔猪和生长猪）。",
+    "reference_case": "预混料中维生素D3的推荐添加量为670000 IU（哺乳仔猪）、1000000 IU（仔猪和生长猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "预混料中维生素D3的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪用预混料中维生素E的推荐添加量为15 g。",
+    "reference_case": "仔猪用预混料中维生素E的推荐添加量为10 g。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "仔猪用预混料中维生素E的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中维生素B2的推荐添加量为3.5 g（仔猪和生长猪）、3.67 g（哺乳仔猪）。",
+    "reference_case": "预混料中维生素B2的推荐添加量为2.5 g（仔猪和生长猪）、2.67 g（哺乳仔猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "预混料中维生素B2的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中维生素K3的推荐添加量为2 g（仔猪和生长猪）、1.67 g（哺乳仔猪）。",
+    "reference_case": "预混料中维生素K3的推荐添加量为1 g（仔猪和生长猪）、0.67 g（哺乳仔猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "预混料中维生素K3的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每吨预混料中烟酰胺的推荐添加量为15 g（仔猪和生长猪）、16.67 g（哺乳仔猪）。",
+    "reference_case": "每吨预混料中烟酰胺的推荐添加量为10 g（仔猪和生长猪）、11.67 g（哺乳仔猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "每吨预混料中烟酰胺的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中D-泛酸钙的推荐添加量为10 g（仔猪和生长猪）、14.34 g（哺乳仔猪）。",
+    "reference_case": "预混料中D-泛酸钙的推荐添加量为5 g（仔猪和生长猪）、9.34 g（哺乳仔猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "预混料中D-泛酸钙的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中叶酸的推荐添加量为1 g（仔猪和生长猪）、0.67 g（哺乳仔猪）。",
+    "reference_case": "预混料中叶酸的推荐添加量为0.5 g（仔猪和生长猪）、0.34 g（哺乳仔猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "预混料中叶酸的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中维生素B1的推荐添加量为1 g（哺乳仔猪、仔猪和生长猪）。",
+    "reference_case": "预混料中维生素B1的推荐添加量为0.5 g（哺乳仔猪、仔猪和生长猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "预混料中维生素B1的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中维生素B6的推荐添加量为1 g（仔猪和生长猪）、1.2 g（哺乳仔猪）。",
+    "reference_case": "预混料中维生素B6的推荐添加量为0.5 g（仔猪和生长猪）、0.6 g（哺乳仔猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "预混料中维生素B6的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中生物素的推荐添加量为10 mg（仔猪和生长猪）、6.67 mg（哺乳仔猪）。",
+    "reference_case": "预混料中生物素的推荐添加量为5 mg（仔猪和生长猪）、3.34 mg（哺乳仔猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "预混料中生物素的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中维生素B12的推荐添加量为15 mg（仔猪和生长猪）、40 mg（哺乳仔猪）。",
+    "reference_case": "预混料中维生素B12的推荐添加量为7.5 mg（仔猪和生长猪）、20 mg（哺乳仔猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "预混料中维生素B12的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中铁的推荐添加量为150 g（仔猪和生长猪）、73.34 g（哺乳仔猪）。",
+    "reference_case": "预混料中铁的推荐添加量为75 g（仔猪和生长猪）、36.67 g（哺乳仔猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "预混料中铁的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中钴的推荐添加量为1 g（仔猪和生长猪）、0.34 g（哺乳仔猪）。",
+    "reference_case": "预混料中钴的推荐添加量为0.5 g（仔猪和生长猪）、0.17 g（哺乳仔猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "预混料中钴的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中锰的推荐添加量为40 g（仔猪和生长猪）、53.34 g（哺乳仔猪）。",
+    "reference_case": "预混料中锰的推荐添加量为20 g（仔猪和生长猪）、26.67 g（哺乳仔猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "预混料中锰的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料中铜的推荐添加量为125 g（生长猪）、180 g（仔猪）、83.34 g（哺乳仔猪）。",
+    "reference_case": "预混料中铜的推荐添加量为62.5 g（生长猪）、90 g（仔猪）、41.67 g（哺乳仔猪）。",
+    "error_detail": "数值偏差，添加量被错误地增加",
+    "original_question": "预混料中铜的推荐添加量是多少？",
+    "original_input": ""
+  }
+]

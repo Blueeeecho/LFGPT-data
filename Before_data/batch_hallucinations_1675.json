@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "空间错位幻觉",
+    "sub_type": "地域差异",
+    "hallucinated_case": "猪的硬膜外麻醉注射部位是颈部间隙。",
+    "reference_case": "猪的硬膜外麻醉注射部位是腰荐间隙。",
+    "error_detail": "错误地改变了注射部位的地理位置",
+    "original_question": "硬膜外麻醉的注射部位在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "数据型幻觉",
+    "sub_type": "数值/比例偏差",
+    "hallucinated_case": "针长度为9-36kg的猪3-5cm，45-90kg的猪8cm，90kg以上的猪10-14cm。",
+    "reference_case": "针长度为9-36kg的猪6-8cm，45-90kg的猪10cm，90kg以上的猪12-16cm。",
+    "error_detail": "针长度数据错误",
+    "original_question": "硬膜外麻醉时使用的针长度如何选择？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "数据型幻觉",
+    "sub_type": "数值/比例偏差",
+    "hallucinated_case": "适用于1周龄以上、12周龄以下、体重在2-20kg的猪。",
+    "reference_case": "适用于2周龄以上、16周龄以下、体重在4-30kg的猪。",
+    "error_detail": "年龄和体重数据错误",
+    "original_question": "阴囊切开或腹部切开去势适用于多大的猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "概念混淆幻觉",
+    "sub_type": "术语错误",
+    "hallucinated_case": "提举前腿保定猪，猪背部朝向术者，腹部由保定助手用两膝夹住。",
+    "reference_case": "提举后腿保定猪，猪腹部朝向术者，背部由保定助手用两膝夹住。",
+    "error_detail": "错误地改变了保定方法和方向",
+    "original_question": "去势时常用的物理保定方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "指令偏离型",
+    "sub_type": "需求冲突",
+    "hallucinated_case": "使用背部手术通路，提举前腿悬空患猪，按Smith描述的方法手术。",
+    "reference_case": "使用腹部手术通路，提举后腿悬空患猪，按Bullard描述的方法手术。",
+    "error_detail": "错误的手术通路和方法",
+    "original_question": "去势时，如果遇到隐睾怎么办？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "假设滥用型",
+    "sub_type": "添加假设",
+    "hallucinated_case": "用于诱发未配种青年母猪发情或检测未配种母猪/大母猪的发情，以及作为肉用。",
+    "reference_case": "用于诱发未配种青年母猪发情或检测未配种母猪/大母猪的发情。",
+    "error_detail": "添加了不存在的用途",
+    "original_question": "去势手术后，公猪可用于什么用途？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "数据型幻觉",
+    "sub_type": "数值/比例偏差",
+    "hallucinated_case": "4-6日龄。",
+    "reference_case": "1-3日龄。",
+    "error_detail": "错误的日龄数据",
+    "original_question": "仔猪常规处理的最佳日龄是？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "逻辑完整性幻觉",
+    "sub_type": "逻辑矛盾",
+    "hallucinated_case": "剪掉犬齿，防止损伤被皮和母猪奶头，尖锐的齿尖必须保留，避免牙齿碎裂导致感染。",
+    "reference_case": "剪掉犬齿，防止损伤被皮和母猪奶头，尖锐的齿尖必须剪掉，避免牙齿碎裂导致感染。",
+    "error_detail": "逻辑矛盾，既说要剪掉犬齿又说要保留齿尖",
+    "original_question": "仔猪犬齿处理时需要注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "概念混淆幻觉",
+    "sub_type": "术语错误",
+    "hallucinated_case": "依据耳朵中央和耳根上打出的缺口来鉴别每头猪，一些育种学会采用特殊的缺口记号系统。",
+    "reference_case": "依据耳朵边缘和耳尖上打出的缺口来鉴别每头猪，一些育种学会采用特殊的缺口记号系统。",
+    "error_detail": "错误的耳朵部位描述",
+    "original_question": "仔猪打耳号的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "数据型幻觉",
+    "sub_type": "数值/比例偏差",
+    "hallucinated_case": "断尾处一般距尾根20-25mm，避免剪得太近导致感染或直肠脱垂，侧刃钳的刃最好钝些，以减少出血。",
+    "reference_case": "断尾处一般距尾根12-18mm，避免剪得太近导致感染或直肠脱垂，侧刃钳的刃最好钝些，以减少出血。",
+    "error_detail": "错误的断尾距离",
+    "original_question": "仔猪断尾时应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "概念混淆幻觉",
+    "sub_type": "术语错误",
+    "hallucinated_case": "预防贫血，注射的铁剂中常混有维生素以预防感染。",
+    "reference_case": "预防贫血，注射的铁剂中常混有抗生素以预防感染。",
+    "error_detail": "错误的药物类型",
+    "original_question": "仔猪注射铁制剂的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "指令偏离型",
+    "sub_type": "需求冲突",
+    "hallucinated_case": "通过提供阴影、减少饲料量或给母猪淋水来解决过热问题。",
+    "reference_case": "通过提供气流、喷雾或给母猪淋水来解决过热问题。",
+    "error_detail": "错误的解决方法",
+    "original_question": "环境高温高湿引起过热如何解决？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "假设滥用型",
+    "sub_type": "添加假设",
+    "hallucinated_case": "可以用手抱取一头或多头仔猪以激发子宫收缩，同时给予药物辅助。",
+    "reference_case": "可以用手抱取一头或多头仔猪以激发子宫收缩。",
+    "error_detail": "添加了不存在的药物辅助",
+    "original_question": "原发性子宫收缩微弱如何处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "数据型幻觉",
+    "sub_type": "数值/比例偏差",
+    "hallucinated_case": "使用10-20USP单位的催产素，强制活动母猪的腿，把母猪赶出产房运动2-5分钟，通常能取得效果。",
+    "reference_case": "使用20-40USP单位的催产素，强制活动母猪的腿，把母猪赶出产房运动5-10分钟，通常能取得效果。",
+    "error_detail": "错误的药物剂量和运动时间",
+    "original_question": "母猪分娩时膀胱积尿如何处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "因果倒置幻觉",
+    "sub_type": "因果错误",
+    "hallucinated_case": "母猪难产较常见的原因之一是胎儿过小。",
+    "reference_case": "是母猪难产较常见的原因之一。",
+    "error_detail": "错误的因果关系",
+    "original_question": "胎儿过大是否是难产的原因？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "指令偏离型",
+    "sub_type": "需求冲突",
+    "hallucinated_case": "要注意清洁，清洗母猪前部，手变成杯形呈圆雉状，小心分开阴唇，轻轻伸入产道，检查有否损伤和确定胎位。",
+    "reference_case": "要注意清洁，清洗母猪后部，手变成杯形呈圆雉状，小心分开阴唇，轻轻伸入产道，检查有否损伤和确定胎位。",
+    "error_detail": "错误的清洗部位",
+    "original_question": "助产时如何检查产道？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "时效性幻觉",
+    "sub_type": "过时标准",
+    "hallucinated_case": "猪瘟疫苗的研发是为了控制猪流感，这是养猪业的一大危害。",
+    "reference_case": "猪瘟疫苗的研发是为了控制猪瘟，这是养猪业的一大危害。",
+    "error_detail": "错误的疾病名称",
+    "original_question": "30年代和40年代期间，猪瘟疫苗的研发是为了应对什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "概念混淆幻觉",
+    "sub_type": "术语错误",
+    "hallucinated_case": "兽医主要依靠对症治疗，例如用灰汁和浸泡过的小麦治疗断奶仔猪腹泻，用硫化物处理外寄生虫。",
+    "reference_case": "兽医主要依靠对症治疗，例如用灰汁和浸泡过的燕麦治疗断奶仔猪腹泻，用硫化物处理外寄生虫。",
+    "error_detail": "错误的谷物类型",
+    "original_question": "30年代及之前兽医的主要治疗方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "数据型幻觉",
+    "sub_type": "数值/比例偏差",
+    "hallucinated_case": "50年代，通过研究出控制猪瘟的强毒疫苗，以及抗生素的开始用于日粮中，兽医能够更好地控制猪的传染病。",
+    "reference_case": "50年代，通过研究出控制猪瘟的弱毒疫苗，以及抗生素的开始用于日粮中，兽医能够更好地控制猪的传染病。",
+    "error_detail": "错误的疫苗类型",
+    "original_question": "50年代时，兽医如何帮助养猪业控制疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "时效性幻觉",
+    "sub_type": "过时标准",
+    "hallucinated_case": "60年代，消灭猪瘟的计划已经实现，兽医继续注射疫苗，当疾病发生时，兽医要对疾病作出诊断，并弄清楚管理和环境因素在这个特定疾病中所起的作用。",
+    "reference_case": "60年代，消灭猪瘟的计划已经实现，兽医不再注射疫苗，当疾病发生时，兽医要对疾病作出诊断，并弄清楚管理和环境因素在这个特定疾病中所起的作用。",
+    "error_detail": "错误的疫苗使用情况",
+    "original_question": "60年代，兽医的主要职责发生了什么变化？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "公猪性原细胞分化形成B0型精原细胞。",
+    "reference_case": "公猪性原细胞分化形成A0型精原细胞。",
+    "error_detail": "错误地将A0型精原细胞混淆为B0型精原细胞。",
+    "original_question": "公猪性原细胞分化形成什么类型的细胞？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "公猪的产精量直接关系到A0型精原细胞的数量。",
+    "reference_case": "A0型精原细胞的数量直接关系到公猪的产精量。",
+    "error_detail": "错误地将因果关系倒置。",
+    "original_question": "A0型精原细胞的数量与公猪产精量有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "训练公猪时需要注意的事项包括保持环境安静。",
+    "reference_case": "训练公猪时必须使公猪一进入采精圈就将全部注意力集中在母猪台畜身上；公猪必须对采精场所十分熟悉并在射精过程中保持愉快心境；避免粗暴和大声呵斥。",
+    "error_detail": "添加了与原始指令不符的内容。",
+    "original_question": "训练公猪时需要注意哪些事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "精液中初级和次级形成异常精子数的最高限度分别为15%和25%。",
+    "reference_case": "现行行业标准中规定的人工授精方案中使用的猪的精液中含有初级和次级形成异常精子数的最高限度分别为10%和20%。",
+    "error_detail": "错误地修改了数值比例。",
+    "original_question": "精液中初级和次级形成异常精子数的最高限度分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟病毒可以通过污染的精液感染母猪。",
+    "reference_case": "非洲猪瘟病毒、细小病毒（PPV）和猪繁殖呼吸综合征病毒（PRRSV）可以通过污染的精液感染母猪。",
+    "error_detail": "错误地添加了不相关的病毒类型。",
+    "original_question": "哪些病毒可以通过污染的精液感染母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "PRRSV 感染后 5 周仍对精子形成产生明显影响。",
+    "reference_case": "PRRSV 感染后 13 周仍对精子形成产生明显影响，导致精子数减少、活率下降和异常精子百分数升高。",
+    "error_detail": "错误地修改了时间数据。",
+    "original_question": "PRRSV 对公猪精子形成有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "并非所有感染 PRRSV 的公猪都会表现出临床症状，因为PRRSV对公猪的影响较小。",
+    "reference_case": "并非所有感染 PRRSV 的公猪都会表现出临床症状，因为感染 PRRSV 的公猪中有些不会表现出临床症状。",
+    "error_detail": "错误地添加了不相关的解释。",
+    "original_question": "并非所有感染 PRRSV 的公猪都会表现出临床症状的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "为预防控制 PRRSV，可能会对公猪进行隔离。",
+    "reference_case": "为预防控制 PRRSV，可能会对公猪进行免疫接种。",
+    "error_detail": "错误地添加了未经证实的措施。",
+    "original_question": "为预防控制 PRRSV，可能会对公猪进行哪种措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "胸膜肺炎放线杆菌2型和6型可能相互正相关，因为它们具有相同的生长条件。",
+    "reference_case": "多数感染似乎同血清型2胸膜肺炎放线杆菌正相关，可能是因为胸膜肺炎放线杆菌具有共同抗原，可刺激产生交叉保护性抗体。",
+    "error_detail": "错误地解释了相关性原因。",
+    "original_question": "为什么胸膜肺炎放线杆菌2型和6型可能相互正相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "屠宰时有胸膜肺炎病变的猪比没有此病变的猪日增重情况差得多。",
+    "reference_case": "屠宰时有胸膜肺炎病变的猪比没有此病变的猪日增重情况好得多，这可能表明许多屠宰时没有肺炎病变的猪，在生长的早期仍然患过胸膜肺炎，对体重增长产生较严重的不良影响。",
+    "error_detail": "错误地反转了数据关系。",
+    "original_question": "胸膜肺炎放线杆菌感染对屠宰时有胸膜肺炎病变的猪和没有此病变的猪有怎样的影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "急性胸膜肺炎有时导致5%到10%的猪完全不符合屠宰要求。",
+    "reference_case": "急性胸膜肺炎有时导致10%到20%或更多的猪完全不符合屠宰要求，若将猪活着关在屠宰室内24小时以上，猪不符合要求的比例会大大增加。",
+    "error_detail": "错误地降低了比例数据。",
+    "original_question": "急性胸膜肺炎对屠宰猪的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "慢性胸膜炎可使猪达到屠宰体重的日龄推迟3～5天。",
+    "reference_case": "慢性胸膜炎可使猪达到屠宰体重的日龄推迟7～12天。",
+    "error_detail": "错误地减少了推迟的天数。",
+    "original_question": "慢性胸膜炎对猪达到屠宰体重的日龄有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "患慢性胸膜炎的猪在任何情况下都比未患该病的猪生长的慢。",
+    "reference_case": "在大猪群呼吸系统病临瀑发以后，患慢性胸膜炎的猪要比未患该病的猪生长的慢，但在未暴发疾病前，慢性胸膜炎和上市日龄间并没有明显的关系。",
+    "error_detail": "错误地忽略了上下文条件。",
+    "original_question": "慢性胸膜炎对猪生长速度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "胸膜肺炎造成的全部损失估计为屠宰猪价值的5%。",
+    "reference_case": "胸膜肺炎造成的全部损失，包括死亡率，估计为屠宰猪价值的2%。",
+    "error_detail": "错误地提高了损失比例。",
+    "original_question": "胸膜肺炎造成的全部损失估计是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的皮肤与狗的皮肤更相似。",
+    "reference_case": "猪的皮肤与人的皮肤更相似。",
+    "error_detail": "错误地比较了不相关的动物。",
+    "original_question": "猪的皮肤与哪些动物的皮肤更相似？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪出生时的皮肤占体重的15%，成年猪的皮肤占10%。",
+    "reference_case": "猪出生时的皮肤占体重的10%～12%，成年猪的皮肤占7%。",
+    "error_detail": "错误地提高了比例数据。",
+    "original_question": "猪的皮肤在不同年龄阶段占体重的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪的皮脂腺位于腹部，汗腺分布于全身。",
+    "reference_case": "猪的皮脂腺位于颈部，汗腺分布于鼻以外的其余各处，数量较少。",
+    "error_detail": "错误地描述了腺体的位置。",
+    "original_question": "猪的皮脂腺和汗腺分别位于哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪的皮肤病变可能由营养不良引起。",
+    "reference_case": "皮肤病可能由仅限于皮肤的疾病（如耳坏死、玫瑰糠疹、猪痘）或全身性疾病（如猪丹毒、猪瘟、皮炎/肾病综合征）引起。",
+    "error_detail": "错误地添加了未经证实的病因。",
+    "original_question": "猪的皮肤病变可能由哪些原因引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪皮肤病的感染性病因包括化学性和物理性。",
+    "reference_case": "猪皮肤病的感染性病因包括细菌性、病毒性、真菌性和寄生虫性。",
+    "error_detail": "错误地添加了不相关的病因类型。",
+    "original_question": "猪皮肤病的感染性病因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "细菌性猪皮肤病可能引发猪瘟和猪流感。",
+    "reference_case": "细菌性猪皮肤病可能引发渗出性皮炎、链球菌病、耳坏死、脓肿、丹毒、巴氏杆菌病、水肿病、炭痘。",
+    "error_detail": "错误地添加了不相关的疾病。",
+    "original_question": "细菌性猪皮肤病可能引发哪些疾病？",
+    "original_input": ""
+  }
+]

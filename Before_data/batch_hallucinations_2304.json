@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中国家畜遗传资源包括普通牛、瘤牛、亚洲水牛、猪、牦牛、鸡、绵羊、山羊、鸭、马、驴、鹅、双峰驼、犬、驯鹿、瘤头鸭、兔、鹤鹃、家鸽、猫、火鸡、珠鸡等30种家畜家禽。",
+    "reference_case": "中国家畜遗传资源包括普通牛、瘤牛、亚洲水牛、猪、牦牛、鸡、绵羊、山羊、鸭、马、驴、鹅、双峰驼、犬、驯鹿、瘤头鸭、兔、鹤鹃、家鸽、猫、火鸡、珠鸡等22种家畜家禽。",
+    "error_detail": "错误地增加了家畜家禽的种类数量。",
+    "original_question": "中国家畜遗传资源涵盖哪些种类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪（Sus scrofa domestica）有100个品种（B）或80个亚种（V），还有15个未分类。",
+    "reference_case": "猪（Sus scrofa domestica）有88个品种（B）或76个亚种（V），还有12个未分类。",
+    "error_detail": "错误地增加了猪的品种和亚种数量。",
+    "original_question": "猪的品种或亚种数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "中国猪以浓郁、细嫩的肉质著称，肌纤维粗、肌束切断面内肌纤维密度小，肌内脂肪组织少，结缔组织多。",
+    "reference_case": "中国猪以浓郁、细嫩的肉质著称，肌纤维细、肌束切断面内肌纤维密度大，肌内脂肪组织多，结缔组织少，肌肉系水力、总色素、嫩度、熟肉率高，屠后定时测定的 pH 值较高，脂肪磺价低，肉品不易变质，肌肉中干物质比例和呈味前体物肌甙酸、总游离核酸、糖元、谷氨酸含量较高。",
+    "error_detail": "错误地描述了猪的肉质特点。",
+    "original_question": "中国猪的肉质特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "中国猪群体中存在高繁殖力基因，如华北、华中、江海、西南四个类型的地方猪性成熟晚、乳头数少、产仔少。",
+    "reference_case": "中国猪群体中存在高繁殖力基因，如华北、华中、江海、西南四个类型的地方猪性成熟早、乳头数多、产仔多。",
+    "error_detail": "错误地描述了猪的高繁殖力基因特点。",
+    "original_question": "中国家猪群体中存在哪些高繁殖力基因？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "太湖猪比欧美品种多2-3对乳头，性成熟早5-6个月，平均产仔数多6-7头。",
+    "reference_case": "太湖猪比欧美品种多1-2对乳头，性成熟早3-4个月，平均产仔数多4-5头。",
+    "error_detail": "错误地增加了太湖猪与欧美品种在繁殖力上的差异。",
+    "original_question": "太湖猪与欧美品种相比，在繁殖力上有哪些差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在鹿上研究和应用相关技术的风险相对较大，因为这些技术在羊、牛、猪、鸡、猴、鼠等方面的应用尚未成熟。",
+    "reference_case": "在鹿上研究和应用相关技术的风险相对较小，因为这些技术在羊、牛、猪、鸡、猴、鼠等方面的应用已日趋成熟。",
+    "error_detail": "错误地假设了技术在鹿上应用的风险。",
+    "original_question": "在鹿上研究和应用相关技术的风险如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "水平板淀粉凝胶电泳法用于检测猪20个血液蛋白质座位的多型，通过电泳分离不同蛋白质，按周边国家通用的标准判型并定名基因。",
+    "reference_case": "水平板淀粉凝胶电泳法用于检测猪19个血液蛋白质座位的多型，通过电泳分离不同蛋白质，按周边国家通用的标准判型并定名基因。",
+    "error_detail": "错误地增加了检测的血液蛋白质座位数量。",
+    "original_question": "什么是水平板淀粉凝胶电泳法在猪血液蛋白质多型检测中的应用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "多型基因在群体中保存时间远比物种寿命短，不同品种间某座位的基因多样度不存在相关性，因此不能用来推断不同猪种间的亲缘关系。",
+    "reference_case": "多型基因在群体中保存时间远比物种寿命长，不同品种间某座位的基因多样度存在相关性，因此可以用来推断不同猪种间的亲缘关系。",
+    "error_detail": "错误地理解了基因多样性与亲缘关系的关系。",
+    "original_question": "哪些因素影响不同猪种间的基因多样性？",
+    "original_input": "0.1347和0.2259。"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "台湾小耳猪是高山族同胞将当地野猪驯化成黑色猪后，再与福建、广东引进的猪杂交而成的红猪。",
+    "reference_case": "台湾小耳猪是高山族同胞将当地野猪驯化成红色猪后，再与福建、广东引进的猪杂交而成的黑猪。",
+    "error_detail": "错误地描述了台湾小耳猪的驯化过程和颜色。",
+    "original_question": "台湾小耳猪的驯化过程是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "台湾小耳猪与日本、韩国和俄罗斯等地的猪种属同一谱系。",
+    "reference_case": "台湾小耳猪与菲律宾、马来西亚和印度尼西亚等地的猪种属同一谱系。",
+    "error_detail": "错误地描述了台湾小耳猪的谱系关系。",
+    "original_question": "台湾小耳猪与哪些地方的猪种属同一谱系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "桃园猪是在18世纪由广东省引入台湾省的。",
+    "reference_case": "桃园猪是在16世纪由广东省引入台湾省的。",
+    "error_detail": "错误地描述了桃园猪引入台湾省的时间。",
+    "original_question": "桃园猪是何时引入台湾省的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在所研究的19个血液蛋白质座位中，八眉猪在Hp、Am和6PGD四个座位表现多型；安康猪在Tf、Hp、Am、6PGD和EsD六个座位表现多型；林芝猪在Pa、Tf、Hp、Am、6PGD、CEs、Ca、Cp九个座位表现多型。",
+    "reference_case": "在所研究的19个血液蛋白质座位中，八眉猪在Hp、Am和6PGD三个座位表现多型；安康猪在Tf、Hp、Am、6PGD和EsD五个座位表现多型；林芝猪在Pa、Tf、Hp、Am、6PGD、CEs、Ca、Cp八个座位表现多型。",
+    "error_detail": "错误地增加了检测到的多型座位数量。",
+    "original_question": "在所研究的19个血液蛋白质座位中，哪些猪种表现出多型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "不是的，林芝猪中检测到的CEs^c和Cp^x基因不是首次发现的。",
+    "reference_case": "是的，林芝猪中检测到的CEs^c和Cp^x基因是首次发现的。",
+    "error_detail": "错误地否认了基因的首次发现。",
+    "original_question": "林芝猪中检测到的CEs^c和Cp^x基因是首次发现的吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "林芝猪的基因平均杂合度最低。",
+    "reference_case": "林芝猪的基因平均杂合度最高。",
+    "error_detail": "错误地描述了林芝猪的基因平均杂合度。",
+    "original_question": "林芝猪的基因平均杂合度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "八眉猪与安康猪的亲缘关系较远。",
+    "reference_case": "八眉猪与安康猪的亲缘关系较近。",
+    "error_detail": "错误地描述了八眉猪与安康猪的亲缘关系。",
+    "original_question": "八眉猪与安康猪的亲缘关系如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "八眉猪与林芝猪的亲缘关系较近。",
+    "reference_case": "八眉猪与林芝猪的亲缘关系较远。",
+    "error_detail": "错误地描述了八眉猪与林芝猪的亲缘关系。",
+    "original_question": "八眉猪与林芝猪的亲缘关系如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "林芝猪和香猪各为一类，与非洲、美洲及大洋洲猪种关系密切。",
+    "reference_case": "林芝猪和香猪各为一类，与东亚、南亚、东南亚及欧洲猪种关系密切。",
+    "error_detail": "错误地描述了林芝猪和香猪与其他地区猪种的关系。",
+    "original_question": "林芝猪和香猪各为一类，与哪些地区的猪种关系密切？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "多座位电泳法可以检测猪血液中的Hemoglobin、Lipase、Glucose-6-phosphate dehydrogenase、Albumin、Postalbumin、Esterase A、Tissue Esterase、Carbonic anhydrase和Ceruloplasmin等蛋白质和酶的多型性。",
+    "reference_case": "多座位电泳法可以检测猪血液中的Hemopexin、Amylase、6-Phosphogluconate dehydrogenase、Transferrin、Prealbumin、Esterase D、Cell Esterase、Carbonic anhydrase和Ceruloplasmin等蛋白质和酶的多型性。",
+    "error_detail": "错误地列出了可以检测的蛋白质和酶。",
+    "original_question": "多座位电泳法可以检测猪血液中的哪些蛋白质和酶的多型性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "Bamei猪的Hemopexin、Amylase和6-Phosphogluconate dehydrogenase等位基因分别有6个、4个和3个。",
+    "reference_case": "Bamei猪的Hemopexin、Amylase和6-Phosphogluconate dehydrogenase等位基因分别有5个、3个和2个。",
+    "error_detail": "错误地增加了等位基因的数量。",
+    "original_question": "Bamei猪的Hemopexin、Amylase和6-Phosphogluconate dehydrogenase等位基因分别有多少个？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "Ankang猪的Albumin、Hemopexin、Amylase和6-Phosphogluconate dehydrogenase等位基因数量最多，分别为6个、5个、5个和3个。",
+    "reference_case": "Ankang猪的Transferrin、Hemopexin、Amylase和6-Phosphogluconate dehydrogenase等位基因数量最多，分别为5个、4个、4个和2个。",
+    "error_detail": "错误地列出了等位基因数量最多的蛋白质和酶，并增加了数量。",
+    "original_question": "Ankang猪的哪些蛋白质和酶的等位基因数量最多？",
+    "original_input": ""
+  }
+]

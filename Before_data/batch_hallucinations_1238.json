@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "文章中提到的豕链球菌的PCR鉴定结果显示，用猪链球菌通用引物及猪链球菌的1,2,7、9型特异性引物对可疑菌提取的基因组DNA的扩增结果显示均出现目标条带。",
+    "reference_case": "文章中提到的豕链球菌的PCR鉴定结果显示，用猪链球菌通用引物及猪链球菌的1,2,7、9型特异性引物对可疑菌提取的基因组DNA的扩增结果显示均没有目标条带出现。",
+    "error_detail": "错误地报告了PCR扩增结果，实际上没有目标条带出现。",
+    "original_question": "文章中提到的豕链球菌的PCR鉴定结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "文章中提到的豕链球菌的血清学分型结果显示，用链球菌乳胶凝集法检测试剂盒对分离到的可疑菌的分群结果显示，6种分群血清均能与分离到的可疑菌株凝集。",
+    "reference_case": "文章中提到的豕链球菌的血清学分型结果显示，用链球菌乳胶凝集法检测试剂盒对分离到的可疑菌的分群结果显示，6种分群血清均不能与分离到的可疑菌株凝集。同时，32种猪链球菌分型血清也不能与可疑菌凝集。",
+    "error_detail": "错误地报告了血清学分型结果，实际上没有凝集反应。",
+    "original_question": "文章中提到的豕链球菌的血清学分型结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "文章中提到的豕链球菌的分离鉴定过程中使用了生化鉴定、链球菌血清学分群、猪链球菌的血清学分型、PCR鉴定等方法。",
+    "reference_case": "文章中提到的豕链球菌的分离鉴定过程中使用了生化鉴定、链球菌血清学分群、猪链球菌的血清学分型、PCR鉴定、16S rDNA的扩增及序列测定和小鼠感染试验等方法。",
+    "error_detail": "遗漏了16S rDNA的扩增及序列测定和小鼠感染试验等方法。",
+    "original_question": "文章中提到的豕链球菌的分离鉴定过程中使用了哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "文章中提到的豕链球菌的分离鉴定过程中使用了绵羊血琼脂平板、VITEK革兰阳性鉴定卡、链球菌乳胶凝集分型诊断试剂盒、猪链球菌分型血清、细菌鉴定卡和药敏鉴定卡、猪链球菌通用型、1型、2型、7型和9型特异性引物以及清洁级试验小鼠等材料，还包括了未提及的PCR仪。",
+    "reference_case": "文章中提到的豕链球菌的分离鉴定过程中使用了绵羊血琼脂平板、VITEK革兰阳性鉴定卡、链球菌乳胶凝集分型诊断试剂盒、猪链球菌分型血清、细菌鉴定卡和药敏鉴定卡、猪链球菌通用型、1型、2型、7型和9型特异性引物以及清洁级试验小鼠等材料。",
+    "error_detail": "错误地添加了未提及的PCR仪。",
+    "original_question": "文章中提到的豕链球菌的分离鉴定过程中使用了哪些材料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "神木县猪场中PRRSV和PCV-2混合感染较为普遍，20家猪场中有18家存在混合感染的情况，最高感染率为80%。",
+    "reference_case": "神木县猪场中PRRSV和PCV-2混合感染较为普遍，20家猪场中有14家存在混合感染的情况，最高感染率为60%。",
+    "error_detail": "错误地报告了混合感染的猪场数量和最高感染率。",
+    "original_question": "神木县猪场中PRRSV和PCV-2混合感染的情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "神木县猪场中PRRSV抗体阳性率最高的猪场感染率为90%。",
+    "reference_case": "神木县猪场中PRRSV抗体阳性率最高的猪场感染率为80%。",
+    "error_detail": "错误地报告了最高感染率。",
+    "original_question": "神木县猪场中PRRSV抗体阳性率最高的猪场感染率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "神木县猪场中PCV-2抗体阳性率最低的猪场感染率为50%。",
+    "reference_case": "神木县猪场中PCV-2抗体阳性率最低的猪场感染率为60%。",
+    "error_detail": "错误地报告了最低感染率。",
+    "original_question": "神木县猪场中PCV-2抗体阳性率最低的猪场感染率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "神木县猪场中PRRSV和PCV-2抗体检测使用的试剂盒是北京科兴动物生物制品有限公司的产品，酶标仪是BI()-RAD 680 M。",
+    "reference_case": "神木县猪场中PRRSV和PCV-2抗体检测使用的试剂盒是武汉科前动物生物制品有限公司的产品，酶标仪是BI()-RAD 680 M。",
+    "error_detail": "错误地报告了试剂盒的生产公司。",
+    "original_question": "神木县猪场中PRRSV和PCV-2抗体检测使用的试剂盒和酶标仪分别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "神木县猪场中PRRSV和PCV-2抗体检测的结果判定标准是：OD630 nm值大于0:40时判断为阳性，OD630 nm值大于0:35小于0:40时判断为可疑，OD630 nm值小于0:35时判断为阴性。",
+    "reference_case": "神木县猪场中PRRSV和PCV-2抗体检测的结果判定标准是：OD630 nm值大于0:42时判断为阳性，OD630 nm值大于0:38小于0:42时判断为可疑，OD630 nm值小于0:38时判断为阴性。",
+    "error_detail": "错误地报告了抗体检测的结果判定标准。",
+    "original_question": "神木县猪场中PRRSV和PCV-2抗体检测的结果判定标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "神木县猪场中PRRSV和PCV-2抗体检测的血清样品是从母猪群和保育期猪群随机选3头猪，用前腔静脉或耳缘静脉采血的方法采集3 mL至5 mL血液，取室温下自然析出的血清进行抗体检测。",
+    "reference_case": "神木县猪场中PRRSV和PCV-2抗体检测的血清样品是从母猪群和保育期猪群随机选5头猪，用前腔静脉或耳缘静脉采血的方法采集3 mL至5 mL血液，取室温下自然析出的血清进行抗体检测。",
+    "error_detail": "错误地报告了采样的猪的数量。",
+    "original_question": "神木县猪场中PRRSV和PCV-2抗体检测的血清样品是如何采集的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "神木县猪场中PRRSV和PCV-2抗体检测的血清样品在使用前保存于-20°C，未经反复冻融。",
+    "reference_case": "神木县猪场中PRRSV和PCV-2抗体检测的血清样品在使用前保存于4°C，未经反复冻融。",
+    "error_detail": "错误地报告了血清样品的保存温度。",
+    "original_question": "神木县猪场中PRRSV和PCV-2抗体检测的血清样品保存条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "张建辉、左玉柱、孙彦欣等人的研究成功克隆并表达了猪繁殖与呼吸综合征病毒的GP5基因。",
+    "reference_case": "李建辉、左玉柱、孙彦欣等人的研究成功克隆并表达了猪繁殖与呼吸综合征病毒的GP5基因。",
+    "error_detail": "错误地报告了研究人员的姓名。",
+    "original_question": "在2012年的《动物医学进展》中，哪项研究成功克隆并表达了猪繁殖与呼吸综合征病毒的GP5基因？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "高博、马玲、张念等人的研究构建了猪繁殖与呼吸综合征病毒GP5和N基因的重组腺病毒。",
+    "reference_case": "高博、马玲、张念等人的研究构建了猪繁殖与呼吸综合征病毒GP5和M基因的重组腺病毒。",
+    "error_detail": "错误地报告了重组腺病毒的基因类型。",
+    "original_question": "2012年的《动物医学进展》中，哪项研究构建了猪繁殖与呼吸综合征病毒GP5和M基因的重组腺病毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "阳、万婧、廖迅等人的研究探讨了猪瘟病毒石门株E2蛋白在大肠杆菌系统中的表达。",
+    "reference_case": "阳、万婧、廖迅等人的研究探讨了猪瘟病毒石门株E2蛋白在杆状病毒系统中的表达。",
+    "error_detail": "错误地报告了表达系统。",
+    "original_question": "在2012年的《动物医学进展》中，哪项研究探讨了猪瘟病毒石门株E2蛋白在杆状病毒系统中的表达？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "乔宏兴、张晓根、边传周等人的研究克隆并表达了猪圆环病毒2 Z株的ORF1基因。",
+    "reference_case": "乔宏兴、张晓根、边传周等人的研究克隆并表达了猪圆环病毒2 Z株的ORF2基因。",
+    "error_detail": "错误地报告了克隆并表达的基因。",
+    "original_question": "2012年的《动物医学进展》中，哪项研究克隆并表达了猪圆环病毒2 Z株的ORF2基因？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "全球范围动物疫情已经得到控制，周边国家疫情减少，对我国威胁减小；重大动物疫病的病原污染面小，病毒变异慢，防控难度降低；非洲猪瘟等新病种、新亚型传入国内的危险性减小；布病、狂犬病和禽流感等人畜共患病对人类健康和公共卫生安全的威胁进一步减小。",
+    "reference_case": "全球范围动物疫情仍在加重，周边国家疫情频发，对我国威胁很大；重大动物疫病的病原污染面大，病毒变异快，防控难度不断加大；非洲猪瘟等新病种、新亚型传入国内的危险性增大；布病、狂犬病和禽流感等人畜共患病对人类健康和公共卫生安全的威胁进一步加大。",
+    "error_detail": "错误地报告了动物疫情的形势。",
+    "original_question": "当前重大动物疫情的形势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "\"二二三四五\"工作制度具体指\"一码二单三室四关五档案\"。一码是对上市的猪肉批发备案企业固定一个编码，制作成追溯码滚动章；二单是屠宰前实行\"屠宰检疫申报单\"和\"准宰通知单\"制度；三室是规范建立三个检疫检测工作室；四关是严把入场、宰前巡查、同步检疫、无害化处理\"四关\"；五档案是规范填写省所统一规定的五项记录。",
+    "reference_case": "\"二二三四五\"工作制度具体指\"一码二单三室四关五档案\"。一码是对上市的猪肉批发备案企业固定一个编码，制作成追溯码滚动章；二单是屠宰前实行\"屠宰检疫申报单\"和\"准宰通知单\"制度；三室是规范建立三个检疫检测工作室；四关是严把入场、宰前巡查、同步检疫、无害化处理\"四关\"；五档案是规范填写省所统一规定的五项记录。",
+    "error_detail": "虽然内容与reference_case相同，但未体现出幻觉，此处应提供与reference_case不同的错误版本。",
+    "original_question": "动物卫生监督工作规范化建设中的\"二二三四五\"工作制度具体指什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "2007-2011年新疆地区生猪猪瘟病毒的监测范围包括屠宰场、规模养猪场。",
+    "reference_case": "2007-2011年新疆地区生猪猪瘟病毒的监测范围包括屠宰场、规模养猪场和散养户。",
+    "error_detail": "遗漏了散养户的监测范围。",
+    "original_question": "2007-2011年新疆地区生猪猪瘟病毒的监测范围包括哪些场点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2007-2011年新疆地区屠宰场、规模养猪场和散养户中，散养户的猪瘟病原阳性检出率最高，为0:60%。",
+    "reference_case": "2007-2011年新疆地区屠宰场、规模养猪场和散养户中，散养户的猪瘟病原阳性检出率最高，为0:53%。",
+    "error_detail": "错误地报告了散养户的猪瘟病原阳性检出率。",
+    "original_question": "2007-2011年新疆地区屠宰场、规模养猪场和散养户中，哪个场点的猪瘟病原阳性检出率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2007-2011年新疆地区屠宰场、规模养猪场和散养户中，规模养猪场的猪瘟病原阳性检出率最低，为0:25%。",
+    "reference_case": "2007-2011年新疆地区屠宰场、规模养猪场和散养户中，规模养猪场的猪瘟病原阳性检出率最低，为0:32%。",
+    "error_detail": "错误地报告了规模养猪场的猪瘟病原阳性检出率。",
+    "original_question": "2007-2011年新疆地区屠宰场、规模养猪场和散养户中，哪个场点的猪瘟病原阳性检出率最低？",
+    "original_input": ""
+  }
+]

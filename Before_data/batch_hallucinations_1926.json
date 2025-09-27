@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鸡败血支原体在人工培养时需加入20%~25%的灭活猪或马血清、胰酶水解物和酵母浸出物才能生长",
+    "reference_case": "鸡败血支原体无细胞壁，形体柔软，呈高度多形性，常见形态包括球状、丝状、杆状、环状和螺旋状等；在人工培养时需加入10%~15%的灭活猪或马血清、胰酶水解物和酵母浸出物才能生长，在固体培养基上形成表面光滑、边缘整齐的\"煎蛋样\"小菌落。",
+    "error_detail": "血清添加比例错误",
+    "original_question": "鸡败血支原体的形态和培养特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪繁殖与呼吸综合征由猪繁殖与呼吸综合征细菌引起",
+    "reference_case": "猪繁殖与呼吸综合征由猪繁殖与呼吸综合征病毒（PRRSV）引起，特征包括发热、厌食、流产、木乃伊胎、死胎、弱仔，以及仔猪的呼吸障碍、免疫功能障碍及高死亡率。",
+    "error_detail": "病原体类型错误",
+    "original_question": "猪繁殖与呼吸综合征的特征有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "该病最初被称为\"猪神秘病\"，随后又被以\"蓝耳病\"、\"猪神秘生殖综合征\"、\"蓝色流产病\"等不同的名称报道，1990年欧盟正式确定该病名称为猪繁殖与呼吸综合征。",
+    "reference_case": "该病最初被称为\"猪神秘病\"，随后又被以\"蓝耳病\"、\"猪神秘生殖综合征\"、\"蓝色流产病\"等不同的名称报道，1991年欧盟正式确定该病名称为猪繁殖与呼吸综合征。",
+    "error_detail": "年份错误",
+    "original_question": "猪繁殖与呼吸综合征的名称演变经历了哪些阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "PRRSV 只能在猪原代肺泡巨噬细胞（PAM）、CL2621 细胞、MA104 系的克隆株 MARC-145 细胞上良好生长，上述细胞可用于 PRRSV 毒株的分离与鉴定，但在欧洲地区不适用。",
+    "reference_case": "PRRSV 只能在猪原代肺泡巨噬细胞（PAM）、CL2621 细胞、MA104 系的克隆株 MARC-145 细胞上良好生长，上述细胞可用于 PRRSV 毒株的分离与鉴定。",
+    "error_detail": "添加了不适用地区的信息",
+    "original_question": "PRRSV 在哪些细胞上可以良好生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "PRRSV 的主要传染源是穿梭于农场之间的鸟类、陆生野生动物及运输工具",
+    "reference_case": "病猪与带毒猪是 PRRSV 的主要传染源。",
+    "error_detail": "传染源错误",
+    "original_question": "PRRSV 的主要传染源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PRRSV 的主要传播方式为水传播和与病猪接触",
+    "reference_case": "PRRSV 的主要传播方式为空气传播和与病猪接触，此外，穿梭于农场之间的鸟类、陆生野生动物及运输工具也可能成为传播载体。",
+    "error_detail": "传播方式错误",
+    "original_question": "PRRSV 的主要传播方式有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "HP-PRRSV引起猪高热、低致病率、低死亡率的症状",
+    "reference_case": "HP-PRRSV引起猪高热、高致病率、高死亡率的症状。",
+    "error_detail": "症状严重程度错误",
+    "original_question": "HP-PRRSV引起猪的哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪繁殖与呼吸综合征是一种影响猪的细菌性疾病",
+    "reference_case": "猪繁殖与呼吸综合征是一种影响猪的病毒性疾病，导致临床症状、病理变化和免疫抑制。",
+    "error_detail": "病原体类型错误",
+    "original_question": "什么是猪繁殖与呼吸综合征（PRRS）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒感染导致猪出现急性肝损伤",
+    "reference_case": "猪繁殖与呼吸综合征病毒感染导致猪出现急性肺损伤。",
+    "error_detail": "损伤器官错误",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）感染对猪有什么危害？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用商业化的PRRSV血清抗体聚合酶链反应检测猪的PRRSV抗体",
+    "reference_case": "使用商业化的PRRSV血清抗体酶联免疫吸附试验检测猪的PRRSV抗体。",
+    "error_detail": "检测方法错误",
+    "original_question": "如何检测猪的PRRSV抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "DNA疫苗候选物表达GP3和GP5，与干扰素β/γ共表达，提供短期和长期保护，对抗HP-PRRSV挑战",
+    "reference_case": "DNA疫苗候选物表达GP3和GP5，与干扰素α/γ共表达，提供短期和长期保护，对抗HP-PRRSV挑战。",
+    "error_detail": "干扰素类型错误",
+    "original_question": "DNA疫苗在预防猪繁殖与呼吸综合征中起到什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒在猪中的病原性和分布情况见Hu等人2003年的研究",
+    "reference_case": "猪繁殖与呼吸综合征病毒在猪中的病原性和分布情况见Hu等人2013年的研究。",
+    "error_detail": "研究年份错误",
+    "original_question": "猪繁殖与呼吸综合征病毒的病原性和分布情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒的结构生物学特性见Dokland 2000年的研究",
+    "reference_case": "猪繁殖与呼吸综合征病毒的结构生物学特性见Dokland 2010年的研究。",
+    "error_detail": "研究年份错误",
+    "original_question": "猪繁殖与呼吸综合征病毒的结构生物学特性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒的免疫应答包括抗体反应和细胞免疫反应，见Kwang等人1989年的研究",
+    "reference_case": "猪繁殖与呼吸综合征病毒的免疫应答包括抗体反应和细胞免疫反应，见Kwang等人1999年的研究。",
+    "error_detail": "研究年份错误",
+    "original_question": "猪繁殖与呼吸综合征病毒的免疫应答包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒VR-2332和Lelystad毒株的结构蛋白编码序列比较见Murtaugh等人1985年的研究",
+    "reference_case": "猪繁殖与呼吸综合征病毒VR-2332和Lelystad毒株的结构蛋白编码序列比较见Murtaugh等人1995年的研究。",
+    "error_detail": "研究年份错误",
+    "original_question": "猪繁殖与呼吸综合征病毒的结构蛋白编码序列比较如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪繁殖与呼吸综合征的临床表现和病理变化见Done和Paton 1985年的研究",
+    "reference_case": "猪繁殖与呼吸综合征的临床表现和病理变化见Done和Paton 1995年的研究。",
+    "error_detail": "研究年份错误",
+    "original_question": "猪繁殖与呼吸综合征的临床表现和病理变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒抗原Ectodomain中的中和和非中和表位见Ostrowski等人1992年的研究",
+    "reference_case": "猪繁殖与呼吸综合征病毒抗原Ectodomain中的中和和非中和表位见Ostrowski等人2002年的研究。",
+    "error_detail": "研究年份错误",
+    "original_question": "猪繁殖与呼吸综合征病毒抗原Ectodomain中的中和和非中和表位如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪采食后，唾液的主要作用是消化蛋白质",
+    "reference_case": "湿润食物，利于咀嚼，并将咀嚼碎的食物粘合成食团，便于吞咽；能溶解饲料中可溶性物质，刺激舌的味觉，引起食欲，从而引起胃液和肠液的分泌，为食物进入胃肠消化作准备；唾液淀粉酶对糖类起初步消化作用，可将淀粉水解成麦芽糖。",
+    "error_detail": "唾液功能错误",
+    "original_question": "猪采食后，唾液的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的唾液中含有较多的淀粉酶，唾液淀粉酶的最适pH是强酸性",
+    "reference_case": "猪的唾液中含有较多的淀粉酶，唾液淀粉酶的最适pH是弱碱性或中性。",
+    "error_detail": "pH值错误",
+    "original_question": "猪的唾液中含有哪种酶，其最适pH是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪唾液的成分是一成不变的，它不随饲料不同而有所变化",
+    "reference_case": "猪唾液的成分不是一成不变的，它随着饲料不同而有所变化。例如，采食由大麦、麸皮、豆饼和玉米组成的混合饲料时，唾液分泌量较大，淀粉酶活性较低；而采食煮熟的马铃薯后，唾液分泌量减少但淀粉酶活性增强30%。这表明，在不同食物的刺激下，唾液的量和质会发生相应变化。",
+    "error_detail": "唾液成分变化描述错误",
+    "original_question": "不同食物对猪唾液分泌的影响如何？",
+    "original_input": ""
+  }
+]

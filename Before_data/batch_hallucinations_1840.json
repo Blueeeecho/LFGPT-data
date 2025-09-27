@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "麦仙翁中含有尼古丁毒素，能引起狗、馬、猪、小牛和家畜中毒。",
+    "reference_case": "麦仙翁中含有百苷毒素，能引起狗、馬、猪、小牛和家畜中毒。",
+    "error_detail": "将百苷毒素错误地称为尼古丁毒素",
+    "original_question": "麦仙翁含有哪种成分能引起动物中毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪的子宫体特别长（长10-15厘米），子宫颈较短，形成子宫颈阴道部，因此，它与阴道有明显的界线。",
+    "reference_case": "母猪的子宫体特别短（长3-5厘米），子宫颈较长，不形成子宫颈阴道部，因此，它与阴道无明显的界线。",
+    "error_detail": "错误地描述了子宫体的长度和子宫颈的结构",
+    "original_question": "母猪的子宫体和子宫颈有什么特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "母猪的阴道不仅是交配器官和产道，还能分泌特殊激素影响母猪的情绪。",
+    "reference_case": "是母猪交配器官，同时也是胎儿出生时的产道。",
+    "error_detail": "添加了未提及的功能",
+    "original_question": "母猪的阴道有哪些功能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "首先将公猪保定好，做好常规消毒，然后根据公猪大小向每个睾丸注入药液50-100毫升。注射药液后1-2天睾丸会肿胀但会自行消退，30天左右睾丸明显萎缩，丧失性欲。",
+    "reference_case": "首先将公猪保定好，做好常规消毒，然后根据公猪大小向每个睾丸注入药液2-20毫升。注射药液后3-5天睾丸会肿胀但会自行消退，15天左右睾丸明显萎缩，丧失性欲。",
+    "error_detail": "错误地描述了药液量和时间",
+    "original_question": "公猪去势时需要进行哪些步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "发现这些遗传突变或标记面临的主要挑战在于对该物种基因组的了解有限，影响重要性状的基因位置和特性通常未知。此外，由于基因组工程的高需求和费用，目前只有一些广泛研究的农业种类（如牛、猪、鸡等）的部分基因组信息，且这种状况可能随时间有所改善。然而，随着技术的进步，预计在未来五年内将完全解决这些问题。",
+    "reference_case": "发现这些遗传突变或标记面临的主要挑战在于对该物种基因组的了解有限，影响重要性状的基因位置和特性通常未知。此外，由于基因组工程的高需求和费用，目前只有一些广泛研究的农业种类（如牛、猪、鸡等）的部分基因组信息，且这种状况可能随时间有所改善。",
+    "error_detail": "添加了未经验证的未来预测",
+    "original_question": "发现致病遗传突变或有效分子标记面临的主要挑战是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "基因辅助选择（GAS）可用于鉴定和清除导致猪恶性高热综合征（MHS）的有害基因，这种方法在短时间内可以有效地清除这种遗传疾病。此外，GAS还可以用于提高猪的生长速度。",
+    "reference_case": "基因辅助选择（GAS）可用于鉴定和清除导致猪恶性高热综合征（MHS）的有害基因，这种方法在短时间内可以有效地清除这种遗传疾病。",
+    "error_detail": "添加了未提及的应用",
+    "original_question": "基因辅助选择（GAS）如何应用于特定的遗传疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "利用 WG-RH 克隆库构建了很多农业上重要动物的基因组图谱，包括猪、马、鸡和鹿等，尤其是在非洲地区。",
+    "reference_case": "利用 WG-RH 克隆库构建了很多农业上重要动物的基因组图谱，包括猪、马、鸡和鹿等。",
+    "error_detail": "错误地添加了地域信息",
+    "original_question": "WG-RH 克隆库如何帮助构建农业上重要动物的基因组图谱？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "种用畜禽包括种牛、种马、种驴、种羊、种猪、种兔、种禽，它们的检疫对象各有不同，如种牛检疫15种病，种羊10种病，种猪8种病等。",
+    "reference_case": "种用畜禽包括种牛、种马、种驴、种羊、种猪、种兔、种禽，它们的检疫对象各有不同，如种牛检疫9种病，种羊7种病，种猪6种病等。",
+    "error_detail": "错误地增加了检疫病种数量",
+    "original_question": "种用畜禽的检疫对象有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "加强饲养管理，增强机体抵抗力；定期进行预防接种，使用猪瘟、猪丹毒、猪肺疫弱毒三联苗等疫苗。此外，还需要定期给仔猪服用抗生素。",
+    "reference_case": "加强饲养管理，增强机体抵抗力；定期进行预防接种，使用猪瘟、猪丹毒、猪肺疫弱毒三联苗等疫苗。",
+    "error_detail": "添加了未提及的预防措施",
+    "original_question": "如何预防仔猪发生猪副伤寒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪副伤寒的病原体是猪霍乱沙门氏杆菌和猪伤寒沙门氏杆菌，以及大肠杆菌。",
+    "reference_case": "猪霍乱沙门氏杆菌和猪伤寒沙门氏杆菌。",
+    "error_detail": "错误地添加了病原体",
+    "original_question": "猪副伤寒的病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "急性型表现为败血症状，体温升高，食欲减少，便秘后腹泻，粪便恶臭，有时带血；慢性型表现为持续性腹泻，精神不振，不爱吃食，喜喝水和躺卧，拉稀，粪便恶臭，有时带有血液和脱落的粘膜。然而，有些猪可能没有任何症状。",
+    "reference_case": "急性型表现为败血症状，体温升高，食欲减少，便秘后腹泻，粪便恶臭，有时带血；慢性型表现为持续性腹泻，精神不振，不爱吃食，喜喝水和躺卧，拉稀，粪便恶臭，有时带有血液和脱落的粘膜。",
+    "error_detail": "添加了与描述矛盾的信息",
+    "original_question": "猪副伤寒的主要临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "急性病例表现为败血症变化，脾脏肿大，肝脏包膜下有灰白色坏死灶，胃及十二指肠粘膜充血和出血；慢性病例的大肠呈弥漫性或局灶性纤维素坏死性炎症，病变部粘膜肥厚，表面覆盖纤维蛋白伪膜。此外，心脏也会出现病变。",
+    "reference_case": "急性病例表现为败血症变化，脾脏肿大，肝脏包膜下有灰白色坏死灶，胃及十二指肠粘膜充血和出血；慢性病例的大肠呈弥漫性或局灶性纤维素坏死性炎症，病变部粘膜肥厚，表面覆盖纤维蛋白伪膜。",
+    "error_detail": "错误地添加了器官病变",
+    "original_question": "猪副伤寒的病理剖检主要特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "根据病史和临床症状进行综合分析，急性、亚急性病例可取肝、脾、淋巴结等病料做细菌分离培养、生化性状及血清学鉴定。此外，还可以通过PCR技术快速诊断。",
+    "reference_case": "根据病史和临床症状进行综合分析，急性、亚急性病例可取肝、脾、淋巴结等病料做细菌分离培养、生化性状及血清学鉴定。",
+    "error_detail": "添加了未提及的诊断方法",
+    "original_question": "如何诊断猪副伤寒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪炭疽的主要传染源是病畜和污染的饲料。",
+    "reference_case": "病畜。",
+    "error_detail": "错误地添加了传染源",
+    "original_question": "猪炭疽的主要传染源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪炭疽的主要传播途径有消化道感染，皮肤感染，呼吸道感染，以及通过蚊虫叮咬传播。",
+    "reference_case": "消化道感染，其次是皮肤感染，也可通过呼吸道感染。",
+    "error_detail": "错误地添加了传播途径",
+    "original_question": "猪炭疽的主要传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "主要在发生过炭疽的地方，由于对病畜尸体处理不当，长期污染土壤和水源，多呈散发形式流行，多在夏季雨后发生。预计未来由于气候变化，炭疽的流行将更加频繁。",
+    "reference_case": "主要在发生过炭疽的地方，由于对病畜尸体处理不当，长期污染土壤和水源，多呈散发形式流行，多在夏季雨后发生。",
+    "error_detail": "添加了未经验证的未来预测",
+    "original_question": "猪炭疽的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "多呈慢性经过的局限性咽峡炎，临床症状很难查觉；少数病猪呈亚急性经过，体温升高，咽喉部和腮腺部显著肿胀，吞咽和呼吸困难，严重者窒息而死。此外，还有极少数病例表现为急性经过，死亡率高达90%。",
+    "reference_case": "多呈慢性经过的局限性咽峡炎，临床症状很难查觉；少数病猪呈亚急性经过，体温升高，咽喉部和腮腺部显著肿胀，吞咽和呼吸困难，严重者窒息而死。",
+    "error_detail": "错误地添加了病例描述",
+    "original_question": "猪炭疽的主要临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "猪咽峡炎型炭疽的病变特点是咽喉部、颈前部皮下组织呈现大量黄红色胶样浸润，领下淋巴结肿大、发红，切面呈桃红色或砖红色，在切面上见有散在暗红色或黑红色凹陷的小坏死灶。然而，这些病变也可能由其他疾病引起。",
+    "reference_case": "猪咽峡炎型炭疽的病变特点是咽喉部、颈前部皮下组织呈现大量黄红色胶样浸润，领下淋巴结肿大、发红，切面呈桃红色或砖红色，在切面上见有散在暗红色或黑红色凹陷的小坏死灶。",
+    "error_detail": "添加了与描述矛盾的信息",
+    "original_question": "猪炭疽的病理剖检主要特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "采血涂片镜检，根据检验结果和临床症状进行诊断；宰后确诊炭疽必须靠细菌学检验和血清学检验，常用涂片镜检和炭疽环状沉淀反应判定。此外，还可以通过ELISA技术进行诊断。",
+    "reference_case": "采血涂片镜检，根据检验结果和临床症状进行诊断；宰后确诊炭疽必须靠细菌学检验和血清学检验，常用涂片镜检和炭疽环状沉淀反应判定。",
+    "error_detail": "错误地添加了诊断方法",
+    "original_question": "如何确诊猪炭疽？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "对发生过炭疽的地区和受威胁区内的易感动物，每年均应做预防接种；遇到患病动物突然死亡时，不准擅自剥皮、吃肉，应报告畜牧兽医部门，诊断后再做处理。此外，还需要定期消毒养殖环境。",
+    "reference_case": "对发生过炭疽的地区和受威胁区内的易感动物，每年均应做预防接种；遇到患病动物突然死亡时，不准擅自剥皮、吃肉，应报告畜牧兽医部门，诊断后再做处理。",
+    "error_detail": "添加了未提及的预防措施",
+    "original_question": "预防猪炭疽的主要措施是什么？",
+    "original_input": ""
+  }
+]

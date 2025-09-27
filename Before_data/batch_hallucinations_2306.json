@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "侧墙通风口有中悬窗、上悬窗、下悬窗、卷帘窗和推拉窗等形式，还包括旋转窗。",
+    "reference_case": "侧墙通风口有中悬窗、上悬窗、下悬窗、卷帘窗和推拉窗等形式。",
+    "error_detail": "添加了不存在的通风口形式'旋转窗'。",
+    "original_question": "猪舍内侧墙通风口有哪些形式？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "种公猪舍的圈栏面积为7.0平方米，外加一个运动场8.5平方米。",
+    "reference_case": "种公猪舍的圈栏面积为6.6平方米，外加一个运动场8.0平方米。",
+    "error_detail": "数值偏差，圈栏面积和运动场面积均被夸大。",
+    "original_question": "舍饲散养工艺中种公猪舍的面积是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "后备母猪的圈栏面积为40.0平方米，每个圈栏配置3个暖床、3个乳头饮水器和10个饲槽位。",
+    "reference_case": "后备母猪的圈栏面积为39.6平方米，每个圈栏配置2个暖床、2个乳头饮水器和8个饲槽位。",
+    "error_detail": "数值偏差，圈栏面积和配置数量均被夸大。",
+    "original_question": "母猪舍中后备母猪的圈栏面积是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "畜禽粪便的排量与畜禽种类无关，所有畜禽的排量相同。",
+    "reference_case": "畜禽粪便的排量与畜禽种类有关，如奶牛、肉牛、育肥猪、羊、蛋鸡和肉鸡的排量分别为",
+    "error_detail": "逻辑矛盾，否认了畜禽种类对粪便排量的影响。",
+    "original_question": "畜禽粪便的排量与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "畜禽废弃物的处理不当会导致全球变暖。",
+    "reference_case": "畜禽废弃物的处理不当会导致氨含量超标、大气细菌含量超标、饮用水水质污染，从而影响猪的生产力和发病率。",
+    "error_detail": "添加了不相关的假设'全球变暖'。",
+    "original_question": "畜禽粪便处理对周围环境的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "治疗牛百叶干爆时，使用大白菜15公斤（切碎）加少量水煮熟，猪油2公斤混合喂服。",
+    "reference_case": "治疗牛百叶干爆时，使用大白菜12.5公斤（切碎）加少量水煮熟，猪油1公斤混合喂服，或做成菜团送入牛喉下服，再服猪油更好。",
+    "error_detail": "数值偏差，大白菜和猪油的用量均被夸大。",
+    "original_question": "治疗牛百叶干爆时，使用大白菜猪油的方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "可以使用止痢散。雄黄5份、蒦香11份、滑石14份，粉碎成粗粉，过篮混匀。治疗时将药末加面粉调成糊状，抹于舌根，任其吞咽，病初每日3次，其后每日2次。",
+    "reference_case": "可以使用止痢散。雄黄5份、蒦香11份、滑石14份，粉碎成粗粉，过篮混匀。治疗时将药末加面粉调成糊状，抹于舌根，任其吞咽，病初每日2次，其后每日1次。",
+    "error_detail": "概念混淆，修改了用药频率。",
+    "original_question": "如何治疗仔猪白痢？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪粪尿中主要含有全氮（N）0.30%、全磷（P）0.10%、全钾（K）0.20%、水分80.00%、粗有机物4.00%、C/N 10.",
+    "reference_case": "猪粪尿中主要含有全氮（N）0.24%、全磷（P）0.07%、全钾（K）0.17%、水分85.36%、粗有机物3.75%、C/N 8.",
+    "error_detail": "数值偏差，所有养分成分的百分比均被修改。",
+    "original_question": "猪粪尿中主要含有哪些养分成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪粪尿的pH值酸性，质地较粗。",
+    "reference_case": "猪粪尿的pH值中性偏碱，质地较细，主要是因为猪饲料多样化，纤维素、半纤维素、木质素较少，含有蛋白质及其分解产物、脂肪类、有机酸及各种无机盐。",
+    "error_detail": "概念混淆，错误描述了pH值和质地。",
+    "original_question": "灰分2.43%，并含有多种微量元素和微量矿物质。\n\n2、猪粪尿的pH值与特性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪粪尿氮、磷、钾的有效性很低，难以腐熟。",
+    "reference_case": "猪粪尿氮、磷、钾的有效性很高，易于腐熟，能形成大量腐殖质和蜡质，施用后能增加土壤的保水性，防治土壤毛管水分蒸发，抗旱保墑有效，施用猪粪尿可作为底肥或追肥使用。",
+    "error_detail": "添加了相反的假设，否认了猪粪尿的有效性和易腐熟性。",
+    "original_question": "猪粪尿在农田中的肥效特点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "猪粪尿中氮素不易分解，磷素含量较低，钾素大多为非水溶性钾。",
+    "reference_case": "猪粪尿中氮素易于分解，磷素含量较高，钾素大多为水溶性钾，容易造成氮素流失，防止氮素损失是养猪积肥中的主要问题。",
+    "error_detail": "逻辑矛盾，错误描述了氮素、磷素和钾素的特性。",
+    "original_question": "猪粪尿积存过程中容易出现什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪粪尿积存的常用方法有垫圈积存法和冲圈法，还包括直接排放法。",
+    "reference_case": "猪粪尿积存的常用方法有垫圈积存法和冲圈法。垫圈积存法采用干土、秸秆、杂草、泥炭垫圈，可吸收尿液保存肥分；冲圈法适用于大型机械化猪场，将猪粪尿冲入舍外的粪池积存沤粪，或直接冲入沼气池沤制沼肥。",
+    "error_detail": "概念混淆，添加了不存在的'直接排放法'。",
+    "original_question": "猪粪尿积存的常用方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪脑心肌炎是由大核糖核酸病毒科的脑心肌炎病毒引起的急性传染病。",
+    "reference_case": "猪脑心肌炎是由小核糖核酸病毒科的脑心肌炎病毒引起的急性传染病。",
+    "error_detail": "概念混淆，错误描述了病毒的分类。",
+    "original_question": "猪脑心肌炎是由什么病毒引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "病猪出现长期的发热，表现出慢性心脏病的特征。",
+    "reference_case": "病猪出现短暂的发热，表现出急性心脏病的特征。大部分病猪在死前没有见到症状，有时可见病猪有短暂的精神沉郁、不食、震颤、步态蹒跚、麻痹、呕吐、呼吸困难等症状，并很快死亡。在母猪中，症状由外表正常到严重的繁殖障碍，包括厌食、流产、木乃伊胎和死产增多，新生乳猪死亡数和断奶前病死率增加。",
+    "error_detail": "添加了不相关的假设，错误描述了发热的性质和心脏病的特征。",
+    "original_question": "猪脑心肌炎的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "病猪腹下皮肤蓝紫色，胸腔、腹腔及心包积水，含大量纤维素。",
+    "reference_case": "病猪腹下皮肤蓝紫色，胸腔、腹腔及心包积水，含少量纤维素。肝肿大，肠系膜水肿，肺充血水肿，右心室扩张。心肌特别是右心室心肌可见有很多白色病灶散布，直径2-15毫米，有的呈条纹状或更大界线不清楚的灰色区域，有时局部病灶见白垩样中心或弥漫性病灶见白垩样斑。病理组织学检查可见心肌变性、坏死，有淋巴细胞及单核细胞浸润。感染胚胎形成不同大小的木乃伊胎，可能有出血、水肿或外观正常。",
+    "error_detail": "数值偏差，夸大了纤维素的含量。",
+    "original_question": "猪脑心肌炎的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "病死率可达50%。",
+    "reference_case": "病死率可达100%。",
+    "error_detail": "数值偏差，低估了病死率。",
+    "original_question": "猪脑心肌炎的病死率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "从急性死亡的病猪采取心脏的左心室和脾，一部分放入20%甲醛溶液中。",
+    "reference_case": "从急性死亡的病猪采取心脏的右心室和脾，一部分放入10%甲醛溶液中，供病理组织学检查；一部分放入50%甘油生理盐水中，供病毒的分离和鉴定；或用其接种小鼠（脑内或腹腔注射），经2-5天潜伏期，小鼠出现后腿麻痹症状而死亡，剖检可见心肌炎、脑炎和肾萎缩等病变。",
+    "error_detail": "指令偏离，错误描述了取样部位和甲醛溶液的浓度。",
+    "original_question": "如何进行猪脑心肌炎的实验诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "本病的眼观病变与维生素E及硒缺乏所引起的白肌病、败血症性栓塞引发的心肌梗塞以及猪水肿病时的肠系膜水肿完全相同。",
+    "reference_case": "本病的眼观病变与维生素E及硒缺乏所引起的白肌病、败血症性栓塞引发的心肌梗塞以及猪水肿病时的肠系膜水肿有些相似，应注意区别。",
+    "error_detail": "上下文断裂，错误描述了病变的相似性。",
+    "original_question": "如何鉴别猪脑心肌炎与其它疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "目前有有效疗法和可供应用的疫苗。",
+    "reference_case": "目前尚无有效疗法，也无可供应用的疫苗。主要的防疫措施是尽量清除猪场内的鼠类，减少带毒者直接传染猪只，或间接污染饲料及饮水。污染的猪场应使用漂白粉彻底消毒环境。对耐过猪应尽量避免过度骚扰，以防因心脏病后遗症而突然死亡。",
+    "error_detail": "概念混淆，错误描述了治疗和疫苗的可用性。",
+    "original_question": "猪脑心肌炎的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪气喘病的症状包括体温升高、食欲明显下降、气喘加重、精神不振、猪体消瘦、不愿走动，后期症状加重，病程可拖延数月，病死率一般很高。",
+    "reference_case": "猪气喘病的症状包括体温正常或不升高、食欲无明显变化、气喘加重、精神不振、猪体消瘦、不愿走动，后期症状加重，病程可拖延数月，病死率一般不高。",
+    "error_detail": "数值偏差，错误描述了体温、食欲和病死率。",
+    "original_question": "猪气喘病的主要症状有哪些？",
+    "original_input": ""
+  }
+]

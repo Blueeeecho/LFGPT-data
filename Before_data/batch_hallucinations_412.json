@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲粮电解质平衡值（dEB）由50 meq/kg上升到300 meq/kg时，生长猪的血清尿素氮呈线性降低（P≤0:1:，之后有一定上升。",
+    "reference_case": "饲粮电解质平衡值（dEB）由50 meq/kg上升到300 meq/kg时，生长猪的血清尿素氮呈二次曲线性或三次曲线性降低（P≤0:1:，之后有一定上升。",
+    "error_detail": "将二次曲线性或三次曲线性降低错误地描述为线性降低。",
+    "original_question": "饲粮电解质平衡值（dEB）对生长猪的血清尿素氮有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在高温环境中，生长猪的饲粮电解质平衡值（dEB）以250 meq/kg为宜，因为此时猪体内的酸碱平衡和氮代谢最佳，抗代谢性酸中毒的能力最强。",
+    "reference_case": "在高温环境中，生长猪的饲粮电解质平衡值（dEB）以300 meq/kg为宜，因为此时猪体内的酸碱平衡和氮代谢最佳，抗代谢性酸中毒的能力最强。",
+    "error_detail": "使用了过时的标准值250 meq/kg，而非最新的300 meq/kg。",
+    "original_question": "在高温环境中，生长猪的饲粮电解质平衡值（dEB）以多少为宜？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "饲粮电解质平衡值（dEB）显著影响生长猪血液中的酸碱平衡指标，如血液中的CO2浓度、碱剩余和pH值（P≤0:05:。",
+    "reference_case": "饲粮电解质平衡值（dEB）显著影响生长猪血液中的酸碱平衡指标，如血液中的HCO3-浓度、碱剩余和pH值（P≤0:05:。",
+    "error_detail": "将HCO3-浓度错误地描述为CO2浓度。",
+    "original_question": "饲粮电解质平衡值（dEB）对生长猪血液中的酸碱平衡指标有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在25～35kg生长猪的试验中，饲粮的可消化赖氨酸（DLys）水平设置了0:30%、0:45%、0:60%、0:75%和0:90%五个梯度。",
+    "reference_case": "在25～35kg生长猪的试验中，饲粮的可消化赖氨酸（DLys）水平设置了0:40%、0:55%、0:70%、0:85%和1:0%五个梯度。",
+    "error_detail": "错误地描述了可消化赖氨酸水平的梯度设置。",
+    "original_question": "在25～35kg生长猪的试验中，饲粮的可消化赖氨酸（DLys）水平设置了哪几个梯度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "试验中生长猪的平均日增重（ADG）和饲料转化率（F/G）均随饲粮赖氨酸水平的增加呈显著的线性变化。",
+    "reference_case": "试验中生长猪的平均日增重（ADG）和饲料转化率（F/G）均随饲粮赖氨酸水平的增加呈显著的二次曲线变化。",
+    "error_detail": "将二次曲线变化错误地描述为线性变化。",
+    "original_question": "试验中生长猪的平均日增重（ADG）和饲料转化率（F/G）与饲粮赖氨酸水平的关系如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "肠膜蛋白粉的主要原料为猪肠膜粘膜水解蛋白，来源于利用猪大肠粘膜萃取肝素过程的副产物。",
+    "reference_case": "肠膜蛋白粉的主要原料为猪肠膜粘膜水解蛋白，来源于利用猪小肠粘膜萃取肝素过程的副产物。",
+    "error_detail": "将小肠粘膜错误地描述为大肠粘膜。",
+    "original_question": "肠膜蛋白粉（DPS）的主要原料是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加DPS和AP950增加了断奶仔猪的日粮成本，处理组的日粮成本分别为3000元/吨、2000元/吨、2300元/吨、300元/吨和2400元/吨，而对照组为2105元/吨。",
+    "reference_case": "添加DPS和AP950增加了断奶仔猪的日粮成本，处理组的日粮成本分别为3207元/吨、2246元/吨、2312元/吨、335元/吨和2350元/吨，而对照组为2105元/吨。",
+    "error_detail": "错误地描述了日粮成本的具体数值。",
+    "original_question": "在“肠膜蛋白粉对早期断奶仔猪生产性能及消化道的影响”实验中，添加DPS和AP950对断奶仔猪的日粮成本有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对照组日粮中添加了0% AP950和0% DPS，处理组日粮中分别添加了3% AP950、3% DPS50、4% DPS50、3% DPS50+3% AP950和6% DPS30。",
+    "reference_case": "对照组日粮中添加了0% AP950和0% DPS，处理组日粮中分别添加了2:5% AP950、2:5% DPS50、3:5% DPS50、2:5% DPS50+2:5% AP950和5% DPS30。",
+    "error_detail": "错误地描述了添加成分的比例。",
+    "original_question": "在“肠膜蛋白粉对早期断奶仔猪生产性能及消化道的影响”实验中，对照组和处理组的日粮中添加了哪些成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "添加DPS和AP950能够显著改善断奶仔猪的肠道形态，促进肠绒毛生长和腺窝细胞发育，且效果优于其他任何添加剂。",
+    "reference_case": "添加DPS和AP950能够改善断奶仔猪的肠道形态，促进肠绒毛生长和腺窝细胞发育。",
+    "error_detail": "添加了未经证实的假设，即效果优于其他任何添加剂。",
+    "original_question": "在“肠膜蛋白粉对早期断奶仔猪生产性能及消化道的影响”实验中，添加DPS和AP950对断奶仔猪的肠道形态有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "血清尿素氮含量的变化与仔猪的日增重呈显著负相关，相关系数为-0:800，P<0:001。",
+    "reference_case": "血清尿素氮含量的变化与仔猪的日增重呈显著负相关，相关系数为-0:753，P<0:001。",
+    "error_detail": "错误地描述了相关系数的具体数值。",
+    "original_question": "试验中血清尿素氮含量的变化与仔猪的日增重有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中使用的仔猪是三元杂交（杜，长 × 大）断奶仔猪，初始体重为10:00 ± 0:07 kg。",
+    "reference_case": "试验中使用的仔猪是三元杂交（杜，长 × 大）断奶仔猪，初始体重为11:00 ± 0:07 kg。",
+    "error_detail": "错误地描述了仔猪的初始体重。",
+    "original_question": "试验中使用的仔猪的品种和初始体重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低蛋白质日粮补充异亮氨酸后，仔猪的血清异亮氨酸含量分别比20%蛋白质组和低蛋白质低异亮氨酸组低50%和40%，差异显著（P<0:05:。",
+    "reference_case": "低蛋白质日粮补充异亮氨酸后，仔猪的血清异亮氨酸含量分别比20%蛋白质组和低蛋白质低异亮氨酸组低63%和56%，差异显著（P<0:05:。",
+    "error_detail": "错误地描述了血清异亮氨酸含量的降低比例。",
+    "original_question": "试验中低蛋白质日粮补充异亮氨酸对仔猪的血清游离氨基酸含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补充异亮氨酸后，仔猪的日增重提高了70%，差异显著（P<0:05:。",
+    "reference_case": "补充异亮氨酸后，仔猪的日增重提高了81%，差异显著（P<0:05:。",
+    "error_detail": "错误地描述了日增重的提高比例。",
+    "original_question": "补充异亮氨酸对仔猪的日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低蛋白质日粮补充异亮氨酸后，仔猪的血清氨含量分别比20%蛋白质组和低蛋白质低异亮氨酸组低15%和10%，差异显著（P<0:05:。",
+    "reference_case": "低蛋白质日粮补充异亮氨酸后，仔猪的血清氨含量分别比20%蛋白质组和低蛋白质低异亮氨酸组低18%和17%，差异显著（P<0:05:。",
+    "error_detail": "错误地描述了血清氨含量的降低比例。",
+    "original_question": "试验中低蛋白质日粮补充异亮氨酸对仔猪的血清氨含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "低蛋白质日粮补充异亮氨酸后，仔猪的血清皮质醇含量在各处理间均无显著差异（P>0:05:，这表明异亮氨酸对皮质醇水平没有影响。",
+    "reference_case": "低蛋白质日粮补充异亮氨酸后，仔猪的血清皮质醇含量在各处理间均无显著差异（P>0:05:。",
+    "error_detail": "添加了未经证实的假设，即异亮氨酸对皮质醇水平没有影响。",
+    "original_question": "试验中低蛋白质日粮补充异亮氨酸对仔猪的血清皮质醇含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "讷河市生态渔业的主要生产模式包括稻鱼豆猪獭萍菇苠多元复合立体生产、畜禽鱼综合养殖生产、鱼禽树花果特色经济开发生产和名特优综合养殖生产。",
+    "reference_case": "讷河市生态渔业的主要生产模式包括稻鱼豆猪獭萍菇苠多元复合立体生产、畜禽鱼综合养殖生产、鱼禽树花果特色经济开发生产和名特优综合养殖生产。",
+    "error_detail": "虽然描述看似正确，但实际上混淆了某些生产模式的具体内容。",
+    "original_question": "讷河市生态渔业的主要生产模式有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "试验中每圈选择2头仔猪采用按摩法收集粪样，各圈粪样混合后用空气干燥烘箱干燥，粉碎过2 mm筛，同样方式处理各组日粮。",
+    "reference_case": "试验中每圈选择2头仔猪采用按摩法收集粪样，各圈粪样混合后用空气干燥烘箱干燥，粉碎过1 mm筛，同样方式处理各组日粮。",
+    "error_detail": "错误地描述了筛子的孔径大小。",
+    "original_question": "试验中如何收集和处理粪样以测定养分消化率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中使用的仔猪是21日龄断奶的三元（长×杜×大）杂交仔猪，体重为6:00 ± 0:62 kg。",
+    "reference_case": "试验中使用的仔猪是21日龄断奶的三元（长×杜×大）杂交仔猪，体重为5:85 ± 0:62 kg。",
+    "error_detail": "错误地描述了仔猪的体重。",
+    "original_question": "试验中使用的仔猪的品种和断奶日龄是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中仔猪在密闭猪舍高床饲养，条缝式地板、圈舍通风良好，试验猪自由采食，乳头式自动饮水器提供清洁饮水，试验持续4周，第1周温度保持在30℃，以后每周下降1～2℃。",
+    "reference_case": "试验中仔猪在密闭猪舍高床饲养，条缝式地板、圈舍通风良好，试验猪自由采食，乳头式自动饮水器提供清洁饮水，试验持续4周，第1周温度保持在31℃，以后每周下降1～2℃。",
+    "error_detail": "错误地描述了第1周的温度设置。",
+    "original_question": "试验中仔猪的饲养环境是如何控制的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在早期断奶仔猪的饲养中，豆粕（SBM）组的平均日增重（ADG）比膨化全脂大豆（EFS）组显著提高15:7%。",
+    "reference_case": "在早期断奶仔猪的饲养中，豆粕（SBM）组的平均日增重（ADG）比膨化全脂大豆（EFS）组显著提高18:7%。",
+    "error_detail": "错误地描述了平均日增重的提高比例。",
+    "original_question": "在早期断奶仔猪的饲养中，膨化全脂大豆（EFS）和豆粕（SBM）对仔猪的平均日增重（ADG）有何影响？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "右旋糖酐铁注射液肌内注射1次量为仔猪500～1000mg。",
+    "reference_case": "右旋糖酐铁注射液肌内注射1次量为仔猪50～100mg。",
+    "error_detail": "数值被夸大了10倍",
+    "original_question": "右旋糖酐铁注射液的使用剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维生素B1注射液的使用剂量是猪、羊25~50mg，犬10~25mg，牛、马100~500mg，猫5~10mg。",
+    "reference_case": "猪、羊25~50mg，犬10~25mg，牛、马100~500mg。",
+    "error_detail": "错误地添加了猫的剂量",
+    "original_question": "维生素B1注射液的使用剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "长效核黄素注射液的使用剂量是猪、羊150mg，每月注射1次。",
+    "reference_case": "猪、羊150mg，每2~3月注射1次。",
+    "error_detail": "注射频率被错误地增加",
+    "original_question": "长效核黄素注射液的使用剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "维生素B6用于治疗人类的神经系统疾病。",
+    "reference_case": "猪、羊0.5~1g，犬0.02~0.08g，家禽0.005~0.01g，牛、马3~5g。",
+    "error_detail": "回答偏离了原始问题，原始问题是关于动物的剂量",
+    "original_question": "维生素B6用于什么人群的治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "维生素C注射液的使用剂量是猪、羊0.2~0.5g，犬、猫0.02~0.1g，猴0.1~0.2g，虎0.2~0.5g，牛2~4g，马1~3g，狮0.5~1g。",
+    "reference_case": "猪、羊0.2~0.5g，犬、猫0.02~0.1g，猴0.1~0.2g，虎0.2~0.5g，牛2~4g，马1~3g。",
+    "error_detail": "错误地添加了狮的剂量",
+    "original_question": "维生素C注射液的使用剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牛、马注射钙制剂的剂量范围为200~600g；猪、羊为50~150g；犬为5~20g。",
+    "reference_case": "牛、马注射钙制剂的剂量范围为20~60g；猪、羊为5~15g；犬为0.5~2g。",
+    "error_detail": "数值被夸大了10倍",
+    "original_question": "不同动物注射钙制剂的剂量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "亚硒酸钠注射液的肌内注射剂量为仔猪、羔羊10~20mg，犊、驹50~80mg，牛、马300~500mg。",
+    "reference_case": "亚硒酸钠注射液的肌内注射剂量为仔猪、羔羊1~2mg，犊、驹5~8mg，牛、马30~50mg。",
+    "error_detail": "数值被夸大了10倍",
+    "original_question": "亚硒酸钠注射液的肌内注射剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪伪狂犬基因疫苗用于预防伪狂犬病和增强免疫力。",
+    "reference_case": "猪伪狂犬基因疫苗用于预防伪狂犬病。",
+    "error_detail": "错误地添加了增强免疫力的功能",
+    "original_question": "猪伪狂犬基因疫苗的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "基因工程促生长激素在动物养殖中有害无益。",
+    "reference_case": "基因工程促生长激素包括牛、猪和鱼类的生长激素，可用于提高乳牛产奶量、提高猪和鱼类的生长速度。",
+    "error_detail": "与原始信息完全矛盾",
+    "original_question": "基因工程促生长激素在动物养殖中有哪些应用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "莱克多巴胺用于减少食品动物的瘦肉率，增加脂肪沉积。",
+    "reference_case": "莱克多巴胺用于提高食品动物（如猪）的瘦肉率，减少脂肪沉积，促进肌肉生长。",
+    "error_detail": "因果倒置",
+    "original_question": "莱克多巴胺的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "维吉尼（亚）霉素预混剂适用于猪、鸡和鸭。",
+    "reference_case": "适用于猪和鸡。",
+    "error_detail": "错误地添加了鸭",
+    "original_question": "维吉尼（亚）霉素预混剂适用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每1000 kg 饲料添加本品，猪200~500 g，鸡100~400 g。",
+    "reference_case": "每1000 kg 饲料添加本品，猪20~50 g，鸡10~40 g。",
+    "error_detail": "数值被夸大了10倍",
+    "original_question": "维吉尼（亚）霉素预混剂的用法与用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "喹乙醇预混剂适用于猪和鸡。",
+    "reference_case": "适用于猪。",
+    "error_detail": "错误地添加了鸡",
+    "original_question": "喹乙醇预混剂适用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "阿美拉霔素预混剂适用于猪、鸡和鸭。",
+    "reference_case": "适用于猪和鸡。",
+    "error_detail": "错误地添加了鸭",
+    "original_question": "阿美拉霔素预混剂适用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每1000 kg 饲料添加本品：猪2000~4000 g（4月龄以内）、1000~2000 g（4~6月龄）；肉鸡500~1000 g。",
+    "reference_case": "每1000 kg 饲料添加本品：猪200~400 g（4月龄以内）、100~200 g（4~6月龄）；肉鸡50~100 g。",
+    "error_detail": "数值被夸大了10倍",
+    "original_question": "阿美拉霔素预混剂的用法与用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "盐霉素钠预混剂适用于牛、猪、鸡和鸭。",
+    "reference_case": "适用于牛、猪、鸡。",
+    "error_detail": "错误地添加了鸭",
+    "original_question": "盐霉素钠预混剂适用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每1000 kg 饲料添加，鸡500~700 g，猪250~750 g，牛100~300 g。",
+    "reference_case": "每1000 kg 饲料添加，鸡50~70 g，猪25~75 g，牛10~30 g。",
+    "error_detail": "数值被夸大了10倍",
+    "original_question": "盐霉素钠预混剂的用法与用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "硫酸黏杆菌素预混剂适用于牛、猪、鸡和鸭。",
+    "reference_case": "适用于牛、猪、鸡。",
+    "error_detail": "错误地添加了鸭",
+    "original_question": "硫酸黏杆菌素预混剂适用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每1000 kg 饲料添加：犊牛50~400 g，仔猪20~200 g，鸡20~200 g。",
+    "reference_case": "每1000 kg 饲料添加：犊牛5~40 g，仔猪2~20 g，鸡2~20 g。",
+    "error_detail": "数值被夸大了10倍",
+    "original_question": "硫酸黏杆菌素预混剂的用法与用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "牛至油预混剂适用于猪、鸡和鸭。",
+    "reference_case": "适用于猪和鸡。",
+    "error_detail": "错误地添加了鸭",
+    "original_question": "牛至油预混剂适用于哪些动物？",
+    "original_input": ""
+  }
+]

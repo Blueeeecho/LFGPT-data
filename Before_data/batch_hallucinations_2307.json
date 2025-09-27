@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "隐性型病猪有明显症状，如高热和呼吸困难，X线检查或剖检时可见到气喘病病灶。",
+    "reference_case": "隐性型病猪没有明显症状，有时发生轻咳，但生长发育几乎正常，X线检查或剖检时可见到气喘病病灶。",
+    "error_detail": "错误地描述了隐性型病猪的症状，将无症状改为有明显症状。",
+    "original_question": "隐性型病猪的症状表现如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "治疗猪气喘病常用的药物有青霉素和链霉素。",
+    "reference_case": "常用的药物有盐酸土霉素、泰乐菌素、泰妙菌素、林可霉素、克林霉素、喹诺酮类药物、硫酸卡那霉素等。",
+    "error_detail": "错误地列出了不常用的药物作为治疗猪气喘病的常用药物。",
+    "original_question": "治疗猪气喘病常用的药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "通过血液检查可以早期诊断猪气喘病，血清学诊断方法已纳入常规诊断。",
+    "reference_case": "早期病猪和隐性病猪通过X线检查可以早期诊断，但血清学诊断方法尚未纳入常规诊断，仍停留在实验室应用阶段。",
+    "error_detail": "错误地更新了诊断方法的状态，将未纳入常规诊断的血清学诊断方法描述为已纳入。",
+    "original_question": "如何通过实验室检查诊断猪气喘病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "预防和控制猪气喘病的发生只需对病猪所在的猪圈进行空圈处理。",
+    "reference_case": "应采取综合性防疫措施，包括对新引进的猪进行隔离观察，对病猪所在的猪圈进行空圈处理，对猪群进行X线透视检查或血清学试验。",
+    "error_detail": "错误地简化了预防和控制措施，忽略了其他必要的步骤。",
+    "original_question": "如何预防和控制猪气喘病的发生？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪红痢主要发生在1月龄以下的仔猪。",
+    "reference_case": "猪红痢主要发生在1周龄以下的仔猪，最常见于1至3日龄的新生仔猪。",
+    "error_detail": "错误地扩大了发病年龄段，将1周龄以下改为1月龄以下。",
+    "original_question": "猪红痢通常发病于哪些年龄段的仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "魏氏梭菌只在土壤中存在，饲养管理不良时容易导致猪红痢的发生。",
+    "reference_case": "魏氏梭菌广泛存在于人畜肠道、土壤、下水道及尘埃中，饲养管理不良时容易导致猪红痢的发生。",
+    "error_detail": "错误地限制了魏氏梭菌的存在环境，忽略了其在人畜肠道、下水道及尘埃中的存在。",
+    "original_question": "魏氏梭菌在什么条件下容易导致猪红痢？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪红痢的病死率为1%至5%。",
+    "reference_case": "猪红痢的病死率为5%至59%，平均为26%。",
+    "error_detail": "错误地降低了病死率的范围，显著低于实际数据。",
+    "original_question": "猪红痢的病死率范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "急性病例的猪红痢病程通常在生后第一周结束。",
+    "reference_case": "急性病例的猪红痢病程通常在生后第三天结束。",
+    "error_detail": "错误地延长了急性病例的病程，将第三天改为第一周。",
+    "original_question": "急性病例的猪红痢病程多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "慢性病例的猪红痢病程可持续几个月。",
+    "reference_case": "慢性病例的猪红痢病程可持续十几天。",
+    "error_detail": "错误地延长了慢性病例的病程，将十几天改为几个月。",
+    "original_question": "慢性病例的猪红痢病程有多长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪痢疾主要影响猪的小肠。",
+    "reference_case": "猪痢疾主要影响猪的大肠（结肠、盲肠），而小肠没有病变。",
+    "error_detail": "错误地改变了猪痢疾影响的部位，将大肠改为小肠。",
+    "original_question": "猪痢疾主要影响哪些部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪痢疾的原发性病原体为大肠杆菌。",
+    "reference_case": "猪痢疾的原发性病原体为猪痢疾密螺旋体。",
+    "error_detail": "错误地改变了猪痢疾的原发性病原体，将猪痢疾密螺旋体改为大肠杆菌。",
+    "original_question": "猪痢疾的原发性病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪痢疾密螺旋体有10至12个疏螺弯曲。",
+    "reference_case": "猪痢疾密螺旋体有4至6个疏螺弯曲，两端尖锐，呈螺旋线状，长6至8微米，能产生溶血素和有毒性的脂多糖。",
+    "error_detail": "错误地增加了疏螺弯曲的数量，将4至6个改为10至12个。",
+    "original_question": "猪痢疾密螺旋体的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪痢疾主要通过空气传播。",
+    "reference_case": "猪痢疾主要通过病猪、临床康复猪和无症状的带菌猪的粪便排菌，病原体污染环境和饲料、饮水后，经消化道传染。",
+    "error_detail": "错误地改变了猪痢疾的传播方式，将经消化道传染改为空气传播。",
+    "original_question": "猪痢疾如何传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪痢疾最常见于成年猪。",
+    "reference_case": "猪痢疾只发生于猪，最常见于断奶后正在生长发育的猪，发病无季节性，传播缓慢，流行期长，易感猪与临床康复猪同居时仍可感染发病。",
+    "error_detail": "错误地改变了猪痢疾最常见于的猪的年龄段，将断奶后正在生长发育的猪改为成年猪。",
+    "original_question": "猪痢疾的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "常用的猪群检疫试验方法有PCR检测。",
+    "reference_case": "常用凝集试验，也可用酶联免疫吸附试验或间接血凝试验。",
+    "error_detail": "错误地添加了不常用的检疫试验方法，将凝集试验等改为PCR检测。",
+    "original_question": "常用的猪群检疫试验方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪感染后1周出现凝集抗体。",
+    "reference_case": "猪感染后2～3周出现凝集抗体。",
+    "error_detail": "错误地提前了凝集抗体出现的时间，将2～3周改为1周。",
+    "original_question": "猪感染后多久出现凝集抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪感染后2周抗体达高峰。",
+    "reference_case": "猪感染后4～7周抗体达高峰。",
+    "error_detail": "错误地提前了抗体达高峰的时间，将4～7周改为2周。",
+    "original_question": "猪感染后抗体高峰何时出现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪感染后抗体可维持6周。",
+    "reference_case": "猪感染后抗体可维持12～13周。",
+    "error_detail": "错误地缩短了抗体维持的时间，将12～13周改为6周。",
+    "original_question": "猪感染后抗体能维持多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "治疗猪痢疾的药物包括阿莫西林和头孢菌素。",
+    "reference_case": "治疗方法包括：①㾁菌净，②痢立清，③二甲硝基味唑，④甲硝味乙酰胺，⑤异丙硝哒唑，⑥维吉尼霉素，⑦洁霉素，⑧硫酸新霉素，⑨杆菌肽，⑩四环素类抗生素，⑪泰乐菌素。",
+    "error_detail": "错误地添加了不常用的药物作为治疗猪痢疾的药物。",
+    "original_question": "治疗猪痢疾有哪些药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "异丙硝哒唑需要连饮3天，洁霉素需要连用1周。",
+    "reference_case": "异丙硝哒唑需要连饮7天，洁霉素需要连用3周。",
+    "error_detail": "错误地缩短了药物的使用时间，将7天改为3天，3周改为1周。",
+    "original_question": "治疗猪痢疾时，哪些药物需要连用7天以上？",
+    "original_input": ""
+  }
+]

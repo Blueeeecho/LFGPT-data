@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在仔猪腹泻病的防治实验中，仔猪产后及早注射IgG-TF制剂（一般在产后24小时内），并在20天后再注射一次。",
+    "reference_case": "在仔猪腹泻病的防治实验中，仔猪产后及早注射IgG-TF制剂（一般在产后12小时内），并在15天后再注射一次。",
+    "error_detail": "注射时间和间隔时间的数据错误",
+    "original_question": "在仔猪腹泻病的防治实验中，IgG-TF的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在仔猪腹泻病的防治中不提倡未发病仔猪不规范使用抗生素，因为不规范使用抗生素可能导致肠道病毒产生耐药性，破坏肠道内生态平衡，增加治疗难度。",
+    "reference_case": "在仔猪腹泻病的防治中不提倡未发病仔猪不规范使用抗生素，因为不规范使用抗生素可能导致肠道杆菌产生耐药性，破坏肠道内生态平衡，增加治疗难度。",
+    "error_detail": "将肠道杆菌错误地称为肠道病毒",
+    "original_question": "为什么在仔猪腹泻病的防治中不提倡未发病仔猪不规范使用抗生素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪旋毛虫的包囊形成时间是感染后的20-40天，犬旋毛虫的包囊形成时间是感染后的25-35天。",
+    "reference_case": "猪旋毛虫的包囊形成时间是感染后的16-38天，犬旋毛虫的包囊形成时间是感染后的20-32天。",
+    "error_detail": "包囊形成时间的数据错误",
+    "original_question": "猪旋毛虫和犬旋毛虫的包囊形成时间分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "减虫率（％）＝（免疫组每克肌肉中荷虫数 - 对照组每克肌肉中荷虫数）/对照组每克肌肉中荷虫数 × 100%。",
+    "reference_case": "减虫率（％）＝（对照组每克肌肉中荷虫数 - 免疫组每克肌肉中荷虫数）/对照组每克肌肉中荷虫数 × 100%。",
+    "error_detail": "减虫率计算公式中的免疫组和对照组位置颠倒",
+    "original_question": "猪旋毛虫和犬旋毛虫的交叉免疫试验中，小鼠的减虫率是如何计算的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪旋毛虫来自吉林省长春市的猪体内，犬旋毛虫来自吉林省吉林市的犬体内。",
+    "reference_case": "猪旋毛虫来自黑龙江省海伦县的猪体内，犬旋毛虫来自黑龙江省五常县的犬体内。",
+    "error_detail": "虫种来源的地域错误",
+    "original_question": "猪旋毛虫和犬旋毛虫的虫种来源分别是哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪旋毛虫的国际认证编号是ISS534，犬旋毛虫的国际认证编号是ISS531。",
+    "reference_case": "猪旋毛虫的国际认证编号是ISS533，犬旋毛虫的国际认证编号是ISS530。",
+    "error_detail": "国际认证编号的数据错误",
+    "original_question": "猪旋毛虫和犬旋毛虫的国际认证编号分别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "免疫原为100条肌幼虫，攻击感染原为400条肌幼虫。",
+    "reference_case": "免疫原为50条肌幼虫，攻击感染原为200条肌幼虫。",
+    "error_detail": "免疫原和攻击感染原的数量错误",
+    "original_question": "猪旋毛虫和犬旋毛虫的交叉免疫试验中，小鼠的免疫原和攻击感染原分别是多少条肌幼虫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪旋毛虫对犬旋毛虫的交叉免疫减虫率是90:50%，犬旋毛虫对猪旋毛虫的交叉免疫减虫率是85:45%。",
+    "reference_case": "猪旋毛虫对犬旋毛虫的交叉免疫减虫率是86:47%，犬旋毛虫对猪旋毛虫的交叉免疫减虫率是83:46%。",
+    "error_detail": "交叉免疫减虫率的数据错误",
+    "original_question": "猪旋毛虫和犬旋毛虫的交叉免疫减虫率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小鼠被随机分成10组，其中5组为试验组，5组为对照组。试验组分别用猪旋毛虫和犬旋毛虫进行免疫和攻击感染，对照组则分别用空白进行免疫和攻击感染。",
+    "reference_case": "小鼠被随机分成8组，其中4组为试验组，4组为对照组。试验组分别用猪旋毛虫和犬旋毛虫进行免疫和攻击感染，对照组则分别用空白进行免疫和攻击感染。",
+    "error_detail": "分组数量错误",
+    "original_question": "猪旋毛虫和犬旋毛虫的交叉免疫试验中，小鼠的免疫组和对照组是如何分组的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "攻击感染40天后，剖杀全部小鼠，收集小鼠体内全部肌幼虫，计数每克肌肉中荷虫数（I.PG），并计算肌幼虫的减虫率。",
+    "reference_case": "攻击感染35天后，剖杀全部小鼠，收集小鼠体内全部肌幼虫，计数每克肌肉中荷虫数（I.PG），并计算肌幼虫的减虫率。",
+    "error_detail": "攻击感染后的天数错误",
+    "original_question": "猪旋毛虫和犬旋毛虫的交叉免疫试验中，小鼠的免疫结果处理方法是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪旋毛虫的免疫原性略低于犬旋毛虫，可能是因为猪旋毛虫包囊形成的时间较晚，且产新生蚴的持续时间较短，从而引起更全面的免疫应答反应。",
+    "reference_case": "猪旋毛虫的免疫原性略高于犬旋毛虫，可能是因为猪旋毛虫包囊形成的时间较早，且产新生蚴的持续时间较长，从而引起更全面的免疫应答反应。",
+    "error_detail": "免疫原性的比较和原因描述错误",
+    "original_question": "猪旋毛虫和犬旋毛虫的免疫原性有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "中草药抗猪大肠杆菌制剂的研制中使用了金银花、菊花等中草药。",
+    "reference_case": "中草药抗猪大肠杆菌制剂的研制中使用了仙鹤草、夏枯草等中草药。",
+    "error_detail": "使用的中草药种类错误",
+    "original_question": "中草药抗猪大肠杆菌制剂的研制中，使用了哪些中草药？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "实验动物健康小白鼠购自东北农业大学哈尔滨校区实验动物中心。",
+    "reference_case": "实验动物健康小白鼠购自西南农业大学荣昌校区实验动物中心。",
+    "error_detail": "实验动物来源的地域错误",
+    "original_question": "中草药抗猪大肠杆菌制剂的研制中，实验动物的来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪旋毛虫包囊形成的时间是感染后的20-40天，而犬旋毛虫包囊形成的时间是感染后的25-35天。",
+    "reference_case": "猪旋毛虫包囊形成的时间是感染后的16-38天，而犬旋毛虫包囊形成的时间是感染后的20-32天。",
+    "error_detail": "包囊形成时间的数据错误",
+    "original_question": "猪旋毛虫包囊形成的时间与犬旋毛虫有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "试剂中95%乙醇购自北京药店，其余试剂均购自上海医药公司化学试剂部。",
+    "reference_case": "试剂中95%乙醇购自荣昌药店，其余试剂均购自重庆医药公司化学试剂部。",
+    "error_detail": "试剂来源的地域错误",
+    "original_question": "中草药抗猪大肠杆菌制剂的研制中，试剂的来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灭活过程是按菌液总量的0:5%加入甲醛溶液，充分摇匀，37℃作用24小时，其间摇振5-6次。",
+    "reference_case": "灭活过程是按菌液总量的0:4%加入甲醛溶液，充分摇匀，37℃作用48小时，其间摇振8-10次。",
+    "error_detail": "甲醛溶液的百分比、作用时间和摇振次数的数据错误",
+    "original_question": "仔猪大肠杆菌K88ac-ST1-LTB三价基因工程灭活苗的灭活过程是如何进行的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪旋毛虫的免疫原性比犬旋毛虫的弱，猪旋毛虫免疫得到的减虫率比犬旋毛虫免疫的低。",
+    "reference_case": "猪旋毛虫的免疫原性比犬旋毛虫的强，猪旋毛虫免疫得到的减虫率比犬旋毛虫免疫的高。",
+    "error_detail": "免疫原性的比较和减虫率的描述错误",
+    "original_question": "猪旋毛虫和犬旋毛虫在免疫原性上有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在效力检验中，小白鼠的保护率分别为：990715批90%，990725批80%，990805批70%，990815批90%，990825批80%。",
+    "reference_case": "在效力检验中，小白鼠的保护率分别为：990715批100%，990725批90%，990805批80%，990815批100%，990825批90%。",
+    "error_detail": "保护率的数据错误",
+    "original_question": "仔猪大肠杆菌K88ac-ST1-LTB三价基因工程灭活苗的效力检验中，小白鼠的保护率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "菌液的培养条件是将二级种子按培养基总量的10%接种至含40L改良LB液体培养基的发酵罐中，37℃通气培养12-18小时，通气量10-15m³/min，培养过程中添加灭菌50%葡萄糖溶液，用于补充碳源和调节pH值，pH值调节范围7:2-7:4。",
+    "reference_case": "菌液的培养条件是将二级种子按培养基总量的5%接种至含30L改良LB液体培养基的发酵罐中，37℃通气培养18-24小时，通气量5-10m³/min，培养过程中添加灭菌50%葡萄糖溶液，用于补充碳源和调节pH值，pH值调节范围7:4-7:6。",
+    "error_detail": "接种比例、培养基体积、培养时间、通气量和pH值调节范围的数据错误",
+    "original_question": "仔猪大肠杆菌K88ac-ST1-LTB三价基因工程灭活苗的生产工艺中，菌液的培养条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "批号为990425的疫苗保护率为80%。",
+    "reference_case": "批号为990425的疫苗保护率为90%。",
+    "error_detail": "疫苗保护率的数据错误",
+    "original_question": "仔猪的效力检验中，批号为990425的疫苗保护率是多少？",
+    "original_input": ""
+  }
+]

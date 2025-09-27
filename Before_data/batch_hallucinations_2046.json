@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "喂脂肪或增加能量饲料可以提高初乳与常乳的乳脂率，增加胎儿体内的能量储存，有利于仔猪成活，特别是对弱小的仔猪有益。母猪分娩前1个月，每天补喂300-350克动物脂肪，或每天多喂1.5-1.8千克饲料，可提高母猪泌乳量及乳脂率，并增加仔猪体内脂肪含量，提高初生重不足1千克的仔猪成活率。",
+    "reference_case": "喂脂肪或增加能量饲料可以提高初乳与常乳的乳脂率，增加胎儿体内的能量储存，有利于仔猪成活，特别是对弱小的仔猪有益。母猪分娩前1个月，每天补喂200-250克动物脂肪，或每天多喂1-1.3千克饲料，可提高母猪泌乳量及乳脂率，并增加仔猪体内脂肪含量，提高初生重不足1千克的仔猪成活率。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "2、提高仔猪成活率的脂肪或能量饲料补喂方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "缩短母猪哺乳期，使仔猪早期断奶，对提高母猪年生产能力起决定性影响。这是提高母猪年繁殖力的有效技术措施之一。同时，增加母猪的饲料摄入量可以进一步提高繁殖力。",
+    "reference_case": "缩短母猪哺乳期，使仔猪早期断奶，对提高母猪年生产能力起决定性影响。这是提高母猪年繁殖力的有效技术措施之一。",
+    "error_detail": "添加了不相关的假设",
+    "original_question": "如何通过缩短母猪哺乳期来提高母猪年繁殖力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪饲料一般分成3个阶段，即40千克体重之前饲喂1号料，40千克到80千克饲喂2号料，80千克以后饲喂3号料。",
+    "reference_case": "生长肥育猪饲料一般分成2个阶段，即60千克体重之前饲喂1号料，60千克以后饲喂2号料。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "生长肥育猪饲料一般分为几个阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "由于猪从22千克到100千克对饲料蛋白质、氨基酸、矿物质和维生素等需要量逐渐上升，所以需要分成2个阶段来满足不同阶段的营养需求。",
+    "reference_case": "由于猪从22千克到100千克对饲料蛋白质、氨基酸、矿物质和维生素等需要量逐渐下降，所以需要分成2个阶段来满足不同阶段的营养需求。",
+    "error_detail": "因果错误",
+    "original_question": "为什么生长肥育猪饲料要分成2个阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "配制猪饲料时需要考虑猪的营养需要、饲料原料的营养特点、消化率和适口性等因素，同时也必须考虑饲料的价格和猪的品种。",
+    "reference_case": "配制猪饲料时需要考虑猪的营养需要、饲料原料的营养特点、消化率和适口性等因素，同时也必须考虑饲料的价格。",
+    "error_detail": "添加了不相关的假设",
+    "original_question": "配制猪饲料时需要考虑哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "当猪体重达到30千克时开始肥育，日柃达80天左右，一般进入生长肥育阶段。具体屠宰体重根据猪的品种、饲料和肥猪的价格综合考虑，通常猪体重在90千克至120千克之间屠宰比较合理。",
+    "reference_case": "当猪体重达到25千克时开始肥育，日柃达70天左右，一般进入生长肥育阶段。具体屠宰体重根据猪的品种、饲料和肥猪的价格综合考虑，通常猪体重在80千克至110千克之间屠宰比较合理。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "如何根据猪的体重来调整饲料配比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "有分开喂和配制成全价饲料两种方法。分开喂时，先确定每天每头猪蛋白质浓缩料的饲喂量，而谷物及副产品的饲喂量要逐渐减少；配制成全价饲料时，可以根据浓缩料厂家的建议或表4-84来配制前期、中期和后期3种饲料或前期和后期2种饲料。",
+    "reference_case": "有分开喂和配制成全价饲料两种方法。分开喂时，先确定每天每头猪蛋白质浓缩料的饲喂量，而谷物及副产品的饲喂量要逐渐增加；配制成全价饲料时，可以根据浓缩料厂家的建议或表4-84来配制前期、中期和后期3种饲料或前期和后期2种饲料。",
+    "error_detail": "需求冲突",
+    "original_question": "蛋白质浓缩料和谷物及副产品的饲喂方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "铝元素包含玉米、晶形、南稛、豆根、胡磨tight、鱼轻、骨轻、敞量元素添加剂和维生素。",
+    "reference_case": "铝元素包含玉米、晶形、南稛、豆根、胡磨tight、鱼轻、骨轻、敞量元素添加剂。",
+    "error_detail": "术语错误",
+    "original_question": "铝元素在20干克体重生长肥高猪的饲料配方中包括哪些成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配力65和睆方66试用于白猪后的增重分别为600克和550克。",
+    "reference_case": "配力65和睆方66试用于白猪后的增重分别为557克和537克。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "配力65和睆方66试用于白猪后，增重分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "花生饼含有蛋白质和能量，但赖氨酸和色氨酸含量不足，不能满足猪的需要，同时缺乏维生素。",
+    "reference_case": "花生饼含有蛋白质和能量，但赖氨酸和色氨酸含量不足，不能满足猪的需要。",
+    "error_detail": "术语错误",
+    "original_question": "花生饼作为饲料含有哪些主要营养成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同猪品种的新化能范围从13.50兆焦/千克到15.00兆焦/千克。",
+    "reference_case": "不同猪品种的新化能范围从12.96兆焦/千克到14.23兆焦/千克。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "不同猪品种的新化能（兆焦/千克）范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的增重为800克。",
+    "reference_case": "猪的增重为720克。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "猪的增重是多少克？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "我国大约有80个猪的杂交品种。",
+    "reference_case": "我国大约有60个猪的杂交品种。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "我国大约有多少个猪的杂交品种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "大多数猪场的商品猪主要为杜×括×大等四元杂交品种。",
+    "reference_case": "大多数猪场的商品猪主要为杜×括×大等三元杂交品种。",
+    "error_detail": "术语错误",
+    "original_question": "大多数猪场的商品猪主要为哪种杂交品种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "实验中涉及杜×括×大等三元杂交品种以及地力猪种与源肉型猪种杂交的品种和外来品种。",
+    "reference_case": "实验中涉及杜×括×大等三元杂交品种以及地力猪种与源肉型猪种杂交的品种。",
+    "error_detail": "术语错误",
+    "original_question": "猪增重实验中涉及哪些猪的品种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪饲料配方中包含玉米、花生粕、豆粕、鱼粉、豆油和维生素等成分。",
+    "reference_case": "猪饲料配方中包含玉米、花生粕、豆粕、鱼粉、豆油等成分。",
+    "error_detail": "术语错误",
+    "original_question": "猪饲料配方中包含哪些主要成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "推荐用量控制在15%左右。",
+    "reference_case": "推荐用量控制在13%左右。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "白菜型蛋白质饲粮养肥育猪的推荐用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "18%的菜菔子添加量对肥育猪生长有显著影响，可以提高增重速度。",
+    "reference_case": "原文未提供具体影响信息，无法直接回答是否有影响。",
+    "error_detail": "添加了不相关的假设",
+    "original_question": "18%的菜菔子添加量对肥育猪生长有影响吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方91-96中玉米的比例分别为45.0%、5.0%、15.0%、15.0%、60.5%、36.5%。",
+    "reference_case": "配方91-96中玉米的比例分别为40.0%、0%、10.0%、10.0%、55.5%、31.5%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "不同配方的猪饲料中玉米的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "主要原料包括玉米、碎来、稻谷、菜油渣、肉骨粉、贝壳粉、细米糠、吉词粉、添加剂、管积、食盐和维生素。",
+    "reference_case": "主要原料包括玉米、碎来、稻谷、菜油渣、肉骨粉、贝壳粉、细米糠、吉词粉、添加剂、管积和食盐。",
+    "error_detail": "术语错误",
+    "original_question": "生长肥育猪饲料配方中的主要原料是什么？",
+    "original_input": ""
+  }
+]

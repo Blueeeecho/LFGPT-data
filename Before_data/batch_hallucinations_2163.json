@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "磺胺类药物是第一个成功用于控制BS的药物，可作为单用或与其它抗生素联用，或与磺胺增效剂合用。例如，仔猪支气管肺炎可每天注射25 mg/kg周效磺胺或磺胺嘧啶，与磺胺增效剂5 mg/kg/天合用，连用7天。",
+    "reference_case": "磺胺类药物是第一个成功用于控制BS的药物，可作为单用或与其它抗生素联用，或与磺胺增效剂合用。例如，仔猪支气管肺炎可每天注射12.5 mg/kg周效磺胺或磺胺嘧啶，与磺胺增效剂2.5 mg/kg/天合用，连用3~5天。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "磺胺类药物如何用于控制BS？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "许多猪支气管败血波氏杆菌的分离物对青霉素敏感，特别是土霉素的长效制剂，可用于控制波氏杆菌病。新的氯喹诺酮类药物也对猪支气管败血波氏杆菌有效。",
+    "reference_case": "许多猪支气管败血波氏杆菌的分离物对四环素敏感，特别是土霉素的长效制剂，可用于控制波氏杆菌病。新的氯喹诺酮类药物也对猪支气管败血波氏杆菌有效。",
+    "error_detail": "术语错误",
+    "original_question": "其他药物如何用于治疗BS？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "可在母猪产仔前在饲料中添加磺胺二甲基嘫啶（400~2000 g/t）或青霉素（400~1000 g/t）。哺乳仔猪在3~4周龄注射4~8倍剂量的抗菌剂进行治疗。",
+    "reference_case": "可在母猪产仔前在饲料中添加磺胺二甲基嘫啶（400~2000 g/t）或土霉素（400~1000 g/t）。哺乳仔猪在3~4周龄注射4~8倍剂量的抗菌剂进行治疗。",
+    "error_detail": "过时标准",
+    "original_question": "如何减少母猪的感染及传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "对于断奶仔猪患PAR的情况，可于屠宰时发现有明显的鼻甲骨萎缩，可通过手术方法治疗。",
+    "reference_case": "对于断奶仔猪患PAR的情况，可于屠宰时发现有明显的鼻甲骨萎缩，可通过添加药物或饮水中投放抗生素的方法治疗。",
+    "error_detail": "需求冲突",
+    "original_question": "如何治疗育肥猪的BS？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "多数从猪体中分离出的波氏杆菌含有携带抗药基因的R因子，磺胺类药物在体外抑制支气管败血波氏杆菌的活性，其最小抑菌浓度为1.0~1.5 μg/ml。",
+    "reference_case": "多数从猪体中分离出的波氏杆菌含有携带抗药基因的R因子，磺胺类药物在体外抑制支气管败血波氏杆菌的活性，其最小抑菌浓度为0.5~0.8 μg/ml。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "BS的耐药性问题如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "受感染的种猪场需要经过3年以上的时间的强化免疫后，才能清除产毒性多杀性巴氏杆菌。",
+    "reference_case": "受感染的种猪场需要经过5年以上的时间的强化免疫后，才能清除产毒性多杀性巴氏杆菌。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "受感染的种猪场需要经过多久的强化免疫才能清除产毒性多杀性巴氏杆菌？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "正常免疫过的母猪可以产生高滴度的抗多杀性巴氏杆菌抗体，并且这些抗体可以完全防止感染。",
+    "reference_case": "正常免疫过的母猪可以产生高滴度的抗多杀性巴氏杆菌抗体。",
+    "error_detail": "添加假设",
+    "original_question": "正常免疫过的母猪可以产生什么抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "新引入的公母猪在投放到感染猪群前必须在经数次萎缩性鼻炎毒素疫苗（ART）免疫后，并且需要通过血液检测确认免疫效果。",
+    "reference_case": "新引入的公母猪在投放到感染猪群前必须在经数次萎缩性鼻炎毒素疫苗（ART）免疫后。",
+    "error_detail": "需求冲突",
+    "original_question": "新引入的公母猪在投放到感染猪群前需要经过什么免疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对感染猪群的免疫计划要持续执行，直到该猪群中最后一头母猪离开猪场，一般需3年时间。",
+    "reference_case": "对感染猪群的免疫计划要持续执行，直到该猪群中最后一头母猪离开猪场，一般需5年时间。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "对感染猪群的免疫计划需要持续执行多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "通过细菌学方法、ELISA及PCR检测等途径，从非免疫猪群中剔除携带病原的母猪，由此建立非感染母猪群，并且需要定期复查。",
+    "reference_case": "通过细菌学方法、ELISA及PCR检测等途径，从非免疫猪群中剔除携带病原的母猪，由此建立非感染母猪群。",
+    "error_detail": "需求冲突",
+    "original_question": "如何通过细菌学方法和ELISA检测剔除携带病原的母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在美国，猪的布鲁氏杆菌病曾被认为是一种主要疾病，在本世纪20至60年代引起巨大经济损失。",
+    "reference_case": "在美国，猪的布鲁氏杆菌病曾被认为是一种主要疾病，在本世纪20至50年代引起巨大经济损失。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "猪的布鲁氏杆菌病（布病）在历史上对美国的经济损失有多大？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "布鲁氏杆菌属由流产布氏杆菌、马尔他布氏杆菌、猪布氏杆菌、林鼠布氏杆菌、绵羊布氏杆菌和猫布氏杆菌六个学名的种组成。",
+    "reference_case": "布鲁氏杆菌属由流产布氏杆菌、马尔他布氏杆菌、猪布氏杆菌、林鼠布氏杆菌、绵羊布氏杆菌和犬布氏杆菌六个学名的种组成。",
+    "error_detail": "术语错误",
+    "original_question": "布鲁氏杆菌病的病原体包括哪些种类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪的布鲁氏杆菌病主要由亚种1和亚种3引起，这两种亚种分布在欧洲尤其是东欧地区。",
+    "reference_case": "猪的布鲁氏杆菌病主要由亚种1和亚种3引起，这两种亚种分布在亚洲尤其是东南亚地区。",
+    "error_detail": "地域差异",
+    "original_question": "猪的布鲁氏杆菌病主要由哪些亚种引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪布氏杆菌（B.suis）对人类的致病性大大高于流产布鲁氏杆菌（B. abortus），因为人类更容易接触猪。",
+    "reference_case": "猪布氏杆菌（B.suis）对人类的致病性大大高于流产布鲁氏杆菌（B. abortus），大量接触过感染猪的人组织中有较多数量的猪布鲁氏杆菌，因此猪布鲁氏杆菌在人类的发病几乎全部是职业性的。",
+    "error_detail": "因果错误",
+    "original_question": "猪的布鲁氏杆菌病对公共卫生构成的危害为何比牛的更大？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "管理制度的改变结合根除常规措施，联邦组织的项目在大部分地区逐步消灭了布鲁氏杆菌病，并且建立了长期的监测系统。",
+    "reference_case": "管理制度的改变结合根除常规措施，联邦组织的项目在大部分地区逐步消灭了布鲁氏杆菌病。",
+    "error_detail": "需求冲突",
+    "original_question": "美国如何消灭猪的布鲁氏杆菌病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪的布鲁氏杆菌病在美国西北部的猪群发病率较高，尽管感染率小于1.5%。",
+    "reference_case": "猪的布鲁氏杆菌病在美国东南部的猪群发病率较高，尽管感染率小于1.5%。",
+    "error_detail": "地域差异",
+    "original_question": "猪的布鲁氏杆菌病在美国哪些地区发病率较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "现在美国的猪布氏杆菌病主要是亚种2。",
+    "reference_case": "现在美国的猪布氏杆菌病主要是亚种3。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "美国猪布氏杆菌病的主要亚种是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "多数布氏杆菌感染易感动物是通过间接接触感染的猪进行传播，主要通过呼吸道和生殖道。",
+    "reference_case": "多数布氏杆菌感染易感动物是通过直接接触感染的猪进行传播，主要通过消化道和生殖道。",
+    "error_detail": "术语错误",
+    "original_question": "布氏杆菌病的主要传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "巴斯德灭菌法、直接太阳光照、最常用的灭菌剂均可迅速杀灭B.suis。有机物中的布氏杆菌在冷冻或接近冷冻的温度下可存活1年以上，因此需有效消毒措施。",
+    "reference_case": "巴斯德灭菌法、直接太阳光照、最常用的灭菌剂均可迅速杀灭B.suis。有机物中的布氏杆菌在冷冻或接近冷冻的温度下可存活2年以上，因此需有效消毒措施。",
+    "error_detail": "过时标准",
+    "original_question": "如何有效消毒以根除养猪场的布氏杆菌病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "淋巴细胞转化试验已被用于测量猪场中感染猪的细胞介导的免疫反应，与组织中B.suis的发现有高相关性，但其复杂性限制了作为诊断手段的应用，因此建议使用更简单的方法。",
+    "reference_case": "淋巴细胞转化试验已被用于测量猪场中感染猪的细胞介导的免疫反应，与组织中B.suis的发现有高相关性，但其复杂性限制了作为诊断手段的应用。",
+    "error_detail": "需求冲突",
+    "original_question": "淋巴细胞转化试验如何用于测量猪的免疫反应？",
+    "original_input": ""
+  }
+]

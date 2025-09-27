@@ -1,0 +1,47 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中国养猪业在养殖企业应对市场变化方面的建议包括将饲养规模扩大至原来的两倍，以增强应对未来市场变化的能力。",
+    "reference_case": "中国养猪业在养殖企业应对市场变化方面的建议包括综合考虑当地饲料资源和环境等多方面因素并合理规划饲养规模，研究和建立节粮型或低耗粮型等多种生猪养殖模式，以增强应对未来市场变化的能力。",
+    "error_detail": "错误地建议扩大饲养规模至原来的两倍，忽略了合理规划和多种养殖模式的重要性。",
+    "original_question": "中国养猪业在养殖企业应对市场变化方面有哪些建议？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "唾液酸黏附素（Sn）是猪呼吸与繁殖综合征病毒（PRRSV）的主要抗体，属于唾液酸凝集素免疫球蛋白家族。",
+    "reference_case": "唾液酸黏附素（Sn）是猪呼吸与繁殖综合征病毒（PRRSV）的主要受体，属于唾液酸凝集素免疫球蛋白家族，位于巨噬细胞膜上的I型跨膜蛋白。",
+    "error_detail": "错误地将唾液酸黏附素（Sn）描述为抗体而非受体。",
+    "original_question": "什么是唾液酸黏附素（Sn）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "通过ELISA检测Sn114抗体的特异性，结果显示抗体能够与猪肺泡巨噬细胞的Sn抗原进行特异性结合。",
+    "reference_case": "通过Western blot和巨噬细胞结合试验检测Sn114抗体的特异性，结果显示抗体能够与猪肺泡巨噬细胞的Sn抗原进行特异性结合。",
+    "error_detail": "错误地使用了ELISA而非Western blot和巨噬细胞结合试验来检测Sn114抗体的特异性。",
+    "original_question": "如何检测Sn114抗体的特异性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2004-2005年PRRSV ORF5序列之间的同源性为50%到60%，而2006年的同源性最高达到70%到80%。",
+    "reference_case": "2004-2005年PRRSV ORF5序列之间的同源性为83:6%到99:3%，而2006年的同源性最高达到98:3%到99:2%。",
+    "error_detail": "错误地低估了2004-2005年和2006年PRRSV ORF5序列之间的同源性。",
+    "original_question": "浙江省猪繁殖与呼吸综合征病毒（PRRSV）ORF5基因的变异分析中，2004-2005年与2006年的核苷酸序列同源性有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PEDV的M蛋白是一种抗体蛋白，对病毒的装配及成熟起重要作用。",
+    "reference_case": "PEDV的M蛋白是一种穿膜蛋白，对病毒的装配及成熟起重要作用，同时也是病毒刺激机体产生免疫保护的重要结构蛋白。",
+    "error_detail": "错误地将PEDV的M蛋白描述为抗体蛋白而非穿膜蛋白。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的M蛋白在病毒生命周期中起什么作用？",
+    "original_input": ""
+  }
+]

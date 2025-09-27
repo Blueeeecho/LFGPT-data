@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同时间段添加激素对猪卵母细胞进行培养，3组差异显著（P<0.05）。",
+    "reference_case": "不同时间段添加激素对猪卵母细胞进行培养，3组差异不显著（P>0.05）。",
+    "error_detail": "错误地改变了统计显著性结果",
+    "original_question": "外源激素添加不同时间对猪卵母细胞成熟的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "改良TCM1999中添加了0.1% PVA、0.57 mol·L-1 半胱氨酸、3.05 mmol·L-1 葡萄糖和0.91 mmol·L-1 丙酮酸钠。",
+    "reference_case": "改良TCM1999中添加了0.1% PVA、0.57 mol·L-1 半胱氨酸、3.05 mmol·L-1 葡萄糖和0.91 mmol·L-1 丙酮酸钠。",
+    "error_detail": "错误地重复了相同的成分列表，没有提供新的或不同的信息",
+    "original_question": "改良TCM1999中添加了哪些成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "添加血清对猪卵母细胞的成熟有显著影响（P<0.05），有血清组成熟率更高。",
+    "reference_case": "添加血清对猪卵母细胞的成熟有显著影响（P<0.05），无血清组成熟率更高。",
+    "error_detail": "错误地颠倒了血清对成熟率的影响",
+    "original_question": "添加血清对猪卵母细胞成熟率有无影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "有血清组卵丘细胞扩散较差，无血清组卵丘细胞扩散较好。",
+    "reference_case": "有血清组卵丘细胞扩散较好，无血清组卵丘细胞扩散较差。",
+    "error_detail": "错误地颠倒了血清对卵丘细胞扩散的影响",
+    "original_question": "血清对猪卵母细胞成熟过程中的卵丘细胞扩散有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在不同时间段添加激素不会影响卵母细胞质的成熟或使得胞质与核成熟不同步。",
+    "reference_case": "在不同时间段添加激素会影响卵母细胞质的成熟或使得胞质与核成熟不同步，但具体影响因实验而异。",
+    "error_detail": "错误地否定了激素添加时间的影响",
+    "original_question": "外源激素添加不同时间对猪卵母细胞成熟有影响吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "eCG 和 FSH 对猪卵母细胞的体外成熟更为有效。",
+    "reference_case": "eCG 和 hCG 对猪卵母细胞的体外成熟更为有效。",
+    "error_detail": "错误地替换了激素类型",
+    "original_question": "哪些激素对猪卵母细胞的体外成熟更为有效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "TCM199 粉剂组较 mM199 组的卵母细胞成熟率高。",
+    "reference_case": "mM199 组较 TCM199 粉剂组和 TCM199 原液组的卵母细胞成熟率高，可能与 mM199 中添加了 Cys 有关。",
+    "error_detail": "错误地颠倒了成熟率的比较结果",
+    "original_question": "哪种培养液更有利于猪卵母细胞的体外成熟？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "半胱氨酸的添加不利于谷胱甘肽的生成，可以增加卵母细胞内的氧自由基，从而降低卵母细胞成熟率。",
+    "reference_case": "半胱氨酸的添加有利于谷胱甘肽的生成，可以清除卵母细胞内的氧自由基，从而提高卵母细胞成熟率。",
+    "error_detail": "错误地颠倒了半胱氨酸的作用",
+    "original_question": "半胱氨酸对猪卵母细胞成熟有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "含血清组用于猪卵母细胞成熟培养的成熟率显著高于无血清组。",
+    "reference_case": "无血清组用于猪卵母细胞成熟培养的成熟率显著高于含血清组，且以 mM199 为基础液不添加血清可以避免血清中某些未知成分的不良影响。",
+    "error_detail": "错误地颠倒了血清对成熟率的影响",
+    "original_question": "血清对猪卵母细胞成熟有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加1% ITS能够有效增加囊胚率，从而显著提高胚胎发育质量，但不能提高胚胎分裂率及囊胚内细胞数。",
+    "reference_case": "添加1% ITS能够有效增加囊胚内细胞数，从而显著提高胚胎发育质量，但不能提高胚胎分裂率及囊胚率。",
+    "error_detail": "错误地颠倒了ITS对囊胚率和囊胚内细胞数的影响",
+    "original_question": "添加1% ITS对猪胚胎体外发育的影响主要体现在哪些方面？",
+    "original_input": ""
+  }
+]

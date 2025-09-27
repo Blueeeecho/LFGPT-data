@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "免疫期为12个月。",
+    "reference_case": "免疫期为6个月。",
+    "error_detail": "错误地延长了免疫期。",
+    "original_question": "猪O型口蹄疫灭活苗的免疫期是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "怀孕母猪产前2个月肌肉注射10mL，隔30天再注射10mL。也可在产前30天左右1次注射20mL。",
+    "reference_case": "怀孕母猪产前1个月肌肉注射5mL，隔15天再注射5mL。也可在产前15天左右1次注射10mL。",
+    "error_detail": "错误地改变了注射时间和注射量。",
+    "original_question": "仔猪红痢氢氧化铝菌苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "主要用于牛的肠炎、肺炎、仔牛白痢、牛丹毒、牛胸膜肺炎等病的治疗。",
+    "reference_case": "主要用于猪的肠炎、肺炎、仔猪白痢、猪丹毒、猪胸膜肺炎等病的治疗。",
+    "error_detail": "错误地将氨苏青霉素的主要治疗对象从猪改为牛。",
+    "original_question": "氨苏青霉素主要用于治疗哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "常用于预防和治疗牛气喘病、牛痢疾、乳房炎、子宫炎、螺旋体病等。",
+    "reference_case": "常用于预防和治疗猪气喘病、猪痢疾、乳房炎、子宫炎、螺旋体病等。",
+    "error_detail": "错误地将泰乐霉素的主要治疗对象从猪改为牛。",
+    "original_question": "泰乐霉素（泰乐菌素）常用于预防和治疗哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪水疱病的潜伏期为10至15天，与毒株的毒力、感染病毒的数量和猪群的敏感性无关。",
+    "reference_case": "猪水疱病的潜伏期为2至5天，与毒株的毒力、感染病毒的数量和猪群的敏感性有关。",
+    "error_detail": "错误地将猪水疱病的潜伏期从2至5天改为10至15天，并错误地否认了影响因素。",
+    "original_question": "猪水疱病的潜伏期是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "双重 RT-PCR 方法对猪繁殖与呼吸综合征病毒、猪日本脑炎病毒、猪伪狂犬病病毒、猪流行性腹泻病毒、猪传染性胃肠炎病毒、猪圆环病毒 2 型的扩增结果均为阳性。",
+    "reference_case": "双重 RT-PCR 方法对猪繁殖与呼吸综合征病毒、猪日本脑炎病毒、猪伪狂犬病病毒、猪流行性腹泻病毒、猪传染性胃肠炎病毒、猪圆环病毒 2 型的扩增结果均为阴性。",
+    "error_detail": "错误地将扩增结果从阴性改为阳性。",
+    "original_question": "双重 RT-PCR 方法在检测其他病毒时的表现如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪瘟病毒和牛病毒性腹泻病毒双重 RT-PCR 方法的最佳退火温度为 60°C。",
+    "reference_case": "猪瘟病毒和牛病毒性腹泻病毒双重 RT-PCR 方法的最佳退火温度为 56°C。",
+    "error_detail": "错误地改变了退火温度的数值。",
+    "original_question": "猪瘟病毒和牛病毒性腹泻病毒双重 RT-PCR 方法的退火温度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在接触酶试验中，Hps和Pm表现为阴性，而App的结果变化不定。",
+    "reference_case": "在接触酶试验中，Hps和Pm表现为阳性，而App的结果变化不定。",
+    "error_detail": "错误地改变了Hps和Pm的试验结果。",
+    "original_question": "猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌的接触酶试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在溶血性试验中，App菌落周围无溶血现象，而Hps和Pm菌落周围均有溶血现象。",
+    "reference_case": "在溶血性试验中，App菌落周围有明显的溶血现象，而Hps和Pm菌落周围均无溶血现象。",
+    "error_detail": "错误地改变了App、Hps和Pm的溶血性试验结果。",
+    "original_question": "猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌的溶血性试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在靛基质试验中，Pm表现为阴性，而Hps和App表现为阳性。",
+    "reference_case": "在靛基质试验中，Pm表现为阳性，而Hps和App表现为阴性。",
+    "error_detail": "错误地改变了Pm、Hps和App的靛基质试验结果。",
+    "original_question": "猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌的靛基质试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在山梨醇试验中，Hps和App表现为阳性，而Pm的结果因菌株不同而有所变化，Pm-A为阴性，Pm-B为阳性。",
+    "reference_case": "在山梨醇试验中，Hps和App表现为阴性，而Pm的结果因菌株不同而有所变化，Pm-A为阳性，Pm-B为阴性。",
+    "error_detail": "错误地改变了Hps、App和Pm的山梨醇试验结果。",
+    "original_question": "猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌的山梨醇试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在尿素酶试验中，App表现为阴性，而Hps和Pm表现为阳性。",
+    "reference_case": "在尿素酶试验中，App表现为阳性，而Hps和Pm表现为阴性。",
+    "error_detail": "错误地改变了App、Hps和Pm的尿素酶试验结果。",
+    "original_question": "猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌的尿素酶试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪腺病毒属于腺病毒科、乳腺病毒属，病毒粒子直径为90~100 nm。",
+    "reference_case": "猪腺病毒属于腺病毒科、乳腺病毒属。",
+    "error_detail": "错误地增加了病毒粒子的直径数据，与原始信息不符。",
+    "original_question": "猪腺病毒属于哪一科哪一属？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪腺病毒感染的潜伏期为7~10天。",
+    "reference_case": "猪腺病毒感染的潜伏期为3~4天。",
+    "error_detail": "错误地延长了潜伏期的时间。",
+    "original_question": "猪腺病毒感染的潜伏期为多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪脑心肌炎病毒的病毒颗粒直径为50 nm。",
+    "reference_case": "猪脑心肌炎病毒的病毒颗粒直径为25 nm，无囊膜。",
+    "error_detail": "错误地增加了病毒颗粒的直径。",
+    "original_question": "猪脑心肌炎病毒的病毒粒子特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灭活疫苗能有效地抵抗 Fg 型野毒的攻击，断奶仔猪一次皮下注射 10 mL，2周便可产生明显的免疫力，3周便可产生坚强的免疫力。免疫期可达 12 个月以上，且对 Fo 型巴氏杆菌也有完全的免疫力。",
+    "reference_case": "有灭活和弱毒两类疫苗可供预防接种。灭活疫苗能有效地抵抗 Fg 型野毒的攻击，断奶仔猪一次皮下注射 5 mL，2周便可产生明显的免疫力，3周便可产生坚强的免疫力。免疫期可达 6 个月以上，且对 Fo 型巴氏杆菌也有一定的免疫力。",
+    "error_detail": "数值和比例被夸大，免疫期和免疫力描述不准确",
+    "original_question": "猪肺疫的预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "接种活疫苗的猪在强毒攻击后，100%能完全保护肺组织不出现任何病变，免疫期可达24个月。",
+    "reference_case": "接种活疫苗的猪在强毒攻击后，80%能完全保护肺组织不出现任何病变，免疫期可达12个月。",
+    "error_detail": "保护率和免疫期被夸大",
+    "original_question": "活疫苗对猪肺炎支原体的保护效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "泰乐菌素按10 mg/kg体重肌肉注射，每日1次，连续用药3天，对人工感染诱发的猪支原体肺炎的治愈率达90%，并可显著提高猪体增重。",
+    "reference_case": "泰乐菌素按5 mg/kg体重肌肉注射，每日2次，连续用药7天，对人工感染诱发的猪支原体肺炎的治愈率达63.6%，并可提高猪体增重。",
+    "error_detail": "药物剂量、用药频率和治愈率描述错误",
+    "original_question": "泰乐菌素对猪支原体肺炎的治疗效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "炭疽病在猪身上的潜伏期为7至14天。",
+    "reference_case": "炭疽病在猪身上的潜伏期为1至5天。",
+    "error_detail": "潜伏期描述错误",
+    "original_question": "炭疽病在猪身上的潜伏期为多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "钩端螺旋体病对猪的影响包括发热、黄疸、血红蛋白尿、流产、出血性素质、水肿等症状，且死亡率高达90%。",
+    "reference_case": "临床病猪表现发热、黄疸、血红蛋白尿、流产、出血性素质、水肿等症状。",
+    "error_detail": "错误地添加了死亡率高达90%的数据，原始输出中并未提及具体死亡率。",
+    "original_question": "钩端螺旋体病对猪的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪胸膜肺炎放线菌在巧克力琼脂上培养12小时能形成淡灰色、不透明的菌落。",
+    "reference_case": "猪胸膜肺炎放线菌在巧克力琼脂上培养24-48小时能形成淡灰色、不透明的菌落，血平板上具有溶血性。",
+    "error_detail": "错误地将培养时间从24-48小时缩短为12小时，与原始输出不符。",
+    "original_question": "猪胸膜肺炎放线菌的培养特性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "最急性型病猪突然发病，体温升高到42°C以上。",
+    "reference_case": "最急性型病猪突然发病，体温升高到41.5°C以上，沉郁，食欲废绝，卧地，呼吸极度困难，犬坐姿势，张口呼吸，临死前口鼻流出血性泡沫样分泌物，病猪一般于24-36小时内死亡。急性型病猪体温升高到40.5°C以上，精神沉郁，食欲不振，呼吸困难，咳喇。亚急性和慢性型病猪体温稍高或正常，食欲不振，有不同程度的呼吸道症状，间歇性咳喇，生长阻滞。",
+    "error_detail": "错误地将最急性型病猪的体温从41.5°C以上提高到42°C以上，与原始输出不符。",
+    "original_question": "猪接触传染性胸膜肺炎有哪些症状表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "急性猪副伤寒多发于2~5月龄仔猪。",
+    "reference_case": "急性猪副伤寒多发于1~4月龄仔猪。",
+    "error_detail": "错误地改变了多发月龄范围，与原始输出不符。",
+    "original_question": "急性猪副伤寒多发于哪个月龄的仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪感染少量囊虫时一般无明显症状，严重感染时病猪出现营养不良、消瘦、发育受阻等症状。寄生部位不同可表现出眼结膜肿胀、神经症状、肌肉震颤、皮下隆起等，感染率高达90%。",
+    "reference_case": "猪感染少量囊虫时一般无明显症状，严重感染时病猪出现营养不良、消瘦、发育受阻等症状。寄生部位不同可表现出眼结膜肿胀、神经症状、肌肉震颤、皮下隆起等。",
+    "error_detail": "添加了不准确的感染率数据",
+    "original_question": "猪囊虫病的主要临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "红色猪圆线虫的虫卵呈长椭圆形，卵壳薄，内含肧细胞8～16个，虫卵长65～83μm，宽32～42μm，是所有猪胃线虫中最大的。",
+    "reference_case": "红色猪圆线虫的虫卵呈长椭圆形，卵壳薄，内含肧细胞8～16个，虫卵长65～83μm，宽32～42μm。",
+    "error_detail": "错误地添加了比较性描述",
+    "original_question": "红色猪圆线虫的虫卵特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "左咪唑按每千克体重10mg，肌肉注射；或每千克体重25-30mg，一次喂服。丙硫咪唑按每千克体重50mg，配成灭菌溶液，腹腔内注射。这些剂量适用于所有年龄的猪。",
+    "reference_case": "左咪唑按每千克体重10mg，肌肉注射；或每千克体重25-30mg，一次喂服。丙硫咪唑按每千克体重50mg，配成灭菌溶液，腹腔内注射。",
+    "error_detail": "错误地添加了适用于所有年龄的猪的信息",
+    "original_question": "治疗猪感染甲虫寄生虫的常用药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "首次用药后间隔5～7天，再用药治疗1次。如果症状未缓解，可以缩短间隔时间至3天。",
+    "reference_case": "首次用药后间隔5～7天，再用药治疗1次。",
+    "error_detail": "错误地添加了缩短间隔时间的建议",
+    "original_question": "治疗猪疿螨病时，首次用药后应何时再次用药？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪肠便秘的病因是长期饲喂过多的肉类。",
+    "reference_case": "饲养管理不善是发病的根本原因，如长期饲喂干燥谷物、麸皮、不易消化的含粗纤维多的劣质饲料；饲料中混有泥沙等异物或突然更换不易消化的饲料等；饮水不足、缺乏运动等均可引起便秘发生。继发性肠便秘多见于一些高热性疾病，如猪瘟、猪丹毒、猪肺疫等。",
+    "error_detail": "错误地将猪肠便秘的病因归咎于长期饲喂过多的肉类，而实际上是由于饲养管理不善和饲料问题。",
+    "original_question": "猪肠便秘的病因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪流产的原因只有传染性一类。",
+    "reference_case": "猪流产的原因分为传染性和非传染性两类。传染性流产由伪狂犬病、细小病毒病、乙型脑炎、猪生殖与呼吸综合征、布鲁氏菌病、猪瘟、弓形体病、钧端螺旋体病等传染病和寄生虫病引起；非传染性流产由营养缺乏、霉变饲料、挤压、中毒、长途运输、用药不当等因素引起。",
+    "error_detail": "错误地认为猪流产的原因只有传染性一类，而实际上分为传染性和非传染性两类。",
+    "original_question": "猪流产的原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "多杀性巴氏杆菌只对猪有致病性。",
+    "reference_case": "对鸡、鸭、鹅、野禽、猪、牛、羊、马、兔等均有致病性；毒力因子有荚膜、菌毛和内毒素等；带菌健康动物具有免疫力；动物患病痊愈后，可获得较强的免疫力。",
+    "error_detail": "错误地认为多杀性巴氏杆菌只对猪有致病性，而实际上对多种动物均有致病性。",
+    "original_question": "多杀性巴氏杆菌的危害有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪痢疾蛇形螺旋体对所有动物都有致病性。",
+    "reference_case": "猪痢疾蛇形螺旋体广泛分布于水生环境和动物体内，种类很多，大部分为腐生生活或共生，无致病性，只有一小部分可引起猪痢疾。",
+    "error_detail": "错误地认为猪痢疾蛇形螺旋体对所有动物都有致病性，而实际上只有一小部分可引起猪痢疾。",
+    "original_question": "猪痢疾蛇形螺旋体的特性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "配合猪饲粮时，能量指标可以有正负1兆卡的变动。",
+    "reference_case": "能量指标可以有正负0.1兆卡的变动。",
+    "error_detail": "错误地将能量指标的变动范围扩大为1兆卡，而实际上只有0.1兆卡的变动。",
+    "original_question": "配合猪饲粮时，能量指标可以有正负多少兆卡的变动？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配合猪饲粮时，粗蛋白质、赖氨酸、蛋氨酸加胱氨酸需要达到的最低必需量是20%。",
+    "reference_case": "配合猪饲粮时，这些养分含量只能高于规定的最低必需量。",
+    "error_detail": "错误地指定了具体的数值，而原始输出并未提供具体数值。",
+    "original_question": "配合猪饲粮时，粗蛋白质、赖氨酸、蛋氨酸加胱氨酸需要达到多少最低必需量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配合猪饲粮时，钙磷比不能大于3:1。",
+    "reference_case": "配合猪饲粮时，钙磷比不能大于2:1。",
+    "error_detail": "错误地改变了钙磷比的比例。",
+    "original_question": "配合猪饲粮时，钙磷比例有什么要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配合猪饲粮时，粗纤维含量不能高于10%。",
+    "reference_case": "配合猪饲粮时，粗纤维含量是一个最高限量，不能高于规定值。",
+    "error_detail": "错误地指定了具体的数值，而原始输出并未提供具体数值。",
+    "original_question": "配合猪饲粮时，粗纤维含量有什么限制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配合猪饲粮时，目标能量值是3.5兆卡/公斤，但允许有0.1兆卡的变动范围。",
+    "reference_case": "配合猪饲粮时，目标能量值是3.1兆卡/公斤，但允许有0.1兆卡的变动范围。",
+    "error_detail": "错误地改变了目标能量值的具体数值。",
+    "original_question": "配合猪饲粮时，目标能量值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配合猪饲粮时，要求粗纤维低于10%。",
+    "reference_case": "配合猪饲粮时，要求粗纤维低于6%。",
+    "error_detail": "错误地改变了粗纤维含量的具体数值。",
+    "original_question": "配合猪饲粮时，粗纤维含量有什么要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配合猪饲粮时，预留5%用作矿物盐（包括食盐）、维生素或其他添加剂预混料。",
+    "reference_case": "配合猪饲粮时，预留2%用作矿物盐（包括食盐）、维生素或其他添加剂预混料。",
+    "error_detail": "错误地改变了预留比例的具体数值。",
+    "original_question": "配合猪饲粮时，如何预留部分饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预混料在配合饲粮中占5%，即每吨饲粮预混料为50公斤。",
+    "reference_case": "预混料在配合饲粮中占2%，即每吨饲粮预混料为20公斤。",
+    "error_detail": "错误地改变了预混料的比例和具体数值。",
+    "original_question": "育肥猪饲料中预混料的添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每吨饲料需添加钙50公斤（已扣除饲料中含有的0.14%钙，即每吨1.4公斤）。",
+    "reference_case": "每吨饲料需添加钙46公斤（已扣除饲料中含有的0.14%钙，即每吨1.4公斤）。",
+    "error_detail": "错误地改变了钙的添加量。",
+    "original_question": "育肥猪饲料中每吨饲料需添加多少钙？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用配合饲料喂猪，6个月体重就能达到100公斤；用配合饲料喂鸡，每只母鸡年产蛋200-250个；用配合饲料喂肉用鸡，只需3公斤饲料可生产1公斤肉。",
+    "reference_case": "用配合饲料喂猪，6个月体重就能达到80公斤；用配合饲料喂鸡，每只母鸡年产蛋240-300个；用配合饲料喂肉用鸡，只需2公斤饲料可生产1公斤肉。",
+    "error_detail": "错误地改变了生产效率的具体数值。",
+    "original_question": "配合饲料在提高畜禽生产效率方面有何具体表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪 5~10 公斤；牛 10~15 公斤；马 7~8 公斤；羊 3~4 公斤。",
+    "reference_case": "猪 3~7 公斤；牛 8~12 公斤；马 5~6 公斤；羊 1~2 公斤。",
+    "error_detail": "错误地改变了饲喂量的具体数值。",
+    "original_question": "马铃薯对不同家畜的饲喂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "水解羽粉主要用于猪、禽日粮，可代替10%的大豆蛋白，还可代替鱼粉。",
+    "reference_case": "水解羽粉主要用于猪、禽日粮，可代替5%的大豆蛋白，还可代替鱼粉。",
+    "error_detail": "错误地改变了可代替的大豆蛋白比例。",
+    "original_question": "水解羽粉的主要用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "表2-47中不同饲料的赖氨酸含量分别为：延米0.34%，高粱0.33%，大麦0.47%，裸考0.47%，大豆2.69%，棉籽0.248%，菜籽1.74%，花生粕1.54%，猪肝0.99%，鸡皮0.74%，角筋（白条鱼）5.53%，鱼肉（沙丁鱼）4.42%，肉鸡2.59%。",
+    "reference_case": "表2-47中不同饲料的赖氨酸含量分别为：延米0.24%，高粱0.23%，大麦0.37%，裸考0.37%，大豆2.59%，棉籽0.148%，菜籽1.64%，花生粕1.44%，猪肝0.89%，鸡皮0.64%，角筋（白条鱼）5.43%，鱼肉（沙丁鱼）4.32%，肉鸡2.49%。",
+    "error_detail": "数值偏差",
+    "original_question": "表2-47中的赖氨酸含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "表2-47中不同饲料的粗蛋白含量分别为：延米3.7%，高粱3.4%，大麦4.4%，裸考4.2%，大豆6.6%，棉籽5.1%，菜籽5.6%，花生粕4.0%，猪肝6.8%，鸡皮5.0%，角筋（白条鱼）9.2%，鱼肉（沙丁鱼）7.7%，肉鸡6.1%。",
+    "reference_case": "表2-47中不同饲料的粗蛋白含量分别为：延米2.7%，高粱2.4%，大麦3.4%，裸考3.2%，大豆5.6%，棉籽4.1%，菜籽4.6%，花生粕3.0%，猪肝5.8%，鸡皮4.0%，角筋（白条鱼）8.2%，鱼肉（沙丁鱼）6.7%，肉鸡5.1%。",
+    "error_detail": "数值偏差",
+    "original_question": "表2-47中粗蛋白含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高能配方中高蛋白含量为73.24%，低蛋白含量为57.34%；低能配方中高蛋白含量为27.1%，低蛋白含量为24.7%。",
+    "reference_case": "高能配方中高蛋白含量为63.24%，低蛋白含量为47.34%；低能配方中高蛋白含量为17.1%，低蛋白含量为14.7%。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪日粮配方中高能配方和低能配方在蛋白质含量上有何区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "两种配方中的碳源含量均为0.55%。",
+    "reference_case": "两种配方中的碳源含量均为0.45%。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪日粮配方中的碳源含量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高能配方中的脂肪含量为33.7%，低能配方中的脂肪含量为27.1%。",
+    "reference_case": "高能配方中的脂肪含量为23.7%，低能配方中的脂肪含量为17.1%。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪日粮配方中的脂肪含量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉用猪日粮配方中玉米的占比是26%。",
+    "reference_case": "肉用猪日粮配方中玉米的占比是16%。",
+    "error_detail": "数值偏差",
+    "original_question": "肉用猪日粮配方中玉米的占比是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉用猪日粮配方中消化能的总量是2905千卡/公斤。",
+    "reference_case": "肉用猪日粮配方中消化能的总量是2805千卡/公斤。",
+    "error_detail": "数值偏差",
+    "original_question": "肉用猪日粮配方中消化能的总量是多少千卡/公斤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉用猪日粮配方中蛋白质的总量是25.45%。",
+    "reference_case": "肉用猪日粮配方中蛋白质的总量是15.45%。",
+    "error_detail": "数值偏差",
+    "original_question": "肉用猪日粮配方中蛋白质的总量是多少百分比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉用猪日粮配方中钙的总量是18.07%。",
+    "reference_case": "肉用猪日粮配方中钙的总量是8.07%。",
+    "error_detail": "数值偏差",
+    "original_question": "肉用猪日粮配方中钙的总量是多少百分比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉用猪日粮配方中磷的总量是1.900%。",
+    "reference_case": "肉用猪日粮配方中磷的总量是0.900%。",
+    "error_detail": "数值偏差",
+    "original_question": "肉用猪日粮配方中磷的总量是多少百分比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "早期断奶可缩短产仔间隔至1个月，提高母猪繁殖效率。",
+    "reference_case": "早期断奶可缩短产仔间隔，提高母猪繁殖效率。",
+    "error_detail": "错误地缩短了产仔间隔的具体时间",
+    "original_question": "早期断奶对母猪繁殖有什么好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "合理安排公猪采精频率是维持公猪健康水平和最大限度采取公猪精子数量的重要条件。公猪每次射精时排出大量精子，并很快使附睾贮存排空，因此，采精时间间隔最少为3天；如果需要每天采精，则连续3天后需休息2~3天。",
+    "reference_case": "合理安排公猪采精频率是维持公猪健康水平和最大限度采取公猪精子数量的重要条件。公猪每次射精时排出大量精子，并很快使附睾贮存排空，因此，采精时间间隔最少为1天；如果需要每天采精，则连续2天后需休息1~2天。",
+    "error_detail": "错误的采精频率和休息时间",
+    "original_question": "采精频率应如何安排？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "稀释精液应在25℃条件下进行，采精后及时稀释，稀释液与精液的温度必须调整一致。稀释时，使稀释液沿精液瓶壁缓缓加入，避免将精液迅速倒入稀释液内。如果做高倍稀释，应分次进行，避免精子所处环境剧烈变化。精液稀释后立即进行镜检，如果活率下降，则说明操作不当。公猪精液一般稀释1~2倍，或按每毫升稀释精液含0.5亿活动精子为原则进行稀释。",
+    "reference_case": "稀释精液应在30℃条件下进行，采精后及时稀释，稀释液与精液的温度必须调整一致。稀释时，使稀释液沿精液瓶壁缓缓加入，避免将精液迅速倒入稀释液内。如果做高倍稀释，应分次进行，避免精子所处环境剧烈变化。精液稀释后立即进行镜检，如果活率下降，则说明操作不当。公猪精液一般稀释2~4倍，或按每毫升稀释精液含1亿活动精子为原则进行稀释。",
+    "error_detail": "错误的稀释温度和稀释比例",
+    "original_question": "稀释精液的方法和注意事项有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪舍采暖设计负荷热指标参照住宅指标2.5倍计算。",
+    "reference_case": "猪舍采暖设计负荷热指标参照住宅指标1.8倍计算。",
+    "error_detail": "错误的负荷热指标倍数",
+    "original_question": "猪舍采暖设计负荷热指标如何计算？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "睾丸下降的时间因畜种而异，如马在出生后1个月进入阴囊，猪在胎儿期最后三分之一时进入阴囊。",
+    "reference_case": "睾丸下降的时间因畜种而异，如马在出生前后进入阴囊，猪在胎儿期最后四分之一时进入阴囊。",
+    "error_detail": "错误的睾丸下降时间",
+    "original_question": "睾丸下降的时间因哪些因素而异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牛的卵巢为圆形，重量在15-25克；羔羊的卵巢也为圆形，重量在5-6克；猪的卵巢为浆果形，重量在5-9克；马的卵巢为肾形，有排卵窝，重量在50-90克。",
+    "reference_case": "牛的卵巢为卵圆形，重量在10-20克；羔羊的卵巢也为卵圆形，重量在3-4克；猪的卵巢为浆果形，重量在3-7克；马的卵巢为肾形，有排卵窝，重量在40-80克。",
+    "error_detail": "错误的卵巢形状和重量",
+    "original_question": "哺乳动物卵巢的形状和重量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪的子宫角长度为25-30厘米。",
+    "reference_case": "母猪的子宫角长度为35-40厘米。",
+    "error_detail": "错误的子宫角长度",
+    "original_question": "子宫角的形状和长度因畜种而异，母猪的子宫角长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在分娩后，子宫经过复原的过程，几乎复到原先的大小和形状，母猪产后14天内，子宫的重量和长度持续下降，在小猪断奶后2天内，子宫重量和长度又都增加。",
+    "reference_case": "在分娩后，子宫经过复原的过程，几乎复到原先的大小和形状，母猪产后28天内，子宫的重量和长度持续下降，在小猪断奶后4天内，子宫重量和长度又都增加。",
+    "error_detail": "错误的复原时间",
+    "original_question": "子宫在分娩后会发生什么变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母畜在每个发情周期中通常排出3或4个卵子，猪可排出20—25个。",
+    "reference_case": "母畜在每个发情周期中通常排出1或2个卵子，猪可排出10—15个。",
+    "error_detail": "错误的卵子排出数量",
+    "original_question": "母畜在每个发情周期中通常排出多少个卵子？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牛的发情期持续10小时（3-20小时），绵羊为20小时（10-40小时），山羊为30小时（20-80小时），猪为40小时（20-60小时），马为5天（1-7天）。",
+    "reference_case": "牛的发情期持续15小时（5-30小时），绵羊为24小时（15-50小时），山羊为32小时（24-96小时），猪为50小时（24-77小时），马为7天（2-10天）。",
+    "error_detail": "错误的发情期持续时间",
+    "original_question": "不同种类的母畜发情期持续时间是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公畜在交配过程中的持续时间如何？牛和绵羊的交配持续时间较长（一分钟或更多），山羊为10分钟，猪为1分钟。",
+    "reference_case": "公畜在交配过程中的持续时间如何？牛和绵羊的交配持续时间短促（一秒钟或更少），山羊为5分钟，猪为40秒钟。",
+    "error_detail": "错误的交配持续时间",
+    "original_question": "公畜在交配过程中的持续时间如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "牛的射精量为10-15毫升，射精次数最大值为100-120次；绵羊为2毫升，射精次数最大值为50-60次；山羊为2毫升，射精次数最大值为20次；猪为250-300毫升，射精次数最大值为10次；马为80-120毫升，射精次数最大值为30次。",
+    "reference_case": "牛的射精量为5-8毫升，射精次数最大值为60-80次；绵羊为1毫升，射精次数最大值为30-40次；山羊为1毫升，射精次数最大值为14次；猪为150-200毫升，射精次数最大值为8次；马为60-100毫升，射精次数最大值为20次。",
+    "error_detail": "夸大了射精量和射精次数的数值。",
+    "original_question": "不同种类的公畜射精量和射精次数有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "公马精液中的磷脂百分比与公牛或公猪相比很高。",
+    "reference_case": "公马精液中的磷脂百分比很低。",
+    "error_detail": "错误地改变了公马精液中磷脂的百分比描述。",
+    "original_question": "公马精液中的磷脂百分比与公牛或公猪相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "牛和绵羊的隐睾发生率高于其它家畜，可能与遗传缺陷有关。",
+    "reference_case": "猪和马的隐睾发生率高于其它家畜，可能与遗传缺陷有关。",
+    "error_detail": "错误地改变了隐睾发生率高的动物种类。",
+    "original_question": "什么样的家畜更容易发生隐睾现象？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪在断奶后1—2天开始发情。",
+    "reference_case": "母猪在断奶后3—8天开始发情。",
+    "error_detail": "错误地缩短了母猪开始发情的时间范围，与原始output不符。",
+    "original_question": "母猪在什么时间开始发情？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在断奶时注射PMSG能使母猪的这一间隔时间缩短3-4天。",
+    "reference_case": "在断奶时注射PMSG能使母猪的这一间隔时间缩短1-2天。",
+    "error_detail": "错误地夸大了PMSG对缩短发情间隔时间的效果，与原始output不符。",
+    "original_question": "如何缩短母猪产后发情间隔时间？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "对断奶后仍不发情的母猪，一次合并注射PMSG和HCG，5天内有80%以上的受试母猪发情，且90%以上可以受精。",
+    "reference_case": "对断奶后仍不发情的母猪，一次合并注射PMSG和HCG，10天内有80%以上的受试母猪发情，且90%以上可以受精。",
+    "error_detail": "错误地缩短了发情反应的时间，与原始output不符。",
+    "original_question": "孕激素处理与PMSG联合使用对母猪有何效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "超声波检查法在诊断母猪妊娠时，可以在100-200天提供准确结果，在晚期妊娠时容易进行且准确。",
+    "reference_case": "超声波检查法在诊断母猪妊娠时，可以在150-250天提供准确结果，在晚期妊娠时容易进行且准确。",
+    "error_detail": "错误地调整了提供准确结果的时间范围，与原始output不符。",
+    "original_question": "超声波检查法在诊断母猪妊娠时，可以在哪些时间段提供准确结果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "给妊娠30-90天的经产或头产青年母猪进行超声波妊娠诊断，准确率可达85%。",
+    "reference_case": "给妊娠30-90天的经产或头产青年母猪进行超声波妊娠诊断，准确率可达95%。",
+    "error_detail": "错误地降低了超声波诊断的准确率，与原始output不符。",
+    "original_question": "超声波诊断在妊娠早期猪胎动的准确率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在广东省，不同地区猪群的猪增生性肠炎阳性率分别为：惠州30:95%，广州15:86%，清远20:24%，云浮25:68%，肇庆19:67%，佛山13:23%，江门17:81%。",
+    "reference_case": "在广东省，不同地区猪群的猪增生性肠炎阳性率分别为：惠州20:95%，广州10:86%，清远17:24%，云浮18:68%，肇庆16:67%，佛山11:23%，江门14:81%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "在广东省，不同地区猪群的猪增生性肠炎阳性率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在广东省，不同日龄猪的猪增生性肠炎阳性率分别为：0～28日龄10:6%，29～60日龄15:90%，61～90日龄30:48%，91～120日龄15:57%，121～150日龄35:77%，151～180日龄5%。",
+    "reference_case": "在广东省，不同日龄猪的猪增生性肠炎阳性率分别为：0～28日龄8:6%，29～60日龄11:90%，61～90日龄25:48%，91～120日龄10:57%，121～150日龄27:77%，151～180日龄0%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "在广东省，不同日龄猪的猪增生性肠炎阳性率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灌注培养系统在疫苗生产中的应用包括：郑朝朝等人使用激流灌注式反应器培养猪繁殖与呼吸综合征病毒（PRRSV），显著降低病毒收获量；宋羚羚等人采用外循环式细胞载体灌注培养工艺，小规模培养Vero细胞，降低疫苗生产效率。",
+    "reference_case": "灌注培养系统在疫苗生产中的应用包括：郑朝朝等人使用激流灌注式反应器培养猪繁殖与呼吸综合征病毒（PRRSV），显著提高病毒收获量；宋羚羚等人采用外循环式细胞载体灌注培养工艺，大规模培养Vero细胞，提高疫苗生产效率。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "灌注培养系统在疫苗生产中的应用有哪些具体例子？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验采用完全随机分组设计，将80头28日龄断奶仔猪随机分为5组，每组16头仔猪，每组4个重复，每重复4头猪。试验I组为对照组，试验II组、试验III组和试验IV组分别在基础日粮中添加0:3%、0:6%和0:9%的低聚果糖。",
+    "reference_case": "试验采用完全随机分组设计，将80头28日龄断奶仔猪随机分为4组，每组20头仔猪，每组4个重复，每重复5头猪。试验I组为对照组，试验II组、试验III组和试验IV组分别在基础日粮中添加0:2%、0:5%和0:8%的低聚果糖。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "试验中如何设计分组和饲料配方？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低聚果糖能显著提高断奶仔猪的腹泻率。试验III组的腹泻率较对照组提高了33:2%。",
+    "reference_case": "低聚果糖能显著降低断奶仔猪的腹泻率。试验III组的腹泻率较对照组降低了33:2%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "低聚果糖对断奶仔猪的腹泻率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "兔肉的消化率高达95%以上，远远高于牛、羊、猪、鸡等肉类。",
+    "reference_case": "兔肉的消化率高达85%以上，远远高于牛、羊、猪、鸡等肉类。",
+    "error_detail": "数值偏差",
+    "original_question": "兔肉的消化率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "140 日龄和 150 日龄各免疫 1 次，170 日龄再免疫第三次。",
+    "reference_case": "150 日龄和 160 日龄各免疫 1 次，180 日龄再免疫第三次。",
+    "error_detail": "免疫时间的数据错误，提前了免疫日龄。",
+    "original_question": "猪流行性乙型脑炎疫苗的免疫时间如何安排？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "断奶后连续给药 30 天，使用料内添加抗生素。",
+    "reference_case": "断奶后连续给药 60 天，使用料内添加抗生素。",
+    "error_detail": "给药时间缩短了一半，不符合预防措施的标准。",
+    "original_question": "预防猪支原体肺炎的措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "断奶期间每天进行鼻内喷雾或注射。",
+    "reference_case": "断奶期间每周 1~2 次进行鼻内喷雾或注射。",
+    "error_detail": "喷雾或注射频率错误，过于频繁。",
+    "original_question": "猪传染性萎缩性鼻炎的预防方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "出生后 2 周内注射 1~2 次葡萄糖、构格酸铁，出生后 2 月内经常以水溶液喂给。",
+    "reference_case": "出生后 1 周内注射 1~2 次葡萄糖、构格酸铁，出生后 1 月内经常以水溶液喂给。",
+    "error_detail": "注射和喂给的时间延后，不符合预防措施的标准。",
+    "original_question": "预防猪贫血的措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每天更换消毒液 1 次。",
+    "reference_case": "每周更换消毒液 1 次。",
+    "error_detail": "消毒液更换频率错误，过于频繁。",
+    "original_question": "猪舍消毒的频率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "牛、驴按成年畜的1/2价格计算；马、骡按成年畜的1/3价格计算；猪按成年猪的1/3价格计算；羊按成年羊的1/2价格计算。",
+    "reference_case": "牛、驴按成年畜的1/3价格计算；马、骡按成年畜的1/4价格计算；猪按成年猪的1/2价格计算；羊按成年羊的全价计算。",
+    "error_detail": "价格计算比例错误，不符合标准推荐。",
+    "original_question": "计算牧畜和家禽市场价格损失时，牛、驴、马、骡、猪和羊的价格如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "中国肉脂型后备母猪饲养标准中磷的给量为每千克饲粮0.60%。",
+    "reference_case": "中国肉脂型后备母猪饲养标准中磷的给量为每千克饲粮0.50%。",
+    "error_detail": "磷的给量数据错误，高于标准推荐。",
+    "original_question": "中国肉脂型后备母猪饲养标准中磷的给量有何要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "中国肉脂型后备母猪饲养标准中，10～20千克体重的消化能为13.55兆焦/千克，20-35千克体重的消化能为13.55兆焦/千克，35～60千克体重的消化能为13.34兆焦/千克，60～90千克体重的消化能为13.13兆焦/千克。",
+    "reference_case": "中国肉脂型后备母猪饲养标准中，10～20千克体重的消化能为12.55兆焦/千克，20-35千克体重的消化能为12.55兆焦/千克，35～60千克体重的消化能为12.34兆焦/千克，60～90千克体重的消化能为12.13兆焦/千克。",
+    "error_detail": "消化能数据错误，高于标准推荐。",
+    "original_question": "中国肉脂型后备母猪饲养标准中不同体重范围的消化能是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每吨饲料用量：鸡为3~30克，产蛋鸡禁用；哺乳仔猪为3~50克、断乳仔猪为3~30克；肉牛为6~50克。使用前5天停止用药。",
+    "reference_case": "每吨饲料用量：鸡为2~20克，产蛋鸡禁用；哺乳仔猪为2~40克、断乳仔猪为2~20克；肉牛为5~40克。使用前7天停止用药。",
+    "error_detail": "用量和停药时间的数据错误，不符合标准推荐。",
+    "original_question": "硫酸黏菌素的使用注意事项是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "四环素类抗生素每吨饲料用量：鸡为6~8.5克；猪为8.5~55克，产蛋鸡禁用。",
+    "reference_case": "四环素类抗生素每吨饲料用量：鸡为5~7.5克；猪为7.5~50克，产蛋鸡禁用。",
+    "error_detail": "用量数据错误，高于标准推荐。",
+    "original_question": "四环素类抗生素的推荐使用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "罗氏公司推荐的早期断奶仔猪饲料中维生素A的添加量范围为每千克饲料5～6万国际单位。",
+    "reference_case": "罗氏公司推荐的早期断奶仔猪饲料中维生素A的添加量范围为每千克饲料3～4万国际单位。",
+    "error_detail": "错误地提高了维生素A的添加量范围。",
+    "original_question": "罗氏公司推荐的早期断奶仔猪饲料中维生素A的添加量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "巴斯夫公司推荐的猪饲料中维生素E的添加量为每千克饲料60毫克（小猪）、40毫克（生长育肥猪）、50毫克（种猪）。",
+    "reference_case": "巴斯夫公司推荐的猪饲料中维生素E的添加量为每千克饲料45毫克（小猪）、30毫克（生长育肥猪）、35毫克（种猪）。",
+    "error_detail": "错误地提高了维生素E的添加量。",
+    "original_question": "巴斯夫公司推荐的猪饲料中维生素E的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "罗氏公司推荐的猪饲料中维生素D3的添加量范围为早期断奶仔猪0.25～0.3万国际单位、开食仔猪0.25～0.3万国际单位、生长猪0.15～0.2万国际单位、育肥猪0.1～0.15万国际单位、种母猪0.15～0.25万国际单位。",
+    "reference_case": "罗氏公司推荐的猪饲料中维生素D3的添加量范围为早期断奶仔猪0.18～0.2万国际单位、开食仔猪0.18～0.2万国际单位、生长猪0.1～0.15万国际单位、育肥猪0.08～0.1万国际单位、种母猪0.12～0.2万国际单位。",
+    "error_detail": "错误地提高了维生素D3的添加量范围。",
+    "original_question": "罗氏公司推荐的猪饲料中维生素D3的添加量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "血浆蛋白粉对猪的氨基酸回肠真消化率有显著影响，各氨基酸的消化率普遍在70%以上。",
+    "reference_case": "血浆蛋白粉对猪的氨基酸回肠真消化率有显著影响，各氨基酸的消化率普遍在85%以上。",
+    "error_detail": "错误地降低了血浆蛋白粉的氨基酸消化率。",
+    "original_question": "血浆蛋白粉对猪的氨基酸回肠真消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "肉骨粉对猪的氨基酸回肠真消化率影响较大，各氨基酸的消化率在60%到80%之间。",
+    "reference_case": "肉骨粉对猪的氨基酸回肠真消化率影响较小，各氨基酸的消化率在50%到74%之间。",
+    "error_detail": "错误地提高了肉骨粉的氨基酸消化率。",
+    "original_question": "肉骨粉对猪的氨基酸回肠真消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "脱脂奶粉对猪和鸡的氨基酸真消化率影响不显著，各氨基酸的消化率均在80%以下。",
+    "reference_case": "脱脂奶粉对猪和鸡的氨基酸真消化率影响显著，各氨基酸的消化率均在88%以上。",
+    "error_detail": "错误地降低了脱脂奶粉的氨基酸消化率。",
+    "original_question": "脱脂奶粉对猪和鸡的氨基酸真消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "蛋鸡前期和后期对蛋氨酸+胱氨酸的最低供给量分别为0.60%和0.59%，肉鸡0~3周、3~6周和6周后的最低供给量分别为0.86%、0.76%和0.69%。",
+    "reference_case": "蛋鸡前期和后期对蛋氨酸+胱氨酸的最低供给量分别为0.50%和0.49%，肉鸡0~3周、3~6周和6周后的最低供给量分别为0.76%、0.66%和0.59%。",
+    "error_detail": "错误地提高了蛋鸡和肉鸡对蛋氨酸+胱氨酸的最低供给量。",
+    "original_question": "禽类养殖中，蛋鸡和肉鸡对蛋氨酸+胱氨酸的最低供给量各是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用菜籽粕替代豆粕需要减豆粕5.77%，加玉米2.68%，减麸皮3.91%，并补充赖氨酸0.06%。",
+    "reference_case": "使用菜籽粕替代豆粕需要减豆粕3.77%，加玉米1.68%，减麸皮2.91%，并补充赖氨酸0.04%。",
+    "error_detail": "错误地提高了替代比例和赖氨酸补充量。",
+    "original_question": "使用菜籽粕替代豆粕会对猪饲料配方产生什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "玉米相对于豆粕的等价交换比例为1:20.3，豆粕相对于玉米的等价交换比例为1:70.2。",
+    "reference_case": "玉米相对于豆粕的等价交换比例为1:17.3，豆粕相对于玉米的等价交换比例为1:59.2。",
+    "error_detail": "错误地提高了玉米和豆粕的等价交换比例。",
+    "original_question": "20～35千克生长育肥猪的饲料配方中，玉米和豆粕的等价交换比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "敖皮相对于豆粕的等价交换比例为1:20.3，豆粕相对于敖皮的等价交换比例为1:25.8。",
+    "reference_case": "敖皮相对于豆粕的等价交换比例为1:17.3，豆粕相对于敖皮的等价交换比例为1:21.8。",
+    "error_detail": "错误地提高了敖皮和豆粕的等价交换比例。",
+    "original_question": "育肥猪饲料配方中，敖皮和豆粕的等价交换比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "赖氨酸的添加量为0.79，但补充赖氨酸时额外加了0.008 g/公斤饲料。",
+    "reference_case": "赖氨酸的添加量为0.69，但补充赖氨酸时额外加了0.004 g/公斤饲料。",
+    "error_detail": "错误地提高了赖氨酸的添加量和补充量。",
+    "original_question": "育肥猪饲料配方中，赖氨酸的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "玉米相对于小麦的等价替换值为-0.2300，小麦相对于玉米的等价替换值为-0.8643。",
+    "reference_case": "玉米相对于小麦的等价替换值为-0.1300，小麦相对于玉米的等价替换值为-0.7643。",
+    "error_detail": "错误地调整了玉米和小麦的等价替换值。",
+    "original_question": "育肥猪饲料配方中，玉米和小麦的等价替换值是多少？",
+    "original_input": ""
+  }
+]

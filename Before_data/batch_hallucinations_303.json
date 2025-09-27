@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "褪黑素通过其强大的抗氧化功能，中和精液保存过程中产生的有害物质，保护精子线粒体功能的完整性。多巴胺则通过维持或提高细胞的抗氧化能力，延长精子的存活时间至原来的200%。",
+    "reference_case": "褪黑素通过其强大的抗氧化功能，中和精液保存过程中产生的有害物质，保护精子线粒体功能的完整性。多巴胺则通过维持或提高细胞的抗氧化能力，延长精子的存活时间。",
+    "error_detail": "错误地夸大了多巴胺延长精子存活时间的效果，添加了不存在的百分比数据。",
+    "original_question": "猪精液液态保存中，褪黑素和多巴胺的作用机制是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪精液液态保存的低温保存温度范围为-5°C至0°C。",
+    "reference_case": "猪精液液态保存的低温保存温度范围为0°C至5°C。",
+    "error_detail": "错误地改变了温度范围的下限和上限，导致数据不准确。",
+    "original_question": "猪精液液态保存的低温保存温度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "褪黑素在猪精液液态保存中具有抗氧化作用，可以改善精液的保存效果。研究表明，添加适宜浓度的褪黑素可以显著提高猪精液常温及低温保存后的品质，尤其是在0:1 mmol/L浓度下效果最佳。",
+    "reference_case": "褪黑素在猪精液液态保存中具有抗氧化作用，可以改善精液的保存效果。研究表明，添加适宜浓度的褪黑素可以显著提高猪精液常温及低温保存后的品质，尤其是在0:01 mmol/L浓度下效果最佳。",
+    "error_detail": "错误地改变了褪黑素的最佳浓度，从0:01 mmol/L改为0:1 mmol/L。",
+    "original_question": "褪黑素在猪精液液态保存中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在常温保存条件下，2 mmol/L的多巴胺组显著提高了精子的存活指数，而在低温保存条件下，2 mmol/L的多巴胺组也显著延长了精子的总存活时间。",
+    "reference_case": "在常温保存条件下，1 mmol/L的多巴胺组显著提高了精子的存活指数，而在低温保存条件下，1 mmol/L的多巴胺组也显著延长了精子的总存活时间。",
+    "error_detail": "错误地改变了多巴胺的浓度，从1 mmol/L改为2 mmol/L。",
+    "original_question": "猪精液液态保存中，多巴胺对精子的存活指数有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高浓度多巴胺（200 mmol/L）在常温保存条件下显著降低了精子的稀释后活力、有效存活时间、总存活时间和存活指数，表明高浓度多巴胺对精子有负面影响。",
+    "reference_case": "高浓度多巴胺（100 mmol/L）在常温保存条件下显著降低了精子的稀释后活力、有效存活时间、总存活时间和存活指数，表明高浓度多巴胺对精子有负面影响。",
+    "error_detail": "错误地夸大了高浓度多巴胺的浓度，从100 mmol/L改为200 mmol/L。",
+    "original_question": "猪精液液态保存中，高浓度多巴胺对精子的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "褪黑素的适宜浓度为0:1 mmol/L，而多巴胺的适宜浓度为2 mmol/L。这些浓度在实验中表现出对精液保存效果的显著改善。",
+    "reference_case": "褪黑素的适宜浓度为0:01 mmol/L，而多巴胺的适宜浓度为1 mmol/L。这些浓度在实验中表现出对精液保存效果的显著改善。",
+    "error_detail": "错误地改变了褪黑素和多巴胺的适宜浓度，分别从0:01 mmol/L和1 mmol/L改为0:1 mmol/L和2 mmol/L。",
+    "original_question": "猪精液液态保存中，褪黑素和多巴胺的适宜浓度分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪精液液态保存中常用的抗氧化剂包括褪黑素和肾上腺素。这两种抗氧化剂在实验中表现出对精液保存效果的显著改善。",
+    "reference_case": "猪精液液态保存中常用的抗氧化剂包括褪黑素和多巴胺。这两种抗氧化剂在实验中表现出对精液保存效果的显著改善。",
+    "error_detail": "错误地将多巴胺替换为肾上腺素，导致术语错误。",
+    "original_question": "猪精液液态保存中常用的抗氧化剂有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在常温保存条件下，0:1 mmol/L的褪黑素组显著提高了精子的有效存活时间，而在低温保存条件下，0:1 mmol/L的褪黑素组也显著提高了精子的有效存活时间和总存活时间。",
+    "reference_case": "在常温保存条件下，0:01 mmol/L的褪黑素组显著提高了精子的有效存活时间，而在低温保存条件下，0:01 mmol/L的褪黑素组也显著提高了精子的有效存活时间和总存活时间。",
+    "error_detail": "错误地改变了褪黑素的浓度，从0:01 mmol/L改为0:1 mmol/L。",
+    "original_question": "猪精液液态保存中，褪黑素对精子的有效存活时间有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "多巴胺在猪精液液态保存中的最佳浓度为2 mmol/L。该浓度的多巴胺能够显著提高精子的存活指数和总存活时间，尤其是在常温保存条件下效果更为显著。",
+    "reference_case": "多巴胺在猪精液液态保存中的最佳浓度为1 mmol/L。该浓度的多巴胺能够显著提高精子的存活指数和总存活时间，尤其是在常温保存条件下效果更为显著。",
+    "error_detail": "错误地改变了多巴胺的最佳浓度，从1 mmol/L改为2 mmol/L。",
+    "original_question": "多巴胺在猪精液液态保存中的最佳浓度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲粮粗纤维水平对育肥猪的屠宰率和皮厚有显著影响（P<0:05:。",
+    "reference_case": "饲粮粗纤维水平对育肥猪的屠宰率和皮厚没有显著影响（P>0:05:。",
+    "error_detail": "错误地改变了统计显著性，从没有显著影响改为有显著影响。",
+    "original_question": "饲粮粗纤维水平对育肥猪胴体性状的影响在屠宰率和皮厚上有何表现？",
+    "original_input": ""
+  }
+]

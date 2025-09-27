@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "豪猪在人工饲养条件下，推荐的温度范围是15至25摄氏度。",
+    "reference_case": "豪猪在人工饲养条件下，推荐的温度范围是20至30摄氏度。",
+    "error_detail": "温度范围被错误地降低，可能导致豪猪在较低温度下不适。",
+    "original_question": "豪猪在人工饲养条件下，推荐的温度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "豪猪常见疾病包括心脏病、糖尿病、高血压、肥胖症、近视和外伤等。",
+    "reference_case": "豪猪常见疾病包括肺炎、肠炎、感冒、胀气、寄生虫病、难产和外伤等。",
+    "error_detail": "将人类常见疾病错误地归类为豪猪常见疾病，概念混淆。",
+    "original_question": "豪猪常见疾病有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在豪猪的饮水中间隔投入1%环丙沙星粉剂可以预防胃肠疾病。",
+    "reference_case": "在豪猪的饮水中间隔投入0:5%环丙沙星粉剂可以预防胃肠疾病。",
+    "error_detail": "药物浓度被错误地提高，可能导致药物过量。",
+    "original_question": "豪猪在人工饲养条件下，如何预防胃肠疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "豪猪的市场价格达到200元/公斤。",
+    "reference_case": "豪猪的市场价格达到150元/公斤。",
+    "error_detail": "市场价格被错误地提高，可能导致误解。",
+    "original_question": "豪猪的市场价格是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "《猪生产》课程建设的主要理念是基于传统教学方法，强调理论知识的传授。",
+    "reference_case": "《猪生产》课程建设的主要理念是基于工作过程、工学结合进行课程开发，形成了\"工学交替、理实合一、教学做一体\"的课程特色。",
+    "error_detail": "完全偏离了原始指令中描述的课程建设理念。",
+    "original_question": "《猪生产》课程建设的主要理念是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "江苏农林职业技术学院在《猪生产》课程建设中采取了以学生兴趣为导向的措施。",
+    "reference_case": "江苏农林职业技术学院在《猪生产》课程建设中采取了以现代养猪岗位的职业需求为导向，以国家职业资格鉴定标准为依据，以养猪实际工作流程为主线，以养猪岗位实际项目为载体，以培养学生可持续发展的就业与创业能力为主要目标的措施。",
+    "error_detail": "添加了不存在的假设，即课程建设以学生兴趣为导向。",
+    "original_question": "江苏农林职业技术学院在《猪生产》课程建设中采取了哪些具体措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "《猪生产》课程的教学内容设计以学生兴趣为依据，设计了2个主要工作岗位和4个教学情境。",
+    "reference_case": "《猪生产》课程的教学内容设计以岗位要求为依据，以工作过程为主线，设计了4个主要工作岗位和8个教学情境，形成了\"4岗位-8项目-31典型任务\"的课程内容体系。",
+    "error_detail": "教学内容设计的依据和数量与原始指令矛盾。",
+    "original_question": "《猪生产》课程的教学内容是如何设计的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "《猪生产》课程的培养目标是培养学生的宠物猪饲养技能。",
+    "reference_case": "《猪生产》课程的培养目标是培养学生的种猪繁育、猪群饲养管理和疾病防治、猪场建设规划、猪场经营管理等技能，使学生能够从事猪的繁育、日常饲养管理、饲料配制、猪场规划、猪病防治和猪场经营管理等工作。",
+    "error_detail": "完全偏离了原始指令中描述的培养目标。",
+    "original_question": "《猪生产》课程的培养目标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "《猪生产》课程的教学模式特点是\"传统讲授\"和\"独立学习\"。",
+    "reference_case": "《猪生产》课程的教学模式特点是\"工作任务驱动\"和\"教学做一体\"，通过现场实境教学，将理论教学与实践教学融为一体，进行现场实境教学。",
+    "error_detail": "误解了原始指令中描述的教学模式特点。",
+    "original_question": "《猪生产》课程的教学模式有哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "《猪生产》课程的教学方法包括自学、讲座和考试。",
+    "reference_case": "《猪生产》课程的教学方法包括直观陈述教学、实境演练教学、互动研讨教学、跟班实践教学和服务锻炼教学。",
+    "error_detail": "完全偏离了原始指令中描述的教学方法。",
+    "original_question": "《猪生产》课程的教学方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "《猪生产》课程的考试考核方式是\"结果和过程结合；课程考核与职业资格鉴定结合；学生和社会参与结合；以考促学，以考促练\"，具体分为过程考核和期末考核，比例为3:7。",
+    "reference_case": "《猪生产》课程的考试考核方式是\"结果和过程结合；课程考核与职业资格鉴定结合；学生和社会参与结合；以考促学，以考促练\"，具体分为过程考核和期末考核，比例为4:6。",
+    "error_detail": "考核比例被错误地调整，可能导致误解。",
+    "original_question": "《猪生产》课程的考试考核方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "《猪生产》课程建设中的特色和创新点包括课程组织\"传统化\"、技能实训\"独立化\"和综合实践\"理论化\"。",
+    "reference_case": "《猪生产》课程建设中的特色和创新点包括课程组织\"课题化\"、技能实训\"社团化\"和综合实践\"创业化\"。",
+    "error_detail": "完全偏离了原始指令中描述的特色和创新点。",
+    "original_question": "《猪生产》课程建设中的特色和创新点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "《猪生产》课程建设中的\"课题化\"指的是课程建设与学术研究相融合。",
+    "reference_case": "《猪生产》课程建设中的\"课题化\"指的是课程建设与项目管理相融合，课程项目申报以课题组形式进行，经费实行项目主持人负责制，课程建设和创业教育结合。",
+    "error_detail": "误解了原始指令中描述的\"课题化\"含义。",
+    "original_question": "《猪生产》课程建设中的\"课题化\"具体指什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "《猪生产》课程建设中的\"社团化\"指的是课程建设与社交活动相融合。",
+    "reference_case": "《猪生产》课程建设中的\"社团化\"指的是课程建设第一课堂与第二课堂相融合，第一课堂主要是项目式教学，第二课堂是第一课堂的补充，通过创业社团开展创业交流实践活动。",
+    "error_detail": "误解了原始指令中描述的\"社团化\"含义。",
+    "original_question": "《猪生产》课程建设中的\"社团化\"具体指什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "研究性教学的方法包括传统讲授和独立学习。",
+    "reference_case": "研究性教学的方法包括问题导向式教学、启发式教学、现场教学、多媒体以及网络课件辅助教学等。这些方法旨在通过不同的教学形式，如\"猪的传染病猪瘟\"的研究性教学案例，培养学生的创新能力、实践能力、独立思考能力和观察能力。",
+    "error_detail": "完全偏离了原始指令中描述的研究性教学方法。",
+    "original_question": "动物传染病学课程中，研究性教学的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "军牧1号白猪、杜洛克猪和藏猪的氟烷基因和酸肉基因在群体中表现出相同的多态性分布。",
+    "reference_case": "军牧1号白猪、杜洛克猪和藏猪的氟烷基因和酸肉基因在群体中表现出不同的多态性分布。",
+    "error_detail": "添加了不存在的假设，即多态性分布相同。",
+    "original_question": "军牧1号白猪、杜洛克猪和藏猪的氟烷基因和酸肉基因的多态性分布如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪瘟病毒E2基因的主要抗原区通过自然变异被分离。",
+    "reference_case": "猪瘟病毒E2基因的主要抗原区通过克隆技术被分离，并在原核系统中成功表达。",
+    "error_detail": "完全偏离了原始指令中描述的分离方法。",
+    "original_question": "猪瘟病毒E2基因的主要抗原区是如何克隆和表达的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "抗重组猪蜱虫抗原AD41蛋白鼠源性单链抗体库构建失败。",
+    "reference_case": "抗重组猪蜱虫抗原AD41蛋白鼠源性单链抗体库成功构建，并通过筛选获得了具有高亲和力的单链抗体。",
+    "error_detail": "添加了不存在的假设，即构建失败。",
+    "original_question": "抗重组猪蜱虫抗原AD41蛋白鼠源性单链抗体库的构建及筛选结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "陶一山同志呼吁生猪产业相关的企业独立发展。",
+    "reference_case": "陶一山同志呼吁生猪产业相关的企业联合起来，共同打造中国最大的产业链联盟，使中国生猪产业跻身世界强林之中。",
+    "error_detail": "完全偏离了原始指令中描述的行动呼吁。",
+    "original_question": "陶一山同志在报告中呼吁生猪产业相关的企业采取什么行动？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "在断奶仔猪基础日粮中添加抗菌肽后，仔猪因断奶应激造成的腹泻增加。",
+    "reference_case": "在断奶仔猪基础日粮中添加抗菌肽后，可明显抑制仔猪因断奶应激造成的腹泻，肠道内大肠杆菌数量也显著降低。",
+    "error_detail": "因果倒置，错误地描述了抗菌肽的效果。",
+    "original_question": "抗菌肽对断奶仔猪的腹泻有何影响？",
+    "original_input": ""
+  }
+]

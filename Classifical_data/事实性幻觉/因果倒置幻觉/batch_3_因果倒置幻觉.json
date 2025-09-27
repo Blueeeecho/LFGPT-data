@@ -1,0 +1,901 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "病原菌依靠黏附素定植于小肠上皮细胞，产生 LT 和 ST 毒素，刺激小肠隐窝细胞大量分泌液体，引起水样腹泻，导致脱水和代谢性酸碱平衡紊乱，最终虚脱死亡。",
+    "reference_case": "病原菌依靠黏附素定植于小肠上皮细胞，产生 LT 和 ST 毒素，刺激小肠隐窝细胞大量分泌液体，引起水样腹泻，导致脱水和代谢性酸碱平衡紊乱，最终虚脱死亡。",
+    "error_detail": "虽然描述正确，但错误地暗示了因果关系的方向。",
+    "original_question": "肠致病性大肠杆菌（EPEC）如何引起仔猪的黄痢？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "仔猪白痢的发病率与仔猪的品种有关；发病的日龄越大，病死率越高。",
+    "reference_case": "仔猪白痢的发病率与环境因素和饲养管理是否得当有关；发病的日龄越大，病死率越低。",
+    "error_detail": "错误地改变了影响发病率的因素和病死率与日龄的关系。",
+    "original_question": "仔猪白痢的发病率与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪细小病毒（PPV）通过胎盘传给胎儿，导致母猪感染。",
+    "reference_case": "猪细小病毒（PPV）通过胎盘传给胎儿，引起胎儿病变和死亡，感染的胎儿或死亡、软化、木乃伊化，或产出仔畜的组织中带有病毒，成为本病的重要传染源。",
+    "error_detail": "错误地颠倒了因果关系，实际上是母猪感染导致胎儿感染。",
+    "original_question": "猪细小病毒（PPV）如何通过胎盘传染给胎儿？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪维生素 K 缺乏可引起鼻出血和创伤出血不止。",
+    "reference_case": "猪维生素 K 缺乏可引起鼻出血和创伤出血不止。",
+    "error_detail": "因果倒置幻觉（因果错误）",
+    "original_question": "维生素 K 缺乏时，猪会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪因摄食发芽、腐烂的马铃薯或其青绿茎叶，导致胃肠黏膜刺激、出血性胃肠炎和溶血中毒。",
+    "reference_case": "猪因摄食发芽、腐烂的马铃薯或其青绿茎叶，导致胃肠黏膜刺激、出血性胃肠炎和溶血中毒。",
+    "error_detail": "因果倒置幻觉（因果错误）",
+    "original_question": "猪如何发生马铃薯中毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪的实验性蕨中毒无明显的神经系统损害，但可见心脏肌肉多发性坏死，心肌松驰及心脏扩张。",
+    "reference_case": "猪的实验性蕨中毒无明显的神经系统损害，但可见心脏肌肉多发性坏死，心肌松驰及心脏扩张。",
+    "error_detail": "因果倒置幻觉（因果错误）",
+    "original_question": "猪的实验性蕨中毒的神经系统损害表现如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "即使改变饲喂方式，早期以精料饲喂的仔猪在生长的第二期中也会改变其生长特点。",
+    "reference_case": "即使改变饲喂方式，早期以精料饲喂的仔猪在生长的第二期中也不会改变其生长特点。",
+    "error_detail": "因果错误",
+    "original_question": "早期以精料饲喂的仔猪在生长期改变饲喂方式对其生长有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "因为猪每增重一公斤消耗的饲料单位数较多，肉的生産率高，且猪肉的热卡含量超过牛肉1.5-2倍。",
+    "reference_case": "因为猪每增重一公斤消耗的饲料单位数较少，肉的生産率高，且猪肉的热卡含量超过牛肉1.5-2倍。",
+    "error_detail": "因果错误",
+    "original_question": "为什么苏联特别注意养猪业的发展？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "数据标准化对于猪肉生产加工信息追溯系统的实现不重要。数据记录和获取的精确性和速度不是衡量系统性能的主要指标之一。缺乏统一的数据标准不会影响数据的录入和传输，不会造成时间和资源的浪费，因此数据的标准化对于可追溯系统的实现不至关重要。",
+    "reference_case": "数据标准化对于猪肉生产加工信息追溯系统的实现非常重要。数据记录和获取的精确性和速度是衡量系统性能的主要指标之一。缺乏统一的数据标准会影响数据的录入和传输，造成时间和资源的浪费，因此数据的标准化对于可追溯系统的实现至关重要。",
+    "error_detail": "错误地描述了数据标准化的重要性，与实际情况相反。",
+    "original_question": "猪肉生产加工信息追溯系统的数据标准化为何重要？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "农民养猪的主要动机是为了减少收入和恶化家庭经济状况。养猪在农民的家庭生产中占据次要地位，他们通过养猪来减少家庭收入，恶化生活条件。此外，养猪也是一种非传统的农业活动，不符合农民的生活习惯和农业生产的传统模式。",
+    "reference_case": "农民养猪的主要动机是为了增收和改善家庭经济状况。养猪在农民的家庭生产中占据重要地位，他们通过养猪来增加家庭收入，改善生活条件。此外，养猪也是一种传统的农业活动，符合农民的生活习惯和农业生产的传统模式。",
+    "error_detail": "错误地描述了农民养猪的动机和影响，与实际情况相反。",
+    "original_question": "农民养猪的动机分析。",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "这是因为猪的瘤胃内发酵过强，导致甜菜中的双糖损失较多。",
+    "reference_case": "这是因为牛的瘤胃内发酵过强，导致甜菜中的双糖损失较多。",
+    "error_detail": "因果错误",
+    "original_question": "为什么双糖含量较多的饲料如甜菜，猪的消化利用能力反而比牛更高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "营养水平高于某一限度时，良种猪的养分利用率不能充分发挥。",
+    "reference_case": "营养水平低于某一限度时，良种猪的养分利用率不能充分发挥，与非良种猪在对饲料的利用率上并无本质区别，说明养分在体内的分配受环境条件的制约。",
+    "error_detail": "因果错误",
+    "original_question": "营养水平如何影响猪的生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪丹毒杆菌疫苗能预防所有羔羊的疾病，包括关节病。",
+    "reference_case": "猪丹毒杆菌疫苗能预防羔羊的关节病。",
+    "error_detail": "错误地扩大了疫苗的预防范围，因果倒置。",
+    "original_question": "猪丹毒杆菌疫苗如何预防羔羊的关节病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "PRCV导致猪群晚期持续感染通过空气传播，母猪感染PRCV后产生的免疫不能通过乳汁对仔猪产生坚强的抗TGEV保护。",
+    "reference_case": "PRCV导致猪群早期持续感染通过空气传播，母猪感染PRCV后产生的免疫可通过乳汁对仔猪产生坚强的抗TGEV保护，导致典型的、急性的TGEV消失，地方性流行的传染性胃肠炎病很少被诊断出。",
+    "error_detail": "错误地修改了PRCV感染的时间和免疫效果，因果倒置。",
+    "original_question": "TGEV和PRCVR如何改变传染性胃肠炎的流行病学？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "仔猪肠道内的疫苗病毒不容易被母乳中的IgG或IgA抗体中和。",
+    "reference_case": "仔猪肠道内的疫苗病毒很容易被母乳中的IgG或IgA抗体中和。",
+    "error_detail": "错误地声称疫苗病毒不容易被中和，因果倒置。",
+    "original_question": "为什么初生仔猪经口免疫的田间试验没有取得有用的结果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "口服减毒疫苗能增加肠道-乳腺IgA的刺激。",
+    "reference_case": "口服减毒疫苗不能增加肠道-乳腺IgA的刺激。",
+    "error_detail": "错误地声称口服减毒疫苗能增加IgA的刺激，因果倒置。",
+    "original_question": "为什么口服减毒疫苗不能增加肠道-乳腺IgA的刺激？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "抗ZP抗体能促进卵泡的发育，因为精子附着在ZP的表面有助于卵泡的成熟。",
+    "reference_case": "抗ZP抗体能抑制精子附着在ZP的表面，从而中断卵泡的发育。",
+    "error_detail": "错误地声称抗ZP抗体能促进卵泡的发育，实际上它会抑制精子附着并中断卵泡发育。",
+    "original_question": "抗ZP抗体如何影响卵泡的发育？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "油佐剂疫苗被广泛用于猪的免疫接种，因为它们能减少猪对病毒的免疫反应。",
+    "reference_case": "油佐剂疫苗能有效提高猪对病毒的免疫反应。",
+    "error_detail": "错误地声称油佐剂疫苗能减少免疫反应，实际上它能提高免疫反应。",
+    "original_question": "油佐剂疫苗为什么被广泛用于猪的免疫接种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "鸡对牛油的代谢能值为7580~8020 kJ/kg，因为鸡油为8875~9125 kJ/kg。",
+    "reference_case": "鸡对牛油的代谢能值为7580~8020 kJ/kg，猪油为8050~9060 kJ/kg，鸡油为8875~9125 kJ/kg，棕榈油为8750~8900 kJ/kg，大豆油为9260 kJ/kg。",
+    "error_detail": "因果错误",
+    "original_question": "不同油脂对鸡的代谢能值有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "病猪、带毒猪和带毒鼠类是主要传染源。",
+    "reference_case": "病猪、带毒猪和带毒鼠类是主要传染源。",
+    "error_detail": "未明确说明传染源与疾病传播的因果关系",
+    "original_question": "伪狂犬病的主要传染源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪粪被人吞食后感染。",
+    "reference_case": "人粪被猪吞食后感染。",
+    "error_detail": "传播途径从人粪被猪吞食错误地改为猪粪被人吞食。",
+    "original_question": "猪囊虫病的传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "传染途径主要由病猪与健猪相互的接触，或是使用了健猪舍使用过的用具而感染。",
+    "reference_case": "传染途径主要由健猪与病猪相互的接触，或是使用了病猪舍使用过的用具而感染。",
+    "error_detail": "传染途径的描述顺序和对象错误地颠倒。",
+    "original_question": "螨、昆虫病中的疿癣病的主要传染途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "食仔猪癖的病因是由于仔猪攻击母猪。",
+    "reference_case": "可能为母猪的先天性恶癖，也可能由于无乳、吞食胞衣及某些矿物质或维生素的慢性缺乏所引起，多见于初产母猪，一般较少发生。",
+    "error_detail": "错误地颠倒了食仔猪癖的因果关系。",
+    "original_question": "食仔猪癖的病因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪肉价格波动的主要原因包括：仔猪价格和猪肉价格之间的相关性较高，饲料价格（尤其是玉米和育肥猪料）对猪肉价格的影响显著，以及不同地区之间的相互影响。此外，猪肉价格的波动还受到市场调节功能不足、养猪生产周期性以及外部经济环境变化等因素的影响。",
+    "reference_case": "猪肉价格波动的主要原因包括：仔猪价格和猪肉价格之间的相关性较高，饲料价格（尤其是玉米和育肥猪料）对猪肉价格的影响显著，以及不同地区之间的相互影响。此外，猪肉价格的波动还受到市场调节功能不足、养猪生产周期性以及外部经济环境变化等因素的影响。",
+    "error_detail": "因果倒置幻觉，错误地描述了猪肉价格波动的原因。",
+    "original_question": "猪肉价格波动的主要原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "突然断奶可能导致仔猪互相吮吸、口鼻擦伤和仔猪间攻击行为减少，以及排便异常。",
+    "reference_case": "突然断奶可能导致仔猪互相吮吸、口鼻擦伤和仔猪间攻击行为增加，以及排便异常。",
+    "error_detail": "错误地描述了突然断奶对仔猪行为的影响。",
+    "original_question": "突然断奶对幼畜有什么潜在后果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "群养母猪受到损伤的频率高于限位栏养母猪。",
+    "reference_case": "限位栏养母猪受到损伤的频率高于群养母猪。",
+    "error_detail": "错误地颠倒了因果关系，与原始输出相反。",
+    "original_question": "限位栏养母猪受到损伤的频率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "增加产仔圈并缩小圈舍会降低仔猪的死亡率。",
+    "reference_case": "增加产仔圈并缩小圈舍会使仔猪的死亡率提高。",
+    "error_detail": "错误地颠倒了因果关系，与原始输出相反。",
+    "original_question": "增加产仔圈并缩小圈舍会如何影响仔猪的存活率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "较大的猪总的维持需要更多，因此在相同能量摄入下用于生长的能量相对较少，导致增重效率较低。",
+    "reference_case": "较大的猪总的维持需要更多，因此在相同能量摄入下用于生长的能量相对较少，导致增重效率较低。",
+    "error_detail": "幻觉案例中未引入错误，保持原始输出。",
+    "original_question": "为什么较大的猪在增重效率上不如体小的猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "维持需要随着猪体重的增加而增加，生长利用能量则随着体重的增加而减少。",
+    "reference_case": "维持需要随着猪体重的增加而增加，生长利用能量则随着体重的增加而减少。",
+    "error_detail": "幻觉案例中未引入错误，保持原始输出。",
+    "original_question": "不同体重的猪在维持需要和生长利用能量上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "维持需要随着猪体重的增加而增加，而生长利用能量则随着体重的增加而减少。",
+    "reference_case": "维持需要随着猪体重的增加而增加，而生长利用能量则随着体重的增加而减少。",
+    "error_detail": "幻觉案例中未引入错误，保持原始输出。",
+    "original_question": "表3-48中不同体重猪的能量利用效率有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "低毒力毒株的日益流行使CSF的流行病学变得更加简单，特别是应用弱毒苗的国家。母猪带毒者已成为一种不重要的传播方式。",
+    "reference_case": "低毒力毒株的日益流行使CSF的流行病学变得更加复杂，特别是应用弱毒苗的国家。母猪带毒者已成为一种重要的传播方式。",
+    "error_detail": "错误地描述了低毒力毒株流行对CSF流行病学的影响和母猪带毒者的传播作用。",
+    "original_question": "低毒力毒株的流行对CSF的传播有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "集约化养猪在疫病防控方面要求严格执行基本防疫制度，如彻底消毒、按计划防疫和驱虫，同时落实以防为主的综合防治方针。由于防控链条时常失效，大规模养殖户对防疫工作更为重视。",
+    "reference_case": "集约化养猪在疫病防控方面要求严格执行基本防疫制度，如彻底消毒、按计划防疫和驱虫，同时落实以防为主的综合防治方针。大规模养殖户对防疫工作更为重视，但由于外源性疫病的威胁，防控链条时常失效，养殖户主要通过加强场内消毒和药剂使用来应对。",
+    "error_detail": "将因果关系倒置，错误地表述为'由于防控链条时常失效，大规模养殖户对防疫工作更为重视'。",
+    "original_question": "集约化养猪在疫病防控方面有哪些要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "饲粮蛋白质水平可以影响肥育猪背最长肌的嫩度及骨骼特异性蛋白-核转录因子 κ B 信号通路，因为嫩度影响了蛋白质水平。",
+    "reference_case": "饲粮蛋白质水平可以影响肥育猪背最长肌的嫩度及骨骼特异性蛋白-核转录因子 κ B 信号通路。",
+    "error_detail": "错误地颠倒了因果关系，将'嫩度影响了蛋白质水平'作为原因。",
+    "original_question": "饲粮蛋白质水平对肥育猪背最长肌嫩度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "鱼类肠壁结构薄，缺乏明显的黏膜下层，因此它们比哺乳动物更能抵抗损伤和破坏。",
+    "reference_case": "鱼类肠壁结构薄，缺乏明显的黏膜下层，仅为哺乳动物肠壁厚度的1/20，如仔猪空肠肠壁厚度为2271μm，而罗非鱼肠壁厚度仅为92μm，因此容易受到损伤和破坏。",
+    "error_detail": "错误地解释了肠壁薄与损伤抵抗力的关系",
+    "original_question": "鱼类肠道壁结构为什么容易受到损伤和破坏？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "益生菌可以改善肠道结构形态，因为其增加了小肠黏膜结构的恢复速度。",
+    "reference_case": "益生菌可以增加肠道黏膜线毛高度和线毛高度/隐窝深度值，改善肠道结构形态，促进营养物质的消化吸收，提高饲料转化效率，减轻断奶仔猪的肠道损伤，增加小肠黏膜结构的恢复速度，改善对营养物质的消化吸收。",
+    "error_detail": "错误地将益生菌改善肠道结构形态的原因归结为增加小肠黏膜结构的恢复速度，忽略了其他因素。",
+    "original_question": "益生菌对动物肠道健康有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "高湿导致猪的日增重与饲料利用率提高。",
+    "reference_case": "当气温≥32℃、相对湿度≥80%时，猪的日增重与饲料利用率下降；在气温14-23℃、相对湿度50%-80%时，肥育效果最好。",
+    "error_detail": "错误地认为高湿会提高日增重与饲料利用率",
+    "original_question": "高湿对生长与肥育有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "应在仔猪断奶后的3-5天逐日减少泌乳母猪的精料、青绿多汁饲料与饮水，断奶后一天停食、停水。",
+    "reference_case": "应在仔猪断奶前的3-5天逐日减少泌乳母猪的精料、青绿多汁饲料与饮水，断奶前一天停食、停水，以促使母猪在仔猪断奶后迅速回乳、干奶。",
+    "error_detail": "错误地调整了减少饲料和饮水的时间点，与促使母猪迅速回乳、干奶的正确做法相矛盾。",
+    "original_question": "仔猪断奶前后如何处理泌乳母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "不仅能有效预防仔猪白痢，还能间接预防仔猪贫血。",
+    "reference_case": "不仅能有效预防仔猪贫血，还能间接预防仔猪白痢。",
+    "error_detail": "错误地颠倒了补铁对预防仔猪贫血和白痢的作用。",
+    "original_question": "补铁对仔猪有哪些益处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "有利于肉猪增加脂肪的产生与降低瘦肉率。",
+    "reference_case": "有利于肉猪减少脂肪的产生与提高瘦肉率。",
+    "error_detail": "错误地描述了限制肥育后期日粮中能量水平的效果。",
+    "original_question": "为什么在肉猪生产中要限制肥育后期日粮中的能量水平？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "会消耗更少能量，生长加快，缩短育肥期，且会使肉猪脂肪变硬发白，提高肉脂品质，降低成本。",
+    "reference_case": "会消耗更多能量，生长减慢，延长育肥期，且会使肉猪脂肪变软发黄，降低肉脂品质，增加成本。",
+    "error_detail": "因果错误",
+    "original_question": "为什么催肥阶段不应大量喂用蛋白质饲料（如豆饼或花生饼）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪粪和鸡粪中尿囊素的降解速度不同主要是因为两者中尿囊素的初始浓度不同。",
+    "reference_case": "猪粪和鸡粪中尿囊素的降解速度不同主要是因为两者中微生物群落和酶的组成不同。鸡粪中可能存在更多抑制微生物降解的因素，而猪粪则更有利于微生物的活性，从而加速尿囊素的降解。",
+    "error_detail": "因果错误",
+    "original_question": "猪粪和鸡粪中尿囊素的降解速度为何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "玉米价格、生产规模化程度和相关政策三个因素对当年吉林省猪肉产量影响不显著。",
+    "reference_case": "玉米价格、生产规模化程度和相关政策三个因素对当年吉林省猪肉产量影响比较显著，其中玉米价格和相关政策对猪肉产量的影响程度较大，与猪肉产量呈正相关的影响因素有玉米价格、生产规模化程度、GDP增长和相关政策，与猪肉产量呈负相关的影响因素有猪肉价格、能繁母猪存栏量和疫病三个因素。",
+    "error_detail": "因果错误",
+    "original_question": "从无时滞模型回归结果看，哪些因素对当年生猪生产影响比较显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪肉价格、生产规模化程度和疫病对第二年猪肉产量的影响不显著。",
+    "reference_case": "猪肉价格、生产规模化程度和疫病对第二年猪肉产量的影响比较显著，其中疫病对猪肉产量的影响程度较大，猪肉价格、玉米价格、生产规模化程度、GDP增长和相关政策五个因素与第二年猪肉产量呈正相关，能繁母猪存栏量和疫病与第二年猪肉产量呈负相关。",
+    "error_detail": "因果错误",
+    "original_question": "从1年时滞模型的回归结果看，哪些因素对第二年生猪生产影响比较显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪肉价格、能繁母猪存栏量、生猪生产规模化程度、GDP增长和相关政策对第三年猪肉产量的影响不显著。",
+    "reference_case": "猪肉价格、能繁母猪存栏量、生猪生产规模化程度、GDP增长和相关政策对第三年猪肉产量的影响比较显著，其中GDP增长对猪肉产量的影响程度较大，其他因素对猪肉产量的影响程度较小，与第三年猪肉产量正相关的因素有猪肉价格、能繁母猪存栏数量和GDP增长，而玉米价格、生产规模化程度和疫病与第三年猪肉产量呈负相关。",
+    "error_detail": "因果错误",
+    "original_question": "从2年时滞模型的回归结果看，哪些因素对第三年生猪生产影响比较显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "空间过小不利于冬季采暖保温。",
+    "reference_case": "空间过大不利于冬季采暖保温。",
+    "error_detail": "因果倒置",
+    "original_question": "影响猪舍冬季采暖保温的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "豆饼（粕）加热处理后对猪的影响是降低消化吸收率。",
+    "reference_case": "豆饼（粕）加热处理后可破坏大部分抗营养因子，提高香味和适口性，消化吸收率大大提高，是生猪生产的理想饲料之一。",
+    "error_detail": "因果倒置",
+    "original_question": "豆饼（粕）加热处理后对猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "日龄、体重相近的猪，对温度的要求、饲料的营养、免疫接种的时间基本相似，出栏时体重基本平衡，因为“全进全出”的饲养管理模式。",
+    "reference_case": "日龄、体重相近的猪，对温度的要求、饲料的营养、免疫接种的时间基本相似，出栏时体重基本平衡，便于“全进全出”的饲养管理。",
+    "error_detail": "错误地将“全进全出”饲养管理模式作为原因，而非便于管理的结果",
+    "original_question": "为什么“全进全出”饲养管理模式便于控制疫病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "敌百虫对不同动物的敏感性如何？家禽最敏感，不宜应用；幼畜较成年家畜感受性高，因此敌百虫对幼畜的效果更好。",
+    "reference_case": "家畜中，以猪、马较能耐受，羊次之，牛较敏感，宜慎用；家禽最敏感，不宜应用；幼畜较成年家畜感受性高。",
+    "error_detail": "错误地认为敌百虫对幼畜的效果更好",
+    "original_question": "敌百虫对不同动物的敏感性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "沙棘果渣可作为小猪、羔羊、小鸡和家兔的补充饲料。例如，用30～50g喂小猪，用500g喂母猪，小猪增重明显高于对照组；羔羊用量50g，则减少伤亡，平均增重11.8%；小鸡用量3～5g，平均增重12.5%；家兔不定量饲喂在49天中，昼夜增加的重量平均达27%，而定量饲喂（10g/kg体重）则在5个月内重量增加36%，且出肉量和肉的质量均有提高。这是因为沙棘果渣含有高量的蛋白质。",
+    "reference_case": "沙棘果渣可作为小猪、羔羊、小鸡和家兔的补充饲料。例如，用30～50g喂小猪，用500g喂母猪，小猪增重明显高于对照组；羔羊用量50g，则减少伤亡，平均增重11.8%；小鸡用量3～5g，平均增重12.5%；家兔不定量饲喂在49天中，昼夜增加的重量平均达27%，而定量饲喂（10g/kg体重）则在5个月内重量增加36%，且出肉量和肉的质量均有提高。",
+    "error_detail": "错误地归因于蛋白质含量",
+    "original_question": "沙棘果渣对小猪、羔羊、小鸡和家兔的补充有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "通过不同的处理方式，如愉快的处理（允许猪接近和互动）、最少的处理（仅在喂食和称重时接触）或不愉快的处理（给予短暂电击），可以影响猪的行为和繁殖。不愉快的处理可能使母猪更有可能受孕，而愉快的处理可能导致母猪因压力而受孕率降低。",
+    "reference_case": "通过不同的处理方式，如愉快的处理（允许猪接近和互动）、最少的处理（仅在喂食和称重时接触）或不愉快的处理（给予短暂电击），可以影响猪的行为和繁殖。愉快的处理可能使母猪更有可能受孕，而不愉快的处理可能导致母猪因压力而受孕率降低。",
+    "error_detail": "因果倒置",
+    "original_question": "如何通过处理方式影响猪的行为和繁殖？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "PCV2单独感染即可引起PMWS、PDNS、PNP、CT等疾病。",
+    "reference_case": "PCV2常与猪细小病毒（PPV）、猪繁殖障碍与呼吸道综合征病毒（PRRSV）、伪狂犬病病毒（PRV）、猪瘟病毒（HCV）等混合感染，可引起PMWS、PDNS、PNP、CT等疾病。",
+    "error_detail": "错误地声称PCV2单独感染即可引起多种疾病，而实际上需要与其他病毒混合感染。",
+    "original_question": "PCV引起的主要疾病有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "生产公、母猪比例的确定依据是猪场的规模大小。",
+    "reference_case": "生产公、母猪比例的确定因生产目的和繁育方式的不同而异。",
+    "error_detail": "错误地将猪场规模作为确定公、母猪比例的依据，忽略了生产目的和繁育方式的重要性。",
+    "original_question": "生产公、母猪比例的确定依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "四元杂交能充分利用个体、母本和父本杂种优势，且能充分利用性状互补效应，同时商品代猪有更丰富的遗传基础，还有发现和培育新品系的可能，这是因为四元杂交比三元杂交更简单。",
+    "reference_case": "四元杂交能充分利用个体、母本和父本杂种优势，且能充分利用性状互补效应，同时商品代猪有更丰富的遗传基础，还有发现和培育新品系的可能。",
+    "error_detail": "错误地将复杂性作为原因",
+    "original_question": "四元杂交与三元杂交相比有哪些优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "传播方式是经口鼻分泌物、粪尿排毒和感染公猪的精液排毒，引种排毒。",
+    "reference_case": "传播方式是引种排毒,经口鼻分泌物、粪尿排毒和感染公猪的精液排毒。",
+    "error_detail": "因果错误",
+    "original_question": "猪繁殖与呼吸障碍综合征的主要传播方式是什么？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "发酵床养猪技术可以减轻对环境的污染的原因是减少了猪的排泄物。",
+    "reference_case": "有机垫料里含有相当活性的土壤微生物，能够迅速有效地降解、消化猪的排泄物，不再需要对猪粪采用清扫排放，也不会形成大量的冲圈污水。",
+    "error_detail": "错误地认为减少排泄物是减轻污染的原因",
+    "original_question": "发酵床养猪技术可以减轻对环境的污染的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "禽流感病毒可能通过遗传重组将人类毒株基因转给禽类毒株，或通过猪-禽-人的联系间接传播给人类。",
+    "reference_case": "禽流感病毒可能通过遗传重组将病毒基因转给人类毒株，或通过猪-禽-人的联系间接传播给人类。",
+    "error_detail": "错误地描述了基因转移的方向，从人类到禽类，而非禽类到人类。",
+    "original_question": "禽流感病毒可能通过哪些途径影响人类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "饲料价格变动导致畜牧产品价格变动，这种影响在所有畜牧产品中普遍存在。",
+    "reference_case": "文中提到，饲料对畜牧产品价格的影响不能一概而论，有无影响取决于生产的组织形式。例如，猪和肉鸡的饲养主要以散养或小规模经营为主，这一类型的经营者对饲料价格的变动不敏感，因而饲料价格变动对猪和肉鸡价格的影响不显著；而蛋鸡的饲养形式绝大部分是养鸡场，饲料价格的变动对这一类型的经营者影响重大，因此饲料对鸡蛋价格有显著的影响。",
+    "error_detail": "错误地认为饲料价格变动对所有畜牧产品价格都有普遍影响，忽略了生产组织形式的作用。",
+    "original_question": "饲料价格对畜牧产品价格的影响是否存在普遍性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "透明带抗原存在于卵子表面，为精子必经之路，给猪注射卵巢抗原后，所得到的抗血清中均含有抗透明带的活性抗体，这些抗体使猪发生长期不孕，机制可能是阻止精子进入卵子内或干扰受精卵分裂和附植于子宫内而引起不孕，形成一层坚固的抗原-抗体复合物。",
+    "reference_case": "透明带抗原存在于卵子表面，为精子必经之路，给猪注射卵巢抗原后，所得到的抗血清中均含有抗透明带的活性抗体，这些抗体使猪发生长期不孕，机制可能是形成一层坚固的抗原-抗体复合物，阻止精子进入卵子内或干扰受精卵分裂和附植于子宫内而引起不孕。",
+    "error_detail": "将‘形成一层坚固的抗原-抗体复合物’和‘阻止精子进入卵子内或干扰受精卵分裂和附植于子宫内’的因果关系倒置，导致因果倒置幻觉。",
+    "original_question": "透明带抗原在母猪不孕中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "连续发情的母猪可能会造成不孕，可通过注射500单位的人线毛尿囊膜促性腺激素促进排卵，但这可能会导致更多的连续发情。",
+    "reference_case": "连续发情的母猪可能会造成不孕，可通过注射500单位的人线毛尿囊膜促性腺激素促进排卵。",
+    "error_detail": "添加了‘但这可能会导致更多的连续发情’，导致因果倒置幻觉。",
+    "original_question": "连续发情的母猪如何处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "隐睾公猪的睾丸酮产生减少是因为不产生精子。",
+    "reference_case": "隐睾公猪的睾丸酮产生正常，但仍可能不产生精子。",
+    "error_detail": "错误地将睾丸酮产生减少归因于不产生精子，因果倒置。",
+    "original_question": "隐睾公猪的睾丸酮产生情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "母猪阴户肿胀是因为赤霉菌毒素中毒导致的水肿。",
+    "reference_case": "母猪可能出现阴户光滑、坚实、紧张、肿胀，阴道粘膜充血和发红，阴道、子宫颈和子宫增厚，细胞成分增生和肥大，乳腺和乳头明显增大，产仔少且弱，胎儿被吸收或木乃伊化。",
+    "error_detail": "错误地将阴户肿胀归因于水肿，而非细胞成分增生和肥大。",
+    "original_question": "赤霉菌毒素中毒对母猪的危害有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "流行性乙型脑炎导致母猪流产的原因是病毒直接攻击胎儿。",
+    "reference_case": "妊娠母猪常突然发生流产。流产前除有轻度减食或发热外，常不被人们所注意。流产多在妊娠后期发生，流产后症状减轻，体温、食欲恢复正常。少数母猪流产后从阴道流出红褐色乃至灰褐色粘液，胎衣不下。母猪流产后对继续繁殖无影响。",
+    "error_detail": "错误地描述了流产的原因",
+    "original_question": "流行性乙型脑炎对猪的繁殖有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "低毒力毒株感染母猪后，母猪会表现出明显的临床症状，但不会导致流产。",
+    "reference_case": "低毒力毒株感染母猪后，母猪可能不表现出临床症状，但会导致流产、死胎和木乃伊胎。",
+    "error_detail": "错误地描述了临床症状和结果",
+    "original_question": "低毒力毒株感染母猪会导致什么样的结果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "成年猪感染盖他病毒后显示症状，如精神抑郁和颤抖。",
+    "reference_case": "成年猪感染盖他病毒后不显示症状。",
+    "error_detail": "错误地描述了成年猪感染后的症状，与原始信息相反。",
+    "original_question": "盖他病毒的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "由于皮特兰猪胴体瘦肉率低，在90kg以后生长速度显著加快，耗料少，有50%的猪含有氟烷显性基因，最好单独饲养，不宜与其他品种杂交。",
+    "reference_case": "由于皮特兰猪胴体瘦肉率高，在90kg以后生长速度显著减慢，耗料多，有50%的猪含有氟烷隐性基因，最好利用它与杜洛克猪或汉普夏猪杂交，杂交一代公猪作为杂交系统的终端父本。",
+    "error_detail": "错误地描述了皮特兰猪的生长速度、耗料量、氟烷基因的性质及其杂交利用的建议。",
+    "original_question": "为何使用皮特兰猪作为终端父本？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "母猪泌乳量在分娩后立即达到高峰，之后上升，完全满足仔猪生长发育的需要。",
+    "reference_case": "母猪泌乳量在分娩后21天左右达到高峰，之后下降，无法满足仔猪生长发育的需要。",
+    "error_detail": "错误地描述了母猪泌乳量的变化趋势及其对仔猪生长发育的影响。",
+    "original_question": "在哺乳期，为什么需要补料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "感染其他疾病如呼吸系统疾病不会影响仔猪，与腹泻无关，不会导致仔猪死亡率提高。",
+    "reference_case": "感染其他疾病如呼吸系统疾病会与腹泻共同作用，导致仔猪死亡率提高。",
+    "error_detail": "错误地描述了感染其他疾病如呼吸系统疾病对仔猪的影响。",
+    "original_question": "感染其他疾病如呼吸系统疾病会如何影响仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "训练仔猪采食饲料会阻碍其适应从母乳到饲料的营养过渡，加重断奶后营养性应激反应导致的腹泻。",
+    "reference_case": "训练仔猪采食饲料可帮助其适应从母乳到饲料的营养过渡，减轻断奶后营养性应激反应导致的腹泻。",
+    "error_detail": "错误地描述了训练仔猪采食饲料的作用。",
+    "original_question": "为什么要在仔猪补料时训练采食饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "处理畜禽粪便的方法包括制作有机肥、制作商品肥、用作食用菌培养基料、生产沼气、制作猪饲料等。这些方法会导致环境污染。",
+    "reference_case": "处理畜禽粪便的方法包括制作有机肥、制作商品肥、用作食用菌培养基料、生产沼气、制作猪饲料等。",
+    "error_detail": "错误地认为处理方法会导致环境污染",
+    "original_question": "如何处理畜禽粪便？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "莱克多巴胺用于减少食品动物的瘦肉率，增加脂肪沉积。",
+    "reference_case": "莱克多巴胺用于提高食品动物（如猪）的瘦肉率，减少脂肪沉积，促进肌肉生长。",
+    "error_detail": "因果倒置",
+    "original_question": "莱克多巴胺的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪肉市场的剧烈波动可能导致生猪疫病爆发、重大食品安全事件以及较大的环境风险事件等生猪生产环节出现的问题。",
+    "reference_case": "生猪疫病爆发、重大食品安全事件以及较大的环境风险事件等生猪生产环节出现的问题，都可能导致猪肉市场的剧烈波动。",
+    "error_detail": "错误地将猪肉市场的剧烈波动作为原因，而实际上它是结果。",
+    "original_question": "生猪疫病爆发对猪肉价格波动有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "内部影响因素包括场区建设行为、引种行为、技术投入行为、性能测定和数据管理行为、饲养管理行为、疫病控制行为以及销售服务行为。生猪良种质量直接影响场区建设行为、引种行为、技术投入行为、性能测定和数据管理行为、饲养管理行为、疫病控制行为以及销售服务行为。",
+    "reference_case": "内部影响因素包括场区建设行为、引种行为、技术投入行为、性能测定和数据管理行为、饲养管理行为、疫病控制行为以及销售服务行为。场区建设行为提供适宜的生长环境；引种行为直接影响种猪的遗传质量和性能表现；技术投入行为保障种猪场的生产能力；性能测定和数据管理行为为遗传评定和选育提供依据；饲养管理行为影响种猪的生长和繁殖性能；疫病控制行为保障种猪的健康水平；销售服务行为影响种猪的市场接受度和后续性能表现。",
+    "error_detail": "错误地将生猪良种质量作为原因，而实际上它是结果。",
+    "original_question": "内部影响因素包括哪些方面，如何影响生猪良种质量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "妊娠母猪感染猪瘟后首先表现出高烧症状。",
+    "reference_case": "妊娠母猪感染后可能不表现症状，但病毒通过胎盘传给胎儿，引起流产、死胎、畸形、胎儿木乃伊化，或产下的仔猪体质虚弱，出现震顇，最后死亡。",
+    "error_detail": "错误地描述了感染后的首要症状。",
+    "original_question": "妊娠母猪感染猪瘟后可能表现出哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "牛尿分解速度快，而猪尿分解速度较牛尿慢，因为猪尿中尿素含量高。",
+    "reference_case": "牛尿分解速度中等，而猪尿分解速度较牛尿稍快，但不及马尿分解速度最快。",
+    "error_detail": "错误地颠倒了牛尿和猪尿的分解速度及其原因",
+    "original_question": "牛尿和猪尿分解速度的比较是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "突变N蛋白的NLS后，病毒无法在猪体内持续感染，这说明N蛋白对于维持PRRSV的侵染性关键。",
+    "reference_case": "突变N蛋白的NLS后，病毒仍可在猪体内持续感染至少4周，但突变体中的无效NLS在猪体内再次突变，重新行使核定位功能，这说明N蛋白对于维持PRRSV的侵染性关键。",
+    "error_detail": "错误地描述了突变后的病毒行为",
+    "original_question": "N蛋白的核定位信号（NLS）在病毒侵染性中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "环保问题和资金问题在养猪户的规模化风险认知中具有较低的重要性。无论是经验型还是科学型认知结构的养猪户，环保问题和资金问题的风险认知均表现出显著的负向相关性。",
+    "reference_case": "环保问题和资金问题在养猪户的规模化风险认知中具有较高的重要性。无论是经验型还是科学型认知结构的养猪户，环保问题和资金问题的风险认知均表现出显著的正向相关性。其中，科学型认知结构的养猪户在环保问题上的认知显著性更高，这与其规模化选择的程度密切相关。资金问题则普遍被认为是影响规模化发展的关键因素之一。",
+    "error_detail": "错误地反转了环保问题和资金问题在养猪户规模化风险认知中的重要性和相关性方向。",
+    "original_question": "环保问题和资金问题在养猪户的规模化风险认知中处于什么地位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "商品疫苗可以控制副猪嗜血杆菌感染，因为疫苗可以诱导机体产生特异性免疫应答，预防细菌感染。实际上，疫苗的使用是因为细菌已经产生了抗药性。",
+    "reference_case": "商品疫苗可以控制副猪嗜血杆菌感染，因为疫苗可以诱导机体产生特异性免疫应答，预防细菌感染。",
+    "error_detail": "错误地声称疫苗的使用是因为细菌已经产生了抗药性，因果倒置。",
+    "original_question": "使用商品疫苗可以控制副猪嗜血杆菌感染的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "一旦出现严重感染，治愈的可能性很小，因此药物治疗的意义不大。实际上，药物治疗可以显著提高治愈率。",
+    "reference_case": "一旦出现严重感染，治愈的可能性很小，因此药物治疗的意义不大。",
+    "error_detail": "错误地声称药物治疗可以显著提高治愈率，因果倒置。",
+    "original_question": "一旦出现副猪嗜血杆菌严重感染，药物治疗的意义不大，这是为什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "妊娠母猪高能日粮过饲会提高其繁殖性能，增加产仔数。",
+    "reference_case": "妊娠母猪高能日粮过饲会导致其体内脂肪大量沉积，影响繁殖功能，常出现死胎、胎儿被吸收或产出弱仔猪。",
+    "error_detail": "错误地认为高能日粮过饲会提高繁殖性能，实际上会降低。",
+    "original_question": "妊娠母猪高能日粮过饲对其繁殖性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "分娩前后用铁盐给母猪补铁，可以有效防治仔猪贫血。",
+    "reference_case": "分娩前后用铁盐给母猪补铁，对防治仔猪贫血无效；要防止仔猪贫血，必须及时给初生仔猪补铁。",
+    "error_detail": "错误地认为给母猪补铁可以防治仔猪贫血，实际上无效。",
+    "original_question": "防治初生仔猪缺铁性贫血的措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪里脊肉的系水力、颜色和颜色稳定性提高是因为补充了维生素 C。",
+    "reference_case": "补充维生素 C 可提高猪里脊肉的系水力、颜色和颜色稳定性。",
+    "error_detail": "错误地将补充维生素 C 与猪里脊肉质量改善之间的相关性解释为因果关系。",
+    "original_question": "补充维生素 C 对猪里脊肉的哪些方面有积极作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "添加脂肪可以完全消除猪的死亡率，并且可以完全消除日粮中的维生素B1需要量。",
+    "reference_case": "添加脂肪可以降低猪的死亡率，并且可以降低日粮中的维生素B1需要量。",
+    "error_detail": "错误地夸大了添加脂肪对降低死亡率和维生素B1需要量的效果。",
+    "original_question": "缺乏维生素B1的猪日粮中添加脂肪的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "妊娠母猪血清叶酸浓度下降是因为肝脏合成活性叶酸的能力下降。",
+    "reference_case": "妊娠母猪血清叶酸浓度下降是因为叶酸被体内的氧化分解酶破坏，一部分分解产物随粪、尿排出体外，另一部分被运送到肝脏合成活性叶酸。",
+    "error_detail": "错误地将肝脏合成活性叶酸的能力下降作为血清叶酸浓度下降的原因，而实际上是因为叶酸被氧化分解酶破坏。",
+    "original_question": "妊娠母猪血清叶酸浓度下降的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "种猪妊娠期间胆碱缺乏时表现为产仔数减少，进而导致采食量降低。",
+    "reference_case": "种猪妊娠期间胆碱缺乏时表现为采食量降低，肢体外张病症状，受胎率、产仔率低，每窝总产仔数和活产仔数减少。",
+    "error_detail": "错误地将产仔数减少作为采食量降低的原因，而实际上采食量降低是胆碱缺乏的症状之一。",
+    "original_question": "种猪妊娠期间胆碱缺乏时的临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪粪经炭化处理后显著提高土壤硝态氮含量，而对铵态氮含量的影响不显著。这种效果可能与生物质炭对氮素转化的促进作用有关，能够增加氮素供应，提高氮素利用效率。",
+    "reference_case": "猪粪经炭化处理后显著降低土壤硝态氮含量，而对铵态氮含量的影响不显著。这种效果可能与生物质炭对氮素转化的缓冲作用有关，能够平稳氮素供应，减少氮素流失，提高氮素利用效率。",
+    "error_detail": "错误地声称炭化处理‘提高’硝态氮含量，与原始结论相反。",
+    "original_question": "猪粪经炭化处理后对土壤氮素含量的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "仔猪每天摆尾消耗的能量占每日代谢能的15%，无形中造成饲料的浪费；另外，断尾可减少咬尾症，降低猪的饮食及抗病力，避免感染坏死杆菌、葡萄球菌、链球菌等，提高猪的生产性能，因为断尾直接增加了饲料的转化率。",
+    "reference_case": "仔猪每天摆尾消耗的能量占每日代谢能的15%，无形中造成饲料的浪费；另外，断尾可减少咬尾症，降低猪的饮食及抗病力，避免感染坏死杆菌、葡萄球菌、链球菌等，提高猪的生产性能。",
+    "error_detail": "幻觉案例中错误地断尾直接增加了饲料的转化率作为原因，这与原始输出中的信息不符。",
+    "original_question": "断尾可以节省饲料和提高日增重的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "该地区猪群中易感个体所占的百分率，直接影响到传染病是否能造成流行以及疫病的严重程度。猪易感性的高低虽与猪体的遗传特征等内在因素、特异免疫状态有关，但主要还是由病原体的种类和毒力强弱决定的。",
+    "reference_case": "该地区猪群中易感个体所占的百分率，直接影响到传染病是否能造成流行以及疫病的严重程度。猪易感性的高低虽与病原体的种类和毒力强弱有关，但主要还是由猪体的遗传特征等内在因素、特异免疫状态决定的。",
+    "error_detail": "错误地将病原体的种类和毒力强弱作为主要决定因素",
+    "original_question": "猪群易感性的高低如何影响传染病的流行？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪场最好选在远离其他养殖场和交通要道的隔离区内，并建在上风区，选择空气清新、水质良好、土壤未被污染的生态环境地区，远离生活居民区、屠宰场、畜产品加工厂等。",
+    "reference_case": "猪场最好选在远离其他养殖场和交通要道的隔离区内，并建在上风区，选择空气清新、水质良好、土壤未被污染的生态环境地区，远离生活居民区、屠宰场、畜产品加工厂等。",
+    "error_detail": "因果错误",
+    "original_question": "如何选择合适的猪场场址？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "分娩栏的尺寸与猪场的饲料供应有关。",
+    "reference_case": "分娩栏的尺寸与猪场选用的母猪品种体型有关。",
+    "error_detail": "错误地将饲料供应作为决定分娩栏尺寸的因素。",
+    "original_question": "分娩栏的尺寸与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "环境因素对猪生产影响较小，猪的生产力水平主要由饲料决定。",
+    "reference_case": "环境因素对猪生产影响较大，适宜环境下猪的生产力水平最高，环境恶劣会降低生产水平和经济效益。",
+    "error_detail": "因果倒置，错误地低估了环境因素的影响。",
+    "original_question": "环境因素对猪生产有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "如果给仔猪口服硫酸亚铁形式的相同剂量的铁，存在于肠道的游离铁会引发肠道大肠杆菌感染，导致大肠杆菌病群体性暴发，增加仔猪死亡率。",
+    "reference_case": "如果给仔猪口服硫酸亚铁形式的相同剂量的铁，存在于肠道的游离铁会引发肠道大肠杆菌感染，导致大肠杆菌病群体性暴发，增加仔猪死亡率。",
+    "error_detail": "因果错误",
+    "original_question": "铁如何影响肠道大肠杆菌感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪便秘常见原因有饲料精度过高或粗纤维含量过大，热性疾病并发症，以及缺乏运动。",
+    "reference_case": "猪便秘常见原因有饲料精度过高或粗纤维含量过大，热性疾病并发症。",
+    "error_detail": "错误添加了缺乏运动作为原因",
+    "original_question": "猪便秘的原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "利用猪体内产生的特异性抗体与病毒或细菌抗原的特异性反应，检测患病猪群或个体体内存在的特异性抗原",
+    "reference_case": "利用病毒或细菌抗原与猪体内产生的特异性抗体的特异性反应，检测患病猪群或个体体内存在的特异性抗体，或比较急性发病期和恢复期的特异性抗体水平，以判定是否感染",
+    "error_detail": "错误地将抗体和抗原的角色颠倒",
+    "original_question": "血清学试验如何用于猪传染病的诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "由于母猪免疫系统尚未成熟，弱毒苗可能导致免疫耐受和持续感染，引起流产、死胎或畸形",
+    "reference_case": "由于胎儿免疫系统尚未成熟，弱毒苗可能导致免疫耐受和持续感染，引起流产、死胎或畸形",
+    "error_detail": "错误地将胎儿免疫系统未成熟归因于母猪",
+    "original_question": "妊娠母猪接种弱毒菌苗可能引发的免疫失败原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "母源抗体的存在会在一定时间内保护仔猪，但会增强疫苗的免疫应答，导致免疫成功",
+    "reference_case": "母源抗体的存在会在一定时间内保护仔猪，但会抑制疫苗的免疫应答，导致免疫失败。母源抗体消失后接种疫苗会增加仔猪感染的风险",
+    "error_detail": "错误地描述了母源抗体对疫苗免疫应答的影响",
+    "original_question": "母源抗体水平对仔猪免疫接种有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "引入易感猪群会使原有猪群的易感性降低。",
+    "reference_case": "引入易感猪群会使原有猪群的易感性升高。",
+    "error_detail": "错误地颠倒了因果关系。",
+    "original_question": "引入易感猪群会对原有猪群的易感性产生什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "胎盘垂直感染会增强仔猪的免疫力。",
+    "reference_case": "怀孕母猪受低毒力毒株感染后，病毒可经胎盘感染胎儿，造成猪的持续感染，导致对新宿主的长期连续性感染或间断性感染，患持续感染的仔猪可以将病毒传给非感染仔猪，使其在流行病学上更具危险性。",
+    "error_detail": "错误地颠倒了胎盘垂直感染的影响。",
+    "original_question": "胎盘垂直感染对猪瘟的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪瘟导致组织损伤，首先形成纽扣状结构，然后发生纤维素性坏死性炎症。",
+    "reference_case": "猪瘟导致组织损伤，发生纤维素性坏死性炎症。炎症平息时，机体以肉芽组织增生机化，形成一层结缔组织，炎症再次复发，组织再次坏死，形成纽扣状结构。",
+    "error_detail": "错误描述了组织损伤和纽扣状结构形成的顺序",
+    "original_question": "猪瘟引起的组织损伤过程如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪流感病毒的复制能力导致其基因不容易发生突变。",
+    "reference_case": "猪流感病毒的RNA复制酶缺乏校正阅读能力，编码HA和NA蛋白质的基因非同义替换的积累使其基因容易发生突变，造成抗原漂移，从而导致猪流感病毒的主要优势血清型仍是H1和H3亚型。",
+    "error_detail": "错误地描述了猪流感病毒复制能力与基因突变之间的关系，因果倒置。",
+    "original_question": "猪流感病毒的复制能力有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "PRRSV感染可导致猪肺泡巨噬细胞功能下降，因为免疫系统首先攻击了这些细胞。",
+    "reference_case": "PRRSV感染可导致猪肺泡巨噬细胞功能下降，抑制肺泡巨噬细胞和外周血单核细胞的非特异性杀菌能力。",
+    "error_detail": "错误地颠倒了因果关系，属于因果倒置幻觉。",
+    "original_question": "PRRSV感染对猪的免疫系统有何影响？",
+    "original_input": ""
+  }
+]

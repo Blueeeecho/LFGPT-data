@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪高热病的临床症状包括体温升高（可达45-50°C，个别可达55°C以上）",
+    "reference_case": "猪高热病的临床症状包括体温升高（可达40-41°C，个别可达42°C以上）",
+    "error_detail": "体温数值被夸大，不符合实际情况",
+    "original_question": "猪高热病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪高热病的病理变化包括心脏水肿，冠状动脉瓣出血；肺水肿，间质性肺炎；肾出血，苍白；脾肿大、坏死；胸腔、腹腔内有大量红色积液",
+    "reference_case": "猪高热病的病理变化包括心脏水肿，冠状动脉瓣出血；肺水肿，间质性肺炎；肾出血，苍白；脾肿大、坏死；胸腔、腹腔内有大量黄色积液和纤维性渗出物",
+    "error_detail": "积液颜色描述错误，应为黄色而非红色",
+    "original_question": "猪高热病的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪高热病的防控措施包括不进行任何疫苗接种",
+    "reference_case": "猪高热病的防控措施包括加强饲养管理、规范引种、早发现早隔离早治疗、疫苗防控、药物预防和消毒灭源",
+    "error_detail": "完全忽略了疫苗接种这一重要防控措施",
+    "original_question": "猪高热病的防控措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪沙门氏菌病的主要特征包括对常规抗菌素高度敏感",
+    "reference_case": "猪沙门氏菌病的主要特征包括较早时期对常规抗菌素敏感但随时间推移和长期使用以及换代药物的大量使用最终对多种药物敏感性降低",
+    "error_detail": "忽略了耐药性演变的历史事实",
+    "original_question": "猪沙门氏菌病的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪沙门氏菌病的急性型表现为高烧50-55°C",
+    "reference_case": "猪沙门氏菌病的急性型表现为高烧41-42°C",
+    "error_detail": "体温数值被夸大，不符合实际情况",
+    "original_question": "猪沙门氏菌病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪沙门氏菌病的历史用药方案包括目前仍广泛使用氯霉素",
+    "reference_case": "猪沙门氏菌病的历史用药方案包括早期使用氯霉素、痢特灵（呋喃唑酮）、磺胺类制剂。2000年以后，国家禁止使用氯霉素、痢特灵",
+    "error_detail": "忽略了氯霉素已被禁止使用的事实",
+    "original_question": "猪沙门氏菌病的历史用药方案及演变结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪沙门氏菌病的防治思路是仅使用中药治疗",
+    "reference_case": "猪沙门氏菌病的防治思路是选用目前最敏感、无耐药性的新型抗菌素药物加以治疗，兼顾多方因素，配制合理的复方型药物，多管齐下",
+    "error_detail": "添加了仅使用中药的假设，忽略了综合治疗的策略",
+    "original_question": "猪沙门氏菌病的防治思路及用药调整是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪高热病的疫苗防控措施包括使用人用流感疫苗",
+    "reference_case": "猪高热病的疫苗防控措施包括根据猪场疫情制定合理的免疫程序和药物保健程序，做好相应的疫苗紧急接种，特别是对猪群的伪狂犬病全群防疫和猪瘟超前免疫工作",
+    "error_detail": "错误地建议使用人用疫苗，完全不符合猪病防控的实际",
+    "original_question": "猪高热病的疫苗防控措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪沙门氏菌病的主要特征包括在北极地区高发",
+    "reference_case": "猪沙门氏菌病的主要特征包括潮湿、阴冷、污染严重的环境呈高发趋势",
+    "error_detail": "错误地指定了高发地域，与实际情况不符",
+    "original_question": "猪沙门氏菌病的主要特征有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪沙门氏菌病的急性症状包括高烧50～55℃左右",
+    "reference_case": "猪沙门氏菌病的急性症状包括高烧41～42℃左右",
+    "error_detail": "体温数值被夸大，不符合实际情况",
+    "original_question": "猪沙门氏菌病的急性症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪沙门氏菌病的慢性症状包括体温升高至50:5～51:5℃左右",
+    "reference_case": "猪沙门氏菌病的慢性症状包括体温升高至40:5～41:5℃左右",
+    "error_detail": "体温数值被夸大，不符合实际情况",
+    "original_question": "猪沙门氏菌病的慢性症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪沙门氏菌病的历史用药方案包括目前仍推荐使用痢特灵",
+    "reference_case": "我国早期多使用氯霉素、痢特灵（呋喃唑酮）、磺胺类制剂来治疗仔猪副伤寒。2000年以后，国家开始明文禁止使用氯霉素、痢特灵",
+    "error_detail": "忽略了痢特灵已被禁止使用的事实",
+    "original_question": "猪沙门氏菌病的历史用药方案有哪些演变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "目前治疗猪沙门氏菌病的最佳用药方案是仅使用西药",
+    "reference_case": "目前治疗猪沙门氏菌病的最佳用药方案是中西医结合，突出\"低毒、低残留、保健、无公害\"几大总体要求",
+    "error_detail": "完全忽略了中药的使用，与最佳治疗方案不符",
+    "original_question": "目前治疗猪沙门氏菌病的最佳用药方案是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪沙门氏菌病的综合防治措施包括不使用任何疫苗",
+    "reference_case": "猪沙门氏菌病的综合防治措施包括使用免疫原性良好的猪沙门氏菌弱毒株口服疫苗",
+    "error_detail": "措施中存在逻辑矛盾，既说要综合防治又说不使用疫苗",
+    "original_question": "猪沙门氏菌病的综合防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪沙门氏菌病的公共卫生安全防范措施包括使用紫外线消毒猪肉",
+    "reference_case": "猪沙门氏菌病的公共卫生安全防范措施包括家庭、食堂的猪肉食品必须高温煮熟",
+    "error_detail": "错误地建议使用紫外线消毒，与实际的食品安全措施不符",
+    "original_question": "猪沙门氏菌病的公共卫生安全防范措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪沙门氏菌病的致病菌因为对消毒剂敏感所以能耐光照、干燥、腐败",
+    "reference_case": "猪沙门氏菌病的致病菌对常规消毒剂敏感，多种消毒剂都能快速将其杀灭，但能耐光照、干燥、腐败等",
+    "error_detail": "错误地建立了因果关系，敏感性与耐受力无直接关系",
+    "original_question": "猪沙门氏菌病的致病菌对消毒剂的敏感性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪沙门氏菌病的致病菌目前对所有药物都敏感",
+    "reference_case": "猪沙门氏菌病的致病菌在较早时期对常规抗菌素敏感，但随时间推移和长期使用以及换代药物的大量使用，最终对多种药物敏感性降低",
+    "error_detail": "忽略了耐药性演变的历史事实",
+    "original_question": "猪沙门氏菌病的致病菌对药物的耐药性如何演变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪沙门氏菌病的治疗中，中药的使用可以完全替代西药",
+    "reference_case": "猪沙门氏菌病的治疗中，中药的使用优势包括：中药对动物整个机体的调整，包括各脏器的修复有更好的作用，能减少药物的毒副作用，治疗更彻底，不易反弹。而且，动物对中药没有抗药性",
+    "error_detail": "添加了中药可以完全替代西药的假设，与实际情况不符",
+    "original_question": "猪沙门氏菌病的治疗中，中药的使用有哪些优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪副伤寒是由病毒引起的",
+    "reference_case": "仔猪副伤寒是由沙门氏菌属细菌引起的",
+    "error_detail": "错误地指定了病原体类型，应为细菌而非病毒",
+    "original_question": "仔猪副伤寒是由什么病原体引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪副伤寒主要发生在出生后1周内的仔猪",
+    "reference_case": "仔猪副伤寒主要发生在断奶后至3月龄的仔猪，体重范围为10至25公斤",
+    "error_detail": "错误地指定了发病年龄，与实际情况不符",
+    "original_question": "仔猪副伤寒的主要发病年龄和体重范围是什么？",
+    "original_input": ""
+  }
+]

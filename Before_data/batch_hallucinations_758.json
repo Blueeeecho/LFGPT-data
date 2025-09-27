@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌的acrA1基因在血清8型菌株中的氨基酸序列长度为400个氨基酸，而其他血清型的AcrA1蛋白均小于379个氨基酸。",
+    "reference_case": "副猪嗜血杆菌的acrA1基因在血清8型菌株中的氨基酸序列长度为379个氨基酸，而其他血清型的AcrA1蛋白均大于400个氨基酸。",
+    "error_detail": "数值偏差，将血清8型菌株的氨基酸序列长度错误地增加，同时错误地减少了其他血清型的氨基酸序列长度。",
+    "original_question": "副猪嗜血杆菌的acrA1基因在血清8型菌株中的氨基酸序列长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌的acrA1和acrA2基因在氨基酸序列上的同源性高于50%。",
+    "reference_case": "副猪嗜血杆菌的acrA1和acrA2基因在氨基酸序列上的同源性低于30%。",
+    "error_detail": "数值偏差，错误地提高了同源性比例。",
+    "original_question": "副猪嗜血杆菌的acrA1和acrA2基因在氨基酸序列上的同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "攻毒保护试验结果显示，免疫组小鼠在攻毒后4天内，攻打HN090511b菌株的小鼠死亡3只，攻打HN190菌株的小鼠死亡1只，攻打HN100708d菌株的小鼠死亡2只，而对照组小鼠在36小时内全部死亡。",
+    "reference_case": "攻毒保护试验结果显示，免疫组小鼠在攻毒后4天内，攻打HN090511b菌株的小鼠死亡1只，攻打HN190菌株的小鼠死亡2只，攻打HN100708d菌株的小鼠死亡3只，而对照组小鼠在36小时内全部死亡。",
+    "error_detail": "数值偏差，错误地调整了死亡小鼠的数量。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的攻毒保护试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗对不同血清型菌株具有交叉免疫保护力，免疫血清能够与不同菌株发生凝集反应，并对不同菌株的攻毒具有免疫保护力，但仅限于实验室条件下。",
+    "reference_case": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗对不同血清型菌株具有交叉免疫保护力，免疫血清能够与不同菌株发生凝集反应，并对不同菌株的攻毒具有免疫保护力。",
+    "error_detail": "添加了未经证实的假设，限制了交叉免疫保护力的应用范围。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗对不同血清型菌株的交叉免疫保护力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的免疫效果通过直接ELISA检测血清中IgG抗体水平、玻板凝集试验和攻毒保护试验来评估。",
+    "reference_case": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的免疫效果通过间接ELISA检测血清中IgG抗体水平、玻板凝集试验和攻毒保护试验来评估。",
+    "error_detail": "错误地改变了检测方法，从间接ELISA变为直接ELISA。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的免疫效果如何评估？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "SDS-PAGE检测结果显示，HN090511b菌株外膜蛋白提取物的条带大小主要集中在20ku到30ku之间，说明提取物为大肠埃希菌外膜蛋白。",
+    "reference_case": "SDS-PAGE检测结果显示，HN090511b菌株外膜蛋白提取物的条带大小主要集中在31ku到43ku之间，说明提取物为大肠埃希菌外膜蛋白。",
+    "error_detail": "数值偏差，错误地调整了条带大小的范围。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的SDS-PAGE检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在小鼠体内，猪致病性大肠埃希菌外膜蛋白亚单位疫苗的抗体水平在免疫后5天开始检测到，10天内迅速增加，21天左右达到最高值，随后缓慢下降。",
+    "reference_case": "在小鼠体内，猪致病性大肠埃希菌外膜蛋白亚单位疫苗的抗体水平在免疫后7天开始检测到，14天内迅速增加，28天左右达到最高值，随后缓慢下降。",
+    "error_detail": "数值偏差，错误地调整了抗体水平变化的时间点。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗在小鼠体内的抗体水平变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "玻板凝集试验结果显示，抗大肠埃希菌HN090511b外膜蛋白的免疫血清不仅能够与亲本菌株HN090511b发生凝集反应，还能够与非亲本菌株HN190和HN100708d发生凝集反应，但这种反应在高温下会减弱。",
+    "reference_case": "玻板凝集试验结果显示，抗大肠埃希菌HN090511b外膜蛋白的免疫血清不仅能够与亲本菌株HN090511b发生凝集反应，还能够与非亲本菌株HN190和HN100708d发生凝集反应。",
+    "error_detail": "添加了未经证实的假设，关于高温对凝集反应的影响。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的玻板凝集试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的制备方法包括使用超声波破碎菌体，并用N-十二烷基肌氨酸钠提取外膜蛋白。提取物经过Western blot检测后，制备成疫苗。",
+    "reference_case": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的制备方法包括使用超声波破碎菌体，并用N-十二烷基肌氨酸钠提取外膜蛋白。提取物经过SDS-PAGE电泳检测后，制备成疫苗。",
+    "error_detail": "错误地改变了检测方法，从SDS-PAGE电泳变为Western blot。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的制备方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "免疫血清对小鼠的保护率分别为：攻打HN090511b菌株的免疫组小鼠保护率为90%，攻打HN190菌株的免疫组小鼠保护率为70%，攻打HN100708d菌株的免疫组小鼠保护率为50%。",
+    "reference_case": "免疫血清对小鼠的保护率分别为：攻打HN090511b菌株的免疫组小鼠保护率为80%，攻打HN190菌株的免疫组小鼠保护率为60%，攻打HN100708d菌株的免疫组小鼠保护率为40%。",
+    "error_detail": "数值偏差，错误地提高了保护率。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的免疫血清对小鼠的保护率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "免疫血清IgG抗体水平检测方法是通过直接ELISA进行的，将大肠埃希菌OMP浓度调整至100mg/L包被酶标板，加入待检血清样品和阴性对照，使用羊抗鼠IgG-HRP酶标抗体检测抗体水平。",
+    "reference_case": "免疫血清IgG抗体水平检测方法是通过间接ELISA进行的，将大肠埃希菌OMP浓度调整至50mg/L包被酶标板，加入待检血清样品和阴性对照，使用羊抗鼠IgG-HRP酶标抗体检测抗体水平。",
+    "error_detail": "错误地改变了检测方法和OMP浓度。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的免疫血清IgG抗体水平检测方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "动物免疫试验设计为将30只小鼠随机分为5组，2个免疫组和3个对照组，每组6只。免疫组小鼠接种外膜蛋白疫苗，对照组小鼠注射完全弗氏佐剂。",
+    "reference_case": "动物免疫试验设计为将30只小鼠随机分为6组，3个免疫组和3个对照组，每组5只。免疫组小鼠接种外膜蛋白疫苗，对照组小鼠注射完全弗氏佐剂。",
+    "error_detail": "数值偏差，错误地调整了分组和小鼠数量。",
+    "original_question": "猪致病性大肠埃希菌外膜蛋白亚单位疫苗的动物免疫试验设计如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪肺脏气道上皮主要由基底细胞、克拉拉细胞、纤毛细胞和杯状细胞等上皮细胞类型组成，但这些细胞在猪的不同生长阶段比例不同。",
+    "reference_case": "猪肺脏气道上皮主要由基底细胞、克拉拉细胞、纤毛细胞和杯状细胞等上皮细胞类型组成。",
+    "error_detail": "添加了未经证实的假设，关于细胞比例在不同生长阶段的变化。",
+    "original_question": "猪肺脏气道上皮主要由哪些细胞类型组成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪肺脏气道上皮干细胞的候选亚群是通过Keratin 14和CD49f或CD117（c-kit）单标染色法鉴定的。",
+    "reference_case": "猪肺脏气道上皮干细胞的候选亚群是通过Keratin 14和CD49f或CD117（c-kit）双标染色法鉴定的。",
+    "error_detail": "错误地改变了染色方法，从双标染色变为单标染色。",
+    "original_question": "猪肺脏气道上皮干细胞的候选亚群是通过哪种染色法鉴定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪肺脏气道上皮干细胞的表面标记抗原CD49f和CD117在细胞悬浮液的流式细胞术中被检测到。",
+    "reference_case": "猪肺脏气道上皮干细胞的表面标记抗原CD49f和CD117在细胞爬片的免疫荧光染色中被检测到。",
+    "error_detail": "错误地改变了检测方法，从免疫荧光染色变为流式细胞术。",
+    "original_question": "猪肺脏气道上皮干细胞的表面标记抗原CD49f和CD117在哪种实验条件下被检测到？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪肺脏气道上皮干细胞的候选亚群在肺脏气道上皮受到外环境刺激时（如消化），上皮干细胞开始增殖以完成损伤修复作用发生数量上的增殖，但这种增殖在老年猪中会减弱。",
+    "reference_case": "猪肺脏气道上皮干细胞的候选亚群在肺脏气道上皮受到外环境刺激时（如消化），上皮干细胞开始增殖以完成损伤修复作用发生数量上的增殖。",
+    "error_detail": "添加了未经证实的假设，关于老年猪中增殖减弱的情况。",
+    "original_question": "猪肺脏气道上皮干细胞的候选亚群在肺脏气道上皮受到外环境刺激时会发生什么变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪肺脏气道上皮干细胞的候选亚群中，CD49f和CD117的表达与基底细胞相关，但这种相关性在疾病状态下会改变。",
+    "reference_case": "猪肺脏气道上皮干细胞的候选亚群中，CD49f和CD117的表达与基底细胞相关。",
+    "error_detail": "添加了未经证实的假设，关于疾病状态下相关性的变化。",
+    "original_question": "猪肺脏气道上皮干细胞的候选亚群中，CD49f和CD117的表达与哪种细胞类型相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪肺脏气道上皮干细胞的研究中，使用了Oct3/4、Sox2、CD133和SSEA-1等5种上皮干细胞相关抗体来分析其表面抗原表达情况。",
+    "reference_case": "在猪肺脏气道上皮干细胞的研究中，使用了Oct3/4、Sox2、CD133和SSEA-1等10种上皮干细胞相关抗体来分析其表面抗原表达情况。",
+    "error_detail": "数值偏差，错误地减少了使用的抗体数量。",
+    "original_question": "在猪肺脏气道上皮干细胞的研究中，使用了哪些抗体来分析其表面抗原表达情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪肺脏气道上皮干细胞的候选亚群中，基底细胞同时表达Keratin 14和CD49f或CD117，但这种表达在体外培养条件下会减弱。",
+    "reference_case": "猪肺脏气道上皮干细胞的候选亚群中，基底细胞同时表达Keratin 14和CD49f或CD117。",
+    "error_detail": "添加了未经证实的假设，关于体外培养条件下表达减弱的情况。",
+    "original_question": "猪肺脏气道上皮干细胞的候选亚群中，哪些细胞同时表达Keratin 14和CD49f或CD117？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在猪肺脏气道上皮干细胞的免疫荧光染色中，CD133、CD104、OCT3/4、CyclinD1、SSEA-1、Sox2、Sca-1和TTF-1未检测到阳性细胞，但在某些特定条件下可以检测到。",
+    "reference_case": "在猪肺脏气道上皮干细胞的免疫荧光染色中，CD133、CD104、OCT3/4、CyclinD1、SSEA-1、Sox2、Sca-1和TTF-1未检测到阳性细胞。",
+    "error_detail": "添加了未经证实的假设，关于特定条件下可以检测到阳性细胞的情况。",
+    "original_question": "在猪肺脏气道上皮干细胞的免疫荧光染色中，哪些干细胞特异抗原未检测到阳性细胞？",
+    "original_input": ""
+  }
+]

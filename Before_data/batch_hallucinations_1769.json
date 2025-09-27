@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用10%氢氧化钠或1%过氧乙酸，药液水深30 cm以上，每周更换2次，投入消毒池内混合均匀。",
+    "reference_case": "使用5%氢氧化钠或0.5%过氧乙酸，药液水深20 cm以上，每周更换1次，投入消毒池内混合均匀。",
+    "error_detail": "数值比例被夸大，与实际消毒方法不符。",
+    "original_question": "猪舍门口的消毒方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "使用5%氢氧化钠或15%石灰乳喷酒，每周2次，作用1小时以上。",
+    "reference_case": "使用3%氢氧化钠或10%石灰乳喷酒，每周1次，作用2小时以上。",
+    "error_detail": "消毒剂浓度和作用时间与现行标准不符。",
+    "original_question": "猪舍环境在疫情静止期的消毒方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用15%漂白粉或5%氢氧化钠等浸泡，每天1次，作用2小时以上。",
+    "reference_case": "使用15%漂白粉或5%氢氧化钠等喷雾，每天1次，作用2小时以上。",
+    "error_detail": "消毒方法由喷雾错误改为浸泡。",
+    "original_question": "猪舍栏圈在疫情活动期的消毒方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用10%氢氧化钠、10%漂白粉等药物进行喷雾消毒，每3天1次。",
+    "reference_case": "使用5%氢氧化钠、5%漂白粉等药物进行喷雾消毒，每5～7天1次。",
+    "error_detail": "消毒剂浓度和消毒频率被夸大。",
+    "original_question": "猪瘟的消毒方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "使用1%过氧乙酸、含氯消毒药等进行喷雾消毒，每5天1次。",
+    "reference_case": "使用0.5%过氧乙酸、含氯消毒药等进行喷雾消毒，每7天1次。",
+    "error_detail": "消毒剂浓度和消毒频率与标准不符，可能反映地域差异。",
+    "original_question": "猪传染性胃肠炎和猪流行性腹泻的消毒方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用5%氢氧化钠、10%漂白粉等药物进行喷雾消毒，每天1次。",
+    "reference_case": "使用3%氢氧化钠、5%漂白粉等药物进行喷雾消毒，每3天1次。",
+    "error_detail": "消毒剂浓度和消毒频率被夸大。",
+    "original_question": "猪蓝耳病的消毒方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用2%氢氧化钠、3%来苏儿等药物进行浸泡消毒，每5～7天1次。",
+    "reference_case": "使用2%氢氧化钠、3%来苏儿等药物进行喷雾消毒，每5～7天1次。",
+    "error_detail": "消毒方法由喷雾错误改为浸泡。",
+    "original_question": "猪细小病毒病的消毒方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的臀浅肌分为前部和后部两部分，前部较小，分为浅部和深部。",
+    "reference_case": "猪的臀浅肌分为浅部和深部两部分，浅部较小，分为前部和后部。",
+    "error_detail": "肌肉部分的分类顺序和描述被错误地颠倒。",
+    "original_question": "猪的臀浅肌有哪些部分组成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪蹄的副趾没有完整的骨组成，而反刍动物的悬蹄有骨骼，通过一个假关节与主蹄相连。此外，猪的外侧悬蹄通常比内侧的短，后肢的悬蹄与前肢相比距躯干更远。",
+    "reference_case": "猪蹄的副趾具有完整的骨组成，而反刍动物的悬蹄没有骨骼，通过一个真关节与主蹄相连。此外，猪的外侧悬蹄通常比内侧的长，后肢的悬蹄与前肢相比距躯干更近。",
+    "error_detail": "关于猪蹄和反刍动物蹄部的描述完全相反。",
+    "original_question": "猪蹄与反刍动物蹄部的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪病防治主要包括诊断、传染病、内科病、外科病和产科病。",
+    "reference_case": "猪病防治主要包括诊断、传染病、内科病、外科病、产科病、寄生虫病和中毒病。",
+    "error_detail": "遗漏了寄生虫病和中毒病两个重要方面。",
+    "original_question": "猪病防治主要包含哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪病的诊断方法包括病因分析、临床诊断和尸体剖检，不需要考虑病理变化。",
+    "reference_case": "猪病的诊断方法包括病因分析、临床诊断和尸体剖检，常见的几种病理变化也需要考虑。",
+    "error_detail": "错误地排除了病理变化的考虑，导致诊断方法不完整。",
+    "original_question": "猪病的诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪瘟的症状包括高烧、食欲不振和皮肤出血点，治疗方法主要是使用抗生素。",
+    "reference_case": "猪瘟的症状和治疗方法需要参考书中具体章节内容，该段落只提到了猪瘟属于传染病的一种。",
+    "error_detail": "添加了未经证实的症状和治疗方法。",
+    "original_question": "猪瘟的症状和治疗方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪传染性胃肠炎可以导致猪的死亡，具体死亡率高达50%。",
+    "reference_case": "猪传染性胃肠炎可以导致猪的肠道疾病，具体影响程度需要参考书中具体章节内容。",
+    "error_detail": "添加了未经证实的死亡率和具体影响程度。",
+    "original_question": "猪传染性胃肠炎对猪的影响有多大？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪的内科病主要包括消化不良、便秘、胃肠炎和支气管炎。",
+    "reference_case": "猪的内科病主要包括消化不良、便秘、胃肠炎、支气管炎、肺炎、中暑、肾炎等。",
+    "error_detail": "遗漏了肺炎、中暑、肾炎等重要内科病。",
+    "original_question": "猪的内科病主要有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪的外科病主要包括脱肛、皮炎和湿疹、关节炎。",
+    "reference_case": "猪的外科病主要包括脱肛、皮炎和湿疹、关节炎、创伤、蹄病、关节扭伤、结膜炎等。",
+    "error_detail": "遗漏了创伤、蹄病、关节扭伤、结膜炎等重要外科病。",
+    "original_question": "猪的外科病主要包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪的产科病包括不孕症、难产、胎衣不下和死胎。",
+    "reference_case": "猪的产科病包括不孕症、难产、胎衣不下、死胎、子宫脱出、子宫炎、母猪痽䱚、流产、产后缺乳、乳房炎、产后热、产后不吃等。",
+    "error_detail": "遗漏了子宫脱出、子宫炎、母猪痽䱚、流产、产后缺乳、乳房炎、产后热、产后不吃等重要产科病。",
+    "original_question": "猪的产科病主要有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪的寄生虫病主要包括猪ncy虫病和猪肺丝虫病。",
+    "reference_case": "猪的寄生虫病主要包括猪ncy虫病、猪肺丝虫病、猪旋毛虫病、猪囊虫病、细颈囊尾蜘病、猪瘀湃、猪弓形体病等。",
+    "error_detail": "遗漏了猪旋毛虫病、猪囊虫病、细颈囊尾蜘病、猪瘀湃、猪弓形体病等重要寄生虫病。",
+    "original_question": "猪的寄生虫病主要有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪的中毒病主要包括亚硝酸盐中毒和氢氛酸中毒。",
+    "reference_case": "猪的中毒病主要包括亚硝酸盐中毒、氢氛酸中毒、发每饲料中毒、酒糟中毒、棉叶和棉籽饼中毒、有机磷农药中毒、磷化锌中毒、砷制剂中毒等。",
+    "error_detail": "遗漏了发每饲料中毒、酒糟中毒、棉叶和棉籽饼中毒、有机磷农药中毒、磷化锌中毒、砷制剂中毒等重要中毒病。",
+    "original_question": "猪的中毒病主要有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪病诊断只需考虑病猪的饲养管理情况和疫苗注射史。",
+    "reference_case": "猪病诊断需结合猪只症状及组织器官变化，考虑病猪的饲养管理情况、疫苗注射史、发病时间、品种、年龄、周围疫情等。",
+    "error_detail": "错误地简化了诊断需要考虑的因素。",
+    "original_question": "猪病诊断需要考虑哪些因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪病大致可分为传染病、内科病和外科病。",
+    "reference_case": "猪病大致可分为传染病、内科病、外科病、产科病、寄生虫病和中毒病等。",
+    "error_detail": "遗漏了产科病、寄生虫病和中毒病等重要分类。",
+    "original_question": "猪病按其发生原因大致可分为哪几类？",
+    "original_input": ""
+  }
+]

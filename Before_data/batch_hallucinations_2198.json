@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的休药期为30天。",
+    "reference_case": "猪的休药期为35天。",
+    "error_detail": "休药期数值错误",
+    "original_question": "喹乙醇的休药期是多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "卡巴多禁用于体重超过50kg的猪、鸡及水生动物。",
+    "reference_case": "卡巴多禁用于体重超过55kg的猪、鸡及水生动物。",
+    "error_detail": "体重限制数值错误",
+    "original_question": "卡巴多对哪些动物禁用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "卡巴多对大肠杆菌、多杀性巴斯德氏菌无效。",
+    "reference_case": "卡巴多对大肠杆菌、多杀性巴斯德氏菌、霍乱沙门氏菌、变形杆菌、金黄色葡萄球菌、链球菌等有效，猪痢疾密螺旋体对本品较敏感。",
+    "error_detail": "抗菌作用描述错误",
+    "original_question": "卡巴多对哪些细菌有抗菌作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "硝基咪唑类药物会抑制猪、鸡的生长。",
+    "reference_case": "硝基咪唑类药物可以促进猪、鸡的生长，改善饲料转化率。",
+    "error_detail": "药物作用描述相反",
+    "original_question": "硝基咪唑类药物如何影响动物的生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪饲喂每1000kg含本品50~250g的饲料，平均日增重提高2~3%，减少耗料量3~5%。",
+    "reference_case": "猪饲喂每1000kg含本品50~250g的饲料，平均日增重提高4~6%，减少耗料量5~10%。",
+    "error_detail": "增重和耗料量比例错误",
+    "original_question": "猪饲喂含二甲硝咪唑的饲料后，平均日增重和饲料转化率有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪、鸡的休药期为7天。",
+    "reference_case": "猪、鸡的休药期为5天。",
+    "error_detail": "休药期数值错误",
+    "original_question": "二甲硝咪唑的休药期为多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "洛硝达唑仅对猪的密螺旋体有抑制作用。",
+    "reference_case": "洛硝达唑具有抗菌、抗原虫和促生长作用，尤其对猪的密螺旋体、鸡的组织滴虫和鞭毛虫有显著抑制作用。",
+    "error_detail": "作用范围描述不全",
+    "original_question": "洛硝达唑对畜禽有哪些作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "5~11kg体重的仔猪饲喂本品60mg/kg饲料，饲养至20~35kg时，提高增重10~12%，提高饲料转化率3~4%。",
+    "reference_case": "5~11kg体重的仔猪饲喂本品60mg/kg饲料，饲养至20~35kg时，提高增重14.1~19.2%，提高饲料转化率6~7%。",
+    "error_detail": "增重和饲料转化率比例错误",
+    "original_question": "仔猪饲喂含洛硝达唑的饲料后，增重和饲料转化率有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪、火鸡的休药期分别为5天和10天。",
+    "reference_case": "猪、火鸡的休药期分别为3天和6天。",
+    "error_detail": "休药期数值错误",
+    "original_question": "洛硝达唑的休药期为多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "甲硝唑拌料，每1kg体重，牛80mg，鸡40～50mg，猪20mg，兔30～50mg，每天1次，连用3～5天。",
+    "reference_case": "甲硝唑拌料，每1kg体重，牛60mg，鸡20～30mg，猪10mg，兔20～40mg，每天1次，连用3～5天。",
+    "error_detail": "使用剂量数值错误",
+    "original_question": "甲硝唑在不同动物的使用剂量和用法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "异丙硝达唑仅对火鸡的组织滴虫有抑制作用。",
+    "reference_case": "异丙硝达唑具有抗菌、抗原虫作用，尤其对火鸡的组织滴虫和猪的密螺旋体有显著抑制作用。",
+    "error_detail": "作用范围描述不全",
+    "original_question": "异丙硝达唑的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "异丙硝达唑预混剂，混饲，每1000kg饲料，火鸡100～150g，猪300g。",
+    "reference_case": "异丙硝达唑预混剂，混饲，每1000kg饲料，火鸡50～85g，猪200g。",
+    "error_detail": "使用剂量数值错误",
+    "original_question": "异丙硝达唑在不同动物的使用剂量和用法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "产蛋鸡禁用本品，猪、鸡的休药期为10天。",
+    "reference_case": "产蛋鸡禁用本品，猪、鸡的休药期为5天。",
+    "error_detail": "休药期数值错误",
+    "original_question": "异丙硝达唑的使用注意事项是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "红霉素主要用于治疗猪丹毒和鸡慢性呼吸道病。",
+    "reference_case": "主要用于耐药金黄色葡萄球菌所引起的严重感染及对青霉素过敏的病例，或用于其它敏感的革兰氏阳性菌引起的感染，如猪丹毒、肺炎、败血症、子宫炎、乳腺炎等，也用于支原体引起的猪喘气病、鸡慢性呼吸道病。",
+    "error_detail": "治疗范围描述不全",
+    "original_question": "红霉素主要用于哪些疾病治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "产蛋鸡内服后的消除半衰期分别为3.5小时（马）、2.0至3.5小时（牛）、1.5小时（猪）、3.0小时（奶山羊）、2.0小时（水牛）。",
+    "reference_case": "产蛋鸡内服后的消除半衰期分别为2.91小时（马）、1.74至3.16小时（牛）、1.21小时（猪）、2.78小时（奶山羊）、1.59小时（水牛）。",
+    "error_detail": "消除半衰期数值错误",
+    "original_question": "红霉素在动物体内的消除半衰期如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "产蛋鸡的表观分布容积为6.0L/kg，牛为1.0至3.0L/kg，猪为4.0L/kg，奶山羊为5.0L/kg，水牛为4.0L/kg。",
+    "reference_case": "产蛋鸡的表观分布容积为5.54L/kg，牛为0.79至2.87L/kg，猪为3.26L/kg，奶山羊为4.29L/kg，水牛为3.21L/kg。",
+    "error_detail": "分布容积数值错误",
+    "original_question": "红霉素在动物体内的分布容积如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "马的体清除率为2.0L/（kg·h），牛的体清除率为2.0L/（kg·h），猪和奶山羊的具体清除率未明确给出，仅为肝脏、胆汁中浓度最高。",
+    "reference_case": "马的体清除率为1.4L/（kg·h），牛的体清除率为1.4L/（kg·h），猪和奶山羊的具体清除率未明确给出，仅为肝脏、胆汁中浓度最高。",
+    "error_detail": "体清除率数值错误",
+    "original_question": "红霉素在马、牛、猪、奶山羊体内的体清除率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "火鸡10天、肉鸡3天、猪20天。",
+    "reference_case": "火鸡14天、肉鸡5天、猪30天。",
+    "error_detail": "休药期数值错误",
+    "original_question": "壮观霉素在治疗畜禽疾病时的休药期是多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪5天，肉鸡3天。",
+    "reference_case": "猪7天，肉鸡5天。",
+    "error_detail": "休药期数值错误",
+    "original_question": "春雷霉素用于畜禽时的休药期是多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "2周龄仔猪吸收不良，4周龄猪的血清浓度较高，而8周龄的猪血清中测出阿普拉霉素。",
+    "reference_case": "2周龄仔猪吸收良好，4周龄猪的血清浓度较低，而8周龄的猪血清中未测出阿普拉霉素。",
+    "error_detail": "吸收情况描述相反",
+    "original_question": "阿普拉霉素在仔猪体内的吸收情况如何？",
+    "original_input": ""
+  }
+]

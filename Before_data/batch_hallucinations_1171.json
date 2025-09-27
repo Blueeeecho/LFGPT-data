@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪精液常温保存中，长效稀释液的保存时间可以达到15天以上，如Diltec可保存精液15到20天，力之源可以保存精液14到21天。",
+    "reference_case": "在猪精液常温保存中，长效稀释液的保存时间可以达到5天以上，如Diltec可保存精液5到10天，力之源可以保存精液7到14天。",
+    "error_detail": "保存时间被夸大了，与实际情况不符。",
+    "original_question": "猪精液常温保存中，长效稀释液的保存时间是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪精液常温保存中，钠离子（Na+）对精子的生存至关重要，因为它可以维持精子膜上的Na+-K+泵运转，产生ATP，维持精子的存活和运动。",
+    "reference_case": "在猪精液常温保存中，钾离子（K+）对精子的生存至关重要，因为它可以维持精子膜上的Na+-K+泵运转，产生ATP，维持精子的存活和运动。",
+    "error_detail": "错误的离子被强调为关键因素，实际上钾离子才是关键。",
+    "original_question": "猪精液常温保存中，哪些离子对精子的生存至关重要？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在猪精液常温保存中，牛血清白蛋白（BSA）通过直接提供能量给精子，保护精子的作用。",
+    "reference_case": "在猪精液常温保存中，牛血清白蛋白（BSA）通过稳定精子结构，中和精子有害代谢产物，维持精子运动和减少精子凝集等多种途径起到保护精子的作用。",
+    "error_detail": "添加了BSA直接提供能量的假设，这与实际作用机制不符。",
+    "original_question": "猪精液常温保存中，牛血清白蛋白（BSA）的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪精液常温保存中，短效稀释粉的保存时间是5到7天。",
+    "reference_case": "在猪精液常温保存中，短效稀释粉的保存时间是1到3天。",
+    "error_detail": "保存时间被错误地延长了。",
+    "original_question": "猪精液常温保存中，短效稀释粉的保存时间是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在猪精液稀释液中添加缓冲剂是为了增加精子的运动速度。",
+    "reference_case": "在猪精液稀释液中添加缓冲剂是为了控制精液的pH值，防止过酸化导致精子死亡。",
+    "error_detail": "回答偏离了原始问题的需求，错误地描述了缓冲剂的作用。",
+    "original_question": "为什么在猪精液稀释液中需要添加缓冲剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪精液常温保存技术的主要目标是减少保存成本。",
+    "reference_case": "猪精液常温保存技术的主要目标是完善保存技术的理论，提高保存效果，确保精子在体外具有较长的存活时间及结构的完整。",
+    "error_detail": "回答与原始目标存在逻辑矛盾，忽略了技术的主要目标。",
+    "original_question": "猪精液常温保存技术的主要目标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "精原干细胞起源于支持细胞。",
+    "reference_case": "精原干细胞起源于原始生殖细胞（PGCs）。",
+    "error_detail": "错误地描述了精原干细胞的起源。",
+    "original_question": "猪睾丸中，精原干细胞的起源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "90日龄时出现的分化的A型精原干细胞包括As型、Apr型和Aal型精原干细胞，以及B型精原干细胞。",
+    "reference_case": "90日龄时出现的分化的A型精原干细胞包括As型、Apr型和Aal型精原干细胞。",
+    "error_detail": "错误地添加了B型精原干细胞，与实际情况不符。",
+    "original_question": "猪睾丸中，90日龄时出现的分化的A型精原干细胞有哪些类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "150日龄时曲细精管中出现的主要生精细胞类型包括初级精母细胞和精子。",
+    "reference_case": "150日龄时曲细精管中出现的主要生精细胞类型包括初级精母细胞和圆形精细胞。",
+    "error_detail": "错误地将圆形精细胞描述为精子。",
+    "original_question": "猪睾丸中，150日龄时曲细精管中出现的主要生精细胞类型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "猪睾丸的曲细精管主要由生精细胞和支持细胞组成，没有其他结构。",
+    "reference_case": "猪睾丸的曲细精管主要由支持细胞和处于不同发育阶段的生精细胞共同组成的生精上皮所围成，其外包有基膜和管周类肌细胞。",
+    "error_detail": "忽略了曲细精管的其他重要组成部分。",
+    "original_question": "猪睾丸的曲细精管由哪些主要部分组成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "性原细胞转化为精原干细胞的过程发生在60日龄左右。",
+    "reference_case": "性原细胞转化为精原干细胞的过程发生在30日龄左右。",
+    "error_detail": "错误地描述了转化发生的日龄段。",
+    "original_question": "猪睾丸中，性原细胞转化为精原干细胞的过程发生在哪个日龄段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "7～30日龄和60～90日龄时，曲细精管直径增加显著。",
+    "reference_case": "7～30日龄和90～150日龄时，曲细精管直径增加显著。",
+    "error_detail": "错误地描述了曲细精管直径显著增加的日龄段。",
+    "original_question": "在猪睾丸发育过程中，曲细精管直径在哪个日龄段增加显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "60～90日龄和120～150日龄时，生殖细胞数增加显著。",
+    "reference_case": "60～90日龄和90～150日龄时，生殖细胞数增加显著。",
+    "error_detail": "错误地描述了生殖细胞数显著增加的日龄段。",
+    "original_question": "猪睾丸中，生殖细胞数在哪个日龄段增加显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "60～90日龄的猪睾丸适合用于分离精原干细胞。",
+    "reference_case": "30～60日龄的猪睾丸适合用于分离精原干细胞。",
+    "error_detail": "错误地描述了适合分离精原干细胞的日龄段。",
+    "original_question": "在猪睾丸发育过程中，哪个日龄段的睾丸适合用于分离精原干细胞？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "30～60日龄的猪睾丸适合用于分离性原细胞。",
+    "reference_case": "7～30日龄的猪睾丸适合用于分离性原细胞。",
+    "error_detail": "错误地描述了适合分离性原细胞的日龄段。",
+    "original_question": "猪睾丸发育过程中，哪个日龄段的睾丸适合用于分离性原细胞？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "30～60日龄时，支持细胞数增加显著。",
+    "reference_case": "7～30日龄时，支持细胞数增加显著。",
+    "error_detail": "错误地描述了支持细胞数显著增加的日龄段。",
+    "original_question": "猪睾丸中，支持细胞数在哪个日龄段增加显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "盐酸川穹嗪在猪精液稀释液中具有显著的抗生素增敏效果。",
+    "reference_case": "虽然试验中发现盐酸川穹嗪在猪精液稀释液中具有抑菌作用，但其是否真正起到了抗生素增敏效果还需要进一步研究证实。",
+    "error_detail": "错误地假设了盐酸川穹嗪具有抗生素增敏效果，缺乏充分证据。",
+    "original_question": "盐酸川穹嗪在猪精液保存中的应用是否具有抗生素增敏效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪精液低温保存条件下，添加盐酸川穹嗪的试验1组、试验2组和试验3组的总存活时间均显著短于对照组。",
+    "reference_case": "在猪精液低温保存条件下，添加盐酸川穹嗪的试验1组、试验2组和试验3组的总存活时间均显著长于对照组，分别为220:00小时、214:17小时和217:1小时，而对照组为201:83小时。",
+    "error_detail": "错误地描述了盐酸川穹嗪对精子总存活时间的影响。",
+    "original_question": "在猪精液低温保存条件下，盐酸川穹嗪对精子总存活时间的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "盐酸川穹嗪通过直接杀死细菌来延长精子寿命。",
+    "reference_case": "盐酸川穹嗪可能通过抗氧化作用清除精液在保存过程中产生的活性氧族（ROS）等有害物质，并抑制精子相关凋亡蛋白的表达，从而延长精子寿命。",
+    "error_detail": "回答偏离了原始问题的需求，错误地描述了盐酸川穹嗪的作用机制。",
+    "original_question": "盐酸川穹嗪在猪精液保存中的作用机制是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪精液常温保存条件下，添加0:08 mmol/L盐酸川穹嗪的试验1组的总存活时间为152:00小时，与对照组相同。",
+    "reference_case": "在猪精液常温保存条件下，添加0:08 mmol/L盐酸川穹嗪的试验1组的总存活时间为186:00小时，极显著高于对照组的152:00小时。",
+    "error_detail": "错误地描述了盐酸川穹嗪对精子总存活时间的影响。",
+    "original_question": "在猪精液常温保存条件下，盐酸川穹嗪对精子总存活时间的影响如何？",
+    "original_input": ""
+  }
+]

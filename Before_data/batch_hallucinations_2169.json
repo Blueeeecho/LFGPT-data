@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪链球菌从鼻咽进入体内，有时造成败血症和死亡。多数研究集中在3型菌株和脑膜炎方面，其致病机制可能是细菌从扁桃体进入血液，被单核细胞吞噬，通过脉络膜丛运送到脑脊髓液（CSF）内，激发单核细胞或巨噬细胞产生细胞素，导致从血液到脑脊髓液内的炎性浸润。",
+    "reference_case": "猪链球菌从鼻咽进入体内，有时造成败血症和死亡。多数研究集中在2型菌株和脑膜炎方面，其致病机制可能是细菌从扁桃体进入血液，被单核细胞吞噬，通过脉络膜丛运送到脑脊髓液（CSF）内，激发单核细胞或巨噬细胞产生细胞素，导致从血液到脑脊髓液内的炎性浸润。",
+    "error_detail": "将研究集中的菌株类型从2型错误地改为3型。",
+    "original_question": "猪链球菌的传播机制是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "链球菌具有α-溶血性，环状AMP试验阳性，而猪链球菌则不同。",
+    "reference_case": "链球菌具有β-溶血性，环状AMP试验阳性，而猪链球菌则不同。",
+    "error_detail": "将β-溶血性错误地改为α-溶血性。",
+    "original_question": "链球菌与猪链球菌如何区分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "链球菌E群在中国主要引起育肥猪链球菌性淋巴结炎、额部脓肿或猪颈脓肿。",
+    "reference_case": "链球菌E群在美国主要引起育肥猪链球菌性淋巴结炎、额部脓肿或猪颈脓肿。",
+    "error_detail": "将地域从美国错误地改为中国。",
+    "original_question": "链球菌E群在美国主要引起哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "链球菌E群主要通过皮肤表面粘膜进入猪体内，到达淋巴结，在头部和颈部形成脓肿。",
+    "reference_case": "链球菌E群主要通过咽或扁桃体表面粘膜进入猪体内，到达淋巴结，在头部和颈部形成脓肿。",
+    "error_detail": "将进入途径从咽或扁桃体表面粘膜错误地改为皮肤表面粘膜。",
+    "original_question": "链球菌E群感染的主要传播部位是哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "感染通常发生在3-5周龄的仔猪。",
+    "reference_case": "感染通常发生在1-3周龄的仔猪。",
+    "error_detail": "将感染年龄段从1-3周龄错误地改为3-5周龄。",
+    "original_question": "链球菌感染通常发生在猪的什么年龄段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "抗菌素治疗对于脓肿病例和带菌者的根除作用很大，但可使用特定比例的金霉素降低猪脓肿的发生率。",
+    "reference_case": "抗菌素治疗对于脓肿病例和带菌者的根除作用不大，但可使用特定比例的金霉素降低猪脓肿的发生率。",
+    "error_detail": "将抗菌素治疗的效果从不大错误地改为很大。",
+    "original_question": "链球菌感染的治疗效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "新生仔猪容易受到D群和L群链球菌的感染。",
+    "reference_case": "新生仔猪容易受到C群和L群链球菌的感染。",
+    "error_detail": "将易感染的链球菌群从C群错误地改为D群。",
+    "original_question": "新生仔猪容易受到哪些链球菌群的感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "让仔猪充分吃初乳可以保证它们得到保护性抗体，并且可以预防所有疾病。",
+    "reference_case": "让仔猪充分吃初乳可以保证它们得到保护性抗体。",
+    "error_detail": "添加了可以预防所有疾病的假设。",
+    "original_question": "为什么让仔猪充分吃初乳很重要？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "减少哺乳区地面摩擦可以减少仔猪腿和脚的外伤，因为外伤会导致地面摩擦增加。",
+    "reference_case": "减少哺乳区地面摩擦可以减少仔猪腿和脚的外伤。",
+    "error_detail": "将因果关系倒置，错误地认为外伤会导致地面摩擦增加。",
+    "original_question": "减少哺乳区地面摩擦对仔猪有什么好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "母猪产前免疫疫苗可以降低仔猪肺炎的发生率。",
+    "reference_case": "母猪产前免疫疫苗可以降低仔猪关节炎的发生率。",
+    "error_detail": "将降低的疾病从关节炎错误地改为肺炎。",
+    "original_question": "母猪产前免疫疫苗可以降低什么的发生率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肠球菌引起的腹泻可发生在5～25日龄的仔猪。",
+    "reference_case": "肠球菌引起的腹泻可发生在2～20日龄的仔猪。",
+    "error_detail": "将腹泻发生的日龄范围从2～20日龄错误地改为5～25日龄。",
+    "original_question": "肠球菌引起的腹泻发生在多少日龄的仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痢疾（SD）的病原体是猪痢疾杆菌。",
+    "reference_case": "猪痢疾（SD）的病原体是猪痢疾密螺旋体（Treponema hyodysenteriae）。",
+    "error_detail": "将病原体从猪痢疾密螺旋体错误地改为猪痢疾杆菌。",
+    "original_question": "猪痢疾（SD）的病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痢疾密螺旋体是革兰氏阳性、耐氧的厌氧螺旋体，长度为6至8.5微米，直径为320至380纳米，呈舒展的螺旋状，具有运动性和溶血性。它有7至14根周质鞭毛，这些鞭毛在原生质柱的中间重叠，整个细胞被一层疏松的外膜包裹。",
+    "reference_case": "猪痢疾密螺旋体是革兰氏阴性、耐氧的厌氧螺旋体，长度为6至8.5微米，直径为320至380纳米，呈舒展的螺旋状，具有运动性和溶血性。它有7至14根周质鞭毛，这些鞭毛在原生质柱的中间重叠，整个细胞被一层疏松的外膜包裹。",
+    "error_detail": "将革兰氏阴性错误地改为革兰氏阳性。",
+    "original_question": "猪痢疾密螺旋体的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪痢疾密螺旋体通过普通猪和无特定病原（SPF）猪口服接种后产生典型的SD症状和病变，同时该病原体也被用于多种动物模型中，如结肠、离体结扎结肠、豚鼠、小鼠和鸡的口服接种，以产生与SD相似的病变，且这些病变在所有动物模型中完全一致。",
+    "reference_case": "猪痢疾密螺旋体通过普通猪和无特定病原（SPF）猪口服接种后产生典型的SD症状和病变，同时该病原体也被用于多种动物模型中，如结肠、离体结扎结肠、豚鼠、小鼠和鸡的口服接种，以产生与SD相似的病变。",
+    "error_detail": "添加了病变在所有动物模型中完全一致的假设。",
+    "original_question": "猪痢疾密螺旋体如何被研究？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "在无其它厌氧菌存在的条件下，猪痢疾密螺旋体口服接种不能使其在肠道中定居。用悉生小鼠和猪进行的研究表明，猪痢疾密螺旋体在结肠和盲肠中产生致病性，但同时也能够在无其它厌氧菌存在的条件下定居。",
+    "reference_case": "在无其它厌氧菌存在的条件下，猪痢疾密螺旋体口服接种不能使其在肠道中定居。用悉生小鼠和猪进行的研究表明，猪痢疾密螺旋体在结肠和盲肠中产生致病性。",
+    "error_detail": "添加了逻辑矛盾，即猪痢疾密螺旋体在无其它厌氧菌存在的条件下不能定居，但同时又能够定居。",
+    "original_question": "猪痢疾密螺旋体对悉生小鼠和猪的致病性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痢疾蛇形螺旋体在悉生猪中产生的病变比在普通猪中要重。",
+    "reference_case": "猪痢疾蛇形螺旋体在悉生猪中产生的病变比在普通猪中要轻。",
+    "error_detail": "将病变程度从轻错误地改为重。",
+    "original_question": "猪痢疾蛇形螺旋体在普通猪和悉生猪中的病变有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "饲喂易于在小肠内消化从而使大肠内无可发酵的底物进入，可以促进猪痢疾蛇形螺旋体的定殖能力。",
+    "reference_case": "饲喂易于在小肠内消化从而使大肠内无可发酵的底物进入，可以抑制猪痢疾蛇形螺旋体的定殖能力。",
+    "error_detail": "将抑制定殖能力错误地改为促进定殖能力。",
+    "original_question": "猪痢疾蛇形螺旋体的定殖能力受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过18S RNA序列分析、DNA-DNA杂交试验、全细胞蛋白的SDS-PAGE图谱确立它们的遗传关系。",
+    "reference_case": "通过16S RNA序列分析、DNA-DNA杂交试验、全细胞蛋白的SDS-PAGE图谱确立它们的遗传关系。",
+    "error_detail": "将16S RNA错误地改为18S RNA。",
+    "original_question": "猪痢疾蛇形螺旋体和无害密螺旋体的遗传关系如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痢疾蛇形螺旋体可以在有氧含H₂和CO₂条件下，使用不含葡萄糖但加有10%小牛血清的胰酶消化大豆汤组成的液体培养基进行培养。无害密螺旋体可以在有氧含N₂和CO₂条件下，使用含有10%兔血清的胰酶消化大豆汤进行培养。",
+    "reference_case": "猪痢疾蛇形螺旋体可以在无氧含H₂和CO₂条件下，使用不含葡萄糖但加有10%小牛血清的胰酶消化大豆汤组成的液体培养基进行培养。无害密螺旋体可以在无氧含N₂和CO₂条件下，使用含有10%兔血清的胰酶消化大豆汤进行培养。",
+    "error_detail": "将无氧条件错误地改为有氧条件。",
+    "original_question": "猪痢疾蛇形螺旋体和无害密螺旋体的培养条件有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痢疾蛇形螺旋体借助于尼克酰胺腺嘌呤二核苷酸、还原的[NADH]和氧化酶[NOX]等酶的帮助能够利用CO₂。",
+    "reference_case": "猪痢疾蛇形螺旋体借助于尼克酰胺腺嘌呤二核苷酸、还原的[NADH]和氧化酶[NOX]等酶的帮助能够利用O₂。",
+    "error_detail": "将利用的O₂错误地改为CO₂。",
+    "original_question": "猪痢疾蛇形螺旋体的生长需要哪些酶的帮助？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "野猪神经系统发达；家猪由于人工选择，大脑皮层面积缩小50%，行动变得迟缓。",
+    "reference_case": "野猪神经系统发达；家猪由于人工选择，大脑皮层面积缩小30%，行动变得迟缓。",
+    "error_detail": "错误地增加了家猪大脑皮层面积缩小的比例。",
+    "original_question": "野猪和家猪在神经系统方面有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "野猪消化道长度较短，肠长与体长之比为7:1；家猪消化道长度较长，中国地方猪可达16:1，胃肠容积也较野猪大。",
+    "reference_case": "野猪消化道长度较短，肠长与体长之比为9:1；家猪消化道长度较长，中国地方猪可达16:1，胃肠容积也较野猪大。",
+    "error_detail": "错误地改变了野猪肠长与体长之比。",
+    "original_question": "野猪和家猪的消化系统有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "野猪性活动发生在一定的季节（秋冬），一年产一次，每胎产仔2-4头；家猪一年四季都可发情，每胎产仔10头左右，也有20多头的。",
+    "reference_case": "野猪性活动发生在一定的季节（秋冬），一年产一次，每胎产仔4-6头；家猪一年四季都可发情，每胎产仔10头左右，也有20多头的。",
+    "error_detail": "错误地减少了野猪每胎产仔的数量。",
+    "original_question": "野猪和家猪的性活动有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪一般在6-7月龄达到性成熟。",
+    "reference_case": "猪一般在4-5月龄达到性成熟。",
+    "error_detail": "错误地延长了猪的性成熟年龄。",
+    "original_question": "猪一般在什么年龄段达到性成熟？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的妊娠期为120天。",
+    "reference_case": "猪的妊娠期为114天。",
+    "error_detail": "错误地延长了猪的妊娠期。",
+    "original_question": "猪的妊娠期有多长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪一年能分娩三胎，若缩短哺乳期，母猪进行激素处理，可以达到两年五胎或一年三胎。",
+    "reference_case": "母猪一年能分娩两胎，若缩短哺乳期，母猪进行激素处理，可以达到两年五胎或一年三胎。",
+    "error_detail": "错误地增加了母猪一年能分娩的胎数。",
+    "original_question": "母猪一年可以产仔多少胎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪一生的繁殖利用年限内只排卵约1000枚左右。",
+    "reference_case": "母猪一生的繁殖利用年限内只排卵约400枚左右。",
+    "error_detail": "数值偏差",
+    "original_question": "母猪一生中实际排卵的数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪一次射精量约为100-200ml，含精子数约100亿-400亿个。",
+    "reference_case": "公猪一次射精量约为200-400ml，含精子数约200亿-800亿个。",
+    "error_detail": "数值偏差",
+    "original_question": "公猪一次射精量含多少精子？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "通过外激素处理，可使母猪在一个发情期内排卵10-20个，个别的可达40个，产仔数个别高产母猪一胎也可达10头以上。",
+    "reference_case": "通过外激素处理，可使母猪在一个发情期内排卵30-40个，个别的可达80个，产仔数个别高产母猪一胎也可达15头以上。",
+    "error_detail": "数值偏差",
+    "original_question": "猪的繁殖效率潜力体现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "初生体重小，平均只有2-3kg，仅占成猪体重的2%。",
+    "reference_case": "初生体重小，平均只有1-1.5kg，仅占成猪体重的1%。",
+    "error_detail": "数值偏差",
+    "original_question": "猪的初生体重与成猪体重的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的嗅觉非常灵敏，对气味的识别能力高于狗2倍，比人高10倍；听觉相当发达，即使很微弱的声响，都能敏锐地觉察到。",
+    "reference_case": "猪的嗅觉非常灵敏，对气味的识别能力高于狗1倍，比人高7-8倍；听觉相当发达，即使很微弱的声响，都能敏锐地觉察到。",
+    "error_detail": "数值偏差",
+    "original_question": "猪的嗅觉和听觉如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪拱土是采食行为的一个突出特征，猪的采食行为包括摄食与饮水，并具有各种年龄特征，猪对甜食有偏好，群饲的猪比单饲的猪吃得少、吃得慢，增重也慢，猪白天采食3~4次,夜间0~1次，每次采食持续时间5~10分钟。",
+    "reference_case": "猪拱土是采食行为的一个突出特征，猪的采食行为包括摄食与饮水，并具有各种年龄特征，猪对甜食有偏好，群饲的猪比单饲的猪吃得多、吃得快，增重也快，猪白天采食6~8次,夜间1~3次，每次采食持续时间10~20分钟。",
+    "error_detail": "数值偏差",
+    "original_question": "猪的采食行为有什么特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的饮水量是相当小的，仔猪出生后不需要饮水，吃料时饮水量约为干料的1~2倍，成年猪的饮水量除饲料组成外，很小程度取决于环境温度，猪的饮水与采食不同时进行，任食不仅采食时间短，而且不能表现每头猪的喜好和个性。",
+    "reference_case": "猪的饮水量是相当大的，仔猪出生后就需要饮水，吃料时饮水量约为干料的2~3倍，成年猪的饮水量除饲料组成外，很大程度取决于环境温度，猪的饮水与采食同时进行，任食不仅采食时间长，而且能表现每头猪的喜好和个性。",
+    "error_detail": "数值偏差",
+    "original_question": "猪的饮水行为有什么特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中国地方猪种体重较大，适宰体重在100~150kg，成熟晚，但胴体瘦肉率高，肉脂率低达0.5:1，而引进猪种的胴体瘦肉率可达30%~40%。",
+    "reference_case": "中国地方猪种体重较小，适宰体重在50~90kg，成熟早，但胴体瘦肉率低，肉脂率高达1.5:1，而引进猪种的胴体瘦肉率可达60%~70%。",
+    "error_detail": "数值偏差",
+    "original_question": "中国地方猪种的特性有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "通过杂交可以充分利用地方猪种和引进猪种的优良种质特性，提高商品猪的生长速度、胴体瘦肉率和饲料转化率，生长速度提高100%。",
+    "reference_case": "通过杂交可以充分利用地方猪种和引进猪种的优良种质特性，提高商品猪的生长速度、胴体瘦肉率和饲料转化率。",
+    "error_detail": "生长速度提高100%是一个夸张的数据型幻觉，没有具体数据支持。",
+    "original_question": "中国地方猪种与国外引进猪种杂交的优势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "苏太猪以太湖猪的中梅山、小梅山、二花脸和极泾猪四个类型为母本，引入100%杜洛克血缘育成，保持了太湖猪繁殖力高、肉质好、耐粗饲的优点。",
+    "reference_case": "苏太猪以太湖猪的中梅山、小梅山、二花脸和极泾猪四个类型为母本，引入50%杜洛克血缘育成，保持了太湖猪繁殖力高、肉质好、耐粗饲的优点。",
+    "error_detail": "将杜洛克血缘比例从50%夸大到100%，属于数据型幻觉。",
+    "original_question": "苏太猪是如何培育成的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "国外引进猪种在中国标准饲养条件下，20-90kg育肥期平均日增重1000g以上，饲料转化率1.5:1。",
+    "reference_case": "国外引进猪种在中国标准饲养条件下，20-90kg育肥期平均日增重650-750g，高的可达800g以上，饲料转化率2.5-3.0:1。",
+    "error_detail": "夸大了日增重和饲料转化率的数据。",
+    "original_question": "中国地方猪种与国外引进猪种相比，生长速度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重90kg时的屠宰率可达80%以上；背膘薄，一般小于1cm；胴体瘦肉率在合理饲养条件下可达70%以上。",
+    "reference_case": "体重90kg时的屠宰率可达70%-72%以上；背膘薄，一般小于2cm；胴体瘦肉率在合理饲养条件下可达60%以上，优秀的达65%以上。",
+    "error_detail": "夸大了屠宰率、背膘薄度和胴体瘦肉率的数据。",
+    "original_question": "国外引进猪种的屠宰率和胴体瘦肉率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪通常发情非常明显，配种容易，产仔数较多，经产母猪平均产仔15头以上。",
+    "reference_case": "母猪通常发情不太明显，配种较难，产仔数较少，经产母猪平均产仔11-12.5头，母猪泌乳性较强，哺育率较高。",
+    "error_detail": "夸大了发情明显度、配种容易度和产仔数。",
+    "original_question": "国外引进猪种的繁殖性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肌内脂肪含量的遗传力较低，选择肌内脂肪含量可望获得较小的遗传进展。",
+    "reference_case": "肌内脂肪含量的遗传力较高，选择肌内脂肪含量可望获得较大的遗传进展。肌内脂肪含量与胴体瘦肉率和背膘厚间遗传相关分别为-0.45和0.35。",
+    "error_detail": "错误地描述了肌内脂肪含量的遗传力。",
+    "original_question": "肉质性状的遗传力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1985-1989 年，德国在国际市场上的猪（腌肉—火腿）占有率最高。",
+    "reference_case": "丹麦",
+    "error_detail": "错误地改变了占有率最高的国家",
+    "original_question": "1985-1989 年，哪个国家在国际市场上的猪（腌肉—火腿）占有率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "法国在1985-1989年的平均国际市场占有率仅为0.002%，是最低。",
+    "reference_case": "西班牙在1985-1989年的平均国际市场占有率仅为0.002%，是最低。",
+    "error_detail": "错误地改变了市场占有率最低的国家",
+    "original_question": "哪个国家的猪（腌肉—火腿）的国际市场占有率最低？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "西班牙在1996-2007年的平均国际市场占有率为20.6%，是最高。",
+    "reference_case": "意大利在1996-2007年的平均国际市场占有率为20.6%，是最高。",
+    "error_detail": "错误地改变了市场占有率最高的国家",
+    "original_question": "哪个国家的猪（腌肉—火腿）的国际市场占有率在1996-2007年最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "法国的猪（腌肉—火腿）国际市场占有率在1985-1989年平均为5%，在1996-2007年下降至3.7%，下降趋势明显。",
+    "reference_case": "德国的猪（腌肉—火腿）国际市场占有率在1985-1989年平均为5%，在1996-2007年下降至3.7%，下降趋势明显。",
+    "error_detail": "错误地改变了市场占有率下降最明显的国家",
+    "original_question": "哪个国家的猪（腌肉—火腿）的国际市场占有率在1985-1989年下降最明显？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1985-1989年平均为-0.18，1996-2007年平均为-0.23",
+    "reference_case": "1985-1989年平均为-0.08，1996-2007年平均为-0.13",
+    "error_detail": "错误地改变了贸易竞争指数的平均值",
+    "original_question": "美国在1985-1989年和1996-2007年猪（腌肉-火腿）的贸易竞争指数平均值分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "全国每年猪直接经济损失约 280 亿元。",
+    "reference_case": "全国每年猪直接经济损失约 180 亿元。",
+    "error_detail": "错误地改变了经济损失的数值",
+    "original_question": "中国每年因猪疫病造成的直接经济损失是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "近年来我国生猪饲养的饲料报酬率高达 2.9~3.2，而英国为 2.85、丹麦为 3.2、法国为 3.29、荷兰为 3.01、日本为 3.26、美国中西部为 3.37。",
+    "reference_case": "近年来我国生猪饲养的饲料报酬率高达 3.9~4.2，而英国为 2.85、丹麦为 3.2、法国为 3.29、荷兰为 3.01、日本为 3.26、美国中西部为 3.37。",
+    "error_detail": "错误地改变了饲料报酬率的数值",
+    "original_question": "我国生猪饲养的饲料报酬率与发达国家相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "美国生猪的现货规模较小，猪肉产量和消费量均位居世界后列，猪肉消费占美国肉类消费品的十分之一。",
+    "reference_case": "美国生猪的现货规模庞大，猪肉产量和消费量均位居世界前列，猪肉消费占美国肉类消费品的四分之一。从表2.1可以看出，1995年至2004年期间，美国生猪年末存栏数保持在58.2至60.1百万头之间，而中国生猪存栏数则远高于美国，最高达到491.3百万头。美国猪肉出口量约占国内猪肉总产量的8%，显示其强大的国际市场竞争力。",
+    "error_detail": "错误地改变了美国生猪的现货规模和猪肉消费比例",
+    "original_question": "美国生猪的现货规模如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "先天性兔唇为常染色体显性遗传。",
+    "reference_case": "先天性兔唇的遗传方式不明。",
+    "error_detail": "错误地指定了遗传方式，而实际上遗传方式不明。",
+    "original_question": "先天性兔唇在猪中的遗传方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "采用特定引物扩增500 bp片段（含有1843突变位点），然后用Hha I或HgiA I酶切，根据酶切图谱中的带型判断基因型。",
+    "reference_case": "采用特定引物扩增659 bp片段（含有1843突变位点），然后用Hha I或HgiA I酶切，根据酶切图谱中的带型判断基因型。",
+    "error_detail": "错误地描述了扩增的片段大小为500 bp，而实际上应为659 bp。",
+    "original_question": "什么是猪应激敏感基因的PCR-RFLP电泳方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "3-120公斤体重的生长商肥猪每千克饲料中代嗽能含量为15.0-15.0 MJ/kg。",
+    "reference_case": "3-120公斤体重的生长商肥猪每千克饲料中代嗽能含量为13.67-13.67 MJ/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中代嗽能含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "随着体重增加，生长商肥猪每千克饲料中的蛋白质含量从30.0%逐渐降低至15.0%。",
+    "reference_case": "随着体重增加，生长商肥猪每千克饲料中的蛋白质含量从26.0%逐渐降低至13.2%。",
+    "error_detail": "数值偏差",
+    "original_question": "随着体重增加，生长商肥猪每千克饲料中的蛋白质含量有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "3-5公斤体重阶段为4.0 MJ/d，5-10公斤体重阶段为8.0 MJ/d，10-20公斤体重阶段为15.0 MJ/d，20-50公斤体重阶段为27.0 MJ/d，50-80公斤体重阶段为37.0 MJ/d，80-120公斤体重阶段为44.0 MJ/d。",
+    "reference_case": "3-5公斤体重阶段为3.58 MJ/d，5-10公斤体重阶段为7.08 MJ/d，10-20公斤体重阶段为14.24 MJ/d，20-50公斤体重阶段为26.40 MJ/d，50-80公斤体重阶段为36.68 MJ/d，80-120公斤体重阶段为43.75 MJ/d。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪在不同体重阶段的消化能摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "3-5公斤体重阶段为300 g/d，5-10公斤体重阶段为600 g/d，10-20公斤体重阶段为1100 g/d，20-50公斤体重阶段为1900 g/d，50-80公斤体重阶段为2600 g/d，80-120公斤体重阶段为3100 g/d。",
+    "reference_case": "3-5公斤体重阶段为250 g/d，5-10公斤体重阶段为500 g/d，10-20公斤体重阶段为1000 g/d，20-50公斤体重阶段为1855 g/d，50-80公斤体重阶段为2575 g/d，80-120公斤体重阶段为3075 g/d。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪在不同体重阶段的日采食风干料量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "钙含量在不同体重阶段均为0.50-1.00%。",
+    "reference_case": "钙含量在不同体重阶段均为0.45-0.90%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的钙含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "总磷含量在不同体重阶段均为0.45-0.75%。",
+    "reference_case": "总磷含量在不同体重阶段均为0.40-0.70%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的总磷含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "有效磷含量在不同体重阶段均为0.20-0.60%。",
+    "reference_case": "有效磷含量在不同体重阶段均为0.15-0.55%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的有效磷含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "钠含量在不同体重阶段均为0.15-0.30%。",
+    "reference_case": "钠含量在不同体重阶段均为0.10-0.25%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的钠含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "氯含量在不同体重阶段均为0.10-0.30%。",
+    "reference_case": "氯含量在不同体重阶段均为0.08-0.25%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的氯含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "镁含量在不同体重阶段均为0.05%。",
+    "reference_case": "镁含量在不同体重阶段均为0.04%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的镁含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "钾含量在不同体重阶段分别为0.35-0.35%。",
+    "reference_case": "钾含量在不同体重阶段分别为0.30-0.30%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的钾含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "铁含量在不同体重阶段分别为120-50 mg。",
+    "reference_case": "铁含量在不同体重阶段分别为100-40 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的铁含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鉴含量在不同体重阶段均为2.50-4.50 mg。",
+    "reference_case": "鉴含量在不同体重阶段均为2.00-4.00 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的鉴含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "研含量在不同体重阶段均为0.20-0.35 mg。",
+    "reference_case": "研含量在不同体重阶段均为0.15-0.30 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的研含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "锌含量在不同体重阶段均为60-110 mg。",
+    "reference_case": "锌含量在不同体重阶段均为50-100 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的锌含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生索A含量在不同体重阶段均为1400-2300 IU。",
+    "reference_case": "维生索A含量在不同体重阶段均为1300-2200 IU。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的维生索A含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生索D含量在不同体重阶段均为160-230 IU。",
+    "reference_case": "维生索D含量在不同体重阶段均为150-220 IU。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的维生索D含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生索E含量在不同体重阶段分别为12-17 IU。",
+    "reference_case": "维生索E含量在不同体重阶段分别为11-16 IU。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的维生索E含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生索K含量在不同体重阶段均为0.60 mg。",
+    "reference_case": "维生索K含量在不同体重阶段均为0.50 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的维生索K含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生物素含量在不同体重阶段均为0.06-0.09 mg。",
+    "reference_case": "生物素含量在不同体重阶段均为0.05-0.08 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的生物素含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "胆别含量在不同体重阶段均为0.50-0.80 g。",
+    "reference_case": "胆别含量在不同体重阶段均为0.30-0.60 g。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的胆别含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "叶酸含量在不同体重阶段均为0.50 mg。",
+    "reference_case": "叶酸含量在不同体重阶段均为0.30 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的叶酸含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "可利用尼克胺含量在不同体重阶段分别为10.00-25.00 mg。",
+    "reference_case": "可利用尼克胺含量在不同体重阶段分别为7.00-20.00 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的可利用尼克胺含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "泛酸含量在不同体重阶段分别为10.00-15.00 mg。",
+    "reference_case": "泛酸含量在不同体重阶段分别为7.00-12.00 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的泛酸含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "核黄素含量在不同体重阶段分别为3.00-5.00 mg。",
+    "reference_case": "核黄素含量在不同体重阶段分别为2.00-4.00 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的核黄素含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生家B1含量在不同体重阶段均为1.50-2.00 mg。",
+    "reference_case": "维生家B1含量在不同体重阶段均为1.00-1.50 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的维生家B1含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生家B6含量在不同体重阶段均为2.00-3.00 mg。",
+    "reference_case": "维生家B6含量在不同体重阶段均为1.00-2.00 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的维生家B6含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生家B12含量在不同体重阶段分别为10.00-25.00 mg。",
+    "reference_case": "维生家B12含量在不同体重阶段分别为5.00-20.00 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的维生家B12含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "胱氨酸含量在不同体重阶段分别为0.30-1.00%。",
+    "reference_case": "胱氨酸含量在不同体重阶段分别为0.19-0.83%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的胱氨酸含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "组氨酸含量在不同体重阶段分别为0.30-0.60%。",
+    "reference_case": "组氨酸含量在不同体重阶段分别为0.19-0.48%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的组氨酸含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "蛋氨酸含量在不同体重阶段分别为0.30-1.00%。",
+    "reference_case": "蛋氨酸含量在不同体重阶段分别为0.19-0.83%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的蛋氨酸含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "亮氨酸含量在不同体重阶段分别为0.70-2.00%。",
+    "reference_case": "亮氨酸含量在不同体重阶段分别为0.54-1.50%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的亮氨酸含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "赖氨酸含量在不同体重阶段分别为0.80-2.00%。",
+    "reference_case": "赖氨酸含量在不同体重阶段分别为0.60-1.50%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的赖氨酸含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "蛋氨酸+胱氨酸含量在不同体重阶段分别为0.30-0.60%。",
+    "reference_case": "蛋氨酸+胱氨酸含量在不同体重阶段分别为0.19-0.42%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的蛋氨酸+胱氨酸含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "苯丙氨酸+酪氨酸含量在不同体重阶段分别为0.70-1.80%。",
+    "reference_case": "苯丙氨酸+酪氨酸含量在不同体重阶段分别为0.55-1.41%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的苯丙氨酸+酪氨酸含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "苏氨酸含量在不同体重阶段分别为0.50-1.20%。",
+    "reference_case": "苏氨酸含量在不同体重阶段分别为0.41-0.98%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长商肥猪每千克饲料中的苏氨酸含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪初生重在不同实验条件下分别为0、0、-5、-5 和 -5 kg。",
+    "reference_case": "仔猪初生重在不同实验条件下分别为",
+    "error_detail": "数值偏差",
+    "original_question": "0、0、-10、-10 和 -10 kg。\n\n3、仔猪初生重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "产仔后体重变化会导致仔猪的日增重减少，变化量为-20g。",
+    "reference_case": "产仔后体重变化会导致仔猪的日增重减少，变化量为-10g。",
+    "error_detail": "数值偏差",
+    "original_question": "产仔后体重变化对仔猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "以真回肠可消化氨基酸为基础，随着日增重从150g增加到250g，各氨基酸的消化率有不同程度的提高，如精氨酸、组氨酸、异亮氨酸、亮氨酸、赖氨酸等。",
+    "reference_case": "以真回肠可消化氨基酸为基础，随着日增重从150g增加到250g，各氨基酸的消化率有不同程度的提高，如精氨酸、组氨酸、异亮氨酸、亮氨酸、赖氨酸等。",
+    "error_detail": "数值偏差",
+    "original_question": "以真回肠可消化氨基酸为基础，仔猪日增重对氨基酸消化率的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在仔猪日增重250g时，蛋氨酸、色氨酸和苏氨酸的消化率较高，分别为60%、1.50%和0.80%。",
+    "reference_case": "在仔猪日增重250g时，蛋氨酸、色氨酸和苏氨酸的消化率较高，分别为49%、1.14%和0.65%。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪日增重250g时，哪些氨基酸的消化率较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "合理地组织饲养管理可以减少无活力母猪的损失，具体可以减少50%的损失。",
+    "reference_case": "合理地组织饲养管理可以减少无活力母猪的损失。",
+    "error_detail": "添加了具体的减少比例，缺乏数据支持。",
+    "original_question": "如何通过饲养管理减少无活力母猪的损失？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪的受胎率范围是50%到90%。",
+    "reference_case": "母猪的受胎率范围是60%到100%。",
+    "error_detail": "错误地缩小了受胎率的范围。",
+    "original_question": "母猪的受胎率范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪的断奶前死亡率范围是10%到30%。",
+    "reference_case": "母猪的断奶前死亡率范围是5%到25%。",
+    "error_detail": "错误地扩大了死亡率的范围。",
+    "original_question": "母猪的断奶前死亡率范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪的年产仔窝数范围是2.00到2.50。",
+    "reference_case": "母猪的年产仔窝数范围是2.20到2.70。",
+    "error_detail": "错误地缩小了年产仔窝数的范围。",
+    "original_question": "母猪的年产仔窝数范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪的断奶到受胎间隔天数范围是5到15天。",
+    "reference_case": "母猪的断奶到受胎间隔天数范围是8到20天。",
+    "error_detail": "错误地缩小了间隔天数的范围。",
+    "original_question": "母猪的断奶到受胎间隔天数范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪的年龄范围是6月龄至初配前。",
+    "reference_case": "后备母猪的年龄范围是5月龄至初配前。",
+    "error_detail": "错误地调整了年龄范围的起始点。",
+    "original_question": "后备母猪的年龄范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公母猪的比例一般为1:15到25。",
+    "reference_case": "公母猪的比例一般为1:20到30。",
+    "error_detail": "错误地调整了比例范围。",
+    "original_question": "公母猪的比例在采用本交的情况下一般是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "能量水平对经产母猪性成熟的影响较大。",
+    "reference_case": "能量水平对经产母猪性成熟的影响较小，但对排卵数有影响。配种前 (30∼75 d) 高能量水平的母猪排卵数为 13.24 个，低能量水平的母猪排卵数为 12 个; 配种前 20 d 内高能量水平的母猪排卵数可增加 0.7∼2.2 个。",
+    "error_detail": "错误地夸大了能量水平对性成熟的影响。",
+    "original_question": "能量水平对经产母猪性成熟有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪日粮中粗蛋白质应为15%。",
+    "reference_case": "要特别重视蛋白质的供给，既要考虑数量又要考虑品质，一般要求饲粮粗蛋白质为 12%。蛋白质供应不足或品质不高，会影响卵子的正常发育，降低排卵数和受胎率。哺乳期间配种的母猪应增加蛋白质的供给。",
+    "error_detail": "错误地提高了粗蛋白质的比例。",
+    "original_question": "蛋白质供给对母猪生殖系统有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在日粮中应供给 20 g 钙、15 g 磷、20 g 食盐。",
+    "reference_case": "母猪在日粮中应供给 15 g 钙、10 g 磷、15 g 食盐。钙的不足会影响受胎率和产仔数。",
+    "error_detail": "错误地提高了钙、磷、食盐的供给量。",
+    "original_question": "母猪对钙的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "根据配种日期，参照预产期推算表中的月份和日期，加上120天即为预产日期。例如，5月3日配种，预产日期为9月1日。",
+    "reference_case": "根据配种日期，参照预产期推算表中的月份和日期，加上114天即为预产日期。例如，5月3日配种，预产日期为8月25日。",
+    "error_detail": "预产期推算天数错误，应为114天而非120天。",
+    "original_question": "母猪预产期如何推算？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪一次射精量为100～150ml，多者可达300ml以上。",
+    "reference_case": "公猪一次射精量为200～250ml，多者可达500ml以上。",
+    "error_detail": "射精量数据错误，低估了公猪的射精量。",
+    "original_question": "公猪一次射精量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期，母猪的代谢减弱，对饲料的利用率降低，蛋白质合成减弱。",
+    "reference_case": "妊娠前期，母猪的代谢增强，对饲料的利用率提高，蛋白质合成增强。",
+    "error_detail": "代谢变化描述错误，与事实相反。",
+    "original_question": "妊娠前期母猪的代谢有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪比空怀母猪子宫外所增重的部分，脂肪占31%，肌肉占48%，其余21%为乳腺，这就是所谓“妊娠合成代谢”过程。",
+    "reference_case": "妊娠母猪比空怀母猪子宫外所增重的部分，脂肪占48%，肌肉占31%，其余21%为乳腺，这就是所谓“妊娠合成代谢”过程。",
+    "error_detail": "脂肪和肌肉的比例描述错误。",
+    "original_question": "妊娠母猪与空怀母猪的体管变化有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪放乳的持续时间约60至90秒，两次排乳间隔时间约2小时，一昼夜可排乳10次以上。",
+    "reference_case": "母猪放乳的持续时间约30至60秒，两次排乳间隔时间约1小时，一昼夜可排乳20次以上。",
+    "error_detail": "放乳持续时间和间隔时间数据错误。",
+    "original_question": "母猪放乳的持续时间和间隔是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪初乳中的蛋白质含量明显低于常乳，初乳中的蛋白质含量约在5-6%，而常乳中的蛋白质含量约为18.9%、17.5%、15.2%、9.2%、7.3%。",
+    "reference_case": "母猪初乳中的蛋白质含量明显高于常乳，初乳中的蛋白质含量约在18.9%、17.5%、15.2%、9.2%、7.3%，而常乳中的蛋白质含量约为5-6%。",
+    "error_detail": "初乳和常乳的蛋白质含量描述相反。",
+    "original_question": "母猪初乳与常乳相比，蛋白质含量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "新生仔猪的肠道上皮处于原始状态，只在出生后长时间内对大分子物质有渗透作用，72小时后明显降低。",
+    "reference_case": "新生仔猪的肠道上皮处于原始状态，只在出生后短时间内对大分子物质有渗透作用，36小时后明显降低。",
+    "error_detail": "渗透作用时间描述错误。",
+    "original_question": "仔猪出生后多长时间内肠道对大分子物质有渗透作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "初乳中以IgA为主，约占80%，IgG占15%，IgM占5%。",
+    "reference_case": "初乳中以IgG为主，约占80%，IgA占15%，IgM占5%。",
+    "error_detail": "免疫球蛋白类型比例描述错误。",
+    "original_question": "母猪初乳中免疫球蛋白的类型比例是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪生后6小时吸收能力下降50%，如果生后24小时才让仔猪吃奶，则只能吸收6%的免疫球蛋白。",
+    "reference_case": "仔猪生后3小时吸收能力下降50%，如果生后12小时才让仔猪吃奶，则只能吸收6%的免疫球蛋白。",
+    "error_detail": "吸收能力下降时间描述错误。",
+    "original_question": "仔猪生后多长时间内吸收初乳的能力下降？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳仔猪的成活率明显低于瘦肉型猪相同仔猪初生重的成活率，达到60%，哺乳仔猪死亡率超过40%。",
+    "reference_case": "哺乳仔猪的成活率明显高于瘦肉型猪相同仔猪初生重的成活率，达到80%，哺乳仔猪死亡率不足20%。",
+    "error_detail": "成活率和死亡率数据描述错误。",
+    "original_question": "仔猪初生重对哺乳仔猪成活率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "死亡率较高的原因包括患白痢病死亡（占41.6%），肺炎病死亡（占31.3%），冻死、压死（占14.3%），以及其他原因（占12.8%）。",
+    "reference_case": "死亡率较高的原因包括患白痢病死亡（占31.3%），肺炎病死亡（占14.3%），冻死、压死（占12.8%），以及其他原因（占41.6%）。",
+    "error_detail": "死亡原因比例描述错误。",
+    "original_question": "仔猪死亡的主要原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "按照 GB16869-2005 规定的方法执行。",
+    "reference_case": "按照 GB16869 规定的方法执行。",
+    "error_detail": "错误地添加了年份版本，导致数据型幻觉。",
+    "original_question": "检测猪肉中的盐酸克伦特罗含量应遵循什么标准？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "按照 GB/T14931.1-2003 执行。",
+    "reference_case": "按照 GB/T14931.1 执行。",
+    "error_detail": "错误地添加了年份版本，导致数据型幻觉。",
+    "original_question": "检测猪肉中的土霉素含量应遵循什么标准？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "按照 SN/T0197-2005 执行。",
+    "reference_case": "按照 SN/T0197 执行。",
+    "error_detail": "错误地添加了年份版本，导致数据型幻觉。",
+    "original_question": "检测猪肉中的喹乙醇含量应遵循什么标准？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "按照 GB/T4789.2-2003 执行。",
+    "reference_case": "按照 GB/T4789.2 执行。",
+    "error_detail": "错误地添加了年份版本，导致数据型幻觉。",
+    "original_question": "检测猪肉中的菌落总数应遵循什么标准？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "按照 GB/T4789.6-2003 执行。",
+    "reference_case": "按照 GB/T4789.6 执行。",
+    "error_detail": "错误地添加了年份版本，导致数据型幻觉。",
+    "original_question": "检测猪肉中的致泻大肠埃希氏菌应遵循什么标准？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪限位栏宽一般为0.8~0.85m，多采用0.8m。",
+    "reference_case": "母猪限位栏宽一般为0.6~0.65m，多采用0.6m。",
+    "error_detail": "数值偏差，错误地增加了限位栏的宽度。",
+    "original_question": "分娩栏的母猪限位栏宽是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪限位栏的离地高度为50cm，并每隔50cm焊接一支撑脚。",
+    "reference_case": "母猪限位栏的离地高度为30cm，并每隔30cm焊接一支撑脚。",
+    "error_detail": "数值偏差，错误地增加了离地高度和支撑脚的间距。",
+    "original_question": "母猪限位栏的离地高度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "双面自动饲槽保育猪的高度为800mm、前缘高度为150mm、最大宽度为600mm、采食间距为200mm。",
+    "reference_case": "双面自动饲槽保育猪的高度为700mm、前缘高度为120mm、最大宽度为520mm、采食间距为150mm；生长猪的高度为800mm、前缘高度为150mm、最大宽度为650mm、采食间距为200mm；育肥猪的高度为800mm、前缘高度为180mm、最大宽度为690mm、采食间距为250mm。单面自动饲槽保育猪的高度为700mm、前缘高度为120mm、最大宽度为270mm、采食间距为150mm；生长猪的高度为800mm、前缘高度为150mm、最大宽度为330mm、采食间距为200mm；育肥猪的高度为800mm、前缘高度为180mm、最大宽度为350mm、采食间距为250mm。",
+    "error_detail": "数值偏差，错误地修改了双面自动饲槽的参数。",
+    "original_question": "双面自动饲槽与单面自动饲槽的主要结构参数有哪些区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "绿化可以吸收氧气、释放二氧化碳，增加温度10%-20%。",
+    "reference_case": "绿化可以吸收二氧化碳、释放氧气，降低温度10%-20%，减轻热辐射80%，减少细菌含量22%-79%，除尘35%-67%，除臭50%，减少有毒有害气体含量25%，还有防风防噪音的作用。",
+    "error_detail": "数值偏差和概念混淆，错误地描述了绿化的作用。",
+    "original_question": "猪场绿化有哪些作用？",
+    "original_input": ""
+  }
+]

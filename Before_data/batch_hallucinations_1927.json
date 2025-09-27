@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪唾液的分泌具有适应性和对称性。适应性表现为根据饲料不同，唾液的分泌量和成分会相应变化；对称性表现为两侧唾液腺对不同食物成分的分泌量相同，对同一种食物的刺激，左侧腺体的分泌等于右侧的。",
+    "reference_case": "猪唾液的分泌具有适应性和不对称性。适应性表现为根据饲料不同，唾液的分泌量和成分会相应变化；不对称性表现为两侧唾液腺对不同食物成分的分泌量不相同，对同一种食物的刺激，左侧腺体的分泌多于右侧的。",
+    "error_detail": "将不对称性错误地描述为对称性，且分泌量相同。",
+    "original_question": "猪唾液的分泌具有何种特性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪胃是双室胃，呈直线形，位于腹腔的后半部。胃与食管相连的接口叫作幽门，与十二指肠相连接的口叫作贲门。幽门和贲门都有括约肌。",
+    "reference_case": "猪胃是单室胃，呈弯曲的椭圆形，位于腹腔的前半部。胃与食管相连的接口叫作贲门，与十二指肠相连接的口叫作幽门。贲门和幽门都有括约肌。猪胃黏膜上分布有许多腺体，可分为贲门腺区、胃底腺区、幽门腺区和无腺区。",
+    "error_detail": "错误地将单室胃描述为双室胃，且贲门和幽门的位置和形状描述错误。",
+    "original_question": "猪胃的结构是什么样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "仔猪胃液分泌的特点是白天分泌量大于夜间；到断乳时白天和夜间的分泌量差异增大；到60~75日龄时，胃酸才逐渐达到成年猪的水平。",
+    "reference_case": "夜间分泌量大于白天；到断乳时白天和夜间的分泌量几乎相等；到60~75日龄时，胃酸才逐渐达到成年猪的水平。",
+    "error_detail": "错误地颠倒了白天和夜间的分泌量关系，且断乳时的分泌量描述错误。",
+    "original_question": "仔猪胃液分泌有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对猪乳的消化率可达90%，对牛乳的消化率为蛋白质86%、脂肪85%、糖类88%。",
+    "reference_case": "对猪乳的消化率可达100%，对牛乳的消化率为蛋白质96%、脂肪95%、糖类98%。",
+    "error_detail": "消化率数值被错误地降低。",
+    "original_question": "仔猪对乳汁和牛乳的消化率有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "初乳对新生仔猪的作用是提供能量和生物合成前体物的营养性物质；提供特异的和非特异的免疫保护防御功能；传达母源神经和内分泌的调节信号。此外，初乳还能促进仔猪的骨骼发育。",
+    "reference_case": "提供能量和生物合成前体物的营养性物质；提供特异的和非特异的免疫保护防御功能；传达母源神经和内分泌的调节信号。",
+    "error_detail": "错误地添加了初乳促进骨骼发育的功能，这是不准确的。",
+    "original_question": "初乳对新生仔猪有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "仔猪采食初乳越晚越好。",
+    "reference_case": "仔猪采食初乳越早越好。",
+    "error_detail": "完全颠倒了原始指令的建议。",
+    "original_question": "仔猪何时最好吃到初乳？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪胃液的pH值范围为1.5至2.5。",
+    "reference_case": "猪胃液的pH值范围为2.5至3.5。",
+    "error_detail": "错误地降低了pH值的范围。",
+    "original_question": "猪胃液的pH值范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪胰液的pH值范围为6.2至7.4。",
+    "reference_case": "猪胰液的pH值范围为7.2至8.4。",
+    "error_detail": "错误地降低了pH值的范围。",
+    "original_question": "猪胰液的pH值范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪胆汁的pH值范围为6.95至8.4，平均约为8.0。",
+    "reference_case": "猪胆汁的pH值范围为7.95至9.4，平均约为9.0。",
+    "error_detail": "错误地降低了pH值的范围和平均值。",
+    "original_question": "猪胆汁的pH值范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "断奶导致仔猪胃酸分泌增加，断奶第二天尤为明显，断奶越早影响越小。断奶还能使十二指肠和空肠内容物的pH显著下降。",
+    "reference_case": "断奶导致仔猪胃酸分泌降低，断奶第二天尤为明显，断奶越早影响越大。断奶还能使十二指肠和空肠内容物的pH显著上升。",
+    "error_detail": "错误地颠倒了断奶对胃酸分泌和pH值的影响。",
+    "original_question": "断奶对仔猪消化道酸度有什么影响？",
+    "original_input": ""
+  }
+]

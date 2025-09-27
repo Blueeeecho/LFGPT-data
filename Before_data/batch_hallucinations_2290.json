@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "兔肉的消化率高达95%以上，远远高于牛、羊、猪、鸡等肉类。",
+    "reference_case": "兔肉的消化率高达85%以上，远远高于牛、羊、猪、鸡等肉类。",
+    "error_detail": "数值偏差",
+    "original_question": "兔肉的消化率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "该株病毒可能是存在于我国猪群中的一种新甲型流感病毒，也可能是由以前的毒株演变而来。",
+    "reference_case": "该株病毒可能是存在于我国猪群中的一种新丙型流感病毒，也可能是由以前的毒株演变而来。",
+    "error_detail": "术语错误",
+    "original_question": "郭元吉等从我国猪群中分离到的丙型流感病毒的可能来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "登记表上列出了猪、牛、犬、马等动物，以及骆驼。",
+    "reference_case": "登记表上列出了猪、牛、犬、马等动物。",
+    "error_detail": "地域差异",
+    "original_question": "畜禽疫病调查登记表上列出了哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪瘟疫苗毒株的血清型应包含全球流行的血清型，否则会引起免疫失败。",
+    "reference_case": "猪瘟疫苗毒株的血清型应包含当地流行的血清型，否则会引起免疫失败。",
+    "error_detail": "过时标准",
+    "original_question": "猪瘟疫苗毒株应包含哪些血清型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "通过给猪群皮下或肌内注射不含佐剂或含一般佐剂的灭活苗，可刺激机体免疫系统产生 IgM 和 IgG 类抗体，但引起的细胞免疫较弱，保护膜表面的 IgA 生成很少，不能控制肠道、呼吸道、乳腺、生殖道和分泌型 IgA 的作用。此外，还会导致猪群生长缓慢。",
+    "reference_case": "通过给猪群皮下或肌内注射不含佐剂或含一般佐剂的灭活苗，可刺激机体免疫系统产生 IgM 和 IgG 类抗体，但引起的细胞免疫较弱，保护膜表面的 IgA 生成很少，不能控制肠道、呼吸道、乳腺、生殖道和分泌型 IgA 的作用。",
+    "error_detail": "需求冲突",
+    "original_question": "佐剂应用不合理，忽视膜免疫会导致什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪链球菌灭活菌苗的免疫效果不受任何因素影响。",
+    "reference_case": "猪链球菌灭活菌苗的免疫效果受佐剂影响。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "猪链球菌灭活菌苗的免疫效果受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "未选用合适的疫（菌）苗会导致免疫效果不佳，如在猪瘟强毒流行地区，给猪免疫猪瘟、猪丹毒、猪肺疫三联苗，由于猪瘟病毒的免疫剂量较小，导致免疫效果不佳。此外，还会导致猪群死亡率上升。",
+    "reference_case": "未选用合适的疫（菌）苗会导致免疫效果不佳，如在猪瘟强毒流行地区，给猪免疫猪瘟、猪丹毒、猪肺疫三联苗，由于猪瘟病毒的免疫剂量较小，导致免疫效果不佳。",
+    "error_detail": "添加假设",
+    "original_question": "未选用合适的疫（菌）苗会对猪群的免疫效果产生什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "猪瘟母源抗体水平监测可以确定首免时间，定期监测猪群猪瘟病毒、猪伪狂犬病病毒、猪繁殖与呼吸综合征病毒、猪细小病毒等的血清抗体，有助于确定猪群群体免疫力和野毒感染情况，为制定免疫程序提供依据。此外，还可以提高猪群的生长速度。",
+    "reference_case": "猪瘟母源抗体水平监测可以确定首免时间，定期监测猪群猪瘟病毒、猪伪狂犬病病毒、猪繁殖与呼吸综合征病毒、猪细小病毒等的血清抗体，有助于确定猪群群体免疫力和野毒感染情况，为制定免疫程序提供依据。",
+    "error_detail": "权重错误",
+    "original_question": "猪瘟母源抗体水平监测对制定免疫程序有何重要意义？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "新生仔猪存在较高水平的母源抗体时，接种疫苗会导致免疫失败，因为疫苗会破坏母源抗体。",
+    "reference_case": "新生仔猪存在较高水平的母源抗体时，接种疫苗会导致母源抗体封闭，破坏仔猪机体的被动免疫，从而发生猪瘟。",
+    "error_detail": "因果错误",
+    "original_question": "新生仔猪存在较高水平的母源抗体时，为何接种疫苗会导致免疫失败？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪群免疫功能受到抑制的原因包括自身免疫抑制、营养性免疫抑制、毒物与毒素引起的免疫抑制、药物引起的免疫抑制、环境应激引起的免疫抑制、病原体感染引起的免疫抑制、免疫前已感染所免疫预防的疫病或其他疾病，以及遗传因素。",
+    "reference_case": "猪群免疫功能受到抑制的原因包括自身免疫抑制、营养性免疫抑制、毒物与毒素引起的免疫抑制、药物引起的免疫抑制、环境应激引起的免疫抑制、病原体感染引起的免疫抑制、免疫前已感染所免疫预防的疫病或其他疾病。",
+    "error_detail": "术语错误",
+    "original_question": "猪群免疫功能受到抑制的原因有哪些？",
+    "original_input": ""
+  }
+]

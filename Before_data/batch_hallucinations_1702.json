@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "非补充和酶补充饮食中，纤维显著提高猪小肠和大肠中碳水化合物、蛋白质和脂肪的消化率。",
+    "reference_case": "非补充和酶补充饮食中，纤维影响猪小肠和大肠中碳水化合物、蛋白质和脂肪的消化率。",
+    "error_detail": "错误地夸大了纤维对消化率的影响，使用了'显著提高'而非'影响'。",
+    "original_question": "纤维对猪小肠和大肠中碳水化合物、蛋白质和脂肪的消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "高直链淀粉、低体外消化率的淀粉减少猪肠道营养流动和微生物发酵，并选择性抑制双歧杆菌。",
+    "reference_case": "高直链淀粉、低体外消化率的淀粉增加猪肠道营养流动和微生物发酵，并选择性促进双歧杆菌。",
+    "error_detail": "错误地将'增加'和'促进'改为'减少'和'抑制'，完全颠倒了原意。",
+    "original_question": "高直链淀粉、低体外消化率的淀粉如何影响猪肠道营养流动和微生物发酵？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "蒸馏谷物溶剂对生长猪的氨基酸、能量和纤维消化率没有影响，后肠发酵情况保持不变。",
+    "reference_case": "蒸馏谷物溶剂影响生长猪的氨基酸、能量和纤维消化率，并改变后肠发酵情况。",
+    "error_detail": "错误地声称蒸馏谷物溶剂'没有影响'，与原始output完全相反。",
+    "original_question": "蒸馏谷物溶剂对生长猪的氨基酸、能量和纤维消化率以及后肠发酵有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "不同纤维来源对断奶猪的总肠道消化率、盲肠挥发性脂肪酸和消化道传输时间的影响已被最新研究否定。",
+    "reference_case": "不同纤维来源影响断奶猪的总肠道消化率、盲肠挥发性脂肪酸和消化道传输时间。",
+    "error_detail": "错误地引用了不存在的'最新研究'来否定原始结论。",
+    "original_question": "不同纤维来源对断奶猪的总肠道消化率、盲肠挥发性脂肪酸和消化道传输时间有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "不同水平的苜蓿粉纤维影响生长猪肠道营养流动和后肠发酵，尤其是在高蛋白饮食条件下。",
+    "reference_case": "不同水平的苜蓿粉纤维影响生长猪肠道营养流动和后肠发酵。",
+    "error_detail": "错误地添加了'尤其是在高蛋白饮食条件下'这一未经证实的假设。",
+    "original_question": "不同水平的苜蓿粉纤维对生长猪肠道营养流动和后肠发酵的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "日粮中添加NAC导致肠道NF-κB蛋白和TLR4 mRNA水平的提高。",
+    "reference_case": "研究表明，日粮中添加NAC可以缓解LPS刺激仔猪导致的肠道NF-κB蛋白和TLR4 mRNA水平的提高。",
+    "error_detail": "错误地将NAC的作用描述为导致而非缓解NF-κB蛋白和TLR4 mRNA水平的提高。",
+    "original_question": "日粮中添加NAC如何影响肠道NF-κB蛋白和TLR4 mRNA水平？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "添加凝结芽孢杆菌制剂对断奶仔猪没有影响。",
+    "reference_case": "添加凝结芽孢杆菌制剂可提高断奶仔猪生长性能、降低粪样致病菌数量、提高粪样有益菌数量和改善养殖环境。",
+    "error_detail": "错误地声称'没有影响'，与原始output中详细列出的积极影响相矛盾。",
+    "original_question": "添加凝结芽孢杆菌制剂对断奶仔猪有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "添加功能性氨基酸复合物对断奶仔猪的影响在欧洲和亚洲的研究结果不一致。",
+    "reference_case": "添加功能性氨基酸复合物可以降低断奶仔猪的腹泻率，增强肠道对水的吸收和转运，改善小肠黏膜形态，促进小肠黏膜的生长发育及吸收功能，提高小肠黏膜的线毛高度、线毛宽度、线毛高度与隐窝深度的比值和线毛表面积，降低血浆中 DAO 的活性，提高小肠黏膜 TP 的含量和 TP/DNA 的比值，促进空肠 AQP",
+    "error_detail": "错误地引入了地域差异的假设，原始output并未提及。",
+    "original_question": "添加功能性氨基酸复合物对断奶仔猪有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "紧密连接蛋白与肠上皮细胞共同构成静态的屏障。",
+    "reference_case": "紧密连接蛋白与肠上皮细胞共同构成动态的选择性通透屏障。",
+    "error_detail": "错误地将'动态的选择性通透屏障'改为'静态的屏障'，忽略了原始output中的关键描述。",
+    "original_question": "紧密连接蛋白与肠上皮细胞共同构成什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "ZO-1能够通过与转录因子ZONAB结合后，抑制细胞核CDK4的表达。",
+    "reference_case": "ZO-1能够通过与转录因子ZONAB结合后，调节细胞核CDK4的表达，影响G1/S期，从而调节细胞增殖。",
+    "error_detail": "错误地将'调节'改为'抑制'，改变了ZO-1对CDK4表达的作用方向。",
+    "original_question": "ZO-1如何通过与转录因子结合影响CDK4表达？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "饲料抗原和霉菌毒素是影响仔猪肠道紧密连接蛋白损伤的唯一因素。",
+    "reference_case": "饲料抗原（如大豆抗原蛋白、胰蛋白酶抑制因子）和霉菌毒素（如呕吐毒素、黄曲霉毒素 B",
+    "error_detail": "错误地将饲料抗原和霉菌毒素描述为'唯一因素'，忽略了其他可能的影响因素。",
+    "original_question": "哪些因素会影响仔猪肠道紧密连接蛋白的损伤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "早期断奶会显著降低仔猪的肠道通透性。",
+    "reference_case": "早期断奶会增加仔猪的肠道通透性。",
+    "error_detail": "错误地将'增加'改为'显著降低'，完全颠倒了原始结论。",
+    "original_question": "早期断奶对仔猪肠道通透性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "早期断奶会提高仔猪肠上皮紧密连接蛋白Occludin mRNA的表达，尤其是在特定基因型的猪中。",
+    "reference_case": "早期断奶会降低仔猪肠上皮紧密连接蛋白Occludin mRNA的表达。",
+    "error_detail": "错误地添加了'尤其是在特定基因型的猪中'这一未经证实的假设，并颠倒了原始结论。",
+    "original_question": "早期断奶对仔猪肠上皮紧密连接蛋白Occludin mRNA表达有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "早期断奶促进仔猪肠黏膜屏障功能的发展。",
+    "reference_case": "早期断奶会损害仔猪肠黏膜屏障功能的发展。",
+    "error_detail": "错误地将'损害'改为'促进'，完全颠倒了因果关系。",
+    "original_question": "早期断奶如何影响仔猪肠黏膜屏障功能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "泌乳期间，母猪乳腺组织中高表达的脂肪酸转运载体为ABCA1。",
+    "reference_case": "泌乳期间，母猪乳腺组织中高表达的脂肪酸转运载体为CD",
+    "error_detail": "错误地将'CD'改为'ABCA1'，提供了不准确的信息。",
+    "original_question": "泌乳期间母猪乳腺组织中脂肪酸转运载体的表达变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "乳糖合成酶 LALBA 及 β4 GALT1 的 mRNA 表达随泌乳天数的增加而降低。",
+    "reference_case": "乳糖合成酶 LALBA 及 β4 GALT1 的 mRNA 表达随泌乳天数的增加而升高。",
+    "error_detail": "错误地将'升高'改为'降低'，与最新研究结果相反。",
+    "original_question": "泌乳期母猪乳腺中乳糖合成酶 LALBA 及 β4 GALT1 的 mRNA 表达如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "泌乳期母猪乳腺中与乳脂合成相关基因表达显著降低。",
+    "reference_case": "泌乳期母猪乳腺中与乳脂合成相关基因表达也显著升高。",
+    "error_detail": "错误地将'显著升高'改为'显著降低'，与原始output矛盾。",
+    "original_question": "泌乳期母猪乳腺中与乳脂合成相关基因的表达如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "随着母猪泌乳的启动，乳腺上皮细胞的增殖率呈上升趋势。",
+    "reference_case": "随着母猪泌乳的启动，乳腺上皮细胞的增殖率呈下降趋势，产前第 5 天为 13.1 % ，泌乳第 1 天降为 7.8 % ，尽管泌乳第 6 天细胞增殖率增加到 10.1 % ，但仍然低于产前阶段。",
+    "error_detail": "错误地将'下降趋势'改为'上升趋势'，完全颠倒了数据趋势。",
+    "original_question": "泌乳期母猪乳腺上皮细胞的增殖率如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "乳腺上皮细胞的增殖减少标志着细胞凋亡的减少。",
+    "reference_case": "乳腺上皮细胞的增殖减少标志着细胞凋亡的增加，泌乳期也伴随着调亡的发生。",
+    "error_detail": "错误地将'增加'改为'减少'，误解了增殖与凋亡之间的关系。",
+    "original_question": "泌乳期母猪乳腺上皮细胞的凋亡如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "母猪泌乳期乳腺中编码 α s1-酪蛋白、 α s2-酪蛋白、 β-酪蛋白和 κ-酪蛋白基因 mRNA 表达丰度显著降低。",
+    "reference_case": "母猪泌乳期乳腺中编码 α s1-酪蛋白、 α s2-酪蛋白、 β-酪蛋白和 κ-酪蛋白基因 mRNA 表达丰度显著升高。",
+    "error_detail": "错误地将'显著升高'改为'显著降低'，完全颠倒了原始结论。",
+    "original_question": "母猪泌乳期乳腺中哪些酪蛋白基因的 mRNA 表达丰度显著升高？",
+    "original_input": ""
+  }
+]

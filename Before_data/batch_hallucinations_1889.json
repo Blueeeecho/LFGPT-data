@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "因为在此期间胎儿的大多数体重生成，因此营养需求增加，日采食饲料量增加到 4.0~4.5 kg/d。",
+    "reference_case": "因为在此期间胎儿的大多数体重生成，因此营养需求增加，日采食饲料量增加到 3.0~3.5 kg/d。",
+    "error_detail": "日采食饲料量的数值被夸大",
+    "original_question": "妊娠 90~110 天时，猪的营养需求为什么增加？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "此期间日采食饲料量为 2.5 kg/头，有助于减少 MMA 综合征。",
+    "reference_case": "此期间日采食饲料量为 1.8 kg/头，有助于减少 MMA 综合征。",
+    "error_detail": "日采食饲料量的数值被夸大",
+    "original_question": "妊娠 110 天至分娩时，母猪的日采食量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "建议初产母猪的体重适宜增加量为 40.5~50.5 kg。",
+    "reference_case": "建议初产母猪的体重适宜增加量为 35.5~45.5 kg。",
+    "error_detail": "体重增加量的数值被夸大",
+    "original_question": "建议初产母猪的体重适宜增加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一般采用五点评分法，即消瘦、瘦、理想、肥、过肥。体况评定应在配种后怀孕 35 天和 90 天进行，要求 90%~95% 的母猪达到 3.5~4 分，5%~10% 的母猪为 2.5 分和 4.5 分，允许大约 5% 的母猪在配种时的评分为 2.5 分。",
+    "reference_case": "一般采用五点评分法，即消瘦、瘦、理想、肥、过肥。体况评定应在配种后怀孕 35 天和 90 天进行，要求 85%~90% 的母猪达到 3.5~4 分，10%~15% 的母猪为 2.5 分和 4.5 分，允许大约 10% 的母猪在配种时的评分为 2.5 分。",
+    "error_detail": "评分比例被错误修改",
+    "original_question": "妊娠母猪的体况评分如何评定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "为了避免胎儿的快速生长对母体钙储存的影响。",
+    "reference_case": "为了避免脂儿的快速生长对母体钙储存的影响。",
+    "error_detail": "术语'脂儿'被错误地替换为'胎儿'",
+    "original_question": "为何在妊娠第 90~110 天增加妊娠母猪的采食量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "怀孕 110 天至产仔应逐渐减少日粮至 2.0 kg，以缩短产仔时间，避免子宫炎、乳房炎、无乳综合征的产生，减少死胎数。",
+    "reference_case": "怀孕 110 天至产仔应逐渐减少日粮至 1.8 kg，以缩短产仔时间，避免子宫炎、乳房炎、无乳综合征的产生，减少死胎数。",
+    "error_detail": "日粮减少量的数值被夸大",
+    "original_question": "产仔前母猪的日粮应该如何调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在产前 5~7 天的理想室温为 20~25℃，限制母猪的热应激，确保充足清洁的饮水供应。",
+    "reference_case": "在产前 5~7 天的理想室温为 15~20℃，限制母猪的热应激，确保充足清洁的饮水供应。",
+    "error_detail": "室温的数值被夸大",
+    "original_question": "如何减少产仔母猪因环境因素导致的死胎率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "哺乳期母猪的饲喂应遵循泌乳曲线及日常采食能力，日粮需满足母猪对能量、氨基酸和矿物质的需求，同时增加维生素的补充。",
+    "reference_case": "哺乳期母猪的饲喂应遵循泌乳曲线及日常采食能力，日粮需满足母猪对能量、氨基酸和矿物质的需求。",
+    "error_detail": "添加了未提及的维生素补充需求",
+    "original_question": "哺乳期母猪的饲喂基本原则是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "确定母猪营养需求时需考虑其体重、泌乳量、乳汁成分及体组织代谢，泌乳量取决于产仔数，以及母猪的年龄。",
+    "reference_case": "确定母猪营养需求时需考虑其体重、泌乳量、乳汁成分及体组织代谢，泌乳量取决于产仔数。",
+    "error_detail": "添加了未提及的母猪年龄因素",
+    "original_question": "母猪哺乳期的营养需求如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "哺乳期采食不足或营养不足会导致母猪消耗自身体组织，猪窝重减少，影响配种效果，尤其是在头两胎产仔较多时更为严重，但不会影响母猪的健康。",
+    "reference_case": "哺乳期采食不足或营养不足会导致母猪消耗自身体组织，猪窝重减少，影响配种效果，尤其是在头两胎产仔较多时更为严重。",
+    "error_detail": "添加了与前面描述矛盾的陈述",
+    "original_question": "母猪哺乳期采食不足会带来哪些影响？",
+    "original_input": ""
+  }
+]

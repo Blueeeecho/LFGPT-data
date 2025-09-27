@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "渗出性皮炎的病猪主要病理变化包括皮肤变蓝、浑浊的渗出物、皮肤变湿并脱落、猪尸体水肿肥胖、外周淋巴结萎缩、肾髓质切面中可见胆固醇结晶、肾盂中常有血液聚积，可能出现肾结石等。",
+    "reference_case": "渗出性皮炎的病猪主要病理变化包括皮肤变红、清亮的渗出物、皮肤变干并结痂、猪尸体脱水消瘦、外周淋巴结水肿肿大、肾髓质切面中可见尿酸盐结晶、肾盂中常有粘液或结晶物质聚积，可能出现肾炎等。",
+    "error_detail": "错误地描述了渗出性皮炎的病猪病理变化，包括颜色、渗出物性质、皮肤状态、尸体状况、淋巴结状态、肾髓质和肾盂中的物质等。",
+    "original_question": "渗出性皮炎病猪的主要病理变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "用分离于发病场的菌株制成自体菌苗来免疫产前的母猪，可能会保护所有小猪，无论其来源。",
+    "reference_case": "用分离于发病场的菌株制成自体菌苗来免疫产前的母猪，可能会保护新引进的母猪所产的小猪。",
+    "error_detail": "错误地假设自体菌苗可以保护所有小猪，而不仅仅是新引进的母猪所产的小猪。",
+    "original_question": "用自体菌苗免疫产前母猪可以保护哪些小猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "修齐初生小猪的牙齿，保证围栏表面极其粗糙，采用湿润、坚硬的畜床，比如硬木锯屑或未切的稻草，可以增加发病率。",
+    "reference_case": "修齐初生小猪的牙齿，保证围栏表面不粗糙，采用干燥、柔软的畜床，比如软木锯屑或切碎的稻草，可以降低发病率。母猪进入产房应先清洗、消毒，然后放进清洁、消毒过或熏蒸的圈舍。对母猪和小猪的局部损伤立即进行治疗，有助于预防本病。",
+    "error_detail": "错误地描述了减少皮肤疾病发病率的方法，包括围栏表面的粗糙度、畜床的材料和状态等。",
+    "original_question": "减少皮肤疾病发病率的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪副嗜血杆菌与猪的单一性浆膜炎和关节炎（Glasser's disease）无关。",
+    "reference_case": "猪副嗜血杆菌与猪的多发性浆膜炎和关节炎（Glasser's disease）有关。",
+    "error_detail": "错误地否认了猪副嗜血杆菌与猪的多发性浆膜炎和关节炎的关系。",
+    "original_question": "猪副嗜血杆菌与猪的哪些疾病有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪副嗜血杆菌曾被称为猪流感嗜血杆菌（Haemophilus influenza suis），现仍使用此名称。",
+    "reference_case": "猪副嗜血杆菌曾被称为猪流感嗜血杆菌（Haemophilus influenza suis），后更名为副嗜猪血杆菌（H.Parasuis）。",
+    "error_detail": "错误地声称猪副嗜血杆菌的旧称仍在使用，而实际上已经更名。",
+    "original_question": "猪副嗜血杆菌的别称有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪副嗜血杆菌的分类学位置已经确定，因为它与其它嗜血杆菌种属之间有高度的核酸同源性。",
+    "reference_case": "猪副嗜血杆菌的分类学位置仍未确定，因为它与其它嗜血杆菌种属之间缺乏核酸同源性。",
+    "error_detail": "错误地声称猪副嗜血杆菌的分类学位置已经确定，且与其它嗜血杆菌种属有高度的核酸同源性。",
+    "original_question": "猪副嗜血杆菌在巴斯德菌族中的分类学位置是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "已确认猪副嗜血杆菌菌株存在少量的异源基因型。",
+    "reference_case": "已确认猪副嗜血杆菌菌株存在大量的异源基因型。",
+    "error_detail": "错误地低估了猪副嗜血杆菌菌株的异源基因型数量。",
+    "original_question": "猪副嗜血杆菌之间存在多少种异源基因型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪副嗜血杆菌在体外培养时不受影响，通常不可见荚膜。",
+    "reference_case": "猪副嗜血杆菌在体外培养时受影响，通常可见荚膜。",
+    "error_detail": "错误地声称猪副嗜血杆菌在体外培养时不受影响，且不可见荚膜。",
+    "original_question": "猪副嗜血杆菌在体外培养时是否容易受影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪副嗜血杆菌生长时需要烟酰胺腺嘌呤二核苷酸磷酸（NADP 或 V 因子）。",
+    "reference_case": "猪副嗜血杆菌生长时需要烟酰胺腺嘌呤二核苷酸（NAD 或 V 因子）。",
+    "error_detail": "错误地描述了猪副嗜血杆菌生长时需要的因子。",
+    "original_question": "猪副嗜血杆菌生长时需要什么条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在血液培养基上呈大而不透明的菌落。",
+    "reference_case": "在血液培养基上呈小而透明的菌落。",
+    "error_detail": "错误地描述了猪副嗜血杆菌在血液培养基上的菌落形态。",
+    "original_question": "猪副嗜血杆菌在血液培养基上的菌落形态如何？",
+    "original_input": ""
+  }
+]

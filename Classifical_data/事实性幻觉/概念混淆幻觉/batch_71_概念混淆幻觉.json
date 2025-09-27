@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的肠道球虫在任何阶段都可以进行鉴定。",
+    "reference_case": "大多数猪肠道球虫只有在孢子化阶段时才能进行鉴定。",
+    "error_detail": "错误地描述了鉴定的可能性。",
+    "original_question": "猪的肠道球虫在什么阶段可以进行鉴定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的等孢球虫不包括马他等孢球虫。",
+    "reference_case": "猪的等孢球虫包括猪等孢球虫（Isospora suis）、马他等孢球虫（I. almataensis）和内拉氏等孢球虫（I.neyrai）。",
+    "error_detail": "错误地排除了马他等孢球虫。",
+    "original_question": "猪的等孢球虫包括哪些种类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪等孢球虫感染的建立可能减少肠蠕动率和宿主细胞破坏。",
+    "reference_case": "猪等孢球虫感染的建立可能增加肠蠕动率和宿主细胞破坏，从而干扰细菌在肠粘膜的繁殖能力。",
+    "error_detail": "错误地描述了感染的影响。",
+    "original_question": "猪等孢球虫感染如何干扰鼠伤寒沙门氏菌感染的建立？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "腹泻受抗生素治疗的影响。",
+    "reference_case": "腹泻不受抗生素治疗的影响，应与其他可引起猪肠道疾病的病原如大肠杆菌、传染性胃肠炎病毒、轮状病毒、C型产气荚膜梭菌、蓝氏类圆线虫进行鉴别。",
+    "error_detail": "错误地描述了抗生素治疗的影响。",
+    "original_question": "新生仔猪等孢球虫病的特征性腹泻如何鉴别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "通过查找仔猪粪便中的卵囊进行诊断，特别是卵囊壁和孢子体之间的清晰体结构和成对的2型裂殖子。",
+    "reference_case": "通过查找仔猪粪便中的卵囊进行诊断，特别是卵囊壁和孢子体之间的模糊体结构和成对的1型裂殖子。",
+    "error_detail": "错误地描述了卵囊壁和孢子体之间的结构以及裂殖子的类型。",
+    "original_question": "猪等孢球虫的诊断主要依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "米氏猪住肉孢子虫有猪一猫循环的生活史，猫排出的粪便中的孢囊有感染性。",
+    "reference_case": "米氏猪住肉孢子虫有猪一犬循环的生活史，犬排出的粪便中的孢囊有感染性。",
+    "error_detail": "错误地将犬替换为猫。",
+    "original_question": "米氏猪住肉孢子虫的生活史如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "停饲会导致猪突然增加摄取饲料，从而诱发胃溃疡。",
+    "reference_case": "停饲会导致猪突然中断摄取饲料，从而诱发胃溃疡。",
+    "error_detail": "错误地描述了停饲对饲料摄取的影响。",
+    "original_question": "为什么停饲是一种实验性诱发猪胃溃疡的方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪胃的活动力较强，胃经常是空的，且最近摄取的饲料远离食管开口处并不覆盖在先前摄取的食物上面，食物的混合主要发生在胃底。",
+    "reference_case": "猪胃的活动力较弱，胃很少是空的，且最近摄取的饲料紧位于食管开口处并覆盖在先前摄取的食物上面，食物的混合主要发生在幽门窦。",
+    "error_detail": "错误地描述了猪胃的活动力和食物混合的位置。",
+    "original_question": "引起猪食管区损伤的功能性因素是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "导致猪先天性缺陷的主要因素包括营养不足、管理不当、遗传因素和其他未知因素。",
+    "reference_case": "导致猪先天性缺陷的主要因素包括染色体异常、遗传因素、环境因素和其他未知因素。",
+    "error_detail": "错误地替换了主要因素。",
+    "original_question": "导致猪先天性缺陷的主要因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "铜摄入减少会导致猪出现心脏病和高血压。",
+    "reference_case": "怀孕母猪和配种公猪因控制增重而限制其摄食，哺乳母猪因消耗的饲料低于最适生产性能所需，瘦肉沉积能力强的生长猪饲粮摄入也减少。",
+    "error_detail": "错误地将铜摄入减少的影响与心脏病和高血压联系起来，而实际上原文讨论的是摄食限制对猪的影响。",
+    "original_question": "为什么铜摄入减少会导致营养缺乏症？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "钙缺乏会导致猪出现心脏病和高血压。",
+    "reference_case": "何偻病，骨软症，低钙性强直，驼背症，摄食减少，生长缓懮，步态偅直，关节肿大和疼痛，自发性骨折，后部麻痹（抑制性母猪综合征）。",
+    "error_detail": "错误地将钙缺乏的影响与心脏病和高血压联系起来，而实际上原文讨论的是骨骼和肌肉问题。",
+    "original_question": "钙缺乏会导致猪出现哪些临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "铬缺乏时，猪的临床症状包括心脏病和高血压。",
+    "reference_case": "产仔数减少，分娩率低。",
+    "error_detail": "错误地将铬缺乏的影响与心脏病和高血压联系起来，而实际上原文讨论的是繁殖问题。",
+    "original_question": "铬缺乏时，猪的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "铜缺乏会导致猪出现心脏病和高血压。",
+    "reference_case": "厌食，生长缓慢，弓形腿，自发性骨折，肌肉运动失调。",
+    "error_detail": "错误地将铜缺乏的影响与心脏病和高血压联系起来，而实际上原文讨论的是生长和运动问题。",
+    "original_question": "铜缺乏会导致猪出现哪些临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "铜缺乏时，猪的亚临床症状包括血糖水平升高。",
+    "reference_case": "小红细胞低路性贫血，血浆锂蓝蛋白水平降低，红细胞寿命缩短，主动脉破裂，心脏肥大。",
+    "error_detail": "错误地将铜缺乏的影响与血糖水平联系起来，而实际上原文讨论的是血液和心脏问题。",
+    "original_question": "铜缺乏时，猪的亚临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "硒缺乏时，猪的亚临床症状包括心脏病和高血压。",
+    "reference_case": "血清和骨骼肌研水平降低，谷胱甘肽过氧化物醙活性降低。",
+    "error_detail": "错误地将硒缺乏的影响与心脏病和高血压联系起来，而实际上原文讨论的是肌肉和酶活性问题。",
+    "original_question": "硒缺乏时，猪的亚临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "钠和氯缺乏时，猪的亚临床症状包括心脏病和高血压。",
+    "reference_case": "血浆钠和氯降低（钠缺乏），血浆钾水平升高（钠铁乏），血浆尿素氮水平升高（钠和氯缺乏），血乑总蛋白和白蛋白水平升高（钠缺 そ)。",
+    "error_detail": "错误地将钠和氯缺乏的影响与心脏病和高血压联系起来，而实际上原文讨论的是血浆电解质问题。",
+    "original_question": "钠和氯缺乏时，猪的亚临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "锌缺乏会导致猪出现心脏病和高血压。",
+    "reference_case": "厌食，生长缓悽，饲料效率低，角化不全，分娩时间延长，死胎率增加，初生仔猪体重降低和个体变小。",
+    "error_detail": "错误地将锌缺乏的影响与心脏病和高血压联系起来，而实际上原文讨论的是生长和繁殖问题。",
+    "original_question": "锌缺乏会导致猪出现哪些临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "锌缺乏时，猪的亚临床症状包括血糖水平升高。",
+    "reference_case": "血清、组织、奶中锌水平降低，血清白蛋白和胶性矽酸酶水平降低，胸腺重量降低，輧丸发育减缓，脂肪员葴缺乏，脂肪浆液性萎缩，胸腺细胞衰谒，舌、食管和胃喷门角质化，免疫反应降低。",
+    "error_detail": "错误地将锌缺乏的影响与血糖水平联系起来，而实际上原文讨论的是免疫和发育问题。",
+    "original_question": "锌缺乏时，猪的亚临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "能量缺乏会导致猪出现心脏病和高血压。",
+    "reference_case": "体弱，体温低，生长缓慢，体重降低，母猪繁殖力受损，昏迷，死亡。",
+    "error_detail": "错误地将能量缺乏的影响与心脏病和高血压联系起来，而实际上原文讨论的是生长和繁殖问题。",
+    "original_question": "能量缺乏会导致猪出现哪些临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "能量缺乏会导致猪出现心脏病和高血压。",
+    "reference_case": "低血糖，皮下脂肪缺失，红细胞密度和血清胆固醇水平升高，血液葡萄糖、钙和钠的水平降低。",
+    "error_detail": "错误地将能量缺乏的影响与心脏病和高血压联系起来，而实际上原文讨论的是代谢问题。",
+    "original_question": "能量缺乏会导致猪出现哪些亚临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "亚油酸缺乏会导致猪出现心脏病和高血压。",
+    "reference_case": "皮炎，脱毛，皮肤坏死。",
+    "error_detail": "错误地将亚油酸缺乏的影响与心脏病和高血压联系起来，而实际上原文讨论的是皮肤问题。",
+    "original_question": "亚油酸缺乏会导致猪出现哪些临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "亚油酸缺乏会导致猪出现心脏病和高血压。",
+    "reference_case": "胆囊变小，组织脂类中三/四碳链脂肪酸水平升高。",
+    "error_detail": "错误地将亚油酸缺乏的影响与心脏病和高血压联系起来，而实际上原文讨论的是胆囊和脂类问题。",
+    "original_question": "亚油酸缺乏会导致猪出现哪些亚临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "蛋白质/氮基酸缺乏会导致猪出现心脏病和高血压。",
+    "reference_case": "食欲减少，生长缓慢，饲料效率降低，沉郁，母猪和公猪繁殖力受损，剖检背脂肪增加。",
+    "error_detail": "错误地将蛋白质/氮基酸缺乏的影响与心脏病和高血压联系起来，而实际上原文讨论的是生长和繁殖问题。",
+    "original_question": "蛋白质/氮基酸缺乏会导致猪出现哪些临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "蛋白质/氮基酸缺乏会导致猪出现心脏病和高血压。",
+    "reference_case": "初生仔猪出现Kwashiorkor样综合征，包括血清蛋白质和血清白蛋白水平降低，贫血，全身水肿，肝脏脂类浓度增加；血浆膽水平增加，抗细菌感染能力降低。",
+    "error_detail": "错误地将蛋白质/氮基酸缺乏的影响与心脏病和高血压联系起来，而实际上原文讨论的是代谢和免疫问题。",
+    "original_question": "蛋白质/氮基酸缺乏会导致猪出现哪些亚临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "水缺乏会导致猪出现心脏病和高血压。",
+    "reference_case": "摄食减少，生长缓慢，体重降低，脱水，可能的盐中毒，可能形成膀胱炎，死亡。",
+    "error_detail": "错误地将水缺乏的影响与心脏病和高血压联系起来，而实际上原文讨论的是生长和代谢问题。",
+    "original_question": "水缺乏会导致猪出现哪些临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "水缺乏会导致猪出现心脏病和高血压。",
+    "reference_case": "红细胞密度增加，血浆电解质水平增加，体温调节功能丧失，组织脱水，结晶尿，蛋白尿，细菌尿。",
+    "error_detail": "错误地将水缺乏的影响与心脏病和高血压联系起来，而实际上原文讨论的是代谢和泌尿问题。",
+    "original_question": "水缺乏会导致猪出现哪些亚临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "过量喂食可能会导致母猪和公猪出现心脏病和高血压。",
+    "reference_case": "获得过多的体重和脂肪，从而降低繁殖性能和缩短寿命。",
+    "error_detail": "错误地将过量喂食的影响与心脏病和高血压联系起来，而实际上原文讨论的是体重和繁殖问题。",
+    "original_question": "过量喂食可能会导致母猪和公猪出现哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "氨基酸（赖氨酸、色氨酸、苏氨酸和甲硫氨酸）的中毒在猪的实际营养中是常见的。",
+    "reference_case": "氨基酸（赖氨酸、色氨酸、苏氨酸和甲硫氨酸）的中毒在猪的实际营养中是极少见的。只有在日粮中加入过多的结晶型氨基酸时，才能引起中毒。",
+    "error_detail": "概念混淆，将‘极少见’错误地改为‘常见’",
+    "original_question": "过量摄入氨基酸（如赖氨酸、色氨酸、苏氨酸和甲硫氨酸）会导致什么情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PSS易感猪的肌肉对应激刺激的反应表现为代谢性和收缩性反应不足。",
+    "reference_case": "PSS易感猪的肌肉对应激刺激的反应表现为代谢性和收缩性反应过度，包括代谢性增强导致的氧和糖原消耗加速、热量和酸性代谢产物释放增加，以及钾离子、二氧化碳及肌蛋白等进入血液循环。",
+    "error_detail": "概念混淆，错误地将‘过度’改为‘不足’",
+    "original_question": "PSS易感猪的肌肉对刺激的反应特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PSS易感性仅限于PSS基因杂合体猪。",
+    "reference_case": "PSS易感性仅限于PSS基因纯合体猪，骨骼肌对刺激的反应表现为不适宜或过度的代谢性和收缩性反应。",
+    "error_detail": "概念混淆，错误地将‘纯合体’改为‘杂合体’",
+    "original_question": "PSS易感性与骨骼肌对刺激的反应有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PSE猪肉的特点包括含水能力增强、光散射减弱、折射系数不变以及肌原纤维节的缩短等。",
+    "reference_case": "PSE猪肉的特点包括含水能力丧失、光散射增强、折射系数改变以及肌原纤维节的延长等，这些变化导致了PSE猪肉的产生。",
+    "error_detail": "概念混淆，错误地改变了特点的描述",
+    "original_question": "PSE猪肉的特点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PSS易感猪的肌纤维直径比非易感猪的小。",
+    "reference_case": "PSS易感猪的肌纤维直径比非易感猪的大，但各种类型纤维的比例与同一品种的PSS非易感猪无明显差异。",
+    "error_detail": "概念混淆，错误地将‘大’改为‘小’",
+    "original_question": "PSS易感猪的肌纤维直径与非易感猪有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PSE猪肉所造成的经济损失不包括胴体和猪肉在贮存、运输及加工过程中的水分散失。",
+    "reference_case": "PSE猪肉所造成的经济损失包括胴体和猪肉在贮存、运输及加工过程中的水分散失，导致猪肉的萎缩和重量的丢失，结果是其市场价值的降低，PSE猪肉还可能被选做低档肉产品，由于PSE猪肉的保鲜期缩短，会给养猪业和屠宰加工厂等造成经济损失。",
+    "error_detail": "概念混淆，错误地声称不包括",
+    "original_question": "PSE猪肉所造成的经济损失包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "机体状况不良或肌肉发育不良可增加猪对氟烷的敏感性。",
+    "reference_case": "机体状况不良或肌肉发育不良可降低但不能完全消除猪对氟烷的敏感性。",
+    "error_detail": "错误地改变了机体状况不良或肌肉发育不良对猪对氟烷敏感性的影响方向。",
+    "original_question": "机体状况不良或肌肉发育不良对猪对氟烷的敏感性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "分娩过程中自然和人为因素，如骨盆膈膜的结构损伤或炎症，可能导致阴道脱垂。骨盆膈膜实际上是指骨盆底肌肉。",
+    "reference_case": "分娩过程中自然和人为因素，如骨盆膈膜的结构损伤或炎症，可能导致阴道脱垂。",
+    "error_detail": "错误地将骨盆膈膜与骨盆底肌肉混淆，导致概念混淆幻觉。",
+    "original_question": "分娩过程中哪些因素可能导致猪的阴道脱垂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "高剂量锌会导致生长抑制、关节炎、骨和软骨变形、内出血，并竞争性抑制铁、钙和铜的吸收。这些影响主要是由于锌与这些矿物质在肠道中的吸收位点相同。",
+    "reference_case": "高剂量锌会导致生长抑制、关节炎、骨和软骨变形、内出血，并竞争性抑制铁、钙和铜的吸收。",
+    "error_detail": "错误地将竞争性抑制归因于吸收位点相同，而非代谢途径，导致概念混淆幻觉。",
+    "original_question": "高剂量锌对猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "氟中毒的症状包括腹泻、跛行、强直、虚脱和死亡，特点是长骨出现外出骨疣和牙齿出现秞斑。正常骨氟浓度为3000~4000 mg/kg，超过此浓度即意味氟中毒。这些症状与氟化物的直接毒性作用有关。",
+    "reference_case": "氟中毒的症状包括腹泻、跛行、强直、虚脱和死亡，特点是长骨出现外出骨疣和牙齿出现秞斑。正常骨氟浓度为3000~4000 mg/kg，超过此浓度即意味氟中毒。",
+    "error_detail": "错误地将症状归因于氟化物的直接毒性作用，而非长期积累，导致概念混淆幻觉。",
+    "original_question": "氟中毒对猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "细胞毒性 T 细胞（Tc 细胞）能识别与 MHC II 类分子相结合的抗原，通过直接接触、释放颗粒酶和诱导细胞凋亡来杀死靶细胞，对猪瘟病毒和非洲猪瘟病毒具有特异性。",
+    "reference_case": "细胞毒性 T 细胞（Tc 细胞）能识别与 MHC I 类分子相结合的抗原，通过直接接触、释放颗粒酶和诱导细胞凋亡来杀死靶细胞，对猪瘟病毒和非洲猪瘟病毒具有特异性。",
+    "error_detail": "将 MHC I 类分子错误地描述为 MHC II 类分子。",
+    "original_question": "细胞毒性 T 细胞在猪中对抗病毒和肿瘤细胞的免疫应答中起什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "成年猪可能发生急性胃炎和肠炎。",
+    "reference_case": "成年猪可能发生急性胃扩张和肠扭转。",
+    "error_detail": "错误地将急性胃扩张和肠扭转描述为急性胃炎和肠炎。",
+    "original_question": "成年猪可能发生哪些急性胃肠问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的常见腹泻病包括A型产气英膜梭状芽胞杆菌和流感病毒。",
+    "reference_case": "猪的常见腹泻病包括C型产气英膜梭状芽胞杆菌、大肠杆菌（ETEC, EPEC, PWD）、冠状病毒（TGEV, PEDV, CV777）、轮状病毒、隐孢子虫、猪等孢子球虫、Lawsonia intracellularis、沙门氏杆菌和Serpulina hyodysenteriae。",
+    "error_detail": "错误地列举了猪的常见腹泻病。",
+    "original_question": "猪的常见腹泻病有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪乳腺位于背部，由肌肉组织和背筋膜紧密连接于背壁下。",
+    "reference_case": "猪乳腺位于胸廊与腹股沟之间、腹侧壁中线两侧平行排列，由脂肪组织和腹筋膜紧密连接于腹壁下。通常由1-2对胸侧乳头、4对腹侧乳头、1对腹股沟乳头组成，每侧共有6-7对乳腺。每个乳腺有一个乳头，两个相互独立的乳头管。乳头总数量较多时，常有小乳头和无功能的遗留附属乳头。",
+    "error_detail": "错误地描述了猪乳腺的位置和结构。",
+    "original_question": "母猪乳腺的外部结构特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "泌乳母猪的乳腺由排列在腺泡上的分泌单位组成的泡管腺，这些腺泡上排列有分泌乳汁的腺上皮细胞，由有分泌功能的导管连接并通向乳头的出口。",
+    "reference_case": "泌乳母猪的乳腺由排列在腺泡上的分泌单位组成的泡管腺，这些腺泡上排列有分泌乳汁的腺上皮细胞，由无分泌功能的导管连接并通向乳头的出口。母猪乳腺通常有两套完整的乳腺系统，相互交织，但每个系统组成部分相互独立。每个乳头有两个开口，分属于两个腺体系统，有时也常有第三个开口，但通常在乳头末端不通，也没有分泌功能。",
+    "error_detail": "错误地描述了导管的功能。",
+    "original_question": "母猪乳腺内部结构的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪泌乳量与母猪年龄、妊娠期维生素和矿物质的摄取量、乳腺泌乳细胞大小有关。",
+    "reference_case": "母猪泌乳量与母猪体重、妊娠期蛋白质和能量的摄取量、乳腺泌乳细胞数量有关。",
+    "error_detail": "错误地描述了影响母猪泌乳量的因素。",
+    "original_question": "母猪泌乳量与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "催乳素是抑制母猪泌乳的一个重要激素，妊娠母猪分娩前促进催乳素高峰来临，可以抑制随后的乳汁生成。",
+    "reference_case": "催乳素是启动母猪泌乳的一个重要激素，妊娠母猪分娩前抑制催乳素高峰来临，可以抑制随后的乳汁生成。",
+    "error_detail": "将催乳素的作用描述为抑制泌乳，与事实相反。",
+    "original_question": "催乳素在启动母猪泌乳中起什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "甲状腺素对于抑制母猪乳腺中的氧消耗和蛋白质合成活动，以及对泌乳量有重要影响。",
+    "reference_case": "甲状腺素对于维持母猪乳腺中的氧消耗和蛋白质合成活动，以及对泌乳量有重要影响。",
+    "error_detail": "错误地描述甲状腺素的作用为抑制，与事实相反。",
+    "original_question": "甲状腺素在母猪泌乳过程中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪生长速度通常以平均每周增重来测定。",
+    "reference_case": "仔猪生长速度通常以平均每天增重（ADG）来测定。",
+    "error_detail": "错误地改变了生长速度的测定方式。",
+    "original_question": "仔猪生长速度如何测定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪泌乳10天后继续哺乳体重大的仔猪能增加乳的分泌量。",
+    "reference_case": "母猪泌乳10天后继续哺乳体重大的仔猪并不会增加乳的分泌量，因为此时母乳的供应量已达最大。",
+    "error_detail": "错误地认为哺乳体重大的仔猪能增加乳的分泌量。",
+    "original_question": "母猪泌乳10天后继续哺乳体重大的仔猪是否能增加乳的分泌量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PPDS的临床表现包括母猪食欲增加和体温正常。",
+    "reference_case": "PPDS的临床表现包括母猪厌食和发热（>40.3°C）。",
+    "error_detail": "错误地描述了PPDS的临床表现。",
+    "original_question": "PPDS的临床表现有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "早期诊断可通过忽视仔猪的行为变化。",
+    "reference_case": "早期诊断可通过密切观察仔猪的行为变化。",
+    "error_detail": "错误地认为忽视行为变化有助于早期诊断。",
+    "original_question": "如何早期诊断有问题的仔猪群？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "治疗PPDS的母猪通常不使用抗生素。",
+    "reference_case": "治疗PPDS的母猪通常使用抗生素。",
+    "error_detail": "错误地认为治疗PPDS不使用抗生素。",
+    "original_question": "PPDS中母猪的治疗有哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "分娩前后母猪血容量不会变化。",
+    "reference_case": "分娩前后母猪血容量会变化。",
+    "error_detail": "错误地认为分娩前后血容量不变。",
+    "original_question": "分娩前后母猪血容量会发生什么变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪伪狂犬病病毒（PRV）属于疱疹病毒科（Herpesviridae）的β-疱疹病毒亚科（Beta-herpesvirinae）。",
+    "reference_case": "猪伪狂犬病病毒（PRV）属于疱疹病毒科（Herpesviridae）的α-疱疹病毒亚科（Alpha-herpesvirinae）。",
+    "error_detail": "错误地将PRV归类为β-疱疹病毒亚科而非正确的α-疱疹病毒亚科。",
+    "original_question": "猪伪狂犬病病毒（PRV）属于哪个病毒科和亚科？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "ELISA方法在猪伪狂犬病病毒（PRV）强毒鉴别诊断中具有操作复杂、速度慢的缺点。",
+    "reference_case": "ELISA方法在猪伪狂犬病病毒（PRV）强毒鉴别诊断中具有操作简单、快速、特异性强、敏感性高的优点，非常适用于大批量样品的检测。",
+    "error_detail": "错误地描述了ELISA方法的特性，实际上其操作简单且快速。",
+    "original_question": "ELISA方法在猪伪狂犬病病毒（PRV）强毒鉴别诊断中的优势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪伪狂犬病病毒（PRV）的gE、TK、gG、gI等毒力基因缺失后毒力会增强但抗原性会受影响。",
+    "reference_case": "猪伪狂犬病病毒（PRV）的gE、TK、gG、gI等毒力基因缺失后毒力会减弱但抗原性不受影响。",
+    "error_detail": "错误地描述了基因缺失对毒力和抗原性的影响，实际上毒力会减弱但抗原性不受影响。",
+    "original_question": "猪伪狂犬病病毒（PRV）的哪些基因缺失后毒力会减弱但抗原性不受影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪伪狂犬病（PR）是由狂犬病毒（RV）引起的。",
+    "reference_case": "猪伪狂犬病（PR）是由伪狂犬病毒（PRV）引起的。",
+    "error_detail": "错误地将猪伪狂犬病的病原体描述为狂犬病毒而非伪狂犬病毒。",
+    "original_question": "猪伪狂犬病（PR）是由什么病毒引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪伪狂犬病病毒（PRV）的强毒鉴别诊断方法仅包括PCR和ELISA。",
+    "reference_case": "猪伪狂犬病病毒（PRV）的强毒鉴别诊断方法包括PCR、荧光定量PCR、LAMP、核酸探针、ELISA和胶体金免疫技术等。",
+    "error_detail": "错误地缩小了强毒鉴别诊断方法的范围，实际上方法更为多样。",
+    "original_question": "猪伪狂犬病病毒（PRV）的强毒鉴别诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在猪流行性腹泻的诊断中，使用了DL1000 DNA marker进行核酸检测。",
+    "reference_case": "使用了TRIzol试剂、DL2000 DNA marker、TransScript First-Strand cDNA Synthesis Super Mix cDNA第一链合成试剂盒、2×EasyTaq PCR Super Mix试剂盒和EasyPure Gel Extraction Kit凝胶快速纯化试剂盒。",
+    "error_detail": "错误地描述了使用的DNA marker型号，实际上使用的是DL2000。",
+    "original_question": "在猪流行性腹泻的诊断中，使用了哪些试剂进行核酸检测？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "样品1仔猪的肠线毛增生、变长，肠腺大量减少。",
+    "reference_case": "样品1仔猪的肠线毛萎缩、变短，肠腺大量增生，肠系膜淋巴结细胞坏死，组织空隙化。",
+    "error_detail": "错误地描述了肠线毛和肠腺的变化，实际上肠线毛萎缩、变短，肠腺大量增生。",
+    "original_question": "在组织病理学检测中，样品1仔猪的肠线毛和肠系膜淋巴结有哪些病理变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "综合诊断结果，该猪场发病仔猪为猪传染性胃肠炎病毒并继发沙门氏菌感染。",
+    "reference_case": "综合诊断结果，该猪场发病仔猪为猪流行性腹泻病毒并继发大肠杆菌感染。",
+    "error_detail": "错误地描述了病因，实际上为猪流行性腹泻病毒并继发大肠杆菌感染。",
+    "original_question": "综合诊断结果，该猪场发病仔猪的病因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PEDV的引物设计依据是GenBank中已发表的PEDV N蛋白基因序列。",
+    "reference_case": "PEDV的引物设计依据是GenBank中已发表的PEDV S蛋白基因序列，TGEV的引物设计依据是GenBank中已发表的TGEV S蛋白基因序列。",
+    "error_detail": "错误地描述了PEDV引物设计的依据基因，实际上依据的是S蛋白基因序列。",
+    "original_question": "猪流行性腹泻病毒（PEDV）和猪传染性胃肠炎病毒（TGEV）的PCR引物设计依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "样品6的仔猪回肠、空肠、结肠肠绒毛增生。",
+    "reference_case": "样品6的仔猪回肠、空肠、结肠肠绒毛萎缩，回肠集合淋巴小结增生，结肠肠绒毛出血、坏死、上皮细胞脱落，固有层结缔组织出血、水肿、炎性细胞浸润，血管周围有大量中性球及淋巴球侵润，类纤维样坏死，肠系膜淋巴结有含铁血黄素沉着。",
+    "error_detail": "错误地描述了肠绒毛的状态，实际上为萎缩而非增生。",
+    "original_question": "样品6的组织病理学检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "如果消毒药物的浓度偏低，则会导致猪的皮肤、黏膜、呼吸道的损伤。",
+    "reference_case": "如果消毒药物的浓度偏低，则起不到消毒效果；如果浓度过大，一方面会造成消毒药的浪费，增加养殖成本，另一方面可能导致猪的皮肤、黏膜、呼吸道的损伤，同时也有可能造成饲养人员的伤害。",
+    "error_detail": "错误地描述了消毒药物浓度偏低的影响，实际上浓度偏低起不到消毒效果。",
+    "original_question": "猪场消毒过程中，消毒药物浓度的不当使用可能带来哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "密闭猪舍饲养的母猪仔猪发育不良的情况低于自然分娩猪舍饲养的母猪。",
+    "reference_case": "密闭猪舍饲养的母猪仔猪发育不良的情况高于自然分娩猪舍饲养的母猪。",
+    "error_detail": "概念混淆",
+    "original_question": "密闭猪舍与自然分娩猪舍饲养的母猪相比，仔猪发育不良的情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "对于妊娠后期的母猪，饲喂含蛋白质高的饲料，饲料中添加蛋白质成分，减少纤维素含量，可以降低早期泌乳障碍的发病率。",
+    "reference_case": "对于妊娠后期的母猪，饲喂含纤维素高的饲料，饲料中添加纤维素成分，减少蛋白质含量，可以降低早期泌乳障碍的发病率。",
+    "error_detail": "概念混淆",
+    "original_question": "如何通过调整饲料成分减少早期泌乳障碍的发病率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "产后当天饲料中添加药物，注射青霉素类药物。",
+    "reference_case": "产后当天饲料中添加药物，注射喹诺酮类药物。",
+    "error_detail": "概念混淆",
+    "original_question": "如何通过饲料中添加药物刺激患病母猪增加泌乳量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过不同方式使用TRF，其对母猪泌乳量的影响显著，且可能缩短断奶到发情间期的时间，有利生产。",
+    "reference_case": "通过不同方式使用TRF，其对母猪泌乳量的影响有限，且可能延长断奶到发情间期的时间，不利生产。",
+    "error_detail": "概念混淆",
+    "original_question": "促甲状腺素释放因子（TRF）能否提高母猪泌乳量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "泌乳的能量来源包括泌乳日粮和母猪体能贮存，以及外部补充的能量。",
+    "reference_case": "泌乳的能量来源包括泌乳日粮和母猪体能贮存。",
+    "error_detail": "概念混淆",
+    "original_question": "母猪泌乳的能量来源有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "骨发育不良的主要症状包括继发骨质变化的前骺和后髊软骨的正常分化，主要影响公猪和母猪的腿，尤其是在负重关节和生长板部位。",
+    "reference_case": "骨发育不良的主要症状包括继发骨质变化的前骺和后髊软骨的异常分化，主要影响公猪和母猪的腿，尤其是在负重关节和生长板部位。",
+    "error_detail": "概念混淆",
+    "original_question": "骨发育不良的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "生物素缺乏导致蹄壁太硬。",
+    "reference_case": "生物素缺乏导致蹄壁太软。",
+    "error_detail": "错误地描述了生物素缺乏对蹄壁的影响，将‘太软’误写为‘太硬’。",
+    "original_question": "生物素缺乏会导致母猪蹄损伤的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "体重不小于25 kg的猪应补充维生素D。",
+    "reference_case": "体重不小于25 kg的猪应补充生物素。",
+    "error_detail": "错误地建议了补充的物质，将‘生物素’误写为‘维生素D’。",
+    "original_question": "体重不小于25 kg的猪应补充什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "骨质疏松的症状包括母猪椎骨、股骨及趾节可能发生骨折，临床表现为站立不稳或躺卧。",
+    "reference_case": "骨质疏松的症状包括母猪椎骨、股骨及趾节可能发生骨折，临床表现为跛行或躺卧。",
+    "error_detail": "错误地描述了骨质疏松的临床表现，将‘跛行’误写为‘站立不稳’。",
+    "original_question": "骨质疏松的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "给猪饲喂［对］氨苯胂酸是为了促进生长或治疗感冒。",
+    "reference_case": "给猪饲喂［对］氨苯胂酸是为了促进生长或治疗痢疾。",
+    "error_detail": "错误地描述了［对］氨苯胂酸的治疗目的，将‘痢疾’误写为‘感冒’。",
+    "original_question": "给猪饲喂［对］氨苯胂酸的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪中毒的原因是猪吃了其周围的东西，如灭鼠药或饲料中含有过量的维生素。",
+    "reference_case": "猪中毒的原因是猪吃了其周围的东西，如灭鼠药或饲料中含有过量的物质。",
+    "error_detail": "错误地描述了导致猪中毒的物质，将‘过量的物质’误写为‘过量的维生素’。",
+    "original_question": "猪中毒的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "弓形虫病导致新生仔猪出现哪些症状？腹泻，呼吸困难，咳嗽，震颤，虚弱，步态不稳，死亡率上升，生存者呈现运动失调和失聪。",
+    "reference_case": "腹泻，呼吸困难，咳嗽，震颤，虚弱，步态不稳，死亡率上升，生存者呈现运动失调和失明。",
+    "error_detail": "错误地描述了弓形虫病导致的症状，将‘失明’误写为‘失聪’。",
+    "original_question": "弓形虫病导致新生仔猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "弓形虫病导致母猪出现哪些症状？死产，死胎，妊娠期缩短。",
+    "reference_case": "死产，死胎，妊娠期延长。",
+    "error_detail": "错误地描述了弓形虫病导致的妊娠期变化，将‘延长’误写为‘缩短’。",
+    "original_question": "弓形虫病导致母猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "新生母猪的子宫会从仅由少量的两层组织构成（管腔上皮组织、结缔组织和子宫肌层），发展到子官腺和腺上皮显著增多，子宫肌层开始分化成清晰的两层，子宫内膜出现明显的皱褶，看起来与成年母猪的子宫相似。",
+    "reference_case": "新生母猪的子宫会从仅由少量的三层组织构成（管腔上皮组织、结缔组织和子宫肌层），发展到子官腺和腺上皮显著增多，子宫肌层开始分化成清晰的两层，子宫内膜出现明显的皱褶，看起来与成年母猪的子宫相似。",
+    "error_detail": "错误地描述了新生母猪子宫的初始组织层数，将‘三层’误写为‘两层’。",
+    "original_question": "出生后8周内新生母猪的子宫会发生哪些显著变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "公猪性原细胞分化形成B0型精原细胞。",
+    "reference_case": "公猪性原细胞分化形成A0型精原细胞。",
+    "error_detail": "错误地将A0型精原细胞混淆为B0型精原细胞。",
+    "original_question": "公猪性原细胞分化形成什么类型的细胞？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟病毒可以通过污染的精液感染母猪。",
+    "reference_case": "非洲猪瘟病毒、细小病毒（PPV）和猪繁殖呼吸综合征病毒（PRRSV）可以通过污染的精液感染母猪。",
+    "error_detail": "错误地添加了不相关的病毒类型。",
+    "original_question": "哪些病毒可以通过污染的精液感染母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "胸膜肺炎放线杆菌2型和6型可能相互正相关，因为它们具有相同的生长条件。",
+    "reference_case": "多数感染似乎同血清型2胸膜肺炎放线杆菌正相关，可能是因为胸膜肺炎放线杆菌具有共同抗原，可刺激产生交叉保护性抗体。",
+    "error_detail": "错误地解释了相关性原因。",
+    "original_question": "为什么胸膜肺炎放线杆菌2型和6型可能相互正相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的皮肤与狗的皮肤更相似。",
+    "reference_case": "猪的皮肤与人的皮肤更相似。",
+    "error_detail": "错误地比较了不相关的动物。",
+    "original_question": "猪的皮肤与哪些动物的皮肤更相似？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪皮肤病的感染性病因包括化学性和物理性。",
+    "reference_case": "猪皮肤病的感染性病因包括细菌性、病毒性、真菌性和寄生虫性。",
+    "error_detail": "错误地添加了不相关的病因类型。",
+    "original_question": "猪皮肤病的感染性病因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "细菌性猪皮肤病可能引发猪瘟和猪流感。",
+    "reference_case": "细菌性猪皮肤病可能引发渗出性皮炎、链球菌病、耳坏死、脓肿、丹毒、巴氏杆菌病、水肿病、炭痘。",
+    "error_detail": "错误地添加了不相关的疾病。",
+    "original_question": "细菌性猪皮肤病可能引发哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "病毒性猪皮肤病可能引发猪痘、猪水疱病、水疱疹、猪细小病毒病、自发性水疱病、猪流感。",
+    "reference_case": "病毒性猪皮肤病可能引发猪痘、猪水疱病、水疱疹、猪细小病毒病、自发性水疱病。",
+    "error_detail": "添加了不相关的疾病'猪流感'",
+    "original_question": "病毒性猪皮肤病可能引发哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非感染性猪皮肤病的环境性病因可能引发晒斑、光敏反应、皮肤坏死、粘液表炎、硬皮病、皮行及脚病变、皮肤癌。",
+    "reference_case": "非感染性猪皮肤病的环境性病因可能引发晒斑、光敏反应、皮肤坏死、粘液表炎、硬皮病、皮行及脚病变。",
+    "error_detail": "添加了不相关的疾病'皮肤癌'",
+    "original_question": "非感染性猪皮肤病的环境性病因可能引发哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非感染性猪皮肤病的遗传性病因可能引发玫瑰蔴疹、增生性皮炎、上皮增殖不全、乳头状瘤、息肉、皮肤癌。",
+    "reference_case": "非感染性猪皮肤病的遗传性病因可能引发玫瑰蔴疹、增生性皮炎、上皮增殖不全、乳头状瘤、息肉。",
+    "error_detail": "添加了不相关的疾病'皮肤癌'",
+    "original_question": "非感染性猪皮肤病的遗传性病因可能引发哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非感染性猪皮肤病的肿瘤性病因可能引发黑素㿑、横纹肌瘤、淋巴管瘤、纤维瘤、血管佫、汗腺腺瘤、息肉、皮肤癌。",
+    "reference_case": "非感染性猪皮肤病的肿瘤性病因可能引发黑素㿑、横纹肌瘤、淋巴管瘤、纤维瘤、血管佫、汗腺腺瘤、息肉。",
+    "error_detail": "添加了不相关的疾病'皮肤癌'",
+    "original_question": "非感染性猪皮肤病的肿瘤性病因可能引发哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非感染性猪皮肤病的杂病可能引发皮炎/肾、病综合征、皮肤癌。",
+    "reference_case": "非感染性猪皮肤病的杂病可能引发皮炎/肾、病综合征。",
+    "error_detail": "添加了不相关的疾病'皮肤癌'",
+    "original_question": "非感染性猪皮肤病的杂病可能引发哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "地面太硬，尤其是产房内粗硬的混凝土地面引起仔猪皮肤擦伤，出现病变，新铺的混凝土碱性pH地面和板条会使年龄较大猪出现创面，足底坏死则是因为生锈的金属丝网或金属地面摩擦而致，皮肤癌。",
+    "reference_case": "地面太硬，尤其是产房内粗硬的混凝土地面引起仔猪皮肤擦伤，出现病变，新铺的混凝土碱性pH地面和板条会使年龄较大猪出现创面，足底坏死则是因为生锈的金属丝网或金属地面摩擦而致。",
+    "error_detail": "添加了不相关的'皮肤癌'",
+    "original_question": "仔猪乳头坏死的病因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "局部应用抗生素或抗菌软膏有一定治疗意义，开放型创面需要采取胃肠道外途径用抗生素治疗，皮肤癌。",
+    "reference_case": "局部应用抗生素或抗菌软膏有一定治疗意义，开放型创面需要采取胃肠道外途径用抗生素治疗。",
+    "error_detail": "添加了不相关的'皮肤癌'",
+    "original_question": "仔猪乳头坏死的治疗措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "防制措施应着眼于保持水泥地面平整、干洁、更换锈蚀的铁网，产床应铺置垫草或橡胶垫。新圈舍的地面撒上捣碎的饲料有助于防治青年育肥猪出现皮肤坏死，选种时要淘汰腿外翻的种猪，皮肤癌。",
+    "reference_case": "防制措施应着眼于保持水泥地面平整、干洁、更换锈蚀的铁网，产床应铺置垫草或橡胶垫。新圈舍的地面撒上捣碎的饲料有助于防治青年育肥猪出现皮肤坏死，选种时要淘汰腿外翻的种猪。",
+    "error_detail": "添加了不相关的'皮肤癌'",
+    "original_question": "如何预防仔猪皮肤坏死？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "角化不全是一种见于生长猪的营养性代谢紊乱症，其特征为无痒、结痂性全身性皮炎，皮肤癌。",
+    "reference_case": "角化不全是一种见于生长猪的营养性代谢紊乱症，其特征为无痒、结痂性全身性皮炎。",
+    "error_detail": "添加了不相关的'皮肤癌'",
+    "original_question": "猪角化不全的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "目前认为病因很复杂，包括锌和必需脂肪酸缺乏，钙、植酸以及其它影响锌吸收的螯合剂含量过高。胃肠疾病为诱发严重的锌缺乏和角化不全，皮肤癌。",
+    "reference_case": "目前认为病因很复杂，包括锌和必需脂肪酸缺乏，钙、植酸以及其它影响锌吸收的螯合剂含量过高。胃肠疾病为诱发严重的锌缺乏和角化不全。",
+    "error_detail": "添加了不相关的'皮肤癌'",
+    "original_question": "猪角化不全的病因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "治疗与防制措施为饲料中添加某种形式的锌盐（硫酸锌或碳酸锌），比例为0.02%或每吨饲料中添加2kg。脂肪酸添加量提高1%。钙的比例提高不能超过1%，皮肤癌。",
+    "reference_case": "治疗与防制措施为饲料中添加某种形式的锌盐（硫酸锌或碳酸锌），比例为0.02%或每吨饲料中添加2kg。脂肪酸添加量提高1%。钙的比例提高不能超过1%。",
+    "error_detail": "添加了不相关的'皮肤癌'",
+    "original_question": "猪角化不全的治疗措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "泌尿道循环障碍的常见原因是细菌性败血病（如沙门氏菌、链球菌、猪红斑丹毒丝菌和放线杆菌性败血症）和病毒性败血病（如急性猪瘟和非洲猪瘟），皮肤癌。",
+    "reference_case": "泌尿道循环障碍的常见原因是细菌性败血病（如沙门氏菌、链球菌、猪红斑丹毒丝菌和放线杆菌性败血症）和病毒性败血病（如急性猪瘟和非洲猪瘟）。",
+    "error_detail": "添加了不相关的'皮肤癌'",
+    "original_question": "导致猪泌尿道循环障碍的常见原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪皮炎/肾病综合征的病理特征是皮肤和肾脏血管损伤，引起渗出性、增生性 GN，偶尔见有坏死性 GN，同时伴有心脏肥大。",
+    "reference_case": "猪皮炎/肾病综合征的病理特征是皮肤和肾脏血管损伤，引起渗出性、增生性 GN，偶尔见有坏死性 GN。",
+    "error_detail": "添加了不相关的心脏肥大病理特征",
+    "original_question": "猪皮炎/肾病综合征的病理特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "肾脏苍白、肿胀，伴有急性肾小管坏死，肾小管内沉积大量的草酸钙结晶和尿酸结晶。",
+    "reference_case": "肾脏苍白、肿胀，伴有急性肾小管坏死，肾小管内沉积大量的草酸钙结晶。",
+    "error_detail": "添加了不存在的尿酸结晶",
+    "original_question": "乙烯乙二醇中毒导致猪肾脏的哪些组织学变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "175W热源能节省21%的能源消耗且仔猪分布均匀，而250W热源虽能降低部分死亡率但过高的热量使仔猪分散且母猪感觉不适，同时影响母猪的产奶量。",
+    "reference_case": "175W热源能节省21%的能源消耗且仔猪分布均匀，而250W热源虽能降低部分死亡率但过高的热量使仔猪分散且母猪感觉不适。",
+    "error_detail": "添加了影响产奶量的无关概念",
+    "original_question": "不同热源对仔猪分布和舒适度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "预防新生仔猪贫血包括确保仔猪及时吸食初乳或初乳代食品，以及提供充足的高免疫力母猪血清和奶粉，同时注射维生素B12。",
+    "reference_case": "预防新生仔猪贫血包括确保仔猪及时吸食初乳或初乳代食品，以及提供充足的高免疫力母猪血清和奶粉。",
+    "error_detail": "添加了不相关的维生素B12注射",
+    "original_question": "如何预防新生仔猪贫血？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪败血症的主要病原菌是沙门氏菌和葡萄球菌。",
+    "reference_case": "仔猪败血症的主要病原菌是大肠杆菌（E.coli）和β-溶血型链球菌。",
+    "error_detail": "术语错误",
+    "original_question": "仔猪败血症的主要病原菌是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "泌乳母猪日粮中赖氨酸与缬氨酸的比应为1:1.00。",
+    "reference_case": "泌乳母猪日粮中赖氨酸与缬氨酸的比应为1:1.28。",
+    "error_detail": "错误地改变了赖氨酸与缬氨酸的比例，导致营养配比错误。",
+    "original_question": "赖氨酸和缬氨酸在泌乳母猪日粮中的比例应为多少？",
+    "original_input": ""
+  }
+]

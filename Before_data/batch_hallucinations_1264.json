@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "Stx2e毒素是一种AB5形式的六聚体，其B亚单位能特异性识别原核细胞的Gb4受体，从而介导A亚单位进入细胞，发挥RNA-N-糖苷酶活性，作用于原核细胞rRNA的28s亚基，中止蛋白质的合成，引起细胞死亡、血管通透性增加，最终表现为组织水肿和出血性炎症。",
+    "reference_case": "Stx2e毒素是一种AB5形式的六聚体，其B亚单位能特异性识别真核细胞的Gb4受体，从而介导A亚单位进入细胞，发挥RNA-N-糖苷酶活性，作用于真核细胞rRNA的28s亚基，中止蛋白质的合成，引起细胞死亡、血管通透性增加，最终表现为组织水肿和出血性炎症。",
+    "error_detail": "将真核细胞错误地描述为原核细胞",
+    "original_question": "Stx2e毒素在猪水肿病中的作用机制是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "Stx2e基因缺失导致大肠杆菌1522株对猪肠上皮细胞IPEC-J2的粘附能力降低了50%。",
+    "reference_case": "Stx2e基因缺失导致大肠杆菌1522株对猪肠上皮细胞IPEC-J2的粘附能力降低了30%。",
+    "error_detail": "粘附能力降低的比例错误",
+    "original_question": "Stx2e基因缺失如何影响大肠杆菌1522株对猪肠上皮细胞的粘附能力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "主要查螺方法包括在丁山村和同兴村水牛主要放牧地杨家畈、猪屎湖两块草洲，采用随机抽样法进行查螺，对所捕的螺进行压螺检查。",
+    "reference_case": "主要查螺方法包括在丁山村和同兴村水牛主要放牧地杨家畈、猪屎湖两块草洲，采用系统抽样法进行查螺，对所捕的螺进行压螺检查。",
+    "error_detail": "查螺方法错误",
+    "original_question": "江西省家畜血吸虫病疫情在2008年至2012年间的主要查螺方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "草鱼皮胶原蛋白的热变性温度高于猪皮胶原蛋白，推测其脯氨酸和羟脯氨酸总含量较低是主要原因。",
+    "reference_case": "草鱼皮胶原蛋白的热变性温度低于猪皮胶原蛋白，推测其脯氨酸和羟脯氨酸总含量较低是主要原因。",
+    "error_detail": "热变性温度的比较错误",
+    "original_question": "草鱼皮胶原蛋白的热变性温度与猪皮胶原蛋白相比有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟病毒的NP419L基因编码ATP依赖的RNA连接酶。",
+    "reference_case": "非洲猪瘟病毒的NP419L基因编码ATP依赖的DNA连接酶。",
+    "error_detail": "酶的类型错误",
+    "original_question": "非洲猪瘟病毒（ASFV）的NP419L基因编码的蛋白质是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在构建非洲猪瘟病毒NP419L基因的shRNA表达质粒时，使用了真核表达载体pEGFP-C1。",
+    "reference_case": "在构建非洲猪瘟病毒NP419L基因的shRNA表达质粒时，使用了真核表达载体pEGFP-N1。",
+    "error_detail": "表达载体错误",
+    "original_question": "在构建非洲猪瘟病毒NP419L基因的shRNA表达质粒时，使用了哪种真核表达载体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪源1型呼肠孤病毒SHR-A株是通过在细胞培养液中添加抗生素的方法，从仔猪腹泻粪样中分离、纯化并鉴定的。",
+    "reference_case": "猪源1型呼肠孤病毒SHR-A株是通过在细胞培养液中添加胰酶的方法，从仔猪腹泻粪样中分离、纯化并鉴定的。",
+    "error_detail": "分离方法错误",
+    "original_question": "猪源1型呼肠孤病毒SHR-A株是如何分离和鉴定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "该研究的目的是为了研究猪附红细胞体 DnaJ 基因的结构，并通过克隆和真核表达该基因，为猪附红细胞体病的生物学特性及核酸疫苗的研究奠定基础。",
+    "reference_case": "该研究的目的是为了研究猪附红细胞体 DnaJ 基因的功能，并通过克隆和真核表达该基因，为猪附红细胞体病的生物学特性及核酸疫苗的研究奠定基础。",
+    "error_detail": "研究目的描述错误",
+    "original_question": "猪附红细胞体 DnaJ 基因的克隆及真核表达研究的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在克隆过程中，使用了 DNAStar、DNAMAN 软件和 NCBI 网络服务器来筛选候选蛋白基因 DnaJ。",
+    "reference_case": "在克隆过程中，使用了 DNAStar、DNAMAN 软件和 ExPASy 网络服务器来筛选候选蛋白基因 DnaJ。",
+    "error_detail": "使用的网络服务器错误",
+    "original_question": "在猪附红细胞体 DnaJ 基因的克隆过程中，使用了哪些软件和工具来筛选候选蛋白基因？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪附红细胞体 DnaJ 基因的 PCR 扩增产物长度为 900 bp。",
+    "reference_case": "猪附红细胞体 DnaJ 基因的 PCR 扩增产物长度为 876 bp。",
+    "error_detail": "扩增产物长度错误",
+    "original_question": "猪附红细胞体 DnaJ 基因的 PCR 扩增产物长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪附红细胞体 DnaJ 基因编码 300 个氨基酸。",
+    "reference_case": "猪附红细胞体 DnaJ 基因编码 292 个氨基酸。",
+    "error_detail": "编码的氨基酸数量错误",
+    "original_question": "猪附红细胞体 DnaJ 基因编码的氨基酸数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在真核表达研究中，使用了 HeLa 细胞进行转染。",
+    "reference_case": "在真核表达研究中，使用了 Vero 细胞进行转染。",
+    "error_detail": "使用的细胞类型错误",
+    "original_question": "在猪附红细胞体 DnaJ 基因的真核表达研究中，使用了哪种细胞进行转染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪附红细胞体 DnaJ 基因在 Vero 细胞中的表达是通过 Western blot 和间接荧光抗体测试（IFAT）检测的。",
+    "reference_case": "猪附红细胞体 DnaJ 基因在 Vero 细胞中的表达是通过 RT-PCR 和间接荧光抗体测试（IFAT）检测的。",
+    "error_detail": "检测方法错误",
+    "original_question": "猪附红细胞体 DnaJ 基因在 Vero 细胞中的表达是通过哪些方法检测的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪附红细胞体 DnaJ 基因与 GenBank 中的 DnaJ 基因同源性为 95%。",
+    "reference_case": "猪附红细胞体 DnaJ 基因与 GenBank 中的 DnaJ 基因同源性为 99%。",
+    "error_detail": "同源性比例错误",
+    "original_question": "猪附红细胞体 DnaJ 基因与 GenBank 中的 DnaJ 基因同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在克隆过程中，使用了真核表达载体 pCDNA3.1 进行亚克隆。",
+    "reference_case": "在克隆过程中，使用了真核表达载体 pVAX1 进行亚克隆。",
+    "error_detail": "使用的载体错误",
+    "original_question": "在猪附红细胞体 DnaJ 基因的克隆过程中，使用了哪种载体进行亚克隆？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "PCR 扩增反应条件为：95°C 预变性 3 分钟；94°C 变性 30 秒，56°C 退火 30 秒，72°C 延伸 45 秒，进行 35 个循环；72°C 再延伸 5 分钟。",
+    "reference_case": "PCR 扩增反应条件为：95°C 预变性 5 分钟；94°C 变性 50 秒，56°C 退火 45 秒，72°C 延伸 1 分钟，进行 30 个循环；72°C 再延伸 10 分钟。",
+    "error_detail": "PCR反应条件错误",
+    "original_question": "猪附红细胞体 DnaJ 基因的 PCR 扩增反应条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪附红细胞体 DnaJ 基因的序列分析使用了 BLAST 和 DNAStar 软件。",
+    "reference_case": "猪附红细胞体 DnaJ 基因的序列分析使用了 DNAMAN 和 DNAStar 软件。",
+    "error_detail": "使用的软件错误",
+    "original_question": "猪附红细胞体 DnaJ 基因的序列分析使用了哪些分子生物学软件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "抗菌肽 RSRP 对大肠杆菌和金黄色葡萄球菌的抑制作用最为明显，特别是对猪致病性大肠杆菌临床分离耐药株 90-2 的作用最明显。",
+    "reference_case": "抗菌肽 RSRP 对大肠杆菌和金黄色葡萄球菌的抑制作用最为明显，特别是对猪致病性大肠杆菌临床分离耐药株 90-1 的作用最明显。",
+    "error_detail": "耐药株编号错误",
+    "original_question": "抗菌肽 RSRP 对哪些细菌的抑制作用最为明显？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在重庆地区猪弓形虫病的血清学调查中，共采集了3000份猪血清样本。",
+    "reference_case": "在重庆地区猪弓形虫病的血清学调查中，共采集了3510份猪血清样本。",
+    "error_detail": "采集的样本数量错误",
+    "original_question": "重庆地区猪弓形虫病的血清学调查中，采集了多少份猪血清样本？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在重庆地区猪弓形虫病的血清学调查中，散养户的猪血清样本的弓形虫抗体阳性率最高，为80:46%。",
+    "reference_case": "在重庆地区猪弓形虫病的血清学调查中，散养户的猪血清样本的弓形虫抗体阳性率最高，为75:46%。",
+    "error_detail": "阳性率错误",
+    "original_question": "在重庆地区猪弓形虫病的血清学调查中，哪种来源的猪血清样本的弓形虫抗体阳性率最高？",
+    "original_input": ""
+  }
+]

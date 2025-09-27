@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲料的体积要适中，特别注意单位重量的体积，控制猪饲粮中的粗饲料和粗纤维的量，确保仔猪饲粮粗纤维含量不超过10%，生长肥育猪不超过15%，妊娠猪、哺乳猪、种公猪和后备猪不超过20%。",
+    "reference_case": "饲料的体积要适中，特别注意单位重量的体积，控制猪饲粮中的粗饲料和粗纤维的量，确保仔猪饲粮粗纤维含量不超过5%，生长肥育猪不超过8%，妊娠猪、哺乳猪、种公猪和后备猪不超过10%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "饲料的体积对猪的消化有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "饲料适口性差将会影响猪的消化速度，特别是对于仔猪而言，将使消化时间和消化量下降，影响其断奶时间和仔猪成活率。",
+    "reference_case": "饲料适口性差将会影响猪的采食量，特别是对于仔猪而言，将使开食时间和采食量下降，影响其断奶时间和仔猪成活率。",
+    "error_detail": "术语错误，将'采食量'混淆为'消化速度'",
+    "original_question": "适口性差的饲料会对猪的采食产生什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "根据原料品种要求及原料性状，可以安排相同的设备排列组合形式，构成相同的生产工艺流程。",
+    "reference_case": "根据原料品种要求及原料性状，可以安排不同的设备排列组合形式，构成不同的生产工艺流程。",
+    "error_detail": "指令偏离，将'不同的'改为'相同的'",
+    "original_question": "如何加工猪配合饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪饲料加工的基本流程是先加入副料，然后加入一半主料时人工加入预混料，按规定时间搅拌混合，再加入另一半主料后搅拌混合装袋贮存。",
+    "reference_case": "猪饲料加工的基本流程是先加入主料，然后加入一半副料时人工加入预混料，按规定时间搅拌混合，再加入另一半副料后搅拌混合装袋贮存。",
+    "error_detail": "逻辑矛盾，主料和副料的加入顺序颠倒",
+    "original_question": "猪饲料加工的基本流程是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪用预混料可分为维生素预混料、微量元素预混料和矿物质预混料等。",
+    "reference_case": "猪用预混料可分为维生素预混料、微量元素预混料和复合预混料等。",
+    "error_detail": "术语错误，将'复合预混料'混淆为'矿物质预混料'",
+    "original_question": "猪用预混料可分为哪几种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生素A的添加量分别为仔猪500万国际单位/千克，生长猪250万国际单位/千克，种猪500万国际单位/千克。",
+    "reference_case": "维生素A的添加量分别为仔猪300万国际单位/千克，生长猪150万国际单位/千克，种猪300万国际单位/千克。",
+    "error_detail": "数值比例偏差",
+    "original_question": "美国国际养公司推荐的猪用复合预混料中，维生素A的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪的复合预混料中维生素E的添加量为2000国际单位/千克。",
+    "reference_case": "生长猪的复合预混料中维生素E的添加量为1000国际单位/千克。",
+    "error_detail": "数值比例偏差",
+    "original_question": "生长猪的复合预混料中维生素E的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种猪的复合预混料中维生素K的添加量为2500毫克/千克。",
+    "reference_case": "种猪的复合预混料中维生素K的添加量为1250毫克/千克。",
+    "error_detail": "数值比例偏差",
+    "original_question": "种猪的复合预混料中维生素K的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪的复合预混料中维生素B1的添加量为800毫克/千克。",
+    "reference_case": "仔猪的复合预混料中维生素B1的添加量为400毫克/千克。",
+    "error_detail": "数值比例偏差",
+    "original_question": "仔猪的复合预混料中维生素B1的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种母猪妊娠期饲料配方中玉米的添加比例分别为1饲料配方50%，2饲料配方54.1%，3饲料配方46.7%，4饲料配方40.8%，5饲料配方68.5%，6饲料配方49.3%，7饲料配方48.97%。",
+    "reference_case": "种母猪妊娠期饲料配方中玉米的添加比例分别为1饲料配方40%，2饲料配方44.1%，3饲料配方36.7%，4饲料配方30.8%，5饲料配方58.5%，6饲料配方39.3%，7饲料配方38.97%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "种母猪妊娠期饲料配方中玉米的添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪饲料中玉米的含量在不同配方中分别为72.25%, 71.75%, 81.75%, 58%, 71%, 和69.6%。",
+    "reference_case": "哺乳母猪饲料中玉米的含量在不同配方中分别为62.25%, 61.75%, 71.75%, 48%, 61%, 和59.6%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "哺乳母猪饲料中玉米的含量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪饲料中次粉在22%的配方中使用，含量为30%。",
+    "reference_case": "哺乳母猪饲料中次粉仅在12%的配方中使用，含量为20%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "哺乳母猪饲料中次粉在哪些配方中使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪饲料中豆粕（饼）在24%, 25%, 26%的配方中使用，含量分别为20%, 19%, 16%。",
+    "reference_case": "哺乳母猪饲料中豆粕（饼）在14%, 15%, 16%的配方中使用，含量分别为10%, 9%, 6%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "哺乳母猪饲料中豆粕（饼）的使用情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪饲料中菜籽饼在26%的配方中使用，含量为8%。",
+    "reference_case": "哺乳母猪饲料中菜籽饼仅在16%的配方中使用，含量为4%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "哺乳母猪饲料中菜籽饼的使用情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪饲料中葵籽仁在24%, 25%, 26%的配方中使用，含量分别为19.5%, 12%, 10%。",
+    "reference_case": "哺乳母猪饲料中葵籽仁仅在14%, 15%, 16%的配方中使用，含量分别为9.5%, 2%, 0%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "哺乳母猪饲料中葵籽仁的使用情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪饲料中苜蓿粉在23%的配方中使用，含量为20%。",
+    "reference_case": "哺乳母猪饲料中苜蓿粉仅在13%的配方中使用，含量为10%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "哺乳母猪饲料中苜蓿粉的使用情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪饲料中鱼粉在25%, 26%的配方中使用，含量分别为8%, 7.5%。",
+    "reference_case": "哺乳母猪饲料中鱼粉在15%, 16%的配方中使用，含量分别为4%, 3.5%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "哺乳母猪饲料中鱼粉的使用情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪饲料中骨粉在24%, 25%, 26%的配方中使用，含量分别为4%, 2.6%, 2.6%。",
+    "reference_case": "哺乳母猪饲料中骨粉在14%, 15%, 16%的配方中使用，含量分别为2%, 0.6%, 0.6%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "哺乳母猪饲料中骨粉的使用情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪饲料中石粉在21%, 22%, 23%的配方中使用，含量分别为3.5%, 3.5%, 2.75%。",
+    "reference_case": "哺乳母猪饲料中石粉在11%, 12%, 13%的配方中使用，含量分别为1.5%, 1.5%, 0.75%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "哺乳母猪饲料中石粉的使用情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪饲料中磷酸二钙在21%, 22%, 23%的配方中使用，含量分别为3.25%, 3%, 3.75%。",
+    "reference_case": "哺乳母猪饲料中磷酸二钙在11%, 12%, 13%的配方中使用，含量分别为1.25%, 1%, 1.75%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "哺乳母猪饲料中磷酸二钙的使用情况如何？",
+    "original_input": ""
+  }
+]

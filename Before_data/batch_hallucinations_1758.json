@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪妊娠期平均体重增加为60kg，体重增加比例为40%。",
+    "reference_case": "母猪妊娠期平均体重增加为52.7kg，体重增加比例为36%。",
+    "error_detail": "数值偏差",
+    "original_question": "母猪妊娠期体重增加的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "母猪在妊娠前期代谢减弱，对饲料的利用率低，蛋白质的合成能力也减弱。",
+    "reference_case": "母猪在妊娠前期代谢增强，对饲料的利用率高，蛋白质的合成能力也增强。特别是在妊娠后，体内某些激素增加，促使了对饲料营养物质的同化作用，使合成代谢加强。",
+    "error_detail": "术语错误",
+    "original_question": "母猪妊娠期间的生理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "母猪妊娠初期食欲渐减、背毛粗糙无光、增膘不明显、性情暴躁、行动鲁莽、少睡。",
+    "reference_case": "母猪妊娠初期食欲渐增、背毛顺滑光亮、增膘明显、性情温顺、行动谨慎稳重、贪睡。随着妊娠期的增加，腹围逐渐变大，特别是到后期腹围\"极度\"增大，可观察到胎动。随着妊娠期的增加，乳房逐渐增大，临产前会膨大下垂，向两侧开张。",
+    "error_detail": "过时标准",
+    "original_question": "母猪妊娠期间的行为表现有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的胚胎期前1/2时期，即肧胎前60天，主要是组织器官的形成和发育，生长速度很慢。",
+    "reference_case": "猪的胚胎期前1/3时期，即肧胎前40天，主要是组织器官的形成和发育，生长速度很慢。妊娠41~80天，胚胎生长速度加快，80天时胚胎重量可达400天左右，此后生长速度达到高峰。初生重的60%~70%在此期间生长完成。加强妊娠前、后两期的饲养管理是保证胚胎正常生长发育的关键。",
+    "error_detail": "数值偏差",
+    "original_question": "猪的胚胎生长发育规律是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "遗传因素，特别是基因突变，会与胚胎死亡有密切关系。",
+    "reference_case": "遗传因素，特别是染色体畸变，会与胚胎死亡有密切关系。如发现染色体畸形的公猪和母猪应在生产实践中被淘汰。",
+    "error_detail": "术语错误",
+    "original_question": "遗传因素如何影响胚胎的生长发育？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "过度近交会使一些致死隐形基因获得纯合表现，增加胚胎死亡率。表4-2显示，随着近交系数的增加，甘肃黑猪的死胎率逐渐降低。",
+    "reference_case": "过度近交会使一些致死隐形基因获得纯合表现，增加胚胎死亡率。表4-2显示，随着近交系数的增加，甘肃黑猪的死胎率逐渐升高。",
+    "error_detail": "数值偏差",
+    "original_question": "近亲繁殖如何影响胚胎成活率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "营养缺乏，特别是维生素C、D及矿物质，会增加死胎率。",
+    "reference_case": "营养缺乏，特别是维生素A、E及矿物质，会增加死胎率。能量水平过高会导致胚胎成活率降低，因为猪体过肥会影响子宫血液循环。",
+    "error_detail": "术语错误",
+    "original_question": "营养因素如何影响胚胎成活率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "高温环境下，母猪体内促肾上腺皮质素和肾上腺皮质素分泌减少，影响脑垂体前叶促性腺激素的分泌，导致母猪卵巢功能紊乱。",
+    "reference_case": "高温环境下，母猪体内促肾上腺皮质素和肾上腺皮质素分泌增加，影响脑垂体前叶促性腺激素的分泌，导致母猪卵巢功能紊乱。高温还会使子宫内环境改变，影响胚胎成活率。",
+    "error_detail": "因果错误",
+    "original_question": "高温环境如何影响胚胎成活率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "分娩时母猪子宫内缺氧可能引起胎儿兴奋，导致活胎。",
+    "reference_case": "分娩时母猪子宫内缺氧可能引起胎儿窒息，导致死胎。胎盘收缩或胎儿移行距离过长可能导致脐带过早断裂，进而使胎儿死亡。",
+    "error_detail": "术语错误",
+    "original_question": "分娩时缺氧如何影响胚胎成活率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在所有地区，仔猪可能发生缺硒性下痢、肝坏死和白肌病，宜于生后3日内注射0.1%的亚硒酸钠维生素E合剂，每头0.5 mL。",
+    "reference_case": "在严重缺硒地区，仔猪可能发生缺硒性下痢、肝坏死和白肌病，宜于生后3日内注射0.1%的亚硒酸钠维生素E合剂，每头0.5 mL。",
+    "error_detail": "地域差异",
+    "original_question": "哪些地区需要给初生仔猪补硒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育舍内刚转入的仔猪前3天每头可饮水2kg。",
+    "reference_case": "保育舍内刚转入的仔猪前3天每头可饮水1kg。",
+    "error_detail": "数值偏差",
+    "original_question": "保育舍内仔猪前3天的饮水量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "两个饮水器安装高度相差15~20cm为宜。",
+    "reference_case": "两个饮水器安装高度相差5~10cm为宜，以利于仔猪随时饮水和减少水的浪费。",
+    "error_detail": "数值偏差",
+    "original_question": "保育舍内仔猪饮水器的安装高度有何要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饮水不足会导致保育猪的采食量降低，直接影响到饲粮的营养价值，生长速度可降低30%。",
+    "reference_case": "饮水不足会导致保育猪的采食量降低，直接影响到饲粮的营养价值，生长速度可降低20%。",
+    "error_detail": "数值偏差",
+    "original_question": "饮水不足对保育猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育猪最适宜的环境温度为：21-30日龄30℃~32℃, 31-40日龄29℃~30℃, 41-60日龄28℃, 以后温度为26℃~28℃。",
+    "reference_case": "保育猪最适宜的环境温度为：21-30日龄28℃~30℃, 31-40日龄27℃~28℃, 41-60日龄26℃, 以后温度为24℃~26℃。",
+    "error_detail": "数值偏差",
+    "original_question": "保育舍内最适宜的环境温度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "高温季节保证猪的充足饮水不重要，可以缓解仔猪断乳后的各种应激因素。",
+    "reference_case": "高温季节保证猪的充足饮水尤为重要，可以缓解仔猪断乳后的各种应激因素。",
+    "error_detail": "需求冲突",
+    "original_question": "高温季节保证猪的充足饮水有何重要性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "在一定圈舍面积条件下，密度越高，群体越大，越容易引起拥挤和饲料利用率提高。",
+    "reference_case": "在一定圈舍面积条件下，密度越高，群体越大，越容易引起拥挤和饲料利用率降低。但若饲养密度和群体过小，会造成小环境温度偏低，影响仔猪生长。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "保育舍内密度控制有何注意事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "氨气、硫化氢等污浊气体含量过高会使猪的消化系统疾病发生率提高。",
+    "reference_case": "氨气、硫化氢等污浊气体含量过高会使猪的呼吸道疾病发生率提高。",
+    "error_detail": "术语错误",
+    "original_question": "保育舍内的氨气、硫化氢等污浊气体含量过高有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "疾病预防控制的关键是要做好日常的环境卫生管理、消毒管理、猪群保健、疫苗免疫和及时准确的疫病诊断，但这些都不重要。",
+    "reference_case": "疾病预防控制的关键是要做好日常的环境卫生管理、消毒管理、猪群保健、疫苗免疫和及时准确的疫病诊断。",
+    "error_detail": "需求冲突",
+    "original_question": "如何进行疾病预防控制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "及时清理仔猪的粪便，保持保育栏的干燥清洁。禁止用水直接冲洗保育栏，保持整个环境的干燥和卫生，因为水会带来疾病。",
+    "reference_case": "及时清理仔猪的粪便，保持保育栏的干燥清洁。禁止用水直接冲洗保育栏，保持整个环境的干燥和卫生。",
+    "error_detail": "添加假设",
+    "original_question": "如何进行环保卫生管理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪舍定期消毒是切断传染病传播途径的有效措施，消毒时间要固定，一般一周消毒1次，发现疫情时每天2次，要严格执行消毒制度。",
+    "reference_case": "猪舍定期消毒是切断传染病传播途径的有效措施，消毒时间要固定，一般一周消毒2次，发现疫情时每天1次，要严格执行消毒制度。",
+    "error_detail": "数值偏差",
+    "original_question": "如何进行消毒管理？",
+    "original_input": ""
+  }
+]

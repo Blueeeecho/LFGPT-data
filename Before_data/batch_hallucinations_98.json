@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "子粒苋在猪的饲养中可节约粮食饲料50%～60%，提高增重速度15%～20%，并可提高氮利用率。",
+    "reference_case": "子粒苋在猪的饲养中可节约粮食饲料30%～45%，提高增重速度5%～10%，并可提高氮利用率。",
+    "error_detail": "夸大了子粒苋在节约粮食饲料和提高增重速度方面的效果",
+    "original_question": "子粒苋在猪的饲养中有哪些优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验组母猪的配种受胎率为95%，对照组为85%。",
+    "reference_case": "试验组母猪的配种受胎率为90%，对照组为80%。",
+    "error_detail": "提高了试验组和对照组的配种受胎率",
+    "original_question": "试验组母猪的配种受胎率是多少？对照组是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验组母猪每头的耗草量为2500 kg。",
+    "reference_case": "试验组母猪每头的耗草量为2162 kg。",
+    "error_detail": "增加了试验组母猪的耗草量",
+    "original_question": "试验组母猪每头的耗草量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验组母猪每头的耗精料量为3500 kg，对照组为4500 kg。",
+    "reference_case": "试验组母猪每头的耗精料量为3244 kg，对照组为4044 kg。",
+    "error_detail": "增加了试验组和对照组的耗精料量",
+    "original_question": "试验组母猪每头的耗精料量是多少？对照组是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "研究的主要目的是探讨生猪养殖户的饲料选择偏好。",
+    "reference_case": "研究的主要目的是探讨影响生猪养殖户饲料品牌忠诚度的因素，以帮助企业更好地保持养殖户的品牌忠诚度，从而在饲料工业集中化发展中占据优势。",
+    "error_detail": "偏离了原始指令，改变了研究的主要目的",
+    "original_question": "研究的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "文中提到品牌声誉对生猪养殖户的饲料品牌忠诚度有显著影响。",
+    "reference_case": "文中提到品牌声誉对生猪养殖户的饲料品牌忠诚度没有显著影响，养殖户对饲料品牌的声誉问题并不十分关注。",
+    "error_detail": "误解了上下文，错误地认为品牌声誉有显著影响",
+    "original_question": "文中提到品牌声誉对品牌忠诚度的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "80%",
+    "reference_case": "75%",
+    "error_detail": "提高了知名品牌的选择比例",
+    "original_question": "生猪养殖户在初次选择饲料品牌时，知名品牌的选择比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "感知质量、感知价值、社会关系和品牌声誉四个因子变量对生猪养殖户饲料品牌忠诚度有显著的正向影响。",
+    "reference_case": "感知质量、感知价值、社会关系三个因子变量对生猪养殖户饲料品牌忠诚度有显著的正向影响。",
+    "error_detail": "添加了未经证实的假设，即品牌声誉也有显著影响",
+    "original_question": "哪些变量在回归分析中被发现对生猪养殖户的饲料品牌忠诚度有显著的正向影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "可能是因为该变量的问题设置有问题，或者该变量对于生猪养殖户饲料品牌忠诚度有显著的影响。",
+    "reference_case": "可能是因为该变量的问题设置有问题，或者该变量对于生猪养殖户饲料品牌忠诚度的确没有显著的影响。",
+    "error_detail": "逻辑矛盾，既说可能有问题又说可能有显著影响",
+    "original_question": "在品牌声誉因子的回归分析中，为什么“会使用知名饲料品牌”这一变量没有通过显著性检验？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "因为生猪养殖户在选择饲料品牌时更关注品牌效应，而不是质量和价格，因此品牌忠诚度并不高。",
+    "reference_case": "因为生猪养殖户在选择饲料品牌时更关注质量和价格，而不是品牌效应，因此品牌忠诚度并不高。",
+    "error_detail": "错误地添加了关注品牌效应的假设",
+    "original_question": "为什么生猪养殖户对饲料品牌的忠诚度并不高？",
+    "original_input": ""
+  }
+]

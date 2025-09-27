@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小母猪日粮中DDGS的用量可以达到30%。",
+    "reference_case": "小母猪日粮中DDGS的用量可以达到20%。",
+    "error_detail": "数值偏差，将推荐用量从20%错误增加到30%。",
+    "original_question": "小母猪日粮中DDGS的推荐用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪妊娠日粮中DDGS用量不超过30%。",
+    "reference_case": "母猪妊娠日粮中DDGS用量不超过20%。",
+    "error_detail": "数值偏差，将推荐用量从20%错误增加到30%。",
+    "original_question": "母猪妊娠日粮中DDGS的推荐用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪泌乳日粮中DDGS用量不超过20%。",
+    "reference_case": "母猪泌乳日粮中DDGS用量不超过10%。",
+    "error_detail": "数值偏差，将推荐用量从10%错误增加到20%。",
+    "original_question": "母猪泌乳日粮中DDGS的推荐用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "玉米蒸馏副产品可以显著提高猪的生长速度、改善胴体特性和减少粪便体积。",
+    "reference_case": "玉米蒸馏副产品可以影响猪的生长、胴体特性和粪便体积。",
+    "error_detail": "添加了未经验证的假设，即显著提高生长速度和减少粪便体积。",
+    "original_question": "玉米蒸馏副产品对猪生长、胴体特性和粪便体积有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "玉米蒸馏副产品可以显著提高猪的采食偏好。",
+    "reference_case": "玉米蒸馏副产品可以影响猪的采食偏好。",
+    "error_detail": "添加了未经验证的假设，即显著提高采食偏好。",
+    "original_question": "玉米蒸馏副产品对猪的采食偏好有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "玉米蒸馏副产品在母猪乳汁日粮中可以显著提高母猪的表现。",
+    "reference_case": "玉米蒸馏副产品在母猪乳汁日粮中可以影响母猪的表现。",
+    "error_detail": "添加了未经验证的假设，即显著提高母猪表现。",
+    "original_question": "玉米蒸馏副产品在母猪乳汁日粮中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "玉米干燥蒸馏副产品可以显著改善猪和牛的粪便特性和减少臭气排放。",
+    "reference_case": "玉米干燥蒸馏副产品可以影响猪和牛的粪便特性和臭气排放。",
+    "error_detail": "添加了未经验证的假设，即显著改善粪便特性和减少臭气排放。",
+    "original_question": "玉米干燥蒸馏副产品对猪和牛的消化和排放有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "不同类型的玉米蒸馏副产品可以显著提高猪的生长性能和胴体产量。",
+    "reference_case": "不同类型的玉米蒸馏副产品可以影响猪的生长性能和胴体产量。",
+    "error_detail": "添加了未经验证的假设，即显著提高生长性能和胴体产量。",
+    "original_question": "不同类型的玉米蒸馏副产品对猪的生长性能和胴体产量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "血浆蛋白粉可以增加血液中的免疫细胞亚群比例，使机体系统免疫处于较高的活化状态。",
+    "reference_case": "血浆蛋白粉可以降低血液中的免疫细胞亚群比例，使机体系统免疫处于较低的活化状态。",
+    "error_detail": "概念混淆，将降低免疫细胞亚群比例错误改为增加。",
+    "original_question": "饲喂血浆蛋白粉对断奶仔猪的免疫系统有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "血浆蛋白粉可以增加CRH受体mRNA和ACTH受体mRNA的水平，减少空肠刷状缘的钠葡萄糖共转运载体(SGLT1)的表达，降低肠道对葡萄糖的吸收量。",
+    "reference_case": "血浆蛋白粉可以降低CRH受体mRNA和ACTH受体mRNA的水平，增加空肠刷状缘的钠葡萄糖共转运载体(SGLT1)的表达，提高肠道对葡萄糖的吸收量。",
+    "error_detail": "概念混淆，将降低CRH和ACTH受体mRNA水平错误改为增加，将增加SGLT1表达错误改为减少。",
+    "original_question": "血浆蛋白粉对断奶仔猪的内分泌和养分吸收有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "喷雾干燥血浆可以作为断奶猪蛋白质的唯一来源，显著促进早期断奶猪的肠道生长和固有层细胞密度。",
+    "reference_case": "喷雾干燥血浆可以作为断奶猪蛋白质的来源，对早期断奶猪的肠道生长和固有层细胞密度有影响。",
+    "error_detail": "添加了未经验证的假设，即作为唯一来源和显著促进肠道生长。",
+    "original_question": "喷雾干燥血浆作为断奶猪蛋白质来源的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "研究表明，喷雾干燥血浆可以显著提高猪的生长性能，具体表现为大幅改善仔猪和断奶猪的生长状况和胴体特性。",
+    "reference_case": "研究表明，喷雾干燥血浆可以影响猪的生长性能，具体表现为改善或影响仔猪和断奶猪的生长状况和胴体特性。",
+    "error_detail": "添加了未经验证的假设，即大幅改善生长状况和胴体特性。",
+    "original_question": "喷雾干燥血浆对猪生长性能的影响有哪些研究？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "红细胞增量可以显著提高猪的生长性能和胴体特性，具体表现为对猪的生长表现和胴体品质有非常积极的影响。",
+    "reference_case": "红细胞增量可以影响猪的生长性能和胴体特性，具体表现为对猪的生长表现和胴体品质有积极影响。",
+    "error_detail": "添加了未经验证的假设，即显著提高和非常积极的影响。",
+    "original_question": "红细胞增量对猪生长性能和胴体特性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "喷雾干燥血浆可以显著改善仔猪的红ox状态和细胞因子水平，具体表现为大幅改善仔猪的红ox状态和调节细胞因子水平。",
+    "reference_case": "喷雾干燥血浆可以影响仔猪的红ox状态和细胞因子水平，具体表现为改善仔猪的红ox状态和调节细胞因子水平。",
+    "error_detail": "添加了未经验证的假设，即显著改善和大幅改善。",
+    "original_question": "喷雾干燥血浆对仔猪的红ox状态和细胞因子有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "饲料中添加喷雾干燥血浆可以显著改善仔猪肠道的红ox状态。",
+    "reference_case": "饲料中添加喷雾干燥血浆可以改善仔猪肠道的红ox状态。",
+    "error_detail": "添加了未经验证的假设，即显著改善。",
+    "original_question": "饲料中添加喷雾干燥血浆对仔猪肠道红ox状态有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "喷雾干燥血浆和脂多糖暴露可以显著影响仔猪下丘脑-垂体-肾上腺轴的功能。",
+    "reference_case": "喷雾干燥血浆和脂多糖暴露可以影响仔猪下丘脑-垂体-肾上腺轴的功能。",
+    "error_detail": "添加了未经验证的假设，即显著影响。",
+    "original_question": "喷雾干燥血浆和脂多糖暴露对仔猪下丘脑-垂体-肾上腺轴的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "可以，王艳青等（2002）报道，经过适当处理的5%的羽毛粉可以取代4%的鱼粉，对70日龄仔猪生产性能作用效果接近。周圻等（1993）报道，水解羽毛粉替代生长育肥猪日粮中50%、75%、100%的秘鲁鱼粉时，猪的生长速度和饲料报酬不变。",
+    "reference_case": "可以，王艳青等（2002）报道，经过适当处理的3.5%的羽毛粉可以取代4%的鱼粉，对70日龄仔猪生产性能作用效果接近。周圻等（1993）报道，水解羽毛粉替代生长育肥猪日粮中50%、75%、100%的秘鲁鱼粉时，猪的生长速度和饲料报酬不变。",
+    "error_detail": "数值偏差，将羽毛粉的添加量从3.5%错误改为5%。",
+    "original_question": "羽毛粉是否可以替代鱼粉用于猪饲料中？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "综合国内外报道，一般认为在猪日粮中添加羽毛粉以5%~7%为宜。当日粮中羽毛粉添加量超过7%时可能影响采食量，使日增重降低（许梓荣和胡晓青，1991）。",
+    "reference_case": "综合国内外报道，一般认为在猪日粮中添加羽毛粉以3%~5%为宜。当日粮中羽毛粉添加量超过5%时可能影响采食量，使日增重降低（许梓荣和胡晓青，1991）。",
+    "error_detail": "数值偏差，将羽毛粉的推荐添加量从3%~5%错误改为5%~7%。",
+    "original_question": "羽毛粉在猪饲料中的添加量有何建议？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对于幼小动物如哺乳仔猪、肉仔鸡、蛋仔鸡等，添加量为5%~7%，而在后期添加2%~3%或不添加。在生长育肥猪、肉中大鸡、肉中大鸭等肉用畜禽配合饲料中添加鱼粉后的经济效益并不比无鱼粉日粮的经济效益明显增加。",
+    "reference_case": "对于幼小动物如哺乳仔猪、肉仔鸡、蛋仔鸡等，添加量为3%~5%，而在后期添加1%~2%或不添加。在生长育肥猪、肉中大鸡、肉中大鸭等肉用畜禽配合饲料中添加鱼粉后的经济效益并不比无鱼粉日粮的经济效益明显增加。",
+    "error_detail": "数值偏差，将鱼粉的添加量从3%~5%错误改为5%~7%，后期添加量从1%~2%错误改为2%~3%。",
+    "original_question": "鱼粉在畜禽配合饲料中的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在育肥猪日粮中加入7%~9%的鱼粉，可使单位增重的饲料消耗降低10%~20%。",
+    "reference_case": "在育肥猪日粮中加入5%~7%的鱼粉，可使单位增重的饲料消耗降低10%~20%。",
+    "error_detail": "数值偏差，将鱼粉的添加量从5%~7%错误改为7%~9%。",
+    "original_question": "鱼粉对生长育肥猪有何影响？",
+    "original_input": ""
+  }
+]

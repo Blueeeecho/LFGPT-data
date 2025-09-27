@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪消化脂肪的净能余值是95%。",
+    "reference_case": "猪消化脂肪的净能余值是88%。",
+    "error_detail": "数值偏差",
+    "original_question": "猪消化脂肪的净能余值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "这是因为猪的瘤胃内发酵过强，导致甜菜中的双糖损失较多。",
+    "reference_case": "这是因为牛的瘤胃内发酵过强，导致甜菜中的双糖损失较多。",
+    "error_detail": "因果错误",
+    "original_question": "为什么双糖含量较多的饲料如甜菜，猪的消化利用能力反而比牛更高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "初生仔猪肠道内尚无乳糖酶，蔗糖因此表现出泻剂的作用。",
+    "reference_case": "初生仔猪肠道内尚无蔗糖酶，蔗糖因此表现出泻剂的作用，会引起强烈的泻下现象、体重减轻、体况下降，甚至死亡。",
+    "error_detail": "术语错误",
+    "original_question": "初生仔猪为什么不能适应蔗糖？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "因为试验证明日粮中含粗脂肪 2-2.5% 时即可维持猪的健康。",
+    "reference_case": "因为试验证明日粮中含粗脂肪 1-1.5% 时即可维持猪的健康，这种含量在一般饲料中是不难得到的。",
+    "error_detail": "数值偏差",
+    "original_question": "为什么饲料中一般不缺乏脂肪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "生长速度越快的猪，每公斤增重消耗的饲料越多，饲料利用率越低。",
+    "reference_case": "生长速度越快的猪，每公斤增重消耗的饲料越少，饲料利用率越高。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "不同品种猪的饲料报酬有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "包括大麦单位、可消化蛋白质、食盐、钙、磷、维生素A。",
+    "reference_case": "包括大麦单位、可消化蛋白质、食盐、钙、磷、胡萝卜素。",
+    "error_detail": "术语错误",
+    "original_question": "哺乳母猪的饲养标准包括哪些营养成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "200公斤体重哺乳母猪哺育10头仔猪所需的大麦单位为7.05，可消化蛋白质为765-795克。",
+    "reference_case": "200公斤体重哺乳母猪哺育10头仔猪所需的大麦单位为6.05，可消化蛋白质为665-695克。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪的饲养标准中，200公斤体重哺乳母猪哺育10头仔猪所需的大麦单位和可消化蛋白质分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪的日粮类型确定为半青料型，其青料与精料的比例为1:2-3。",
+    "reference_case": "哺乳母猪的日粮类型确定为半青料型，其青料与精料的比例为1:3-4。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪的日粮类型确定为半青料型，其青料与精料的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "将猪分为基础母猪、检定母猪、种公猪、后备猪等不同类群，再根据生理阶段与体重细分，计算每类群的平均体重、日增重、哺育仔猪数等，综合为该类群的假想代表进行日粮配合。",
+    "reference_case": "将猪分为基础母猪（轻胎、重胎、哺乳等阶段）、检定母猪、种公猪、后备猪等不同类群，再根据生理阶段与体重细分，计算每类群的平均体重、日增重、哺育仔猪数等，综合为该类群的假想代表进行日粮配合，最后乘以该类群的实际头数，形成该类群所有猪的日粮总和。",
+    "error_detail": "需求冲突",
+    "original_question": "如何为不同类型的猪群配合日粮？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "质量性状表现为数量的差异，如猪的体重；而数量性状容易区分，有明显的质的差异，如猪的毛色。",
+    "reference_case": "质量性状容易区分，有明显的质的差异，如猪的毛色；而数量性状表现为数量的差异，如猪的体重，难以简单分类。",
+    "error_detail": "术语错误",
+    "original_question": "质量性状与数量性状有什么区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "营养水平高于某一限度时，良种猪的养分利用率不能充分发挥。",
+    "reference_case": "营养水平低于某一限度时，良种猪的养分利用率不能充分发挥，与非良种猪在对饲料的利用率上并无本质区别，说明养分在体内的分配受环境条件的制约。",
+    "error_detail": "因果错误",
+    "original_question": "营养水平如何影响猪的生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "牛放线菌主要引发牛放线菌病，多侵害牛的上、下颌骨和赖肌，形成局部肉芽增生和坏死样脓肿；猪也可感染，病变多局限于乳房；马、犬及人也能发病。",
+    "reference_case": "牛放线菌主要引发牛放线菌病，多侵害牛的上、下颌骨和赖肌，形成局部肉芽增生和坏死样脓肿；猪也可感染，病变多局限于乳房；马、犬及人也能发病。",
+    "error_detail": "术语错误",
+    "original_question": "牛放线菌主要引发哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痢疾蛇形螺旋体长 8~12μm，宽约 0.6μm，多有 6~8 个螺旋。",
+    "reference_case": "猪痢疾蛇形螺旋体长 6~10μm，宽约 0.4μm，多有 4~6 个螺旋，两端尖锐，形如双雁翼状，能自由运动。最适生长温度为 37~42℃，在血琼脂上生长良好，能溶血。",
+    "error_detail": "数值偏差",
+    "original_question": "猪痢疾蛇形螺旋体的生物学特性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痢疾蛇形螺旋体在粪便中 5℃可存活 71 天，25℃存活 10 天。",
+    "reference_case": "猪痢疾蛇形螺旋体在粪便中 5℃可存活 61 天，25℃存活 7 天，在土壤中存活 18 天。对一般消毒剂、高温、氧、干燥等敏感，但耐低温，-80℃可存活 10 年以上。",
+    "error_detail": "数值偏差",
+    "original_question": "猪痢疾蛇形螺旋体的抵抗力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痢疾蛇形螺旋体可引起猪痢疾，该病发生于成年猪。",
+    "reference_case": "猪痢疾蛇形螺旋体可引起猪痢疾，该病发生于断奶小猪，临床表现为黏液性出血性下痢。",
+    "error_detail": "术语错误",
+    "original_question": "猪痢疾蛇形螺旋体主要引发哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "取新鲜稀粪、病变结肠或内容物制成压滴标本或涂片，明视野镜检。",
+    "reference_case": "取新鲜稀粪、病变结肠或内容物制成压滴标本或涂片，暗视野镜检，或用组织切片镜检，可查出螺旋体。也可用粪便或病变大肠壁进行荧光抗体检查。",
+    "error_detail": "需求冲突",
+    "original_question": "猪痢疾蛇形螺旋体的微生物学检验方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "鸡毒支原体和猪肺炎支原体的生物学特性比较显示，鸡毒支原体生长速度更快。",
+    "reference_case": "原文未提供鸡毒支原体和猪肺炎支原体的具体生物学特性比较，无法直接提取相关问题和答案。",
+    "error_detail": "需求冲突",
+    "original_question": "鸡毒支原体和猪肺炎支原体的生物学特性有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "双因素疫病的生存模式分为两类：一类是虫媒病毒，如非洲猪瘟病毒，通过硬蜱在猪之间循环感染；另一类是土壤源性病，如炭疽，病原能在环境中长期存活。",
+    "reference_case": "双因素疫病的生存模式分为两类：一类是虫媒病毒，如非洲猪瘟病毒，通过软蜱在猪之间循环感染，并在猪群中流行；另一类是土壤源性病，如炭疽，病原能在环境中长期存活，通过易感动物的食入传播，导致新的地方污染。",
+    "error_detail": "术语错误",
+    "original_question": "双因素疫病如何在动物群体中生存？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "疫苗组猪的日增重增加40.8%。",
+    "reference_case": "疫苗组猪的日增重增加36.8%。",
+    "error_detail": "数值偏差",
+    "original_question": "接种猪肺炎支原体疫苗后对猪日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的灭活伪狂犬病疫苗在加强免疫后的保护能力可以持续到免疫后10个月。",
+    "reference_case": "猪的灭活伪狂犬病疫苗在加强免疫后的保护能力可以持续到免疫后8个月。",
+    "error_detail": "数值偏差",
+    "original_question": "猪的灭活伪狂犬病疫苗在加强免疫后的保护能力可以持续多久？",
+    "original_input": ""
+  }
+]

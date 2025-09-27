@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪溶菌酶基因研究中，位于3'调控区的3个SNP位点（LYZ6、LYZ7和LYZ8）被用于与溶菌酶浓度的关联分析。",
+    "reference_case": "猪溶菌酶基因研究中，位于3'调控区的2个SNP位点（LYZ6和LYZ7）被用于与溶菌酶浓度的关联分析。",
+    "error_detail": "错误地增加了SNP位点的数量",
+    "original_question": "猪溶菌酶基因研究中，哪些SNP位点被用于与溶菌酶浓度的关联分析？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪溶菌酶基因研究中使用的实验材料是由杜洛克和三花脸猪构建的F2群体。",
+    "reference_case": "猪溶菌酶基因研究中使用的实验材料是由杜洛克和二花脸猪构建的F2群体。",
+    "error_detail": "错误地改变了猪的品种名称",
+    "original_question": "猪溶菌酶基因研究中使用的实验材料是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪溶菌酶基因研究中，统计分析使用的软件是SAS 8.0。",
+    "reference_case": "猪溶菌酶基因研究中，统计分析使用的软件是SAS 9.0。",
+    "error_detail": "使用了过时的软件版本",
+    "original_question": "猪溶菌酶基因研究中，统计分析使用的软件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪溶菌酶基因研究中，基因组DNA提取的方法是乙醇沉淀法。",
+    "reference_case": "猪溶菌酶基因研究中，基因组DNA提取的方法是酚一氯仿抽提法。",
+    "error_detail": "错误地改变了DNA提取的方法",
+    "original_question": "猪溶菌酶基因研究中，基因组DNA提取的方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪溶菌酶基因研究中，LYZ6和LYZ7位点的基因频率和基因型频率显示，纯合基因型GG在猪群中分布较多，而AA最少；等位基因频率G高于A。",
+    "reference_case": "猪溶菌酶基因研究中，LYZ6和LYZ7位点的基因频率和基因型频率显示，纯合基因型AA在猪群中分布较多，而GG最少；等位基因频率A高于G。适合性卡方检验表明，基因频率分布处于Hardy-Weinberg平衡状态。",
+    "error_detail": "错误地反转了基因型和等位基因的频率",
+    "original_question": "猪溶菌酶基因研究中，LYZ6和LYZ7位点的基因频率和基因型频率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪溶菌酶基因研究中发现了25个SNP位点。",
+    "reference_case": "猪溶菌酶基因研究中发现了19个SNP位点。",
+    "error_detail": "错误地增加了SNP位点的数量",
+    "original_question": "猪溶菌酶基因研究中发现了多少个SNP位点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪溶菌酶基因的研究背景是由于疾病给畜牧业带来巨大的经济损失，人们对疾病的防治一直很重视。随着对食品安全要求的提高，动物分子抗病育种成为健康养殖的新研究领域。溶菌酶作为一种广谱抗菌活性水解酶，具有杀菌、抗病毒、抗肿瘤细胞等多种作用，因此溶菌酶基因被作为重要的抗性基因进行研究。此外，研究还发现溶菌酶基因与猪的生长速度有直接关系。",
+    "reference_case": "猪溶菌酶基因的研究背景是由于疾病给畜牧业带来巨大的经济损失，人们对疾病的防治一直很重视。随着对食品安全要求的提高，动物分子抗病育种成为健康养殖的新研究领域。溶菌酶作为一种广谱抗菌活性水解酶，具有杀菌、抗病毒、抗肿瘤细胞等多种作用，因此溶菌酶基因被作为重要的抗性基因进行研究。",
+    "error_detail": "错误地添加了与生长速度相关的假设",
+    "original_question": "猪溶菌酶基因的研究背景是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪溶菌酶基因研究中，LYZ6和LYZ7位点与溶菌酶浓度有显著关联，且这两个SNP处于高度连锁不平衡状态。",
+    "reference_case": "猪溶菌酶基因研究中，LYZ6和LYZ7位点与溶菌酶浓度没有显著关联，且这两个SNP处于高度连锁不平衡状态。",
+    "error_detail": "错误地改变了关联分析的结果",
+    "original_question": "猪溶菌酶基因研究中，LYZ6和LYZ7位点与溶菌酶浓度的关联分析结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "奶牛卵母细胞体外成熟（IVM）培养液的组成包括TCM-199培养液、15%的胎牛血清（FBS）、5 mmol/L的乳酸钠、26 mmol/L的碳酸氢钠、1 IU/mL的猪卵泡刺激素（pFSH）、1 IU/mL的人绒毛膜促性腺激素（hCG）、1 μg/mL的17β-雌二醇、50 IU/mL的青霉素和50 μg/mL的链霉素。",
+    "reference_case": "奶牛卵母细胞体外成熟（IVM）培养液的组成包括TCM-199培养液、10%的胎牛血清（FBS）、5 mmol/L的乳酸钠、26 mmol/L的碳酸氢钠、1 IU/mL的猪卵泡刺激素（pFSH）、1 IU/mL的人绒毛膜促性腺激素（hCG）、1 μg/mL的17β-雌二醇、50 IU/mL的青霉素和50 μg/mL的链霉素。",
+    "error_detail": "错误地改变了胎牛血清的浓度",
+    "original_question": "奶牛卵母细胞体外成熟（IVM）培养液的组成是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补充支链氨基酸的低氮日粮显著降低了断奶仔猪的日增重，使其与对照组有显著差异。",
+    "reference_case": "补充支链氨基酸的低氮日粮显著提高了断奶仔猪的日增重，使其与对照组无显著差异。",
+    "error_detail": "错误地反转了日增重的变化方向",
+    "original_question": "低氮日粮补充支链氨基酸对断奶仔猪的日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低氮日粮补充支链氨基酸显著降低了断奶仔猪的生长性能，包括日增重和日采食量，使其与对照组（21%CP）有显著差异。",
+    "reference_case": "低氮日粮补充支链氨基酸显著提高了断奶仔猪的生长性能，包括日增重和日采食量，使其与对照组（21%CP）无显著差异。",
+    "error_detail": "错误地反转了生长性能的变化方向",
+    "original_question": "低氮日粮补充支链氨基酸对断奶仔猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补充支链氨基酸的低氮日粮显著提高了断奶仔猪空肠的抗氧化功能，总超氧化物歧化酶（SOD）显著升高。",
+    "reference_case": "补充支链氨基酸的低氮日粮并未显著影响断奶仔猪空肠的抗氧化功能，尽管总超氧化物歧化酶（SOD）有升高的趋势。",
+    "error_detail": "错误地改变了抗氧化功能的影响",
+    "original_question": "低氮日粮补充支链氨基酸对断奶仔猪的抗氧化功能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补充支链氨基酸的低氮日粮显著降低了断奶仔猪的日采食量，使其与对照组有显著差异。",
+    "reference_case": "补充支链氨基酸的低氮日粮显著提高了断奶仔猪的日采食量，使其与对照组无显著差异。",
+    "error_detail": "错误地反转了日采食量的变化方向",
+    "original_question": "低氮日粮补充支链氨基酸对断奶仔猪的日采食量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补充支链氨基酸的低氮日粮显著提高了断奶仔猪的血浆尿素氮水平，表明氮的利用效率降低。",
+    "reference_case": "补充支链氨基酸的低氮日粮显著降低了断奶仔猪的血浆尿素氮水平，表明氮的利用效率得到了提高。",
+    "error_detail": "错误地反转了血浆尿素氮水平的变化方向",
+    "original_question": "低氮日粮补充支链氨基酸对断奶仔猪的血浆尿素氮水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补充支链氨基酸的低氮日粮显著提高了断奶仔猪血液中苯丙氨酸的浓度，并影响了其生长性能。",
+    "reference_case": "补充支链氨基酸的低氮日粮显著降低了断奶仔猪血液中苯丙氨酸的浓度，但并未影响其生长性能。",
+    "error_detail": "错误地反转了苯丙氨酸浓度的变化方向并错误地添加了对生长性能的影响",
+    "original_question": "低氮日粮补充支链氨基酸对断奶仔猪的血液中苯丙氨酸浓度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补充支链氨基酸的低氮日粮显著提高了血浆尿素氮水平，表明氮的利用效率降低。",
+    "reference_case": "补充支链氨基酸的低氮日粮显著降低了血浆尿素氮水平，表明氮的利用效率得到了提高。",
+    "error_detail": "错误地反转了血浆尿素氮水平的变化方向",
+    "original_question": "在低氮日粮中补充支链氨基酸对断奶仔猪的氮利用效率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补充支链氨基酸的低氮日粮显著恶化了断奶仔猪的饲料增重比，使其与对照组有显著差异。",
+    "reference_case": "补充支链氨基酸的低氮日粮显著改善了断奶仔猪的饲料增重比，使其与对照组无显著差异。",
+    "error_detail": "错误地反转了饲料增重比的变化方向",
+    "original_question": "低氮日粮补充支链氨基酸对断奶仔猪的饲料增重比有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补充支链氨基酸的低氮日粮显著降低了断奶仔猪血浆中亮氨酸、异亮氨酸和缬氨酸的浓度，与对照组有差异或低于对照组。",
+    "reference_case": "补充支链氨基酸的低氮日粮显著提高了断奶仔猪血浆中亮氨酸、异亮氨酸和缬氨酸的浓度，与对照组无差异或高于对照组。",
+    "error_detail": "错误地反转了血浆游离必需氨基酸水平的变化方向",
+    "original_question": "低氮日粮补充支链氨基酸对断奶仔猪血浆游离必需氨基酸水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补充支链氨基酸的低氮日粮显著提高了断奶仔猪空肠的抗氧化指标，总超氧化物歧化酶（SOD）显著升高。",
+    "reference_case": "补充支链氨基酸的低氮日粮并未显著影响断奶仔猪空肠的抗氧化指标，尽管总超氧化物歧化酶（SOD）有升高的趋势。",
+    "error_detail": "错误地改变了抗氧化指标的影响",
+    "original_question": "低氮日粮补充支链氨基酸对断奶仔猪的空肠抗氧化指标有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "代谢有机酸提高了生长育肥猪的血清尿素氮含量，表明其能够降低非蛋白氮的利用率，进而减少体内蛋白质的沉积。",
+    "reference_case": "代谢有机酸降低了生长育肥猪的血清尿素氮含量，表明其能够提高非蛋白氮的利用率，进而促进体内蛋白质的沉积。",
+    "error_detail": "错误地反转了血清尿素氮含量的变化方向及其影响",
+    "original_question": "代谢有机酸对生长育肥猪的血清尿素氮含量有何影响？",
+    "original_input": ""
+  }
+]

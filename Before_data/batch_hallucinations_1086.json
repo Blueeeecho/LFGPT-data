@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪气喘病的病原体是猪流感病毒。",
+    "reference_case": "猪气喘病的病原体是猪肺炎支原体（霉形体）。",
+    "error_detail": "将猪气喘病的病原体错误地识别为猪流感病毒，而非正确的猪肺炎支原体。",
+    "original_question": "猪气喘病的病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪气喘病在所有年龄段的猪中易感性相同。",
+    "reference_case": "猪气喘病仅发生在猪，不同品种、年龄、性别均可感染，但哺乳仔猪和断奶仔猪的易感性最强，其次是妊娠后期母猪和哺乳母猪。",
+    "error_detail": "错误地认为所有年龄段的猪对猪气喘病的易感性相同，忽略了哺乳仔猪和断奶仔猪的更高易感性。",
+    "original_question": "猪气喘病的流行病学特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪气喘病的病理变化包括心脏肥大和肝脏病变。",
+    "reference_case": "猪气喘病的病理变化包括肺部水肿和气肿，肺叶出现融合性支气管炎变化。",
+    "error_detail": "错误地将心脏肥大和肝脏病变列为猪气喘病的病理变化，而非正确的肺部病变。",
+    "original_question": "猪气喘病的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪气喘病的诊断只能通过临床症状进行。",
+    "reference_case": "猪气喘病的诊断可以通过流行病学、临床症状和病理变化进行初步诊断，X线检查、血清学试验以及分子生物学方法也有重要价值。",
+    "error_detail": "错误地限制了猪气喘病的诊断方法，忽略了多种有效的诊断手段。",
+    "original_question": "如何诊断猪气喘病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "猪气喘病的综合防控措施不包括免疫接种。",
+    "reference_case": "猪气喘病的综合防控措施包括加强饲养管理、免疫接种、药物预防和发病后的处理。",
+    "error_detail": "错误地排除了免疫接种作为猪气喘病的综合防控措施之一。",
+    "original_question": "猪气喘病的综合防控措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪气喘病的免疫接种只有灭活苗一种选择。",
+    "reference_case": "猪气喘病的免疫接种可以选择猪肺炎支原体弱毒苗和灭活苗。",
+    "error_detail": "错误地认为猪气喘病的免疫接种只有灭活苗一种选择，忽略了弱毒苗的存在。",
+    "original_question": "猪气喘病的免疫接种有哪些选择？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪气喘病的药物预防常用药物包括青霉素和链霉素。",
+    "reference_case": "猪气喘病的药物预防常用药物包括泰乐菌素、林可霉素、泰妙菌素、环丙沙星和恩诺沙星等。",
+    "error_detail": "错误地将青霉素和链霉素列为猪气喘病的药物预防常用药物，而非正确的药物列表。",
+    "original_question": "猪气喘病的药物预防有哪些常用药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪气喘病发病后不需要对猪群进行检疫。",
+    "reference_case": "猪气喘病发病后应对猪群进行严格检疫，隔离治疗发病猪及感染猪。",
+    "error_detail": "错误地假设猪气喘病发病后不需要对猪群进行检疫，忽略了检疫的重要性。",
+    "original_question": "猪气喘病发病后应如何处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "预防和控制牛口蹄疫的方法不包括疫苗接种。",
+    "reference_case": "预防和控制牛口蹄疫的方法包括在常发区对猪、牛、羊等接种口蹄疫疫苗。",
+    "error_detail": "错误地认为预防和控制牛口蹄疫的方法不包括疫苗接种，忽略了疫苗接种的重要性。",
+    "original_question": "如何预防和控制牛口蹄疫的发生？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "牛黏膜病的传播途径不包括经胎盘感染。",
+    "reference_case": "牛黏膜病的传播途径包括易感动物食入被污染的饲料、饮水经消化道感染，吸入病畜咳嗽、呼吸带病毒的飞沫而感染，经胎盘感染。",
+    "error_detail": "错误地排除了经胎盘感染作为牛黏膜病的传播途径之一。",
+    "original_question": "牛黏膜病的传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "牛伪狂犬病的防控方法中，灭鼠比隔离病畜更重要。",
+    "reference_case": "牛伪狂犬病的防控方法包括猪、牛分养，加强灭鼠。一旦发病，立即封锁疫场，隔离或扑杀病畜。",
+    "error_detail": "错误地认为灭鼠比隔离病畜在牛伪狂犬病的防控中更重要，忽略了隔离病畜的优先级。",
+    "original_question": "牛伪狂犬病的防控方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PRRSV的NSP9蛋白在病毒复制中不扮演任何角色。",
+    "reference_case": "NSP9蛋白是PRRSV编码的RNA依赖的RNA聚合酶（RdRp），在病毒基因组的复制和转录过程中起着关键作用。",
+    "error_detail": "错误地认为PRRSV的NSP9蛋白在病毒复制中不扮演任何角色，忽略了其关键作用。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的NSP9蛋白在病毒复制中扮演什么角色？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪链球菌2型对氟喹诺酮类药物的耐药机制研究中，gyrB和parE基因的突变被重点关注。",
+    "reference_case": "研究中重点关注的基因是gyrA和parC，这两个基因分别编码DNA旋转酶和拓扑异构酶IV。",
+    "error_detail": "错误地将gyrB和parE基因列为猪链球菌2型对氟喹诺酮类药物耐药机制研究中的重点关注基因，而非正确的gyrA和parC。",
+    "original_question": "猪链球菌2型对氟喹诺酮类药物的耐药机制研究中，哪些基因的突变被重点关注？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "H3N2亚型犬流感病毒对小鼠和猪红细胞的凝集性最好。",
+    "reference_case": "H3N2亚型犬流感病毒对鸡和犬红细胞的凝集性最好，对小鼠、猪和牛红细胞的凝集性较差。",
+    "error_detail": "错误地认为H3N2亚型犬流感病毒对小鼠和猪红细胞的凝集性最好，而非正确的鸡和犬红细胞。",
+    "original_question": "H3N2亚型犬流感病毒对不同种类红细胞的凝集性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的N基因编码病毒的外膜蛋白。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的N基因编码核衣壳蛋白。",
+    "error_detail": "错误地将猪流行性腹泻病毒（PEDV）的N基因编码的蛋白识别为外膜蛋白，而非正确的核衣壳蛋白。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的N基因在病毒中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的N蛋白在病毒感染早期不诱导宿主产生抗体。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的N蛋白在病毒感染早期能够诱导宿主产生高水平的抗体。",
+    "error_detail": "错误地认为猪流行性腹泻病毒（PEDV）的N蛋白在病毒感染早期不诱导宿主产生抗体，忽略了其诱导抗体的能力。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的N蛋白在病毒感染早期的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在上海市猪博卡病毒感染的调查中，仅检测了猪血清样品。",
+    "reference_case": "在上海市猪博卡病毒感染的调查中，检测了猪血清、猪粪便、猪鼻棉拭和猪内脏等类型的样品。",
+    "error_detail": "错误地认为在上海市猪博卡病毒感染的调查中仅检测了猪血清样品，忽略了其他类型的样品。",
+    "original_question": "上海市猪博卡病毒感染的调查中，哪些类型的猪样品被检测？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在上海市猪博卡病毒感染的调查中，猪血清样品的阳性率为50%。",
+    "reference_case": "在上海市猪博卡病毒感染的调查中，猪血清样品的阳性率为24%。",
+    "error_detail": "错误地高估了上海市猪博卡病毒感染调查中猪血清样品的阳性率。",
+    "original_question": "在上海市猪博卡病毒感染的调查中，猪血清样品的阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪博卡病毒与猪圆环病毒2型（PCV2）的混合感染阳性率为50%。",
+    "reference_case": "猪博卡病毒与猪繁殖与呼吸综合征病毒（PRRSV）和猪圆环病毒2型（PCV2）存在混合感染，阳性率分别为83%和100%。",
+    "error_detail": "错误地低估了猪博卡病毒与猪圆环病毒2型（PCV2）的混合感染阳性率。",
+    "original_question": "猪博卡病毒与哪些其他病毒存在混合感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪博卡病毒的检测方法是ELISA检测方法。",
+    "reference_case": "猪博卡病毒的检测方法是实时荧光定量PCR检测方法。",
+    "error_detail": "错误地将猪博卡病毒的检测方法识别为ELISA检测方法，而非正确的实时荧光定量PCR检测方法。",
+    "original_question": "猪博卡病毒的检测方法是什么？",
+    "original_input": ""
+  }
+]

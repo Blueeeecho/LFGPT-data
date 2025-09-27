@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "豆荚野螟寄主包括豆科植物和非豆科植物，如玉米、小麦等。",
+    "reference_case": "豆荚野螟寄主仅限于豆科植物，如豆豆、扁豆、四季豆、菜豆、绿豆、大豆、小豆、刀豆、猪屎豆等。",
+    "error_detail": "错误地将非豆科植物列为豆荚野螟的寄主植物。",
+    "original_question": "豆荚野螟的寄主植物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "饲喂时要一次性大量增加，以快速适应。",
+    "reference_case": "饲喂时要逐渐增加，防止过食。",
+    "error_detail": "错误地建议一次性大量增加饲喂量，与防止过食的指令相冲突。",
+    "original_question": "猪、牛、羊饲喂青贮浆料时需要注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "液体鱼蛋白饲料用于内鸡，增重提高70%，饲料消耗降低60%。",
+    "reference_case": "液体鱼蛋白饲料用于内鸡，增重提高7%，饲料消耗降低16%，经济效益增加160%；用于蛋鸡，产蛋增加17.6%，饲料消耗降低14.3%，每羽增收0.68元；用于肉猪，增重提高7.1%，屠禦率提高2%；用于仔猪，可提前45天断奶；用于养鱼，亩产可达686公斤至729.5公斤；用于养虾，也取得良好效果。",
+    "error_detail": "夸大了液体鱼蛋白饲料对增重和饲料消耗的影响。",
+    "original_question": "液体鱼蛋白饲料在饲养中的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪、鸡对棉籽饼蛋白的消化率为50%左右。",
+    "reference_case": "猪、鸡对棉籽饼蛋白的消化率为80%左右。猪的棉籽饼消化能为11143千焦/公斤，赖氨酸利用率65%，蛋氨酸66%；鸡的代谢能为9485千焦/公斤。",
+    "error_detail": "低估了猪和鸡对棉籽饼蛋白的消化率。",
+    "original_question": "猪和鸡对棉籽饼蛋白的消化率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在断奶仔猪日粮中添加酸性蛋白酶能促进仔猪生长，比对照组高50%。",
+    "reference_case": "在断奶仔猪日粮中添加酸性蛋白酶能促进仔猪生长，比对照组高19.4%。酸性蛋白酶的适宜pH范围为2.5～4.0，这与仔猪胃内pH值相近，因此添加酸性蛋白酶有利于提高饲料中蛋白质的消化性。",
+    "error_detail": "夸大了酸性蛋白酶对仔猪生长的促进作用。",
+    "original_question": "在断奶仔猪日粮中添加酸性蛋白酶的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "混合酶制剂添加在生犊和仔猪饲料中能促进生长，一般可使生长率提高20%。",
+    "reference_case": "混合酶制剂添加在生犊和仔猪饲料中能促进生长，一般可使生长率提高7%，而饲料的摄取是不变的。",
+    "error_detail": "夸大了混合酶制剂对生长率的促进作用。",
+    "original_question": "混合酶制剂如何促进生犊和仔猪的生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "赖氨酸作为非必需氨基酸在饲料中添加能提高猪禽的增重。",
+    "reference_case": "赖氨酸作为必需氨基酸在饲料中添加能提高猪禽的增重，有可能利用蛋白质含量较低的日粮和廉价的饲料，并改善胴体品质，提高瘦肉量。",
+    "error_detail": "错误地将赖氨酸描述为非必需氨基酸。",
+    "original_question": "赖氨酸在畜禽饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "中国养猪业在国民经济中占有次要地位，对保障肉食品供应意义不大。",
+    "reference_case": "中国养猪业在国民经济中占有重要地位，对保障肉食品供应具有重要意义。",
+    "error_detail": "低估了中国养猪业在国民经济中的地位和重要性。",
+    "original_question": "中国养猪业在国民经济中的地位是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "中国养猪生产的主要成就是养殖规模缩小、品种退化、养殖技术退步和疫病防控能力减弱。",
+    "reference_case": "中国养猪生产的主要成就是养殖规模扩大、品种改良、养殖技术进步和疫病防控能力增强。",
+    "error_detail": "错误地描述了中国养猪生产的成就，与事实相反。",
+    "original_question": "中国养猪生产的主要成就有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "中国养猪业存在的主要问题包括养殖环境改善、资源消耗减少、环境污染减轻、疫病风险降低等。",
+    "reference_case": "中国养猪业存在的主要问题包括养殖环境恶化、资源消耗大、环境污染严重、疫病风险增加等。",
+    "error_detail": "错误地描述了中国养猪业的问题，与事实相反。",
+    "original_question": "中国养猪业存在的主要问题有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "中国养猪生产的发展趋势是小规模化、非标准化、传统化和污染化。",
+    "reference_case": "中国养猪生产的发展趋势是规模化、标准化、现代化和绿色化。",
+    "error_detail": "错误地描述了中国养猪生产的发展趋势，与指令相冲突。",
+    "original_question": "中国养猪生产的发展趋势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "国外存栏头数和产肉量较低，其中美国、巴西、中国等国家是次要的养猪国。",
+    "reference_case": "国外存栏头数和产肉量较高，其中美国、巴西、中国等国家是主要的养猪国。",
+    "error_detail": "错误地描述了国外存栏头数和产肉量的情况，与事实相反。",
+    "original_question": "国外存栏头数和产肉量的情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的主要繁殖特性是繁殖率低，世代间隔长。",
+    "reference_case": "猪的主要繁殖特性是繁殖率高，世代间隔短。",
+    "error_detail": "错误地描述了猪的繁殖特性，与事实相反。",
+    "original_question": "猪的主要繁殖特性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的食性窄，饲料转化率低，适应少量饲料。",
+    "reference_case": "猪的食性广，饲料转化率高，适应各种饲料。",
+    "error_detail": "错误地描述了猪的食性特点，与事实相反。",
+    "original_question": "猪的食性特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的生长期长，生长速度慢，积脂能力弱。",
+    "reference_case": "猪的生长期短，生长速度快，积脂能力强。",
+    "error_detail": "错误地描述了猪的生长期和生长特点，与事实相反。",
+    "original_question": "猪的生长期和生长特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的视觉发达，但听觉和嗅觉不灵敏。",
+    "reference_case": "猪的视觉不发达，但听觉和嗅觉灵敏。",
+    "error_detail": "错误地描述了猪的视觉发展情况，与事实相反。",
+    "original_question": "猪的视觉发展情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "猪的行为学特点不包括采食行为、排泄行为、群居行为等。",
+    "reference_case": "猪的行为学特点包括采食行为、排泄行为、群居行为、争斗行为、性行为、母性行为、活动与睡眠、后效行为等。",
+    "error_detail": "错误地描述了猪的行为学特点，遗漏了多项重要行为。",
+    "original_question": "猪的行为学特点包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "中国地方猪种的特点包括适应性弱、分布窄、繁殖率低、肉质差等。",
+    "reference_case": "中国地方猪种的特点包括适应性强、分布广、繁殖率高、肉质好等。",
+    "error_detail": "错误地描述了中国地方猪种的特点，与事实相反。",
+    "original_question": "中国地方猪种的特点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "国外引进的猪种不包括大白猪、长白猪、杜洛克猪等。",
+    "reference_case": "国外引进的猪种包括大白猪、长白猪、杜洛克猪、皮特兰猪和汉曾夏猪等。",
+    "error_detail": "错误地描述了国外引进的猪种，遗漏了主要品种。",
+    "original_question": "国外引进的猪种有哪些类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "中国培育猪种的优点包括适应性弱、繁殖性能差、抗病能力弱等。",
+    "reference_case": "中国培育猪种的优点包括适应性强、繁殖性能好、抗病能力强等。",
+    "error_detail": "错误地描述了中国培育猪种的优点，与事实相反。",
+    "original_question": "中国培育猪种的优点是什么？",
+    "original_input": ""
+  }
+]

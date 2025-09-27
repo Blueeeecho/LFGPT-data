@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在饲料中添加60kg猪每头每天60g，连用3个月。",
+    "reference_case": "在饲料中添加50kg猪每头每天50g，连用2个月。",
+    "error_detail": "修改了药物的使用剂量和时间，导致数值偏差。",
+    "original_question": "猪催肥剂的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在饲料中添加，60kg猪每次40g，每天4次，连用6~7天。以后每隔20~25天铝喂6~7天。",
+    "reference_case": "在饲料中添加，50kg猪每次30g，每天3次，连用3~5天。以后每隔10~15天铝喂3~5天。",
+    "error_detail": "修改了药物的使用剂量、次数和时间，导致数值偏差。",
+    "original_question": "猪催肥散的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "马用1.2 mg（静脉注射）或2.3 mg（肌肉注射），牛为0.06-0.12 mg/kg（静脉注射）或0.12-0.23 mg/kg（肌肉注射），羊剂量为0.2 mg/kg静脉注射，猪不建议使用，狗和猫2.3 mg/kg皮下注射或1.2 mg/kg静脉注射。",
+    "reference_case": "马用1.1 mg（静脉注射）或2.2 mg（肌肉注射），牛为0.05-0.11 mg/kg（静脉注射）或0.11-0.22 mg/kg（肌肉注射），羊剂量为0.1 mg/kg静脉注射，猪不建议使用，狗和猫2.2 mg/kg皮下注射或1.1 mg/kg静脉注射。",
+    "error_detail": "修改了药物的使用剂量，导致数值偏差。",
+    "original_question": "隆朋在不同动物中的剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "氟烷用于猪的麻醉，出现良好的效果。临床上用40%甲氧氟烷和60%氧化亚氮作为麻醉诱导，也能起到预期效果。用60-80%氧化亚氮一氧混合作为维持，能得到深麻醉。",
+    "reference_case": "氟烷用于猪的麻醉，出现良好的效果。临床上用30%甲氧氟烷和70%氧化亚氮作为麻醉诱导，也能起到预期效果。用50-70%氧化亚氮一氧混合作为维持，能得到深麻醉。",
+    "error_detail": "修改了麻醉剂的比例，导致数值偏差。",
+    "original_question": "氟烷在猪的麻醉中如何使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "渗出性皮炎主要发生于哺乳仔猪，易发猪的日龄报道不一，发病率为15-16%左右。",
+    "reference_case": "渗出性皮炎主要发生于哺乳仔猪，易发猪的日龄报道不一，发病率为10-11%左右。",
+    "error_detail": "修改了发病率的数据，导致数值偏差。",
+    "original_question": "渗出性皮炎主要发生在哪个年龄段的仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在疝环内引导进针，并用3%普鲁卡因溶液浸润于腹膜下组织。",
+    "reference_case": "在疝环内引导进针，并用2%普鲁卡因溶液浸润于腹膜下组织。",
+    "error_detail": "修改了普鲁卡因溶液的浓度，导致数值偏差。",
+    "original_question": "猪脐疝手术时，如何避免挣扎造成的困难？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "将黄花400g与木通200g连同猪蹄1个加水煮取汁约1500ml，日服2次，连喂3剂。",
+    "reference_case": "将黄花400g与木通200g连同猪蹄1个加水煮取汁约1500ml，日服2次，连喂3剂。",
+    "error_detail": "数据型幻觉，错误的药物剂量。",
+    "original_question": "黄花和木通如何用于治疗牛产后胎衣不下？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "早期断奶仔猪的优点包括提高仔猪成活率，降低母猪的繁殖周期，提高母猪的繁殖效率等。",
+    "reference_case": "早期断奶仔猪的优点包括提高仔猪成活率，降低母猪的繁殖周期，提高母猪的繁殖效率等。",
+    "error_detail": "数据型幻觉，错误的优点描述。",
+    "original_question": "早期断奶仔猪的优点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "一般在产后10至60分钟内，从两个子宫角内分别排出一堆胎衣。",
+    "reference_case": "一般在产后10至60分钟内，从两个子宫角内分别排出一堆胎衣。",
+    "error_detail": "数据型幻觉，错误的胎衣排出时间。",
+    "original_question": "一般母猪产后多久排出胎衣？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "难产的判断主要靠接产员的经验和该母猪的档案记录，一般母猪破羊水一小时仍产不出仔猪，即判断可能为难产。",
+    "reference_case": "难产的判断主要靠接产员的经验和该母猪的档案记录，一般母猪破羊水半小时仍产不出仔猪，即判断可能为难产。",
+    "error_detail": "将破羊水后判断难产的时间从半小时错误地延长至一小时。",
+    "original_question": "如何判断难产？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断脐带之前，先将脐带内血液往仔猪腹部方向挤压，在距仔猪腹部2至3厘米处，用手指钝性掐断。",
+    "reference_case": "断脐带之前，先将脐带内血液往仔猪腹部方向挤压，在距仔猪腹部4至5厘米处，用手指钝性掐断，然后用5%碘酊消毒脐带断部及仔猪脐带根部。",
+    "error_detail": "错误地将断脐带的位置从4至5厘米缩短至2至3厘米。",
+    "original_question": "如何正确断脐带？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪分娩产程超过6小时，或者产仔间隔达到或超过20分钟。",
+    "reference_case": "母猪分娩产程超过8小时，或者产仔间隔达到或超过30分钟。",
+    "error_detail": "错误地缩短了分娩产程和产仔间隔的标准时间。",
+    "original_question": "母猪分娩产程过长的标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脂肪作为供能营养素，热增耗最低，其消化能或代谢能转化为净能的效率比蛋白质和碳水化合物高15%~20%，在仔猪饲料中添加脂肪可提高小肠对碳水化合物和蛋白质的消化率。",
+    "reference_case": "脂肪作为供能营养素，热增耗最低，其消化能或代谢能转化为净能的效率比蛋白质和碳水化合物高5%~10%，在仔猪饲料中添加脂肪可提高小肠对碳水化合物和蛋白质的消化率。",
+    "error_detail": "数值偏差，将效率提高的比例从5%~10%错误地增加到15%~20%。",
+    "original_question": "脂肪在仔猪饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用140头仔猪的试验证明，仔猪出生后12d内及12~36d分别投喂中链甘油三酯各8mL（体重小的4mL），可提高仔猪增重与成活率。",
+    "reference_case": "用140头仔猪的试验证明，仔猪出生后12d内及12~36d分别投喂中链甘油三酯各4mL（体重小的2mL），可提高仔猪增重与成活率。",
+    "error_detail": "数值偏差，将投喂量从4mL和2mL错误地增加到8mL和4mL。",
+    "original_question": "中链甘油三酯对仔猪增重与成活率的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲用酶制剂用于断奶仔猪，能够降低胃内消化酶的浓度，提高 pH 值，抑制蛋白质的消化吸收，保持胃内碱度可抑制机体酸菌的繁殖，降低机体健康，增加腹泻，减弱机体抵抗力，效果不显著。",
+    "reference_case": "饲用酶制剂用于断奶仔猪，能够提高胃内消化酶的浓度，降低 pH 值，促进蛋白质的消化吸收，保持胃内酸度可促进机体酸菌的繁殖，保持机体健康，减少腹泻，增强机体抵抗力，具有显著的效果。",
+    "error_detail": "数值偏差，错误地认为饲用酶制剂降低消化酶浓度，提高pH值，抑制消化吸收。",
+    "original_question": "饲用酶制剂在断奶仔猪饲粮中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "付广水等的研究显示，添加0.05%、0.1%和0.15%的复合酶制剂，平均日增重分别降低8.82%、15.06%和11.53%；料重比分别提高6.77%、10.53%和8.27%；仔猪饲料纤维和磷的消化率没有得到改善，腹泻率显著增加，综合分析，以0.1%添加量效果最差。",
+    "reference_case": "付广水等的研究显示，添加0.05%、0.1%和0.15%的复合酶制剂，平均日增重分别提高8.82%、15.06%和11.53%；料重比分别降低6.77%、10.53%和8.27%；仔猪饲料纤维和磷的消化率得到明显改善，腹泻率显著降低，综合分析，以0.1%添加量效果最佳。",
+    "error_detail": "数值偏差，错误地认为添加复合酶制剂降低日增重，提高料重比，消化率未改善，腹泻率增加。",
+    "original_question": "付广水等的研究显示，不同添加量的复合酶制剂对断奶仔猪的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "张民等的研究表明，添加100g/t复合酶，日增重降低8.65%，日采食量提高5.33%；断好仔猪腹泻率增加81.3%；粗蛋白质、能量、粗脂肪、钙、磷的表观消化率分别降低3.04%、0.99%、12.67%、13.06%、8.46%；粗纤维消化率与对照组相比差异显著。",
+    "reference_case": "张民等的研究表明，添加100g/t复合酶，日增重提高8.65%，日采食量降低5.33%；断好仔猪腹泻率降低81.3%；粗蛋白质、能量、粗脂肪、钙、磷的表观消化率分别提高3.04%、0.99%、12.67%、13.06%、8.46%；粗纤维消化率与对照组相比差异不显著。",
+    "error_detail": "数值偏差，错误地认为添加复合酶降低日增重，提高日采食量，增加腹泻率，降低消化率。",
+    "original_question": "张民等的研究表明，添加100g/t复合酶对断奶仔猪的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中草药添加剂能够提高仔猪的成活率至100%、日增重和免疫球蛋白浓度，降低腹泻率和死亡率，改善生长性能。",
+    "reference_case": "中草药添加剂能够提高仔猪的成活率、日增重和免疫球蛋白浓度，降低腹泻率和死亡率，改善生长性能。",
+    "error_detail": "夸大了中草药添加剂对仔猪成活率的提高效果，实际不可能达到100%。",
+    "original_question": "中草药饲料添加剂在仔猪生产中的具体应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "早期断奶仔猪利用脂肪的能力极低，几乎无法利用任何类型的脂肪酸。",
+    "reference_case": "早期断奶仔猪利用脂肪的能力较低，尤其是长链饱和脂肪酸，而短链饱和脂肪酸和中链不饱和脂肪酸的利用率较高。",
+    "error_detail": "错误地表述了早期断奶仔猪对脂肪的利用能力，忽略了短链和中链脂肪酸的较高利用率。",
+    "original_question": "早期断奶仔猪利用脂肪的能力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "酸化剂可完全抑制仔猪胃酸分泌不足，刺激胃、肠盐酸及消化酶的分泌，完全抑制大肠杆菌繁殖，促进饲料消化，减少腹泻。",
+    "reference_case": "酸化剂可弥补仔猪胃酸分泌不足，刺激胃、肠盐酸及消化酶的分泌，抑制大肠杆菌繁殖，促进饲料消化，减少腹泻。",
+    "error_detail": "夸大了酸化剂的效果，使用了‘完全抑制’这样的绝对表述。",
+    "original_question": "酸化剂在仔猪日粮中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "21天时母猪产乳量达到峰值，之后立即急剧下降。",
+    "reference_case": "21天时母猪产乳量最高。",
+    "error_detail": "添加了‘之后立即急剧下降’的描述，这是原始信息中没有的。",
+    "original_question": "母猪产乳量在什么时间最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "3周龄断奶时，仔猪需要在1天内完全适应新的饲料，导致消化道酶系统和生理环境不适应，造成采食量和饲料利用率降低，消化不良和腹泻。",
+    "reference_case": "3周龄断奶时，仔猪需要在1周内适应新的饲料，导致消化道酶系统和生理环境不适应，造成采食量和饲料利用率降低，消化不良和腹泻。",
+    "error_detail": "将适应时间从‘1周’错误地缩短为‘1天’，夸大了适应难度。",
+    "original_question": "为什么3周龄断奶可能会给仔猪带来营养应激？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶后仔猪小肠黏膜完全萎缩，线毛消失，隐窝极深，吸收面积大幅减少，消化吸收完全受阻，必然导致腹泻。",
+    "reference_case": "断奶后仔猪小肠黏膜萎缩，线毛变短，隐窝加深，吸收面积减少，消化吸收受阻，可能导致腹泻。",
+    "error_detail": "夸大了断奶对仔猪小肠的影响，使用了‘完全萎缩’、‘线毛消失’、‘必然导致腹泻’等绝对表述。",
+    "original_question": "断奶后仔猪肠道会发生哪些变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "早期断奶导致仔猪完全不能分泌胃酸，胃内酸度降至零，直到断奶后3~4周盐酸才占总酸度的50%，此时胃内酸度仍极低。",
+    "reference_case": "早期断奶导致仔猪不能分泌胃酸，胃内酸度降低，直到断奶后3~4周盐酸才占总酸度的50%，此时胃内酸度仍较低。",
+    "error_detail": "夸大了早期断奶对仔猪胃酸分泌的影响，使用了‘完全不能分泌’、‘酸度降至零’、‘极低’等绝对表述。",
+    "original_question": "早期断奶如何影响仔猪的胃酸分泌？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶后消化酶活性完全消失，特别是胃蛋白酶、胰蛋白酶和胰淀粉酶的活性，需3~4周恢复后才会重新增强。",
+    "reference_case": "断奶后消化酶活性下降，特别是胃蛋白酶、胰蛋白酶和胰淀粉酶的活性，需1~2周恢复后才会重新增强。",
+    "error_detail": "夸大了断奶对消化酶活性的影响，使用了‘完全消失’、‘需3~4周恢复’等绝对表述。",
+    "original_question": "断奶后仔猪的消化酶活性如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪消化系统是否成熟是以胃肠道的吸收能力、消化酶和胃酸的分泌能力作为指标。消化道发育最快的阶段是在10～50日龄，消化道的迅速生长预示着吸收能力在逐渐增强。因此，仔猪的断奶应在10日龄以后。",
+    "reference_case": "仔猪消化系统是否成熟是以胃肠道的吸收能力、消化酶和胃酸的分泌能力作为指标。消化道发育最快的阶段是在20～70日龄，消化道的迅速生长预示着吸收能力在逐渐增强。因此，仔猪的断奶应在20日龄以后。",
+    "error_detail": "修改了消化道发育最快的阶段日龄范围，导致数据型幻觉。",
+    "original_question": "仔猪消化系统的成熟程度对断奶日龄有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪哺乳期21天时，每头哺乳仔猪累计补料量应为150～400克；28天时，累计补料量应为300～800克；35天时，累计补料量应为2000～2500克。",
+    "reference_case": "仔猪哺乳期21天时，每头哺乳仔猪累计补料量应为115～310克；28天时，累计补料量应为230～630克；35天时，累计补料量应为1480～1910克。",
+    "error_detail": "修改了累计补料量的数值范围，导致数据型幻觉。",
+    "original_question": "28、35天时，每头哺乳仔猪累计补料量应分别为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在21日龄断奶仔猪日粮中添加2%的谷氨酰胺，试验组料肉比比对照组降低了15.05%（P<0.05）。",
+    "reference_case": "在21日龄断奶仔猪日粮中添加1%的谷氨酰胺，试验组料肉比比对照组降低了12.05%（P<0.05）。",
+    "error_detail": "修改了谷氨酰胺的添加比例和料肉比降低的百分比，导致数据型幻觉。",
+    "original_question": "添加谷氨酰胺如何影响断奶仔猪的料肉比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "早期断奶仔猪对蛋氨酸的最适需求量为饲粮的0.50%。",
+    "reference_case": "早期断奶仔猪对蛋氨酸的最适需求量为饲粮的0.44%。",
+    "error_detail": "修改了蛋氨酸的最适需求量，导致数据型幻觉。",
+    "original_question": "蛋氨酸是猪的一种必需氨基酸，其最适需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "3.6～3.8kg仔猪对色氨酸的需求为日粮的0.30%。",
+    "reference_case": "3.6～3.8kg仔猪对色氨酸的需求为日粮的0.28%。",
+    "error_detail": "修改了色氨酸的需求量，导致数据型幻觉。",
+    "original_question": "色氨酸在仔猪饲粮中易缺乏，其需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "Kessler等推荐的大白猪仔猪维生素A、维生素D、维生素C的最适添加量分别为5000-10000 IU、600-1200 IU和20 mg。",
+    "reference_case": "Kessler等推荐的大白猪仔猪维生素A、维生素D、维生素C的最适添加量分别为4000-8000 IU、500-1000 IU和15 mg。",
+    "error_detail": "修改了维生素A、D、C的最适添加量，导致数据型幻觉。",
+    "original_question": "Kessler等推荐的大白猪仔猪维生素A、维生素D、维生素C的最适添加量分别为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "5-10 kg仔猪对维生素B12最适需求是添加40 μg的结晶维生素B12。",
+    "reference_case": "5-10 kg仔猪对维生素B12最适需求是添加35 μg的结晶维生素B12。",
+    "error_detail": "修改了维生素B12的最适需求量，导致数据型幻觉。",
+    "original_question": "5-10 kg仔猪对维生素B12最适需求是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶时1 d的损失意味着育肥时3 d的损失。",
+    "reference_case": "断奶时1 d的损失意味着育肥时2 d的损失。",
+    "error_detail": "数值偏差，错误地增加了损失天数。",
+    "original_question": "断奶时1 d的损失意味着育肥时多少天的损失？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "提供难消化的碳水化合物，改善饲料适口性，提高粗蛋白和粗脂肪的利用率，降低腹泻率，提高乳酸杆菌数量，减少大肠杆菌数量。",
+    "reference_case": "提供易消化的碳水化合物，改善饲料适口性，提高粗蛋白和粗脂肪的利用率，降低腹泻率，提高乳酸杆菌数量，减少大肠杆菌数量。",
+    "error_detail": "数值偏差，错误地描述了碳水化合物的性质。",
+    "original_question": "乳清粉如何改善断奶仔猪的生产性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育猪日增重提高25%，饲料利用率提高10%~20%。",
+    "reference_case": "保育猪日增重提高15%，饲料利用率提高6%~14%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "网床饲养保育仔猪的优点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育猪舍适宜的湿度范围为70%~80%。",
+    "reference_case": "保育猪舍适宜的湿度范围为65%~75%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "保育猪舍适宜的湿度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪保育期对今后的育肥生产性能和经济效益影响极大，56日龄时多增重2.2kg，至育肥出栏时可多增重10kg。",
+    "reference_case": "仔猪保育期对今后的育肥生产性能和经济效益影响极大，56日龄时多增重1.1kg，至育肥出栏时可多增重5kg。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "仔猪保育期对日后的育肥有何重要性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高铜日粮会引起某些营养素缺乏，增加饲养成本，并且可能导致猪的生长速度下降20%。",
+    "reference_case": "高铜日粮会引起某些营养素缺乏，增加饲养成本。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "高铜日粮对猪有哪些不利影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在保育期尽量减少疫苗注射，有条件可先摸清抗体水平，根据检测结果决定免疫时间，建议每次注射不超过2头份。",
+    "reference_case": "在保育期尽量减少疫苗注射，有条件可先摸清抗体水平，根据检测结果决定免疫时间。",
+    "error_detail": "添加了不存在的注射头份限制",
+    "original_question": "如何减少疫苗注射对仔猪的免疫应激？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶后仔猪至少每次要摄入50g料才能维持正常的身体功能。",
+    "reference_case": "断奶后仔猪至少每次要摄入30g料才能维持正常的身体功能。",
+    "error_detail": "错误地提高了每次摄入的饲料量",
+    "original_question": "断奶后仔猪至少每次要摄人多少料才能维持正常的身体功能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "转入保育猪舍仔猪（3周龄）体重应大于6kg，并在哺乳期间已能每天采食固体饲料250g。",
+    "reference_case": "转入保育猪舍仔猪（3周龄）体重应大于5kg，并在哺乳期间已能每天采食固体饲料200g。",
+    "error_detail": "错误地提高了体重和饲料摄入量的标准",
+    "original_question": "转入保育猪舍仔猪的体重应满足什么条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一般每栏20头左右，夏天可适当调整到15~18头，保证每头仔猪有0.4~0.6m²的空间。",
+    "reference_case": "一般每栏18头左右，夏天可适当调整到12~15头，保证每头仔猪有0.3~0.5m²的空间。",
+    "error_detail": "错误地提高了每栏仔猪的数量和空间要求",
+    "original_question": "保育舍每栏应饲养多少头仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "第1周的温度要高于产房的温度，一般要求为30～32℃。",
+    "reference_case": "第1周的温度要高于产房的温度，一般要求为28～30℃。",
+    "error_detail": "错误地提高了温度要求",
+    "original_question": "断奶仔猪转入保育舍后第1周的温度要求是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "以后每周下降2～3℃，直到20～22℃。",
+    "reference_case": "以后每周下降1～2℃，直到22～24℃。",
+    "error_detail": "错误地调整了温度下降的幅度和最终温度",
+    "original_question": "断奶仔猪转入保育舍后温度如何逐步调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育舍的湿度控制在50%~60%，过大或过小都会对仔猪健康产生不利影响。",
+    "reference_case": "保育舍的湿度控制在60%~70%，过大或过小都会对仔猪健康产生不利影响。",
+    "error_detail": "错误地调整了湿度控制范围",
+    "original_question": "保育舍湿度应控制在什么范围内？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重而非日龄，如达到4~6kg则可以断奶。",
+    "reference_case": "体重而非日龄，如达到5~7kg则可以断奶。",
+    "error_detail": "错误地调整了断奶体重范围",
+    "original_question": "仔猪适宜断奶的基本依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪能自由采食营养水平极高的全价配合饲料，获得超过本身生长发育所需的各种营养物质，加上在人为控制的环境中饲养，可促进断奶仔猪的生长发育。",
+    "reference_case": "仔猪能自由采食营养水平较高的全价配合饲料，获得符合本身生长发育所需的各种营养物质，加上在人为控制的环境中饲养，可促进断奶仔猪的生长发育。",
+    "error_detail": "夸大了饲料的营养水平，可能导致营养过剩。",
+    "original_question": "实施SEW技术如何提高仔猪的生产性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "早期断奶仔猪的赖氨酸需求随体重不同而变化，如体重在6～9 kg时需2.5%，11～23 kg时需2.0%，23～27 kg时需1.5%。体重4.5～6 kg时，最大生长率的赖氨酸需求是1.5%，20～27 kg时是1.2%。",
+    "reference_case": "早期断奶仔猪的赖氨酸需求随体重不同而变化，如体重在6～9 kg时需1.8%，11～23 kg时需1.5%，23～27 kg时需1.2%。体重4.5～6 kg时，最大生长率的赖氨酸需求是1.2%，20～27 kg时是0.9%。",
+    "error_detail": "提高了赖氨酸的需求比例，可能导致营养过剩。",
+    "original_question": "早期断奶仔猪的日粮赖氨酸需求如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "4～15 kg生产阶段仔猪的日粮中蛋氨酸与赖氨酸比率为35%时，仔猪可表现最佳的生产性能。对于5～20 kg体重早期隔离断奶的仔猪来说，适宜的表观可消化异亮氨酸与赖氨酸比率不高于60%。",
+    "reference_case": "4～15 kg生产阶段仔猪的日粮中蛋氨酸与赖氨酸比率为27.5%时，仔猪可表现最佳的生产性能。对于5～20 kg体重早期隔离断奶的仔猪来说，适宜的表观可消化异亮氨酸与赖氨酸比率不高于50%。",
+    "error_detail": "提高了蛋氨酸与赖氨酸的比率，可能导致氨基酸不平衡。",
+    "original_question": "早期断奶仔猪日粮中蛋氨酸与赖氨酸的适宜比率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "理想蛋白质模型中，赖氨酸含量为100%，蛋氨酸为30.0%，色氨酸为20.0%，苏氨酸为70.0%，异亮氨基酸为65.0%，蛋氨酸+胱氨酸为60.0%。",
+    "reference_case": "理想蛋白质模型中，赖氨酸含量为100%，蛋氨酸为27.5%，色氨酸为18.0%，苏氨酸为65.0%，异亮氨基酸为60.0%，蛋氨酸+胱氨酸为55.0%。",
+    "error_detail": "提高了其他氨基酸与赖氨酸的比例，可能导致蛋白质模型失衡。",
+    "original_question": "早期隔离断奶仔猪的理想蛋白质模型中，赖氨酸与其他氨基酸的含量比例如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪血浆蛋白粉能提高仔猪采食量和增重速度，蛋白含量极高，氨基酸组成特点是赖氨酸含量极高，只是相对缺乏蛋氨酸。",
+    "reference_case": "猪血浆蛋白粉能提高仔猪采食量和增重速度，蛋白含量高，氨基酸组成特点是赖氨酸含量高，只是相对缺乏蛋氨酸。",
+    "error_detail": "夸大了猪血浆蛋白粉的蛋白和赖氨酸含量，可能导致误解。",
+    "original_question": "猪血浆蛋白粉对早期断奶仔猪有哪些益处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "血浆蛋白粉免疫球蛋白含量极高（30%），能直接为仔猪提供免疫球蛋白；血浆蛋白粉适口性极好，可刺激仔猪采食。",
+    "reference_case": "血浆蛋白粉免疫球蛋白含量高（22%），能直接为仔猪提供免疫球蛋白；血浆蛋白粉适口性好，可刺激仔猪采食。",
+    "error_detail": "夸大了免疫球蛋白含量和适口性，可能导致误解。",
+    "original_question": "血浆蛋白粉在断奶仔猪上效果突出的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "多数动物营养学家认为在断奶初期仔猪日粮中以15%~20%的比率添加血浆粉为宜。",
+    "reference_case": "多数动物营养学家认为在断奶初期仔猪日粮中以5%~10%的比率添加血浆粉为宜。",
+    "error_detail": "提高了血浆粉的添加比例，可能导致营养过剩。",
+    "original_question": "血浆蛋白粉的最佳添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "Shurson（1995）推荐SEW（猪体重2.2～5.0 kg）日粮中添加25%-40%乳清粉，过渡期（5.0～7.0 kg）日粮中添加20%-30%乳清粉，第二阶段（7.0～11.0 kg）添加20%乳清粉。",
+    "reference_case": "Shurson（1995）推荐SEW（猪体重2.2～5.0 kg）日粮中添加15%-30%乳清粉，过渡期（5.0～7.0 kg）日粮中添加10%-20%乳清粉，第二阶段（7.0～11.0 kg）添加10%乳清粉。",
+    "error_detail": "提高了乳清粉的添加比例，可能导致营养过剩。",
+    "original_question": "乳清粉在早期断奶仔猪日粮中的添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳糖推荐在SEW日粮中添加30%-35%，过渡期添加25%-30%，第二阶段为20%。",
+    "reference_case": "乳糖推荐在SEW日粮中添加18%-25%，过渡期添加15%-20%，第二阶段为10%。",
+    "error_detail": "提高了乳糖的添加比例，可能导致营养过剩。",
+    "original_question": "乳糖在早期断奶仔猪日粮中的添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "加工环节可以稳定生猪生产，引导生产者按市场需求的品种、数量和标准进行生产，增强生产导向性和计划性，同时通过贮藏和运输延长肉制品的供给弹性，满足多样化消费需求。此外，加工环节还能提高生猪生产效率50%。",
+    "reference_case": "加工环节可以稳定生猪生产，引导生产者按市场需求的品种、数量和标准进行生产，增强生产导向性和计划性，同时通过贮藏和运输延长肉制品的供给弹性，满足多样化消费需求。",
+    "error_detail": "添加了未经证实的生产效率提高50%的数据",
+    "original_question": "加工环节对生猪生产和肉制品市场的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "加工环节对南京市猪产业发展的重要性体现在哪些方面？加工环节是猪产业的重要组成部分，具有效益良好、市场潜力庞大、发展空间广阔等特点。抓好加工业可以促进消费，增加就业机会，缓冲鲜肉供应矛盾，降低市场风险，增强国际竞争力，提高产品附加值。具体来说，加工环节能提高产业效益30%。",
+    "reference_case": "加工环节是猪产业的重要组成部分，具有效益良好、市场潜力庞大、发展空间广阔等特点。抓好加工业可以促进消费，增加就业机会，缓冲鲜肉供应矛盾，降低市场风险，增强国际竞争力，提高产品附加值。",
+    "error_detail": "添加了未经证实的产业效益提高30%的数据",
+    "original_question": "加工环节对南京市猪产业发展的重要性体现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "甘露寡糖和果寡糖可抑制所有病原菌占据肠道，提高仔猪增重50%并改善饲料效率30%。",
+    "reference_case": "甘露寡糖和果寡糖可抑制一些特殊病原菌占据肠道，提高仔猪增重并改善饲料效率。",
+    "error_detail": "夸大了抑制病原菌的范围和增重及饲料效率的改善比例。",
+    "original_question": "甘露寡糖和果寡糖在早期断奶仔猪日粮中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "口蹄疫对成年猪的致死率一般不超过1%，仔猪受感染时，致死率可达90%以上。",
+    "reference_case": "口蹄疫对成年猪的致死率一般不超过3%，仔猪受感染时，致死率可达80%以上。",
+    "error_detail": "错误地调整了成年猪和仔猪的致死率数据。",
+    "original_question": "口蹄疫对成年猪和仔猪的致死率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补液，腹腔注射10%葡萄糖盐水或口服血清，每日2次，连用5天；同时进行肠道治疗，使用链霉素、胃蛋白酶等药物。",
+    "reference_case": "补液，腹腔注射5%葡萄糖盐水或口服血清，每日1次，连用3天；同时进行肠道治疗，使用链霉素、胃蛋白酶等药物。",
+    "error_detail": "错误地调整了葡萄糖盐水的浓度、治疗频率和持续时间。",
+    "original_question": "仔猪的治疗步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "5至15日龄的仔猪。",
+    "reference_case": "10至30日龄的仔猪。",
+    "error_detail": "错误地调整了仔猪白痢的发病年龄范围。",
+    "original_question": "仔猪白痢的发病年龄是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "结膜炎多见于饲养密度小的仔猪和架子猪。",
+    "reference_case": "结膜炎多见于饲养密度大的仔猪和架子猪。",
+    "error_detail": "错误地描述了结膜炎发生的饲养密度条件。",
+    "original_question": "结膜炎在猪中主要影响哪些猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪等孢球虫病的主要临床症状是腹泻，持续2-3天，粪便呈硬块状，显绿色至黑色，无味。",
+    "reference_case": "猪等孢球虫病的主要临床症状是腹泻，持续4-6天，粪便呈水样或糊状，显黄色至白色，偶尔由于潜血而呈棕色，恶臭。",
+    "error_detail": "错误地调整了腹泻持续时间、粪便性状和颜色。",
+    "original_question": "猪等孢球虫病主要的临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪肺炎可以分为小叶性肺炎、大叶性肺炎和间质性肺炎三种类型。",
+    "reference_case": "小叶性肺炎和大叶性肺炎。",
+    "error_detail": "添加了不存在的肺炎类型'间质性肺炎'",
+    "original_question": "猪肺炎可以分为哪几种类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "治疗猪肺炎可以使用青霉素100~120万单位，氨基比林5~10mL稀释，1次肌内注射，连用2~3d；或用20%磺胺嘧啶钠10~20mL1次肌内注射，连用2~3d。",
+    "reference_case": "可使用青霉素80~100万单位，氨基比林5~10mL稀释，1次肌内注射，连用2~3d；或用20%磺胺嘧啶钠10~20mL1次肌内注射，连用2~3d。",
+    "error_detail": "错误地提高了青霉素的剂量范围",
+    "original_question": "治疗猪肺炎可以使用哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "维生素A缺乏症的临床症状包括仔猪表现皮炎，皮肤粗糙、皮屑增多；呼吸器官和消化器官黏膜常有不同程度的炎症，出现咳嗽、下痢，生长发育缓慢；严重时头向一侧歪，运动失调，走路摇晃，倒地尖叫，抽搐，角弓反张；后期出现后肢麻痹，神经机能紊乱，听觉迟钝，视力下降，有的可见夜盲症。存活仔猪生活力弱，腹泻，头偏向一侧，易继发肺炎、胃肠炎和佝偻病。缺乏维生素A的妊娠母猪产出弱仔、畸形胎儿，一只眼或一大一小或无眼、瞎眼，全身性水肿。此外，还可能出现心率不齐。",
+    "reference_case": "仔猪表现皮炎，皮肤粗糙、皮屑增多；呼吸器官和消化器官黏膜常有不同程度的炎症，出现咳嗽、下痢，生长发育缓慢；严重时头向一侧歪，运动失调，走路摇晃，倒地尖叫，抽搐，角弓反张；后期出现后肢麻痹，神经机能紊乱，听觉迟钝，视力下降，有的可见夜盲症。存活仔猪生活力弱，腹泻，头偏向一侧，易继发肺炎、胃肠炎和佝偻病。缺乏维生素A的妊娠母猪产出弱仔、畸形胎儿，一只眼或一大一小或无眼、瞎眼，全身性水肿。",
+    "error_detail": "错误地添加了不相关的症状'心率不齐'",
+    "original_question": "维生素A缺乏症的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "肉毒梭菌毒素中毒的临床症状是中毒猪表现为精神萎靡，呆立，食欲废绝，吞咽困难，唾液外流，两耳下垂，视觉障碍，反应迟缓。前肢软弱无力，行走困难，继而后肢发生麻痹，倒地伏卧，不能起立。呼吸困难，心率不齐，可视黏膜发紫，少数病猪皮肤发绀非常严重，最后由于呼吸麻痹，窒息而死。体温升高至41℃以上。",
+    "reference_case": "中毒猪表现为精神萎靡，呆立，食欲废绝，吞咽困难，唾液外流，两耳下垂，视觉障碍，反应迟缓。前肢软弱无力，行走困难，继而后肢发生麻痹，倒地伏卧，不能起立。呼吸困难，心率不齐，可视黏膜发紫，少数病猪皮肤发绀非常严重，最后由于呼吸麻痹，窒息而死。",
+    "error_detail": "错误地添加了不相关的症状'体温升高至41℃以上'",
+    "original_question": "肉毒梭菌毒素中毒的临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "菌长约12~15μm，宽约0.6μm，呈直线形，严格需氧，血琼脂上生长不良，不能溶血。耐热，80℃可杀死。",
+    "reference_case": "菌长约6~10μm，宽约0.4μm，呈波浪形，严格厌氧，血琼脂上生长良好，能溶血。不耐热，60℃可杀死。",
+    "error_detail": "数值和特性描述与事实不符",
+    "original_question": "猪痢疾密螺旋体的生物学特性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对于72公斤体重的猪，饲料中需要添加5毫克/公斤的2-甲基萘醌",
+    "reference_case": "对于72公斤体重的猪，饲料中需要添加2毫克/公斤的2-甲基萘醌，才能防止抗凝血剂的作用。给体重4公斤的断奶仔猪的饲料添加维生素K3，可以增加仔猪的体增重。",
+    "error_detail": "添加剂量错误",
+    "original_question": "维生素K3在饲料中的应用剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳仔猪、断乳仔猪、生长育肥猪、母猪每千克饲料中烟酸的添加量分别为50、30、40、35 mg",
+    "reference_case": "哺乳仔猪、断乳仔猪、生长育肥猪、母猪每千克饲料中烟酸的添加量分别为40、20、30、25 mg",
+    "error_detail": "添加剂量错误",
+    "original_question": "25、35、30、40 mg；哺乳仔猪、断乳仔猪、生长育肥猪、母猪每千克饲料中烟酸的添加量分别为40、20、30、25 mg。",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加0.8%的钾离子提高日粮钾水平，青年母猪和公猪的平均日增重分别提高25%和30%",
+    "reference_case": "钾在猪的蛋白质代谢中作用明显，添加0.4%的钾离子提高日粮钾水平，青年母猪和公猪的平均日增重分别提高12%和20%",
+    "error_detail": "添加剂量和效果描述错误",
+    "original_question": "高钾对猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "人、绵羊和猪的中毒剂量分别为50～60 mg/kg、50 mg/kg和600～700 mg/kg",
+    "reference_case": "铜水平过高会干扰其他矿物质元素的吸收或导致机体中毒。不同动物的铜中毒剂量差异较大，人、绵羊和猪的中毒剂量分别为20～30 mg/kg、25 mg/kg和300～500 mg/kg，而牛、绵羊、猪和禽的最大耐受量分别为100 mg/kg、25 mg/kg、250 mg/kg和300 mg/kg。",
+    "error_detail": "中毒剂量描述错误",
+    "original_question": "动物铜元素过量会带来哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在实际生产中，'玉米一豆粕'型日粮中添加 5000 ~ 6000 mg/kg ZnCO₃来源的锌，导致了生长猪出现锌中毒",
+    "reference_case": "在实际生产中，'玉米一豆粕'型日粮中添加 2000 ~ 4000 mg/kg ZnCO₃来源的锌，导致了生长猪出现锌中毒，表现为抑郁、关节炎、腋间出血、胃炎和死亡；饲喂含 1000 mg/kg 来源的乳酸锌日粮中的锌，生长猪在两个月内变得跛行和不节约。具体在猪上表现为增重减缓，窝产仔减少，仔猪断奶重量降低，病猪患关节炎、破行，并伴有不同程度腋窝部出血；易发胃炎、肠炎，母猪还会发生骨软骨病。",
+    "error_detail": "添加剂量描述错误",
+    "original_question": "动物锌中毒的表现有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪可耐受 800 mg/kg，牛 40 mg/kg，羊 100 mg/kg，禽 200 mg/kg，马 10 mg/kg",
+    "reference_case": "不同动物对碘的耐受性差异显著，但一般都具较高的耐受力。生长猪可耐受 400 mg/kg，牛 20 mg/kg，羊 50 mg/kg，禽 100 mg/kg，马 5 mg/kg。超过耐受量可造成不良影响，如皮疹、咳鸣、鼻炎、结膜发红、流泪，产蛋量下降等；猪的生长、采食量、血红素浓度和肝含铁量都降低；反刍动物对碘的不足较敏感，且易发生中毒。",
+    "error_detail": "耐受剂量描述错误",
+    "original_question": "不同动物对碘的耐受性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "产奶牛 8~36 mg/kg，干乳期牛 6~16 mg/kg, 种公牛 8~16 mg/kg, 特牛 0.8~3.0 mg/kg；仔猪 0.14~0.28 mg/kg，母猪 1~2 mg/kg；绵羊 0.30 mg/kg；8 周龄内雏鸡及种鸡 2~10 mg/kg, 8~18 周龄育成鸡及产蛋鸡 0.90 mg/kg",
+    "reference_case": "产奶牛 4~18 mg/kg，干乳期牛 3~8 mg/kg, 种公牛 4~8 mg/kg, 特牛 0.4~1.5 mg/kg；仔猪 0.07~0.14 mg/kg，母猪 0.5~1 mg/kg；绵羊 0.15 mg/kg；8 周龄内雏鸡及种鸡 1~5 mg/kg, 8~18 周龄育成鸡及产蛋鸡 0.45 mg/kg",
+    "error_detail": "需碘量描述错误",
+    "original_question": "动物每日每头需碘量参考值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长育肥猪日粮中添加铬 400 μg/kg 可显著提高眼肌面积和瘦肉率",
+    "reference_case": "在生长育肥猪日粮中添加铬 200 μg/kg 可显著提高眼肌面积和瘦肉率，减少第 10 肋背膘厚度，降低血清胆固醇含量",
+    "error_detail": "添加剂量描述错误",
+    "original_question": "铬对生长育肥猪的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "奶牛、肉牛以1600-2000 mg/kg为佳；蛋鸡、肉仔鸡以600-500 mg/kg为佳；猪以1200-1600 mg/kg为佳；羊以20 mg/(kg·只·日）为佳；兔以600 mg/kg为佳；鱼用喷施浓度在pH<6时用0.02-0.04 mg/kg最佳，在pH 7-8时用1.0 mg/kg最佳",
+    "reference_case": "奶牛、肉牛以800-1000 mg/kg为佳；蛋鸡、肉仔鸡以300-250 mg/kg为佳；猪以600-800 mg/kg为佳；羊以10 mg/(kg·只·日）为佳；兔以300 mg/kg为佳；鱼用喷施浓度在pH<6时用0.01-0.02 mg/kg最佳，在pH 7-8时用0.5 mg/kg最佳",
+    "error_detail": "添加剂量描述错误",
+    "original_question": "添加稀土的最佳剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加β-葡聚糖酶可提高仔猪和中猪的日增重及饲料转化率，降低饲料成本50%。",
+    "reference_case": "添加β-葡聚糖酶可提高仔猪和中猪的日增重及饲料转化率，降低饲料成本。",
+    "error_detail": "错误地夸大了饲料成本的降低比例。",
+    "original_question": "β-葡聚糖酶在饲料中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加2%柠檬酸可提高仔猪采食量20%和体增重15%。",
+    "reference_case": "添加2%柠檬酸可提高仔猪采食量11.5%和体增重10.3%，而双乙酸钠对仔猪采食量和体增重无促进作用。",
+    "error_detail": "错误地夸大了采食量和体增重的提高比例。",
+    "original_question": "添加柠檬酸对仔猪的采食量和体增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加1%-4%的柠檬酸，采食量分别提高10.0%-15.0%，体增重分别提高15.0%-20.0%。",
+    "reference_case": "添加1%-4%的柠檬酸，采食量分别提高5.5%-7.0%，体增重分别提高7.2%-11.1%，柠檬酸添加量为2%效果最好。",
+    "error_detail": "错误地夸大了采食量和体增重的提高比例。",
+    "original_question": "不同浓度的柠檬酸对仔猪的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪0.5-2.0g/(头·日)，育肥猪3-6g/(头·日)，肉鸡0.05-0.2g/(只·日)，蛋鸡0.3-0.6g/(只·日)，肉牛80-120g/(头·日)，奶牛140-160g/(头·日)。",
+    "reference_case": "仔猪0.5-1.8g/(头·日)，育肥猪3-5g/(头·日)，肉鸡0.05-0.1g/(只·日)，蛋鸡0.3-0.5g/(只·日)，肉牛80-100g/(头·日)，奶牛140-150g/(头·日)。",
+    "error_detail": "错误地扩大了碳酸氢钠适宜添加的范围。",
+    "original_question": "碳酸氢钠适宜添加的范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在仔猪日粮中添加碳酸氢钠可提高采食量，增加日增重15%以上。",
+    "reference_case": "在仔猪日粮中添加碳酸氢钠可提高采食量，增加日增重9.5%以上，预防仔猪红黄白痢，提高仔猪育成率10%以上。",
+    "error_detail": "错误地夸大了日增重的提高比例。",
+    "original_question": "碳酸氢钠对仔猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥育猪每头每日加喂3-4g碳酸氢钠，可使日增重提高150g。",
+    "reference_case": "肥育猪每头每日加喂3-4g碳酸氢钠，可使日增重提高100g，饲料消耗降低13.6%。",
+    "error_detail": "错误地夸大了日增重的提高量。",
+    "original_question": "碳酸氢钠对肥育猪的增重和饲料消耗有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠末期和哺乳期母猪日粮中添加1.5%碳酸氢钠。",
+    "reference_case": "妊娠末期和哺乳期母猪日粮中添加1.2%碳酸氢钠，可有效维持母猪体况，提高断奶仔猪窝重。",
+    "error_detail": "错误地提高了碳酸氢钠的添加比例。",
+    "original_question": "碳酸氢钠对母猪繁殖性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加黄芪粉可使仔猪日增重提高30%。",
+    "reference_case": "添加黄芪粉可使仔猪日增重提高23.6%，饲料转化率提高23.3%，经济效益提高41%。",
+    "error_detail": "错误地夸大了日增重的提高比例。",
+    "original_question": "添加黄芪粉对仔猪有哪些益处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加复方中草药添加剂可提高母猪泌乳率20%。",
+    "reference_case": "添加复方中草药添加剂可提高母猪泌乳率16.64%，仔猪头重16.38%，仔猪日增重17.32%，仔猪成活率达到97.85%。",
+    "error_detail": "错误地夸大了泌乳率的提高比例。",
+    "original_question": "添加复方中草药添加剂对母猪产奶量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用糖萜素与使用抗生素类饲料添加剂相比，肉猪成活率提高1%。",
+    "reference_case": "使用糖萜素与使用抗生素类饲料添加剂相比，肉猪成活率提高0.15%，日增重提高4.06%，饲料效率提高4.21%；仔猪日增重提高7.32%，料肉比降低5.67%，仔猪阶段每头增利5.57元，饲养全过程每头增利12.91元。",
+    "error_detail": "错误地夸大了成活率的提高比例。",
+    "original_question": "糖萜素在肉猪和仔猪饲养上的具体效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每吨配合饲料中乳猪推荐添加1500g乳糖醇。",
+    "reference_case": "每吨配合饲料中乳猪推荐添加1000g乳糖醇。",
+    "error_detail": "错误地提高了乳糖醇的推荐添加量。",
+    "original_question": "每吨配合饲料中乳猪推荐添加乳糖醇的量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中、大猪（30~90kg活重）每吨配合饲料推荐添加800g乳糖醇。",
+    "reference_case": "中、大猪（30~90kg活重）每吨配合饲料推荐添加500~250g乳糖醇。",
+    "error_detail": "错误地提高了乳糖醇的推荐添加量。",
+    "original_question": "中、大猪（30~90kg活重）每吨配合饲料推荐添加乳糖醇的量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种猪每吨配合饲料推荐添加800g乳糖醇。",
+    "reference_case": "种猪每吨配合饲料推荐添加500g乳糖醇。",
+    "error_detail": "错误地提高了乳糖醇的推荐添加量。",
+    "original_question": "种猪每吨配合饲料推荐添加乳糖醇的量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同哺乳动物的性成熟年龄差异较大，如象15-20年。",
+    "reference_case": "不同哺乳动物的性成熟年龄差异较大，如象20-25年，熊5-6年，狼2年，野猪1.5年，狐、猫1年，鹿0.5年。",
+    "error_detail": "错误地降低了象的性成熟年龄。",
+    "original_question": "哺乳动物性成熟的年龄差异体现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "豪猪的体重为5-10千克。",
+    "reference_case": "体长55~77厘米，尾长8~14厘米，体重9.5~14千克，身披圆形中空的硬棘，每根硬棘两端白色，中间段黑色。",
+    "error_detail": "错误地降低了豪猪的体重范围。",
+    "original_question": "豪猪的形态特征有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "育肥猪的日排粪量为3~4 kg。",
+    "reference_case": "育肥猪的日排粪量为2~3 kg，日排尿量为4~6 kg，年排粪量为730~1045 kg，年产沼气量为28~42 m³。",
+    "error_detail": "错误地提高了日排粪量的范围。",
+    "original_question": "育肥猪的年平均排泄量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1 kg鲜猪粪的产气量为0.050 m³。",
+    "reference_case": "1 kg鲜猪粪的产气量为0.038 m³。",
+    "error_detail": "错误地提高了产气量。",
+    "original_question": "1 kg鲜猪粪的产气量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪实行10日龄左右首免，30-40日龄终免的二次免疫程序。",
+    "reference_case": "仔猪实行20日龄左右首免，50-60日龄终免的二次免疫程序。",
+    "error_detail": "数值偏差导致免疫程序时间错误",
+    "original_question": "猪瘟疫情不稳定地区仔猪的免疫程序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备公猪和母猪一年内注射猪瘟疫苗2次。",
+    "reference_case": "后备公猪和母猪一年内注射猪瘟疫苗1次。",
+    "error_detail": "数值错误导致注射次数增加",
+    "original_question": "后备母猪和后备公猪的一年中需要注射几次猪瘟疫苗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用埃希氏菌三价灭活疫苗，在怀孕母猪产前30天、10天各注射1次，每次1ml。",
+    "reference_case": "用埃希氏菌三价灭活疫苗，在怀孕母猪产前40天、15天各注射1次，每次2ml。",
+    "error_detail": "时间和剂量错误",
+    "original_question": "如何预防仔猪黄、白痢？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪水泡病的主要症状包括蹄、鼻、口腔、乳房及皮肤出现水泡和烂斑，初期体温升高至42～43°C。",
+    "reference_case": "猪水泡病的主要症状包括蹄、鼻、口腔、乳房及皮肤出现水泡和烂斑，初期体温升高至40～41°C，随后体温正常，病猪行走困难、跛拐，严重时卧地不起。哺乳仔猪发病常因严重的心肌炎和胃肠炎而死亡。",
+    "error_detail": "体温数值错误",
+    "original_question": "猪水泡病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪水泡病以3月份、4月份、9月份、10月份较常见。",
+    "reference_case": "猪水泡病以1月份、2月份、11月份、12月份较常见。",
+    "error_detail": "错误的高发月份",
+    "original_question": "猪水泡病的高发月份是哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "初生仔猪出生后就表现症状，一般在5日龄后症状逐渐消失，少数持续2个月恢复正常。",
+    "reference_case": "初生仔猪出生后就表现症状，一般在10日龄后症状逐渐消失，少数持续1个月恢复正常，病仔猪可见头部、四肢和尾部肌肉抖动，严重病例全身肌肉震颤，特别严重的则全身呈现不随意的上下跳动姿势。",
+    "error_detail": "修改了症状消失和恢复的时间，导致数据偏差。",
+    "original_question": "猪先天性震颤的主要症状是什么？",
+    "original_input": ""
+  }
+]

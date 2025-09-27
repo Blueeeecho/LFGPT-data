@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低温增加的采食量远高于高温下的减少量；高温尤其是30°C以上的高温能极显著地增加日增重。",
+    "reference_case": "低温增加的采食量远低于高温下的减少量；高温尤其是30°C以上的高温能极显著地降低日增重。",
+    "error_detail": "错误地反转了低温和高温对猪日增重的影响",
+    "original_question": "低温和高温对猪日增重的影响有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "生长肥育猪的最适宜温度范围是25至28°C。",
+    "reference_case": "生长肥育猪的最适宜温度范围是18至21°C。",
+    "error_detail": "提供了过时或不准确的温度范围",
+    "original_question": "猪最适宜的生长发育温度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的散热大于产热，通过减少呼吸蒸发和辐射散热来调节体温平衡。",
+    "reference_case": "猪的产热大于散热，通过增加呼吸蒸发和辐射散热，或通过减少采食量进而减少体热产生来调节体温平衡，仍不能维持体温平衡时，猪体温升高，可能导致热射病。",
+    "error_detail": "错误地描述了猪的产热和散热关系",
+    "original_question": "环境温度超过等热区上限对猪体温有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "热应激可导致生产性能下降，进而引起机体免疫力下降、胃肠黏膜破坏、繁殖力下降等。",
+    "reference_case": "热应激可导致机体免疫力下降、胃肠黏膜破坏、繁殖力下降、畜产品品质降低、营养需要量增加或缺乏、生产性能下降等。",
+    "error_detail": "错误地颠倒了热应激和生产性能下降之间的因果关系",
+    "original_question": "热应激对猪有哪些危害？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "热应激导致猪肠黏膜结构轻微损伤，线毛长度、宽度、隐窝深度增加，杯状细胞数量减少。",
+    "reference_case": "热应激导致猪肠黏膜结构严重损伤，线毛长度、宽度、隐窝深度减少，杯状细胞数量增多，肠黏膜上皮细胞表面的碱性磷酸酶活性明显降低，消化吸收功能严重受阻。",
+    "error_detail": "错误地描述了热应激对猪肠黏膜结构的影响",
+    "original_question": "热应激对猪肠道黏膜结构有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "高温对生长猪的日粮能量浓度有直接影响，会增加其能量浓度。",
+    "reference_case": "高温对生长猪的日粮能量浓度没有直接影响，但会影响其采食量和代谢能摄入量。",
+    "error_detail": "错误地描述了高温对日粮能量浓度的影响",
+    "original_question": "高温对生长猪的日粮能量浓度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高温会导致生长猪的采食量上升，上升幅度与温度呈线性关系。",
+    "reference_case": "高温会导致生长猪的采食量下降，下降幅度与温度呈二次函数关系。体重越小的猪，对低温越敏感，而体重越大的猪，对高温越敏感。",
+    "error_detail": "错误地描述了高温对生长猪采食量的影响",
+    "original_question": "高温如何影响生长猪的采食量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "热应激会稳定猪体内的内分泌活动，导致甲状腺素、肾上腺素等激素分泌正常。",
+    "reference_case": "热应激会改变猪体内的内分泌活动，导致甲状腺素、肾上腺素等激素分泌紊乱，从而降低糖类、脂类和蛋白质的代谢活动，进而降低猪的增重速度。",
+    "error_detail": "错误地描述了热应激对猪内分泌活动的影响",
+    "original_question": "热应激如何影响猪的内分泌活动？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪的增重速度减慢导致热应激通过改变猪体内的内分泌活动和摄食中枢兴奋性降低。",
+    "reference_case": "热应激通过改变猪体内的内分泌活动和摄食中枢兴奋性降低，导致猪的增重速度减慢。",
+    "error_detail": "错误地颠倒了热应激和增重速度减慢之间的因果关系",
+    "original_question": "热应激对猪增重速度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "气温每升高1°C，猪的日采食量下降约20克。",
+    "reference_case": "气温每升高1°C，猪的日采食量下降约40克。若环境温度超出最佳温度5~10°C，则每天采食量将下降200~400克。",
+    "error_detail": "错误地低估了气温升高对猪采食量的影响",
+    "original_question": "气温升高对猪采食量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "体重越大的猪对低温越敏感，而体重越小的猪对高温越敏感。",
+    "reference_case": "体重越小的猪对低温越敏感，而体重越大的猪对高温越敏感。",
+    "error_detail": "错误地描述了不同体重猪对温度敏感性的差异",
+    "original_question": "不同体重的猪对热应激的敏感性有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪可以在温度较低的时间里集中采食更多的饲料，因此昼夜温度有波动的高温相比持续高温对猪采食量的影响更大。",
+    "reference_case": "昼夜温度有波动的高温相比持续高温对猪采食量的影响较小，因为猪可以在温度较低的时间里集中采食更多的饲料。",
+    "error_detail": "错误地颠倒了昼夜温度波动和采食量影响之间的关系",
+    "original_question": "昼夜温度波动对猪采食量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低温饲养的猪相较高温饲养的猪，瘦肉率更低，脂肪含量更高。",
+    "reference_case": "环境温度对生长肥育猪的胴体品质有显著影响。低温饲养的猪相较高温饲养的猪，瘦肉率更高，脂肪含量更低。",
+    "error_detail": "错误地描述了低温对猪胴体品质的影响",
+    "original_question": "环境温度如何影响生长肥育猪的胴体品质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "高温和低温都可能导致饲料转化率提高，但在25~30℃的高温对饲料转化率有显著影响。",
+    "reference_case": "高温和低温都可能导致饲料转化率降低，但在25~30℃的高温对饲料转化率没有显著影响。从经济角度看，高温下的效益比低温更低，因为高温会减缓生长速度，延长出栏时间，且高温对猪的健康危害更大。",
+    "error_detail": "错误地描述了温度对饲料转化率的影响",
+    "original_question": "高温和低温对生长肥育猪的饲料转化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在15~25℃范围内，猪可以通过行为学变化来适应温度变化。",
+    "reference_case": "在22~32℃范围内，猪可以通过行为学变化来适应温度变化。超过这一范围时，猪的体温将无法保持平衡，开始上升，此时生理生化反应开始起作用。",
+    "error_detail": "提供了不准确的温度适应范围",
+    "original_question": "猪在环境温度22~32℃范围内如何适应温度变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "食欲下降导致热应激使体内大部分血液由内脏分流到皮肤。",
+    "reference_case": "热应激使体内大部分血液由内脏分流到皮肤，导致流向内脏器官的血液减少，特别是肝脏和胃肠道等代谢最旺盛的器官受影响，引起胃肠道微循环缺血，随后发生淤血和出血，消化道供氧不足，导致胃肠黏膜上皮细胞变性和坏死，降低胃肠道的屏障功能，最终导致肠黏膜损伤。受损肠黏膜细胞变得不紧密，使内毒素大量进入血液循环系统，引起一系列伤害和急性免疫反应，加重热应激，导致食欲下降。",
+    "error_detail": "错误地颠倒了热应激和食欲下降之间的因果关系",
+    "original_question": "热应激为什么会大幅降低猪的采食量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "热应激导致肠道微生态平衡更加稳定，进而使动物营养状况改善、免疫力提升。",
+    "reference_case": "热应激导致肠道微生态平衡被打破，进而使动物出现营养不良、免疫力下降甚至疾病。",
+    "error_detail": "错误地描述了热应激对肠道微生态平衡的影响",
+    "original_question": "热应激如何影响猪的肠道微生态平衡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "热应激导致微循环流量增加，引发组织细胞氧合过度，有氧酵解加强。",
+    "reference_case": "热应激导致微循环流量减少，引发组织细胞缺氧，无氧酵解加强，产生乳酸等酸性代谢产物，同时尿量减少不能充分排出，导致代谢性酸中毒。高温时，钾和碳酸盐排出量增加，氯和钠的排出减少，影响体液平衡和矿物质代谢，导致细胞液成分丧失、细胞器功能性降低，使血液HCO3-减少，血液pH值上升，且醛固酮分泌增加，加强保钠排钾作用，使机体钾水平下降，影响电解质平衡。",
+    "error_detail": "错误地描述了热应激对微循环和组织细胞的影响",
+    "original_question": "热应激如何影响猪的酸碱平衡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "热应激时，日粮中应减少电解质（如钠、钾和氯化物），确保电解质平衡值在150毫当量/千克左右。",
+    "reference_case": "热应激时，日粮中应增加电解质（如钠、钾和氯化物），确保电解质平衡值在250毫当量/千克左右，以避免代谢性碱中毒和酸中毒。可添加氯化钾等电解质，提高猪对高温的耐受力，缓解应激反应。在热应激时，日粮或饮水中添加氯化钾(KCl)以补充钾离子，但要注意过多氯化物会降低血液中碳酸氢盐的浓度。",
+    "error_detail": "提供了过时或不准确的电解质调整建议",
+    "original_question": "热应激时如何通过日粮调整维持猪的电解质平衡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "热应激时，通过减少饲料或饮水中氯化钾(KCl)的添加量，降低猪对高温的耐受力。",
+    "reference_case": "热应激时，通过饲料或饮水中添加氯化钾(KCl)补充电解质等成分，提高猪对高温的耐受力，缓解应激反应。重要的是避免过多的氯化物，以免降低血液中碳酸氢盐的浓度。",
+    "error_detail": "错误地描述了热应激时电解质补充的策略",
+    "original_question": "热应激时如何提高猪对高温的耐受力？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "羊布鲁菌病的免疫接种方法是使用干燥布鲁菌猪型二号（S2:菌苗，用生理盐水将疫苗稀释成每毫升含100亿个菌，肌肉注射2毫升。",
+    "reference_case": "羊布鲁菌病的免疫接种方法是使用干燥布鲁菌猪型二号（S2:菌苗，用生理盐水将疫苗稀释成每毫升含50亿个菌，肌肉注射1毫升。",
+    "error_detail": "数值偏差，菌数和注射量错误",
+    "original_question": "羊布鲁菌病的免疫接种方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "生猪中暑症是日射病和热射病的总称，主要由强光和低温刺激引起。",
+    "reference_case": "生猪中暑症是日射病和热射病的总称，主要由强光和高温刺激引起，导致生猪产生强烈的热应激反应，进而引发脑中枢神经的急性病变和功能严重障碍。",
+    "error_detail": "术语错误，低温应为高温",
+    "original_question": "什么是生猪中暑症？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "生猪中暑症的主要临床症状包括呼吸急迫、心跳过速、体温升高、眼结膜严重充血、呕吐、昏迷和共济失调等，以及皮肤出现红斑。",
+    "reference_case": "生猪中暑症的主要临床症状包括呼吸急迫、心跳过速、体温升高、眼结膜严重充血、呕吐、昏迷和共济失调等。",
+    "error_detail": "添加了过时的临床症状",
+    "original_question": "生猪中暑症的主要临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在长途运输中，可能诱发生猪中暑症的因素包括运输工具的集装箱通风不良、空间狭小、过分拥挤、高温、高湿和强烈阳光曝晒等，以及在寒冷地区的低温。",
+    "reference_case": "在长途运输中，可能诱发生猪中暑症的因素包括运输工具的集装箱通风不良、空间狭小、过分拥挤、高温、高湿和强烈阳光曝晒等。",
+    "error_detail": "添加了不相关的地域因素",
+    "original_question": "在长途运输中，哪些因素可能诱发生猪中暑症？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "通过采用单层楼式四围栏杆箱设计的运输车辆，可以保证空气流通性和散热性能良好。",
+    "reference_case": "通过采用多层楼式四围栏杆箱设计的运输车辆，可以保证空气流通性和散热性能良好。层高建议为0:9至1:0米，最多以3层为宜，并可以加入饮水装置，饮水中配兑抗热应激药物。",
+    "error_detail": "指令偏离，单层楼式与多层楼式冲突",
+    "original_question": "如何通过运输车辆的设计来预防生猪中暑症？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "在夏季长途运输生猪时，应尽量避免在光照强、气温高的午间运输，选择在早晨和下午气温较低时进行运输较为理想，但也可以在午间运输。",
+    "reference_case": "在夏季长途运输生猪时，应尽量避免在光照强、气温高的午间运输，选择在早晨和下午气温较低时进行运输较为理想。",
+    "error_detail": "逻辑矛盾，午间运输与避免午间运输矛盾",
+    "original_question": "在夏季长途运输生猪时，应如何安排运输时间以减少中暑风险？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "对于急性发病的生猪，应迅速将其放置于阴凉通风地点，保持安静，并以凉水喷洒降温，先头部、后全身。降热较快的办法是用柔韧塑料管引凉水经肛门灌肠2至5分钟，假设生猪能够耐受。",
+    "reference_case": "对于急性发病的生猪，应迅速将其放置于阴凉通风地点，保持安静，并以凉水喷洒降温，先头部、后全身。降热较快的办法是用柔韧塑料管引凉水经肛门灌肠2至5分钟。",
+    "error_detail": "添加了不必要的假设",
+    "original_question": "对于急性发病的生猪，应采取哪些紧急救治措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "运输车辆应保持匀速行驶，以60至70迈为宜，禁止急转弯、频繁加减速等不当操作，以减少热应激反应。",
+    "reference_case": "运输车辆应保持匀速行驶，以40至50迈为宜，禁止急转弯、频繁加减速等不当操作，以减少热应激反应。",
+    "error_detail": "数值偏差，速度范围错误",
+    "original_question": "在运输过程中，如何操作运输车辆以减少生猪的热应激反应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对于表现嘶鸣、狂躁症候的生猪，应采取耳尖放血的同时，肌肉注射5%氯丙嗪5至10毫升。",
+    "reference_case": "对于表现嘶鸣、狂躁症候的生猪，应采取耳尖放血的同时，肌肉注射2%氯丙嗪5至10毫升。",
+    "error_detail": "数值偏差，氯丙嗪浓度错误",
+    "original_question": "对于表现嘶鸣、狂躁症候的生猪，应采取哪些救治措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在剖检病死猪时，通常会观察到脑膜充血、水肿、大面积出血；胸膜、心包膜、肠系膜均有不同程度的淤血和浆液性炎症，以及肝脏肿大。",
+    "reference_case": "在剖检病死猪时，通常会观察到脑膜充血、水肿、大面积出血；胸膜、心包膜、肠系膜均有不同程度的淤血和浆液性炎症。",
+    "error_detail": "添加了不相关的病理变化",
+    "original_question": "在剖检病死猪时，通常会观察到哪些病理变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "使用复方磺胺肌肉注射治疗生猪中暑症时，需注意该药休药期较短，可以频繁使用。",
+    "reference_case": "使用复方磺胺肌肉注射治疗生猪中暑症时，需注意该药休药期较长，只有在特殊情况下才可使用。使用后，需在患畜恢复健康后再以绿色环保饲料铝养10天以上，待药物完全排出体外，方可进行屠宰、加工和出售。",
+    "error_detail": "指令偏离，休药期描述错误",
+    "original_question": "使用复方磺胺肌肉注射治疗生猪中暑症时，需要注意哪些事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "健康猪屠宰时，放血刀口会呈现内翻状态，刀口两侧的组织光滑平整，触感较软。",
+    "reference_case": "健康猪屠宰时，放血刀口会呈现外翻状态，刀口两侧的组织粗糙不平，触感较硬实。",
+    "error_detail": "术语错误，内翻应为外翻",
+    "original_question": "健康猪屠宰时放血刀口的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "急宰猪的胴体放血程度与健康猪相同，肉呈鲜红色，具有健康肉所具备的光泽。",
+    "reference_case": "急宰猪只有轻微的放血不良，肉呈暗红色，没有健康肉所具备的光泽，有时还可见肌肉中的血管有积血，呈暗红色。",
+    "error_detail": "术语错误，放血程度描述错误",
+    "original_question": "急宰猪的胴体放血程度与健康猪有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟在屠宰检疫中常见的病例类型为急性和亚急性两种。",
+    "reference_case": "猪瘟在屠宰检疫中常见的病例类型为急性和慢性两种。",
+    "error_detail": "术语错误，亚急性应为慢性",
+    "original_question": "猪瘟在屠宰检疫中常见的病例类型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪丹毒的急性型“大红袍”病猪的全身皮肤充血，呈现大红至暗红色；全身淋巴结充血、水肿；脾肿大，边缘变薄；肾脏呈暗红色、肿大，表面布满出血点，以及肝脏肿大。",
+    "reference_case": "猪丹毒的急性型“大红袍”病猪的全身皮肤充血，呈现大红至暗红色；全身淋巴结充血、水肿；脾肿大，边缘变薄；肾脏呈暗红色、肿大，表面布满出血点。",
+    "error_detail": "添加了不相关的病理变化",
+    "original_question": "猪丹毒的急性型“大红袍”在检疫中有哪些特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肺疫在宰后检疫中，以纤维素性坏死性肺炎为特征。猪开膛后，发现肺部与胸腔粘连，肺与胸腔间有大量脓样、纤维样、胶冻样物，肺有不同程度的肝变区（肉变），肝变区周围有水肿和气肿。气管、支气管有大量泡沫状黏液，以及心脏肥大。",
+    "reference_case": "猪肺疫在宰后检疫中，以纤维素性坏死性肺炎为特征。猪开膛后，发现肺部与胸腔粘连，肺与胸腔间有大量脓样、纤维样、胶冻样物，肺有不同程度的肝变区（肉变），肝变区周围有水肿和气肿。气管、支气管有大量泡沫状黏液。",
+    "error_detail": "添加了不相关的病理变化",
+    "original_question": "猪肺疫在宰后检疫中的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "瘦肉精猪肉的检测方法包括使用莱克多巴胺、克伦特罗、沙丁胺醇快速检测卡检测猪尿，以及通过观察皮下脂肪层厚度、瘦肉色泽和pH值检测，以及DNA检测。",
+    "reference_case": "瘦肉精猪肉的检测方法包括使用莱克多巴胺、克伦特罗、沙丁胺醇快速检测卡检测猪尿，以及通过观察皮下脂肪层厚度、瘦肉色泽和pH值检测。",
+    "error_detail": "添加了不相关的检测方法",
+    "original_question": "瘦肉精猪肉的检测方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "含有瘦肉精的猪肉在pH值检测中偏碱性，pH值明显大于正常范围。",
+    "reference_case": "含有瘦肉精的猪肉在pH值检测中偏酸性，pH值明显小于正常范围。正常新鲜猪肉多呈中性和弱碱性，宰后1h pH值为6:2-6:3；自然条件下，冷却6h以上，pH值为5:6-6:0。",
+    "error_detail": "数值偏差，pH值描述错误",
+    "original_question": "含有瘦肉精的猪肉在pH值检测中与正常猪肉有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痘病的致病原是痘病毒，属于RNA型病毒，为痘病毒科病毒。",
+    "reference_case": "猪痘病的致病原是痘病毒，属于DNA型病毒，为痘病毒科病毒。",
+    "error_detail": "术语错误，RNA应为DNA",
+    "original_question": "猪痘病的致病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痘病毒在自然界中的唯一宿主是猪和牛。",
+    "reference_case": "猪痘病毒在自然界中的唯一宿主是猪。",
+    "error_detail": "术语错误，添加了不相关的宿主",
+    "original_question": "猪痘病毒在自然界中的唯一宿主是什么？",
+    "original_input": ""
+  }
+]

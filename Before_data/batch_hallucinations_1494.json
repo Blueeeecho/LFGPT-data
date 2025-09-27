@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "燕麦壳必须磨碎才能喂猪，细磨和中磨比粗磨好，细磨的比例应达到90%。",
+    "reference_case": "燕麦壳必须磨碎才能喂猪，细磨和中磨比粗磨好。",
+    "error_detail": "添加了不存在的细磨比例数据",
+    "original_question": "燕麦壳磨碎后如何饲喂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "燕麦壳的粗纤维含量高，能量低，不宜作为猪的主要能量饲料来源，也不适于作肥育用，妊娠母猪和哺乳母猪用量不得超过50%，肉猪宜低于30%。",
+    "reference_case": "燕麦壳的粗纤维含量高，能量低，不宜作为猪的主要能量饲料来源，也不适于作肥育用，妊娠母猪和哺乳母猪用量不得超过40%~15%，肉猪宜低于20%。",
+    "error_detail": "使用了过时的用量标准",
+    "original_question": "燕麦壳作为猪的主要能量饲料来源有哪些限制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪对马铃薯的干物质和无氮浸出物的消化率很高（分别为80%及85%）。",
+    "reference_case": "猪对马铃薯的干物质和无氮浸出物的消化率很高（分别为94%及96%）。",
+    "error_detail": "降低了消化率的数值",
+    "original_question": "马铃薯对猪的消化利用率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生马铃薯的龙葵素含量超过50 mg时，有致猪中毒的危险。",
+    "reference_case": "生马铃薯的龙葵素含量超过20 mg时，有致猪中毒的危险。",
+    "error_detail": "提高了中毒的龙葵素含量阈值",
+    "original_question": "什么情况下用马铃薯喂猪时会导致中毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "木薯块根中含氰甙配糖体，在高温下经酶水解产生具有毒性的氢氰酸，未去毒的木薯喂猪易引起中毒。",
+    "reference_case": "木薯块根中含氰甙配糖体，在常温下经酶水解产生具有毒性的氢氰酸，未去毒的木薯喂猪易引起中毒。",
+    "error_detail": "将常温错误地改为高温",
+    "original_question": "未经处理的木薯为什么不能直接喂猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪糖蜜添加水平以5% ~ 10%为宜。",
+    "reference_case": "生长肥育猪糖蜜添加水平以10% ~ 20%为宜。",
+    "error_detail": "降低了糖蜜的添加水平",
+    "original_question": "糖蜜添加在日粮中的适宜水平是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "油脂在猪日粮中没有任何改进作用。",
+    "reference_case": "可配制能量浓度高的日粮，补充亚油酸的不足，调节饱和与不饱和脂肪酸的比值，减少粉尘损失，减轻热应激损失，提高粗纤维的饲用价值，提高日粮的适口性，改善饲料外观，增强颗粒饲料的制粒效果，减少混合饲料机具的磨损。",
+    "error_detail": "完全否定了油脂的作用，与事实矛盾",
+    "original_question": "油脂在猪日粮中的哪些方面有改进作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在母猪妊娠后期和哺乳前期日粮中添加油脂，可提高仔猪成活率5%，增加断奶仔猪数0.5头/窝，提高母猪日采食代谢能量2倍，提高母猪断奶后6天内发情率至95%，30天内发情率至98%。",
+    "reference_case": "在母猪妊娠后期和哺乳前期日粮中添加油脂，可提高仔猪成活率2.6%，增加断奶仔猪数0.3头/窝，提高母猪日采食代谢能量1倍，提高母猪断奶后6天内发情率至92%，30天内发情率至96%。",
+    "error_detail": "夸大了油脂添加的效果",
+    "original_question": "添加油脂对母猪有何具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠、哺乳母猪添加量为20%-25%，仔猪开食料添加量为15%-20%，生长肥育猪添加量为10%-15%。",
+    "reference_case": "妊娠、哺乳母猪添加量为10%-15%，仔猪开食料添加量为5%-10%，生长肥育猪添加量为3%-5%。",
+    "error_detail": "提高了油脂的添加量",
+    "original_question": "油脂添加量如何根据猪的不同阶段调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鱼粉在猪日粮中的推荐添加比例为5%至10%，也有建议添加10%至15%。国产鱼粉蛋白质含量较低，在日粮配方中，母猪用12%，仔猪用24%，生长肥育猪用11%至24%，若食盐含量高，其用量应减少。",
+    "reference_case": "鱼粉在猪日粮中的推荐添加比例为1%至3%，也有建议添加2%至5%。国产鱼粉蛋白质含量较低，在日粮配方中，母猪用6%，仔猪用12%，生长肥育猪用5.5%至12.0%，若食盐含量高，其用量应减少。",
+    "error_detail": "提高了鱼粉的推荐添加比例",
+    "original_question": "鱼粉在猪日粮中的推荐添加比例是多少？",
+    "original_input": ""
+  }
+]

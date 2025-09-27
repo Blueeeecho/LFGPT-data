@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪蓝耳病对猪养殖业的主要危害包括种猪繁殖障碍、哺乳仔猪和保育猪感染死亡率高达90%、育肥猪呼吸道症状严重、持续性感染以及造成免疫抑制。",
+    "reference_case": "猪蓝耳病对猪养殖业的主要危害包括种猪繁殖障碍、哺乳仔猪和保育猪感染死亡率高、育肥猪呼吸道症状严重、持续性感染以及造成免疫抑制。",
+    "error_detail": "错误地提高了哺乳仔猪和保育猪感染死亡率的具体数值",
+    "original_question": "猪蓝耳病对猪养殖业的主要危害有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪囊虫病的病原是猪囊虫，它是寄生在猪体内有钩绦虫的幼虫。",
+    "reference_case": "猪囊虫病的病原是猪囊虫，它是寄生在人体内有钩绦虫的幼虫。",
+    "error_detail": "错误地将寄生在人体内的有钩绦虫的幼虫说成是寄生在猪体内",
+    "original_question": "猪囊虫病的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪囊虫病的主要传播途径是猪采食了被猪排出的绦虫虫卵或孕节污染的饲料或饮水。",
+    "reference_case": "猪囊虫病的主要传播途径是猪采食了被人类排出的绦虫虫卵或孕节污染的饲料或饮水。",
+    "error_detail": "错误地将人类排出的绦虫虫卵或孕节说成是猪排出的",
+    "original_question": "猪囊虫病的主要传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪囊虫病在我国所有省份均有发生，有吃生肉习惯的地区发病率较高。该病一年四季均可发生，多为散发。",
+    "reference_case": "猪囊虫病在我国大多数省份均有发生，有吃生肉习惯的地区发病率较高。该病一年四季均可发生，多为散发。",
+    "error_detail": "错误地将'大多数省份'改为'所有省份'",
+    "original_question": "猪囊虫病的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪囊虫病的综合防治措施包括控制传染源、做好检疫工作、定期驱虫、宣传与监测。具体措施包括采用清洁的饲养模式、定期对牲畜进行驱虫、利用宣传媒体向公众宣传该病的危害性及防治措施、定期开展普查和监测、以及使用抗生素治疗。",
+    "reference_case": "猪囊虫病的综合防治措施包括控制传染源、做好检疫工作、定期驱虫、宣传与监测。具体措施包括采用清洁的饲养模式、定期对牲畜进行驱虫、利用宣传媒体向公众宣传该病的危害性及防治措施、定期开展普查和监测。",
+    "error_detail": "错误地添加了'使用抗生素治疗'这一不相关的措施",
+    "original_question": "猪囊虫病的综合防治措施包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪囊虫病的诊断主要通过在病猪头部的咬肌、肉尸检疫的腰肌或其他脏器内发现猪囊虫来确诊。此外，对血液采用饱和盐水漂浮方式进行镜检，如能够找到虫卵或彻底洗净后发现孕节，也可确诊。",
+    "reference_case": "猪囊虫病的诊断主要通过在病猪头部的咬肌、肉尸检疫的腰肌或其他脏器内发现猪囊虫来确诊。此外，对粪便采用饱和盐水漂浮方式进行镜检，如能够找到虫卵或彻底洗净后发现孕节，也可确诊。",
+    "error_detail": "错误地将'粪便'改为'血液'",
+    "original_question": "如何诊断猪囊虫病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪囊虫病在猪体内的临床症状包括营养不良、生长发育迟缓、贫血和水肿。当囊尾蚴侵犯某些器官时，可出现与该器官相应的临床症状，如呼吸困难、声音嘶哑、吞食困难、癫病和急性脑炎症状，以及心脏病。",
+    "reference_case": "猪囊虫病在猪体内的临床症状包括营养不良、生长发育迟缓、贫血和水肿。当囊尾蚴侵犯某些器官时，可出现与该器官相应的临床症状，如呼吸困难、声音嘶哑、吞食困难、癫病和急性脑炎症状。",
+    "error_detail": "错误地添加了'心脏病'这一不相关的症状",
+    "original_question": "猪囊虫病在猪体内的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪传染性胃肠炎病毒（TGEV）的S蛋白分为A、B、C、D、E五个抗原位点，从氨基末端开始为B、C、D和A。",
+    "reference_case": "猪传染性胃肠炎病毒（TGEV）的S蛋白分为A、B、C、D四个抗原位点，从氨基末端开始为B、C、D和A。",
+    "error_detail": "错误地添加了'E'这一不存在的抗原位点",
+    "original_question": "猪传染性胃肠炎病毒（TGEV）的S蛋白分为哪几个抗原位点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "TGEV的S蛋白具有以下主要生物学功能：携带主要的B淋巴细胞抗原决定簇，能够诱导产生中和抗体并提供免疫保护；含有宿主细胞氨肽酶受体（APN）的识别位点，决定宿主细胞的亲嗜性；决定TGEV的致病性；具有细胞融合作用，使病毒蛋白进入细胞浆；决定TGEV的血凝作用；以及促进病毒在环境中的存活。",
+    "reference_case": "TGEV的S蛋白具有以下主要生物学功能：携带主要的B淋巴细胞抗原决定簇，能够诱导产生中和抗体并提供免疫保护；含有宿主细胞氨肽酶受体（APN）的识别位点，决定宿主细胞的亲嗜性；决定TGEV的致病性；具有细胞融合作用，使病毒蛋白进入细胞浆；决定TGEV的血凝作用。",
+    "error_detail": "错误地添加了'促进病毒在环境中的存活'这一未经证实的假设",
+    "original_question": "猪传染性胃肠炎病毒（TGEV）的S蛋白有哪些主要生物学功能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪的不同组织中，Jiv基因的表达量存在显著差异。肠系膜淋巴结中Jiv基因的表达量最高，而心脏中的表达量最低。",
+    "reference_case": "在猪的不同组织中，Jiv基因的表达量存在显著差异。肠系膜淋巴结中Jiv基因的表达量最高，而肝脏中的表达量最低。",
+    "error_detail": "错误地将'肝脏'改为'心脏'",
+    "original_question": "在猪的不同组织中，Jiv基因的表达量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在CSFV感染猪的脾脏中，Jiv基因的表达水平显著上调，与CSFV阴性猪相比有显著差异（p<0:01:。",
+    "reference_case": "在CSFV感染猪的脾脏中，Jiv基因的表达水平显著上调，与CSFV阴性猪相比有显著差异（p<0:05:。",
+    "error_detail": "错误地改变了p值的显著性水平",
+    "original_question": "在CSFV感染猪和阴性猪的脾脏中，Jiv基因的表达水平有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "Jiv蛋白是一种与猪瘟病毒（CSFV）复制密切相关的细胞分子伴侣。研究发现，Jiv蛋白在CSFV感染细胞过程中发挥着重要作用，特别是在病毒DNA复制和细胞病变效应（CPE）的出现中。",
+    "reference_case": "Jiv蛋白是一种与猪瘟病毒（CSFV）复制密切相关的细胞分子伴侣。研究发现，Jiv蛋白在CSFV感染细胞过程中发挥着重要作用，特别是在病毒RNA复制和细胞病变效应（CPE）的出现中。",
+    "error_detail": "错误地将'RNA复制'改为'DNA复制'",
+    "original_question": "什么是Jiv蛋白，它与猪瘟病毒（CSFV）有什么关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的Cap蛋白亚单位疫苗和灭活疫苗在攻毒试验中均提供了部分保护。",
+    "reference_case": "猪圆环病毒2型（PCV2:的Cap蛋白亚单位疫苗和灭活疫苗在攻毒试验中均提供了完全保护。",
+    "error_detail": "错误地将'完全保护'改为'部分保护'",
+    "original_question": "猪圆环病毒2型（PCV2:的Cap蛋白亚单位疫苗和灭活疫苗在攻毒试验中的保护效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的Rep和Rep'蛋白亚单位疫苗在攻毒试验中显示出部分保护作用。",
+    "reference_case": "猪圆环病毒2型（PCV2:的Rep和Rep'蛋白亚单位疫苗在攻毒试验中未显示出保护作用。",
+    "error_detail": "错误地添加了'部分保护作用'",
+    "original_question": "猪圆环病毒2型（PCV2:的Rep和Rep'蛋白亚单位疫苗在攻毒试验中的保护效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪圆环病毒2型（PCV2:的亚单位疫苗研究中，Rep、Rep'、Cap和Env蛋白被用作疫苗的候选。",
+    "reference_case": "在猪圆环病毒2型（PCV2:的亚单位疫苗研究中，Rep、Rep'和Cap蛋白被用作疫苗的候选。",
+    "error_detail": "错误地添加了'Env蛋白'这一不相关的蛋白",
+    "original_question": "在猪圆环病毒2型（PCV2:的亚单位疫苗研究中，哪些蛋白被用作疫苗的候选？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的Cap蛋白亚单位疫苗在血清中和试验中的中和抗体效价为1:1,600，而灭活疫苗的中和抗体效价为1:400。",
+    "reference_case": "猪圆环病毒2型（PCV2:的Cap蛋白亚单位疫苗在血清中和试验中的中和抗体效价为1:1,600，而灭活疫苗的中和抗体效价为1:800。",
+    "error_detail": "错误地降低了灭活疫苗的中和抗体效价",
+    "original_question": "猪圆环病毒2型（PCV2:的Cap蛋白亚单位疫苗和灭活疫苗在血清中和试验中的中和抗体效价分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的Rep和Rep'蛋白亚单位疫苗在血清中和试验中检测到中和抗体，表明这些抗体有中和病毒活性。",
+    "reference_case": "猪圆环病毒2型（PCV2:的Rep和Rep'蛋白亚单位疫苗在血清中和试验中未检测到中和抗体，表明这些抗体无中和病毒活性。",
+    "error_detail": "错误地声称检测到中和抗体",
+    "original_question": "猪圆环病毒2型（PCV2:的Rep和Rep'蛋白亚单位疫苗在血清中和试验中的中和抗体效价如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的Rep蛋白亚单位疫苗在攻毒后鼠肺脏中的病毒载量为4:75×10^9拷贝/g至5:60×10^11拷贝/g，而Rep'蛋白亚单位疫苗的病毒载量为4:19×10^9拷贝/g至5:56×10^12拷贝/g。",
+    "reference_case": "猪圆环病毒2型（PCV2:的Rep蛋白亚单位疫苗在攻毒后鼠肺脏中的病毒载量为4:75×10^9拷贝/g至5:60×10^11拷贝/g，而Rep'蛋白亚单位疫苗的病毒载量为4:19×10^9拷贝/g至5:56×10^10拷贝/g。",
+    "error_detail": "错误地提高了Rep'蛋白亚单位疫苗的病毒载量上限",
+    "original_question": "猪圆环病毒2型（PCV2:的Rep和Rep'蛋白亚单位疫苗在攻毒后鼠肺脏中的病毒载量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的ORF1基因编码Rep/Rep'蛋白，这些蛋白与病毒复制酶相关；ORF2基因编码Env蛋白，构成病毒的核衣壳，是病毒的主要保护性抗原。",
+    "reference_case": "猪圆环病毒2型（PCV2:的ORF1基因编码Rep/Rep'蛋白，这些蛋白与病毒复制酶相关；ORF2基因编码Cap蛋白，构成病毒的核衣壳，是病毒的主要保护性抗原。",
+    "error_detail": "错误地将'Cap蛋白'改为'Env蛋白'",
+    "original_question": "猪圆环病毒2型（PCV2:的ORF1和ORF2基因分别编码哪些蛋白？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的Cap蛋白亚单位疫苗在免疫后第35天的抗体效价为1:2,133，而灭活疫苗的抗体效价为1:533。",
+    "reference_case": "猪圆环病毒2型（PCV2:的Cap蛋白亚单位疫苗在免疫后第35天的抗体效价为1:2,133，而灭活疫苗的抗体效价为1:333。",
+    "error_detail": "错误地提高了灭活疫苗的抗体效价",
+    "original_question": "猪圆环病毒2型（PCV2:的Cap蛋白亚单位疫苗和灭活疫苗在免疫后第35天的抗体效价分别是多少？",
+    "original_input": ""
+  }
+]

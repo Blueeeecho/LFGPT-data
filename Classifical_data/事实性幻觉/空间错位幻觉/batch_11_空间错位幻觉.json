@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "育成猪卵巢中，PAS阳性反应主要分布于卵泡液、黄体被膜及髓质的结缔组织和血管壁。",
+    "reference_case": "育成猪卵巢中，PAS阳性反应主要分布于基质、生长卵泡的卵泡膜、卵泡的透明带、次级卵泡的卵泡液、黄体被膜及髓质的结缔组织和血管壁。",
+    "error_detail": "错误地描述了PAS阳性反应的分布位置，遗漏了基质、生长卵泡的卵泡膜和卵泡的透明带。",
+    "original_question": "育成猪卵巢中PAS阳性反应主要分布在哪些部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "3日龄的猪卵巢皮质和髓质界限清晰，皮质部分由外向内依次分布着稀疏的卵原细胞和卵原细胞巢。",
+    "reference_case": "3日龄的猪卵巢皮质和髓质界限模糊，皮质部分由外向内依次分布着密集的卵原细胞和卵原细胞巢、共质体样的卵原细胞群，皮质深层与髓质相邻处分布着合胞体样的卵母细胞簇状结构和卵泡。",
+    "error_detail": "错误地描述了皮质和髓质界限为清晰，且卵原细胞和卵原细胞巢为稀疏分布，与事实不符。",
+    "original_question": "3日龄猪卵巢的皮质和髓质界限如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在猪乳头数性状的QTL定位研究中，总乳头数性状QTL定位的主要发现是在SSC18上成功定位到影响乳头数性状的QTL。",
+    "reference_case": "在猪乳头数性状的QTL定位研究中，总乳头数性状QTL定位的主要发现是在除SSC18外的所有常染色体上成功定位到影响乳头数性状的QTL。",
+    "error_detail": "错误地描述了在SSC18上成功定位到影响乳头数性状的QTL，与事实相反。",
+    "original_question": "在猪乳头数性状的QTL定位研究中，总乳头数性状QTL定位的主要发现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在每个单元靠近走廊的窗亮子上开设6个进风口，使预热好的新鲜空气进入每个单元，调节环境。",
+    "reference_case": "在每个单元靠近走廊的窗亮子上开设4个进风口，使预热好的新鲜空气进入每个单元，调节环境。",
+    "error_detail": "将进风口数量从4个错误地改为6个",
+    "original_question": "哺乳母猪舍的通风系统中，进风口的位置和数量是如何设计的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪生产实习的内容通常存在简单且过时的问题。学生往往只能参与一些辅助性工作，如打扫圈舍、清粪、消毒和猪群周转等，而无法接触到生产性及技术性强的工作，如规模化猪场的建筑与设计、选配计划的制定、人工授精、接产与护理、疫病防治和猪场废弃物无害化处理等。这种情况在美国尤为严重。",
+    "reference_case": "猪生产实习的内容通常存在简单且过时的问题。学生往往只能参与一些辅助性工作，如打扫圈舍、清粪、消毒和猪群周转等，而无法接触到生产性及技术性强的工作，如规模化猪场的建筑与设计、选配计划的制定、人工授精、接产与护理、疫病防治和猪场废弃物无害化处理等。",
+    "error_detail": "错误地指定了地域差异，导致空间错位幻觉。",
+    "original_question": "猪生产实习的内容通常存在哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "断奶后限饲能降低断奶后腹泻的发生率和溶血性大肠杆菌的增殖。限饲的断奶仔猪也能更快地从腹泻中恢复，但这一效果仅在特定地区有效。",
+    "reference_case": "断奶后限饲能降低断奶后腹泻的发生率和溶血性大肠杆菌的增殖。限饲的断奶仔猪也能更快地从腹泻中恢复。",
+    "error_detail": "错误地限定了效果的适用范围",
+    "original_question": "文章中提到断奶后限饲对仔猪腹泻的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "王不留行和大豆异黄酮的交互作用显著提高了泌乳第1至10天仔猪的平均日增重。",
+    "reference_case": "王不留行和大豆异黄酮的交互作用显著提高了泌乳第11至21天仔猪的平均日增重。",
+    "error_detail": "错误地改变了时间范围，原始输出为第11至21天。",
+    "original_question": "王不留行和大豆异黄酮的交互作用对泌乳母猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "2013年12月16日，商务部与农业部完成了生猪屠宰监督管理职责的移交工作，商务部的生猪屠宰监督管理职责划入农业部，同时农业部的水产养殖监督管理职责划入商务部。",
+    "reference_case": "2013年12月16日，商务部与农业部完成了生猪屠宰监督管理职责的移交工作，商务部的生猪屠宰监督管理职责划入农业部。",
+    "error_detail": "错误地添加了水产养殖监督管理职责的移交，原始输出未提及。",
+    "original_question": "2013年12月16日，商务部与农业部完成了哪项职责的移交工作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "小型猪近交系的研究成果于2013年12月16日在上海通过专家组鉴定。",
+    "reference_case": "小型猪近交系的研究成果于2013年12月16日在北京通过专家组鉴定。",
+    "error_detail": "错误的鉴定地点",
+    "original_question": "小型猪近交系的研究成果在何时何地通过专家组鉴定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "黄酒糟对育肥猪的血清碱性磷酸酶活性有显著影响，试验1组的血清碱性磷酸酶含量较对照组显著提高。",
+    "reference_case": "黄酒糟对育肥猪的血清碱性磷酸酶活性无显著影响，但试验1组的血清碱性磷酸酶含量较对照组有所提高，试验2组有所降低。",
+    "error_detail": "错误地声称黄酒糟对血清碱性磷酸酶活性有显著影响，导致空间错位幻觉。",
+    "original_question": "黄酒糟对育肥猪的血清碱性磷酸酶活性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在副猪嗜血杆菌的MLST分型研究中，YJ-1F和YJ-3F的等位基因谱和ST型完全一致。",
+    "reference_case": "在副猪嗜血杆菌的MLST分型研究中，YJ-1F和YJ-2F的等位基因谱和ST型完全一致。",
+    "error_detail": "错误地修改了菌株名称，从YJ-2F改为YJ-3F，导致空间错位幻觉。",
+    "original_question": "在副猪嗜血杆菌的MLST分型研究中，哪些菌株的等位基因谱和ST型完全一致？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在副猪嗜血杆菌的MLST分型研究中，H44（ST120:、H45（ST119:和SHD-1GJ（ST122:与德国的H425（ST19:无共同的起源。",
+    "reference_case": "在副猪嗜血杆菌的MLST分型研究中，H44（ST120:、H45（ST119:和SHD-1GJ（ST122:与德国的H425（ST19:有共同的起源。",
+    "error_detail": "错误地否认了共同起源，导致空间错位幻觉。",
+    "original_question": "在副猪嗜血杆菌的MLST分型研究中，哪些菌株与德国的H425（ST19:有共同的起源？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪瘟病毒（CSFV）的衣壳蛋白（C蛋白）在ST细胞中主要定位于细胞膜。",
+    "reference_case": "猪瘟病毒（CSFV）的衣壳蛋白（C蛋白）在ST细胞中主要定位于细胞质和核仁。",
+    "error_detail": "错误地将定位从细胞质和核仁改为细胞膜，导致空间错位幻觉。",
+    "original_question": "猪瘟病毒（CSFV）的衣壳蛋白（C蛋白）在ST细胞中的主要定位是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "SLC36A1 基因在梅山猪的心脏、肺、脾脏、胰腺等组织中表达量较低。",
+    "reference_case": "SLC36A1 基因在梅山猪的肝脏、肌肉、子宫、输卵管等组织中表达量较低。",
+    "error_detail": "组织类型错误",
+    "original_question": "SLC36A1 基因在梅山猪的哪些组织中表达量较低？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "SLC36A1 基因在梅山猪的大脑和脊髓中表达量较高。",
+    "reference_case": "SLC36A1 基因在梅山猪的肾脏和雄性生殖系统（如尿道球腺、精囊腺、附睾等）中表达量较高。",
+    "error_detail": "组织类型错误",
+    "original_question": "SLC36A1 基因在梅山猪的哪些组织中表达量较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "产气荚膜梭菌的感染在湖南和湖北两省的猪场中最为严重，尤其是在怀孕母猪、哺乳母猪和哺乳仔猪阶段。",
+    "reference_case": "产气荚膜梭菌的感染在广东和江西两省的猪场中最为严重，尤其是在怀孕母猪、哺乳母猪和哺乳仔猪阶段。",
+    "error_detail": "错误地改变了感染最严重的省份。",
+    "original_question": "产气荚膜梭菌的感染在哪些省份的猪场中最为严重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "大熊猫轮状病毒 CH-1 株 VP1 基因与牛 A 组轮状病毒 VP1 基因的进化距离最近。",
+    "reference_case": "大熊猫轮状病毒 CH-1 株 VP1 基因与猪 A 组轮状病毒 VP1 基因的进化距离最近。",
+    "error_detail": "错误地改变了最近的进化距离的动物种类。",
+    "original_question": "大熊猫轮状病毒 CH-1 株 VP1 基因与哪种动物的轮状病毒 VP1 基因进化距离最近？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "访情是通过母猪的求偶声、气味、鼻盘的触弄和爬跨等行为刺激公猪，促使母猪发情。每天早晚把母猪赶到公猪舍过道里，让它们相互接触，或让母猪直接爬跨公猪，对于严重乏情的母猪可关在母猪圈内混合饲养。",
+    "reference_case": "访情是通过公猪的求偶声、气味、鼻盘的触弄和爬跨等行为刺激母猪，促使母猪发情。每天早晚把公猪赶到母猪舍过道里，让它们相互接触，或让公猪直接爬跨母猪，对于严重乏情的母猪可关在公猪圈内混合饲养。",
+    "error_detail": "错误地交换了公猪和母猪的角色，导致信息不准确。",
+    "original_question": "访情是如何帮助母猪发情的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "2013年，农业部在全国所有省份开展了'瘦肉精'交叉拉网监测。",
+    "reference_case": "2013年，农业部在生猪养殖大省开展了'瘦肉精'交叉拉网监测。",
+    "error_detail": "错误地将监测范围扩大到了全国所有省份。",
+    "original_question": "2013年，农业部在哪些省份开展了'瘦肉精'交叉拉网监测？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "温氏集团的肉猪上市规模跃居全球第一。",
+    "reference_case": "温氏集团的肉猪上市规模跃居亚洲第一，世界第二，仅次于美国的史密斯菲尔德公司。",
+    "error_detail": "错误地将温氏集团的排名提升到了全球第一。",
+    "original_question": "温氏集团的肉猪上市规模在全球的排名如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "温氏集团的肉猪上市规模跃居全球第一。",
+    "reference_case": "温氏集团的肉猪上市规模跃居亚洲第一，世界第二，仅次于美国的史密斯菲尔德公司。",
+    "error_detail": "错误地将温氏集团的排名提升到了全球第一。",
+    "original_question": "温氏集团的肉猪上市规模在全球的排名如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "温氏集团的肉猪上市规模跃居全球第一。",
+    "reference_case": "温氏集团的肉猪上市规模跃居亚洲第一，世界第二，仅次于美国的史密斯菲尔德公司。",
+    "error_detail": "地域差异错误，将世界第二错误地提升为全球第一。",
+    "original_question": "温氏集团的肉猪上市规模在全球的排名如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪流行性腹泻病毒（PED）最早是在美国被发现的，具体时间为1971年。",
+    "reference_case": "猪流行性腹泻病毒（PED）最早是在英国被发现的，具体时间为1971年。",
+    "error_detail": "错误地将PED病毒的发现地改为美国。",
+    "original_question": "猪流行性腹泻病毒（PED）最早是在哪个国家被发现的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "美国猪肉行业受到猪流行性腹泻病毒（PED）的影响，这种病毒最早于1971年在美国被发现。",
+    "reference_case": "美国猪肉行业受到猪流行性腹泻病毒（PED）的影响，这种病毒最早于1971年在英国被发现。",
+    "error_detail": "错误地将PED病毒的发现地改为美国。",
+    "original_question": "美国猪肉行业受到猪流行性腹泻病毒（PED）的影响，这种病毒最早是在哪里被发现的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "repA-related 基因存在于猪种、犬种、沙林鼠种、牛种、羊种和绵羊种布鲁菌中。",
+    "reference_case": "repA-related 基因存在于猪种、犬种和沙林鼠种布鲁菌中，而牛种、羊种和绵羊种布鲁菌中缺失该基因。",
+    "error_detail": "错误地描述了基因的分布情况",
+    "original_question": "repA-related 基因在布鲁菌中的分布情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "2012年武汉市重大动物疫病抗体监测中，B区的猪瘟抗体水平全年保持在98%以上。",
+    "reference_case": "2012年武汉市重大动物疫病抗体监测中，A区的猪瘟抗体水平全年保持在98%以上。",
+    "error_detail": "错误地描述了B区而非A区的抗体水平。",
+    "original_question": "2012年武汉市重大动物疫病抗体监测中，哪些地区的猪瘟抗体水平全年保持在98%以上？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "试验猪的饲养管理条件包括圈舍尺寸为2:0 m×2:0 m，钢筋焊接而成，饲槽尺寸为1:50 m×0:50 m，水泥地面，有一定坡度，排尿通畅，通风良好。饲料为颗粒饲料，自由采食，自动饮水器供水，其他管理按常规方法进行。",
+    "reference_case": "试验猪的饲养管理条件包括圈舍尺寸为1:8 m×1:5 m，钢筋焊接而成，饲槽尺寸为1:00 m×0:36 m，水泥地面，有一定坡度，排尿通畅，通风良好。饲料为粉状饲料，自由采食，自动饮水器供水，其他管理按常规方法进行。",
+    "error_detail": "错误地描述了圈舍和饲槽的尺寸以及饲料的形式，与实际情况不符。",
+    "original_question": "试验猪的饲养管理条件如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在种猪场内下风方向处选出、腾空一个与原饲养区相隔离的独立饲养区，全面彻底消毒，作为选育出来的后备种猪群的饲养区。",
+    "reference_case": "在种猪场内上风方向处选出、腾空一个与原饲养区相隔离的独立饲养区，全面彻底消毒，作为选育出来的后备种猪群的饲养区。",
+    "error_detail": "饲养区位置被错误修改",
+    "original_question": "在猪支原体肺炎控制与净化技术研究中，如何设立独立饲养区？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪繁殖与呼吸综合征（PRRS）最早是在1987年由中国报道的。",
+    "reference_case": "猪繁殖与呼吸综合征（PRRS）最早是在1987年由美国报道的。",
+    "error_detail": "错误地将PRRS的最早报道国家从美国改为中国，属于空间错位幻觉。",
+    "original_question": "猪繁殖与呼吸综合征（PRRS）最早是在哪个国家被报道的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "生长肥育猪后肠中氨态氮浓度在结肠显著高于直肠和盲肠（P<0:05:。",
+    "reference_case": "生长肥育猪后肠中氨态氮浓度在直肠和盲肠显著高于结肠（P<0:05:。",
+    "error_detail": "错误地反转了氨态氮浓度在不同肠段的分布，导致空间错位的描述。",
+    "original_question": "生长肥育猪后肠中氨态氮浓度在哪些部位显著高于其他部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "生长肥育猪后肠中乙酸的摩尔百分比在直肠最高，其次是盲肠和结肠。",
+    "reference_case": "生长肥育猪后肠中乙酸的摩尔百分比在盲肠最高，其次是结肠和直肠。",
+    "error_detail": "错误地反转了乙酸摩尔百分比在不同肠段的分布顺序。",
+    "original_question": "生长肥育猪后肠中乙酸的摩尔百分比在哪些部位最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "生长肥育猪后肠中总VFA含量最高的部位是盲肠，其次是结肠和直肠。",
+    "reference_case": "生长肥育猪后肠中总VFA含量最高的部位是结肠，其次是直肠和盲肠。",
+    "error_detail": "错误地反转了总VFA含量在不同肠段的分布顺序。",
+    "original_question": "生长肥育猪后肠中总VFA含量最高的部位是哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "生长肥育猪后肠内容物中纤维素酶活性在各肠段的分布为直肠>结肠>盲肠（P<0:01:。",
+    "reference_case": "生长肥育猪后肠内容物中纤维素酶活性在各肠段的分布为盲肠>结肠>直肠（P<0:01:。",
+    "error_detail": "错误地反转了纤维素酶活性在不同肠段的分布顺序。",
+    "original_question": "生长肥育猪后肠内容物中纤维素酶活性在各肠段的分布如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "沟埋法的优点是操作简单且成本低廉。缺点是可能污染地下水，尤其在高水位的砂质土壤地区，且在中国北部较冷的地区实施起来比较困难。",
+    "reference_case": "沟埋法的优点是操作简单且成本低廉。缺点是可能污染地下水，尤其在高水位的砂质土壤地区，且在美国北部较冷的地区实施起来比较困难。",
+    "error_detail": "错误地修改了地域信息",
+    "original_question": "沟埋法在处理猪尸体时有哪些优缺点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "生物素参与脂肪的代谢。缺乏生物素时，脂肪中不饱和脂肪酸含量减少，猪肉中积蓄亚油酸和亚麻油酸，产生质地柔软的油性背膘。这种肉易于氧化和产生异味，不利于加工和贮藏。添加生物素能够提高猪肉脂肪的饱和度和硬度。",
+    "reference_case": "生物素参与脂肪的代谢。缺乏生物素时，脂肪中不饱和脂肪酸含量增加，猪肉中积蓄亚油酸和亚麻油酸，产生质地柔软的油性背膘。这种肉易于氧化和产生异味，不利于加工和贮藏。添加生物素能够提高猪肉脂肪的饱和度和硬度。",
+    "error_detail": "地域差异",
+    "original_question": "生物素如何影响猪肉的脂肪质量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "镁主要影响猪肉的pH值和系水力。镁能促进神经末梢和肾上腺分泌肾上腺素和儿茶酚胺，增加环腺苷酸的分泌，从而提高肌肉糖原酵解速度，加快pH值下降速度。镁的添加（主要是在宰前短期添加）对改善肉品质有一定效果。",
+    "reference_case": "镁主要影响猪肉的pH值和系水力。镁能抑制神经末梢和肾上腺分泌肾上腺素和儿茶酚胺，减少环腺苷酸的分泌，从而降低肌肉糖原酵解速度，减缓pH值下降速度。镁的添加（主要是在宰前短期添加）对改善肉品质有一定效果。",
+    "error_detail": "地域差异",
+    "original_question": "镁对猪肉品质的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在撒坝猪 SLA - DQB 基因的 6 月龄体尺性状中，BC 基因型和 CC 基因型在体长上表现出显著差异。",
+    "reference_case": "在撒坝猪 SLA - DQB 基因的 6 月龄体尺性状中，BC 基因型和 CC 基因型在体长上表现出显著差异。",
+    "error_detail": "地域差异",
+    "original_question": "撒坝猪 SLA - DQB 基因的 6 月龄体尺性状中，哪些基因型在体长上表现出显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪戊型肝炎病毒阳性粪便和猪抗HEV阳性血清均由北京农业大学兽医学院微生物教研室保存。",
+    "reference_case": "猪戊型肝炎病毒阳性粪便和猪抗HEV阳性血清均由扬州大学兽医学院微生物教研室保存。",
+    "error_detail": "错误地改变了保存机构的名称和地理位置。",
+    "original_question": "研究中使用的猪戊型肝炎病毒阳性粪便和猪抗HEV阳性血清的来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "脂联素（Adiponectin）在猪体内的表达不具有组织特异性，在所有组织中表达量相同。",
+    "reference_case": "脂联素（Adiponectin）在猪体内的表达具有组织特异性，主要在脂肪组织中表达量最高。此外，脂联素在胎儿组织、骨髓、心肌细胞和骨骼肌纤维中也有表达。",
+    "error_detail": "错误地描述脂联素的表达不具有组织特异性",
+    "original_question": "脂联素（Adiponectin）在猪体内的表达有哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "瘦素受体（LEPR）在猪体内的表达仅限于心脏和肝脏。",
+    "reference_case": "瘦素受体（LEPR）在猪体内的多个组织中都有表达，包括心肌、肺脏、肝脏、脾脏、肾脏、肌肉、卵巢、脂肪、大脑、垂体和下丘脑。其中，肺脏、肝脏和下丘脑中的表达量较高。",
+    "error_detail": "错误地限制了瘦素受体的表达组织范围",
+    "original_question": "瘦素受体（LEPR）在猪体内的表达情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）的主要临床特征是引起妊娠母猪前期发生流产。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）的主要临床特征是引起妊娠母猪后期发生流产、死胎、木乃伊胎及产弱仔，新生仔猪死亡率高，各年龄猪（尤其仔猪）出现以异常呼吸为特征的传染性疾病。",
+    "error_detail": "错误地将PRRSV的主要临床特征描述为引起妊娠母猪前期发生流产，而非后期。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的主要临床特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪伪狂犬病病毒 US1 基因的分子克隆和表征研究发表在《Science》期刊上。",
+    "reference_case": "该研究发表在《Genet Mol Res》期刊上。",
+    "error_detail": "错误地将研究发表的期刊描述为《Science》，而非《Genet Mol Res》。",
+    "original_question": "猪伪狂犬病病毒 US1 基因的分子克隆和表征研究发表在哪个期刊上？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪伪狂犬病病毒 gE 抗体胶体金免疫层析检测方法的建立及应用的研究发表在《Nature》期刊上。",
+    "reference_case": "该研究发表在《动物医学进展》期刊上。",
+    "error_detail": "错误地将研究发表的期刊描述为《Nature》，而非《动物医学进展》。",
+    "original_question": "猪伪狂犬病病毒 gE 抗体胶体金免疫层析检测方法的建立及应用的研究发表在哪个期刊上？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪体内汞蓄积量最高的组织是肌肉，其次是肾脏、心脏、肝脏、肺脏和脾脏。这一数据在全球范围内都适用。",
+    "reference_case": "猪体内汞蓄积量最高的组织是肌肉，其次是肾脏、心脏、肝脏、肺脏和脾脏。",
+    "error_detail": "错误地声称数据全球适用",
+    "original_question": "猪体内哪些组织的汞蓄积量最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "发酵饲料可以显著提高断奶仔猪空肠、回肠和结肠的黏膜厚度，从而起到保护作用，这一效果在欧洲猪种中尤为明显。",
+    "reference_case": "发酵饲料可以显著提高断奶仔猪空肠、回肠和结肠的黏膜厚度，从而起到保护作用。",
+    "error_detail": "错误地引入了地域差异的信息，原始输出中未提及。",
+    "original_question": "试验中使用的发酵饲料对断奶仔猪的肠道黏膜厚度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "预防母猪产后热的措施中，推荐使用 5% 的氢氧化钠进行消毒。",
+    "reference_case": "预防母猪产后热的措施中，推荐使用 2% 的氢氧化钠进行消毒。",
+    "error_detail": "错误地提高了氢氧化钠的浓度，导致空间错位幻觉。",
+    "original_question": "预防母猪产后热的措施中，推荐使用什么浓度的氢氧化钠进行消毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "康某向永新县动物检疫站申报了检疫。",
+    "reference_case": "康某向水新县畜牧兽医中心下属的禾川动物检疾站申报了检疫。",
+    "error_detail": "错误地将申报机构从禾川动物检疾站改为永新县动物检疫站。",
+    "original_question": "康某在将猪送往屠宰场前，向哪个机构申报了检疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "康某的7头肥猪被送往吉安县食品公司生猪定点屠宰场进行宰杀。",
+    "reference_case": "康某的7头肥猪被送往永新县食品公司生猪定点屠宰场进行宰杀。",
+    "error_detail": "错误地将屠宰场从永新县改为吉安县。",
+    "original_question": "康某的7头肥猪在1998年3月15日被送往哪里进行宰杀？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪霉玉米中毒的剖检变化包括肠做气、充血，外观呈紫红色，肝脏肿大，颜色变淡，有的肠系膜淋巴结高度肿胀，切面湿润，胃壁大弯处局部增厚，切开内呈胶冻样变化。这些症状在美国更为常见。",
+    "reference_case": "猪霉玉米中毒的剖检变化包括肠做气、充血，外观呈紫红色，肝脏肿大，颜色变淡，有的肠系膜淋巴结高度肿胀，切面湿润，胃壁大弯处局部增厚，切开内呈胶冻样变化。",
+    "error_detail": "地域差异",
+    "original_question": "猪霉玉米中毒的剖检变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "小型屠宰场中较理想的栏舍地面设计是将暂养栏地面的靠里三分之二部分建成高出地面10~15厘米，并有一定坡度的水泥台子，专供猪只卧地休息用，靠外三分之一较低处供猪吃食、饮水和大小便，废水就近通入下水道，使屠宰加工后冲洗的污水和粪水不能返流沾湿高台子和猪体。",
+    "reference_case": "小型屠宰场中较理想的栏舍地面设计是将暂养栏地面的靠里三分之二部分建成高出地面10~15厘米，并有一定坡度的水泥台子，专供猪只卧地休息用，靠外三分之一较低处供猪吃食、饮水和大小便，废水就近通入下水道，使屠宰加工后冲洗的污水和粪水不能返流沾湿高台子和猪体。",
+    "error_detail": "空间错位幻觉（地域差异）",
+    "original_question": "小型屠宰场中较理想的栏舍地面设计应如何实现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "小型屠宰场中猪的暂养间和待宰间的建筑设计应符合通风良好、光源充足，尽可能地保持地面干燥的防疫要求，保持地面干燥是待宰、暂养猪减少或推迟发病的关键措施。",
+    "reference_case": "小型屠宰场中猪的暂养间和待宰间的建筑设计应符合通风良好、光源充足，尽可能地保持地面干燥的防疫要求，保持地面干燥是待宰、暂养猪减少或推迟发病的关键措施。",
+    "error_detail": "空间错位幻觉（地域差异）",
+    "original_question": "小型屠宰场中猪的暂养间和待宰间的建筑设计应符合哪些防疫要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "锦州铁路兽医段在猪的暂养间和待宰间的地面设计上的具体措施包括将暂养栏地面的靠里三分之二部分建成高出地面10～15厘米，并有一定坡度的水泥台子，专供猪只卧地休息用，靠外三分之一较低处供猪吃食、饮水和大小便，废水就近通入下水道。",
+    "reference_case": "锦州铁路兽医段在猪的暂养间和待宰间的地面设计上的具体措施包括将暂养栏地面的靠里三分之二部分建成高出地面10～15厘米，并有一定坡度的水泥台子，专供猪只卧地休息用，靠外三分之一较低处供猪吃食、饮水和大小便，废水就近通入下水道。",
+    "error_detail": "空间错位幻觉（地域差异）",
+    "original_question": "锦州铁路兽医段在猪的暂养间和待宰间的地面设计上有哪些具体措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "锦州铁路兽医段在猪的暂养间和待宰间的建筑设计上的防疫要求包括通风良好、光源充足，尽可能地保持地面干燥。保持地面干燥是待宰、暂养猪减少或推迟发病的关键措施。",
+    "reference_case": "锦州铁路兽医段在猪的暂养间和待宰间的建筑设计上的防疫要求包括通风良好、光源充足，尽可能地保持地面干燥。保持地面干燥是待宰、暂养猪减少或推迟发病的关键措施。",
+    "error_detail": "空间错位幻觉（地域差异）",
+    "original_question": "锦州铁路兽医段在猪的暂养间和待宰间的建筑设计上有哪些防疫要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪颈浅背侧淋巴结位于猪的后腿部位。",
+    "reference_case": "猪颈浅背侧淋巴结位于肩关节前方，肩胛横突肌和斜方肌的下面。具体范围是前至第三颈椎，后到第四颈椎；上至第三、四颈椎棘突顶端，下至第三、四颈椎椎体。",
+    "error_detail": "错误地描述了淋巴结的位置",
+    "original_question": "猪颈浅背侧淋巴结的具体位置在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "农村散养户的仔猪多数是从农村集市上购买回来的，品质较差。种用母猪和种公猪的血源不清，改良猪与本地猪混杂饲养，配种方式以本交为主，容易引起疾病的传播。这种情况在欧洲国家尤为严重。",
+    "reference_case": "农村散养户的仔猪多数是从农村集市上购买回来的，品质较差。种用母猪和种公猪的血源不清，改良猪与本地猪混杂饲养，配种方式以本交为主，容易引起疾病的传播。",
+    "error_detail": "错误地将问题定位在欧洲国家，这与原始输出不符。",
+    "original_question": "农村散养户在猪的品种选择上存在哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪蹄裂病的发病原因包括品种因素、化学因素、机械性因素、营养性因素、物理性因素和生物性因素。在热带地区，高温是主要因素。",
+    "reference_case": "猪蹄裂病的发病原因包括品种因素、化学因素、机械性因素、营养性因素、物理性因素和生物性因素。生物因素包括病毒、细菌等。",
+    "error_detail": "错误地添加了地域特定的因素",
+    "original_question": "猪蹄裂病的发病原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在大挑花阉割法中，手术部位的选择依据猪的品种而定。",
+    "reference_case": "在大挑花阉割法中，较小或瘦弱的母猪手术部位为肷部三角区的中央，较大或膘肥的母猪手术部位在髋结节和膝前皱襞间垂直连线的下1/3与中1/3交界处的稍前方。",
+    "error_detail": "错误地引入了不相关的选择依据",
+    "original_question": "大挑花阉割法中如何确定手术部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪细小病毒（PPV）NS1蛋白的亚细胞定位主要在细胞质内。",
+    "reference_case": "猪细小病毒（PPV）NS1蛋白的亚细胞定位主要在细胞核内。",
+    "error_detail": "地域差异",
+    "original_question": "猪细小病毒（PPV）NS1蛋白的亚细胞定位主要在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "PRV-JL1和PRV-HLJ1分别是从辽宁省和内蒙古自治区的发病猪场分离的。",
+    "reference_case": "PRV-JL1和PRV-HLJ1分别是从吉林省和黑龙江省的发病猪场分离的。",
+    "error_detail": "错误地改变了分离地区",
+    "original_question": "猪伪狂犬病病毒（PRV）变异株PRV-JL1和PRV-HLJ1是从哪些地区的猪场分离的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "研究到县域层面，并对更为复杂的省域单位进行研究；在横向问题的研究上，对于布局差异下的生产波动区域传导问题的研究已经非常全面。",
+    "reference_case": "研究到省域层面，但未对更为复杂的县域单位进行研究；在横向问题的研究上，对于布局差异下的生产波动区域传导问题的研究也有待进行，研究的全面性还有待进一步的加强。",
+    "error_detail": "错误地颠倒了研究层面和夸大了研究的全面性。",
+    "original_question": "在生猪生产布局的研究中，存在哪些不全面性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪巨细胞病毒在世界范围内广泛分布，但在南极洲尚未发现。",
+    "reference_case": "猪巨细胞病毒在世界范围内广泛分布，日本从1972年开始报告这种病毒，1985年首次在日本分离到该病毒。英国在1986年已有90%的猪群感染此病毒，韩国近年来在英国进行的血清学检查结果表明90%以上的猪群曾受到过感染。北美和澳大利亚也有报道，其中美国发病率甚高，猪群的抗体阳性率为90%。",
+    "error_detail": "添加了不相关的地域信息'南极洲'",
+    "original_question": "猪巨细胞病毒（PCMV）的全球分布情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在养猪场的规划布局中，生活区应建在猪场内部，包括食堂、职工宿舍等。",
+    "reference_case": "在养猪场的规划布局中，生活区应建在猪场大门外，包括食堂、职工宿舍等。",
+    "error_detail": "错误地将生活区设置在猪场内部",
+    "original_question": "养猪场的规划布局中，生活区应如何设置？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "中国•猪营养国际论坛由英国动物科学学会和北京亘泰实业集团联合主办。",
+    "reference_case": "中国•猪营养国际论坛由美国动物科学学会和上海亘泰实业集团联合主办。",
+    "error_detail": "错误地改变了主办方的国家和城市",
+    "original_question": "中国•猪营养国际论坛的主办方是谁？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "2014年6月26日，主营生猪养殖的龙大肉食在上交所正式上市。",
+    "reference_case": "2014年6月26日，主营生猪养殖的龙大肉食在深交所正式上市。",
+    "error_detail": "错误地改变了上市交易所",
+    "original_question": "2014年6月26日，哪家主营生猪养殖的企业在深交所上市？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "高能量日粮对MC4R基因表达的影响在不同品种猪中一致。",
+    "reference_case": "高能量日粮显著上调了乌金猪背最长肌中MC4R基因的表达水平。",
+    "error_detail": "错误地忽略了品种差异",
+    "original_question": "乌金猪实验中，高能量日粮对MC4R基因表达有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "彝族地区的主要畜牧品种包括马、牛、羊、鸡、狗和猪。这些牲畜在彝族的生产生活中扮演着重要角色，如马作为交通运输工具，牛作为耕作主力和祭祀祭品，羊作为献给祖先的礼物等。",
+    "reference_case": "彝族地区的主要畜牧品种包括马、牛、羊、鸡、狗和猪。这些牲畜在彝族的生产生活中扮演着重要角色，如马作为交通运输工具，牛作为耕作主力和祭祀祭品，羊作为献给祖先的礼物等。",
+    "error_detail": "虽然看起来相同，但忽略了地域差异可能导致的不同畜牧习惯",
+    "original_question": "彝族地区的主要畜牧品种有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "我国生猪价格波动呈现出明显的周期性特征，尤其是进入2007年以后，价格波动成为突出问题。短短几年内，生猪价格经历了暴涨、暴跌、再度上涨以及下跌的周期性波动。这一现象在全球范围内都是独一无二的。",
+    "reference_case": "我国生猪价格波动呈现出明显的周期性特征，尤其是进入2007年以后，价格波动成为突出问题。短短几年内，生猪价格经历了暴涨、暴跌、再度上涨以及下跌的周期性波动。",
+    "error_detail": "错误地声称这一现象在全球范围内都是独一无二的",
+    "original_question": "我国生猪价格波动呈现出怎样的周期性特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "北京市供暖猪舍的节能改造主要针对哺乳猪舍和肥育猪舍。",
+    "reference_case": "北京市供暖猪舍的节能改造主要针对哺乳猪舍和保育猪舍。",
+    "error_detail": "错误地将'保育猪舍'替换为'肥育猪舍'，忽略了地域差异和实际改造目标。",
+    "original_question": "北京市供暖猪舍的节能改造主要针对哪些类型的猪舍？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "福建省9个地区仔猪等孢球虫卵囊阳性率在5:00%～20:59%之间，其中福州市的猪场卵囊阳性率最高，达20:59%。",
+    "reference_case": "福建省9个地区仔猪等孢球虫卵囊阳性率在5:00%～18:59%之间，其中南平市的猪场卵囊阳性率最高，达18:59%。",
+    "error_detail": "地区和阳性率被错误地修改，而原始数据为南平市和18:59%。",
+    "original_question": "福建省不同地区仔猪等孢球虫卵囊阳性率有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "监测品种包括猪肉、鸡蛋、牛羊肉、鸡肉、猪尿、兽药、原料奶、饲料（奶牛和猪）、畜禽饮用水等，时间范围覆盖2011年的各个月份，以及广东省的部分数据。",
+    "reference_case": "监测品种包括猪肉、鸡蛋、牛羊肉、鸡肉、猪尿、兽药、原料奶、饲料（奶牛和猪）、畜禽饮用水等，时间范围覆盖2011年的各个月份。",
+    "error_detail": "错误添加了不属于河南省的数据",
+    "original_question": "河南省畜产品安全风险监测网络的监测品种和时间范围包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "国家《生猪屠宰管理条例》规定，在边远和交通不便的农村地区，可以设置仅限于向本地市场供应生猪产品的大型生猪屠宰场点，具体管理办法由省、自治区、直辖市制定。",
+    "reference_case": "国家《生猪屠宰管理条例》规定，在边远和交通不便的农村地区，可以设置仅限于向本地市场供应生猪产品的小型生猪屠宰场点，具体管理办法由省、自治区、直辖市制定。",
+    "error_detail": "错误地将'小型生猪屠宰场点'改为'大型生猪屠宰场点'，与实际情况不符。",
+    "original_question": "国家《生猪屠宰管理条例》对边远和交通不便的农村地区的生猪屠宰场点设置有何规定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "欧盟在猪瘟区域化防控中取得了显著成效，成员国猪瘟疫情呈逐年下降趋势，德国等成员国逐步实现了家猪群体中猪瘟的根除，2010年以来除波兰外，英、德、法、意、斯洛伐克等欧盟国家没有发生猪瘟疫情。",
+    "reference_case": "欧盟在猪瘟区域化防控中取得了显著成效，成员国猪瘟疫情呈逐年下降趋势，德国等成员国逐步实现了家猪群体中猪瘟的根除，2010年以来除立陶宛外，英、德、法、意、斯洛伐克等欧盟国家没有发生猪瘟疫情。",
+    "error_detail": "修改了疫情发生的国家，导致空间错位幻觉。",
+    "original_question": "欧盟在猪瘟区域化防控中取得了哪些成效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "目前，立陶宛的猪瘟疫情在家猪群体中仍然流行。",
+    "reference_case": "目前，立陶宛的猪瘟疫情在野猪群体中仍然流行。",
+    "error_detail": "修改了疫情流行的动物群体，导致空间错位幻觉。",
+    "original_question": "目前，立陶宛的猪瘟疫情在哪些动物群体中仍然流行？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "在成体猪肾脏中，WT1基因主要表达在肾小球中。",
+    "reference_case": "在成体猪肾脏中，WT1基因主要表达在肾小管中。",
+    "error_detail": "错误地描述了WT1基因在成体猪肾脏中的表达位置，将肾小管误认为肾小球。",
+    "original_question": "WT1基因在成体猪肾脏中的具体表达位置是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "在猪胚胎时期，WT1基因主要表达在卵巢的髓质中；而在成体时期，WT1基因主要表达在卵巢的卵泡膜内层细胞中。",
+    "reference_case": "在猪胚胎时期，WT1基因主要表达在卵巢的皮质中；而在成体时期，WT1基因主要表达在卵巢的卵泡膜外层细胞中。",
+    "error_detail": "错误地描述了WT1基因在猪卵巢中的表达位置，将皮质误认为髓质，卵泡膜外层误认为内层。",
+    "original_question": "WT1基因在猪胚胎时期和成体时期在卵巢中的表达位置有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "在猪胚胎时期，WT1基因主要表达在睾丸曲细精管中的精子细胞中；而在成体时期，WT1基因主要表达在睾丸曲细精索中的间质细胞中。",
+    "reference_case": "在猪胚胎时期，WT1基因主要表达在睾丸曲细精索周围的间质细胞中；而在成体时期，WT1基因主要表达在睾丸曲细精管周围的间质细胞中。",
+    "error_detail": "错误地描述了WT1基因在猪睾丸中的表达位置，混淆了曲细精索和曲细精管，以及精子细胞和间质细胞。",
+    "original_question": "WT1基因在猪胚胎时期和成体时期在睾丸中的表达位置有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "大承气汤临床上主要用于治疗人类的高血压、糖尿病和心脏病。",
+    "reference_case": "大承气汤临床上主要用于治疗牛瓣胃阻塞、瘤胃积食和猪便秘。",
+    "error_detail": "错误地将应用对象从动物改为人类，且完全改变了治疗的疾病类型。",
+    "original_question": "大承气汤的临床应用有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "特种野猪养殖场址选择需不符合《中华人民共和国畜牧法》规定的选址要求，土地使用不符合相关法律、法规及区域内土地使用规划；距主要交通干线、城镇、居民区、动物屠宰加工厂和农贸市场500米以内；地势低洼，通风、采光、排水差；供电不稳定，交通不便；水源不足。",
+    "reference_case": "特种野猪养殖场址选择需符合《中华人民共和国畜牧法》规定的选址要求，土地使用符合相关法律、法规及区域内土地使用规划；距主要交通干线、城镇、居民区、动物屠宰加工厂和农贸市场1公里以上；地势高燥，通风、采光、排水良好；供电稳定，交通便利；水源充足。",
+    "error_detail": "错误地反转了养殖场址选择的所有要求。",
+    "original_question": "特种野猪养殖场址选择有哪些具体要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "试验中，12只杂交母猪饲养于圈舍内，温度为30±1°C，每日光照与非光照时间为16小时和8小时。",
+    "reference_case": "试验中，12只杂交母猪饲养于圈舍内，温度为20±1°C，每日光照与非光照时间为16小时和8小时。",
+    "error_detail": "错误地将饲养温度从20±1°C改为30±1°C",
+    "original_question": "试验中猪的饲养环境是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "双汇集团进口美国猪肉的消息引发了消费者的强烈支持，许多人在网络平台上表达支持，甚至有人号召增加购买双汇猪肉。",
+    "reference_case": "双汇集团进口美国猪肉的消息引发了养猪人的强烈反应，许多人在网络平台上表达不满，甚至有人号召抵制双汇猪肉。",
+    "error_detail": "错误地描述了公众对双汇集团进口美国猪肉消息的反应。",
+    "original_question": "双汇集团进口美国猪肉的消息引发了哪些反应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "吉林省的生猪产品主要通过国际市场和大型超市进行销售，同时也通过农贸市场、早市、夜市等场所进行销售。此外，吉林省的生猪产品在国际市场上的销售量较大，主要通过出口渠道进入国际市场。",
+    "reference_case": "吉林省的生猪产品主要通过农贸市场、早市、夜市等场所进行销售，同时也通过大型超市和专卖店进行销售。此外，吉林省的生猪产品在国际市场上的销售量较小，主要通过出口渠道进入国际市场。",
+    "error_detail": "地域差异",
+    "original_question": "吉林省生猪产品的主要销售场所有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "延津2400种猪场的饲料成本较低，不存在饲料浪费隐患。",
+    "reference_case": "延津2400种猪场的饲料成本较高，存在饲料浪费隐患。作者通过比较分析发现，该种猪场与社会农户场的仔猪落地成本和仔猪断奶成本存在差异，饲料成本是影响养殖成本的主要因素之一。",
+    "error_detail": "错误地描述了延津2400种猪场的饲料成本情况，与原始输出矛盾。",
+    "original_question": "延津2400种猪场的饲料成本管理现状如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "卵黄抗体可用于预防和治疗多种动物疾病，如鸡白痢沙门氏菌病、仔猪水肿病、犊牛腹泻等。例如，抗鸡白痢沙门氏菌卵黄抗体可以显著降低雏鸡的发病率和抗生素用量，这一方法仅适用于热带地区。",
+    "reference_case": "卵黄抗体可用于预防和治疗多种动物疾病，如鸡白痢沙门氏菌病、仔猪水肿病、犊牛腹泻等。例如，抗鸡白痢沙门氏菌卵黄抗体可以显著降低雏鸡的发病率和抗生素用量。",
+    "error_detail": "添加了不存在的空间限制",
+    "original_question": "卵黄抗体在动物疾病防制中的应用有哪些具体例子？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "副猪嗜血杆菌的药敏试验结果显示，对庆大霉素、阿奇霉素、多西环素、红霉素、头孢氨芐、塞发莱定、氯林可霉素、氯霉素具有较高的敏感性，这些结果仅适用于北京地区。",
+    "reference_case": "副猪嗜血杆菌的药敏试验结果显示，对庆大霉素、阿奇霉素、多西环素、红霉素、头孢氨芐、塞发莱定、氯林可霉素、氯霉素具有较高的敏感性。",
+    "error_detail": "错误地限制了结果的适用范围，原始输出未提及地域限制。",
+    "original_question": "副猪嗜血杆菌的药敏试验结果显示哪些抗生素具有较高的敏感性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "试验猪群为PCV2抗体阴性怀孕母猪所产日龄不超过3天的仔猪，由山西昔阳诺瑞森养猪场提供，这些猪只适合在北方地区饲养。",
+    "reference_case": "试验猪群为PCV2抗体阴性怀孕母猪所产日龄不超过3天的仔猪，由山西昔阳诺瑞森养猪场提供。",
+    "error_detail": "错误地限制了猪只的饲养地域，原始输出未提及地域限制。",
+    "original_question": "猪圆环病毒病灭活疫苗免疫试验中，试验猪群的来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "法国暂停从美国、墨西哥、加拿大和日本进口生猪以防止猪流行性腹泻病毒传入。",
+    "reference_case": "法国暂停从美国、墨西哥、加拿大和日本进口生猪以防止猪流行性腹泻病毒传入。",
+    "error_detail": "暂停进口的国家列表可能不准确或过时",
+    "original_question": "法国暂停从哪些国家进口生猪以防止猪流行性腹泻病毒传入？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "濮阳市地控温三循环养猪模式在实施过程中取得了一定的成效，如促进当地养猪业的规模化和集约化发展，转移剩余劳动力，促进产业互动。然而，该模式在推广和实施过程中也存在一些问题，如技术不成熟和资金短缺，需要进一步研究和改进。",
+    "reference_case": "濮阳市地控温三循环养猪模式在实施过程中取得了一定的成效，如促进当地养猪业的规模化和集约化发展，转移剩余劳动力，促进产业互动。然而，该模式在推广和实施过程中也存在一些问题，需要进一步研究和改进。",
+    "error_detail": "添加了不存在的具体问题（技术不成熟和资金短缺）",
+    "original_question": "濮阳市地控温三循环养猪模式的现状如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "地控温三循环养猪模式是一种由濮阳市研发并推广应用的养猪技术，为养猪业的发展提供了科技支撑。该模式通过循环利用资源，促进养猪业的可持续发展，解决了传统养猪业中的环境污染问题，并提高了生猪产品的质量和市场竞争力。",
+    "reference_case": "地控温三循环养猪模式是一种由沙阳市研发并推广应用的养猪技术，为养猪业的发展提供了科技支撑。该模式通过循环利用资源，促进养猪业的可持续发展，解决了传统养猪业中的环境污染问题，并提高了生猪产品的质量和市场竞争力。",
+    "error_detail": "错误地改变了研发地点（濮阳市而非沙阳市）",
+    "original_question": "什么是地控温三循环养猪模式？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "“猪周期”是指猪肉和生猪价格非周期性波动的现象，通常表现为肉价下跌导致养殖规模扩大，随后肉价上涨导致养殖过剩或急剧缩减。",
+    "reference_case": "“猪周期”是指猪肉和生猪价格周期性波动的现象，通常表现为肉价上涨导致养殖规模扩大，随后肉价下跌导致养殖过剩或急剧缩减。",
+    "error_detail": "错误地描述了“猪周期”的价格波动模式。",
+    "original_question": "什么是“猪周期”？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在猪化脓隐秘杆菌的分离鉴定过程中，使用了绵羊鲜血琼脂平板、巧克力平板、营养肉汤和脑-心浸液培养基（BHI），这些培养基在全球范围内都适用。",
+    "reference_case": "在猪化脓隐秘杆菌的分离鉴定过程中，使用了绵羊鲜血琼脂平板、巧克力平板、营养肉汤和脑-心浸液培养基（BHI）。",
+    "error_detail": "错误地声称这些培养基在全球范围内都适用",
+    "original_question": "猪化脓隐秘杆菌的分离鉴定过程中使用了哪些培养基？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "2012年分离的2:1c亚群猪瘟病毒有不断扩散的趋势，主要集中在广西省，并逐步向北方内陆扩散，且已在全球范围内流行。",
+    "reference_case": "2012年分离的2:1c亚群猪瘟病毒有不断扩散的趋势，主要集中在广西省，并逐步向北方内陆扩散。",
+    "error_detail": "错误地声称病毒已在全球范围内流行",
+    "original_question": "2012年分离的2:1c亚群猪瘟病毒的流行趋势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在2008年至2012年间，从山东、河南、河北、湖南、江苏、上海的多个猪场采集了疑似副猪嗜血杆菌的样品。",
+    "reference_case": "在2008年至2012年间，从山东、河南、河北、湖南、江苏、上海的多个猪场采集了疑似副猪嗜血杆菌的样品。",
+    "error_detail": "地域差异",
+    "original_question": "在2008年至2012年间，从哪些省份的猪场采集了疑似副猪嗜血杆菌的样品？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "地控温三循环养猪模式选择在市中心进行规模化养猪，避免了疾病传播对居民健康的危害。",
+    "reference_case": "地控温三循环养猪模式选择远离居民区的地区进行适度规模化养猪，避免了疾病传播对居民健康的危害。同时，该模式注重规范兽药使用，严格禁止违禁药物，减少猪肉中的药物残留，保障居民饮食安全。",
+    "error_detail": "错误地将养猪地点描述为市中心，与实际选择远离居民区的地区进行养猪的模式不符。",
+    "original_question": "地控温三循环养猪模式如何减少养猪业对居民环境的污染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "地控温三循环养猪模式通过利用核能工程和建造太空站，实现了种养循环、沼液循环和饲养循环。",
+    "reference_case": "地控温三循环养猪模式通过利用沼气工程和建造温室大棚，实现了种养循环、沼液循环和饲养循环。",
+    "error_detail": "错误地将利用的工程描述为核能工程和建造太空站，与实际的沼气工程和温室大棚不符。",
+    "original_question": "地控温三循环养猪模式通过哪些方式实现种养循环？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在甘肃省猪乙型脑炎的血清学调查中，嘉峪关、武威、金昌和酒泉4个地区（市）未检出阳性血清。",
+    "reference_case": "在甘肃省猪乙型脑炎的血清学调查中，嘉峪关、武威、金昌3个地区（市）未检出阳性血清。",
+    "error_detail": "错误地包括了酒泉地区，实际上酒泉地区未参与此次调查。",
+    "original_question": "甘肃省猪乙型脑炎的血清学调查中，哪些地区未检出阳性血清？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在甘肃省猪乙型脑炎的血清学调查中，庆阳地区、陇南地区和甘南地区的某些养猪场阳性率最高。",
+    "reference_case": "在甘肃省猪乙型脑炎的血清学调查中，庆阳地区、陇南地区和甘南地区的某些养猪场阳性率最高。",
+    "error_detail": "错误地描述了阳性率最高的地区，实际上还包括平凉地区。",
+    "original_question": "甘肃省猪乙型脑炎的血清学调查中，哪些地区的阳性率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "皮特兰猪体形大，四肢长而细弱，后躯特别丰满，背腰平直，两耳起立，被毛有的黑白毛相间，有的白毛多黑毛少，也有少量红毛的个体。",
+    "reference_case": "皮特兰猪体形小，四肢短而粗壮，后躯特别丰满，背腰平直，两耳起立，被毛有的黑白毛相间，有的白毛多黑毛少，也有少量红毛的个体。",
+    "error_detail": "错误描述了皮特兰猪的体形和四肢特征",
+    "original_question": "皮特兰猪的体形外貌特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "DECR1 基因在猪的5号染色体 q1:2 上定位。",
+    "reference_case": "DECR1 基因在猪的4号染色体 q1:2 上定位。",
+    "error_detail": "地域差异",
+    "original_question": "DECR1 基因在猪的哪个染色体上定位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "DECR1 基因在不同猪种和组织中的表达量无显著差异，中国地方猪种的DECR1基因在脂肪组织中的表达量均低于国外猪种，而在肌肉组织中，国外猪种的表达量稍低于中国地方猪种。",
+    "reference_case": "DECR1 基因在不同猪种和组织中的表达量有显著差异，中国地方猪种的DECR1基因在脂肪组织中的表达量均高于国外猪种，而在肌肉组织中，国外猪种的表达量稍高于中国地方猪种。",
+    "error_detail": "地域差异",
+    "original_question": "DECR1 基因在猪的不同组织中的表达有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "试验中使用的猪瘟疫苗购自辽宁益康生物股份有限公司，猪口蹄疫疫苗（O型，合成肽）由申联生物医药有限公司生产，这些公司均位于美国。",
+    "reference_case": "试验中使用的猪瘟疫苗购自辽宁益康生物股份有限公司，猪口蹄疫疫苗（O型，合成肽）由申联生物医药有限公司生产。",
+    "error_detail": "错误地指定了公司的地理位置",
+    "original_question": "试验中使用的猪瘟疫苗和猪口蹄疫疫苗分别来自哪些公司？",
+    "original_input": ""
+  }
+]

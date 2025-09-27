@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "优质母猪的淘汰率为 52.2%。",
+    "reference_case": "优质母猪的淘汰率为 42.2%。",
+    "error_detail": "数值偏差",
+    "original_question": "优质母猪的淘汰率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "优质猪推广中表现最突出的是新店镇，其推广量在 2010 年和 2011 年两年中占全县推广量的 50% 以上。",
+    "reference_case": "优质猪推广中表现最突出的是新店镇，其推广量在 2001 年和 2002 年两年中占全县推广量的 50% 以上。",
+    "error_detail": "时间信息错误",
+    "original_question": "优质猪推广表现最突出的地区是哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "威远县先后建立了威远县畜牧食品局和威远县食品公司两个种猪场，以及 15 个基地村。",
+    "reference_case": "威远县先后建立了威远县畜牧食品局和威远县食品公司两个种猪场，以及 13 个基地村。",
+    "error_detail": "数量信息错误",
+    "original_question": "威远县推广优质猪以来建立了多少个种猪场和基地村？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "生猪市场'蛛网现象'是指生猪价格的稳定不变。",
+    "reference_case": "生猪市场'蛛网现象'是指生猪价格的剧烈波动，尤其是暴涨暴跌的现象。",
+    "error_detail": "概念错误",
+    "original_question": "生猪市场'蛛网现象'具体指的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "全国生猪市场趋向于'发散型蛛网'波动。",
+    "reference_case": "全国生猪市场趋向于'收敛型蛛网'波动。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "1996年1月至2000年1月，全国生猪市场呈现怎样的波动类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "优质猪推广中表现最突出的是旧店镇。",
+    "reference_case": "优质猪推广中表现最突出的是新店镇。",
+    "error_detail": "地域信息错误",
+    "original_question": "优质猪推广表现最突出的地区是哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "威远刚子食品有限公司专门成立了生猪发展办公室，总人数达 60 余人。",
+    "reference_case": "威远刚子食品有限公司专门成立了生猪发展办公室，总人数达 50 余人，占公司人数的 36%，专门负责仔猪的组织、饲料的调配、饲养管理等。",
+    "error_detail": "添加假设",
+    "original_question": "威远刚子食品有限公司采取了哪些措施来发展 '公司 + 农户' 模式？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "优质母猪的繁殖性能受到影响是因为农户采用了高营养水平的饲养方式。",
+    "reference_case": "农户采用低营养水平的饲养方式，以青粗饲料和少量玉米粉为主，很少添加蛋白质饲料，导致优质母猪的繁殖性能受到影响。",
+    "error_detail": "因果错误",
+    "original_question": "优质母猪的饲养管理方面存在哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "种猪场在 '猪场 + 农户' 模式中遇到的主要困难包括：技术过剩。",
+    "reference_case": "种猪场在 '猪场 + 农户' 模式中遇到的主要困难包括：人力不足，没有足够的专业技术人员为农户提供技术服务；财力不足，无法扩大发展规模和建立销售网络；回收政策不合理，导致农户对种猪场失去信任。",
+    "error_detail": "误解上下文",
+    "original_question": "种猪场在 '猪场 + 农户' 模式中遇到的主要困难是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "优质母猪在推广过程中出现的繁殖障碍包括：过度发情。",
+    "reference_case": "不发情、屡配不孕、假孕和产仔少等。",
+    "error_detail": "术语错误",
+    "original_question": "优质母猪在推广过程中出现的繁殖障碍有哪些？",
+    "original_input": ""
+  }
+]

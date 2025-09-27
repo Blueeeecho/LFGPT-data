@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "EG集落的AKP染色呈阴性，阳性细胞呈现蓝色，而饲养层细胞和分化细胞着色。",
+    "reference_case": "EG集落的AKP染色呈阳性，阳性细胞呈现红（褐）色，而饲养层细胞和分化细胞不着色。",
+    "error_detail": "错误地改变了染色结果的颜色和性质",
+    "original_question": "在猪类肧胎生殖细胞（EG）培养的研究中，EG集落的AKP染色结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "研究中使用了六个指标来比较WZSP和微型白猪在EG培养方面的差异：平均第1次出现EG集落时间（T1:、第1次出现大批EG集落时间（T2:、第1次传代时间（T3:、平均传代间隔（T4:、传代情况（P:及细胞存活率（S:。",
+    "reference_case": "研究中使用了五个指标来比较WZSP和微型白猪在EG培养方面的差异：平均第1次出现EG集落时间（T1:、第1次出现大批EG集落时间（T2:、第1次传代时间（T3:、平均传代间隔（T4:及传代情况（P:。",
+    "error_detail": "错误地添加了一个不存在的指标",
+    "original_question": "在猪类肧胎生殖细胞（EG）培养的研究中，哪些指标被用来比较WZSP和微型白猪在EG培养方面的差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "EG集落悬浮培养形成的类肧体在2～3天后出现3层结构，外层为大而疏松的细胞，中层为中等大小的细胞，内层为小而紧密的细胞。",
+    "reference_case": "EG集落悬浮培养形成的类肧体在4～6天后出现2层结构，外层为大而疏松的细胞，类似于早期胚胎发育过程中的原始内肧层细胞；内层为小而紧密的细胞，类似于原始外胚层细胞。",
+    "error_detail": "错误地改变了类肧体形成的时间和结构层数",
+    "original_question": "在猪类肧胎生殖细胞（EG）培养的研究中，EG集落悬浮培养形成的类肧体结构如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "研究中通过体内分化试验鉴定EG集落的多能性，将EG细胞集落直接注射到小鼠体内，观察其能否形成各种类型的组织。",
+    "reference_case": "研究中通过体外分化试验鉴定EG集落的多能性，将EG细胞集落常规传代后，稍微缩短消化时间并轻轻吹打，使其成为小细胞团块，转移到培养皿中培养，观察类肧体形成情况，并将类肧体消化后贴壁，观察其能否形成各种类型的细胞。",
+    "error_detail": "错误地改变了鉴定方法从体外到体内",
+    "original_question": "在猪类肧胎生殖细胞（EG）培养的研究中，如何鉴定EG集落的多能性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "研究中使用了长白猪和大约克夏猪作为试验材料。",
+    "reference_case": "研究中使用了五指山猪（WZSP:和微型白猪作为试验材料。",
+    "error_detail": "错误地改变了试验材料的猪品种",
+    "original_question": "遗传背景和胎儿日龄对猪类肧胎生殖细胞（EG）培养的影响研究中，使用了哪些猪品种作为试验材料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在F6代中，aa基因型个体在6月龄体重及8月龄体高上显著高于AA基因型个体（P<0:01和P<0:05:。",
+    "reference_case": "在F6代中，aa基因型个体在4月龄体重及6月龄体高上显著高于AA基因型个体（P<0:01和P<0:05:。",
+    "error_detail": "错误地改变了生长性状的月龄",
+    "original_question": "大河乌猪F6代中，aa基因型个体在哪些生长性状上显著高于AA基因型个体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PLTP基因内含子4的多态性位点与猪的生长性状无关，特别是Aa基因型对生长性状无显著影响。",
+    "reference_case": "是的，PLTP基因内含子4的多态性位点与猪的生长性状相关，特别是Aa基因型对生长性状有显著影响。",
+    "error_detail": "错误地否定了多态性位点与生长性状的相关性",
+    "original_question": "大河乌猪PLTP基因内含子4的多态性位点是否与猪的生长性状相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在F5代中，Aa基因型个体在断奶重及日增重上显著高于AA基因型个体（P<0:05:。",
+    "reference_case": "在F5代中，Aa基因型个体在初生重及背膘厚上显著高于AA基因型个体（P<0:05:。",
+    "error_detail": "错误地改变了生长性状的类型",
+    "original_question": "大河乌猪F5代中，Aa基因型个体在哪些生长性状上显著高于AA基因型个体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "1085 bp位点的突变对母猪的管围和公猪的背膘厚产生一定的影响，携带AA基因型的个体在许多性状上优于其他基因型个体。",
+    "reference_case": "1085 bp位点的突变对母猪的背膘厚和公猪的管围产生一定的影响，携带Aa基因型的个体在许多性状上优于其他基因型个体。",
+    "error_detail": "错误地颠倒了突变对母猪和公猪的影响以及优势基因型",
+    "original_question": "大河乌猪PLTP基因内含子4的1085 bp位点的突变对母猪和公猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大河乌猪PLTP基因内含子4的多态性位点包括1085、1192、1286、1305和1400 bp。",
+    "reference_case": "大河乌猪PLTP基因内含子4的多态性位点包括1085、1192、1286和1305 bp。",
+    "error_detail": "错误地添加了一个不存在的多态性位点",
+    "original_question": "大河乌猪PLTP基因内含子4的多态性位点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "1085 bp位点的突变与猪的体高无关，aa基因型个体的体高与AA基因型个体无显著差异。",
+    "reference_case": "是的，1085 bp位点的突变与猪的体高相关，aa基因型个体的体高显著高于AA基因型个体（P<0:05:。",
+    "error_detail": "错误地否定了突变与体高的相关性",
+    "original_question": "大河乌猪PLTP基因内含子4的多态性位点是否与猪的体高相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1085 bp位点的突变与猪的背膘厚相关，AA基因型个体的背膘厚显著高于Aa基因型个体（P<0:05:。",
+    "reference_case": "是的，1085 bp位点的突变与猪的背膘厚相关，Aa基因型个体的背膘厚显著高于AA基因型个体（P<0:05:。",
+    "error_detail": "错误地颠倒了基因型与背膘厚的关系",
+    "original_question": "大河乌猪PLTP基因内含子4的多态性位点是否与猪的背膘厚相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "1085 bp位点的突变导致Hae III酶切位点的出现，产生等位基因A和B，其中450+55 bp定义为等位基因A，261+189+55 bp定义为等位基因B。",
+    "reference_case": "1085 bp位点的突变导致Hae III酶切位点的消失，产生等位基因A和a，其中450+55 bp定义为等位基因A，261+189+55 bp定义为等位基因a。",
+    "error_detail": "错误地改变了突变对酶切位点的影响和等位基因的定义",
+    "original_question": "大河乌猪PLTP基因内含子4的1085 bp位点的突变对基因型有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1085 bp位点的突变与猪的管围相关，AA基因型个体的管围显著高于Aa基因型个体（P<0:01:。",
+    "reference_case": "是的，1085 bp位点的突变与猪的管围相关，Aa基因型个体的管围显著高于AA基因型个体（P<0:01:。",
+    "error_detail": "错误地颠倒了基因型与管围的关系",
+    "original_question": "大河乌猪PLTP基因内含子4的多态性位点是否与猪的管围相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "1085 bp位点的突变与猪的初生重无关，Aa基因型个体的初生重与AA基因型个体无显著差异。",
+    "reference_case": "是的，1085 bp位点的突变与猪的初生重相关，Aa基因型个体的初生重显著高于AA基因型个体（P<0:05:。",
+    "error_detail": "错误地否定了突变与初生重的相关性",
+    "original_question": "大河乌猪PLTP基因内含子4的1085 bp位点的突变是否与猪的初生重相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "抗菌肽 PG 最初是从牛的淋巴细胞中分离得到的。",
+    "reference_case": "抗菌肽 PG 最初是从猪的白细胞中分离得到的。",
+    "error_detail": "错误地改变了抗菌肽 PG 的来源动物和细胞类型",
+    "original_question": "抗菌肽 PG 最初是从哪种动物中分离得到的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脂多糖（LPS:、白介素-6（IL-6:、视黄酸（RA:和干扰素-γ（IFN-γ:都可以诱导猪骨髓原代细胞中抗菌肽 PG 的表达量增加。",
+    "reference_case": "脂多糖（LPS:、白介素-6（IL-6:和视黄酸（RA:都可以诱导猪骨髓原代细胞中抗菌肽 PG 的表达量增加。",
+    "error_detail": "错误地添加了一个不存在的诱导物质",
+    "original_question": "哪些物质可以诱导猪骨髓原代细胞中抗菌肽 PG 的表达量增加？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪在不同生长阶段体内抗菌肽 PG mRNA 表达量无显著差异，尤其是在断奶后，其表达量保持不变。",
+    "reference_case": "猪在不同生长阶段体内抗菌肽 PG mRNA 表达量具有显著差异，尤其是在断奶后，其表达量显著降低。",
+    "error_detail": "错误地否定了表达量的差异和变化",
+    "original_question": "猪在不同生长阶段体内抗菌肽 PG mRNA 表达量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "G2:3亚型的毒株主要来自美国、加拿大和墨西哥，特别是2011年以来的流行毒株。",
+    "reference_case": "G2:3亚型的毒株主要来自中国、韩国和泰国，特别是2011年以来的流行毒株。",
+    "error_detail": "错误地改变了毒株的来源国家",
+    "original_question": "猪流行性腹泻病毒（PEDV）的M基因的进化树分析中，G2:3亚型的毒株主要来自哪些国家？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "G2:2亚型包括我国的QYA1、SWK1等毒株以及美国的PC22A毒株。",
+    "reference_case": "G2:2亚型包括我国的QYA1、SWK1等毒株。",
+    "error_detail": "错误地添加了一个不属于G2:2亚型的毒株",
+    "original_question": "在猪流行性腹泻病毒（PEDV）的M基因的进化树分析中，G2:2亚型包括哪些毒株？",
+    "original_input": ""
+  }
+]

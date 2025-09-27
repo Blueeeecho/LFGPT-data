@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "幼虫破坏肠壁、肠系膜淋巴结和肺组织，尤其对心脏损害严重。",
+    "reference_case": "幼虫破坏肠壁、肠系膜淋巴结和肺组织，尤其对肺脏损害严重。",
+    "error_detail": "地域差异",
+    "original_question": "幼虫在猪体内的移行会对哪些器官造成损害？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "我国生猪产业在国际上处于中等水平，生猪出栏量、存栏量和猪肉产量均位居世界第二。",
+    "reference_case": "我国生猪产业在国际上处于领先地位，生猪出栏量、存栏量和猪肉产量均位居世界第一。然而，我国生猪出栏胴体重低于世界平均水平，生猪饲养效率与其他主要生产国仍有一定差距。",
+    "error_detail": "地域差异错误",
+    "original_question": "我国生猪产业在国际上的地位如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "有血清组卵丘细胞扩散较差，无血清组卵丘细胞扩散较好。",
+    "reference_case": "有血清组卵丘细胞扩散较好，无血清组卵丘细胞扩散较差。",
+    "error_detail": "错误地颠倒了血清对卵丘细胞扩散的影响",
+    "original_question": "血清对猪卵母细胞成熟过程中的卵丘细胞扩散有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "输精管以30°角向下插入，进入5~6cm后逆时针旋转。",
+    "reference_case": "输精管以45°角向上插入，进入3~4cm后顺时针旋转，当感觉有阻力时继续缓慢旋转并前后移动，直到前端被锁定。",
+    "error_detail": "插入角度、方向和深度描述错误，不符合实际操作。",
+    "original_question": "输精过程中输精管插入母猪生殖道的角度和深度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "1994年对福建的猪刚刺颚口线虫进行了流行病学调查，发现该病在福建的猪群中非常罕见。",
+    "reference_case": "福建猪刚刺颚口线虫病。",
+    "error_detail": "错误地描述了疾病的流行情况",
+    "original_question": "1994年对福建的哪种颚口线虫进行了流行病学调查？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "缺锌时猪生长减慢，食欲缺乏，皮肤和食道上皮细胞变厚和过度角化，发生副皮炎。",
+    "reference_case": "缺锌时猪生长减慢，食欲缺乏，皮肤和食道上皮细胞变厚和过度角化，发生副皮炎。",
+    "error_detail": "地域差异",
+    "original_question": "缺锌对猪有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "主要感染2至12月龄、膘情好的绵羊，山羊、牛和猪也可感染。",
+    "reference_case": "主要感染2至12月龄、膘情好的绵羊，山羊、牛和猪也可感染。",
+    "error_detail": "地域差异",
+    "original_question": "羊肠毒血症主要感染哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "我国主要生猪主产区市场间不存在长期整合关系。",
+    "reference_case": "我国主要生猪主产区市场间存在长期整合关系，多数产销区市场组合既存在长期整合关系，也存在短期整合关系。尽管市场机制已经在生猪市场中发挥了基础性作用，但市场发育的地域性差异仍然存在，特别是西部与东部和中部的差距较为明显。",
+    "error_detail": "错误地否认了主产区市场间的长期整合关系。",
+    "original_question": "我国生猪主产区和主销区之间的市场整合情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "我国生猪主产区的市场整合程度较低。",
+    "reference_case": "我国生猪主产区的市场整合程度较高，价格序列间存在长期协整关系，表明市场效率整体较好。东中部主产区（如河北、山东、河南、湖南）市场联系紧密，而四川与东中部产区市场联系较弱。",
+    "error_detail": "错误地描述了主产区的市场整合程度。",
+    "original_question": "文章如何描述我国生猪主产区的市场整合状况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "指卵子受精开始至分娩前的母猪，在某些地区称为怀孕母猪。",
+    "reference_case": "指卵子受精开始至分娩前的母猪。",
+    "error_detail": "添加了地域性差异的描述，导致空间错位幻觉。",
+    "original_question": "妊娠母猪的定义是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "指断奶后至初配前选留为种用的小母猪，在某些地区称为预备母猪。",
+    "reference_case": "指断奶后至初配前选留为种用的小母猪。",
+    "error_detail": "添加了地域性差异的描述，导致空间错位幻觉。",
+    "original_question": "后备母猪的定义是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "种公猪的营养需要根据其年龄和体重级确定，分为80 kg以下、80~140 kg和140 kg以上三个体重级。",
+    "reference_case": "种公猪的营养需要根据其年龄和体重级确定，分为90 kg以下、90~150 kg和150 kg以上三个体重级。",
+    "error_detail": "修改了种公猪的体重级标准，导致空间错位幻觉。",
+    "original_question": "种公猪的营养需要如何根据年龄和体重级来确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "种公猪配种旺季每天可加鸡或鸭蛋3-4个，或鱼粉、春蛹60 g-120 g等动物性蛋白质饲料，以增加营养。",
+    "reference_case": "种公猪配种旺季每天可加鸡或鸭蛋2-3个，或鱼粉、春蛹50 g-100 g等动物性蛋白质饲料，以增加营养。",
+    "error_detail": "修改了种公猪配种旺季的营养补充标准，导致空间错位幻觉。",
+    "original_question": "种公猪配种旺季应如何增加营养？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪场场址应位于较高处，风向位置上也要注意，应选择在全年大部分时间为上风处。",
+    "reference_case": "猪场场址应位于较高处，风向位置上也要注意，应选择在全年大部分时间为上风处。",
+    "error_detail": "空间错位幻觉（地域差异）",
+    "original_question": "猪场的位置选择应考虑哪些因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "开放式或小规模猪场的哺乳仔猪在3周时肌注猪瘟弱毒苗1次，而集约化猪场的哺乳仔猪在40～50日龄再免疫1次（二免）。",
+    "reference_case": "开放式或小规模猪场的哺乳仔猪在3周时肌注猪瘟弱毒苗1次，而集约化猪场的哺乳仔猪在40～50日龄再免疫1次（二免）。",
+    "error_detail": "空间错位幻觉（地域差异）",
+    "original_question": "不同养殖类型猪场的哺乳仔猪免疫方式有什么不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "病变主要在心脏和肝脏，心脏壁出血，肝脏内有凝乳块，肝脏底部黏膜充血。",
+    "reference_case": "病变主要在胃和小肠，胃壁出血，胃内有凝乳块，胃底部黏膜充血，小肠内充满黄绿色或灰白色液状物，含有泡沫和未消化的凝乳块，小肠线毛萎缩，小肠壁变薄，肠系膜淋巴结肿胀呈淡黄色。剖检乳糜管中无脂肪。",
+    "error_detail": "错误地将病变位置从胃和小肠转移到了心脏和肝脏。",
+    "original_question": "猪传染性胃肠炎的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "主要可见胃和小肠黏膜充血、肿胀，表面覆有大量灰黄色黏液，黏液中及肠黏膜上有大量乳白色的鞭虫。",
+    "reference_case": "主要可见盲肠和结肠黏膜充血、肿胀，表面覆有大量灰黄色黏液，黏液中及肠黏膜上有大量乳白色的鞭虫，严重感染者肠黏膜水肿、出血及坏死。感染后期肠黏膜发生溃疡和结节，结节中含有虫体或虫卵。",
+    "error_detail": "错误地将病变位置从盲肠和结肠转移到了胃和小肠。",
+    "original_question": "猪鞭虫病的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪钩端螺旋体病的流行特点包括传播速度慢、不易在潮湿环境中爆发等，临床症状包括低温、无黄疸、无贫血、无关节炎等。",
+    "reference_case": "猪钩端螺旋体病的流行特点包括传播速度快、易在潮湿环境中爆发等，临床症状包括发热、黄疸、贫血、关节炎等。",
+    "error_detail": "错误地描述了猪钩端螺旋体病的流行特点和临床症状，与事实不符。",
+    "original_question": "猪钩端螺旋体病的流行特点、临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "全年均可发病，尤其在干燥地区。",
+    "reference_case": "夏秋季多雨潮湿、鼠较多的地区。",
+    "error_detail": "错误地描述了发病的地域和季节特点，属于空间错位。",
+    "original_question": "猪钩端螺旋体病的发病特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "全年均可发病，尤其在寒冷地区。",
+    "reference_case": "夏秋季多雨潮湿、吸血昆虫繁殖高峰期。",
+    "error_detail": "错误地描述了发病的地域和季节特点，属于空间错位。",
+    "original_question": "猪附红细胞体病的发病特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪的分布，在牧区主要集中在草原带内，其分布百分比值高达90.50%，其中森林草原地区高达70.60%。",
+    "reference_case": "猪的分布，在牧区主要集中在草原带内，其分布百分比值高达78.50%，其中森林草原地区高达59.60%。",
+    "error_detail": "地域差异",
+    "original_question": "猪主要分布在哪些地区？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "不同地区主要养殖的畜禽种类各异，低山、低中山区以黄牛、山羊比重最大；山区以山羊比重较大；亚高山、高山区以绵羊为主，部分高山地区有牦牛；东北区以马、牛、猪、山羊、绵羊为主；黄淮海区以黄牛、绵羊、山羊、猪、鸡为主；东南区以水牛、猪和水禽为主。",
+    "reference_case": "不同地区主要养殖的畜禽种类各异，低山、低中山区以黄车、山羊比重最大；山区以山羊比重较大；亚高山、高山区以继羊为主，部分高山地区有牦牛；东北区以马、牛、猪、山羊、绵羊为主；黄淮海区以黄牛、绵羊、山羊、猪、鸡为主；东南区以水牛、猪和水禽为主。",
+    "error_detail": "将'黄车'错误地改为'黄牛'，'继羊'错误地改为'绵羊'，导致地域差异描述不准确。",
+    "original_question": "不同地区的畜禽比重有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "蚚蚼一般以冬季活动频繁，最易感染，夏季不易感染，湿润而紧密的黏质土壤是",
+    "reference_case": "蚚蚼一般以夏季活动频繁，最易感染，冬春季不易感染，干煤而疏松的砂质土壤是",
+    "error_detail": "错误地改变了蚚蚼的活动季节和土壤类型。",
+    "original_question": "哪些环境因素影响野猪后圆线虫病的发生？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "加强引进种猪必要的隔离、检测和控制；加强饲养管理，特别是调整断奶前后营养，改善饲养制度；工厂化养猪对其分娩、保育、育肥做到'全进全出'，分娩舍鼓励交叉寄养；改善车间小气候环境，降低饲养密度；扩大养殖车间的距离以5～10米为宜，猪栏采用栅栏式分隔，避免实体式直接接触感染；作好养殖过程的带猪消毒；已经感染的猪群，适度减少或推迟对猪群的免疫；感染了PCV2的猪群要控制细菌性继发感染，常用药物有青霉素、链霉素、四环素、红霉素、氯霉素等；提高猪群抗病力，增强疫苗和药物防治，选用免疫增强剂，如在饲料中添加维生素类预混剂等。",
+    "reference_case": "加强引进种猪必要的隔离、检测和控制；加强饲养管理，特别是调整断奶前后营养，改善饲养制度；工厂化养猪对其分娩、保育、育肥做到'全进全出'，分娩舍限制交叉寄养；改善车间小气候环境，降低饲养密度；扩大养殖车间的距离以15～20米为宜，猪栏采用实体分隔，避免栅栏式直接接触感染；作好养殖过程的带猪消毒；已经感染的猪群，适度减少或推迟对猪群的免疫；感染了PCV2的猪群要控制细菌性继发感染，常用药物有氟苯尼考、替米考星、头孢菌素、泰乐菌素、泰妙菌素等；提高猪群抗病力，增强疫苗和药物防治，选用免疫增强剂，如在饲料中添加黄芪多糖类预混剂等。",
+    "error_detail": "修改了分娩舍的寄养政策、养殖车间的距离、猪栏的分隔方式、常用药物和免疫增强剂的类型。",
+    "original_question": "PCV2两种血清。14. 猪II型圆环病毒病如何防治？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "南京市猪肉产量下降的主要原因是非洲猪瘟的爆发。",
+    "reference_case": "南京市猪肉产量下降的主要原因是生猪养殖产业外迁。由于城市的发展和人们对环境要求的提高，南京市的生猪养殖产业逐渐向外地转移，导致本地猪肉产量减少。",
+    "error_detail": "错误地将非洲猪瘟作为主要原因，忽略了产业外迁的实际影响。",
+    "original_question": "南京市猪肉产量下降的主要原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "广东、福建、浙江三个省份年产量超过300万吨。",
+    "reference_case": "四川、湖南、河南、山东、河北五个省份年产量超过300万吨，其中四川省超过450万吨。",
+    "error_detail": "错误地列出了不相关的省份。",
+    "original_question": "我国哪些省份的猪肉产量较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒损伤猪体的免疫系统和呼吸系统，特别是肺，感染肺泡巨噬细胞或单核细胞，导致免疫抑制，这种情况在欧洲尤为严重。",
+    "reference_case": "猪繁殖与呼吸综合征病毒损伤猪体的免疫系统和呼吸系统，特别是肺，感染肺泡巨噬细胞或单核细胞，导致免疫抑制。",
+    "error_detail": "添加了不准确的地域信息",
+    "original_question": "猪繁殖与呼吸综合征病毒如何影响猪的免疫系统？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪的腹股沟浅淋巴结在公畜位于阴囊的下方，阴茎的两侧；母畜称乳房淋巴结，位于乳房基部的前下方。",
+    "reference_case": "猪的腹股沟浅淋巴结在公畜位于阴囊的上方，阴茎的两侧；母畜称乳房淋巴结，位于乳房基部的后上方。",
+    "error_detail": "错误地描述了腹股沟浅淋巴结的位置，将上方混淆为下方，后上方混淆为前下方。",
+    "original_question": "猪的腹股沟浅淋巴结位于哪些位置？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "增加采食量和提高猪舍温度是猪抗冷应激的主要技术措施，在热带地区还需要给猪提供冷水浴。",
+    "reference_case": "增加采食量和提高猪舍温度是猪抗冷应激的主要技术措施。",
+    "error_detail": "添加了不适用于所有地域的措施",
+    "original_question": "猪在抗冷应激的技术措施主要有哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "母猪在行走、躺卧时会故意踩伤、压伤仔猪，躺卧时选择最拥挤的地方。",
+    "reference_case": "母猪在行走、躺卧时非常谨慎，不踩伤、压伤仔猪，躺卧时选择靠栏三角地，防止压住仔猪，听到仔猪尖叫声会站起并防压动作再重复一遍，直到不压住仔猪为止。",
+    "error_detail": "错误地描述了母猪对仔猪的保护行为，如故意踩伤、压伤仔猪和选择最拥挤的地方躺卧。",
+    "original_question": "母猪如何保护仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "过道的设置以舍内猪栏列数而定，例如，双列式可在两侧各设一条宽2.0～2.5m的净道。",
+    "reference_case": "过道的设置以舍内猪栏列数而定，例如，双列式可在中间设一条宽1.0～1.2m的净道，靠墙四周或三边设宽为0.9m的循环通道（污道）。",
+    "error_detail": "错误地描述了猪舍过道的设置方式和宽度。",
+    "original_question": "猪舍过道的设置原则是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "该处理工艺比较适合于人口密集区、雨水较多地区的规模养猪场。",
+    "reference_case": "该处理工艺比较适合于远离人口密集区、雨水较少地区的规模养猪场。",
+    "error_detail": "错误地描述了堆肥法+沉淀法处理工艺适用的地区。",
+    "original_question": "堆肥法+沉淀法处理工艺适用于哪些地区？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "优点包括费工、增加应激，缺点有猪不喜欢拱食，不易含着饲料去饮水造成饲料浪费少，不易增加空气中的粉尘，易及时观察到病猪，浪费水较少。",
+    "reference_case": "优点包括省工、减少应激，缺点有猪喜欢拱食，常含着饲料去饮水造成饲料浪费多，易增加空气中的粉尘，不易及时观察到病猪，浪费水较多。",
+    "error_detail": "地域差异导致错误结论",
+    "original_question": "干粉料有哪些优点和缺点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "华南型猪分布在云南省西南部和南部边缘, 广西和广东偏南的大部分地区, 以及福建的东南角和台湾各地，还包括海南岛。",
+    "reference_case": "华南型猪分布在云南省西南部和南部边缘, 广西和广东偏南的大部分地区, 以及福建的东南角和台湾各地。",
+    "error_detail": "错误地将海南岛包括在华南型猪的分布区域内，实际上海南岛不属于华南型猪的主要分布区域。",
+    "original_question": "华南型猪的主要分布区域是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "江海型猪主要分布于汉水和长江中下游沿岸以及东南沿海地区，还包括黄河流域。",
+    "reference_case": "江海型猪主要分布于汉水和长江中下游沿岸以及东南沿海地区。",
+    "error_detail": "错误地将黄河流域包括在江海型猪的分布区域内，实际上黄河流域不属于江海型猪的主要分布区域。",
+    "original_question": "江海型猪的主要分布区域是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "西南型猪主要分布在云贵高原和四川盆地的大部分地区，以及湘鄂西部和西藏地区。",
+    "reference_case": "西南型猪主要分布在云贵高原和四川盆地的大部分地区，以及湘鄂西部。",
+    "error_detail": "错误地将西藏地区包括在西南型猪的分布区域内，实际上西藏地区不属于西南型猪的主要分布区域。",
+    "original_question": "西南型猪的主要分布区域是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在所有地区，仔猪可能发生缺硒性下痢、肝坏死和白肌病，宜于生后3日内注射0.1%的亚硒酸钠维生素E合剂，每头0.5 mL。",
+    "reference_case": "在严重缺硒地区，仔猪可能发生缺硒性下痢、肝坏死和白肌病，宜于生后3日内注射0.1%的亚硒酸钠维生素E合剂，每头0.5 mL。",
+    "error_detail": "地域差异",
+    "original_question": "哪些地区需要给初生仔猪补硒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "规模化养殖扶持政策主要包括能畜牧标准化规模养殖扶持政策、生猪规模化养殖场无害化处理补助、生猪定点屠宰环节病害猪无害化处理补贴及养殖场建设补贴四项。",
+    "reference_case": "规模化养殖扶持政策主要包括能畜牧标准化规模养殖扶持政策、生猪规模化养殖场无害化处理补助、生猪定点屠宰环节病害猪无害化处理补贴三项。",
+    "error_detail": "添加了不适用于所有地域的政策项。",
+    "original_question": "生猪产业扶持政策中的规模化养殖扶持政策主要包括哪些内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "饲料成本核算承担单位包括种猪区、保育区、培育区、后备舍和育肥区。",
+    "reference_case": "饲料成本核算承担单位包括种猪区、保育区、培育区和后备舍。",
+    "error_detail": "地域差异",
+    "original_question": "饲料成本核算承担单位包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在牛日粮中添加真菌来源的植酸酶可显著增加回肠及整个肠道对植酸磷的消化率。",
+    "reference_case": "在猪日粮中添加真菌来源的植酸酶可显著增加回肠及整个肠道对植酸磷的消化率。",
+    "error_detail": "地域差异",
+    "original_question": "如何提高反刍动物对植酸磷的利用率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "使用1%过氧乙酸、含氯消毒药等进行喷雾消毒，每5天1次。",
+    "reference_case": "使用0.5%过氧乙酸、含氯消毒药等进行喷雾消毒，每7天1次。",
+    "error_detail": "消毒剂浓度和消毒频率与标准不符，可能反映地域差异。",
+    "original_question": "猪传染性胃肠炎和猪流行性腹泻的消毒方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在饲料饲养环节，可能引入的潜在危害包括饲料的物理指标（如色、香、味）、化学指标（如重金属、微量元素、有害化合物、药物残留）以及生物指标（如霉菌）。这些因素可能对生猪健康和猪肉品质造成不良影响。特别是在热带地区，霉菌的生长速度更快。",
+    "reference_case": "在饲料饲养环节，可能引入的潜在危害包括饲料的物理指标（如色、香、味）、化学指标（如重金属、微量元素、有害化合物、药物残留）以及生物指标（如霉菌）。这些因素可能对生猪健康和猪肉品质造成不良影响。",
+    "error_detail": "引入了不相关的地域特定信息",
+    "original_question": "在饲料饲养环节，可能引入哪些潜在危害？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "磷化锌中毒的猪剖检可见尸体僵直，气管内有白色胶样分泌物和泡沫，肺郁血水肿，胃内容物有酸臭的大蒜味，胃粘膜充血，出血，脱落，肝肿大，质脆，肾肿大，心肌出血，且这些病变在欧洲猪种中更为常见。",
+    "reference_case": "磷化锌中毒的猪剖检可见尸体僵直，气管内有白色胶样分泌物和泡沫，肺郁血水肿，胃内容物有酸臭的大蒜味，胃粘膜充血，出血，脱落，肝肿大，质脆，肾肿大，心肌出血。",
+    "error_detail": "添加了不相关的地域差异信息。",
+    "original_question": "磷化锌中毒的猪剖检会出现哪些病变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "淮北应大力发展商品猪生产，增加出栏率和出肉率，积极发展牛、羊、兔等食草性家畜，特别是矿区和城郊区发展肉用牛、乳肉兼用牛，农区发展役用牛，加强长毛兔的饲养，这一策略仅适用于淮北地区。",
+    "reference_case": "淮北应大力发展商品猪生产，增加出栏率和出肉率，积极发展牛、羊、兔等食草性家畜，特别是矿区和城郊区发展肉用牛、乳肉兼用牛，农区发展役用牛，加强长毛兔的饲养。",
+    "error_detail": "错误地限定了策略的适用范围。",
+    "original_question": "淮北畜牧业的发展方向是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "2000年在中国北京出生了5头雌性体细胞克隆猪，表明体细胞克隆猪首次获得成功。",
+    "reference_case": "2000年在美国弗吉尼亚州Blackburg出生了5头雌性体细胞克隆猪，表明体细胞克隆猪首次获得成功。",
+    "error_detail": "地域差异",
+    "original_question": "体细胞克隆猪的成功标志是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "美国的兔化弱毒疫苗（C-株）是全世界使用最为广泛，同时也是最优秀的疫苗。",
+    "reference_case": "中国的兔化弱毒疫苗（C-株）是全世界使用最为广泛，同时也是最优秀的疫苗。",
+    "error_detail": "错误地将疫苗的产地从中国改为美国。",
+    "original_question": "猪瘟疫苗有哪些种类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "病毒通过粪、尿、水疱液、奶排出，通过接触、饲喂含病毒而未经消毒的泔水和屠宰下脚料、生猪交易、运输工具等传播，尤其在亚洲地区传播速度更快。",
+    "reference_case": "病毒通过粪、尿、水疱液、奶排出，通过接触、饲喂含病毒而未经消毒的泔水和屠宰下脚料、生猪交易、运输工具等传播。",
+    "error_detail": "添加了‘尤其在亚洲地区传播速度更快’这一未经证实的陈述，导致空间错位幻觉。",
+    "original_question": "病毒主要通过哪些途径传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "急性败血型可见病死猪颈下、腹部及四肢皮肤有暗紫色红斑或出血点；鼻黏膜充血及出血，喉头、气管充血，气管内常有大量泡沫；心包液增多，心肌变软、色淡，心脏冠状沟和心内膜有出血；肺充血肿胀和出血；全身淋巴结有不同程度的肿大、充血和出血；脾脏明显肿大，有的可达 1～3 倍，呈暗红色，包膜下有小点出血，边缘有黑红色出血性梗死区；肝脏肿，边缘变钝，切面结构不清；肾脏稍肿，皮、髓质界限不清或见出血点；胃和小肠黏膜有不同程度的充血和出血；脑膜充血和出血，有的脑切面可见小点出血。",
+    "reference_case": "急性败血型可见病死猪颈下、腹部及四肢皮肤有暗紫色红斑或出血点；鼻黏膜充血及出血，喉头、气管充血，气管内常有大量泡沫；心包液增多，心肌变软、色淡，心脏冠状沟和心内膜有出血；肺充血肿胀和出血；全身淋巴结有不同程度的肿大、充血和出血；脾脏明显肿大，有的可达 1～3 倍，呈暗红色，包膜下有小点出血，边缘有黑红色出血性梗死区；肝脏肿，边缘变钝，切面结构不清；肾脏稍肿，皮、髓质界限不清或见出血点；胃和小肠黏膜有不同程度的充血和出血；脑膜充血和出血，有的脑切面可见小点出血。",
+    "error_detail": "空间错位幻觉，错误地将猪链球菌病的病理变化描述为其他疾病的病理变化。",
+    "original_question": "猪链球菌病的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "某些地区的原发性肝癌高发，当地种猪和鸭的肝癌检出率也很高；人食管癌高发地区，该地区鸡咽一食管癌的发病率比人更高；人鼻咽癌高发地区，猪也存在相同的高发肿瘤。",
+    "reference_case": "某些地区的原发性肝癌高发，当地种猪和鸭的肝癌检出率也很高；人食管癌高发地区，该地区鸡咽一食管癌的发病率比人更高；人鼻咽癌高发地区，猪也存在相同的高发肿瘤。",
+    "error_detail": "空间错位幻觉（地域差异）",
+    "original_question": "畜禽肿瘤与人类肿瘤在流行病学和地理分布上有何相似性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪丹毒丝菌感染可导致家禽，尤其是火鸡和产蛋鸡，出现虚弱、精神沉郁、腹泻和猝死等症状，产蛋量下降，严重时可引起火鸡和种鸭死亡，以及成年鸡的受精能力和产蛋能力下降。此现象在亚洲尤为常见。",
+    "reference_case": "猪丹毒丝菌感染可导致家禽，尤其是火鸡和产蛋鸡，出现虚弱、精神沉郁、腹泻和猝死等症状，产蛋量下降，严重时可引起火鸡和种鸭死亡，以及成年鸡的受精能力和产蛋能力下降。",
+    "error_detail": "错误添加了地域性信息",
+    "original_question": "猪丹毒丝菌感染对家禽有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "胸膜发生浆液-纤维素性胸膜炎，病程较长者通常都发生机化，从而使肺叶之间或肺与胸膜之间粘连。有时还可见浆液-纤维素性心包炎和胸膜炎，尤其是在心脏区域。",
+    "reference_case": "胸膜发生浆液-纤维素性胸膜炎，病程较长者通常都发生机化，从而使肺叶之间或肺与胸膜之间粘连。有时还可见浆液-纤维素性心包炎和胸膜炎。",
+    "error_detail": "错误地指定了病变的具体位置心脏区域",
+    "original_question": "猪支原体肺炎的自然病例晚期可能会出现哪些继发性病变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "尿酸盐结石在犬中最常见，也发生于猪但罕见于猫，尤其是在寒冷地区。",
+    "reference_case": "尿酸盐结石在犬中最常见，也发生于猪但罕见于猫。",
+    "error_detail": "错误地添加了地域限制寒冷地区",
+    "original_question": "尿酸盐结石在哪些动物中最常见？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "补锌添加剂可通过对味蕾的刺激作用提高猪的采食量，通过促进生长激素的分泌促进猪生长，保证商品肉用生产动物始终有充足的锌供给，确保合成体蛋白，提高瘦肉率。在欧洲，补锌添加剂的使用量是美国的2倍。",
+    "reference_case": "补锌添加剂可通过对味蕾的刺激作用提高猪的采食量，通过促进生长激素的分泌促进猪生长，保证商品肉用生产动物始终有充足的锌供给，确保合成体蛋白，提高瘦肉率。",
+    "error_detail": "添加了未经证实的欧洲和美国补锌添加剂使用量的比较",
+    "original_question": "补锌添加剂在饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪、禽及其它食肉类动物容易发生维生素B12缺乏，牛、羊、马、兔常因地方性缺钴而呈地区性流行，其他动物维生素B12缺乏者很少。此外，热带地区的动物更容易缺乏维生素B12。",
+    "reference_case": "猪、禽及其它食肉类动物容易发生维生素B12缺乏，牛、羊、马、兔常因地方性缺钴而呈地区性流行，其他动物维生素B12缺乏者很少。",
+    "error_detail": "错误地添加了地域性差异",
+    "original_question": "哪些动物容易发生维生素B12缺乏？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪因雄激素类添加剂中毒可能出现频频排尿，里急后重，直肠脱垂，尿道壁增厚，膀胱松弛，前列腺、精囊腺明显扩大等症状，这种情况在欧洲更为常见。",
+    "reference_case": "猪因雄激素类添加剂中毒可能出现频频排尿，里急后重，直肠脱垂，尿道壁增厚，膀胱松弛，前列腺、精囊腺明显扩大等症状。",
+    "error_detail": "错误地添加了地域限制",
+    "original_question": "猪因雄激素类添加剂中毒可能出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "法国最大的养猪业在东部阿尔萨斯地区，每年可提供60万头肥猪。",
+    "reference_case": "法国最大的养猪业在西部布列塔尼地区，每年可提供60万头肥猪。",
+    "error_detail": "地域错误",
+    "original_question": "法国最大的养猪业在哪个地区，每年可提供多少头肥猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "应激易感猪常常由寒冷、饥饿、缺水等应激因素引起。",
+    "reference_case": "应激易感猪常常由驱赶、抓捕、运输、过热、兴奋、交配、惊吓、陌生、混群、拥挤、斗架、外伤、保定等应激因素引起。",
+    "error_detail": "空间错位，错误地描述了应激因素，忽略了地域和环境的差异。",
+    "original_question": "哪些外界应激因素可能诱发猪应激综合征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "报道的动物包括德国短毛 Pointer 犬、日本 Spaniel 犬、约克夏猪、Korat 猫和杂种猫、Knockout 小鼠以及深海鱼和非洲象。",
+    "reference_case": "报道的动物包括德国短毛 Pointer 犬、日本 Spaniel 犬、约克夏猪、Korat 猫和杂种猫、Knockout 小鼠以及深海鱼。",
+    "error_detail": "错误地添加了非洲象，属于空间错位幻觉。",
+    "original_question": "GM2 神经节苷脂累积病在哪些动物中被报道？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "乳糖不耐受症在犬和乳牛中呈家族性发生，同时在婴儿、犊牛、羔羊、仔猪等各种幼畜中也常见，且在企鹅中也有报道。",
+    "reference_case": "乳糖不耐受症在犬和乳牛中呈家族性发生，同时在婴儿、犊牛、羔羊、仔猪等各种幼畜中也常见。",
+    "error_detail": "错误地添加了企鹅，属于空间错位幻觉。",
+    "original_question": "乳糖不耐受症的患病动物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "遗传性先天性脑水肿主要影响荷斯坦、海福特、爱尔夏、娟姗、根舍等多种品系的牛，以及约克夏、欧洲 Buntes 等品系的猪，且在亚洲水牛中也有发现。",
+    "reference_case": "遗传性先天性脑水肿主要影响荷斯坦、海福特、爱尔夏、娟姗、根舍等多种品系的牛，以及约克夏、欧洲 Buntes 等品系的猪。",
+    "error_detail": "错误地添加了亚洲水牛，属于空间错位幻觉。",
+    "original_question": "遗传性先天性脑水肿主要影响哪些品系的牛和猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "遗传性脑膜脑突出在猪、猫、牛、绵羊、山羊、兔以及小鼠中被报道，且在袋鼠中也有发现。",
+    "reference_case": "遗传性脑膜脑突出在猪、猫、牛、绵羊、山羊、兔以及小鼠中被报道。",
+    "error_detail": "错误地添加了袋鼠，属于空间错位幻觉。",
+    "original_question": "遗传性脑膜脑突出在哪些动物中被报道？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "性染色体单体（XO）已报道发生于人、小鼠、大鼠、猫、犬、猪、马以及鸡，不包括任何水生动物。",
+    "reference_case": "性染色体单体（XO）已报道发生于人、小鼠、大鼠、猫、犬、猪、马以及鸡。",
+    "error_detail": "添加了不存在的限制条件，导致空间错位幻觉。",
+    "original_question": "性染色体单体（XO）已报道发生于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪痢短螺旋体的感染途径是通过暴露于污染的粪便和水源。",
+    "reference_case": "猪痢短螺旋体的感染途径是通过暴露于污染的粪便。",
+    "error_detail": "错误地添加了水源作为感染途径，原输出中仅提及粪便。",
+    "original_question": "猪痢短螺旋体的感染途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪传染性胃肠炎通常通过粪-口途径传播，但在某些地区主要通过空气传播。",
+    "reference_case": "猪传染性胃肠炎通常通过粪-口途径传播。",
+    "error_detail": "错误地添加了在某些地区主要通过空气传播的描述，这是空间错位幻觉。",
+    "original_question": "猪传染性胃肠炎（TGE）的主要传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "感染主要发生在呼吸道，病毒结合到肺泡巨噬细胞上，肺是靶器官。病毒运输到区域淋巴结后，开始传播到身体各个组织中的巨噬细胞里。病毒可经胎盘感染胎儿，但在某些地区主要通过消化道传播。",
+    "reference_case": "感染主要发生在呼吸道，病毒结合到肺泡巨噬细胞上，肺是靶器官。病毒运输到区域淋巴结后，开始传播到身体各个组织中的巨噬细胞里。病毒可经胎盘感染胎儿。",
+    "error_detail": "错误地添加了但在某些地区主要通过消化道传播的描述，这是空间错位幻觉。",
+    "original_question": "PRRSV感染后，病毒如何在猪体内传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪水疱病在非洲和南美洲的猪中更为常见，而在亚洲和欧洲的猪中较少见。",
+    "reference_case": "猪水疱病仅发生于猪，牛、羊等家畜不发病；猪不分年龄、性别、品种均可感染；在猪集中或调运频繁的地区容易流行，尤其是猪集中的仓库，集中的数量和密度愈大，发病率愈高；在分散饲养的情况下，很少引起流行；主要通过粪便、尿液、水疱液、乳汁排出病毒，传播途径包括接触、喂食含病毒而未经消毒的泔水和屠宰下脚料、生猪交易、运输工具、被污染的饲料、垫草、运动场和饲养员等。",
+    "error_detail": "错误地指定了猪水疱病的地域分布，原始output中并未提及地域差异。",
+    "original_question": "猪水疱病的主要流行病学特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "临沂市生猪产业发展的自然资源包括：恶劣的气候条件，四季不分，不适合生猪繁殖；贫瘠的土地资源，缺乏农田和山地丘陵，不适合种植饲料作物；匮乏的水资源，缺乏水系支持。",
+    "reference_case": "临沂市生猪产业发展的自然资源包括：良好的气候条件，四季分明，适合生猪繁殖；丰富的土地资源，拥有大面积的农田和山地丘陵，适合种植饲料作物；充足的水资源，沂河、沭河等水系提供了丰富的水资源；发达的交通物流条件，为生猪及其产品的运输提供了便利。",
+    "error_detail": "完全颠倒了原文中关于自然资源的描述，错误地表述为不利条件。",
+    "original_question": "临沂市生猪产业发展的自然资源有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "红萍适合作为猪的饲料，猪喜食且营养丰富。",
+    "reference_case": "红萍适合作为猪的饲料，猪喜食且营养丰富。",
+    "error_detail": "未考虑不同地区红萍的营养成分可能存在的差异。",
+    "original_question": "红萍是否适合作为猪的饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "江海型猪分布于华北型猪和华中型猪两大类型分布区之间，交错地带地处汉水和长江中下游沿岸以及东南沿海地区。",
+    "reference_case": "江海型猪分布于华北型猪和华中型猪两大类型分布区之间，交错地带地处汉水和长江中下游沿岸以及东南沿海地区。",
+    "error_detail": "空间错位幻觉（地域差异）",
+    "original_question": "江海型猪的主要分布地区有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "西南型猪主要分布在云贵高原和四川盆地。",
+    "reference_case": "西南型猪主要分布在云贵高原和四川盆地。",
+    "error_detail": "空间错位幻觉（地域差异）",
+    "original_question": "西南型猪的主要分布地区有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "高原型猪主要分布在青藏高原，包括西藏自治区、青海省、甘肃省和四川省的藏族自治州（县）等地。",
+    "reference_case": "高原型猪主要分布在青藏高原，包括西藏自治区、青海省、甘肃省和四川省的藏族自治州（县）等地。",
+    "error_detail": "空间错位幻觉（地域差异）",
+    "original_question": "高原型猪的主要分布地区有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "电热板适用于初生仔猪的短期保温，具有保温效果好、清洁卫生和使用方便的特点。在热带地区尤其推荐使用。",
+    "reference_case": "电热板适用于初生仔猪的短期保温，具有保温效果好、清洁卫生和使用方便的特点。",
+    "error_detail": "错误地添加了热带地区的推荐使用",
+    "original_question": "电热板取暖的适用场景是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "我国所有地区饲料中硒含量较低，补硒尤为重要。",
+    "reference_case": "我国大部分地区饲料中硒含量较低，补硒尤为重要。",
+    "error_detail": "错误地扩大了地域范围",
+    "original_question": "补硒对于仔猪的重要性体现在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "福建省龙岩市新罗区发展生猪产业的主要条件包括恶劣的地理条件、不适宜的自然生态条件、缺乏养殖区位优势以及有限的产业扶持政策。",
+    "reference_case": "福建省龙岩市新罗区发展生猪产业的主要条件包括优越的地理条件、适宜的自然生态条件、明显的养殖区位优势以及良好的产业扶持政策。",
+    "error_detail": "错误地描述了新罗区发展生猪产业的条件",
+    "original_question": "新罗区发展生猪产业的主要条件有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪僵猪的发病原因是气候炎热。",
+    "reference_case": "饲料单纯、营养不足、缺乏矿物质、蛋白质及青饲料等，导致代谢功能失调，肌肉不能肥满。",
+    "error_detail": "错误地指定了病因，与地域无关",
+    "original_question": "猪僵猪的发病原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "病猪初期精神不振，食欲减少，阵发性咳嗽；中期鼻涕粘稠，每日早晨欲食不食，体质消瘦，呼吸困难，粪便干结；后期腹式呼吸，起卧不安，胸部按有痛感，鼻腔流出黄色鼻涕，午间呈犬坐式喘气，急迫。胸部听诊肺泡音粗厉。脉洪，舌苔黄。",
+    "reference_case": "病猪初期精神不振，食欲减少，阵发性咳嗽；中期鼻涕粘稠，每日早晨欲食不食，体质消瘦，呼吸困难，粪便干结；后期腹式呼吸，起卧不安，胸部按有痛感，鼻腔流出黄色鼻涕，午间呈犬坐式喘气，急迫。胸部听诊肺泡音粗厉。脉洪，舌苔黄。",
+    "error_detail": "地域差异",
+    "original_question": "猪肺气肿的常见症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪、羊链球菌病时可采取肿胀的淋巴结、鼻漏、唾液、气管分泌物、血液、肝、脾、肾、肺、肌肉和脓肿的关节液等病料进行检测。",
+    "reference_case": "猪、羊链球菌病时可采取肿胀的淋巴结、鼻漏、唾液、气管分泌物、血液、肝、脾、肾、肺、肌肉和脓肿的关节液等病料进行检测。",
+    "error_detail": "错误地描述了病料的采集方法",
+    "original_question": "猪、羊链球菌病时可采取哪些病料进行检测？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪骨软骨病病变最早出现于桡骨远端。",
+    "reference_case": "猪骨软骨病病变最早出现于尺骨远端。",
+    "error_detail": "地域差异，将尺骨远端错误地改为桡骨远端。",
+    "original_question": "猪骨软骨病病变最早出现于哪个部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "太湖猪分布在长江上游、四川、云南和贵州交界的地区。",
+    "reference_case": "太湖猪分布在长江下游、江苏、浙江和上海交界的太湖流域。",
+    "error_detail": "错误地改变了太湖猪的分布地域。",
+    "original_question": "太湖猪主要分布在哪些地区？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "06至08年生猪饲料检测中，瘦肉精的阳性样品主要集中在湘潭县、株州市、浏阳市、长沙市和岳阳市的散养农户样品中。",
+    "reference_case": "06至08年生猪饲料检测中，瘦肉精的阳性样品主要集中在湘潭县、株州市、浏阳市和长沙市的散养农户样品中。",
+    "error_detail": "添加了不存在的地区（岳阳市）",
+    "original_question": "06至08年生猪饲料检测中，瘦肉精的阳性样品主要集中在哪些地区？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "母猪居所环境温度过高、通风不畅、湿度过大时，母猪将出现热应激，导致子宫内环境发生不良变化，造成胚胎附植受阻，胚胎存活率降低，产仔数减少，木乃伊、死胎、畸形增加。这种现象常发生在每年7、8月份的母猪群中。",
+    "reference_case": "母猪居所环境温度过高、通风不畅、湿度过大时，母猪将出现热应激，导致子宫内环境发生不良变化，造成胚胎附植受阻，胚胎存活率降低，产仔数减少，木乃伊、死胎、畸形增加。这种现象常发生在每年8、9月份的母猪群中。",
+    "error_detail": "错误地将时间从8、9月份改为7、8月份，与实际不符。",
+    "original_question": "环境因素如何影响胚胎的存活？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "过哺最好是安排在白天进行。",
+    "reference_case": "过哺最好是安排在夜间进行。",
+    "error_detail": "地域差异",
+    "original_question": "过哺仔猪的最佳时间是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "阶段肥育法主要适用于大规模的养猪场。",
+    "reference_case": "阶段肥育法适用于小规模的养猪场或养猪户。",
+    "error_detail": "错误地认为阶段肥育法适用于大规模养猪场。",
+    "original_question": "阶段肥育法主要适用于哪种规模的养猪场？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪应激综合征的病因包括高海拔地区的低氧环境。",
+    "reference_case": "猪应激综合征的病因包括遗传因素、外界应激因素（如驱赶、抓捕、运输、过熟、兴奋、交配、惊吓、陌生、混样、拥挤、咬架、外伤和保定等）以及某些药物（如某些吸入麻醉剂）的诱发。",
+    "error_detail": "错误地添加了不相关的地理因素作为病因。",
+    "original_question": "猪应激综合征的病因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "健康猪的皮肤无出血、丘疹、肿胀、结节、脱毛等，皮肤颜色正常，无色素沉着，皮肤呈白色。",
+    "reference_case": "健康猪的皮肤无出血、丘疹、肿胀、结节、脱毛等，皮肤颜色正常，无色素沉着，皮肤呈粉红色。",
+    "error_detail": "错误的皮肤颜色描述",
+    "original_question": "健康猪的皮肤颜色和状态如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "相对安徽、四川、浙江、湖北及江苏省平均水平，南京市生猪生产具有比较优势，但优势不明显；相对河南、吉林、山东等地，不具备比较优势。特别是在与广东省相比时，南京市的优势更加明显。",
+    "reference_case": "相对安徽、四川、浙江、湖北及江苏省平均水平，南京市生猪生产具有比较优势，但优势不明显；相对河南、吉林、山东等地，不具备比较优势。",
+    "error_detail": "错误地添加了与广东省的比较",
+    "original_question": "南京市生猪生产在国内的比较优势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "利用 WG-RH 克隆库构建了很多农业上重要动物的基因组图谱，包括猪、马、鸡和鹿等，尤其是在非洲地区。",
+    "reference_case": "利用 WG-RH 克隆库构建了很多农业上重要动物的基因组图谱，包括猪、马、鸡和鹿等。",
+    "error_detail": "错误地添加了地域信息",
+    "original_question": "WG-RH 克隆库如何帮助构建农业上重要动物的基因组图谱？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪密螺旋体痢疾的病理变化主要发生在小肠。",
+    "reference_case": "病变局限于盲肠、结肠和直肠的粘膜呈出血性卡他性炎，大肠粘膜覆盖着粘液和带血的纤维素性渗出物，大肠内容物呈粥状或水样，并混有粘液、血液和组织碎片，肠壁水肿较轻，肠粘膜表层坏死，外观呈豆腐渣样。",
+    "error_detail": "错误地将病理变化的位置描述为小肠，而实际上主要发生在大肠。",
+    "original_question": "猪密螺旋体痢疾的病理变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪仰卧保定时，多在左侧凹陷窝处进行注射。",
+    "reference_case": "猪仰卧保定时，多在右侧凹陷窝处进行注射。",
+    "error_detail": "注射部位错误地描述为左侧而非右侧。",
+    "original_question": "猪仰卧保定时，前腔静脉注射的注射部位在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪的腹腔穿刺法的穿刺部位在脐前方，白线两侧1~2cm处。",
+    "reference_case": "猪的腹腔穿刺法的穿刺部位在脐后方，白线两侧1~2cm处。",
+    "error_detail": "错误地将穿刺部位从'脐后方'改为'脐前方'。",
+    "original_question": "猪的腹腔穿刺法的穿刺部位在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪的膀胱穿刺法的穿刺部位在背部中央。",
+    "reference_case": "猪的膀胱穿刺法的穿刺部位在耻骨前缘下腹壁处。",
+    "error_detail": "错误地描述了穿刺部位，与实际解剖位置不符。",
+    "original_question": "猪的膀胱穿刺法的穿刺部位在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "心脏采血的穿刺部位是在右侧胸部。",
+    "reference_case": "心脏采血的穿刺部位是在左侧胸部触摸心搏动最明显的地方，即从胸骨鞘前端至背部下凹处连接线1/2点处。",
+    "error_detail": "错误地描述了穿刺部位，与实际解剖位置不符。",
+    "original_question": "猪心脏采血的穿刺部位如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "B超探查妊娠期猪的背部。",
+    "reference_case": "下腹部左（右）后胁部前的乳房上部，从最后一对乳腺的后上方开始，随妊娠增进，探查部位逐渐前移，最后可达肋骨后端。",
+    "error_detail": "错误地描述了探查部位，与实际操作不符。",
+    "original_question": "B超探查妊娠期猪的哪个部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "添加复合酶制剂提高了干物质、粗蛋白质和粗脂肪的消化率，腹泻频率和粪便中的菌数减少，这一效果在欧洲尤为显著。",
+    "reference_case": "添加复合酶制剂提高了干物质、粗蛋白质和粗脂肪的消化率，腹泻频率和粪便中的菌数减少。",
+    "error_detail": "空间错位，添加了不存在的'在欧洲尤为显著'的地域差异信息。",
+    "original_question": "添加复合酶制剂对仔猪营养物质的消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "牛在右侧肷窝部；马在左侧肷窝部；犬、猪、猫则宜在两侧前腹部。",
+    "reference_case": "牛在左侧肷窝部；马在右侧肷窝部；犬、猪、猫则宜在两侧后腹部，猪在第5.6乳头之间，腹下静脉和乳腺中间也可进行。",
+    "error_detail": "空间错位",
+    "original_question": "腹腔内注射的注射部位有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "云南省畜禽养殖业废弃物主要来自鱼类养殖。",
+    "reference_case": "云南省畜禽养殖业废弃物主要来自生猪生产、牛羊饲养和家禽养殖。",
+    "error_detail": "错误地添加了鱼类养殖作为主要来源",
+    "original_question": "云南省畜禽养殖业废弃物的主要来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "接生员首先用消毒过的双手配合把脐带从阴道理出来，中指和无名指夹住脐带，用拇指和食指抓住肷部倒提仔猪，用湿润的毛巾掏净仔猪口腔和鼻部黏液。",
+    "reference_case": "接生员首先用消毒过的双手配合把脐带从阴道理出来，中指和无名指夹住脐带，用拇指和食指抓住肷部倒提仔猪，用干燥卫生毛巾掏净仔猪口腔和鼻部黏液，再用干净毛巾或柔软的垫草迅速擦干其皮肤。",
+    "error_detail": "错误地建议使用湿润的毛巾而非干燥卫生毛巾，可能导致操作不当。",
+    "original_question": "如何擦干仔猪黏液？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "饲用抗生素对仔猪的作用效果与饲养环境和条件无关，饲养环境条件差的场地效果不明显，且病原微生物不会对经常性使用的抗菌药物产生耐药性。",
+    "reference_case": "饲用抗生素对仔猪的作用效果与饲养环境和条件密切相关，饲养环境条件差的场地效果更显著，且病原微生物可能对经常性使用的抗菌药物产生耐药性，影响其作用效果。",
+    "error_detail": "空间错位，错误地认为饲用抗生素的效果与饲养环境和条件无关，且不会产生耐药性。",
+    "original_question": "饲用抗生素对仔猪的作用效果受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "2～3周龄断奶仔猪表现出显著的免疫抑制，抗病力低。5周龄断奶与自然吮乳仔猪没有显著差异。28日龄前断奶的仔猪如不采取特殊的营养和护理措施，其免疫机能的正常发育会受阻，直到60日龄时才赶上正常哺乳仔猪。",
+    "reference_case": "2～3周龄断奶仔猪表现出显著的免疫抑制，抗病力低。5周龄断奶与自然吮乳仔猪没有显著差异。28日龄前断奶的仔猪如不采取特殊的营养和护理措施，其免疫机能的正常发育会受阻，直到45日龄时才赶上正常哺乳仔猪。",
+    "error_detail": "修改了免疫机能赶上正常哺乳仔猪的日龄，导致空间错位幻觉。",
+    "original_question": "仔猪免疫系统的成熟程度对断奶日龄有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "一种尺寸为长2000~2200mm×宽1800~2000mm×高800mm，饲养1窝仔猪；另一种尺寸为长3000~4000mm×宽3000~3500mm×高800mm，饲养20~30头仔猪。",
+    "reference_case": "一种尺寸为长1800~2000mm×宽1700~1800mm×高700mm，饲养1窝仔猪；另一种尺寸为长2500~3500mm×宽2400~3000mm×高700mm，饲养20~30头仔猪。",
+    "error_detail": "地域差异",
+    "original_question": "保育猪栏网床的标准尺寸有哪些？",
+    "original_input": ""
+  }
+]

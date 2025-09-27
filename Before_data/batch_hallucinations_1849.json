@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一头50公斤重的猪每天可产沼气0.5立方米。",
+    "reference_case": "一头50公斤重的猪每天可产沼气0.25立方米。",
+    "error_detail": "沼气产量被夸大了一倍",
+    "original_question": "一头50公斤重的猪每天可产多少沼气？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "养猪100头以上的农户可以考虑用沼气开机器搞加工。",
+    "reference_case": "养猪30至50头的农户可以考虑用沼气开机器搞加工。",
+    "error_detail": "养猪数量被夸大",
+    "original_question": "养猪多少头以上的农户可以考虑用沼气开机器搞加工？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "进料口和出料口的位置应随意确定，无需考虑操作便利性。",
+    "reference_case": "进料口最好位于猪栏边上，出料口和简易抽粪器位置要灵活确定，方便操作且不防碍其他建筑和道路。装配闸阀位置应靠近地势低洼处。",
+    "error_detail": "忽视了操作便利性和位置灵活性的需求",
+    "original_question": "进料口和出料口的位置应如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲜猪粪中的水分含量为80%，灰分含量为10%。",
+    "reference_case": "鲜猪粪的成分包括水分、灰分、pH值、全氮、全磷、全钾等，其中水分含量为63.06%，灰分含量为16.37%，pH值为7.10，全氮含量为8.80，全磷为0.03，全钾含量为0.64。",
+    "error_detail": "水分和灰分含量数据错误",
+    "original_question": "鲜猪粪中的主要成分含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "碘会导致缺铁性贫血，铁会导致肢体矮小症和性甲状腺肿。",
+    "reference_case": "碘会导致肢体矮小症和性甲状腺肿，钴是维生素B12的组成部分，缺钴会导致致命的能量饥饿症，氟有抗龋齿作用，铁会导致缺铁性贫血，铜会导致缺铜性贫血和关节肿大，锌会导致食欲和生长降低，迟钝、倦息，导致皮炎，钙和磷会导致佝偻、软骨、纤维性营养不良。",
+    "error_detail": "碘和铁的作用被混淆",
+    "original_question": "微量元素对猪的代谢障碍有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5kg:赖氨酸2.56%，精氨酸0.66%，组氨酸0.62%，谷氨酸1.70%，缬氨酸1.70%，合计14.94%。",
+    "reference_case": "1-5kg:赖氨酸1.28%，精氨酸0.33%，组氨酸0.31%，谷氨酸0.85%，缬氨酸0.85%，合计7.47%；5-10kg:赖氨酸0.95%，精氨酸0.25%，组氨酸0.23%，谷氨酸0.63%，缬氨酸0.63%，合计5.95%；10-20kg:赖氨酸0.38%，精氨酸0.23%，组氨酸0.20%，谷氨酸0.55%，缬氨酸0.56%，合计4.95%；20-35kg:赖氨酸0.70%，精氨酸0.20%，组氨酸0.18%，谷氨酸0.50%，缬氨酸0.50%，合计1.95%；35-60kg:赖氨酸0.51%，精氨酸0.18%，组氨酸0.16%，谷氨酸0.11%，缬氨酸0.11%，合计3.86%；60-100kg:赖氨酸0.57%，精氨酸0.16%，组氨酸0.15%，谷氨酸0.11%，缬氨酸0.11%，合计3.52%。",
+    "error_detail": "氨基酸需求量数据被夸大",
+    "original_question": "育肥猪对必需氨基酸的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "新建沼气池或大换料的沼气池可以立即取用沼液喂猪。",
+    "reference_case": "新建沼气池或大换料的沼气池必须使用二个月后才能取用沼液喂猪；取沼液时要取清液，放置半小时左右让氨气挥发；开始添加沼液时要少加，逐渐增加；沼液喂量不宜过量，以免引起拉稀；母猪在产仔断奶后应暂停喂沼液；添加沼液喂猪以体重120公斤左右出栏经济效益最佳。",
+    "error_detail": "忽视了沼液使用前的必要等待时间",
+    "original_question": "猪不同生育阶段对沼液添加的注意事项有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "20世纪80年代以来，我国畜牧业的发展规模如何？",
+    "reference_case": "规模化畜禽养殖业蓬勃发展，如北京、上海等地已建成一批万头猪场和蛋鸡场，畜禽业的集约化养殖在大中城市和经济富裕地区发展尤为迅速。",
+    "error_detail": "时间错误，应为20世纪90年代",
+    "original_question": "20世纪90年代以来，我国畜牧业的发展规模如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "牛粪和尿分别为4.37和0.40、8.0；猪粪和尿分别为3.41、5.88和0.52、3.3；羊粪和尿分别为2.60、7.5和1.96、14.0；鸡粪和鸭粪分别为5.37、9.84和6.20、11.00。",
+    "reference_case": "见表3-5，牛粪和尿分别为8.",
+    "error_detail": "误解了上下文，提供了不完整的信息",
+    "original_question": "每头（只）畜禽每年排泄粪便中氮和磷含量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "云南省畜禽养殖业废弃物主要来自鱼类养殖。",
+    "reference_case": "云南省畜禽养殖业废弃物主要来自生猪生产、牛羊饲养和家禽养殖。",
+    "error_detail": "错误地添加了鱼类养殖作为主要来源",
+    "original_question": "云南省畜禽养殖业废弃物的主要来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "云南省生猪养殖可以产生粪便干物质总量为1701.26万吨。",
+    "reference_case": "云南省生猪养殖可以产生粪便干物质总量为850.63万吨。",
+    "error_detail": "粪便干物质总量被夸大",
+    "original_question": "云南省生猪养殖每年可以产生多少粪便干物质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "洱海流域畜禽养殖污染的主要来源包括鱼类养殖。",
+    "reference_case": "洱海流域畜禽养殖污染的主要来源包括奶牛、生猪、家禽和羊的粪便及尿液排放。",
+    "error_detail": "错误地添加了鱼类养殖作为主要来源",
+    "original_question": "洱海流域畜禽养殖污染的主要来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2006年玉溪市畜禽粪便年产量为663.08万吨。",
+    "reference_case": "2006年玉溪市畜禽粪便年产量为331.54万吨，其中猪粪74.98万吨，大牲畜粪便200.52万吨，羊粪18.8万吨，鸡粪37.24万吨。",
+    "error_detail": "粪便年产量被夸大",
+    "original_question": "2006年玉溪市畜禽粪便年产量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在鸡饲料中添加山药可以降低抗病能力和减重。",
+    "reference_case": "可以，黄连、山药、何首乌、乌药等制成饲料添加剂，按1%的量加于仔、中猪饲料中饲喂，能明显提高仔、中猪的抗病能力而增重。",
+    "error_detail": "错误地假设了山药的效果",
+    "original_question": "在鸡饲料中添加山药可以提高抗病能力和增重吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "马、牛用量为40~120 g；猪、羊用量为12~30 g；驼用量为90~200 g；兔、禽用量为2~4 g；犬用量为6~16 g。",
+    "reference_case": "马、牛用量为20~60 g；猪、羊用量为6~15 g；驼用量为45~100 g；兔、禽用量为1~2 g；犬用量为3~8 g。",
+    "error_detail": "用量范围被夸大",
+    "original_question": "知母的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大黄的用量范围为马、牛40~180g；驼70~130g；猪、羊12~24g；犬、猫6~12g；兔、禽3~6g。",
+    "reference_case": "大黄的用量范围为马、牛20~90g；驼35~65g；猪、羊6~12g；犬、猫3~6g；兔、禽1.5~3g。",
+    "error_detail": "用量范围被夸大",
+    "original_question": "大黄的用量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "槟榔的用量范围为马、牛30～120g；猪、羊12～24g；犬6～12g；兔、禽2～6g；鱼每千克体重4～8g，混于饲料中投喂。",
+    "reference_case": "槟榔的用量范围为马、牛15～60g；猪、羊6～12g；犬3～6g；兔、禽1～3g；鱼每千克体重2～4g，混于饲料中投喂。",
+    "error_detail": "用量范围被夸大",
+    "original_question": "槟榔的用量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "川楝素对猪蛔虫、蚯蚓与水蛭有杀灭作用，1.6%～2%浓度对猪蛔虫有效。",
+    "reference_case": "川楝素对猪蛔虫、蚯蚓与水蛭有杀灭作用，0.8%～1%浓度对猪蛔虫有效。",
+    "error_detail": "浓度数据被夸大",
+    "original_question": "川楝素对猪蛔虫的杀灭效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "五味子具有促进细菌生长、促进氧化、促进肿瘤生长的作用。",
+    "reference_case": "五味子具有抑菌、抗氧化、抗肿瘤、保肝作用，还有明显的镇静、兴奋子宫平滑肌、与人参相似的适应原样作用，能增强机体对非特异性刺激的防御能力，直接兴奋呼吸中枢。五味子素有镇痛作用。五味子醇对肠伤寒、副伤寒混合疫苗所致小鼠发热有退热作用。五味子水及稀醇浸液可加强心收缩力，增大血管张力，对犬、兔等有降压作用；而循环衰竭时，则有显著升压作用。五味子醚提取物有镇咳、祛痰作用。五味子酚、五味子丙素、甲素、乙素等 7 种木脂素，对大鼠肝微粒体脂质过氧化反应的丙二醛生成有明显的抑制作用；五味子酚和五味子乙素还可以抑制 H2O2 引起的大鼠红细胞溶血反应。",
+    "error_detail": "完全误解了五味子的药理作用",
+    "original_question": "五味子的药理作用有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪饲料中添加6%的马齿苋干粉。",
+    "reference_case": "在猪饲料中添加3%的马齿苋干粉，可减少所产仔猪黄痢、白痢的发病率，提高断乳仔猪成活率及增重。",
+    "error_detail": "添加比例被夸大",
+    "original_question": "马齿苋在猪饲料中添加的推荐比例是多少？",
+    "original_input": ""
+  }
+]

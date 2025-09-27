@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉制品中犬源性成分 PCR 检测方法对马、山羊、绵羊、驴、兔、猪等 20 种动物进行了特异性测试。",
+    "reference_case": "肉制品中犬源性成分 PCR 检测方法对马、山羊、绵羊、驴、兔、猪等 15 种动物进行了特异性测试。",
+    "error_detail": "错误地增加了特异性测试的动物种类数量。",
+    "original_question": "肉制品中犬源性成分 PCR 检测方法对哪些动物进行了特异性测试？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）首次在中国报道的时间是1986年。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）首次在中国报道的时间是1976年。",
+    "error_detail": "错误地推迟了PEDV首次在中国报道的时间。",
+    "original_question": "猪流行性腹泻病毒（PEDV）首次在中国报道的时间是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法中，使用的引物和探针是根据PEDV的S基因设计的。",
+    "reference_case": "在猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法中，使用的引物和探针是根据PEDV的M基因设计的。",
+    "error_detail": "错误地指定了引物和探针设计的基因。",
+    "original_question": "在猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法中，使用的引物和探针是根据哪个基因设计的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法具有强特异性，与传染性胃肠炎病毒、轮状病毒、猪细小病毒等猪主要病原体无交叉反应，且适用于所有猪品种。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法具有强特异性，与传染性胃肠炎病毒、轮状病毒、猪细小病毒等猪主要病原体无交叉反应。",
+    "error_detail": "错误地添加了关于适用性的假设信息。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法的特异性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法中，使用的试剂盒包括One Step RNA PCR Kit、AgPath-ID™ One-Step RT-PCR Kit和Qiagen Viral RNA Mini Kit，使用的仪器包括ABI 96孔普通PCR仪、ABI 7500HT荧光定量PCR仪、Qiagen EZ1 advanced全自动核酸抽提工作站和BIO-RAD Hood II全自动凝胶成像分析系统，以及Thermo Fisher Scientific的NanoDrop 2000。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法中，使用的试剂盒包括One Step RNA PCR Kit、AgPath-ID™ One-Step RT-PCR Kit和Qiagen Viral RNA Mini Kit，使用的仪器包括ABI 96孔普通PCR仪、ABI 7500HT荧光定量PCR仪、Qiagen EZ1 advanced全自动核酸抽提工作站和BIO-RAD Hood II全自动凝胶成像分析系统。",
+    "error_detail": "错误地添加了未提及的仪器。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法中，使用的试剂盒和仪器有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法在田间样品检测中表现出快速、灵敏、准确可靠的特点，适合用于PEDV的快速检测和流行病学调查，且在所有环境条件下均表现一致。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法在田间样品检测中表现出快速、灵敏、准确可靠的特点，适合用于PEDV的快速检测和流行病学调查。",
+    "error_detail": "错误地添加了关于环境条件的假设信息。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法在田间样品检测中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法的重复性好，组内变异系数≤0:50%。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法的重复性好，组内变异系数≤0:26%。",
+    "error_detail": "错误地增加了组内变异系数的上限。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法的重复性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）引起的临床症状包括腹泻、呕吐、脱水和哺乳仔猪的高致死率，以及成年猪的严重体重下降。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）引起的临床症状包括腹泻、呕吐、脱水和哺乳仔猪的高致死率。",
+    "error_detail": "错误地添加了关于成年猪的假设信息。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法中，病毒分离鉴定的步骤包括样品处理、临床样品RT-PCR鉴定和病毒分离。样品处理包括将小肠内容物制成悬浮液并过滤，临床样品RT-PCR鉴定使用非特异性引物进行RT-PCR检测，病毒分离则是将处理后的样品接种到Vero-76细胞系中进行培养和传代。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法中，病毒分离鉴定的步骤包括样品处理、临床样品RT-PCR鉴定和病毒分离。样品处理包括将小肠内容物制成悬浮液并过滤，临床样品RT-PCR鉴定使用特异性引物进行RT-PCR检测，病毒分离则是将处理后的样品接种到Vero-76细胞系中进行培养和传代。",
+    "error_detail": "错误地指定了RT-PCR鉴定使用的引物类型。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法中，病毒分离鉴定的步骤包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法中，使用的细胞系是Vero-100细胞系。",
+    "reference_case": "在猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法中，使用的细胞系是Vero-76细胞系。",
+    "error_detail": "错误地指定了使用的细胞系。",
+    "original_question": "在猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法中，使用的细胞系是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法的灵敏度是10^-6稀释度，相当于20个基因拷贝。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法的灵敏度是10^-8稀释度，相当于20个基因拷贝。",
+    "error_detail": "错误地提高了检测方法的灵敏度。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的实时荧光定量RT-PCR检测方法的灵敏度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过将诱饵载体pGBKT7-NS3转化酵母Y2H Gold感受态细胞，并在不同选择性培养基（如SD/-Trp、SD/-Trp/x-α-gal和SD/-Trp/x-α-gal/AbA）上培养，观察菌落颜色变化来检测诱饵载体的自激活性。",
+    "reference_case": "通过将诱饵载体pGBKT7-NS3转化酵母Y2H Gold感受态细胞，并在不同选择性培养基（如SD/-Trp、SD/-Trp/x-α-gal和SD/-Trp/x-α-gal/AbA）上培养，观察菌落生长情况来检测诱饵载体的自激活性。",
+    "error_detail": "错误地指定了观察的指标。",
+    "original_question": "在猪瘟病毒酵母双杂交实验中，如何检测诱饵载体的自激活性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "扩增猪瘟病毒NS3基因片段使用的引物是：上游引物P1：5'-CATATGGGGCCTGCCGTTTGCAA-3'，下游引物P2：5'-GTCGACTAGACCAACTACTTGTTT-TAGTGCT-3'，以及内部引物P3：5'-GGATCCGGCGCGCCG-3'。",
+    "reference_case": "扩增猪瘟病毒NS3基因片段使用的引物是：上游引物P1：5'-CATATGGGGCCTGCCGTTTGCAA-3'，下游引物P2：5'-GTCGACTAGACCAACTACTTGTTT-TAGTGCT-3'。",
+    "error_detail": "错误地添加了未提及的内部引物。",
+    "original_question": "猪瘟病毒NS3基因片段的扩增使用了哪些引物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "构建pGBKT7-NS3诱饵载体的步骤包括：使用RT-PCR技术扩增猪瘟病毒NS3基因片段，将其克隆至酵母双杂交系统诱饵载体pGBKT7中，经过酶切和测序验证正确插入后，将重组诱饵质粒转化酵母菌Y2H Gold，并在所有转化步骤中使用特定的抗生素筛选。",
+    "reference_case": "构建pGBKT7-NS3诱饵载体的步骤包括：使用RT-PCR技术扩增猪瘟病毒NS3基因片段，将其克隆至酵母双杂交系统诱饵载体pGBKT7中，经过酶切和测序验证正确插入后，将重组诱饵质粒转化酵母菌Y2H Gold。",
+    "error_detail": "错误地添加了关于抗生素筛选的假设信息。",
+    "original_question": "在猪瘟病毒酵母双杂交实验中，pGBKT7-NS3诱饵载体的构建步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟病毒NS3基因片段的扩增产物大小约为3000 bp。",
+    "reference_case": "猪瘟病毒NS3基因片段的扩增产物大小约为2049 bp。",
+    "error_detail": "错误地增加了扩增产物的尺寸。",
+    "original_question": "猪瘟病毒NS3基因片段的扩增产物大小是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪瘟病毒NS3蛋白具有丝氨酸蛋白酶活性、核苷三磷酸酶活性和RNA激活的解旋酶活性。丝氨酸蛋白酶负责加工病毒多聚蛋白以产生成熟的病毒蛋白，而核苷三磷酸酶和解旋酶与病毒的复制相关，并且还参与病毒的免疫逃逸机制。",
+    "reference_case": "猪瘟病毒NS3蛋白具有丝氨酸蛋白酶活性、核苷三磷酸酶活性和RNA激活的解旋酶活性。丝氨酸蛋白酶负责加工病毒多聚蛋白以产生成熟的病毒蛋白，而核苷三磷酸酶和解旋酶与病毒的复制相关。",
+    "error_detail": "错误地添加了关于免疫逃逸机制的假设信息。",
+    "original_question": "猪瘟病毒NS3蛋白的功能有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪瘟病毒NS3蛋白在病毒与宿主细胞的相互作用中扮演重要角色，直接或间接作用于一些重要的蛋白质，造成宿主或体外培养细胞损伤，并直接参与病毒损伤细胞的过程，以及调节宿主的免疫反应。",
+    "reference_case": "猪瘟病毒NS3蛋白在病毒与宿主细胞的相互作用中扮演重要角色，直接或间接作用于一些重要的蛋白质，造成宿主或体外培养细胞损伤，并直接参与病毒损伤细胞的过程。",
+    "error_detail": "错误地添加了关于免疫调节的假设信息。",
+    "original_question": "猪瘟病毒NS3蛋白在病毒与宿主细胞相互作用中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪瘟病毒NS3蛋白与病毒多聚蛋白的加工过程中，与其他非结构蛋白如NS2、NS4A、NS4B、NS5A和NS5B共同参与，并且还与某些宿主蛋白相互作用。",
+    "reference_case": "猪瘟病毒NS3蛋白与病毒多聚蛋白的加工过程中，与其他非结构蛋白如NS2、NS4A、NS4B、NS5A和NS5B共同参与。",
+    "error_detail": "错误地添加了关于宿主蛋白相互作用的假设信息。",
+    "original_question": "猪瘟病毒NS3蛋白与哪些病毒蛋白共同参与病毒多聚蛋白的加工？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "Stx2e 基因编码的毒素是猪水肿病的重要致病因子，属于志贺样毒素的变异体，与 Stx2 基因序列的同源性在 80% 左右。",
+    "reference_case": "Stx2e 基因编码的毒素是猪水肿病的重要致病因子，属于志贺样毒素的变异体，与 Stx2 基因序列的同源性在 90% 左右。",
+    "error_detail": "错误地降低了基因序列同源性的百分比。",
+    "original_question": "Stx2e 基因的主要功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "ST 基因分为 STa 和 STb 两类。STa 是一种小分子质量蛋白，由 18 或 19 个氨基酸组成，具有强毒素活性；STb 是一种由 48 个氨基酸组成的蛋白质，与断奶仔猪腹泻密切相关，并且还与成年猪的肠道疾病有关。",
+    "reference_case": "ST 基因分为 STa 和 STb 两类。STa 是一种小分子质量蛋白，由 18 或 19 个氨基酸组成，具有强毒素活性；STb 是一种由 48 个氨基酸组成的蛋白质，与断奶仔猪腹泻密切相关。",
+    "error_detail": "错误地添加了关于成年猪肠道疾病的假设信息。",
+    "original_question": "ST 基因在大肠埃希菌中的分类及其功能是什么？",
+    "original_input": ""
+  }
+]

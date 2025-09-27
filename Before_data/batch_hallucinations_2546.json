@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "免疫与消毒计划智能提醒系统通过动态提醒功能，帮助猪场管理者精确统计不同猪舍、不同猪类别的免疫和消毒需求，从而提高免疫实施精细化方案制定的效率及综合统计能力，统计准确率高达99.9%。",
+    "reference_case": "免疫与消毒计划智能提醒系统通过动态提醒功能，帮助猪场管理者精确统计不同猪舍、不同猪类别的免疫和消毒需求，从而提高免疫实施精细化方案制定的效率及综合统计能力。",
+    "error_detail": "添加了不存在的统计准确率数据",
+    "original_question": "免疫与消毒计划智能提醒系统如何提高猪场的综合统计能力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "是的，免疫与消毒计划智能提醒系统可以通过改变猪群的具体免疫计划与消毒计划，移植应用于其他猪场，前提是这些猪场必须使用相同的智能提醒系统软件。",
+    "reference_case": "是的，免疫与消毒计划智能提醒系统可以通过改变猪群的具体免疫计划与消毒计划，移植应用于其他猪场。",
+    "error_detail": "添加了不必要的前提条件",
+    "original_question": "免疫与消毒计划智能提醒系统是否适用于其他猪场？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "免疫与消毒计划智能提醒系统通过动态更新猪的个体信息、免疫计划及消毒计划，并结合猪场兽医制定的免疫程序，确保免疫提醒的准确性和时效性，基于2010年的免疫标准。",
+    "reference_case": "免疫与消毒计划智能提醒系统通过动态更新猪的个体信息、免疫计划及消毒计划，并结合猪场兽医制定的免疫程序，确保免疫提醒的准确性和时效性。",
+    "error_detail": "引用了过时的免疫标准",
+    "original_question": "免疫与消毒计划智能提醒系统的开发中，如何确保免疫提醒的准确性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "二次妊娠诊断在配种后 30 到 40 天进行。",
+    "reference_case": "二次妊娠诊断在配种后 40 到 50 天进行。",
+    "error_detail": "错误的时间点",
+    "original_question": "便携式 B 超在母猪早期妊娠诊断中的应用研究中，二次妊娠诊断的时间点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "首次妊娠诊断在配种后 15 到 18 天进行。",
+    "reference_case": "首次妊娠诊断在配种后 18 到 20 天进行。",
+    "error_detail": "错误的时间点",
+    "original_question": "便携式 B 超在母猪早期妊娠诊断中的应用研究中，首次妊娠诊断的时间点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "B 超诊断技术的优势包括无组织损伤、快速、准确、无放射危害，且成本低廉。",
+    "reference_case": "B 超诊断技术的优势包括无组织损伤、快速、准确、无放射危害。",
+    "error_detail": "添加了不相关的优势",
+    "original_question": "便携式 B 超在母猪早期妊娠诊断中的应用研究中，B 超诊断技术的优势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "B 超诊断技术通过早期妊娠诊断，减少母猪个体与群体的非生产天数，提高母猪个体及群体的繁殖力，从而增加猪场的经济效益，假设所有猪场都能负担B超设备的成本。",
+    "reference_case": "B 超诊断技术通过早期妊娠诊断，减少母猪个体与群体的非生产天数，提高母猪个体及群体的繁殖力，从而增加猪场的经济效益。",
+    "error_detail": "添加了不必要的假设",
+    "original_question": "便携式 B 超在母猪早期妊娠诊断中的应用研究中，B 超诊断技术如何提高母猪的繁殖力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "操作方法包括将母猪在限位栏内，无需保定，姿势侧卧、趴卧或站立均可以操作。擦除母猪腹部的粪便等污物，在探头上涂匀耦合剂，将探头靠近股内侧与倒数第 1 到 2 对乳头之间，探头与皮肤垂直，对上部或侧面滑动或转动扫查，使用X光机辅助。",
+    "reference_case": "操作方法包括将母猪在限位栏内，无需保定，姿势侧卧、趴卧或站立均可以操作。擦除母猪腹部的粪便等污物，在探头上涂匀耦合剂，将探头靠近股内侧与倒数第 1 到 2 对乳头之间，探头与皮肤垂直，对上部或侧面滑动或转动扫查。",
+    "error_detail": "添加了不相关的设备",
+    "original_question": "便携式 B 超在母猪早期妊娠诊断中的应用研究中，B 超诊断技术的操作方法是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "首次妊娠诊断的非妊娠准确率为 95%。",
+    "reference_case": "首次妊娠诊断的非妊娠准确率为 100%。",
+    "error_detail": "错误的准确率",
+    "original_question": "便携式 B 超在母猪早期妊娠诊断中的应用研究中，首次妊娠诊断的非妊娠准确率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "B 超诊断技术通过减少母猪个体与群体的非生产天数，提高母猪个体及群体的繁殖力，从而增加猪场的经济效益，但需要定期更换设备。",
+    "reference_case": "B 超诊断技术通过减少母猪个体与群体的非生产天数，提高母猪个体及群体的繁殖力，从而增加猪场的经济效益。",
+    "error_detail": "添加了与指令无关的信息",
+    "original_question": "便携式 B 超在母猪早期妊娠诊断中的应用研究中，B 超诊断技术如何提高猪场的经济效益？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在妊娠 30 天以后需要与膀胱的图像进行区分，膀胱图像较大且仅有 1 个，胚胎图像则会出现多个黑色的圆斑且边缘清晰。在膀胱充盈较多尿液时，挡住胚胎 B 超成像，需待其排尿后再进行检查，使用CT扫描确认。",
+    "reference_case": "在妊娠 30 天以后需要与膀胱的图像进行区分，膀胱图像较大且仅有 1 个，胚胎图像则会出现多个黑色的圆斑且边缘清晰。在膀胱充盈较多尿液时，挡住胚胎 B 超成像，需待其排尿后再进行检查。",
+    "error_detail": "添加了不相关的技术",
+    "original_question": "便携式 B 超在母猪早期妊娠诊断中的应用研究中，B 超诊断技术如何区分妊娠图像与膀胱图像？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "二次妊娠诊断的妊娠准确率为 95%。",
+    "reference_case": "二次妊娠诊断的妊娠准确率为 100%。",
+    "error_detail": "错误的准确率",
+    "original_question": "便携式 B 超在母猪早期妊娠诊断中的应用研究中，二次妊娠诊断的妊娠准确率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "首次妊娠诊断在 18 到 20 天时进行，无特异性妊娠图像时，左右侧双侧扫查以确保诊断准确性，确诊为妊娠阴性后转入待配猪群进行补配处理；妊娠图像不明确时，多次多时扫查，直到确诊；妊娠图像清晰，确诊首次妊娠诊断为阳性。二次妊娠诊断在 40 到 50 天时进行，复诊若为阴性时则需及时转入待配猪群处理，使用MRI确认。",
+    "reference_case": "首次妊娠诊断在 18 到 20 天时进行，无特异性妊娠图像时，左右侧双侧扫查以确保诊断准确性，确诊为妊娠阴性后转入待配猪群进行补配处理；妊娠图像不明确时，多次多时扫查，直到确诊；妊娠图像清晰，确诊首次妊娠诊断为阳性。二次妊娠诊断在 40 到 50 天时进行，复诊若为阴性时则需及时转入待配猪群处理。",
+    "error_detail": "添加了不相关的技术",
+    "original_question": "便携式 B 超在母猪早期妊娠诊断中的应用研究中，B 超诊断技术如何判定妊娠结果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过RT-PCR方法对FMDV O型Mya98谱系的牛源毒株（O/BY/CHA/2010:和猪源毒株（O/GZ/CHA/2010:的基因组全序列进行了扩增和测序，并与O型其他牛源和猪源参考毒株的基因组进行了比较分析，使用DNA测序技术。",
+    "reference_case": "通过RT-PCR方法对FMDV O型Mya98谱系的牛源毒株（O/BY/CHA/2010:和猪源毒株（O/GZ/CHA/2010:的基因组全序列进行了扩增和测序，并与O型其他牛源和猪源参考毒株的基因组进行了比较分析。",
+    "error_detail": "添加了不相关的技术",
+    "original_question": "口蹄疫病毒（FMDV）O型Mya98谱系的猪源毒株和牛源毒株的全基因组序列是如何进行比较的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该方法对TTSuV1、猪圆环病毒、猪细小病毒、伪狂犬病病毒、猪瘟病毒及猪繁殖与呼吸综合征病毒的检测结果均为阴性，显示出良好的特异性，特异性达到99.9%。",
+    "reference_case": "该方法对TTSuV1、猪圆环病毒、猪细小病毒、伪狂犬病病毒、猪瘟病毒及猪繁殖与呼吸综合征病毒的检测结果均为阴性，显示出良好的特异性。",
+    "error_detail": "添加了不存在的特异性数据",
+    "original_question": "实时荧光定量PCR方法检测TTSuV2的特异性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "根据TTSuV2基因非编码区的保守序列设计了一对特异性引物，构建了含有TTSuV2基因片段的重组质粒，并以系列稀释后的重组质粒作为模板，建立了基于SYBR Green I的实时荧光定量PCR方法，使用DNA测序技术验证。",
+    "reference_case": "根据TTSuV2基因非编码区的保守序列设计了一对特异性引物，构建了含有TTSuV2基因片段的重组质粒，并以系列稀释后的重组质粒作为模板，建立了基于SYBR Green I的实时荧光定量PCR方法。",
+    "error_detail": "添加了不相关的技术",
+    "original_question": "猪细环病毒2型（TTSuV2:的实时荧光定量PCR检测方法是如何建立的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对40头猪的血清进行检测，结果显示有35份呈阳性，而常规PCR只检出26份为阳性，证实实时荧光定量PCR的检测灵敏度明显高于常规PCR。",
+    "reference_case": "对40头猪的血清进行检测，结果显示有29份呈阳性，而常规PCR只检出26份为阳性，证实实时荧光定量PCR的检测灵敏度明显高于常规PCR。",
+    "error_detail": "错误的阳性数量",
+    "original_question": "实时荧光定量PCR方法检测TTSuV2的临床样品检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒2型的LAMP检测方法是通过设计合成4条特异性LAMP引物，基于PCV2 ORF2基因组的保守序列建立的。该方法包括PCV2 ORF2的制备、反应条件的优化、敏感性试验和特异性试验，使用DNA测序技术验证。",
+    "reference_case": "猪圆环病毒2型的LAMP检测方法是通过设计合成4条特异性LAMP引物，基于PCV2 ORF2基因组的保守序列建立的。该方法包括PCV2 ORF2的制备、反应条件的优化、敏感性试验和特异性试验。",
+    "error_detail": "添加了不相关的技术",
+    "original_question": "猪圆环病毒2型（PCV2:的LAMP检测方法是如何建立的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用了pET-28a表达载体。",
+    "reference_case": "使用了pGEX-6P-1表达载体。",
+    "error_detail": "错误的表达载体",
+    "original_question": "在猪戊型肝炎病毒ORF2基因的原核表达研究中，使用了哪种表达载体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "ORF2基因主要编码660个氨基酸的结构蛋白，是刺激机体产生抗体的主要靶位点，同时也是病毒复制的主要酶。",
+    "reference_case": "ORF2基因主要编码660个氨基酸的结构蛋白，是刺激机体产生抗体的主要靶位点。",
+    "error_detail": "添加了不相关的功能",
+    "original_question": "猪戊型肝炎病毒（HEV）的ORF2基因编码的蛋白主要功能是什么？",
+    "original_input": ""
+  }
+]

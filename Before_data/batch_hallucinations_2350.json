@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "盐酸土霉素在猪饲料中的使用量是每吨添加100～500克",
+    "reference_case": "每吨猪饲料添加10～50克，可起促进生长作用；每吨饲料添加50～100克，可预防疾病；添加100～200克时，可以达到治病目的。",
+    "error_detail": "数值偏差，将使用量夸大",
+    "original_question": "盐酸土霉素在猪饲料中的使用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "硫肽菌素的主要成分是含硫的氨基酸",
+    "reference_case": "浅黄色至黄色的结晶或结晶性粉末，无味、无臭的含硫的肽族物质，在弱酸性的环境下，其效价最稳定，强酸性和碱性环境下，效价降低。",
+    "error_detail": "术语错误，将肽族物质误称为氨基酸",
+    "original_question": "硫肽菌素的理化性状如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "盐霉素的浓度一般采用30%",
+    "reference_case": "易溶于水，一般采用45%的浓度。",
+    "error_detail": "过时标准，浓度描述不准确",
+    "original_question": "盐霉素的理化性状如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "艾粉在欧洲主要用于提高畜禽抗病能力",
+    "reference_case": "促进畜禽血液循环，增进代谢、促生长，提高繁殖率，改善肉质，提高饲料利用率，提高畜禽抗病能力及具有脱臭效果。",
+    "error_detail": "地域差异，错误指定使用地区",
+    "original_question": "艾粉的功能作用有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪用美味香因为含有大茴香油所以主要用于调味",
+    "reference_case": "含农副产品、碳酸钙、乳酸丁酰丁酯和其他酯类，大茴香油和双乙酰等酯类、异丁酸和其他有机酸。",
+    "error_detail": "因果错误，错误解释成分用途",
+    "original_question": "猪用美味香的主要成分是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "一号活质添加剂的用法用量是按精料量的2%～3%添加",
+    "reference_case": "按精料量的1%～1.5%添加，均匀拌在饲料内，干喂或加水湿喂均可，一般喂猪采用生湿料饲喂法，即干料加水浸泡二三分钟就可以喂饲，浸泡时间不宜过长，也不要用开水浸泡或发酵后喂饲，以免影响效价。",
+    "error_detail": "指令偏离，用量描述错误",
+    "original_question": "一号活质添加剂的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "福美多饲料添加剂可以完全替代鱼粉",
+    "reference_case": "福美多饲料添加剂可以减少牛、猪、鸡、鸭、鹅、鱼虾等动物饲料中的鱼粉量25%至30%，再加入25%至30%的喂宝-34饲料添加剂即可。",
+    "error_detail": "上下文断裂，误解添加剂作用",
+    "original_question": "福美多饲料添加剂有哪些功能作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "小年代乳剂CMR的包装贮存要求是贮于高温、潮湿处",
+    "reference_case": "小年代乳剂CMR采用5层塑料膜衬里纸袋包装，每袋20公斤，贮于干燥、阴凉通风处。",
+    "error_detail": "逻辑矛盾，贮存条件描述错误",
+    "original_question": "小年代乳剂CMR的包装贮存要求是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "血多素注射后可以使仔猪立即增重5公斤",
+    "reference_case": "血多素注射后可以使仔猪毛光泽，肤色红润，抗病力强，增重快，每头绝对增重3.89公斤，血红蛋白含量增加。",
+    "error_detail": "假设滥用，夸大增重效果",
+    "original_question": "血多素注射后对仔猪有哪些益处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "猪的免疫接种计划中，器械准备是最不重要的",
+    "reference_case": "接种器械、疫苗储存设备等。",
+    "error_detail": "优先级错乱，低估器械准备的重要性",
+    "original_question": "猪的免疫接种计划中需要准备哪些器械？",
+    "original_input": ""
+  }
+]

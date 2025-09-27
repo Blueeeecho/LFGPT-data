@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "Brachyspira hyodysenteriae和Brachyspira pilosicoli是紧密螺旋状的疏螺旋体，长度为12到15微米，宽度为0.4到0.5微米。",
+    "reference_case": "Brachyspira hyodysenteriae和Brachyspira pilosicoli是松散螺旋状的疏螺旋体，长度为6到11微米，宽度为0.25到0.35微米。",
+    "error_detail": "错误地描述了螺旋体的螺旋状态和尺寸。",
+    "original_question": "Brachyspira hyodysenteriae和Brachyspira pilosicoli的形态特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "Mycoplasma hyopneumoniae是一种病毒，具有较大的基因组，有细胞壁，存在于猪的消化系统中。",
+    "reference_case": "Mycoplasma hyopneumoniae是一种细菌，具有较小的基因组，没有细胞壁，存在于猪的呼吸系统中，如肺细胞的纤毛中，引起咳嗽和特发性猪肺炎。",
+    "error_detail": "错误地将细菌描述为病毒，并错误地描述了其基因组大小、细胞壁的存在和存在位置。",
+    "original_question": "Mycoplasma hyopneumoniae是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用血液样本从自然感染或实验性感染的猪身上采集样本，然后在培养物中分离这些微生物，并通过X光进行检测。",
+    "reference_case": "使用鼻拭子从自然感染或实验性感染的猪身上采集样本，然后在培养物中分离这些微生物，并通过PCR进行检测。",
+    "error_detail": "错误地描述了样本采集方法和检测技术。",
+    "original_question": "Mycoplasma hyopneumoniae的分离方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "Mycoplasma hyopneumoniae导致猪肺部细胞死亡后附着在细胞上，使纤毛停止功能。",
+    "reference_case": "Mycoplasma hyopneumoniae附着在猪肺部的细胞上。一旦附着，它会使纤毛停止功能，最终导致上皮细胞死亡。",
+    "error_detail": "错误地颠倒了细胞死亡和附着之间的因果关系。",
+    "original_question": "Mycoplasma hyopneumoniae对猪肺部的病理作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "Mycoplasma hyopneumoniae对养猪业经济和畜牧业产生了正面影响。",
+    "reference_case": "Mycoplasma hyopneumoniae附着在猪肺部的细胞上，导致纤毛功能丧失，上皮细胞死亡，形成EP的病变，对养猪业经济和畜牧业产生了负面影响。",
+    "error_detail": "错误地描述了疾病对产业的影响方向。",
+    "original_question": "Mycoplasma hyopneumoniae对农业产业的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪食用了带病毒的肺线虫后，立即引发猪流感的临床症状。",
+    "reference_case": "猪食用了带病毒的肺线虫后，猪流感隐性发作直到适当的刺激诱导病毒产生，从而引发临床症状。",
+    "error_detail": "错误地假设了病毒立即引发症状，忽略了隐性发作阶段。",
+    "original_question": "猪食用了带病毒的肺线虫后，如何导致猪流感隐性发作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "自发性原发性免疫缺陷病只影响马的免疫系统。",
+    "reference_case": "脱水病马、牛、羊、猪、犬和猫等家畜中自发性原发性免疫缺陷病可使其易患感染性疾病。",
+    "error_detail": "错误地限制了疾病影响的范围。",
+    "original_question": "自发性原发性免疫缺陷病对家畜免疫有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "迅速准确地确认疑似外来病毒的临床诊断只在发达国家重要。",
+    "reference_case": "确保迅速准确地确认疑似外来病毒的临床诊断，特别是在开发中国家仍然存在如口蹄疫、非洲猪瘟等严重动物疾病的情况下，这对于支持外来疾病研究和控制活动至关重要。",
+    "error_detail": "错误地限定了诊断重要性的地理范围。",
+    "original_question": "为什么需要迅速准确地确认疑似外来病毒的临床诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪痘由天花病毒引起。",
+    "reference_case": "猪痘由猪痘病毒引起，该病毒是Suipoxvirus属的唯一成员。",
+    "error_detail": "错误地混淆了猪痘病毒和天花病毒。",
+    "original_question": "猪痘是由什么病毒引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪痘在所有年龄段的猪中均可发生，但老年猪更为常见。疾病通常很严重，有高死亡率。",
+    "reference_case": "猪痘在所有年龄段的猪中均可发生，但幼猪更为常见。疾病通常很轻微，几乎无死亡率。",
+    "error_detail": "错误地描述了疾病的严重性和受影响的主要年龄段。",
+    "original_question": "猪痘的感染症状有哪些？",
+    "original_input": ""
+  }
+]

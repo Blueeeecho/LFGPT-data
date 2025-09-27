@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪传染性胃肠炎的病原是猪瘟病毒。",
+    "reference_case": "猪传染性胃肠炎的病原是猪传染性胃肠炎病毒。",
+    "error_detail": "错误地将猪传染性胃肠炎的病原混淆为猪瘟病毒。",
+    "original_question": "猪传染性胃肠炎的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "哺乳仔猪吃乳后常出现呕吐，随后出现剧烈腹泻，排水样黄色或灰色粪便，含有未消化的凝乳块，5日龄内仔猪病死率常为50%。",
+    "reference_case": "哺乳仔猪吃乳后常出现呕吐，随后出现剧烈腹泻，排水样黄色或灰色粪便，含有未消化的凝乳块，5日龄内仔猪病死率常为100%；肥育猪发病率接近100%，突然发生水样腹泻，病程约1周左右，极少发生死亡；成猪多无症状，部分猪表现轻度水样腹泻或一时性的软便，对体重无明显影响；母猪常与仔猪一起发病，严重腹泻，泌乳停止。",
+    "error_detail": "错误地降低了5日龄内仔猪的病死率。",
+    "original_question": "猪传染性胃肠炎的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "病变主要在心脏和肝脏，心脏壁出血，肝脏内有凝乳块，肝脏底部黏膜充血。",
+    "reference_case": "病变主要在胃和小肠，胃壁出血，胃内有凝乳块，胃底部黏膜充血，小肠内充满黄绿色或灰白色液状物，含有泡沫和未消化的凝乳块，小肠线毛萎缩，小肠壁变薄，肠系膜淋巴结肿胀呈淡黄色。剖检乳糜管中无脂肪。",
+    "error_detail": "错误地将病变位置从胃和小肠转移到了心脏和肝脏。",
+    "original_question": "猪传染性胃肠炎的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "仔猪发育不良，生长缓慢，易形成僵猪是因为猪蛔虫病的成虫在小肠内引起的症状。",
+    "reference_case": "引起仔猪发育不良，生长缓慢，易形成僵猪。幼虫移行引起肠、肝、肺部炎症，大量寄生可引起肠阻塞、肠破裂。",
+    "error_detail": "错误地将仔猪发育不良的原因归咎于成虫在小肠内的症状，而非幼虫移行。",
+    "original_question": "猪蛔虫病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "成虫寄生在小肠时机械性地刺激肠黏膜，引起腹泻。",
+    "reference_case": "成虫寄生在小肠时机械性地刺激肠黏膜，引起腹痛。蛔虫数量多时常凝结成团，堵塞肠道，导致肠破裂。有时蛔虫可进入胆管，造成胆管堵塞，引起黄疸等症状。",
+    "error_detail": "错误地将成虫刺激肠黏膜引起的症状从腹痛混淆为腹泻。",
+    "original_question": "猪蛔虫病的成虫在小肠内引起什么症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "成虫能分泌酶，作用于中枢神经和血管，引起一系列神经症状。",
+    "reference_case": "成虫能分泌毒素，作用于中枢神经和血管，引起一系列神经症状。",
+    "error_detail": "错误地将成虫分泌的物质从毒素混淆为酶。",
+    "original_question": "猪蛔虫病成虫能分泌什么物质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "1~2月龄的仔猪感染严重，成年猪多为带虫者，是重要的传染源。",
+    "reference_case": "3~6月龄的仔猪感染严重，成年猪多为带虫者，是重要的传染源。",
+    "error_detail": "错误地改变了仔猪感染的严重年龄段。",
+    "original_question": "猪蛔虫病的主要传染源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "主要危害成年猪。",
+    "reference_case": "主要危害仔猪。",
+    "error_detail": "错误地将猪鞭虫病的主要危害对象从仔猪混淆为成年猪。",
+    "original_question": "猪鞭虫病的主要危害对象是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "虫体呈乳白色鞭状，前部细长丝状，约占虫长的1/2，为食道部，后部粗部为体部。",
+    "reference_case": "虫体呈乳白色鞭状，前部细长丝状，约占虫长的2/3，为食道部，后部粗部为体部。",
+    "error_detail": "错误地改变了虫体前部细长丝状部分的比例。",
+    "original_question": "猪鞭虫病的成虫有何特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "主要可见胃和小肠黏膜充血、肿胀，表面覆有大量灰黄色黏液，黏液中及肠黏膜上有大量乳白色的鞭虫。",
+    "reference_case": "主要可见盲肠和结肠黏膜充血、肿胀，表面覆有大量灰黄色黏液，黏液中及肠黏膜上有大量乳白色的鞭虫，严重感染者肠黏膜水肿、出血及坏死。感染后期肠黏膜发生溃疡和结节，结节中含有虫体或虫卵。",
+    "error_detail": "错误地将病变位置从盲肠和结肠转移到了胃和小肠。",
+    "original_question": "猪鞭虫病的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "主要依靠检查血液中的虫卵及虫体。",
+    "reference_case": "主要依靠检查粪便中的虫卵及虫体，采取新鲜粪便，采用饱和盐水漂浮法，检查不同发育阶段的虫卵。",
+    "error_detail": "错误地将检查虫卵及虫体的样本从粪便混淆为血液。",
+    "original_question": "猪鞭虫病的诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "青霉素为驱鞭虫的特效药。",
+    "reference_case": "羟嘧啶为驱鞭虫的特效药。此外，萘羟嘧啶、左咪唑、敌百虫、枸椽酸哌嗪或磷酸哌嗪等，均有较好的治疗效果。",
+    "error_detail": "错误地将驱鞭虫的特效药从羟嘧啶混淆为青霉素。",
+    "original_question": "猪鞭虫病的治疗药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "仔猪肠道在出生后24h内逐步定植了大肠杆菌、乳酸菌、小梭菌、真杆菌和酵母菌等，形成肠道微生态系统，是因为断奶后乳糖来源终止。",
+    "reference_case": "仔猪肠道在出生前是无菌的，在出生后24h内逐步定植了大肠杆菌、乳酸菌、小梭菌、真杆菌和酵母菌等，形成肠道微生态系统。由于断奶后乳糖来源终止，乳酸菌减少，致病性大肠杆菌等有害微生物占优势，胃肠道内菌群失衡，导致腹泻的发生。",
+    "error_detail": "错误地将肠道微生态系统的形成原因归咎于断奶后乳糖来源终止。",
+    "original_question": "仔猪消化机能不全的主要病因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "主要针对胃肠道外菌群平衡和提高消化酶含量和活性采取措施。",
+    "reference_case": "主要针对胃肠道内菌群平衡和提高消化酶含量和活性采取措施，如添加酶制剂、有机酸、乳清粉等。",
+    "error_detail": "错误地将措施的目标从胃肠道内菌群平衡混淆为胃肠道外菌群平衡。",
+    "original_question": "如何防治仔猪消化机能不全？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪体温升高至40℃以上，精神沉郁，呼吸困难，张口呼吸，湿咳，呈犬坐姿势，从口鼻流出泡沫样带血色的分泌物，心跳加快，多于48～72小时死亡。",
+    "reference_case": "猪体温升高至41.5℃以上，精神沉郁，呼吸困难，张口呼吸，湿咳，呈犬坐姿势，从口鼻流出泡沫样带血色的分泌物，心跳加快，多于24～36小时死亡。",
+    "error_detail": "错误地改变了猪的体温升高程度和死亡时间。",
+    "original_question": "猪肺疫急性型的临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "坚持自繁自养，全进全出。引种时需隔离观察，使用超声波检查确认无病。",
+    "reference_case": "坚持自繁自养，全进全出。引种时需隔离观察，使用X线检查确认无病。注意饲养管理，保持猪舍清洁、干燥、通风，定期消毒。",
+    "error_detail": "错误地将检查方法从X线混淆为超声波。",
+    "original_question": "综合防治措施包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在母猪产前10-15天连续5天使用对支原体有效的药物。",
+    "reference_case": "在母猪产前15-20天连续5天使用对支原体有效的药物。对于仔猪，首免15日龄，二免3月龄或三免21日龄。疫苗需注入胸腔，免疫前15天及后60天内不得使用抑制支原体的药物。",
+    "error_detail": "错误地改变了母猪产前使用药物的时间范围。",
+    "original_question": "猪场对支原体的有效防治措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "观察猪群1个月以上未发现气喘病，放1头易感仔猪同群饲养也不被感染。",
+    "reference_case": "观察猪群3个月以上未发现气喘病，放2头易感仔猪同群饲养也不被感染；1年内未发现气喘病，肥猪、死亡猪检查肺部无病变；母猪连续生产两窝仔猪，经观察无气喘病症状，1年内每月X线检查无病变。",
+    "error_detail": "错误地降低了观察时间和易感仔猪的数量。",
+    "original_question": "健康猪群的鉴定标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "病猪体质上升、增重、呼吸困难、咳喘、腹泻、贫血和黄疸等。",
+    "reference_case": "病猪体质下降、消瘦、呼吸困难、咳喘、腹泻、贫血和黄疸等。",
+    "error_detail": "错误地将病猪的体质变化从下降混淆为上升。",
+    "original_question": "猪圆环病毒2型感染的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "病猪增重或生长快速，呼吸困难、淋巴结肿大、腹泻、贫血和黄疸。",
+    "reference_case": "病猪消瘦或生长迟缓，呼吸困难、淋巴结肿大、腹泻、贫血和黄疸，部分病例有咳嗽、发热、胃溃疡、中枢神经系统障碍和突然死亡。",
+    "error_detail": "错误地将病猪的生长状况从消瘦或生长迟缓混淆为增重或生长快速。",
+    "original_question": "猪圆环病毒2型感染的主要临床症状有哪些？",
+    "original_input": ""
+  }
+]

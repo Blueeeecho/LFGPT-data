@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "以1头母猪哺育10头仔猪为计算基数，超过10头应按表中的要求增加相应养分的供给量。饲料量以风干料计，体重在90~150kg时为2.5kg，体重在150kg以上时为3.0kg。",
+    "reference_case": "以1头母猪哺育10头仔猪为计算基数，超过10头应按表中的要求增加相应养分的供给量。饲料量以风干料计，体重在90~150kg时为1.9kg，体重在150kg以上时为2.3kg。",
+    "error_detail": "饲料量的数值被错误地增加，导致数据型幻觉。",
+    "original_question": "哺乳母猪每天每头需要多少饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种公猪每千克饲粮中消化能含量在体重90～150kg时为13.55MJ，150kg以上时为13.05MJ。",
+    "reference_case": "种公猪每千克饲粮中消化能含量在体重90～150kg时为12.55MJ，150kg以上时为12.05MJ。",
+    "error_detail": "消化能含量的数值被错误地增加，导致数据型幻觉。",
+    "original_question": "种公猪每千克饲粮中消化能含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种公猪每千克饲粮中粗蛋白质含量在体重90～150kg时为13.0%，150kg以上时为13.0%。",
+    "reference_case": "种公猪每千克饲粮中粗蛋白质含量在体重90～150kg时为12.0%，150kg以上时为12.0%。",
+    "error_detail": "粗蛋白质含量的数值被错误地增加，导致数据型幻觉。",
+    "original_question": "种公猪每千克饲粮中粗蛋白质含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种公猪每千克饲粮中铁含量在体重90～150kg时为81mg，150kg以上时为81mg。",
+    "reference_case": "种公猪每千克饲粮中铁含量在体重90～150kg时为71mg，150kg以上时为71mg。",
+    "error_detail": "铁含量的数值被错误地增加，导致数据型幻觉。",
+    "original_question": "种公猪每千克饲粮中铁含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "技术要求包括感官指标、水分、加工质量指标、营养成分指标和卫生指标，以及额外的安全指标。",
+    "reference_case": "技术要求包括感官指标、水分、加工质量指标、营养成分指标和卫生指标。",
+    "error_detail": "添加了额外的安全指标，导致指令偏离型幻觉。",
+    "original_question": "仔猪、生长肥育猪配合饲料的质量标准有哪些技术要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "干性坏疽多发生于体内，如动脉被堵塞、局部组织缺血的条件下，常见于猪丹毒的皮肤坏疽和子宫内形成的干尸。",
+    "reference_case": "干性坏疽多发生于体表，如动脉被堵塞、局部组织缺血的条件下，常见于猪丹毒的皮肤坏疽和子宫内形成的干尸。",
+    "error_detail": "将体表错误地描述为体内，导致概念混淆幻觉。",
+    "original_question": "干性坏疽常见于哪些部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "卡那霉素主要用于治疗由敏感菌引起的各种感染，如禽霍乱、雉白痢、坏死性肠炎、呼吸道及泌尿道感染、乳腺炎等，对猪气喘病、猪萎缩性鼻炎等无效。",
+    "reference_case": "卡那霉素主要用于治疗由敏感菌引起的各种感染，如禽霍乱、雉白痢、坏死性肠炎、呼吸道及泌尿道感染、乳腺炎等，对猪气喘病、猪萎缩性鼻炎等也有一定疗效。",
+    "error_detail": "错误地描述了卡那霉素对猪气喘病、猪萎缩性鼻炎的疗效，导致概念混淆幻觉。",
+    "original_question": "卡那霉素主要用于治疗哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "内服硫酸亚铁剂量为：马、牛3～15克/次，羊、猪1～6克/次，鸡按150～250 ppm混入饲料给予。",
+    "reference_case": "内服硫酸亚铁剂量为：马、牛2～10克/次，羊、猪0.5～4克/次，鸡按130～200 ppm混入饲料给予。",
+    "error_detail": "硫酸亚铁的剂量被错误地增加，导致数据型幻觉。",
+    "original_question": "内服硫酸亚铁的剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "亚硒酸钠用于防治畜禽硒-维生素E缺乏症，如幼畜（禽）的白肌病、维鸡的渗出性素质、胞和仔猪的下痢等，但对成年动物无效。",
+    "reference_case": "亚硒酸钠用于防治畜禽硒-维生素E缺乏症，如幼畜（禽）的白肌病、维鸡的渗出性素质、胞和仔猪的下痢等。",
+    "error_detail": "错误地添加了对成年动物无效的描述，导致概念混淆幻觉。",
+    "original_question": "亚硒酸钠用于防治哪些畜禽疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "氢化泼尼松（强的松龙）针剂的静注剂量为：牛、马0.1～0.2克/匹（头），猪、羊0.02～0.03克/只。",
+    "reference_case": "氢化泼尼松（强的松龙）针剂的静注剂量为：牛、马0.05～0.15克/匹（头），猪、羊0.01～0.02克/只。",
+    "error_detail": "氢化泼尼松的剂量被错误地增加，导致数据型幻觉。",
+    "original_question": "氢化泼尼松（强的松龙）针剂的静注剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "布氏杆菌共分为羊布氏杆菌、牛布氏杆菌、猪布氏杆菌、沙林鼠布氏杆菌、绵羊布氏杆菌和犬布氏杆菌等七种。",
+    "reference_case": "布氏杆菌共分为羊布氏杆菌、牛布氏杆菌、猪布氏杆菌、沙林鼠布氏杆菌、绵羊布氏杆菌和犬布氏杆菌等六种。",
+    "error_detail": "错误地增加了布氏杆菌的种类，导致概念混淆幻觉。",
+    "original_question": "布氏杆菌病的主要病原有哪些类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "放线菌病主要侵害牛、猪和马，猪最为常见。",
+    "reference_case": "放线菌病主要侵害牛、猪和马，牛最为常见。",
+    "error_detail": "错误地将最常见的动物从牛改为猪，导致概念混淆幻觉。",
+    "original_question": "放线菌病主要侵害哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "主要侵害牛，2~5岁幼牛常在换牙和采食粗糙饲料刺破口腔时发生，母猪常在乳房部发生，但马不会发生。",
+    "reference_case": "主要侵害牛，2~5岁幼牛常在换牙和采食粗糙饲料刺破口腔时发生，母猪常在乳房部发生。",
+    "error_detail": "错误地添加了马不会发生的描述，导致概念混淆幻觉。",
+    "original_question": "放线菌病的流行病学特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "应注意与猪传染性胃肠炎、仔猪白痢、仔猪黄痢、仔猪红痢和猪瘟进行鉴别。",
+    "reference_case": "应注意与猪传染性胃肠炎、仔猪白痢、仔猪黄痢、仔猪红痢进行鉴别。",
+    "error_detail": "错误地添加了猪瘟作为鉴别疾病，导致概念混淆幻觉。",
+    "original_question": "诊断本病应注意与哪些疾病进行鉴别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪传染性胃肠炎的病原是传染性胃肠炎病毒，属DNA型。",
+    "reference_case": "猪传染性胃肠炎的病原是传染性胃肠炎病毒，属RNA型。",
+    "error_detail": "错误地将病毒类型从RNA型改为DNA型，导致概念混淆幻觉。",
+    "original_question": "猪传染性胃肠炎的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病猪和康复后的带毒猪是传染来源，病毒主要存在于小肠粘膜、肠内容物、肠系膜淋巴结和扁桃体中，并随粪便排出体外，通过空气传播。",
+    "reference_case": "病猪和康复后的带毒猪是传染来源，病毒主要存在于小肠粘膜、肠内容物、肠系膜淋巴结和扁桃体中，并随粪便排出体外，通过吃入被污染的饲料、经消化道传染。",
+    "error_detail": "错误地将传播途径从消化道传染改为空气传播，导致概念混淆幻觉。",
+    "original_question": "猪传染性胃肠炎的流行病学特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "症状表现为突然呕吐，接着发生急剧腹泻，粪便初为灰白色，后变为黄色或绿色，常含有未消化（或混有血液）的乳凝块，病猪消瘦、严重脱水、口渴、食欲废绝，病程1～3天，10日龄仔猪多数死亡。",
+    "reference_case": "症状表现为突然呕吐，接着发生急剧腹泻，粪便初为灰白色，后变为黄色或绿色，常含有未消化（或混有血液）的乳凝块，病猪消瘦、严重脱水、口渴、食欲废绝，病程2～7天，10日龄仔猪多数死亡。",
+    "error_detail": "错误地缩短了病程的描述，导致概念混淆幻觉。",
+    "original_question": "猪传染性胃肠炎的症状表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "主要病变在胃肠，胃肠粘膜有明显的卡他性炎症，肠壁厚而紧张，胃大弯部粘膜脱落。组织学检查小肠线毛显著短缩。肾脏充血呈黑红色。",
+    "reference_case": "主要病变在胃肠，胃肠粘膜有明显的卡他性炎症，肠壁薄而松弛，胃大弯部粘膜脱落。组织学检查小肠线毛显著短缩。肾脏充血呈黑红色。",
+    "error_detail": "错误地将肠壁的描述从薄而松弛改为厚而紧张，导致概念混淆幻觉。",
+    "original_question": "猪传染性胃肠炎的病理剖检主要病变在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "根据流行病学和症状可作出初步诊断，血清学诊断方法包括免疫荧光抗体试验、间接血凝、中和试验等，以及PCR检测。",
+    "reference_case": "根据流行病学和症状可作出初步诊断，血清学诊断方法包括免疫荧光抗体试验、间接血凝、中和试验等。",
+    "error_detail": "添加了额外的PCR检测方法，导致指令偏离型幻觉。",
+    "original_question": "猪传染性胃肠炎的诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "预防措施包括人工感染康复的母猪使分娩的仔猪获得免疫，以及使用疫苗。",
+    "reference_case": "预防措施包括人工感染康复的母猪使分娩的仔猪获得免疫。",
+    "error_detail": "添加了额外的使用疫苗的预防措施，导致指令偏离型幻觉。",
+    "original_question": "猪传染性胃肠炎的预防措施有哪些？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "姜曲海猪的A-FABP基因内含子1区域的多态性位点的多态信息含量（PIC）为0:4374，苏姜猪的PIC为0:4693，均属于高度多态。",
+    "reference_case": "姜曲海猪的A-FABP基因内含子1区域的多态性位点的多态信息含量（PIC）为0:3374，苏姜猪的PIC为0:3693，均属于中度多态。",
+    "error_detail": "数值和分类错误，将PIC值夸大并错误分类为高度多态。",
+    "original_question": "姜曲海猪和苏姜猪的A-FABP基因内含子1区域的多态性位点的多态信息含量（PIC）是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "姜曲海猪和苏姜猪的A-FABP基因内含子1区域的多态性位点的基因频率和基因型频率的差异显著性检验是通过t检验进行的。",
+    "reference_case": "姜曲海猪和苏姜猪的A-FABP基因内含子1区域的多态性位点的基因频率和基因型频率的差异显著性检验是通过χ²独立性检验进行的。首先根据基因频率计算各种基因型频率的理论值，然后计算χ²值，最后根据χ²值和自由度判断差异是否显著。",
+    "error_detail": "错误使用了t检验而不是χ²独立性检验。",
+    "original_question": "姜曲海猪和苏姜猪的A-FABP基因内含子1区域的多态性位点的基因频率和基因型频率的差异显著性检验是如何进行的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "RIP2 mRNA在断奶仔猪的心脏和肝脏中的表达量较高。",
+    "reference_case": "RIP2 mRNA在断奶仔猪的肠道淋巴结、胸腺和脾脏中的表达量较高。",
+    "error_detail": "错误地改变了表达量高的组织类型。",
+    "original_question": "RIP2 mRNA在断奶仔猪的哪些组织中表达量较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "NOD2 mRNA在断奶仔猪的肠道淋巴结、脾脏、下丘脑和心脏中的表达量较高。",
+    "reference_case": "NOD2 mRNA在断奶仔猪的肠道淋巴结、脾脏、下丘脑和胸腺中的表达量较高。",
+    "error_detail": "错误地将胸腺替换为心脏。",
+    "original_question": "NOD2 mRNA在断奶仔猪的哪些组织中表达量较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在断奶仔猪中，NOD1 mRNA在肠道淋巴结和下丘脑中的表达量较低。",
+    "reference_case": "在断奶仔猪中，NOD1 mRNA在肠道淋巴结和下丘脑中的表达量较高。",
+    "error_detail": "错误地改变了表达量的描述。",
+    "original_question": "在断奶仔猪中，NOD1 mRNA在哪些组织中表达量较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验组以发酵饲料代替普通麸皮，其他饲料成分与对照组相同。对照组饲料组成为麸皮10%、玉米60%、豆粕25%、预混料5%。",
+    "reference_case": "试验组以发酵饲料代替普通麸皮，其他饲料成分与对照组相同。对照组饲料组成为麸皮7%、玉米67%、豆粕22%、预混料4%。",
+    "error_detail": "错误地改变了对照组饲料的组成比例。",
+    "original_question": "麸皮发酵饲料在育肥猪生产中的应用中，试验组和对照组的饲料组成有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用麸皮发酵饲料代替普通麸皮后，育肥猪的日采食量增加了5:7%，饲料增重比下降了6:3%，而日增重提高了10:2%。",
+    "reference_case": "使用麸皮发酵饲料代替普通麸皮后，育肥猪的日采食量增加了3:7%，饲料增重比下降了4:3%，而日增重提高了8:2%。",
+    "error_detail": "错误地夸大了改善效果。",
+    "original_question": "麸皮发酵饲料在育肥猪生产中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "群养母猪表现无食咀嚼、啃栏、啃槽行为的次数显著高于限位栏饲养的妊娠母猪。",
+    "reference_case": "限位栏饲养的妊娠母猪表现无食咀嚼、啃栏、啃槽行为的次数显著高于群养母猪。",
+    "error_detail": "错误地颠倒了行为表现的比较结果。",
+    "original_question": "不同饲养模式对妊娠母猪的行为有哪些显著影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "群养模式下妊娠母猪的唾液皮质醇水平、淀粉酶含量与无食咀嚼行为之间存在显著的正相关关系。",
+    "reference_case": "群养模式下妊娠母猪的唾液皮质醇水平、淀粉酶含量与无食咀嚼行为之间没有显著性相关关系。",
+    "error_detail": "错误地添加了不存在的正相关关系。",
+    "original_question": "群养模式下妊娠母猪的唾液皮质醇水平和淀粉酶含量与无食咀嚼行为之间有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "限位栏饲养的妊娠母猪的唾液皮质醇和淀粉酶表现出相同的分泌趋势，其中唾液淀粉酶含量与无食咀嚼行为之间没有显著的相关关系。",
+    "reference_case": "限位栏饲养的妊娠母猪的唾液皮质醇和淀粉酶表现出相反的分泌趋势，其中唾液淀粉酶含量与无食咀嚼行为之间存在显著的正相关关系。",
+    "error_detail": "错误地改变了分泌趋势和相关关系的描述。",
+    "original_question": "唾液皮质醇和唾液淀粉酶在妊娠母猪中的分泌趋势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "试验中在母猪妊娠期的特定周次第1天08:00采集唾液样本，使母猪咀嚼一个棉花球直到全部湿润为止，采集的唾液在4小时内离心处理，并在-80°C冰箱中保存，实验室分析前进行离心处理。",
+    "reference_case": "试验中在母猪妊娠期的特定周次第2天08:00采集唾液样本，使母猪咀嚼一个棉花球直到全部湿润为止，采集的唾液在2小时内离心处理，并在-20°C冰箱中保存，实验室分析前进行离心处理。",
+    "error_detail": "错误地改变了采集时间、离心处理时间和保存温度。",
+    "original_question": "试验中如何采集和分析妊娠母猪的唾液样本？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验选择了32头妊娠大白母猪，随机平均分成2组，分别采用限位栏和群养模式饲养。",
+    "reference_case": "试验选择了64头妊娠大白母猪，随机平均分成2组，分别采用限位栏和群养模式饲养。",
+    "error_detail": "错误地减少了母猪数量。",
+    "original_question": "试验中使用的妊娠母猪数量和分组情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "限位栏试验母猪的唾液淀粉酶含量与无食咀嚼行为之间没有显著性相关关系，而群养模式下无食咀嚼行为与唾液淀粉酶含量之间具有显著的正相关关系。",
+    "reference_case": "限位栏试验母猪的唾液淀粉酶含量与无食咀嚼行为之间具有显著的正相关关系，而群养模式下无食咀嚼行为与唾液淀粉酶含量之间没有显著性相关关系。",
+    "error_detail": "错误地颠倒了相关关系的描述。",
+    "original_question": "试验中限位栏和群养模式下妊娠母猪的唾液淀粉酶含量与无食咀嚼行为之间有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在第5周之前，群养模式下的妊娠母猪皮质醇水平高于限位栏模式中的母猪，从第5周开始，限位栏模式中的母猪皮质醇水平显著高于群养模式中的母猪。",
+    "reference_case": "在第10周之前，群养模式下的妊娠母猪皮质醇水平高于限位栏模式中的母猪，从第10周开始，限位栏模式中的母猪皮质醇水平显著高于群养模式中的母猪。",
+    "error_detail": "错误地改变了时间点的描述。",
+    "original_question": "限位栏和群养模式下妊娠母猪的唾液皮质醇水平随时间有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "第1周限位栏试验母猪的唾液淀粉酶水平显著低于群养模式中的母猪，第3、5周时两者无显著性差异，第6周之后限位栏试验母猪的唾液淀粉酶水平显著高于群养模式下的母猪。",
+    "reference_case": "第1周限位栏试验母猪的唾液淀粉酶水平显著高于群养模式中的母猪，第3、5周时两者无显著性差异，第6周之后限位栏试验母猪的唾液淀粉酶水平显著低于群养模式下的母猪。",
+    "error_detail": "错误地改变了唾液淀粉酶水平的比较结果。",
+    "original_question": "限位栏和群养模式下妊娠母猪的唾液淀粉酶含量随时间有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "竹笋壳在育肥猪饲料中的应用效果较好，能够提高日增重，降低饲料增重比，并使饲料成本降低20%。",
+    "reference_case": "竹笋壳在育肥猪饲料中的应用效果较好，能够提高日增重，降低饲料增重比，并使饲料成本降低10%。",
+    "error_detail": "错误地夸大了饲料成本的降低比例。",
+    "original_question": "竹笋壳在育肥猪饲料中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "竹笋壳中的植物甾醇具有提高胆固醇、降低动物饲料转化效率、提高肉中胆固醇含量、降低育肥猪的瘦肉率以及降低泌乳牛产奶量、乳脂率和乳蛋白率的作用。",
+    "reference_case": "竹笋壳中的植物甾醇具有降胆固醇、提高动物饲料转化效率、降低肉中胆固醇含量、提高育肥猪的瘦肉率以及提高泌乳牛产奶量、乳脂率和乳蛋白率的作用。",
+    "error_detail": "错误地颠倒了植物甾醇的作用描述。",
+    "original_question": "竹笋壳中的植物甾醇对动物有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过TRIzol法提取总DNA，PCR扩增Nsp1目的基因，经单酶切构建pCI-neo-Nsp1真核表达质粒后，对Nsp1蛋白锌指结构1的8C、10C、25C和28C的4个位点进行随机突变，成功获得分别突变为A和S的8个突变体。",
+    "reference_case": "通过TRIzol法提取总RNA，RT-PCR扩增Nsp1目的基因，经双酶切构建pCI-neo-Nsp1真核表达质粒后，对Nsp1蛋白锌指结构1的8C、10C、25C和28C的4个位点进行定点突变，成功获得分别突变为A和S的8个突变体。",
+    "error_detail": "错误地改变了提取物、扩增方法、酶切方法和突变方法。",
+    "original_question": "高致病性猪繁殖与呼吸综合征病毒（HP-PRRSV）SX-1株的非结构蛋白Nsp1的锌指结构1（ZF1:突变体的构建方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在副猪嗜血杆菌rfaD基因的Western blotting分析中，重组蛋白与H. parasuis 5型阳性血清发生了特异性结合。",
+    "reference_case": "在副猪嗜血杆菌rfaD基因的Western blotting分析中，重组蛋白与H. parasuis 4型阳性血清发生了特异性结合。",
+    "error_detail": "错误地改变了血清类型。",
+    "original_question": "在副猪嗜血杆菌rfaD基因的Western blotting分析中，重组蛋白与哪种血清发生了特异性结合？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "副猪嗜血杆菌的rfaD基因编码ADP-D-甘油-L-甘露庚糖-6-异构体酶。",
+    "reference_case": "副猪嗜血杆菌的rfaD基因编码ADP-L-甘油-D-甘露庚糖-6-异构体酶。",
+    "error_detail": "错误地改变了酶的描述。",
+    "original_question": "副猪嗜血杆菌（Haemophilus parasuis）的rfaD基因编码的酶是什么？",
+    "original_input": ""
+  }
+]

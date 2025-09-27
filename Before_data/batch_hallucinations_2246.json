@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对棉酚敏感的动物依次为猪、鸡、兔、犬、犊牛、牛、羊、大白鼠、猫。",
+    "reference_case": "对棉酚敏感的动物依次为猪、鸡、兔、犬、犊牛、牛、羊、大白鼠。",
+    "error_detail": "添加了不存在的动物'猫'到敏感列表中",
+    "original_question": "游离棉酚在动物中的敏感性顺序如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪饲粮中游离棉酚含量在 0.05% 以下时，生长正常；在 0.05%~0.1% 时, 出现食欲减退, 生长减慢; 含量超过 0.1% 时引起中毒; 含量达 0.15% 时可引起严重中毒，甚至死亡。",
+    "reference_case": "猪饲粮中游离棉酚含量在 0.01% 以下时，生长正常；在 0.01%~0.02% 时, 出现食欲减退, 生长减慢; 含量超过 0.02% 时引起中毒; 含量达 0.03% 时可引起严重中毒，甚至死亡。",
+    "error_detail": "错误地提高了游离棉酚的安全浓度和中毒阈值",
+    "original_question": "游离棉酚在动物饲料中的安全浓度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "不同动物对OZT的敏感性不同, 一般来说, 鸭对OZT比鸡敏感，鸡比猪敏感，猪比牛敏感。",
+    "reference_case": "不同动物对OZT的敏感性不同, 一般来说, 鸭对OZT比鸡敏感，鸡比猪敏感。",
+    "error_detail": "错误地添加了'猪比牛敏感'这一不存在的比较",
+    "original_question": "不同动物对OZT的敏感性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "植酸磷必须在消化道内水解成无机磷酸盐的形式才能被动物利用，不同的动物对植酸磷的利用率相同。",
+    "reference_case": "植酸磷必须在消化道内水解成无机磷酸盐的形式才能被动物利用，不同的动物对植酸磷的利用率不同，反刍动物高于非反刍动物，猪高于家禽。动物随年龄的增长，植酸磷的利用率亦不断提高。",
+    "error_detail": "错误地声称所有动物对植酸磷的利用率相同，忽略了差异",
+    "original_question": "植酸磷的消化吸收情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "口蹄疫病毒可感染牛、羊、猪、驼和人等 30 多种动物，一年四季均可发生，尤以炎热时多发，春秋流行。",
+    "reference_case": "口蹄疫病毒可感染牛、羊、猪、驼和人等 30 多种动物，一年四季均可发生，尤以寒冷时多发，春秋流行。",
+    "error_detail": "错误地将多发季节从'寒冷'改为'炎热'",
+    "original_question": "口蹄疫病毒的主要感染对象是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "种公猪应达到营养、运动、使用的平衡，以最大限度地发挥生长性能。",
+    "reference_case": "种公猪应达到营养、运动、使用的平衡，以最大限度地发挥繁殖性能。",
+    "error_detail": "错误地将'繁殖性能'改为'生长性能'",
+    "original_question": "种公猪合理饲养、管理、配种需要注意哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "空怀母猪需要及时、明显地发情，饲喂高蛋白饲料，并加强运动，以达到七八成膘的种用体况。",
+    "reference_case": "空怀母猪需要及时、明显地发情，饲喂青绿多汁饲料，并加强运动，以达到七八成膘的种用体况。",
+    "error_detail": "错误地将'青绿多汁饲料'改为'高蛋白饲料'",
+    "original_question": "空怀母猪的饲养管理需要注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "妊娠母猪的饲养管理关键是保证母猪不流产，保证胎儿正常的生长发育，以及提高母猪的产奶量。",
+    "reference_case": "妊娠母猪的饲养管理关键是保证母猪不流产，保证胎儿正常的生长发育。",
+    "error_detail": "错误地添加了与妊娠期无关的'提高母猪的产奶量'",
+    "original_question": "妊娠母猪的饲养管理关键是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪发情配种后，经过 30～40 天不再发情，表现为贪吃、贪睡，行动小心，猪皮毛光亮，母猪的阴门干燥，缩成一条线，此时可初步认定该母猪怀孕。",
+    "reference_case": "母猪发情配种后，经过 18～25 天不再发情，表现为贪吃、贪睡，行动小心，猪皮毛光亮，母猪的阴门干燥，缩成一条线，此时可初步认定该母猪怀孕。",
+    "error_detail": "错误地延长了不再发情的时间范围",
+    "original_question": "如何确定母猪已经怀孕？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "妊娠初期主要是对数量的需求，如蛋白质和能量，妊娠后期对营养的需求在质量和数量上都更加迫切。",
+    "reference_case": "妊娠初期主要是对质量的需求，如维生素和矿物质，妊娠后期对营养的需求在质量和数量上都更加迫切。",
+    "error_detail": "错误地将妊娠初期的'质量的需求'改为'数量的需求'",
+    "original_question": "妊娠母猪在不同阶段的营养需求有何不同？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在农村较低饲养条件下，内江猪体重10～80公斤阶段，饲养期309天，日增重326克，屠宰率78%，胴体瘦肉率57%。",
+    "reference_case": "在农村较低饲养条件下，内江猪体重10～80公斤阶段，饲养期309天，日增重226克，屠宰率68%，胴体瘦肉率47%。",
+    "error_detail": "日增重、屠宰率和胴体瘦肉率的数据被夸大",
+    "original_question": "内江猪的生长肥育性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "小公猪54日龄时出现性行为，62日龄时在睾丸和附睾中发现成熟精子。公猪一般3～5月龄初次配种。母猪平均90日龄初次发情，4～6月龄初次配种。",
+    "reference_case": "小公猪54日龄时出现性行为，62日龄时在睾丸和附睾中发现成熟精子。公猪一般5～8月龄初次配种。母猪平均113日龄初次发情，6～8月龄初次配种。",
+    "error_detail": "初次配种和发情的年龄被提前，不符合当前标准",
+    "original_question": "内江猪的繁殖性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "内江猪与地方品种或培育品种杂交，一代杂种猪日增重和每公斤增重消耗饲料均有一定的劣势。",
+    "reference_case": "内江猪与地方品种或培育品种杂交，一代杂种猪日增重和每公斤增重消耗饲料均有一定的优势。",
+    "error_detail": "杂交效果被错误描述为劣势",
+    "original_question": "内江猪的杂交利用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "荣昌猪产于重庆市荣昌和隆昌两县。",
+    "reference_case": "荣昌猪产于四川省荣昌和隆昌两县。",
+    "error_detail": "产地被错误地标注为重庆市",
+    "original_question": "荣昌猪的主要产地在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "荣昌猪具有适应性强，脂肪率较高，配合力较差和体质优良等特点。",
+    "reference_case": "荣昌猪具有适应性强，瘦肉率较高，配合力较好和体质优良等特点。",
+    "error_detail": "瘦肉率被错误地描述为脂肪率，配合力被错误描述为较差",
+    "original_question": "荣昌猪的主要特点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "荣昌猪体型较大，头大小适中，面微凹，耳中等大、下垂，疑面有横行的黑斑或黑纹，被毛为白色。成年公猪体重180公斤，成年母猪体重160公斤。",
+    "reference_case": "荣昌猪体型较大，头大小适中，面微凹，耳中等大、下垂，疑面有横行的黑斑或黑纹，被毛为白色。成年公猪体重158公斤，成年母猪体重144公斤。",
+    "error_detail": "成年公猪和母猪的体重被夸大",
+    "original_question": "荣昌猪的体型特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在特定营养水平下，荣昌猪体重14.7～90公斤阶段，日增重733克，每公斤增重消耗配合饲料2.3公斤、青料1.88公斤、粗料0.81公斤。",
+    "reference_case": "在特定营养水平下，荣昌猪体重14.7～90公斤阶段，日增重633克，每公斤增重消耗配合饲料3.3公斤、青料2.88公斤、粗料1.01公斤。",
+    "error_detail": "日增重和饲料消耗数据被错误修改",
+    "original_question": "荣昌猪的生长肥育性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪3月龄性成熟，4～5月龄可用于配种。母猪初情期为60～100天，初配以6～7月龄、体重40～50公斤较为适宜。",
+    "reference_case": "公猪4月龄性成熟，5～6月龄可用于配种。母猪初情期为71～113天，初配以7～8月龄、体重50～60公斤较为适宜。",
+    "error_detail": "性成熟和初配的年龄和体重被提前和降低",
+    "original_question": "荣昌猪的繁殖性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用约克夏、巴克夏和长白猪作父本与荣昌母猪杂交，一代杂种猪有杂种劣势，长白猪与荣昌猪配合力较差。",
+    "reference_case": "用约克夏、巴克夏和长白猪作父本与荣昌母猪杂交，一代杂种猪有杂种优势，长白猪与荣昌猪配合力较好。",
+    "error_detail": "杂交效果被错误描述为劣势和配合力较差",
+    "original_question": "荣昌猪的杂交利用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "宁乡猪产于湖北省宁乡县的草冲和流沙河一带。",
+    "reference_case": "宁乡猪产于湖南省宁乡县的草冲和流沙河一带。",
+    "error_detail": "产地被错误地标注为湖北省",
+    "original_question": "宁乡猪的主要产地在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "宁乡猪具有晚熟难肥，脂肪沉积能力弱和性情暴躁等特点。",
+    "reference_case": "宁乡猪具有早熟易肥，脂肪沉积能力强和性情温顺等特点。",
+    "error_detail": "特点被完全相反地描述",
+    "original_question": "宁乡猪的主要特点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "宁乡猪分为三种类型，头较大，颈部有竖行的披纹，耳较大且直立，颈长细。",
+    "reference_case": "宁乡猪分为三种类型，头中等大小，颈部有横行的披纹，耳较小且下垂，颈短粗。",
+    "error_detail": "体型特征被错误描述",
+    "original_question": "宁乡猪的体型特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "宁乡猪沉积脂肪能力较弱，6、8和9月龄时，胴体中脂肪比例为18%、24%、30%和36%左右。",
+    "reference_case": "宁乡猪沉积脂肪能力较强，6、8和9月龄时，胴体中脂肪比例为28%、34%、40%和46%左右。",
+    "error_detail": "脂肪沉积能力和比例被低估",
+    "original_question": "宁乡猪的生长肥育性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "宁乡猪性成熟较晚，公猪5月龄左右性成熟，7～8月龄，体重40～45公斤时开始配种；母猪6月龄左右性成熟，8月龄左右开始配种。",
+    "reference_case": "宁乡猪性成熟较早，公猪3月龄左右性成熟，5～6月龄，体重30～35公斤时开始配种；母猪4月龄左右性成熟，6月龄左右开始配种。",
+    "error_detail": "性成熟和初配的年龄和体重被推迟和提高",
+    "original_question": "宁乡猪的繁殖性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用长白猪、中约克夏猪与宁乡猪进行正反杂交，其两品种杂种猪都表现出杂种劣势。",
+    "reference_case": "用长白猪、中约克夏猪与宁乡猪进行正反杂交，其两品种杂种猪都表现出杂种优势。",
+    "error_detail": "杂交效果被错误描述为劣势",
+    "original_question": "宁乡猪的杂交利用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "金华猪产于江苏省金华地区。",
+    "reference_case": "金华猪产于浙江省金华地区。",
+    "error_detail": "产地被错误地标注为江苏省",
+    "original_question": "金华猪的主要产地在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "金华猪具有性成熟晚，繁殖力低，皮厚骨粗，肉质差，不适于腌制优质火腿等特点。",
+    "reference_case": "金华猪具有性成熟早，繁殖力高，皮薄骨细，肉质好，适于腌制优质火腿等特点。",
+    "error_detail": "特点被完全相反地描述",
+    "original_question": "金华猪的主要特点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "金华猪体型较大，耳较小、直立。背直，肷小不下垂，背较平直。四肢粗长，蹄松软呈黑色。",
+    "reference_case": "金华猪体型中等偏小，耳中等大、下垂。背微凹，肷大微下垂，背较倾斜。四肢细短，蹄坚实呈玉色。",
+    "error_detail": "体型特征被错误描述",
+    "original_question": "金华猪的体型特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在特定营养条件下，金华猪从体重17～76公斤阶段，平均饲养期97天，日增重564克，每公斤增重消耗消化能10.28兆卡、可消化蛋白质325克。",
+    "reference_case": "在特定营养条件下，金华猪从体重17～76公斤阶段，平均饲养期127天，日增重464克，每公斤增重消耗消化能12.28兆卡、可消化蛋白质425克。",
+    "error_detail": "饲养期、日增重和饲料消耗数据被错误修改",
+    "original_question": "金华猪的生长肥育性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "太湖猪产于广东、福建的太湖地区，由大花脸、梅山、枫泾、嘉兴黑和横泾等地方类型猪组成。",
+    "reference_case": "太湖猪产于江苏、浙江的太湖地区，由二花脸、梅山、枫泾、嘉兴黑和横泾等地方类型猪组成。",
+    "error_detail": "产地和地方类型被错误描述",
+    "original_question": "太湖猪的主要产地在哪里？",
+    "original_input": ""
+  }
+]

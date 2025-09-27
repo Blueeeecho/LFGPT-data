@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "宾夕法尼亚州立大学的饲料程序可以为牛奶场、牛、羔羊、猪、马和鸡等生产者推导出饲料程序。",
+    "reference_case": "宾夕法尼亚州立大学的饲料程序可以为牛奶场、牛、羔羊、猪和马等生产者推导出饲料程序。",
+    "error_detail": "错误地添加了鸡作为适用对象，而原始输出中并未提及。",
+    "original_question": "宾夕法尼亚州立大学的饲料程序可以为哪些生产者推导出饲料程序？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "家禽类腱脱落病的主要症状为腿关节扩大，肌腱移位，跗骨与翼骨停止生长，脊椎骨变形，缺锰母鸡的蛋发育缓慢。猪饲以含锰低的饲料后，后脚踝关节扩大，而腿弯曲，且生长速度显著下降。",
+    "reference_case": "家禽类腱脱落病（perosis或slipped tendon）的主要症状为腿关节扩大，肌腱移位，跗骨与翼骨停止生长，脊椎骨变形，缺锰母鸡的蛋发育缓慢。猪饲以含锰低的饲料后，后脚踝关节扩大，而腿弯曲。",
+    "error_detail": "错误地添加了猪生长速度显著下降的症状，原始输出中未提及。",
+    "original_question": "家禽类腱脱落病的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "缺锰会导致母鸡的蛋发育缓慢，母鸡的脊椎骨变形。猪饲以含锰低的饲料后，后脚踝关节扩大，腿弯曲，且这些症状会反过来影响锰的吸收。",
+    "reference_case": "缺锰会导致母鸡的蛋发育缓慢，母鸡的脊椎骨变形。猪饲以含锰低的饲料后，后脚踝关节扩大，腿弯曲。",
+    "error_detail": "错误地添加了症状会影响锰的吸收的因果关系，原始输出中未提及。",
+    "original_question": "缺锰如何影响家禽和猪的生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "禽类数量大时，应选择口服给药；猪、牛等大家畜则采用肌肉或静脉注射，注射时应避免大面积抓捕带来的应激反应，且应考虑使用镇静剂。",
+    "reference_case": "禽类数量大时，应选择口服给药；猪、牛等大家畜则采用肌肉或静脉注射，注射时应避免大面积抓捕带来的应激反应。",
+    "error_detail": "错误地添加了应考虑使用镇静剂的建议，原始输出中未提及。",
+    "original_question": "如何选择畜禽疾病给药途径？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "将药液注入皮下结缔组织，供大动物如牛、猪使用，吸收较慢，一般需5至10分钟见效，但在现代兽医实践中已不推荐使用。",
+    "reference_case": "将药液注入皮下结缔组织，供大动物如牛、猪使用，吸收较慢，一般需5至10分钟见效。",
+    "error_detail": "错误地添加了现代兽医实践中已不推荐使用的信息，原始输出中未提及。",
+    "original_question": "皮下注射法适用于哪些情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "部位多选皮肤较薄而皮下疏松的部位，如大动物的颈侧、猪的耳根后或股内侧、禽类的翼下或颈背部皮下。方法为局部剪毛、消毒，捏起皮肤皱褶后注药，但在某些国家，注射部位可能有所不同。",
+    "reference_case": "部位多选皮肤较薄而皮下疏松的部位，如大动物的颈侧、猪的耳根后或股内侧、禽类的翼下或颈背部皮下。方法为局部剪毛、消毒，捏起皮肤皱褶后注药。",
+    "error_detail": "错误地添加了在某些国家注射部位可能不同的信息，原始输出中未提及。",
+    "original_question": "皮下注射法的注射部位和方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "胸腔注射法适用于反刍兽、马、猪和禽类。",
+    "reference_case": "胸腔注射法适用于反刍兽、马、猪。",
+    "error_detail": "错误地添加了禽类作为适用对象，原始输出中未提及。",
+    "original_question": "胸腔注射法适用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "腹腔注射法主要应用于猪、犬、猫和禽类。",
+    "reference_case": "腹腔注射法主要应用于猪、犬及猫。",
+    "error_detail": "错误地添加了禽类作为适用对象，原始输出中未提及。",
+    "original_question": "腹腔注射法主要应用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "内服, 每千克体重，犊、羔、仔猪、犬、猫 2.5~5 毫克, 禽 5~7.5 毫克, 一日 2 次, 连用 3~5 日，但在紧急情况下可加倍剂量。",
+    "reference_case": "内服, 每千克体重，犊、羔、仔猪、犬、猫 2.5~5 毫克, 禽 5~7.5 毫克, 一日 2 次, 连用 3~5 日。",
+    "error_detail": "错误地添加了紧急情况下可加倍剂量的信息，原始输出中未提及。",
+    "original_question": "恩诺沙星的内服用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "一次量，每千克体重，牛、羊、猪 2.5 毫克, 犬、猫、兔、禽 2.5~5 毫克, 一日 1~2 次, 连用 2~3 日，但在严重感染时可延长至5日。",
+    "reference_case": "一次量，每千克体重，牛、羊、猪 2.5 毫克, 犬、猫、兔、禽 2.5~5 毫克, 一日 1~2 次, 连用 2~3 日。",
+    "error_detail": "错误地添加了严重感染时可延长至5日的信息，原始输出中未提及。",
+    "original_question": "恩诺沙星注射的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "内服, 每千克体重，仔猪、禽 10 毫克, 一日 1~2 次，但在耐药性情况下可增加至15毫克。",
+    "reference_case": "内服, 每千克体重，仔猪、禽 10 毫克, 一日 1~2 次。",
+    "error_detail": "错误地添加了耐药性情况下可增加至15毫克的信息，原始输出中未提及。",
+    "original_question": "诺氟沙星（氟哌酸）的内服用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "双羟萘酸噻嘧啶对猪蜔虫、食道口线虫和肺线虫有效。",
+    "reference_case": "双羟萘酸噻嘧啶对猪蜔虫和食道口线虫有效。",
+    "error_detail": "错误地添加了肺线虫作为有效对象，原始输出中未提及。",
+    "original_question": "双羟萘酸噻嘧啶对猪的哪些虫体有效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "双羟萘酸噻嘧啶对猪鞭虫、肺线虫无效，但对某些特定条件下的肺线虫可能有效。",
+    "reference_case": "双羟萘酸噻嘧啶对猪鞭虫、肺线虫无效。",
+    "error_detail": "错误地添加了对某些特定条件下的肺线虫可能有效的信息，原始输出中未提及。",
+    "original_question": "双羟萘酸噻嘧啶对猪鞭虫、肺线虫是否有疗效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "左旋咪唑对猪蛔虫、兰氏类圆线虫、后圆线虫、食道口线虫、猪肾虫、红色猪圆线虫、鞭虫病等寄生虫有高效驱除效果，但对某些虫体的第三期未成熟虫体疗效较低，且对肺线虫无效。",
+    "reference_case": "左旋咪唑对猪蛔虫、兰氏类圆线虫、后圆线虫、食道口线虫、猪肾虫、红色猪圆线虫、鞭虫病等寄生虫有高效驱除效果，但对某些虫体的第三期未成熟虫体疗效较低。",
+    "error_detail": "错误地添加了对肺线虫无效的信息，原始输出中未提及。",
+    "original_question": "左旋咪唑对猪寄生虫的驱除效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "噻苯达唑对羊、牛、马、猪、犬、禽、骆驼和猫的多种线虫有驱除效果。",
+    "reference_case": "噻苯达唑对羊、牛、马、猪、犬、禽和骆驼的多种线虫有驱除效果。",
+    "error_detail": "错误地添加了猫作为适用对象，原始输出中未提及。",
+    "original_question": "噻苯达唑对哪些动物的线虫有驱除效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "芬苯达唑对羊、牛、马、猪、犬、猫、禽、野生动物和实验动物的多种线虫有驱除效果。",
+    "reference_case": "芬苯达唑对羊、牛、马、猪、犬、猫、禽和野生动物的多种线虫有驱除效果。",
+    "error_detail": "错误地添加了实验动物作为适用对象，原始输出中未提及。",
+    "original_question": "芬苯达唑对哪些动物的线虫有驱除效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "一次给药对猪毛首线虫的疗效仅为65%，而3毫克/千克量连用6天，驱虫效果超过99%，且对成虫和幼虫均有效。",
+    "reference_case": "一次给药对猪毛首线虫的疗效仅为65%，而3毫克/千克量连用6天，驱虫效果超过99%。",
+    "error_detail": "错误地添加了对成虫和幼虫均有效的信息，原始输出中未提及。",
+    "original_question": "芬苯达唑对猪毛首线虫的驱除效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "噻苯达唑对猪蛔虫的驱除效果不佳，需用大剂量连续给药才能有效，且对幼虫无效。",
+    "reference_case": "噻苯达唑对猪蛔虫的驱除效果不佳，需用大剂量连续给药才能有效。",
+    "error_detail": "错误地添加了对幼虫无效的信息，原始输出中未提及。",
+    "original_question": "噻苯达唑对猪蛔虫的驱除效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "马10毫克/千克体重，牛5毫克/千克体重，羊5～7.5毫克/千克体重，猪4毫克/千克体重，犬10毫克/千克体重，猫5毫克/千克体重。",
+    "reference_case": "马10毫克/千克体重，牛5毫克/千克体重，羊5～7.5毫克/千克体重，猪4毫克/千克体重，犬10毫克/千克体重。",
+    "error_detail": "错误地添加了猫的用量信息，原始输出中未提及。",
+    "original_question": "奥芬达唑用于动物驱虫的用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "噻苯达唑牛的休药期为8天，羊和猪的休药期为30天；芬苯达唑牛的休药期为8天，奶废弃期为3天；羊的休药期为6天，产奶期禁用；猪的休药期为5天，禽类禁用。",
+    "reference_case": "噻苯达唑牛的休药期为8天，羊和猪的休药期为30天；芬苯达唑牛的休药期为8天，奶废弃期为3天；羊的休药期为6天，产奶期禁用；猪的休药期为5天。",
+    "error_detail": "错误地添加了禽类禁用的信息，原始输出中未提及。",
+    "original_question": "噻苯达唑和芬苯达唑的休药期分别是多少？",
+    "original_input": ""
+  }
+]

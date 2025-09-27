@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "纯种或进口猪种杂交代数较低的母猪在饲料中应添加维生素D、氯化钠及无机铬。",
+    "reference_case": "纯种或进口猪种杂交代数较低的母猪在饲料中应添加维生素C、氯化胆碱及有机铬。",
+    "error_detail": "错误的维生素和矿物质添加",
+    "original_question": "纯种或进口猪种杂交代数较低的母猪在饲料中应添加哪些维生素和矿物质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期母猪饲料中玉米的含量为500千克。",
+    "reference_case": "妊娠前期母猪饲料中玉米的含量为400千克。",
+    "error_detail": "错误的玉米含量数值",
+    "original_question": "妊娠前期母猪饲料中玉米的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠后期母猪饲料中葵饼的含量为50千克。",
+    "reference_case": "妊娠后期母猪饲料中葵饼的含量为40千克。",
+    "error_detail": "错误的葵饼含量数值",
+    "original_question": "妊娠后期母猪饲料中葵饼的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同体重的生长猪每天氨基酸需要量根据体重不同而变化，例如，3～5千克体重的仔猪每天需要的赖氨酸为4.4克/日，5～10千克体重的仔猪为6.9克/日，10～120千克体重的生长猪为16.8克/日。",
+    "reference_case": "不同体重的生长猪每天氨基酸需要量根据体重不同而变化，例如，3～5千克体重的仔猪每天需要的赖氨酸为3.4克/日，5～10千克体重的仔猪为5.9克/日，10～120千克体重的生长猪为15.8克/日。",
+    "error_detail": "错误的氨基酸需要量数值",
+    "original_question": "不同体重的生长猪每天氨基酸需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公母按2：1混养。",
+    "reference_case": "公母按1：1混养。",
+    "error_detail": "错误的混养比例",
+    "original_question": "公母猪按怎样的比例混养？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "20～120千克体重的猪每天沉积无脂瘦肉425克。",
+    "reference_case": "20～120千克体重的猪每天沉积无脂瘦肉325克。",
+    "error_detail": "错误的无脂瘦肉沉积量",
+    "original_question": "不同体重和瘦肉生长速度的猪每天沉积无脂瘦肉多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对于采食含血浆或奶产品的3～10千克仔猪，粗蛋白水平可以降低4%～5%。",
+    "reference_case": "对于采食含血浆或奶产品的3～10千克仔猪，粗蛋白水平可以降低2%～3%。",
+    "error_detail": "错误的粗蛋白水平调整比例",
+    "original_question": "粗蛋白含量如何根据猪的体重调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重在50～80千克范围内的猪，瘦肉生长速度分别为400克/日、425克/日、450克/日；体重在80～120千克范围内的猪，瘦肉生长速度分别为400克/日、425克/日、450克/日。",
+    "reference_case": "体重在50～80千克范围内的猪，瘦肉生长速度分别为300克/日、325克/日、350克/日；体重在80～120千克范围内的猪，瘦肉生长速度分别为300克/日、325克/日、350克/日。",
+    "error_detail": "错误的瘦肉生长速度数值",
+    "original_question": "不同体重范围的猪的日瘦肉生长速度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同体重范围（60～90千克或90～130千克）的阉公猪和母猪的平均体重均为75千克。",
+    "reference_case": "不同体重范围（50～80千克或80～120千克）的阉公猪和母猪的平均体重均为65千克。",
+    "error_detail": "错误的平均体重数值",
+    "original_question": "不同体重范围的阉公猪和母猪的平均体重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "以体重范围为60～90千克或90～130千克的猪为例，其消化能或代谢能进食量分别为49.16兆焦/千克、44.16兆焦/千克、56.65兆焦/千克、50.79兆焦/千克、54.98兆焦/千克、49.16兆焦/千克。",
+    "reference_case": "以体重范围为50～80千克或80～120千克的猪为例，其消化能或代谢能进食量分别为39.16兆焦/千克、34.16兆焦/千克、46.65兆焦/千克、40.79兆焦/千克、44.98兆焦/千克、39.16兆焦/千克。",
+    "error_detail": "错误的消化能和代谢能进食量数值",
+    "original_question": "消化能和代谢能的进食量如何计算？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重范围为60～90千克或90～130千克的猪，每天的采食量分别为21.53克/日、20.04克/日、21.53克/日、20.04克/日、21.53克/日、20.04克/日、23.72克/日、21.98克/日、23.72克/日、21.98克/日、23.72克/日、21.98克/日。",
+    "reference_case": "体重范围为50～80千克或80～120千克的猪，每天的采食量分别为11.53克/日、10.04克/日、11.53克/日、10.04克/日、11.53克/日、10.04克/日、13.72克/日、11.98克/日、13.72克/日、11.98克/日、13.72克/日、11.98克/日。",
+    "error_detail": "错误的采食量数值",
+    "original_question": "不同体重范围的猪的采食量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重范围为60～90千克或90～130千克的猪，粗蛋白需求量分别为24.2%、25.5%、24.9%、26.3%、25.6%、27.1%、22.2%、23.2%、22.7%、23.8%、23.2%、24.4%。",
+    "reference_case": "体重范围为50～80千克或80～120千克的猪，粗蛋白需求量分别为14.2%、15.5%、14.9%、16.3%、15.6%、17.1%、12.2%、13.2%、12.7%、13.8%、13.2%、14.4%。",
+    "error_detail": "错误的粗蛋白需求量数值",
+    "original_question": "猪的日粗蛋白需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪的日粮中，粗蛋白的需要量为22.9%（预期产仔数为11）至22.4%（预期产仔数为14）。",
+    "reference_case": "妊娠母猪的日粮中，粗蛋白的需要量为12.9%（预期产仔数为11）至12.4%（预期产仔数为14）。",
+    "error_detail": "错误的粗蛋白需要量数值",
+    "original_question": "妊娠母猪的粗蛋白日需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "是的，妊娠母猪的采食量随着预期产仔数的增加而减少，从1.96千克/日（预期产仔数为11）减少到1.85千克/日（预期产仔数为14）。",
+    "reference_case": "是的，妊娠母猪的采食量随着预期产仔数的增加而增加，从1.96千克/日（预期产仔数为11）增加到1.85千克/日（预期产仔数为14）。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "妊娠母猪的采食量受预期产仔数的影响吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪回肠真可消化氨基酸中，精氨酸的需要量从0.04%（预期产仔数为11）减少到0.34%（预期产仔数为14）。",
+    "reference_case": "妊娠母猪回肠真可消化氨基酸中，精氨酸的需要量从0.04%（预期产仔数为11）增加到0.34%（预期产仔数为14）。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "妊娠母猪回肠真可消化氨基酸中，精氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪回肠末端表观可消化氨基酸中，组氨酸的需要量为0.15%（预期产仔数为11）至0.16%（预期产仔数为14）。",
+    "reference_case": "妊娠母猪回肠末端表观可消化氨基酸中，组氨酸的需要量为0.15%（预期产仔数为11）至0.14%（预期产仔数为14）。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "妊娠母猪回肠末端表观可消化氨基酸中，组氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "广西农民养猪数量在二十多个，养鸡数量在十多个以上，每年有大量的猪和鸡出口。",
+    "reference_case": "广西农民养猪数量在十多个，养鸡数量在二十多个以上，每年有大量的猪和鸡出口。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "广西农民养猪和养鸡的情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "标本为猪的大肠，黏膜普遍被覆以褐色干燥的病痂，部分呈脱落状态，病灶下遗留浅表溃疡，肠壁增厚，质地硬而脆弱。",
+    "reference_case": "标本为猪的大肠，黏膜普遍被覆以褐色干燥的病痂，部分呈脱落状态，病灶下遗留浅表溃疡，肠壁增厚，质地硬而脆弱。",
+    "error_detail": "错误地将猪副伤寒弥漫性纤维素性坏死性肠炎的主要表现描述为数据型幻觉",
+    "original_question": "猪副伤寒弥漫性纤维素性坏死性肠炎的主要表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪弓形体病肺脏病理切片显示炎性浸润及血管周围炎，血管腔闭合。",
+    "reference_case": "猪弓形体病肺脏病理切片显示炎性浸润及血管周围炎，血管腔闭合。",
+    "error_detail": "错误地将猪弓形体病肺脏病理切片显示的特征描述为数据型幻觉",
+    "original_question": "猪弓形体病肺脏病理切片显示哪些特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪临产征状包括乳房膨胀，乳头分泌物增多，呼吸加快，行动不安，食欲下降等。",
+    "reference_case": "母猪临产征状包括乳房膨胀，乳头分泌物增多，呼吸加快，行动不安，食欲下降等。",
+    "error_detail": "错误地将母猪临产征状描述为数据型幻觉",
+    "original_question": "母猪临产征状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "小猪生长发育迅速且具有较大的生长潜力，但免疫功能较差。",
+    "reference_case": "小猪生长发育迅速且具有较大的生长潜力，但免疫功能较差。",
+    "error_detail": "错误地将小猪生长发育的特点描述为数据型幻觉",
+    "original_question": "小猪生长发育的特点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "影响母猪泌乳力的因素包括遗传、胎次、饲料营养水平和环境与疾病等，其中饲料营养水平占比最大。",
+    "reference_case": "影响母猪泌乳力的因素包括遗传、胎次、饲料营养水平和环境与疾病等。",
+    "error_detail": "添加了不存在的比例数据",
+    "original_question": "影响母猪泌乳力的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小猪消化器官在出生时已形成，但结构和功能不完善，胃重量仅3克左右，只能容纳30毫升左右的液体（乳汁）；小肠重30～40克，能容纳约80毫升的液体。",
+    "reference_case": "小猪消化器官在出生时已形成，但结构和功能不完善，胃重量仅5克左右，只能容纳40毫升左右的液体（乳汁）；小肠重40～50克，能容纳约100毫升的液体。",
+    "error_detail": "数值偏差",
+    "original_question": "小猪消化器官在出生时的发育状况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小猪在15日龄后启动主动免疫功能，产生球蛋白，但直到5~6周龄时才能发挥较弱的作用。",
+    "reference_case": "小猪在10日龄后启动主动免疫功能，产生球蛋白，但直到4~5周龄时才能发挥较弱的作用。",
+    "error_detail": "数值偏差",
+    "original_question": "小猪何时能启动主动免疫功能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每头每日采食风干料量在体重120～150千克时为4.50千克，在150～180千克时为4.70千克，在180千克以上时为4.80千克，每增减1头小猪时为-千克。",
+    "reference_case": "哺乳母猪每头每日采食风干料量在体重120～150千克时为5.00千克，在150～180千克时为5.20千克，在180千克以上时为5.30千克，每增减1头小猪时为-千克。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪每头每日采食风干料量在不同体重阶段有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每千克饲料的消化能为15.12兆焦。",
+    "reference_case": "哺乳母猪每千克饲料的消化能为12.12兆焦。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪每千克饲料中的消化能量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每千克饲料的粗蛋白质含量为16.00%。",
+    "reference_case": "哺乳母猪每千克饲料的粗蛋白质含量为14.00%。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪每千克饲料中的粗蛋白质含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每千克饲料的赖氨酸含量为0.60%。",
+    "reference_case": "哺乳母猪每千克饲料的赖氨酸含量为0.50%。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪每千克饲料中的赖氨酸含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每千克饲料的钙含量为0.74%。",
+    "reference_case": "哺乳母猪每千克饲料的钙含量为0.64%。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪每千克饲料中的钙含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每千克饲料的磷含量为0.56%。",
+    "reference_case": "哺乳母猪每千克饲料的磷含量为0.46%。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪每千克饲料中的磷含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每千克饲料的铁含量为80毫克。",
+    "reference_case": "哺乳母猪每千克饲料的铁含量为70毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪每千克饲料中的铁含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每千克饲料的锌含量为5.40毫克。",
+    "reference_case": "哺乳母猪每千克饲料的锌含量为4.40毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪每千克饲料中的锌含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每千克饲料的铜含量为54毫克。",
+    "reference_case": "哺乳母猪每千克饲料的铜含量为44毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪每千克饲料中的铜含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每千克饲料的维生素A含量为1800单位。",
+    "reference_case": "哺乳母猪每千克饲料的维生素A含量为1700单位。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪每千克饲料中的维生素A含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小猪初生重1.60千克以上，断奶重可达20.11千克，初生重每减少0.10千克，断奶重相应减少2.85千克。",
+    "reference_case": "小猪初生重1.50千克以上，断奶重可达18.11千克，初生重每减少0.10千克，断奶重相应减少1.85千克。",
+    "error_detail": "数值偏差",
+    "original_question": "小猪初生重与断奶重的关系是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "适用于早期断奶前期（5周龄前）小猪的饲料配方中，玉米比例为12%，小麦比例为20%，高粱比例为8%。",
+    "reference_case": "适用于早期断奶前期（5周龄前）小猪的饲料配方中，玉米比例为9%，小麦比例为18%，高粱比例为6%。",
+    "error_detail": "数值偏差",
+    "original_question": "适用于早期断奶前期（5周龄前）小猪的饲料配方中，玉米、小麦和高粱的比例分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "适用于早期断奶后期小猪的饲料配方中，玉米比例为15%，小麦比例为25%，高粱比例为15%。",
+    "reference_case": "适用于早期断奶后期小猪的饲料配方中，玉米比例为10%，小麦比例为20%，高粱比例为10%。",
+    "error_detail": "数值偏差",
+    "original_question": "适用于早期断奶后期小猪的饲料配方中，玉米、小麦和高粱的比例分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生猪价值链融资通过长期、稳定的重复交易关系，将企业与农户之间的信息不对称程度降低了50%。",
+    "reference_case": "生猪价值链融资通过长期、稳定的重复交易关系，降低了企业与农户之间的信息不对称程度。核心企业通过技术指导员对养殖过程进行监督，了解农户是否按合同要求养殖、是否私自添加违禁饲料、是否私自变卖生猪等情况，确保信息透明。这种合作模式使得企业和农户能够高效沟通，减少信息不对称带来的问题。",
+    "error_detail": "添加了不存在的具体降低比例50%，属于数据型幻觉。",
+    "original_question": "生猪价值链融资如何改善信息不对称情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "参与生猪价值链融资的农户平均养殖规模为500头，显著高于未参与农户的平均养殖规模140头。",
+    "reference_case": "参与生猪价值链融资的农户平均养殖规模为337头，显著高于未参与农户的平均养殖规模140头。",
+    "error_detail": "错误地修改了参与农户的平均养殖规模数据，属于数据型幻觉。",
+    "original_question": "样本农户的养殖规模如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在养殖规模小于100头的情况下，有90%的农户认为猪舍建设成本过高，难以接受。",
+    "reference_case": "78.57%",
+    "error_detail": "错误地修改了认为猪舍建设成本过高的农户比例，属于数据型幻觉。",
+    "original_question": "在养殖规模小于100头的情况下，有多少比例的农户认为猪舍建设成本过高，难以接受？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "合作的满意度对农户参与生猪价值链融资的意愿具有非常显著的正向影响，满意度每提高一个单位，参与的可能性提高50%。",
+    "reference_case": "合作的满意度对农户参与生猪价值链融资的意愿具有显著的正向影响，农户的满意度越高，其参与融资的可能性越高。",
+    "error_detail": "添加了不具体的满意度提高与参与可能性提高的比例，属于数据型幻觉。",
+    "original_question": "合作的满意度对农户参与生猪价值链融资的意愿有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "办理合作手续花费的时间对农户参与生猪价值链融资的意愿有显著负向影响，办理时间每增加一天，参与的可能性降低10%。",
+    "reference_case": "办理合作手续花费的时间对农户参与生猪价值链融资的意愿有负向影响，办理时间越长，农户参与的可能性越低。",
+    "error_detail": "添加了不具体的办理时间增加与参与可能性降低的比例，属于数据型幻觉。",
+    "original_question": "办理合作手续花费的时间对农户参与生猪价值链融资的意愿有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "民国时期广西生猪出口贸易的重要性体现在其占广西出口值的比重较高，尤其是在1915年达到89.9%的最高比例。",
+    "reference_case": "民国时期广西生猪出口贸易的重要性体现在其占广西出口值的比重较高，尤其是在1915年达到69.9%的最高比例。",
+    "error_detail": "数值偏差，将69.9%错误地改为89.9%。",
+    "original_question": "民国时期广西生猪出口贸易的重要性体现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "增长了56.9%",
+    "reference_case": "增长了36.9%",
+    "error_detail": "数值偏差，将36.9%错误地改为56.9%。",
+    "original_question": "广西生猪饲养数量在十年间增长了百分之多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "广西生猪出口量在全国的比重最高，但出口值的比重一直较低，即使在出口量最大的1928年，出口值也只占全国生猪出口总值的50%",
+    "reference_case": "广西生猪出口量在全国的比重最高，但出口值的比重一直较低，即使在出口量最大的1928年，出口值也只占全国生猪出口总值的30%",
+    "error_detail": "数值偏差，将30%错误地改为50%。",
+    "original_question": "广西生猪出口量及其出口值在全国的比重如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "江西省生猪产业是江西省畜牧业的支柱产业，2013年创造了超过900亿元的价值，占江西省畜牧业总价值的65%以上。",
+    "reference_case": "江西省生猪产业是江西省畜牧业的支柱产业，2013年创造了超过700亿元的价值，占江西省畜牧业总价值的65%以上。生猪出栏量为3230.8万头，年末存栏量为1967万头，其中大部分外销至广东、浙江、上海等东南沿海城市以及香港和澳门。",
+    "error_detail": "数值偏差，将'700亿元'错误地改为'900亿元'。",
+    "original_question": "江西省生猪产业的主要特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在2013年，江西省生猪饲养业粪污排放中的化学需氧量（COD）排放量是226.89万吨",
+    "reference_case": "在2013年，江西省生猪饲养业粪污排放中的化学需氧量（COD）排放量是126.89万吨",
+    "error_detail": "数值偏差，将'126.89万吨'错误地改为'226.89万吨'。",
+    "original_question": "在2013年，江西省生猪饲养业粪污排放中的化学需氧量（COD）排放量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在2013年，江西省生猪饲养业粪污排放中的总氮（TN）排放量是95,291.24吨",
+    "reference_case": "在2013年，江西省生猪饲养业粪污排放中的总氮（TN）排放量是85,291.24吨",
+    "error_detail": "数值偏差，将'85,291.24吨'错误地改为'95,291.24吨'。",
+    "original_question": "在2013年，江西省生猪饲养业粪污排放中的总氮（TN）排放量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在2013年，江西省生猪饲养业粪污排放中的总磷（TP）排放量是20,778.93吨",
+    "reference_case": "在2013年，江西省生猪饲养业粪污排放中的总磷（TP）排放量是10,778.93吨",
+    "error_detail": "数值偏差，将'10,778.93吨'错误地改为'20,778.93吨'。",
+    "original_question": "在2013年，江西省生猪饲养业粪污排放中的总磷（TP）排放量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同日龄小猪的饲料配方中的消化能含量分别为12.05兆焦/千克、12.76兆焦/千克、14.19兆焦/千克、12.6兆焦/千克、12.68兆焦/千克和12.51兆焦/千克。",
+    "reference_case": "不同日龄小猪的饲料配方中的消化能含量分别为13.05兆焦/千克、13.76兆焦/千克、15.19兆焦/千克、13.6兆焦/千克、13.68兆焦/千克和13.51兆焦/千克。",
+    "error_detail": "数值偏差",
+    "original_question": "不同日龄小猪的饲料配方中的消化能含量有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小猪饲料配方中的赖氨酸含量分别为0.75%、1.07%、1.29%、1.24%、1.13%和1.06%。",
+    "reference_case": "小猪饲料配方中的赖氨酸含量分别为0.85%、1.17%、1.39%、1.34%、1.23%和1.16%。",
+    "error_detail": "数值偏差",
+    "original_question": "小猪饲料配方中的赖氨酸含量在不同配方之间有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "日粮粗蛋白质水平为18%即可满足早期断奶小猪的需要，粗蛋白质水平为20%-22%时才能改进3周龄小猪的生长状况和饲料利用率。",
+    "reference_case": "日粮粗蛋白质水平为20%即可满足早期断奶小猪的需要，粗蛋白质水平为22%-24%时才能改进3周龄小猪的生长状况和饲料利用率。",
+    "error_detail": "数值偏差",
+    "original_question": "早期断奶小猪对蛋白质的需要是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "将含酪蛋白和干脱脂乳日粮蛋白质由19.5%提高到24%时，体重4-12千克小猪的增重、饲料报酬和氮的沉积量提高。若继续提高到31%和37%时，则生长速度无变化。",
+    "reference_case": "将含酪蛋白和干脱脂乳日粮蛋白质由19.5%提高到26%时，体重4-12千克小猪的增重、饲料报酬和氮的沉积量提高。若继续提高到33%和39%时，则生长速度无变化。",
+    "error_detail": "数值偏差",
+    "original_question": "提高蛋白质质量是否能改善小猪的生长状况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "早期断奶小猪的饲料配方分为五个阶段，分别是10日龄前、11～21日龄、22～28日龄、29～57日龄和58～70日龄。",
+    "reference_case": "早期断奶小猪的饲料配方分为四个阶段，分别是10日龄前、11～21日龄、22～28日龄和29～57日龄。",
+    "error_detail": "添加了未提及的阶段",
+    "original_question": "早期断奶小猪的饲料配方是如何分阶段设计的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "10日龄前的小猪饲料中主要含有鱼粉4.00%、大豆粕10.00%、次粉1.60%、乳清粉17.00%、牛奶乳糖805.00%、玉米32.29%、贝壳粉0.30%、多种氨基酸1.01%、植物油2.00%和食盐-（未添加）。",
+    "reference_case": "10日龄前的小猪饲料中主要含有鱼粉5.00%、大豆粕11.00%、次粉2.60%、乳清粉18.00%、牛奶乳糖806.00%、玉米33.29%、贝壳粉0.40%、多种氨基酸1.11%、植物油3.00%和食盐-（未添加）。",
+    "error_detail": "数值偏差",
+    "original_question": "10日龄前的小猪饲料中主要含有哪些成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "29～57日龄的小猪饲料中玉米的比例为55.00%。",
+    "reference_case": "29～57日龄的小猪饲料中玉米的比例为56.00%。",
+    "error_detail": "数值偏差",
+    "original_question": "29～57日龄的小猪饲料中玉米的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "3-8千克体重阶段为20.0%，8-20千克为18.0%，20-35千克为16.8%。",
+    "reference_case": "3-8千克体重阶段为21.0%，8-20千克为19.0%，20-35千克为17.8%。",
+    "error_detail": "数值偏差",
+    "original_question": "不同体重阶段的瘦肉型小猪每千克饲料中粗蛋白质含量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "3-8千克体重阶段为1.32%，8-20千克为1.06%，20-35千克为0.80%。",
+    "reference_case": "3-8千克体重阶段为1.42%，8-20千克为1.16%，20-35千克为0.90%。",
+    "error_detail": "数值偏差",
+    "original_question": "不同体重阶段的瘦肉型小猪每千克饲料中赖氨酸含量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "3-8千克体重阶段为13.02兆焦，8-20千克为12.60兆焦，20-35千克为12.39兆焦。",
+    "reference_case": "3-8千克体重阶段为14.02兆焦，8-20千克为13.60兆焦，20-35千克为13.39兆焦。",
+    "error_detail": "数值偏差",
+    "original_question": "不同体重阶段的瘦肉型小猪每千克饲料中消化能含量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "3-8千克体重阶段的日增重为0.22千克，8-20千克为0.42千克，20-35千克为0.59千克。",
+    "reference_case": "3-8千克体重阶段的日增重为0.24千克，8-20千克为0.44千克，20-35千克为0.61千克。",
+    "error_detail": "数值偏差",
+    "original_question": "不同体重阶段的瘦肉型小猪每千克饲料中日增重分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲喂含5% DDGS的日粮对生长育肥猪的生长速度、日采食量和饲料转化效率无显著影响。含15%和25% DDGS的日粮会导致生长速度和饲料转化效率下降，这可能是因为日粮中以总氨基酸为基础配制，未考虑DDGS中氨基酸的消化率，导致氨基酸需求未满足。",
+    "reference_case": "饲喂含10% DDGS的日粮对生长育肥猪的生长速度、日采食量和饲料转化效率无显著影响。含20%和30% DDGS的日粮会导致生长速度和饲料转化效率下降，这可能是因为日粮中以总氨基酸为基础配制，未考虑DDGS中氨基酸的消化率，导致氨基酸需求未满足。",
+    "error_detail": "数值偏差",
+    "original_question": "饲喂含不同比例DDGS的日粮对生长育肥猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "DDGS的添加可能导致屠宰率显著降低，这可能是由于日粮中纤维含量增加导致肠道重量显著增加。",
+    "reference_case": "DDGS的添加可能导致屠宰率降低，这可能是由于日粮中纤维含量增加导致肠道重量增加。也有研究表明，添加DDGS对胴体性能无显著影响。",
+    "error_detail": "夸大了屠宰率降低的程度和肠道重量增加的影响",
+    "original_question": "DDGS添加对生长育肥猪胴体性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在育肥猪日粮中添加15%的DDGS对眼肌面积有显著影响。",
+    "reference_case": "在育肥猪（88~105kg）日粮中添加5%或10%的DDGS，或在生长猪（30~60kg）日粮中添加19%的DDGS，对眼肌面积无显著影响。",
+    "error_detail": "错误地声称15%的DDGS对眼肌面积有显著影响",
+    "original_question": "添加DDGS对生长育肥猪的眼肌面积有无显著影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长育肥猪日粮中添加10%、20%及30%的DDGS线性提高平均日增重。",
+    "reference_case": "在生长育肥猪日粮中添加10%、20%及30%的DDGS线性降低平均日增重，而添加40%的DDGS进一步降低平均日增重。",
+    "error_detail": "错误地反转了DDGS添加比例对平均日增重的影响",
+    "original_question": "在生长育肥猪日粮中添加不同比例的DDGS对平均日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长育肥猪日粮中添加10%、20%及30%的DDGS线性提高平均日采食量。",
+    "reference_case": "在生长育肥猪日粮中添加10%、20%及30%的DDGS线性降低平均日采食量。",
+    "error_detail": "错误地反转了DDGS添加比例对平均日采食量的影响",
+    "original_question": "添加不同比例的DDGS对猪的采食量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲喂含20%和30%的DDGS日粮组的胴体重较重，是由于生长速度和活重提高。",
+    "reference_case": "饲喂含0和10%的DDGS日粮组猪的胴体重和屠宰率相同，但高于饲喂含20%和30%的DDGS日粮组。饲喂含20%和30%的DDGS日粮组的胴体重较轻，是由于生长速度和活重下降。",
+    "error_detail": "错误地反转了DDGS添加比例对胴体重的影响",
+    "original_question": "不同比例DDGS对生长育肥猪胴体重的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同DDGS饲喂水平下的背膘厚有显著差异。",
+    "reference_case": "不同DDGS饲喂水平下的背膘厚没有显著差异。",
+    "error_detail": "错误地声称背膘厚有显著差异",
+    "original_question": "不同比例DDGS对生长育肥猪背膘厚的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲喂含30%DDGS日粮组的眼肌厚度大于0%的DDGS日粮组。",
+    "reference_case": "饲喂含0DDGS日粮组的眼肌厚度大于30%的DDGS日粮组，10%和20%的DDGS组的眼肌厚度居中。眼肌厚度的差异受到4种日粮处理组的屠体重的影响。",
+    "error_detail": "错误地反转了DDGS添加比例对眼肌厚度的影响",
+    "original_question": "不同比例DDGS对生长育肥猪眼肌厚度的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "含0%、10%、20%和30%DDGS的日粮对腹肉厚度、腹肉坚实度评分、校正腹肉坚实度评分和碘值均无影响。",
+    "reference_case": "含0%、10%、20%和30%DDGS的日粮对腹肉厚度、腹肉坚实度评分、校正腹肉坚实度评分和碘值均有一定影响。含20%和30%DDGS的组腹肉厚度显著下降，含30%DDGS的组腹肉坚实度评分和校正腹肉坚实度评分显著降低，各组碘值与对照组相比显著升高。",
+    "error_detail": "错误地否认了DDGS添加比例对脂肪质量特性的影响",
+    "original_question": "饲喂含不同比例DDGS的日粮对上市猪脂肪质量特性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "日粮中添加高达50%的DDGS对猪肉质量没有显著影响。",
+    "reference_case": "日粮中添加高达30%的DDGS对猪肉质量没有显著影响。",
+    "error_detail": "错误地夸大了DDGS添加比例的上限",
+    "original_question": "日粮中添加多少比例的DDGS对猪肉质量没有显著影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "含30%DDGS的日粮组的猪肉碘值高于80。",
+    "reference_case": "含30%DDGS的日粮组的猪肉碘值高于70但低于74。",
+    "error_detail": "错误地夸大了碘值的范围",
+    "original_question": "含30%DDGS的日粮组的猪肉碘值范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "含超过10%的DDGS日粮会使猪腹肉厚度显著下降。",
+    "reference_case": "含超过20%的DDGS日粮会使猪腹肉厚度显著下降。",
+    "error_detail": "错误地降低了DDGS添加比例对腹肉厚度影响的阈值",
+    "original_question": "含20%DDGS的日粮对猪腹肉厚度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在第一个繁殖周期，妊娠期饲喂50%DDGS和泌乳期饲喂20%DDGS的日粮组合组的断奶前死亡率较低。",
+    "reference_case": "在第一个繁殖周期，妊娠期饲喂50%DDGS和泌乳期饲喂20%DDGS的日粮组合组的断奶前死亡率较高，妊娠期饲喂50%DDGS的母猪消耗更多的能量、氮、硫和钾，氮、硫和磷的存留量较高。",
+    "error_detail": "错误地反转了DDGS对断奶前死亡率的影响",
+    "original_question": "DDGS对妊娠母猪的繁殖性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "泌乳日粮中含30%DDGS能支持较好的母猪生产性能。",
+    "reference_case": "泌乳日粮中含15%DDGS能支持较好的母猪生产性能，同时能维持或减少粪便中磷的排泄。",
+    "error_detail": "错误地夸大了DDGS添加比例的上限",
+    "original_question": "DDGS对泌乳母猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长-育肥猪日粮中DDGS的用量不超过30%。",
+    "reference_case": "生长-育肥猪日粮中DDGS的用量不超过20%。",
+    "error_detail": "错误地夸大了DDGS推荐用量的上限",
+    "original_question": "生长-育肥猪日粮中DDGS的推荐用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小母猪日粮中DDGS的用量可以达到30%。",
+    "reference_case": "小母猪日粮中DDGS的用量可以达到20%。",
+    "error_detail": "数值偏差，将推荐用量从20%错误增加到30%。",
+    "original_question": "小母猪日粮中DDGS的推荐用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪妊娠日粮中DDGS用量不超过30%。",
+    "reference_case": "母猪妊娠日粮中DDGS用量不超过20%。",
+    "error_detail": "数值偏差，将推荐用量从20%错误增加到30%。",
+    "original_question": "母猪妊娠日粮中DDGS的推荐用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪泌乳日粮中DDGS用量不超过20%。",
+    "reference_case": "母猪泌乳日粮中DDGS用量不超过10%。",
+    "error_detail": "数值偏差，将推荐用量从10%错误增加到20%。",
+    "original_question": "母猪泌乳日粮中DDGS的推荐用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "可以，王艳青等（2002）报道，经过适当处理的5%的羽毛粉可以取代4%的鱼粉，对70日龄仔猪生产性能作用效果接近。周圻等（1993）报道，水解羽毛粉替代生长育肥猪日粮中50%、75%、100%的秘鲁鱼粉时，猪的生长速度和饲料报酬不变。",
+    "reference_case": "可以，王艳青等（2002）报道，经过适当处理的3.5%的羽毛粉可以取代4%的鱼粉，对70日龄仔猪生产性能作用效果接近。周圻等（1993）报道，水解羽毛粉替代生长育肥猪日粮中50%、75%、100%的秘鲁鱼粉时，猪的生长速度和饲料报酬不变。",
+    "error_detail": "数值偏差，将羽毛粉的添加量从3.5%错误改为5%。",
+    "original_question": "羽毛粉是否可以替代鱼粉用于猪饲料中？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "综合国内外报道，一般认为在猪日粮中添加羽毛粉以5%~7%为宜。当日粮中羽毛粉添加量超过7%时可能影响采食量，使日增重降低（许梓荣和胡晓青，1991）。",
+    "reference_case": "综合国内外报道，一般认为在猪日粮中添加羽毛粉以3%~5%为宜。当日粮中羽毛粉添加量超过5%时可能影响采食量，使日增重降低（许梓荣和胡晓青，1991）。",
+    "error_detail": "数值偏差，将羽毛粉的推荐添加量从3%~5%错误改为5%~7%。",
+    "original_question": "羽毛粉在猪饲料中的添加量有何建议？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对于幼小动物如哺乳仔猪、肉仔鸡、蛋仔鸡等，添加量为5%~7%，而在后期添加2%~3%或不添加。在生长育肥猪、肉中大鸡、肉中大鸭等肉用畜禽配合饲料中添加鱼粉后的经济效益并不比无鱼粉日粮的经济效益明显增加。",
+    "reference_case": "对于幼小动物如哺乳仔猪、肉仔鸡、蛋仔鸡等，添加量为3%~5%，而在后期添加1%~2%或不添加。在生长育肥猪、肉中大鸡、肉中大鸭等肉用畜禽配合饲料中添加鱼粉后的经济效益并不比无鱼粉日粮的经济效益明显增加。",
+    "error_detail": "数值偏差，将鱼粉的添加量从3%~5%错误改为5%~7%，后期添加量从1%~2%错误改为2%~3%。",
+    "original_question": "鱼粉在畜禽配合饲料中的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在育肥猪日粮中加入7%~9%的鱼粉，可使单位增重的饲料消耗降低10%~20%。",
+    "reference_case": "在育肥猪日粮中加入5%~7%的鱼粉，可使单位增重的饲料消耗降低10%~20%。",
+    "error_detail": "数值偏差，将鱼粉的添加量从5%~7%错误改为7%~9%。",
+    "original_question": "鱼粉对生长育肥猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "能显著提高其泌乳量，提高幅度可达50%。",
+    "reference_case": "能显著提高其泌乳量。",
+    "error_detail": "错误地夸大了鱼粉对泌乳母猪泌乳量的提高幅度，缺乏具体数据支持。",
+    "original_question": "给泌乳母猪加喂5%的鱼粉有何效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在试验的第5周添加8%鲱鱼粉的处理组猪ADG比对照组提高20%（P<0.01）；添加12%鲱鱼粉组的ADG比对照组增加25%（P<0.01）。",
+    "reference_case": "在试验的第5周添加8%鲱鱼粉的处理组猪ADG比对照组提高11.5%（P<0.01）；添加12%鲱鱼粉组的ADG比对照组增加17%（P<0.01）。",
+    "error_detail": "错误地夸大了鲱鱼粉对猪ADG的提高幅度。",
+    "original_question": "鲱鱼粉在早期断奶仔猪日粮中的添加量和效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲料中添加脱盐浓缩液可以提高动物的消化率，牛、猪等摄食后日增重明显增加，增加幅度可达30%。",
+    "reference_case": "饲料中添加脱盐浓缩液可以提高动物的消化率，牛、猪等摄食后日增重明显增加。",
+    "error_detail": "错误地夸大了脱盐浓缩液对动物日增重的提高幅度，缺乏具体数据支持。",
+    "original_question": "脱盐浓缩液添加到饲料中可以带来什么好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "平均日采食量、平均日增重、饲料转化率随味精菌体蛋白替代豆粕比例的增加而逐渐降低，建议替代比例在50%以内为宜。",
+    "reference_case": "平均日采食量、平均日增重、饲料转化率随味精菌体蛋白替代豆粕比例的增加而逐渐降低，建议替代比例在20%以内为宜。",
+    "error_detail": "错误地提高了味精菌体蛋白替代豆粕的建议比例。",
+    "original_question": "添加味精蛋白对猪生产性能的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长期添加6%，育肥期添加10%的发酵马铃薯渣取代等量麸皮效果最佳。",
+    "reference_case": "生长期添加4%，育肥期添加8%的发酵马铃薯渣取代等量麸皮效果最佳。",
+    "error_detail": "数值比例偏差",
+    "original_question": "马铃薯渣在猪生产中的最佳添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "maga nin抗菌肽是由25个氨基酸组成的。",
+    "reference_case": "maga nin抗菌肽是由23个氨基酸组成的。",
+    "error_detail": "数值比例偏差",
+    "original_question": "maga nin抗菌肽是由多少个氨基酸组成的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "King 等（1993）利用氮平衡实验确定，对于哺育 9 头仔猪的母猪，不动用体贮时，其对赖氨酸的需要量为 50 g/d。",
+    "reference_case": "King 等（1993）利用氮平衡实验确定，对于哺育 9 头仔猪的母猪，不动用体贮时，其对赖氨酸的需要量为 48 g/d。",
+    "error_detail": "数值比例偏差",
+    "original_question": "使用氮平衡实验测定母猪赖氨酸需要量的结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "根据 NRC（1998）的推荐，不同胎次妊娠期母猪赖氨酸的需要量分别为：维持需要 2.0~3.0 g/d，生长需要 10.0~6.0 g/d，总需要 12.0~8.0 g/d。",
+    "reference_case": "根据 NRC（1998）的推荐，不同胎次妊娠期母猪赖氨酸的需要量分别为：维持需要 1.99~2.89 g/d，生长需要 9.24~5.25 g/d，总需要 11.23~7.76 g/d。",
+    "error_detail": "数值比例偏差",
+    "original_question": "妊娠期母猪赖氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "改变玉米和大豆粕的比例可以显著提高断奶仔猪的赖氨酸水平。",
+    "reference_case": "改变玉米和大豆粕的比例可以调整断奶仔猪的赖氨酸水平。",
+    "error_detail": "错误地声称比例改变会显著提高赖氨酸水平，而原输出仅提到调整。",
+    "original_question": "不同比例玉米和大豆粕对断奶仔猪赖氨酸水平的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同氨基酸和能量关系会显著提高仔猪的体重增长速率和效率。",
+    "reference_case": "不同氨基酸和能量关系会影响仔猪的体重增长速率和效率。",
+    "error_detail": "错误地声称会显著提高，而原输出仅提到影响。",
+    "original_question": "不同氨基酸和能量关系对仔猪体重增长速率和效率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高温环境下添加过量苏氨酸会立即提高生长性能和改善胴体品质。",
+    "reference_case": "高温环境下添加适量苏氨酸有助于提高生长性能和改善胴体品质，为获得最佳胴体品质可能需要比获得最大生长性能更高的苏氨酸量。",
+    "error_detail": "错误地声称过量添加会立即提高性能，忽略了适量和过量之间的区别。",
+    "original_question": "苏氨酸在猪日粮中的添加量如何影响生长性能和胴体品质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "适当添加苏氨酸可以完全替代鱼粉、豆粕等蛋白质饲料的用量。",
+    "reference_case": "适当添加苏氨酸可以节省鱼粉、豆粕等蛋白质饲料的用量，提高仔猪的生长速度和饲料转化率，在相同增重情况下降低饲料成本，改善蛋白质品质，配方中的蛋白质含量可降低3%-4%。",
+    "error_detail": "错误地声称可以完全替代，而原输出仅提到节省用量。",
+    "original_question": "苏氨酸对猪的经济效应有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加苏氨酸可以保证仔猪在任何条件下都能达到最佳生长性能。",
+    "reference_case": "研究显示，添加苏氨酸可以提高仔猪的生长性能，改善胴体组成。",
+    "error_detail": "错误地声称在任何条件下都能保证最佳性能，忽略了其他影响因素。",
+    "original_question": "苏氨酸在仔猪低蛋白日粮中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同性别生长猪的最佳苏氨酸与赖氨酸比率完全相同。",
+    "reference_case": "研究表明，不同性别生长猪的最佳苏氨酸与赖氨酸比率有所不同，具体数值需根据研究确定。",
+    "error_detail": "错误地声称比率完全相同，忽略了性别差异。",
+    "original_question": "不同性别生长猪所需的最佳苏氨酸与赖氨酸比率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加赖氨酸可以立即显著提高仔猪的生长性能。",
+    "reference_case": "研究发现，添加赖氨酸可以提高仔猪的生长性能，改善胴体组成。",
+    "error_detail": "错误地声称效果会立即显著，忽略了时间和剂量的影响。",
+    "original_question": "赖氨酸在仔猪日粮中的添加效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪低蛋白质日粮添加苏氨酸可以完全替代蛋白质饲料。",
+    "reference_case": "猪低蛋白质日粮添加苏氨酸可以提高猪的生长性能和饲料转化率。",
+    "error_detail": "错误地声称可以完全替代，而原输出仅提到提高性能和转化率。",
+    "original_question": "猪低蛋白质日粮添加苏氨酸的效果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪对苏氨酸的需求量是固定的，不需要调整。",
+    "reference_case": "生长猪对苏氨酸的需求量是通过研究确定的，以优化其生长性能。",
+    "error_detail": "错误地声称需求量固定，忽略了研究和优化的必要性。",
+    "original_question": "苏氨酸在生长猪日粮中的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高产乳母猪的苏氨酸需求量不需要研究，可以随意添加。",
+    "reference_case": "通过研究营养摄入量在泌乳期对母猪性能的影响，确定高产乳母猪的苏氨酸需求量。",
+    "error_detail": "错误地声称需求量可以随意添加，忽略了研究的必要性。",
+    "original_question": "如何确定高产乳母猪的苏氨酸需求量？",
+    "original_input": ""
+  }
+]

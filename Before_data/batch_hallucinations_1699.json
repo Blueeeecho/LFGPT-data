@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "初产母猪在商品猪场占约40%至50%的比例。",
+    "reference_case": "初产母猪在商品猪场占约20%至30%的比例。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "初产母猪在商品猪场占有多少比例？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "初产母猪在繁殖方面存在的两个主要问题是发情延迟和产仔数减少。",
+    "reference_case": "初产母猪在繁殖方面存在的两个主要问题是断奶发情延迟和二胎产仔数减少。",
+    "error_detail": "忽略了'断奶'和'二胎'的关键术语",
+    "original_question": "初产母猪在繁殖方面存在哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "PMSG可以有效延长初产母猪由断奶到再次发情配种的时间间隔，降低二胎产仔数和活仔数。",
+    "reference_case": "PMSG可以有效缩短初产母猪由断奶到再次发情配种的时间间隔，提升二胎产仔数和活仔数。",
+    "error_detail": "因果关系被颠倒",
+    "original_question": "PMSG在提高母猪繁殖力方面有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "促进母猪发情的方法包括：增加母猪的运动量，减少饲料供给。",
+    "reference_case": "促进母猪发情的方法包括：注意母猪营养供给，减少泌乳期间体重损失；同一时间断奶并保留5～7天内发情的母猪；“催情饲喂”；将空怀母猪与公猪相邻放置，利用公猪外激素促进发情。",
+    "error_detail": "方法完全偏离了原始指令",
+    "original_question": "促进母猪发情的常用方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PMSG处理可以使母猪二胎平均窝产仔数和窝平均活仔数分别增加3头和1头。",
+    "reference_case": "PMSG处理可以使母猪二胎平均窝产仔数和窝平均活仔数分别增加1.5头和0.5头。",
+    "error_detail": "数值被夸大",
+    "original_question": "PMSG处理对母猪二胎的窝产仔数和活仔数分别增加多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "减少母猪泌乳期间体重损失有助于促进断奶后母猪早发情，特别是在使用特定饲料的情况下。",
+    "reference_case": "减少母猪泌乳期间体重损失有助于促进断奶后母猪早发情。",
+    "error_detail": "添加了未经证实的假设",
+    "original_question": "减少母猪泌乳期间体重损失对母猪发情有何帮助？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在大约25℃的温度下饲养妊娠母猪，其活仔胎数较多。",
+    "reference_case": "在大约15.5℃的温度下饲养妊娠母猪，其活仔胎数较多。",
+    "error_detail": "温度数值错误",
+    "original_question": "妊娠母猪在什么温度条件下活仔胎数较多？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "妊娠母猪舍内温度应保持在25～30℃，相对湿度应保持在50%～60%。",
+    "reference_case": "妊娠母猪舍内温度应保持在16～20℃，相对湿度应保持在70%～80%。",
+    "error_detail": "温度和湿度范围错误，可能适用于热带地区",
+    "original_question": "妊娠母猪舍内温度和相对湿度应保持在什么范围？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "后备母猪在配种前的生长阶段不需要特别注意营养供给。",
+    "reference_case": "后备母猪在配种前的生长阶段应喂给平衡的饲粮，特别是要提供足够的优质蛋白质，以促使生殖系统的正常发育。",
+    "error_detail": "与原始指令逻辑矛盾",
+    "original_question": "后备母猪在配种前的生长阶段需要注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "因为育仔舍的环境变化会导致仔猪拉痢，所以仔猪断奶后会按原窝移到育仔舍。",
+    "reference_case": "因为仔猪断奶后会按原窝移到育仔舍，带菌的小猪在温度、湿度和日粮变化的新环境中容易出现病原菌增殖，导致拉痢。",
+    "error_detail": "因果关系被颠倒",
+    "original_question": "为何仔猪拉痢会影响育仔舍的仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "控制仔猪拉痢的方法包括增加饲料中的抗生素用量。",
+    "reference_case": "应实行全进全出的管理体系，彻底消毒空床，隔离母猪防止传染病，确保仔猪吃上初乳，并定期注射疫苗。",
+    "error_detail": "方法完全偏离了原始指令",
+    "original_question": "猪舍管理中，如何控制仔猪拉痢？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "断奶后母猪需要低能量、低蛋白质的饲料以适应断奶后的压力。",
+    "reference_case": "为了促进母猪在断奶后6~8天内发情配种，提高繁殖效率。",
+    "error_detail": "与当前饲养标准相悖",
+    "original_question": "断奶后母猪为何需要高能量、高蛋白质的饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "记录猪的各项生产性能、采食量及来源，对每头猪打耳号，可以预测市场价格。",
+    "reference_case": "记录猪的各项生产性能、采食量及来源，对每头猪打耳号，为各项决策提供依据。",
+    "error_detail": "添加了未经证实的假设",
+    "original_question": "如何通过记录提高猪场管理效率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "营养摄入不足会导致泌乳量增加、断奶窝重提高。",
+    "reference_case": "营养摄入不足会导致泌乳量下降、断奶窝重降低，延长断奶到发情的时间间隔，增加空怀期，降低胎存活率和窝产仔数。",
+    "error_detail": "概念完全相反",
+    "original_question": "泌乳母猪摄入不足的营养素如何影响其繁殖性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高产母猪每天可能需要100g以上的赖氨酸才能获得最大的窝增重。",
+    "reference_case": "高产母猪每天可能需要45~60g的赖氨酸才能获得最大的窝增重。",
+    "error_detail": "数值被夸大",
+    "original_question": "高产母猪泌乳期赖氨酸的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "猪的营养状况仅影响其生长速度，不影响免疫功能。",
+    "reference_case": "猪的营养状况影响机体免疫力和抗病力，营养不良可能导致胸腺萎缩等，维生素A和维生素C具有抗传染病的作用。",
+    "error_detail": "完全误解了上下文",
+    "original_question": "猪的营养状况如何影响其免疫功能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脱脂奶粉的线毛高度为366.2 μm，而大豆粕为275.0 μm，两者差异显著（P<0.05）。",
+    "reference_case": "脱脂奶粉的线毛高度为266.2 μm，而大豆粕为175.0 μm，两者差异显著（P<0.05）。",
+    "error_detail": "数值被夸大",
+    "original_question": "脱脂奶粉和大豆粕对21日龄断奶仔猪肠道线毛高度的影响有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脱脂奶粉的隐窝深度为298.0 μm，而大豆粕为322.4 μm，两者差异显著（P<0.05）。",
+    "reference_case": "脱脂奶粉的隐窝深度为198.0 μm，而大豆粕为222.4 μm，两者差异显著（P<0.05）。",
+    "error_detail": "数值被夸大",
+    "original_question": "不同大豆产品对28日龄断奶仔猪隐窝深度的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脱脂奶粉的线毛面积为36915.0 m²，而大豆粕为26495.0 m²，两者差异显著（P<0.05）。",
+    "reference_case": "脱脂奶粉的线毛面积为26915.0 m²，而大豆粕为16495.0 m²，两者差异显著（P<0.05）。",
+    "error_detail": "数值被夸大",
+    "original_question": "不同大豆产品对28日龄断奶仔猪线毛面积的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脱脂奶粉的淋巴细胞密度为0.251个/100 mm²，而大豆浓缩蛋白为0.262个/100 mm²，两者差异显著（P<0.05）。",
+    "reference_case": "脱脂奶粉的淋巴细胞密度为0.151个/100 mm²，而大豆浓缩蛋白为0.162个/100 mm²，两者差异显著（P<0.05）。",
+    "error_detail": "数值被夸大",
+    "original_question": "大豆浓缩蛋白和脱脂奶粉对21日龄断奶仔猪的淋巴细胞密度有何影响？",
+    "original_input": ""
+  }
+]

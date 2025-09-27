@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁西地方黑猪的血液生化指标中，谷丙转氨酶（ALT）、白蛋白（ALB）、肌苷（Crea）和胆固醇（CHOL）与肌内脂肪呈正相关，相关系数分别为0.95、0.90、0.85和0.80。",
+    "reference_case": "鲁西地方黑猪的血液生化指标中，谷丙转氨酶（ALT）、白蛋白（ALB）、肌苷（Crea）和胆固醇（CHOL）与肌内脂肪呈正相关。",
+    "error_detail": "添加了不存在的相关系数数据",
+    "original_question": "鲁西地方黑猪的血液生化指标中，哪些指标与肌内脂肪呈正相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁西地方黑猪的后腿比例与胆固醇（CHOL）呈极显著正相关（P<0.01），相关系数为0.99；与pH 24和甘油三酯（TG）呈显著正相关（P<0.05），相关系数分别为0.89和0.42。此外，与谷丙转氨酶（ALT）也呈显著正相关（P<0.05），相关系数为0.75。",
+    "reference_case": "鲁西地方黑猪的后腿比例与胆固醇（CHOL）呈极显著正相关（P<0.01），相关系数为0.99；与pH 24和甘油三酯（TG）呈显著正相关（P<0.05），相关系数分别为0.89和0.42。",
+    "error_detail": "添加了不存在的谷丙转氨酶（ALT）的相关性",
+    "original_question": "鲁西地方黑猪的后腿比例与哪些血液生化指标呈显著正相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "鲁西地方黑猪的血液生化指标中，谷丙转氨酶（ALT）、谷草转氨酶（AST）、肌苷（Crea）和乳酸脱氢酶（LDH）与失水率呈负相关，其中ALT和AST的相关系数分别为-0.85和-0.80。",
+    "reference_case": "鲁西地方黑猪的血液生化指标中，谷丙转氨酶（ALT）、谷草转氨酶（AST）、肌苷（Crea）和乳酸脱氢酶（LDH）与失水率呈负相关。",
+    "error_detail": "添加了不存在的相关系数数据",
+    "original_question": "鲁西地方黑猪的血液生化指标中，哪些指标与失水率呈负相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁西地方黑猪的血液生化指标中，15项生化指标与肉量和肉质性状有不同程度的相关性，包括谷丙转氨酶（ALT）、谷草转氨酶（AST）、总蛋白（TP）、白蛋白（ALB）、球蛋白（GOS）、血糖（GLU）、肌苷（Crea）、胆固醇（CHOL）、甘油三酯（TG）、乳酸脱氢酶（LDH）和碱性磷酸酶（AKP）。",
+    "reference_case": "鲁西地方黑猪的血液生化指标中，11项生化指标与肉量和肉质性状有不同程度的相关性，包括谷丙转氨酶（ALT）、谷草转氨酶（AST）、总蛋白（TP）、白蛋白（ALB）、球蛋白（GOS）、血糖（GLU）、肌苷（Crea）、胆固醇（CHOL）、甘油三酯（TG）、乳酸脱氢酶（LDH）和碱性磷酸酶（AKP）。",
+    "error_detail": "错误地增加了生化指标的数量",
+    "original_question": "鲁西地方黑猪的血液生化指标中，哪些指标与肉量和肉质性状有不同程度的相关性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁西地方黑猪的血液生化指标中，谷丙转氨酶（ALT）、谷草转氨酶（AST）、总蛋白（TP）、球蛋白（GOS）、乳酸脱氢酶（LDH）、肌苷（Crea）和碱性磷酸酶（AKP）与熟肉率呈正相关，相关系数分别为0.90、0.85、0.80、0.75、0.70、0.65和0.60。",
+    "reference_case": "鲁西地方黑猪的血液生化指标中，谷丙转氨酶（ALT）、谷草转氨酶（AST）、总蛋白（TP）、球蛋白（GOS）、乳酸脱氢酶（LDH）、肌苷（Crea）和碱性磷酸酶（AKP）与熟肉率呈正相关。",
+    "error_detail": "添加了不存在的相关系数数据",
+    "original_question": "鲁西地方黑猪的血液生化指标中，哪些指标与熟肉率呈正相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁西地方黑猪的血液生化指标中，肌苷（Crea）与瘦肉率呈显著负相关（P<0.05），相关系数为-0.93，而谷丙转氨酶（ALT）也呈显著负相关（P<0.05），相关系数为-0.85。",
+    "reference_case": "鲁西地方黑猪的血液生化指标中，肌苷（Crea）与瘦肉率呈显著负相关（P<0.05），相关系数为-0.93。",
+    "error_detail": "添加了不存在的谷丙转氨酶（ALT）的相关性",
+    "original_question": "鲁西地方黑猪的血液生化指标中，哪些指标与瘦肉率呈显著负相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁西地方黑猪的血液生化指标中，谷丙转氨酶（ALT）、谷草转氨酶（AST）和乳酸脱氢酶（LDH）均在国内地方猪种范围内（ALT：15.4～50 U/L，AST：35～66 U/L，LDH：400～650 U/L）。",
+    "reference_case": "鲁西地方黑猪的血液生化指标中，谷丙转氨酶（ALT）、谷草转氨酶（AST）和乳酸脱氢酶（LDH）均在国内地方猪种范围内（ALT：10.4～45 U/L，AST：30～61 U/L，LDH：380～634 U/L）。",
+    "error_detail": "错误地修改了酶的参考范围",
+    "original_question": "鲁西地方黑猪的血液生化指标中，哪些酶类在国内地方猪种范围内？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁西地方黑猪的血液生化指标中，L/S、TP、GLU和LDH在性别间存在显著差异（P<0.05），其中LDH含量在母猪中极显著高于公猪（P<0.01），而ALT含量在公猪中显著高于母猪（P<0.05）。",
+    "reference_case": "鲁西地方黑猪的血液生化指标中，L/S、TP、GLU和LDH在性别间存在显著差异（P<0.05），其中LDH含量在母猪中极显著高于公猪（P<0.01）。",
+    "error_detail": "添加了不存在的ALT的性别差异",
+    "original_question": "鲁西地方黑猪的血液生化指标中，哪些指标在性别间存在显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪α-干扰素基因的表达载体是pQE-30。",
+    "reference_case": "猪α-干扰素基因的表达载体是pQE-31。",
+    "error_detail": "错误地修改了表达载体的名称",
+    "original_question": "猪α-干扰素基因的表达载体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪α-干扰素基因的合成和克隆过程中，使用了BamH I和Hind III两种酶切位点。",
+    "reference_case": "在猪α-干扰素基因的合成和克隆过程中，使用了Sal I和Hind III两种酶切位点。",
+    "error_detail": "错误地修改了酶切位点的名称",
+    "original_question": "猪α-干扰素基因的合成和克隆过程中使用了哪些酶切位点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪α-干扰素基因的成熟肽编码了170个氨基酸。",
+    "reference_case": "猪α-干扰素基因的成熟肽编码了166个氨基酸。",
+    "error_detail": "错误地修改了氨基酸的数量",
+    "original_question": "猪α-干扰素基因的成熟肽编码了多少个氨基酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪α-干扰素的抗病毒活性是通过MDBK-VSV系统测定的，其抗病毒活性不低于10^12 U/0.1 mL。",
+    "reference_case": "猪α-干扰素的抗病毒活性是通过MDBK-VSV系统测定的，其抗病毒活性不低于10^10 U/0.1 mL。",
+    "error_detail": "错误地修改了抗病毒活性的数值",
+    "original_question": "猪α-干扰素的抗病毒活性是如何测定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪α-干扰素基因的复性过程中使用了半胱氨酸、胱氨酸、Tris-HCl、EDTA、精氨酸和甘油等化学物质，以及DTT。",
+    "reference_case": "猪α-干扰素基因的复性过程中使用了半胱氨酸、胱氨酸、Tris-HCl、EDTA、精氨酸和甘油等化学物质。",
+    "error_detail": "添加了不存在的化学物质DTT",
+    "original_question": "猪α-干扰素基因的复性过程中使用了哪些化学物质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪α-干扰素基因的合成和序列测定是由北京天根生化科技有限公司完成的。",
+    "reference_case": "猪α-干扰素基因的合成和序列测定是由宝生物（大连）工程有限公司完成的。",
+    "error_detail": "错误地修改了公司名称",
+    "original_question": "猪α-干扰素基因的合成和序列测定是由哪家公司完成的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪α-干扰素基因在大肠杆菌中表达后，其分子量约为25 ku。",
+    "reference_case": "猪α-干扰素基因在大肠杆菌中表达后，其分子量约为21 ku。",
+    "error_detail": "错误地修改了分子量的数值",
+    "original_question": "猪α-干扰素基因在大肠杆菌中表达后，其分子量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪α-干扰素基因的复性液的抗病毒活性是通过TCID50法计算的。",
+    "reference_case": "猪α-干扰素基因的复性液的抗病毒活性是通过Reed-Muench法计算的。",
+    "error_detail": "错误地修改了计算方法",
+    "original_question": "猪α-干扰素基因的复性液的抗病毒活性是如何计算的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪α-干扰素基因在大肠杆菌中以可溶性蛋白形式表达。",
+    "reference_case": "猪α-干扰素基因在大肠杆菌中以包涵体形式表达。",
+    "error_detail": "错误地修改了表达形式",
+    "original_question": "猪α-干扰素基因在大肠杆菌中的表达形式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "动物科学专业研究生培养模式中加强校企合作的方法包括与全国20多家企业进行技术合作，例如结合“铁岭新希望铝料有限公司”生产需要，开展“发酵豆粕对断奶仔猪生产性能的影响”研究，开发一种新饲料，使研究生既能完成实践训练和学位论文，又能适应未来工作环境。",
+    "reference_case": "动物科学专业研究生培养模式中加强校企合作的方法包括与全国10多家企业进行技术合作，例如结合“铁岭新希望铝料有限公司”生产需要，开展“发酵豆粕对断奶仔猪生产性能的影响”研究，开发一种新饲料，使研究生既能完成实践训练和学位论文，又能适应未来工作环境。",
+    "error_detail": "错误地增加了合作企业的数量",
+    "original_question": "动物科学专业研究生培养模式中如何加强校企合作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "动物来源和环境对大肠杆菌的耐药性有显著影响，例如猪源和鸡源的大肠杆菌比牛源的大肠杆菌具有较高的耐药性和毒力基因，而鸭源的大肠杆菌则具有较低的耐药性。",
+    "reference_case": "动物来源和环境对大肠杆菌的耐药性有显著影响，例如猪源和鸡源的大肠杆菌比牛源的大肠杆菌具有较高的耐药性和毒力基因。",
+    "error_detail": "添加了不存在的鸭源大肠杆菌的信息",
+    "original_question": "动物来源和环境对大肠杆菌的耐药性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的基因分型主要基于S、M、ORF3基因的遗传和进化分析。韩国学者根据部分S基因序列构建的系统发育树将PEDV分为G1、G2、G3三个群，其中G1又分为G1-1、G1-2、G1-3三个亚群。根据S基因全长序列构建的系统发育树则分为G1和G2两个大群，G1和G2又各自分为三个亚群（G1-1、G1-2、G1-3和G2-1、G2-2、G2-3），共六个亚群。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的基因分型主要基于S、M、ORF3基因的遗传和进化分析。韩国学者根据部分S基因序列构建的系统发育树将PEDV分为G1、G2、G3三个群，其中G1又分为G1-1、G1-2、G1-3三个亚群。根据S基因全长序列构建的系统发育树则分为G1和G2两个大群，G1和G2又各自分为两个亚群（G1-1、G1-2和G2-1、G2-2），共四个亚群。",
+    "error_detail": "错误地增加了亚群的数量",
+    "original_question": "猪流行性腹泻病毒（PEDV）的基因分型是如何划分的？",
+    "original_input": ""
+  }
+]

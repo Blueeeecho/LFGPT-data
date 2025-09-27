@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "立即封锁消毒，病猪隔离治疗，防止传染源扩散，使用100%酒精消毒。",
+    "reference_case": "立即封锁消毒，病猪隔离治疗，防止传染源扩散。",
+    "error_detail": "错误地添加了使用100%酒精消毒的细节，这在实际情况中是不可能的，因为100%酒精不适合用于消毒。",
+    "original_question": "猪肺疫的传染源如何控制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "加强饲养管理，提高猪体抵抗力；定期预防注射，使用猪肺疫氢氧化铝菌苗或口服弱毒冻干菌苗；使用中药解瘟散预防，同时注射抗生素。",
+    "reference_case": "加强饲养管理，提高猪体抵抗力；定期预防注射，使用猪肺疫氢氧化铝菌苗或口服弱毒冻干菌苗；使用中药解瘟散预防。",
+    "error_detail": "错误地添加了注射抗生素的细节，这与预防措施不符，且抗生素不应用于预防。",
+    "original_question": "猪肺疫的预防措施包括什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "使乳中含有药物，防止仔猪白痢发生，因为仔猪白痢会导致乳中药物含量增加。",
+    "reference_case": "使乳中含有药物，防止仔猪白痢发生。",
+    "error_detail": "错误地颠倒了因果关系，实际上是通过使乳中含有药物来防止仔猪白痢，而不是仔猪白痢导致乳中药物含量增加。",
+    "original_question": "母猪分娩时给母猪肌肉注射土番素的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "防止仔猪白痢，使用0.5%高钙酸钾溶液。",
+    "reference_case": "防止仔猪白痢。",
+    "error_detail": "错误地改变了高钙酸钾溶液的浓度，正确的浓度应为0.1%。",
+    "original_question": "给仔猪喂0.1%高钙酸钾溶液的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "乳汁浓厚，含脂肪和蛋白高，易引起仔猪消化不良和白痢，因为母猪营养过剩。",
+    "reference_case": "乳汁浓厚，含脂肪和蛋白高，易引起仔猪消化不良和白痢。",
+    "error_detail": "错误地添加了'因为母猪营养过剩'的解释，这与原始输出不符，原始输出并未提及营养过剩。",
+    "original_question": "母猪营养好且肥胖时，会导致什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "给母猪喂轻泻性饲料或内服轻泻性药物，排除肠道内的毒素，同时增加运动量。",
+    "reference_case": "给母猪喂轻泻性饲料或内服轻泻性药物，排除肠道内的毒素。",
+    "error_detail": "错误地添加了增加运动量的建议，这与治疗母猪产后便秘的原始指令不符。",
+    "original_question": "治疗母猪产后的便秘通常采用什么方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "硫酸亚铁5克，硫酸铜2克，溶解于1000毫升清水中，涂于母猪乳头上。",
+    "reference_case": "硫酸亚铁3克，硫酸铜1.5克，溶解于1000毫升清水中，涂于母猪乳头上。",
+    "error_detail": "错误地改变了硫酸亚铁和硫酸铜的用量，正确的用量应为硫酸亚铁3克，硫酸铜1.5克。",
+    "original_question": "治疗仔猪贫血性下痢通常使用什么药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "拉灰色稀便，日久变黄色水状，有气泡和粘液，甚至有时混有血液，这是仔猪消化不良的表现。",
+    "reference_case": "拉灰色稀便，日久变黄色水状，有气泡和粘液，甚至有时混有血液。",
+    "error_detail": "错误地将仔猪异嗜性下痢的表现归因于消化不良，这是不准确的。",
+    "original_question": "仔猪异嗜性下痢的表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "给母猪内服清热解毒剂，仔猪内服黄连素片，同时减少饲料量。",
+    "reference_case": "给母猪内服清热解毒剂，仔猪内服黄连素片。",
+    "error_detail": "错误地添加了减少饲料量的建议，这与原始输出不符。",
+    "original_question": "治疗仔猪受热性下痢通常需要采取什么措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "母猪分娩时给母猪肌肉注射土番素，内服水杨酸钠，喂0.1%高钙酸钾溶液，同时使用抗生素预防。",
+    "reference_case": "母猪分娩时给母猪肌肉注射土番素，内服水杨酸钠，喂0.1%高钙酸钾溶液。",
+    "error_detail": "错误地添加了使用抗生素预防的建议，这与当前的预防措施不符，且抗生素不应用于预防。",
+    "original_question": "预防仔猪白痢的方法有哪些？",
+    "original_input": ""
+  }
+]

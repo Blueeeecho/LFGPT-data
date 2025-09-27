@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "手术部位用酒精或5%的碘酊擦拭干净，然后在腹股沟皮下注射利多卡因麻醉剂至每个睾丸和精索，随后做2cm长切口取出睾丸，出血最少，较大猪建议对精索进行贯穿结扎。",
+    "reference_case": "手术部位用酒精或2%的碘酊擦拭干净，然后在腹股沟皮下注射利多卡因麻醉剂至每个睾丸和精索，随后做1cm长切口取出睾丸，出血最少，较大猪建议对精索进行贯穿结扎。",
+    "error_detail": "修改了消毒剂浓度和切口长度，导致数据型幻觉。",
+    "original_question": "去势手术的具体步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "手术后可使用抗病毒软膏或喷雾剂，通常不需全身使用抗生素，去势猪应放置在保温灯下的产仔篓中逐渐恢复。",
+    "reference_case": "手术后可使用抗菌软膏或喷雾剂，通常不需全身使用抗生素，去势猪应放置在保温灯下的产仔篓中逐渐恢复。",
+    "error_detail": "将抗菌软膏错误地改为抗病毒软膏，导致概念混淆。",
+    "original_question": "去势手术后应如何处理伤口？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "剪犬齿可防止猪损伤母猪乳房或在打斗中损害其他仔猪的眼睛。",
+    "reference_case": "剪犬齿可防止猪损伤母猪乳房或在打斗中损害其他仔猪的皮肤。",
+    "error_detail": "将皮肤错误地改为眼睛，导致概念混淆。",
+    "original_question": "剪犬齿的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "断尾是因为育成猪互相咬尾巴导致的。",
+    "reference_case": "断尾是防止育成猪互相咬尾巴。",
+    "error_detail": "将防止行为错误地表述为结果，导致因果倒置。",
+    "original_question": "断尾的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "常见，发生率为0%-20%，在猪总数中的发生率约为2%，遗传因素影响疝的发生。",
+    "reference_case": "常见，发生率为0%-15.7%，在猪总数中的发生率约为1%，遗传因素影响疝的发生。",
+    "error_detail": "修改了发生率数据，导致数据型幻觉。",
+    "original_question": "腹股沟或阴囊疝在猪中常见吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发生率为0.2%-1.0%，品种和性别不同，脐感染和脐脓肿可导致脐疝。",
+    "reference_case": "发生率为0.4%-1.2%，品种和性别不同，脐感染和脐脓肿可导致脐疝。",
+    "error_detail": "修改了发生率数据，导致数据型幻觉。",
+    "original_question": "脐疝在猪中的发生率为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在全身麻醉状态下切除持久性系带，大多数情况需要结扎，切除后流血不多。手术后应停止配种5-7天。",
+    "reference_case": "在全身麻醉状态下切除持久性系带，大多数情况不需结扎，切除后流血不多。手术后应停止配种7-10天。",
+    "error_detail": "修改了结扎需求和恢复时间，导致时效性幻觉。",
+    "original_question": "持久性系带导致的公猪配种问题如何解决？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪难产最常见的原因是子宫无力、骨盆太小、产道扩张不充分、胎儿和母体比例失衡、胎儿先露异常和产道异常，但这些原因并不常见。",
+    "reference_case": "猪难产最常见的原因是子宫无力、骨盆太小、产道扩张不充分、胎儿和母体比例失衡、胎儿先露异常和产道异常。",
+    "error_detail": "添加了矛盾的陈述，导致逻辑完整性幻觉。",
+    "original_question": "猪难产最常见的原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "进行剖腹产的母猪和后备母猪的死亡率预期比其它种类的动物要高，因为剖腹产手术本身风险高。",
+    "reference_case": "进行剖腹产的母猪和后备母猪的死亡率预期比其它种类的动物要高，因为病猪在被决定进行剖腹产时已承受着巨大的体力消耗、应激和休克。",
+    "error_detail": "错误地归因于手术风险，导致因果倒置。",
+    "original_question": "进行剖腹产的母猪和后备母猪的死亡率预期比其它种类的动物要高，主要原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "母猪剖腹产前必须使其安定，通常通过耳静脉放置静脉导管并进行输液，可加入右旋糖、钙或其他药物以帮助安定，同时需要禁食12小时。",
+    "reference_case": "母猪剖腹产前必须使其安定，通常通过耳静脉放置静脉导管并进行输液，可加入右旋糖、钙或其他药物以帮助安定。",
+    "error_detail": "添加了禁食的假设，导致假设滥用型幻觉。",
+    "original_question": "母猪剖腹产前的准备需要注意哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "头孢赛福对革兰氏阴性菌的抗菌谱较广，但对革兰氏阳性菌的抗菌谱较窄，并且细菌易对其产生耐药性，使其抗革兰氏阳性菌的效力下降。",
+    "reference_case": "头孢赛福对革兰氏阳性菌的抗菌谱较广，但对革兰氏阴性菌的抗菌谱较窄，并且细菌易对其产生耐药性，使其抗革兰氏阴性菌的效力下降。",
+    "error_detail": "混淆了革兰氏阳性菌和阴性菌的描述，导致概念混淆。",
+    "original_question": "头孢赛福氢氯化物悬液用于治疗猪病时，为何会被第一代头孢菌素类药物取代？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "泰妙灵主要用于治疗猪痢疾（S. hyodysenteriae）、霉形体性肺炎和钧端嫘旋体病，对胸膜肺炎放线杆菌和丹毒杆菌敏感，对大肠杆菌、巴氏杆菌和嗜血杆菌等革兰氏阴性菌无效。",
+    "reference_case": "泰妙灵主要用于治疗猪痢疾（S. hyodysenteriae）、霉形体性肺炎和钧端嫘旋体病，对胸膜肺炎放线杆菌和丹毒杆菌敏感，对大肠杆菌、巴氏杆菌和嗜血杆菌等革兰氏阴性菌有效。",
+    "error_detail": "错误地描述了泰妙灵对某些革兰氏阴性菌的效果，导致数据型幻觉。",
+    "original_question": "泰妙灵对哪些病原体有效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "泰妙灵与聚醚类抗生素联用可提高猪的生存率。",
+    "reference_case": "泰妙灵与聚醚类抗生素联用可致猪急性死亡。",
+    "error_detail": "错误地描述了联用的效果，导致因果倒置。",
+    "original_question": "泰妙灵为何不能与聚醚类抗生素联用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "头孢赛福、青霉素、土霉素、泰乐菌素、林可霉素和红霉素都不可用于已断奶猪的非口服给药。",
+    "reference_case": "头孢赛福、青霉素、土霉素、泰乐菌素、林可霉素和红霉素都可用于已断奶猪的非口服给药。",
+    "error_detail": "错误地描述了药物的适用性，导致概念混淆。",
+    "original_question": "哪些药物可以用于已断奶猪的非口服给药？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "庆大霉素和青霉素都可用于3日龄以下小猪的非口服给药。",
+    "reference_case": "庆大霉素可用于3日龄以下小猪的非口服给药。",
+    "error_detail": "添加了不适用药物的假设，导致假设滥用型幻觉。",
+    "original_question": "哪些药物可以用于3日龄以下小猪的非口服给药？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "在更大的猪群中控制和预防疾病，而不是单纯治愈患病的和濒死的动物，以增加利润，但这并不总是可行的。",
+    "reference_case": "在更大的猪群中控制和预防疾病，而不是单纯治愈患病的和濒死的动物，以增加利润。",
+    "error_detail": "添加了矛盾的陈述，导致逻辑完整性幻觉。",
+    "original_question": "疾病控制和预防在养猪业中的主要目标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "通过增加生产成本，减少因疾病带来的兽医服务需求。",
+    "reference_case": "通过疾病控制和预防，减少因疾病带来的生产成本增加。",
+    "error_detail": "错误地描述了因果关系，导致因果倒置。",
+    "original_question": "兽医服务如何帮助养猪业降低成本？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "包括猪肉中药物残留的危险、抗菌素的持续应用导致细菌产生耐药性、消费者要求猪肉没有残留物质等，但这些都不是主要问题。",
+    "reference_case": "包括猪肉中药物残留的危险、抗菌素的持续应用导致细菌产生耐药性、消费者要求猪肉没有残留物质等。",
+    "error_detail": "添加了不相关的假设，导致假设滥用型幻觉。",
+    "original_question": "食品安全问题在养猪业中日益重要，主要体现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "美国农业部制定了控制计划，对屠宰场进行随机抽样监控沙门氏菌，并将猪群按沙门氏菌的流行状况分成三类。",
+    "reference_case": "丹麦农业部制定了控制计划，对屠宰场进行随机抽样监控沙门氏菌，并将猪群按沙门氏菌的流行状况分成三类。",
+    "error_detail": "错误地描述了制定计划的国家，导致空间错位幻觉。",
+    "original_question": "如何通过兽医服务控制猪肉中的沙门氏菌？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同百分位数等级的设施成本/母猪圈均为2500.00美元。",
+    "reference_case": "不同百分位数等级的设施成本/母猪圈均为2200.00美元。",
+    "error_detail": "修改了设施成本数据，导致数据型幻觉。",
+    "original_question": "不同百分位数等级的成本比较表中，设施成本/母猪圈（美元）如何变化？",
+    "original_input": ""
+  }
+]

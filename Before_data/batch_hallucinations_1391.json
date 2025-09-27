@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "通过血液检测法测定饲料中氨基酸在猪回肠末端的消化率。",
+    "reference_case": "通过回肠末端瘘管法测定饲料中氨基酸在猪回肠末端的消化率。",
+    "error_detail": "错误地使用了血液检测法代替了正确的回肠末端瘘管法。",
+    "original_question": "回肠末端内容物氨基酸排出量的测定方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "玉米中赖氨酸的回肠末端消化率为75.3%。",
+    "reference_case": "玉米中赖氨酸的回肠末端消化率为58.1%。",
+    "error_detail": "提供了错误的消化率数据。",
+    "original_question": "猪饲料赖氨酸的回肠末端消化率是多少（以玉米为例）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "妊娠母猪高能日粮过饲会提高其繁殖性能，增加产仔数。",
+    "reference_case": "妊娠母猪高能日粮过饲会导致其体内脂肪大量沉积，影响繁殖功能，常出现死胎、胎儿被吸收或产出弱仔猪。",
+    "error_detail": "错误地认为高能日粮过饲会提高繁殖性能，实际上会降低。",
+    "original_question": "妊娠母猪高能日粮过饲对其繁殖性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "妊娠母猪高能日粮过饲对产后健康无显著影响。",
+    "reference_case": "妊娠母猪高能日粮过饲可能会导致产后食欲不振、采食量减少，引起体质软弱和消瘦，还可能因蹄病和四肢疾病而不适于种用。",
+    "error_detail": "错误地假设高能日粮过饲对产后健康无影响，实际上有负面影响。",
+    "original_question": "妊娠母猪高能日粮过饲对产后健康有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "维生素A缺乏会导致母猪性周期紊乱、流产或产生异常仔猪；公猪则出现性机能增强，精液品质提高。",
+    "reference_case": "维生素A缺乏会导致母猪性周期紊乱、流产或产生异常仔猪（弱胎、死胎或畸形胎等）；公猪则出现性机能衰退，精液品质下降。",
+    "error_detail": "错误地认为维生素A缺乏会提高公猪的性机能和精液品质，实际上会降低。",
+    "original_question": "维生素A缺乏如何影响繁殖机能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "维生素A缺乏会导致仔猪食欲丧失、生长停滞、神经功能紊乱，最后往往因患心脏病而死亡。",
+    "reference_case": "维生素A缺乏会导致仔猪食欲丧失、生长停滞、神经功能紊乱（后肢麻痹、痉挛、行动失调），最后往往因患肺炎而死亡。",
+    "error_detail": "错误地将死亡原因归咎于心脏病，实际上是肺炎。",
+    "original_question": "维生素A缺乏如何影响生长发育？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "维生素A缺乏会导致呼吸道上皮细胞的角化，引起动物特别是成年猪和牛的肺炎。",
+    "reference_case": "维生素A缺乏会导致呼吸道上皮细胞的角化，引起动物特别是仔猪和犊牛的肺炎。",
+    "error_detail": "错误地认为成年猪和牛更容易受影响，实际上是仔猪和犊牛。",
+    "original_question": "维生素A缺乏如何影响呼吸道健康？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "初生仔猪体内铁储备量少，平均每千克体重仅约10mg；生后早期生长率极高，平均每日体内需储留铁10~12mg；母猪乳含铁量低，每日仅能为每头哺乳仔猪提供约0.5mg铁。",
+    "reference_case": "初生仔猪体内铁储备量少，平均每千克体重仅约30mg；生后早期生长率极高，平均每日体内需储留铁6~8mg；母猪乳含铁量低，每日仅能为每头哺乳仔猪提供约1mg铁。",
+    "error_detail": "提供了错误的铁储备量和需求量数据。",
+    "original_question": "初生仔猪为何容易发生缺铁性贫血？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "初生仔猪贫血的症状是：活力充沛、皮肤光滑和红润、被毛柔软，体况随生长而日趋强壮。",
+    "reference_case": "初生仔猪贫血的症状是：虚弱无神、皮肤发皱和苍白、被毛粗硬，体况随生长而日趋瘦弱。病情严重的仔猪可呈现呼吸困难、头肩部轻微肿胀；血红素含量可由每100ml血液8~9g下降到3~4g。",
+    "error_detail": "错误地描述了贫血症状，实际上症状是虚弱和皮肤苍白。",
+    "original_question": "初生仔猪缺铁性贫血的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "分娩前后用铁盐给母猪补铁，可以有效防治仔猪贫血。",
+    "reference_case": "分娩前后用铁盐给母猪补铁，对防治仔猪贫血无效；要防止仔猪贫血，必须及时给初生仔猪补铁。",
+    "error_detail": "错误地认为给母猪补铁可以防治仔猪贫血，实际上无效。",
+    "original_question": "防治初生仔猪缺铁性贫血的措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪缺铜会出现骨骼发育异常，呈现畸形，并且容易发生骨折；初生仔猪十分强壮，并呈现贫血。",
+    "reference_case": "猪缺铜会出现骨骼发育异常，呈现畸形，并且容易发生骨折；初生仔猪十分软弱，并呈现贫血。",
+    "error_detail": "错误地认为缺铜会使初生仔猪强壮，实际上会使其软弱。",
+    "original_question": "猪缺铜会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "大剂量铜(500~750 mg/kg)可促进生长肥育猪的生长和增重，但过量铜剂量(750 mg/kg)则会对生长肥育猪的增重起抑制作用。",
+    "reference_case": "大剂量铜(125~250 mg/kg)可促进生长肥育猪的生长和增重，但过量铜剂量(250 mg/kg)则会对生长肥育猪的增重起抑制作用。",
+    "error_detail": "提供了错误的铜剂量数据。",
+    "original_question": "大剂量铜对生长肥育猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪对过量铜的耐受性最弱；牛的耐受性次之；而绵羊对铜的敏感性强，故对过量铜的耐受力最强。",
+    "reference_case": "猪对过量铜的耐受性最强；牛的耐受性次之；而绵羊对铜的敏感性强，故对过量铜的耐受力最弱。",
+    "error_detail": "错误地认为猪对过量铜的耐受性最弱，绵羊最强，实际上相反。",
+    "original_question": "铜对不同种类动物的耐受性有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "2~3月龄仔猪缺锌时，皮肤会出现红斑，上覆皮屑；继之皮肤变得湿润柔软，并逐渐形成污垢状痞块，尤其头、颈、背、腹侧、臀和腿部最为明显。",
+    "reference_case": "2~3月龄仔猪缺锌时，皮肤会出现红斑，上覆皮屑；继之皮肤变得干燥粗厚，并逐渐形成污垢状痞块，尤其头、颈、背、腹侧、臀和腿部最为明显。",
+    "error_detail": "错误地描述了缺锌时皮肤的变化，实际上皮肤会变得干燥粗厚。",
+    "original_question": "2~3月龄仔猪缺锌会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "Elsley（1977）指出，仔猪补饲锌的适宜定额为饲料风干物质200-300 mg/kg。",
+    "reference_case": "Elsley（1977）指出，仔猪补饲锌的适宜定额为饲料风干物质40-140 mg/kg。",
+    "error_detail": "提供了错误的补饲锌定额数据。",
+    "original_question": "仔猪补饲锌的适宜定额是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "补饲锌（150-200 mg/kg）可提高饲料利用效率，其中以日粮添加200 mg/kg效果最好，仔猪增重提高20.87%，每千克增重饲料消耗量降低10.04%。",
+    "reference_case": "补饲锌（25-100 mg/kg）可提高饲料利用效率，其中以日粮添加75 mg/kg效果最好，仔猪增重提高10.87%，每千克增重饲料消耗量降低5.04%。",
+    "error_detail": "提供了错误的补饲锌剂量和效果数据。",
+    "original_question": "补饲锌对仔猪的生长有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "钴为单胃动物所必需，即使维生素B12能满足需要，猪也会出现缺钴现象。",
+    "reference_case": "迄今尚无充分证据表明钴为单胃动物所必需，只要维生素B12能满足需要，猪就不会出现缺钴现象。",
+    "error_detail": "错误地认为钴为单胃动物所必需，实际上尚无充分证据。",
+    "original_question": "单胃动物对钴的需求如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "动物缺锰的表现有：生长加速、骨骼强壮、繁殖功能增强和幼畜四肢运动协调等。",
+    "reference_case": "生长停滞、骨骼畸形、繁殖功能紊乱和幼畜四肢运动失调等。猪缺锰影响繁殖力，鸡缺锰发生滑腱症，表现为腿骨粗短、关节变形、跟腱脱出致不能直立，严重时可导致死亡。",
+    "error_detail": "错误地描述了缺锰的表现，实际上会导致生长停滞和骨骼畸形。",
+    "original_question": "动物缺锰的表现有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "植物性饲料含锰丰富（100-300 mg/kg），谷实和豆麸含锰较多（100-150 mg/kg），而玉米（10-12 mg/kg）和大麦（15-20 mg/kg）含锰较少。",
+    "reference_case": "植物性饲料含锰丰富（50-200 mg/kg），谷实和豆麸含锰较多（50-80 mg/kg），而玉米（4-6 mg/kg）和大麦（8-10 mg/kg）含锰较少。",
+    "error_detail": "提供了错误的锰含量数据。",
+    "original_question": "饲料中锰的供给来源有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪对氯化钠的最大耐受量为2.0%，牛为泌乳6.0%和非泌乳12.0%，其他动物为5.0%。",
+    "reference_case": "猪对氯化钠的最大耐受量为1.0%，牛为泌乳4.0%和非泌乳9.0%，其他动物为3.0%。",
+    "error_detail": "提供了错误的氯化钠最大耐受量数据。",
+    "original_question": "动物对氯化钠的最大耐受量是多少？",
+    "original_input": ""
+  }
+]

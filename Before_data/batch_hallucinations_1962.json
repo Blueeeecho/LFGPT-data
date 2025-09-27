@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪在1至5千克阶段不能合成足够的脯氨酸来满足需要，需要额外补充0.5%的脯氨酸。",
+    "reference_case": "仔猪在1至5千克阶段不能合成足够的脯氨酸来满足需要。",
+    "error_detail": "添加了不存在的脯氨酸补充比例数据",
+    "original_question": "仔猪对脯氨酸的需要量是因为什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "过量氨基酸会立即导致仔猪的生产性能下降。",
+    "reference_case": "过量氨基酸在一定水平内不会影响仔猪的生产性能，只有在氨基酸严重不平衡时才会影响仔猪的采食量和生长速度。",
+    "error_detail": "错误地认为过量氨基酸会立即影响生产性能",
+    "original_question": "过量氨基酸如何影响仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "必须用总氨基酸含量来配制日粮，以保证仔猪的氨基酸需要。",
+    "reference_case": "必须用有效氨基酸而不是总氨基酸含量来配制日粮，以保证仔猪的氨基酸需要。",
+    "error_detail": "错误地建议使用总氨基酸而非有效氨基酸",
+    "original_question": "如何配制仔猪日粮才能满足其氨基酸需要？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重5至10千克，1.60%；体重10至20千克，1.45%。",
+    "reference_case": "体重5至10千克，1.50%；体重10至20千克，1.35%。",
+    "error_detail": "错误地提高了赖氨酸的需要量",
+    "original_question": "NRC（1998）推荐仔猪赖氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重5至10千克，0.96%；体重10至20千克，0.86%。",
+    "reference_case": "体重5至10千克，0.86%；体重10至20千克，0.76%。",
+    "error_detail": "错误地提高了蛋氨酸十胱氨酸的需要量",
+    "original_question": "NRC（1998）推荐仔猪蛋氨酸十胱氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重5至10千克，1.08%；体重10至20千克，0.96%。",
+    "reference_case": "体重5至10千克，0.98%；体重10至20千克，0.86%。",
+    "error_detail": "错误地提高了苏氨酸的需要量",
+    "original_question": "NRC（1998）推荐仔猪苏氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重5至10千克，0.37%；体重10至20千克，0.34%。",
+    "reference_case": "体重5至10千克，0.27%；体重10至20千克，0.24%。",
+    "error_detail": "错误地提高了色氨酸的需要量",
+    "original_question": "NRC（1998）推荐仔猪色氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "谷氨酰胺是肠细胞的次要能量物质，为蛋白质的合成提供氨基酸。",
+    "reference_case": "谷氨酰胺是肠细胞的主要能量物质，为核苷酸的合成提供氨基酸，维持肠上皮的结构和功能。",
+    "error_detail": "错误地描述了谷氨酰胺的作用",
+    "original_question": "谷氨酰胺在断奶仔猪中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不超过赖氨酸的70%，在10至20千克仔猪日粮中不超过赖氨酸的60%。",
+    "reference_case": "不超过赖氨酸的60%，在10至20千克仔猪日粮中不超过赖氨酸的50%。",
+    "error_detail": "错误地提高了异亮氨酸的需要量比例",
+    "original_question": "断奶仔猪日粮中可消化异亮氨酸的需要量应如何设定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "0.50国际单位/千克。",
+    "reference_case": "0.40国际单位/千克。",
+    "error_detail": "错误地提高了维生素A的推荐需要量",
+    "original_question": "NRC（1998）对16～50千克生长肥育猪维生素A的推荐需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "0.50国际单位/千克。",
+    "reference_case": "0.40国际单位/千克。",
+    "error_detail": "错误地提高了维生素A的推荐需要量",
+    "original_question": "NRC（1998）对51～150千克生长肥育猪维生素A的推荐需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "0.0040国际单位/千克。",
+    "reference_case": "0.0030国际单位/千克。",
+    "error_detail": "错误地提高了维生素D的推荐需要量",
+    "original_question": "NRC（1998）对16～50千克生长肥育猪维生素D的推荐需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "0.0048国际单位/千克。",
+    "reference_case": "0.0038国际单位/千克。",
+    "error_detail": "错误地提高了维生素D的推荐需要量",
+    "original_question": "NRC（1998）对51～150千克生长肥育猪维生素D的推荐需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "9.5国际单位/千克。",
+    "reference_case": "8.5国际单位/千克。",
+    "error_detail": "错误地提高了维生素E的推荐需要量",
+    "original_question": "NRC（1998）对16～50千克生长肥育猪维生素E的推荐需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "12国际单位/千克。",
+    "reference_case": "11国际单位/千克。",
+    "error_detail": "错误地提高了维生素E的推荐需要量",
+    "original_question": "NRC（1998）对51～150千克生长肥育猪维生素E的推荐需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "0.4毫克/千克。",
+    "reference_case": "0.3毫克/千克。",
+    "error_detail": "错误地提高了维生素K的推荐需要量",
+    "original_question": "NRC（1998）对16～50千克生长肥育猪维生素K的推荐需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "0.6毫克/千克。",
+    "reference_case": "0.5毫克/千克。",
+    "error_detail": "错误地提高了维生素K的推荐需要量",
+    "original_question": "NRC（1998）对51～150千克生长肥育猪维生素K的推荐需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2.0毫克/千克。",
+    "reference_case": "1.5毫克/千克。",
+    "error_detail": "错误地提高了维生素B1的推荐需要量",
+    "original_question": "NRC（1998）对16～50千克生长肥育猪维生素B1的推荐需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1.5毫克/千克。",
+    "reference_case": "1.0毫克/千克。",
+    "error_detail": "错误地提高了维生素B1的推荐需要量",
+    "original_question": "NRC（1998）对51～150千克生长肥育猪维生素B1的推荐需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "3.0毫克/千克。",
+    "reference_case": "2.5毫克/千克。",
+    "error_detail": "错误地提高了维生素B2的推荐需要量",
+    "original_question": "NRC（1998）对16～50千克生长肥育猪维生素B2的推荐需要量是多少？",
+    "original_input": ""
+  }
+]

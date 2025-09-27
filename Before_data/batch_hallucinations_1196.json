@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪的喂食时间应尽量避开正午时间，以夜间喂食最佳，一般情况下以早晨3-4时和晚上9-10时为宜。",
+    "reference_case": "哺乳母猪的喂食时间应尽量避开正午时间，以夜间喂食最佳，一般情况下以早晨4-5时和晚上8-9时为宜。",
+    "error_detail": "喂食时间的具体小时数被错误修改。",
+    "original_question": "哺乳母猪的喂食时间应如何调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪分娩时，正常的分娩间隔为20分钟左右。",
+    "reference_case": "母猪分娩时，正常的分娩间隔为30分钟左右。",
+    "error_detail": "分娩间隔时间被错误缩短。",
+    "original_question": "母猪分娩时，正常的分娩间隔是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在母猪产前15天至产后10天，饲料中应添加红花。",
+    "reference_case": "在母猪产前15天至产后10天，饲料中应添加黄花。",
+    "error_detail": "植物名称被错误替换。",
+    "original_question": "在母猪产前和产后，饲料中应添加什么植物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "哺乳母猪采食量下降的主要原因是饲料质量不佳。",
+    "reference_case": "哺乳母猪采食量下降的主要原因是外界环境温度过高。",
+    "error_detail": "采食量下降的原因被错误替换。",
+    "original_question": "哺乳母猪采食量下降的主要原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪在高温下的饮水量大约为20L/天。",
+    "reference_case": "哺乳母猪在高温下的饮水量大约为30L/天。",
+    "error_detail": "饮水量被错误减少。",
+    "original_question": "哺乳母猪在高温下的饮水量大约是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪的摄食料和水的比例为1:2，高温时可达到1:3-1:4。",
+    "reference_case": "哺乳母猪的摄食料和水的比例为1:3，高温时可达到1:4-1:5。",
+    "error_detail": "摄食料和水的比例被错误修改。",
+    "original_question": "哺乳母猪的摄食料和水的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "产后母猪应肌注抗生素1次，肌注催产素促使子宫体收缩和子宫颈口舒张，灌服益母生化散30g/次，连用2天。",
+    "reference_case": "产后母猪应肌注抗生素2-3次，肌注催产素促使子宫体收缩和子宫颈口舒张，灌服益母生化散60g/次，连用3天，使用宫炎净冲洗子宫，并停止当天喂食。",
+    "error_detail": "治疗措施的数量和剂量被错误减少。",
+    "original_question": "产后母猪应如何处理以减少子宫内膜炎的发生？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "应对哺乳母猪采食量下降的措施包括减少饲料中的含水量。",
+    "reference_case": "应对哺乳母猪采食量下降的措施包括更换为哺乳母猪料，增加饲料中的含水量，采用高能量、高蛋白、高氨基酸的饲粮，提高适口性，适当添加复合维生素，保证充足的饮水，及时清理料槽中的剩余料。",
+    "error_detail": "措施与原始建议相反。",
+    "original_question": "如何应对哺乳母猪采食量下降的问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在鸭传染性鼻炎的治疗中，中药的使用方法是将白芷、诃子、猪苓、泽泻、黄苓、桔梗、半夏、生姜、辛夷、葶芹子、甘草等药材煎煮后喂给。",
+    "reference_case": "在鸭传染性鼻炎的治疗中，中药的使用方法是将白芷、诃子、猪苓、泽泻、黄苓、桔梗、半夏、生姜、辛夷、葶芹子、甘草等药材粉为细末，混于饲料中喂给，平均每只鸭4克，连用7天。",
+    "error_detail": "中药的使用方法被错误修改。",
+    "original_question": "鸭传染性鼻炎的治疗中，中药的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "萝卜食盐煎剂治疗仔猪实秘症效果较好，但需要配合其他药物治疗。",
+    "reference_case": "萝卜食盐煎剂治疗仔猪实秘症效果较好，山区农村取材方便，经济实惠，值得推广。",
+    "error_detail": "添加了不必要的假设。",
+    "original_question": "萝卜食盐煎剂治疗仔猪实秘症的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "萝卜去泥洗净、切碎，每头300g，食盐每头5g，混合注入锅内加入适量水，煮沸后，候温1次喂服，1次/天，连续服用1-2天。",
+    "reference_case": "萝卜去泥洗净、切碎，每头350g，食盐每头7g，混合注入锅内加入适量水，煮沸后，候温1次喂服，2次/天，连续服用2-3天，粪稀软后停喂。",
+    "error_detail": "配方和服用频率被错误修改。",
+    "original_question": "萝卜食盐煎剂治疗仔猪实秘症的具体配方是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪实秘症多因肠管机能降低而发病，导致饲喂难以消化的粗硬饲料或突然更换饲料。",
+    "reference_case": "猪实秘症多因饲喂难以消化的粗硬饲料或突然更换饲料，同时饮水、运动不足，致使肠管机能降低而发病。",
+    "error_detail": "因果关系被错误倒置。",
+    "original_question": "猪实秘症的主要原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "做好边远山区农村养猪业科普宣传，逐步转变落后养殖方式，但实秘症的发生无法完全杜绝。",
+    "reference_case": "做好边远山区农村养猪业科普宣传，逐步转变落后养殖方式，可减少或杜绝生猪实秘症的发生。",
+    "error_detail": "原始建议的效果被错误否定。",
+    "original_question": "如何减少或杜绝生猪实秘症的发生？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "加强病猪的运动有助于改善心脏机能。",
+    "reference_case": "加强病猪的运动有助于改善肠管机能，促进消化和排便，从而有助于治疗仔猪实秘症。",
+    "error_detail": "运动的好处被错误描述。",
+    "original_question": "在治疗仔猪实秘症时，为什么需要加强病猪的运动？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "病猪继续喂饲，减少饮水量。",
+    "reference_case": "病猪暂停喂饲，让饮足够的水，加强饲养管理，增强运动。",
+    "error_detail": "护理措施与原始建议相反。",
+    "original_question": "在治疗猪实秘症时，病猪的护理措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "育肥野猪附红细胞体与链球菌混合感染的临床症状包括高温稽留（40:5-41:5℃）。",
+    "reference_case": "育肥野猪附红细胞体与链球菌混合感染的临床症状包括高温稽留（41:5-42:5℃）、呼吸困难、皮肤及可视黏膜苍白、食欲下降或废绝、便秘、尿褐色、鼻漏、尖叫、磨牙、空嚼、步态不稳、后肢摇摆和颈部水肿。",
+    "error_detail": "高温稽留的温度范围被错误降低。",
+    "original_question": "育肥野猪附红细胞体与链球菌混合感染的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "育肥野猪附红细胞体与链球菌混合感染的临床症状包括高温稽留（40:5-41:5°C）。",
+    "reference_case": "育肥野猪附红细胞体与链球菌混合感染的临床症状包括高温稽留（41:5-42:5°C）、呼吸困难、皮肤及可视黏膜苍白、食欲下降或废绝、便秘、尿褐色、鼻漏、尖叫、磨牙、空嚼、步态不稳、后肢摇摆、颈部水肿。",
+    "error_detail": "高温稽留的温度范围被错误降低。",
+    "original_question": "育肥野猪附红细胞体与链球菌混合感染的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "育肥野猪附红细胞体与链球菌混合感染的剖检变化包括血液浓稠、呈深红色。",
+    "reference_case": "育肥野猪附红细胞体与链球菌混合感染的剖检变化包括血液稀薄、呈粉红色；喉部软骨水肿；颈部前下部肌肉组织水肿明显；下领及全身淋巴结有不同程度的肿大，有出血点；心包积液，心内膜有出血斑（点）；肝肿大质脆，色泽杏黄，有出血点；肾有出血点，颜色苍白；脑积液增加，脑膜和脑切面有出血点。",
+    "error_detail": "血液状态被错误描述。",
+    "original_question": "育肥野猪附红细胞体与链球菌混合感染的剖检变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "育肥野猪附红细胞体与链球菌混合感染的实验室检验方法不包括血液检查。",
+    "reference_case": "育肥野猪附红细胞体与链球菌混合感染的实验室检验方法包括血液检查、血液涂片检查、分离培养、组织触片、培养物涂片染色镜检。",
+    "error_detail": "检验方法被错误排除。",
+    "original_question": "育肥野猪附红细胞体与链球菌混合感染的实验室检验方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "育肥野猪附红细胞体与链球菌混合感染的治疗及防控措施不包括隔离病猪。",
+    "reference_case": "育肥野猪附红细胞体与链球菌混合感染的治疗及防控措施包括盐酸多西环素肌肉注射、林可霉素肌肉注射、青霉素和氨基比林肌肉注射、牲血素肌肉注射、猪链球菌多价灭活苗免疫接种、强力消毒灵溶液喷雾消毒猪舍、生石灰消毒粪便、隔离病猪、无害化处理死亡野猪尸体。",
+    "error_detail": "防控措施被错误排除。",
+    "original_question": "育肥野猪附红细胞体与链球菌混合感染的治疗及防控措施有哪些？",
+    "original_input": ""
+  }
+]

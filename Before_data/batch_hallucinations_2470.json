@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "云南省2008-2011年生猪年末存栏量全国排名第3名，出栏第7名。",
+    "reference_case": "云南省2008-2011年生猪年末存栏量全国排名第5名，出栏第9名。",
+    "error_detail": "错误地调整了云南省生猪存栏量和出栏量的全国排名。",
+    "original_question": "云南省2008-2011年生猪存栏量和出栏量在全国的排名如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "云南省2008-2011年饲料工业生产供给量能满足年出栏猪饲料理论总需求的60%。",
+    "reference_case": "云南省2008-2011年饲料工业生产供给量仅能满足年出栏猪饲料理论总需求的47%，意味着有超过50%的出栏猪既没有吃上配合饲料，也没有吃上浓缩饲料。",
+    "error_detail": "错误地提高了饲料工业生产供给量满足需求的比例。",
+    "original_question": "云南省2008-2011年饲料工业生产供给量与饲粮理论需要量的关系如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "红曲霉与中药合生素能够降低仔猪的消化率，并对直肠微生物群落产生负面影响。",
+    "reference_case": "红曲霉与中药合生素能够提高仔猪的消化率，并对直肠微生物群落产生积极影响，促进有益菌的生长。",
+    "error_detail": "错误地描述了红曲霉与中药合生素对仔猪消化率和直肠微生物的影响。",
+    "original_question": "红曲霉与中药合生素对仔猪消化率及直肠微生物的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "丁酸钾对断奶仔猪的生长性能、腹泻率和养分消化率无显著影响。",
+    "reference_case": "丁酸钾对断奶仔猪的生长性能、腹泻率和养分消化率有显著影响，具体表现为改善生长性能、降低腹泻率并提高养分消化率。",
+    "error_detail": "错误地否定了丁酸钾对断奶仔猪的影响。",
+    "original_question": "丁酸钾对断奶仔猪的生长性能、腹泻率和养分消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "刺五加多糖能够显著降低免疫应激仔猪的生长性能。",
+    "reference_case": "刺五加多糖能够改善免疫应激仔猪的生长性能，并对其血液指标产生积极影响，具体表现为提高免疫力和抗氧化能力。",
+    "error_detail": "错误地描述了刺五加多糖对免疫应激仔猪生长性能的影响。",
+    "original_question": "刺五加多糖对免疫应激仔猪的生长和血液指标有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "日粮添加γ-氨基丁酸对母猪及其仔猪的生产性能无影响。",
+    "reference_case": "日粮添加γ-氨基丁酸能够显著提高母猪及其仔猪的生产性能，具体表现为增加仔猪的存活率和生长速度。",
+    "error_detail": "错误地否定了日粮添加γ-氨基丁酸对生产性能的影响。",
+    "original_question": "日粮添加γ-氨基丁酸对母猪及其仔猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "酵母硒对肥育猪的肉品质无显著改善作用。",
+    "reference_case": "酵母硒能够显著改善肥育猪的肉品质，并提高其抗氧化能力，具体表现为增加肌肉中的硒含量和减少氧化应激。",
+    "error_detail": "错误地否定了酵母硒对肥育猪肉品质的改善作用。",
+    "original_question": "酵母硒对肥育猪肉品质及抗氧化能力的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "2014年中国饲料维生素需求的主要预测是生猪整体供需形势将比2013年大幅增长。",
+    "reference_case": "2014年中国饲料维生素需求的主要预测是生猪整体供需形势与2013年比较相似，存出栏保持平稳增长；肉鸡养殖有望走出低谷，饲料需求可能出现恢复性增长。",
+    "error_detail": "错误地预测了2014年中国饲料维生素需求的增长趋势。",
+    "original_question": "2014年中国饲料维生素需求的主要预测是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2014年欧盟28国肉类产量预计将比2013年增长2%。",
+    "reference_case": "2014年欧盟28国肉类产量预计将比2013年增长0:5%，其中牛肉增长0:6%，猪肉增长0:5%，禽肉增长0:7%，牛奶增长1:1%。",
+    "error_detail": "错误地提高了欧盟28国肉类产量的预计增长率。",
+    "original_question": "2014年欧盟28国肉类产量的预计增长情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "刘文峰仅通过临床问题分析了猪群的感染状态。",
+    "reference_case": "刘文峰通过生产性能、临床问题和血清学评估分析了猪群的感染状态。",
+    "error_detail": "错误地简化了刘文峰分析猪群感染状态的方法。",
+    "original_question": "刘文峰通过哪些方法分析了猪群的感染状态？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "2013北京（国际）种猪产业发展研讨会的主要议题是讨论全球种猪产业的市场趋势。",
+    "reference_case": "2013北京（国际）种猪产业发展研讨会的主要议题是集中讨论中国未来种猪产业发展的模式建立和最优效率解决方案。",
+    "error_detail": "错误地描述了研讨会的主要议题。",
+    "original_question": "2013北京（国际）种猪产业发展研讨会的主要议题是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "《赢在效率——提高生猪养殖效率专刊》是由中国农业科学院和《中国畜牧杂志》联合策划的。",
+    "reference_case": "《赢在效率——提高生猪养殖效率专刊》是由北京博亚和讯和《中国畜牧杂志》联合策划的。",
+    "error_detail": "错误地更改了策划机构。",
+    "original_question": "《赢在效率——提高生猪养殖效率专刊》是由哪些机构联合策划的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "Louis Coudray先生认为猪场疾病的主要感染源是饲料。",
+    "reference_case": "Louis Coudray先生认为猪场疾病的主要感染源除动物外，人类也是构成猪场疾病的主要感染源。",
+    "error_detail": "错误地指定了猪场疾病的主要感染源。",
+    "original_question": "法国养猪研究院试验中心主任Louis Coudray先生认为猪场疾病的主要感染源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "易敢峰博士认为提升中国生猪产业效率的核心要素仅包括技术革新。",
+    "reference_case": "易敢峰博士认为提升中国生猪产业效率的核心要素包括稳定的猪源供应、安全的生猪生产、最低的成本控制、质量溯源明晰和高端品牌的提升。",
+    "error_detail": "错误地简化了提升效率的核心要素。",
+    "original_question": "易敢峰博士认为提升中国生猪产业效率的核心要素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在2013北京（国际）种猪产业发展研讨会上，仅美国的生猪养殖产业发展经验被分享。",
+    "reference_case": "在2013北京（国际）种猪产业发展研讨会上，荷兰、加拿大、美国等国家的生猪养殖产业发展经验被分享。",
+    "error_detail": "错误地限制了分享经验的国家范围。",
+    "original_question": "在2013北京（国际）种猪产业发展研讨会上，哪些国家的生猪养殖产业发展经验被分享？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "李喜焕女士提出的'全价值猪'概念仅包括饲料优化和品质保证。",
+    "reference_case": "李喜焕女士提出的'全价值猪'概念包括疾病管理、饲料优化、精准上市和品质保证等方面，并且贯通整个养猪产业。",
+    "error_detail": "错误地简化了'全价值猪'概念的内容。",
+    "original_question": "李喜焕女士提出的'全价值猪'概念包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "京鹏环宇畜牧科技股份有限公司在养猪设施设备标准化方面未取得显著成果。",
+    "reference_case": "京鹏环宇畜牧科技股份有限公司通过'交钥匙'工程在养猪设施设备标准化方面取得了重要成果，提出了'京鵬模式'，即'交钥匙工程'。",
+    "error_detail": "错误地否定了公司在标准化方面的成果。",
+    "original_question": "京鹏环宇畜牧科技股份有限公司在养猪设施设备标准化方面取得了哪些成果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "美国养猪业的发展趋势是向人多地少的地区转移。",
+    "reference_case": "美国养猪业的发展趋势是向人少地多、玉米和大豆生产量大的地区逐步转移，这些地区的生猪日均屠宰量也相应较多。",
+    "error_detail": "错误地描述了美国养猪业的发展趋势。",
+    "original_question": "美国养猪业的发展趋势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "陈摇生博士提到中国种猪产业的主要问题仅包括品种和疾病。",
+    "reference_case": "陈摇生博士提到中国种猪产业的主要问题包括品种、饲养管理、疾病、生产环境设施以及养殖销售方面的问题。",
+    "error_detail": "错误地简化了中国种猪产业的主要问题。",
+    "original_question": "陈摇生博士在会议上提到的中国种猪产业的主要问题有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在饲料加工过程中，粉碎粒度对饲料品质无影响。",
+    "reference_case": "在饲料加工过程中，粉碎粒度过大会影响消化率，粒度过细则会引起猪结肠炎、回肠炎等问题，因此建议乳猪料/教槽料的原料粉碎时应使用1~2mm的筛孔。",
+    "error_detail": "错误地否定了粉碎粒度对饲料品质的影响。",
+    "original_question": "在饲料加工过程中，粉碎粒度对饲料品质有何影响？",
+    "original_input": ""
+  }
+]

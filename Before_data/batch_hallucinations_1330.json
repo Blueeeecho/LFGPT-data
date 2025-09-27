@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "学生需要掌握猪场繁殖计划制订方法；掌握猪的拳握法采精技术；掌握公猪精液的一般检查、密度检查、活力检查、精子畸形率检查；掌握公猪精液稀释液的配制、精液的稀释、保存和输精等技术；掌握母猪的发情鉴定技术；掌握母猪分娩接产技术和假死仔猪的救助技术。此外，还需要掌握猪的飞行训练技术。",
+    "reference_case": "学生需要掌握猪场繁殖计划制订方法；掌握猪的拳握法采精技术；掌握公猪精液的一般检查、密度检查、活力检查、精子畸形率检查；掌握公猪精液稀释液的配制、精液的稀释、保存和输精等技术；掌握母猪的发情鉴定技术；掌握母猪分娩接产技术和假死仔猪的救助技术。",
+    "error_detail": "添加了不相关的技能'猪的飞行训练技术'，属于概念混淆。",
+    "original_question": "猪的繁殖综合技能实训课需要学生掌握哪些技能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "公猪精液质量检查和精液的稀释与保存是基本技能实训课程中已经熟练掌握的内容，此外还包括母猪的飞行训练。",
+    "reference_case": "公猪精液质量检查和精液的稀释与保存是基本技能实训课程中已经熟练掌握的内容。",
+    "error_detail": "错误地添加了'母猪的飞行训练'作为已掌握的内容，属于数据型幻觉。",
+    "original_question": "在猪的繁殖综合技能实训课中，哪些内容是基本技能实训课程中已经熟练掌握的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "取原精液一滴于载玻片上不加盖玻片，在低倍镜下观察其色泽、气味和云雾状。牛羊的精液通常呈乳白色或灰白色，稀薄；猪马的精液无云雾状。色泽和气味正常家畜精液无味或略有腥味。此外，还可以通过尝味道来判断精液质量。",
+    "reference_case": "取原精液一滴于载玻片上不加盖玻片，在低倍镜下观察其色泽、气味和云雾状。牛羊的精液通常呈乳白色或灰白色，稀薄；猪马的精液无云雾状。色泽和气味正常家畜精液无味或略有腥味。",
+    "error_detail": "错误地添加了'尝味道'作为判断精液质量的方法，属于概念混淆。",
+    "original_question": "如何进行公猪精液的一般检查？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "母猪外阴颜色由鲜红色变为深红或暗红，黏液量变少且黏稠，阴道黏膜略呈暗红色且能在食指与大拇指间拉成细丝。这一过程通常在配种后立即开始。",
+    "reference_case": "母猪外阴颜色由鲜红色变为深红或暗红，黏液量变少且黏稠，阴道黏膜略呈暗红色且能在食指与大拇指间拉成细丝。",
+    "error_detail": "错误地描述了发情盛期开始的时间，属于时效性幻觉。",
+    "original_question": "母猪何时进入发情盛期？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪在按压或骑背时表现静立不动并用力支撑，或有向后坐的姿势，同时伴有坚耳、弓背、颤抖等动作。此外，母猪还会唱歌。",
+    "reference_case": "母猪在按压或骑背时表现静立不动并用力支撑，或有向后坐的姿势，同时伴有坚耳、弓背、颤抖等动作。",
+    "error_detail": "错误地添加了'母猪还会唱歌'作为静立反应的典型行为，属于概念混淆。",
+    "original_question": "静立反应的典型行为有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "观察母猪是否接近公猪，用手按压母猪后背或骑背，如有静立反应则表明进入发情期。此外，还可以通过母猪是否愿意跳舞来判断。",
+    "reference_case": "观察母猪是否接近公猪，用手按压母猪后背或骑背，如有静立反应则表明进入发情期。",
+    "error_detail": "错误地添加了'母猪是否愿意跳舞'作为判断发情期的方法，属于假设滥用。",
+    "original_question": "查情员如何区分母猪是否进入发情期？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "试情公猪查情应安排在清早，若人力许可，可分早晚两次进行。最佳时间实际上是午夜。",
+    "reference_case": "试情公猪查情应安排在清早，若人力许可，可分早晚两次进行。",
+    "error_detail": "错误地描述了查情的最佳时间，属于时效性幻觉。",
+    "original_question": "试情公猪查情的最佳时间是何时？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "配种后表现安静，贪睡，食量增加，容易上膘，皮毛光亮紧贴身驱，阴户收缩，腹部扩大。此外，母猪还会表现出对古典音乐的偏好。",
+    "reference_case": "配种后表现安静，贪睡，食量增加，容易上膘，皮毛光亮紧贴身驱，阴户收缩，腹部扩大。",
+    "error_detail": "错误地添加了'对古典音乐的偏好'作为妊娠表现，属于概念混淆。",
+    "original_question": "母猪如何通过行动表现妊娠？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "早晨采母猪尿10 mL，加醋酸使呈酸性，滴碘酒加热，妊娠母猪尿液呈现红色。此外，还可以通过尿液的颜色变化来判断母猪的情绪。",
+    "reference_case": "早晨采母猪尿10 mL，加醋酸使呈酸性，滴碘酒加热，妊娠母猪尿液呈现红色。",
+    "error_detail": "错误地添加了'通过尿液的颜色变化来判断母猪的情绪'，属于概念混淆。",
+    "original_question": "如何通过尿液检测判断母猪是否妊娠？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "配种后18~24天，食欲剧增，腹部逐渐增大，乳头变黑，乳腺隆起。此外，母猪的体重会增加100%。",
+    "reference_case": "配种后18~24天，食欲剧增，腹部逐渐增大，乳头变黑，乳腺隆起。",
+    "error_detail": "错误地描述了体重增加的百分比，属于数据型幻觉。",
+    "original_question": "母猪中期妊娠诊断的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "妊娠70天后能触摸到胎动，80天后腹部显著增大，乳头变粗，乳房隆起。此外，母猪的体温会上升到50°C。",
+    "reference_case": "妊娠70天后能触摸到胎动，80天后腹部显著增大，乳头变粗，乳房隆起。",
+    "error_detail": "错误地描述了体温上升的数值，属于数据型幻觉。",
+    "original_question": "母猪后期妊娠诊断的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "断处用碘酒消毒，若断脐流血不止，可用手指捏住断头片刻。此外，还可以使用巧克力来止血。",
+    "reference_case": "断处用碘酒消毒，若断脐流血不止，可用手指捏住断头片刻。",
+    "error_detail": "错误地添加了'使用巧克力来止血'，属于概念混淆。",
+    "original_question": "仔猪断脐后如何进行消毒处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪正常分娩间歇时间为15分钟一头。实际上，间歇时间可以长达24小时。",
+    "reference_case": "仔猪正常分娩间歇时间为15分钟一头。",
+    "error_detail": "错误地描述了分娩间歇时间，属于数据型幻觉。",
+    "original_question": "仔猪正常分娩间歇时间是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "胎衣一般在全部仔猪产出后10-30分钟开始流出。实际上，胎衣会在产出前就开始流出。",
+    "reference_case": "胎衣一般在全部仔猪产出后10-30分钟开始流出。",
+    "error_detail": "错误地描述了胎衣流出的时间，属于数据型幻觉。",
+    "original_question": "分娩过程中胎衣何时开始流出？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "首先注射人工合成催产素，注射后20-30分钟可产出仔猪。若仍无效，可采用手术掏出。此外，还可以通过播放音乐来帮助分娩。",
+    "reference_case": "首先注射人工合成催产素，注射后20-30分钟可产出仔猪。若仍无效，可采用手术掏出。",
+    "error_detail": "错误地添加了'通过播放音乐来帮助分娩'，属于概念混淆。",
+    "original_question": "难产时如何进行人工助产？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "初乳中含有丰富的抗体和免疫球蛋白，有助于增强仔猪的抗病能力。此外，初乳还可以帮助仔猪学习数学。",
+    "reference_case": "初乳中含有丰富的抗体和免疫球蛋白，有助于增强仔猪的抗病能力。",
+    "error_detail": "错误地添加了'初乳还可以帮助仔猪学习数学'，属于概念混淆。",
+    "original_question": "新生仔猪为什么需要吃初乳？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "进行人工呼吸、提起后腿拍打、用酒精刺激鼻部等方法。此外，还可以通过给仔猪讲故事来唤醒它。",
+    "reference_case": "进行人工呼吸、提起后腿拍打、用酒精刺激鼻部等方法。",
+    "error_detail": "错误地添加了'通过给仔猪讲故事来唤醒它'，属于概念混淆。",
+    "original_question": "如何处理假死仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "剪齿是为了防止仔猪在相互争抢固定乳头过程中伤及面颊及母猪乳头，剪齿可与称重、打耳号同时进行。此外，剪齿还可以提高仔猪的智商。",
+    "reference_case": "剪齿是为了防止仔猪在相互争抢固定乳头过程中伤及面颊及母猪乳头，剪齿可与称重、打耳号同时进行。",
+    "error_detail": "错误地添加了'剪齿还可以提高仔猪的智商'，属于概念混淆。",
+    "original_question": "仔猪断齿的原因及其处理方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "可使用150-250瓦红外灯，吊在距仔猪躺卧处40-50厘米处，保持猪床温度30°C左右。实际上，温度应保持在100°C。",
+    "reference_case": "可使用150-250瓦红外灯，吊在距仔猪躺卧处40-50厘米处，保持猪床温度30°C左右。",
+    "error_detail": "错误地描述了保持的温度，属于数据型幻觉。",
+    "original_question": "保育间如何设置以保持适宜温度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "产后母猪第一次可喂给加盐小麦麸汤，产后2-3天喂料不能过多，应喂一些易消化的稀粥状饲料。此外，还可以喂给母猪咖啡。",
+    "reference_case": "产后母猪第一次可喂给加盐小麦麸汤，产后2-3天喂料不能过多，应喂一些易消化的稀粥状饲料。",
+    "error_detail": "错误地添加了'还可以喂给母猪咖啡'，属于概念混淆。",
+    "original_question": "母猪分娩后第一次应喂什么？",
+    "original_input": ""
+  }
+]

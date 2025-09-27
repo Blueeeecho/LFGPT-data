@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用于2月龄以下猪饲料，用量为20~60 g/t；用于4月龄以下猪饲料，用量为15~25 g/t；用于鸡饲料，用量为10~60 g/t，产蛋期禁用，停药期为7天。",
+    "reference_case": "用于2月龄以下猪饲料，用量为15~50 g/t；用于4月龄以下猪饲料，用量为10~20 g/t；用于鸡饲料，用量为5.0~50 g/t，产蛋期禁用，停药期为7天。",
+    "error_detail": "数值偏差",
+    "original_question": "饲用土霉素的使用范围和用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "洛克沙生主要用作抗病毒剂，主要用于治疗家禽病毒感染，对猪和鸡等有促生长作用，饲料中添加量为50~100g/t，停药期5天。",
+    "reference_case": "洛克沙生主要用作抗菌剂，主要用于治疗家禽细菌感染，对猪和鸡等有促生长作用，饲料中添加量为45~90g/t，停药期5天。",
+    "error_detail": "术语错误",
+    "original_question": "洛克沙生的主要用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "泰乐霉素在4月龄以下猪饲料中的用量为15～60 g/t，2月龄以下猪饲料中的用量为20～60 g/t，鸡饲料中的用量为5～60 g/t，产蛋期禁用，停药期均为5天。",
+    "reference_case": "泰乐霉素在4月龄以下猪饲料中的用量为10～50 g/t，2月龄以下猪饲料中的用量为15～50 g/t，鸡饲料中的用量为4～50 g/t，产蛋期禁用，停药期均为5天。",
+    "error_detail": "数值偏差",
+    "original_question": "猪饲料中添加泰乐霉素的用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "泰乐霉素对猪流感、鸡新城疫、小牛支原体引起的肺炎均有效。",
+    "reference_case": "泰乐霉素对猪痢疾、猪肺炎、猪萎缩性鼻炎，鸡慢性呼吸道病，小牛支原体引起的肺炎均有效。",
+    "error_detail": "术语错误",
+    "original_question": "泰乐霉素对哪些疾病有效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在实验中，五味子油与乙醇按一定摩尔比混合，加入固定化脂肪酶作为催化剂，50℃反应6小时，可促进生长并改进饲料利用率。",
+    "reference_case": "在实验中，五味子油与甲醇按一定摩尔比混合，加入固定化脂肪酶作为催化剂，50℃反应6小时，可促进生长并改进饲料利用率。",
+    "error_detail": "指令偏离",
+    "original_question": "猪饲料中添加不同剂量的五味子油能起到什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "60 kg以上的肉猪添加25 mg/kg, 30～60 kg的猪添加50 mg/kg, 10～30 kg的幼猪添加50～120 mg/kg。",
+    "reference_case": "60 kg以上的肉猪添加22 mg/kg, 30～60 kg的猪添加44 mg/kg, 10～30 kg的幼猪添加44～110 mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "猪饲料中添加不同剂量的五味子油的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "北里霉素碱在干燥状态下相对稳定，加热到100℃8小时有15%被分解。而酒石酸盐在干燥状态下加热到100℃1小时其效价降低到50%，若每毫升含有50mg的水溶液在0℃时保存7d其效价可降至85%以下，在37℃时则降至75%以下。",
+    "reference_case": "北里霉素碱在干燥状态下相对稳定，加热到100℃8小时有10%被分解。而酒石酸盐在干燥状态下加热到100℃1小时其效价降低到40%，若每毫升含有50mg的水溶液在0℃时保存7d其效价可降至90%以下，在37℃时则降至80%以下。",
+    "error_detail": "过时标准",
+    "original_question": "北里霉素的加热稳定性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "野鸡冬季喂养的饲料配方包括小麦",
+    "reference_case": "野鸡冬季喂养的饲料配方包括玉米",
+    "error_detail": "上下文断裂",
+    "original_question": "野鸡冬季喂养的饲料配方是什么？",
+    "original_input": "小麦粉56、饲料酵母8、贝壳粉16、食盐2、复合维生素添加剂2、矿物质预混料8、鱼粉40、熟鱼40、熟猪肉20、白菜48等，除后3种物料外的其余物料分别粉碎，混匀后喂养时添加后3种物料。"
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "90-120日龄幼维山鸡的饲料配方包括熟鱼、熟鸡肉",
+    "reference_case": "90-120日龄幼维山鸡的饲料配方包括熟鱼、熟猪肉",
+    "error_detail": "上下文断裂",
+    "original_question": "幼维山鸡90-120日龄的饲料配方是什么？",
+    "original_input": "熟猪肉10、玉米面98、豆饼33、鱼粉8、贝壳粉6、骨粉4、羽毛粉4、酵母4、食盐1等，可添加适量的维生素和微量元素。"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪饲料中添加量为饲料重的0.8%，其他饲料中添加量根据具体配方有所不同。",
+    "reference_case": "仔猪饲料中添加量为饲料重的0.5%，其他饲料中添加量根据具体配方有所不同。",
+    "error_detail": "数值偏差",
+    "original_question": "猪用维生素-微量元素添加剂的添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "配方为鱼",
+    "reference_case": "配方为肉",
+    "error_detail": "指令偏离",
+    "original_question": "哺乳期狐的饲料配方是什么？",
+    "original_input": "猪油18、维生素添加剂2.6、大豆粉16、玉米面80、葡萄糖4、苜蓿粉8、磷酸氢钙1.4。"
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪配合饲料中，赖氮酸、蛋氨酸十胱氨酸、色氨酸、苏氮酸、rawtypes氨酸、组氨酸、苯丙氨酸、色氨酸十酪氨酸、㽰氨酸、精氨酸的含量分别为",
+    "reference_case": "猪配合饲料中，赖氮酸、蛋氨酸十胱氨酸、色氨酸、苏氮酸、rawtypes氨酸、组氨酸、苯丙氨酸、色氨酸十酪氨酸、㽰氨酸、精氨酸的含量分别为",
+    "error_detail": "逻辑矛盾",
+    "original_question": "猪和鸡配合饲料中氨基酸的理想配合比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪、鸡、牛、羊、鱼类等一般均能通过组织生化合成维生素 D，但这些动物合成维生素 D 的能力不同，有的能满足其需要，有的则不能。",
+    "reference_case": "猪、鸡、牛、羊、鱼类等一般均能通过组织生化合成维生素 C，但这些动物合成维生素 C 的能力不同，有的能满足其需要，有的则不能。",
+    "error_detail": "术语错误",
+    "original_question": "哪些动物可以通过组织生化合成维生素 C？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "硒必须以硒酸钠或亚硒酸钠的形式添加；在鸡、鸭、猪（仔猪除外）、羊、肉牛、奶牛的饲料中必须以硒预混料的形式添加，这种预混料的含硒量不得高于100.8 mg/rb (即220 mg/kg)。",
+    "reference_case": "硒必须以硒酸钠或亚硒酸钠的形式添加；在鸡、鸭、猪（仔猪除外）、羊、肉牛、奶牛的饲料中必须以硒预混料的形式添加，这种预混料的含硒量不得高于90.8 mg/rb (即200 mg/kg)。",
+    "error_detail": "数值偏差",
+    "original_question": "硒在动物饲料中的添加方式有哪些规定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "动物缺碘可导致甲状腺肿大，幼畜生长迟缓，骨架短小成侏儒；母畜则引起肧胎早期死亡，肧胎被吸收，流产，产\"无毛鸡\"，成活率低。高产奶牛产奶需较多的碘，易引起缺磌，造成代谢絮乱，影响泌乳。缺碘奶牛还表现为不排卵，出现软骨病。",
+    "reference_case": "动物缺碘可导致甲状腺肿大，幼畜生长迟缓，骨架短小成侏儒；母畜则引起肧胎早期死亡，肧胎被吸收，流产，产\"无毛猪\"，成活率低。高产奶牛产奶需较多的碘，易引起缺磌，造成代谢絮乱，影响泌乳。缺碘奶牛还表现为不排卵，出现软骨病。",
+    "error_detail": "术语错误",
+    "original_question": "动物缺碘会导致哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪对过量碘的耐受力较牛强，日粮最低中毒量在500~900 mg/L之间。碘过量则猪的生长速度、饲料采食量、血红素浓度和肝中铁含量均会降低。",
+    "reference_case": "猪对过量碘的耐受力较牛强，日粮最低中毒量在400~800 mg/L之间。碘过量则猪的生长速度、饲料采食量、血红素浓度和肝中铁含量均会降低。",
+    "error_detail": "数值偏差",
+    "original_question": "猪对过量碘的耐受力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "因为我国的猪、禽日粮中能量饲料以小麦为主，而小麦中这些微量元素含量不足。",
+    "reference_case": "因为我国的猪、禽日粮中能量饲料以玉米为主，而玉米中这些微量元素含量不足。",
+    "error_detail": "术语错误",
+    "original_question": "我国猪、禽日粮中为何要添加铁、铜、锰、锌等微量元素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "促进生长：哺乳和幼龄猪、肉牛、乳牛 15～60 g/t ，维鸡 15～120 g/t 。提高饲料利用率：鸡 15～25 g/t 。防止哺乳期生产性能下降：猪和牛 60～250 g/t 。",
+    "reference_case": "促进生长：哺乳和幼龄猪、肉牛、乳牛 10～50 g/t ，维鸡 10～100 g/t 。提高饲料利用率：鸡 10～20 g/t 。防止哺乳期生产性能下降：猪和牛 50～200 g/t 。",
+    "error_detail": "数值偏差",
+    "original_question": "金霉素作为饲料添加剂的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "促进生长方面，维鸡、哺乳仔猪、仔猪、哺乳犊牛、幼龄牛 PPG 600 万 IU+KS 20 g/t～PPG 1200 万 IU+KS 35 g/t。",
+    "reference_case": "促进生长方面，维鸡、哺乳仔猪、仔猪、哺乳犊牛、幼龄牛 PPG 500 万 IU+KS 15 g/t～PPG 1000 万 IU+KS 30 g/t。",
+    "error_detail": "数值偏差",
+    "original_question": "硫酸卡那霉素在促进生长方面推荐的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "阿普拉霉素每吨饲料添加量为 90～120 g，用于小于 35 kg 的猪时连喂 21 天，停药期 28 天。",
+    "reference_case": "阿普拉霉素每吨饲料添加量为 80～100 g，用于小于 35 kg 的猪时连喂 21 天，停药期 28 天。",
+    "error_detail": "数值偏差",
+    "original_question": "阿普拉霉素在饲料中的推荐添加量是多少？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "需要进行绝育。",
+    "reference_case": "需要进行阉割。",
+    "error_detail": "将阉割错误地称为绝育，概念混淆。",
+    "original_question": "公母仔猪作育肥用需要进行什么操作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪去势最佳的日龄是7天。",
+    "reference_case": "没有明确的最佳日龄，但要避免日龄过大，以免增加流血和抗生素注射的需求。",
+    "error_detail": "错误地指定了一个具体的日龄，而实际上没有明确的最佳日龄。",
+    "original_question": "仔猪去势最佳的日龄是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "去势后注射抗生素是为了促进伤口愈合。",
+    "reference_case": "如果去势日龄过大，刀口流血较多，需注射抗生素防止感染。",
+    "error_detail": "错误地将注射抗生素的目的描述为促进伤口愈合，而非防止感染。",
+    "original_question": "仔猪去势后需要注射抗生素的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪进行预防接种的最佳时间是45日龄。",
+    "reference_case": "30日龄前后。",
+    "error_detail": "错误地指定了一个不同的日龄作为最佳接种时间。",
+    "original_question": "仔猪进行预防接种的最佳时间是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "新购进的仔猪在预防接种后15天再次注射预防针。",
+    "reference_case": "到家饲养10天后再次注射。",
+    "error_detail": "错误地指定了一个不同的时间间隔。",
+    "original_question": "新购进的仔猪在预防接种后多久再次注射预防针？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "驱虫药物无需粪便检查，直接投喂即可。",
+    "reference_case": "驱虫前进行粪便检查，选择疗效好、毒性低的药物，严格控制剂量，分次投喂，并让猪先饿一段时间。",
+    "error_detail": "错误地忽略了粪便检查的重要性，概念混淆。",
+    "original_question": "驱虫药物有哪些注意事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪重（千克） = 胸围（厘米） × 体长（厘米） ÷ 10000。",
+    "reference_case": "猪重（千克） = 胸围（厘米） × 胸围（厘米） × 体长（厘米） ÷ 15200。",
+    "error_detail": "错误地修改了计算公式，导致数据偏差。",
+    "original_question": "猪的胸围和体长如何计算其体重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪舍环境的控制主要包括温度和湿度。",
+    "reference_case": "温度、湿度、光照、空气新鲜度。",
+    "error_detail": "错误地忽略了光照和空气新鲜度的重要性，概念混淆。",
+    "original_question": "猪舍环境的控制主要包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "60千克以下的猪，18~24℃；60~90千克的猪，16~22℃；90千克以上的猪，14~18℃。",
+    "reference_case": "60千克以下的猪，16~22℃；60~90千克的猪，14~20℃；90千克以上的猪，12~16℃。",
+    "error_detail": "错误地提高了各体重段的临界温度范围。",
+    "original_question": "不同体重的猪适宜的临界温度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "肉猪每千克增重的饲料投入随体重增长而增加。",
+    "reference_case": "肉猪每千克增重的饲料投入随体重增长而减少，到90千克时最低，之后又开始增高。",
+    "error_detail": "错误地描述了饲料投入与体重增长的关系。",
+    "original_question": "肉猪每千克增重的饲料投入随体重如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "适宜的出栏屠宰体重主要取决于市场价格。",
+    "reference_case": "适宜的出栏屠宰体重主要取决于饲料报酬、瘦肉率、增重速度、仔猪成本、屠宰率以及肉质等经济指标。",
+    "error_detail": "错误地将市场价格作为主要决定因素，忽略了其他经济指标。",
+    "original_question": "适宜的出栏屠宰体重主要取决于哪些因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的应激综合征仅与管理上的应激因子有关。",
+    "reference_case": "猪的应激综合征与气候性、病理性的、神经性的、营养性的、体内的、社会性的、管理上的等应激因子有关。",
+    "error_detail": "错误地限制了应激综合征的相关因素范围。",
+    "original_question": "猪的应激综合征与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "青年猪急性心衰竭猝死主要发生在12周龄至8月龄的猪。",
+    "reference_case": "青年猪急性心衰竭猝死主要发生在8周龄至7月龄的猪，特别是在3~5月龄，体重在30~90千克时最多。",
+    "error_detail": "错误地修改了高发年龄段。",
+    "original_question": "青年猪急性心衰竭猝死的高发年龄段是？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PSE肉的发生主要原因是饲料问题。",
+    "reference_case": "PSE肉的发生主要原因是具有一定遗传素质的猪（应激敏感猪）受到各种应激因子刺激而引起。",
+    "error_detail": "错误地将饲料问题作为主要原因，忽略了遗传和应激因素。",
+    "original_question": "PSE肉的发生主要原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "防治PSE肉只需避免宰前各种应激刺激。",
+    "reference_case": "通过氟烷测验，血型和血清酶测定等手段，淘汰应激敏感猪。避免宰前各种应激刺激，禁止高温下长途运输，防止过于拥挤，送至屠宰场不应立即宰杀，要让猪充分休息。宰前禁止追赶、鞭打，宰时最好采用150~180伏电压电麻后放血，不要直接捕捉。",
+    "error_detail": "错误地简化了防治措施，忽略了多种必要步骤。",
+    "original_question": "如何防治PSE肉？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "10～20千克体重时为400克，20～60千克体重时为500克，60～90千克体重时为600克。",
+    "reference_case": "10～20千克体重时为420克，20～60千克体重时为550克，60～90千克体重时为700克。",
+    "error_detail": "错误地降低了各体重段的预期日增重。",
+    "original_question": "瘦肉型生长肥育猪每日每头的预期日增重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "10～20千克体重时为0.80千克，20～60千克体重时为1.50千克，60～90千克体重时为2.50千克。",
+    "reference_case": "10～20千克体重时为0.91千克，20～60千克体重时为1.69千克，60～90千克体重时为2.71千克。",
+    "error_detail": "错误地降低了各体重段的采食风干料重。",
+    "original_question": "瘦肉型生长肥育猪每日每头的采食风干料重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "10～20千克体重时为10.00兆焦，20～60千克体重时为20.00兆焦，60～90千克体重时为30.00兆焦。",
+    "reference_case": "10～20千克体重时为12.59兆焦，20～60千克体重时为21.92兆焦，60～90千克体重时为35.15兆焦。",
+    "error_detail": "错误地降低了各体重段的消化能。",
+    "original_question": "瘦肉型生长肥育猪每日每头的消化能是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "10～20千克体重时为150克，20～60千克体重时为250克，60～90千克体重时为350克。",
+    "reference_case": "10～20千克体重时为173克，20～60千克体重时为270克，60～90千克体重时为379克。",
+    "error_detail": "错误地降低了各体重段的粗蛋白质摄入量。",
+    "original_question": "瘦肉型生长肥育猪每日每头的粗蛋白质摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "10～20千克体重时为6.00克，20～60千克体重时为11.00克，60～90千克体重时为16.00克。",
+    "reference_case": "10～20千克体重时为7.10克，20～60千克体重时为12.70克，60～90千克体重时为17.10克。",
+    "error_detail": "错误地降低了各体重段的赖氨酸摄入量。",
+    "original_question": "瘦肉型生长肥育猪每日每头的赖氨酸摄入量是多少？",
+    "original_input": ""
+  }
+]

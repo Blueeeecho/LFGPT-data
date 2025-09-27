@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "苏钟猪LPL蛋白的信号肽预测结果显示，存在信号肽序列的概率为99:9%，存在信号锚点的概率为1:0%，存在信号肽切割位点的概率为30:0%，表明该蛋白很可能存在信号肽，并且是分泌型蛋白。",
+    "reference_case": "苏钟猪LPL蛋白的信号肽预测结果显示，存在信号肽序列的概率为98:4%，存在信号锚点的概率为0:7%，存在信号肽切割位点的概率为24:8%，表明该蛋白很可能存在信号肽，并且是分泌型蛋白。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "苏钟猪LPL蛋白的信号肽预测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "苏钟猪LPL基因与其他物种的氨基酸同源性从高到低依次为：牛（92:68%）、绵羊（92:47%）、狒狒（91:84%）、黑猩猩（91:42%）、猫（91:42%）、人（91:21%）、狗（91:00%）、马（90:38%）、小鼠（89:33%）、大鼠（88:91%）、原鸡（70:59%）、斑马鱼（55:86%）。",
+    "reference_case": "苏钟猪LPL基因与其他物种的氨基酸同源性从高到低依次为：牛（92:68%）、绵羊（92:47%）、狒狒（91:84%）、黑猩猩（91:42%）、猫（91:42%）、人（91:21%）、狗（91:00%）、马（90:38%）、小鼠（89:33%）、大鼠（88:91%）、原鸡（70:59%）、斑马鱼（55:86%）。",
+    "error_detail": "同源性数据被错误地混淆",
+    "original_question": "苏钟猪LPL基因与其他物种的氨基酸同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "苏钟猪LPL基因的mRNA表达量在公猪背最长肌中的表达量显著高于母猪（P<0:05:，且公猪与母猪间的眼肌面积和瘦肉率性状均差异显著（P<0:01:。",
+    "reference_case": "苏钟猪LPL基因的mRNA表达量在公猪背最长肌中的表达量显著高于母猪（P<0:01:，且公猪与母猪间的眼肌面积和瘦肉率性状均差异显著（P<0:05:。",
+    "error_detail": "P值被错误地交换",
+    "original_question": "苏钟猪LPL基因的mRNA表达量在公猪和母猪之间有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "苏钟猪LPL基因的克隆测序通过PCR产物的回收纯化、连接反应、转化、重组质粒的筛选和测序等步骤进行，最终将合格的菌液送Illumina公司测序。",
+    "reference_case": "苏钟猪LPL基因的克隆测序通过PCR产物的回收纯化、连接反应、转化、重组质粒的筛选和测序等步骤进行，最终将合格的菌液送Invitrogen公司测序。",
+    "error_detail": "测序公司被错误地更改",
+    "original_question": "苏钟猪LPL基因的克隆测序是如何进行的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "苏钟猪LPL基因的mRNA表达量分析使用了实时荧光定量PCR（Real-time PCR）方法和Northern blot方法。",
+    "reference_case": "苏钟猪LPL基因的mRNA表达量分析使用了实时荧光定量PCR（Real-time PCR）方法。",
+    "error_detail": "添加了未提及的Northern blot方法",
+    "original_question": "苏钟猪LPL基因的mRNA表达量分析使用了哪种方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "苏钟猪LPL基因的mRNA表达量分析中使用的内参基因是β-actin。",
+    "reference_case": "苏钟猪LPL基因的mRNA表达量分析中使用的内参基因是GAPDH。",
+    "error_detail": "内参基因被错误地更改",
+    "original_question": "苏钟猪LPL基因的mRNA表达量分析中使用的内参基因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪卵巢卵泡颗粒细胞的体外培养中，CART对FSH诱导的雌激素产生有显著抑制作用。特别是在FSH浓度为25和50 ng·mL⁻¹时，随着CART浓度的升高，雌激素浓度显著下降。",
+    "reference_case": "在猪卵巢卵泡颗粒细胞的体外培养中，CART对FSH诱导的雌激素产生有抑制作用，但抑制效果并不显著。特别是在FSH浓度为25和50 ng·mL⁻¹时，随着CART浓度的升高，雌激素浓度有下降的趋势，但各组间差异不显著。",
+    "error_detail": "抑制效果被夸大",
+    "original_question": "可卡因-苯丙胺调控转录肽（CART）对猪卵巢卵泡颗粒细胞雌激素产生的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "FSH对猪卵巢卵泡颗粒细胞的增殖和雌激素的产生有抑制作用。在体外培养中，随着FSH浓度的增加，颗粒细胞的密度和雌激素的浓度显著减少。",
+    "reference_case": "FSH对猪卵巢卵泡颗粒细胞的增殖和雌激素的产生有促进作用。在体外培养中，随着FSH浓度的增加，颗粒细胞的密度和雌激素的浓度也显著增加，特别是在FSH浓度为25 ng·mL⁻¹时，雌激素浓度达到最高。",
+    "error_detail": "因果关系被错误地倒置",
+    "original_question": "促卵泡素（FSH）在猪卵巢卵泡颗粒细胞中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "统计分析显示，FSH和CART的交互作用显著（P<0:05:，表明两者在猪卵巢卵泡颗粒细胞的雌激素产生中有显著的协同或拮抗作用。",
+    "reference_case": "统计分析显示，FSH和CART的交互作用不显著（P>0:05:，表明两者在猪卵巢卵泡颗粒细胞的雌激素产生中没有显著的协同或拮抗作用。",
+    "error_detail": "交互作用的显著性被错误地更改",
+    "original_question": "在猪卵巢卵泡颗粒细胞的体外培养中，CART和FSH的交互作用如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "实验采用Short-term培养方法，在37°C、5% CO₂、饱和湿度的条件下，使用DMEM培养液培养颗粒细胞3天，每24小时换液一次，并在培养第3天用DPBS胰蛋白酶消化后进行细胞计数和激素测定。",
+    "reference_case": "实验采用Long-term培养方法，在37°C、5% CO₂、饱和湿度的条件下，使用MEM-α培养液培养颗粒细胞7天，每48小时换液一次，并在培养第7天用DPBS胰蛋白酶消化后进行细胞计数和激素测定。",
+    "error_detail": "培养方法和条件被错误地更改",
+    "original_question": "猪卵巢卵泡颗粒细胞体外培养的实验方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "雌激素浓度采用单抗体夹心ABC-ELISA法测定，使用雌二醇放射免疫测定试剂盒进行测定，并通过标准曲线计算雌激素浓度。",
+    "reference_case": "雌激素浓度采用双抗体夹心ABC-ELISA法测定，使用雌二醇放射免疫测定试剂盒进行测定，并通过标准曲线计算雌激素浓度。",
+    "error_detail": "测定方法被错误地更改",
+    "original_question": "在猪卵巢卵泡颗粒细胞的体外培养中，雌激素浓度的测定方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在FSH浓度为0 ng·mL⁻¹时，CART对猪卵巢卵泡颗粒细胞的增殖有明显促进作用。然而，在FSH浓度为25 ng·mL⁻¹时，CART浓度为0:1和1 μmol·L⁻¹时，颗粒细胞的增殖受到明显促进。",
+    "reference_case": "在FSH浓度为0 ng·mL⁻¹时，CART对猪卵巢卵泡颗粒细胞的增殖没有明显影响。然而，在FSH浓度为25 ng·mL⁻¹时，CART浓度为0:1和1 μmol·L⁻¹时，颗粒细胞的增殖受到明显抑制。",
+    "error_detail": "CART的作用被错误地反转",
+    "original_question": "猪卵巢卵泡颗粒细胞体外培养168小时后，CART对细胞增殖的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在CART浓度为0 μmol·L⁻¹时，随着FSH浓度的增加，猪卵巢卵泡颗粒细胞的密度显著减少，特别是在FSH浓度为25和50 ng·mL⁻¹时，颗粒细胞大量减少形成分散的细胞群。",
+    "reference_case": "在CART浓度为0 μmol·L⁻¹时，随着FSH浓度的增加，猪卵巢卵泡颗粒细胞的密度显著增加，特别是在FSH浓度为25和50 ng·mL⁻¹时，颗粒细胞大量聚集形成成串的细胞群。",
+    "error_detail": "FSH的作用被错误地反转",
+    "original_question": "猪卵巢卵泡颗粒细胞体外培养168小时后，FSH对细胞增殖的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在FSH浓度为25 ng·mL⁻¹时，雌激素浓度达到最低（10000:00 ± 100:00 pg·mL⁻¹）。随着CART浓度的增加，雌激素浓度有上升的趋势，但各组间差异不显著。",
+    "reference_case": "在FSH浓度为25 ng·mL⁻¹时，雌激素浓度达到最高（17295:57 ± 184:03 pg·mL⁻¹）。随着CART浓度的增加，雌激素浓度有下降的趋势，但各组间差异不显著。",
+    "error_detail": "雌激素浓度的趋势被错误地反转",
+    "original_question": "猪卵巢卵泡颗粒细胞体外培养168小时后，雌激素浓度的变化趋势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在FSH浓度为25 ng·mL⁻¹时，CART浓度为0:1和1 μmol·L⁻¹时，与对照组相比，颗粒细胞雌激素的产生明显受到促进（P<0:05:，但整体上CART的促进效果并不显著。",
+    "reference_case": "在FSH浓度为25 ng·mL⁻¹时，CART浓度为0:1和1 μmol·L⁻¹时，与对照组相比，颗粒细胞雌激素的产生明显受到抑制（P<0:05:，但整体上CART的抑制效果并不显著。",
+    "error_detail": "CART的作用被错误地反转",
+    "original_question": "猪卵巢卵泡颗粒细胞体外培养168小时后，CART对FSH诱导的雌激素产生的抑制作用是否显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "统计分析显示，FSH的主效应不显著（P>0:05:，CART的主效应不显著（P>0:05:，表明FSH和CART在猪卵巢卵泡颗粒细胞的雌激素产生中各自没有显著影响，但两者的交互作用显著。",
+    "reference_case": "统计分析显示，FSH的主效应极显著（P<0:01:，CART的主效应显著（P<0:05:，表明FSH和CART在猪卵巢卵泡颗粒细胞的雌激素产生中各自有显著影响，但两者的交互作用不显著。",
+    "error_detail": "主效应和交互作用的显著性被错误地更改",
+    "original_question": "猪卵巢卵泡颗粒细胞体外培养168小时后，FSH和CART的主效应如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "鲁中地区猪高热性疾病的主要病原是猪流感病毒（SIV）、猪伪狂犬病病毒（PRV）和猪细小病毒（PPV:。",
+    "reference_case": "鲁中地区猪高热性疾病的主要病原是猪瘟病毒（CSFV）、猪繁殖与呼吸综合征病毒（PRRSV）和猪圆环病毒2型（PCV2:。",
+    "error_detail": "病原被错误地更改",
+    "original_question": "鲁中地区猪高热性疾病的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁中地区猪高热性疾病的病理变化主要包括淋巴组织急性炎症、间质性肺炎和病毒性脑炎，其病变率分别为80:0%、60:0%和50:0%。",
+    "reference_case": "鲁中地区猪高热性疾病的病理变化主要包括淋巴组织急性炎症、间质性肺炎和病毒性脑炎，其病变率分别为92:3%、76:1%和66:1%。",
+    "error_detail": "病变率被错误地降低",
+    "original_question": "鲁中地区猪高热性疾病的病理变化主要包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁中地区猪高热性疾病中，CSFV、PRRSV和PCV2的病原检出率分别为20:00%、50:00%和30:00%。",
+    "reference_case": "鲁中地区猪高热性疾病中，CSFV、PRRSV和PCV2的病原检出率分别为30:27%、66:97%和41:28%。",
+    "error_detail": "检出率被错误地降低",
+    "original_question": "鲁中地区猪高热性疾病中，CSFV、PRRSV和PCV2的病原检出率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁中地区猪高热性疾病中，CSFV与PRRSV、CSFV与PCV2、PRRSV与PCV2的二重感染检出率分别为10:00%、5:00%和20:00%。",
+    "reference_case": "鲁中地区猪高热性疾病中，CSFV与PRRSV、CSFV与PCV2、PRRSV与PCV2的二重感染检出率分别为16:51%、6:42%和28:44%。",
+    "error_detail": "二重感染检出率被错误地降低",
+    "original_question": "鲁中地区猪高热性疾病中，CSFV与PRRSV、CSFV与PCV2、PRRSV与PCV2的二重感染检出率分别是多少？",
+    "original_input": ""
+  }
+]

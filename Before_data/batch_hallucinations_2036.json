@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "1998年，Hofmann等首次在培养基中含胰酶的Vero细胞上成功繁殖了PEDV，并认为胰酶对PEDV纤突糖蛋白切割作用增强了病毒对Vero细胞的感染力。",
+    "reference_case": "1988年，Hofmann等首次在培养基中含胰酶的Vero细胞上成功繁殖了PEDV，并认为胰酶对PEDV纤突糖蛋白切割作用增强了病毒对Vero细胞的感染力。",
+    "error_detail": "错误地修改了年份，从1988年到1998年。",
+    "original_question": "猪流行性腹泻病毒在Vero细胞上如何繁殖？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒会引起以腹泻、呕吐、脱水和对哺乳仔猪高致死率为特征的高度接触性呼吸道传染病。",
+    "reference_case": "猪流行性腹泻病毒会引起以腹泻、呕吐、脱水和对哺乳仔猪高致死率为特征的高度接触性肠道传染病。",
+    "error_detail": "错误地将肠道传染病改为呼吸道传染病。",
+    "original_question": "猪流行性腹泻病毒的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "各种年龄的猪均可发病，哺乳仔猪受害最严重，平均致死率为80%。",
+    "reference_case": "各种年龄的猪均可发病，哺乳仔猪受害最严重，平均致死率为50%。",
+    "error_detail": "错误地修改了致死率，从50%到80%。",
+    "original_question": "猪流行性腹泻病毒在不同年龄猪的致死率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "病毒分离：采取病料如病变的肝脏组织经过无菌处理，接种Vero或Vero-E6细胞进行传代培养，观察细胞病变。",
+    "reference_case": "病毒分离：采取病料如病变的小肠组织经过无菌处理，接种Vero或Vero-E6细胞进行传代培养，观察细胞病变。",
+    "error_detail": "错误地将小肠组织改为肝脏组织。",
+    "original_question": "猪流行性腹泻病毒如何诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PEDV的病史初步诊断依据为死亡率、传播速度以及与PRRS的区别。",
+    "reference_case": "PEDV的病史初步诊断依据为死亡率、传播速度以及与TGE的区别。",
+    "error_detail": "错误地将TGE改为PRRS。",
+    "original_question": "猪冠状病毒（PEDV）的病史初步诊断依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "感染症状包括呕吐、厌食、腹泻、进行性消瘦，某些病例迅速发展为致死性的脑脊髓炎。",
+    "reference_case": "感染症状包括呕吐、厌食、便秘、进行性消瘦，某些病例迅速发展为致死性的脑脊髓炎。",
+    "error_detail": "错误地将便秘改为腹泻。",
+    "original_question": "猪凝血性脑脊髓炎病毒（HEV）的感染症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "BCoV的病毒粒子具有核衣壳蛋白（N）、整体膜糖蛋白（M）、囊膜纤突糖蛋白（S）和血凝酯酶糖蛋白（HE）五种主要结构蛋白。",
+    "reference_case": "BCoV的病毒粒子具有核衣壳蛋白（N）、整体膜糖蛋白（M）、囊膜纤突糖蛋白（S）和血凝酯酶糖蛋白（HE）四种主要结构蛋白。",
+    "error_detail": "错误地增加了主要结构蛋白的数量，从四种到五种。",
+    "original_question": "猪冠状病毒（BCoV）的病毒粒子具有哪些主要结构蛋白？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "CCV只有2个血清型，但在细胞分离培养中，抗原性存在差异。经免疫荧光试验证明，CCV可与猫传染性腹膜炎病毒（FIPV）、猪传染性胃肠炎病毒（TGEV）的抗血清发生反应，认为与FIPV、TGEV有部分共同抗原，而不同于同科的其他成员。",
+    "reference_case": "CCV只有1个血清型，但在细胞分离培养中，抗原性存在差异。经免疫荧光试验证明，CCV可与猫传染性腹膜炎病毒（FIPV）、猪传染性胃肠炎病毒（TGEV）的抗血清发生反应，认为与FIPV、TGEV有部分共同抗原，而不同于同科的其他成员。",
+    "error_detail": "错误地修改了血清型的数量，从1个到2个。",
+    "original_question": "3. CCV有哪些抗原特性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒主要感染牛。",
+    "reference_case": "猪繁殖与呼吸综合征病毒主要感染猪。",
+    "error_detail": "错误地将猪改为牛。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）主要感染哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒是一种有囊膜的RNA病毒，病毒粒子为球形，直径55-65nm，核衣壳直径30-60nm，周围为脂质双层膜。基因组大小为18088个碱基，在正链上有8个开放编码框架，可编码病毒特异性蛋白。",
+    "reference_case": "猪繁殖与呼吸综合征病毒是一种有囊膜的RNA病毒，病毒粒子为球形，直径45-55nm，核衣壳直径30-60nm，周围为脂质双层膜。基因组大小为18088个碱基，在正链上有8个开放编码框架，可编码病毒特异性蛋白。",
+    "error_detail": "错误地修改了病毒粒子的直径，从45-55nm到55-65nm。",
+    "original_question": "猪繁殖与呼吸综合征病毒的生化特性和形态特点是什么？",
+    "original_input": ""
+  }
+]

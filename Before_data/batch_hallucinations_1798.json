@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "狂犬病病猪表现出极度兴奋，会飞起来攻击人畜，最终在一天内死亡。",
+    "reference_case": "狂犬病病猪兴奋不安，横冲直撞，叫声嘶哑，流涎，反复用鼻掘地，攻击人畜，发作间歇期常钻入垫草中，稍有声响立即跃起，无目的地乱跑，最终常发生麻痹症状，经2-4天死亡。",
+    "error_detail": "错误地描述了狂犬病病猪的症状和死亡时间，增加了不存在的飞行攻击行为。",
+    "original_question": "狂犬病病猪表现出怎样的症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "病猪感染多杀性巴氏杆菌后，体温会升高到50°C，立即死亡。",
+    "reference_case": "最急性型病猪晚间还正常吃食，次日清晨即已死亡，常看不到表现症状；急性型病猪体温升高到 41°C ~ 42°C，食欲废绝，全身衰弱，卧地不起，呼吸困难，呈犬坐姿，口鼻流出泡沫；慢性型病猪持续有咳嗽，呼吸困难，鼻流少量黏液，有时出现关节肿胀，消瘦，腹泻。",
+    "error_detail": "错误地提高了病猪的体温和改变了死亡时间。",
+    "original_question": "病猪感染多杀性巴氏杆菌后会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "防治猪肺疫的主要措施是给猪注射疫苗，无需其他管理措施。",
+    "reference_case": "防治猪肺疫应增强机体的抗病力，加强饲养管理，消除可能降低抗病能力因素和致病诱因，如改善圈舍拥挤、通风采光差、潮湿、受寒条件等；定期消毒；新引进猪隔离观察一个月后确认健康方可合群；进行预防接种。",
+    "error_detail": "忽略了加强饲养管理和定期消毒等其他重要措施。",
+    "original_question": "防治猪肺疫的主要措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "诊断猪传染性萎缩性鼻炎主要依据猪的体重变化。",
+    "reference_case": "主要依据鼻甲骨（特别是下卷曲）萎缩、颜面部变形、慢性鼻炎等症状，必要时进行细菌分离与鉴定。",
+    "error_detail": "错误地将体重变化作为诊断依据，忽略了实际的症状和细菌分离与鉴定。",
+    "original_question": "诊断猪传染性萎缩性鼻炎主要依据什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "防治猪传染性萎缩性鼻炎时，只能使用青霉素一种药物。",
+    "reference_case": "可以使用呋喃唑酮（痢特灵）、磺胺类药物、抗菌增效剂与磺胺类药物混合使用或与抗生素合用等方法。",
+    "error_detail": "错误地限制了治疗方法，忽略了其他有效的药物选择。",
+    "original_question": "防治猪传染性萎缩性鼻炎时，常用的治疗方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪传染性萎缩性鼻炎的病原是流感病毒。",
+    "reference_case": "主要病原是支气管败血波氏杆菌的I相菌，其次是产毒素的多杀性巴氏杆菌（主要是D型）。",
+    "error_detail": "错误地识别了病原体，混淆了病毒和细菌。",
+    "original_question": "猪传染性萎缩性鼻炎的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪传染性萎缩性鼻炎对所有年龄的猪影响相同，都会发生鼻甲骨萎缩。",
+    "reference_case": "出生后几天至几周的仔猪感染后可能发生鼻甲骨萎缩，较大的猪可能只发生卡他性鼻炎和咽炎，成猪感染后成为带菌者。",
+    "error_detail": "错误地统一了不同年龄猪的影响，忽略了年龄差异带来的不同症状。",
+    "original_question": "猪传染性萎缩性鼻炎对不同年龄的猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "确诊猪传染性萎缩性鼻炎只需观察猪的外观即可。",
+    "reference_case": "通过实验室检查，如细菌分离培养和凝集试验。",
+    "error_detail": "忽略了实验室检查的必要性，错误地简化了诊断过程。",
+    "original_question": "如何确诊猪传染性萎缩性鼻炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "预防猪传染性萎缩性鼻炎的措施包括给猪喂食特殊的水果。",
+    "reference_case": "不从疫区引进猪只，对已染病的猪场分小群饲养，严格检疫，及时清除感染猪，接种灭活菌苗。",
+    "error_detail": "添加了不相关的预防措施，缺乏科学依据。",
+    "original_question": "预防猪传染性萎缩性鼻炎的措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "治疗猪传染性萎缩性鼻炎时，用药剂量无需严格控制，持续时间随意。",
+    "reference_case": "通常对母猪（从产前1个月开始）、断奶猪和架子猪通过拌料给药：磺胺二甲嘧啶100克/吨，青霉素50克/吨，或土霉素450克/吨，均连喂4-5周。对乳猪，从2日龄开始每隔1周肌肉注射1次增效磺胺，或每周肌肉注射1次长效土霉素，均连用3次。",
+    "error_detail": "错误地忽略了用药剂量和持续时间的严格要求。",
+    "original_question": "治疗猪传染性萎缩性鼻炎时，用药剂量和持续时间有何要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪传染性胃肠炎的主要症状是猪会变得异常安静，不表现出任何不适。",
+    "reference_case": "仔猪的典型症状是突然呕吐，接着出现水样腹泻，粪水呈黄色、淡绿或发白色。病猪迅速脱水，体重下降，精神萎靡，背毛粗乱无光，吃奶减少或停止吃奶，战栗、口渴、消瘦，于2至5天内死亡，一周龄以下的哺乳仔猪死亡率达50%至100%。",
+    "error_detail": "完全错误地描述了症状，与实际情况相反。",
+    "original_question": "猪传染性胃肠炎的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪传染性胃肠炎病毒主要通过空气传播。",
+    "reference_case": "猪传染性胃肠炎病毒主要通过猪的直接接触传播，母猪乳汁排毒并通过乳汁传播给哺乳仔猪，也可通过呼吸道传播，粪便排毒并通过口、鼻感染传播。",
+    "error_detail": "错误地强调了空气传播，忽略了主要的传播途径。",
+    "original_question": "猪传染性胃肠炎的病原体主要通过哪些途径传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "病后康复猪可排毒长达一年。",
+    "reference_case": "病后康复猪可排毒长达8周，是发病猪场的主要传染源。",
+    "error_detail": "错误地延长了排毒时间。",
+    "original_question": "病后康复猪可排毒多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪流行性腹泻与猪传染性胃肠炎在病原体上完全相同。",
+    "reference_case": "猪流行性腹泻和猪传染性胃肠炎的临床症状和病理变化极为相似，但病死率稍低，传播速度较慢，猪流行性腹泻发生于寒冷季节，各种年龄都可感染，年龄越小发病率和病死率越高，病猪呕吐、水样腹泻和严重脱水，需依靠实验室诊断进一步确诊。",
+    "error_detail": "错误地认为两种疾病的病原体相同，忽略了它们之间的差异。",
+    "original_question": "猪流行性腹泻与猪传染性胃肠炎在哪些方面存在差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "防治猪传染性胃肠炎的唯一措施是给猪注射疫苗。",
+    "reference_case": "停食或减食，多给清洁水或易消化饲料，小猪进行补液、给口服补液盐等措施，有良好作用；规模猪场可对未分娩母猪及年龄较大猪进行人工感染，试用猪传染性胃肠炎弱毒苗预防。",
+    "error_detail": "忽略了其他重要的防治措施，如补液和调整饲料。",
+    "original_question": "猪传染性胃肠炎的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "伪狂犬病的主要传染源是鸟类。",
+    "reference_case": "病猪、带毒猪及带毒鼠类是伪狂犬病的主要传染源。",
+    "error_detail": "错误地识别了传染源，忽略了实际的病猪和鼠类。",
+    "original_question": "伪狂犬病的主要传染源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "伪狂犬病主要通过水源传播。",
+    "reference_case": "伪狂犬病主要通过直接或间接接触传播，还可经呼吸道黏膜、破损的皮肤和饲料等发生感染。妊娠母猪感染本病可经胎盘侵害胎儿，泌乳母猪感染本病的1周左右，乳汁中有病毒出现，可持续3-5天，此时仔猪可因哺乳而感染本病。",
+    "error_detail": "错误地强调了水源传播，忽略了主要的传播途径。",
+    "original_question": "伪狂犬病的主要传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "伪狂犬病对所有年龄的猪影响相同，病死率均为100%。",
+    "reference_case": "伪狂犬病对初生仔猪引起神经症状，出现运动失调，麻痹，衰竭死亡，病死率100%；对2周龄以内哺乳仔猪病初发热，呕吐、下痢、厌食、精神不振，呼吸困难，共济失调，最后衰竭而死亡；3-4周龄猪主要症状同上，病程略长，多便秘，病死率可达40%-60%；2月龄以上猪症状轻微或隐性感染。",
+    "error_detail": "错误地统一了所有年龄猪的病死率，忽略了年龄差异带来的不同影响。",
+    "original_question": "伪狂犬病有哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "伪狂犬病的防治只需进行灭鼠措施，无需其他措施。",
+    "reference_case": "本病无特效治疗药物，可注射猪伪狂犬病高免血清，配合黄芪多糖中药制剂治疗；对新引进的猪进行严格检疫，检出阳性猪注射疫苗，不可作种用；种猪定期进行灭活苗免疫，育肥猪或断奶猪应在2-4月龄时使用活苗或灭活苗免疫；猪场进行定期严格消毒，最好使用2%的氢氧化钠溶液或酚类消毒剂；进行严格的灭鼠措施，消灭鼠类带毒传播疾病的危险。",
+    "error_detail": "忽略了疫苗接种、严格检疫和消毒等其他重要防治措施。",
+    "original_question": "伪狂犬病如何防治？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪水疱病的主要病原是细菌。",
+    "reference_case": "猪水疱病病毒，属于小核糖核酸病毒科肠道病毒属，病毒粒子是球形，由裸露的20面体对称的衣壳和含有单股RNA的核心组成。",
+    "error_detail": "错误地识别了病原体，混淆了病毒和细菌。",
+    "original_question": "猪水疱病的主要病原是什么？",
+    "original_input": ""
+  }
+]

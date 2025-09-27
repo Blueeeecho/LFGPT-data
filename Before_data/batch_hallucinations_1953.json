@@ -1,0 +1,209 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "随着日龄的增长，到20~30日龄时，盐酸分泌增加，胃蛋白酶开始表现出消化能力，仔猪才能利用多种饲料，但直到1.5~2月龄盐酸浓度才接近成年猪水平。",
+    "reference_case": "随着日龄的增长，到30~40日龄时，盐酸分泌增加，胃蛋白酶开始表现出消化能力，仔猪才能利用多种饲料，但直到2.5~3月龄盐酸浓度才接近成年猪水平。",
+    "error_detail": "数值偏差",
+    "original_question": "胃蛋白酶在仔猪消化中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳仔猪消化机能不完善，食物通过消化道速度较快，15日龄时为1小时，30日龄时为2~4小时，60日龄时为14~17小时。",
+    "reference_case": "哺乳仔猪消化机能不完善，食物通过消化道速度较快，15日龄时为1.5小时，30日龄时为3~5小时，60日龄时为16~19小时。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪消化道食物通过速度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "初乳中含有较多钙盐，具有轻泻性，初乳的酸度较高。",
+    "reference_case": "初乳中含有较多镁盐，具有轻泻性，初乳的酸度较高。",
+    "error_detail": "术语错误",
+    "original_question": "泛酸等含量均高于常乳，初乳中含有较多镁盐，具有轻泻性，初乳的酸度较高。",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "仔猪出生后需要经历从原来在母体内靠胎盘进行气体交换、摄取营养和排除废物，转变为自行呼吸、采食和排泄；机体内能源贮备有限，脂肪和血糖含量多，抗病力强，不容易得病死亡。",
+    "reference_case": "仔猪出生后从原来在母体内靠胎盘进行气体交换、摄取营养和排除废物，转变为自行呼吸、采食和排泄；机体内能源贮备有限，脂肪和血糖含量少，抗病力极弱，容易得病死亡。",
+    "error_detail": "需求冲突",
+    "original_question": "仔猪出生后需要经历哪些生理变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪在5日龄以内是关键性时期，应加强护理；仔猪3周龄前后是过渡到全部靠采食饲料独立生活的重要准备时期；乳猪断乳是第二个关键性时期。",
+    "reference_case": "仔猪在7日龄以内是关键性时期，应加强护理；仔猪4周龄前后是过渡到全部靠采食饲料独立生活的重要准备时期；乳猪断乳是第三个关键性时期。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪哺乳期的关键时期有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "确保仔猪吃足初乳，加强保温措施，维持仔猪体温，提供适宜的环境条件，并定期注射疫苗。",
+    "reference_case": "确保仔猪吃足初乳，加强保温措施，维持仔猪体温，提供适宜的环境条件。",
+    "error_detail": "添加假设",
+    "original_question": "仔猪出生后如何进行护理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "可以让弱小仔猪吃饱又不浪费，较强的乳猪满足需要，中强乳猪充分发育，同时增加母猪的产奶量。",
+    "reference_case": "可以让弱小仔猪吃饱又不浪费，较强的乳猪满足需要，中强乳猪充分发育。",
+    "error_detail": "术语错误",
+    "original_question": "仔猪固定乳头的好处是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在寒冷环境中加强保温，设置母猪限位架，保持环境安静，加强护理，及时将仔猪放入保温箱，并减少饲料供应。",
+    "reference_case": "在寒冷环境中加强保温，设置母猪限位架，保持环境安静，加强护理，及时将仔猪放入保温箱。",
+    "error_detail": "需求冲突",
+    "original_question": "寒冷季节应如何防止仔猪被压死或冻死？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1～3日龄28～30℃，4～7日龄26～28℃，15～30日龄20～23℃，2～3月龄20℃。",
+    "reference_case": "1～3日龄30～32℃，4～7日龄28～30℃，15～30日龄22～25℃，2～3月龄22℃。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪适宜生长的环境温度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "让弱小仔猪固定在乳量多的乳头上，较强的乳猪固定在中等泌乳量的乳头上，中强乳猪固定在乳量较差的两个乳头上。",
+    "reference_case": "让弱小仔猪固定在中等泌乳量的乳头上，较强的乳猪固定在乳量较差的两个乳头上，中强乳猪固定在靠前边的乳量多的乳头上。",
+    "error_detail": "术语错误",
+    "original_question": "仔猪出生后如何固定乳头？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "从产后5日龄开始。",
+    "reference_case": "从产后7日龄开始。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪哺乳期补料的最佳时间是何时？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "铁是形成血红蛋白和肌红蛋白所必需的，缺铁会导致营养性贫血，仔猪从母乳中获得的铁很多，补铁可防止贫血症。",
+    "reference_case": "铁是形成血红蛋白和肌红蛋白所必需的，缺铁会导致营养性贫血，仔猪从母乳中获得的铁很少，补铁可防止贫血症。",
+    "error_detail": "术语错误",
+    "original_question": "仔猪补铁的重要意义是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "补铁可通过口服和肌肉注射，农村仔猪可从土壤中补充铁，水泥地面或网床饲养的仔猪容易缺铁，因此应定期进行血液检查。",
+    "reference_case": "补铁可通过口服和肌肉注射，农村仔猪可从土壤中补充铁，水泥地面或网床饲养的仔猪容易缺铁。",
+    "error_detail": "添加假设",
+    "original_question": "防止仔猪缺铁的措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重15kg时，全脂奶粉比例为25.0%；体重5-10kg时，全脂奶粉比例为15.0%。",
+    "reference_case": "体重15kg时，全脂奶粉比例为20.0%；体重5-10kg时，全脂奶粉比例为20.0%。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳仔猪饲粮配方中全脂奶粉在不同体重阶段的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "黄玉米的比例为50.75%（4.5-11kg体重）和40.4%（4.5-11kg体重）。",
+    "reference_case": "黄玉米的比例为48.75%（4.5-11kg体重）和38.4%（4.5-11kg体重）。",
+    "error_detail": "数值偏差",
+    "original_question": "美国大豆协会建议的哺乳仔猪饲料配方中，黄玉米的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "颗粒料比粉料对仔猪的饲料转化效率高15个百分点，增重高40.9%。",
+    "reference_case": "颗粒料比粉料对仔猪的饲料转化效率高10个百分点，增重高33.9%。",
+    "error_detail": "数值偏差",
+    "original_question": "饲料加工方法中的颗粒料如何影响仔猪的饲喂效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "缩短哺乳期可延长产仔间隔，降低母猪年产仔窝数。",
+    "reference_case": "缩短哺乳期可缩短产仔间隔，提高母猪年产仔窝数。",
+    "error_detail": "术语错误",
+    "original_question": "缩短哺乳期对母猪年产仔窝数有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪的饲料利用效率为40%~50%（能量每经一次转化约损失30%）。",
+    "reference_case": "仔猪的饲料利用效率为50%~60%（能量每经一次转化约损失20%）。",
+    "error_detail": "数值偏差",
+    "original_question": "在哺乳期间，仔猪的饲料利用效率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "早期断乳的仔猪能自由采食营养水平较高的全价饲料，得到符合本身生长发育所需的各种营养物质，在人为控制环境中养育，可促进断乳仔猪的生长发育，防止落后猪只的出现，使仔猪体重大小均匀一致，减少患病和死亡，同时增加母猪的繁殖效率。",
+    "reference_case": "早期断乳的仔猪能自由采食营养水平较高的全价饲料，得到符合本身生长发育所需的各种营养物质，在人为控制环境中养育，可促进断乳仔猪的生长发育，防止落后猪只的出现，使仔猪体重大小均匀一致，减少患病和死亡。",
+    "error_detail": "添加假设",
+    "original_question": "为什么早期断乳有利于仔猪的生长发育？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "早期断乳可以延长哺乳母猪占用产仔栏的时间，从而降低每个产仔栏的年产仔窝数和断乳仔猪头数，相应提高了生产一头断乳仔猪产栏设备的生产成本。",
+    "reference_case": "早期断乳可以缩短哺乳母猪占用产仔栏的时间，从而提高每个产仔栏的年产仔窝数和断乳仔猪头数，相应降低了生产一头断乳仔猪产栏设备的生产成本。",
+    "error_detail": "术语错误",
+    "original_question": "早期断乳如何提高分娩猪舍和设备的利用率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "断乳仔猪在断乳1周以内应保持饲料不变（仍然饲喂哺乳期补料），1周以后逐渐过渡到吃断乳仔猪饲料，以减轻应激反应。",
+    "reference_case": "断乳仔猪在断乳2周以内应保持饲料不变（仍然饲喂哺乳期补料），2周以后逐渐过渡到吃断乳仔猪饲料，以减轻应激反应。",
+    "error_detail": "需求冲突",
+    "original_question": "断乳仔猪在断乳后应如何进行饲料过渡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断乳仔猪在断乳后1~3天最好限量饲喂，平均日采食量140g，3天以后实行自由采食。",
+    "reference_case": "断乳仔猪在断乳后3~5天最好限量饲喂，平均日采食量160g，5天以后实行自由采食。",
+    "error_detail": "数值偏差",
+    "original_question": "断乳仔猪在断乳后应如何进行饲喂方法过渡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "饲料的适口性是增进仔猪采食量的一个重要因素，仔猪对颗粒料和粗粉料的喜好超过细粉料，且仔猪经常感到口渴，应经常供给清洁的饮水，并添加维生素和矿物质。",
+    "reference_case": "饲料的适口性是增进仔猪采食量的一个重要因素，仔猪对颗粒料和粗粉料的喜好超过细粉料，且仔猪经常感到口渴，应经常供给清洁的饮水。",
+    "error_detail": "添加假设",
+    "original_question": "影响仔猪食欲和采食量的因素有哪些？",
+    "original_input": ""
+  }
+]

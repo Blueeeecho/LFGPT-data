@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "及时治疗病猪，加强护理，避免日光刺激眼睛，饲养易消化的饲料，禁止放牧，避免引起流行。同时，每日喂食维生素C 1000mg。",
+    "reference_case": "及时治疗病猪，加强护理，避免日光刺激眼睛，饲养易消化的饲料，禁止放牧，避免引起流行。",
+    "error_detail": "添加了不存在的维生素C补充建议",
+    "original_question": "猪眼结膜炎的防护措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "精神不振，吮乳次数减少；脐部周围红肿，脐孔发炎化脓；怕冷发抖，体温升高，有的达42.5℃；舌苔黄淢，脉洪大；心跳加快，后期呼吸停止。此外，还可能出现腹泻。",
+    "reference_case": "精神不振，吮乳次数减少；脐部周围红肿，脐孔发炎化脓；怕冷发抖，体温升高，有的达42.5℃；舌苔黄淢，脉洪大；心跳加快，后期呼吸停止。",
+    "error_detail": "错误添加了腹泻症状",
+    "original_question": "乳猪脐炎的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "产下护理不善, 舍内潮湿, 卧地感染；或脐带早断，病菌侵入，以致发生炎症。此外，如果母猪营养不良，也会增加乳猪脐炎的风险。",
+    "reference_case": "产下护理不善, 舍内潮湿, 卧地感染；或脐带早断，病菌侵入，以致发生炎症。",
+    "error_detail": "添加了未经证实的母猪营养不良的影响",
+    "original_question": "乳猪脐炎的常见病因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "氨芐青霉素每公斤体重2万单位，肌肉注射，每日2次；林可霉素每公斤体重肌肉注射40毫克，每日1次。",
+    "reference_case": "氨芐青霉素每公斤体重1万单位，肌肉注射，每日2次；林可霉素每公斤体重肌肉注射20毫克，每日1次。",
+    "error_detail": "药物剂量错误翻倍",
+    "original_question": "乳猪脐炎的西药治疗方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "方1: 金银花15克，板蓝根15克，连趐15克，甘草10克，紫花地丁草15克，赤药10克，黄芩10克。水煎至原液的30%，每公斤体重喂2毫升，每日3次。方2: 银黄注射液，每10公斤体重肌注1.6-2毫升，每日2次。方3: 黄连10克，黄柏10克，水煎后内服。",
+    "reference_case": "方1: 金银花15克，板蓝根15克，连趐15克，甘草10克，紫花地丁草15克，赤药10克，黄芩10克。水煎至原液的30%，每公斤体重喂2毫升，每日3次。方2: 银黄注射液，每10公斤体重肌注1.6-2毫升，每日2次。",
+    "error_detail": "添加了未请求的第三个方剂",
+    "original_question": "乳猪脐炎的中药治疗方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "保持舍内外环境清洁卫生, 做到干燥凉爽, 防止创口感染。同时，应定期给乳猪注射疫苗。",
+    "reference_case": "保持舍内外环境清洁卫生, 做到干燥凉爽, 防止创口感染。",
+    "error_detail": "添加了与防护措施无关的疫苗注射建议",
+    "original_question": "乳猪脐炎的防护措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "精神不振，食欲减退，体质消瘦；后期贫血；眼皮和前胸呈现水肿；有时拉稀，粪带粘液。小猪生长发育不良，被毛无光泽，喜卧懒动等。此外，还可能出现咳嗽。",
+    "reference_case": "精神不振，食欲减退，体质消瘦；后期贫血；眼皮和前胸呈现水肿；有时拉稀，粪带粘液。小猪生长发育不良，被毛无光泽，喜卧懒动等。",
+    "error_detail": "错误添加了咳嗽症状",
+    "original_question": "猪姜片吸虫病的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "原因为布氏姜片吸虫。虫体肥厚，呈长卵圆形，大小不一。多因猪吃下被姜片吸虫感染的水生植物（如水浮莲等青饲料）引起的。此外，也可能是通过污染的饮水传播。",
+    "reference_case": "原因为布氏姜片吸虫。虫体肥厚，呈长卵圆形，大小不一。多因猪吃下被姜片吸虫感染的水生植物（如水浮莲等青饲料）引起的。",
+    "error_detail": "添加了未经证实的传播途径",
+    "original_question": "猪姜片吸虫病的常见病因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每50公斤体重内服8克敌百虫；每公斤体重投服0.6琶升四氯化碳。",
+    "reference_case": "每50公斤体重内服4克敌百虫；每公斤体重投服0.3琶升四氯化碳。",
+    "error_detail": "药物剂量错误翻倍",
+    "original_question": "猪姜片吸虫病的西药治疗方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "槟榔30克，雷丸30克。混合研为极细粉，掺进少量的精料内, 让猪在早晨空腹服, 每日1剂, 连服3剂。此外，还可以添加黄连10克。",
+    "reference_case": "槟榔30克，雷丸30克。混合研为极细粉，掺进少量的精料内, 让猪在早晨空腹服, 每日1剂, 连服3剂。",
+    "error_detail": "添加了未请求的额外药材",
+    "original_question": "猪姜片吸虫病的中药治疗方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "对病猪粪便及时堆积发酵，或用石灰杀灭虫卵；每年秋季要全面驱虫一次；搞好猪舍内外卫生，防止病猪粪尿流出感染；要开展灭螺运动，积极扑灭姜片吸虫病。同时，应避免使用未处理的水源。",
+    "reference_case": "对病猪粪便及时堆积发酵，或用石灰杀灭虫卵；每年秋季要全面驱虫一次；搞好猪舍内外卫生，防止病猪粪尿流出感染；要开展灭螺运动，积极扑灭姜片吸虫病。",
+    "error_detail": "添加了未经证实的水源处理建议",
+    "original_question": "猪姜片吸虫病的防护措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "西药乙菧酚用于肌注，8-12毫升，每日2次，治疗母猪疾病。",
+    "reference_case": "西药乙菧酚用于肌注，4-6毫升，每日2次，治疗母猪疾病。",
+    "error_detail": "药物剂量错误翻倍",
+    "original_question": "西药乙菧酚在治疗母猪疾病中主要用于什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鹿茸注射液每次8毫升，肌肉注射，每日2次，用于母猪治疗。",
+    "reference_case": "鹿茸注射液每次4毫升，肌肉注射，每日2次，用于母猪治疗。",
+    "error_detail": "药物剂量错误翻倍",
+    "original_question": "鹿茸注射液在母猪治疗中如何使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "西药速尿注射液每次12毫升，肌肉注射，每日2次，治疗母猪尿闭。",
+    "reference_case": "西药速尿注射液每次6毫升，肌肉注射，每日2次，治疗母猪尿闭。",
+    "error_detail": "药物剂量错误翻倍",
+    "original_question": "西药速尿注射液在母猪尿闭治疗中如何使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "中药方剂包括车前子15克，木通15克，泽泻15克，滑石10克，甘草10克，金银花15克。水煎后内服，每日1剂。此外，还可以添加黄连10克。",
+    "reference_case": "中药方剂包括车前子15克，木通15克，泽泻15克，滑石10克，甘草10克，金银花15克。水煎后内服，每日1剂。",
+    "error_detail": "添加了未请求的额外药材",
+    "original_question": "中药如何用于治疗母猪尿闭？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "西药治疗方案包括红霉素200万单位，肌肉注射，每日1次；氨芐青霉素160万单位，肌肉注射，每日2次；硫酸庆大霉素20万单位，肌肉注射，每日2次。",
+    "reference_case": "西药治疗方案包括红霉素100万单位，肌肉注射，每日1次；氨芐青霉素80万单位，肌肉注射，每日2次；硫酸庆大霉素10万单位，肌肉注射，每日2次。",
+    "error_detail": "药物剂量错误翻倍",
+    "original_question": "母猪湿热带下症的西药治疗方案是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "西药治疗方案包括硫酸庆大霉素20万单位，肌肉注射，每日2次；磺胺噻唑20毫升，肌肉注射，每日2次；青霉素160万单位，肌肉注射，每日2次。",
+    "reference_case": "西药治疗方案包括硫酸庆大霉素10万单位，肌肉注射，每日2次；磺胺噻唑10毫升，肌肉注射，每日2次；青霉素80万单位，肌肉注射，每日2次。",
+    "error_detail": "药物剂量错误翻倍",
+    "original_question": "母猪体虚白带症的西药治疗方案是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "西药治疗方案包括脑垂体后叶素60-100单位，肌肉注射，每日1次；链霉素200万单位，肌肉注射，每日2次；催产素60单位，肌肉注射。",
+    "reference_case": "西药治疗方案包括脑垂体后叶素30-50单位，肌肉注射，每日1次；链霉素100万单位，肌肉注射，每日2次；催产素30单位，肌肉注射。",
+    "error_detail": "药物剂量错误翻倍",
+    "original_question": "母猪死胎下不去的西药治疗方案是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "西药治疗方案包括脑垂体后叶素60-100单位，肌肉注射1次；氯化钾20毫升注入子宫内，每日2次。",
+    "reference_case": "西药治疗方案包括脑垂体后叶素30-50单位，肌肉注射1次；氯化钾10毫升注入子宫内，每日2次。",
+    "error_detail": "药物剂量错误翻倍",
+    "original_question": "母猪胎衣不下的西药治疗方案是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "西药治疗方案包括氨芐青霉素200万单位，肌肉注射，每日2次。",
+    "reference_case": "西药治疗方案包括氨芐青霉素100万单位，肌肉注射，每日2次。",
+    "error_detail": "药物剂量错误翻倍",
+    "original_question": "母猪产后乳房炎的西药治疗方案是什么？",
+    "original_input": ""
+  }
+]

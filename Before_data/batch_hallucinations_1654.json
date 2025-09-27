@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "补充生物素可使蹄外侧壁的硬度增加50%，而蹄踵球部组织的硬度降低30%，从而减少蹄受到损伤的可能性。",
+    "reference_case": "补充生物素可使蹄外侧壁的硬度增加，而蹄踵球部组织的硬度降低，从而减少蹄受到损伤的可能性。",
+    "error_detail": "添加了具体的百分比数据，这些数据在原始输出中并未提及。",
+    "original_question": "补充生物素对猪蹄的硬度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "从两肾的上侧找到肾上腺，横向将它们剪开，取材固定在福尔马林内。然后切断肾脏与背侧的连络，横向切开肾脏到肾盂处，去掉包裹，取5mm厚的切块，包括肾皮质、髓质和肾盂。",
+    "reference_case": "从两肾的上侧找到肾上腺，纵向将它们剪开，取材固定在福尔马林内。然后切断肾脏与背侧的连络，纵向切开肾脏到肾盂处，去掉包裹，取5mm厚的切块，包括肾皮质、髓质和肾盂。",
+    "error_detail": "将纵向剪开改为横向剪开，这与原始指令相冲突。",
+    "original_question": "猪的肾脏如何取材？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "取下肝脏后，检查其自然表面和切面，将有病变的部位取样保留或随机取两块10mm大小的切块保存。",
+    "reference_case": "取下肝脏后，检查其自然表面和切面，将有病变的部位取样保留或随机取两块5mm大小的切块保存。",
+    "error_detail": "将切块大小从5mm改为10mm，这是一个概念上的错误。",
+    "original_question": "猪的肝脏如何取样？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "保持头部与躯干的连系，去掉头颈部的皮肤、肌肉和眼，横切颈部肌内以暴露枕关节，切断脊髓，向外向上绕着枕关节切一圈，防止粘着骨头，然后用锯打开颅盖，完整地切开颅骨，防止锯得太深损伤脑组织或切口太靠后。",
+    "reference_case": "保持头部与躯干的连系，去掉头颈部的皮肤、肌肉和眼，横切颈部肌内以暴露枕关节，切断脊髓，向内向下绕着枕关节切一圈，防止粘着骨头，然后用锯打开颅盖，完整地切开颅骨，防止锯得太深损伤脑组织或切口太靠后。",
+    "error_detail": "将切割方向从向内向下改为向外向上，这与原始逻辑相矛盾。",
+    "original_question": "如何检查和取样猪的大脑？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "沿胃小弯打开胃，将肠拉直，剪开十二指肠，各段空肠、回肠和盲肠，小心拿肠段，取部分组织送检。",
+    "reference_case": "沿胃大弯打开胃，将肠拉直，剪开十二指肠，各段空肠、回肠和盲肠，小心拿肠段，取部分组织送检。",
+    "error_detail": "将胃大弯改为胃小弯，这是一个空间上的错误。",
+    "original_question": "如何打开猪的胃和肠道系统？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪的血样采集困难，可采用颈静脉和前腔静脉采血技术，特别是左侧前腔静脉，因为左侧迷走神经分布较少。猪的站立位置很重要，头要上举，身体要直，前肢向后伸，从静脉沟所形成的凹陷处沿着一条假设的向对侧肩关节顶端所形成的虚线刺入。",
+    "reference_case": "猪的血样采集困难，可采用颈静脉和前腔静脉采血技术，特别是右侧前腔静脉，因为右侧迷走神经分布较少。猪的站立位置很重要，头要上举，身体要直，前肢向后伸，从静脉沟所形成的凹陷处沿着一条假设的向对侧肩关节顶端所形成的虚线刺入。",
+    "error_detail": "将右侧前腔静脉改为左侧前腔静脉，这是一个过时的标准。",
+    "original_question": "如何采集猪的血液样品？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "主要侵害发育一肥育猪和老年猪。",
+    "reference_case": "主要侵害发育一肥育猪和成年猪。",
+    "error_detail": "将成年猪改为老年猪，这是一个概念上的错误。",
+    "original_question": "胃溃疡主要侵害哪些年龄段的猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "通常只见于实验病例，侵害局部病。",
+    "reference_case": "通常只见于实验病例，侵害全身病。",
+    "error_detail": "将全身病改为局部病，这是一个因果上的错误。",
+    "original_question": "硫胺主要侵害哪些猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大肠杆菌病、低血糖症、传染性胃肠炎、梭菌性肠炎、球虫病和轮状病毒性肠炎，以及伪狂犬病。",
+    "reference_case": "大肠杆菌病、低血糖症、传染性胃肠炎、梭菌性肠炎、球虫病和轮状病毒性肠炎。",
+    "error_detail": "添加了伪狂犬病，这是一个数据上的偏差。",
+    "original_question": "未断奶猪腹泻最常见的原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "类圆虫侵袭、猪痢疾、猪丹毒和沙门氏杆菌病，以及伪狂犬病。",
+    "reference_case": "类圆虫侵袭、猪痢疾、猪丹毒和沙门氏杆菌病。",
+    "error_detail": "添加了伪狂犬病，这是一个概念上的错误。",
+    "original_question": "不常发生但主要症状为腹泻的仔猪病有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "是主要的临床表现。",
+    "reference_case": "不是主要的临床表现。",
+    "error_detail": "将不是主要的临床表现改为是主要的临床表现，这与原始指令相冲突。",
+    "original_question": "伪狂犬病和弓形体病引起仔猪腹泻时，腹泻是否为主要临床表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "包括大肠和荣病、流行性一任何年龄或各种年龄同时发生、地方性 — 6 天或较大、产后无乳、球窝和伪狂犬病。",
+    "reference_case": "包括大肠和荣病、流行性一任何年龄或各种年龄同时发生、地方性 — 6 天或较大、产后无乳、球窝。",
+    "error_detail": "添加了伪狂犬病，这是一个概念上的错误。",
+    "original_question": "引起未断奶猪腹泻的常见疾病有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小猪表现出脱水、呕吐、菌血症、肠膜苍白色、尾坏死。",
+    "reference_case": "小猪表现出脱水、无呕吐、菌血症、肠膜苍白色、尾坏死。",
+    "error_detail": "将无呕吐改为呕吐，这是一个数据上的偏差。",
+    "original_question": "大肠和荣病感染时小猪的典型症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "小猪出现呕吐、脱水等症状，以及高热。",
+    "reference_case": "小猪出现呕吐、脱水等症状。",
+    "error_detail": "添加了高热，这是一个概念上的错误。",
+    "original_question": "流行性腹泻的小猪症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "该病为非暴发性，所有窝猪不同时感染。",
+    "reference_case": "该病为暴发性，所有窝猪同时感染。",
+    "error_detail": "将暴发性改为非暴发性，这是一个因果上的错误。",
+    "original_question": "流行性腹泻如何在猪群中传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "地方性腹泻常有猪加入和不断产仔，以及饲料变化。",
+    "reference_case": "地方性腹泻常有猪加入和不断产仔。",
+    "error_detail": "添加了饲料变化，这是一个概念上的错误。",
+    "original_question": "地方性腹泻与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小猪表现为虚弱、不活泼、体温高、中枢神经系统症状。",
+    "reference_case": "小猪表现为虚弱、不活泼、体温低、中枢神经系统症状。",
+    "error_detail": "将体温低改为体温高，这是一个数据上的偏差。",
+    "original_question": "产后无乳综合症的腹泻小猪症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "不是，仔猪发生腹泻时，不常是整窝被感染。",
+    "reference_case": "是的，一般情况下，仔猪发生腹泻时，常是整窝被感染。",
+    "error_detail": "将常是整窝被感染改为不常是整窝被感染，这与原始指令相冲突。",
+    "original_question": "仔猪发生腹泻时，常是整窝被感染吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "是的，如果母猪是免疫的，它能通过奶给仔猪提供充足的抗体，但这取决于母猪的健康状况。",
+    "reference_case": "是的，如果母猪是免疫的，它能通过奶给仔猪提供充足的抗体。",
+    "error_detail": "添加了健康状况的假设，这是一个假设上的滥用。",
+    "original_question": "母猪是免疫的，能通过奶给仔猪提供充足的抗体吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "检查粪便的pH值有助于鉴别腹泻的原因。引起轻到重度肠线毛萎缩的疾病（传染性胃肠炎和轮状病毒性肠炎）造成的腹泻，粪便pH呈碱性。其他肠病引起的腹泻粪便呈酸性。",
+    "reference_case": "检查粪便的pH值有助于鉴别腹泻的原因。引起轻到重度肠线毛萎缩的疾病（传染性胃肠炎和轮状病毒性肠炎）造成的腹泻，粪便pH呈酸性。其他肠病引起的腹泻粪便呈碱性。",
+    "error_detail": "将酸性改为碱性，碱性改为酸性，这是一个概念上的错误。",
+    "original_question": "腹泻的仔猪粪便的pH值能提供什么信息？",
+    "original_input": ""
+  }
+]

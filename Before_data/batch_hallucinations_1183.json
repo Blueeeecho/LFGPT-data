@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2011年江西省猪场采集的猪血清中，SWPV抗体阳性猪场的数量是53个。",
+    "reference_case": "2011年江西省猪场采集的猪血清中，SWPV抗体阳性猪场的数量是43个。",
+    "error_detail": "数值偏差",
+    "original_question": "2011年江西省猪场采集的猪血清中，SWPV抗体阳性猪场的数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "2011年江西省猪场采集的猪血清中SWPV抗体阳性率较高，是因为猪场管理不善。",
+    "reference_case": "2011年江西省猪场采集的猪血清中SWPV抗体阳性率较高，是因为间接ELISA方法的灵敏度远远高于免疫琼脂扩散法。",
+    "error_detail": "因果错误",
+    "original_question": "为什么2011年江西省猪场采集的猪血清中SWPV抗体阳性率较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "黄冬艳在SWPV血清调查中检测了1104份猪血清。",
+    "reference_case": "黄冬艳在SWPV血清调查中检测了1004份猪血清。",
+    "error_detail": "数值偏差",
+    "original_question": "黄冬艳在SWPV血清调查中检测了多少份猪血清？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "单独免疫组在接种后4周以HP-PRRSV TJ-F5攻毒后，50%的猪产生了IFN-γ，但IL-4始终为0 ng/L。",
+    "reference_case": "单独免疫组在接种后4周以HP-PRRSV TJ-F5攻毒后，40%的猪产生了IFN-γ，但IL-4始终为0 ng/L。",
+    "error_detail": "数值偏差",
+    "original_question": "单独使用PRRSV CH-1R株免疫的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "共同免疫组在接种后4周以高致病性PRRSV（HP-PRRSV）TJ-F5攻毒后，90%的猪产生了更高浓度的IFN-γ。",
+    "reference_case": "共同免疫组在接种后4周以高致病性PRRSV（HP-PRRSV）TJ-F5攻毒后，80%的猪产生了更高浓度的IFN-γ。",
+    "error_detail": "数值偏差",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）CH-1R株与短肽佐剂共同免疫的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "研究中使用了猪肾（PK）细胞进行病毒的培养和增殖。",
+    "reference_case": "研究中使用了猪睾丸（ST）细胞进行病毒的培养和增殖。",
+    "error_detail": "术语错误",
+    "original_question": "在猪细小病毒河南地方株 HP104 的分离与生物学特性鉴定研究中，使用了哪种细胞进行病毒的培养和增殖？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细小病毒 HP104 株对热、pH3:0酸、氯仿、胃蛋白酶具有抗性。",
+    "reference_case": "猪细小病毒 HP104 株对热、pH3:0酸、氯仿、胰蛋白酶具有抗性。",
+    "error_detail": "术语错误",
+    "original_question": "猪细小病毒 HP104 株对哪些理化因素具有抗性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "扩增的产物经琼脂糖凝胶电泳检测后，获得了 1 条约 300 bp 的特异性带。",
+    "reference_case": "扩增的产物经琼脂糖凝胶电泳检测后，获得了 1 条约 200 bp 的特异性带。",
+    "error_detail": "数值偏差",
+    "original_question": "猪细小病毒 HP104 株的 PCR 检测中，扩增的产物经琼脂糖凝胶电泳检测后，获得了多大的特异性带？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在电镜下观察到的猪细小病毒 HP104 株的形态为近似球形，大小约为 30~33 nm。",
+    "reference_case": "在电镜下观察到的猪细小病毒 HP104 株的形态为近似球形，大小约为 23~26 nm。",
+    "error_detail": "数值偏差",
+    "original_question": "在电镜下观察到的猪细小病毒 HP104 株的形态和大小是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病毒对氯仿、pH3:0酸、56°C热处理、1%胃蛋白酶处理具有抵抗力。",
+    "reference_case": "病毒对氯仿、pH3:0酸、56°C热处理、1%胰蛋白酶处理具有抵抗力。",
+    "error_detail": "术语错误",
+    "original_question": "猪细小病毒 HP104 株的理化特性研究中，病毒对哪些处理具有抵抗力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪细小病毒 HP104 株在 ST 细胞上传代至第 20 代时，其病毒滴度（TCID50:达到了 10^-9:5 TCID50/0:1 mL。",
+    "reference_case": "猪细小病毒 HP104 株在 ST 细胞上传代至第 20 代时，其病毒滴度（TCID50:达到了 10^-8:5 TCID50/0:1 mL。",
+    "error_detail": "数值偏差",
+    "original_question": "猪细小病毒 HP104 株在 ST 细胞上传代至第 20 代时，其病毒滴度（TCID50:达到了多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细小病毒 HP104 株的 NS1 基因系统发生树分析显示，该毒株与 HN-1 株的亲缘关系最近。",
+    "reference_case": "猪细小病毒 HP104 株的 NS1 基因系统发生树分析显示，该毒株与 HN-2 株的亲缘关系最近。",
+    "error_detail": "术语错误",
+    "original_question": "猪细小病毒 HP104 株的 NS1 基因系统发生树分析显示，该毒株与哪些毒株的亲缘关系最近？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪细小病毒 HP104 株的 NS1 基因序列与其他 PPV 毒株的 NS1 基因序列同源性高达 98% 以上。",
+    "reference_case": "猪细小病毒 HP104 株的 NS1 基因序列与其他 PPV 毒株的 NS1 基因序列同源性高达 99% 以上。",
+    "error_detail": "数值偏差",
+    "original_question": "猪细小病毒 HP104 株的 NS1 基因序列与其他 PPV 毒株的 NS1 基因序列同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用了 2×PCR Taq Mix、DNA Marker DL2000、蛋白酶 K、RPMI 1640 培养液、胎牛血清、胰蛋白酶、琼脂糖、十二烷基硫酸钠（SDS）等主要试剂。",
+    "reference_case": "使用了 2×PCR Taq Mix、DNA Marker DL2000、蛋白酶 K、DMEM 培养液、胎牛血清、胰蛋白酶、琼脂糖、十二烷基硫酸钠（SDS）等主要试剂。",
+    "error_detail": "术语错误",
+    "original_question": "在猪细小病毒 HP104 株的分离与鉴定过程中，使用了哪些主要试剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细小病毒主要通过血液传播。",
+    "reference_case": "猪细小病毒主要通过呼吸道、消化道和胎盘传播。",
+    "error_detail": "术语错误",
+    "original_question": "猪细小病毒（PPV）的主要传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年山东省猪流行性腹泻疫情中，PEDV的M基因全长均为781 nt。",
+    "reference_case": "2012年山东省猪流行性腹泻疫情中，PEDV的M基因全长均为681 nt。",
+    "error_detail": "数值偏差",
+    "original_question": "2012年山东省猪流行性腹泻疫情中，PEDV的M基因全长是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的主要结构蛋白包括纤突蛋白（S）、ORF3蛋白、小膜蛋白（E）、膜糖蛋白（M）和核衣壳蛋白（N）以及基质蛋白（M1）。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的主要结构蛋白包括纤突蛋白（S）、ORF3蛋白、小膜蛋白（E）、膜糖蛋白（M）和核衣壳蛋白（N）。",
+    "error_detail": "术语错误",
+    "original_question": "猪流行性腹泻病毒（PEDV）的主要结构蛋白有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年山东省猪流行性腹泻疫情中，免疫T-P二联苗的猪场与未免疫猪场的发病率和死亡率有明显的差别。",
+    "reference_case": "2012年山东省猪流行性腹泻疫情中，免疫T-P二联苗的猪场与未免疫猪场的发病率和死亡率没有明显的差别。",
+    "error_detail": "数值偏差",
+    "original_question": "2012年山东省猪流行性腹泻疫情中，免疫T-P二联苗的猪场与未免疫猪场的发病率和死亡率有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年山东省猪流行性腹泻疫情中，仔猪的发病日龄普遍较早，一般为1～3日龄发病；死亡率高，且发病越早死亡率越高，1日龄发病的仔猪死亡率高达100%。",
+    "reference_case": "2012年山东省猪流行性腹泻疫情中，仔猪的发病日龄普遍较早，一般为2～5日龄发病；死亡率高，且发病越早死亡率越高，2日龄发病的仔猪死亡率高达100%。",
+    "error_detail": "数值偏差",
+    "original_question": "2012年山东省猪流行性腹泻疫情中，仔猪的发病日龄和死亡率有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年山东省猪流行性腹泻疫情中，PEDV的M基因与疫苗株CV777的核苷酸同源性为96:8%～97:4%。",
+    "reference_case": "2012年山东省猪流行性腹泻疫情中，PEDV的M基因与疫苗株CV777的核苷酸同源性为97:8%～98:4%。",
+    "error_detail": "数值偏差",
+    "original_question": "2012年山东省猪流行性腹泻疫情中，PEDV的M基因与疫苗株CV777的核苷酸同源性如何？",
+    "original_input": ""
+  }
+]

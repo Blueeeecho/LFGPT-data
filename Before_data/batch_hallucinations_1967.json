@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "把病猪脾和淋巴结研磨加双抗处理后，以1:5稀释5毫升肌肉接种健康家兔，连续测温3天，对照兔可出现定型热或轻型热反应，判定是否为猪瘟。",
+    "reference_case": "把病猪脾和淋巴结研磨加双抗处理后，以1:10稀释5毫升肌肉接种健康家兔，连续测温3天，对照兔可出现定型热或轻型热反应，判定是否为猪瘟。",
+    "error_detail": "稀释比例错误，应为1:10而非1:5",
+    "original_question": "兔体交互免疫试验如何操作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "取急性高温死猪的脾脏、淋巴结制作抗体，加入琼脂分装平皿，打孔后加抗原和抗猪瘟血清，观察中央孔与周围孔之间是否出现沉淀线，判别是否为猪瘟。",
+    "reference_case": "取急性高温死猪的脾脏、淋巴结制作抗原，加入琼脂分装平皿，打孔后加抗原和抗猪瘟血清，观察中央孔与周围孔之间是否出现沉淀线，判别是否为猪瘟。",
+    "error_detail": "将'抗原'误称为'抗体'",
+    "original_question": "琼脂扩散试验如何进行？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "荧光抗体法、酶标记试验、琼脂扩散试验、单克隆抗体等方法均属血清学检验，但目前已不再推荐使用琼脂扩散试验。",
+    "reference_case": "荧光抗体法、酶标记试验、琼脂扩散试验、单克隆抗体等方法均属血清学检验。",
+    "error_detail": "错误地声称琼脂扩散试验不再推荐使用",
+    "original_question": "猪瘟的血清学检验有哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "应建立科学合理的免疫程序，做好死猪尸体的无害化处理，同时结合严格的市场和运输检疫，提高免疫质量。此外，还应定期对猪群进行抗生素治疗。",
+    "reference_case": "应建立科学合理的免疫程序，做好死猪尸体的无害化处理，同时结合严格的市场和运输检疫，提高免疫质量。",
+    "error_detail": "添加了无关的抗生素治疗建议",
+    "original_question": "如何进行猪瘟的防控？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "安全、有效、无残余毒力、不带毒不排毒，毒力不返祖，适用于猪瘟的防控。因此，猪瘟兔化弱毒苗是导致猪瘟的主要原因。",
+    "reference_case": "安全、有效、无残余毒力、不带毒不排毒，毒力不返祖，适用于猪瘟的防控。",
+    "error_detail": "错误地声称疫苗是导致猪瘟的原因",
+    "original_question": "猪瘟兔化弱毒苗的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "动物细胞内反复增殖，出现轻重不一的症状，严重时导致宿主死亡。如猪会出现体温升高、呼吸困难、紫红斑等症状。这种情况在北极地区尤为常见。",
+    "reference_case": "动物细胞内反复增殖，出现轻重不一的症状，严重时导致宿主死亡。如猪会出现体温升高、呼吸困难、紫红斑等症状。",
+    "error_detail": "错误地添加了地域限制",
+    "original_question": "弓形体病的病理变化主要表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细胞巨化病毒感染症的病原属于疮疹病毒科 α-疱疹病毒亚科。",
+    "reference_case": "猪细胞巨化病毒感染症的病原属于疮疹病毒科 β-疱疹病毒亚科。",
+    "error_detail": "错误的病毒亚科分类",
+    "original_question": "猪细胞巨化病毒感染症的病原属于哪一类病毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪细胞巨化病毒感染症的病毒由病毒芯子（30-50纳米）、蛋白外壳（60-80纳米）和外包膜（100-120纳米）组成，是双股DNA病毒，对有机溶剂（乙酞等）具有敏感性，感染猪后猪将会终身带毒持续感染，能在猪肺泡巨签细胞中良好增殖，感染性培养细胞的核内形成嗜碱性包涵体。",
+    "reference_case": "猪细胞巨化病毒感染症的病毒由病毒芯子（45-70纳米）、蛋白外壳（80-100纳米）和外包膜（120-150纳米）组成，是双股DNA病毒，对有机溶剂（乙酞等）具有敏感性，感染猪后猪将会终身带毒持续感染，能在猪肺泡巨签细胞中良好增殖，感染性培养细胞的核内形成嗜碱性包涵体。",
+    "error_detail": "病毒结构尺寸错误",
+    "original_question": "猪细胞巨化病毒感染症的病毒有哪些特性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "3周岁以下的猪感染此病毒时几乎不表现出任何临床症状，新生的猪如感染此病，全身感染时可引起病猪死亡或引起仔猪鼻炎、肺炎，继而成为生长发育不良。妊娠猪感染此病时可引起死产或流产等。在仔猪还可以见到食欲不振、出现眼斑，全身震颤及呼吸道有关症状。这些症状在2010年之前更为常见。",
+    "reference_case": "3周岁以下的猪感染此病毒时几乎不表现出任何临床症状，新生的猪如感染此病，全身感染时可引起病猪死亡或引起仔猪鼻炎、肺炎，继而成为生长发育不良。妊娠猪感染此病时可引起死产或流产等。在仔猪还可以见到食欲不振、出现眼斑，全身震颤及呼吸道有关症状。",
+    "error_detail": "错误地添加了时间限制",
+    "original_question": "猪细胞巨化病毒感染症的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "本病毒在全世界中广泛分布，几乎所有猪均感染有此病毒，主要通过鼻腔及尿道排毒，感染途径主要是经呼吸道感染，继而引起传播。这种传播方式在亚洲地区尤为突出。",
+    "reference_case": "本病毒在全世界中广泛分布，几乎所有猪均感染有此病毒，主要通过鼻腔及尿道排毒，感染途径主要是经呼吸道感染，继而引起传播。",
+    "error_detail": "错误地添加了地域限制",
+    "original_question": "猪细胞巨化病毒感染症的流行病学如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪链球菌2型是非溶血性链球菌，能引起猪的脑膜炎、关节炎、心内膜炎、败血症和无症状突然死亡，也可引起人的脑膜炎、心内膜炎及永久性的听力丧失，甚至死亡。",
+    "reference_case": "猪链球菌2型是溶血性链球菌，能引起猪的脑膜炎、关节炎、心内膜炎、败血症和无症状突然死亡，也可引起人的脑膜炎、心内膜炎及永久性的听力丧失，甚至死亡。",
+    "error_detail": "错误的链球菌类型",
+    "original_question": "猪链球菌2型是什么类型病原体，主要引起哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪链球菌2型的毒力因子包括荚膜多糖（CPS）、溶菌酶释放蛋白（MRP）、胞外因子（EF）、溶血素（Suilysin）、凝集素（Adhesins）。其中MRP和EF是两种最重要的毒力因子。此外，还假设存在一种未知的毒力因子。",
+    "reference_case": "猪链球菌2型的毒力因子包括荚膜多糖（CPS）、溶菌酶释放蛋白（MRP）、胞外因子（EF）、溶血素（Suilysin）、凝集素（Adhesins）。其中MRP和EF是两种最重要的毒力因子。",
+    "error_detail": "错误地添加了未知毒力因子的假设",
+    "original_question": "猪链球菌2型的毒力因子有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪链球菌2型在100°C沸水中可直接杀灭，在60°C水中可存活5分钟，在50°C条件下可存活1小时；在灰尘中可在25°C下存活12小时，在0°C下存活2周；在粪便中可在25°C下存活4天，在0°C下存活1个月；在4°C动物尸体中可存活4周，在22~25°C下可存活6天。",
+    "reference_case": "猪链球菌2型在100°C沸水中可直接杀灭，在60°C水中可存活10分钟，在50°C条件下可存活2小时；在灰尘中可在25°C下存活24小时，在0°C下存活1个月；在粪便中可在25°C下存活8天，在0°C下存活3个月；在4°C动物尸体中可存活6周，在22~25°C下可存活12天。",
+    "error_detail": "存活时间和条件错误",
+    "original_question": "猪链球菌2型在不同环境中的存活条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "CPS2J - 1 5′- CAA ACG CAA GGA ATT ACG GTA TC-3′，CPS2J - 2 5′- CAT TTC CTA AGT CTC GCA CC-3′。这些引物适用于所有链球菌。",
+    "reference_case": "CPS2J - 1 5′- CAA ACG CAA GGA ATT ACG GTA TC-3′，CPS2J - 2 5′- CAT TTC CTA AGT CTC GCA CC-3′。",
+    "error_detail": "错误地声称引物适用于所有链球菌",
+    "original_question": "用于猪链球菌2型CPS2J基因扩增的引物序列是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "MRP-1 5′-GGT AAC ATC AGA ATC ACC AC-3′，MRP-2 5′-GAA GAT GGA GTA ACT ACC TG-3′。这些引物序列适用于所有细菌。",
+    "reference_case": "MRP-1 5′-GGT AAC ATC AGA ATC ACC AC-3′，MRP-2 5′-GAA GAT GGA GTA ACT ACC TG-3′。",
+    "error_detail": "错误地声称引物适用于所有细菌",
+    "original_question": "猪链球菌2型MRP基因扩增的引物序列是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "EPF-1 5′- GTG ACA GAA GCA GAG ACA GC-3′，EPF-2 5′-CCA GCT AGG TCT CCT GCT C-3′。这些引物序列适用于所有病原体。",
+    "reference_case": "EPF-1 5′- GTG ACA GAA GCA GAG ACA GC-3′，EPF-2 5′-CCA GCT AGG TCT CCT GCT C-3′。",
+    "error_detail": "错误地声称引物适用于所有病原体",
+    "original_question": "猪链球菌2型EPF基因扩增的引物序列是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "口蹄疫的易感动物包括牛科动物、绵羊、山羊、猪及野生反刍和猪科动物，驼科动物易感性较低，此外，水豚、海狸鼠、象、兔、小鼠也易感。鸟类也是主要的易感动物。",
+    "reference_case": "口蹄疫的易感动物包括牛科动物、绵羊、山羊、猪及野生反刍和猪科动物，驼科动物易感性较低，此外，水豚、海狸鼠、象、兔、小鼠也易感。",
+    "error_detail": "错误地添加了鸟类作为易感动物",
+    "original_question": "口蹄疫的易感动物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "高致病性猪蓝耳病的主要症状包括母猪流产、死胎、弱胎，以及仔猪呼吸困难、败血症，且发病率和死亡率高。这些症状是由于饲料质量差引起的。",
+    "reference_case": "高致病性猪蓝耳病的主要症状包括母猪流产、死胎、弱胎，以及仔猪呼吸困难、败血症，且发病率和死亡率高。",
+    "error_detail": "错误地归因于饲料质量",
+    "original_question": "高致病性猪蓝耳病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高致病性猪蓝耳病病毒是动脉炎病毒科、动脉炎病毒属的单股正链RNA病毒，有囊膜，直径30~50 nm，基因组大小10 kb，具有5'端CCA及3'端聚A尾，含5个开放阅读框，其中ORF7是高度保守的区域。",
+    "reference_case": "高致病性猪蓝耳病病毒是动脉炎病毒科、动脉炎病毒属的单股正链RNA病毒，有囊膜，直径50~72 nm，基因组大小15 kb，具有5'端CCA及3'端聚A尾，含7个开放阅读框，其中ORF7是高度保守的区域。",
+    "error_detail": "病毒尺寸和基因组大小错误",
+    "original_question": "高致病性猪蓝耳病的病毒学特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "温度和湿度对病毒存活非常重要。在低温条件下，病毒存活率较高；干燥使病毒很快灭活；在pH 7.5和5°C下，PRRSV的半衰期为200 h，在37°C时半衰期为5 h，在56°C时仅为3 min。",
+    "reference_case": "温度和湿度对病毒存活非常重要。在低温条件下，病毒存活率较高；干燥使病毒很快灭活；在pH 7.5和5°C下，PRRSV的半衰期为139 h，在37°C时半衰期为1.4~3 h，在56°C时仅为6 min。",
+    "error_detail": "半衰期数据错误",
+    "original_question": "高致病性猪蓝耳病的病毒在环境中的稳定性如何？",
+    "original_input": ""
+  }
+]

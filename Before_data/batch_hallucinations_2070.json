@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "采集血液样本时，根据病毒类型需加入抗凝剂。如猪繁殖与呼吸综合征病毒存在于血清中一般不需加抗凝剂，血液凝集后离心取上清液即可用作接种材料；如牛瘟病毒在白细胞内增殖、痘病毒主要吸附在红细胞上，采血时需加入抗凝剂或振荡脱纤。",
+    "reference_case": "采集血液样本时，根据病毒类型需加入抗凝剂。如猪繁殖与呼吸综合征病毒存在于血清中一般不需加抗凝剂，血液凝集后离心取上清液即可用作接种材料；如牛瘟病毒在白细胞内增殖、痘病毒主要吸附在红细胞上，采血时需加入抗凝剂或振荡脱纤。",
+    "error_detail": "概念混淆幻觉：错误地将牛瘟病毒和痘病毒的增殖位置混淆。",
+    "original_question": "采集血液样本时需要注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "免疫球蛋白可以作为口服剂或饲料添加剂用于预防和治疗肠道病毒感染，提高仔猪的免疫保护作用，减少腹泻和抗生素使用量。",
+    "reference_case": "免疫球蛋白可以作为口服剂或饲料添加剂用于预防和治疗肠道病毒感染，提高仔猪的免疫保护作用，减少腹泻和抗生素使用量。",
+    "error_detail": "数据型幻觉：错误地夸大了免疫球蛋白的效果。",
+    "original_question": "免疫球蛋白在预防和治疗动物腹泻中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "针对PERV pol基因中高度保守区的小干扰RNA通过转基因克隆动物制备的方式导入猪的生殖细胞中，制备了表达小干扰RNA的转基因猪，体内PERV量明显降低，干扰作用可持续3年。",
+    "reference_case": "针对PERV pol基因中高度保守区的小干扰RNA通过转基因克隆动物制备的方式导入猪的生殖细胞中，制备了表达小干扰RNA的转基因猪，体内PERV量明显降低，干扰作用可持续3年。",
+    "error_detail": "时效性幻觉：错误地认为干扰作用可持续3年，缺乏最新研究支持。",
+    "original_question": "siRNA在猪内源性逆转录病毒（PERV）中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "针对PCV2基因组的小干扰RNA在细胞上可显著抑制PCV2的复制，在小鼠感染模型体内，腹股沟淋巴结的显微病变也显著降低，可作为潜在的治疗药物之一。",
+    "reference_case": "针对PCV2基因组的小干扰RNA在细胞上可显著抑制PCV2的复制，在小鼠感染模型体内，腹股沟淋巴结的显微病变也显著降低，可作为潜在的治疗药物之一。",
+    "error_detail": "因果倒置幻觉：错误地将小干扰RNA的作用与显微病变的降低直接关联。",
+    "original_question": "siRNA应用于猪圆环病毒2（PCV2）的复制抑制效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "非洲猪瘟于1921年首次在肯尼亚报道。",
+    "reference_case": "非洲猪瘟于1921年首次在肯尼亚报道。",
+    "error_detail": "数据型幻觉：错误地提供了非洲猪瘟首次报道的年份。",
+    "original_question": "非洲猪瘟（ASF）首次报道是在哪一年？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟的病原是非洲猪瘟病毒（ASFV）。",
+    "reference_case": "非洲猪瘟的病原是非洲猪瘟病毒（ASFV）。",
+    "error_detail": "概念混淆幻觉：错误地将非洲猪瘟病毒与其他病毒混淆。",
+    "original_question": "非洲猪瘟的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟病毒基因组为双链DNA，其复制特性与痘病毒科、虹彩病毒科等相似，可能具有共同的起源，共同构成核-质大DNA病毒家族。",
+    "reference_case": "非洲猪瘟病毒基因组为双链DNA，其复制特性与痘病毒科、虹彩病毒科等相似，可能具有共同的起源，共同构成核-质大DNA病毒家族。",
+    "error_detail": "概念混淆幻觉：错误地将非洲猪瘟病毒的复制特性与其他病毒科混淆。",
+    "original_question": "非洲猪瘟病毒基因组的结构特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "非洲猪瘟病毒科（Asfarviridae）最终划定是在2005年。",
+    "reference_case": "非洲猪瘟病毒科（Asfarviridae）最终划定是在2005年。",
+    "error_detail": "数据型幻觉：错误地提供了非洲猪瘟病毒科最终划定的年份。",
+    "original_question": "非洲猪瘟病毒科（Asfarviridae）是在哪一年最终划定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "非洲猪瘟病毒的病毒粒子直径为175~215 nm。",
+    "reference_case": "非洲猪瘟病毒的病毒粒子直径为175~215 nm。",
+    "error_detail": "数据型幻觉：错误地提供了非洲猪瘟病毒粒子的直径范围。",
+    "original_question": "非洲猪瘟病毒的典型直径范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟病毒粒子最外层为含脂质的囊膜。",
+    "reference_case": "非洲猪瘟病毒粒子最外层为含脂质的囊膜。",
+    "error_detail": "概念混淆幻觉：错误地描述了非洲猪瘟病毒粒子的最外层结构。",
+    "original_question": "非洲猪瘟病毒粒子的最外层结构是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "接触传播、经食传播和软蜱叮咬传播是非洲猪瘟病毒的主要传播途径。病毒感染蜱后，可将病毒分泌到卵中，在蜱的发育阶段，病毒一直存在，致使成蜱的唾液腺中出现感染性病毒, 通过叮咬将感染性病毒传播到易感猪。其他传播方式在非洲猪瘟病毒感染过程中也起一定作用。",
+    "reference_case": "接触传播、经食传播和软蜱叮咬传播是非洲猪瘟病毒的主要传播途径。病毒感染蜱后，可将病毒分泌到卵中，在蜱的发育阶段，病毒一直存在，致使成蜱的唾液腺中出现感染性病毒, 通过叮咬将感染性病毒传播到易感猪。其他传播方式在非洲猪瘟病毒感染过程中也起一定作用。",
+    "error_detail": "概念混淆幻觉：错误地描述了非洲猪瘟病毒的传播途径。",
+    "original_question": "非洲猪瘟病毒的主要传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪肺泡巨噬细胞适用于猪包含体鼻炎病毒的分离和感染效价的测定。",
+    "reference_case": "猪肺泡巨噬细胞适用于猪包含体鼻炎病毒的分离和感染效价的测定。",
+    "error_detail": "概念混淆幻觉：错误地将猪肺泡巨噬细胞适用于的病毒类型混淆。",
+    "original_question": "猪肺泡巨噬细胞适用于哪些病毒的分离和感染效价的测定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪包含体鼻炎病毒不能在猪的肾和睾丸原代细胞、末梢血中的巨噬细胞以及猪肾细胞系培养中增殖。",
+    "reference_case": "猪包含体鼻炎病毒不能在猪的肾和睾丸原代细胞、末梢血中的巨噬细胞以及猪肾细胞系培养中增殖。",
+    "error_detail": "概念混淆幻觉：错误地描述了猪包含体鼻炎病毒不能增殖的细胞类型。",
+    "original_question": "猪包含体鼻炎病毒不能在哪些细胞中增殖？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "已感染了病毒的猪肾或睾丸，直接作带毒培养，病毒可充分增殖，并出现细胞病变。",
+    "reference_case": "已感染了病毒的猪肾或睾丸，直接作带毒培养，病毒可充分增殖，并出现细胞病变。",
+    "error_detail": "概念混淆幻觉：错误地描述了病毒分离的方法。",
+    "original_question": "感染了猪包含体鼻炎病毒的猪肾或睾丸如何进行病毒分离？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "用姬姆萨染色观察核内包含体，其中包含体呈“鹰眼状”，直径8~10μm。",
+    "reference_case": "用姬姆萨染色观察核内包含体，其中包含体呈“鹰眼状”，直径8~10μm。",
+    "error_detail": "数据型幻觉：错误地提供了包含体的直径范围。",
+    "original_question": "猪包含体鼻炎病毒如何通过姬姆萨染色观察？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "1~3周龄仔猪对猪包含体鼻炎病毒最为敏感。",
+    "reference_case": "1~3周龄仔猪对猪包含体鼻炎病毒最为敏感。",
+    "error_detail": "数据型幻觉：错误地提供了仔猪的年龄范围。",
+    "original_question": "猪包含体鼻炎病毒对哪些猪最为敏感？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "主要病理变化在上呼吸道，鼻黏膜表面附有卡他性或脓性分泌物，深部黏膜常有因细胞集聚而形成的灰白色小病灶。",
+    "reference_case": "主要病理变化在上呼吸道，鼻黏膜表面附有卡他性或脓性分泌物，深部黏膜常有因细胞集聚而形成的灰白色小病灶。",
+    "error_detail": "概念混淆幻觉：错误地描述了病理变化的位置。",
+    "original_question": "猪包含体鼻炎病毒感染的主要病理变化在哪些部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "电镜下可见细胞核内有未成熟的仅有衣壳的病毒粒子，而细胞质的空泡内有带囊膜的成熟病毒粒子。",
+    "reference_case": "电镜下可见细胞核内有未成熟的仅有衣壳的病毒粒子，而细胞质的空泡内有带囊膜的成熟病毒粒子。",
+    "error_detail": "概念混淆幻觉：错误地描述了病毒粒子的成熟过程。",
+    "original_question": "猪包含体鼻炎病毒的电镜下可见哪些特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "病猪的最初症状为频繁地打喷嚏和流泪，从鼻孔流出浆液性分泌物，继之因鼻塞和吮乳困难、食欲不振、精神沉郁、体重很快减轻并出现麻痹症状。",
+    "reference_case": "病猪的最初症状为频繁地打喷嚏和流泪，从鼻孔流出浆液性分泌物，继之因鼻塞和吮乳困难、食欲不振、精神沉郁、体重很快减轻并出现麻痹症状。",
+    "error_detail": "概念混淆幻觉：错误地描述了病猪的症状。",
+    "original_question": "猪包含体鼻炎病毒感染后的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "传播途径包括鼻汁、尿、眼分泌物、子宫颈黏液等排出，飞沫和吮乳可能是直接的传播途径，在猪只间呈水平传播，交配也可发生感染。",
+    "reference_case": "传播途径包括鼻汁、尿、眼分泌物、子宫颈黏液等排出，飞沫和吮乳可能是直接的传播途径，在猪只间呈水平传播，交配也可发生感染。",
+    "error_detail": "概念混淆幻觉：错误地描述了病毒的传播途径。",
+    "original_question": "猪包含体鼻炎病毒的传播途径有哪些？",
+    "original_input": ""
+  }
+]

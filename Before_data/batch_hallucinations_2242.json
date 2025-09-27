@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "\"百菌消-30\"按1:500稀释，反复冲洗5～6次，再用生理盐水冲洗3次。",
+    "reference_case": "\"百菌消-30\"按1:800稀释，反复冲洗3～4次，再用生理盐水冲洗2次。",
+    "error_detail": "稀释比例和冲洗次数被错误地增加。",
+    "original_question": "治疗公猪包皮炎时，常用的冲洗消毒药物是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "预防公猪包皮炎的措施包括减少饲养密度和增加运动量。",
+    "reference_case": "加强饲养管理和卫生消毒工作，酸化公猪尿液，空栏后地板消毒净化，适龄公猪单栏饲养，公猪围栏要求稍高，防止公猪自淫。",
+    "error_detail": "措施偏离了原始指令，忽略了卫生消毒和酸化尿液等关键点。",
+    "original_question": "预防公猪包皮炎的措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "种公猪虚脱的主要病因是过度运动和营养过剩。",
+    "reference_case": "公猪经常处于半闲置状态，营养跟不上，缺乏运动，体质差，一旦配种使用，容易造成心脏供血不足，出现虚脱，有时还引起急性死亡。",
+    "error_detail": "错误地将病因归结为过度运动和营养过剩，与实际情况相反。",
+    "original_question": "种公猪虚脱的主要病因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "母猪初情期迟缓的原因包括卵巢发育不全和过度运动。",
+    "reference_case": "卵巢发育不全、异性刺激不够、饲养管理不当、安静发情。",
+    "error_detail": "添加了与实际情况矛盾的'过度运动'原因。",
+    "original_question": "母猪初情期迟缓的原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "加强营养，长期优饲，补喂劣质青绿饲料，使其尽快达到十成膘。",
+    "reference_case": "加强营养，短期优饲，补喂优质青绿饲料，使其尽快达到七八成膘。",
+    "error_detail": "改变了优饲的时间和饲料质量，以及膘情目标。",
+    "original_question": "营养调控如何改善体况瘦弱的后备母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "每圈饲养1～2头为宜，单圈饲养对母猪的发情有积极影响。",
+    "reference_case": "每圈饲养4～6头为宜，单圈饲养1头对母猪的发情有不利影响，避免过分拥挤及频繁打斗。",
+    "error_detail": "建议的饲养数量与原始指令相反，且错误地认为单圈饲养有积极影响。",
+    "original_question": "如何预防后备母猪的初情期延迟？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "肌内注射牛血清诱导发情和排卵，再注射HCG；不考虑遗传因素。",
+    "reference_case": "肌内注射孕马血清诱导发情和排卵，再注射HCG；考虑遗传因素，及时淘汰。",
+    "error_detail": "错误地使用了牛血清，并忽略了遗传因素的考虑。",
+    "original_question": "母猪断奶后不发情（乏情）的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "治疗公猪包皮炎时，需要排除真菌感染。",
+    "reference_case": "葡萄球菌、假单孢菌属（如绿脓杆菌）、棒状杆菌属（如化脓棒状杆菌）。",
+    "error_detail": "错误地将需要排除的感染类型从细菌改为真菌。",
+    "original_question": "治疗公猪包皮炎时，需要排除哪些细菌感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "治疗公猪种公猪虚脱时应注意立即进行强心治疗。",
+    "reference_case": "公猪往往处于高度敏感状态，对刺激敏感，不应让人员靠近或进行治疗，需舒缓其情绪，让它熟悉的饲养人员接近。先让它躺卧，安静下来，待安静后进行相应治疗。",
+    "error_detail": "错误地添加了立即进行强心治疗的假设，忽略了应先舒缓情绪的建议。",
+    "original_question": "治疗公猪种公猪虚脱时应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "母猪配种后一小时内效果较显著。",
+    "reference_case": "母猪配种后半小时内效果较显著。",
+    "error_detail": "延长了配种后效果显著的时间，与当前标准不符。",
+    "original_question": "母猪配种后半小时内效果较显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "配种分娩率低主要是因为母猪配种后未出现返情。",
+    "reference_case": "配种分娩率低主要是因为母猪配种后出现返情，返情会降低配种分娩率，影响养猪生产成绩和经济效益。",
+    "error_detail": "逻辑矛盾，错误地将返情与未出现返情混淆。",
+    "original_question": "配种分娩率低的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "配种后20d内母猪返情说明配种成功。",
+    "reference_case": "配种后20d内母猪返情说明配种太迟。",
+    "error_detail": "错误地将返情解释为配种成功的标志。",
+    "original_question": "配种后20d内母猪返情说明什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "配种后22d以后母猪返情说明配种时间刚好。",
+    "reference_case": "配种后22d以后母猪返情说明配种过早。",
+    "error_detail": "错误地将返情解释为配种时间刚好的标志。",
+    "original_question": "配种后22d以后母猪返情说明什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "配种后21~23d内母猪返情说明母猪年龄过大。",
+    "reference_case": "配种后21~23d内母猪返情说明配种失败，需要全面考虑母猪是否有病情、精子质量是否合格等问题。",
+    "error_detail": "错误地添加了母猪年龄过大的假设。",
+    "original_question": "配种后21~23d内母猪返情说明什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "配种后39~45d内母猪返情说明配种成功。",
+    "reference_case": "配种后39~45d内母猪返情说明错过了上一次发情周期，需要对返情检测的方法进行检查。",
+    "error_detail": "错误地将返情解释为配种成功的标志。",
+    "original_question": "配种后39~45d内母猪返情说明什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "配种后25~38d内母猪返情说明配种时间刚好。",
+    "reference_case": "配种后25~38d内母猪返情说明怀孕但不能怀胎，可能是因为应激、发霉的饲料、有怀孕能力的卵子太少或子宫感染等。",
+    "error_detail": "错误地将返情解释为配种时间刚好的标志，忽略了实际原因。",
+    "original_question": "配种后25~38d内母猪返情说明什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "配种后45d以后母猪返情说明配种成功。",
+    "reference_case": "配种后45d以后母猪返情说明怀孕但不能怀胎，可能因为流产、发霉的饲料、疾病、应激或打架等。",
+    "error_detail": "错误地将返情解释为配种成功的标志。",
+    "original_question": "配种后45d以后母猪返情说明什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "适时配种是确保母猪受胎而出现返情的最重要途径。",
+    "reference_case": "适时配种是确保母猪受胎而不出现返情的最重要途径，也是提高母猪配种分娩率的重要手段。",
+    "error_detail": "逻辑矛盾，错误地将适时配种与出现返情联系起来。",
+    "original_question": "适时配种的重要性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "配种后母猪不食的原因包括过度运动和营养过剩。",
+    "reference_case": "配种后母猪不食的原因包括营养不全、饲料变质、运动不足、死胎或木乃伊胎、内分泌功能紊乱和应激反应等。",
+    "error_detail": "错误地将原因归结为过度运动和营养过剩，与实际情况相反。",
+    "original_question": "配种后母猪不食的原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "预防全身感染，减少运动和补充机体能量。",
+    "reference_case": "预防全身感染，强心并补充机体能量。",
+    "error_detail": "措施偏离了原始指令，错误地建议减少运动。",
+    "original_question": "母猪产后感染全身感染的治疗方法是什么？",
+    "original_input": ""
+  }
+]

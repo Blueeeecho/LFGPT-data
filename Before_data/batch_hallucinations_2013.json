@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "地美硝唑预混剂适用于猪、鸡和牛。",
+    "reference_case": "地美硝唑预混剂适用于猪和鸡。",
+    "error_detail": "错误地添加了不适用动物牛。",
+    "original_question": "地美硝唑预混剂适用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "地美硝唑预混剂混饲，猪每 1000 kg 饲料添加 2000~3000 g，鸡每 1000 kg 饲料添加 500~3000 g。",
+    "reference_case": "地美硝唑预混剂混饲，猪每 1000 kg 饲料添加 1000~2500 g，鸡每 1000 kg 饲料添加 400~2500 g。",
+    "error_detail": "数值偏差，添加量错误。",
+    "original_question": "地美硝唑预混剂的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "地美硝唑预混剂的休药期为猪 5 天，鸡 5 天。",
+    "reference_case": "地美硝唑预混剂的休药期为猪 3 天，鸡 3 天。",
+    "error_detail": "休药期错误，与当前标准不符。",
+    "original_question": "地美硝唑预混剂的休药期是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "磷酸泰乐菌素预混剂适用于猪、鸡和鸭。",
+    "reference_case": "磷酸泰乐菌素预混剂适用于猪和鸡。",
+    "error_detail": "错误地添加了不适用动物鸭。",
+    "original_question": "磷酸泰乐菌素预混剂适用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磷酸泰乐菌素预混剂混饲，猪每 1000 kg 饲料添加 20~150 g，鸡每 1000 kg 饲料添加 10~60 g，连用 7~10 天。",
+    "reference_case": "磷酸泰乐菌素预混剂混饲，猪每 1000 kg 饲料添加 10~100 g，鸡每 1000 kg 饲料添加 4~50 g，连用 5~7 天。",
+    "error_detail": "数值偏差，添加量和连用天数错误。",
+    "original_question": "磷酸泰乐菌素预混剂的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在猪、禽饲料中补充泛酸可以防止维生素B12不足时的缺乏症状。",
+    "reference_case": "在猪、禽饲料中补充泛酸可以防止维生素B22不足时的缺乏症状。",
+    "error_detail": "错误地将维生素B22混淆为维生素B12。",
+    "original_question": "泛酸在猪、禽饲料中有什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "在烟酸不足的情况下，家禽产蛋量明显下降并出现下痢及皮肤炎，猪生长受阻。",
+    "reference_case": "在烟酸不足的情况下，猪生长受阻并出现下痢及皮肤炎，家禽产蛋量明显下降。",
+    "error_detail": "错误地颠倒了猪和家禽的症状。",
+    "original_question": "烟酸在猪和家禽中的缺乏症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪在10-20公斤体重阶段需要2000国际单位的维生素A，而在60-90公斤体重阶段需要1500国际单位的维生素A。",
+    "reference_case": "猪在10-20公斤体重阶段需要1718国际单位的维生素A，而在60-90公斤体重阶段需要1187国际单位的维生素A。",
+    "error_detail": "数值偏差，需求量错误。",
+    "original_question": "猪在不同体重阶段对维生素A的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "铜需8亭克/公斤，铁需160亭克/公斤，锌需120亭克/公斤，钴需0.5亭克/公斤，锰需6亭克/公斤，硒需0.20亭克/公斤，碘需0.20亭克/公斤。每种元素对应化合物的加入量（克/吨）分别为：铜30.00克/吨，铁800.00克/吨，锌500.00克/吨，钴2.000克/吨，锰15.00克/吨，硒0.700克/吨，碘0.250克/吨。",
+    "reference_case": "铜需6亭克/公斤，铁需140亭克/公斤，锌需100亭克/公斤，钴需0.3亭克/公斤，锰需4亭克/公斤，硒需0.15亭克/公斤，碘需0.14亭克/公斤。每种元素对应化合物的加入量（克/吨）分别为：铜23.56克/吨，铁696.36克/吨，锌439.80克/吨，钴1.247克/吨，锰12.30克/吨，硒0.500克/吨，碘0.183克/吨。",
+    "error_detail": "数值偏差，添加量和化合物加入量错误。",
+    "original_question": "仔猪体重5～20公斤阶段，微量元素添加剂如何配制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "维生索A用量为2500国际单位/公斤风干料，维生索D用量为250国际单位/公斤风干料，维生索B1用量为25克/公斤风干料，维生索B2用量为10国际单位/公斤风干料，维生索B3用量为15克/公斤风干料，维生索B6用量为2.0克/公斤风干料，维生索B12用量为2.0克/公斤风干料，抗坏血酸用量为60克/公斤风干料，抗痢疾酸用量为3.0克/公斤风干料。",
+    "reference_case": "维生索A用量为2200国际单位/公斤风干料，维生索D用量为220国际单位/公斤风干料，维生索B1用量为22克/公斤风干料，维生索B2用量为8国际单位/公斤风干料，维生索B3用量为13克/公斤风干料，维生索B6用量为1.3克/公斤风干料，维生索B12用量为1.5克/公斤风干料，抗坏血酸用量为50克/公斤风干料，抗痢疾酸用量为2.5克/公斤风干料。",
+    "error_detail": "数值偏差，用量错误。",
+    "original_question": "仔猪体重5～20公斤阶段，多种维生素添加剂如何配制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "饲料添加剂的颗粒大小应全部通过10目分析筛，筛上物不得大于15%。",
+    "reference_case": "饲料添加剂的颗粒大小应适宣。例如，仔猪、生长肥育猪的颗粒大小全部通过8目分析筛，筛上物不得大于20%；肉用仔鸡、生长鸡、产蛋鸡（种鸡）的颗粒大小分别通过6目、4目分析筛，筛上物分别不得大于20%、15%。",
+    "error_detail": "错误地统一了所有动物的颗粒大小标准。",
+    "original_question": "饲料添加剂的颗粒大小应如何控制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "未经去毒处理的棉籽饼对单胃动物不会发生中毒现象。",
+    "reference_case": "未经去毒处理的棉籽饼对单胃动物会发生不同程度的中毒现象，其中以种猪、种鸡及产蛋鸡影响较大。",
+    "error_detail": "错误地否认了中毒现象。",
+    "original_question": "未经去毒处理的棉籽饼对单胃动物的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "肉鸡3.0～6%，蛋鸭3%，火鸡3.0%，猪3%，奶牛和肉牛3～4%。",
+    "reference_case": "肉鸡2.5～5%，蛋鸭2%，火鸡2.5%，猪2%，奶牛和肉牛2～3%。",
+    "error_detail": "数值偏差，用量错误。",
+    "original_question": "育禽羽毛粉在不同种类禽类日粮中的用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "首先计算各原料的初步配比，然后乘以总配方量，得出各原料在浓缩饲料中的百分比。",
+    "reference_case": "首先计算各原料的初步配比，然后除以总配方量，得出各原料在浓缩饲料中的百分比。",
+    "error_detail": "逻辑错误，错误地使用了乘法而非除法。",
+    "original_question": "如何通过姐型配方法计算已知猪饲料配方中各原料的百分比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "饲料加工工艺会影响其营养价值，整度的消化能值较高，在猪消化能为15.00MJ/公斤，粗蛋白质可达15%-20%。",
+    "reference_case": "饲料加工工艺会影响其营养价值，整度的消化能值较低，在猪消化能为11.17MJ/公斤，粗蛋白质可达12%-17%。",
+    "error_detail": "数值偏差，消化能值和粗蛋白质含量错误。",
+    "original_question": "饲料加工工艺对营养价值有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "大麦是哺孚母猪的不良饲料。",
+    "reference_case": "大麦是哺孚母猪的良好饲料。",
+    "error_detail": "错误地否认了大麦的良好饲料属性。",
+    "original_question": "饲喂大麦对母猪有何益处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "用于喂贮猪效果不佳。",
+    "reference_case": "用于喂贮猪效果较美。",
+    "error_detail": "错误地改变了上下文中的评价。",
+    "original_question": "饲喂大麦对猪的饲喂效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "大麦数不利于提高猪肉品质。",
+    "reference_case": "大麦数有利于提高猪肉品质。",
+    "error_detail": "错误地颠倒了因果关系。",
+    "original_question": "大麦数如何影响猪肉品质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "大素的含量为25.0%。",
+    "reference_case": "大素的含量为22.5%。",
+    "error_detail": "数值偏差，含量错误。",
+    "original_question": "生长肥育猪的饲料配方中，大素的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "生长肥育猪从20公斤开始，三个月以内。",
+    "reference_case": "生长肥育猪从15公斤开始，二个月以内。",
+    "error_detail": "错误地改变了起始体重和时间。",
+    "original_question": "生长肥育猪的饲喂建议是什么？",
+    "original_input": ""
+  }
+]

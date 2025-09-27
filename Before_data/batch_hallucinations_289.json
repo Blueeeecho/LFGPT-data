@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "该研究的目的是通过对猪肺炎支原体168株P97蛋白基因的抗原区克隆分析和表达，并进一步对其活性进行鉴定，为该病基因工程疫苗的制备和PCR诊断试剂盒的研制奠定基础。",
+    "reference_case": "该研究的目的是通过对猪肺炎支原体168株P97蛋白基因的抗原区克隆分析和表达，并进一步对其活性进行鉴定，为该病基因工程疫苗的制备和ELISA诊断试剂盒的研制奠定基础。",
+    "error_detail": "将ELISA诊断试剂盒错误地改为PCR诊断试剂盒",
+    "original_question": "猪肺炎支原体168株P97基因的克隆与表达研究的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "PCR扩增体系包括10×PCR buffer（含1:5 mmol/L Mg2+）3:5 μL、dNTP（5 mmol/L）2 μL、模板DNA 1 μL、引物P1和P2各1 μL、Taq酶0:5 μL，用灭菌蒸馏水补充至25 μL。",
+    "reference_case": "PCR扩增体系包括10×PCR buffer（含1:5 mmol/L Mg2+）2:5 μL、dNTP（5 mmol/L）1 μL、模板DNA 1 μL、引物P1和P2各1 μL、Taq酶0:5 μL，用灭菌蒸馏水补充至25 μL。",
+    "error_detail": "错误地增加了PCR buffer和dNTP的体积",
+    "original_question": "猪肺炎支原体168株P97基因的PCR扩增体系包括哪些成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "PCR扩增的循环参数为94°C预变性5分钟；94°C变性30秒，55°C退火30秒，72°C延伸30秒，循环30次；最后72°C延伸10分钟。",
+    "reference_case": "PCR扩增的循环参数为94°C预变性5分钟；94°C变性30秒，58°C退火30秒，72°C延伸30秒，循环30次；最后72°C延伸10分钟。",
+    "error_detail": "错误地改变了退火温度",
+    "original_question": "在猪肺炎支原体168株P97基因的克隆与表达研究中，PCR扩增的循环参数是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "重组菌在37°C下用0:2 mmol/L的IPTG诱导4小时后收集菌体，用磷酸盐缓冲液（pH 7:2:洗涤1次，将菌体悬液用溶菌酶和超声波裂解，4°C下5000 r/min离心30分钟，将可溶蛋白和包涵体分开。用His-Tag亲合层析柱分离纯化重组蛋白，用15% SDS-PAGE分析纯度。",
+    "reference_case": "重组菌在37°C下用0:1 mmol/L的IPTG诱导4小时后收集菌体，用磷酸盐缓冲液（pH 7:2:洗涤1次，将菌体悬液用溶菌酶和超声波裂解，4°C下5000 r/min离心30分钟，将可溶蛋白和包涵体分开。用His-Tag亲合层析柱分离纯化重组蛋白，用15% SDS-PAGE分析纯度。",
+    "error_detail": "错误地增加了IPTG的浓度",
+    "original_question": "猪肺炎支原体168株P97基因的克隆与表达研究中，重组蛋白的可溶性分析及纯化过程是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "研究中使用了猪肺炎支原体168弱毒株、大肠杆菌感受态细胞DH5α和BL21、质粒载体pET-32a和pUC18。",
+    "reference_case": "研究中使用了猪肺炎支原体168弱毒株、大肠杆菌感受态细胞DH5α和BL21、质粒载体pET-32a和pMD18-T。",
+    "error_detail": "错误地将pMD18-T改为pUC18",
+    "original_question": "在猪肺炎支原体168株P97基因的克隆与表达研究中，使用了哪些主要菌株和质粒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "经测序统计，P97蛋白基因序列与GenBank中报道的序列相比，同源性达98:8%，只有一处碱基发生变异，即在168株P97蛋白基因序列的387位由C变为G，但所编码的氨基酸序列同源性达100%。",
+    "reference_case": "经测序统计，P97蛋白基因序列与GenBank中报道的序列相比，同源性达99:8%，只有一处碱基发生变异，即在168株P97蛋白基因序列的387位由C变为G，但所编码的氨基酸序列同源性达100%。",
+    "error_detail": "错误地降低了同源性百分比",
+    "original_question": "猪肺炎支原体168株P97基因的克隆与表达研究中，P97蛋白基因序列与GenBank中报道的序列相比有何变异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "2013年陕西进口美国种猪的检疫过程中，对抗体阳性猪实施隔离观察并进行无害化处理。",
+    "reference_case": "2013年陕西进口美国种猪的检疫过程中，对抗体阳性猪实施扑杀并进行无害化处理。",
+    "error_detail": "错误地将扑杀改为隔离观察",
+    "original_question": "2013年陕西进口美国种猪的检疫过程中，如何处理抗体阳性猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "2013年陕西进口美国种猪的检疫过程中，猪布氏杆菌病的检测方法是ELISA试验，检测布氏杆菌病抗体滴度。",
+    "reference_case": "2013年陕西进口美国种猪的检疫过程中，猪布氏杆菌病的检测方法是试管凝集试验，检测布氏杆菌病抗体滴度。",
+    "error_detail": "错误地将试管凝集试验改为ELISA试验",
+    "original_question": "2013年陕西进口美国种猪的检疫过程中，猪布氏杆菌病的检测方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2013年陕西进口美国种猪的检疫过程中，逐头采集粪拭子和血液并分离血清，每个血清样品备2份保存。",
+    "reference_case": "2013年陕西进口美国种猪的检疫过程中，逐头采集粪拭子和血液并分离血清，每个血清样品备3份保存。",
+    "error_detail": "错误地减少了血清样品的备份数量",
+    "original_question": "2013年陕西进口美国种猪的检疫过程中，如何采集检疫样品？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "2013年陕西进口美国种猪的检疫过程中，使用了Tecan Sunrise remote酶标仪、Biorad Model 1575洗板机、Eppendorf移液器、Brand Transferpett 12 electronic电动排枪和Brand Handystep electronic电动移液枪等实验设备。",
+    "reference_case": "2013年陕西进口美国种猪的检疫过程中，使用了Tecan Sunrise remote酶标仪、Biorad Model 1575洗板机、Eppendorf移液器、Brand Transferpett 12 electronic电动排枪和Brand Handystep electronic电动移液枪等实验设备。",
+    "error_detail": "虽然设备列表相同，但错误地暗示了设备的使用顺序或重要性",
+    "original_question": "2013年陕西进口美国种猪的检疫过程中，使用了哪些实验设备？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2013年陕西进口美国种猪的检疫过程中，检测了猪密螺旋体痢疾、猪布氏杆菌病、猪传染性胸膜肺炎、猪繁殖与呼吸道综合征、猪伪狂犬病、猪传染性胃肠炎和结核等6种疫病。",
+    "reference_case": "2013年陕西进口美国种猪的检疫过程中，检测了猪密螺旋体痢疾、猪布氏杆菌病、猪传染性胸膜肺炎、猪繁殖与呼吸道综合征、猪伪狂犬病、猪传染性胃肠炎和结核等7种疫病。",
+    "error_detail": "错误地减少了检测的疫病数量",
+    "original_question": "2013年陕西进口美国种猪的检疫过程中，检测了哪些疫病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "2013年陕西进口美国种猪的检疫过程中，猪繁殖与呼吸道综合征的检测方法是PCR试验，检测血清中猪繁殖与呼吸道综合征病毒抗体。",
+    "reference_case": "2013年陕西进口美国种猪的检疫过程中，猪繁殖与呼吸道综合征的检测方法是酶联免疫吸附试验，检测血清中猪繁殖与呼吸道综合征病毒抗体。",
+    "error_detail": "错误地将酶联免疫吸附试验改为PCR试验",
+    "original_question": "2013年陕西进口美国种猪的检疫过程中，猪繁殖与呼吸道综合征的检测方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "2013年陕西进口美国种猪的检疫过程中，猪传染性胸膜肺炎的检测方法是PCR试验，检测血清中猪传染性胸膜肺炎抗体，将结果为阳性的样品送达指定实验室实施补体结合试验进行确认。",
+    "reference_case": "2013年陕西进口美国种猪的检疫过程中，猪传染性胸膜肺炎的检测方法是酶联免疫吸附试验，检测血清中猪传染性胸膜肺炎抗体，将结果为阳性的样品送达指定实验室实施补体结合试验进行确认。",
+    "error_detail": "错误地将酶联免疫吸附试验改为PCR试验",
+    "original_question": "2013年陕西进口美国种猪的检疫过程中，猪传染性胸膜肺炎的检测方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2013年陕西进口美国种猪的检疫过程中，猪密螺旋体痢疾的病原分离是通过用粪拭子涂布TSA培养基，在42°C、20% CO2、80% H2的厌氧条件下培养5天，观察结果。",
+    "reference_case": "2013年陕西进口美国种猪的检疫过程中，猪密螺旋体痢疾的病原分离是通过用粪拭子涂布TSA培养基，在42°C、20% CO2、80% H2的厌氧条件下培养6天，观察结果。",
+    "error_detail": "错误地减少了培养时间",
+    "original_question": "2013年陕西进口美国种猪的检疫过程中，猪密螺旋体痢疾的病原分离是如何进行的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在2013年陕西进口美国种猪的检疫中，猪传染性胸膜肺炎和猪布氏杆菌病的抗体检测结果为阳性，各检出2头阳性猪。",
+    "reference_case": "在2013年陕西进口美国种猪的检疫中，猪传染性胸膜肺炎和猪布氏杆菌病的抗体检测结果为阳性，各检出1头阳性猪。",
+    "error_detail": "错误地增加了阳性猪的数量",
+    "original_question": "在2013年陕西进口美国种猪的检疫中，哪些疫病的抗体检测结果为阳性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "鄂西北地区规模化猪场猪瘟、猪蓝耳病和猪口蹄疫的抗体检测使用了PCR检测方法。",
+    "reference_case": "鄂西北地区规模化猪场猪瘟、猪蓝耳病和猪口蹄疫的抗体检测使用了ELISA检测方法。",
+    "error_detail": "错误地将ELISA检测方法改为PCR检测方法",
+    "original_question": "鄂西北地区规模化猪场猪瘟、猪蓝耳病和猪口蹄疫的抗体检测使用了什么方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟的主要临床症状包括高热（40°C以上）、急性败血性变化、实质器官出血、坏死和梗死；猪蓝耳病的主要临床症状包括高热（40-41°C）、呼吸困难、猪耳和腹部发绀；猪口蹄疫的主要临床症状是患病动物的口、蹄部出现溃疡性病症。",
+    "reference_case": "猪瘟的主要临床症状包括高热（40°C以上）、急性败血性变化、实质器官出血、坏死和梗死；猪蓝耳病的主要临床症状包括高热（40-41°C）、呼吸困难、猪耳和腹部发绀；猪口蹄疫的主要临床症状是患病动物的口、蹄部出现水疱性病症。",
+    "error_detail": "错误地将水疱性病症改为溃疡性病症",
+    "original_question": "猪瘟、猪蓝耳病和猪口蹄疫的主要临床症状分别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "鄂西北地区规模化猪场猪瘟、猪蓝耳病和猪口蹄疫的抗体检测结果判定标准为：OD450<0:200为阴性，0:200≤OD450<0:400为弱阳性，OD450≥0:400为强阳性。",
+    "reference_case": "鄂西北地区规模化猪场猪瘟、猪蓝耳病和猪口蹄疫的抗体检测结果判定标准为：OD450<0:180为阴性，0:180≤OD450<0:400为弱阳性，OD450≥0:400为强阳性。",
+    "error_detail": "错误地改变了阴性判定的OD450值",
+    "original_question": "鄂西北地区规模化猪场猪瘟、猪蓝耳病和猪口蹄疫的抗体检测结果是如何判定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "鄂西北地区规模化猪场猪瘟、猪蓝耳病和猪口蹄疫的血清抗体检测样本数量分别为1500份、1550份和1600份。",
+    "reference_case": "鄂西北地区规模化猪场猪瘟、猪蓝耳病和猪口蹄疫的血清抗体检测样本数量分别为1480份、1535份和1599份。",
+    "error_detail": "错误地改变了样本数量",
+    "original_question": "鄂西北地区规模化猪场猪瘟、猪蓝耳病和猪口蹄疫的血清抗体检测样本数量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟的病原体是猪瘟病毒，猪蓝耳病的病原体是猪繁殖与呼吸综合征病毒，猪口蹄疫的病原体是口蹄疫病毒。",
+    "reference_case": "猪瘟的病原体是猪瘟病毒，猪蓝耳病的病原体是猪繁殖与呼吸综合征病毒变异株，猪口蹄疫的病原体是口蹄疫病毒。",
+    "error_detail": "错误地省略了猪蓝耳病病原体的变异株描述",
+    "original_question": "猪瘟、猪蓝耳病和猪口蹄疫的病原体分别是什么？",
+    "original_input": ""
+  }
+]

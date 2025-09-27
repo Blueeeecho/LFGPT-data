@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "泌乳母猪对钠的需要量为0.25%。",
+    "reference_case": "泌乳母猪对钠的需要量为0.20%。",
+    "error_detail": "增加了钠的需要量的百分比",
+    "original_question": "泌乳母猪对钠的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪对氯的需要量为0.15%。",
+    "reference_case": "妊娠母猪对氯的需要量为0.12%。",
+    "error_detail": "增加了氯的需要量的百分比",
+    "original_question": "妊娠母猪对氯的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "泌乳母猪对氯的需要量为0.20%。",
+    "reference_case": "泌乳母猪对氯的需要量为0.16%。",
+    "error_detail": "增加了氯的需要量的百分比",
+    "original_question": "泌乳母猪对氯的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪饲料中含钠量为0.10%～0.12%。",
+    "reference_case": "仔猪饲料中含钠量为0.08%～0.1%。",
+    "error_detail": "增加了钠的含量的百分比",
+    "original_question": "仔猪饲料中含钠量为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长育肥猪饲料中含钠量为0.12%。",
+    "reference_case": "生长育肥猪饲料中含钠量为0.09%。",
+    "error_detail": "增加了钠的含量的百分比",
+    "original_question": "生长育肥猪饲料中含钠量为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重3～10 kg为120 mg/kg，10～20 kg为90 mg/kg，20～50 kg为70 mg/kg，50～80 kg为60 mg/kg，80～120 kg为50 mg/kg，妊娠母猪与泌乳母猪为90 mg/kg。",
+    "reference_case": "体重3～10 kg为100 mg/kg，10～20 kg为80 mg/kg，20～50 kg为60 mg/kg，50～80 kg为50 mg/kg，80～120 kg为40 mg/kg，妊娠母猪与泌乳母猪为80 mg/kg。",
+    "error_detail": "增加了铁的需求量的数值",
+    "original_question": "美国国家研究委员会（NRC）标准下，不同体重阶段生长猪的铁需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪饲喂高铜饲料的平均增重比对照组高30.0%，平均饲料转化率比对照组高12.0%。",
+    "reference_case": "仔猪饲喂高铜饲料的平均增重比对照组高22.1%，平均饲料转化率比对照组高8.3%。",
+    "error_detail": "增加了增重和饲料转化率的百分比",
+    "original_question": "饲料中铜的添加如何影响仔猪的生长性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "肝脏中铜含量按下列顺序依次降低：牛、绵羊、兔、猪、鸭、母鸡",
+    "reference_case": "肝脏中铜含量按下列顺序依次降低：绵羊、牛、兔、猪、鸭、母鸡",
+    "error_detail": "错误地调整了牛和绵羊的顺序",
+    "original_question": "不同动物肝脏中铜含量的顺序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪每头每天对铜的需要量是：1～5kg 体重 2.0 mg/d ，5～10kg 体重 3.5 mg/d ，10～20kg 体重 5.0 mg/d",
+    "reference_case": "1～5kg 体重 1.3 mg/d ，5～10kg 体重 2.9 mg/d ，10～20kg 体重 4.5 mg/d",
+    "error_detail": "错误地增加了仔猪对铜的需要量",
+    "original_question": "仔猪每头每天对铜的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "生长肥育猪每头每天对铜的需要量是：20～35kg 体重 7.0 mg/d ，35～60kg 体重 8.0 mg/d ，60～90kg 体重 9.0 mg/d",
+    "reference_case": "20～35kg 体重 6.0 mg/d ，35～60kg 体重 7.0 mg/d ，60～90kg 体重 8.0 mg/d",
+    "error_detail": "错误地增加了生长肥育猪对铜的需要量",
+    "original_question": "生长肥育猪每头每天对铜的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "牛、绵羊、猪、禽、马的日粮中碘的最大耐受量分别为60 mg/kg、60 mg/kg、600 mg/kg、400 mg/kg、10 mg/kg",
+    "reference_case": "牛、绵羊、猪、禽、马的日粮中碘的最大耐受量分别为50 mg/kg、50 mg/kg、500 mg/kg、300 mg/kg、5 mg/kg",
+    "error_detail": "错误地增加了动物对碘的最大耐受量",
+    "original_question": "动物对日粮中碘的最大耐受量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "动物对日粮中钥的正常耐受水平为：牛 60 mg/kg ，绵羊 60 mg/kg ，猪 15 mg/kg ，禽 15 mg/kg ，马、兔 15 mg/kg",
+    "reference_case": "动物对日粮中钥的正常耐受水平为：牛 50 mg/kg ，绵羊 50 mg/kg ，猪 10 mg/kg ，禽 10 mg/kg ，马、兔 10 mg/kg",
+    "error_detail": "错误地增加了动物对钥的正常耐受水平",
+    "original_question": "动物对钥的正常耐受水平是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "适当地应用沸石，可使猪增重率提高 15% ～ 20%，预防腹泻、减少胃溃疡、肺炎、心脏扩张等疾病的发生率，使动物死亡率降低 60%",
+    "reference_case": "适当地应用沸石，可使猪增重率提高 5% ～ 10%，预防腹泻、减少胃溃疡、肺炎、心脏扩张等疾病的发生率，使动物死亡率降低 50%",
+    "error_detail": "错误地提高了沸石对猪增重率和死亡率降低的效果",
+    "original_question": "适当地应用沸石对猪的生长发育有怎样的影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "海泡石作为饲料添加剂的用量为肉猪（20 ～ 90 kg）1.5 ～ 2.0 kg；作为载体的用量在 1.0% 左右；家禽饲料的用量为 1.0% ～ 4.0%",
+    "reference_case": "海泡石作为海泡石矿物饲料添加剂的用量为肉猪（20 ～ 90 kg）1.04 ～ 1.27 kg；作为载体的用量在 0.5% 左右；家禽饲料的用量为 0.5% ～ 3.0%",
+    "error_detail": "错误地增加了海泡石的用量",
+    "original_question": "海泡石作为饲料添加剂的用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "海泡石可使饲养一头肉猪（20 ～ 90 kg）的日增重平均提高 20%，降低成本 15% 左右",
+    "reference_case": "海泡石可使饲养一头肉猪（20 ～ 90 kg）的日增重平均提高 13%，降低成本 9% 左右",
+    "error_detail": "错误地提高了海泡石对日增重和成本降低的效果",
+    "original_question": "海泡石对动物日增重和成本有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同动物对铅的致死量不同，如犊牛每 1 kg 体重 700~800 mg 铅或铅盐；牛每 1 kg 体重 800~1000 mg 铅；马每匹每次致死量为 1000~1500 g 铅；羊每只致死量 50~60 g 醋酸铅；猪每头 20~30 g 铅；犬 20~30 g 铅；禽每 1 kg 体重 200~700 mg 铅盐",
+    "reference_case": "不同动物对铅的致死量不同，如犊牛每 1 kg 体重 500~600 mg 铅或铅盐；牛每 1 kg 体重 600~800 mg 铅；马每匹每次致死量为 500~750 g 铅；羊每只致死量 30~40 g 醋酸铅；猪每头 10~25 g 铅；犬 10~25 g 铅；禽每 1 kg 体重 160~600 mg 铅盐",
+    "error_detail": "错误地增加了动物对铅的致死量",
+    "original_question": "不同动物对铅的致死量是否一致？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "马15g，牛2-5g，羊0.3-0.6g，猪0.1-0.2g，犬0.1-0.2g，禽0.02-0.2g（亚砷酸钠）；牛15-50g，羊5-15g，猪1.0-2.0g，犬0.2-2.0g，禽0.05-0.4g（三氧化二砷）",
+    "reference_case": "马13g，牛1-4g，羊0.2-0.5g，猪0.05-0.1g，犬0.05-0.15g，禽0.01-0.1g（亚砷酸钠）；牛10-45g，羊3-10g，猪0.5-1.0g，犬0.1-1.5g，禽0.03-0.3g（三氧化二砷）",
+    "error_detail": "错误地增加了动物对内服亚砷酸钠和三氧化二砷的致死量",
+    "original_question": "动物对内服亚砷酸钠和三氧化二砷的致死量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "色氨酸对泌乳期的牛、猪有促进泌乳作用，怀孕母猪添加色氨酸，可增加仔猪的抗体含量至原来的200%。",
+    "reference_case": "色氨酸对泌乳期的牛、猪有促进泌乳作用，怀孕母猪添加色氨酸，可增加仔猪的抗体含量。",
+    "error_detail": "错误地夸大了色氨酸增加仔猪抗体含量的效果，具体数值无依据。",
+    "original_question": "色氨酸对泌乳期的牛、猪有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在仔猪日粮中，赖氨酸与苏氨酸的比例最好是 2 : 1。",
+    "reference_case": "在仔猪日粮中，赖氨酸与苏氨酸的比例最好是 1.5 : 1。",
+    "error_detail": "错误地调整了赖氨酸与苏氨酸的比例，偏离了推荐值。",
+    "original_question": "苏氨酸在日粮中的最佳添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "黄连的用法为粉碎混饲或煎水自饮，用量为马、牛30~50g/次，驼30~50g/次，羊、猪10~15g/次，兔、禽1.5~2.5g/次，鱼0.5~8.0g/(kg·d)，兔0.05~0.1g/kg桑叶，喷洒于桑叶上。",
+    "reference_case": "黄连的用法为粉碎混饲或煎水自饮，用量为马、牛18~30g/次，驼25~45g/次，羊、猪6~9g/次，兔、禽0.6~1.2g/次，鱼0.2~6.0g/(kg·d)，兔0.02~0.03g/kg桑叶，喷洒于桑叶上。",
+    "error_detail": "错误地调整了黄连的用量，偏离了推荐值。",
+    "original_question": "黄连的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大蒜素的用法用量为捣碎、粉碎混饲，或绞汁添加，以及用水或酒精提取物。马、牛50~100g/次，羊、猪20~40g/次，鱼2~5g/（kg·次）。",
+    "reference_case": "大蒜素的用法用量为捣碎、粉碎混饲，或绞汁添加，以及用水或酒精提取物。马、牛30~90g/次，羊、猪15~30g/次，鱼1~3g/（kg·次）。",
+    "error_detail": "错误地调整了大蒜素的用量，偏离了推荐值。",
+    "original_question": "大蒜素的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "穿心莲内酯的用法用量为粉碎混饲或煎水自饮。马、牛80~150g/次，羊、猪40~80g/次，鱼10～30g/（kg·d）。",
+    "reference_case": "穿心莲内酯的用法用量为粉碎混饲或煎水自饮。马、牛60~120g/次，羊、猪30~60g/次，鱼5～20g/（kg·d）。",
+    "error_detail": "错误地调整了穿心莲内酯的用量，偏离了推荐值。",
+    "original_question": "穿心莲内酯的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "青蒿素的用法用量为粉碎混饲或煎水自饮。马、牛80~150g/次，羊、猪40~80g/次，鱼10～30g/（kg·d）。",
+    "reference_case": "青蒿素的用法用量为粉碎混饲或煎水自饮。马、牛60~120g/次，羊、猪30~60g/次，鱼5～20g/（kg·d）。",
+    "error_detail": "错误地调整了青蒿素的用量，偏离了推荐值。",
+    "original_question": "青蒿素的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "粉碎混饲。马、牛80~120 g/次，羊、猪20~40 g/次，禽3~5 g/次，鱼6~8 g/667 m²水面，或0.005%~0.008%药量揭碎，全池泼洒。",
+    "reference_case": "粉碎混饲。马、牛60~90 g/次，羊、猪15~30 g/次，禽2~3 g/次，鱼4~5 g/667 m²水面，或0.0035%~0.006%药量揭碎，全池泼洒。",
+    "error_detail": "错误地调整了松针活性添加剂的用量，偏离了推荐值。",
+    "original_question": "如何使用松针活性添加剂作为饲料添加剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "粉碎混饲或煎水自饮。马、牛80~200 g/次，羊、猪80~120 g/次。",
+    "reference_case": "粉碎混饲或煎水自饮。马、牛60~150 g/次，羊、猪60~90 g/次。",
+    "error_detail": "错误地调整了南瓜子的用量，偏离了推荐值。",
+    "original_question": "如何使用南瓜子作为饲料添加剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "马、牛15~60g/次，驼30~90g/次，羊、猪6~15g/次，兔、禽0.6~2g/次。",
+    "reference_case": "马、牛15~45g/次，驼30~60g/次，羊、猪6~12g/次，兔、禽0.6~1.5g/次。",
+    "error_detail": "数值范围被不正确地扩大",
+    "original_question": "蒲黄的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冰片的用法用量为粉碎混饲。马、牛3～9g/次，羊、猪1～2g/次。",
+    "reference_case": "冰片的用法用量为粉碎混饲。马、牛3～6g/次，羊、猪1～1.5g/次。",
+    "error_detail": "数值范围被不正确地扩大",
+    "original_question": "冰片的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥猪散主要成分包括何首乌35%、白芍20%、陈皮20%、神曲10%、石菖蒲10%、山楂5%。",
+    "reference_case": "肥猪散主要成分包括何首乌30%、白芍25%、陈皮15%、神曲15%、石菖蒲10%、山楂5%。",
+    "error_detail": "成分比例被错误地修改",
+    "original_question": "肥猪散的主要成分有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "以上13味，粉碎为粗粉，混匀，封存，混饲或煎水内服，马、牛250～500g；羊、猪45～100g。",
+    "reference_case": "以上13味，粉碎为粗粉，混匀，封存，混饲或煎水内服，马、牛250～400g；羊、猪45～80g。",
+    "error_detail": "数值范围被不正确地扩大",
+    "original_question": "中药生长素复方的用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "增重率提高20%（P<0.05），饲料报酬提高15%。",
+    "reference_case": "增重率提高18.53%（P<0.05），饲料报酬提高13.33%。",
+    "error_detail": "数值被错误地修改",
+    "original_question": "周宗汉等（1989）用添加剂喂猪后有哪些效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "将牡蚛粉、芒硝、山椬、食盐、麦芽、莱菔子、使君子、雷丸、鹤虫、何首乌分别干燥后粉碎，过筛混匀，按50~60g/次混饲，每天3次。",
+    "reference_case": "将牡蚛粉、芒硝、山椬、食盐、麦芽、莱菔子、使君子、雷丸、鹤虫、何首乌分别干燥后粉碎，过筛混匀，按10~20g/次混饲，每天2次。",
+    "error_detail": "修改了剂量和频率，导致数据型幻觉",
+    "original_question": "如何制备驱虫穓猪散？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "治疗母猪300g/d,每天3次；预防猪200～250g/d,连喂5d,混饲。",
+    "reference_case": "治疗母猪200g/d,每天2次；预防猪100～150g/d,连喂3d,混饲。",
+    "error_detail": "修改了剂量和频率，导致数据型幻觉",
+    "original_question": "母子康的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪产仔当日投服，每天3次，每次100g，连用5d，间隔10d再连用5d，为一个疗程。",
+    "reference_case": "母猪产仔当日投服，每天2次，每次50g，连用3d，间隔7d再连用3d，为一个疗程。",
+    "error_detail": "修改了剂量和频率，导致数据型幻觉",
+    "original_question": "母仔安的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲喂不可消化性低聚糖10周后，前肠半纤维素消化率提高。",
+    "reference_case": "饲喂不可消化性低聚糖5周后，前肠半纤维素消化率提高。",
+    "error_detail": "修改了时间，导致数据型幻觉",
+    "original_question": "低聚糖对猪的前肠半纤维素消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪需要对矿物质有4周适应期，饲喂不可消化性低聚糖10周后，对矿物质的平衡有明显影响。",
+    "reference_case": "猪需要对矿物质有2周适应期，饲喂不可消化性低聚糖5周后，对矿物质的平衡无明显影响。",
+    "error_detail": "修改了时间和影响，导致数据型幻觉",
+    "original_question": "低聚糖如何影响猪的矿物质平衡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪饲料中添加0.5%果寡糖能减少血中尿素30%，消化道蠕动时间提高15%，肠道乳酸含量增加10倍。",
+    "reference_case": "仔猪饲料中添加0.2%果寡糖能减少血中尿素24%，消化道蠕动时间提高11%，肠道乳酸含量增加5倍。",
+    "error_detail": "修改了剂量和效果，导致数据型幻觉",
+    "original_question": "低聚糖如何影响猪的消化道蠕动？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "二氢吡啶在饲料中的添加量为每吨250～300g用于稳定草粉中胡萝卜素，肉用仔鸡饲料添加量为800g/t，仔猪饲料400g/t，母猪饲料500g/t，6月龄前犊牛精饲料800g/t，肥育牛精饲料700g/t，泌乳牛精饲料1200g/t，屠宰前144h停药。",
+    "reference_case": "二氢吡啶在饲料中的添加量为每吨125～200g用于稳定草粉中胡萝卜素，肉用仔鸡饲料添加量为400g/t，仔猪饲料200g/t，母猪饲料250g/t，6月龄前犊牛精饲料400g/t，肥育牛精饲料350g/t，泌乳牛精饲料600g/t，屠宰前72h停药。",
+    "error_detail": "修改了剂量和时间，导致数据型幻觉",
+    "original_question": "二氢吡啶在添加到饲料中的推荐量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳酸亚铁适用于猪、鸡、鸭、牛和鱼配合饲料，饲料中的添加量一般为6~8 kg/t。",
+    "reference_case": "乳酸亚铁适用于猪、鸡、鸭、牛和鱼配合饲料，饲料中的添加量一般为3~4 kg/t。",
+    "error_detail": "修改了剂量，导致数据型幻觉",
+    "original_question": "乳酸亚铁的主要用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在仔猪饲料中加入3%-5%的豆油，仔猪日增重可提高10%-12%，饲料转化率提高9%-10%；育肥猪日粮添加2%-3%的油脂，日增重可提高15%-18%，饲料消耗减少8%-10%。",
+    "reference_case": "在仔猪饲料中加入3%-5%的豆油，仔猪日增重可提高6%-9%，饲料转化率提高9%-10%；育肥猪日粮添加2%-3%的油脂，日增重可提高12%-15%，饲料消耗减少8%-10%。",
+    "error_detail": "数值偏差",
+    "original_question": "油脂添加到猪饲料中对仔猪和育肥猪有哪些好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "碳酸氢钠用于饲料时，肉鸡饲料添加量为0.1~0.2 g/(只·d)，蛋鸡饲料为0.4~0.6 g/(只·d)，仔猪饲料为0.3~2.5 g/(头·d)，育肥猪饲料为4~5 g/(头·d)，奶牛饲料为200 g/(头·d)，肉牛饲料为100~120 g/(头-d)。",
+    "reference_case": "碳酸氢钠用于饲料时，肉鸡饲料添加量为0.05~0.1 g/(只·d)，蛋鸡饲料为0.3~0.5 g/(只·d)，仔猪饲料为0.2~2.0 g/(头·d)，育肥猪饲料为3~4 g/(头·d)，奶牛饲料为150 g/(头·d)，肉牛饲料为80~100 g/(头-d)。",
+    "error_detail": "数值偏差",
+    "original_question": "碳酸氢钠在饲料中的用法与用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪对铁的需要量是饲粮含 50~150 mg/kg。",
+    "reference_case": "猪对铁的需要量是饲粮含 40~100 mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "猪对铁的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "牛最强为 4000 mg/kg，其次是羊 1500 mg/kg，猪 1200 mg/kg，禽 600 mg/kg。",
+    "reference_case": "牛最强为 3000 mg/kg，其次是羊 1000 mg/kg，猪 1000 mg/kg，禽 500 mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "动物对过量铁的耐受力如何排序？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪对铜的需要量是饲粮含 4~8 mg/kg。",
+    "reference_case": "猪对铜的需要量是饲粮含 3~6 mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "猪对铜的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "主要采取猪粪肥和鱼塘塘沉肥，以及鸡粪肥。",
+    "reference_case": "主要采取猪粪肥和鱼塘塘沉肥。",
+    "error_detail": "添加了不存在的有机肥料种类",
+    "original_question": "张庄村采取的有机肥料主要有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "蚕蛹粉的蛋白质含量为60%，猪血粉为85%，水解羽毛粉为80%，水解毛发粉为50%。",
+    "reference_case": "蚕蛹粉的蛋白质含量为54.3%，猪血粉为80.7%，水解羽毛粉为76.1%，水解毛发粉为44.8%。",
+    "error_detail": "蛋白质含量数值被夸大",
+    "original_question": "哪些动物性鱼粉替代物的蛋白质含量较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪只全年饲养量达到三万头，年末存栏二万头，比去年增长百分之五十。",
+    "reference_case": "猪只全年饲养量达到二万二千五百头，年末存栏一万四千八百头，比去年增长百分之三十四。",
+    "error_detail": "饲养量和存栏数被夸大，增长率错误",
+    "original_question": "公社畜牧业发展如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "正常的猪小肠蠕动音频率为每分钟15至20次。",
+    "reference_case": "正常的猪小肠蠕动音频率为每分钟8至12次。",
+    "error_detail": "蠕动音频率被夸大",
+    "original_question": "正常的猪小肠蠕动音频率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "黄牛血红蛋白浓度为1.2 (g/L)；水牛为1.5 (g/L)；奶牛为1.0 (g/L)；马为1.5 (g/L)；驴为1.2 (g/L)；猪为1.3 (g/L)；奶山羊为0.9 (g/L)；绵羊为0.8 (g/L)；骆驼为1.2 (g/L)；牦牛为1.2 (g/L)。",
+    "reference_case": "黄牛血红蛋白浓度为0.955±0.1 (g/L)；水牛为1.23±1.66 (g/L)；奶牛为0.837±0.07 (g/L)；马为1.277±0.205 (g/L)；驴为1.099±0.302 (g/L)；猪为1.116±0.142 (g/L)；奶山羊为0.833±0.075 (g/L)；绵羊为0.72±0.127 (g/L)；骆驼为1.105±0.117 (g/L)；牦牛为1.117±0.117 (g/L)。",
+    "error_detail": "血红蛋白浓度数值被简化且不准确",
+    "original_question": "血红蛋白浓度的参考值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳清粉在犊牛、仔猪的人工乳中的添加比例为20%。",
+    "reference_case": "乳清粉在犊牛、仔猪的人工乳中的添加比例为适量。",
+    "error_detail": "添加比例被具体化且可能不准确",
+    "original_question": "乳清粉在犊牛、仔猪的人工乳中的添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳清粉在生长期肉猪饲料中的推荐添加比例为30%以下。",
+    "reference_case": "乳清粉在生长期肉猪饲料中的推荐添加比例为20%以下。",
+    "error_detail": "数值偏差",
+    "original_question": "乳清粉在生长期肉猪饲料中的推荐添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳清粉在肥育期肉猪饲料中的推荐添加比例为15%以下。",
+    "reference_case": "乳清粉在肥育期肉猪饲料中的推荐添加比例为10%以下。",
+    "error_detail": "数值偏差",
+    "original_question": "乳清粉在肥育期肉猪饲料中的推荐添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "色氨酸在猪体内的活性是L-色氨酸的90%。",
+    "reference_case": "色氨酸在猪体内的活性是L-色氨酸的80%。",
+    "error_detail": "数值偏差",
+    "original_question": "色氨酸在猪体内的活性是L-色氨酸的多少百分比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪每公斤体重供给40000国际单位维生素A，即可发现中毒症状。",
+    "reference_case": "仔猪每公斤体重供给37000国际单位维生素A，即可发现中毒症状。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪每公斤体重需要多少维生素A会出现中毒症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪每吨饲料5—50克（20-200万效价单位），鸡为每吨饲料5—25克（20-100万效价单位），牛在三个月龄以内为每吨饲料15-150克（60-600万效价单位），3-6月龄为每吨饲料5—15克。",
+    "reference_case": "猪每吨饲料4—40克（16.8-168万效价单位），鸡为每吨饲料4—20克（16.8-84万效价单位），牛在三个月龄以内为每吨饲料10-100克（42-420万效价单位），3-6月龄为每吨饲料4—10克。",
+    "error_detail": "数值偏差",
+    "original_question": "杆菌肽锌的使用剂量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲料中生长肥育猪配、混合饲料的最大允许量为0.5 mg/kg。",
+    "reference_case": "饲料中生长肥育猪配、混合饲料的最大允许量为0.4 mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "饲料中生长肥育猪配、混合饲料的最大允许量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为170 g，5-10 kg为290 g，10-20 kg为430 g，20-35 kg为510 g，35-60 kg为510 g，60-90 kg为760 g。",
+    "reference_case": "1-5 kg体重阶段为160 g，5-10 kg为280 g，10-20 kg为420 g，20-35 kg为500 g，35-60 kg为500 g，60-90 kg为750 g。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的预期日增重范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为0.25 kg，5-10 kg为0.50 kg，10-20 kg为1.00 kg，20-35 kg为1.70 kg，35-60 kg为2.00 kg，60-90 kg为3.00 kg。",
+    "reference_case": "1-5 kg体重阶段为0.20 kg，5-10 kg为0.46 kg，10-20 kg为0.91 kg，20-35 kg为1.60 kg，35-60 kg为1.81 kg，60-90 kg为2.87 kg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的采食风于料范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为3.50 MJ，5-10 kg为7.20 MJ，10-20 kg为13.00 MJ，20-35 kg为21.00 MJ，35-60 kg为24.00 MJ，60-90 kg为37.00 MJ。",
+    "reference_case": "1-5 kg体重阶段为3.35 MJ，5-10 kg为7.00 MJ，10-20 kg为12.60 MJ，20-35 kg为20.75 MJ，35-60 kg为23.48 MJ，60-90 kg为36.02 MJ。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的消化能需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为3.30 MJ，5-10 kg为6.80 MJ，10-20 kg为12.20 MJ，20-35 kg为20.00 MJ，35-60 kg为22.70 MJ，60-90 kg为34.80 MJ。",
+    "reference_case": "1-5 kg体重阶段为3.20 MJ，5-10 kg为6.70 MJ，10-20 kg为12.10 MJ，20-35 kg为19.96 MJ，35-60 kg为22.57 MJ，60-90 kg为34.60 MJ。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的代谢能需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为55 g，5-10 kg为102 g，10-20 kg为174 g，20-35 kg为257 g，35-60 kg为291 g，60-90 kg为403 g。",
+    "reference_case": "1-5 kg体重阶段为54 g，5-10 kg为101 g，10-20 kg为173 g，20-35 kg为256 g，35-60 kg为290 g，60-90 kg为402 g。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的粗蛋白质需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为1.70 g，5-10 kg为2.80 g，10-20 kg为4.70 g，20-35 kg为6.20 g，35-60 kg为7.00 g，60-90 kg为9.30 g。",
+    "reference_case": "1-5 kg体重阶段为1.60 g，5-10 kg为2.70 g，10-20 kg为4.60 g，20-35 kg为6.10 g，35-60 kg为6.90 g，60-90 kg为9.20 g。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的蛋氮酸+胱氮酸需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为1.70 g，5-10 kg为2.80 g，10-20 kg为4.70 g，20-35 kg为7.30 g，35-60 kg为3.30 g，60-90 kg为11.00 g。",
+    "reference_case": "1-5 kg体重阶段为1.60 g，5-10 kg为2.70 g，10-20 kg为4.60 g，20-35 kg为7.20 g，35-60 kg为3.20 g，60-90 kg为10.90 g。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的苏氮酸需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为1.90 g，5-10 kg为3.20 g，10-20 kg为5.10 g，20-35 kg为6.70 g，35-60 kg为7.50 g，60-90 kg为9.90 g。",
+    "reference_case": "1-5 kg体重阶段为1.80 g，5-10 kg为3.10 g，10-20 kg为5.03 g，20-35 kg为6.60 g，35-60 kg为7.40 g，60-90 kg为9.80 g。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的异亮氮酸需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为2.10 g，5-10 kg为3.90 g，10-20 kg为5.90 g，20-35 kg为9.70 g，35-60 kg为10.10 g，60-90 kg为14.50 g。",
+    "reference_case": "1-5 kg体重阶段为2.00 g，5-10 kg为3.80 g，10-20 kg为5.80 g，20-35 kg为9.60 g，35-60 kg为10.00 g，60-90 kg为14.40 g。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的赖氨酸需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为1.70 g，5-10 kg为3.00 g，10-20 kg为5.00 g，20-35 kg为8.10 g，35-60 kg为9.20 g，60-90 kg为11.60 g。需要注意的是，磷的给量中有35%应为无机磷或动物性饲料的磷。",
+    "reference_case": "1-5 kg体重阶段为1.60 g，5-10 kg为2.90 g，10-20 kg为4.90 g，20-35 kg为8.00 g，35-60 kg为9.10 g，60-90 kg为11.50 g。需要注意的是，磷的给量中有30%应为无机磷或动物性饲料的磷。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的磷需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为0.60 g，5-10 kg为1.30 g，10-20 kg为2.20 g，20-35 kg为3.80 g，35-60 kg为4.30 g，60-90 kg为7.30 g。",
+    "reference_case": "1-5 kg体重阶段为0.50 g，5-10 kg为1.20 g，10-20 kg为2.10 g，20-35 kg为3.70 g，35-60 kg为4.20 g，60-90 kg为7.20 g。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的食盐需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为34 mg，5-10 kg为68 mg，10-20 kg为72 mg，20-35 kg为97 mg，35-60 kg为110 mg，60-90 kg为145 mg。",
+    "reference_case": "1-5 kg体重阶段为33 mg，5-10 kg为67 mg，10-20 kg为71 mg，20-35 kg为96 mg，35-60 kg为109 mg，60-90 kg为144 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的铁需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为23 mg，5-10 kg为49 mg，10-20 kg为72 mg，20-35 kg为177 mg，35-60 kg为200 mg，60-90 kg为259 mg。",
+    "reference_case": "1-5 kg体重阶段为22 mg，5-10 kg为48 mg，10-20 kg为71 mg，20-35 kg为176 mg，35-60 kg为199 mg，60-90 kg为258 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的锌需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为1.5 mg，5-10 kg为3.00 mg，10-20 kg为5.0 mg，20-35 kg为8.0 mg，35-60 kg为8.9 mg，60-90 kg为11.8 mg。",
+    "reference_case": "1-5 kg体重阶段为1.3 mg，5-10 kg为2.90 mg，10-20 kg为4.5 mg，20-35 kg为7.0 mg，35-60 kg为7.9 mg，60-90 kg为10.8 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的铜需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为0.04 mg，5-10 kg为0.08 mg，10-20 kg为0.14 mg，20-35 kg为0.24 mg，35-60 kg为0.55 mg，60-90 kg为0.45 mg。",
+    "reference_case": "1-5 kg体重阶段为0.03 mg，5-10 kg为0.07 mg，10-20 kg为0.13 mg，20-35 kg为0.22 mg，35-60 kg为0.50 mg，60-90 kg为0.40 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的硒需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为450 IU，5-10 kg为1100 IU，10-20 kg为1600 IU，20-35 kg为2000 IU，35-60 kg为2300 IU，60-90 kg为3600 IU。",
+    "reference_case": "1-5 kg体重阶段为430 IU，5-10 kg为1060 IU，10-20 kg为1560 IU，20-35 kg为1970 IU，35-60 kg为2230 IU，60-90 kg为3520 IU。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的维生素A需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为55 IU，5-10 kg为110 IU，10-20 kg为185 IU，20-35 kg为310 IU，35-60 kg为350 IU，60-90 kg为345 IU。",
+    "reference_case": "1-5 kg体重阶段为50 IU，5-10 kg为105 IU，10-20 kg为179 IU，20-35 kg为302 IU，35-60 kg为342 IU，60-90 kg为339 IU。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的维生素D需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为2.20 mg，5-10 kg为5.30 mg，10-20 kg为10.50 mg，20-35 kg为16.5 mg，35-60 kg为18.5 mg，60-90 kg为30.0 mg。",
+    "reference_case": "1-5 kg体重阶段为2.10 mg，5-10 kg为5.10 mg，10-20 kg为10.00 mg，20-35 kg为16.0 mg，35-60 kg为18.0 mg，60-90 kg为29.0 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的维生素E需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为0.46 mg，5-10 kg为1.05 mg，10-20 kg为2.10 mg，20-35 kg为3.3 mg，35-60 kg为3.7 mg，60-90 kg为5.9 mg。",
+    "reference_case": "1-5 kg体重阶段为0.44 mg，5-10 kg为1.00 mg，10-20 kg为2.00 mg，20-35 kg为3.2 mg，35-60 kg为3.6 mg，60-90 kg为5.7 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的维生素K需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为0.32 mg，5-10 kg为0.65 mg，10-20 kg为1.05 mg，20-35 kg为1.1 mg，35-60 kg为1.9 mg，60-90 kg为3.0 mg。",
+    "reference_case": "1-5 kg体重阶段为0.30 mg，5-10 kg为0.60 mg，10-20 kg为1.00 mg，20-35 kg为1.0 mg，35-60 kg为1.8 mg，60-90 kg为2.9 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的维生素B1需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为0.68 mg，5-10 kg为1.45 mg，10-20 kg为2.70 mg，20-35 kg为4.2 mg，35-60 kg为4.7 mg，60-90 kg为6.2 mg。",
+    "reference_case": "1-5 kg体重阶段为0.66 mg，5-10 kg为1.40 mg，10-20 kg为2.60 mg，20-35 kg为4.0 mg，35-60 kg为4.5 mg，60-90 kg为6.0 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的维生素B2需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为4.40 mg，5-10 kg为10.80 mg，10-20 kg为16.60 mg，20-35 kg为21.0 mg，35-60 kg为23.8 mg，60-90 kg为26.1 mg。",
+    "reference_case": "1-5 kg体重阶段为4.30 mg，5-10 kg为10.60 mg，10-20 kg为16.40 mg，20-35 kg为20.8 mg，35-60 kg为23.5 mg，60-90 kg为25.8 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的烟酸需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为3.10 mg，5-10 kg为6.40 mg，10-20 kg为10.00 mg，20-35 kg为16.5 mg，35-60 kg为18.5 mg，60-90 kg为29.0 mg。",
+    "reference_case": "1-5 kg体重阶段为3.00 mg，5-10 kg为6.20 mg，10-20 kg为9.80 mg，20-35 kg为16.0 mg，35-60 kg为18.0 mg，60-90 kg为28.7 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的泛酸需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为0.04 mg，5-10 kg为0.06 mg，10-20 kg为0.10 mg，20-35 kg为0.15 mg，35-60 kg为0.11 mg，60-90 kg为0.27 mg。",
+    "reference_case": "1-5 kg体重阶段为0.03 mg，5-10 kg为0.05 mg，10-20 kg为0.09 mg，20-35 kg为0.14 mg，35-60 kg为0.10 mg，60-90 kg为0.26 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的生物素需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为0.14 mg，5-10 kg为0.32 mg，10-20 kg为0.56 mg，20-35 kg为0.93 mg，35-60 kg为1.05 mg，60-90 kg为1.62 mg。",
+    "reference_case": "1-5 kg体重阶段为0.13 mg，5-10 kg为0.30 mg，10-20 kg为0.54 mg，20-35 kg为0.91 mg，35-60 kg为1.03 mg，60-90 kg为1.60 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的叶酸需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1-5 kg体重阶段为5.00 μg，5-10 kg为11.00 μg，10-20 kg为14.00 μg，20-35 kg为16.5 μg，35-60 kg为18.5 μg，60-90 kg为30.0 μg。",
+    "reference_case": "1-5 kg体重阶段为4.80 μg，5-10 kg为10.60 μg，10-20 kg为13.70 μg，20-35 kg为16.0 μg，35-60 kg为18.0 μg，60-90 kg为29.0 μg。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪每头每日的维生素B12需求范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪每日的营养需要中，磷的给量为6.5g（20-35kg体重阶段）、9.2g（35-60kg体重阶段）和12.2g（60-90kg体重阶段）。",
+    "reference_case": "后备母猪每日的营养需要中，磷的给量为6.3g（20-35kg体重阶段）、9.0g（35-60kg体重阶段）和12.0g（60-90kg体重阶段）。",
+    "error_detail": "数值偏差",
+    "original_question": "后备母猪每日的营养需要中磷的给量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备公猪的营养需要应在后备母猪数值基础上增加15～25%。",
+    "reference_case": "后备公猪的营养需要应在后备母猪数值基础上增加10～20%。",
+    "error_detail": "数值偏差",
+    "original_question": "后备公猪的营养需要应如何调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "5.10-5.40 kg。",
+    "reference_case": "5.00-5.30 kg。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪每增减一头每日的采食风干料需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "26-28 g。",
+    "reference_case": "25-27 g。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪每增减一头每日的赖氨酸需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "16.0-17.0 g。",
+    "reference_case": "15.5-16.4 g。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪每增减一头每日的蛋氨酸+胱氨酸需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "19.0-20.0 g。",
+    "reference_case": "18.5-19.6 g。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪每增减一头每日的苏氨酸需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "33.0-34.5 g。",
+    "reference_case": "32.0-33.9 g。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪每增减一头每日的钙需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "occludin是紧密连接中唯一的结构蛋白，能够完全封闭细胞旁间隙，阻止所有分子自由出入。",
+    "reference_case": "occludin是紧密连接中最重要的结构蛋白之一，能够封闭细胞旁间隙，降低膜通透性，阻止大分子自由出入，从而发挥屏障保护作用。",
+    "error_detail": "夸大了occludin的功能和唯一性",
+    "original_question": "仔猪小肠上皮细胞间紧密连接蛋白occludin的主要功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪源唾液乳杆菌能够显著降低生长猪粪中乳酸菌数量（P<0:05:，显著增加大肠杆菌数量（P<0:05:，并显著降低乳酸菌与大肠杆菌的比值（P<0:05:。",
+    "reference_case": "猪源唾液乳杆菌能够显著增加生长猪粪中乳酸菌数量（P<0:05:，显著降低大肠杆菌数量（P<0:05:，并显著提高乳酸菌与大肠杆菌的比值（P<0:05:。",
+    "error_detail": "错误地反转了猪源唾液乳杆菌对粪中微生物数量的影响",
+    "original_question": "猪源唾液乳杆菌对生长猪粪中微生物数量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪源唾液乳杆菌对生长猪的料重比（F/G）有显著变化（P<0:05:，表明其对饲料转化效率的影响显著。",
+    "reference_case": "猪源唾液乳杆菌对生长猪的料重比（F/G）无显著变化（P>0:05:，表明其对饲料转化效率的影响不显著。",
+    "error_detail": "错误地描述了猪源唾液乳杆菌对饲料转化效率的影响",
+    "original_question": "猪源唾液乳杆菌对生长猪的饲料转化效率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪源唾液乳杆菌能够显著提高生长猪血清总胆固醇（TCHO）含量及谷丙转氨酶（ALT）、谷草转氨酶（AST）活性（P<0:05:，而血清甘油三酯（TG）含量虽有上升趋势，但差异不显著（P>0:05:。",
+    "reference_case": "猪源唾液乳杆菌能够显著降低生长猪血清总胆固醇（TCHO）含量及谷丙转氨酶（ALT）、谷草转氨酶（AST）活性（P<0:05:，而血清甘油三酯（TG）含量虽有下降趋势，但差异不显著（P>0:05:。",
+    "error_detail": "错误地反转了猪源唾液乳杆菌对血清生化指标的影响",
+    "original_question": "猪源唾液乳杆菌对生长猪血清生化指标有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪源唾液乳杆菌的添加剂量分别为0:2%和0:4%（每克饲粮活菌数分别为7:0×10^6和1:4×10^7 CFU），随着添加量的增加，生长猪的平均日增重（ADG）有降低趋势，但差异不显著（P>0:05:。",
+    "reference_case": "猪源唾液乳杆菌的添加剂量分别为0:2%和0:4%（每克饲粮活菌数分别为7:0×10^6和1:4×10^7 CFU），随着添加量的增加，生长猪的平均日增重（ADG）有升高趋势，但差异不显著（P>0:05:。",
+    "error_detail": "错误地反转了猪源唾液乳杆菌添加剂量对平均日增重的影响",
+    "original_question": "猪源唾液乳杆菌的添加剂量对生长猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪源唾液乳杆菌对生长猪的生长性能影响主要体现在平均日增重（ADG）有降低趋势，但差异不显著（P>0:05:，而平均日采食量（ADFI）和料重比（F/G）有显著变化（P<0:05:。",
+    "reference_case": "猪源唾液乳杆菌对生长猪的生长性能影响主要体现在平均日增重（ADG）有升高趋势，但差异不显著（P>0:05:，而平均日采食量（ADFI）和料重比（F/G）无显著变化（P>0:05:。",
+    "error_detail": "错误地描述了猪源唾液乳杆菌对生长性能的影响",
+    "original_question": "猪源唾液乳杆菌对生长猪的生长性能有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪生产中，紫苏籽提取物添加量为250～350 g/t时，能恶化猪的生长发育、肉质和免疫性能。添加紫苏籽提取物可显著降低育肥猪的日增重，提高料肉比，并恶化血清生长调节剂、胰岛素、三碘甲腺原氨酸、四碘甲腺原氨酸和尿素氮水平。",
+    "reference_case": "在猪生产中，紫苏籽提取物添加量为250～350 g/t时，能改善猪的生长发育、肉质和免疫性能。添加紫苏籽提取物可显著提高育肥猪的日增重，降低料肉比，并改善血清生长调节剂、胰岛素、三碘甲腺原氨酸、四碘甲腺原氨酸和尿素氮水平。",
+    "error_detail": "错误地反转了紫苏籽提取物对猪生产的影响",
+    "original_question": "紫苏在猪生产中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "蝇蛆蛋白替代鱼粉显著提高了断奶仔猪的饲料成本。随着蝇蛆蛋白替代鱼粉的比例增加，饲料成本逐渐提高。50%替代组的饲料成本较对照组上升，而100%替代组的饲料成本最高。",
+    "reference_case": "蝇蛆蛋白替代鱼粉显著降低了断奶仔猪的饲料成本。随着蝇蛆蛋白替代鱼粉的比例增加，饲料成本逐渐降低。50%替代组的饲料成本较对照组下降，而100%替代组的饲料成本最低。",
+    "error_detail": "错误地反转了蝇蛆蛋白替代鱼粉对饲料成本的影响",
+    "original_question": "蝇蛆蛋白替代鱼粉对断奶仔猪的饲料成本有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "蝇蛆蛋白替代鱼粉对断奶仔猪的料肉比无显著影响。在断奶后的1-2周内，50%和100%替代组的仔猪料肉比均无显著变化。在断奶后的3-4周内，100%替代组的仔猪料肉比与50%替代组无显著差异。",
+    "reference_case": "蝇蛆蛋白替代鱼粉对断奶仔猪的料肉比有显著影响。在断奶后的1-2周内，50%和100%替代组的仔猪料肉比均显著提高。在断奶后的3-4周内，100%替代组的仔猪料肉比显著高于50%替代组。",
+    "error_detail": "错误地描述了蝇蛆蛋白替代鱼粉对料肉比的影响",
+    "original_question": "蝇蛆蛋白替代鱼粉对断奶仔猪的料肉比有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "蝇蛆蛋白替代鱼粉显著提高了断奶仔猪的腹泻频率。50%和100%替代组的仔猪腹泻频率均显著上升。",
+    "reference_case": "蝇蛆蛋白替代鱼粉显著降低了断奶仔猪的腹泻频率。50%和100%替代组的仔猪腹泻频率均显著下降。",
+    "error_detail": "错误地反转了蝇蛆蛋白替代鱼粉对腹泻频率的影响",
+    "original_question": "蝇蛆蛋白替代鱼粉对断奶仔猪的腹泻频率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "蝇蛆蛋白替代鱼粉对断奶仔猪的饲养经济效益无显著影响。50%替代组的单位增重成本较对照组无变化，而100%替代组由于料肉比最大，其单位增重成本较对照组也无变化。",
+    "reference_case": "蝇蛆蛋白替代鱼粉对断奶仔猪的饲养经济效益有显著影响。50%替代组的单位增重成本较对照组下降0:23元/kg，而100%替代组由于料肉比最大，其单位增重成本较对照组提高0:22元/kg。",
+    "error_detail": "错误地描述了蝇蛆蛋白替代鱼粉对饲养经济效益的影响",
+    "original_question": "蝇蛆蛋白替代鱼粉对断奶仔猪的饲养经济效益有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "蝇蛆蛋白替代鱼粉显著降低了断奶仔猪外周血液中T淋巴细胞和B淋巴细胞的阳性率。50%和100%替代组的仔猪在断奶后14天和28天时，T淋巴细胞和B淋巴细胞的阳性率均显著下降。",
+    "reference_case": "蝇蛆蛋白替代鱼粉显著提高了断奶仔猪外周血液中T淋巴细胞和B淋巴细胞的阳性率。50%和100%替代组的仔猪在断奶后14天和28天时，T淋巴细胞和B淋巴细胞的阳性率均显著提高。",
+    "error_detail": "错误地反转了蝇蛆蛋白替代鱼粉对淋巴细胞阳性率的影响",
+    "original_question": "蝇蛆蛋白替代鱼粉对断奶仔猪的外周血液T淋巴细胞和B淋巴细胞阳性率有何影响？",
+    "original_input": ""
+  }
+]

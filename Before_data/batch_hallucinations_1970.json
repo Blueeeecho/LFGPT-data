@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "聚合草中毒在猪以心脏损害为主，发生特异性巨红细胞症以及中枢神经麻痹等；在马呈现腹痛等各种症状。",
+    "reference_case": "在猪以肝脏损害为主，发生特异性巨红细胞症以及中枢神经麻痹等；在马呈现腹痛等各种症状。",
+    "error_detail": "将肝脏损害错误地描述为心脏损害",
+    "original_question": "聚合草中毒（comfrey poisoning）的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "口蹄疫主要侵害偶蹄兽，家畜中以羊、猪最常发病。",
+    "reference_case": "口蹄疫主要侵害偶蹄兽，家畜中以牛、猪最常发病。",
+    "error_detail": "将牛错误地替换为羊",
+    "original_question": "口蹄疫主要侵害哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "胞内劳森菌与猪的增生性肠炎（proliferative enteritis, PE）相关。",
+    "reference_case": "胞内劳森菌与猪的增生性肠病（proliferative enteropathies, PE）相关。",
+    "error_detail": "将肠病错误地描述为肠炎",
+    "original_question": "胞内劳森菌与什么疾病相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "急性PE导致猪出现腹泻带血，粪便呈红褐色，病猪厌食、衰弱并精神不振，可突然死亡，死亡率为10%~12%。",
+    "reference_case": "急性PE导致猪出现腹泻带血，粪便呈红褐色，病猪厌食、衰弱并精神不振，可突然死亡，死亡率为5%~6%。",
+    "error_detail": "死亡率数据错误",
+    "original_question": "劳森菌属引起的急性PE的症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "慢性PE导致猪出现严重的腹泻，通常伴有厌食及精神不振，感染猪发育不良及僵滞。",
+    "reference_case": "慢性PE导致猪出现温和的腹泻，通常伴有厌食及精神不振，感染猪发育不良及僵滞。",
+    "error_detail": "将温和的腹泻错误地描述为严重的腹泻",
+    "original_question": "劳森菌属引起的慢性PE的症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "劳森菌属主要感染4到16周龄的断奶猪，育成猪也可能感染。",
+    "reference_case": "劳森菌属主要感染6到20周龄的断奶猪，育成猪也可能感染。",
+    "error_detail": "年龄范围数据错误",
+    "original_question": "劳森菌属主要感染哪些年龄段的猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "螺旋体病主要分为家禽疏螺旋体病、各种家畜的钩端螺旋体病、猪密螺旋体痢疾和兔梅毒等。",
+    "reference_case": "螺旋体病主要分为家禽疏螺旋体病、各种家畜的钩端螺旋体病、猪密螺旋体痢疾和兔梅毒等。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "螺旋体病（spirochetosis）主要有哪些类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "马链球菌兽疫亚种在自然界中可导致马、牛、猪、羊、鸡的炎症及败血病，包括马的创伤感染、败血症、子宫炎、流产、关节炎、腹膜炎、幼驹脐带炎；牛乳腺炎、子宫炎；猪败血症、关节炎、流产；羊败血症、心包炎、胸膜炎、肺炎；鸡败血症等。在实验动物中，家兔和小鼠最为敏感，猪对本菌有抵抗力。",
+    "reference_case": "可导致马、牛、猪、羊、鸡的炎症及败血病，包括马的创伤感染、败血症、子宫炎、流产、关节炎、腹膜炎、幼驹脐带炎；牛乳腺炎、子宫炎；猪败血症、关节炎、流产；羊败血症、心包炎、胸膜炎、肺炎；鸡败血症等。在实验动物中，家兔和小鼠最为敏感，猪对本菌有抵抗力。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "马链球菌兽疫亚种在自然界中可导致哪些动物的疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在自然界分布很广，可致多种家畜的炎症及败血病，包括马的创伤感染、败血症、子宫炎、流产、关节炎、腹膜炎、幼驹脐带炎；牛乳腺炎、子宫炎；猪败血症、关节炎、流产；羊败血症、心包炎、胸膜炎、肺炎；鸡败血症等。实验动物以家兔和小鼠最为敏感，家兔静脉或腹腔接种本菌，小鼠腹腔接种后，均可致死；豚鼠及大鼠对本菌有抵抗力。",
+    "reference_case": "在自然界分布很广，可致多种家畜的炎症及败血病，包括马的创伤感染、败血症、子宫炎、流产、关节炎、腹膜炎、幼驹脐带炎；牛乳腺炎、子宫炎；猪败血症、关节炎、流产；羊败血症、心包炎、胸膜炎、肺炎；鸡败血症等。实验动物以家兔和小鼠最为敏感，家兔静脉或腹腔接种本菌，小鼠腹腔接种后，均可致死；豚鼠及大鼠对本菌有抵抗力。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "马链球菌兽疫亚种的致病机制是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "检查呕吐物的量、气味和pH值（肉食兽、猪和马为酸臭味，反刍兽多呈碱性）、颜色（血色表示血呕，黄色或绿色表示胆汁性呕吐）和成分（胃内容物、肠内容物和异物）。",
+    "reference_case": "检查呕吐物的量、气味和pH值（肉食兽、猪和马为酸臭味，反刍兽多呈碱性）、颜色（血色表示血呕，黄色或绿色表示胆汁性呕吐）和成分（胃内容物、肠内容物和异物）。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "如何检查呕吐物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "分两个亚种：猪亚种具凝固酶，不溶血，菌落无色，能致猪渗出性皮炎和多发性关节炎；产色亚种凝固酶阴性，产黄橙色素，分离于猪和牛皮肤及乳房炎病牛之乳汁。",
+    "reference_case": "分两个亚种：猪亚种具凝固酶，不溶血，菌落无色，能致猪渗出性皮炎和多发性关节炎；产色亚种凝固酶阴性，产黄橙色素，分离于猪和牛皮肤及乳房炎病牛之乳汁。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "猪葡萄球菌（S. hyicus）的典型特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "肉孢子虫病可引起牛、羊流产、消瘦、痉疾、呼吸困难，甚至死亡；猪可引起腹泻、肌炎、发育不良和跛行。",
+    "reference_case": "肉孢子虫病可引起牛、羊流产、消瘦、痉疾、呼吸困难，甚至死亡；猪可引起腹泻、肌炎、发育不良和跛行。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "肉孢子虫病的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "弱毒疫苗通过物理（温度、射线等）、化学（醋酸铊、听啶黄等）和生物学（非敏感动物、鸡胚、细胞等）的方法制备，如猪丹毒弱毒疫苗、猪瘟兔化弱毒疫苗、牛肺疫兔化弱毒疫苗等。",
+    "reference_case": "弱毒疫苗通过物理（温度、射线等）、化学（醋酸铊、听啶黄等）和生物学（非敏感动物、鸡胚、细胞等）的方法制备，如猪丹毒弱毒疫苗、猪瘟兔化弱毒疫苗、牛肺疫兔化弱毒疫苗等。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "弱毒疫苗如何制备？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "食盐中毒的常见动物有猪和家禽，其次是牛、羊、马。",
+    "reference_case": "猪和家禽，其次是牛、羊、马。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "食盐中毒的常见动物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "头部检验主要针对猪、牛、马属动物。",
+    "reference_case": "头部检验主要针对猪、牛、马属动物。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "头部检验主要针对哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "维生素 A 缺乏症的症状包括犊牛发生夜盲症、干眼病，骨骼造形异常，出现脑晠，小脑功能减退，共济失调，面神经麻痹等。仔猪头偏斜，运动失调，后躯麻痹，脊柱前凸，夜盲或眼病。青年猪上皮缺损，继之修复性增生，形成角化上皮。妊娠母猪发生胎儿被吸收、流产或产下无眼、缺颚仔猪。鸡出现鼻、眼分泌物，角膜软化和眼前房穿孔。",
+    "reference_case": "维生素 A 缺乏症的症状包括犊牛发生夜盲症、干眼病，骨骼造形异常，出现脑晠，小脑功能减退，共济失调，面神经麻痹等。仔猪头偏斜，运动失调，后躯麻痹，脊柱前凸，夜盲或眼病。青年猪上皮缺损，继之修复性增生，形成角化上皮。妊娠母猪发生胎儿被吸收、流产或产下无眼、缺颚仔猪。鸡出现鼻、眼分泌物，角膜软化和眼前房穿孔。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "维生素 A 缺乏症的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "维生素D过多症（维生素D中毒症）的主要临床表现包括猪厌食，消瘦，腹泻，呆滞，呼吸困难，呕吐等；牛及其他大动物呈现不活泼，嗜睡，肌肉无力，骨质变脆，血管钙化等。",
+    "reference_case": "维生素D过多症（维生素D中毒症）的主要临床表现包括猪厌食，消瘦，腹泻，呆滞，呼吸困难，呕吐等；牛及其他大动物呈现不活泼，嗜睡，肌肉无力，骨质变脆，血管钙化等。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "维生素D过多症（维生素D中毒症）的主要临床表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "维生素E缺乏症的主要症状包括幼龄畜禽肌营养不良性疾病，如仔猪桑葚心、鸡营养性脑软化症和小鸡渗出性素质。",
+    "reference_case": "维生素E缺乏症的主要症状包括幼龄畜禽肌营养不良性疾病，如仔猪桑葚心、鸡营养性脑软化症和小鸡渗出性素质。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "维生素E缺乏症的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "细颈囊尾蚴病主要寄生于绵羊、山羊、牛、猪、松鼠、仓鼠和野生反刍动物的腹腔和肝脏等处。",
+    "reference_case": "细颈囊尾蚴病主要寄生于绵羊、山羊、牛、猪、松鼠、仓鼠和野生反刍动物的腹腔和肝脏等处。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "细颈囊尾蚴病主要寄生于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "小袋纤毛虫病主要感染猪和人，有时也感染牛和羊以及鼠类。",
+    "reference_case": "小袋纤毛虫病主要感染猪和人，有时也感染牛和羊以及鼠类。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "小袋纤毛虫病主要感染哪些动物？",
+    "original_input": ""
+  }
+]

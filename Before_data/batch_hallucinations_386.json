@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痢疾的定性诊断中，病原分离培养采用了将病猪的结肠粘膜刮取物、肠内容物接种于血琼脂平板培养基，并在42℃温箱培养14天的步骤。",
+    "reference_case": "猪痢疾的定性诊断中，病原分离培养采用了将病猪的结肠粘膜刮取物、肠内容物接种于血琼脂平板培养基，并在42℃温箱培养7天的步骤。",
+    "error_detail": "培养时间从7天错误地增加到14天",
+    "original_question": "猪痢疾的定性诊断中，病原分离培养采用了哪些步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痢疾的致病性测定中，兔回肠结扎肠段接种试验的结果是注射菌液肠段积液增加为原来的10倍，对照肠段无变化。",
+    "reference_case": "猪痢疾的致病性测定中，兔回肠结扎肠段接种试验的结果是注射菌液肠段积液增加为原来的3～5倍，对照肠段无变化。",
+    "error_detail": "积液增加倍数从3～5倍错误地增加到10倍",
+    "original_question": "猪痢疾的致病性测定中，兔回肠结扎肠段接种试验的结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痢疾的病原体是猪痢疾杆菌。",
+    "reference_case": "猪痢疾的病原体是猪痢疾密螺旋体。",
+    "error_detail": "病原体名称错误地从密螺旋体改为杆菌",
+    "original_question": "猪痢疾的病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "近几年猪痢疾的发病率呈下降趋势。",
+    "reference_case": "近几年猪痢疾的发病率呈上升趋势。",
+    "error_detail": "发病率趋势从上升错误地改为下降",
+    "original_question": "猪痢疾的发病率在近几年有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "病原分离培养条件包括接种于血琼脂平板培养基，加催化剂冷钯，密封后抽气至真空，再输入90% H2（或无氧N2）、10% CO2，42°C温箱培养7天。",
+    "reference_case": "病原分离培养条件包括接种于血琼脂平板培养基，加催化剂冷钯，密封后抽气至真空，再输入80% H2（或无氧N2）、20% CO2，42°C温箱培养7天。",
+    "error_detail": "气体比例从80% H2、20% CO2错误地改为90% H2、10% CO2",
+    "original_question": "猪痢疾的病原分离培养条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "初步诊断方法包括取粪便和肠粘膜抹片，明视野镜检，观察是否有螺旋体样微生物。",
+    "reference_case": "初步诊断方法包括取粪便和肠粘膜抹片，暗视野镜检，观察是否有螺旋体样微生物。",
+    "error_detail": "镜检方法从暗视野错误地改为明视野",
+    "original_question": "猪痢疾的初步诊断方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "建议使用青霉素类药物、麻菌净或链霉素、红霉素等抗生素进行治疗。",
+    "reference_case": "建议使用喯诺酮类药物、麻菌净或链霉素、红霉素等抗生素进行治疗。",
+    "error_detail": "抗生素类型从喯诺酮类错误地改为青霉素类",
+    "original_question": "对于猪场的防制措施中，建议使用哪些抗生素进行治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每12小时测温一次，连续测温4天。",
+    "reference_case": "每6小时测温一次，连续测温4天。",
+    "error_detail": "测温频率从每6小时错误地改为每12小时",
+    "original_question": "猪瘟兔化弱毒疫苗注射后，测温的频率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "4只试验兔及2只对照兔均出现定型热反应，试验为阴性。",
+    "reference_case": "2只试验兔及2只对照兔均出现定型热反应，试验为阴性。",
+    "error_detail": "试验兔数量从2只错误地增加到4只",
+    "original_question": "猪瘟兔化弱毒疫苗试验中，试验兔和对照兔的反应如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每只兔注射2 mL的1:20倍稀释的猪瘟兔化弱毒疫苗。",
+    "reference_case": "每只兔注射1 mL的1:20倍稀释的猪瘟兔化弱毒疫苗。",
+    "error_detail": "注射剂量从1 mL错误地增加到2 mL",
+    "original_question": "猪瘟兔化弱毒疫苗的注射剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟疾密螺旋体在厄氧培养后产生明显的表面生长，菌落直径10~12 mm，培养基完全溶血。",
+    "reference_case": "猪瘟疾密螺旋体在厄氧培养后产生不明显的表面生长，菌落直径5~8 mm，培养基完全溶血。",
+    "error_detail": "菌落直径从5~8 mm错误地增加到10~12 mm，生长描述从不明显改为明显",
+    "original_question": "猪瘟疾密螺旋体在厄氧培养后的菌落特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "对饲料应进行严格检查，肉类饲料应区分是否新鲜，腐败严重饲料应煮熟后使用。",
+    "reference_case": "对饲料应进行严格检查，肉类饲料应区分是否新鲜，腐败严重饲料应废弃不用。喂给毛皮动物的肉类饲料一般是利用经济价值低劣的农育肉类和质量较低的鸡杂类、猪杂类和肉类加工的下角料。对患有寄生虫病肉和死于传染病动物肉类，不准饲喂毛皮动物。",
+    "error_detail": "处理腐败严重饲料的方法从废弃不用错误地改为煮熟后使用",
+    "original_question": "毛皮动物饲养场如何进行饲料管理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪早配的后果包括母猪产仔率高、仔猪活力强，初产母猪还要经受分娩后生长和泌乳双重生理负担，代谢需求远高于其采食所获得的能量，导致入不敷出。",
+    "reference_case": "后备母猪早配的后果包括母猪产仔率低、仔猪活力差，初产母猪还要经受分娩后生长和泌乳双重生理负担，代谢需求远高于其采食所获得的能量，导致入不敷出。",
+    "error_detail": "产仔率和仔猪活力从低和差错误地改为高和强",
+    "original_question": "后备母猪早配的后果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "农村养猪的误区包括群大利厚大规模、重洋轻本欠斟酌、配种过早超负荷等。",
+    "reference_case": "农村养猪的误区包括群小利薄少规模、重洋轻本欠斟酌、配种过早超负荷等。",
+    "error_detail": "误区描述从群小利薄少规模错误地改为群大利厚大规模",
+    "original_question": "农村养猪的误区有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "后备母猪早配会导致母猪产仔率高，仔猪活力强，初产母猪还要经受分娩后生长和泌乳双重生理负担，其代谢需求远高于其尽量采食所获得的能量，造成人不數出。",
+    "reference_case": "后备母猪早配会导致母猪产仔洫低，仔猪活力差，初产母猪还要经受分㚾后生长和泌乳双重生理负担，其代谢需求远高于其尽量采食所获得的能量，造成人不數出。",
+    "error_detail": "产仔率和仔猪活力从低和差错误地改为高和强",
+    "original_question": "农村养猪中，后备母猪早配会带来哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "外国猪种生长速度慢，钶料报酐低，瘦肉率低，但适应性差，对岣料和饲养条件要求高。我国地方猪种适应性强、产仔率高、耐粗岣、肉质好，但胴体脂肪含量高，肥育性差。",
+    "reference_case": "外国猪种生长速度快，钶料报酐高，瘦肉率高，但适应性差，对岣料和饲养条件要求高。我国地方猪种适应性强、产仔率高、耐粗岣、肉质好，但胴体脂肪含量高，肥育性差。",
+    "error_detail": "外国猪种的生长速度、钶料报酐和瘦肉率从高错误地改为低",
+    "original_question": "外国猪种与我国地方猪种相比有哪些优缺点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "农村养猪误区中提到的“三化”方式是公猪本地化、母猪良种化、仔猪杂交化。",
+    "reference_case": "农村养猪误区中提到的“三化”方式是公猪良种化、母猪本地化、仔猪杂交化。",
+    "error_detail": "“三化”方式中的公猪和母猪的描述错误地互换",
+    "original_question": "农村养猪误区中提到的“三化”方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "农户不应将颗粒料或全价料煮熟，因为这样科学，全价饲料应煮熟喂养，并提供充足的饮水。",
+    "reference_case": "农户不应将颗粒料或全价料煮熟，因为这样不科学，全价饲料应直接喂养，并提供充足的饮水。",
+    "error_detail": "煮熟饲料的科学性和喂养方式从不科学和直接喂养错误地改为科学和煮熟喂养",
+    "original_question": "农户在喂养猪时，为什么不应将颗粒料或全价料煮熟？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一般情况下，8月猪的体重应达到15公斤以上。",
+    "reference_case": "一般情况下，8月猪的体重应达到9公斤以上。",
+    "error_detail": "体重从9公斤以上错误地增加到15公斤以上",
+    "original_question": "一般情况下，8月猪的体重应达到多少公斤以上？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "断奶仔猪消化酶系统已发育、成熟，在断奶前后从母乳转化为配合日粮过程中，常常造成仔猪消化不良而出现腹泻。添加酸性蛋白酶可弥补仔猪体内内源酶的不足，保证仔猪正常消化功能，提高饲料利用率。",
+    "reference_case": "断奶仔猪消化酶系统尚未发育、成熟，在断奶前后从母乳转化为配合日粮过程中，常常造成仔猪消化不良而出现腹泻。添加酸性蛋白酶可弥补仔猪体内内源酶的不足，保证仔猪正常消化功能，提高饲料利用率。",
+    "error_detail": "消化酶系统的发育状态从未发育、成熟错误地改为已发育、成熟",
+    "original_question": "为什么在断奶仔猪日粮中添加酸性蛋白酶？",
+    "original_input": ""
+  }
+]

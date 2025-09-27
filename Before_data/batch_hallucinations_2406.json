@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体温升高至45°C左右，精神沉郁，食欲减退，畏寒蜷缩，常钻热草，喜欢饮水，间或呕吐，粪便初期为干、黑、硬，表面附有粘液或脓性分泌物。",
+    "reference_case": "体温升高至41°C左右，精神沉郁，食欲减退，畏寒蜷缩，常钻热草，喜欢饮水，间或呕吐，粪便初期为干、黑、硬，表面附有粘液或脓性分泌物。",
+    "error_detail": "将猪的正常体温错误地提高到了45°C，远高于实际的41°C。",
+    "original_question": "急性型猪瘟的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "症状很不规律，体温时高时低，腹泻，猪常成为'僵猪'。",
+    "reference_case": "症状很不规律，体温时高时低，便秘，猪常成为'僵猪'。",
+    "error_detail": "将'便秘'错误地替换为'腹泻'，这是两种完全相反的症状。",
+    "original_question": "慢性型猪瘟的症状有哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "急性型的常无明显特征性变化，而慢性型在背部、颈部的皮肤上有出血点或紫色斑点，呈运动失调、昏迷或惊厥等症状。",
+    "reference_case": "急性型的常无明显特征性变化，而慢性型在腹下、腹股沟、股内侧的皮肤上有出血点或紫色斑点，呈运动失调、昏迷或惊厥等症状。",
+    "error_detail": "错误地将出血点或紫色斑点的位置从腹下、腹股沟、股内侧改变为背部、颈部。",
+    "original_question": "急性型和慢性型猪瘟的病理变化有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "应与猪丹毒、猪肺疫、猪副伤寒、猪弓形体病相区别。此外，还需与猪流感相区别。",
+    "reference_case": "应与猪丹毒、猪肺疫、猪副伤寒、猪弓形体病相区别。",
+    "error_detail": "错误地添加了'猪流感'作为需要区别的疾病，这与原始输出不符。",
+    "original_question": "猪瘟的鉴别诊断应考虑哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "不分猪的年龄、性别、品种均能发病，有季节性，发病率和死亡率高。",
+    "reference_case": "不分猪的年龄、性别、品种均能发病，无季节性，发病率和死亡率高。",
+    "error_detail": "错误地添加了季节性，与原始输出的'无季节性'相矛盾。",
+    "original_question": "猪瘟的主要流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "注射疫苗是综合性防治的一项重要措施。国内生产的有猪瘟兔化弱毒疫苗，猪瘟、猪丹毒、猪肺疫三联苗和猪瘟、猪丹毒二联苗。每年春、秋两季进行预防注射。哺乳仔猪免疫力不强，对其主动免疫的建立有一定影响，因此断乳后需注射一次疫苗。怀孕母猪因粗暴操作易造成流产，注射的应慎重。此外，还需定期进行环境消毒。",
+    "reference_case": "注射疫苗是综合性防治的一项重要措施。国内生产的有猪瘟兔化弱毒疫苗，猪瘟、猪丹毒、猪肺疫三联苗和猪瘟、猪丹毒二联苗。每年春、秋两季进行预防注射。哺乳仔猪免疫力不强，对其主动免疫的建立有一定影响，因此断乳后需注射一次疫苗。怀孕母猪因粗暴操作易造成流产，注射的应慎重。",
+    "error_detail": "错误地添加了'定期进行环境消毒'，这与原始输出不符。",
+    "original_question": "猪瘟的预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "应立即隔离，对污染的圈舍、用具等进行消毒，禁止出售病猪。对病死猪要深埋。此外，还需对健康猪进行紧急疫苗接种。",
+    "reference_case": "应立即隔离，对污染的圈舍、用具等进行消毒，禁止出售病猪。对病死猪要深埋。",
+    "error_detail": "错误地添加了'对健康猪进行紧急疫苗接种'，这与原始输出不符。",
+    "original_question": "当猪瘟发生时，应采取哪些措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪肺疫多发生在夏、冬季节。",
+    "reference_case": "猪肺疫多发生在春、秋季节。",
+    "error_detail": "错误地将季节从春、秋改变为夏、冬。",
+    "original_question": "猪肺疫多发生在什么季节？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "最急性病猪表现为肺部肿大和出血性败血症变化。",
+    "reference_case": "最急性病猪表现为咽喉部肿大和出血性败血症变化。",
+    "error_detail": "错误地将'咽喉部肿大'改变为'肺部肿大'。",
+    "original_question": "急性猪肺疫的主要病变是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "急性和慢性疾病猪以细菌性肺炎或胸膜炎为特征。",
+    "reference_case": "急性和慢性疾病猪以纤维素性肺炎或胸膜炎为特征。",
+    "error_detail": "错误地将'纤维素性肺炎'改变为'细菌性肺炎'。",
+    "original_question": "慢性猪肺疫的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "可以通过细菌学检查发现单极着色的巴氏杆菌来诊断。",
+    "reference_case": "可以通过细茵学检查发现两极着色的巴氏杆菌来诊断。",
+    "error_detail": "错误地将'两极着色'改变为'单极着色'。",
+    "original_question": "诊断猪肺疫的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "加强饲养管理，消除可能降低猪抵抗力的不良因素。此外，还需定期进行疫苗接种。",
+    "reference_case": "加强饲养管理，消除可能降低猪抵抗力的不良因素。",
+    "error_detail": "错误地添加了'定期进行疫苗接种'，这与原始输出不符。",
+    "original_question": "猪肺疫的防治措施包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对猪可用20%磺胺嘧啶钠液，小猪20毫升，大猪40毫升，配肉或静脉注射，每日2次，连用数日。",
+    "reference_case": "对猪可用10%磺胺嘧啶钠液，小猪20毫升，大猪40毫升，配肉或静脉注射，每日2次，连用数日。",
+    "error_detail": "错误地将磺胺嘧啶钠液的浓度从10%提高到了20%。",
+    "original_question": "磺胺嘧啶钠液治疗猪肺疫的剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "或用土酸土霉素50〜60毫克/公斤体重，用生理盐水稀释后，肌肉或静脉注射，每日2次，连续使用。",
+    "reference_case": "或用土酸土霉素30〜40毫克/公斤体重，用生理盐水稀释后，肌肉或静脉注射，每日2次，连续使用。",
+    "error_detail": "错误地将土霉素的剂量从30〜40毫克/公斤体重提高到了50〜60毫克/公斤体重。",
+    "original_question": "土霉素治疗猪肺疫的剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病原为肠道病毒属的猪水泡病毒，呈杆形。",
+    "reference_case": "病原为肠道病毒属的猪水泡病毒，呈球形。",
+    "error_detail": "错误地将病毒的形状从'球形'改变为'杆形'。",
+    "original_question": "水泡性传染病的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪水泡病毒对理化因素的抵抗力较强，在高温条件下70°C时30分钟、85°C时1分钟能使病毒杀死。",
+    "reference_case": "猪水泡病毒对理化因素的抵抗力较强，在高温条件下60°C时30分钟、85°C时1分钟能使病毒杀死。",
+    "error_detail": "错误地将杀死病毒的温度从60°C提高到了70°C。",
+    "original_question": "猪水泡病毒对理化因素的抵抗力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "此病仅在夏季发生，在自然条件下仅感染猪，病猪和带毒猪为主要传染来源。",
+    "reference_case": "此病一年四季均可发生，在自然条件下仅感染猪，病猪和带毒猪为主要传染来源。",
+    "error_detail": "错误地将'一年四季均可发生'改变为'仅在夏季发生'。",
+    "original_question": "猪水泡病毒的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "潜伏期5~7天，病初在蹄冠、蹄踵、蹄底和趾间等处出现水泡，泡内充满淡黄色略浑浊的液体，此时病猪体温升高到42~43°C，精神沉郁，食欲减退。",
+    "reference_case": "潜伏期2~5天，病初在蹄冠、蹄踵、蹄底和趾间等处出现水泡，泡内充满淡黄色略浑浊的液体，此时病猪体温升高到40~41°C，精神沉郁，食欲减退。",
+    "error_detail": "错误地将潜伏期从2~5天改变为5~7天，体温从40~41°C提高到了42~43°C。",
+    "original_question": "猪水泡病毒的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "疼，发现病猪就地隔离封锁，肉品按规定严格处理。粪、尿堆积发酵，污水、洗肉水需在煮沸后利用。消毒可用3%火碱水、5%石灰水、3~5%福尔马林、10%漂白粉等。此外，还需对健康猪进行紧急疫苗接种。",
+    "reference_case": "疼，发现病猪就地隔离封锁，肉品按规定严格处理。粪、尿堆积发酵，污水、洗肉水需在煮沸后利用。消毒可用3%火碱水、5%石灰水、3~5%福尔马林、10%漂白粉等。",
+    "error_detail": "错误地添加了'对健康猪进行紧急疫苗接种'，这与原始输出不符。",
+    "original_question": "如何防止猪水泡病的传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪水泡病是恶性传染病，治疗时常用龙胆紫、碘甘油等外用药。对已溃的水泡，用0.2%高锰酸钾液冲洗后，撒布紫药水并包扎。",
+    "reference_case": "猪水泡病是良性传染病，治疗时常用龙胆紫、碘甘油等外用药。对已溃的水泡，用0.2%高锰酸钾液冲洗后，撒布紫药水并包扎。",
+    "error_detail": "错误地将'良性传染病'改变为'恶性传染病'。",
+    "original_question": "治疗猪水泡病的常用药物是什么？",
+    "original_input": ""
+  }
+]

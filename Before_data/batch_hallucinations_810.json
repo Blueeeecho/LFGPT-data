@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "进行体格检查，检查生殖道有无解剖学缺陷和其站立和爬跨的能力，观察其交配行为检查其性欲和经验，有近期发热的疾病或用皮质类固醇治疗的病史。此外，还需检查其血液中的激素水平。",
+    "reference_case": "进行体格检查，检查生殖道有无解剖学缺陷和其站立和爬跨的能力，观察其交配行为检查其性欲和经验，有近期发热的疾病或用皮质类固醇治疗的病史。",
+    "error_detail": "添加了不相关的检查项（血液中的激素水平），导致概念混淆。",
+    "original_question": "不能配种的公猪如何诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "回顾群中的交配程序，证实每一母猪在发情期至少交配两次，并确保交配时间在早晨。",
+    "reference_case": "回顾群中的交配程序，证实每一母猪在发情期至少交配两次。",
+    "error_detail": "添加了未请求的具体时间安排（早晨），偏离了原始指令。",
+    "original_question": "交配的时间安排不合适如何诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪细小病毒病、伪狂犬病、钩端螺旋体病、布鲁氏菌病、附红细胞体病、日本乙型脑炎、巨细胞病毒以及其他细菌性和真菌性疾病，其中猪细小病毒病占比最高，达到60%。",
+    "reference_case": "猪细小病毒病、伪狂犬病、钩端螺旋体病、布鲁氏菌病、附红细胞体病、日本乙型脑炎、巨细胞病毒以及其他细菌性和真菌性疾病。",
+    "error_detail": "添加了不准确的数值比例（猪细小病毒病占比60%），导致数据型幻觉。",
+    "original_question": "感染引起的母猪配种后再发情有哪些原因？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "环境温度高、创伤、季节、饲喂过度，特别是在热带地区更为常见。",
+    "reference_case": "环境温度高、创伤、季节、饲喂过度。",
+    "error_detail": "添加了地域性假设（热带地区），导致空间错位幻觉。",
+    "original_question": "非传染性因素引起的母猪配种后再发情有哪些原因？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "由致病性大肠杆菌引起，主要通过空气传播。",
+    "reference_case": "由致病性大肠杆菌引起。",
+    "error_detail": "添加了错误的传播途径（空气传播），导致概念混淆。",
+    "original_question": "猪大肠杆菌病是由什么引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "新生仔猪剧烈腹泻、排黄色水样稀便、迅速死亡，病猪口渴、脱水，最终昏迷死亡。此症状在冬季更为常见。",
+    "reference_case": "新生仔猪剧烈腹泻、排黄色水样稀便、迅速死亡，病猪口渴、脱水，最终昏迷死亡。",
+    "error_detail": "添加了季节性假设（冬季），导致时效性幻觉。",
+    "original_question": "猪大肠杆菌病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "由于大肠杆菌的血清型很多，因此有条件的猪场可通过分离本场的致病菌，制成针对性较强的灭活菌苗。此外，还可以使用抗生素进行治疗。",
+    "reference_case": "由于大肠杆菌的血清型很多，因此有条件的猪场可通过分离本场的致病菌，制成针对性较强的灭活菌苗。",
+    "error_detail": "添加了不相关的治疗建议（使用抗生素），导致逻辑矛盾。",
+    "original_question": "制备灭活菌苗时应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "小肠肠管扩张，内容物稀薄呈黄色泡沫状，肠壁弛缓变薄缺乏弹性，肠黏膜线毛严重萎缩，胃底黏膜可能潮红充血并有黏液覆盖，有的病例可见小点状或斑状出血，胃内容物呈鲜黄色并混有乳白色凝乳块，14日龄以上患猪可能有溃疡灶，靠近幽门区可能有较大坏死区。这些变化是由于饲料不当引起的。",
+    "reference_case": "小肠肠管扩张，内容物稀薄呈黄色泡沫状，肠壁弛缓变薄缺乏弹性，肠黏膜线毛严重萎缩，胃底黏膜可能潮红充血并有黏液覆盖，有的病例可见小点状或斑状出血，胃内容物呈鲜黄色并混有乳白色凝乳块，14日龄以上患猪可能有溃疡灶，靠近幽门区可能有较大坏死区。",
+    "error_detail": "错误地指定了原因（饲料不当），导致因果倒置。",
+    "original_question": "猪流行性腹泻的主要病理变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "哺乳仔猪感染发病率达100%，病死率约50%，断奶猪、育肥猪发病率很高几乎达100%，但症状较轻。成年猪的发病率约为20%。",
+    "reference_case": "哺乳仔猪感染发病率达100%，病死率约50%，断奶猪、育肥猪发病率很高几乎达100%，但症状较轻。",
+    "error_detail": "添加了不准确的数据（成年猪的发病率约为20%），导致数据型幻觉。",
+    "original_question": "猪流行性腹泻的发病率和死亡率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒属于冠状病毒科、冠状病毒属，与SARS病毒同属。",
+    "reference_case": "猪流行性腹泻病毒属于冠状病毒科、冠状病毒属。",
+    "error_detail": "添加了不相关的病毒比较（SARS病毒），导致概念混淆。",
+    "original_question": "猪流行性腹泻的病原是什么？",
+    "original_input": ""
+  }
+]

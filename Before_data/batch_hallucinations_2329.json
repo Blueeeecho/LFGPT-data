@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "配种制度、母猪生殖力和饲料类型。",
+    "reference_case": "配种制度、母猪生殖力和疾病。",
+    "error_detail": "将'疾病'错误地替换为'饲料类型'，导致概念混淆。",
+    "original_question": "影响干奶母猪繁殖力的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "产仔率、出生活仔数、仔猪死亡数、母猪疾病和哺乳仔猪生长率为90%。",
+    "reference_case": "产仔率、出生活仔数、仔猪死亡数、母猪疾病和哺乳仔猪生长率。",
+    "error_detail": "添加了不存在的数值'90%'，导致数据型幻觉。",
+    "original_question": "影响哺乳母猪生产力的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "饲料类型、饲料成本、饲料转换率、疾病和死亡，以及猪的品种。",
+    "reference_case": "饲料类型、饲料成本、饲料转换率、疾病和死亡。",
+    "error_detail": "添加了未提及的'猪的品种'，偏离了原始指令。",
+    "original_question": "影响生长猪性能的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪的头数、公猪数、母猪数和已配后备母猪数、小母猪数、淘汰/死亡母猪数、淘汰/死亡公猪数、第一次配种猪数、第二次配种猪数、第三次配种猪数、产仔数、产活仔数、产死仔数、断奶母猪数、断奶仔猪数、转移到肥育区的猪数、哺乳猪死亡数、断乳猪死亡数、肥育猪死亡数、现有猪数、出售猪数（包括留作种用的后备母猪）、使用的母猪饲料量、用去的断奶前饲料量、用去的断奶后饲料量，以及疫苗接种记录。",
+    "reference_case": "猪的头数、公猪数、母猪数和已配后备母猪数、小母猪数、淘汰/死亡母猪数、淘汰/死亡公猪数、第一次配种猪数、第二次配种猪数、第三次配种猪数、产仔数、产活仔数、产死仔数、断奶母猪数、断奶仔猪数、转移到肥育区的猪数、哺乳猪死亡数、断乳猪死亡数、肥育猪死亡数、现有猪数、出售猪数（包括留作种用的后备母猪）、使用的母猪饲料量、用去的断奶前饲料量、用去的断奶后饲料量。",
+    "error_detail": "添加了'疫苗接种记录'，这可能不符合当前的记录标准。",
+    "original_question": "猪的保健和生产计划中应记录哪些基本变量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "诊视前准备，临床检查繁殖和配种区、干奶母猪、产仔和哺乳区以及肥育猪，与猪场经营者进行讨论，以及检查饲料质量。",
+    "reference_case": "诊视前准备，临床检查繁殖和配种区、干奶母猪、产仔和哺乳区以及肥育猪，与猪场经营者进行讨论。",
+    "error_detail": "添加了'检查饲料质量'，这与原始上下文无关。",
+    "original_question": "兽医每月应诊视的猪群内容包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪应激综合征是指猪在高温条件下出现的一系列生理和行为上的异常反应。",
+    "reference_case": "猪应激综合征是指猪在应激条件下出现的一系列生理和行为上的异常反应。",
+    "error_detail": "将'应激条件'错误地限定为'高温条件'，导致概念混淆。",
+    "original_question": "什么是猪应激综合征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "米他布尔饲喂妊娠母猪可能导致胎儿畸形，因此已停止市售，但仍可在某些地区购买。",
+    "reference_case": "米他布尔饲喂妊娠母猪可能导致胎儿畸形，因此已停止市售。",
+    "error_detail": "添加了'但仍可在某些地区购买'，这可能不符合当前的市售状态。",
+    "original_question": "米他布尔饲喂妊娠母猪可能会导致什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用250-3000 IU PMSG后48小时再给予500 IU HCG，或者使用PMS和HCG的合剂，即一次注射300或400 IU PMS和200 IU的HCG。",
+    "reference_case": "使用250-2000 IU PMSG后48小时再给予500 IU HCG，或者使用PMS和HCG的合剂，即一次注射300或400 IU PMS和200 IU的HCG。",
+    "error_detail": "将'2000 IU'错误地改为'3000 IU'，导致数据型幻觉。",
+    "original_question": "初情期前的青年母猪超数排卵可以采用哪种方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "超数排卵处理能提高猪的受精率。",
+    "reference_case": "超数排卵处理能保持猪正常的受精率。",
+    "error_detail": "将'保持正常'错误地改为'提高'，导致因果倒置。",
+    "original_question": "超数排卵处理对猪的受精率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "移植的体外成熟卵母细胞发育情况理想，多精子受精率低，表明阻断多精受精的机制正常。",
+    "reference_case": "移植的体外成熟卵母细胞发育情况不理想，多精子受精率高，表明阻断多精受精的机制不正常。",
+    "error_detail": "将'不理想'和'高'错误地改为'理想'和'低'，导致概念混淆。",
+    "original_question": "体外成熟的猪卵母细胞移植到受体青年母猪后，胚胎发育情况如何？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "宫内生长受限（IUGR）对胎猪肝脏miRNA表达有显著影响，共有50种miRNA存在表达差异，其中30种在IUGR胎猪肝脏中表达上调，20种表达下调。",
+    "reference_case": "宫内生长受限（IUGR）对胎猪肝脏miRNA表达有显著影响，共有41种miRNA存在表达差异，其中27种在IUGR胎猪肝脏中表达上调，14种表达下调。",
+    "error_detail": "错误地增加了miRNA的总数和上调、下调的数量。",
+    "original_question": "宫内生长受限（IUGR）对胎猪肝脏miRNA表达的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "宫内生长受限（IUGR）胎猪肝脏中表达上调的miRNA包括mmu-miR-193b、hsa-miR-451、hsa-miR-193a-3p、hsa-miR-30b、hsa-miR-122等30种miRNA。",
+    "reference_case": "宫内生长受限（IUGR）胎猪肝脏中表达上调的miRNA包括mmu-miR-193b、hsa-miR-451、hsa-miR-193a-3p、hsa-miR-30b、hsa-miR-122等27种miRNA。",
+    "error_detail": "错误地增加了表达上调的miRNA数量。",
+    "original_question": "宫内生长受限（IUGR）胎猪肝脏中表达上调的miRNA有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "宫内生长受限（IUGR）胎猪肝脏中表达下调的miRNA包括hsa-miR-1249、hsa-miR-885-5p、hsa-miR-1281、mghv-miR-M1-7-3p、mmu-miR-483*等20种miRNA。",
+    "reference_case": "宫内生长受限（IUGR）胎猪肝脏中表达下调的miRNA包括hsa-miR-1249、hsa-miR-885-5p、hsa-miR-1281、mghv-miR-M1-7-3p、mmu-miR-483*等14种miRNA。",
+    "error_detail": "错误地增加了表达下调的miRNA数量。",
+    "original_question": "宫内生长受限（IUGR）胎猪肝脏中表达下调的miRNA有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因涉及营养物质的吸收与代谢、肝脏解毒过程以及肝细胞的生长和增殖等生物过程，还包括细胞凋亡。",
+    "reference_case": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因涉及营养物质的吸收与代谢、肝脏解毒过程以及肝细胞的生长和增殖等生物过程。",
+    "error_detail": "错误地添加了不相关的生物过程。",
+    "original_question": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因涉及哪些生物过程？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因在胰岛素信号通路中导致葡萄糖稳态失衡，抑制脂肪合成和蛋白质合成，抑制细胞增殖。",
+    "reference_case": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因在胰岛素信号通路中维持葡萄糖稳态，调控脂肪合成和蛋白质合成，调控细胞增殖。",
+    "error_detail": "错误地描述了靶基因的作用，将维持和调控改为导致和抑制。",
+    "original_question": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因在胰岛素信号通路中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因在Wnt信号通路中抑制胚胎生长和形态发育，破坏组织的稳定和能量代谢平衡。",
+    "reference_case": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因在Wnt信号通路中调控胚胎生长和形态发育，维持组织的稳定和能量代谢平衡。",
+    "error_detail": "错误地描述了靶基因的作用，将调控和维持改为抑制和破坏。",
+    "original_question": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因在Wnt信号通路中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因在内吞作用中参与肝细胞的内吞作用，这是肝脏解毒的主要方式之一。",
+    "reference_case": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因在内吞作用中参与枯否氏细胞的内吞作用，这是肝脏解毒的主要方式之一。",
+    "error_detail": "错误地将枯否氏细胞改为肝细胞。",
+    "original_question": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因在内吞作用中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因在泛素调节的蛋白质降解中加速体内不被需要的蛋白质的降解，参与细胞周期、免疫应答和炎性反应、信号传导、发育和分化等过程。",
+    "reference_case": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因在泛素调节的蛋白质降解中降解体内不被需要的蛋白质，参与细胞周期、免疫应答和炎性反应、信号传导、发育和分化等过程。",
+    "error_detail": "错误地添加了“加速”这一不准确的描述。",
+    "original_question": "宫内生长受限（IUGR）胎猪肝脏中差异表达miRNA的靶基因在泛素调节的蛋白质降解中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "数控保温床显著提高了保育猪的平均日增重。移动组和固定组的保育猪平均日增重分别比保温灯组提高了15:37%和16:46%。",
+    "reference_case": "数控保温床显著提高了保育猪的平均日增重。移动组和固定组的保育猪平均日增重分别比保温灯组提高了12:37%和13:46%。",
+    "error_detail": "错误地提高了日增重的百分比。",
+    "original_question": "数控保温床对保育猪的平均日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "数控保温床降低了保育猪的饲料增重比。移动组和固定组的饲料增重比分别比保温灯组降低了7:45%和8:06%。",
+    "reference_case": "数控保温床降低了保育猪的饲料增重比。移动组和固定组的饲料增重比分别比保温灯组降低了5:45%和6:06%。",
+    "error_detail": "错误地降低了饲料增重比的百分比。",
+    "original_question": "数控保温床如何影响保育猪的饲料增重比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "数控保温床显著降低了保育猪舍内的日温差。移动组和固定组的平均日温差分别比保温灯组低3:5°C和3:6°C，比对照组低3:9°C和4:1°C。",
+    "reference_case": "数控保温床显著降低了保育猪舍内的日温差。移动组和固定组的平均日温差分别比保温灯组低2:5°C和2:6°C，比对照组低2:9°C和3:1°C。",
+    "error_detail": "错误地增加了日温差的降低值。",
+    "original_question": "数控保温床对保育猪舍内的温度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "数控保温床能够将保育猪舍内的相对湿度维持在30%至45%的适宜范围内，除了第17天和第18天外。",
+    "reference_case": "数控保温床能够将保育猪舍内的相对湿度维持在40%至55%的适宜范围内，除了第17天和第18天外。",
+    "error_detail": "错误地降低了相对湿度的范围。",
+    "original_question": "数控保温床如何维持保育猪舍内的相对湿度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "数控保温床相比传统保温灯能够显著提高保育猪的日增重和日采食量，增加饲料增重比，并且能够维持保育猪舍内的温度和湿度在适宜水平。",
+    "reference_case": "数控保温床相比传统保温灯能够显著提高保育猪的日增重和日采食量，降低饲料增重比，并且能够维持保育猪舍内的温度和湿度在适宜水平。",
+    "error_detail": "错误地将“降低饲料增重比”改为“增加饲料增重比”。",
+    "original_question": "数控保温床与传统保温灯相比有何优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "数控保温床能够减少保育猪的活动频率。移动组和固定组的活动频率分别比保温灯组和对照组低15:5%和8:8%，以及14:3%和7:6%。",
+    "reference_case": "数控保温床能够减少保育猪的活动频率。移动组和固定组的活动频率分别比保温灯组和对照组低11:5%和6:8%，以及10:3%和5:6%。",
+    "error_detail": "错误地增加了活动频率的降低百分比。",
+    "original_question": "数控保温床对保育猪的行为活动有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "数控保温床在保育猪舍中的应用效果显著，能够提高保育猪的日增重和日采食量，增加饲料增重比，并且能够维持保育猪舍内的温度和湿度在适宜水平，提供温暖舒适的生长环境。",
+    "reference_case": "数控保温床在保育猪舍中的应用效果显著，能够提高保育猪的日增重和日采食量，降低饲料增重比，并且能够维持保育猪舍内的温度和湿度在适宜水平，提供温暖舒适的生长环境。",
+    "error_detail": "错误地将“降低饲料增重比”改为“增加饲料增重比”。",
+    "original_question": "数控保温床在保育猪舍中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在220～240日龄和240～260日龄配种的法系大白后备母猪的头胎繁殖性能均高于220日龄以下配种的母猪（P<0:05:。随着初配日龄的增加，仔猪初生重呈现上升趋势。",
+    "reference_case": "在220～240日龄和240～260日龄配种的法系大白后备母猪的头胎繁殖性能均高于220日龄以下配种的母猪（P>0:05:。随着初配日龄的增加，仔猪初生重呈现上升趋势。",
+    "error_detail": "错误地将P值的比较符号从“>”改为“<”。",
+    "original_question": "初配日龄对法系大白猪头胎繁殖性能的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "美法系大白猪的窝产总仔数的杂种优势率为12:71%，窝均产活仔数的杂种优势率为12:77%，出生窝重的杂种优势率为16:23%，仔猪个体重的杂种优势率为5:07%。",
+    "reference_case": "美法系大白猪的窝产总仔数的杂种优势率为9:71%，窝均产活仔数的杂种优势率为9:77%，出生窝重的杂种优势率为13:23%，仔猪个体重的杂种优势率为2:07%。",
+    "error_detail": "错误地增加了杂种优势率的百分比。",
+    "original_question": "美法系大白猪的杂交优势率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "240～260日龄配种的美系后备母猪所产仔猪初生重显著高于其他各组日龄配种的母猪（P<0:01:。",
+    "reference_case": "240～260日龄配种的美系后备母猪所产仔猪初生重显著高于其他各组日龄配种的母猪（P<0:05:。",
+    "error_detail": "错误地将P值的显著性水平从“<0:05”改为“<0:01”。",
+    "original_question": "美系大白猪在240～260日龄配种时，仔猪初生重有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "随着初配日龄的增加，各系大白猪头胎所产仔猪的初生重普遍呈现出下降的趋势。240～260日龄间，各系大白后备猪的繁殖性能都较低，其他日龄由于配种时间过早或过晚，影响后备母猪的发育和生理机能，造成各项繁殖数据均不理想。",
+    "reference_case": "随着初配日龄的增加，各系大白猪头胎所产仔猪的初生重普遍呈现出上升的趋势。240～260日龄间，各系大白后备猪的繁殖性能都较高，其他日龄由于配种时间过早或过晚，影响后备母猪的发育和生理机能，造成各项繁殖数据均不理想。",
+    "error_detail": "错误地将初生重的趋势从“上升”改为“下降”，并将繁殖性能的描述从“较高”改为“较低”。",
+    "original_question": "大白猪的初配日龄对其繁殖性能的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "法系大白后备母猪适宜在200～240日龄配种。",
+    "reference_case": "法系大白后备母猪适宜在220～260日龄配种。",
+    "error_detail": "错误地缩小了适宜初配日龄的范围。",
+    "original_question": "法系大白猪的适宜初配日龄是多少？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "由3、6、8血清型的毒株引起，潜伏期为5～30天。多发生于新引进的母猪群，引起死产（S）、木乃伊胎（M）、肧胎死亡（ED）和不育（I），即所谓SMEDI综合征。",
+    "reference_case": "由",
+    "error_detail": "错误地将SMEDI综合征的症状与脑脊髓灰质炎型猪肠道病毒感染的症状混淆",
+    "original_question": "13. 脑脊髓灰质炎型猪肠道病毒感染的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "由1,2,3,5,8血清型的毒株引起。发病率为高，死亡率为高。",
+    "reference_case": "由1,2,3,5,8血清型的毒株引起。在猪机体功能下降时感染，促使肠道常在菌（如大肠杆菌）或其他病原微生物的病原性增强所致。",
+    "error_detail": "错误地提高了发病率和死亡率的描述，与原始output不符",
+    "original_question": "14. 下痢型猪肠道病毒感染的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "病猪在疾病的潜伏期到病后恢复期都可能具有传染性，尤其是在高密度饲养条件下。",
+    "reference_case": "病猪在疾病的潜伏期到病后恢复期都可能具有传染性。",
+    "error_detail": "添加了未经证实的假设条件",
+    "original_question": "病猪作为传染病的主要传染源，其传染性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪圈长期不清粪、泥泞、吸血昆虫叮咬、过度拥挤、互相撕咬、缺乏钙磷等矿物质及维生素、料中混有粗硬的杂物等都能促进坏死梭杆菌的发生，尤其是在热带地区。",
+    "reference_case": "猪圈长期不清粪、泥泞、吸血昆虫叮咬、过度拥挤、互相撕咬、缺乏钙磷等矿物质及维生素、料中混有粗硬的杂物等都能促进坏死梭杆菌的发生。",
+    "error_detail": "错误地添加了地域限制",
+    "original_question": "哪些诱因能促进坏死梭杆菌的发生？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪丹毒的病原是猪丹毒杆菌，是一种革兰阴性菌。",
+    "reference_case": "猪丹毒的病原是猪丹毒杆菌，是一种革兰阳性菌，具有明显的形成长丝的倾向。",
+    "error_detail": "错误地改变了细菌的革兰染色性质",
+    "original_question": "猪丹毒的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "可通过形态学观察、培养特性（如在10%二氧化碳中生长最佳，温度为30-37°C）、生化试验等进行鉴定。",
+    "reference_case": "可通过形态学观察、培养特性（如在10%二氧化碳中生长最佳，温度为30-37°C）、生化试验（如不发酵甘油、山梨醇、甘露醇、鼠李糖、蔗糖、棉实糖、淀粉、菊糖和水杨苷等）、明胶穿刺试验（细菌沿穿刺线向四周发育，呈试管刷状生长，明胶不液化）等进行鉴定。",
+    "error_detail": "遗漏了部分鉴定方法",
+    "original_question": "如何鉴定猪丹毒杆菌？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪丹毒杆菌为微需氧或兼性厌氧菌，在普通培养基中能生长，最佳生长pH值为6.0-7.0。",
+    "reference_case": "猪丹毒杆菌为微需氧或兼性厌氧菌，在普通培养基中能生长，最佳生长pH值为7.2-7.6，在液体培养基中加1%葡萄糖及0.5%吐温-80，同时调正pH值，能促进生长。",
+    "error_detail": "错误地改变了最佳生长pH值",
+    "original_question": "猪丹毒杆菌的培养条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "猪丹毒的临床症状为高热，急性败血症，亚急性皮肤疹块，慢性疣状心内膜炎及皮肤坏死与多发性非化脓性关节炎。剖检特征包括肝有坏死点，空肠出血。",
+    "reference_case": "猪丹毒的临床症状为高热，急性败血症，亚急性皮肤疹块，慢性疣状心内膜炎及皮肤坏死与多发性非化脓性关节炎。剖检特征包括肝有坏死点，空肠出血。",
+    "error_detail": "虽然内容正确，但缺乏逻辑连接",
+    "original_question": "猪丹毒的临床症状和剖检特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "包括对从病死猪分离的魏氏梭菌做药敏试验，用敏感药物青霉素、链霉素及卡那霉素等药物进行治疗。",
+    "reference_case": "包括对从病死猪分离的魏氏梭菌做药敏试验，用敏感药物恩诺沙星、泰乐菌素及卡那霉素等药物进行治疗，同时用葡萄糖生理盐水补液。免疫方法是应用C型魏氏梭菌氢氧化铝胶灭活苗对怀孕母猪进行免疫，第一次在产前30天注射，剂量为5mL/头；第二次在产前15天注射，剂量为10mL/头。",
+    "error_detail": "错误地改变了治疗药物",
+    "original_question": "猪丹毒的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "自然感染的猪发病初期突然死亡，前日晚吃食良好，翌日晨发现猪只死亡，全身皮肤发绀，尤其是在冬季。",
+    "reference_case": "自然感染的猪发病初期突然死亡，前日晚吃食良好，翌日晨发现猪只死亡，全身皮肤发绀。",
+    "error_detail": "添加了未经证实的季节性假设",
+    "original_question": "自然感染的猪发病初期有哪些特征？",
+    "original_input": ""
+  }
+]

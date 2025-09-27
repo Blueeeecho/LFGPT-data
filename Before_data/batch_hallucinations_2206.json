@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "柠檬醛作为单体香精，适用于调制花香型香味剂，常用于猪、牛、鱼类饲料香味的调配。",
+    "reference_case": "柠檬醛作为单体香精，适用于调制果香型香味剂，常用于猪、牛、鱼类饲料香味的调配。",
+    "error_detail": "将果香型错误地描述为花香型",
+    "original_question": "柠檬醛作为香料的主要用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "香兰素（香草粉）具有香荚豆特有香气，适用于调制果香型香味剂，也可单独使用，适用于猪、禽、奶牛饲料香味的调配。",
+    "reference_case": "香兰素（香草粉）具有香荚豆特有香气，适用于调制草香型香味剂，也可单独使用，适用于猪、禽、奶牛饲料香味的调配。",
+    "error_detail": "将草香型错误地描述为果香型",
+    "original_question": "香兰素（香草粉）具有哪种香气？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在仔猪饲料中加入3%-5%的豆油，仔猪日增重可提高10%-12%，饲料转化率提高9%-10%；育肥猪日粮添加2%-3%的油脂，日增重可提高15%-18%，饲料消耗减少8%-10%。",
+    "reference_case": "在仔猪饲料中加入3%-5%的豆油，仔猪日增重可提高6%-9%，饲料转化率提高9%-10%；育肥猪日粮添加2%-3%的油脂，日增重可提高12%-15%，饲料消耗减少8%-10%。",
+    "error_detail": "数值偏差",
+    "original_question": "油脂添加到猪饲料中对仔猪和育肥猪有哪些好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "碳酸氢钠可以中和一部分酸，帮助消化，稳定和提高产奶量，并延长泌乳期和提高乳脂率；对于猪，可促进赖氨酸的利用，使猪瘦肉率增加、生长加快；对于绵羊，可提高瘤胃对有机酸、粗蛋白质、非淀粉多糖及淀粉的消化，并增加钾在体内的积蓄。",
+    "reference_case": "碳酸氢钠可以中和一部分酸，帮助消化，稳定和提高产奶量，并延长泌乳期和提高乳脂率；对于猪，可促进赖氨酸的利用，使猪瘦肉率增加、生长加快；对于绵羊，可提高瘤胃对有机酸、粗蛋白质、非淀粉多糖及淀粉的消化，并增加钠在体内的积蓄。",
+    "error_detail": "将钠错误地描述为钾",
+    "original_question": "碳酸氢钠在动物饲料中的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "碳酸氢钠用于饲料时，肉鸡饲料添加量为0.1~0.2 g/(只·d)，蛋鸡饲料为0.4~0.6 g/(只·d)，仔猪饲料为0.3~2.5 g/(头·d)，育肥猪饲料为4~5 g/(头·d)，奶牛饲料为200 g/(头·d)，肉牛饲料为100~120 g/(头-d)。",
+    "reference_case": "碳酸氢钠用于饲料时，肉鸡饲料添加量为0.05~0.1 g/(只·d)，蛋鸡饲料为0.3~0.5 g/(只·d)，仔猪饲料为0.2~2.0 g/(头·d)，育肥猪饲料为3~4 g/(头·d)，奶牛饲料为150 g/(头·d)，肉牛饲料为80~100 g/(头-d)。",
+    "error_detail": "数值偏差",
+    "original_question": "碳酸氢钠在饲料中的用法与用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪大肠微生物能分解蛋白质、氨基酸和尿素，产生氨、胺和有机酸。",
+    "reference_case": "猪大肠微生物能分解蛋白质、氨基酸和尿素，产生氨、胺和有机酸。",
+    "error_detail": "无错误，与原始输出相同",
+    "original_question": "猪大肠微生物消化的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "单胃动物在饲粮中添加粗纤维可以促进胃肠道蠕动和消化液分泌，促进早期断乳仔猪的胃肠道健康发育；适量添加有促进肠蠕动和轻泻的作用；过量添加则可能导致腹泻。",
+    "reference_case": "单胃动物在饲粮中添加粗纤维可以促进胃肠道蠕动和消化液分泌，促进早期断乳仔猪的胃肠道健康发育；适量添加有促进肠蠕动和轻泻的作用；过量添加则可能导致便秘。",
+    "error_detail": "将便秘错误地描述为腹泻",
+    "original_question": "单胃动物在饲粮中添加粗纤维的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "高非淀粉多糖日粮可使生长猪空肠、回肠、结肠的隐窝深度变小，增加肠黏膜脱落的细胞数量，导致消化酶代偿性分泌，增加内源性物质损失。",
+    "reference_case": "高非淀粉多糖日粮可使生长猪空肠、回肠、结肠的隐窝深度变大，增加肠黏膜脱落的细胞数量，导致消化酶代偿性分泌，增加内源性物质损失。",
+    "error_detail": "将隐窝深度变大错误地描述为变小",
+    "original_question": "高非淀粉多糖日粮对动物肠道黏膜有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "精氨酸对育肥猪是必需的，对高产母猪是非必需的。",
+    "reference_case": "精氨酸对育肥猪是非必需的，对高产母猪是必需的。",
+    "error_detail": "将必需与非必需颠倒",
+    "original_question": "精氨酸对不同生长阶段的猪来说是必需的吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "谷氨酸是哺乳和断奶仔猪的条件性必需氨基酸。",
+    "reference_case": "谷氨酰胺是哺乳和断奶仔猪的条件性必需氨基酸。",
+    "error_detail": "将谷氨酰胺错误地描述为谷氨酸",
+    "original_question": "哪些氨基酸是哺乳和断奶仔猪的条件性必需氨基酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "空怀母猪体内合成的组氨酸不能满足需要；妊娠母猪体内合成的组氨酸能够满足胎儿的生长发育，需要饲粮提供一部分。",
+    "reference_case": "空怀母猪体内合成的组氨酸能够满足需要；妊娠母猪体内合成的组氨酸不能满足胎儿的生长发育，需要饲粮提供一部分。",
+    "error_detail": "将满足与不满足颠倒",
+    "original_question": "组氨酸在不同生理状态下的需求如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "脯氨酸是哺乳仔猪的非条件性必需氨基酸。",
+    "reference_case": "脯氨酸是哺乳仔猪的条件性必需氨基酸。",
+    "error_detail": "将条件性必需错误地描述为非条件性必需",
+    "original_question": "哪些氨基酸是哺乳仔猪的条件性必需氨基酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "玉米型饲粮中，猪的第一限制性氨基酸是蛋氨酸；豆粕型饲粮中，猪的第一限制性氨基酸是赖氨酸。",
+    "reference_case": "玉米型饲粮中，猪的第一限制性氨基酸是赖氨酸；豆粕型饲粮中，猪的第一限制性氨基酸是赖氨酸。",
+    "error_detail": "将玉米型饲粮的第一限制性氨基酸错误地描述为蛋氨酸",
+    "original_question": "玉米和豆粕型饲粮中，猪的第一限制性氨基酸分别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "限制性氨基酸的种类和顺序取决于动物种类、生长阶段和饲料颜色。",
+    "reference_case": "限制性氨基酸的种类和顺序取决于动物种类、生长阶段和饲料类型。",
+    "error_detail": "将饲料类型错误地描述为饲料颜色",
+    "original_question": "家禽和猪的第一限制性氨基酸可能受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "常用的方法是测定其绝对利用率，例如，以硫酸亚铁中的铁对猪的生物效价为100%，比较其他化合物中矿质元素的生物学效价。",
+    "reference_case": "常用的方法是测定其相对利用率，例如，以硫酸亚铁中的铁对猪的生物效价为100%，比较其他化合物中矿质元素的生物学效价。",
+    "error_detail": "将相对利用率错误地描述为绝对利用率",
+    "original_question": "如何评价不同矿质元素添加剂的利用效率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "在仔猪饲粮中添加高铜可促进生长和提高饲料效率，但过多的铜会干扰锌的吸收，造成低色素小红细胞性贫血。",
+    "reference_case": "在仔猪饲粮中添加高铜可促进生长和提高饲料效率，但过多的铜会干扰铁的吸收，造成低色素小红细胞性贫血。",
+    "error_detail": "将干扰铁的吸收错误地描述为干扰锌的吸收",
+    "original_question": "在仔猪饲粮中添加高铜对生长和饲料效率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪对铁的需要量是饲粮含 50~150 mg/kg。",
+    "reference_case": "猪对铁的需要量是饲粮含 40~100 mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "猪对铁的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "牛最强为 4000 mg/kg，其次是羊 1500 mg/kg，猪 1200 mg/kg，禽 600 mg/kg。",
+    "reference_case": "牛最强为 3000 mg/kg，其次是羊 1000 mg/kg，猪 1000 mg/kg，禽 500 mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "动物对过量铁的耐受力如何排序？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪对铜的需要量是饲粮含 4~8 mg/kg。",
+    "reference_case": "猪对铜的需要量是饲粮含 3~6 mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "猪对铜的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪饲粮中锌过量可引起铁代谢紊乱，降低肝、肾及血液中含铁量，导致贫血。",
+    "reference_case": "猪饲粮中锌过量可引起铜代谢紊乱，降低肝、肾及血液中含铜量，导致贫血。",
+    "error_detail": "将铜代谢紊乱错误地描述为铁代谢紊乱",
+    "original_question": "猪饲粮中锌过量可引起哪些影响？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2009年",
+    "reference_case": "2008年",
+    "error_detail": "年份错误",
+    "original_question": "世界首例带有抗猪瘟病毒基因的克隆猪是在哪一年诞生的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "以吉林大学农学部畜牧兽医学院赖良学教授为首席专家和军事医学科学院军事兽医研究所的专家共同组成",
+    "reference_case": "以吉林大学农学部畜牧兽医学院赖良学教授为首席专家和军事医学科学院军事兽医研究所的专家共同组成",
+    "error_detail": "无错误，但可添加不存在的专家",
+    "original_question": "培育带有抗猪瘟病毒基因的克隆猪的课题组由哪些专家组成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1050克、1100克和550克",
+    "reference_case": "1050克、1100克和550克",
+    "error_detail": "无错误，但可修改数值",
+    "original_question": "带有抗猪瘟病毒基因的克隆猪的体质量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟是一种轻微威胁养猪业的传染病",
+    "reference_case": "猪瘟是一种严重威胁养猪业的传染病",
+    "error_detail": "严重程度错误",
+    "original_question": "猪瘟对养猪业的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在仔猪断奶前后，十二指肠和空肠中生长素 mRNA 的表达均呈上升趋势",
+    "reference_case": "在仔猪断奶前后，十二指肠和空肠中生长素 mRNA 的表达均呈下降趋势。十二指肠生长素 mRNA 表达的下调出现在断奶后 10 天，而空肠生长素 mRNA 表达的下调出现在断奶后 3 天。45 日龄时，十二指肠生长素 mRNA 水平明显低于 42 日龄，且空肠生长素 mRNA 丰度在 38、42 和 45 日龄时明显低于 28 日龄。",
+    "error_detail": "趋势描述错误",
+    "original_question": "在仔猪断奶前后，十二指肠和空肠中生长素 mRNA 的表达有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "从GenBank中获取PPV、PCV-2、CSFV的所有已知基因序列，对病毒各基因进行同源性分析，确定PPV的VP1基因、PCV-2的ORF1基因、CSFV的P90基因为各病毒扩增的靶序列",
+    "reference_case": "从GenBank中获取PPV、PCV-2、CSFV的所有已知基因序列，对病毒各基因进行同源性分析，确定PPV的VP2基因（登录号：AY459350）、PCV-2的ORF2基因（登录号：AY484412）、CSFV的P80基因（登录号：U21330）为各病毒扩增的靶序列。应用NCBI中的序列检索软件BLAST、引物探针设计软件Oligo 6.0和DNAstar等生物分析软件分别针对PPV的VP2基因序列、PCV-2的ORF2基因序列和CSFV的P80基因序列的保守区设计出高特异性且退火温度相近的3对引物和60-mer大小的寡核苷酸探针。",
+    "error_detail": "基因名称错误",
+    "original_question": "猪细小病毒（PPV）、猪圆环病毒-II（PCV-2）和猪瘟病毒（CSFV）的基因组保守序列是如何被用于设计寡核苷酸探针的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "二重 PCR 检测方法的最低检出量为 10^2 cfu",
+    "reference_case": "二重 PCR 检测方法的最低检出量为 10^1 cfu。该方法的灵敏性较高，能够检测到如此痕量的病原，且可以直接从第 1 代培养物中检测，降低了漏检的可能性，缩短了检出时间。特异性方面，该方法与其他 6 种猪常见致病菌（产毒多杀性巴氏杆菌、胸膜肺炎放线杆菌、波氏杆菌、副猪嗜血杆菌、沙门菌和链球菌）无交叉反应，表明该 PCR 只对致猪水肿病大肠杆菌的 SLT-IE 的 B 亚基和 F18ab 菌毛的 fedA 基因进行扩增。",
+    "error_detail": "最低检出量错误",
+    "original_question": "二重 PCR 检测方法的最低检出量是多少？该方法的灵敏性和特异性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "致猪水肿病大肠杆菌的两个主要毒力因子是志贺样毒素 I型变异体和 F18ac 菌毛",
+    "reference_case": "致猪水肿病大肠杆菌的两个主要毒力因子是志贺样毒素 II型变异体（SLT-IE，又称水肿毒素）和 F18ab 菌毛。F18ab 菌毛粘附于小肠绒毛上，在肠道内定居、繁殖，产生大量的 SLT-IE，被肠道吸收后在不同部位引起血管内皮细胞损伤，从而改变血管通透性，导致猪出现水肿和神经症状。",
+    "error_detail": "毒力因子名称错误",
+    "original_question": "致猪水肿病大肠杆菌的两个主要毒力因子是什么？它们分别对猪的哪些组织产生影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "二重 PCR 检测方法通过设计针对 SLT-IE 的 A 亚基和 F18ab 菌毛的 fedB 亚基保守序列的两对引物",
+    "reference_case": "二重 PCR 检测方法通过设计针对 SLT-IE 的 B 亚基和 F18ab 菌毛的 fedA 亚基保守序列的两对引物，同时扩增这两个基因片段（分别为 230 bp 和 510 bp），从而在同一个反应体系中同时检测致猪水肿病大肠杆菌的毒素基因和菌毛基因。该方法的主要优势是操作简便、节省时间和费用，且无需制备模板，直接对可疑菌株进行检测，极大地简化了操作步骤，为临床鉴定和流行病学调查提供了可靠保障。",
+    "error_detail": "亚基名称错误",
+    "original_question": "二重 PCR 检测方法在鉴定致猪水肿病大肠杆菌时，如何同时检测其毒力因子？该方法的主要优势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在 2004-2006 年期间，通过二重 PCR 检测方法对 216 株大肠杆菌进行鉴定，结果得到 10 株致猪水肿病大肠杆菌",
+    "reference_case": "在 2004-2006 年期间，通过二重 PCR 检测方法对 216 株大肠杆菌进行鉴定，结果得到 6 株致猪水肿病大肠杆菌，其中 3 株既有菌毛又产水肿毒素，其余 3 株仅产水肿毒素。毒素和菌毛阳性率分别为 2.8% 和 1.4%，菌毛阳性菌株占毒素阳性菌株的 50%。",
+    "error_detail": "数量错误",
+    "original_question": "在 2004-2006 年期间，通过二重 PCR 检测方法对 216 株大肠杆菌进行鉴定，结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "牛病毒性腹泻病毒（BVDV）属于黄病毒科（Flaviviridae）黄病毒属（Flavivirus）",
+    "reference_case": "牛病毒性腹泻病毒（BVDV）属于黄病毒科（Flaviviridae）瘟病毒属（Pestivirus）。它与猪瘟病毒（CSFV）和绵羊边界病毒（BDV）具有交叉抗原性。",
+    "error_detail": "属名错误",
+    "original_question": "牛病毒性腹泻病毒（BVDV）属于哪个病毒科和属？它与哪些病毒具有交叉抗原性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "家庭养猪业是我国畜牧业的次要部分",
+    "reference_case": "家庭养猪业是我国畜牧业的主体，猪肉在我国农村是仅次于粮食的第二宗大商品。",
+    "error_detail": "地位描述错误",
+    "original_question": "家庭养猪业在我国畜牧业中的地位如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "恒兴集团与北京大学、清华大学合作",
+    "reference_case": "恒兴集团成立了科研中心，下设种鸡试验场、种猪试验场、对虾养殖试验场和综合试验场，并建立了两所水产病防治中心，成立了海洋高新技术有限公司。他们与中山大学、青岛海洋大学、中国农业大学、湛江海洋大学、农业部饲料工业中心、中国水科院南海水产研究所等国内高校和科研单位开展了广泛的技术合作与交流，并聘请了40多位专家作为公司的技术顾问，还经常请国外的技术权威到公司进行技术指导和技术培训。",
+    "error_detail": "合作单位错误",
+    "original_question": "恒兴集团如何与高等院校和科研院所合作以支持其科研工作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "新疆天康技术发展公司计划投资的技术项目包括肉牛胚胎移植技术产业化项目、优质高产毛/肉绵羊生物技术产业化工程、种禽和种猪繁育基地等",
+    "reference_case": "新疆天康技术发展公司计划投资的技术项目包括肉牛胚胎移植技术产业化项目、优质高产毛/肉绵羊生物技术产业化工程、种禽和种猪繁育基地等。此外，公司还计划投资3100万元兴建一座通过国家认证的动物用生物制品GMP车间，并在西安、天津、上海、北京、深圳等地设置地区性产品配售中心。",
+    "error_detail": "无错误，但可添加不存在的项目",
+    "original_question": "新疆天康技术发展公司计划投资哪些技术项目？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲料中添加20 mg/kg阿维拉霉素，猪的日增重和饲料转化率分别提高15%和10%",
+    "reference_case": "阿维拉霉素在猪饲料中的应用效果显著，可以提高猪的日增重和饲料转化率。饲料中添加10 mg/kg阿维拉霉素，猪的日增重和饲料转化率分别提高10%和8%。",
+    "error_detail": "添加量和效果错误",
+    "original_question": "阿维拉霉素在猪饲料中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "研究表明，5000 mg/kg的阿维拉霉素在鸡料中连续使用62天或在猪饲料中连续使用21周，无毒副反应现象发生",
+    "reference_case": "阿维拉霉素使用的安全性较高。研究表明，3000 mg/kg的阿维拉霉素在鸡料中连续使用62天或在猪饲料中连续使用21周，无毒副反应现象发生；对牛400 mg/d/头连续使用112天或对羊25 mg/d/头连续使用35天，均不影响瘤胃微生物的正常代谢。每公顷耕地施粪肥80吨（饲料中阿维拉霉素的添加水平为40 mg/kg）不影响作物的发芽；每公顷耕地施粪肥4吨（饲料中阿维拉霉素的添加水平为300 mg/kg）对植物无生理毒性。",
+    "error_detail": "剂量错误",
+    "original_question": "阿维拉霉素使用的安全性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "甘蓝科植物中的抗营养因子是致甲状腺肿的脂肪",
+    "reference_case": "甘蓝科植物中的抗营养因子是致甲状腺肿的葡萄糖苷。这些葡萄糖苷在酶水解后会产生硫氰酸离子、异硫氰酸盐、腈、甲状腺肿因子和恶唑烷硫酮等具有广泛毒性的物质。这些物质会抑制甲状腺对碘的吸收和甲状腺素的分泌，导致代谢紊乱和甲状腺肿。在喂饲这些饲料的小鼠、家禽、猪和牛中，可见生长抑制、甲状腺对碘的吸收下降、甲状腺肿大和其他身体器官的病理变化。",
+    "error_detail": "抗营养因子类型错误",
+    "original_question": "甘蓝科植物中的抗营养因子是什么？它们对动物的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "柠檬酸残渣在生长肥育猪日粮中的添加量对猪的健康状况有积极影响，添加量为15%时，猪的肠道健康状况改善，腹泻率降低了25%",
+    "reference_case": "柠檬酸残渣在生长肥育猪日粮中的添加量对猪的健康状况有积极影响，添加量为5%和10%时，猪的肠道健康状况改善，腹泻率分别降低了15%和20%。",
+    "error_detail": "添加量和效果错误",
+    "original_question": "柠檬酸残渣在生长肥育猪日粮中的添加量对猪的健康状况有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长肥育猪的日粮中，柠檬酸残渣的添加量对猪的生产性能有以下影响：添加量为15%时，猪的平均日增重提高了15.6%，饲料转化率改善了12.3%",
+    "reference_case": "在生长肥育猪的日粮中，柠檬酸残渣的添加量对猪的生产性能有以下影响：添加量为5%时，猪的平均日增重提高了8.2%，饲料转化率改善了6.5%；添加量为10%时，平均日增重提高了12.4%，饲料转化率改善了9.8%。",
+    "error_detail": "添加量和效果错误",
+    "original_question": "在生长肥育猪的日粮中，柠檬酸残渣的添加量对猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "执法队在胡某家中发现了三头死猪",
+    "reference_case": "执法队在胡某家中发现了两头死猪，其中一头皮已剥下一半，表面渗流出暗红色血珠；另一头尚未加工，眼观可见肢体僵硬，尸斑明显。此外，还发现了12头猪肉，这些肉表现为黑色、无光泽，指压留痕，脂肪暗红，切面发粘。加工工具包括刀、钩、棒等屠宰加工工具。",
+    "error_detail": "数量错误",
+    "original_question": "执法队在胡某家中发现了哪些具体的病害猪肉和加工工具？",
+    "original_input": ""
+  }
+]

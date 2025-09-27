@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "增加动物日粮中蛋白质的含量会显著提高动物FAS基因的表达。例如，猪日粮中蛋白含量增加会提高脂肪组织和肝脏中FAS mRNA的丰度。",
+    "reference_case": "增加动物日粮中蛋白质的含量会抑制动物FAS基因的表达。例如，猪日粮中蛋白含量增加会降低脂肪组织中FAS mRNA的丰度，但对肝脏中FAS mRNA的丰度无显著影响。",
+    "error_detail": "错误地反转了蛋白质含量对FAS基因表达的影响方向，并错误地声称肝脏中FAS mRNA的丰度也会增加。",
+    "original_question": "蛋白质含量对脂肪酸合成酶（FAS）的基因表达有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过调控脂肪酸合成酶（FAS）基因表达，可以增加动物体脂的沉积，从而生产出高脂肪、低瘦肉率的肉类产品。",
+    "reference_case": "通过调控脂肪酸合成酶（FAS）基因表达，可以控制动物体脂的沉积，从而生产出高瘦肉率、低脂肪的肉类产品。例如，在猪和肉鸡的日粮中设计含有C20不饱和脂肪酸和高蛋白的日粮，可以抑制肝脏和脂肪组织中脂肪的合成，减少体脂肪的沉积。",
+    "error_detail": "错误地反转了调控FAS基因表达对动物体脂沉积的影响，导致完全相反的实际意义描述。",
+    "original_question": "脂肪酸合成酶（FAS）基因表达调控的研究对动物生产有何实际意义？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "生长肥育猪后肠中氨态氮浓度在结肠显著高于直肠和盲肠（P<0:05:。",
+    "reference_case": "生长肥育猪后肠中氨态氮浓度在直肠和盲肠显著高于结肠（P<0:05:。",
+    "error_detail": "错误地反转了氨态氮浓度在不同肠段的分布，导致空间错位的描述。",
+    "original_question": "生长肥育猪后肠中氨态氮浓度在哪些部位显著高于其他部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪后肠内容物中总厌氧菌数量最高的部位是直肠，其次是盲肠，结肠最低（P<0:01:。",
+    "reference_case": "生长肥育猪后肠内容物中总厌氧菌数量最高的部位是盲肠，其次是直肠，结肠最低（P<0:01:。",
+    "error_detail": "错误地反转了总厌氧菌数量在不同肠段的分布顺序。",
+    "original_question": "生长肥育猪后肠内容物中总厌氧菌数量最高的部位是哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "生长肥育猪后肠中乙酸的摩尔百分比在直肠最高，其次是盲肠和结肠。",
+    "reference_case": "生长肥育猪后肠中乙酸的摩尔百分比在盲肠最高，其次是结肠和直肠。",
+    "error_detail": "错误地反转了乙酸摩尔百分比在不同肠段的分布顺序。",
+    "original_question": "生长肥育猪后肠中乙酸的摩尔百分比在哪些部位最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪后肠中羧甲基纤维素酶活性最高的部位是结肠，其次是盲肠，直肠最低（P<0:05:。",
+    "reference_case": "生长肥育猪后肠中羧甲基纤维素酶活性最高的部位是盲肠，其次是结肠，直肠最低（P<0:05:。",
+    "error_detail": "错误地反转了羧甲基纤维素酶活性在不同肠段的分布顺序。",
+    "original_question": "生长肥育猪后肠中羧甲基纤维素酶活性最高的部位是哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "生长肥育猪后肠中总VFA含量最高的部位是盲肠，其次是结肠和直肠。",
+    "reference_case": "生长肥育猪后肠中总VFA含量最高的部位是结肠，其次是直肠和盲肠。",
+    "error_detail": "错误地反转了总VFA含量在不同肠段的分布顺序。",
+    "original_question": "生长肥育猪后肠中总VFA含量最高的部位是哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪后肠中纤维分解菌的数量在结肠内容物中显著高于盲肠和直肠（P<0:01:。",
+    "reference_case": "生长肥育猪后肠中纤维分解菌的数量在盲肠和直肠内容物中显著高于结肠（P<0:01:。",
+    "error_detail": "错误地反转了纤维分解菌数量在不同肠段的分布。",
+    "original_question": "生长肥育猪后肠中纤维分解菌的数量在哪些部位显著高于其他部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "生长肥育猪后肠微生物发酵类型为丙酸发酵型。",
+    "reference_case": "生长肥育猪后肠微生物发酵类型为乙酸发酵型。",
+    "error_detail": "错误地改变了微生物发酵类型的描述，导致概念混淆。",
+    "original_question": "生长肥育猪后肠微生物发酵类型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪后肠内容物的pH值范围为盲肠7:96-7:99，结肠6:96-7:02，直肠7:76-7:81。",
+    "reference_case": "生长肥育猪后肠内容物的pH值范围为盲肠6:96-7:02，结肠7:76-7:81，直肠7:96-7:99。",
+    "error_detail": "错误地反转了不同肠段pH值的范围。",
+    "original_question": "生长肥育猪后肠内容物的pH值范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪后肠中纤维分解菌占可培养微生物区系的比例分别为盲肠22:1%、结肠8:6%和直肠3:1%。",
+    "reference_case": "生长肥育猪后肠中纤维分解菌占可培养微生物区系的比例分别为盲肠8:6%、结肠3:1%和直肠22:1%。",
+    "error_detail": "错误地反转了纤维分解菌在不同肠段的比例。",
+    "original_question": "生长肥育猪后肠中纤维分解菌占可培养微生物区系的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "生长肥育猪后肠内容物中纤维素酶活性在各肠段的分布为直肠>结肠>盲肠（P<0:01:。",
+    "reference_case": "生长肥育猪后肠内容物中纤维素酶活性在各肠段的分布为盲肠>结肠>直肠（P<0:01:。",
+    "error_detail": "错误地反转了纤维素酶活性在不同肠段的分布顺序。",
+    "original_question": "生长肥育猪后肠内容物中纤维素酶活性在各肠段的分布如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "文章中的实验研究了7日龄、14日龄、21日龄和28日龄断奶对仔猪血液生理指标的影响。",
+    "reference_case": "文章中的实验研究了14日龄、21日龄、28日龄和35日龄断奶对仔猪血液生理指标的影响。",
+    "error_detail": "错误地改变了实验研究的断奶日龄范围。",
+    "original_question": "文章中的实验研究了哪些断奶日龄对仔猪血液生理指标的影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪在28日龄时，血液白细胞计数（WBC）、血小板计数（PLT）和淋巴细胞比例（LY%）均达到高峰值。",
+    "reference_case": "仔猪在28日龄时，血液红细胞计数（RBC）、血红蛋白浓度（HGB）和血球比容（HCT）均达到高峰值。",
+    "error_detail": "错误地改变了达到高峰值的血液生理指标。",
+    "original_question": "仔猪在28日龄时，哪些血液生理指标达到高峰值？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "断奶会显著提高仔猪血液中的红细胞计数（RBC）、血红蛋白浓度（HGB）和血球比容（HCT）。",
+    "reference_case": "断奶对仔猪血液中的红细胞计数（RBC）、血红蛋白浓度（HGB）和血球比容（HCT）没有显著影响。",
+    "error_detail": "错误地声称断奶会显著提高这些血液生理指标，而实际上没有显著影响。",
+    "original_question": "断奶对仔猪血液中的红细胞计数（RBC）、血红蛋白浓度（HGB）和血球比容（HCT）有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳清粉含量从5%增加到20%时，断奶仔猪的血浆葡萄糖水平显著降低，其中20%乳清粉组的血浆葡萄糖水平最低，与5%乳清粉组相比差异极显著。",
+    "reference_case": "乳清粉含量从5%增加到20%时，断奶仔猪的血浆葡萄糖水平显著升高，其中20%乳清粉组的血浆葡萄糖水平最高，与5%乳清粉组相比差异极显著。",
+    "error_detail": "错误地反转了乳清粉含量对血浆葡萄糖水平的影响方向。",
+    "original_question": "乳清粉含量对断奶仔猪的血浆葡萄糖水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳清粉含量从5%增加到20%时，断奶仔猪的干物质消化率显著降低，其中20%乳清粉组的干物质消化率最低，与5%乳清粉组相比差异极显著。",
+    "reference_case": "乳清粉含量从5%增加到20%时，断奶仔猪的干物质消化率显著提高，其中20%乳清粉组的干物质消化率最高，与5%乳清粉组相比差异极显著。",
+    "error_detail": "错误地反转了乳清粉含量对干物质消化率的影响方向。",
+    "original_question": "乳清粉含量对断奶仔猪的干物质消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳清粉含量从5%增加到20%时，断奶仔猪的粗脂肪消化率显著降低，其中20%乳清粉组的粗脂肪消化率最低，与5%乳清粉组相比差异显著。",
+    "reference_case": "乳清粉含量从5%增加到20%时，断奶仔猪的粗脂肪消化率显著提高，其中20%乳清粉组的粗脂肪消化率最高，与5%乳清粉组相比差异显著。",
+    "error_detail": "错误地反转了乳清粉含量对粗脂肪消化率的影响方向。",
+    "original_question": "乳清粉含量对断奶仔猪的粗脂肪消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳清粉含量从5%增加到20%时，断奶仔猪的日增重显著降低，其中20%乳清粉组的日增重最低，与5%乳清粉组相比差异极显著。",
+    "reference_case": "乳清粉含量从5%增加到20%时，断奶仔猪的日增重显著提高，其中20%乳清粉组的日增重最高，与5%乳清粉组相比差异极显著。",
+    "error_detail": "错误地反转了乳清粉含量对日增重的影响方向。",
+    "original_question": "乳清粉含量对断奶仔猪的日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳清粉含量从5%增加到20%时，断奶仔猪的血浆总蛋白水平有下降趋势，其中20%乳清粉组的血浆总蛋白水平最低，但差异接近显著水平。",
+    "reference_case": "乳清粉含量从5%增加到20%时，断奶仔猪的血浆总蛋白水平有上升趋势，其中20%乳清粉组的血浆总蛋白水平最高，但差异接近显著水平。",
+    "error_detail": "错误地反转了乳清粉含量对血浆总蛋白水平的影响方向。",
+    "original_question": "乳清粉含量对断奶仔猪的血浆总蛋白水平有何影响？",
+    "original_input": ""
+  }
+]

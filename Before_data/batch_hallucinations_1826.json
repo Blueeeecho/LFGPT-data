@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "日粮中能量不足会影响睾丸和其他性器官的发育，导致射精量减少，本交配种能力不支，性欲下降，不爱运动等，且影响程度高达90%。",
+    "reference_case": "日粮中能量不足会影响睾丸和其他性器官的发育，导致射精量减少，本交配种能力不支，性欲下降，不爱运动等。",
+    "error_detail": "添加了不存在的具体影响程度百分比",
+    "original_question": "日粮中能量不足会对公猪的哪些方面产生影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配种公猪日粮中赖氨酸水平为0.80%。",
+    "reference_case": "配种公猪日粮中赖氨酸水平为0.60%。",
+    "error_detail": "错误的赖氨酸水平数值",
+    "original_question": "配种公猪日粮中赖氨酸的适宜水平是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪日粮中钙的适宜水平为1.00%，锌的适宜水平为1.00%。",
+    "reference_case": "公猪日粮中钙的适宜水平为0.75%，锌的适宜水平为0.75%。",
+    "error_detail": "错误的钙和锌水平数值",
+    "original_question": "公猪日粮中钙和锌的适宜水平是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维生素A缺乏会导致青年公猪性成熟延迟、睾丸变大、睾丸皮细颗粒变性和退化，降低精子质量。",
+    "reference_case": "维生素A缺乏会导致青年公猪性成熟延迟、睾丸变小、睾丸皮细颗粒变性和退化，降低精子质量。",
+    "error_detail": "错误的睾丸变化描述",
+    "original_question": "维生素A缺乏会导致公猪出现哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "公猪日粮中长期缺乏维生素E会导致成年公猪睾丸退化，暂时性丧失生育能力。",
+    "reference_case": "公猪日粮中长期缺乏维生素E会导致成年公猪睾丸退化，永久性丧失生育能力。",
+    "error_detail": "错误的生育能力丧失描述",
+    "original_question": "长期缺乏维生素E会对公猪产生什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "种公猪必须保持十成膘，即外观无法触摸到脊柱。",
+    "reference_case": "种公猪必须保持七八成膘，即外观可以触摸到脊柱，或者在早晨空腹时根据腰角下方、膝褶斜前方凸起状况判定，凸起太高说明公猪过于肥胖；此部位凹降说明公猪过于消瘦。",
+    "error_detail": "错误的体况描述",
+    "original_question": "种公猪保持何种体况才能发挥种用价值？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "生鸡蛋中含有抗生物素物质，会影响种公猪对饲料中维生素的吸收利用，同时也会感染沙门氏菌。",
+    "reference_case": "生鸡蛋中含有抗生物素物质，会影响种公猪对饲料中生物素的吸收利用，同时也会感染沙门氏菌。",
+    "error_detail": "错误的营养物质描述",
+    "original_question": "在配种期间给种公猪饲喂生鸡蛋有何风险？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "应避免使用发霉变质、虫蛀、含杂质的玉米、稻子及豆粕等劣质饲料原料，因为这些原料会导致公猪立即死亡。",
+    "reference_case": "应避免使用发霉变质、虫蛀、含杂质的玉米、稻子及豆粕等劣质饲料原料。",
+    "error_detail": "添加了不存在的严重后果",
+    "original_question": "公猪日粮中应避免使用哪些劣质饲料原料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "蛋白质饲料主要有豆粕（饼）、鱼粉、水解的毛粉等，其中鱼粉是最主要的来源。",
+    "reference_case": "蛋白质饲料主要有豆粕（饼）、鱼粉、水解的毛粉等。",
+    "error_detail": "错误的主要来源描述",
+    "original_question": "公猪日粮中蛋白质饲料的主要来源有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "训练成功的公猪，一般不要进行人工授精。",
+    "reference_case": "训练成功的公猪，一般不要进行本交配种。",
+    "error_detail": "错误的操作描述",
+    "original_question": "训练成功的公猪，一般不要进行什么操作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "公猪采精时要有耐心，采精室要定期检查精液和称重，且每次采精后应立即进行配种。",
+    "reference_case": "公猪采精时要有耐心，采精室要定期检查精液和称重。",
+    "error_detail": "添加了不存在的后续操作",
+    "original_question": "公猪采精时需要注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "公猪使用前1周左右应进行精液品质检查，防止精液品质低劣影响母猪受胎率和产仔数。",
+    "reference_case": "公猪使用前2周左右应进行精液品质检查，防止精液品质低劣影响母猪受胎率和产仔数。",
+    "error_detail": "错误的检查时间",
+    "original_question": "公猪使用前应进行哪些检查？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "12月龄以内公猪每周采精3至4次；12月龄以上公猪每周采精4至5次，每次采精500至600毫升。",
+    "reference_case": "12月龄以内公猪每周采精1至2次；12月龄以上公猪每周采精2至3次，每次采精300至400毫升。",
+    "error_detail": "错误的采精频率和量",
+    "original_question": "公猪采精的频率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪在40°C以上的高温环境下，精液品质下降，并可能导致应激期过长，较低的繁殖力，甚至终生不育。",
+    "reference_case": "公猪在35°C以上的高温环境下，精液品质下降，并可能导致应激期过长，较低的繁殖力，甚至终生不育。",
+    "error_detail": "错误的高温阈值",
+    "original_question": "高温环境下对公猪精液品质有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "使用遭受热应激的公猪配种会提高母猪受胎率和产仔数，应保证公猪居所有足够的光照面积，必要时提供水或安装通风设施，非混凝土地面饲养的公猪要避免磨损变形。",
+    "reference_case": "使用遭受热应激的公猪配种会降低母猪受胎率和产仔数，应保证公猪居所有足够的光照面积，必要时提供水或安装通风设施，非混凝土地面饲养的公猪要避免磨损变形。",
+    "error_detail": "矛盾的配种效果描述",
+    "original_question": "如何降低高温对公猪的影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "公猪的配种能力和使用年限与饲料质量关系较大，饲料质量过高或过低都会影响配种成绩。",
+    "reference_case": "公猪的配种能力和使用年限与使用强度关系较大，使用强度过大或过小都会影响配种成绩。",
+    "error_detail": "错误的因果关系",
+    "original_question": "公猪的配种能力和使用年限受什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种公猪的使用年限一般为5年左右，国外平均为3至3.5年。",
+    "reference_case": "种公猪的使用年限一般为3年左右，国外平均为2至2.5年。",
+    "error_detail": "错误的使用年限",
+    "original_question": "种公猪的使用年限一般为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "选择生长速度快、饲料转化率高、背膘薄的品种或品系，外形要求结实强壮、四肢端直、腹线平直、睾丸大并且对称、乳头6对以上排列整齐，无疝乳头，避免选择有运动障碍、站立不稳、直腿、高弓背的公猪，且公猪必须经过基因编辑。",
+    "reference_case": "选择生长速度快、饲料转化率高、背膘薄的品种或品系，外形要求结实强壮、四肢端直、腹线平直、睾丸大并且对称、乳头6对以上排列整齐，无疝乳头，避免选择有运动障碍、站立不稳、直腿、高弓背的公猪。",
+    "error_detail": "添加了不存在的选择标准",
+    "original_question": "选择种公猪的标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "经产母猪空怀时间很短，一般只有15至20天；后备母猪根据其开始配种的时期而定，如果在第2个发情期配种，时间为30天左右；如果在第3个发情期配种，则时间为60天左右。",
+    "reference_case": "经产母猪空怀时间很短，一般只有5至10天；后备母猪根据其开始配种的时期而定，如果在第2个发情期配种，时间为21天左右；如果在第3个发情期配种，则时间为42天左右。",
+    "error_detail": "错误的饲养时间",
+    "original_question": "母猪配种前的饲养时间如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪适宜配种的背膘厚度一般为20至22毫米。",
+    "reference_case": "母猪适宜配种的背膘厚度一般为16至18毫米。",
+    "error_detail": "错误的背膘厚度",
+    "original_question": "母猪适宜配种的背膘厚度是多少？",
+    "original_input": ""
+  }
+]

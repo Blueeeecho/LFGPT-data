@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在断奶仔猪日粮中添加0:10%的NCG能显著降低血清尿素氮和氨的浓度，增加空肠和回肠的增殖细胞核抗原（PCNA）mRNA的量，改善肠黏膜形态，并对肠黏膜的增殖有较好的促进作用。",
+    "reference_case": "在断奶仔猪日粮中添加0:05%的NCG能显著降低血清尿素氮和氨的浓度，增加空肠和回肠的增殖细胞核抗原（PCNA）mRNA的量，改善肠黏膜形态，并对肠黏膜的增殖有较好的促进作用。",
+    "error_detail": "修改了NCG的添加比例，从0:05%增加到0:10%，导致数据型幻觉。",
+    "original_question": "NCG如何影响断奶仔猪的肠道健康？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在妊娠后期母猪日粮中添加1:0%精氨酸和0:1% NCG可使仔猪出生平均活重比对照组分别提高20:2%和18:3%。",
+    "reference_case": "在妊娠后期母猪日粮中添加1:0%精氨酸和0:1% NCG可使仔猪出生平均活重比对照组分别提高16:2%和14:3%。",
+    "error_detail": "错误地提高了仔猪出生平均活重的百分比，导致概念混淆幻觉。",
+    "original_question": "NCG在妊娠母猪生产中的应用有哪些具体效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在哺乳仔猪日粮中添加100 mg/kg体重的NCG能够显著提高猪血清精氨酸浓度和生长激素浓度。",
+    "reference_case": "在哺乳仔猪日粮中添加50 mg/kg体重的NCG能够显著提高猪血清精氨酸浓度和生长激素浓度，提高哺乳仔猪的生长速率，促进肌肉蛋白的合成。",
+    "error_detail": "修改了NCG的添加量，从50 mg/kg增加到100 mg/kg，导致时效性幻觉。",
+    "original_question": "NCG在仔猪生产中的应用有哪些具体效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "黄酒糟对育肥猪的血清碱性磷酸酶活性有显著影响，试验1组的血清碱性磷酸酶含量较对照组显著提高。",
+    "reference_case": "黄酒糟对育肥猪的血清碱性磷酸酶活性无显著影响，但试验1组的血清碱性磷酸酶含量较对照组有所提高，试验2组有所降低。",
+    "error_detail": "错误地声称黄酒糟对血清碱性磷酸酶活性有显著影响，导致空间错位幻觉。",
+    "original_question": "黄酒糟对育肥猪的血清碱性磷酸酶活性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "黄酒糟在育肥猪日粮中的适宜用量为20%。",
+    "reference_case": "黄酒糟在育肥猪日粮中的适宜用量为14%。",
+    "error_detail": "修改了黄酒糟的适宜用量，从14%增加到20%，导致数据型幻觉。",
+    "original_question": "黄酒糟在育肥猪日粮中的适宜用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "黄酒糟显著提高了育肥猪的粗纤维消化率。",
+    "reference_case": "黄酒糟对育肥猪的粗纤维消化率无显著影响，但试验组的粗纤维表观消化率较对照组有所提高。",
+    "error_detail": "错误地声称黄酒糟显著提高了粗纤维消化率，导致因果倒置幻觉。",
+    "original_question": "黄酒糟对育肥猪的粗纤维消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "黄酒糟对育肥猪的血清生化指标有显著影响，包括葡萄糖、钙、磷、总胆固醇、总蛋白、白蛋白、尿素氮含量，以及碱性磷酸酶、谷草转氨酶和谷丙转氨酶的活性和IgG、IgM、IgA水平。",
+    "reference_case": "黄酒糟对育肥猪的血清生化指标无显著影响，包括葡萄糖、钙、磷、总胆固醇、总蛋白、白蛋白、尿素氮含量，以及碱性磷酸酶、谷草转氨酶和谷丙转氨酶的活性和IgG、IgM、IgA水平。",
+    "error_detail": "错误地声称黄酒糟对血清生化指标有显著影响，导致逻辑完整性幻觉。",
+    "original_question": "黄酒糟对育肥猪的血清生化指标有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "黄酒糟对育肥猪的血清尿素氮含量有显著影响，试验1组和试验2组的尿素氮含量较对照组显著升高。",
+    "reference_case": "黄酒糟对育肥猪的血清尿素氮含量无显著影响，但试验1组和试验2组的尿素氮含量较对照组有所升高。",
+    "error_detail": "错误地声称黄酒糟对血清尿素氮含量有显著影响，导致数据型幻觉。",
+    "original_question": "黄酒糟对育肥猪的血清尿素氮含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "黄酒糟显著提高了育肥猪的血清免疫指标，包括IgG、IgM和IgA水平。",
+    "reference_case": "黄酒糟对育肥猪的血清免疫指标无显著影响，包括IgG、IgM和IgA水平。",
+    "error_detail": "错误地添加了黄酒糟提高血清免疫指标的假设，导致假设滥用型幻觉。",
+    "original_question": "黄酒糟对育肥猪的血清免疫指标有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "黄酒糟对育肥猪的血清谷丙转氨酶和谷草转氨酶活性有显著影响，说明黄酒糟替代基础日粮中的部分豆粕会对猪的肝功能造成不良影响。",
+    "reference_case": "黄酒糟对育肥猪的血清谷丙转氨酶和谷草转氨酶活性无显著影响，说明黄酒糟替代基础日粮中的部分豆粕不会对猪的肝功能造成不良影响。",
+    "error_detail": "错误地声称黄酒糟对肝功能有不良影响，导致概念混淆幻觉。",
+    "original_question": "黄酒糟对育肥猪的血清谷丙转氨酶和谷草转氨酶活性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "研究表明，生长及育肥猪对踠豆具有较好的耐受性，日粮中添加40%的生踠豆粉不会影响生长及育肥猪的生长性能。",
+    "reference_case": "研究表明，生长及育肥猪对踠豆具有较好的耐受性，日粮中添加36%的生踠豆粉不会影响生长及育肥猪的生长性能。",
+    "error_detail": "修改了踠豆粉的添加比例，从36%增加到40%，导致数据型幻觉。",
+    "original_question": "踠豆在猪饲料中的应用有哪些具体研究结果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "研究表明，仔猪日粮中踠豆的添加量不能过高。26～48日龄仔猪日粮中添加15:5%的踠豆浓缩蛋白能够降低仔猪的生长性能。",
+    "reference_case": "研究表明，仔猪日粮中踠豆的添加量不能过高。26～48日龄仔猪日粮中添加10:5%的踠豆浓缩蛋白能够降低仔猪的生长性能。",
+    "error_detail": "修改了踠豆浓缩蛋白的添加量，从10:5%增加到15:5%，导致时效性幻觉。",
+    "original_question": "踠豆在猪饲料中的添加量对仔猪的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在副猪嗜血杆菌的MLST分型研究中，6pgd基因的变异率最高，达到了90%。",
+    "reference_case": "在副猪嗜血杆菌的MLST分型研究中，6pgd基因的变异率最高，达到了100%。",
+    "error_detail": "错误地降低了6pgd基因的变异率，从100%降到90%，导致概念混淆幻觉。",
+    "original_question": "在副猪嗜血杆菌的MLST分型研究中，哪个基因的变异率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在副猪嗜血杆菌的MLST分型研究中，YJ-1F和YJ-3F的等位基因谱和ST型完全一致。",
+    "reference_case": "在副猪嗜血杆菌的MLST分型研究中，YJ-1F和YJ-2F的等位基因谱和ST型完全一致。",
+    "error_detail": "错误地修改了菌株名称，从YJ-2F改为YJ-3F，导致空间错位幻觉。",
+    "original_question": "在副猪嗜血杆菌的MLST分型研究中，哪些菌株的等位基因谱和ST型完全一致？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在副猪嗜血杆菌的MLST分型研究中，H44、H45、HD、ZCH-3F和HN这6个菌株发生了4个基因的变异。",
+    "reference_case": "在副猪嗜血杆菌的MLST分型研究中，H44、H45、HD、ZCH-3F和HN这5个菌株发生了4个基因的变异。",
+    "error_detail": "错误地增加了菌株数量，从5个增加到6个，导致数据型幻觉。",
+    "original_question": "副猪嗜血杆菌的MLST分型研究中，哪些菌株发生了4个基因的变异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "7个看家基因的平均遗传距离为0:832。",
+    "reference_case": "7个看家基因的平均遗传距离为0:732。",
+    "error_detail": "错误地修改了平均遗传距离，从0:732增加到0:832，导致数据型幻觉。",
+    "original_question": "副猪嗜血杆菌的MLST分型研究中，7个看家基因的平均遗传距离是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "21株广东分离株被分成了12个类群。",
+    "reference_case": "21株广东分离株被分成了10个类群。",
+    "error_detail": "错误地增加了类群数量，从10个增加到12个，导致数据型幻觉。",
+    "original_question": "副猪嗜血杆菌的MLST分型研究中，21株广东分离株被分成了多少个类群？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在副猪嗜血杆菌的MLST分型研究中，6gpd基因位点的多态位点数最多，达到80个。",
+    "reference_case": "在副猪嗜血杆菌的MLST分型研究中，6gpd基因位点的多态位点数最多，达到74个。",
+    "error_detail": "错误地增加了多态位点数，从74个增加到80个，导致概念混淆幻觉。",
+    "original_question": "副猪嗜血杆菌的MLST分型研究中，哪些基因位点的多态位点数最多？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在副猪嗜血杆菌的MLST分型研究中，H44（ST120:、H45（ST119:和SHD-1GJ（ST122:与德国的H425（ST19:无共同的起源。",
+    "reference_case": "在副猪嗜血杆菌的MLST分型研究中，H44（ST120:、H45（ST119:和SHD-1GJ（ST122:与德国的H425（ST19:有共同的起源。",
+    "error_detail": "错误地否认了共同起源，导致空间错位幻觉。",
+    "original_question": "在副猪嗜血杆菌的MLST分型研究中，哪些菌株与德国的H425（ST19:有共同的起源？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在副猪嗜血杆菌的MLST分型研究中，H44（ST120:、H45（ST119:、SHD-1GJ（ST122:、SH-N1（ST123:、SH-2N（ST124:、JM-2H（ST127:和HZH-4H（ST131:与亚洲的分离株有亲缘关系。",
+    "reference_case": "在副猪嗜血杆菌的MLST分型研究中，H44（ST120:、H45（ST119:、SHD-1GJ（ST122:、SH-N1（ST123:、SH-2N（ST124:、JM-2H（ST127:和HZH-4H（ST131:与欧洲和美洲的分离株有亲缘关系。",
+    "error_detail": "错误地修改了亲缘关系的地理区域，从欧洲和美洲改为亚洲，导致概念混淆幻觉。",
+    "original_question": "在副猪嗜血杆菌的MLST分型研究中，哪些菌株与欧洲和美洲的分离株有亲缘关系？",
+    "original_input": ""
+  }
+]

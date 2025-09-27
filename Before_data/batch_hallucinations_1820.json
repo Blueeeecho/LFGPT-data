@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪黄痢由沙门氏菌引起。",
+    "reference_case": "仔猪黄痢由大肠杆菌引起。",
+    "error_detail": "将病原体错误地标识为沙门氏菌，而非正确的大肠杆菌。",
+    "original_question": "仔猪黄痢的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "预防仔猪黄痢的方法包括:母猪在分娩前30天和10天分别肌内注射大肠杆菌K",
+    "reference_case": "预防仔猪黄痢的方法包括:母猪在分娩前40天和15天分别肌内注射大肠杆菌K",
+    "error_detail": "错误地修改了注射疫苗的时间点。",
+    "original_question": "预防仔猪黄痢的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪白痢表现为排出黄色糊状稀便。",
+    "reference_case": "仔猪白痢表现为排出乳白色和灰白色糊状稀便，混有黏液和气泡，肛围常被稀便污染，精神不振，食欲减损，被毛粗乱等。",
+    "error_detail": "错误地描述了仔猪白痢的粪便颜色。",
+    "original_question": "仔猪白痢的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪白痢由沙门氏菌引起。",
+    "reference_case": "仔猪白痢由大肠杆菌引起。",
+    "error_detail": "将病原体错误地标识为沙门氏菌，而非正确的大肠杆菌。",
+    "original_question": "仔猪白痢的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪白痢一年四季都可发生，发病率低，但病死率高。",
+    "reference_case": "仔猪白痢一年四季都可发生，发病率高，但病死率低。",
+    "error_detail": "错误地修改了发病率和病死率的描述。",
+    "original_question": "仔猪白痢的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪红痢5日龄内多发，10日龄以上少见。",
+    "reference_case": "仔猪红痢3日龄内多发，7日龄以上少见，病程短，病死率高。",
+    "error_detail": "错误地修改了发病日龄的描述。",
+    "original_question": "仔猪红痢的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪红痢小肠出血、坏死，有黄色内容物。",
+    "reference_case": "仔猪红痢小肠出血、坏死，有红色内容物。",
+    "error_detail": "错误地描述了小肠内容物的颜色。",
+    "original_question": "仔猪红痢的主要病变是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "妊娠期母猪的饲养管理应注意饲料营养要丰富而全面，尤其是蛋白质和脂肪不能缺乏。",
+    "reference_case": "妊娠期母猪的饲养管理应注意饲料营养要丰富而全面，尤其是矿物质和维生素不能缺乏；圈舍要勤打扫，定期消毒；分娩后的母猪体表及乳头要洗刷消毒。",
+    "error_detail": "错误地强调了蛋白质和脂肪，而忽略了矿物质和维生素的重要性。",
+    "original_question": "妊娠期母猪的饲养管理应注意哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "尽早让仔猪吃初乳是为了促进消化。",
+    "reference_case": "尽早让仔猪吃初乳是为了固定乳头，同时初乳中含有免疫球蛋白，能增强仔猪的免疫力。",
+    "error_detail": "错误地描述了吃初乳的目的。",
+    "original_question": "为何要尽早让仔猪吃初乳？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在母猪分娩前30天和10天分别使用仔猪黄白痢K",
+    "reference_case": "在母猪分娩前40天和15天分别使用仔猪黄白痢K",
+    "error_detail": "错误地修改了使用疫苗的时间点。",
+    "original_question": "在母猪分娩前应使用哪些疫苗进行免疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "通过内服2%六味酸水溶液，有助于防止仔猪黄白痢等腹泻病的发生。",
+    "reference_case": "通过内服1%六味酸水溶液，有助于防止仔猪黄白痢等腹泻病的发生。",
+    "error_detail": "错误地修改了六味酸水溶液的浓度。",
+    "original_question": "如何使用六味酸水溶液预防仔猪腹泻？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "特效肠炎净注射液，0.2毫升/千克体重，每日1次，肌内注射，连用3天。",
+    "reference_case": "特效肠炎净注射液，0.1毫升/千克体重，每日1次，肌内注射，连用3天；复方痢菌净注射液，0.2毫升/千克体重，每日1次，肌内注射，连用3天；一针灵注射液，1～2毫升/次，交巢穴注射。",
+    "error_detail": "错误地修改了特效肠炎净注射液的用量。",
+    "original_question": "治疗仔猪黄白痢的特效药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "肌内注射破伤风抗毒素10万单位。",
+    "reference_case": "肌内注射破伤风抗毒素5万～7万单位；镇痉可用氯丙嗪注射液25～50毫克，深部分点肌内注射，每日2次，连用3～5天；针灸主穴为天门、百会、锁口、开关和大风门；配穴为血印、山根、八字、涌泉、曲池。",
+    "error_detail": "错误地修改了破伤风抗毒素的用量。",
+    "original_question": "如何治疗猪的破伤风？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "20%磺胺嘧啶钠注射液20～50毫升，每日分2次肌内注射。",
+    "reference_case": "20%磺胺嘧啶钠注射液10～40毫升，每日分2次肌内注射；病猪兴奋不安时，可内服水合氯醛0.1克/千克体重；土霉素1～2克，维生素C注射液5毫升，维生素B12注射液5毫升，每日2次肌内注射，连用3～5天。",
+    "error_detail": "错误地修改了磺胺嘧啶钠注射液的用量范围。",
+    "original_question": "治疗李氏杆菌病的药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "由沙门氏菌产生的内毒素所致，是断奶仔猪的一种过敏性疾病。",
+    "reference_case": "由大肠杆菌产生的内毒素所致，是断奶仔猪的一种过敏性疾病。",
+    "error_detail": "错误地标识了病原体为沙门氏菌，而非大肠杆菌。",
+    "original_question": "仔猪水肿病的发病原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪10～14日龄肌内注射猪水肿病多价灭活苗1毫升。",
+    "reference_case": "仔猪14～18日龄肌内注射猪水肿病多价灭活苗1毫升；断奶时，不要突然更换饲料，饲料营养应丰富全面，补充足量的矿物质、维生素、保持良好的环境卫生。",
+    "error_detail": "错误地修改了注射疫苗的日龄范围。",
+    "original_question": "如何预防仔猪水肿病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "静脉注射20%甘露醇注射液10～50毫升。",
+    "reference_case": "按仔猪白痢病的治疗方法给予治疗或肌内注射菌速康；早期内服等渗硫酸钠溶液等盐类泻剂，以尽早排出肠道内毒素；肌内注射亚硒酸钠维生素E注射液，每千克体重0.2毫升；内压升高者，可静脉注射20%甘露醇注射液20～100毫升。",
+    "error_detail": "错误地修改了甘露醇注射液的用量范围。",
+    "original_question": "治疗仔猪水肿病的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪肺丝虫病的症状包括持续咳嗽，特别是中午最明显。",
+    "reference_case": "猪肺丝虫病的症状包括阵咳，特别是早、晚和运动时最明显，鼻孔有稠液体流出，呼吸困难，精神委顿，毛焦肷吊，仔猪生长发育受阻，消瘦，贫血，常形成僵猪，严重者可造成死亡。",
+    "error_detail": "错误地描述了咳嗽的时间和性质。",
+    "original_question": "猪肺丝虫病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "凡在支气管黏液或粪便中发现有大椭圆形、深灰色、外壳较薄者，即可确诊。",
+    "reference_case": "根据症状可疑为本病，但确诊时仍需制片，用低倍镜进行虫卵检查。凡在支气管黏液或粪便中发现有小椭圆形、淡灰色、外壳较厚、表面有细皱纹、卵内含有呈 S 形幼虫者，即可确诊。",
+    "error_detail": "错误地描述了虫卵的特征。",
+    "original_question": "猪肺丝虫病的诊断方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "用阿维菌素或伊维菌素按每千克体重 0.5 毫克，一次肌内注射。",
+    "reference_case": "防止蚚蚓滋生，圈舍经常清扫消毒，保持干燥清洁；猪粪堆积发酵，用生物热杀灭虫卵；实行定期驱虫；用阿维菌素或伊维菌素按每千克体重 0.3 毫克，一次肌内注射。",
+    "error_detail": "错误地修改了阿维菌素或伊维菌素的用量。",
+    "original_question": "防治猪肺丝虫病的方法有哪些？",
+    "original_input": ""
+  }
+]

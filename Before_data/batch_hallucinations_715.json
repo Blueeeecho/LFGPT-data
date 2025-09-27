@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "神经氨酸酶能够破坏宿主细胞表面或体液中糖脂、糖蛋白末端的葡萄糖残基，暴露出其定居或侵入宿主细胞的受体，并干扰宿主细胞的防御系统。",
+    "reference_case": "神经氨酸酶能够破坏宿主细胞表面或体液中糖脂、糖蛋白末端的唾液酸残基，暴露出其定居或侵入宿主细胞的受体，并干扰宿主细胞的防御系统。",
+    "error_detail": "将唾液酸残基错误地描述为葡萄糖残基",
+    "original_question": "副猪嗜血杆菌的神经氨酸酶在致病过程中起什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "转铁蛋白能够特异地捕获宿主的转铁蛋白，并将铁转运到细胞浆中，以供细菌生长，对副猪嗜血杆菌感染猪并引起发病过程起着决定性作用。",
+    "reference_case": "转铁蛋白能够特异地捕获宿主的转铁蛋白，并将铁转运到细胞浆中，以供细菌生长，对副猪嗜血杆菌感染猪并引起发病过程起着决定性作用。",
+    "error_detail": "虽然描述基本正确，但夸大了转铁蛋白的决定性作用",
+    "original_question": "副猪嗜血杆菌的转铁蛋白在其生长和致病过程中起什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "副猪嗜血杆菌的菌毛样结构有助于其黏附猪脑微血管内皮细胞，可能是引起脑膜炎的唯一原因。",
+    "reference_case": "副猪嗜血杆菌的菌毛样结构有助于其黏附猪脑微血管内皮细胞，可能是引起脑膜炎的原因。",
+    "error_detail": "添加了'唯一'这一假设，错误地简化了脑膜炎的病因",
+    "original_question": "副猪嗜血杆菌的菌毛在其致病过程中起什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "外膜蛋白与副猪嗜血杆菌的毒力有密切关系，从具有多发性浆膜炎和关节炎临床症状的猪体内分离到的副猪嗜血杆菌菌株的外膜蛋白完全相同。",
+    "reference_case": "外膜蛋白与副猪嗜血杆菌的毒力有密切关系，从具有多发性浆膜炎和关节炎临床症状的猪体内分离到的副猪嗜血杆菌菌株的外膜蛋白基本相同。",
+    "error_detail": "将'基本相同'错误地描述为'完全相同'，忽略了菌株间的微小差异",
+    "original_question": "副猪嗜血杆菌的外膜蛋白（Omp）与其毒力有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌需氧或兼性厌氧，最适生长温度为35-37°C，pH值为7:6-7:8，在巧克力琼脂平板上于37°C培养12小时生长良好。",
+    "reference_case": "副猪嗜血杆菌需氧或兼性厌氧，最适生长温度为35-37°C，pH值为7:6-7:8，在巧克力琼脂平板上于37°C培养24-48小时生长良好。",
+    "error_detail": "将培养时间错误地缩短为12小时",
+    "original_question": "副猪嗜血杆菌的生长需要哪些条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪圆环病毒最早是美国学者I. Tischer等在1974年在猪肾细胞PK-15细胞系ATCC-CCL31的传代过程中发现的，当时被误认为是一种细胞污染物。",
+    "reference_case": "猪圆环病毒最早是德国学者I. Tischer等在1974年在猪肾细胞PK-15细胞系ATCC-CCL31的传代过程中发现的，当时被误认为是一种细胞污染物。",
+    "error_detail": "将发现者的国籍错误地描述为美国",
+    "original_question": "猪圆环病毒（PCV）最早是在什么情况下被发现的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒是单股正链环状DNA病毒，有2种类型：PCV-1和PCV-2。PCV-2是断乳仔猪多系统衰竭综合征（PMWS）的主要病原。",
+    "reference_case": "猪圆环病毒是单股负链环状DNA病毒，有2种类型：PCV-1和PCV-2。PCV-2是断乳仔猪多系统衰竭综合征（PMWS）的主要病原。",
+    "error_detail": "将'单股负链'错误地描述为'单股正链'",
+    "original_question": "猪圆环病毒（PCV）的基因组结构是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪圆环病毒感染后侵害免疫系统，易继发或并发感染其他病原体，使疾病进一步复杂化。PCV-2感染引起的PMWS已成为危害我国规模化养猪业的唯一免疫抑制性疾病。",
+    "reference_case": "猪圆环病毒感染后侵害免疫系统，易继发或并发感染其他病原体，使疾病进一步复杂化。PCV-2感染引起的PMWS已成为危害我国规模化养猪业的重要免疫抑制性疾病之一。",
+    "error_detail": "添加了'唯一'这一假设，错误地简化了免疫抑制性疾病的多样性",
+    "original_question": "猪圆环病毒（PCV）感染后对猪的免疫系统有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒（PCV）最早是在1975年被德国学者I. Tischer等在猪肾细胞PK-15细胞系ATCC-CCL31的传代过程中发现的。",
+    "reference_case": "猪圆环病毒（PCV）最早是在1974年被德国学者I. Tischer等在猪肾细胞PK-15细胞系ATCC-CCL31的传代过程中发现的。",
+    "error_detail": "将发现年份错误地描述为1975年",
+    "original_question": "猪圆环病毒（PCV）最早是在哪一年被发现的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒（PCV）的ORF2基因编码Rep蛋白，Rep蛋白是病毒的核衣壳蛋白，分子质量约为30 ku。",
+    "reference_case": "猪圆环病毒（PCV）的ORF2基因编码Cap蛋白，Cap蛋白是病毒的核衣壳蛋白，分子质量约为30 ku。",
+    "error_detail": "将'Cap蛋白'错误地描述为'Rep蛋白'",
+    "original_question": "猪圆环病毒（PCV）的ORF2基因编码的蛋白是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒（PCV）的ORF1基因编码Cap蛋白，Cap蛋白与病毒的滚环复制相关，分子质量约为37 ku。",
+    "reference_case": "猪圆环病毒（PCV）的ORF1基因编码Rep蛋白，Rep蛋白与病毒的滚环复制相关，分子质量约为37 ku。",
+    "error_detail": "将'Rep蛋白'错误地描述为'Cap蛋白'",
+    "original_question": "猪圆环病毒（PCV）的ORF1基因编码的蛋白是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒（PCV）的复制起始点位于Rep和Cap这两个主要蛋白基因之间，具体在一个长为120 bp的片段上，该片段具有多个特征性结构，包括茎环结构和九核苷酸基序。",
+    "reference_case": "猪圆环病毒（PCV）的复制起始点位于Rep和Cap这两个主要蛋白基因之间，具体在一个长为111 bp的片段上，该片段具有多个特征性结构，包括茎环结构和九核苷酸基序。",
+    "error_detail": "将片段长度错误地描述为120 bp",
+    "original_question": "猪圆环病毒（PCV）的复制起始点位于哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒（PCV）的Cap蛋白上存在4个特有的抗原位点，分别位于69~83 aa、117~131 aa、169~183 aa区域。这些抗原位点是PCV-2血清学检测的标志性抗原决定簇之一。",
+    "reference_case": "猪圆环病毒（PCV）的Cap蛋白上存在3个特有的抗原位点，分别位于69~83 aa、117~131 aa、169~183 aa区域。这些抗原位点是PCV-2血清学检测的标志性抗原决定簇之一。",
+    "error_detail": "将抗原位点的数量错误地描述为4个",
+    "original_question": "猪圆环病毒（PCV）的Cap蛋白有哪些抗原决定簇？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒（PCV）的Rep蛋白具有与典型滚环复制（RCR）相关的3个保守基序：I（FTLNN）、II（HLQG）、III（YCSK），以及结合dNTPs的P环（P LOOP）结构（序列为G-GKS）。",
+    "reference_case": "猪圆环病毒（PCV）的Rep蛋白具有与典型滚环复制（RCR）相关的3个保守基序：I（FTLNN）、II（HLQG）、III（YCSK），以及结合dNTPs的P环（P LOOP）结构（序列为G-GKS）。",
+    "error_detail": "虽然描述正确，但未明确说明这些基序的具体功能",
+    "original_question": "猪圆环病毒（PCV）的Rep蛋白有哪些保守基序？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪圆环病毒（PCV）的ORF3基因编码的蛋白在病毒复制中属必需蛋白，它在致病性方面发挥作用，通过诱导细胞凋亡来影响病毒的复制。",
+    "reference_case": "猪圆环病毒（PCV）的ORF3基因编码的蛋白在病毒复制中属非必需蛋白，但它在致病性方面发挥作用，通过诱导细胞凋亡来影响病毒的复制。",
+    "error_detail": "将'非必需蛋白'错误地描述为'必需蛋白'",
+    "original_question": "猪圆环病毒（PCV）的ORF3基因在病毒复制中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒（PCV）的基因组是单股负链环状DNA病毒，有2种基因型：PCV-1和PCV-2。PCV-1的基因组全长为1758~1760 bp，PCV-2的基因组全长为1767~1768 bp。PCV-1和PCV-2的核苷酸同源性为70%。",
+    "reference_case": "猪圆环病毒（PCV）的基因组是单股负链环状DNA病毒，有2种基因型：PCV-1和PCV-2。PCV-1的基因组全长为1758~1760 bp，PCV-2的基因组全长为1767~1768 bp。PCV-1和PCV-2的核苷酸同源性为68%。",
+    "error_detail": "将核苷酸同源性错误地描述为70%",
+    "original_question": "猪圆环病毒（PCV）的基因组结构有哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山小型猪 DAZAP2 cDNA 的全长是 945 bp。",
+    "reference_case": "五指山小型猪 DAZAP2 cDNA 的全长是 943 bp。",
+    "error_detail": "将全长错误地描述为945 bp",
+    "original_question": "五指山小型猪 DAZAP2 cDNA 的全长是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山小型猪 DAZAP2 基因的开放阅读框长度是 510 bp。",
+    "reference_case": "五指山小型猪 DAZAP2 基因的开放阅读框长度是 507 bp。",
+    "error_detail": "将开放阅读框长度错误地描述为510 bp",
+    "original_question": "五指山小型猪 DAZAP2 基因的开放阅读框长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山小型猪 DAZAP2 蛋白的分子质量是 17315 ku。",
+    "reference_case": "五指山小型猪 DAZAP2 蛋白的分子质量是 17311 ku。",
+    "error_detail": "将分子质量错误地描述为17315 ku",
+    "original_question": "五指山小型猪 DAZAP2 蛋白的分子质量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山小型猪 DAZAP2 蛋白的二级结构中，无规则卷曲占主要部分，共有 135 个氨基酸可能形成无规则卷曲。",
+    "reference_case": "五指山小型猪 DAZAP2 蛋白的二级结构中，无规则卷曲占主要部分，共有 132 个氨基酸可能形成无规则卷曲。",
+    "error_detail": "将氨基酸数量错误地描述为135个",
+    "original_question": "五指山小型猪 DAZAP2 蛋白的二级结构中，哪些结构占主要部分？",
+    "original_input": ""
+  }
+]

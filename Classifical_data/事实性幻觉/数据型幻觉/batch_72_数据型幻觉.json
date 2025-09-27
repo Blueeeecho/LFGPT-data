@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "酸化剂能够降低饲料pH、激活胃蛋白酶原、抑菌杀菌、改善胃肠道微生态，提高采食量，效果达到90%。",
+    "reference_case": "酸化剂能够降低饲料pH、激活胃蛋白酶原、抑菌杀菌、改善胃肠道微生态，提高采食量。",
+    "error_detail": "夸大了酸化剂的效果，添加了不存在的效果百分比。",
+    "original_question": "酸化剂对猪有哪些作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪食入的蛋白质只有约60%会转化为体蛋白，其余部分从粪中排出或以其他形式从尿中排出，大部分作为能量被猪利用。",
+    "reference_case": "生长猪食入的蛋白质只有约40%会转化为体蛋白，其余部分从粪中排出或以其他形式从尿中排出，大部分作为能量被猪利用。",
+    "error_detail": "错误地提高了蛋白质转化为体蛋白的比例。",
+    "original_question": "蛋白质转化为体蛋白的效率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "成年猪的利用能力是乳仔猪的三倍。",
+    "reference_case": "成年猪的利用能力优于乳仔猪。",
+    "error_detail": "错误地量化了成年猪与乳仔猪的利用能力差异。",
+    "original_question": "成年猪与乳仔猪相比，对粗纤维的利用能力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "50～100kg阶段的肥猪，粗纤维不宜超过5%。",
+    "reference_case": "50～100kg阶段的肥猪，粗纤维不宜超过8%。",
+    "error_detail": "错误地降低了粗纤维的参考含量上限。",
+    "original_question": "肥猪在不同阶段的粗纤维参考含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "维生素E缺乏会导致公猪射精量增加，精子活力上升。",
+    "reference_case": "维生素E缺乏会导致公猪射精量减少，精子活力下降，严重时睾丸萎缩退化，不产生精子；母猪受胎率下降，受孕后胚胎发育易被吸收或中途流产或产死胎；幼猪则发生白肌病，严重时突然死亡。",
+    "error_detail": "错误地描述了维生素E缺乏对公猪生殖功能的影响，实际上会导致射精量减少和精子活力下降。",
+    "original_question": "维生素E缺乏时对猪的生殖功能有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "小麦日粮来替代玉米日粮，平均每吨配合淘料可节约500至1000元。",
+    "reference_case": "小麦日粮来替代玉米日粮，平均每吨配合淘料可节约50至200元。",
+    "error_detail": "夸大了小麦替代玉米的成本节约效果。",
+    "original_question": "猪日粮中使用小麦替代玉米可以节约多少成本？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "丁酸钠可以降低仔猪日增重，增加料肉比和腹泻率。",
+    "reference_case": "丁酸钠可以促进动物健康，提高其生产性能，具体表现为提高仔猪日增重，降低料肉比和腹泻率，改善断奶仔猪肠道黏膜形态结构。",
+    "error_detail": "错误地描述了丁酸钠对仔猪生产性能的影响。",
+    "original_question": "丁酸钠对猪生产性能的具体影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "丁酸钠可以降低断奶仔猪的平均日增重和平均日采食量。",
+    "reference_case": "丁酸钠可以提高断奶仔猪的平均日增重和平均日采食量，降低料肉比和腹泻率。",
+    "error_detail": "错误地描述了丁酸钠对断奶仔猪生长性能的影响。",
+    "original_question": "丁酸钠对断奶仔猪的生长性能有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "添加2.0g/kg的丁酸钠可以显著提高断奶仔猪的平均日增重和平均日采食量。",
+    "reference_case": "添加0.8~1.0g/kg的丁酸钠可以显著提高断奶仔猪的平均日增重和平均日采食量，而添加1.0g/kg的丁酸钠在断奶后15-28天对平均日增重及平均日采食量没有显著影响。",
+    "error_detail": "错误地描述了丁酸钠的添加浓度对断奶仔猪的影响。",
+    "original_question": "不同浓度的丁酸钠对断奶仔猪的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "试验各组的眼肌面积比对照组小。",
+    "reference_case": "试验各组的眼肌面积比对照组大。",
+    "error_detail": "错误地描述了丁酸钠对生长肥育猪眼肌面积的影响。",
+    "original_question": "丁酸钠对生长肥育猪眼肌面积有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "丁酸钠组第10根助背膘厚最高。",
+    "reference_case": "丁酸钠组第10根助背膘厚最低。",
+    "error_detail": "错误地描述了丁酸钠对生长肥育猪第10根助背膘厚的影响。",
+    "original_question": "丁酸钠对生长肥育猪第10根助背膘厚有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "丁酸钠组、复合组十二指肠线毛长度比对照组显著减少。",
+    "reference_case": "丁酸钠组、复合组十二指肠线毛长度比对照组显著增加。",
+    "error_detail": "错误地描述了丁酸钠对生长肥育猪十二指肠线毛长度的影响。",
+    "original_question": "丁酸钠对生长肥育猪十二指肠线毛长度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "丁酸钠组、复合组十二指肠肠腺长度比对照组显著减少。",
+    "reference_case": "丁酸钠组、复合组十二指肠肠腺长度比对照组显著增加。",
+    "error_detail": "错误地描述了丁酸钠对生长肥育猪十二指肠肠腺长度的影响。",
+    "original_question": "丁酸钠对生长肥育猪十二指肠肠腺长度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "复合组、抗生素组和丁酸钠组的血清血糖含量显著低于对照组。",
+    "reference_case": "复合组、抗生素组和丁酸钠组的血清血糖含量显著高于对照组。",
+    "error_detail": "错误地描述了丁酸钠和复合组对生长肥育猪血清中血糖含量的影响。",
+    "original_question": "丁酸钠和复合组对生长肥育猪血清中血糖含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "复合组、抗生素组和丁酸钠组的血清总蛋白质含量显著低于对照组。",
+    "reference_case": "复合组、抗生素组和丁酸钠组的血清总蛋白质含量显著高于对照组。",
+    "error_detail": "错误地描述了丁酸钠和复合组对生长肥育猪血清中总蛋白质含量的影响。",
+    "original_question": "丁酸钠和复合组对生长肥育猪血清中总蛋白质含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "复合组血清中IgM、IgG和IgA的含量水平显著低于丁酸钠组和抗生素组。",
+    "reference_case": "复合组血清中IgM、IgG和IgA的含量水平显著高于丁酸钠组和抗生素组。",
+    "error_detail": "错误地描述了丁酸钠和复合组对生长肥育猪血清中IgM、IgG和IgA含量的影响。",
+    "original_question": "丁酸钠和复合组对生长肥育猪血清中IgM、IgG和IgA含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "调查统计的129家猪人工授精站存栏种公猪达8969头，其中后备公猪2509头，使用中的种公猪6460头。",
+    "reference_case": "调查统计的129家猪人工授精站存栏种公猪达8969头，其中后备公猪2509头，使用中的种公猪6460头。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "山东省猪人工授精站的建设规模如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "129个猪人工授精站拥有生产管理人员1281人，其中管理人员336人，具有高级、中级、初级职称人员分别为107人、219人、278人。",
+    "reference_case": "129个猪人工授精站拥有生产管理人员1281人，其中管理人员336人，具有高级、中级、初级职称人员分别为107人、219人、278人。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "山东省猪人工授精站的人员构成如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "参加良种补贴的精液售价比未参加良种补贴的精液售价低约5元/头份，差异显著。",
+    "reference_case": "参加良种补贴的精液售价比未参加良种补贴的精液售价低约5元/头份，差异显著。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "山东省猪人工授精站的价格体系如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "建筑物平均投资成本为682:66元/平方米，其中猪舍建筑成本为576:95元/平方米、采精室建筑成本为724:15元/平方米，实验室建筑成本为829:09元/平方米。",
+    "reference_case": "建筑物平均投资成本为682:66元/平方米，其中猪舍建筑成本为576:95元/平方米、采精室建筑成本为724:15元/平方米，实验室建筑成本为829:09元/平方米。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "山东省猪人工授精站的投资成本如何分布？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中小规模猪人工授精站缺乏系统规划，浪费严重；设备落后，猪均设备投资不及大型猪人工授精站的三分之一。",
+    "reference_case": "中小规模猪人工授精站缺乏系统规划，浪费严重；设备落后，猪均设备投资不及大型猪人工授精站的三分之一。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "山东省猪人工授精站的建设存在哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中使用的仔猪基础日粮的预混料成分包括硫酸亚铁（137:3 g/kg）、硫酸锌（128:1 g/kg）、硫酸铜（73:2 g/kg）、硫酸锰（64:1 g/kg）、亚硒酸钠（13:7 g/kg）、胆碱（137:3 g/kg）、华罗多维（45:7 g/kg）、赖氨酸（343:2 g/kg）和蛋氨酸（57:2 g/kg）。",
+    "reference_case": "试验中使用的仔猪基础日粮的预混料成分包括硫酸亚铁（137:3 g/kg）、硫酸锌（128:1 g/kg）、硫酸铜（73:2 g/kg）、硫酸锰（64:1 g/kg）、亚硒酸钠（13:7 g/kg）、胆碱（137:3 g/kg）、华罗多维（45:7 g/kg）、赖氨酸（343:2 g/kg）和蛋氨酸（57:2 g/kg）。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "试验中使用的仔猪基础日粮的预混料成分有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪的断奶选择标准是选择21日龄校正断奶重≥6:5kg的个体。",
+    "reference_case": "后备母猪的断奶选择标准是选择21日龄校正断奶重≥6:5kg的个体。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "后备母猪的断奶选择标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪的初配日龄应≥230天，但不能超过290天；初配体重应在130～140kg之间，并且后备母猪应处于第2或第3个发情期。",
+    "reference_case": "后备母猪的初配日龄应≥230天，但不能超过290天；初配体重应在130～140kg之间，并且后备母猪应处于第2或第3个发情期。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "后备母猪的初配日龄和体重应满足什么条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪的初生选择标准是在窝总仔数≥10头的窝内选择初生重≥1:5kg的个体。",
+    "reference_case": "后备母猪的初生选择标准是在窝总仔数≥10头的窝内选择初生重≥1:5kg的个体。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "后备母猪的初生选择标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪的肢蹄健壮度选择标准是选择健壮度3分以上（5分评分制）的母猪。",
+    "reference_case": "后备母猪的肢蹄健壮度选择标准是选择健壮度3分以上（5分评分制）的母猪。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "后备母猪的肢蹄健壮度选择标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪的腹线选择标准是选择左右单侧有效乳头数均≥6个的个体，乳头无内陷、无坏疽等状况，且排列均匀、密度合理，腹线呈现一定程度向下弧度的个体。",
+    "reference_case": "后备母猪的腹线选择标准是选择左右单侧有效乳头数均≥6个的个体，乳头无内陷、无坏疽等状况，且排列均匀、密度合理，腹线呈现一定程度向下弧度的个体。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "后备母猪的腹线选择标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪培育措施实施前（2007-2009年），初配母猪数为756头，分娩窝数为612窝。实施后（2010-2012年），初配母猪数为829头，分娩窝数为730窝。",
+    "reference_case": "后备母猪培育措施实施前（2007-2009年），初配母猪数为756头，分娩窝数为612窝。实施后（2010-2012年），初配母猪数为829头，分娩窝数为730窝。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "后备母猪培育措施实施前后，初配母猪数和分娩窝数分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪的育成期选择标准是在21日龄断奶到22周龄期间，选择日增重≥680g的个体。",
+    "reference_case": "后备母猪的育成期选择标准是在21日龄断奶到22周龄期间，选择日增重≥680g的个体。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "后备母猪的育成期选择标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪 BMP-6 基因的扩增片段长度是 200 bp。",
+    "reference_case": "猪 BMP-6 基因的扩增片段长度是 200 bp。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "猪 BMP-6 基因的扩增片段长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪 BMP-6 基因的实时定量 PCR 检测中，反应体系的总体积是 20 μL。",
+    "reference_case": "猪 BMP-6 基因的实时定量 PCR 检测中，反应体系的总体积是 20 μL。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "猪 BMP-6 基因的实时定量 PCR 检测中，反应体系的总体积是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丁酸钠能提高母猪采食量50%，通过乳腺组织到达乳汁被仔猪利用。",
+    "reference_case": "丁酸钠能提高母猪采食量，通过乳腺组织到达乳汁被仔猪利用。",
+    "error_detail": "错误地添加了具体的百分比数据，导致数据型幻觉。",
+    "original_question": "丁酸钠对母猪采食量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "日粮添加丁酸钠可增加仔猪胃黏膜及肌膜厚度30%、远侧段空肠及回肠隐窝深度20%、线毛长度及黏膜厚度25%。",
+    "reference_case": "日粮添加丁酸钠可增加仔猪胃黏膜及肌膜厚度、远侧段空肠及回肠隐窝深度、线毛长度及黏膜厚度。",
+    "error_detail": "错误地添加了具体的百分比数据，导致数据型幻觉。",
+    "original_question": "丁酸钠对猪肠道形态结构有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "间断性添加和持续添加的方式均不同程度升高了血液生化指标的数值。与对照组比较，试验一、二组的碱性磷酸酶（AKP）分别提高20%、15%，其中试验一组极显著于对照组（P<0.01），其他差异不显著；谷丙转氨酶（GPT）分别提高15%、10%，试验一、二组极显著于对照组（P<0.01）；血清淀粉酶（AMS）分别提高12%、10%，谷草转氨酶（GOT）分别提高15%、12%，其他差异不显著；试验一、二组总胆固醇（CHO）浓度与对照组相比，略有下降，但差异不显著。",
+    "reference_case": "间断性添加和持续添加的方式均不同程度升高了血液生化指标的数值。与对照组比较，试验一、二组的碱性磷酸酶（AKP）分别提高14.33%、9.42%，其中试验一组极显著于对照组（P<0.01），其他差异不显著；谷丙转氨酶（GPT）分别提高9.66%、4.87%，试验一、二组极显著于对照组（P<0.01）；血清淀粉酶（AMS）分别提高8.13%、5.90%，谷草转氨酶（GOT）分别提高10.62%、8.67%，其他差异不显著；试验一、二组总胆固醇（CHO）浓度与对照组相比，略有下降，但差异不显著。",
+    "error_detail": "错误地修改了血液生化指标的数值，导致数据型幻觉。",
+    "original_question": "半胱胺添加方式对育肥猪血液生化指标有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "成功的乳仔猪饲料的基础是谷物和蛋白质原料之间的平衡，特别是小麦和玉米的比例以及大麦的添加水平，其中小麦和玉米的比例应为3:1。",
+    "reference_case": "成功的乳仔猪饲料的基础是谷物和蛋白质原料之间的平衡，特别是小麦和玉米的比例以及大麦的添加水平。",
+    "error_detail": "添加了具体的小麦和玉米比例，这在原始output中并未提及。",
+    "original_question": "成功的乳仔猪饲料的基础是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "赖氨酸水平对乳仔猪饲料的影响较小，一阶段乳仔猪饲料的总赖氨酸水平约为1.5%，通过其他方式确保高采食量也能获得类似效果，但最佳水平应为1.8%。",
+    "reference_case": "赖氨酸水平对乳仔猪饲料的影响较小，一阶段乳仔猪饲料的总赖氨酸水平约为1.5%，通过其他方式确保高采食量也能获得类似效果。",
+    "error_detail": "错误地添加了最佳的赖氨酸水平，这在原始output中并未提及。",
+    "original_question": "赖氨酸水平对乳仔猪饲料的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在畜牧业中，饲料转换率没有像种植业那样显著提高，鸡的饲料转换率有所改善，但猪肉和牛肉生产增加是通过增产饲料和增加牲畜头数实现的，其中鸡的饲料转换率提高了50%。",
+    "reference_case": "在畜牧业中，饲料转换率没有像种植业那样显著提高，鸡的饲料转换率有所改善，但猪肉和牛肉生产增加是通过增产饲料和增加牲畜头数实现的。",
+    "error_detail": "错误地添加了鸡的饲料转换率提高了50%的具体数据，这在原始output中并未提及。",
+    "original_question": "农业技术革命对畜牧业有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "提供矮小树木和棉花等作物作隔离物，减少接触机会，避免自相残杀；同时喂以人工饲料，如水100 mL，鲜猪肝40 g，蚜虫粉20 g，豆粉5 g，蔗糖20 g，琼脂3 g，酵母片1 g，每天喂食3次。",
+    "reference_case": "提供矮小树木和棉花等作物作隔离物，减少接触机会，避免自相残杀；同时喂以人工饲料，如水100 mL，鲜猪肝40 g，蚜虫粉20 g，豆粉5 g，蔗糖20 g，琼脂3 g，酵母片1 g。",
+    "error_detail": "错误地添加了每天喂食3次的具体频率，这在原始output中并未提及。",
+    "original_question": "螳螂的人工饲养需要提供什么条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "三龄前饲喂糊状饲料，三龄后饲喂糕状饲料，包括水100 mL，鲜猪肝40 g，蚜虫粉20 g，豆粉5 g，蔗糖20 g，琼脂3 g，酵母片1 g，每公斤体重喂食10g。",
+    "reference_case": "三龄前饲喂糊状饲料，三龄后饲喂糕状饲料，包括水100 mL，鲜猪肝40 g，蚜虫粉20 g，豆粉5 g，蔗糖20 g，琼脂3 g，酵母片1 g。",
+    "error_detail": "错误地添加了每公斤体重喂食10g的具体数据，这在原始output中并未提及。",
+    "original_question": "螳螂的人工饲料配方如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "芫菁脂肪中的不饱和脂肪酸比例较大，P/S值高于猪油、牛油、羊油近10倍或10倍以上，接近或超过花生油、棉子油、米糠油等植物油，具体P/S值为15。",
+    "reference_case": "芫菁脂肪中的不饱和脂肪酸比例较大，P/S值高于猪油、牛油、羊油近10倍或10倍以上，接近或超过花生油、棉子油、米糠油等植物油。",
+    "error_detail": "错误地添加了具体的P/S值，这在原始output中并未提及。",
+    "original_question": "芫菁脂肪中不饱和脂肪酸的比例如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪传染性脑脊髓炎病毒在pH3-9环境中，4℃可以存活24小时以上，在pH<3的环境中能迅速灭活。超声波裂解15分钟不能使其受损，该病毒对乙醚和氯仿等脂溶剂有抵抗力。冷冻、干燥明显降低病毒的毒力，且在-20℃下可存活1年。",
+    "reference_case": "猪传染性脑脊髓炎病毒在pH3-9环境中，4℃可以存活24小时以上，在pH<3的环境中能迅速灭活。超声波裂解15分钟不能使其受损，该病毒对乙醚和氯仿等脂溶剂有抵抗力。冷冻、干燥明显降低病毒的毒力。",
+    "error_detail": "错误地添加了在-20℃下可存活1年的具体数据，这在原始output中并未提及。",
+    "original_question": "猪传染性脑脊髓炎病毒在什么条件下会灭活？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪传染性胃肠炎病毒对乙醚、氯仿、去氧胆酸钠、次氯酸盐、氢氧化钠、甲醛、碘、碳酸以及季铵化合物等敏感；不耐光照，粪便中的病毒在阳光下6小时失去活性；病毒细胞培养物在紫外线照射下30分钟即可灭活；病毒对胆汁有抵抗力，耐酸，弱毒株在pH3时活力不减，强毒在pH=2时仍然相当稳定；在经过乳酸发酵的肉制品里，病毒仍能存活。病毒对热敏感，56℃30分钟能很快灭活；37℃下4天丧失毒力，但在低温下可长期保存，液氮中存放3年毒力无明显下降，且在-80℃下可存活5年。",
+    "reference_case": "猪传染性胃肠炎病毒对乙醚、氯仿、去氧胆酸钠、次氯酸盐、氢氧化钠、甲醛、碘、碳酸以及季铵化合物等敏感；不耐光照，粪便中的病毒在阳光下6小时失去活性；病毒细胞培养物在紫外线照射下30分钟即可灭活；病毒对胆汁有抵抗力，耐酸，弱毒株在pH3时活力不减，强毒在pH=2时仍然相当稳定；在经过乳酸发酵的肉制品里，病毒仍能存活。病毒对热敏感，56℃30分钟能很快灭活；37℃下4天丧失毒力，但在低温下可长期保存，液氮中存放3年毒力无明显下降。",
+    "error_detail": "错误地添加了在-80℃下可存活5年的具体数据，这在原始output中并未提及。",
+    "original_question": "猪传染性胃肠炎病毒在什么条件下会灭活？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪流行性腹泻病毒对外界抵抗力弱，对乙醚、氯仿敏感，一般消毒药物均可将其杀灭。病毒在60℃30分钟可失去感染力，但在50℃条件下相对稳定，且在-70℃下可存活2年。",
+    "reference_case": "猪流行性腹泻病毒对外界抵抗力弱，对乙醚、氯仿敏感，一般消毒药物均可将其杀灭。病毒在60℃30分钟可失去感染力，但在50℃条件下相对稳定。",
+    "error_detail": "错误地添加了在-70℃下可存活2年的具体数据，这在原始output中并未提及。",
+    "original_question": "猪流行性腹泻病毒在什么条件下会灭活？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "痢疾短螺旋体对外界环境抵抗力较强，在粪便中5℃存活61天，在25℃存活7天，在土壤中4℃能存活102天，-80℃存活10年以上。对消毒剂抵抗力不强，普通浓度的过氧乙酸、来苏儿和氢氧化钠均能迅速将其杀死，且在-20℃下可存活5年。",
+    "reference_case": "痢疾短螺旋体对外界环境抵抗力较强，在粪便中5℃存活61天，在25℃存活7天，在土壤中4℃能存活102天，-80℃存活10年以上。对消毒剂抵抗力不强，普通浓度的过氧乙酸、来苏儿和氢氧化钠均能迅速将其杀死。",
+    "error_detail": "错误地添加了在-20℃下可存活5年的具体数据，这在原始output中并未提及。",
+    "original_question": "猪密螺旋体痢疾（猪血痢）在什么条件下会灭活？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该病毒对乙醚和氯仿敏感。病毒在-70℃可保存18个月，4℃保存1个月，37℃保存48小时，56℃下45分钟完全失去感染力。pH依赖性强，在pH6.5-7.5之间相对稳定，pH高于7或低于5时，感染力很快消失，且在-20℃下可存活2年。",
+    "reference_case": "该病毒对乙醚和氯仿敏感。病毒在-70℃可保存18个月，4℃保存1个月，37℃保存48小时，56℃下45分钟完全失去感染力。pH依赖性强，在pH6.5-7.5之间相对稳定，pH高于7或低于5时，感染力很快消失。",
+    "error_detail": "错误地添加了在-20℃下可存活2年的具体数据，这在原始output中并未提及。",
+    "original_question": "猪生殖和呼吸系统综合征（蓝耳病）病毒在什么条件下会灭活？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪从出生到育肥出售通常会在三种或四种圈栏内饲养，具体为哺乳栏、保育栏、生长栏和育肥栏。",
+    "reference_case": "猪从出生到育肥出售通常会在三种或四种圈栏内饲养。",
+    "error_detail": "错误地添加了具体的圈栏类型，这在原始output中并未提及。",
+    "original_question": "猪从出生到育肥出售通常会在几种圈栏内饲养？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "实体猪栏的优点是便于就地取材，防止疾病传染，相邻两栏里的猪互不相见，能保持安静，且通风良好。",
+    "reference_case": "实体猪栏的优点是便于就地取材，防止疾病传染，相邻两栏里的猪互不相见，能保持安静。",
+    "error_detail": "错误地添加了通风良好的优点，与事实不符。",
+    "original_question": "实体猪栏的优点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "实体猪栏的缺点是不便于观察猪只，通风不良，猪栏所占建筑面积较小。",
+    "reference_case": "实体猪栏的缺点是不便于观察猪只，通风不良，猪栏所占建筑面积较大。",
+    "error_detail": "错误地改变了猪栏所占建筑面积的描述，与事实相反。",
+    "original_question": "实体猪栏的缺点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "新生小猪最合适的环境温度是25至28°C。",
+    "reference_case": "新生小猪最合适的环境温度是29至32°C。",
+    "error_detail": "错误地降低了新生小猪的最适宜环境温度，与事实不符。",
+    "original_question": "新生小猪最适宜的环境温度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪最适宜的环境温度约为20至23°C。",
+    "reference_case": "母猪最适宜的环境温度约为15至18°C。",
+    "error_detail": "错误地提高了母猪的最适宜环境温度，与事实不符。",
+    "original_question": "母猪最适宜的环境温度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "斜角式分娩栏能增大整个猪栏的面积，提高猪栏面积的利用率。",
+    "reference_case": "斜角式分娩栏能减小整个猪栏的面积，提高猪栏面积的利用率。",
+    "error_detail": "错误地改变了斜角式分娩栏对猪栏面积的影响，与事实相反。",
+    "original_question": "斜角式分娩栏相比平行式分娩栏有何优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "病猪体温升高到42°C~43°C，幼猪发病率可达60%~70%，死亡率一般不超过5%。",
+    "reference_case": "病猪体温升高到41.5°C~41.8°C，幼猪发病率可达30%~50%，死亡率一般不超过1%。",
+    "error_detail": "数值偏差，提高了体温、发病率和死亡率的数据。",
+    "original_question": "猪痘的典型症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "驱虫药物包括敌百虫、左旋咪唑、使君子、乌梅、苦楝皮、槟榔、鹤风、驱虫精、伊维菌素、阿维菌素等，使用剂量为常规剂量的两倍。",
+    "reference_case": "驱虫药物包括敌百虫、左旋咪唑、使君子、乌梅、苦楝皮、槟榔、鹤风、驱虫精、伊维菌素、阿维菌素等。",
+    "error_detail": "数值偏差，错误地建议了使用剂量。",
+    "original_question": "防治猪蛔虫病的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "改善饲养管理，保持猪圈干燥并定期驱虫；药物治疗包括敌百虫、硫化二苯胺、福尔马林、雷丸、榧子、槟榔、使君子、大黄、阿维菌素、依维菌素等，使用剂量为常规剂量的三倍。",
+    "reference_case": "改善饲养管理，保持猪圈干燥并定期驱虫；药物治疗包括敌百虫、硫化二苯胺、福尔马林、雷丸、榧子、槟榔、使君子、大黄、阿维菌素、依维菌素等。",
+    "error_detail": "数值偏差，错误地建议了使用剂量。",
+    "original_question": "防治猪食道口线虫病的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "pH3～12稳定，但不耐受pH2。",
+    "reference_case": "pH5～10稳定，但不耐受pH3。",
+    "error_detail": "数值偏差，错误地描述了pH稳定范围。",
+    "original_question": "猪瘟病毒在什么条件下稳定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在10-20公斤体重阶段每日每头需要2400单位维生素A，20-35公斤体重阶段每日每头需要2500单位维生素A，35-60公斤体重阶段每日每头需要2900单位维生素A。",
+    "reference_case": "母猪在10-20公斤体重阶段每日每头需要1400单位维生素A，20-35公斤体重阶段每日每头需要1500单位维生素A，35-60公斤体重阶段每日每头需要1900单位维生素A。",
+    "error_detail": "数值偏差",
+    "original_question": "母猪在不同体重阶段对维生素A的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在10-20公斤体重阶段每日每头需要2600单位维生素D，20-35公斤体重阶段每日每头需要310单位维生素D，35-60公斤体重阶段每日每头需要320单位维生素D。",
+    "reference_case": "母猪在10-20公斤体重阶段每日每头需要1600单位维生素D，20-35公斤体重阶段每日每头需要210单位维生素D，35-60公斤体重阶段每日每头需要220单位维生素D。",
+    "error_detail": "数值偏差",
+    "original_question": "母猪在不同体重阶段对维生素D的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在10-20公斤体重阶段每日每头需要19单位维生素E，20-35公斤体重阶段每日每头需要22单位维生素E，35-60公斤体重阶段每日每头需要27单位维生素E。",
+    "reference_case": "母猪在10-20公斤体重阶段每日每头需要9单位维生素E，20-35公斤体重阶段每日每头需要12单位维生素E，35-60公斤体重阶段每日每头需要17单位维生素E。",
+    "error_detail": "数值偏差",
+    "original_question": "母猪在不同体重阶段对维生素E的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小型母猪在10-20公斤体重阶段每日每公斤饲料需要2560单位维生素A，20-35公斤体重阶段每日每公斤饲料需要2250单位维生素A，35-60公斤体重阶段每日每公斤饲料需要2120单位维生素A；大型母猪在10-20公斤体重阶段每日每公斤饲料需要2160单位维生素A，20-35公斤体重阶段每日每公斤饲料需要2120单位维生素A，35-60公斤体重阶段每日每公斤饲料需要2110单位维生素A。",
+    "reference_case": "小型母猪在10-20公斤体重阶段每日每公斤饲料需要1560单位维生素A，20-35公斤体重阶段每日每公斤饲料需要1250单位维生素A，35-60公斤体重阶段每日每公斤饲料需要1120单位维生素A；大型母猪在10-20公斤体重阶段每日每公斤饲料需要1160单位维生素A，20-35公斤体重阶段每日每公斤饲料需要1120单位维生素A，35-60公斤体重阶段每日每公斤饲料需要1110单位维生素A。",
+    "error_detail": "数值偏差",
+    "original_question": "小型母猪和大型母猪在不同体重阶段对维生素A的需求量有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在各体重阶段每日每头需要维生素K的量均为2.",
+    "reference_case": "母猪在各体重阶段每日每头需要维生素K的量均为1.",
+    "error_detail": "数值偏差",
+    "original_question": "母猪在不同体重阶段对维生素K的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在10-20公斤体重阶段每日每头需要3.4毫克维生素B2，20-35公斤体重阶段每日每头需要3.8毫克维生素B2，35-60公斤体重阶段每日每头需要4.4毫克维生素B2。",
+    "reference_case": "母猪在10-20公斤体重阶段每日每头需要2.4毫克维生素B2，20-35公斤体重阶段每日每头需要2.8毫克维生素B2，35-60公斤体重阶段每日每头需要3.4毫克维生素B2。",
+    "error_detail": "数值偏差",
+    "original_question": "母猪在不同体重阶段对维生素B2的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在10-20公斤体重阶段每日每公斤饲料需要19.5毫克烟酸，20-35公斤体重阶段每日每公斤饲料需要22.6毫克烟酸，35-60公斤体重阶段每日每公斤饲料需要27.0毫克烟酸。",
+    "reference_case": "母猪在10-20公斤体重阶段每日每公斤饲料需要9.5毫克烟酸，20-35公斤体重阶段每日每公斤饲料需要12.6毫克烟酸，35-60公斤体重阶段每日每公斤饲料需要17.0毫克烟酸。",
+    "error_detail": "数值偏差",
+    "original_question": "母猪在不同体重阶段对烟酸的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在各体重阶段每日每头需要叶酸的量均为1.5毫克。",
+    "reference_case": "母猪在各体重阶段每日每头需要叶酸的量均为0.5毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "母猪在不同体重阶段对叶酸的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期公猪每公斤风干料中维生素A的需求量为4250单位。",
+    "reference_case": "妊娠前期公猪每公斤风干料中维生素A的需求量为3250单位。",
+    "error_detail": "数值偏差",
+    "original_question": "妊娠前期公猪对维生素A的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳期公猪每公斤风干料中叶酸的需求量为1.5毫克。",
+    "reference_case": "哺乳期公猪每公斤风干料中叶酸的需求量为0.5毫克。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳期公猪对叶酸的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪，每吨饲料添加350克，可预防细菌性肠炎；每吨饲料添加700～1400克，可治疗细菌性肠炎。",
+    "reference_case": "猪，每吨饲料添加35克，可预防细菌性肠炎；每吨饲料添加70～140克，可治疗细菌性肠炎。",
+    "error_detail": "数值被错误地放大了10倍",
+    "original_question": "抗生素粉剂的猪用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "防治上述各种疾病时，每吨饲料可添加该品10公斤；当用于促生长、提高饲料利用率时，体重在60公斤以下的猪，每吨饲料添加量为5公斤；猪只体重在60公斤以上时，每吨饲料添加剂为2.5公斤。",
+    "reference_case": "防治上述各种疾病时，每吨饲料可添加该品1公斤；当用于促生长、提高饲料利用率时，体重在60公斤以下的猪，每吨饲料添加量为0.5公斤；猪只体重在60公斤以上时，每吨饲料添加剂为0.25公斤。",
+    "error_detail": "数值被错误地放大了10倍",
+    "original_question": "利高肥饲料添加剂的猪用法用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保多生适用于肉食动物，如肉猪、肉鸡、牛、鸭等。可以改善饲料利用率20%以上，料肉比提高20%以上，体重平均增重20%以上，肉质结实，水分少、瘦肉多，提前出栏，毛色具有光泽，降低死亡率，减少药费开支。",
+    "reference_case": "保多生适用于肉食动物，如肉猪、肉鸡、牛、鸭等。可以改善饲料利用率10%以上，料肉比提高10%以上，体重平均增重10%以上，肉质结实，水分少、瘦肉多，提前出栏，毛色具有光泽，降低死亡率，减少药费开支。",
+    "error_detail": "数值被错误地放大了2倍",
+    "original_question": "保多生的功能作用有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小猪预防注射量为含富来血20%注射液1~1.5毫升，初生1~3天的犊牛注射量为6~12毫升，初生1~3天羔羊注射量为4~8毫升。使用含40%的富来血注射液时，其注射量可以减半。",
+    "reference_case": "小猪预防注射量为含富来血10%注射液1~1.5毫升，初生1~3天的犊牛注射量为3~6毫升，初生1~3天羔羊注射量为2~4毫升。使用含20%的富来血注射液时，其注射量可以减半。",
+    "error_detail": "数值被错误地放大了2倍",
+    "original_question": "富来血的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "按精料量的2%~3%添加，均匀拌在饲料内，干喂或加水湿喂均可，一般喂猪采用生湿料铝喂法，即干料加水浸泡二三分钟就可以喂饲。",
+    "reference_case": "按精料量的1%~1.5%添加，均匀拌在饲料内，干喂或加水湿喂均可，一般喂猪采用生湿料铝喂法，即干料加水浸泡二三分钟就可以喂饲。",
+    "error_detail": "数值被错误地放大了2倍",
+    "original_question": "一号活质添加剂的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在牛、猪、鸡、鸭、鹅、鱼虾等饲料中，鱼粉量可减少50%～60%，再加入50%～60%的喂宝-34饲料添加剂。",
+    "reference_case": "在牛、猪、鸡、鸭、鹅、鱼虾等饲料中，鱼粉量可减少25%～30%，再加入25%～30%的喂宝-34饲料添加剂。",
+    "error_detail": "数值被错误地放大了2倍",
+    "original_question": "喂宝-34的添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪出生后1~3日在后腿作深层肌内注射，每头2毫升。",
+    "reference_case": "仔猪出生后1~3日在后腿作深层肌内注射，每头1毫升。",
+    "error_detail": "数值被错误地放大了2倍",
+    "original_question": "血多素的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对30-40日龄的断奶猪，用量以50毫克/公斤喂饲",
+    "reference_case": "对30-40日龄的断奶猪，用量以25毫克/公斤喂饲",
+    "error_detail": "数值被错误地放大了2倍",
+    "original_question": "喹肼酯的用法用量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用磁化水饲喂畜禽可使产蛋率提高20%，猪增重提高18.4%，奶牛产奶量提高27.2%。",
+    "reference_case": "用磁化水饲喂畜禽可使产蛋率提高10%，猪增重提高9.2%，奶牛产奶量提高13.6%。",
+    "error_detail": "数值被错误地放大了2倍",
+    "original_question": "磁化水饲料添加剂的功能作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "湿帘厚度为 20 cm。",
+    "reference_case": "湿帘厚度为 15 cm。",
+    "error_detail": "湿帘厚度的数值被错误地增加。",
+    "original_question": "空怀妊娠母猪舍的湿帘厚度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用抗生素，如15%金霉素1.5~2kg/吨饲料，可提高受胎率、产仔率和每窝产仔数。",
+    "reference_case": "使用抗生素，如15%金霉素0.7~1kg/吨饲料或金西林1~1.25kg/吨饲料，可提高受胎率、产仔率和每窝产仔数。",
+    "error_detail": "金霉素的用量被错误地增加。",
+    "original_question": "规模化猪场配种时使用抗生素可以提高哪些指标？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每吨饲料中添加强力霉素0.5kg或磺胺二甲0.7~0.9kg加TMP0.08~0.12kg或除病杀（拜耳）1.5kg等。",
+    "reference_case": "每吨饲料中添加强力霉素0.3kg或磺胺二甲0.3~0.5kg加TMP0.06~0.1kg或除病杀（拜耳）1kg等。",
+    "error_detail": "药物用量被错误地增加。",
+    "original_question": "母猪分娩前后一周添加哪些药物能提高繁殖性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在饲料中添加15%金霉素2~4kg/吨或15%金霉素2kg+阿莫西林0.3kg/吨或5%普乐健1.5kg/吨+磺胺二甲基嘧啶+TMP0.08kg/吨。",
+    "reference_case": "在饲料中添加15%金霉素1~3kg/吨或15%金霉素1.5kg+阿莫西林0.2kg/吨或5%普乐健1.0kg/吨+磺胺二甲基嘧啶+TMP0.06kg/吨。",
+    "error_detail": "药物用量被错误地增加。",
+    "original_question": "保育小猪预防呼吸道综合症及继发感染的药物添加方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "恩诺沙星、诺氟沙星、氧氟沙星及环丙沙星，每千克水加100mg或每千克饲料加200mg，或新霉素每千克饲料添加220mg，母仔共喂5天。",
+    "reference_case": "恩诺沙星、诺氟沙星、氧氟沙星及环丙沙星，每千克水加50mg或每千克饲料加100mg，或新霉素每千克饲料添加110mg，母仔共喂3天。",
+    "error_detail": "药物用量和使用天数被错误地增加。",
+    "original_question": "5~10日龄开食前后的仔猪预防感染及应激的推荐药物是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用支原净（200 g/头）和土霉素钙盐预混剂（1.5 kg/头），连续10天混饲给药；同时使用伊维菌素预混剂（1.5 kg/头）进行驱虫，连续10天混饲给药。",
+    "reference_case": "使用支原净（150 g/头）和土霉素钙盐预混剂（1 kg/头），连续7天混饲给药；同时使用伊维菌素预混剂（1 kg/头）进行驱虫，连续7天混饲给药。",
+    "error_detail": "药物用量和使用天数被错误地增加。",
+    "original_question": "公猪每月或每季度一次预防呼吸道疾病用药方案是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用氟苯尼考预混剂3%（1.5 kg/头）和泰乐菌素（300×10^-6），连续10天混饲给药。",
+    "reference_case": "使用氟苯尼考预混剂2%（1 kg/头）和泰乐菌素（200×10^-6），连续7天混饲给药。",
+    "error_detail": "药物用量和浓度被错误地增加。",
+    "original_question": "后备母猪进场第一周预防呼吸道疾病用药方案是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用长效土霉素，剂量为10 mL，肌肉注射2次。",
+    "reference_case": "使用长效土霉素，剂量为5 mL，肌肉注射1次。",
+    "error_detail": "药物用量和注射次数被错误地增加。",
+    "original_question": "母猪配种前一周的抗菌用药方案是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用伊维菌素预混剂（3 kg/头），连续10~14天混饲给药。",
+    "reference_case": "使用伊维菌素预混剂（2 kg/头），连续7~14天混饲给药。",
+    "error_detail": "药物用量被错误地增加。",
+    "original_question": "母猪产前7~14天的驱虫用药方案是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用强力霉素（300 g/头）和阿莫西林（300 g/头），连续10~14天混饲给药。",
+    "reference_case": "使用强力霉素（200 g/头）和阿莫西林（200 g/头），连续7~14天混饲给药。",
+    "error_detail": "药物用量被错误地增加。",
+    "original_question": "母猪产后7天预防仔猪呼吸道及消化道疾病的用药方案是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头消化能需要量为4400 kcal/kg。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头消化能需要量为3400 kcal/kg。",
+    "error_detail": "数值偏差，将3400 kcal/kg错误地改为4400 kcal/kg。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头消化能需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪50～80kg时每日每头粗蛋白质需要量为25.5%。",
+    "reference_case": "瘦肉型生长肥育猪50～80kg时每日每头粗蛋白质需要量为15.5%。",
+    "error_detail": "数值偏差，将15.5%错误地改为25.5%。",
+    "original_question": "瘦肉型生长肥育猪50～80kg时每日每头粗蛋白质需要量百分比是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头钙的摄入量为3.25g。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头钙的摄入量为2.25g。",
+    "error_detail": "数值偏差，将2.25g错误地改为3.25g。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头钙的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪10～20kg时每日每头有效磷的摄入量为4.20g。",
+    "reference_case": "瘦肉型生长肥育猪10～20kg时每日每头有效磷的摄入量为3.20g。",
+    "error_detail": "数值偏差，将3.20g错误地改为4.20g。",
+    "original_question": "瘦肉型生长肥育猪10～20kg时每日每头有效磷的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪80～120kg时每日每头维生素A的摄入量为4998 IU。",
+    "reference_case": "瘦肉型生长肥育猪80～120kg时每日每头维生素A的摄入量为3998 IU。",
+    "error_detail": "数值偏差，将3998 IU错误地改为4998 IU。",
+    "original_question": "瘦肉型生长肥育猪80～120kg时每日每头维生素A的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪50～80kg时每日每头维生素D的摄入量为486 IU。",
+    "reference_case": "瘦肉型生长肥育猪50～80kg时每日每头维生素D的摄入量为386 IU。",
+    "error_detail": "数值偏差，将386 IU错误地改为486 IU。",
+    "original_question": "瘦肉型生长肥育猪50～80kg时每日每头维生素D的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头维生素E的摄入量为6 IU。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头维生素E的摄入量为4 IU。",
+    "error_detail": "数值偏差，将4 IU错误地改为6 IU。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头维生素E的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头维生素K的摄入量为0.23 mg。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头维生素K的摄入量为0.13 mg。",
+    "error_detail": "数值偏差，将0.13 mg错误地改为0.23 mg。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头维生素K的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头生物素的摄入量为0.04 mg。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头生物素的摄入量为0.02 mg。",
+    "error_detail": "数值偏差，将0.02 mg错误地改为0.04 mg。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头生物素的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头胆碱的摄入量为0.25 g。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头胆碱的摄入量为0.15 g。",
+    "error_detail": "数值偏差，将0.15 g错误地改为0.25 g。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头胆碱的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪50～80kg时每日每头叶酸的摄入量为1.77 mg。",
+    "reference_case": "瘦肉型生长肥育猪50～80kg时每日每头叶酸的摄入量为0.77 mg。",
+    "error_detail": "数值偏差，将0.77 mg错误地改为1.77 mg。",
+    "original_question": "瘦肉型生长肥育猪50～80kg时每日每头叶酸的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头可利用尼克酸的摄入量为7.00 g。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头可利用尼克酸的摄入量为5.00 g。",
+    "error_detail": "数值偏差，将5.00 g错误地改为7.00 g。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头可利用尼克酸的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪50～80kg时每日每头泛酸的摄入量为28.03 mg。",
+    "reference_case": "瘦肉型生长肥育猪50～80kg时每日每头泛酸的摄入量为18.03 mg。",
+    "error_detail": "数值偏差，将18.03 mg错误地改为28.03 mg。",
+    "original_question": "瘦肉型生长肥育猪50～80kg时每日每头泛酸的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头核黄素的摄入量为2.00 mg。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头核黄素的摄入量为1.00 mg。",
+    "error_detail": "数值偏差，将1.00 mg错误地改为2.00 mg。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头核黄素的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪50～80kg时每日每头维生素B1的摄入量为3.58 mg。",
+    "reference_case": "瘦肉型生长肥育猪50～80kg时每日每头维生素B1的摄入量为2.58 mg。",
+    "error_detail": "数值偏差，将2.58 mg错误地改为3.58 mg。",
+    "original_question": "瘦肉型生长肥育猪50～80kg时每日每头维生素B1的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头维生素B6的摄入量为1.50 mg。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头维生素B6的摄入量为0.50 mg。",
+    "error_detail": "数值偏差，将0.50 mg错误地改为1.50 mg。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头维生素B6的摄入量是多少？",
+    "original_input": ""
+  }
+]

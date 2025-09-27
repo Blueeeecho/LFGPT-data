@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "包括血针、水针（解热镇痛药，如安乃近注射液、板蓝根注射液）等，比例为1:1。",
+    "reference_case": "包括血针、水针（解热镇痛药，如安乃近注射液、板蓝根注射液）等。",
+    "error_detail": "添加了不存在的比例信息",
+    "original_question": "猪丹毒的治疗方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "牛、猪最易获得理想效果，狗、猫和羊次之，马属动物达到理想效果有一定难度，因为马属动物对针麻技术不敏感。",
+    "reference_case": "牛、猪最易获得理想效果，狗、猫和羊次之，马属动物达到理想效果有一定难度。",
+    "error_detail": "错误地添加了马属动物对针麻技术不敏感的解释",
+    "original_question": "兽医针麻技术在不同家畜种类中的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "生长猪对蛋白质的需要与饲料中必需氨基酸和氮素合成非必需氨基酸的能力有关，因为蛋白质的需要决定了氨基酸的合成。",
+    "reference_case": "生长猪对蛋白质的需要与饲料中必需氨基酸和氮素合成非必需氨基酸的能力有关。",
+    "error_detail": "错误地颠倒了蛋白质需要和氨基酸合成之间的因果关系",
+    "original_question": "生长猪对蛋白质的需要与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长阶段（kg） 3-5: 30.0%；5-10: 25.7%；10-20: 22.9%；20-50: 20%；50-80: 17.5%；80-120: 15.2%。",
+    "reference_case": "生长阶段（kg） 3-5: 26.0%；5-10: 23.7%；10-20: 20.9%；20-50: 18%；50-80: 15.5%；80-120: 13.2%。",
+    "error_detail": "错误地修改了粗蛋白质的需求量",
+    "original_question": "生长猪不同生长阶段对粗蛋白质的需求量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "钙10-12 g、磷3.5-5 g、钠1-1.5 g、钾2-3 g、镁0.2-0.4 g。",
+    "reference_case": "钙6-8 g、磷2.5-4 g、钠0.5-1 g、钾1-2 g、镁0.1-0.3 g。",
+    "error_detail": "错误地增加了矿物质量的沉积量",
+    "original_question": "生长猪每沉积100 g蛋白质（相当于450 g瘦肉）时，沉积的矿物质量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "控制粗纤维含量可以避免影响猪和禽类对其他养分的消化吸收，因为粗纤维会直接破坏养分。",
+    "reference_case": "控制粗纤维含量可以避免影响猪和禽类对其他养分的消化吸收。",
+    "error_detail": "错误地解释了粗纤维影响养分消化吸收的机制",
+    "original_question": "为什么需要控制饲料的粗纤维含量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "玉米在猪配合饲料中占约70%左右。",
+    "reference_case": "玉米在猪配合饲料中占约60%左右。",
+    "error_detail": "错误地增加了玉米在猪配合饲料中的比例",
+    "original_question": "玉米在猪配合饲料中所占比例约为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在肥育后期猪的饲料中应控制玉米的喂量，以避免胴体变软、背膘变厚，因为玉米含有高脂肪。",
+    "reference_case": "在肥育后期猪的饲料中应控制玉米的喂量，以避免胴体变软、背膘变厚。",
+    "error_detail": "错误地添加了玉米含有高脂肪的假设",
+    "original_question": "肥育后期猪的饲料中应如何控制玉米的喂量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大麦喂肥育猪不但可获得与玉米相同的日增重，而且在肥育后期能获得硬体脂和高瘦肉率，且成本比玉米低30%。",
+    "reference_case": "大麦喂肥育猪不但可获得与玉米相同的日增重，而且在肥育后期能获得硬体脂和高瘦肉率。",
+    "error_detail": "错误地添加了大麦成本比玉米低30%的信息",
+    "original_question": "喂肥育猪时大麦有何优点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "大豆饼的有效能值高于大豆粕，但大豆饼的粗蛋白质、氨基酸含量低于大豆粕，尤其是赖氨酸的含量是生长肥育猪需要量的3倍，是蛋鸡需要量的5倍。",
+    "reference_case": "大豆饼的有效能值高于大豆粕，但大豆饼的粗蛋白质、氨基酸含量低于大豆粕，尤其是赖氨酸的含量是生长肥育猪需要量的2倍，是蛋鸡需要量的4倍。",
+    "error_detail": "错误地修改了赖氨酸的含量比例",
+    "original_question": "大豆饼粕与大豆粕在营养价值上的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "长期使用含脂肪高的鱼粉会导致猪肉、鸡肉肉质品质变差，因为高脂肪鱼粉会直接导致肉质变差。",
+    "reference_case": "长期使用含脂肪高的鱼粉会导致猪肉、鸡肉肉质品质变差。",
+    "error_detail": "错误地简化了高脂肪鱼粉影响肉质的机制",
+    "original_question": "长期使用高脂肪鱼粉对肉质有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "血粉的蛋白质含量很高，通常可达90%以上，适口性差，一般鸡饲料中添加量为3%，猪饲料中不超过6%。",
+    "reference_case": "血粉的蛋白质含量很高，通常可达80%以上，适口性差，一般鸡饲料中添加量为2%，猪饲料中不超过5%。",
+    "error_detail": "错误地增加了血粉的蛋白质含量和添加量",
+    "original_question": "血粉的蛋白质含量通常是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "首先需要确定日粮中应添加的维生素种类和数量。",
+    "reference_case": "首先需要确定日粮中应添加的维生素种类。",
+    "error_detail": "错误地添加了需要确定维生素数量的信息",
+    "original_question": "在设计预混料配方时，首先需要确定的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪（20 kg 以下）微量元素预混料中锰的最低含量为 3000 mg/kg。",
+    "reference_case": "仔猪（20 kg 以下）微量元素预混料中锰的最低含量为 2500 mg/kg。",
+    "error_detail": "错误地增加了锰的最低含量",
+    "original_question": "仔猪（20 kg 以下）微量元素预混料中锰的最低含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪微量元素预混料中锌的最低含量为 5000 mg/kg。",
+    "reference_case": "生长肥育猪微量元素预混料中锌的最低含量为 4000 mg/kg。",
+    "error_detail": "错误地增加了锌的最低含量",
+    "original_question": "生长肥育猪微量元素预混料中锌的最低含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪禽全价料配方设计的特点需要熟悉，包括了解各种原料的营养价值和成本。",
+    "reference_case": "猪禽全价料配方设计的特点需要熟悉。",
+    "error_detail": "错误地添加了了解原料营养价值和成本的要求",
+    "original_question": "猪禽全价料配方设计的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "选择多胎母猪时要注意其每胎产仔数在7-8头，且母猪分为多胎、正常生殖力和少胎不同的类型。",
+    "reference_case": "选择多胎母猪时要注意其每胎产仔数在5-6头，且母猪分为多胎、正常生殖力和少胎不同的类型。",
+    "error_detail": "错误地增加了每胎产仔数的范围",
+    "original_question": "选择多胎母猪时需要注意哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "母猪的多胎性可以提高繁殖效率，但需要综合考虑其他繁殖性能指标（如产出量和繁殖力等），因为多胎性直接导致繁殖效率提高。",
+    "reference_case": "母猪的多胎性可以提高繁殖效率，但需要综合考虑其他繁殖性能指标（如产出量和繁殖力等）。",
+    "error_detail": "错误地简化了多胎性提高繁殖效率的机制",
+    "original_question": "母猪的多胎性对养殖效益有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "母猪应在断乳后立即交配，即在分娩一个月后与公猪交配。",
+    "reference_case": "母猪应在断乳后立即交配，即在分娩两个月后与公猪交配。",
+    "error_detail": "错误地缩短了分娩后与公猪交配的时间",
+    "original_question": "母猪交配的最佳时间是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "母猪最好在2-3月和7-8月分娩，因此应在3-4月和11-12月与公猪交配。",
+    "reference_case": "母猪最好在3-4月和8-9月分娩，因此应在4-5月和12-1月与公猪交配。",
+    "error_detail": "错误地修改了分娩和交配的时间，可能基于不同地域的气候条件",
+    "original_question": "如何安排母猪的交配时间以达到均匀产仔的目的？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发病率低，死亡率高，传染性弱，发病季节在夏季，口、蹄皮肤黏膜出现溃疡。",
+    "reference_case": "发病率高，死亡率低，传染性强，发病季节在冬季，口、蹄皮肤黏膜出现水疱。",
+    "error_detail": "修改了发病率、死亡率、传染性、发病季节和症状的描述，与事实不符。",
+    "original_question": "猪群发病的特点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪疥螨病有明显不同点。",
+    "reference_case": "猪疥螨病无明显不同点。",
+    "error_detail": "错误地陈述了猪疥螨病的特点，与事实相反。",
+    "original_question": "猪疥螨病的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "(1)多见于15~20日龄仔猪。(2)多见于背部和腿部等有被毛处皮肤上出现红斑。(3)抗生素治疗无效。",
+    "reference_case": "(1)多见于5~10日龄仔猪。(2)多见于肛门和眼睛周围、耳廓和腹部等无被毛处皮肤上出现红斑。(3)抗生素治疗有效。",
+    "error_detail": "修改了日龄、皮肤出现红斑的位置和抗生素治疗的效果，与事实不符。",
+    "original_question": "仔猪渗出性皮炎的临床表现有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "(1)8~10周龄幼猪多发。(2)仔猪发病缓慢、死亡率低。(3)传染性弱，病程长。",
+    "reference_case": "(1)4~6周龄幼猪多发。(2)仔猪发病急重、死亡率高。(3)传染性强，病程短。",
+    "error_detail": "修改了发病年龄、发病急重程度、死亡率、传染性和病程，与事实不符。",
+    "original_question": "猪痘的临床表现有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "初步诊断为猪流感，确诊有赖于实验室诊断。",
+    "reference_case": "初步诊断为猪疥螨病，确诊有赖于实验室诊断。",
+    "error_detail": "错误地将初步诊断改为猪流感，与指令要求不符。",
+    "original_question": "诊断猪疥螨病的初步依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "用手术刀在病健交界处刮取痂皮至稍微出血，收集刮取物。症状不明显时，可检查耳内侧皮肤刮取物中有无虫体。假设猪疥螨病在所有猪中都有明显症状。",
+    "reference_case": "用手术刀在病健交界处刮取痂皮至稍微出血，收集刮取物。症状不明显时，可检查耳内侧皮肤刮取物中有无虫体。",
+    "error_detail": "添加了不存在的假设，改变了原始信息的含义。",
+    "original_question": "实验室诊断猪疥螨病时，采集病料的方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "将刮下的皮屑，滴加少量50%甘油水溶液或液体石蜡，置载玻片上。亦可将刮取物装入试管内，加10%苛性钠溶液，煮沸，待毛、痂皮等固体物大部分被溶解后，静置20min，由管底吸取沉渣，滴在载玻片上。用高倍镜检查，发现疥螨的幼虫、若虫和虫卵即可确诊。",
+    "reference_case": "将刮下的皮屑，滴加少量50%甘油水溶液或液体石蜡，置载玻片上。亦可将刮取物装入试管内，加10%苛性钠溶液，煮沸，待毛、痂皮等固体物大部分被溶解后，静置20min，由管底吸取沉渣，滴在载玻片上。用低倍镜检查，发现疥螨的幼虫、若虫和虫卵即可确诊。",
+    "error_detail": "错误地将低倍镜改为高倍镜，与实验室诊断的实际操作不符。",
+    "original_question": "实验室诊断猪疥螨病时，镜检的具体步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "建议选择青霉素或链霉素进行治疗。",
+    "reference_case": "建议选择溴氰菊酯溶液、阿维菌素或伊维菌素进行治疗。",
+    "error_detail": "错误地推荐了不适合治疗猪疥螨病的药物。",
+    "original_question": "治疗猪疥螨病的药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪附红细胞体病是一种罕见的猪传染病，危害较小，可导致猪轻微贫血，不影响猪的生长发育和生产性能。",
+    "reference_case": "猪附红细胞体病是一种常见的猪传染病，危害较大，可导致猪贫血、黄疸等症状，影响猪的生长发育和生产性能。",
+    "error_detail": "错误地描述了猪附红细胞体病的流行状况和危害，与当前知识不符。",
+    "original_question": "猪附红细胞体病的流行状况及危害有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪附红细胞体病的主要临床症状包括腹泻、呕吐、食欲不振等。",
+    "reference_case": "猪附红细胞体病的主要临床症状包括贫血、黄疸、发热、皮肤苍白或黄疸、呼吸困难等。",
+    "error_detail": "错误地描述了猪附红细胞体病的临床症状，与事实不符。",
+    "original_question": "猪附红细胞体病的临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪附红细胞体病的实验室诊断主要通过尿液分析和粪便检查进行。",
+    "reference_case": "猪附红细胞体病的实验室诊断主要通过血液涂片、血清学检测（如ELISA、IFA等）和PCR技术等方法进行。",
+    "error_detail": "错误地描述了实验室诊断的方法，与指令要求不符。",
+    "original_question": "如何进行猪附红细胞体病的实验室诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪钩端螺旋体病的流行特点包括传播速度慢、不易在潮湿环境中爆发等，临床症状包括低温、无黄疸、无贫血、无关节炎等。",
+    "reference_case": "猪钩端螺旋体病的流行特点包括传播速度快、易在潮湿环境中爆发等，临床症状包括发热、黄疸、贫血、关节炎等。",
+    "error_detail": "错误地描述了猪钩端螺旋体病的流行特点和临床症状，与事实不符。",
+    "original_question": "猪钩端螺旋体病的流行特点、临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪钩端螺旋体病最典型的病理变化是心脏肥大和肺部积水。",
+    "reference_case": "猪钩端螺旋体病最典型的病理变化是肝脾肿大、肾小管坏死、肺部出血等。",
+    "error_detail": "错误地描述了猪钩端螺旋体病的病理变化，与事实不符。",
+    "original_question": "猪钩端螺旋体病最典型的病理变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "猪钩端螺旋体病的诊断方法包括临床症状观察和病史调查，防治措施包括改善饲养管理和增加运动量。",
+    "reference_case": "猪钩端螺旋体病的诊断方法包括血清学检测（如ELISA）、PCR等，防治措施包括疫苗接种、抗生素治疗、环境消毒等。",
+    "error_detail": "错误地优先考虑了不重要的诊断和防治措施，忽略了关键的实验室诊断和有效治疗。",
+    "original_question": "猪钩端螺旋体病的诊断方法及防治措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "20日龄以上。",
+    "reference_case": "10日龄以上。",
+    "error_detail": "错误地修改了仔猪营养性贫血的易发年龄，与事实不符。",
+    "original_question": "仔猪营养性贫血的易发年龄是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "被毛光滑，以肥胖症状为主。",
+    "reference_case": "被毛粗䊁，以贫血症状为主。",
+    "error_detail": "错误地描述了仔猪营养性贫血的主要临床特征，与事实不符。",
+    "original_question": "仔猪营养性贫血的主要临床特征有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "皮肤及可视黏膜发红，血液浓稠；肌肉色深，特别是臂骨肌和心肌。",
+    "reference_case": "皮肤及可视黏膜苍白，血液稀薄；肌肉色淡，特别是臂骨肌和心肌。",
+    "error_detail": "错误地描述了仔猪营养性贫血的剖检变化，与事实不符。",
+    "original_question": "仔猪营养性贫血的剖检变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "仔猪营养性贫血的发病特点是妊娠母猪营养过剩或长期摄入过多蛋白质、维生素以及矿物质等。",
+    "reference_case": "妊娠母猪营养不良或长期缺乏蛋白质、维生素以及矿物质等。",
+    "error_detail": "错误地反转了仔猪营养性贫血的发病原因，与事实不符。",
+    "original_question": "仔猪营养性贫血的发病特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "各种年龄的猪，以成年猪多发。",
+    "reference_case": "各种年龄的猪，以仔猪多发。",
+    "error_detail": "错误地修改了猪钩端螺旋体病的易发年龄，与事实不符。",
+    "original_question": "猪钩端螺旋体病的易发年龄是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "低温、无贫血、无黄疸、无血红蛋白尿、无水肿、无流产和无出血性素质。",
+    "reference_case": "发热、贫血、黄疸、血红蛋白尿、水肿、流产和出血性素质。",
+    "error_detail": "错误地描述了猪钩端螺旋体病的主要临床特征，与事实不符。",
+    "original_question": "猪钩端螺旋体病的主要临床特征有哪些？",
+    "original_input": ""
+  }
+]

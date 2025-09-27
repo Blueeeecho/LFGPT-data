@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "固定轮回杂交的优点在于容易获得杂交母本猪，而又不至于使杂种优势大幅度下降，并能获得最高的后代杂种优势，同时还能提高猪的抗病能力。",
+    "reference_case": "固定轮回杂交的优点在于容易获得杂交母本猪，而又不至于使杂种优势大幅度下降，并能获得最高的后代杂种优势。",
+    "error_detail": "添加了不相关的优点（提高抗病能力），属于概念混淆。",
+    "original_question": "固定轮回杂交相对于三品种轮回杂交有哪些优点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "可以评估猪的性能指标包括始重（于克）、本重（千克）、平均日增重（克）、每增混合肉（千克）消化能（北焦）、克需要粗蛋白（克）、平均背膘部（厘米）、体腔肉率（%）、以及心脏重量（克）。",
+    "reference_case": "可以评估猪的性能指标包括始重（于克）、本重（千克）、平均日增重（克）、每增混合肉（千克）消化能（北焦）、克需要粗蛋白（克）、平均背膘部（厘米）、体腔肉率（%）。",
+    "error_detail": "添加了不存在的指标（心脏重量），属于数据型幻觉。",
+    "original_question": "四品种杂交与三品种杂交猪的性能对比表中，哪些指标可以用来评估猪的性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "杜×（大×长×枫）组合的平均日增重是700克。",
+    "reference_case": "杜×（大×长×枫）组合的平均日增重是637克。",
+    "error_detail": "错误地提高了平均日增重的数值，属于数据型幻觉。",
+    "original_question": "四品种杂交与三品种杂交猪性能对比表中的杜×（大×长×枫）组合的平均日增重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "（杜×汉）×（长×上）组合的胴体瘦肉率是65.00%。",
+    "reference_case": "（杜×汉）×（长×上）组合的胴体瘦肉率是59.64%。",
+    "error_detail": "错误地提高了胴体瘦肉率的数值，属于数据型幻觉。",
+    "original_question": "双杂交猪性能介绍表中，（杜×汉）×（长×上）组合的胴体瘦肉率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "繁殖场的主要任务是扩大繁殖杂交用的父、母本种猪，提供给商品场，尤其是母本品种，同时还要负责猪的销售工作。",
+    "reference_case": "繁殖场的主要任务是扩大繁殖杂交用的父、母本种猪，提供给商品场，尤其是母本品种。",
+    "error_detail": "添加了不相关的任务（负责猪的销售工作），属于指令偏离型。",
+    "original_question": "经济杂交繁育体系中，繁殖场的主要任务是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "血缘公猪数量和母猪窝数与总产仔数和产活仔数有直接的正比关系。",
+    "reference_case": "血缘公猪数量和母猪窝数与总产仔数和产活仔数有关，具体数据见表3-13。",
+    "error_detail": "错误地假设了直接的正比关系，属于假设滥用型。",
+    "original_question": "血缘公猪和母猪窝数对仔猪总产仔数和产活仔数有影响吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同组合的生长肥育猪日增重有所不同，例如“大×(长×北)”组合的日增重为650克，“杜×(长×北)”组合的日增重为650克。",
+    "reference_case": "不同组合的生长肥育猪日增重有所不同，例如“大×(长×北)”组合的日增重为625克，“杜×(长×北)”组合的日增重为626克。",
+    "error_detail": "错误地统一了日增重的数值，属于数据型幻觉。",
+    "original_question": "不同组合的生长肥育猪日增重差异如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "达到90千克体重所需日龄与猪的始重无关。",
+    "reference_case": "达到90千克体重所需日龄与猪的始重有关，如“大×(长×北)”组合的始重为20.48千克，所需日龄为179.00日。",
+    "error_detail": "错误地否定了始重与所需日龄的关系，属于逻辑完整性幻觉。",
+    "original_question": "达到90千克体重所需日龄与猪的始重有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每头生长肥育猪每增重1千克所需的混合料为2.50至2.80千克。",
+    "reference_case": "每头生长肥育猪每增重1千克所需的混合料为3.10至3.39千克。",
+    "error_detail": "错误地降低了混合料的数值，属于数据型幻觉。",
+    "original_question": "每头生长肥育猪的饲料利用率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同组合的生长肥育猪平均粗蛋白质水平在10.00%至12.50%之间。",
+    "reference_case": "不同组合的生长肥育猪平均粗蛋白质水平在13.00%至15.50%之间。",
+    "error_detail": "错误地降低了粗蛋白质水平的数值，属于数据型幻觉。",
+    "original_question": "不同组合的生长肥育猪平均粗蛋白质水平如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "在天气晴朗时，特别是晚饲后，将种公猪放入运动场中，任其运动3-4小时。",
+    "reference_case": "在天气晴朗时，特别是晚饲后，将种公猪放入运动场中，任其运动1-2小时。",
+    "error_detail": "错误地延长了运动时间，属于指令偏离型。",
+    "original_question": "如何管理种公猪的运动？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "1-2岁为青年阶段，每周可配3-4次；2-5岁为壮年阶段，每天可配3-4次；5岁以上为老年阶段，每天使用1次。",
+    "reference_case": "1-2岁为青年阶段，每周可配1-2次；2-5岁为壮年阶段，每天可配1-2次，最好是早、晚各1次；5岁以上为老年阶段，每隔1-2天使用1次。",
+    "error_detail": "错误地提高了配种频率，属于数据型幻觉。",
+    "original_question": "种公猪不同年龄段的使用频率有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "所有的配种工作应在中午进行，以免早晚温度影响配种效果。",
+    "reference_case": "所有的配种工作应在早旬或晚饲之前进行，以免饱腹影响配种效果。",
+    "error_detail": "错误地改变了配种时间，属于指令偏离型。",
+    "original_question": "种公猪配种的最佳时间是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "如果种公猪是初次使用，或有一段时间没有使用，其第一次采集的精液可以直接使用。",
+    "reference_case": "如果种公猪是初次使用，或有一段时间没有使用，其第一次采集的精液应废弃不用，因为长时间贮藏在体内的精子活力较低，精液品质也差。",
+    "error_detail": "错误地假设了精液可以直接使用，属于假设滥用型。",
+    "original_question": "种公猪初次使用时，第一次采集的精液应如何处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "应尽量增加配种次数，以提高种公猪的使用价值。",
+    "reference_case": "应尽量按所制订的制度行事，避免因贪图眼前利益而过度使用种公猪，影响其今后的使用价值。",
+    "error_detail": "错误地建议增加配种次数，属于指令偏离型。",
+    "original_question": "种公猪在配种旺季应如何合理使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "在没有配种任务的空闲时期，可以随意饲喂，不影响种公猪的性欲和配种能力。",
+    "reference_case": "在没有配种任务的空闲时期，应按饲养标准规定的营养需要量进行饲养，切不可随便饲喂，使公猪过于肥胖或太瘦，降低性欲或不能承受配种期间繁重的任务，而影响种用价值。",
+    "error_detail": "错误地假设了随意饲喂不影响种公猪，属于假设滥用型。",
+    "original_question": "种公猪空闲时期的管理应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪在发情期内能产生25-30个卵子。",
+    "reference_case": "母猪在发情期内能产生15-20个卵子。",
+    "error_detail": "错误地提高了卵子数量，属于数据型幻觉。",
+    "original_question": "母猪在发情期内能产生多少卵子？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪每隔10-15天，平均12天左右再次发情。",
+    "reference_case": "母猪每隔16-25天，平均21天左右再次发情。",
+    "error_detail": "错误地缩短了发情周期，属于数据型幻觉。",
+    "original_question": "母猪的发情周期是多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪每次发情持续期4-5天。",
+    "reference_case": "母猪每次发情持续期2-3天。",
+    "error_detail": "错误地延长了发情持续期，属于数据型幻觉。",
+    "original_question": "母猪的发情持续期是多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪排卵发生在发情开始后12-24小时，高峰在发情后24小时左右。",
+    "reference_case": "母猪排卵发生在发情开始后24-48小时，高峰在发情后36小时左右。",
+    "error_detail": "错误地提前了排卵时间，属于数据型幻觉。",
+    "original_question": "母猪排卵发生在发情周期的哪个阶段？",
+    "original_input": ""
+  }
+]

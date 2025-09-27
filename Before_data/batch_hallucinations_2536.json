@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "共轭亚油酸（CLA）对猪的血清甲状腺素（T4:浓度有显著影响，显著提高了T4水平。",
+    "reference_case": "共轭亚油酸（CLA）对猪的血清甲状腺素（T4:浓度无显著影响，但有降低趋势。",
+    "error_detail": "错误地声称CLA显著提高了T4水平，而实际上并无显著影响。",
+    "original_question": "共轭亚油酸（CLA）对猪的血清甲状腺素（T4:水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "共轭亚油酸（CLA）对猪的血清白蛋白和球蛋白浓度无显著影响。",
+    "reference_case": "共轭亚油酸（CLA）降低了猪的血清白蛋白（ALB）浓度，并显著提高了血清球蛋白（GLO）浓度。2:0%的CLA添加组血清球蛋白浓度显著提高了28:72%。",
+    "error_detail": "错误地声称CLA对血清白蛋白和球蛋白浓度无显著影响，而实际上有显著影响。",
+    "original_question": "共轭亚油酸（CLA）对猪的血清白蛋白和球蛋白浓度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪的饲粮中，共轭亚油酸（CLA）的添加量应选择3:0%，因为这一添加量显著提高了日增重（ADG）。",
+    "reference_case": "在猪的饲粮中，共轭亚油酸（CLA）的添加量应选择1:0%，因为这一添加量在不显著影响日增重（ADG）的情况下，显著降低了饲料/增重比（F/G），并且对血清生化指标和激素水平的影响也较为适宜。",
+    "error_detail": "错误地建议了更高的CLA添加量，并错误地声称其显著提高了ADG。",
+    "original_question": "共轭亚油酸（CLA）的添加量在猪的饲粮中应如何选择？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "共轭亚油酸（CLA）显著提高了猪的血清皮质醇（COR）浓度，比对照组约高21:59%至27:84%，这表明CLA可能加剧了猪的应激状态。",
+    "reference_case": "共轭亚油酸（CLA）显著降低了猪的血清皮质醇（COR）浓度，比对照组约低21:59%至27:84%，这表明CLA可能缓解了猪的应激状态。",
+    "error_detail": "错误地声称CLA提高了COR浓度，而实际上降低了COR浓度。",
+    "original_question": "共轭亚油酸（CLA）对猪的应激状态有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "共轭亚油酸（CLA）在猪的饲粮中添加后，显著提高了血清总胆固醇（CHOL）和甘油三酯（TG）浓度。",
+    "reference_case": "共轭亚油酸（CLA）在猪的饲粮中添加后，对血清总胆固醇（CHOL）和甘油三酯（TG）浓度无显著影响。",
+    "error_detail": "错误地声称CLA显著提高了CHOL和TG浓度，而实际上无显著影响。",
+    "original_question": "共轭亚油酸（CLA）在猪的饲粮中添加后，对血清总胆固醇和甘油三酯有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "共轭亚油酸（CLA）在猪的饲粮中添加的主要目的是提高猪的肉质。",
+    "reference_case": "共轭亚油酸（CLA）在猪的饲粮中添加的主要目的是研究其对猪的生长性能、血液生化指标和激素水平的影响，以确定适宜的添加水平，从而改善猪的生长性能和饲料转化率。",
+    "error_detail": "错误地声称CLA的主要目的是提高肉质，而实际上是研究其对生长性能等的影响。",
+    "original_question": "共轭亚油酸（CLA）在猪的饲粮中添加的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "共轭亚油酸（CLA）显著提高了猪的血清三碘甲状腺原氨酸（T3:和皮质醇（COR）水平。",
+    "reference_case": "共轭亚油酸（CLA）显著降低了猪的血清三碘甲状腺原氨酸（T3:和皮质醇（COR）水平。1:0%至2:0%的CLA添加量显著降低了血清T3浓度，比对照组约低18:86%至23:43%。同时，CLA显著降低了血清皮质醇浓度，比对照组约低21:59%至27:84%。",
+    "error_detail": "错误地声称CLA提高了T3和COR水平，而实际上降低了这些水平。",
+    "original_question": "共轭亚油酸（CLA）对猪的血清激素水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "共轭亚油酸（CLA）显著提高了猪的血清高密度脂蛋白（HDL）和载脂蛋白A1（APOA1:浓度。",
+    "reference_case": "共轭亚油酸（CLA）显著影响了猪的血清高密度脂蛋白（HDL）和载脂蛋白A1（APOA1:浓度，随CLA添加量的增加，这些指标显著下降。此外，CLA还显著提高了血清球蛋白浓度，并降低了血清白球比。",
+    "error_detail": "错误地声称CLA提高了HDL和APOA1浓度，而实际上这些指标显著下降。",
+    "original_question": "共轭亚油酸（CLA）对猪的血清生化指标有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在饲粮中添加不同水平的共轭亚油酸（CLA）对猪的生长性能无显著影响。",
+    "reference_case": "在饲粮中添加不同水平的共轭亚油酸（CLA）对猪的生长性能有显著影响。具体来说，1:0%的CLA添加量显著降低了饲料/增重比（F/G），而对日增重（ADG）无显著影响。2:0%的CLA添加量显著降低了平均日采食量（ADFI）。",
+    "error_detail": "错误地声称CLA对生长性能无显著影响，而实际上有显著影响。",
+    "original_question": "在饲粮中添加不同水平的共轭亚油酸（CLA）对猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在饲粮中添加共轭亚油酸（CLA）对猪的脂肪代谢无显著影响。",
+    "reference_case": "在饲粮中添加共轭亚油酸（CLA）显著降低了血清高密度脂蛋白（HDL）和载脂蛋白A1（APOA1:浓度，这表明CLA可能通过影响血脂蛋白水平来调控猪的脂肪代谢。此外，CLA还降低了血清白蛋白浓度和白球比，进一步佐证了其对脂肪代谢的调控作用。",
+    "error_detail": "错误地声称CLA对脂肪代谢无显著影响，而实际上有显著影响。",
+    "original_question": "在饲粮中添加共轭亚油酸（CLA）对猪的脂肪代谢有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脂多糖（LPS）注射后，TLR4在2、4和6小时表达水平显著提高；MyD88在1、3和8小时显著提高；TRAF6和NF-кB在3小时显著提高；TNF-α在6、8和24小时显著降低。",
+    "reference_case": "脂多糖（LPS）注射后，TLR4在2、4和6小时表达水平显著降低；MyD88在1、3和8小时显著降低；TRAF6和NF-кB在3小时显著降低；TNF-α在6、8和24小时显著升高。",
+    "error_detail": "错误地声称LPS注射后相关基因表达水平提高或TNF-α降低，而实际上表达水平降低或TNF-α升高。",
+    "original_question": "脂多糖（LPS）对仔猪外周血白细胞中TLR4信号通路关键基因表达的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "肌肽作为一种新型、高效的天然抗氧化剂，主要用于提高猪的生长速度。",
+    "reference_case": "肌肽作为一种新型、高效的天然抗氧化剂，能够改善猪肉的颜色、pH值和系水力，对猪鲜肉生产和加工具有重要作用，有助于保持肉的风味、肉色、组织和营养价值。",
+    "error_detail": "错误地声称肌肽的主要用途是提高生长速度，而实际上是改善肉质。",
+    "original_question": "肌肽在猪肉加工中的应用有哪些潜在优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肌肽能显著提高肌肉贮存72小时和96小时时的滴水损失，降低肌肉的持水能力。",
+    "reference_case": "肌肽能显著降低肌肉贮存72小时和96小时时的滴水损失，提高肌肉的持水能力，从而改善猪肉的系水力。",
+    "error_detail": "错误地声称肌肽提高了滴水损失和降低了持水能力，而实际上相反。",
+    "original_question": "肌肽如何影响猪肉的系水力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肌肽能显著降低肌肉贮存时的pH值。",
+    "reference_case": "肌肽能显著提高肌肉贮存时的pH值，特别是在育肥猪饲料中添加50mg/kg和100mg/kg肌肽时，肌肉贮存45分钟、24小时、48小时和72小时时的pH值显著提高。",
+    "error_detail": "错误地声称肌肽降低了pH值，而实际上提高了pH值。",
+    "original_question": "肌肽对猪肉的pH值有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肌肽可以抑制氧合肌红蛋白向高铁肌红蛋白的转化，加速高铁肌红蛋白的形成量。",
+    "reference_case": "肌肽可以使高铁肌红蛋白向氧合肌红蛋白的转化加速，抑制高铁肌红蛋白的形成量，从而对肉色起到保护作用。此外，肌肽还能提高猪肉的红度值（a*值）。",
+    "error_detail": "错误地声称肌肽抑制了氧合肌红蛋白向高铁肌红蛋白的转化和加速了高铁肌红蛋白的形成，而实际上相反。",
+    "original_question": "肌肽如何影响猪肉的颜色？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "试验日粮是根据NRC（2012:生长猪体重20～50 kg、50～80 kg、80～120 kg各阶段的营养需要配制的全价日粮。",
+    "reference_case": "试验日粮是根据NRC（1998:生长猪体重20～50 kg、50～80 kg、80～120 kg各阶段的营养需要配制的全价日粮。",
+    "error_detail": "错误地使用了2012年的NRC标准，而实际上使用的是1998年的标准。",
+    "original_question": "试验日粮的配制依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验设计中设有3个处理，6个重复，每个重复有8头猪。",
+    "reference_case": "试验设计中设有1个处理，6个重复，每个重复有8头猪。",
+    "error_detail": "错误地声称有3个处理，而实际上只有1个处理。",
+    "original_question": "试验设计中每个处理有多少个重复，每个重复有多少头猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "试验猪的饲养管理条件包括圈舍尺寸为2:0 m×2:0 m，钢筋焊接而成，饲槽尺寸为1:50 m×0:50 m，水泥地面，有一定坡度，排尿通畅，通风良好。饲料为颗粒饲料，自由采食，自动饮水器供水，其他管理按常规方法进行。",
+    "reference_case": "试验猪的饲养管理条件包括圈舍尺寸为1:8 m×1:5 m，钢筋焊接而成，饲槽尺寸为1:00 m×0:36 m，水泥地面，有一定坡度，排尿通畅，通风良好。饲料为粉状饲料，自由采食，自动饮水器供水，其他管理按常规方法进行。",
+    "error_detail": "错误地描述了圈舍和饲槽的尺寸以及饲料的形式，与实际情况不符。",
+    "original_question": "试验猪的饲养管理条件如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "大豆皮能很好地被猪、鸡等单胃动物消化吸收。",
+    "reference_case": "大豆皮不能很好地被猪、鸡等单胃动物消化吸收，但可以通过瘤胃微生物的作用被反刍动物所利用。",
+    "error_detail": "错误地声称大豆皮能被单胃动物消化吸收，而实际上不能。",
+    "original_question": "大豆皮在反刍动物中的消化吸收情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "杜洛克猪的肉色评分最低（平均评分为1:3分），肌肉持水性能最弱（平均失水率为25:00%），肌肉的大理石纹评分最差（平均1:13分）。而汉普夏猪的肉色最好（接近深红色），肌肉的失水率最低（9:85%）。",
+    "reference_case": "杜洛克猪的肉色评分最高（平均评分为3:3分），肌肉持水性能最强（平均失水率仅为9:85%），肌肉的大理石纹评分最好（平均3:13分）。而汉普夏猪的肉色最差（接近轻度灰白色），肌肉的失水率最高（25:00%）。",
+    "error_detail": "错误地描述了杜洛克猪和汉普夏猪的肉质特性，与实际情况相反。",
+    "original_question": "杜洛克猪和汉普夏猪的肉质特性有哪些显著差异？",
+    "original_input": ""
+  }
+]

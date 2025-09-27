@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪进行PRRS疫苗二次免疫的必要性在于，二次免疫后仔猪的抗体水平比首次免疫高出50%，并且可以保持在一个极高水平长达一年。",
+    "reference_case": "仔猪进行PRRS疫苗二次免疫的必要性在于，二次免疫后仔猪的抗体水平明显优于首次免疫，并且可以较长时间保持在一个较高水平，从而提供更有效、持续时间更长的免疫保护。",
+    "error_detail": "夸大了抗体水平的提升比例和持续时间",
+    "original_question": "仔猪进行PRRS疫苗二次免疫的必要性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在仔猪28日龄时进行PRRS疫苗首免效果最好，主要是因为此时母源抗体的影响最小。",
+    "reference_case": "在仔猪35日龄时进行PRRS疫苗首免效果最好，主要是因为此时母源抗体的影响较小，且仔猪的免疫系统（如T淋巴细胞和B淋巴细胞）已逐步发育成熟。",
+    "error_detail": "错误的首免日龄和原因描述",
+    "original_question": "为什么在仔猪35日龄时进行PRRS疫苗首免效果最好？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "生猪宰前静养的目的是为了使生猪在屠宰时感到快乐，从而改善猪肉品质。",
+    "reference_case": "生猪宰前静养的目的是使生猪得到充分的休息，减少生猪高激反应，改善生猪福利和猪肉品质。",
+    "error_detail": "添加了不存在的心理状态假设",
+    "original_question": "生猪宰前静养的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "电击致晕和CO2致晕屠宰方式肌肉pH值低于手动屠宰方式，手动屠宰方式肌肉pH值较高，产生DFD肉的风险较大。",
+    "reference_case": "电击致晕和CO2致晕屠宰方式肌肉pH值高于手动屠宰方式，手动屠宰方式肌肉pH值较低，产生PSE肉的风险较大。",
+    "error_detail": "混淆了PSE肉和DFD肉的概念",
+    "original_question": "不同致晕方式对生猪屠宰后肌肉pH值有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "PSE肉的产生原因是猪肉在屠宰后由于肌肉中蛋白质变性导致的肉质异常，主要表现为颜色苍白、质地松软和汁液流失。较高的pH值下降速率和较低的终极pH值是PSE肉的结果。",
+    "reference_case": "PSE肉是指猪肉在屠宰后由于肌肉中蛋白质变性导致的肉质异常，主要表现为颜色苍白、质地松软和汁液流失。其主要产生原因是较高的pH值下降速率和较低的终极pH值。",
+    "error_detail": "因果倒置",
+    "original_question": "什么是PSE肉，其主要产生原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "屠宰前适当时间的静养可以显著提高猪肉的pH值，特别是pH_U值。例如，静养24小时的猪肉pH_U值显著高于静养0小时和6小时的猪肉。",
+    "reference_case": "屠宰前适当时间的静养可以显著提高猪肉的pH值，特别是pH_U值。例如，静养12小时的猪肉pH_U值显著高于静养0小时和6小时的猪肉。",
+    "error_detail": "夸大了静养时间的效果",
+    "original_question": "屠宰前静养时间对猪肉的pH值有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "电击致晕和CO2致晕在屠宰后对猪肉的pH_45值影响差异显著，CO2致晕的猪肉滴水损失率显著高于电击致晕。",
+    "reference_case": "电击致晕和CO2致晕在屠宰后对猪肉的pH_45值影响差异不显著，但CO2致晕的猪肉滴水损失率略高于电击致晕。",
+    "error_detail": "夸大了差异的显著性",
+    "original_question": "电击致晕和CO2致晕在屠宰后对猪肉pH值的影响有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在苏太猪、梅山猪和大白猪中，CD14基因-61位点的基因型有AA、AT和TT三种。",
+    "reference_case": "在苏太猪、梅山猪和大白猪中，CD14基因-61位点的基因型有AA、AG和GG三种。",
+    "error_detail": "错误的基因型描述",
+    "original_question": "在苏太猪、梅山猪和大白猪中，CD14基因-61位点的基因型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "杜洛克和长白猪在CD14基因-61位点的基因型只有AA和GG两种。",
+    "reference_case": "杜洛克和长白猪在CD14基因-61位点的基因型只有AG和GG两种。",
+    "error_detail": "错误的基因型描述",
+    "original_question": "杜洛克和长白猪在CD14基因-61位点的基因型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "研究表明，CD14基因-61位点的突变会显著提高苏太猪和梅山猪的一般抗病力。",
+    "reference_case": "研究表明，CD14基因-61位点的突变不会对苏太猪和梅山猪的一般抗病力产生显著影响。",
+    "error_detail": "错误的因果关系",
+    "original_question": "CD14基因-61位点的突变对苏太猪和梅山猪的一般抗病力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "苏太猪和梅山猪在CD14基因-61位点的PIC值介于0.5到0.75之间，这表示它们表现为高度多态。",
+    "reference_case": "苏太猪和梅山猪在CD14基因-61位点的PIC值介于0:25到0:5之间，这表示它们表现为中度多态。",
+    "error_detail": "错误的PIC值范围和解释",
+    "original_question": "苏太猪和梅山猪在CD14基因-61位点的PIC值范围是多少，这表示什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "CD14基因编码的蛋白质是脂多糖的细胞受体，属于细胞表面糖蛋白家族成员之一，存在于所有免疫细胞表面。它在猪的免疫系统中起到抵抗病毒感染的作用。",
+    "reference_case": "CD14基因编码的蛋白质是脂多糖的细胞受体，属于细胞表面糖蛋白家族成员之一，存在于单核细胞和巨噬细胞表面。它在猪的免疫系统中起到抵抗细菌感染的作用，通过激活单核/巨噬细胞等免疫活性细胞，引起细胞因子的释放和其他炎症反应。",
+    "error_detail": "错误的细胞分布和作用描述",
+    "original_question": "什么是CD14基因，它在猪的免疫系统中起什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "研究中使用了苏太猪、梅山猪、大白猪、杜洛克猪、长白猪和约克夏猪。",
+    "reference_case": "研究中使用了苏太猪、梅山猪、大白猪、杜洛克猪和长白猪。",
+    "error_detail": "添加了未使用的猪品种",
+    "original_question": "在猪CD14基因多态性研究中，使用了哪些猪品种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "实验中使用了DNAiso Plus-Total DNA提取试剂、SanPrep柱式RNA小量抽提试剂盒、Column RNA Back试剂盒、Thermo Scientific RevertAid First Strand cDNA Synthesis Kit反转录试剂盒、pMDR19-T Vector载体和SYBR Green II酶Mix试剂。",
+    "reference_case": "实验中使用了RNAiso Plus-Total RNA提取试剂、SanPrep柱式质粒DNA小量抽提试剂盒、Column DNA Back试剂盒、Thermo Scientific RevertAid First Strand cDNA Synthesis Kit反转录试剂盒、pMDR19-T Vector载体和SYBR Green I酶Mix试剂。",
+    "error_detail": "错误的试剂名称和类型",
+    "original_question": "在SYBR Green I荧光定量PCR法检测转双基因猪实验中，使用了哪些主要试剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "研究采用3×3因子完全随机区组设计，将72头生长猪随机分为9个处理组，每个处理组8个重复，每个重复1头猪。",
+    "reference_case": "研究采用2×3因子完全随机区组设计，将48头生长猪随机分为6个处理组，每个处理组8个重复，每个重复1头猪。",
+    "error_detail": "错误的实验设计和动物数量",
+    "original_question": "研究中如何设计实验以评估基础日粮类型对磷真消化率的影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "酸化剂能显著降低饲料的pH值及系酸力，下降幅度很大，表明酸化剂的添加量足以显著降低饲料的pH值及系酸力。",
+    "reference_case": "酸化剂能降低饲料的pH值及系酸力，但下降幅度不大，表明酸化剂的添加量可能不足以显著降低饲料的pH值及系酸力。",
+    "error_detail": "夸大了酸化剂的效果",
+    "original_question": "酸化剂对断奶仔猪的饲料pH值及系酸力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "酸化剂能显著提高断奶仔猪的血清谷草转氨酶（GOT）和乳酸脱氢酶（LDH）活性，表明其对肝脏具有损害作用。",
+    "reference_case": "酸化剂能显著降低断奶仔猪的血清谷草转氨酶（GOT）和乳酸脱氢酶（LDH）活性，表明其对肝脏具有保护作用。",
+    "error_detail": "错误的因果关系和效果描述",
+    "original_question": "酸化剂对断奶仔猪的血清酶活性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "普通酸化剂组的血清碱性磷酸酶（AKP）活性在断奶后21天显著高于对照组和缓释酸化剂组，表明普通酸化剂在调节血清AKP活性方面存在差异。",
+    "reference_case": "普通酸化剂组的血清碱性磷酸酶（AKP）活性在断奶后21天显著低于对照组和缓释酸化剂组，表明普通酸化剂在调节血清AKP活性方面存在差异。",
+    "error_detail": "错误的效果方向",
+    "original_question": "酸化剂对断奶仔猪的血清碱性磷酸酶（AKP）活性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "酸化剂能显著提高胃肠道内容物的pH值，尤其是在胃段，普通酸化剂的效果更为显著。",
+    "reference_case": "酸化剂能降低胃肠道内容物的pH值，尤其是在结肠段，缓释酸化剂的效果更为显著。",
+    "error_detail": "错误的效果方向和部位",
+    "original_question": "酸化剂如何影响断奶仔猪的胃肠道内容物pH值？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "酸化剂对断奶仔猪的血清球蛋白（GLB）含量在整个实验期内均有显著差异，表明酸化剂对血清球蛋白的影响较大。",
+    "reference_case": "酸化剂对断奶仔猪的血清球蛋白（GLB）含量在整个实验期内均无显著差异，表明酸化剂对血清球蛋白的影响较小。",
+    "error_detail": "错误的因果关系和效果描述",
+    "original_question": "酸化剂对断奶仔猪的血清球蛋白（GLB）含量有何影响？",
+    "original_input": ""
+  }
+]

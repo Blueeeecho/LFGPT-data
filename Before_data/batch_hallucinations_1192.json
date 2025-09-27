@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒的ORF5基因的序列分析使用了Geneious软件。",
+    "reference_case": "猪繁殖与呼吸综合征病毒的ORF5基因的序列分析使用了DNAStar软件。",
+    "error_detail": "错误地更改了使用的软件名称",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的ORF5基因的序列分析使用了哪种软件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒的ORF5基因的RT-PCR扩增条件为：95°C 5分钟；95°C 30秒，60°C 30秒，72°C 45秒进行35个循环；72°C 5分钟。",
+    "reference_case": "猪繁殖与呼吸综合征病毒的ORF5基因的RT-PCR扩增条件为：94°C 5分钟；94°C 45秒，58°C 45秒，72°C 1分钟进行30个循环；72°C 10分钟。",
+    "error_detail": "错误地更改了温度和时间参数",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的ORF5基因的RT-PCR扩增条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒的ORF5基因的变异可以导致其编码的糖蛋白GP5的结构改变，从而影响病毒的复制速度。",
+    "reference_case": "猪繁殖与呼吸综合征病毒的ORF5基因的变异可以导致其编码的糖蛋白GP5的抗原特性改变，从而影响病毒的毒力。",
+    "error_detail": "错误地将抗原特性改变描述为结构改变，并错误地关联到病毒的复制速度",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的ORF5基因的变异对病毒毒力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒的基因组全长大约20 kb，含有10个开放式阅读框。",
+    "reference_case": "猪繁殖与呼吸综合征病毒的基因组全长大约15 kb，含有9个开放式阅读框，从基因组的5'端开始依次为ORF1a、ORF1b、ORF2a、ORF2b、ORF3、ORF4、ORF5、ORF6和ORF7。",
+    "error_detail": "错误地更改了基因组长度和开放式阅读框的数量",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组结构是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪繁殖与呼吸综合征病毒的ORF5基因的克隆和测序过程中使用了DNA提取用Trizol、Pfu DNA聚合酶、Qiagen DNA Fragment Purification Kit。",
+    "reference_case": "在猪繁殖与呼吸综合征病毒的ORF5基因的克隆和测序过程中使用了RNA提取用Trizol、Taq DNA聚合酶、Takara DNA Fragment Purification Kit、DNA Marker、各种限制性内切酶、T4 DNA连接酶、胶回收纯化试剂盒等主要试剂。",
+    "error_detail": "错误地更改了使用的试剂名称和类型",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的ORF5基因的克隆和测序过程中使用了哪些主要试剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "《非定点屠宰生猪的检疫》一文主要阐明了生猪非定点屠宰的检疫流程和技术要求。",
+    "reference_case": "《非定点屠宰生猪的检疫》一文阐明了所涉及法律关系的效力层次，并且分类说明了生猪非定点的检疫、处理依据及法律后果。",
+    "error_detail": "错误地将内容重点从法律关系和法律后果转向了检疫流程和技术要求",
+    "original_question": "《非定点屠宰生猪的检疫》一文主要阐明了哪些内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "动物卫生监督机构对非定点屠宰场所有管辖权，应依照《动物防疫法》进行处罚。",
+    "reference_case": "动物卫生监督机构对非定点屠宰场所没有管辖权，应由商务部门依照《生猪屠宰管理条例》第二十四条处罚并取缔。",
+    "error_detail": "错误地更改了管辖机构和依据的法律",
+    "original_question": "动物卫生监督机构对非定点屠宰场所的管辖权如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "生猪定点屠宰涉及的主要法律法规有《畜牧法》《兽医法》《生猪屠宰管理办法》。",
+    "reference_case": "生猪定点屠宰涉及的主要法律法规有《农产品质量安全法》《动物防疫法》《生猪屠宰管理条例》《食品安全法》和《动物检疫管理办法》等。",
+    "error_detail": "错误地列举了不相关的法律法规",
+    "original_question": "生猪定点屠宰涉及哪些主要法律法规？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "国家实行生猪定点屠宰制度后，动物卫生监督机构在检疫实践中常遇到的问题是定点屠宰场的检疫标准不统一。",
+    "reference_case": "国家实行生猪定点屠宰制度后，动物卫生监督机构在检疫实践中常遇到非定点的生猪屠宰检疫问题。",
+    "error_detail": "错误地添加了关于检疫标准不统一的假设",
+    "original_question": "国家实行生猪定点屠宰制度后，动物卫生监督机构在检疫实践中常遇到什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "如果商务部门要对因非定点而没收的生猪及其产品进行再利用，动物卫生监督机构应直接进行销毁处理。",
+    "reference_case": "如果商务部门要对因非定点而没收的生猪及其产品进行再利用，向动物卫生监督机构申请检疫或者鉴定的，动物卫生监督机构收到商务部门的申请，可以对其进行检疫处理。",
+    "error_detail": "错误地将处理方式从检疫处理更改为直接销毁",
+    "original_question": "如果商务部门要对因非定点而没收的生猪及其产品进行再利用，动物卫生监督机构应如何处理？",
+    "original_input": ""
+  }
+]

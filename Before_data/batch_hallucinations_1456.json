@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "衡量养猪生产水平的高低，应以每头母猪平均年产仔猪或商品猪头数、或年产商品猪毛重为衡量指标，其中年产商品猪毛重应达到500公斤以上。",
+    "reference_case": "衡量养猪生产水平的高低，应以每头母猪平均年产仔猪或商品猪头数、或年产商品猪毛重为衡量指标。",
+    "error_detail": "添加了不存在的年产商品猪毛重的具体数值要求",
+    "original_question": "衡量养猪生产水平的指标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "推行洁净生产方式能为养猪生产创造尽可能洁净的环境条件，以避免和减少疾病的发生，保障生产的安全健康运行，这种方法也被称为绿色养殖。",
+    "reference_case": "推行洁净生产方式能为养猪生产创造尽可能洁净的环境条件，以避免和减少疾病的发生，保障生产的安全健康运行。",
+    "error_detail": "将洁净生产错误地称为绿色养殖",
+    "original_question": "推行洁净生产的养猪方式能带来哪些好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "原料在0.35 MPa压力下进行灭菌。",
+    "reference_case": "原料在0.29 MPa压力下进行灭菌。",
+    "error_detail": "错误的灭菌压力数值",
+    "original_question": "3. 该生产线对原料的灭菌条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "鸡粪可以用于饲喂牛、乳牛、鱼、猪、蛋鸡、肉羊、奶牛和绵羊等，尤其是作为猫粮的添加剂。",
+    "reference_case": "鸡粪可以用于饲喂牛、乳牛、鱼、猪、蛋鸡、肉羊、奶牛和绵羊等。",
+    "error_detail": "错误地添加了猫粮作为鸡粪的用途",
+    "original_question": "鸡粪可以作为什么动物的饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鸡及仔猪的草粉粒度不应大于2mm。",
+    "reference_case": "鸡及仔猪的草粉粒度不应大于1mm。",
+    "error_detail": "错误的草粉粒度数值",
+    "original_question": "鸡及仔猪的草粉粒度不应大于多少毫米？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "4个月后的育肥猪、公猪及母猪的草粉粒度不应大于5mm。",
+    "reference_case": "4个月后的育肥猪、公猪及母猪的草粉粒度不应大于3mm。",
+    "error_detail": "错误的草粉粒度数值",
+    "original_question": "4个月后的育肥猪、公猪及母猪的草粉粒度不应大于多少毫米？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "堆制前将湿猪粪、干牛粪混合，再用粪水或清水拌匀，麦草用饲料切割机截成40～50 cm长，并提前用尿水或清水浸透，稻草随浸随堆，加豆饼、菜籽饼等提早一天浸泡。",
+    "reference_case": "堆制前将湿猪粪、干牛粪混合，再用粪水或清水拌匀，麦草用饲料切割机截成20～30 cm长，并提前用尿水或清水浸透，稻草随浸随堆，加豆饼、菜籽饼等提早一天浸泡。",
+    "error_detail": "错误的麦草切割长度",
+    "original_question": "泪菇培养料堆制过程中需要做哪些准备工作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "早期断奶仔猪需要适宜的环境温度、生后立即哺乳和人工固定乳头、配制补料或代乳料、早期补料、铁盐补充等措施，以及每天进行两次户外活动。",
+    "reference_case": "早期断奶仔猪需要适宜的环境温度、生后立即哺乳和人工固定乳头、配制补料或代乳料、早期补料、铁盐补充等措施。",
+    "error_detail": "添加了不相关的户外活动要求",
+    "original_question": "早期断奶仔猪的均匀生长管理有哪些措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "去势可以提高商品猪的胴体瘦肉率，因为去势后的猪更愿意运动。",
+    "reference_case": "去势可以提高商品猪的胴体瘦肉率。",
+    "error_detail": "错误地解释了去势提高瘦肉率的原因",
+    "original_question": "去势在养猪生产中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "约克夏猪生长快、饲料利用率高、产仔较多、胴体瘦肉率高，且肉质特别适合制作火腿。",
+    "reference_case": "约克夏猪生长快、饲料利用率高、产仔较多、胴体瘦肉率高。",
+    "error_detail": "错误地添加了肉质适合制作火腿的特性",
+    "original_question": "约克夏猪的主要优点是什么？",
+    "original_input": ""
+  }
+]

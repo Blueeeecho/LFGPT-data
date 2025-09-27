@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "使用了电泳技术进行检测。",
+    "reference_case": "使用了聚丙烯酰胺凝胶电泳（PAGE）技术进行检测。",
+    "error_detail": "未具体说明使用的电泳技术类型，导致概念混淆。",
+    "original_question": "甘肃黑猪合成系猪的血浆蛋白多态性研究中，使用了哪种电泳技术进行检测？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "Pa AA型对45日龄内平均日增重的效应估计值是60克。",
+    "reference_case": "Pa AA型对45日龄内平均日增重的效应估计值是62.35克。",
+    "error_detail": "数值偏差，错误地估计了效应值。",
+    "original_question": "甘肃黑猪合成系猪的血浆蛋白多态性研究中，Pa AA型对45日龄内平均日增重的效应估计值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "列出了Tf、Pa、Es基因座的基因型频率。",
+    "reference_case": "列出了Tf、Pa、Es、Aml和Am2基因座的基因型频率。",
+    "error_detail": "遗漏了Aml和Am2基因座，导致信息不完整。",
+    "original_question": "甘肃黑猪合成系猪的血浆蛋白多态性研究中，哪些基因座的基因型频率被列出？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "法氏囊提取物对仔猪体液免疫力的影响与剂量无关。",
+    "reference_case": "是的，研究表明相对分子质量为1000以下的法氏囊提取物对仔猪体液免疫力的影响是呈剂量相关的。",
+    "error_detail": "错误地认为影响与剂量无关，与事实相反。",
+    "original_question": "法氏囊提取物对仔猪体液免疫力的影响是否与剂量相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪饲料中添加植酸酶可以提高磷的消化率、钙和镁的吸收率，促进生长。",
+    "reference_case": "在猪饲料中添加植酸酶可以提高磷的消化率、钙和镁的吸收率，促进生长，提高日增重，降低料重比，减少粪中磷的排出量。",
+    "error_detail": "遗漏了提高日增重、降低料重比和减少粪中磷排出量的具体效果。",
+    "original_question": "微生物植酸酶在猪生产中的应用有哪些具体效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "击昏方式对系水力的影响差异不显著。",
+    "reference_case": "击昏方式对系水力的影响差异极显著，特别是不恰当的电击昏可显著降低肌肉的系水力。低压高频（75～85V，2.4～3.0kHz）可明显提高肌肉的系水力。",
+    "error_detail": "错误地认为影响差异不显著，忽略了时效性信息。",
+    "original_question": "击昏方式对猪肉系水力的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "饲养管理中的不良应激因素包括饲养密度过大和转群过于频繁。",
+    "reference_case": "饲养管理中的不良应激因素包括饲养密度过大、转群过于频繁、饲喂方式不正确、微生物感染、注射药物、饲养人员频繁进出猪舍等。",
+    "error_detail": "遗漏了其他重要的不良应激因素，导致信息不完整。",
+    "original_question": "饲养管理中的哪些不良应激因素会影响猪肉的系水力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "运输性应激一年四季均可引起商品猪宰后发生PSE肉而使系水力降低，以冬季发生率最高。",
+    "reference_case": "运输性应激一年四季均可引起商品猪宰后发生PSE肉而使系水力降低，以夏季发生率最高（11.54%），春季最低（2.56%），系水力比正常猪肉低7.9%～8.9%。",
+    "error_detail": "错误地认为冬季发生率最高，与事实相反。",
+    "original_question": "运输性应激对猪肉系水力的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在育肥猪饲料中添加适量苦参，试验组比对照组日采食量提高5%，日增重提高15%。",
+    "reference_case": "在育肥猪饲料中添加适量苦参，试验组比对照组日采食量提高6.3%，日增重提高16.98%，饲料报酬提高9%。在60天的试验期内，试验组比对照组平均每头猪增加效益22.35元。",
+    "error_detail": "数值偏差，错误地估计了提高的百分比。",
+    "original_question": "在育肥猪饲料中添加苦参的经济效益如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "苦参具有清热燥湿、杀虫、利尿等功效。",
+    "reference_case": "苦参具有清热燥湿、杀虫、利尿、祛风等功效，能防治多种病症。现代医学研究证明，苦参含有金雀花碱和苦参碱，对很多细菌、真菌和原虫有抑制作用，其苦味也有健胃作用，能增进食欲。",
+    "error_detail": "遗漏了祛风等功效和现代医学研究证明的其他作用。",
+    "original_question": "苦参在育肥猪饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "RN基因可增加50%的糖原含量。",
+    "reference_case": "RN基因位于第15号染色体上，RN-为一显性缺陷基因，可增加60%～70%的糖原含量，使宰后猪肉的pH值显著降低，肌细胞内蛋白质含量降低，电荷数减少，系水力下降。",
+    "error_detail": "数值偏差，错误地估计了糖原含量的增加百分比。",
+    "original_question": "RN基因对猪肉系水力的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "系水力是指当肌肉受到外力作用时，保持其原有水分的能力。",
+    "reference_case": "系水力是指当肌肉受到外力作用时，如加压、切碎、加热、冷冻、解冻、腌制等加工或储藏条件下，保持其原有水分及添加水分的能力。",
+    "error_detail": "遗漏了添加水分的能力和具体的外力作用条件。",
+    "original_question": "什么是猪肉的系水力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "维生素E能阻断细胞内过氧化物的形成。",
+    "reference_case": "维生素E作为断链抗氧化剂，能定位于细胞膜，阻断细胞内过氧化物的形成，并可提高亚细胞结构对铁诱导的氧化反应的稳定性，进而提高猪肉在贮存过程中的稳定性。",
+    "error_detail": "遗漏了维生素E的其他作用，如提高亚细胞结构对铁诱导的氧化反应的稳定性。",
+    "original_question": "维生素E在预防猪肉系水力下降中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "氟烷基因位于常染色体上，影响肌肉中糖酵解的速度。",
+    "reference_case": "氟烷基因位于常染色体6p11-q21上，主要决定骨骼肌Ca2+释放通道，影响肌肉中糖酵解的速度。在宰后的隐性纯合体猪中，由于肌浆网失去积蓄Ca2+的能力，Ca2+被大量析出而不能被收回，促使糖原酵解过程加速和加强，肌肉中乳酸大量积累，导致肌肉pH值迅速降低，肌浆蛋白凝结到肌原纤维上，蛋白质溶解度下降，水分丢失，造成系水力下降。",
+    "error_detail": "遗漏了氟烷基因的具体位置和作用机制。",
+    "original_question": "氟烷基因如何影响猪肉的系水力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "试验组无发病现象；对照组有3头猪相继发病。",
+    "reference_case": "试验组无发病现象；对照组有5头猪相继发病，其中1头因病体重下降而被淘汰。",
+    "error_detail": "数值偏差，错误地估计了发病猪的数量。",
+    "original_question": "试验组和对照组的发病情况有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "试验组每头猪每次投喂苦参的量为5克。",
+    "reference_case": "试验组每头猪每次投喂苦参的量为6克。",
+    "error_detail": "数值偏差，错误地估计了投喂量。",
+    "original_question": "试验组每头猪每次投喂苦参的量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "最适补铁日龄是5日龄。",
+    "reference_case": "最适补铁日龄是3日龄。",
+    "error_detail": "数值偏差，错误地估计了最适补铁日龄。",
+    "original_question": "不同补铁方法对仔猪生长发育的影响试验中，最适补铁日龄是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2次补铁组仔猪的日增重、成活率均高于1次补铁组，而白痢发病率比1次补铁组降低20%。",
+    "reference_case": "2次补铁组仔猪的日增重、成活率均高于1次补铁组，而白痢发病率比1次补铁组降低31.28%。",
+    "error_detail": "数值偏差，错误地估计了白痢发病率的降低百分比。",
+    "original_question": "仔猪补铁试验中，补铁次数对仔猪增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "补铁仔猪35日龄育成率提高10%。",
+    "reference_case": "补铁仔猪35日龄育成率提高14.79%。",
+    "error_detail": "数值偏差，错误地估计了育成率的提高百分比。",
+    "original_question": "仔猪补铁试验中，补铁对仔猪育成率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪3日龄时1次补铁150 mg，至35日龄断奶时，可多增重1.0 kg，每头可多收益10元。",
+    "reference_case": "仔猪3日龄时1次补铁150 mg，至35日龄断奶时，可多增重1.53～1.70 kg，每头可多收益18.24～20.40元。2次补铁尽管每头成本提高0.50元，但仔猪在10～35日龄期间增重增加0.66 kg，仍可多收益7.42元。",
+    "error_detail": "数值偏差，错误地估计了增重和收益。",
+    "original_question": "仔猪补铁试验中，补铁对仔猪的经济效益有何影响？",
+    "original_input": ""
+  }
+]

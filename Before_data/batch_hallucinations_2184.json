@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪皮炎/肾病综合征的病理特征是皮肤和肾脏血管损伤，引起渗出性、增生性 GN，偶尔见有坏死性 GN，同时伴有心脏肥大。",
+    "reference_case": "猪皮炎/肾病综合征的病理特征是皮肤和肾脏血管损伤，引起渗出性、增生性 GN，偶尔见有坏死性 GN。",
+    "error_detail": "添加了不相关的心脏肥大病理特征",
+    "original_question": "猪皮炎/肾病综合征的病理特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "特征包括近曲小管和远曲小管上皮细胞肿胀坏死，肾小管腔内出现颗粒管型，肾小管扩张，间质重度水肿。",
+    "reference_case": "特征包括近曲小管和远曲小管上皮细胞肿胀坏死，肾小管腔内出现颗粒管型，肾小管扩张，间质轻度水肿。",
+    "error_detail": "将轻度水肿错误描述为重度水肿",
+    "original_question": "猪肾小管间质疾病的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "肾脏苍白、肿胀，伴有急性肾小管坏死，肾小管内沉积大量的草酸钙结晶和尿酸结晶。",
+    "reference_case": "肾脏苍白、肿胀，伴有急性肾小管坏死，肾小管内沉积大量的草酸钙结晶。",
+    "error_detail": "添加了不存在的尿酸结晶",
+    "original_question": "乙烯乙二醇中毒导致猪肾脏的哪些组织学变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "正确干燥、贮存谷物，以防止真菌毒素（如赫曲霉毒素A和黄曲霉毒素）中毒。",
+    "reference_case": "正确干燥、贮存谷物，以防止真菌毒素（如赫曲霉毒素A）中毒。",
+    "error_detail": "添加了不相关的黄曲霉毒素",
+    "original_question": "如何预防猪的肾毒素性中毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "钩端螺旋体穿过粘膜表面或皮肤，持续数天，最终进入肾实质的间质组织和肾小管腔，引发间质性肾炎，同时导致心脏疾病。",
+    "reference_case": "钩端螺旋体穿过粘膜表面或皮肤，持续数天，最终进入肾实质的间质组织和肾小管腔，引发间质性肾炎。",
+    "error_detail": "错误添加了心脏疾病的因果关系",
+    "original_question": "钩端螺旋体感染如何导致猪的间质性肾炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "为了培育出对于所有外来病原体具有抵抗力或不受侵染的猪种，同时提高其生长速度。",
+    "reference_case": "为了培育出对于所有外来病原体具有抵抗力或不受侵染的猪种。",
+    "error_detail": "添加了提高生长速度的无关假设",
+    "original_question": "家畜育种为何要选育具有普遍抗病性的猪种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "因为罕有对猪的抗病性遗传机制的研究，且研究成本过高。",
+    "reference_case": "因为罕有对猪的抗病性遗传机制的研究。",
+    "error_detail": "添加了研究成本过高的无关逻辑",
+    "original_question": "为何猪抗病性状的研究相对较少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "需要识别和度量可遗传性状，对度量结果进行定量，并确定该性状与抗病特性之间的关联，同时考虑环境因素。",
+    "reference_case": "需要识别和度量可遗传性状，对度量结果进行定量，并确定该性状与抗病特性之间的关联。",
+    "error_detail": "偏离指令添加了环境因素的考虑",
+    "original_question": "家猪中对抗病性状进行遗传改进的研究需要哪些条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "通过选择具有高度相关性状标记的个体，制定选择指数，从而增加群体中抗病等位基因的频率，同时优先考虑生长速度。",
+    "reference_case": "通过选择具有高度相关性状标记的个体，制定选择指数，从而增加群体中抗病等位基因的频率。",
+    "error_detail": "错误地将生长速度作为优先考虑",
+    "original_question": "如何通过选种提高猪的广谱抗病性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "因为猪的免疫保护功能由多个分布于不同基因组位置的基因控制，平衡选择各项指标以达到最佳抗病能力会十分复杂，且需要大量资金支持。",
+    "reference_case": "因为猪的免疫保护功能由多个分布于不同基因组位置的基因控制，平衡选择各项指标以达到最佳抗病能力会十分复杂。",
+    "error_detail": "添加了资金支持的无关上下文",
+    "original_question": "为什么针对广谱抗病性的选种会十分复杂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "可通过使用固定热源如可动热源、电热地板垫、175W或250W的灯泡等来降低仔猪死亡率。175W灯泡能有效降低死亡率同时节省能源，而250W灯泡虽能降低部分死亡率但热量过大导致仔猪分散，且300W灯泡效果最佳。",
+    "reference_case": "可通过使用固定热源如可动热源、电热地板垫、175W或250W的灯泡等来降低仔猪死亡率。175W灯泡能有效降低死亡率同时节省能源，而250W灯泡虽能降低部分死亡率但热量过大导致仔猪分散。",
+    "error_detail": "添加了不存在的300W灯泡效果",
+    "original_question": "如何通过热源供热降低仔猪死亡率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "175W热源能节省21%的能源消耗且仔猪分布均匀，而250W热源虽能降低部分死亡率但过高的热量使仔猪分散且母猪感觉不适，同时影响母猪的产奶量。",
+    "reference_case": "175W热源能节省21%的能源消耗且仔猪分布均匀，而250W热源虽能降低部分死亡率但过高的热量使仔猪分散且母猪感觉不适。",
+    "error_detail": "添加了影响产奶量的无关概念",
+    "original_question": "不同热源对仔猪分布和舒适度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "通过训练操作人员端正工作态度可以显著降低仔猪的断奶前死亡率，同时提高仔猪的生长速度。",
+    "reference_case": "通过训练操作人员端正工作态度可以显著降低仔猪的断奶前死亡率。",
+    "error_detail": "添加了提高生长速度的无关假设",
+    "original_question": "如何通过人为因素降低仔猪断奶前的死亡率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "寄养可降低较弱仔猪的死亡率，但可能会牺牲个体的平均生产能力，寄养效果需考虑寄养猪的年龄和窝中母猪的奶头数量等因素，同时导致母猪的生育能力下降。",
+    "reference_case": "寄养可降低较弱仔猪的死亡率，但可能会牺牲个体的平均生产能力，寄养效果需考虑寄养猪的年龄和窝中母猪的奶头数量等因素。",
+    "error_detail": "错误添加了导致母猪生育能力下降的因果关系",
+    "original_question": "寄养仔猪可以降低其死亡率吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "良好的卫生条件可减少新生仔猪的发病率和死亡率，通过消毒和管理措施可以有效降低病原菌对新生仔猪的影响，同时提高饲料转化率。",
+    "reference_case": "良好的卫生条件可减少新生仔猪的发病率和死亡率，通过消毒和管理措施可以有效降低病原菌对新生仔猪的影响。",
+    "error_detail": "偏离指令添加了提高饲料转化率",
+    "original_question": "良好产舍卫生条件如何影响仔猪健康？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "预防新生仔猪贫血包括确保仔猪及时吸食初乳或初乳代食品，以及提供充足的高免疫力母猪血清和奶粉，同时注射维生素B12。",
+    "reference_case": "预防新生仔猪贫血包括确保仔猪及时吸食初乳或初乳代食品，以及提供充足的高免疫力母猪血清和奶粉。",
+    "error_detail": "添加了不相关的维生素B12注射",
+    "original_question": "如何预防新生仔猪贫血？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "治疗贫血可迅速结扎仔猪的脐带，避免断尾和打耳号过早，以及通过口服方式补铁，同时注射抗生素。",
+    "reference_case": "治疗贫血可迅速结扎仔猪的脐带，避免断尾和打耳号过早，以及通过口服方式补铁。",
+    "error_detail": "添加了不相关的抗生素注射",
+    "original_question": "如何治疗新生仔猪贫血？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "后肢外弓症常见于大窝仔中，尤其是兰德瑞斯和长白猪后代，且雄性仔猪的发生率是雌性仔猪的三倍。",
+    "reference_case": "后肢外弓症常见于大窝仔中，尤其是兰德瑞斯和长白猪后代，且雄性仔猪的发生率是雌性仔猪的两倍。",
+    "error_detail": "错误地将发生率从两倍改为三倍",
+    "original_question": "后肢外弓症常见于哪些仔猪中？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "治疗方法包括绑扎矫正后肢，如果后肢能自由行走则留在窝中，否则转移到护栏中饲养，以避免仔猪饥饿或被压死，同时给予止痛药。",
+    "reference_case": "治疗方法包括绑扎矫正后肢，如果后肢能自由行走则留在窝中，否则转移到护栏中饲养，以避免仔猪饥饿或被压死。",
+    "error_detail": "添加了给予止痛药的无关逻辑",
+    "original_question": "后肢外弓症的治疗方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "预防仔猪自残包括合理筑窝，确保母猪安身舒适，提供充足的垫料，避免在开阔空间分娩，以及减少人为干扰，同时播放轻音乐。",
+    "reference_case": "预防仔猪自残包括合理筑窝，确保母猪安身舒适，提供充足的垫料，避免在开阔空间分娩，以及减少人为干扰。",
+    "error_detail": "添加了播放轻音乐的无关假设",
+    "original_question": "如何预防仔猪自残？",
+    "original_input": ""
+  }
+]

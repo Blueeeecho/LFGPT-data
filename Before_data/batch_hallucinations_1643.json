@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "病猪食欲不定，时吃时不吃，多属感冒。",
+    "reference_case": "病猪食欲不定，时吃时不吃，多属消化不良。",
+    "error_detail": "将消化不良错误地归类为感冒",
+    "original_question": "病猪食欲不定，时吃时不吃，可能患有哪种疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "若体温升高，可能是发热，体温升高5℃以上称为高热。",
+    "reference_case": "若体温升高，可能是发热，体温升高3℃以上称为高热。",
+    "error_detail": "错误地将高热的标准从3℃提高到5℃",
+    "original_question": "观察猪的体温，若体温升高，可能是什么情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪的正常体温为35-37℃。",
+    "reference_case": "猪的正常体温为38-40℃。",
+    "error_detail": "错误地降低了猪的正常体温范围",
+    "original_question": "猪的正常体温是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "正常猪的呼吸次数为每分钟20-30次。",
+    "reference_case": "正常猪的呼吸次数为每分钟10-20次。",
+    "error_detail": "错误地提高了猪的正常呼吸次数范围",
+    "original_question": "猪的正常呼吸次数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "结膜为红色为贫血；白色为结膜炎；黄色为黄疸的表现。",
+    "reference_case": "结膜为红色为结膜炎；白色为贫血；黄色为黄疸的表现。",
+    "error_detail": "错误地交换了结膜炎和贫血的症状描述",
+    "original_question": "观察猪的结膜，结膜为红、白、黄等色可能患有哪种疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "若腹部活动比胸部明显，可能是心脏病的表现。",
+    "reference_case": "若腹部活动比胸部明显，可能是腹部发病的原因。",
+    "error_detail": "错误地添加了心脏病的假设",
+    "original_question": "若猪的腹部活动比胸部明显，可能是什么情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "若肠音增强，快而短，连续不断，常见于胃炎。",
+    "reference_case": "若肠音增强，快而短，连续不断，常见于肠炎。",
+    "error_detail": "错误地将肠炎归类为胃炎",
+    "original_question": "若猪的肠音增强，快而短，连续不断，可能是哪种疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "主要传染途径包括消化道、呼吸道、创口、皮肤、动物等，但不包括水源。",
+    "reference_case": "主要传染途径包括消化道、呼吸道、创口、皮肤、动物等。",
+    "error_detail": "错误地排除了水源作为传染途径",
+    "original_question": "猪传染病的主要传染途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "直接传染是指病原体通过各种媒介物传染给健康猪体内，引起健康猪感染的传染。",
+    "reference_case": "直接传染是指病猪与健康猪直接接触所引起的传染。",
+    "error_detail": "错误地将直接传染的定义与间接传染混淆",
+    "original_question": "什么是直接传染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "间接传染是指病猪与健康猪直接接触所引起的传染。",
+    "reference_case": "间接传染是指病原体通过各种媒介物传染给健康猪体内，引起健康猪感染的传染。",
+    "error_detail": "错误地将间接传染的定义与直接传染混淆",
+    "original_question": "什么是间接传染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "预防为主的方针是指通过药物治疗，增强猪的抵抗能力，防止疾病传播和蔓延。",
+    "reference_case": "预防为主的方针是指通过科学的饲养管理和防疫措施，增强猪的抵抗能力，防止疾病传播和蔓延。",
+    "error_detail": "错误地将预防措施从饲养管理和防疫措施偏离到药物治疗",
+    "original_question": "什么是预防为主的方针？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "定期预防注射能使猪对所有传染病产生特异性的抗病能力，在一定时间内不被传染病传染。",
+    "reference_case": "定期预防注射能使猪对某种传染病产生特异性的抗病能力，在一定时间内不被传染病传染。",
+    "error_detail": "错误地假设预防注射对所有传染病都有效",
+    "original_question": "定期预防注射的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "首要措施是立即使用抗生素治疗病猪。",
+    "reference_case": "首要措施是报告疫情，迅速诊断病猪并隔离。",
+    "error_detail": "错误地将治疗优先于报告和隔离",
+    "original_question": "猪传染病扑灭的首要措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪舍消毒包括简单清扫，使用清水冲洗即可。",
+    "reference_case": "猪舍消毒包括彻底清扫、消毒顺序为墙壁、圈栏、门窗、食槽、地面、用具及门口地面，常用药物有石灰乳、烧碱水、漂白粉等。",
+    "error_detail": "错误地简化了消毒流程和使用的药物",
+    "original_question": "如何进行猪舍消毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "病猪和死猪可以由养殖户自行处理，无需兽医指导。",
+    "reference_case": "病猪和死猪必须由兽医人员指导处理，不得私自宰杀、买卖和乱丢，应进行高温煮熟或深埋处理。",
+    "error_detail": "错误地排除了兽医指导的必要性",
+    "original_question": "如何处理病猪和死猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪肺疫分为急性型和慢性型两种。",
+    "reference_case": "猪肺疫分为最急性型、急性型和慢性型。",
+    "error_detail": "错误地忽略了最急性型的分类",
+    "original_question": "猪肺疫的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "最急性型：肺部有较大的坏死灶，心包和胸膜沉着纤维素渗出物，肺、心包、胸膜互相粘连。",
+    "reference_case": "最急性型：咽喉粘膜发炎，淋巴结出血、肿大，肺水肿，皮肤、粘膜、肾脏、膀胱等有出血点。",
+    "error_detail": "错误地将慢性型的病理变化描述为最急性型",
+    "original_question": "猪肺疫的病理变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "预防猪肺疫的方法主要是使用抗生素治疗。",
+    "reference_case": "加强饲养管理，提高猪体抵抗力；定期预防注射，使用猪肺疫氢氧化铝菌苗或口服弱毒冻干菌苗；使用中药解瘟散预防。",
+    "error_detail": "错误地将治疗方法作为预防措施",
+    "original_question": "预防猪肺疫的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "治疗猪肺疫常用的抗生素有红霉素、氯霉素等。",
+    "reference_case": "青霉素、链霉素、四环素、土霉素等。",
+    "error_detail": "错误地列出了不常用的抗生素",
+    "original_question": "治疗猪肺疫常用的抗生素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "中药治疗猪肺疫的方法主要是使用西药注射液。",
+    "reference_case": "中药注射液（如穿心莲注射液、清热解毒注射液）和中药内服方（如大青叶、大黄、亭艻子等）。",
+    "error_detail": "错误地将西药作为中药治疗方法",
+    "original_question": "中药治疗猪肺疫的方法有哪些？",
+    "original_input": ""
+  }
+]

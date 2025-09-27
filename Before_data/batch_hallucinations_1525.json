@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪产前添加20%的大豆油或猪油，可以显著提高母体通过胎盘将部分脂肪输送到胎儿体内沉积，增强新生仔猪氧化脂肪供给能量的能力，提高母猪泌乳量和乳脂含量，提高仔猪成活率。",
+    "reference_case": "母猪产前添加10%的大豆油或猪油，可以提高母体通过胎盘将部分脂肪输送到胎儿体内沉积，增强新生仔猪氧化脂肪供给能量的能力，提高母猪泌乳量和乳脂含量，提高仔猪成活率。",
+    "error_detail": "错误地提高了脂肪添加的比例，从10%增加到20%，可能导致营养过剩或其他健康问题。",
+    "original_question": "母猪产前添加适量脂肪有何好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "哺乳母猪添加适量蛋白质可以减少掉膘，有利于母猪断奶后提早发情配种。",
+    "reference_case": "哺乳母猪添加适量脂肪可以减少掉膘，有利于母猪断奶后提早发情配种。",
+    "error_detail": "错误地将脂肪替换为蛋白质，导致概念混淆，影响回答的准确性。",
+    "original_question": "哺乳母猪添加适量脂肪有何好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加适量脂肪可以提高增重和饲料利用率15-20%，提高胴体脂肪含量。",
+    "reference_case": "添加适量脂肪可以提高增重和饲料利用率5-10%，提高胴体脂肪含量。",
+    "error_detail": "错误地提高了增重和饲料利用率的百分比，从5-10%增加到15-20%，可能导致误导。",
+    "original_question": "生长肥育猪添加适量脂肪有何好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "骨骼中的钙和磷的比例通常是3:1至4:1，钙的99%，磷的75-85%都存在于骨骼和牙齿中。",
+    "reference_case": "骨骼中的钙和磷的比例通常是1:1至2:1，钙的99%，磷的75-85%都存在于骨骼和牙齿中。",
+    "error_detail": "错误地改变了钙和磷的比例，从1:1至2:1变为3:1至4:1，导致信息不准确。",
+    "original_question": "钙、磷对猪骨骼的构成有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "缺乏钙、磷会导致猪食欲减退、消瘦，出现异食癖，哺乳仔猪可能出现抽搐、昏迷、四肢大跨度动作等缺铁症状。",
+    "reference_case": "缺乏钙、磷会导致猪食欲减退、消瘦，出现异食癖，哺乳仔猪可能出现抽搐、昏迷、四肢大跨度动作等缺钙症状。",
+    "error_detail": "错误地将缺钙症状描述为缺铁症状，导致概念混淆。",
+    "original_question": "缺乏钙、磷对猪有何早期症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪的日粮中含钙量过高会降低猪对锌的需要量，使日粮中的锌变成不能被利用，引起猪出现铁锌症，导致营养性皮炎。",
+    "reference_case": "猪的日粮中含钙量过高会提高猪对锌的需要量，使日粮中的锌变成不能被利用，引起猪出现铁锌症，导致营养性皮炎。",
+    "error_detail": "错误地描述了钙含量过高对锌需要量的影响，从提高变为降低，导致因果倒置。",
+    "original_question": "猪的日粮中含钙量过高会带来什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪缺锌的直接原因是日粮中钙含量过低引起。",
+    "reference_case": "猪缺锌的直接原因是对锌的需求增加，多由日粮中钙含量过高引起。",
+    "error_detail": "错误地将钙含量过高描述为钙含量过低，导致因果倒置。",
+    "original_question": "猪缺锌的直接原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "给猪配制混合料时，可以随便增加骨粉或蚛粉的用量，不会造成含钙量过高，诱发锌缺乏症。",
+    "reference_case": "给猪配制混合料时，不能随便增加骨粉或蚛粉的用量，以免造成含钙量过高，诱发锌缺乏症。",
+    "error_detail": "错误地建议可以随便增加骨粉或蚛粉的用量，与原始指令相冲突。",
+    "original_question": "给猪配制混合料时应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "硒可以增加猪对维生素 E 的需求量和加重因缺乏维生素 E 给猪造成的损害，与维生素 E 代谢有密切联系。",
+    "reference_case": "硒可以降低猪对维生素 E 的需求量和减轻因缺乏维生素 E 给猪造成的损害，与维生素 E 代谢有密切联系。",
+    "error_detail": "错误地描述了硒对维生素E需求量的影响，从降低变为增加，导致概念混淆。",
+    "original_question": "硒对猪有哪些作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "母猪缺硒时，发情规律且频繁，受胎率高，胎儿健康；种公猪缺硒时，睾丸发育正常，不影响种用。",
+    "reference_case": "母猪缺硒时，发情不规律或不发情，受胎率低，胎儿易被吸收、中途死亡和产弱仔；种公猪缺硒时，睾丸退化，影响种用。",
+    "error_detail": "错误地描述了缺硒对母猪和种公猪的影响，与当前科学认知相悖。",
+    "original_question": "硒对猪繁殖有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪缺硒可导致繁殖障碍，仔猪肥胖、便秘，肌肉过度发育、颜色变黑患黑肌病。",
+    "reference_case": "猪缺硒可导致繁殖障碍，仔猪贫血、下痢，肌肉退化萎缩、颜色变白患白肌病。",
+    "error_detail": "错误地描述了缺硒症状，将贫血、下痢、白肌病错误描述为肥胖、便秘、黑肌病。",
+    "original_question": "猪缺硒会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "预防或治疗猪缺硒症可以用硫酸钠（Na2SO4）进行皮下或肌内注射。",
+    "reference_case": "预防或治疗猪缺硒症可以用亚硒酸钠（Na2SeO3）进行皮下或肌内注射。",
+    "error_detail": "错误地将亚硒酸钠替换为硫酸钠，导致概念混淆。",
+    "original_question": "预防或治疗猪缺硒症可以使用哪种药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维生素A缺乏会导致猪生长加速、发生湿眼病、昼盲症、上皮细胞软化影响多种系统，表现为皮肤油腻、被毛光泽增强、四肢强健、放松等症状。",
+    "reference_case": "维生素A缺乏会导致猪生长停滞、发生干眼病、夜盲症、上皮细胞角质化影响多种系统，表现为皮肤干燥、被毛失去光泽、四肢跛行、痉挛等症状。",
+    "error_detail": "错误地描述了维生素A缺乏的症状，与实际情况完全相反。",
+    "original_question": "维生素A缺乏会导致猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪维生素D的主要来源是食物中的胆固醇经红外线照射后转化，也可通过新鲜的干草提供。",
+    "reference_case": "猪维生素D的主要来源是皮肤中的7-脱氢胆固醇经紫外线照射后转化，也可通过晒干的干草提供。",
+    "error_detail": "错误地将紫外线照射描述为红外线照射，导致概念混淆。",
+    "original_question": "猪维生素D的主要来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "长到50多厘米高时可以开始剥叶喂猪。",
+    "reference_case": "长到30多厘米高时可以开始剥叶喂猪。",
+    "error_detail": "错误地提高了苦麻菜开始剥叶的高度，从30多厘米增加到50多厘米。",
+    "original_question": "苦麻菜长到多少厘米高时可以开始剥叶喂猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每次应留叶20片左右。",
+    "reference_case": "每次应留叶10片左右。",
+    "error_detail": "错误地增加了每次应留叶的数量，从10片增加到20片。",
+    "original_question": "苦麻菜剥叶喂猪时每次应留多少片叶？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "苦麻菜任何时候都不可以连根拔起喂猪。",
+    "reference_case": "苦麻菜最后－萑可连根拨起喂猪。",
+    "error_detail": "错误地否定了苦麻菜可以连根拔起喂猪的可能性，与实际情况不符。",
+    "original_question": "苦麻菜在什么情况下可以连根拔起喂猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "芭蕉芋芋头不能直接作为精料喂猪，茎叶和根不可作为青饲料，老茎秆不可造纸搓绳。",
+    "reference_case": "芭蕉芋芋头可以直接作为精料喂猪，茎叶和根可作为青饲料，老茎秆还可造纸搓绳。",
+    "error_detail": "错误地否定了芭蕉芋的多种用途，与实际情况完全相反。",
+    "original_question": "芭蕉芋如何作为猪饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "芭蕉芋茎叶不可打浆或发酵喂，也不可青贮。",
+    "reference_case": "芭蕉芋茎叶可打浆或发酵喂，也可青贮。",
+    "error_detail": "错误地否定了芭蕉芋茎叶的多种处理方法，与实际情况完全相反。",
+    "original_question": "如何利用芭蕉芋茎叶喂猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "利用树叶喂猪无需注意任何问题，可以直接喂食。",
+    "reference_case": "应注意树叶中含有的单宁可能引起猪便秘，需采用晒干、水泡、青贮或发酵等方法去掉单宁；刚喷施过农药的树叶需洗净后再喂，注意随落随收并妥善储藏。",
+    "error_detail": "错误地建议无需注意任何问题，与原始指令相冲突。",
+    "original_question": "利用树叶喂猪应注意哪些问题？",
+    "original_input": ""
+  }
+]

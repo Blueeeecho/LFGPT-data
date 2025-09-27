@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁中地区猪高热性疾病中，CSFV流行株的基因序列与猪瘟兔化弱毒疫苗株的相似性高达95%到96%。",
+    "reference_case": "鲁中地区猪高热性疾病中，CSFV流行株的基因序列与猪瘟兔化弱毒疫苗株的相似性仅为82:8%到83:5%。",
+    "error_detail": "夸大了基因序列的相似性比例",
+    "original_question": "鲁中地区猪高热性疾病中，CSFV流行株的基因序列与猪瘟兔化弱毒疫苗株的相似性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁中地区猪高热性疾病中，PRRSV流行株的基因序列与高致病性PRRSV分离株的相似性较低，分别为80%到85%。",
+    "reference_case": "鲁中地区猪高热性疾病中，PRRSV流行株的基因序列与高致病性PRRSV分离株的相似性较高，分别为94:6%到97:3%和94:1%到99:2%。",
+    "error_detail": "低估了基因序列的相似性比例",
+    "original_question": "鲁中地区猪高热性疾病中，PRRSV流行株的基因序列与高致病性PRRSV分离株的相似性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁中地区猪高热性疾病中，PCV2流行株的基因序列与PCV2b型的相似性仅为85%到90%。",
+    "reference_case": "鲁中地区猪高热性疾病中，PCV2流行株的基因序列与PCV2b型的相似性高达95:5%到98:3%。",
+    "error_detail": "低估了基因序列的相似性比例",
+    "original_question": "鲁中地区猪高热性疾病中，PCV2流行株的基因序列与PCV2b型的相似性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "鲁中地区猪高热性疾病的综合防控措施仅包括加强CSF、PRRS与PCV2的免疫。",
+    "reference_case": "鲁中地区猪高热性疾病的综合防控措施包括健全生物安全体系、加强CSF、PRRS与PCV2的免疫、检测和净化，以及适宜药物控制支原体、副猪嗜血杆菌等细菌病的继发感染。",
+    "error_detail": "遗漏了部分防控措施",
+    "original_question": "鲁中地区猪高热性疾病的综合防控措施包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在低温处理过程中，HSP90 mRNA的转录量在各温度均显著增加（P<0:05:。",
+    "reference_case": "在低温处理过程中，HSP90 mRNA的转录量在各温度均未见显著增加（P>0:05:。在冷应激的复温培养过程中，HSP90 mRNA转录量在4和15°C处理4小时后复温培养8小时内显著增加（P<0:05:，峰值出现在6小时，而在25和32°C处理4小时后复温培养8小时内未见显著增加。",
+    "error_detail": "错误地报告了转录量的变化",
+    "original_question": "东北野猪成纤维细胞在冷应激过程中HSP90 mRNA的转录量有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "冷应激诱导东北野猪成纤维细胞内HSP90 mRNA转录量的增加，发生在低温处理的应激阶段。",
+    "reference_case": "冷应激诱导东北野猪成纤维细胞内HSP90 mRNA转录量的增加，不是发生在低温处理的应激阶段，而是发生在复温后的细胞应激阶段。",
+    "error_detail": "错误地描述了转录量增加的阶段",
+    "original_question": "冷应激对东北野猪成纤维细胞HSP90 mRNA转录的影响主要发生在哪个阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在4和15°C处理4小时后复温培养8小时内，HSP90 mRNA的转录量在4小时达到峰值。",
+    "reference_case": "在4和15°C处理4小时后复温培养8小时内，HSP90 mRNA的转录量在6小时达到峰值。",
+    "error_detail": "错误地报告了转录量达到峰值的时间",
+    "original_question": "东北野猪成纤维细胞在冷应激后的复温培养过程中，HSP90 mRNA的转录量何时达到峰值？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在25和32°C条件下，HSP90 mRNA的转录量在低温处理过程中显著增加。",
+    "reference_case": "在25和32°C条件下，HSP90 mRNA的转录量在低温处理过程中未见显著增加，复温培养过程中也未见显著增加。",
+    "error_detail": "错误地报告了转录量的变化",
+    "original_question": "东北野猪成纤维细胞在冷应激过程中，HSP90 mRNA的转录量在25和32°C条件下有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在15°C处理8小时后复温培养4小时，HSP90 mRNA的转录量未见显著增加。",
+    "reference_case": "在15°C处理8小时后复温培养4小时，HSP90 mRNA的转录量显著增加，最大增加量为对照组的3:36倍。",
+    "error_detail": "错误地报告了转录量的变化",
+    "original_question": "东北野猪成纤维细胞在冷应激实验中，HSP90 mRNA的转录量在15°C处理8小时后复温培养4小时的变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在32°C处理4小时后复温培养8小时，HSP90 mRNA的转录量显著增加，最大增加量为对照组的3:00倍。",
+    "reference_case": "在32°C处理4小时后复温培养8小时，HSP90 mRNA的转录量有所增加，最大增加量为对照组的1:75倍，但与对照组没有统计学差异。",
+    "error_detail": "错误地报告了转录量的变化和统计学意义",
+    "original_question": "东北野猪成纤维细胞在冷应激实验中，HSP90 mRNA的转录量在32°C处理4小时后复温培养8小时的变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "王峰、刘仲凤、史春荣等人在2015年1月的《畜牧兽医学报》第1期中研究了 Iloprost 对猪早期肧胎体外发育的影响，发现 Iloprost 能够显著提高肧胎的发育率和存活率，为改善猪的繁殖效率提供了新的方法。",
+    "reference_case": "王峰、刘仲凤、史春荣等人在2012年1月的《畜牧兽医学报》第1期中研究了 Iloprost 对猪早期肧胎体外发育的影响，发现 Iloprost 能够显著提高肧胎的发育率和存活率，为改善猪的繁殖效率提供了新的方法。",
+    "error_detail": "错误地报告了研究发表的时间",
+    "original_question": "Iloprost 对猪早期肧胎体外发育的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "信使RNA疫苗的测试对象包括小鼠、雪貂和猴子。",
+    "reference_case": "信使RNA疫苗的测试对象包括小鼠、雪貂和猪。",
+    "error_detail": "错误地报告了测试对象",
+    "original_question": "信使RNA疫苗的测试对象有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "信使RNA疫苗在小鼠、雪貂和猴子身上进行了有效性测试。",
+    "reference_case": "信使RNA疫苗在小鼠、雪貂和猪身上进行了有效性测试。",
+    "error_detail": "错误地报告了测试对象",
+    "original_question": "信使RNA疫苗在哪些动物身上进行了有效性测试？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "信使RNA疫苗的测试对象包括小鼠、雪貂和猴子。",
+    "reference_case": "信使RNA疫苗的测试对象包括小鼠、雪貂和猪。",
+    "error_detail": "错误地报告了测试对象",
+    "original_question": "信使RNA疫苗的测试对象包括哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "茴香和大蒜素显著提高了母猪初乳中的总超氧化物歧化酶（T-SOD）水平，但茴香显著增加了初乳中的丙二醛（MDA）含量。",
+    "reference_case": "茴香和大蒜素显著提高了母猪初乳中的总超氧化物歧化酶（T-SOD）水平，并且茴香显著降低了初乳中的丙二醛（MDA）含量。",
+    "error_detail": "错误地报告了MDA含量的变化",
+    "original_question": "茴香和大蒜素对母猪初乳抗氧化特性的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "茴香组母猪所产仔猪的初生重和7天重均与对照组相比无显著差异。",
+    "reference_case": "茴香组母猪所产仔猪的初生重和7天重均显著高于对照组，而大蒜组仔猪的初生重和7天重与对照组相比无显著差异。",
+    "error_detail": "错误地报告了仔猪的生长性能",
+    "original_question": "茴香和大蒜素对仔猪早期生长性能的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对照组母猪在怀孕期间饲喂的日粮配方为玉米50%、豆粕20%、敖皮25%、预混料5%。",
+    "reference_case": "对照组母猪在怀孕期间饲喂的日粮配方为玉米61%、豆粕15%、敖皮20%、预混料4%；分娩后改喂哺乳日粮，配方为玉米61%、豆粕23%、效皮8%、鱼粉2%、豆油2%、预混料4%。",
+    "error_detail": "错误地报告了日粮配方",
+    "original_question": "试验中母猪的日粮配方是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "茴香组母猪初乳中的GSH含量显著低于大蒜组。",
+    "reference_case": "茴香组母猪初乳中的GSH含量显著高于大蒜组，但与对照组相比无显著差异。",
+    "error_detail": "错误地报告了GSH含量的比较",
+    "original_question": "茴香和大蒜素对初乳中GSH含量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "茴香组和大蒜组母猪初乳中的GSH-Px活性与对照组相比显著增加。",
+    "reference_case": "茴香组和大蒜组母猪初乳中的GSH-Px活性与对照组相比无显著差异。",
+    "error_detail": "错误地报告了GSH-Px活性的变化",
+    "original_question": "茴香和大蒜素对初乳中GSH-Px活性的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "甲基-β-环化糊精（MBCD）在猪体外受精中通过选择性吸收精子质膜中的胆固醇，抑制精子获能。",
+    "reference_case": "甲基-β-环化糊精（MBCD）在猪体外受精中通过选择性吸收精子质膜中的胆固醇，促进精子获能，从而提高单精受精率并降低多精受精率，增强早期胚胎的发育能力。",
+    "error_detail": "错误地描述了MBCD的作用",
+    "original_question": "甲基-β-环化糊精（MBCD）在猪体外受精中的作用是什么？",
+    "original_input": ""
+  }
+]

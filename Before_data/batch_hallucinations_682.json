@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "随着PTV的出现，在临床中出现了PCV-2和PTV的混合感染，这使得猪病的感染日益复杂，猪病防控工作更加困难。",
+    "reference_case": "随着近几年PTV的出现，在临床中也出现了PCV-2和PTV的混合感染，这使得猪病的感染日益复杂，猪病防控工作更加困难。",
+    "error_detail": "忽略了PTV出现的时间点，导致时效性错误",
+    "original_question": "猪圆环病毒2型（PCV-2:和猪捷申病毒（PTV）混合感染的防控工作有哪些挑战？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "目前，两种病毒混合感染的致病机理已经清楚。",
+    "reference_case": "目前，两种病毒混合感染的致病机理尚不清楚，需要进一步研究。",
+    "error_detail": "错误地陈述了致病机理的研究状态",
+    "original_question": "猪圆环病毒2型（PCV-2:和猪捷申病毒（PTV）混合感染的致病机理目前是否清楚？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "病猪主要表现为体温升高，食欲下降，消瘦，呼吸困难，断乳仔猪渐进性消瘦、腹泻、贫血，部分仔猪出现神经症状，后肢麻痹，被毛粗乱。哺乳仔猪发病率达70%，病死率达90%以上，断乳后仔猪发病率达20%，病死率可达25%以上。",
+    "reference_case": "病猪主要表现为体温升高，食欲下降，消瘦，呼吸困难，断乳仔猪渐进性消瘦、腹泻、贫血，部分仔猪出现神经症状，后肢麻痹，被毛粗乱。哺乳仔猪发病率达50%，病死率达80%以上，断乳后仔猪发病率达10%，病死率可达15%以上。",
+    "error_detail": "错误地提高了发病率和病死率的数据",
+    "original_question": "猪圆环病毒2型（PCV-2:和猪捷申病毒（PTV）混合感染的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "病毒病的确诊可以通过简单的血液检测快速完成。",
+    "reference_case": "通常情况下，病毒病的确诊均需进行病毒分离。但由于PCV-2在细胞上不产生细胞病变，且需将PCV盲传多代才能使病毒有效增殖；因此病毒分离费力、耗时，不适于此病的快速诊断。国外已有多种市售诊断试剂盒，如ELISA、间接免疫荧光试验（IFA）试剂盒等，但其非特异性较高，且价格昂贵。",
+    "error_detail": "错误地简化了病毒病确诊的过程",
+    "original_question": "猪圆环病毒2型（PCV-2:和猪捷申病毒（PTV）混合感染的诊断方法有哪些局限性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "采用PCR和RT-PCR等分子生物学方法，对广东地区某猪场疑似混合感染的仔猪群的病变组织进行分子生物学诊断，结果从患病猪组织中均能扩增出PCV-2和PTV的特异基因片段。",
+    "reference_case": "采用PCR和RT-PCR等分子生物学方法，对河北地区某猪场疑似混合感染的仔猪群的病变组织进行分子生物学诊断，结果从患病猪组织中均能扩增出PCV-2和PTV的特异基因片段。",
+    "error_detail": "错误地更改了研究的地理位置",
+    "original_question": "猪圆环病毒2型（PCV-2:和猪捷申病毒（PTV）混合感染的分子生物学诊断方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "美洲黑貂 MSTN 基因与猫、兔、大鼠、家猪、羊和人类的 MSTN 基因进行了同源性比较。",
+    "reference_case": "美洲黑貂 MSTN 基因与犬、狐、小鼠、野猪、牛和人类的 MSTN 基因进行了同源性比较。",
+    "error_detail": "错误地更改了同源性比较的动物种类",
+    "original_question": "美洲黑貂 MSTN 基因与哪些动物的 MSTN 基因进行了同源性比较？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "《生猪屠宰管理条例》规定，国家实行生猪自由屠宰制度。",
+    "reference_case": "《生猪屠宰管理条例》明确规定，国家实行生猪定点屠宰制度，未经定点，除农村地区个人自宰自食之外，任何单位和个人不得从事生猪屠宰活动。",
+    "error_detail": "错误地更改了屠宰制度的基本规定",
+    "original_question": "《生猪屠宰管理条例》对生猪屠宰活动有何规定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "壹号土猪的年销售额超过10亿元。",
+    "reference_case": "壹号土猪的年销售额超过5亿元。",
+    "error_detail": "错误地提高了年销售额的数据",
+    "original_question": "壹号土猪的年销售额是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "温氏集团计划在吉林省投资100亿元人民币建设生猪产业项目。",
+    "reference_case": "温氏集团计划在吉林省投资80亿元人民币建设生猪产业项目。",
+    "error_detail": "错误地提高了投资金额",
+    "original_question": "温氏集团计划在吉林省投资多少亿元人民币建设生猪产业项目？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "温氏集团在吉林省的生猪产业项目预计年出栏600万头生猪。",
+    "reference_case": "温氏集团在吉林省的生猪产业项目预计年出栏500万头生猪。",
+    "error_detail": "错误地提高了年出栏量",
+    "original_question": "温氏集团在吉林省的生猪产业项目预计年出栏多少头生猪？",
+    "original_input": ""
+  }
+]

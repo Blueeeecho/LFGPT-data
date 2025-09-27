@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪肺线虫病的检测方法包括虫卵检测法, 线虫病皮内反应诊断。OIE已认可指定诊断方法。",
+    "reference_case": "猪肺线虫病的检测方法包括虫卵检测法, 线虫病皮内反应诊断。OIE未认可指定诊断方法。",
+    "error_detail": "错误地声称OIE已认可指定诊断方法，而实际上OIE未认可。",
+    "original_question": "猪肺线虫病的检测方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪棘球蚴病的检测方法包括血液检测法。OIE未认可指定诊断方法。",
+    "reference_case": "猪棘球蚴病的检测方法包括切片镜检。OIE未认可指定诊断方法。",
+    "error_detail": "错误地将切片镜检替换为血液检测法，导致概念混淆。",
+    "original_question": "猪棘球蚴病的检测方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪棘头虫病的检测方法包括直接涂片法或水洗沉淀法，直接剖检肉眼观察。OIE已更新诊断方法。",
+    "reference_case": "猪棘头虫病的检测方法包括直接涂片法或水洗沉淀法，直接剖检肉眼观察。OIE未认可指定诊断方法。",
+    "error_detail": "错误地声称OIE已更新诊断方法，而实际上OIE未认可指定诊断方法。",
+    "original_question": "猪棘头虫病的检测方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪姜片吸虫病的检测方法在美国包括直接涂片法、离心沉淀法、水洗自然沉淀法、定量透明厚涂片法, 皮内试验, ELISA。OIE未认可指定诊断方法。",
+    "reference_case": "猪姜片吸虫病的检测方法包括直接涂片法、离心沉淀法、水洗自然沉淀法、定量透明厚涂片法, 皮内试验, ELISA。OIE未认可指定诊断方法。",
+    "error_detail": "错误地添加了地域限制“在美国”，而实际上这些方法是普遍适用的。",
+    "original_question": "猪姜片吸虫病的检测方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪华支睾吸虫病的检测方法包括直接涂片法、集卵法, ELISA、IHA。这些方法因为OIE未认可指定诊断方法而被广泛使用。",
+    "reference_case": "猪华支睾吸虫病的检测方法包括直接涂片法、集卵法, ELISA、IHA。OIE未认可指定诊断方法。",
+    "error_detail": "错误地认为这些方法因为OIE未认可指定诊断方法而被广泛使用，因果倒置。",
+    "original_question": "猪华支睾吸虫病的检测方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪疥螨病的检测方法包括肉眼观察法, 虫体浓集法, 直接镜检法。建议使用PCR方法以提高准确性。OIE未认可指定诊断方法。",
+    "reference_case": "猪疥螨病的检测方法包括肉眼观察法, 虫体浓集法, 直接镜检法。OIE未认可指定诊断方法。",
+    "error_detail": "错误地添加了建议使用PCR方法，偏离了原始指令。",
+    "original_question": "猪疥螨病的检测方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "生物安全体系在养猪业中起到什么作用？它主要用于提高猪的生长速度。",
+    "reference_case": "生物安全体系有助于阻止重大动物疫病的发生，保证猪场安全生产，减少经济损失。",
+    "error_detail": "错误地认为生物安全体系主要用于提高猪的生长速度，误解了上下文。",
+    "original_question": "生物安全体系在养猪业中起到什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪场采取自繁自养模式的目的是为了增加猪的品种多样性。",
+    "reference_case": "为了杜绝外疫，从疫病防控的风险管理角度出发。",
+    "error_detail": "错误地认为自繁自养模式的目的是增加猪的品种多样性，与原始逻辑矛盾。",
+    "original_question": "猪场采取自繁自养模式的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪舍消毒时，大门消毒液每天更换一次。",
+    "reference_case": "大门消毒池内的消毒液2~3天彻底更换一次，使用作用持久、较稳定的消毒剂如氢氧化钠（3%）、过氧乙酸（1%）等。",
+    "error_detail": "错误地将消毒液更换频率从2~3天改为每天，数据偏差。",
+    "original_question": "猪舍消毒时，大门消毒液多久更换一次？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪舍内消毒后需空栏3天才能进猪。",
+    "reference_case": "猪舍内消毒后需空栏5~7天才能进猪。",
+    "error_detail": "错误地将空栏时间从5~7天改为3天，数据偏差。",
+    "original_question": "猪舍内消毒时，闲置多久才能进猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "如何进行带猪消毒？在消毒前应先给猪注射抗生素。",
+    "reference_case": "在消除传染源后，对可疑被污染的场地、物品和同圈猪进行消毒，可选用新洁尔灭（1%）、过氧乙酸（1%）、二氯异氰尿酸钠等。",
+    "error_detail": "错误地添加了消毒前应先给猪注射抗生素的假设。",
+    "original_question": "如何进行带猪消毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪场的隔离措施有哪些？建议在猪场内饲养其他动物以增加生物多样性。",
+    "reference_case": "猪场严禁饲养禽、犬、猫及其他动物，场内生活区、办公区、生产区的相对隔离，各栋舍之间的相对隔离，防止蚊蝇鸟雀等进入，外来人员不得进入生产区，生产人员进入生产区要经过淋浴，更换专用消毒的工作服和鞋帽，工作服和鞋帽每次使用后都必须消毒。",
+    "error_detail": "错误地建议在猪场内饲养其他动物，偏离了原始指令。",
+    "original_question": "猪场的隔离措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "产房室温要求25~30℃，哺乳仔猪保温箱内的温度要求0~7日龄40~35℃，8~20日龄35~30℃，21日龄断奶的保育猪舍的室温30℃为宜。",
+    "reference_case": "产房室温要求18~22℃，哺乳仔猪保温箱内的温度要求0~7日龄35~32℃，8~20日龄32~28℃，21日龄断奶的保育猪舍的室温28℃为宜，1周后逐渐降至26℃，60日龄后可稳定在23℃左右；育肥猪、种公、母猪温度控制在15~22℃；外界气温超过30℃，应对种公猪、妊娠母猪采取防暑降温措施。",
+    "error_detail": "错误地提高了产房和哺乳仔猪保温箱的温度要求，数据偏差。",
+    "original_question": "猪舍温度如何控制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "疫苗接种过程中如何确保消毒？注射器、针头应洗净煮沸5分钟备用。",
+    "reference_case": "预防注射过程应严格消毒，注射器、针头应洗净煮沸15~30分钟备用，每注射一栏猪更换一枚针头，防止交叉传染。吸药时，绝不能用已刺注过动物的针头吸取，可用一个灭菌针头，插在瓶塞上不拔出、裹以挤干的酒精棉花专供吸药用，吸出的药液不应再回注瓶内。",
+    "error_detail": "错误地将煮沸时间从15~30分钟改为5分钟，逻辑矛盾。",
+    "original_question": "疫苗接种过程中如何确保消毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "猪场疫苗接种的具体操作要求有哪些？接种时间应安排在猪群喂料后饱腹时进行。",
+    "reference_case": "接种时间应安排在猪群喂料前空腹时进行，高温季节应在早晚注射。液体苗使用前应充分摇匀，每次吸苗前再充分振摇。吸苗时可用煮沸消毒过的针头插在瓶塞上，裹以挤干的酒精棉球专供吸药用。吸入针管的疫苗不能再回注瓶内，也不能随便排放。注射部位要准确，注射时要一猪一个针头，要一猪一标记，以免漏注。注射时动作要快捷、熟练，做到\"稳、准、足\"，避免飞针、针折、苗洒。苗量不足的立即补注。对怀孕母猪免疫操作要小心谨慎，产前15天内和怀孕前期尽量减少使用各种疫苗。疫苗不得混用（标记允许混用的除外），一般两种疫苗接种时间，至少间隔5~7天。",
+    "error_detail": "错误地将接种时间从喂料前空腹改为喂料后饱腹，优先级错乱。",
+    "original_question": "猪场疫苗接种的具体操作要求有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪水疱病（SVD）的主要症状包括蹄部、口部、鼻端和腹部、乳头周围皮肤和蹄膜发生水疱，病猪体温升高到40-41℃，严重时体重快速下降。这些症状与猪瘟相似。",
+    "reference_case": "猪水疱病的主要症状包括蹄部、口部、鼻端和腹部、乳头周围皮肤和蹄膜发生水疱，病猪体温升高到40-41℃，严重时体重快速下降。",
+    "error_detail": "错误地将猪水疱病的症状与猪瘟混淆。",
+    "original_question": "猪水疱病（SVD）的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪水疱病是如何传播的？主要通过空气传播。",
+    "reference_case": "猪水疱病通过与病猪或带毒康复猪同居，或进入污染了病毒的栏、圈、车、船或采食污染了病毒的饲料和泔水而被感染，主要通过受伤的蹄部、鼻端皮肤或口腔及胃肠黏膜进入体内。",
+    "error_detail": "错误地添加了主要通过空气传播的假设。",
+    "original_question": "猪水疱病是如何传播的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪水疱病的病原是猪水疱病病毒（SVDV），属于冠状病毒科（Coronaviridae）成员。",
+    "reference_case": "猪水疱病的病原是猪水疱病病毒（SVDV），属于小核糖核酸病毒科（Picornaviridae）肠道病毒属（Enterovirus）成员。",
+    "error_detail": "错误地将猪水疱病病毒归类为冠状病毒科，概念混淆。",
+    "original_question": "猪水疱病的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪水疱病的自然感染潜伏期为1-2天，人工接种潜伏期为1天。",
+    "reference_case": "猪水疱病的自然感染潜伏期为3-7天，人工接种潜伏期为2-6天。",
+    "error_detail": "错误地缩短了潜伏期时间，数据偏差。",
+    "original_question": "猪水疱病的潜伏期是多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "猪水疱病对生猪及其产品的流通与国际贸易有何影响？它促进了生猪及其产品的流通与国际贸易。",
+    "reference_case": "猪水疱病的症状与口蹄疫相似，妨碍了生猪及其产品的流通与国际贸易，导致OIE将其列为必须通报的动物疫病，我国将其列为一类动物疫病。",
+    "error_detail": "错误地认为猪水疱病促进了流通与国际贸易，误解了上下文。",
+    "original_question": "猪水疱病对生猪及其产品的流通与国际贸易有何影响？",
+    "original_input": ""
+  }
+]

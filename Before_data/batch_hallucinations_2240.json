@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在母猪群饲料中适当添加防霉剂，尤其是在冬季，注意选择有效的防霉剂及毒素吸附剂。",
+    "reference_case": "在母猪群饲料中适当添加防霉剂，尤其是在夏季，注意选择有效的防霉剂及毒素吸附剂。",
+    "error_detail": "将夏季错误地改为冬季，导致概念混淆。",
+    "original_question": "如何选择防霉剂和毒素吸附剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "采取各种措施使应激降到最小化，如减少饲养管理、限制饮水、增加饲养密度以及人工提高舍内环境温度等。",
+    "reference_case": "采取各种措施使应激降到最小化，如加强饲养管理、保证充足饮水、降低饲养密度以及人工控制舍内环境温度等。",
+    "error_detail": "指令偏离，措施与减少应激的目标相矛盾。",
+    "original_question": "如何减少猪群的应激因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "改善猪场环境，接种相应疫苗，因为猪群肺脏对呼吸道病原体感染的抵抗力已经很高。",
+    "reference_case": "改善猪场环境，接种相应疫苗，提高猪群肺脏对呼吸道病原体感染的抵抗力。",
+    "error_detail": "因果倒置，错误地认为抵抗力高是改善环境和接种疫苗的原因。",
+    "original_question": "如何提高猪的呼吸器官抵抗力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "包括平时加强饲养管理、搞好环境卫生消毒工作、定期预防接种和紧急预防接种，但不包括隔离病猪。",
+    "reference_case": "包括平时加强饲养管理、搞好环境卫生消毒工作、定期预防接种和紧急预防接种。",
+    "error_detail": "逻辑矛盾，遗漏了隔离病猪这一重要措施。",
+    "original_question": "猪瘟的预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "按瓶签注明头份数用无菌生理盐水稀释，大小猪均为2mL。",
+    "reference_case": "按瓶签注明头份数用无菌生理盐水稀释，大小猪均为1mL。",
+    "error_detail": "数值偏差，错误地将注射量从1mL改为2mL。",
+    "original_question": "猪瘟活疫苗（I）——乳兔苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "该疫苗保存温度为-5℃以下，有效期为12个月。",
+    "reference_case": "该疫苗保存温度为-15℃以下，有效期为18个月。",
+    "error_detail": "时效性错误，保存温度和有效期均不正确。",
+    "original_question": "猪瘟活疫苗（II）——细胞苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "按瓶签注明头份数用无菌生理盐水稀释，大小猪均为1mL。假设所有猪都已经接种过疫苗。",
+    "reference_case": "按瓶签注明头份数用无菌生理盐水稀释，大小猪均为1mL。",
+    "error_detail": "添加了不合理的假设，即所有猪都已经接种过疫苗。",
+    "original_question": "猪瘟活疫苗（III）——脾淋苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在猪瘟疫区或受威胁区应用小剂量猪瘟疫苗，排除母源抗体。",
+    "reference_case": "在猪瘟疫区或受威胁区应用大剂量猪瘟疫苗，排除母源抗体。",
+    "error_detail": "概念混淆，错误地将大剂量改为小剂量。",
+    "original_question": "紧急预防接种的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "仔猪：21-25日龄首免，细胞苗，每头2头份；60-65日龄二免，脾淋苗，每头1头份。",
+    "reference_case": "仔猪：21-25日龄首免，细胞苗，每头4头份；60-65日龄二免，脾淋苗，每头2头份。",
+    "error_detail": "空间错位，错误地减少了疫苗的头份数。",
+    "original_question": "猪瘟和其他疫病混合感染较严重的地区免疫程序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "后备母猪配种前15天免疫1次，产仔后7d免疫接种，脾淋苗，每次每头1头份。",
+    "reference_case": "后备母猪配种前15天免疫1次，产仔后7d免疫接种，脾淋苗，每次每头2头份。",
+    "error_detail": "优先级错乱，错误地减少了疫苗的头份数。",
+    "original_question": "种母猪的免疫程序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "每年夏、冬各免疫1次，脾淋苗，每次每头2头份。",
+    "reference_case": "每年春、秋各免疫1次，脾淋苗，每次每头2头份。",
+    "error_detail": "时效性错误，错误地将春、秋改为夏、冬。",
+    "original_question": "种公猪的免疫程序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "按一定比例采集各个年龄段种猪血清和扁桃体，检测猪瘟免疫抗体和猪瘟病原；分析评估猪瘟发生和传播风险。",
+    "reference_case": "按一定比例采集各个年龄段种猪血清和扁桃体，检测猪瘟免疫抗体和猪瘟病原；分析评估猪瘟发生和传播风险；对病毒感染率较高的猪场采取高强度免疫及有效的生物安全防护体系；对病毒感染率较低的猪场采取检测淘汰/分群→免疫→检测→淘汰→净化的程序。",
+    "error_detail": "逻辑不完整，遗漏了后续的净化措施。",
+    "original_question": "猪瘟净化措施包括哪些步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "常用的治疗方法包括使用青霉素、链霉素、卡那霉素等。",
+    "reference_case": "常用的治疗方法包括使用贝尼尔（血虫净）、对氨基苯胂酸钠和土霉素等。",
+    "error_detail": "概念混淆，错误地列出了不相关的抗生素。",
+    "original_question": "猪附红细胞体病常用的治疗方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每千克体重使用10mg的贝尼尔，用生理盐水稀释成5%溶液，深部肌内注射。",
+    "reference_case": "每千克体重使用5~7mg的贝尼尔，用生理盐水稀释成5%溶液，深部肌内注射，间隔48h重复用药1次，连用2~3d。",
+    "error_detail": "数值偏差，错误地改变了贝尼尔的用量。",
+    "original_question": "贝尼尔治疗猪附红细胞体病的具体方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "对病猪群，每吨饲料混入90g，连用一周。",
+    "reference_case": "对病猪群，每吨饲料混入180g，连用一周，以后改为半量，连用1个月左右。",
+    "error_detail": "时效性错误，错误地减少了药物用量和用药时间。",
+    "original_question": "对氨基苯胂酸钠治疗猪附红细胞体病的剂量和用药时间如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "每千克体重使用40mg土霉素，拌于饲料中让猪自由采食，连用3d。",
+    "reference_case": "每千克体重使用20~30mg土霉素，拌于饲料中让猪自由采食，连用5~7d。",
+    "error_detail": "指令偏离，错误地增加了土霉素的用量并减少了用药时间。",
+    "original_question": "土霉素治疗猪附红细胞体病的方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "可以配合使用青霉素、链霉素、卡那霉素等抗生素进行预防治疗。",
+    "reference_case": "可以配合使用青霉素、链霉素、卡那霉素等抗生素进行对症治疗。",
+    "error_detail": "概念混淆，错误地将对症治疗改为预防治疗。",
+    "original_question": "猪附红细胞体病的治疗中可以配合使用哪些抗生素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "可以使用牲血素、维生素B12、维生素C及补血王等进行辅助治疗，剂量加倍。",
+    "reference_case": "可以使用牲血素、维生素B12、维生素C及补血王等进行辅助治疗。",
+    "error_detail": "数值偏差，错误地建议剂量加倍。",
+    "original_question": "猪附红细胞体病还可以用哪些药物辅助治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "可以使用虫克星进行预防性治疗，假设所有猪都已经感染。",
+    "reference_case": "可以使用虫克星进行预防性治疗，按说明书使用，给全场猪喂服。",
+    "error_detail": "添加了不合理的假设，即所有猪都已经感染。",
+    "original_question": "猪附红细胞体病预防性治疗可以使用什么药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟的症状包括急性型、亚急性型和慢性型，主要表现为低热、呼吸减慢、皮肤苍白、便秘等。",
+    "reference_case": "非洲猪瘟的症状包括急性型、亚急性型和慢性型，主要表现为高热、呼吸加快、皮肤充血、发绀、呕吐、腹泻等。",
+    "error_detail": "概念混淆，错误地描述了症状。",
+    "original_question": "非洲猪瘟的主要症状有哪些？",
+    "original_input": ""
+  }
+]

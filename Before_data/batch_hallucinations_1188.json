@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪精子冷冻保存实验中使用的冷冻温度为-100°C和-200°C。",
+    "reference_case": "猪精子冷冻保存实验中使用的冷冻温度为-80°C和-196°C。实验结果表明，这两种温度下添加鸽子蛋LDL的猪精子样本在冷冻后，其微管蛋白和肌动蛋白的表达量均更接近于新鲜精子样本，且两种温度处理间无显著差异。",
+    "error_detail": "冷冻温度数值错误",
+    "original_question": "猪精子冷冻保存实验中使用的冷冻温度有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "Tris-Triton缓冲液的成分包括Tris（10 mmol/L，pH 7:4:、NaCl（100 mmol/L）、EDTA（1 mmol/L）、EGTA（1 mmol/L）、Triton100（1 g/mL）、甘油（10 g/mL）、SDS（1 g/L）和脱氧胆酸钠盐（5 g/L）。该缓冲液用于细胞培养。",
+    "reference_case": "Tris-Triton缓冲液的成分包括Tris（10 mmol/L，pH 7:4:、NaCl（100 mmol/L）、EDTA（1 mmol/L）、EGTA（1 mmol/L）、Triton100（1 g/mL）、甘油（10 g/mL）、SDS（1 g/L）和脱氧胆酸钠盐（5 g/L）。该缓冲液用于裂解细胞，提取蛋白质。",
+    "error_detail": "缓冲液用途描述错误",
+    "original_question": "猪精子冷冻保存实验中使用的Tris-Triton缓冲液的成分是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "SDS-PAGE和Western blot方法用于分析猪精子冷冻保存后细胞骨架微管蛋白和肌动蛋白的结构。",
+    "reference_case": "SDS-PAGE和Western blot方法用于分析猪精子冷冻保存后细胞骨架微管蛋白和肌动蛋白的表达量。SDS-PAGE用于分离蛋白质，而Western blot用于检测特定蛋白质的表达量，从而评估冷冻保护剂对细胞骨架完整性的影响。",
+    "error_detail": "方法目的描述错误",
+    "original_question": "猪精子冷冻保存实验中使用的SDS-PAGE和Western blot方法的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鸽子蛋低密度脂蛋白（LDL）在猪精子冷冻保存后能够有效抑制细胞骨架微管蛋白和肌动蛋白的降解，从而保护细胞骨架的完整性。具体表现为，添加5 g/mL鸽子蛋LDL的猪精子样本在冷冻后，其微管蛋白和肌动蛋白的表达量更接近于新鲜精子样本。",
+    "reference_case": "鸽子蛋低密度脂蛋白（LDL）在猪精子冷冻保存后能够有效抑制细胞骨架微管蛋白和肌动蛋白的降解，从而保护细胞骨架的完整性。具体表现为，添加9 g/mL鸽子蛋LDL的猪精子样本在冷冻后，其微管蛋白和肌动蛋白的表达量更接近于新鲜精子样本。",
+    "error_detail": "LDL添加量数值错误",
+    "original_question": "鸽子蛋低密度脂蛋白（LDL）对猪精子冷冻保存后的细胞骨架完整性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "Tris-柠檬酸-葡萄糖（TCG）稀释液在猪精子冷冻保存过程中作为冷冻保护剂，用于直接冷冻精子。",
+    "reference_case": "Tris-柠檬酸-葡萄糖（TCG）稀释液在猪精子冷冻保存过程中作为基础稀释液，用于配制冷冻保护剂。实验中使用TCG稀释液与鸽子蛋LDL或鸡卵黄混合，以稀释精子密度至1:5×10^9个/mL，并在冷冻过程中保护精子。",
+    "error_detail": "稀释液用途描述错误",
+    "original_question": "猪精子冷冻保存过程中使用的Tris-柠檬酸-葡萄糖（TCG）稀释液的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪精子冷冻保存实验中使用的抗微管蛋白（ANTI-TUBULIN）和抗肌动蛋白（ANTI-ACTIN）抗体均购自ABC公司。",
+    "reference_case": "猪精子冷冻保存实验中使用的抗微管蛋白（ANTI-TUBULIN）和抗肌动蛋白（ANTI-ACTIN）抗体均购自Sigma公司。这些抗体用于Western blot分析，以检测微管蛋白和肌动蛋白的表达量。",
+    "error_detail": "抗体来源公司错误",
+    "original_question": "猪精子冷冻保存实验中使用的抗微管蛋白和抗肌动蛋白抗体的来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发酵床养殖在一定程度上可以改善猪的免疫能力，特别是在育肥后期，猪血清中的免疫球蛋白浓度显著提高。",
+    "reference_case": "发酵床养殖在一定程度上可以改善猪的免疫能力，特别是在育肥前期，猪血清中的免疫球蛋白浓度显著提高。",
+    "error_detail": "时间描述错误",
+    "original_question": "发酵床养殖对猪的免疫能力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "发酵床养殖条件下，猪的站立、走动、探求行为显著低于传统养殖方式，这不利于猪的健康生长。",
+    "reference_case": "发酵床养殖条件下，猪的站立、走动、探求行为显著高于传统养殖方式，这有利于猪的健康生长。",
+    "error_detail": "行为影响描述错误",
+    "original_question": "发酵床养殖对猪的运动行为有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在育肥前期和后期，发酵床养殖与传统水冲圈养殖条件下猪血清中的总蛋白和白蛋白浓度均有显著差异。",
+    "reference_case": "在育肥前期和后期，发酵床养殖与传统水冲圈养殖条件下猪血清中的总蛋白和白蛋白浓度均无显著差异。",
+    "error_detail": "浓度差异描述错误",
+    "original_question": "发酵床养殖对猪的血清总蛋白和白蛋白浓度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "发酵床养殖条件下，猪的脾脏器官发育显著差于对照组，这与免疫指标结果不一致。",
+    "reference_case": "发酵床养殖条件下，猪的脾脏器官发育显著好于对照组，这与免疫指标结果相一致。",
+    "error_detail": "发育影响描述错误",
+    "original_question": "发酵床养殖对猪的脾脏器官发育有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在育肥前期，发酵床养殖条件下猪血清中的IgG、IgA、IgM浓度显著低于对照组。",
+    "reference_case": "在育肥前期，发酵床养殖条件下猪血清中的IgG、IgA、IgM浓度极显著高于对照组。",
+    "error_detail": "浓度比较描述错误",
+    "original_question": "在育肥前期，发酵床养殖对猪血清中的免疫球蛋白浓度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "发酵床养殖条件下，猪的脾脏和胰腺重量显著低于对照组，且脾脏重量与总体重的比率也显著低于对照组。",
+    "reference_case": "发酵床养殖条件下，猪的脾脏和胰腺重量显著高于对照组，且脾脏重量与总体重的比率也显著高于对照组。",
+    "error_detail": "重量比较描述错误",
+    "original_question": "发酵床养殖对猪的脾脏和胰腺重量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "发酵床养殖条件下，猪的脾脏和胰腺发育显著差于传统水冲圈养殖，而心、肝脏、肺的重量在两种养殖方式之间没有显著差异。",
+    "reference_case": "发酵床养殖条件下，猪的脾脏和胰腺发育显著好于传统水冲圈养殖，而心、肝脏、肺的重量在两种养殖方式之间没有显著差异。",
+    "error_detail": "发育比较描述错误",
+    "original_question": "发酵床养殖与传统水冲圈养殖在猪的器官发育方面有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "发酵床养殖条件下，猪的自由度、空间和生活环境均差于常规水泥地面养殖，垫料也不满足猪天性的需要。",
+    "reference_case": "发酵床养殖条件下，猪的自由度、空间和生活环境均好于常规水泥地面养殖，垫料也满足猪天性的需要。",
+    "error_detail": "环境比较描述错误",
+    "original_question": "发酵床养殖与传统养殖方式在猪的生活环境方面有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "发酵床养殖条件下，猪的组织器官发育差于对照组，特别是脾脏和胰腺，显著差于对照组，这在一定程度上降低了猪的消化、免疫能力，恶化猪的健康状况。",
+    "reference_case": "发酵床养殖条件下，猪的组织器官发育优于对照组，特别是脾脏和胰腺，显著好于对照组，这在一定程度上提高了猪的消化、免疫能力，改善猪的健康状况。",
+    "error_detail": "健康状况影响描述错误",
+    "original_question": "发酵床养殖对猪的健康状况有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在育肥后期，发酵床养殖条件下猪血清中的IgG、IgM、IgA浓度显著低于对照组。",
+    "reference_case": "在育肥后期，发酵床养殖条件下猪血清中的IgG、IgM、IgA浓度有高于对照组的趋势，但差异不显著。",
+    "error_detail": "浓度比较描述错误",
+    "original_question": "发酵床养殖对猪的血清免疫指标在育肥后期有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年3月格尔木市某个体养猪户购进了150头断奶仔猪。",
+    "reference_case": "2012年3月格尔木市某个体养猪户购进了120头断奶仔猪。",
+    "error_detail": "仔猪数量错误",
+    "original_question": "2012年3月格尔木市某个体养猪户购进的断奶仔猪数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪多杀性巴氏杆菌和金黄色葡萄球菌混合感染的临床症状包括体温升高到39~40°C，颈下喉头部肿胀、呼吸迫促，可视黏膜发绀，肛门、眼睛、耳廓及腹部少毛的皮肤出现红斑，并形成水疱，水疱破溃后渗出清亮的浆液和黏液，干燥后形成微棕色鳞片状结痂，痂皮脱落后露出鲜红色创面。",
+    "reference_case": "仔猪多杀性巴氏杆菌和金黄色葡萄球菌混合感染的临床症状包括体温升高到41~42°C，颈下喉头部肿胀、呼吸迫促，可视黏膜发绀，肛门、眼睛、耳廓及腹部少毛的皮肤出现红斑，并形成水疱，水疱破溃后渗出清亮的浆液和黏液，干燥后形成微棕色鳞片状结痂，痂皮脱落后露出鲜红色创面。",
+    "error_detail": "体温描述错误",
+    "original_question": "仔猪多杀性巴氏杆菌和金黄色葡萄球菌混合感染的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在诊断中，使用了病死仔猪的心、肝、脾、肺及血液等10份病料进行细菌的分离培养与鉴定。",
+    "reference_case": "在诊断中，使用了病死仔猪的肺、肝、脾、肾及关节液等10份病料进行细菌的分离培养与鉴定。",
+    "error_detail": "病料类型描述错误",
+    "original_question": "在仔猪多杀性巴氏杆菌和金黄色葡萄球菌混合感染的诊断中，使用了哪些病料进行细菌的分离培养与鉴定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在诊断中，进行了葡萄糖、乳糖、麦芽糖、甘露醇、蔗糖、吲哚、甲基红、V-P、枸橼酸、硫化氢、尿素、硝酸盐和运动力等细菌生化试验。",
+    "reference_case": "在诊断中，进行了葡萄糖、乳糖、麦芽糖、甘露醇、蔗糖、吲哚、甲基红、V-P、枸橼酸、硫化氢、尿素、硝酸盐和运动力等细菌生化试验。",
+    "error_detail": "生化试验列表描述错误",
+    "original_question": "在仔猪多杀性巴氏杆菌和金黄色葡萄球菌混合感染的诊断中，进行了哪些细菌生化试验？",
+    "original_input": ""
+  }
+]

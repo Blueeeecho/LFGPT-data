@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "当粪稀在局部篮漏式或全篮漏式圈下贮存时，有害气体成为问题，应避免搅动粪稀，猪舍应充分通气，通风速度应达到200立方英尺/分钟。",
+    "reference_case": "当粪稀在局部篮漏式或全篮漏式圈下贮存时，有害气体成为问题，应避免搅动粪稀，猪舍应充分通气。",
+    "error_detail": "添加了不正确的通风速度数据",
+    "original_question": "有害气体在粪稀贮存时对猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "母猪产栏理想的温度范围应为18~23℃（最低不能低于15℃），并应有一干燥的地面，仔猪区温度在26℃左右。",
+    "reference_case": "母猪产栏理想的温度范围应为13~18℃（最低不能低于10℃），并应有一干燥的地面，仔猪区温度在21℃左右。",
+    "error_detail": "提供了过时的温度标准",
+    "original_question": "母猪产栏的理想温度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "合理设计产栏设备，提供良好的产仔栏，减少大的气流，以及在12周内提供良好的护理是减少母猪压死仔猪的方法。",
+    "reference_case": "合理设计产栏设备，提供良好的产仔栏，减少大的气流，以及在8周内提供良好的护理是减少母猪压死仔猪的方法。",
+    "error_detail": "改变了护理时间的建议",
+    "original_question": "如何减少因母猪压死初生仔猪的情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "干奶猪的最适宜温度范围是15~23℃，空气流动快速，相对湿度为40~60%。",
+    "reference_case": "干奶猪的最适宜温度范围是10~18℃，空气流动缓慢，相对湿度为60~80%。",
+    "error_detail": "错误地改变了温度和湿度范围",
+    "original_question": "干奶猪的最适宜温度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "关于母猪在其非哺乳期间单独饲养和群饲哪个更能多生产仔猪的问题，研究表明群饲更能多生产仔猪。",
+    "reference_case": "关于母猪在其非哺乳期间单独饲养和群饲哪个更能多生产仔猪的问题，仍需要进一步的试验。",
+    "error_detail": "添加了未经验证的假设",
+    "original_question": "母猪在非哺乳期间单独饲养和群饲哪个更能多生产仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在寒冷天气中，如果母猪无法从贼风和寒冷地点搬出，一个有效的隔热通风系统就变得非常必要，特别是在北方地区。",
+    "reference_case": "在寒冷天气中，如果母猪无法从贼风和寒冷地点搬出，一个有效的隔热通风系统就变得非常必要。",
+    "error_detail": "添加了地域限制",
+    "original_question": "母猪圈内的隔热通风系统在寒冷天气中有多重要？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "计算猪舍通风值时需要考虑的因素包括猪体产热、人工热源、通风数值、空气吸热、蒸发散热、饮水器的水、地面蒸发的水、尿、墙、顶、地面的热散失和吸收、外界气温、容猪密度等，但不包括猪的品种。",
+    "reference_case": "计算猪舍通风值时需要考虑的因素包括猪体产热、人工热源、通风数值、空气吸热、蒸发散热、饮水器的水、地面蒸发的水、尿、墙、顶、地面的热散失和吸收、外界气温、容猪密度等。",
+    "error_detail": "添加了不相关的排除项",
+    "original_question": "计算猪舍通风值时需要考虑哪些因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "夏季通风速度为150立方英尺/分钟，冬季通风速度为35立方英尺/分钟。",
+    "reference_case": "夏季通风速度为100立方英尺/分钟，冬季通风速度为25立方英尺/分钟。",
+    "error_detail": "提供了不正确的通风速度数据",
+    "original_question": "夏季和冬季猪舍的通风速度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "进气管大小应使气流速度达到300英尺/分钟，而出气口大小应使气流速度达到850英尺/分钟，例如每20头120磅体重的猪需要1平方英尺的出气口。",
+    "reference_case": "进气管大小应使气流速度达到200英尺/分钟，而出气口大小应使气流速度达到750英尺/分钟，例如每15头120磅体重的猪需要1平方英尺的出气口。",
+    "error_detail": "错误地改变了气流速度和猪的数量",
+    "original_question": "如何确定进气管和出气口的大小以满足中型猪舍的空气流通需求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "通过调节挡板或吊帘减少新鲜空气进入猪舍，同时减少舍内的总循环量，这一方法可以通过恒温器或电动机来控制。",
+    "reference_case": "通过调节挡板或吊帘减少新鲜空气进入猪舍，同时增加舍内的总循环量，这一方法可以通过恒温器或电动机来控制。",
+    "error_detail": "改变了循环量的建议",
+    "original_question": "如何利用挡板或吊帘减少新鲜空气进入猪舍？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "变态反应检测主要检测由布鲁菌引起的特异性细胞免疫反应。临床上可用由粗糙型布鲁菌提取的布鲁菌水解素注射到羊尾根皱襞或猪耳根部皮内，于24,48小时各观察1次，若注射部位发红、肿胀即判为阳性反应。该方法对慢性病例的检出率高达90%，并且注射水解素后无抗体产生，不影响以后的血清学检测。",
+    "reference_case": "变态反应检测主要检测由布鲁菌引起的特异性细胞免疫反应。临床上可用由粗糙型布鲁菌提取的布鲁菌水解素注射到羊尾根皱襞或猪耳根部皮内，于24,48小时各观察1次，若注射部位发红、肿胀即判为阳性反应。该方法对慢性病例的检出率较高，并且注射水解素后无抗体产生，不影响以后的血清学检测。",
+    "error_detail": "错误地提高了慢性病例的检出率至90%，与原始output中的'较高'不符。",
+    "original_question": "变态反应检测在布鲁菌病检测中的应用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "透明带蛋白的适当糖基化作用可能会降低其免疫效能，去糖基化的猪ZPC比天然蛋白的免疫能力高。",
+    "reference_case": "透明带蛋白的适当糖基化作用可能会增加其免疫效能，去糖基化的猪ZPC比天然蛋白的免疫能力低。",
+    "error_detail": "错误地反转了糖基化作用对免疫效能的影响，与原始output相反。",
+    "original_question": "透明带蛋白的糖基化作用对其免疫效能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪卵细胞的透明带由ZPA、ZPB和ZPC三种糖蛋白组成，它们的相对分子质量分别是80000、60000和60000。",
+    "reference_case": "猪卵细胞的透明带由ZPA、ZPB和ZPC三种糖蛋白组成，它们的相对分子质量分别是90000、55000和55000。",
+    "error_detail": "错误地修改了ZPA、ZPB和ZPC的相对分子质量，与原始output不符。",
+    "original_question": "猪卵细胞的透明带由哪些糖蛋白组成，它们的相对分子质量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪卵透明带蛋白pZPC在精卵识别过程中起次要作用，不具有精子受体活性，不是研究避孕疫苗的有效抗原。",
+    "reference_case": "猪卵透明带蛋白pZPC在精卵识别过程中起重要作用，具有精子受体活性，是研究避孕疫苗的一种有效抗原。",
+    "error_detail": "错误地降低了pZPC在精卵识别过程中的重要性，与原始output相反。",
+    "original_question": "猪卵透明带蛋白pZPC在精卵识别过程中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "卵黄抗体在饲料工业中可用于提高饲料报酬和动物生产性能及防止疾病的发生。例如，在断奶仔猪日粮中添加IgY粉，可使仔猪腹泻率上升、采食量下降、料重比上升、平均日增重下降。",
+    "reference_case": "卵黄抗体在饲料工业中可用于提高饲料报酬和动物生产性能及防止疾病的发生。例如，在断奶仔猪日粮中添加IgY粉，可使仔猪腹泻率下降、采食量升高、料重比下降、平均日增重升高。",
+    "error_detail": "错误地反转了IgY粉对仔猪生产性能的影响，与原始output相反。",
+    "original_question": "卵黄抗体在饲料工业中的应用有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在养猪生产中，CLA可以降低生猪的生产性能，减弱免疫性能，恶化胴体品质。例如，添加CLA能显著降低仔猪的日增重，降低母猪初乳中免疫球蛋白的水平，以及恶化猪肉的肉色和大理石花纹。",
+    "reference_case": "在养猪生产中，CLA可以提高生猪的生产性能，增强免疫性能，改善胴体品质。例如，添加CLA能显著提高仔猪的日增重，提高母猪初乳中免疫球蛋白的水平，以及改善猪肉的肉色和大理石花纹。",
+    "error_detail": "错误地反转了CLA对养猪生产的影响，与原始output相反。",
+    "original_question": "共轭亚油酸（CLA）在养猪生产中的应用有哪些具体效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻（PED）是由猪流行性腹泻细菌（PEDB）引起的。",
+    "reference_case": "猪流行性腹泻（PED）是由猪流行性腹泻病毒（PEDV）引起的。",
+    "error_detail": "错误地将PED的病原体从病毒改为细菌，与原始output不符。",
+    "original_question": "猪流行性腹泻（PED）是由什么病毒引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PEDV感染后，7日龄内的仔猪死亡率高达80%。",
+    "reference_case": "PEDV感染后，7日龄内的仔猪死亡率高达50%。",
+    "error_detail": "错误地提高了仔猪的死亡率至80%，与原始output不符。",
+    "original_question": "PEDV感染后对仔猪的死亡率有多高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "试验中使用的生长猪品种是杜洛克纯种生长猪。",
+    "reference_case": "试验中使用的生长猪品种是杜长大三元杂交生长猪。",
+    "error_detail": "错误地将生长猪品种从三元杂交改为纯种，与原始output不符。",
+    "original_question": "试验中使用的生长猪品种是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "日采食量随着日粮浓度的增加有增加趋势，其中能量水平最高的4组采食量最高。",
+    "reference_case": "日采食量随着日粮浓度的增加有降低趋势，其中能量水平最高的4组采食量最低。",
+    "error_detail": "错误地反转了日采食量与日粮浓度的关系，与原始output相反。",
+    "original_question": "试验中生长猪的日采食量如何随日粮能量水平的变化而变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪的平均日增重随着饲料能量水平的增加而逐渐降低，料重比也随着能量浓度的提高而恶化。",
+    "reference_case": "生长猪的平均日增重随着饲料能量水平的增加而逐渐增加，料重比也随着能量浓度的提高而改善。",
+    "error_detail": "错误地反转了日增重和料重比与饲料能量水平的关系，与原始output相反。",
+    "original_question": "试验中生长猪的日增重和料重比如何随日粮能量水平的变化而变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中日粮中消化能为12:00到12:40 MJ/kg时，对生长猪的生产性能和经济效益最佳。",
+    "reference_case": "试验中日粮中消化能为13:80到14:20 MJ/kg时，对生长猪的生产性能和经济效益最佳。",
+    "error_detail": "错误地降低了最佳消化能的范围，与原始output不符。",
+    "original_question": "试验中哪种日粮能量水平对生长猪的生产性能和经济效益最佳？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "巴尔麦氏通过含有Fe和Cu等元素，减弱超氧化物歧化酶等抗氧化酶的活性，从而降低断奶仔猪的抗氧化能力和对疾病的抵抗力。",
+    "reference_case": "巴尔麦氏通过含有Zn和Ge等元素，增强超氧化物歧化酶等抗氧化酶的活性，从而提高断奶仔猪的抗氧化能力和对疾病的抵抗力。此外，巴尔麦氏中的益生菌及其代谢产物能改善消化道微生态条件，进一步增强免疫功能。",
+    "error_detail": "错误地修改了巴尔麦氏所含元素及其对断奶仔猪的影响，与原始output不符。",
+    "original_question": "巴尔麦氏如何影响断奶仔猪的免疫功能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在双重 PCR 方法的特异性试验中，使用了 BVDV、IBRV、猪瘟病毒（CSFV）和牛轮状病毒（BRV）进行验证。",
+    "reference_case": "在双重 PCR 方法的特异性试验中，使用了 BVDV、IBRV、猪瘟病毒（CSFV）和牛轮状病毒（BRV）进行验证。",
+    "error_detail": "虽然内容与原始output相同，但为了示例，假设错误地添加了不相关的病毒。",
+    "original_question": "双重 PCR 方法的特异性试验中，哪些病毒被用于验证其特异性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "传染性胃肠炎病毒（TGEV）和猪流行性腹泻病毒（PEDV）属于套式病毒目冠状病毒科阿尔法冠状病毒属。",
+    "reference_case": "传染性胃肠炎病毒（TGEV）和猪流行性腹泻病毒（PEDV）属于套式病毒目冠状病毒科冠状病毒属。",
+    "error_detail": "错误地将病毒属从冠状病毒属改为阿尔法冠状病毒属，与原始output不符。",
+    "original_question": "传染性胃肠炎病毒（TGEV）和猪流行性腹泻病毒（PEDV）属于哪个病毒科？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "传染性胃肠炎（TGE）的主要临床症状包括呕吐、轻微腹泻、脱水以及对2周龄以内仔猪的低致死性。",
+    "reference_case": "传染性胃肠炎（TGE）的主要临床症状包括呕吐、严重腹泻、脱水以及对2周龄以内仔猪的高度致死性。",
+    "error_detail": "错误地降低了TGE的临床症状严重程度和致死性，与原始output不符。",
+    "original_question": "传染性胃肠炎（TGE）的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪高热病的发病原因目前已经明确，是由猪蓝耳病毒单一感染引起的。",
+    "reference_case": "猪高热病的发病原因目前尚未明确，一般认为是由猪蓝耳病毒、猪圆环II型病毒、猪瘟病毒及猪附红细胞体等病原菌混合感染或者继发感染引起的。",
+    "error_detail": "错误地简化了猪高热病的发病原因，与原始output不符。",
+    "original_question": "猪高热病的发病原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "自拟中药复方显著降低了病猪外周血 T 淋巴细胞阳性率。试验结果显示，试验I组、试验II组和试验III组的 T 淋巴细胞阳性率均显著低于对照组，其中试验II组比对照组降低了25:63%。",
+    "reference_case": "自拟中药复方显著提高了病猪外周血 T 淋巴细胞阳性率。试验结果显示，试验I组、试验II组和试验III组的 T 淋巴细胞阳性率均显著高于对照组，其中试验II组比对照组提高了25:63%。",
+    "error_detail": "错误地反转了自拟中药复方对T淋巴细胞阳性率的影响，与原始output相反。",
+    "original_question": "自拟中药复方对病猪外周血 T 淋巴细胞阳性率的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "自拟中药复方的主要作用机制包括清热燥湿、泻火解毒、抑制淋巴细胞增殖和分化、活血行气、补中益气、抗炎等。这些作用共同降低了病猪的免疫力，提高了死亡率。",
+    "reference_case": "自拟中药复方的主要作用机制包括清热燥湿、泻火解毒、促进淋巴细胞增殖和分化、活血行气、补中益气、抗炎等。这些作用共同提高了病猪的免疫力，降低了死亡率。",
+    "error_detail": "错误地反转了自拟中药复方的作用机制和效果，与原始output相反。",
+    "original_question": "自拟中药复方的主要作用机制是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "自拟中药复方对猪高热病无显著的治疗效果，不能有效降低病猪的死亡率，并显著降低病猪外周血 T 淋巴细胞阳性率。试验结果显示，添加不同剂量的自拟中药复方（0:5%、1:0%、1:5%）均不能有效控制病猪的死亡率，其中1:0%的剂量效果最差。",
+    "reference_case": "自拟中药复方对猪高热病有显著的治疗效果，能有效降低病猪的死亡率，并显著提高病猪外周血 T 淋巴细胞阳性率。试验结果显示，添加不同剂量的自拟中药复方（0:5%、1:0%、1:5%）均能有效控制病猪的死亡率，其中1:0%的剂量效果最佳。",
+    "error_detail": "错误地反转了自拟中药复方对猪高热病的治疗效果，与原始output相反。",
+    "original_question": "自拟中药复方对猪高热病的治疗效果如何？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥育猪阶段真可消化色氨酸的需要量平均值为0.15%，Trp/Lys的平均值为25.27%。",
+    "reference_case": "肥育猪阶段真可消化色氨酸的需要量平均值为0.11%，Trp/Lys的平均值为19.27%。",
+    "error_detail": "数值偏差",
+    "original_question": "肥育猪阶段真可消化色氨酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪饲料中补充钙的石粉用量为2.2%~2.5%。",
+    "reference_case": "猪饲料中补充钙的石粉用量为1.2%~1.5%。",
+    "error_detail": "数值偏差",
+    "original_question": "猪饲料中补充钙的石粉用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪体对过量氯化钠的耐受性很差，日粮干物质中含有2%的食盐会引起中毒。",
+    "reference_case": "猪体对过量氯化钠的耐受性很差，日粮干物质中含有1%的食盐会引起中毒。",
+    "error_detail": "数值偏差",
+    "original_question": "猪体对过量氯化钠的耐受性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "缺镁可造成钠排出增加，镁过多会干扰钾代谢，饲料中不宜使用镁含量高的钙源。",
+    "reference_case": "缺镁可造成钾排出增加，镁过多会干扰钙代谢，饲料中不宜使用镁含量高的钙源。",
+    "error_detail": "术语错误",
+    "original_question": "缺镁对猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪对铁超量甚为敏感，过量会影响呼吸和循环，甚至引起中毒。",
+    "reference_case": "猪对铁超量甚为敏感，过量会影响采食和消化，甚至引起中毒。",
+    "error_detail": "术语错误",
+    "original_question": "猪对铁超量的反应是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "铜作为维生素的组成部分参与体内代谢。",
+    "reference_case": "铜作为金属酶的组成部分参与体内代谢。",
+    "error_detail": "术语错误",
+    "original_question": "铜在猪体内的生理功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "额外添加250mg/kg饲料。",
+    "reference_case": "额外添加150mg/kg饲料。",
+    "error_detail": "数值偏差",
+    "original_question": "为获得最佳仔猪健康，额外需要添加多少维生素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "《NRC》（2008）对脂溶性维生素的推荐量可以满足猪正常生长需要。",
+    "reference_case": "《NRC》（1998）对脂溶性维生素的推荐量可以满足猪正常生长需要。",
+    "error_detail": "过时标准",
+    "original_question": "《NRC》（1998）对脂溶性维生素的推荐量可以满足猪的什么需求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "日粮类型、营养水平、饲料加工贮藏、猪饲养方式、应激与疾病状况、食欲与采食量、药物的使用、体内贮存情况、管理水平、生产性能、饲养环境等都影响猪的维生素需要量，但这些因素之间没有关联。",
+    "reference_case": "日粮类型、营养水平、饲料加工贮藏、猪饲养方式、应激与疾病状况、食欲与采食量、药物的使用、体内贮存情况、管理水平、生产性能、饲养环境等都影响猪的维生素需要量。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "影响猪维生素需要量的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "维生素B1需要量受环境因子影响，如温度增加时需要量增加。在正常环境中添加维生素B1不会提高猪的生长性能，但过量使用可抑制延脑的呼吸中枢，造成呼吸困难，甚至引发癫痫性惊厥。此外，光照强度也会显著影响维生素B1的需要量。",
+    "reference_case": "维生素B1需要量受环境因子影响，如温度增加时需要量增加。在正常环境中添加维生素B1不会提高猪的生长性能，但过量使用可抑制延脑的呼吸中枢，造成呼吸困难，甚至引发癫痫性惊厥。",
+    "error_detail": "添加假设",
+    "original_question": "维生素B1需要量受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "研究表明，理想氨基酸模式在反刍动物中的应用越来越广泛，尤其是在猪的饲料配方设计中。",
+    "reference_case": "研究表明，理想氨基酸模式在单胃动物中的应用越来越广泛，尤其是在猪的饲料配方设计中。",
+    "error_detail": "地域差异",
+    "original_question": "理想氨基酸模式的研究进展是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "研究表明，生长猪和肥育猪在不同阶段的可消化氨基酸需要量存在差异，具体数值需根据具体实验数据确定。然而，这些数据并不适用于所有猪种。",
+    "reference_case": "研究表明，生长猪和肥育猪在不同阶段的可消化氨基酸需要量存在差异，具体数值需根据具体实验数据确定。",
+    "error_detail": "需求冲突",
+    "original_question": "猪在不同生长阶段的可消化氨基酸需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "净能体系和可消化氨基酸体系被用于优化猪的日粮配方，提高饲料转化率和生产性能。然而，这两种体系实际上是相同的。",
+    "reference_case": "净能体系和可消化氨基酸体系被用于优化猪的日粮配方，提高饲料转化率和生产性能。",
+    "error_detail": "术语错误",
+    "original_question": "净能体系和可消化氨基酸体系在养猪生产中如何应用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "研究表明，色氨酸在猪的日粮中具有重要作用，其平衡模式的研究对于猪的生长性能和胴体性状具有重要意义。然而，色氨酸的作用被夸大了。",
+    "reference_case": "研究表明，色氨酸在猪的日粮中具有重要作用，其平衡模式的研究对于猪的生长性能和胴体性状具有重要意义。",
+    "error_detail": "误解上下文",
+    "original_question": "猪饲料中色氨酸的研究与应用情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "低蛋白质日粮在不同能量水平下对肥育猪的生长性能和胴体性状有显著影响，具体表现为生长速度、胴体品质等。然而，这些影响并不总是负面的。",
+    "reference_case": "低蛋白质日粮在不同能量水平下对肥育猪的生长性能和胴体性状有显著影响，具体表现为生长速度、胴体品质等。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "低蛋白质日粮对猪生长性能和胴体性状的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "理想氨基酸平衡模式在猪的日粮设计中得到了广泛应用，有助于提高猪的生产性能和胴体品质。这一模式在2010年之前并不被广泛接受。",
+    "reference_case": "理想氨基酸平衡模式在猪的日粮设计中得到了广泛应用，有助于提高猪的生产性能和胴体品质。",
+    "error_detail": "过时标准",
+    "original_question": "猪理想氨基酸平衡模式的应用情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪由于皮下脂肪厚、汗腺发达，能通过出汗散热，且被毛和绝热层较多，难以通过皮肤蒸发散热调节体温，主要通过呼吸、排尿和饮水来散热。",
+    "reference_case": "猪由于皮下脂肪厚、汗腺不发达，不能通过出汗散热，且被毛和绝热层较少，难以通过皮肤蒸发散热调节体温，主要通过呼吸、排尿和饮水来散热。",
+    "error_detail": "术语错误",
+    "original_question": "猪对环境温度的敏感性主要体现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "舍温对猪的作用受到风速和热辐射环境的影响，这两项一般占总热损失的90%。",
+    "reference_case": "舍温对猪的作用受到风速和热辐射环境的影响，这两项一般占总热损失的80%。",
+    "error_detail": "数值偏差",
+    "original_question": "舍温对猪的作用受到哪些因素的影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "随着环境温度的降低，猪的采食量呈二次函数增加。",
+    "reference_case": "随着环境温度的降低，猪的采食量呈线性函数增加。",
+    "error_detail": "术语错误",
+    "original_question": "低温环境下，猪的采食量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "随着环境温度的升高，猪的采食量呈线性函数下降。",
+    "reference_case": "随着环境温度的升高，猪的采食量呈二次函数下降。",
+    "error_detail": "术语错误",
+    "original_question": "高温环境下，猪的采食量如何变化？",
+    "original_input": ""
+  }
+]

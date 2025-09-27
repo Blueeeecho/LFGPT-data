@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "受感染的种猪场母猪流产、早产、死胎率可达50%以上，新生仔猪和断奶前仔猪死亡率可高达90%，育肥猪发病率高而死亡率低。",
+    "reference_case": "受感染的种猪场母猪流产、早产、死胎率可达20%以上，新生仔猪和断奶前仔猪死亡率可高达80%，育肥猪发病率高而死亡率低。",
+    "error_detail": "夸大了流产、早产、死胎率和仔猪死亡率的数据",
+    "original_question": "PPV感染对养猪业的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "用鸡或鸭经基础免疫后，再经过多次强化免疫，无菌采血、分离血清，加适量防腐剂制成。",
+    "reference_case": "用牛或马经基础免疫后，再经过多次强化免疫，无菌采血、分离血清，加适量防腐剂制成。",
+    "error_detail": "错误地使用了鸡或鸭作为免疫动物，而非正确的牛或马",
+    "original_question": "抗猪、牛出血性败血病高免血清的制备方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "是由各地鸡、鸭出血性败血病患畜分离所得。",
+    "reference_case": "是由各地猪、牛出血性败血病患畜分离所得。",
+    "error_detail": "错误地指定了鸡、鸭作为分离源，而非正确的猪、牛",
+    "original_question": "抗原制造时所用的菌种是由哪里分离所得的典型 Fg 型多杀性巴氏杆菌？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪源菌株用前通过 5~6 月龄的猪传代，牛源菌株也应选择 6~7 月龄同源动物传代一次。",
+    "reference_case": "猪源菌株用前通过 3~4 月龄的猪传代，牛源菌株也应选择 4~5 月龄同源动物传代一次。",
+    "error_detail": "错误地增加了传代动物的月龄",
+    "original_question": "抗原制造时，猪源菌株和牛源菌株分别需要传代多少次？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "宜在 20~25°C 冷暗处保存，有效期为 5 年左右。",
+    "reference_case": "宜在 2~15°C 冷暗处保存，有效期为 3 年左右。",
+    "error_detail": "错误地提高了保存温度和有效期",
+    "original_question": "抗猪、牛出血性败血病高免血清的保存条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "主要用于猪、牛巴氏杆菌病的紧急预防及治疗，也可用于其他动物的类似疾病。",
+    "reference_case": "主要用于猪、牛巴氏杆菌病的紧急预防及治疗。",
+    "error_detail": "添加了不相关的用途信息",
+    "original_question": "抗猪、牛出血性败血病高免血清的主要用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小猪每头 10 ml ，大猪每头 20 ml ；小牛每头 20~30 ml ，大牛每头 50~60 ml 。皮下或肌肉注射。治疗量:猪按每公斤体重 4~5 ml ，可以 16~24 h 再重复注射 1 次。",
+    "reference_case": "小猪每头 5 ml ，大猪每头 10 ml ；小牛每头 10~20 ml ，大牛每头 30~50 ml 。皮下或肌肉注射。治疗量:猪按每公斤体重 2~3 ml ，可以 8~12 h 再重复注射 1 次。",
+    "error_detail": "错误地增加了治疗用量和重复注射的时间间隔",
+    "original_question": "抗猪、牛出血性败血病高免血清的治疗用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "可以配合抗生素，可能效果会更好，但不建议与特定类型的抗生素如青霉素一起使用。",
+    "reference_case": "可以配合抗生素，可能效果会更好。",
+    "error_detail": "添加了不相关的限制信息",
+    "original_question": "在使用抗猪、牛出血性败血病高免血清治疗时，是否可以配合抗生素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "注射猪可能发生过敏反应，要注意观察，以便出现问题后及时处理，且应立即停止使用血清。",
+    "reference_case": "注射猪可能发生过敏反应，要注意观察，以便出现问题后及时处理。",
+    "error_detail": "添加了不相关的处理建议",
+    "original_question": "抗猪、牛出血性败血病高免血清注射猪时可能发生什么反应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "应特别注意干奶母猪的繁殖力；泌乳母猪的生产力；生长猪的性能；公猪的性能；以及饲料的质量。",
+    "reference_case": "应特别注意干奶母猪的繁殖力；泌乳母猪的生产力；生长猪的性能；公猪的性能。",
+    "error_detail": "添加了不相关的注意事项",
+    "original_question": "猪保健和生产计划中，应特别注意哪些方面？",
+    "original_input": ""
+  }
+]

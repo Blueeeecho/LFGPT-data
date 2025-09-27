@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "虎粪中的有机质含量略高于鸡粪、猪粪和牛粪。",
+    "reference_case": "虎粪中的有机质含量远高于鸡粪、猪粪和牛粪。",
+    "error_detail": "低估了虎粪中有机质含量的实际比例",
+    "original_question": "虎粪中的有机质含量与鸡粪、猪粪和牛粪相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在壸瓶山国家级自然保护区的触发相机调查中，被拍摄到的频率最高的野生动物是老虎。",
+    "reference_case": "在壸瓶山国家级自然保护区的触发相机调查中，被拍摄到的频率最高的野生动物是野猪（Sus scrofa）。",
+    "error_detail": "错误地将野猪替换为老虎",
+    "original_question": "在壸瓶山国家级自然保护区的触发相机调查中，哪种野生动物被拍摄到的频率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "检测线使用了抗p54多克隆抗体，质控线使用了SPA（葡萄球菌A蛋白）。",
+    "reference_case": "检测线使用了SPA（葡萄球菌A蛋白），质控线使用了抗p54多克隆抗体。",
+    "error_detail": "颠倒了检测线和质控线的材料",
+    "original_question": "在非洲猪瘟病毒（ASFV）p54抗体的胶体金试纸检测方法中，检测线和质控线分别使用了什么材料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "重组p54蛋白的纯化使用了离子交换层析。",
+    "reference_case": "重组p54蛋白的纯化使用了His亲和层析凝胶。",
+    "error_detail": "错误的纯化方法",
+    "original_question": "非洲猪瘟病毒（ASFV）p54抗体的胶体金试纸检测方法中，重组p54蛋白的纯化使用了哪种方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "质控线和检测线均出现红色条带为阴性；质控线出现红色条带，检测线处无红色条带为阳性；质控线无红色条带则该试纸失效。",
+    "reference_case": "质控线和检测线均出现红色条带为阳性；质控线出现红色条带，检测线处无红色条带为阴性；质控线无红色条带则该试纸失效。",
+    "error_detail": "颠倒了阳性和阴性的判定标准",
+    "original_question": "非洲猪瘟病毒（ASFV）p54抗体的胶体金试纸检测方法中，试纸的检测判定标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该方法对猪瘟病毒（CSFV）、猪伪狂犬病毒（PRV）、猪繁殖与呼吸综合征病毒（PRRSV）、猪细小病毒（PPV）及猪圆环病毒2型（PCV-2:抗体阳性血清有交叉反应。",
+    "reference_case": "该方法对猪瘟病毒（CSFV）、猪伪狂犬病毒（PRV）、猪繁殖与呼吸综合征病毒（PRRSV）、猪细小病毒（PPV）及猪圆环病毒2型（PCV-2:抗体阳性血清无交叉反应。",
+    "error_detail": "错误地声称有交叉反应",
+    "original_question": "非洲猪瘟病毒（ASFV）p54抗体的胶体金试纸检测方法对哪些病毒抗体阳性血清无交叉反应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "以western blot为参照标准，OIE ELISA和胶体金试纸条检测刚果民主共和国的猪血清与其阳性符合率分别为90%和95%。",
+    "reference_case": "以western blot为参照标准，OIE ELISA和胶体金试纸条检测刚果民主共和国的猪血清与其阳性符合率分别为87:5%和91:7%。",
+    "error_detail": "错误的符合率数据",
+    "original_question": "非洲猪瘟病毒（ASFV）p54抗体的胶体金试纸检测方法中，试纸的比对试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用同一批次和不同批次胶体金试纸对10份ASFV抗体阳性和10份ASFV抗体阴性猪血清进行检测，结果显示，批内及批间检测符合率为95%。",
+    "reference_case": "用同一批次和不同批次胶体金试纸对10份ASFV抗体阳性和10份ASFV抗体阴性猪血清进行检测，结果显示，批内及批间检测符合率为100%。",
+    "error_detail": "错误的符合率数据",
+    "original_question": "非洲猪瘟病毒（ASFV）p54抗体的胶体金试纸检测方法中，试纸的重复性试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "在ASFV感染早期，OIE推荐的间接ELISA检测方法优于胶体金试纸，且对疫区临床阳性样品的检测符合率更高。",
+    "reference_case": "在ASFV感染早期，胶体金试纸优于OIE推荐的间接ELISA检测方法，且对疫区临床阳性样品的检测符合率更高。",
+    "error_detail": "颠倒了两种方法的优势",
+    "original_question": "非洲猪瘟病毒（ASFV）p54抗体的胶体金试纸检测方法在检测141份猪血清样品时，与OIE推荐的间接ELISA检测方法相比有何优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "胶体金标记的最佳pH值为7:0，最佳蛋白标记浓度为10 µg/mL。",
+    "reference_case": "胶体金标记的最佳pH值为8:0，最佳蛋白标记浓度为5 µg/mL。",
+    "error_detail": "错误的pH值和蛋白标记浓度",
+    "original_question": "非洲猪瘟病毒（ASFV）p54抗体的胶体金试纸检测方法中，胶体金标记的最佳pH值和最佳蛋白标记浓度分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该试纸条的敏感性为100 ng/mL。",
+    "reference_case": "该试纸条的敏感性为200 ng/mL。",
+    "error_detail": "错误的敏感性数据",
+    "original_question": "非洲猪瘟病毒（ASFV）p54抗体的胶体金试纸检测方法的敏感性是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "试纸的制备使用了聚酯纤维膜金标垫、硝酸纤维素膜、抗p54 IgG、SPA、硬质塑料底板、黏附吸水滤纸、玻璃纤维素膜以及塑料壳。",
+    "reference_case": "试纸的制备使用了玻璃纤维膜金标垫、硝酸纤维素膜、SPA、抗p54 IgG、硬质塑料底板、黏附吸水滤纸、玻璃纤维素膜以及塑料壳。",
+    "error_detail": "错误的材料名称",
+    "original_question": "非洲猪瘟病毒（ASFV）p54抗体的胶体金试纸检测方法中，试纸的制备使用了哪些材料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细小病毒（PPV）的主要临床症状是引起母猪高热和食欲不振。",
+    "reference_case": "猪细小病毒（PPV）的主要临床症状是引起母猪繁殖障碍，表现为死胎和母猪流产。",
+    "error_detail": "错误的临床症状描述",
+    "original_question": "猪细小病毒（PPV）的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "纳米PCR检测方法在检测猪的其他相关病毒核酸时，结果均呈阳性。",
+    "reference_case": "纳米PCR检测方法在检测猪的其他相关病毒核酸时，结果均呈阴性。",
+    "error_detail": "错误的检测结果",
+    "original_question": "纳米PCR检测方法在检测猪的其他相关病毒核酸时的结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪瘟病毒E2蛋白的糖基化修饰显著减弱了树突状细胞的抗原提呈功能，抑制了Th1和Th2免疫应答，尤其是Th2体液免疫应答，刺激机体产生了慢而不持久的抗体保护，并无良好的免疫记忆。",
+    "reference_case": "猪瘟病毒E2蛋白的糖基化修饰显著增强了树突状细胞的抗原提呈功能，促进了Th1和Th2免疫应答，尤其是Th2体液免疫应答，刺激机体产生了快而持久的抗体保护，并具有良好的免疫记忆。",
+    "error_detail": "颠倒了糖基化修饰的影响",
+    "original_question": "猪瘟病毒E2蛋白的糖基化修饰对其免疫效力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的Cap蛋白的核定位信号区位于氨基酸50到90的区域。",
+    "reference_case": "猪圆环病毒2型（PCV2:的Cap蛋白的核定位信号区位于氨基酸1到41的区域。",
+    "error_detail": "错误的氨基酸区域",
+    "original_question": "猪圆环病毒2型（PCV2:的Cap蛋白的核定位信号区位于哪个氨基酸区域？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "TGEV的N蛋白是一种非磷酸化蛋白，存在于病毒粒子外与病毒基因组松散结合构成病毒核衣壳。它不仅不诱导机体产生细胞免疫，还对病毒基因组RNA的复制和转录具有抑制作用。",
+    "reference_case": "TGEV的N蛋白是一种磷酸化蛋白，存在于病毒粒子内与病毒基因组紧密结合构成病毒核衣壳。它不仅诱导机体产生细胞免疫，还对病毒基因组RNA的复制和转录具有重要作用。",
+    "error_detail": "错误的蛋白性质和功能描述",
+    "original_question": "猪传染性胃肠炎病毒（TGEV）的N蛋白在病毒中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "试验中通过每天上午8点和下午4点观察母猪的粪便形态，并根据粪便形态评分标准进行计分。评分标准包括拉稀、湿润不成型、湿润成型、干燥成型、干燥硬结和颗粒状便秘等不同形态，分别对应不同的得分。",
+    "reference_case": "试验中通过每天上午10点和下午6点观察母猪的粪便形态，并根据粪便形态评分标准进行计分。评分标准包括拉稀、湿润不成型、湿润成型、干燥成型、干燥硬结和颗粒状便秘等不同形态，分别对应不同的得分。",
+    "error_detail": "错误的观察时间",
+    "original_question": "试验中如何评估母猪的粪便形态？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "微生态制剂显著降低了母猪初乳的质量。试验1组和试验2组的初乳中干物质、脂肪、蛋白质和乳糖含量均显著低于对照组，且试验2组的各项指标显著低于试验1组。",
+    "reference_case": "微生态制剂显著提高了母猪初乳的质量。试验1组和试验2组的初乳中干物质、脂肪、蛋白质和乳糖含量均显著高于对照组，且试验2组的各项指标显著高于试验1组。",
+    "error_detail": "颠倒了微生态制剂的影响",
+    "original_question": "微生态制剂对母猪初乳质量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "微生态制剂在繁殖母猪中的应用主要作用包括恶化粪便形态、降低采食量以及降低乳汁质量。具体来说，微生态制剂能显著提高母猪的粪便得分，极显著降低妊娠90天至产仔后10天的采食量，并显著减少初乳和常乳中的干物质、乳脂和乳蛋白含量。",
+    "reference_case": "微生态制剂在繁殖母猪中的应用主要作用包括改善粪便形态、提高采食量以及提升乳汁质量。具体来说，微生态制剂能显著降低母猪的粪便得分，极显著提高妊娠90天至产仔后10天的采食量，并显著增加初乳和常乳中的干物质、乳脂和乳蛋白含量。",
+    "error_detail": "颠倒了微生态制剂的作用",
+    "original_question": "微生态制剂在繁殖母猪中的应用主要有哪些作用？",
+    "original_input": ""
+  }
+]

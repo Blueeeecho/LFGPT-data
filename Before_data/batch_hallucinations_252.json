@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪的18条常染色体中有15条可能存在影响繁殖性状的QTL，包括1号、2号、3号、4号、5号、6号、7号、8号、9号、10号、11号、12号、13号、14号和15号染色体，以及在X染色体上可能存在影响排卵率和子宫容量的QTL。",
+    "reference_case": "在猪的18条常染色体中有11条可能存在影响繁殖性状的QTL，包括1号、3号、4号、5号、6号、7号、8号、9号、10号、13号和15号染色体，以及在X染色体上可能存在影响排卵率和子宫容量的QTL。",
+    "error_detail": "错误地增加了影响繁殖性状的QTL的染色体数量",
+    "original_question": "在猪的基因组扫描中，哪些染色体上发现了影响繁殖性状的QTL？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "基因组扫描法不需要利用遗传上差异较大的品种进行杂交，而候选基因法需要特定品种杂交，跟踪性状和染色体上的标记在多世代家系中的分离情况。",
+    "reference_case": "基因组扫描法需要利用遗传上差异较大的品种进行杂交，跟踪性状和染色体上的标记在多世代家系中的分离情况，而候选基因法不需要特定品种杂交，只要发现一个候选基因位点上存在多态性，便可直接在商业品系中研究此多态性与目标性状之间的相关性。",
+    "error_detail": "错误地交换了基因组扫描法和候选基因法的描述",
+    "original_question": "在猪繁殖性状的研究中，基因组扫描法和候选基因法的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪的繁殖性状研究中，胰岛素受体基因（INSR）、GH β亚基基因、视黄醇结合蛋白5（RBP5）、催乳素释放基因（PRLR）、LH和GH基因以及ob基因被认为是潜在的候选基因。",
+    "reference_case": "在猪的繁殖性状研究中，雌激素受体基因（ESR）、FSH β亚基基因、视黄醇结合蛋白4（RBP4:、催乳素受体基因（PRLR）、LH和FSH基因以及ob基因被认为是潜在的候选基因。",
+    "error_detail": "错误地替换了候选基因的名称",
+    "original_question": "在猪的繁殖性状研究中，哪些基因被认为是潜在的候选基因？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的ob基因在动物的繁殖过程中有很重要的作用，纯合子ob基因突变会导致一些肥胖小鼠呈现不育现象，用insulin处理后可以恢复生殖机能。",
+    "reference_case": "猪的ob基因在动物的繁殖过程中有很重要的作用，纯合子ob基因突变会导致一些肥胖小鼠呈现不育现象，用leptin处理后可以恢复生殖机能。",
+    "error_detail": "错误地替换了处理ob基因突变的激素名称",
+    "original_question": "猪的ob基因在繁殖过程中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的催乳素受体基因（PRLR）在5个PIC品系中与总产仔数和产活仔数性状有显著相关。",
+    "reference_case": "猪的催乳素受体基因（PRLR）在3个PIC品系中与总产仔数和产活仔数性状有显著相关。",
+    "error_detail": "错误地增加了与PRLR基因显著相关的PIC品系数量",
+    "original_question": "猪的催乳素受体基因（PRLR）在哪些品系中与总产仔数和产活仔数性状有显著相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "视黄醇结合蛋白4（RBP4:在猪妊娠的一个关键时期表达，给妊娠母猪补充维生素D可以提高产仔数，因此RBP4被视为猪产仔数的候选基因。",
+    "reference_case": "视黄醇结合蛋白4（RBP4:在猪妊娠的一个关键时期表达，给妊娠母猪补充维生素A可以提高产仔数，因此RBP4被视为猪产仔数的候选基因。",
+    "error_detail": "错误地替换了补充的维生素类型",
+    "original_question": "在猪的繁殖性状研究中，视黄醇结合蛋白4（RBP4:的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪胎盘中检测到了StAR DNA，这与猪胎盘在妊娠后期参与类固醇激素的合成有关。",
+    "reference_case": "在猪胎盘中检测到了StAR mRNA，这与猪胎盘在妊娠后期参与类固醇激素的合成有关。",
+    "error_detail": "错误地替换了检测到的分子类型",
+    "original_question": "StAR蛋白在猪胎盘中的表达情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "甘露寡糖对断奶仔猪的平均日增重（ADG）有显著影响。添加0:2%甘露寡糖的组别（第4组）的ADG极显著高于对照组，提高了37%。其他添加甘露寡糖的组别（第2、3、5组）的ADG也分别提高了21%、12%和18%。",
+    "reference_case": "甘露寡糖对断奶仔猪的平均日增重（ADG）有显著影响。添加0:1%甘露寡糖的组别（第4组）的ADG极显著高于对照组，提高了27%。其他添加甘露寡糖的组别（第2、3、5组）的ADG也分别提高了11%、2%和8%。",
+    "error_detail": "错误地提高了甘露寡糖对ADG的影响百分比",
+    "original_question": "甘露寡糖对断奶仔猪的平均日增重（ADG）有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "甘露寡糖的添加量对断奶仔猪的饲料转化效率（F/G）有显著影响。第2、3、4、5组的F/G比对照组分别降低了22%、14%、25%和24%，其中添加0:2%甘露寡糖的组别（第4组）效果最好。",
+    "reference_case": "甘露寡糖的添加量对断奶仔猪的饲料转化效率（F/G）有显著影响。第2、3、4、5组的F/G比对照组分别降低了12%、4%、15%和14%，其中添加0:1%甘露寡糖的组别（第4组）效果最好。",
+    "error_detail": "错误地提高了甘露寡糖对F/G的影响百分比",
+    "original_question": "甘露寡糖的添加量如何影响断奶仔猪的饲料转化效率（F/G）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "甘露寡糖显著降低了断奶仔猪的腹泻率。第2、3、4、5组的腹泻率分别比对照组降低了80%、53%、58%和58%。",
+    "reference_case": "甘露寡糖显著降低了断奶仔猪的腹泻率。第2、3、4、5组的腹泻率分别比对照组降低了70%、43%、48%和48%。",
+    "error_detail": "错误地提高了甘露寡糖对腹泻率的降低百分比",
+    "original_question": "甘露寡糖对断奶仔猪的腹泻率有何影响？",
+    "original_input": ""
+  }
+]

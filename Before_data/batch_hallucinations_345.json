@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "养猪十大细节中的第三点是严格的消毒，每天至少消毒三次。",
+    "reference_case": "养猪十大细节中的第三点是严格的消毒。",
+    "error_detail": "添加了不存在的消毒频率细节",
+    "original_question": "贵猪养殖模式中提到的养猪十大细节中的第三点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "贵猪养殖模式的核心优势是“快速增重”，即让猪在最短时间内达到最大体重。",
+    "reference_case": "贵猪养殖模式的核心优势是“健康快长”，即让猪健康快乐，快速地长大。",
+    "error_detail": "错误地将“健康快长”理解为“快速增重”",
+    "original_question": "贵猪养殖模式的核心优势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "养猪十大细节中的第七点是早期断奶，有研究显示，早期断奶能够有效控制仔猪后期功能性衰减综合征（PCV-2 圆环病毒）的发生，建议在出生后14天进行。",
+    "reference_case": "养猪十大细节中的第七点是早期断奶，有研究显示，早期断奶能够有效控制仔猪后期功能性衰减综合征（PCV-2 圆环病毒）的发生。",
+    "error_detail": "添加了不具体的断奶时间建议",
+    "original_question": "贵猪养殖模式中提到的养猪十大细节中的第七点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "养猪十大细节中的第二点是进行科学的免疫，必须使用进口疫苗。",
+    "reference_case": "养猪十大细节中的第二点是进行科学的免疫，根据不同猪场的个体实际情况和当地情况来决定使用哪些免疫，且注意疫苗的选择、运输、保管和使用过程中的温度控制，以及免疫的使用方法。",
+    "error_detail": "错误地指定了疫苗的来源",
+    "original_question": "贵猪养殖模式中提到的养猪十大细节中的第二点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "养猪十大细节中的第六点是饲料求细，因为细饲料能直接提高猪的生长速度。",
+    "reference_case": "养猪十大细节中的第六点是饲料求细，主要是饲料粒度的大小，饲料复配的精细度，和饲料原料选择储藏是否严要求。",
+    "error_detail": "错误地建立了饲料细度和生长速度之间的直接因果关系",
+    "original_question": "贵猪养殖模式中提到的养猪十大细节中的第六点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "麦露最近启动了一个名为“PSY-30”的百星工程项目。",
+    "reference_case": "麦露最近启动了一个名为“PSY-25”的百星工程项目，希望和中国养猪人共同奋斗，努力圆梦。",
+    "error_detail": "错误地更改了项目名称中的数字",
+    "original_question": "麦露最近启动了什么项目？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "麦露在八蚛生物有限公司成立的前三年主要是在猪场度过的，终日醉心研发，几乎没有离开过猪场。",
+    "reference_case": "麦露在八蚛生物有限公司成立的前三年主要是在猪场度过的，终日醉心研发。",
+    "error_detail": "添加了不存在的限制条件",
+    "original_question": "麦露在八蚛生物有限公司成立的前三年主要做了什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2014年第一季度，除反刍饲料同比基本持平外，其他品种饲料均下降。具体来说，猪饲料同比下降5%，蛋禽饲料同比下降15%，肉禽饲料同比下降20%，水产饲料同比下降35%，其他饲料产量同比下降10%。",
+    "reference_case": "2014年第一季度，除反刍饲料同比基本持平外，其他品种饲料均下降。具体来说，猪饲料同比下降2%，蛋禽饲料同比下降10%，肉禽饲料同比下降12%，水产饲料同比下降29%，其他饲料产量同比下降8%。",
+    "error_detail": "夸大了饲料产量的下降比例",
+    "original_question": "2014年第一季度，哪些类型的饲料产量同比下降？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "李职在1985年调任广三保养猪有限公司担任厂长及中方总经理。",
+    "reference_case": "李职在1985年调入广三保养猪生有限公司担任厂长及中方总经理。",
+    "error_detail": "错误地更改了公司名称",
+    "original_question": "李职在1985年调任哪家公司担任厂长及中方总经理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "李职在1985年组建了中国当时最大的自动化养猪场。",
+    "reference_case": "李职在1985年组建了中国当时最大的机械化养猪场。",
+    "error_detail": "错误地将“机械化”改为“自动化”",
+    "original_question": "李职在1985年组建了什么类型的养猪场？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "李职在2008年被评为国家改革开放养猪20年百名专家之一。",
+    "reference_case": "李职在2008年被评为国家改革开放养猪30年百名专家之一。",
+    "error_detail": "错误地更改了改革开放的年限",
+    "original_question": "李职在2008年获得了什么荣誉称号？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "杨红业博士提到的巴西饲料企业在顾问式服务中发现的10个指标对日增重有重要影响。",
+    "reference_case": "杨红业博士提到的巴西饲料企业在顾问式服务中发现的14个指标对日增重有重要影响，包括料槽边缘高度、料槽设置为圆底、标准的食槽空间、乳头式的饮水器、可调节高度的乳头式饮水器、饮水器每分钟流速、猪舍建筑标准、每平方米猪的数量和遮阳屋顶高度。",
+    "error_detail": "错误地减少了指标数量",
+    "original_question": "杨红业博士在演讲中提到的巴西饲料企业在顾问式服务中发现的哪些指标对日增重有重要影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "杨红业博士提到的巴西饲料企业在顾问式服务中通过改善食槽设置来提高猪的日增重，包括更换食槽材料。",
+    "reference_case": "杨红业博士提到的巴西饲料企业在顾问式服务中通过改善食槽设置来提高猪的日增重，包括检查食槽的高度、深度和每个食槽猪的数量，并根据标准指标对设置的食槽数进行检查、纠正和改善。",
+    "error_detail": "添加了不相关的改善措施",
+    "original_question": "杨红业博士在演讲中提到的巴西饲料企业在顾问式服务中如何通过改善食槽设置来提高猪的日增重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "蔚蓝生物第八届年会设有“与变化共舞”主题论坛和三个分论坛。",
+    "reference_case": "蔚蓝生物第八届年会设有“与变化共舞”主题论坛和四个分论坛，分别是动物营养与生物技术论坛、家禽生产与效率论坛、规模化猪场生产安全与效率论坛和微生态生物技术论坛。",
+    "error_detail": "错误地减少了分论坛数量",
+    "original_question": "蔚蓝生物第八届年会的主要论坛有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "帝斯曼中国动物营养中心主要开展针对生猪和家禽营养的科学和应用研究，开发通用解决方案。",
+    "reference_case": "帝斯曼中国动物营养中心主要开展针对生猪和家禽营养的科学和应用研究，开发特定解决方案以满足中国市场的需求。",
+    "error_detail": "错误地将“特定解决方案”改为“通用解决方案”",
+    "original_question": "帝斯曼中国动物营养中心的主要研究内容是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "帝斯曼中国动物营养中心的设施包括前沿的实验办公楼、现代化的试验猪舍和试验禽舍，以及科技会场和员工健身房。",
+    "reference_case": "帝斯曼中国动物营养中心的设施包括前沿的实验办公楼、现代化的试验猪舍和试验禽舍，以及科技会场。",
+    "error_detail": "添加了不存在的设施",
+    "original_question": "帝斯曼中国动物营养中心的设施包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "帝斯曼中国动物营养中心将通过研发酶制剂、摄生素和维生素等产品，支持市场拓展，满足全球生猪和家禽饲养者的需求。",
+    "reference_case": "帝斯曼中国动物营养中心将通过研发酶制剂、摄生素和维生素等产品，支持市场拓展，满足本地生猪和家禽饲养者的需求，并提供科学数据支持全球市场的产品和应用开发。",
+    "error_detail": "错误地将“本地”改为“全球”",
+    "original_question": "帝斯曼中国动物营养中心将如何支持中国畜牧行业的发展？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "安佑集团洪平先生的讲座内容提供了新的母猪饲养的科学方法和管理理念，对养猪业有具体的帮助，特别是在提高母猪产仔数方面。",
+    "reference_case": "安佑集团洪平先生的讲座内容提供了新的母猪饲养的科学方法和管理理念，对养猪业有具体的帮助。",
+    "error_detail": "添加了不具体的帮助细节",
+    "original_question": "安佑集团洪平先生的讲座内容对养猪业有何具体帮助？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "\"提高猪场生产力之新技术讲座\"是由中山味氏香味剂有限公司、江西兴鼎科技有限公司、广州沃浦贸易有限公司和北京某公司共同举办的。",
+    "reference_case": "\"提高猪场生产力之新技术讲座\"是由中山味氏香味剂有限公司、江西兴鼎科技有限公司、广州沃浦贸易有限公司共同举办的。",
+    "error_detail": "添加了不存在的共同举办公司",
+    "original_question": "\"提高猪场生产力之新技术讲座\"是由哪些公司共同举办的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "此次讲座为生猪养殖从业者提供了宝贵的学习机会，并促进了中美两国的养猪技术交流。",
+    "reference_case": "此次讲座为生猪养殖从业者提供了宝贵的学习机会，并促进了中泰两国的养猪技术交流。",
+    "error_detail": "错误地将“中泰”改为“中美”",
+    "original_question": "此次讲座对生猪养殖从业者有何重要意义？",
+    "original_input": ""
+  }
+]

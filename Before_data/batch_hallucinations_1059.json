@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在F20代次中，G→A突变的中位数为10；在F21代次中，G→A突变的中位数为20；在F22代次中，G→A突变的中位数为3。",
+    "reference_case": "在F20代次中，G→A突变的中位数为8；在F21代次中，G→A突变的中位数为15；在F22代次中，G→A突变的中位数为5。",
+    "error_detail": "数值偏差",
+    "original_question": "五指山小型猪的PERV-env基因的G→A突变数目在不同代次中的中位数分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "试验中采用滴水损失法测定猪肉的滴水损失，具体方法参考猪肌肉品质测定技术规范（NY/T 821 - 2010:。",
+    "reference_case": "试验中采用滴水损失法测定猪肉的滴水损失，具体方法参考猪肌肉品质测定技术规范（NY/T 821 - 2004:。",
+    "error_detail": "过时标准",
+    "original_question": "试验中如何测定猪肉的滴水损失？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "试验结果表明，酵母硒对育肥猪的屠宰率有显著影响。",
+    "reference_case": "试验结果表明，酵母硒对育肥猪的屠宰率无显著影响。",
+    "error_detail": "添加假设",
+    "original_question": "试验中酵母硒对育肥猪的屠宰率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验结果表明，0:5 mg/kg酵母硒显著降低了育肥猪血清中的丙二醛（MDA）水平。",
+    "reference_case": "试验结果表明，0:3 mg/kg酵母硒显著降低了育肥猪血清中的丙二醛（MDA）水平。",
+    "error_detail": "数值偏差",
+    "original_question": "试验中酵母硒对育肥猪血清中的丙二醛（MDA）水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "试验结果表明，酵母硒显著提高了育肥猪的抗氧化能力，但对总抗氧化能力（T-AOC）、总超氧化物歧化酶（T-SOD）和过氧化氢酶（CAT）的含量无显著影响。",
+    "reference_case": "试验结果表明，酵母硒显著提高了育肥猪的抗氧化能力，包括总抗氧化能力（T-AOC）、总超氧化物歧化酶（T-SOD）和过氧化氢酶（CAT）的含量。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "试验中酵母硒对育肥猪的抗氧化能力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "刺五加多糖能显著提高断奶仔猪的平均日增质量（ADG），显著降低料重比（F/G）及腹泻率，但对日采食量（ADFI）有显著影响。",
+    "reference_case": "刺五加多糖能显著提高断奶仔猪的平均日增质量（ADG），显著降低料重比（F/G）及腹泻率，但对日采食量（ADFI）影响不大。",
+    "error_detail": "数值偏差",
+    "original_question": "刺五加多糖对断奶仔猪的生长性能有哪些具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "刺五加多糖能显著提高断奶仔猪的总蛋白、白蛋白和球蛋白水平，显著降低血清尿素氮水平，但对葡萄糖水平和碱性磷酸酶活性无显著影响。",
+    "reference_case": "刺五加多糖能显著提高断奶仔猪的总蛋白、白蛋白和球蛋白水平，显著降低血清尿素氮水平，提高葡萄糖水平和碱性磷酸酶活性。",
+    "error_detail": "需求冲突",
+    "original_question": "刺五加多糖对断奶仔猪的血液生化指标有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "刺五加多糖能显著提高断奶仔猪的超氧化物歧化酶（SOD）和谷胱甘肽过氧化物酶（GSH-Px）活力，提高丙二醛（MDA）含量。",
+    "reference_case": "刺五加多糖能显著提高断奶仔猪的超氧化物歧化酶（SOD）和谷胱甘肽过氧化物酶（GSH-Px）活力，降低丙二醛（MDA）含量。",
+    "error_detail": "术语错误",
+    "original_question": "刺五加多糖对断奶仔猪的抗氧化能力有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在基础日粮中添加200、400、600、900和1200 mg/kg的刺五加多糖，能显著提高断奶仔猪的平均日增质量（ADG），显著降低料重比（F/G）及腹泻率。",
+    "reference_case": "在基础日粮中添加150、300、500、800和1000 mg/kg的刺五加多糖，能显著提高断奶仔猪的平均日增质量（ADG），显著降低料重比（F/G）及腹泻率。",
+    "error_detail": "数值偏差",
+    "original_question": "刺五加多糖的添加量对断奶仔猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "刺五加多糖能显著降低断奶仔猪的血清尿素氮水平，其中V组较I组显著降低了30:01%。",
+    "reference_case": "刺五加多糖能显著降低断奶仔猪的血清尿素氮水平，其中V组较I组显著降低了23:01%。",
+    "error_detail": "数值偏差",
+    "original_question": "刺五加多糖对断奶仔猪的血清尿素氮水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "刺五加多糖能显著提高断奶仔猪的碱性磷酸酶活性，其中V组酶活性比I组显著提高了25:88%。",
+    "reference_case": "刺五加多糖能显著提高断奶仔猪的碱性磷酸酶活性，其中V组酶活性比I组显著提高了17:88%。",
+    "error_detail": "数值偏差",
+    "original_question": "刺五加多糖对断奶仔猪的碱性磷酸酶活性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "刺五加多糖能显著提高断奶仔猪的葡萄糖水平，其中II、III、IV和V组与I组相比差异显著。",
+    "reference_case": "刺五加多糖能显著提高断奶仔猪的葡萄糖水平，其中III、IV和V组与I组相比差异显著。",
+    "error_detail": "需求冲突",
+    "original_question": "刺五加多糖对断奶仔猪的葡萄糖水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "刺五加多糖能显著提高断奶仔猪的谷胱甘肽过氧化物酶（GSH-Px）活力，II、III、IV、V和VI组与I组相比显著提高了10:36%、20:89%、20:28%、20:34%和18:95%。",
+    "reference_case": "刺五加多糖能显著提高断奶仔猪的谷胱甘肽过氧化物酶（GSH-Px）活力，II、III、IV、V和VI组与I组相比显著提高了8:36%、16:89%、17:28%、17:34%和15:95%。",
+    "error_detail": "数值偏差",
+    "original_question": "刺五加多糖对断奶仔猪的谷胱甘肽过氧化物酶（GSH-Px）活力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "刺五加多糖能显著提高断奶仔猪的超氧化物歧化酶（SOD）活力，II、III、IV、V和VI组较I组相对提高了7:01%、12:03%、20:05%、22:72%和10:65%。",
+    "reference_case": "刺五加多糖能显著提高断奶仔猪的超氧化物歧化酶（SOD）活力，II、III、IV、V和VI组较I组相对提高了5:01%、9:03%、17:05%、18:72%和7:65%。",
+    "error_detail": "数值偏差",
+    "original_question": "刺五加多糖对断奶仔猪的超氧化物歧化酶（SOD）活力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "刺五加多糖能显著降低断奶仔猪的腹泻率，整个试验期各试验组腹泻率与I组相比均显著降低，但对生长性能无显著影响。",
+    "reference_case": "刺五加多糖能显著降低断奶仔猪的腹泻率，整个试验期各试验组腹泻率与I组相比均显著降低。",
+    "error_detail": "添加假设",
+    "original_question": "刺五加多糖对断奶仔猪的腹泻率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "阴性猪尿液是通过液相色谱-串联质谱联用（HPLC-MS/MS）检测为β-激动剂类药物阴性的尿样，采自北京市某养猪场。",
+    "reference_case": "阴性猪尿液是通过液相色谱-串联质谱联用（HPLC-MS/MS）检测为β-激动剂类药物阴性的尿样，采自上海市某养猪场。",
+    "error_detail": "地域差异",
+    "original_question": "文章中用于检测β-激动剂类药物的阴性猪尿液是如何获得的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "袁施彬（2010:选用26±2 d的断奶三元去势杂交仔猪，在日粮中添加3%新鲜鱼油和3%三种氧化程度的氧化鱼油，试验期为24 d，检测MDA的含量来评估氧化应激。",
+    "reference_case": "袁施彬（2007:选用26±2 d的断奶三元去势杂交仔猪，在日粮中添加3%新鲜鱼油和3%三种氧化程度的氧化鱼油，试验期为24 d，检测MDA的含量来评估氧化应激。",
+    "error_detail": "过时标准",
+    "original_question": "如何构建以氧化鱼油为应激源的食源性仔猪模型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "袁施彬（2007:选用26±2 d的断奶三元去势杂交仔猪，按体质量相近原则将试猪分配到3个处理中，处理3组在试验开始时腹腔注射15 mg/kg体质量的Diquat溶液，处理1和处理2同时注射等剂量的灭菌氯化钠注射液作为对照。",
+    "reference_case": "袁施彬（2007:选用26±2 d的断奶三元去势杂交仔猪，按体质量相近原则将试猪分配到3个处理中，处理3组在试验开始时腹腔注射12 mg/kg体质量的Diquat溶液，处理1和处理2同时注射等剂量的灭菌氯化钠注射液作为对照。",
+    "error_detail": "数值偏差",
+    "original_question": "如何构建以Diquat为应激源的腹腔注射型仔猪模型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "徐静（2010:选用8头（杜×长×大）生长猪，随机分为2组，应激组按8 mg/kg体质量一次性腹腔注射Diquat溶液，对照组腹腔注射相同剂量的灭菌氯化钠注射液，试验期35 d。",
+    "reference_case": "徐静（2008:选用8头（杜×长×大）生长猪，随机分为2组，应激组按8 mg/kg体质量一次性腹腔注射Diquat溶液，对照组腹腔注射相同剂量的灭菌氯化钠注射液，试验期35 d。",
+    "error_detail": "过时标准",
+    "original_question": "如何构建以Diquat为应激源的腹腔注射型生长猪模型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "2009年农业部发布的《饲料添加剂安全使用规范》对生猪配合饲料中铜、铁、锰、锌和硒的最高限量作了强制性规定。",
+    "reference_case": "2009年农业部发布的《饲料添加剂安全使用规范》对生猪配合饲料中铜、铁、锰和锌的最高限量作了强制性规定。",
+    "error_detail": "需求冲突",
+    "original_question": "2009年农业部发布的《饲料添加剂安全使用规范》对生猪配合饲料中哪些微量元素的最高限量作了强制性规定？",
+    "original_input": ""
+  }
+]

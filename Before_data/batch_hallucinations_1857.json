@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育猪日增重提高25%，饲料利用率提高10%~20%。",
+    "reference_case": "保育猪日增重提高15%，饲料利用率提高6%~14%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "网床饲养保育仔猪的优点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "一种尺寸为长2000~2200mm×宽1800~2000mm×高800mm，饲养1窝仔猪；另一种尺寸为长3000~4000mm×宽3000~3500mm×高800mm，饲养20~30头仔猪。",
+    "reference_case": "一种尺寸为长1800~2000mm×宽1700~1800mm×高700mm，饲养1窝仔猪；另一种尺寸为长2500~3500mm×宽2400~3000mm×高700mm，饲养20~30头仔猪。",
+    "error_detail": "地域差异",
+    "original_question": "保育猪栏网床的标准尺寸有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "每批以10窝或15窝保育仔猪为一个饲养单元，该单元的仔猪全进全出。出栏后，单元清洗消毒，空圈5-7天后再次进入另一批仔猪。",
+    "reference_case": "每批以8窝或12窝保育仔猪为一个饲养单元，该单元的仔猪全进全出。出栏后，单元清洗消毒，空圈2-3天后再次进入另一批仔猪。",
+    "error_detail": "术语错误",
+    "original_question": "什么是小单元全进全出饲养保育仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "可以避免保育猪之间的交叉感染，提高保育猪成活率，改善保育猪舍的环境，并且可以显著提高猪的生长速度。",
+    "reference_case": "可以避免保育猪之间的交叉感染，提高保育猪成活率，改善保育猪舍的环境。",
+    "error_detail": "添加假设",
+    "original_question": "采用小单元全进全出饲养方式对保育猪有何好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在同一时间内将同一生长发育或繁殖阶段的猪群全部从一栋猪舍移进，经过一段时间饲养后，再在同一时间移出转至另一猪舍，以避免不同猪舍间猪混群时的疾病传播，这种方法已经不再推荐使用。",
+    "reference_case": "在同一时间内将同一生长发育或繁殖阶段的猪群全部从一栋猪舍移进，经过一段时间饲养后，再在同一时间移出转至另一猪舍，以避免不同猪舍间猪混群时的疾病传播。",
+    "error_detail": "过时标准",
+    "original_question": "什么是“全进全出”饲养工艺？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "将猪舍分成若干独立单元，每个单元“全进全出”，在每个单元猪群全部转出后，立即清洗、消毒猪栏、地面、墙壁、用具等，再封闭门窗熏蒸消毒，但不需要等待消毒效果验证。",
+    "reference_case": "将猪舍分成若干独立单元，每个单元“全进全出”，在每个单元猪群全部转出后，立即清洗、消毒猪栏、地面、墙壁、用具等，再封闭门窗熏蒸消毒。",
+    "error_detail": "需求冲突",
+    "original_question": "如何实现“全进全出”饲养工艺？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "使一个单元猪舍的猪在转群时尽可能做到“全进全出”，并空舍封闭7天进行彻底消毒，这样可以提高猪的生长速度。",
+    "reference_case": "使一个单元猪舍的猪在转群时尽可能做到“全进全出”，并空舍封闭7天进行彻底消毒。",
+    "error_detail": "因果错误",
+    "original_question": "小单元猪舍设计的目的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "根据猪群的饲养、空圈数及每圈饲养头数计算每单元的圈数和所需单元数，再根据实际情况设计每栋分娩保育舍的适宜长度，但不需要考虑猪舍的实际空间。",
+    "reference_case": "根据猪群的饲养、空圈数及每圈饲养头数计算每单元的圈数和所需单元数，再根据实际情况设计每栋分娩保育舍的适宜长度。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "小单元猪舍设计流程方案？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "小单元猪舍设计有利有弊，要根据具体情况，具体应用。从国内猪场实行“单元式”猪舍设计效果上分析，产仔舍、生长舍可采用“小栋大单元”或“大栋小单元”设计概念，需配套负压通风的局部环境调控及“湿清粪”工艺。",
+    "reference_case": "小单元猪舍设计有利有弊，要根据具体情况，具体应用。从国内猪场实行“单元式”猪舍设计效果上分析，产仔舍、生长舍可采用“小栋大单元”或“大栋小单元”设计概念，需配套正压通风的局部环境调控及“干清粪”工艺。",
+    "error_detail": "术语错误",
+    "original_question": "小单元猪舍设计要注意哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "优点一是大批量仔猪断奶时不需要转群，避免应激；优点二是仔猪原窝原圈，防止混群后的打斗、咬伤，并且可以显著提高猪的免疫力。",
+    "reference_case": "优点一是大批量仔猪断奶时不需要转群，避免应激；优点二是仔猪原窝原圈，防止混群后的打斗、咬伤。",
+    "error_detail": "添加假设",
+    "original_question": "采用分娩保育一体化工艺的主要优点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育猪舍适宜的湿度范围为70%~80%。",
+    "reference_case": "保育猪舍适宜的湿度范围为65%~75%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "保育猪舍适宜的湿度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "过度用水冲洗保育舍会导致舍内湿度过大、舍内温度降低，增加寒冷和对猪的不良反应，促进细菌繁殖、引起仔猪下痢和其他疾病，但这些影响可以忽略不计。",
+    "reference_case": "过度用水冲洗保育舍会导致舍内湿度过大、舍内温度降低，增加寒冷和对猪的不良反应，促进细菌繁殖、引起仔猪下痢和其他疾病。",
+    "error_detail": "权重错误",
+    "original_question": "过度用水冲洗保育舍的危害有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "减少不必要的冲栏与带猪喷雾消毒，加强通风或抽风，控制饮水器的压力，栏舍地面避免积水，采用熟石灰吸潮，建造水厕所以调节舍内湿度。",
+    "reference_case": "减少不必要的冲栏与带猪喷雾消毒，加强通风或抽风，控制饮水器的压力，栏舍地面避免积水，采用生石灰吸潮，建造水厕所以调节舍内湿度。",
+    "error_detail": "术语错误",
+    "original_question": "保持保育舍干燥的主要方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪保育期对今后的育肥生产性能和经济效益影响极大，56日龄时多增重2.2kg，至育肥出栏时可多增重10kg。",
+    "reference_case": "仔猪保育期对今后的育肥生产性能和经济效益影响极大，56日龄时多增重1.1kg，至育肥出栏时可多增重5kg。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "仔猪保育期对日后的育肥有何重要性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "早期断奶减少了母猪的体能损耗，提高了母猪的繁殖力和饲料利用率，节省了母猪的泌乳饲料，降低了分娩猪舍的成本分摊，从而提高了规模养猪的经济效益，并且可以显著提高猪的肉质。",
+    "reference_case": "早期断奶减少了母猪的体能损耗，提高了母猪的繁殖力和饲料利用率，节省了母猪的泌乳饲料，降低了分娩猪舍的成本分摊，从而提高了规模养猪的经济效益。",
+    "error_detail": "添加假设",
+    "original_question": "早期断奶对规模养猪的经济效益有何益处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "加强母源抗体的保护主要通过提高母猪的免疫水平和管理措施来减少病原微生物的传播，同时需要定期给母猪注射抗生素。",
+    "reference_case": "加强母源抗体的保护主要通过提高母猪的免疫水平和管理措施来减少病原微生物的传播。",
+    "error_detail": "术语错误",
+    "original_question": "如何加强母源抗体的保护，减少病原微生物的传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "7、21日龄肌内注射抗菌药物？可以减少病原微生物感染，但这种方法已经不再推荐使用。",
+    "reference_case": "7、21日龄肌内注射抗菌药物？可以减少病原微生物感染。",
+    "error_detail": "过时标准",
+    "original_question": "7、21日龄肌内注射抗菌药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高铜日粮会引起某些营养素缺乏，增加饲养成本，并且可能导致猪的生长速度下降20%。",
+    "reference_case": "高铜日粮会引起某些营养素缺乏，增加饲养成本。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "高铜日粮对猪有哪些不利影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "采用高锌日粮（含锌量为2000～3000 mg/kg）在短期内喂给断奶仔猪药理浓度的锌，可防止仔猪腹泻，增加生长性能，但不需要考虑锌的长期影响。",
+    "reference_case": "采用高锌日粮（含锌量为2000～3000 mg/kg）在短期内喂给断奶仔猪药理浓度的锌，可防止仔猪腹泻，增加生长性能。",
+    "error_detail": "需求冲突",
+    "original_question": "高锌日粮如何降低断奶后仔猪的腹泻率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "长期添加高锌会导致猪中毒，打破元素平衡，特别是影响铜和铁的吸收，引起仔猪贫血，但这可以显著提高猪的生长速度。",
+    "reference_case": "长期添加高锌会导致猪中毒，打破元素平衡，特别是影响铜和铁的吸收，引起仔猪贫血。",
+    "error_detail": "因果错误",
+    "original_question": "长期添加高锌会对猪造成什么影响？",
+    "original_input": ""
+  }
+]

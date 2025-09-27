@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪破伤风的易感性极高，几乎所有猪只都会在出生后立即感染。",
+    "reference_case": "猪也易发，不分品种、年龄、性别均可发生，但幼畜较老家畜更为易感。",
+    "error_detail": "夸大了猪破伤风的易感性，错误地声称几乎所有猪只都会在出生后立即感染。",
+    "original_question": "猪破伤风的易感性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪破伤风的症状包括高热、咳嗽和流鼻涕。",
+    "reference_case": "发病时一般从头部肌肉开始痉挛，肌肉僵硬，咬肌紧缩，张嘴困难，严重时牙关紧闭、两耳坚立、头颈伸直、四肢僵直不能弯曲，蹄尖着地行走，呈奔跳姿势，现强直步态，流涎，叫声尖细如鼠。应激性增高，对光、声和稍有触动等的刺激，反应明显、症状加剧。",
+    "error_detail": "错误地将猪破伤风的症状描述为高热、咳嗽和流鼻涕，这些症状与猪破伤风的实际症状不符。",
+    "original_question": "猪破伤风的症状如何表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪破伤风的病程通常持续数月，病死率极低。",
+    "reference_case": "病程长短不一，通常1-2周，最后窒息死亡，病死率较高。",
+    "error_detail": "错误地描述了猪破伤风的病程和病死率，与实际情况不符。",
+    "original_question": "猪破伤风的病程如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "治疗猪破伤风时，通常采取手术切除感染部位。",
+    "reference_case": "治疗猪破伤风时，通常采取注射抗血清和药物治疗，同时进行伤口处理和消毒。",
+    "error_detail": "错误地建议通过手术切除感染部位来治疗猪破伤风，这与常规治疗方法不符。",
+    "original_question": "治疗猪破伤风时，通常采取哪些措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪破伤风的预防措施包括定期给猪注射抗生素。",
+    "reference_case": "对炭疽常发地区的猪群，每年进行预防注射，以增强猪体的特异性抵抗力。",
+    "error_detail": "错误地将抗生素注射作为猪破伤风的预防措施，实际上预防措施是针对炭疽的预防注射。",
+    "original_question": "猪破伤风的预防措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "附红体主要寄生于北极熊和企鹅。",
+    "reference_case": "附红体寄生的宿主有鼠类、绵羊、山羊、牛、猪、狗、猫、鸟类、骆马（美洲驼）和人等。",
+    "error_detail": "错误地声称附红体主要寄生于北极熊和企鹅，这与实际的宿主范围不符。",
+    "original_question": "附红体主要寄生于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痢疾的典型临床症状包括皮肤出现红斑和脱毛。",
+    "reference_case": "猪痢疾表现为卡他性、出血性、坏死性炎症，病变局限于大肠。",
+    "error_detail": "错误地将皮肤红斑和脱毛描述为猪痢疾的典型临床症状，这些症状与猪痢疾的实际表现不符。",
+    "original_question": "猪痢疾的典型临床症状和剖检病变是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "控制猪痢疾时，应优先考虑使用抗生素，而不必担心抗药菌株的产生。",
+    "reference_case": "全群给药，疗程足够，但不能长期使用，以免产生抗药菌株。",
+    "error_detail": "错误地强调了抗生素使用的优先级，忽视了抗药菌株产生的风险。",
+    "original_question": "控制猪痢疾时应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪衣原体病由流感病毒引起。",
+    "reference_case": "猪衣原体病由貪島热衣原体引起。",
+    "error_detail": "错误地将猪衣原体病的病原体描述为流感病毒，与实际情况不符。",
+    "original_question": "猪衣原体病是由什么引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪衣原体病的主要临床症状包括100%的猪只出现高热。",
+    "reference_case": "猪衣原体病主要表现为繁殖障碍型、种公猪衣原体感染、肺炎型、肠炎型、多发性关节炎型、脑炎型和结膜炎型。",
+    "error_detail": "错误地声称所有感染猪衣原体病的猪只都会出现高热，这与实际的临床症状不符。",
+    "original_question": "猪衣原体病的主要临床症状有哪些？",
+    "original_input": ""
+  }
+]

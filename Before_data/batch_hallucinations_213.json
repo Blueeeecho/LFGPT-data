@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪乙型脑炎的免疫预防措施包括接种弱毒活疫苗、鼠脑灭活疫苗和基因工程疫苗（已广泛应用）。",
+    "reference_case": "猪乙型脑炎的免疫预防措施包括接种弱毒活疫苗、鼠脑灭活疫苗和基因工程疫苗（尚处于研究阶段）。",
+    "error_detail": "基因工程疫苗的应用状态被错误描述为已广泛应用，实际上尚处于研究阶段。",
+    "original_question": "猪乙型脑炎的免疫预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪乙型脑炎的流行季节一般发生在4月至11月，其中90%的病例发生在6月至10月。",
+    "reference_case": "猪乙型脑炎的流行季节一般发生在5月至10月，其中80%的病例发生在7月至9月。",
+    "error_detail": "流行季节和病例比例的数据被错误修改。",
+    "original_question": "猪乙型脑炎的流行季节是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪乙型脑炎的主要传播媒介是苍蝇。",
+    "reference_case": "猪乙型脑炎的主要传播媒介是蚊子，蚊子叮咬病猪后带毒，病毒能在虫体内繁殖并越冬。",
+    "error_detail": "传播媒介被错误地描述为苍蝇，实际上是蚊子。",
+    "original_question": "猪乙型脑炎的主要传播媒介是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪乙型脑炎对母猪的主要影响是食欲下降。",
+    "reference_case": "猪乙型脑炎对母猪的主要影响是繁殖障碍，表现为早产、延产、流产或产出死胎，胎儿多为木乃伊胎或死胎。",
+    "error_detail": "主要影响被错误地描述为食欲下降，实际上是繁殖障碍。",
+    "original_question": "猪乙型脑炎对母猪的主要影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪乙型脑炎的治疗方法包括使用抗生素。",
+    "reference_case": "猪乙型脑炎的治疗方法包括西药治疗（如肌肉注射康复猪血清、静脉注射葡萄糖注射液和磺胺嘧啶钠注射液）和中医治疗（如使用中药方剂进行灌服或针㕕治疗）。",
+    "error_detail": "治疗方法被错误地描述为包括使用抗生素，实际上不包括。",
+    "original_question": "猪乙型脑炎的治疗方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪乙型脑炎的病理变化包括母猪子宫黏膜无明显变化。",
+    "reference_case": "猪乙型脑炎的病理变化包括母猪子宫黏膜充血、出血，胎盘水肿或出血；木乃伊胎儿全身淋巴结出血，肺淤血、水肿，肝、脾、肾有坏死灶；公猪睪丸实质有小坏死灶、充血，甚至出血，睪丸实质结缔组织化，体积缩小，与阴囊粘连。",
+    "error_detail": "病理变化被错误地描述为无明显变化，实际上有具体的病理变化。",
+    "original_question": "猪乙型脑炎的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪乙型脑炎的综合防治措施包括避免猪群接触水源。",
+    "reference_case": "猪乙型脑炎的综合防治措施包括加强饲养管理、消灭传播媒介（如防蚊灭蚊）、免疫预防（如接种弱毒活疫苗、鼠脑灭活疫苗）和治疗方法（如西药治疗和中医治疗）。",
+    "error_detail": "防治措施被错误地添加了避免接触水源，这与原始指令不符。",
+    "original_question": "猪乙型脑炎的综合防治措施包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪乙型脑炎的病原是细菌。",
+    "reference_case": "猪乙型脑炎的病原是乙型脑炎病毒，这是一种虫媒病毒。",
+    "error_detail": "病原被错误地描述为细菌，实际上是病毒。",
+    "original_question": "猪乙型脑炎的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "防治猪疥癣的方法包括增加猪群的户外活动时间。",
+    "reference_case": "防治猪疥癣的方法包括搞好猪舍及用具卫生，保持猪舍干燥通风、饲养密度适宜，并定期消毒。经常注意猪群有无发痒、脱毛现象，及时排查可疑病猪，隔离饲养，查明原因，采取相应措施。从外地购入的猪，引入后应仔细观察，确无螨病，方可入群饲养。对已确诊的病猪，立即隔离治疗，以防止蔓延，病猪接触的圈舍、饲槽及用具均应彻底消毒，以防传染。在治疗时主要是灭疼螨，常用2%敌百虫水溶液洗擦患部或喷淋猪体，持续使用1周以上；或伊维菌素或阿维菌素按0:3 g/(kg·BW)一次皮下注射。",
+    "error_detail": "防治方法被错误地添加了增加户外活动时间，这与原始指令不符。",
+    "original_question": "如何防治猪疥癣？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪疥癣的临床症状包括体温升高。",
+    "reference_case": "猪疥癣的临床症状包括皮肤剧痒、局部被毛脱落、渗出液、血液结成痂皮。如化脓感染则形成脓灶。因擦痒不断，痂皮一再脱落再结，久之皮肤增厚、变粗、变硬，失去弹性。幼猪因痋痒而不安，皮肤机能遭到破坏，营养不良，消瘦，发育受阻，成为僵猪，甚至引起死亡。",
+    "error_detail": "临床症状被错误地添加了体温升高，实际上不包括。",
+    "original_question": "猪疥癣的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪疥癣的传播途径主要是空气传播。",
+    "reference_case": "猪疥癣的传播途径主要是病猪污染器具、圈舍，病、健猪相互接触而传播。进出猪圈人员、老鼠、猫、犬和用具也都可传播病原。",
+    "error_detail": "传播途径被错误地描述为空气传播，实际上是接触传播。",
+    "original_question": "猪疥癣的传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪疥癣的治疗中需要多次用药是因为一次用药只能杀死50%的疥螨。",
+    "reference_case": "猪疥癣的治疗中需要多次用药是因为一次用药不能将疥螨全部杀死，需在初次用药后5～7天，待虫卵卵化为幼虫时再及时使用药物进行第二次杀灭，以达到更好的治疗效果。",
+    "error_detail": "治疗原因被错误地量化为杀死50%的疥螨，实际上是因为不能全部杀死。",
+    "original_question": "猪疥癣的治疗中为什么需要多次用药？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪疥癣的防治措施包括减少猪群的饲料供应。",
+    "reference_case": "猪疥癣的防治措施包括搞好猪舍及用具卫生，保持猪舍干燥通风、饲养密度适宜，并定期消毒。对已确诊的病猪，应立即隔离治疗，并使用2%敌百虫水溶液或伊维菌素、阿维菌素进行治疗。",
+    "error_detail": "防治措施被错误地添加了减少饲料供应，这与原始指令不符。",
+    "original_question": "猪疥癣的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪疥癣会导致猪的食欲下降，从而导致采食与休息严重受到影响。",
+    "reference_case": "猪疥癣会导致猪的采食与休息严重受到影响，导致食欲下降，形成僵猪，甚至死亡，严重影响养殖效益。",
+    "error_detail": "因果关系被错误地倒置，实际上是采食与休息受到影响导致食欲下降。",
+    "original_question": "猪疥癣对猪的生长有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪疥癣的临床症状包括呼吸急促。",
+    "reference_case": "猪疥癣的临床症状包括皮肤剧痒、局部被毛脱落、渗出液和血液结成痂皮，严重时皮肤增厚、变粗、变硬，失去弹性。",
+    "error_detail": "临床症状被错误地添加了呼吸急促，实际上不包括。",
+    "original_question": "猪疥癣的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "诊断猪疥癣可以通过血液检测。",
+    "reference_case": "诊断猪疥癣可以通过观察皮肤剧痒、局部被毛脱落、渗出液和血液结成痂皮等症状，并结合实验室检查来确诊。",
+    "error_detail": "诊断方法被错误地添加了血液检测，这与原始指令不符。",
+    "original_question": "如何诊断猪疥癣？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪疥螨的成虫虫体大小约为0:5mm×0:4mm。",
+    "reference_case": "猪疥螨的成虫虫体呈龟形，微黄白色，背面隆起，腹部扁平。雄虫大小约为0:2～0:23mm×0:14～0:19mm，雌虫大小约为0:33～0:45mm×0:25～0:35mm。",
+    "error_detail": "成虫虫体的大小被错误地夸大。",
+    "original_question": "猪疥螨的成虫形态特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪疥螨的生活史中，雌虫一生产卵100个以上。",
+    "reference_case": "猪疥螨的生活史包括雌雄交配后雄虫死亡，雌虫生存4～5周，每天产卵1～2个，一生产卵40～50个。虫卵孵化出幼虫，幼虫在皮肤表面蜕化为若虫，若虫钻入皮肤蜕化为成虫，整个发育周期8～22天，平均15天。",
+    "error_detail": "雌虫的产卵数量被错误地夸大。",
+    "original_question": "猪疥螨的生活史是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪疥癣是由真菌引起的。",
+    "reference_case": "猪疥癣是由疥螨科疥螨属的猪疥螨寄生于猪的皮肤内引起的。",
+    "error_detail": "病原体被错误地描述为真菌，实际上是疥螨。",
+    "original_question": "猪疥癣是由什么病原体引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪疥癣在高寒山区的夏季更容易发生。",
+    "reference_case": "猪疥癣在高寒山区的秋冬和早春季节更容易发生，因为这些季节阳光少，低温天气持续时间长。",
+    "error_detail": "易发季节被错误地描述为夏季，实际上是秋冬和早春。",
+    "original_question": "猪疥癣在高寒山区的哪些季节更容易发生？",
+    "original_input": ""
+  }
+]

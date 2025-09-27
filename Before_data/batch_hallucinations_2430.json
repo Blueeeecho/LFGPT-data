@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鸡粪中氮含量为2.0%，磷含量为0.8%，钾含量为0.8%。",
+    "reference_case": "鸡粪中氮含量为1.7%，磷含量为0.6%，钾含量为0.6%。",
+    "error_detail": "数值偏差",
+    "original_question": "鸡粪中氮、磷、钾的含量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "HCG检测试纸条专为人类设计，不能用于牛、羊、猪等非灵长类动物的妊娠诊断。",
+    "reference_case": "理论上可以使用HCG检测试纸条对牛、羊、猪等非灵长类动物进行妊娠诊断，但实际应用中需要验证该试纸条在不同物种中的适用性，确保其准确性和可靠性。",
+    "error_detail": "术语错误",
+    "original_question": "能否用HCG检测试纸条对牛、羊、猪等非灵长类动物进行妊娠诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪精液冷冻保存的稀释液中葡萄糖浓度为10%，鸡精液冷冻保存的稀释液中葡萄糖浓度为7%。",
+    "reference_case": "猪精液冷冻保存的稀释液中葡萄糖浓度为8%，鸡精液冷冻保存的稀释液中葡萄糖浓度为5%。",
+    "error_detail": "数值偏差",
+    "original_question": "猪和鸡精液冷冻保存的稀释液配制方法有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪精液冷冻保存使用的解冻液葡萄糖浓度为6g/L，鸡精液冷冻保存使用的解冻液葡萄糖浓度为6.7g/L。",
+    "reference_case": "猪精液冷冻保存使用的解冻液葡萄糖浓度为5g/L，鸡精液冷冻保存使用的解冻液葡萄糖浓度为5.7g/L。",
+    "error_detail": "数值偏差",
+    "original_question": "猪和鸡精液冷冻保存的解冻液配制有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "精液准备时，无需用显微镜检查精子活力。",
+    "reference_case": "精液准备时，手握法采集新鲜精液，用消毒的4层脱脂纱布过滤，去除胶状物，并在38~40℃下用显微镜检查，精子活力不低于0.65。",
+    "error_detail": "指令偏离",
+    "original_question": "猪精液冷冻保存的精液准备步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪和鸡精液冷冻保存中预热步骤不同，猪需预热至40℃，鸡需预热至35℃。",
+    "reference_case": "两者预热步骤相同，将稀释液和精液放入水浴锅中预热至33~37℃，以精液温度为标准，使两者同温度。",
+    "error_detail": "添加假设",
+    "original_question": "猪和鸡精液冷冻保存中预热步骤有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪和鸡精液冷冻保存中稀释步骤不同，猪按1:1比例稀释，鸡按1:3比例稀释。",
+    "reference_case": "两种稀释方法相同，将稀释液按1:2的比例缓慢加入精液中，边加边缓慢搅匀。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "猪和鸡精液冷冻保存中稀释步骤有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "猪和鸡精液冷冻保存中平衡步骤不同，猪需降温到-5℃，鸡需降温到5℃。",
+    "reference_case": "两者平衡步骤相同，将稀释后的精液用试管（或小瓶）分装后，用4层干毛巾包裹，放入冰箱内缓慢降温到0~5℃，并保持2~4小时。",
+    "error_detail": "误解上下文",
+    "original_question": "猪和鸡精液冷冻保存中平衡步骤有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "猪和鸡精液冷冻保存中滴冻步骤不同，猪需预冷10分钟，鸡需预冷5分钟。",
+    "reference_case": "两种滴冻步骤相同，取一保温瓶或铝饭盒倒入液氮，放一铜纱网或铝饭盒盖距液氮面1~3cm处预冷5分钟，使其温度维持在-80~-100℃。然后用吸管吸取平衡后的精液快速而均匀地滴于冷却后的铜纱网或铝饭盒的表面，制成0.1~0.2mL剂量的冷冻颗粒。",
+    "error_detail": "权重错误",
+    "original_question": "猪和鸡精液冷冻保存中滴冻步骤有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪和鸡精液冷冻保存中保存步骤不同，猪需停留5分钟，鸡需停留3分钟。",
+    "reference_case": "两种保存方法相同，滴冻结束后让精液颗粒停留3分钟，待颗粒由黄变白，即可将铜纱网或铝饭盒盖浸入液氮，然后用青霉素瓶或纱布袋收集颗粒，做好标识，投入液氮罐中保存。",
+    "error_detail": "指令偏离",
+    "original_question": "猪和鸡精液冷冻保存中保存步骤有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪和鸡精液冷冻保存中解冻步骤不同，猪需解冻液2mL，鸡需解冻液1mL。",
+    "reference_case": "两种解冻方法相同，在2mL容量的试管内装入解冻液1mL，放入40℃的水浴中，随后取1~2粒精液投入试管中，立刻摇动直至颗粒融化再取出试管，取样观察，凡精子活力不低于0.3，精子畸形率≤20%时即为合格。",
+    "error_detail": "添加假设",
+    "original_question": "猪和鸡精液冷冻保存中解冻步骤有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "采精时需用不戴手套的手握住阴茎的龟头部。",
+    "reference_case": "当公猪爬跨采精台、阴茎伸出时，采精员用戴手套的手握住阴茎的龟头部，并趁公猪前拥之势，将阴茎的S状弯曲拉出阴茎，手要由松到紧有弹性、有节奏地握住螺旋状的龟头。",
+    "error_detail": "术语错误",
+    "original_question": "猪采精时如何导出阴茎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "公猪俯伏不动时表示结束射精。",
+    "reference_case": "公猪俯伏不动时表示开始射精，首先收集精液为水状液体，很稀薄，含精量少，然后收集第二部分浓稠精液，最后阶段的精液含有较多的胶状物，也不收集。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "猪采精时如何收集精液？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "公猪射精完毕后，应立即推阴茎，防止挫伤。",
+    "reference_case": "公猪射精完毕后，让其自然收回包皮，不能推阴茎，防止挫伤。",
+    "error_detail": "指令偏离",
+    "original_question": "猪采精后怎样预防阴茎挫伤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "母猪发情时，外阴会变得干燥。",
+    "reference_case": "猪发情时，卵泡发育、成熟，引起生殖器官血流量增加，外阴充血、水肿，阴道黏膜充血、潮红；子宫、输卵管活动增强，宫颈松驰；腺体增大，分泌机能加强，分泌清液。大阴道上皮细胞角质化。雌激素作用于性中枢引起性兴奋和性欲，使母猪表现兴奋不安、对外界刺激敏感、鸣叫、举尾拱背、频频排尿、食欲下降、泌乳下降、离群独走，主动寻找或接近公猪、爬跨、接受爬跨和交配时站立不动等行为变化。",
+    "error_detail": "术语错误",
+    "original_question": "如何判断母猪发情？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪发情一般在断乳后10天出现。",
+    "reference_case": "母猪发情一般在断乳后5～7天出现，早期断乳在分娩后3～4周，通常在分娩后第6周注射PMSG 750～1000IU。",
+    "error_detail": "数值偏差",
+    "original_question": "断乳法在母猪中的使用步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "分娩后第8周断乳的母猪注射PMSG 500IU。",
+    "reference_case": "分娩后第6周断乳的母猪注射PMSG 750～1000IU，能引起母猪发情排卵，早于一个月断乳则需加大激素用量。",
+    "error_detail": "数值偏差",
+    "original_question": "PMSG法在母猪中的使用步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PG600法在后备母猪中每头10mL。",
+    "reference_case": "PG600法在后备母猪中每头5mL，在28天内有85%～95%的后备猪表现发情，主要集中在注射后一周内。",
+    "error_detail": "数值偏差",
+    "original_question": "PG600法在后备母猪中的使用步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PG600法在经产母猪中在断乳当天注射10mL。",
+    "reference_case": "PG600法在经产母猪中在断乳当天注射5mL，7天内有90%～95%表现发情。",
+    "error_detail": "数值偏差",
+    "original_question": "PG600法在经产母猪中的使用步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "妊娠25~35d时，孕角变细伸长，空角变粗缩短。",
+    "reference_case": "妊娠25~35d时，孕角变粗缩短，空角稍细而弯曲，子宫角坚实，如猪尾巴，胚泡大如鸡蛋，柔软有波动。",
+    "error_detail": "术语错误",
+    "original_question": "妊娠25~35d，母牛子宫角的形态有何变化？",
+    "original_input": ""
+  }
+]

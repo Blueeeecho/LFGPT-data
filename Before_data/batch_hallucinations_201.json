@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中不同乳清粉水平和料型对断奶仔猪干物质、粗蛋白质、有机物和总能的全肠道表观消化率有显著差异。",
+    "reference_case": "试验中不同乳清粉水平和料型对断奶仔猪干物质、粗蛋白质、有机物和总能的全肠道表观消化率均无显著差异。",
+    "error_detail": "错误地声称存在显著差异，而实际上无显著差异。",
+    "original_question": "试验中不同乳清粉水平和料型对断奶仔猪干物质、粗蛋白质、有机物和总能的全肠道表观消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "试验中使用的断奶仔猪品种是长白猪。",
+    "reference_case": "试验中使用的断奶仔猪品种是杜×长×大三元杂交乳仔猪。",
+    "error_detail": "错误地将杂交品种简化为单一品种。",
+    "original_question": "试验中使用的断奶仔猪品种是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中不同乳清粉水平和料型对断奶仔猪腹泻率的影响有显著差异，各处理组的腹泻率差异较大。",
+    "reference_case": "试验中不同乳清粉水平和料型对断奶仔猪腹泻率的影响无显著差异，各处理组的腹泻率均为9%左右。",
+    "error_detail": "错误地声称存在显著差异和较大差异，而实际上无显著差异且腹泻率相近。",
+    "original_question": "试验中不同乳清粉水平和料型对断奶仔猪腹泻率的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "试验中通过测量试验结束时仔猪个体体重来计算断奶仔猪的平均日增重。",
+    "reference_case": "试验中通过测量试验结束时仔猪个体体重与试验开始时仔猪个体体重的差值，再除以试验天数来计算断奶仔猪的平均日增重。",
+    "error_detail": "忽略了试验开始时仔猪个体体重的测量和试验天数的计算。",
+    "original_question": "试验中如何测量断奶仔猪的平均日增重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "试验中通过计算平均日增重与平均日采食量的比值来得到断奶仔猪的饲料转化率。",
+    "reference_case": "试验中通过计算平均日采食量与平均日增重的比值来得到断奶仔猪的饲料转化率。",
+    "error_detail": "错误地颠倒了平均日增重和平均日采食量的位置。",
+    "original_question": "试验中如何计算断奶仔猪的饲料转化率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验结果表明，颗粒料组的断奶仔猪平均日增重与粉料组无显著差异。",
+    "reference_case": "试验结果表明，颗粒料组的断奶仔猪平均日增重显著高于粉料组，且饲料转化率显著优于粉料组。",
+    "error_detail": "错误地声称无显著差异，而实际上存在显著差异。",
+    "original_question": "试验中颗粒料对断奶仔猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "乳清粉含有50%以上的乳糖。",
+    "reference_case": "乳清粉含有65%以上的乳糖，适口性好，能够改善断奶仔猪的生长性能，如提高日增重和采食量，降低饲料增重比，提高营养物质消化率，减少下痢，改善血液生化指标等。",
+    "error_detail": "错误地低估了乳清粉中乳糖的含量。",
+    "original_question": "乳清粉在断奶仔猪饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中使用的仔猪品种为杜洛克×长白断奶仔猪，体重范围为7:00±0:00 kg。",
+    "reference_case": "试验中使用的仔猪品种为杜洛克×长白×大白断奶仔猪，体重范围为7:37±0:04 kg。",
+    "error_detail": "错误地省略了大白品种，并错误地提供了体重范围。",
+    "original_question": "试验中使用的仔猪品种和体重范围是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "试验中通过将肠段固定、包埋、切片，并进行苏木素-伊红染色后，在电子显微镜下观察和测量肠黏膜的线毛高度和隐窝深度。",
+    "reference_case": "试验中通过将肠段固定、包埋、切片，并进行苏木素-伊红染色后，在光学显微镜下观察和测量肠黏膜的线毛高度和隐窝深度。",
+    "error_detail": "错误地使用了电子显微镜而非光学显微镜。",
+    "original_question": "试验中如何测定仔猪肠黏膜的形态结构？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "天冬酰胺（Asn）在体内可通过脱氨基和转氨基作用生成谷氨酸（Glu）和精氨酸（Arg）。",
+    "reference_case": "天冬酰胺（Asn）在体内可通过脱氨基和转氨基作用生成谷氨酰胺（Gln）和精氨酸（Arg）。",
+    "error_detail": "错误地将谷氨酰胺（Gln）混淆为谷氨酸（Glu）。",
+    "original_question": "天冬酰胺（Asn）在仔猪体内的代谢途径是什么？",
+    "original_input": ""
+  }
+]

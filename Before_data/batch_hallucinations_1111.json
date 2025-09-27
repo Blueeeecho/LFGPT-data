@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "有机硒能够提高仔猪的抗氧化能力约50%，并显著改善其生长性能。",
+    "reference_case": "有机硒能够显著提高仔猪的抗氧化能力，并改善其生长性能。",
+    "error_detail": "添加了不存在的具体数值比例",
+    "original_question": "有机硒对仔猪的抗氧化能力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "德威系列微量元素氨基酸鳌合物能够显著提高仔猪的抗氧化能力。",
+    "reference_case": "德威系列微量元素氨基酸鳌合物能够显著提高仔猪的生产性能。",
+    "error_detail": "混淆了生产性能与抗氧化能力的概念",
+    "original_question": "德威系列微量元素氨基酸鳌合物对仔猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪对日粮纤维的利用过程分为两个步骤：第一步，二糖和单糖被微生物利用；第二步，粗纤维被微生物分泌的酶水解成短链的低聚糖。",
+    "reference_case": "猪对日粮纤维的利用过程分为两个步骤：第一步，粗纤维被微生物分泌的酶水解成短链的低聚糖，主要是二糖，部分二糖继续水解为单糖；第二步，二糖和单糖被微生物利用，在一系列酶的作用下迅速降解为挥发性脂肪酸（VFA），如乙酸、丙酸、丁酸，并被机体吸收利用。",
+    "error_detail": "步骤顺序颠倒，导致因果错误",
+    "original_question": "猪对日粮纤维的利用过程分为哪两个步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪对日粮纤维的消化率受饲料组成成分、纤维类型、各营养因子之间的关系变化以及猪的品种影响。",
+    "reference_case": "猪对日粮纤维的消化率受饲料组成成分、纤维类型以及各营养因子之间的关系变化的影响。",
+    "error_detail": "添加了未经证实的猪品种影响",
+    "original_question": "猪对日粮纤维的消化率受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "挥发性脂肪酸（VFA）在猪体内的生理意义包括：作为营养物质被宿主上皮细胞吸收，维持肠上皮细胞健康，调控细胞增殖和免疫反应，影响结肠的生理功能如血流量、电解质吸收、结肠蠕动和离子转运，并通过与G蛋白耦合受体（GPCRs）结合调控机体的生理功能，其效率高达90%。",
+    "reference_case": "挥发性脂肪酸（VFA）在猪体内的生理意义包括：作为营养物质被宿主上皮细胞吸收，维持肠上皮细胞健康，调控细胞增殖和免疫反应，影响结肠的生理功能如血流量、电解质吸收、结肠蠕动和离子转运，并通过与G蛋白耦合受体（GPCRs）结合调控机体的生理功能。",
+    "error_detail": "添加了不存在的具体效率数值",
+    "original_question": "挥发性脂肪酸（VFA）在猪体内的生理意义是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪的生理阶段影响其对日粮纤维的利用，主要体现在日龄越大，猪利用纤维的能力越强。成年猪对纤维性饲料的消化率远高于生长猪，主要因为成年猪的肠道容积更大，大肠微生物区系更完善，发酵能力更强，这一结论基于2000年的研究。",
+    "reference_case": "猪的生理阶段影响其对日粮纤维的利用，主要体现在日龄越大，猪利用纤维的能力越强。成年猪对纤维性饲料的消化率远高于生长猪，主要因为成年猪的肠道容积更大，大肠微生物区系更完善，发酵能力更强。",
+    "error_detail": "引用了过时的研究数据",
+    "original_question": "猪的生理阶段如何影响其对日粮纤维的利用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "地方猪种和外来猪种在利用日粮纤维方面的差异主要体现在外来猪种通常比地方猪种具有更强的消化纤维的能力，这可能与外来猪种的基因改良有关。",
+    "reference_case": "地方猪种和外来猪种在利用日粮纤维方面的差异主要体现在地方猪种通常比外来猪种具有更强的消化纤维的能力，这可能与地方猪种长期采食高纤维低能量饲料导致其肠道微生物区系适应消化粗纤维有关。",
+    "error_detail": "颠倒了地方猪种和外来猪种的消化能力差异",
+    "original_question": "地方猪种和外来猪种在利用日粮纤维方面有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "可溶性纤维在猪体内的消化率高于不可溶性纤维。猪对可溶性纤维的表观总消化道消化率（ATTD）达到95%，而不可溶性纤维的ATTD为50%。",
+    "reference_case": "可溶性纤维在猪体内的消化率高于不可溶性纤维。猪对可溶性纤维的表观总消化道消化率（ATTD）达到90%，而不可溶性纤维的ATTD较低，主要因为可溶性纤维能提高肠腔粘度，减缓食糜移动速度，延长滞留时间，而不可溶性纤维则加快食糜运行时间，降低消化率。",
+    "error_detail": "修改了具体的消化率数值",
+    "original_question": "可溶性纤维和不可溶性纤维在猪体内的消化率有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪大肠微生物区系的结构与组成影响其对日粮纤维的利用，主要体现在不同生理阶段猪的微生物区系存在差异，导致其对蛋白质的利用能力不同。",
+    "reference_case": "猪大肠微生物区系的结构与组成影响其对日粮纤维的利用，主要体现在不同生理阶段猪的微生物区系存在差异，导致其对纤维的利用能力不同。例如，成年猪的纤维分解菌数量为生长猪的6:7倍，表明成年猪的微生物区系更有利于纤维的降解。",
+    "error_detail": "混淆了纤维利用与蛋白质利用的概念",
+    "original_question": "猪大肠微生物区系的结构与组成如何影响其对日粮纤维的利用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪对日粮纤维的利用研究主要集中在生产性能、繁殖性能、行为以及基因表达等方面。",
+    "reference_case": "猪对日粮纤维的利用研究主要集中在生产性能、繁殖性能和行为等方面。这些研究旨在探讨猪在不同生理阶段、品种和纤维来源下对日粮纤维的利用差异及其潜在机制。",
+    "error_detail": "添加了未经广泛研究的基因表达方面",
+    "original_question": "猪对日粮纤维的利用研究主要集中在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "通过研究外来猪种的肠道微生物，可以揭示其适应高纤维日粮的机制，如微生物区系的组成和代谢途径。这些信息可以为地方猪种提供参考，通过调整其肠道微生物区系或引入特定的纤维分解酶，提高其对日粮纤维的利用效率。",
+    "reference_case": "通过研究地方猪种的肠道微生物，可以揭示其适应高纤维日粮的机制，如微生物区系的组成和代谢途径。这些信息可以为外来猪种提供参考，通过调整其肠道微生物区系或引入特定的纤维分解酶，提高其对日粮纤维的利用效率。",
+    "error_detail": "颠倒了研究对象的顺序，导致指令偏离",
+    "original_question": "如何通过研究地方猪种的肠道微生物来提高外来猪种对日粮纤维的利用效率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "五指山猪的Myf5和MyoD1基因在心脏、肝脏、肺脏、脾脏、肾脏、肌肉、胃和小肠八种组织中均有表达，尤其是在大脑中表达量最高。",
+    "reference_case": "五指山猪的Myf5和MyoD1基因在心脏、肝脏、肺脏、脾脏、肾脏、肌肉、胃和小肠八种组织中均有表达。",
+    "error_detail": "添加了不存在的组织表达信息",
+    "original_question": "五指山猪的Myf5和MyoD1基因在哪些组织中表达？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山猪的Myf5和MyoD1基因在肌肉组织中的表达量最高，分别是其他组织的10倍和8倍。",
+    "reference_case": "五指山猪的Myf5和MyoD1基因在肌肉组织中的表达量最高。",
+    "error_detail": "添加了不存在的具体倍数比较",
+    "original_question": "五指山猪的Myf5和MyoD1基因在哪个组织中的表达量最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "五指山猪的Myf5和MyoD1基因在从出生到体成熟的过程中，其mRNA表达水平随着五指山猪年龄的增长而减少。",
+    "reference_case": "五指山猪的Myf5和MyoD1基因在从出生到体成熟的过程中，其mRNA表达水平随着五指山猪年龄的增长而增加。",
+    "error_detail": "颠倒了表达水平的变化趋势",
+    "original_question": "五指山猪的Myf5和MyoD1基因在从出生到体成熟的过程中表达水平如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在体成熟时，五指山猪的Myf5和MyoD1基因在肌肉组织中的表达水平最高，分别为2:00±0:146和2:00±0:236。",
+    "reference_case": "在体成熟时，五指山猪的Myf5和MyoD1基因在肌肉组织中的表达水平最高，分别为1:00±0:146和1:00±0:236。",
+    "error_detail": "修改了具体的表达水平数值",
+    "original_question": "五指山猪的Myf5和MyoD1基因在体成熟时的表达水平如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山猪的Myf5和MyoD1基因在心脏组织中的表达水平分别为0:99±0:099和1:98±0:168。",
+    "reference_case": "五指山猪的Myf5和MyoD1基因在心脏组织中的表达水平分别为0:49±0:099和0:98±0:168。",
+    "error_detail": "修改了具体的表达水平数值",
+    "original_question": "五指山猪的Myf5和MyoD1基因在心脏组织中的表达水平如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山猪的Myf5和MyoD1基因在肝脏组织中的表达水平分别为1:56±0:081和1:95±0:150。",
+    "reference_case": "五指山猪的Myf5和MyoD1基因在肝脏组织中的表达水平分别为0:56±0:081和0:95±0:150。",
+    "error_detail": "修改了具体的表达水平数值",
+    "original_question": "五指山猪的Myf5和MyoD1基因在肝脏组织中的表达水平如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山猪的Myf5和MyoD1基因在脾脏组织中的表达水平分别为0:32±0:032和0:47±0:082。",
+    "reference_case": "五指山猪的Myf5和MyoD1基因在脾脏组织中的表达水平分别为0:12±0:032和0:27±0:082。",
+    "error_detail": "修改了具体的表达水平数值",
+    "original_question": "五指山猪的Myf5和MyoD1基因在脾脏组织中的表达水平如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山猪的Myf5和MyoD1基因在肺脏组织中的表达水平分别为0:19±0:006和0:54±0:124。",
+    "reference_case": "五指山猪的Myf5和MyoD1基因在肺脏组织中的表达水平分别为0:09±0:006和0:34±0:124。",
+    "error_detail": "修改了具体的表达水平数值",
+    "original_question": "五指山猪的Myf5和MyoD1基因在肺脏组织中的表达水平如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "五指山猪的Myf5和MyoD1基因在肾脏组织中的表达水平分别为1:71±0:108和1:52±0:228。",
+    "reference_case": "五指山猪的Myf5和MyoD1基因在肾脏组织中的表达水平分别为0:71±0:108和0:52±0:228。",
+    "error_detail": "修改了具体的表达水平数值",
+    "original_question": "五指山猪的Myf5和MyoD1基因在肾脏组织中的表达水平如何？",
+    "original_input": ""
+  }
+]

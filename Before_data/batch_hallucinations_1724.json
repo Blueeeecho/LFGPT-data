@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪轮状病毒感染的潜伏期为24至48小时，主要发生在30日龄到60日龄的猪。",
+    "reference_case": "猪轮状病毒感染的潜伏期为12至24小时，主要发生在15日龄到45日龄的猪。",
+    "error_detail": "潜伏期和主要发生年龄的数值被错误地扩大。",
+    "original_question": "猪轮状病毒感染的潜伏期和主要发生年龄是？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪断奶后衰竭综合征（PMWS）的主要病原体为腺病毒。",
+    "reference_case": "猪断奶后衰竭综合征（PMWS）的主要病原体为圆环病毒（PCV-2）。",
+    "error_detail": "病原体被错误地标识为腺病毒，而非正确的圆环病毒。",
+    "original_question": "猪断奶后衰竭综合征（PMWS）的主要病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪增生性肠炎的主要病原为大肠杆菌。",
+    "reference_case": "猪增生性肠炎的主要病原为细胞内罗松菌 (Lawsonia intracellularis, LI)。",
+    "error_detail": "病原体被错误地标识为大肠杆菌，而非正确的细胞内罗松菌。",
+    "original_question": "猪增生性肠炎的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪增生性肠炎主要发生在断奶后10至30周的生长育成猪。",
+    "reference_case": "猪增生性肠炎主要发生在断奶后6至20周的生长育成猪。",
+    "error_detail": "主要发生年龄段的数值被错误地扩大。",
+    "original_question": "猪增生性肠炎主要发生在哪个年龄段的猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟的免疫方法分为自然免疫和人工免疫两种。",
+    "reference_case": "猪瘟的免疫方法分为主动免疫和被动免疫两种。",
+    "error_detail": "免疫方法被错误地分类为自然免疫和人工免疫，而非正确的主动免疫和被动免疫。",
+    "original_question": "猪瘟的免疫方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟病毒通过化学方法减毒。",
+    "reference_case": "猪瘟病毒通过动物传代减毒、细遇培养传代暴露、先通过动物后再通过细煺减毒三种途径减毒。",
+    "error_detail": "减毒途径被错误地描述为化学方法，而非正确的三种途径。",
+    "original_question": "猪瘟病毒通过什么途径减毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用南京农业大学建立的 PPAELISA 法监测猪群的免疫效果，OD490 值在0.5以上的猪100%得到保护，≥0.25~<0.5有75%得到保护，<0.25的不能保护。",
+    "reference_case": "用南京农业大学建立的 PPAELISA 法监测猪群的免疫效果，OD490 值在0.3以上的猪100%得到保护，≥0.17~<0.3有75%得到保护，<0.17的不能保护。",
+    "error_detail": "OD490值的保护阈值被错误地提高。",
+    "original_question": "如何监测猪群的免疫效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪瘟免疫失败的原因是疫苗剂量不足。",
+    "reference_case": "亚临床感染猪瘟病毒的怀孕母猪，病毒经胎盘感染胎儿所致。孕猪早期感染多发生流产，中期感染则产弱仔，仔猪出生后发生先天性震顫，这些猪可终身带毒，形成持续感染，具有免疫耐性，抗体水平低，用这样的猪留种会增加猪瘟疫情的不稳定性。",
+    "error_detail": "免疫失败的原因被错误地归咎于疫苗剂量不足，而非正确的亚临床感染。",
+    "original_question": "猪瘟免疫失败的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪瘟疫苗免疫后应采取的措施是立即进行第二次免疫。",
+    "reference_case": "应加强对猪群的监测，以掌握猪群的免疫水平和效果。根据抗体水平进行攻毒保护试验，OD490值在0.3以上者100%得到保护，≥0.17~<0.3有75%得到保护，<0.17的不能保护。总保护率低于50%为免疫无效区或猪瘟不稳定地区，需加强免疫。",
+    "error_detail": "措施被错误地描述为立即进行第二次免疫，而非正确的监测和根据抗体水平采取相应措施。",
+    "original_question": "猪瘟疫苗免疫后应采取什么措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "可采用加大免疫剂量的方法，肌内注射为200 PD50 (800RID)，口鼻免疫为320 PD50 (1280 RID)。",
+    "reference_case": "可采用加大免疫剂量的方法，肌内注射为100 PD50 (400RID)，口鼻免疫为160 PD50 (640 RID)。",
+    "error_detail": "免疫剂量被错误地翻倍。",
+    "original_question": "如何防止猪群亚临床感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪瘟新型疫苗研制的必要性是因为传统疫苗已经完全失效。",
+    "reference_case": "由于传统疫苗不能彻底阻断猪瘟病毒的传递途径，病毒仍以低水平传播，且弱毒疫苗毒株可能发生突变或与野毒重组而造成毒力返强。此外，弱毒疫苗的普遍使用导致猪瘟病毒变异，因此研制可克服传统疫苗不足之处的新疫苗是必要的。",
+    "error_detail": "添加了传统疫苗已经完全失效的错误假设。",
+    "original_question": "猪瘟新型疫苗研制的必要性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "表达产物纯化后能与 E2 蛋白的单克隆抗体进行特异性反应，用 64 微克 E2 蛋白以油包水为佐剂，给猪接种 1 次，3 个月后用致死量的猪瘟强毒攻击，仍有 90% 的猪不出现临床症状，不发生死亡。",
+    "reference_case": "表达产物纯化后能与 E2 蛋白的单克隆抗体进行特异性反应，用 32 微克 E2 蛋白以油包水为佐剂，给猪接种 1 次，3 个月后用致死量的猪瘟强毒攻击，仍有 95% 的猪不出现临床症状，不发生死亡。",
+    "error_detail": "E2蛋白剂量和保护率被错误地修改。",
+    "original_question": "以杆状病毒为载体表达 E2 蛋白基因的重组疫苗有何实验结果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用 64 微克 E2 蛋白以油包水为佐剂，给猪接种 1 次，3 个月后用致死量的猪瘟强毒攻击，仍有 90% 的猪不出现临床症状，不发生死亡。该疫苗在 4°C 下可以稳定保存 12 个月。",
+    "reference_case": "用 32 微克 E2 蛋白以油包水为佐剂，给猪接种 1 次，3 个月后用致死量的猪瘟强毒攻击，仍有 95% 的猪不出现临床症状，不发生死亡。该疫苗在 4°C 下可以稳定保存 18 个月。",
+    "error_detail": "E2蛋白剂量、保护率和稳定保存时间被错误地修改。",
+    "original_question": "E2 亚单位疫苗的有效性和稳定性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用 PD90 的剂量接种该疫苗的猪可以抵抗 4 周后的致死量野毒攻击, 其免疫力持续 6-12 个月。",
+    "reference_case": "用 PD95 的剂量接种该疫苗的猪可以抵抗 2 周后的致死量野毒攻击, 其免疫力持续 3-6 个月。",
+    "error_detail": "PD剂量、抵抗时间和免疫力持续时间被错误地修改。",
+    "original_question": "E2 亚单位疫苗对母猪及其仔猪的免疫安全性及有效性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "发现病猪后，应立即对所有猪进行紧急免疫接种。",
+    "reference_case": "发现病猪后，首先要对猪群进行隔离，将病猪和可能被感染的猪隔离，防止病原扩散，并根据诊断结果将猪分为病猪、可疑感染猪和假定健康猪等三类，分别对待。",
+    "error_detail": "措施被错误地描述为立即对所有猪进行紧急免疫接种，而非正确的隔离和分类处理。",
+    "original_question": "发现病猪后应采取什么措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "隔离病猪时，应选择远离水源的地方，以防止水源污染。",
+    "reference_case": "隔离病猪时，应选择不易散播病原、消毒处理方便的场所，如病猪数目较多可集中隔离在原来的猪舍里，加强卫生管理和护理工作，禁止闲杂人畜接近和出入，工作人员出入应遵守消毒制度，隔离区内用具、饲料、粪便等未经彻底消毒处理不得运出，没有治疗价值的病猪需根据国家有关规定进行处理。",
+    "error_detail": "添加了选择远离水源的地方的错误假设。",
+    "original_question": "隔离病猪时需要注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "可疑感染猪是指已经出现轻微症状的猪。",
+    "reference_case": "可疑感染猪是指未发现症状，但与病猪及其污染的环境有过明显接触，如同群、同圈、同牧、使用共同的水源和用具等，这类猪可能处在潜伏期，并有排毒的危险。",
+    "error_detail": "可疑感染猪的定义被错误地修改为已经出现轻微症状的猪。",
+    "original_question": "什么是可疑感染猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "假定健康猪是指已经接种过疫苗的猪。",
+    "reference_case": "假定健康猪是指除上述两类猪外，疫区内其他易感猪，应与病猪和可疑感染猪严格隔离，加强防疫消毒和相应的保护措施，立即进行紧急免疫接种，必要时可分散喂养或转移至偏僻牧地。",
+    "error_detail": "假定健康猪的定义被错误地修改为已经接种过疫苗的猪。",
+    "original_question": "什么是假定健康猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "封锁区是指暴发猪瘟疫情时，为防止疫情向安全区散播而采取的全区域封锁措施。",
+    "reference_case": "封锁区是指暴发猪瘟疫情时，为防止疫情向安全区散播和健猪误入疫区而采取划区封锁的措施，根据《动物防疫法》的规定，需立即上报当地政府机关，呈请划定疫区范围并进行封锁。",
+    "error_detail": "封锁区的定义被错误地简化为全区域封锁措施。",
+    "original_question": "什么是封锁区？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "封锁疫区的目的和原则是彻底消灭疫区内的所有猪只。",
+    "reference_case": "封锁疫区的目的是保护广大地区猪群安全和人民健康，把疫病控制在封锁区之内，集中力量就地扑灭，应掌握“早、快、严、小”的原则，即流行早期封锁，行动果断、迅速，封锁严密，范围不宜过大。",
+    "error_detail": "目的和原则被错误地描述为彻底消灭疫区内的所有猪只。",
+    "original_question": "封锁疫区的目的和原则是什么？",
+    "original_input": ""
+  }
+]

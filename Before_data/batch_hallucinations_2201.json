@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "Bryant.K 和 Korngay.E 报道，生物素对提高母猪繁殖性能有重要作用，缺乏生物素的猪生长与发育明显受阻，且繁殖性能下降50%。",
+    "reference_case": "Bryant.K 和 Korngay.E 报道，生物素对提高母猪繁殖性能有重要作用，缺乏生物素的猪生长与发育明显受阻。",
+    "error_detail": "添加了未经证实的繁殖性能下降比例",
+    "original_question": "生物素对动物繁殖性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "美国国家研究委员会标准：生长猪根据体重不同推荐用量不同；德国巴斯夫公司标准：仔猪 40，生长猪 25，母猪 45；瑞士罗氏公司标准：早期断奶仔猪 70，哺乳仔猪 70，生长猪 35，育肥猪 25，种母猪 25；中华人民共和国标准：仔猪25～45，育肥猪 15～25，种母猪 20～25；家禽 15。",
+    "reference_case": "美国国家研究委员会标准：生长猪根据体重不同推荐用量不同；德国巴斯夫公司标准：仔猪 36，生长猪 20，母猪 40；瑞士罗氏公司标准：早期断奶仔猪 60，哺乳仔猪 60，生长猪 30，育肥猪 20，种母猪 20；中华人民共和国标准：仔猪20～40，育肥猪 10～20，种母猪 15～20；家禽 10。",
+    "error_detail": "更新了所有推荐用量，与原始数据不符",
+    "original_question": "不同动物维生素 B12 的推荐日粮用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "各种动物饲料中甜菜碱添加的推荐量为(g/1000 kg): 产蛋鸡（8～10周龄）、鸭、鹅100～600，肉用雏鸡100～700，火鸡100～800，仔猪（8～10周龄）100～600，肥育猪100～350，牛（8～10周龄）、羊100～600，虹鳟、鲑鱼100～1100。",
+    "reference_case": "各种动物饲料中甜菜碱添加的推荐量为(g/1000 kg): 产蛋鸡（8～10周龄）、鸭、鹅0～500，肉用雏鸡0～600，火鸡0～700，仔猪（8～10周龄）0～500，肥育猪0～250，牛（8～10周龄）、羊0～500，虹鳟、鲑鱼0～1000。",
+    "error_detail": "修改了推荐量的下限和上限",
+    "original_question": "甜菜碱在饲料中的添加量推荐是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期，<90kg 体重的母猪食盐需求量为5.0g，90～120kg 体重为5.5g，120～150 kg 体重为6.5g，>150 kg 体重为6.8g。",
+    "reference_case": "妊娠前期，<90kg 体重的母猪食盐需求量为4.8g，90～120kg 体重为5.3g，120～150 kg 体重为6.0g，>150 kg 体重为6.4g。",
+    "error_detail": "增加了食盐需求量的数值",
+    "original_question": "母猪妊娠前期的食盐需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠后期，小于 90 kg 体重的母猪食盐需求量为7.0g，90～120kg 体重为7.5g，120～150 kg 体重为8.5g。",
+    "reference_case": "妊娠后期，小于 90 kg 体重的母猪食盐需求量为6.7g，90～120kg 体重为7.3g，120～150 kg 体重为8.0g。",
+    "error_detail": "增加了食盐需求量的数值",
+    "original_question": "母猪妊娠后期的食盐需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳期，小于 120 kg 体重的母猪食盐需求量为22.0g，120～150 kg 体重为23.0g，150～180 kg 体重为23.0g，>180 kg 体重为24.0g。",
+    "reference_case": "哺乳期，小于 120 kg 体重的母猪食盐需求量为21.0g，120～150 kg 体重为22.0g，150～180 kg 体重为22.0g，>180 kg 体重为23.0g。",
+    "error_detail": "增加了食盐需求量的数值",
+    "original_question": "母猪哺乳期的食盐需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪每 1 kg 日粮中的食盐含量为妊娠前期3.5g，妊娠后期3.5g，哺乳期4.6g。",
+    "reference_case": "母猪每 1 kg 日粮中的食盐含量为妊娠前期3.2g，妊娠后期3.2g，哺乳期4.4g。",
+    "error_detail": "增加了食盐含量的数值",
+    "original_question": "母猪每 1 kg 日粮中的食盐含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种公猪小于 90 kg 体重的食盐需求量为6g，90～150 kg 体重为7.5g，>150 kg 体重为9.0g。",
+    "reference_case": "种公猪小于 90 kg 体重的食盐需求量为5g，90～150 kg 体重为6.9g，>150 kg 体重为8.2g。",
+    "error_detail": "增加了食盐需求量的数值",
+    "original_question": "种公猪的食盐需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪钠的需要量：3～5kg 体重0.30%，5～10kg 体重0.25%，10～20kg 体重0.20%，20～120kg 体重0.15%。",
+    "reference_case": "生长猪钠的需要量：3～5kg 体重0.25%，5～10kg 体重0.20%，10～20kg 体重0.15%，20～120kg 体重0.10%。",
+    "error_detail": "增加了钠的需要量的百分比",
+    "original_question": "美国国家研究委员会标准中，生长猪对钠的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪氯的需要量：3～5kg 体重0.30%，5～10kg 体重0.25%，10～20kg 体重0.20%，20～120kg 体重0.10%。",
+    "reference_case": "生长猪氯的需要量：3～5kg 体重0.25%，5～10kg 体重0.20%，10～20kg 体重0.15%，20～120kg 体重0.08%。",
+    "error_detail": "增加了氯的需要量的百分比",
+    "original_question": "美国国家研究委员会标准中，生长猪对氯的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪对钠的需要量为0.20%。",
+    "reference_case": "妊娠母猪对钠的需要量为0.15%。",
+    "error_detail": "增加了钠的需要量的百分比",
+    "original_question": "妊娠母猪对钠的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "泌乳母猪对钠的需要量为0.25%。",
+    "reference_case": "泌乳母猪对钠的需要量为0.20%。",
+    "error_detail": "增加了钠的需要量的百分比",
+    "original_question": "泌乳母猪对钠的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪对氯的需要量为0.15%。",
+    "reference_case": "妊娠母猪对氯的需要量为0.12%。",
+    "error_detail": "增加了氯的需要量的百分比",
+    "original_question": "妊娠母猪对氯的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "泌乳母猪对氯的需要量为0.20%。",
+    "reference_case": "泌乳母猪对氯的需要量为0.16%。",
+    "error_detail": "增加了氯的需要量的百分比",
+    "original_question": "泌乳母猪对氯的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪饲料中含钠量为0.10%～0.12%。",
+    "reference_case": "仔猪饲料中含钠量为0.08%～0.1%。",
+    "error_detail": "增加了钠的含量的百分比",
+    "original_question": "仔猪饲料中含钠量为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长育肥猪饲料中含钠量为0.12%。",
+    "reference_case": "生长育肥猪饲料中含钠量为0.09%。",
+    "error_detail": "增加了钠的含量的百分比",
+    "original_question": "生长育肥猪饲料中含钠量为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "酸性环境有利于钙盐的溶解和吸收增加，而碱性环境则完全阻止钙的吸收。",
+    "reference_case": "酸性环境有利于钙盐的溶解和吸收增加。",
+    "error_detail": "错误地声称碱性环境完全阻止钙的吸收",
+    "original_question": "胃肠道内的酸碱度如何影响钙磷的吸收？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重3～10 kg为120 mg/kg，10～20 kg为90 mg/kg，20～50 kg为70 mg/kg，50～80 kg为60 mg/kg，80～120 kg为50 mg/kg，妊娠母猪与泌乳母猪为90 mg/kg。",
+    "reference_case": "体重3～10 kg为100 mg/kg，10～20 kg为80 mg/kg，20～50 kg为60 mg/kg，50～80 kg为50 mg/kg，80～120 kg为40 mg/kg，妊娠母猪与泌乳母猪为80 mg/kg。",
+    "error_detail": "增加了铁的需求量的数值",
+    "original_question": "美国国家研究委员会（NRC）标准下，不同体重阶段生长猪的铁需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪饲喂高铜饲料的平均增重比对照组高30.0%，平均饲料转化率比对照组高12.0%。",
+    "reference_case": "仔猪饲喂高铜饲料的平均增重比对照组高22.1%，平均饲料转化率比对照组高8.3%。",
+    "error_detail": "增加了增重和饲料转化率的百分比",
+    "original_question": "饲料中铜的添加如何影响仔猪的生长性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "高剂量铜能刺激断奶仔猪小肠脂肪酶及磷酯酶A的活性，进而提高断奶仔猪消化利用脂肪的能力，但对成年猪无效。",
+    "reference_case": "高剂量铜能刺激断奶仔猪小肠脂肪酶及磷酯酶A的活性，进而提高断奶仔猪消化利用脂肪的能力。",
+    "error_detail": "错误地添加了对成年猪无效的声明",
+    "original_question": "高铜饲料如何影响动物的消化利用脂肪的能力？",
+    "original_input": ""
+  }
+]

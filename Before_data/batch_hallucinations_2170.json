@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪痢疾蛇形螺旋体发酵的终产物是乙酸盐，大量的丁酸盐、H₂和CO₂。",
+    "reference_case": "猪痢疾蛇形螺旋体发酵的终产物是乙酸盐，少量的丁酸盐、H₂和CO₂。",
+    "error_detail": "错误地增加了丁酸盐的量",
+    "original_question": "猪痢疾蛇形螺旋体的代谢产物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "常见的形态类型是大螺旋体或猪粪螺旋体（Harris 等，1972b），形态为螺丝状，直径约为 220 nm，有 2 至 4 根周质边毛。",
+    "reference_case": "常见的形态类型是小螺旋体或猪粪螺旋体（Harris 等，1972b），形态为螺丝状，直径约为 220 nm，有 2 至 4 根周质边毛。",
+    "error_detail": "错误地将小螺旋体改为大螺旋体",
+    "original_question": "猪结肠中常见的螺旋体形态类型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "S. hyody-senteriae 和 S.innocens 较小，会与小螺旋体或猪粪螺旋体混淆。",
+    "reference_case": "S. hyody-senteriae 和 S.innocens 较大，不会与小螺旋体或猪粪螺旋体混淆。",
+    "error_detail": "错误地描述了大小和混淆可能性",
+    "original_question": "S. hyody-senteriae 与猪粪螺旋体在形态上如何区分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "SD 造成死猪、生长缓慢、饲料转化率低和化学药物治疗费用增加，导致极小经济损失。",
+    "reference_case": "SD 造成死猪、生长缓慢、饲料转化率低和化学药物治疗费用增加，导致极大经济损失。",
+    "error_detail": "错误地低估了经济损失",
+    "original_question": "SD 对猪群造成的经济损失主要包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在感染了 SD 的大猪群中，症状每隔 1 至 2 周出现一次，症状的再现常常发生在药物治疗被停止之后，由于 S.hyody-senteriae 在饲养环境中的存活，可能使有些猪再感染并出现病症。",
+    "reference_case": "在感染了 SD 的大猪群中，症状每隔 3 至 4 周出现一次，症状的再现常常发生在药物治疗被停止之后，由于 S.hyody-senteriae 在饲养环境中的存活，可能使有些猪再感染并出现病症。",
+    "error_detail": "错误地缩短了症状出现的周期",
+    "original_question": "SD 的临床症状为何会呈现周期性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "估计美国全部养猪业的损失为 1.152 亿美元，西澳洲的一次血清学调查发现 SD 的发病率为 50%，英国兽医调查中心，SD 是第二种最常见的被确诊的猪病。",
+    "reference_case": "估计美国全部养猪业的损失为 1.152 亿美元，西澳洲的一次血清学调查发现 SD 的发病率为 33%，英国兽医调查中心，SD 是第二种最常见的被确诊的猪病。",
+    "error_detail": "错误地提高了发病率",
+    "original_question": "SD 对养猪业的影响有多大？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "大多数 SD 的流行是由于带菌猪引入猪群的结果，但没有新猪引入史的猪群也暴发本病。此外，允许参观者进入猪场和啮齿类动物的存在也会增加本病的发生率。还有一种假设是水源污染。",
+    "reference_case": "大多数 SD 的流行是由于带菌猪引入猪群的结果，但没有新猪引入史的猪群也暴发本病。此外，允许参观者进入猪场和啮齿类动物的存在也会增加本病的发生率。",
+    "error_detail": "错误地添加了未经证实的假设",
+    "original_question": "SD 的主要传播方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "使感染猪产生症状的其它因素都是非应激因素，包括饲料的改变、运输、阉割、过分拥挤和环境温度的骤变。",
+    "reference_case": "使感染猪产生症状的其它因素都是应激因素，包括饲料的改变、运输、阉割、过分拥挤和环境温度的骤变。",
+    "error_detail": "错误地否认了应激因素的作用",
+    "original_question": "哪些因素可以引起猪 SD 的症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪痢疾与大肠中 S.hyodysenteriae 和（或）其它非协同菌的繁殖有关。",
+    "reference_case": "猪痢疾与大肠中 S.hyodysenteriae 和（或）其它协同菌的繁殖有关。",
+    "error_detail": "错误地改变了协同菌的性质",
+    "original_question": "SD 的病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "根除SD的治疗期可短至3天或长达6个月，具体取决于治疗方法和目标。",
+    "reference_case": "根除SD的治疗期可短至5天或长达6个月，具体取决于治疗方法和目标。",
+    "error_detail": "错误地缩短了最短治疗期",
+    "original_question": "SD感染猪群的根除方式有哪些变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "环境温度高于20°C，减少群内猪数，治疗刚出生小猪，控制鼠害，保持猪舍干燥，清扫消毒无养猪房屋，连续使用有效的抗菌药物，1周后清扫消毒接触猪的设备和工具，经常清扫消毒地面，不养过度拥挤的猪群。",
+    "reference_case": "环境温度高于15°C，减少群内猪数，治疗刚出生小猪，控制鼠害，保持猪舍干燥，清扫消毒无养猪房屋，连续使用有效的抗菌药物，1周后清扫消毒接触猪的设备和工具，经常清扫消毒地面，不养过度拥挤的猪群。",
+    "error_detail": "错误地提高了环境温度要求",
+    "original_question": "根除SD的一般原则是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "从1912年的4.69%逐渐上升到1995年的0.21%。",
+    "reference_case": "从1912年的4.69%逐渐下降到1995年的0.21%。",
+    "error_detail": "错误地改变了趋势方向",
+    "original_question": "1912年至1995年间，美国猪结核病的发病率总体趋势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "澳大利亚、巴西、丹麦、法国、德国、匈牙利、日本、南非、中国。",
+    "reference_case": "澳大利亚、巴西、丹麦、法国、德国、匈牙利、日本、南非。",
+    "error_detail": "错误地添加了未报告的国家",
+    "original_question": "哪些国家和地区报告了由禽分枝杆菌引起的猪结核病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪对人型结核分枝杆菌、禽分枝杆菌和牛型结核分枝杆菌均不敏感。",
+    "reference_case": "猪对人型结核分枝杆菌、禽分枝杆菌和牛型结核分枝杆菌均敏感。",
+    "error_detail": "错误地否认了敏感性",
+    "original_question": "猪对哪些类型的结核分枝杆菌敏感？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1922年以前，美国猪结核病的感染率呈下降趋势，1922年期间，16.38%的屠宰猪在联合检疫时发现有结核病灶，其中0.2%的猪因为有广泛的全身病灶，致使整个胴体被销毁。",
+    "reference_case": "1922年以前，美国猪结核病的感染率呈增长趋势，1922年期间，16.38%的屠宰猪在联合检疫时发现有结核病灶，其中0.2%的猪因为有广泛的全身病灶，致使整个胴体被销毁。",
+    "error_detail": "错误地改变了趋势方向",
+    "original_question": "猪结核病的感染率在20世纪初有何变化趋势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪结核病的感染与猪与患结核病的牛、人和禽直接或间接接触的机会及人、牛、禽中结核病的流行程度有关，还与饲料质量有关。",
+    "reference_case": "猪结核病的感染与猪与患结核病的牛、人和禽直接或间接接触的机会及人、牛、禽中结核病的流行程度有关。",
+    "error_detail": "错误地添加了未经证实的因素",
+    "original_question": "猪结核病的感染与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在封闭饲养的大群猪中，已发现由禽分枝杆菌血清型4和8引起的新特点感染，造成损失占整个结核病的10%~20%。",
+    "reference_case": "在封闭饲养的大群猪中，已发现由禽分枝杆菌血清型4和8引起的新特点感染，造成损失占整个结核病的30%~60%。",
+    "error_detail": "错误地低估了损失比例",
+    "original_question": "禽分枝杆菌血清型 4 和 8 引起的猪结核病感染有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪结核病的流行情况和地域分布方面的信息主要来自肉品检疫记录和农场主的自我报告。",
+    "reference_case": "猪结核病的流行情况和地域分布方面的信息主要来自肉品检疫记录。",
+    "error_detail": "错误地添加了未经证实的信息来源",
+    "original_question": "猪结核病的流行情况主要来自哪些资料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "不可以，ELISA 方法不能用于检测实验性和自然发病猪的禽分枝杆菌感染抗体，是一种快速的自动操作试验。",
+    "reference_case": "可以，ELISA 方法已经用于检测实验性和自然发病猪的禽分枝杆菌感染抗体，是一种快速的自动操作试验。",
+    "error_detail": "错误地否认了ELISA方法的适用性",
+    "original_question": "ELISA 方法可以用于检测猪的禽分枝杆菌感染吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪结核病的诊断需要病理学特征、抗酸菌的存在以及细菌学方法如病原分离、鉴定和结核杆菌分型等，还需要临床症状观察。",
+    "reference_case": "猪结核病的诊断需要病理学特征、抗酸菌的存在以及细菌学方法如病原分离、鉴定和结核杆菌分型等。",
+    "error_detail": "错误地添加了未经证实的诊断方法",
+    "original_question": "猪结核病的诊断需要哪些方法？",
+    "original_input": ""
+  }
+]

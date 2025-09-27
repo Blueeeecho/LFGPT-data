@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "国内有猪肺炎支原体弱毒苗，可选用，但需每年更新。",
+    "reference_case": "国内有猪肺炎支原体弱毒苗，可选用。",
+    "error_detail": "添加了不存在的时效性要求",
+    "original_question": "猪肺炎支原体的免疫预防方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "青霉素、链霉素等抑制或影响蛋白质合成的抗生素对其有杀伤作用，可用于治疗。",
+    "reference_case": "氟苯尼考、红霉素、四环素、卡那霉素等抑制或影响蛋白质合成的抗生素对其有杀伤作用，可用于治疗。",
+    "error_detail": "错误地替换了抗生素种类",
+    "original_question": "治疗猪肺炎支原体感染的常用抗生素是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪鼻支原体感染时体温升高明显，渗出物颜色较浅，病情较重。",
+    "reference_case": "猪鼻支原体感染时体温升高不明显，渗出物颜色较深，病情较轻；嗜血杆菌性多发性浆膜炎体温升高明显，渗出物较白干燥，发病率和死亡率较高。",
+    "error_detail": "错误地修改了症状描述",
+    "original_question": "猪鼻支原体感染的临床症状有何区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "泰乐菌素和林可霉素对猪鼻支原体病的疗效不佳，因为抗生素的渗透阻止了炎症反应。",
+    "reference_case": "泰乐菌素和林可霉素对猪鼻支原体病的疗效不佳，炎症反应阻止了抗生素的渗透，而炎症本身又长期存在。",
+    "error_detail": "错误地颠倒了因果关系",
+    "original_question": "泰乐菌素和林可霉素对猪鼻支原体病的疗效如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "单纯的非化脓性关节炎，最常侵害肘关节，也可侵害膝关节、肩关节和踏关节。",
+    "reference_case": "单纯的非化脓性关节炎，最常侵害膝关节，也可侵害肩关节、肘关节和踏关节。",
+    "error_detail": "错误地修改了侵害的关节顺序",
+    "original_question": "猪滑液支原体引起的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在富含牛胃黏液素的猪心浸液—禽血清培养基中生长旺盛，生长呈模糊的颗粒状结构，需要甾醇，利用精氨酸。",
+    "reference_case": "在富含猪胃黏液素的牛心浸液—禽血清培养基中生长旺盛，生长呈模糊的颗粒状结构，需要甾醇，利用精氨酸。",
+    "error_detail": "错误地替换了培养基成分",
+    "original_question": "猪滑液支原体的生长条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "T2毒素和DAS毒素致皮肤口腔及上消化道上皮坏死及溃疡，对生长猪有免疫增强作用，可致B淋巴细胞增加，血清总蛋白水平升高。",
+    "reference_case": "T2毒素和DAS毒素致皮肤口腔及上消化道上皮坏死及溃疡，对生长猪有免疫抑制作用，可致B淋巴细胞减少，血清总蛋白水平降低，消化道出血，肝、肾退行性变化，还有致突变及致畸变作用。",
+    "error_detail": "错误地修改了毒素的作用",
+    "original_question": "T2毒素和DAS毒素的主要致病作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "玉米赤霉烯酮是一种黑色结晶，可引起仔猪子宫、外阴肿大，母猪阴门及乳腺肿大、子宫外翻、流产，胎儿畸形。",
+    "reference_case": "玉米赤霉烯酮是一种白色结晶，可引起仔猪子宫、外阴肿大，母猪阴门及乳腺肿大、子宫外翻、流产，胎儿畸形。",
+    "error_detail": "错误地修改了结晶颜色",
+    "original_question": "玉米赤霉烯酮的主要致病作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "从临床上可以做出皮肤真菌病的诊断，无需进一步检查。",
+    "reference_case": "从临床上只能做出皮肤真菌病的诊断，必要时应当通过对苛性钾载玻片制备物的检查验证之。",
+    "error_detail": "错误地省略了必要的检查步骤",
+    "original_question": "如何诊断猪的皮肤真菌病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的皮肤真菌病几乎全都是由细菌门和半知菌纲念珠菌目念珠菌科的各种小孢子菌和毛癣菌所引起的。",
+    "reference_case": "猪的皮肤真菌病几乎全都是由真菌门和半知菌纲念珠菌目念珠菌科的各种小孢子菌和毛癣菌所引起的，特别是须毛癣菌和细小孢子菌。",
+    "error_detail": "错误地替换了病原体门类",
+    "original_question": "猪的皮肤真菌病的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "传染源来源于环境，乳猪和较大日龄的育肥猪易感，其中30%乳猪感染10天内死亡，育肥猪呈急性经过。",
+    "reference_case": "传染源来源于环境，乳猪和较大日龄的育肥猪易感，其中50%乳猪感染10天内死亡，育肥猪呈慢性经过。",
+    "error_detail": "错误地修改了感染率和病程",
+    "original_question": "猪的毛霉菌病的流行病学特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "需要检查肝脏膈面中央部有结节、灰红色、边缘不齐呈花边样，切面软，粉红色，边缘有明显的出血带；无需检查肺部。",
+    "reference_case": "需要检查肝脏膈面中央部有结节、灰红色、边缘不齐呈花边样，切面软，粉红色，边缘有明显的出血带；肺膈叶顶端有一卵圆形肿块，切面灰白，中央呈干酪样坏死，边缘有一圈出血带。",
+    "error_detail": "错误地省略了肺部检查",
+    "original_question": "诊断猪的毛霉菌病时需要进行哪些病理变化检查？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "毛霉菌病的肿块样病灶边缘内有一圈直线样的出血带；而结核肉芽肿的病灶中，出血常见，为规则的。",
+    "reference_case": "毛霉菌病的肿块样病灶边缘内有一圈花边样的出血带；而结核肉芽肿的病灶中，出血不常见，即使有出血，也为不规则的。",
+    "error_detail": "错误地修改了出血带描述",
+    "original_question": "如何鉴别猪的毛霉菌病和猪结核病的病灶？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "临床表现为呕吐和腹泻等的胃肠炎症状，或胃炎和胃溃汤，最后康复，未死猪宰前体背肥胖，被毛光滑。",
+    "reference_case": "临床表现为呕吐和腹泻等的胃肠炎症状，或胃炎和胃溃汤，最后死亡，未死猪宰前体背消瘦，被毛紊乱。",
+    "error_detail": "错误地修改了病程和症状",
+    "original_question": "猪的毛霉菌病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "根据流行病学、临床症状、病理剖检和组织学特点可以诊断此病，无需进行鉴别诊断。",
+    "reference_case": "根据流行病学、临床症状、病理剖检和组织学特点可以诊断此病，但在肉品检验时因病灶内毛霉菌丝极易与猪结核病、寄生虫性肉芽肿和猪肿瘤相混淆，故要进行鉴别诊断。",
+    "error_detail": "错误地省略了鉴别诊断的必要性",
+    "original_question": "如何诊断猪的毛霉菌病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "小猪霉菌感染试验通过胸腔注射、滴鼻和胃管投入方式进行，还包括皮下注射。",
+    "reference_case": "小猪霉菌感染试验通过胸腔注射、滴鼻和胃管投入方式进行。",
+    "error_detail": "错误地添加了不存在的感染方法",
+    "original_question": "霉菌性肺炎的小猪霉菌感染试验有哪几种感染方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "试验结果显示，胸腔注射感染的两只小猪肺部有黑色结节，而滴鼻和胃管投入感染的小猪肺部或肝脏出现异常。",
+    "reference_case": "试验结果显示，胸腔注射感染的两只小猪肺部有黄白色结节，而滴鼻和胃管投入感染的小猪肺部或肝脏出现异常。",
+    "error_detail": "错误地修改了结节颜色",
+    "original_question": "霉菌性肺炎的小猪感染试验的观察结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "霉菌性肺炎的暴发因素包括饲料中轻微霉菌侵染，猪场饲料品质优良和营养过剩导致猪抵抗力增强。",
+    "reference_case": "霉菌性肺炎的暴发因素包括饲料中严重霉菌侵染，猪场饲料品质低劣和营养不良导致猪抵抗力降低。",
+    "error_detail": "错误地颠倒了因素的重要性",
+    "original_question": "哪些因素可能导致猪的霉菌性肺炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "5～6周龄小猪对黄曲霉毒素的易感性最大。",
+    "reference_case": "3～4周龄小猪对黄曲霉毒素的易感性最大。",
+    "error_detail": "错误地修改了易感年龄",
+    "original_question": "哪类家畜对黄曲霉毒素的易感性最强？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "几乎所有冷血动物都可感染钩端螺旋体，其中啮齿动物是最常见的宿主。",
+    "reference_case": "几乎所有温血动物都可感染钩端螺旋体，其中啮齿动物是最常见的宿主，其次是食肉动物，家畜中猪、牛、水牛、犬、羊、马、骆驼、兔、猫、家禽和其他野兽、野禽、野鸟均可感染和带菌。",
+    "error_detail": "错误地修改了易感动物的类别",
+    "original_question": "钩端螺旋体病的易感宿主有哪些？",
+    "original_input": ""
+  }
+]

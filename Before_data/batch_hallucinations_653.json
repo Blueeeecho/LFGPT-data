@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟病毒引起的症状包括母猪流产，产出死胎、木乃伊胎及弱仔，以及猪的呼吸道疾病。",
+    "reference_case": "猪瘟病毒引起的症状包括母猪流产，产出死胎、木乃伊胎及弱仔。",
+    "error_detail": "添加了不属于猪瘟病毒的症状，即猪的呼吸道疾病。",
+    "original_question": "猪瘟病毒引起的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒引起的症状包括妊娠母猪发热、厌食，怀孕后期流产，产死胎和木乃伊胎，仔猪的呼吸道疾病和大量死亡，死亡率高达80%。",
+    "reference_case": "猪繁殖与呼吸综合征病毒引起的症状包括妊娠母猪发热、厌食，怀孕后期流产，产死胎和木乃伊胎，仔猪的呼吸道疾病和大量死亡。",
+    "error_detail": "错误地添加了具体的死亡率数据，即死亡率高达80%。",
+    "original_question": "猪繁殖与呼吸综合征病毒引起的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "北京某猪场母猪在妊娠后期出现了流产，产出死胎、木乃伊胎，伴有发热和呼吸道症状，仔猪有呼吸道症状且死亡率高。",
+    "reference_case": "菏泽某猪场母猪在妊娠后期出现了流产，产出死胎、木乃伊胎，伴有发热和呼吸道症状，仔猪有呼吸道症状且死亡率高。",
+    "error_detail": "错误地更改了猪场的地理位置，从菏泽改为北京。",
+    "original_question": "菏泽某猪场母猪在妊娠后期出现了哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪弓形虫病的主要症状包括母猪的流产、产出死胎，养猪场猪群的感染率很高，可以高达90%，危害严重。",
+    "reference_case": "猪弓形虫病的主要症状包括母猪的流产、产出死胎，养猪场猪群的感染率很高，可以高达60%，危害严重。",
+    "error_detail": "错误地更改了感染率数据，从60%改为90%。",
+    "original_question": "猪弓形虫病的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "通过涂片染色镜检、金标卡检测和ELISA检测确定了猪场疫情的病原体。",
+    "reference_case": "通过涂片染色镜检、金标卡检测和RT-PCR检测确定了猪场疫情的病原体。",
+    "error_detail": "错误地更改了检测方法，从RT-PCR改为ELISA。",
+    "original_question": "通过哪些实验室检测方法确定了猪场疫情的病原体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "上海市兽医饲料检测所对黄浦江漂浮死猪的组织样品进行了铅检测，所有样品均未检出铅。",
+    "reference_case": "上海市兽医饲料检测所对黄浦江漂浮死猪的组织样品进行了砷检测，所有样品均未检出砷。",
+    "error_detail": "错误地更改了检测的物质，从砷改为铅。",
+    "original_question": "上海市兽医饲料检测所对黄浦江漂浮死猪的组织样品进行了哪些检测？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "越南在2013年2-3月期间报告了1000头猪因蓝耳病感染死亡。",
+    "reference_case": "越南在2013年2-3月期间报告了686头猪因蓝耳病感染死亡。",
+    "error_detail": "错误地更改了死亡猪的数量，从686头改为1000头。",
+    "original_question": "越南在2013年2-3月期间报告了多少头猪因蓝耳病感染死亡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "2013年兽医系统在重大动物疫病防治方面的具体措施包括：加快制定实施国家口蹄疫、禽流感、布病防治计划和猪瘟等6个动物传染病防治指导意见；强化优先防治病种的免疫和监测；集中开展马鼻疽马传贫消灭工作；继续强化布病等主要人畜共患病防治；推动种畜禽场关键疫病净化；防范非洲猪瘟等外来动物疫病传入；统筹做好仔猪腹泻等常见多发病防控工作。此外，还增加了对宠物疾病的防治措施。",
+    "reference_case": "2013年兽医系统在重大动物疫病防治方面的具体措施包括：加快制定实施国家口蹄疫、禽流感、布病防治计划和猪瘟等6个动物传染病防治指导意见；强化优先防治病种的免疫和监测；集中开展马鼻疽马传贫消灭工作；继续强化布病等主要人畜共患病防治；推动种畜禽场关键疫病净化；防范非洲猪瘟等外来动物疫病传入；统筹做好仔猪腹泻等常见多发病防控工作。",
+    "error_detail": "添加了不属于原始指令的内容，即对宠物疾病的防治措施。",
+    "original_question": "2013年兽医系统在重大动物疫病防治方面有哪些具体措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "2013年兽医系统在重大动物疫病防治方面的具体措施包括：加快制定实施国家口蹄疫、禽流感、布病防治计划和猪瘟等6个动物传染病防治指导意见；强化优先防治病种的免疫和监测；集中开展马鼻疽马传贫消灭工作；继续强化布病等主要人畜共患病防治；推动种畜禽场关键疫病净化；防范非洲猪瘟等外来动物疫病传入；统筹做好仔猪腹泻等常见多发病防控工作。此外，还增加了对野生动物疾病的防治措施。",
+    "reference_case": "2013年兽医系统在重大动物疫病防治方面的具体措施包括：加快制定实施国家口蹄疫、禽流感、布病防治计划和猪瘟等6个动物传染病防治指导意见；强化优先防治病种的免疫和监测；集中开展马鼻疽马传贫消灭工作；继续强化布病等主要人畜共患病防治；推动种畜禽场关键疫病净化；防范非洲猪瘟等外来动物疫病传入；统筹做好仔猪腹泻等常见多发病防控工作。",
+    "error_detail": "添加了不属于原始指令的内容，即对野生动物疾病的防治措施。",
+    "original_question": "2013年兽医系统在重大动物疫病防治方面有哪些具体措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "三黄鸡ST3Gal III基因的序列与人类、牛、小鼠和猪的ST3Gal III基因序列的同源性分别为90%、89%、88%和90%，表明该基因在物种间具有较高的保守性。",
+    "reference_case": "三黄鸡ST3Gal III基因的序列与人类、牛、小鼠和猪的ST3Gal III基因序列的同源性分别为89:18%、88:64%、88:3%和89:47%，表明该基因在物种间具有较高的保守性。",
+    "error_detail": "错误地简化了同源性数据，从具体的百分比改为整数百分比。",
+    "original_question": "三黄鸡ST3Gal III基因的序列与其他物种的同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪精液冷冻保存中，添加0:05 mg/mL和0:07 mg/mL的L-肉碱可以显著提高精子CAT活性。",
+    "reference_case": "在猪精液冷冻保存中，添加0:04 mg/mL和0:06 mg/mL的L-肉碱可以显著提高精子CAT活性。",
+    "error_detail": "错误地更改了L-肉碱的添加浓度，从0:04 mg/mL和0:06 mg/mL改为0:05 mg/mL和0:07 mg/mL。",
+    "original_question": "在猪精液冷冻保存中，L-肉碱对精子CAT活性的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪精液冷冻保存中，二甲基甲酰胺（DMF）的添加浓度为10%。",
+    "reference_case": "在猪精液冷冻保存中，二甲基甲酰胺（DMF）的添加浓度为5%。",
+    "error_detail": "错误地更改了DMF的添加浓度，从5%改为10%。",
+    "original_question": "在猪精液冷冻保存中，二甲基甲酰胺（DMF）的添加浓度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪精液冷冻保存中，添加0:07 mg/mL和0:09 mg/mL的L-肉碱可以显著提高精子顶体完整性。",
+    "reference_case": "在猪精液冷冻保存中，添加0:06 mg/mL和0:08 mg/mL的L-肉碱可以显著提高精子顶体完整性。",
+    "error_detail": "错误地更改了L-肉碱的添加浓度，从0:06 mg/mL和0:08 mg/mL改为0:07 mg/mL和0:09 mg/mL。",
+    "original_question": "在猪精液冷冻保存中，L-肉碱对精子顶体完整性的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪精液冷冻保存中，添加0:07 mg/mL的L-肉碱可以显著降低精子MDA含量。",
+    "reference_case": "在猪精液冷冻保存中，添加0:06 mg/mL的L-肉碱可以显著降低精子MDA含量。",
+    "error_detail": "错误地更改了L-肉碱的添加浓度，从0:06 mg/mL改为0:07 mg/mL。",
+    "original_question": "在猪精液冷冻保存中，L-肉碱对精子MDA含量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪精液冷冻保存过程中，添加0:05 mg/mL和0:07 mg/mL的L-肉碱可以显著提高精子线粒体活性。",
+    "reference_case": "在猪精液冷冻保存过程中，添加0:04 mg/mL和0:06 mg/mL的L-肉碱可以显著提高精子线粒体活性。",
+    "error_detail": "错误地更改了L-肉碱的添加浓度，从0:04 mg/mL和0:06 mg/mL改为0:05 mg/mL和0:07 mg/mL。",
+    "original_question": "猪精液冷冻保存过程中，L-肉碱对精子线粒体活性的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪精液冷冻保存中，添加0:05 mg/mL和0:07 mg/mL的L-肉碱可以显著提高精子活率。",
+    "reference_case": "在猪精液冷冻保存中，添加0:04 mg/mL和0:06 mg/mL的L-肉碱可以显著提高精子活率。",
+    "error_detail": "错误地更改了L-肉碱的添加浓度，从0:04 mg/mL和0:06 mg/mL改为0:05 mg/mL和0:07 mg/mL。",
+    "original_question": "在猪精液冷冻保存中，L-肉碱对精子活率的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪精液冷冻保存中，添加0:07 mg/mL的L-肉碱可以显著提高精子T-AOC活性。",
+    "reference_case": "在猪精液冷冻保存中，添加0:06 mg/mL的L-肉碱可以显著提高精子T-AOC活性。",
+    "error_detail": "错误地更改了L-肉碱的添加浓度，从0:06 mg/mL改为0:07 mg/mL。",
+    "original_question": "在猪精液冷冻保存中，L-肉碱对精子T-AOC活性的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪精液冷冻保存中，添加0:07 mg/mL和0:09 mg/mL的L-肉碱可以显著提高精子质膜完整性。",
+    "reference_case": "在猪精液冷冻保存中，添加0:06 mg/mL和0:08 mg/mL的L-肉碱可以显著提高精子质膜完整性。",
+    "error_detail": "错误地更改了L-肉碱的添加浓度，从0:06 mg/mL和0:08 mg/mL改为0:07 mg/mL和0:09 mg/mL。",
+    "original_question": "在猪精液冷冻保存中，L-肉碱对精子质膜完整性的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "L-肉碱在猪精液冷冻保存中主要起到改善精子冻后质量的作用，包括提高精子活率、线粒体活性、顶体完整性和质膜完整性，同时增加CAT和T-AOC酶活性，降低MDA含量。此外，还能提高精子的运动能力。",
+    "reference_case": "L-肉碱在猪精液冷冻保存中主要起到改善精子冻后质量的作用，包括提高精子活率、线粒体活性、顶体完整性和质膜完整性，同时增加CAT和T-AOC酶活性，降低MDA含量。",
+    "error_detail": "添加了不属于原始指令的内容，即提高精子的运动能力。",
+    "original_question": "L-肉碱在猪精液冷冻保存中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "皖北猪的RAPD研究中，用于遗传结构分析的个体数量是30头。",
+    "reference_case": "皖北猪的RAPD研究中，用于遗传结构分析的个体数量是20头。",
+    "error_detail": "错误地更改了用于遗传结构分析的个体数量，从20头改为30头。",
+    "original_question": "皖北猪的RAPD研究中，用于遗传结构分析的个体数量是多少？",
+    "original_input": ""
+  }
+]

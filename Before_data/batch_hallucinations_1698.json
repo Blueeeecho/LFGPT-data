@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "有效磷的日需要量（g/d）= 每天机体代谢对磷的需要量（g）/ 可消化磷存留率 × 日粮中有效磷的含量（%） = 每天有效磷需要量 / 每天饲料采食量 × 1000。",
+    "reference_case": "有效磷的日需要量（g/d）= 每天机体代谢对磷的需要量（g）/ 可消化磷存留率 × 日粮中有效磷的含量（%） = 每天有效磷需要量 / 每天饲料采食量 × 100。",
+    "error_detail": "将乘以100错误地改为乘以1000，导致计算结果偏差。",
+    "original_question": "猪对有效磷日需要量的计算公式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "根据猪的体重、增重速度和增重组成成分，可以估测猪维持和增长对钙的需要量。",
+    "reference_case": "根据猪的体重、增重速度和增重组成成分，可以估测猪维持和增长对磷的需要量。例如，55 kg体重、日增重为770 g的去势公猪和母猪，对磷的维持需要为0.60 g，增重需要为3.98 g。",
+    "error_detail": "将磷的需要量错误地改为钙的需要量，导致概念混淆。",
+    "original_question": "有效磷需要量与猪的体重和增重速度有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "仔猪有效磷的需要量在猪增长潜力高时减少。",
+    "reference_case": "仔猪有效磷的需要量在猪增长潜力高时增加，特别是瘦肉型猪的增长速度增加时，有效磷的需要量也相应增加。",
+    "error_detail": "错误地认为仔猪有效磷的需要量在增长潜力高时减少，与当前研究结果相反。",
+    "original_question": "仔猪有效磷的需要量会如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "当饲料赖氨酸含量降低0.3%（7 g/d）时，每天体增重、蛋白质沉积、磷的存留量分别约减少70 g、31 g与0.7 g，且猪的免疫力会显著下降。",
+    "reference_case": "当饲料赖氨酸含量降低0.3%（7 g/d）时，每天体增重、蛋白质沉积、磷的存留量分别约减少70 g、31 g与0.7 g。",
+    "error_detail": "添加了关于猪免疫力显著下降的假设，原输出中未提及。",
+    "original_question": "如何通过饲料氨基酸缺乏来降低猪对有效磷的需要量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "泌乳母猪的营养需要量都远远低于妊娠母猪的营养需要。",
+    "reference_case": "妊娠母猪除妊娠后期外，营养需要量都远远低于泌乳母猪的营养需要。",
+    "error_detail": "错误地将泌乳母猪和妊娠母猪的营养需要量关系倒置。",
+    "original_question": "妊娠母猪的营养需要量与泌乳母猪有何区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "妊娠期母猪喂得过多，在泌乳期间采食量下降，泌乳期体重损失增加，而且妊娠期采食能量过多会促进母猪乳腺组织的发育，所以母猪应该喂得肥一些。",
+    "reference_case": "妊娠期母猪喂得过多，在泌乳期间采食量下降，泌乳期体重损失增加，而且妊娠期采食能量过多会妨碍母猪乳腺组织的发育，所以母猪不能喂得过肥。",
+    "error_detail": "逻辑矛盾，一方面说采食能量过多会促进乳腺组织发育，另一方面又说不能喂得过肥。",
+    "original_question": "母猪妊娠期过多喂食有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在妊娠后期的日粮中增加能量物质（如脂肪），可以提高仔猪断奶成活率，这一结论仅适用于热带地区。",
+    "reference_case": "在妊娠后期的日粮中增加能量物质（如脂肪），可以提高仔猪断奶成活率。",
+    "error_detail": "错误地添加了地域限制，原输出中未提及。",
+    "original_question": "妊娠后期增加能量物质对仔猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠初产母猪添加吡哆醇10 mg/kg的日粮中没有明显益处。",
+    "reference_case": "妊娠初产母猪添加吡哆醇1 mg/kg的日粮中没有明显益处，但性成熟的小母猪对吡哆醇的需要量超过2.1 mg/kg，妊娠期间初产母猪添加1 mg/kg吡哆醇可改善初生和断奶时窝仔猪数。",
+    "error_detail": "将吡哆醇的添加量从1 mg/kg错误地改为10 mg/kg。",
+    "original_question": "母猪日粮中添加吡哆醇的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "母猪日粮中添加维生素B12使其日采食水平达到400 μg有助于维持妊娠并提高仔猪出生后第1天的成活率，但会导致母猪体重增加过快。",
+    "reference_case": "母猪日粮中添加维生素B12使其日采食水平达到400 μg有助于维持妊娠并提高仔猪出生后第1天的成活率。",
+    "error_detail": "添加了关于母猪体重增加过快的负面效果，原输出中未提及。",
+    "original_question": "添加维生素B12对母猪妊娠的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "研究表明，母猪日粮中添加叶酸或在妊娠早期肌肉注射叶酸能够显著提高窝产仔数和产活仔数。NRC建议妊娠和哺乳母猪日粮添加叶酸13.0 mg/kg。",
+    "reference_case": "研究表明，母猪日粮中添加叶酸或在妊娠早期肌肉注射叶酸能够显著提高窝产仔数和产活仔数。NRC建议妊娠和哺乳母猪日粮添加叶酸1.30 mg/kg。",
+    "error_detail": "将叶酸的添加建议量从1.30 mg/kg错误地改为13.0 mg/kg。",
+    "original_question": "母猪日粮中添加叶酸的效果如何？",
+    "original_input": ""
+  }
+]

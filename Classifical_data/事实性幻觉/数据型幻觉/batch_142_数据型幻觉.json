@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "边远地区在生猪定点屠宰管理中存在的问题包括运作不规范，管理力度较弱，尤其是在小集镇和村级集市中，这种现象较为多见，还包括缺乏专业人才。",
+    "reference_case": "边远地区在生猪定点屠宰管理中存在的问题包括运作不规范，管理力度较弱，尤其是在小集镇和村级集市中，这种现象较为多见。",
+    "error_detail": "添加了不存在的问题（缺乏专业人才）",
+    "original_question": "文章中提到边远地区在生猪定点屠宰管理中存在哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪的宰后检验中，旋毛虫检验的步骤包括在猪肉尸左右膈肌脚各取一小块20g左右的肉样，撕去肌膜观察有无虫体，然后用剪刀顺肌纤维方向在不同部位剪取24小片，压片镜检，看有无旋毛虫，还包括血液检测。",
+    "reference_case": "在猪的宰后检验中，旋毛虫检验的步骤包括在猪肉尸左右膈肌脚各取一小块20g左右的肉样，撕去肌膜观察有无虫体，然后用剪刀顺肌纤维方向在不同部位剪取24小片，压片镜检，看有无旋毛虫。",
+    "error_detail": "添加了不存在的检验步骤（血液检测）",
+    "original_question": "猪的宰后检验中，如何进行旋毛虫检验？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在2001年6月下旬，某猪场购进的684头架子猪中有400头出现了咳濑、气喘的症状。",
+    "reference_case": "在2001年6月下旬，某猪场购进的684头架子猪中有368头出现了咳濑、气喘的症状。",
+    "error_detail": "数值偏差，将368头改为400头。",
+    "original_question": "在2001年6月下旬，某猪场购进的架子猪中有多少头出现了咳濑、气喘的症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪接触传染性胸膜肺炎的病原体对氟甲矾霉素和盐酸环丙沙星高敏，对庆大霉素、新霉素中敏，对青霉素、链霉素、强力霉素和土霉素不敏感。",
+    "reference_case": "猪接触传染性胸膜肺炎的病原体对氟甲矾霉素和盐酸环丙沙星高敏，对庆大霉素、新霉素低敏，对青霉素、链霉素、强力霉素和土霉素不敏感。",
+    "error_detail": "将低敏改为中敏，属于数值/比例偏差。",
+    "original_question": "猪接触传染性胸膜肺炎的病原体对抗生素的敏感性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪接触传染性胸膜肺炎的治疗中，使用了普乐健（氟甲矾霉素）和磺胺二甲嘧啶添加到饲料中，以及盐酸环丙沙星肌注，每日两次。",
+    "reference_case": "猪接触传染性胸膜肺炎的治疗中，使用了普乐健（氟甲矾霉素）和磺胺二甲嘧啶添加到饲料中，以及盐酸环丙沙星肌注。",
+    "error_detail": "添加了未提及的每日两次，属于数据型幻觉。",
+    "original_question": "猪接触传染性胸膜肺炎的治疗中，使用了哪些药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "成年猪背肌坏死主要发生于50至75公斤的成年猪。",
+    "reference_case": "成年猪背肌坏死主要发生于75至100公斤的成年猪。",
+    "error_detail": "将体重范围从75至100公斤错误地改为50至75公斤，属于数据型幻觉。",
+    "original_question": "成年猪背肌坏死主要发生在哪些猪身上？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在气候骤变时，猪丹毒病的发生率与平时相比有轻微的增加（p<0:05:。",
+    "reference_case": "在气候骤变时，猪丹毒病的发生率与平时相比有极明显的增加（p<0:01:。",
+    "error_detail": "将极明显的增加改为轻微的增加，属于数据型幻觉。",
+    "original_question": "猪丹毒病在气候骤变时的发生率与平时相比有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪丹毒病的慢性型特征性损害是肝脏病变。",
+    "reference_case": "猪丹毒病的慢性型特征性损害是疣状心内膜炎，多见于左房室瓣，有时蔓延至两侧半月瓣及右房室瓣，呈椰菜花样；关节炎患部关节囊增厚，内含纤维素性渗出物，有时形成骨化关节。",
+    "error_detail": "错误地将慢性型猪丹毒病的特征性损害描述为肝脏病变，而非实际的心内膜炎和关节炎。",
+    "original_question": "猪丹毒病的慢性型特征性损害是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "大连市某猪场在防制猪繁殖呼吸综合症时，对检出的阳性母猪及仔猪进行了隔离治疗。",
+    "reference_case": "大连市某猪场在防制猪繁殖呼吸综合症时，对检出的26头阳性母猪及这些母猪产后成活的仔猪全部进行电死焚烧。",
+    "error_detail": "错误地描述了处理方式，将电死焚烧误称为隔离治疗。",
+    "original_question": "大连市某猪场在防制猪繁殖呼吸综合症时，如何处理检出的阳性母猪及其仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在1999年10月大连市某猪场，猪繁殖呼吸综合症的发病率及死亡率较低。",
+    "reference_case": "在1999年10月大连市某猪场，猪繁殖呼吸综合症的发病率及死亡率较高，尤其是产后一周内出现症状的仔猪死亡率较高。",
+    "error_detail": "错误地低估了发病率和死亡率，与实际情况相反。",
+    "original_question": "猪繁殖呼吸综合症在1999年10月大连市某猪场的发病率及死亡率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在1999年10月，大连市某猪场中，通过间接荧光抗体（IFA）监测发现的阳性猪有50头。",
+    "reference_case": "在1999年10月，大连市某猪场中，通过间接荧光抗体（IFA）监测发现的阳性猪有26头。",
+    "error_detail": "错误地高估了阳性猪的数量，与实际情况不符。",
+    "original_question": "在1999年10月，大连市某猪场中，通过间接荧光抗体（IFA）监测发现的阳性猪有多少头？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪结核病的检测中，注射位点炎性反应，肿胀≥5mm判为阳性。",
+    "reference_case": "在猪结核病的检测中，注射位点炎性反应，肿胀≥2mm判为阳性。",
+    "error_detail": "数值偏差，将肿胀标准从2mm错误地改为5mm。",
+    "original_question": "在猪结核病的检测中，如何判定阳性反应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪链球菌病的败血症型的主要临床症状包括体温升高到39°C以上。",
+    "reference_case": "猪链球菌病的败血症型的主要临床症状包括体温升高到41°C以上，精神萎顿，食欲大减或废绝，呼吸促迫，心跳增数，耳、胸部、腹部出现红斑或紫斑，粪便干燥，部分病猪出现跛行。",
+    "error_detail": "数值偏差，将体温标准从41°C错误地改为39°C。",
+    "original_question": "猪链球菌病的败血症型的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪链球菌病的败血症型在临床上主要症状包括体温升高到39°C以上。",
+    "reference_case": "猪链球菌病的败血症型在临床上主要症状包括体温升高到41°C以上，精神萎顿，食欲大减或废绝，呼吸促迫，心跳增数，耳、胸部、腹部出现红斑或紫斑，粪便干燥，部分病猪出现跛行。",
+    "error_detail": "数值偏差，将体温标准从41°C错误地改为39°C。",
+    "original_question": "猪链球菌病的败血症型在临床上有哪些主要症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对于猪链球菌病的败血症型和关节炎型，治疗时使用的药物包括氨汴青霉素和安乃近注射液或复方氨比注射液，剂量为100mg/kg。",
+    "reference_case": "对于猪链球菌病的败血症型和关节炎型，治疗时使用的药物包括氨汴青霉素和安乃近注射液或复方氨比注射液。",
+    "error_detail": "添加了不存在的剂量信息",
+    "original_question": "对于猪链球菌病的败血症型和关节炎型，治疗时使用的药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪附红细胞体呈圆形至卵圆形，平均直径为0.5至3微米，它们可以单独或成链状附着于红细胞表面，或围绕在整个红细胞上。在血浆中也可见自由的附红细胞体。",
+    "reference_case": "猪附红细胞体呈圆形至卵圆形，平均直径为0.2至2微米，它们可以单独或成链状附着于红细胞表面，或围绕在整个红细胞上。在血浆中也可见自由的附红细胞体。",
+    "error_detail": "错误地修改了尺寸数据",
+    "original_question": "猪附红细胞体的形态特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验组母猪的采食量比对照组提高15%。",
+    "reference_case": "试验组母猪的采食量比对照组提高7%。",
+    "error_detail": "错误地修改了提高的百分比",
+    "original_question": "试验组和对照组在母猪采食量上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验组的总产仔数、活仔数和初生窝重分别比对照组高5.60%、5.77%和6.75%。",
+    "reference_case": "试验组的总产仔数、活仔数和初生窝重分别比对照组高3.60%、3.77%和4.75%。",
+    "error_detail": "错误地修改了提高的百分比",
+    "original_question": "试验组和对照组在母猪产仔情况上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "益菌多的预防效果很好，100头出生后喂服益菌多的仔猪未发生腹泻和下痢。",
+    "reference_case": "益菌多的预防效果很好，89头出生后喂服益菌多的仔猪未发生腹泻和下痢。",
+    "error_detail": "错误地修改了仔猪数量",
+    "original_question": "益菌多的预防效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "植酸酶能水解植酸及有机磷化合物从而释放出无机磷盐为动物吸收利用，减少磷的排出。研究表明，添加植酸酶能显著提高磷的利用率，降低粪便中总磷含量。例如，在生长猪的豆粕和玉米—豆粕型日粮中添加植酸酶，豆粕中磷的生物学效价从25%提高到75%。",
+    "reference_case": "植酸酶能水解植酸及有机磷化合物从而释放出无机磷盐为动物吸收利用，减少磷的排出。研究表明，添加植酸酶能显著提高磷的利用率，降低粪便中总磷含量。例如，在生长猪的豆粕和玉米—豆粕型日粮中添加植酸酶，豆粕中磷的生物学效价从25%提高到57%。",
+    "error_detail": "错误地修改了提高的百分比",
+    "original_question": "植酸酶在降低磷污染方面有哪些作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在妊娠期的日粮营养水平应从怀孕84天开始提高，每千克含消化能13:513 MJ，粗蛋白质15%，赖氨酸0:85%，钙0:9%，磷0:75%，日喂量3:5至3:75 kg。",
+    "reference_case": "母猪在妊娠期的日粮营养水平应从怀孕84天开始提高，每千克含消化能12:513 MJ，粗蛋白质14%，赖氨酸0:75%，钙0:8%，磷0:65%，日喂量3:25至3:5 kg。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "母猪在妊娠期的日粮营养水平应如何调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "阉公猪的肌间脂肪含量标准是大于3:0%，育肥母猪的肌间脂肪含量标准是大于2:6%。",
+    "reference_case": "阉公猪的肌间脂肪含量标准是大于2:9%，育肥母猪的肌间脂肪含量标准是大于2:5%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "阉公猪和育肥母猪的肌间脂肪含量标准分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在泌乳期的日粮应每千克含消化能14:0至14:8 MJ，粗蛋白质15%至17%，赖氨酸0:80%至0:85%，钙0:94%，磷0:80%。",
+    "reference_case": "母猪在泌乳期的日粮应每千克含消化能13:0至13:8 MJ，粗蛋白质14%至16%，赖氨酸0:70%至0:75%，钙0:84%，磷0:70%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "母猪在泌乳期的日粮应包含哪些营养成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪在配种前两周应进行催情补饲，采食量增加50%至60%，达到日喂4:0至4:2 kg配合料。",
+    "reference_case": "后备母猪在配种前两周应进行催情补饲，采食量增加40%至50%，达到日喂3:8至4:0 kg配合料。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "后备母猪在配种前两周的催情补饲应如何操作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪在配种前两周的催情补饲中，采食量应增加50%至60%，达到日喂4:0至4:2 kg配合料。",
+    "reference_case": "后备母猪在配种前两周的催情补饲中，采食量应增加40%至50%，达到日喂3:8至4:0 kg配合料。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "后备母猪在配种前两周的催情补饲中，采食量应增加多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在泌乳期的日粮喂量可以以日喂2:0 kg为基础，每哺育1头仔猪增加0:6 kg料，或以日喂2:5 kg为基础，每哺育1头仔猪增加0:5 kg料。",
+    "reference_case": "母猪在泌乳期的日粮喂量可以以日喂1:5 kg为基础，每哺育1头仔猪增加0:5 kg料，或以日喂2 kg为基础，每哺育1头仔猪增加0:4 kg料。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "母猪在泌乳期的日粮喂量应如何计算？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在泌乳期的日粮中应包含消化能14:0至14:8 MJ，粗蛋白质15%至17%，赖氨酸0:80%至0:85%，钙0:94%，磷0:80%。",
+    "reference_case": "母猪在泌乳期的日粮中应包含消化能13:0至13:8 MJ，粗蛋白质14%至16%，赖氨酸0:70%至0:75%，钙0:84%，磷0:70%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "母猪在泌乳期的日粮中应包含哪些营养成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在怀孕84天后的日粮营养水平应提高到每千克含消化能13:513 MJ，粗蛋白质15%，赖氨酸0:85%，钙0:9%，磷0:75%，日喂量3:5至3:75 kg。",
+    "reference_case": "母猪在怀孕84天后的日粮营养水平应提高到每千克含消化能12:513 MJ，粗蛋白质14%，赖氨酸0:75%，钙0:8%，磷0:65%，日喂量3:25至3:5 kg。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "母猪在怀孕84天后的日粮营养水平应如何调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪在体重30 kg左右时，每千克配合料应含消化能14 MJ，粗蛋白质17%，赖氨酸0:9%，钙0:85%，磷0:75%。",
+    "reference_case": "后备母猪在体重30 kg左右时，每千克配合料应含消化能13 MJ，粗蛋白质16%，赖氨酸0:8%，钙0:75%，磷0:65%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "后备母猪在体重30 kg左右时，每千克配合料应含哪些营养成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "阉公猪的腰眼面积标准是42:9 cm²以上，育肥母猪的腰眼面积标准是46:7 cm²以上。",
+    "reference_case": "阉公猪的腰眼面积标准是41:9 cm²以上，育肥母猪的腰眼面积标准是45:7 cm²以上。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "阉公猪和育肥母猪的腰眼面积标准分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "阉公猪的肌间脂肪含量标准是大于3:0%，育肥母猪的肌间脂肪含量标准是大于2:6%。",
+    "reference_case": "阉公猪的肌间脂肪含量标准是大于2:9%，育肥母猪的肌间脂肪含量标准是大于2:5%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "阉公猪和育肥母猪的肌间脂肪含量标准分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪在配种前两周应进行催情补饲，采食量增加50%至60%，达到日喂4:0至4:2 kg配合料。",
+    "reference_case": "后备母猪在配种前两周应进行催情补饲，采食量增加40%～50%，达到日喂3:8～4:0 kg配合料。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "后备母猪在配种前两周的催情补饲应如何操作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "阉公猪的腰眼面积标准是42:9 cm²以上，育肥母猪的腰眼面积标准是46:7 cm²以上。",
+    "reference_case": "阉公猪的腰眼面积标准是41:9 cm²以上，育肥母猪的腰眼面积标准是45:7 cm²以上。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "阉公猪和育肥母猪的腰眼面积标准分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在泌乳期的日粮喂量可以以日喂2:0 kg为基础，每哺育1头仔猪增加0:6 kg料，或以日喂2:5 kg为基础，每哺育1头仔猪增加0:5 kg料。",
+    "reference_case": "母猪在泌乳期的日粮喂量可以以日喂1:5 kg为基础，每哺育1头仔猪增加0:5 kg料，或以日喂2 kg为基础，每哺育1头仔猪增加0:4 kg料。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "母猪在泌乳期的日粮喂量应如何计算？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在妊娠期的营养调控措施包括从怀孕84天开始提高日粮营养水平，每千克含消化能13:513 MJ，粗蛋白质15%，赖氨酸0:85%，钙0:9%，磷0:75%，日喂量3:5～3:75 kg。",
+    "reference_case": "母猪在妊娠期的营养调控措施包括从怀孕84天开始提高日粮营养水平，每千克含消化能12:513 MJ，粗蛋白质14%，赖氨酸0:75%，钙0:8%，磷0:65%，日喂量3:25～3:5 kg。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "母猪在妊娠期的营养调控措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "阉公猪的肌间脂肪含量标准是大于3:0%，育肥母猪的肌间脂肪含量标准是大于2:6%。",
+    "reference_case": "阉公猪的肌间脂肪含量标准是大于2:9%，育肥母猪的肌间脂肪含量标准是大于2:5%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "阉公猪和育肥母猪的肌间脂肪含量标准分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在泌乳期的日粮应包含消化能14:0～14:8 MJ，粗蛋白质15%～17%，赖氨酸0:80%～0:85%，钙0:94%，磷0:80%。",
+    "reference_case": "母猪在泌乳期的日粮应包含消化能13:0～13:8 MJ，粗蛋白质14%～16%，赖氨酸0:70%～0:75%，钙0:84%，磷0:70%。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "母猪在泌乳期的日粮应包含哪些营养成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "华南地区杜×（大×长）生长肥育猪的平均日增重为800 g/d，日采食量为2000 g/d，料重比为2:50:1。",
+    "reference_case": "华南地区杜×（大×长）生长肥育猪的平均日增重为737 g/d，日采食量为1883 g/d，料重比为2:56:1。",
+    "error_detail": "数值偏差",
+    "original_question": "华南地区杜×（大×长）生长肥育猪的平均日增重、日采食量和料重比分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PST脂质体的缓释效果显著，缓释时间长达10天以上。",
+    "reference_case": "PST脂质体的缓释效果显著，缓释时间长达7天以上。",
+    "error_detail": "数值偏差",
+    "original_question": "猪生长激素（PST）脂质体的缓释效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PST脂质体的吸收半衰期为0.5小时，衰减半衰期为40小时。",
+    "reference_case": "PST脂质体的吸收半衰期为0.3小时，衰减半衰期为36.93小时。",
+    "error_detail": "数值偏差",
+    "original_question": "PST脂质体在猪体内的吸收半衰期和衰减半衰期分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在基础饲粮中添加维生素A 1500-10000 IU/kg 提高了生长猪的日增重（P>0.05），并极显著地降低了料重比（P<0.01）。然而，当维生素A添加水平从1500 IU/kg 增加至10000 IU/kg 时，料重比显著提高（P<0.05），采食量也极显著提高（P<0.01）。",
+    "reference_case": "在基础饲粮中添加维生素A 1300-10000 IU/kg 提高了生长猪的日增重（P>0.05），并极显著地降低了料重比（P<0.01）。然而，当维生素A添加水平从1300 IU/kg 增加至10000 IU/kg 时，料重比显著提高（P<0.05），采食量也极显著提高（P<0.01）。",
+    "error_detail": "数值偏差",
+    "original_question": "维生素A对生长猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "以肝脏中维生素A含量为指标，生长猪维生素A的适宜水平为在基础饲料上添加15000 IU/kg。但根据生产性能等其它指标，添加1500 IU/kg 可以满足生长猪的需要。",
+    "reference_case": "以肝脏中维生素A含量为指标，生长猪维生素A的适宜水平为在基础饲料上添加10000 IU/kg。但根据生产性能等其它指标，添加1300 IU/kg 可以满足生长猪的需要。",
+    "error_detail": "数值偏差",
+    "original_question": "生长猪的维生素A适宜添加水平是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "随着维生素A水平的提高，肝脏中维生素A含量极显著提高（P<0.01），至添加维生素A 15000 IU/kg 组最高，之后略下降。添加维生素A有使血浆中维生素A含量升高的趋势（P>0.05）。",
+    "reference_case": "随着维生素A水平的提高，肝脏中维生素A含量极显著提高（P<0.01），至添加维生素A 10000 IU/kg 组最高，之后略下降。添加维生素A有使血浆中维生素A含量升高的趋势（P>0.05）。",
+    "error_detail": "数值偏差",
+    "original_question": "维生素A水平对生长猪的肝脏和血浆中维生素A含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "随着添加维生素A水平的提高，肝脏中维生素A含量极显著提高（P<0.01），至添加维生素A 15000 IU/kg 组最高，之后略下降。",
+    "reference_case": "随着添加维生素A水平的提高，肝脏中维生素A含量极显著提高（P<0.01），至添加维生素A 10000 IU/kg 组最高，之后略下降。",
+    "error_detail": "数值偏差",
+    "original_question": "维生素A水平对生长猪的肝脏中维生素A含量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "胴体瘦肉和无脂瘦肉日增重在添加维生素A 1500 IU/kg 和 10000 IU/kg 两组间很接近，而且优于其它组（P<0.05）。",
+    "reference_case": "胴体瘦肉和无脂瘦肉日增重在添加维生素A 1300 IU/kg 和 10000 IU/kg 两组间很接近，而且优于其它组（P<0.05）。",
+    "error_detail": "数值偏差",
+    "original_question": "维生素A水平对生长猪的胴体无脂瘦肉增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "各组血清中 IgG、IgA、IgM 含量都无显著差异（P>0.05）。添加维生素A使 T 淋巴细胞中 CD3+ 和 CD8+ 亚群比例趋于升高（P>0.05），随着添加维生素A水平提高，血清 T 淋巴细胞中 CD4+/CD8+ 比值趋于下降，至添加维生素A 15000 IU/kg 组最低，在维生素A 20000 IU/kg 组又明显上升（P>0.05）。",
+    "reference_case": "各组血清中 IgG、IgA、IgM 含量都无显著差异（P>0.05）。添加维生素A使 T 淋巴细胞中 CD3+ 和 CD8+ 亚群比例趋于升高（P>0.05），随着添加维生素A水平提高，血清 T 淋巴细胞中 CD4+/CD8+ 比值趋于下降，至添加维生素A 10000 IU/kg 组最低，在维生素A 15000 IU/kg 组又明显上升（P>0.05）。",
+    "error_detail": "数值偏差",
+    "original_question": "维生素A水平对生长猪的血清免疫参数有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "有机硒在母猪和仔猪中的作用包括提高母猪初乳和常乳中硒的含量，增加仔猪断奶时的血清、肝脏和眼肌硒浓度，以及通过胎盘高效转运硒，从而提高仔猪的抗氧化能力和健康水平。此外，还能提高仔猪的生长速度50%。",
+    "reference_case": "有机硒在母猪和仔猪中的作用包括提高母猪初乳和常乳中硒的含量，增加仔猪断奶时的血清、肝脏和眼肌硒浓度，以及通过胎盘高效转运硒，从而提高仔猪的抗氧化能力和健康水平。",
+    "error_detail": "添加了不存在的生长速度提高50%的数据",
+    "original_question": "有机硒在母猪和仔猪中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加较高剂量的维生素能减缓动物的免疫应激。例如，短期内供给大鼠大剂量维生素E，可抑制LPS诱导的巨噬细胞（MΦ）对TNF-α的分泌。给仔猪短期大剂量肌注d-α-生育酚，可显著降低LPS诱导的应激，效果达到90%。",
+    "reference_case": "添加较高剂量的维生素能减缓动物的免疫应激。例如，短期内供给大鼠大剂量维生素E，可抑制LPS诱导的巨噬细胞（MΦ）对TNF-α的分泌。给仔猪短期大剂量肌注d-α-生育酚，可显著降低LPS诱导的应激。",
+    "error_detail": "添加了不存在的效果百分比",
+    "original_question": "添加维生素对免疫应激有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "转基因动物可能存在自身健康问题，例如外源基因的插入可能导致内源基因破坏或表达受到影响，引起非目标性状改变。例如，携带牛生长激素的转基因猪交配欲望弱、成功率低、窝产活仔数平均少5头。此外，目的基因的过度表达可能破坏正常内稳态，影响生理状态。",
+    "reference_case": "转基因动物可能存在自身健康问题，例如外源基因的插入可能导致内源基因破坏或表达受到影响，引起非目标性状改变。例如，携带牛生长激素的转基因猪交配欲望弱、成功率低、窝产活仔数平均少3头。此外，目的基因的过度表达可能破坏正常内稳态，影响生理状态。",
+    "error_detail": "数值偏差，窝产活仔数从3头错误增加到5头",
+    "original_question": "转基因动物可能存在哪些自身健康问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "金华加华种猪有限公司的研究显示，增加公猪的测定量能加快选择进展，2001 年公猪测定量占 50:50%，效果明显。",
+    "reference_case": "金华加华种猪有限公司的研究显示，增加公猪的测定量能加快选择进展，2001 年公猪测定量占 24:86%，效果明显。",
+    "error_detail": "修改了公猪测定量的比例，导致数据型幻觉。",
+    "original_question": "金华加华种猪有限公司在种猪育种中，增加公猪的测定量对选择进展有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "金华加华种猪有限公司使用公式 INDEX = 100 - 20 × FAT - 5 × AGE 来计算综合育种值指数，其中 FAT 和 AGE 分别为背膘厚和日龄的估计育种值。",
+    "reference_case": "金华加华种猪有限公司使用公式 INDEX = 100 - 15:4 × FAT - 3:79 × AGE 来计算综合育种值指数，其中 FAT 和 AGE 分别为背膘厚和日龄的估计育种值。",
+    "error_detail": "修改了公式中的系数，导致数据型幻觉。",
+    "original_question": "金华加华种猪有限公司在种猪育种中如何计算综合育种值指数？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "金华加华种猪有限公司的研究显示，背膘厚从 1997 年到 2001 年在遗传上共下降 0:2000 mm，达 100 kg 体重日龄从 1997 年到 2001 年共下降 1:0000 天。",
+    "reference_case": "金华加华种猪有限公司的研究显示，背膘厚从 1997 年到 2001 年在遗传上共下降 0:1509 mm，达 100 kg 体重日龄从 1997 年到 2001 年共下降 0:8619 天。",
+    "error_detail": "修改了遗传趋势的数据，导致数据型幻觉。",
+    "original_question": "金华加华种猪有限公司在种猪育种中，体重达 100 kg 日龄和背膘厚育种值的遗传趋势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "金华加华种猪有限公司的研究显示，两性状综合育种值从 1997 年的 100:00 上升到 2001 年的 110:00，遗传改良效果明显。",
+    "reference_case": "金华加华种猪有限公司的研究显示，两性状综合育种值从 1997 年的 101:62 上升到 2001 年的 106:51，遗传改良效果明显。",
+    "error_detail": "修改了综合育种值的年度进展数据，导致数据型幻觉。",
+    "original_question": "金华加华种猪有限公司在种猪育种中，两性状综合育种值的年度进展如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "金华加华种猪有限公司的研究显示，达 100 kg 体重的日龄在 2 个时间段上缩短了 10:0 天，背膘厚在 2000 年 1 月后改用 B 超测定后明显减小。",
+    "reference_case": "金华加华种猪有限公司的研究显示，达 100 kg 体重的日龄在 2 个时间段上缩短了 6:7 天，背膘厚在 2000 年 1 月后改用 B 超测定后明显增大。",
+    "error_detail": "修改了日龄缩短的天数和背膘厚的变化方向，导致数据型幻觉。",
+    "original_question": "金华加华种猪有限公司在种猪育种中，背膘厚和日龄的年度变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "我国畜牧业在国际市场上的优势主要体现在价格上，除禽肉外其他肉类价格低于国际市场（猪肉低50%，牛肉低70%，羊肉低40%），并且与我国相邻的日本、独联体国家、印尼以及中东地区国家有较大的出口市场。",
+    "reference_case": "我国畜牧业在国际市场上的优势主要体现在价格上，除禽肉外其他肉类价格低于国际市场（猪肉低60%，牛肉低80%，羊肉低50%），并且与我国相邻的日本、独联体国家、印尼以及中东地区国家有较大的出口市场。",
+    "error_detail": "修改了肉类价格的比较数据，导致数据型幻觉。",
+    "original_question": "我国畜牧业在国际市场上的优势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丹东市猪场中2-4月龄猪的病死率为95%。",
+    "reference_case": "丹东市猪场中2-4月龄猪的病死率为85%。",
+    "error_detail": "数值偏差",
+    "original_question": "丹东市猪场中2-4月龄猪的病死率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丹东市猪场中仔猪的发病率为90%，2月龄以上猪的发病率为46%。",
+    "reference_case": "丹东市猪场中仔猪的发病率为80%，2月龄以上猪的发病率为56%。",
+    "error_detail": "数值偏差",
+    "original_question": "丹东市猪场中仔猪和2月龄以上猪的发病率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在发病高峰期，猪流感病毒H3N2型的阳性率为96%；在基本平稳后，阳性率下降至48%。",
+    "reference_case": "在发病高峰期，猪流感病毒H3N2型的阳性率为94%；在基本平稳后，阳性率下降至58%。",
+    "error_detail": "数值偏差",
+    "original_question": "猪“无名高热病”的流行过程中，猪流感病毒H3N2型的阳性率在发病高峰期和基本平稳后分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2001年杭州地区猪“无名高热病”的发病率约为15%，死亡率约为3%。",
+    "reference_case": "2001年杭州地区猪“无名高热病”的发病率约为10%，死亡率约为2%。",
+    "error_detail": "数值偏差",
+    "original_question": "2001年杭州地区猪“无名高热病”的发病率和死亡率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪“无名高热病”的流行过程中，PRRS的抗体阳性率为79:4%，PR的抗体阳性率为23:9%。在基本平稳后，PRRS的抗体阳性率上升至91:9%，PR的抗体阳性率上升至55:8%。",
+    "reference_case": "在猪“无名高热病”的流行过程中，PRRS的抗体阳性率为69:4%，PR的抗体阳性率为13:9%。在基本平稳后，PRRS的抗体阳性率上升至81:9%，PR的抗体阳性率上升至45:8%。",
+    "error_detail": "数值偏差",
+    "original_question": "猪“无名高热病”的流行过程中，PRRS和PR的抗体检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "妊娠母猪的能量需要量在妊娠前期、中期和后期都是相同的。",
+    "reference_case": "妊娠母猪的能量需要量依母猪体重、环境、胎次、前一产泌乳体重损失及预期母体净增重的不同而有所变化。妊娠前期、中期和后期的能量需求不同，妊娠后期能量需要量呈指数增加。",
+    "error_detail": "错误地认为妊娠母猪的能量需要量在所有阶段相同",
+    "original_question": "妊娠母猪的能量需要量如何随妊娠阶段变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "哺乳母猪的体重损失主要由脂肪组成，蛋白质的损失可以忽略不计。",
+    "reference_case": "哺乳母猪的体重损失主要由脂肪和蛋白质组成。研究表明，体重损失中59%为蛋白质、水分和灰分，37%为脂肪。",
+    "error_detail": "错误地低估了蛋白质在体重损失中的比例",
+    "original_question": "哺乳母猪的体重损失主要由哪些成分组成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "妊娠母猪的赖氨酸需要量由维持需要和母体及胎儿蛋白质沉积需要两部分组成。维持赖氨酸总需要量为100mg/kgBW^0:75·d，回肠真可消化赖氨酸需要量为80mg/kgBW^0:75·d。",
+    "reference_case": "妊娠母猪的赖氨酸需要量由维持需要和母体及胎儿蛋白质沉积需要两部分组成。维持赖氨酸总需要量为49mg/kgBW^0:75·d，回肠真可消化赖氨酸需要量为36mg/kgBW^0:75·d。",
+    "error_detail": "错误地高估了赖氨酸的需要量",
+    "original_question": "妊娠母猪的赖氨酸需要量如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "妊娠前期的采食量调整对肧胎存活率没有影响。",
+    "reference_case": "妊娠前期的采食量调整影响着肧胎存活率及母体孕酮水平。研究表明，配种后72小时内采食水平为1:5倍维持能量需要（1:5MA）时，肧胎存活率显著高于高采食水平组。",
+    "error_detail": "错误地否认了采食量对肧胎存活率的影响",
+    "original_question": "妊娠母猪在妊娠前期的采食量如何影响肧胎存活率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "妊娠后期母猪的能量采食量对仔猪初生重没有影响。",
+    "reference_case": "妊娠后期母猪的能量采食量适度渐进增加可提高仔猪初生重。能量摄入不足会导致母猪动员自身体蛋白及体脂肪弥补繁殖所需，而能量过高则可能导致母猪难产。",
+    "error_detail": "错误地否认了能量采食量对仔猪初生重的影响",
+    "original_question": "妊娠后期母猪的能量采食量对仔猪初生重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "妊娠后期及哺乳期母猪饲粮中添加脂肪对仔猪成活率没有影响。",
+    "reference_case": "妊娠后期及哺乳期母猪饲粮中添加脂肪可提高仔猪成活率。研究表明，添加脂肪可提高母猪产奶量、乳中脂肪含量及仔猪生长速度，总体提高仔猪成活率2:3%。",
+    "error_detail": "错误地否认了添加脂肪对仔猪成活率的影响",
+    "original_question": "妊娠后期及哺乳期母猪饲粮中添加脂肪对仔猪成活率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在断奶仔猪的饲养试验中，D组的日增重与A组相比没有显著差异。",
+    "reference_case": "在断奶仔猪的饲养试验中，D组的日增重显著高于A组，且D组的日增重还显著高于B组（饲用酶组）和C组（金霉素组）。",
+    "error_detail": "错误地否认了D组日增重的显著提高",
+    "original_question": "在断奶仔猪的饲养试验中，D组（金霉素与饲用酶配伍组）的日增重与A组（空白对照组）相比有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在断奶仔猪的饲养试验中，D组的氮存留率与A组相比没有显著差异。",
+    "reference_case": "在断奶仔猪的饲养试验中，D组的氮存留率显著高于A组，且D组的氮存留率还显著高于B组和C组。",
+    "error_detail": "错误地否认了D组氮存留率的显著提高",
+    "original_question": "在断奶仔猪的饲养试验中，D组的氮存留率与A组相比有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在断奶仔猪的饲养试验中，D组的碱性磷酸酶水平与A组相比没有显著变化。",
+    "reference_case": "在断奶仔猪的饲养试验中，D组的碱性磷酸酶水平显著高于A组，且D组的碱性磷酸酶水平还高于B组和C组。",
+    "error_detail": "错误地否认了D组碱性磷酸酶水平的显著提高",
+    "original_question": "在断奶仔猪的饲养试验中，D组的碱性磷酸酶水平与A组相比有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在断奶仔猪的饲养试验中，D组的腹泻频率与A组相比没有显著变化。",
+    "reference_case": "在断奶仔猪的饲养试验中，D组的腹泻频率显著低于A组，且D组的腹泻频率还低于B组和C组。",
+    "error_detail": "错误地否认了D组腹泻频率的显著降低",
+    "original_question": "在断奶仔猪的饲养试验中，D组的腹泻频率与A组相比有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "试验表明，使用含有1g IgG的免疫人工乳饲喂仔猪在生产上是可行的。",
+    "reference_case": "试验表明，使用含有3g IgG的免疫人工乳饲喂仔猪在生产上是可行的，可用于仔猪生产。",
+    "error_detail": "错误地低估了免疫人工乳中IgG的含量",
+    "original_question": "试验中使用免疫人工乳饲喂仔猪的可行性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "患病仔猪初期表现精神沉郁，体温升高至43～44°C，气喘、发抖，有的病例出现呕吐、腹泻、吃乳困难，皮肤、粘膜发绀和出血，全部患猪都不同程度地出现神经症状，如间歇性抽搐、转圈、呆立不动、四肢麻痹等。",
+    "reference_case": "患病仔猪初期表现精神沉郁，体温升高至41～42°C，气喘、发抖，有的病例出现呕吐、腹泻、吃乳困难，皮肤、粘膜发绀和出血，全部患猪都不同程度地出现神经症状，如间歇性抽搐、转圈、呆立不动、四肢麻痹等。",
+    "error_detail": "体温数值被错误地提高到了43～44°C，与实际情况不符。",
+    "original_question": "患病仔猪的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "伪狂犬病导致了10头怀孕母猪死亡，哺乳仔猪死亡率高达95%，断乳仔猪死亡率50%，40头母猪因不受孕而被迫淘汰，直接经济损失100多万元。",
+    "reference_case": "伪狂犬病导致了5头怀孕母猪死亡，哺乳仔猪死亡率高达90%，断乳仔猪死亡率40%，40头母猪因不受孕而被迫淘汰，直接经济损失50多万元。",
+    "error_detail": "死亡率和经济损失的数值被错误地提高，与实际情况不符。",
+    "original_question": "伪狂犬病在广东省增城市某外贸出口猪场中导致了哪些具体的损失？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪表现为流产、早产和产出死胎，有10头怀孕母猪临产前发病8～10天后死亡。",
+    "reference_case": "母猪表现为流产、早产和产出死胎，有5头怀孕母猪临产前发病8～10天后死亡。",
+    "error_detail": "死亡母猪的数量被错误地提高到了10头，与实际情况不符。",
+    "original_question": "伪狂犬病在母猪中的临床表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "6日龄以上和刚断乳不久的仔猪发病初期体温升高（42°C以上），呕吐流涎、下痢、精神不振，继之出现独特的神经症状，兴奋不安、震颤、头向前冲，有的作前进、后退或旋转运动，四肢站立不稳，肌肉痉挛，倒地后四肢划动，经2～3天体温降至常温以下后迅速死亡。",
+    "reference_case": "6日龄以上和刚断乳不久的仔猪发病初期体温升高（40°C以上），呕吐流涎、下痢、精神不振，继之出现独特的神经症状，兴奋不安、震颤、头向前冲，有的作前进、后退或旋转运动，四肢站立不稳，肌肉痉挛，倒地后四肢划动，经2～3天体温降至常温以下后迅速死亡。",
+    "error_detail": "体温数值被错误地提高到了42°C以上，与实际情况不符。",
+    "original_question": "伪狂犬病在6日龄以上和刚断乳不久的仔猪中的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该猪场在2001年8月引进了2头杜洛克公猪和20头杜大长母猪。",
+    "reference_case": "该猪场在2001年8月引进了1头杜洛克公猪和16头杜大长母猪。",
+    "error_detail": "引进的种猪数量被错误地增加，与实际情况不符。",
+    "original_question": "广东省增城市某外贸出口猪场在2001年8月引进了哪些种猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "研究人员在山东省青岛、滩坊、东营、烟台等地区确诊了60多例仔猪水肿病。",
+    "reference_case": "研究人员在山东省青岛、滩坊、东营、烟台等地区确诊了40多例仔猪水肿病。",
+    "error_detail": "确诊的病例数量被错误地提高到了60多例，与实际情况不符。",
+    "original_question": "在山东省青岛、滩坊、东营、烟台等地区，研究人员确诊了多少例仔猪水肿病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "最终诊断为猪食赤霉病麦中毒，死亡率为50%。",
+    "reference_case": "最终诊断为猪食赤霉病麦中毒。",
+    "error_detail": "添加了未经证实的死亡率数据",
+    "original_question": "江苏省盐都县龙岗镇某猪场在2001年5月10日和5月15日购进的仔猪在喂食新大麦后，最终诊断为什么疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "膨化加工对猪饲料中赖氨酸的稳定性影响显著。例如，Peisker（1992:的研究表明，在120°C时，总氨基酸含量和可利用赖氨酸含量显著下降，130°C条件下，赖氨酸含量极显著下降。",
+    "reference_case": "膨化加工对猪饲料中赖氨酸的稳定性影响较小。例如，Peisker（1992:的研究表明，在120°C时，总氨基酸含量和可利用赖氨酸含量未发生变化，130°C条件下，赖氨酸含量稍有下降，但差异不显著。",
+    "error_detail": "错误地夸大了膨化加工对赖氨酸稳定性的影响，改变了原始数据中的温度和赖氨酸含量的关系。",
+    "original_question": "膨化加工对猪饲料中赖氨酸的稳定性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪油抗氧化试验中，未加抗氧保鲜剂的猪油AOM值为4:3小时，而添加0:1%高效抗氧保鲜剂的猪油AOM值达到165:6小时，延长了35:3倍，抗氧保鲜效果极显著。",
+    "reference_case": "在猪油抗氧化试验中，未加抗氧保鲜剂的猪油AOM值为4:3小时，而添加0:1%高效抗氧保鲜剂的猪油AOM值达到65:6小时，延长了15:3倍，抗氧保鲜效果显著。",
+    "error_detail": "错误地夸大了高效抗氧保鲜剂的效果，改变了AOM值和延长倍数的数据。",
+    "original_question": "在猪油抗氧化试验中，高效抗氧保鲜剂的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加胆碱使血清脂肪酶活性显著提高，其中添加350～850 mg/kg组脂肪酶活性显著高于基础饲粮组。",
+    "reference_case": "添加胆碱使血清脂肪酶活性极显著提高，其中添加350～850 mg/kg组脂肪酶活性极显著高于基础饲粮组。",
+    "error_detail": "错误地降低了血清脂肪酶活性的提高程度，改变了显著性水平。",
+    "original_question": "试验中仔猪的血清脂肪酶活性如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加胆碱各组血清甘油三酯浓度显著低于基础饲粮组。",
+    "reference_case": "添加胆碱各组血清甘油三酯浓度略低于基础饲粮组，但差异不显著。",
+    "error_detail": "错误地夸大了血清甘油三酯浓度的变化，改变了显著性水平。",
+    "original_question": "试验中仔猪的血清甘油三酯浓度如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "基础饲粮添加胆碱200～500 mg/kg使血液中红细胞数、血红蛋白含量和红细胞压积显著降低，而添加650～850 mg/kg组这些指标与基础饲粮组接近。",
+    "reference_case": "基础饲粮添加胆碱200～500 mg/kg使血液中红细胞数、血红蛋白含量和红细胞压积趋于降低，但差异不显著，而添加650～850 mg/kg组这些指标与基础饲粮组接近。",
+    "error_detail": "错误地夸大了胆碱添加对血液指标的影响，改变了显著性水平。",
+    "original_question": "试验中仔猪的血液中红细胞数、血红蛋白含量和红细胞压积如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "饲料营养不全面对猪的生长没有影响。",
+    "reference_case": "饲料营养不全面会导致饲料利用率降低，饲养成本增加，猪长得慢，出栏时间延长。",
+    "error_detail": "错误地认为饲料营养不全面对猪的生长没有影响。",
+    "original_question": "为什么饲料营养不全面会影响猪的生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用安乃近治疗猪病没有任何风险。",
+    "reference_case": "使用安乃近治疗猪病的主要风险是可能引起猪过敏性休克，体温急剧下降，导致呼吸、循环衰竭而突然死亡。",
+    "error_detail": "错误地认为使用安乃近治疗猪病没有任何风险。",
+    "original_question": "使用安乃近治疗猪病的主要风险是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "饲料营养不全面对猪的生长速度没有影响。",
+    "reference_case": "饲料营养不全面会降低饲料利用率，增加饲养成本，使猪长得慢，出栏时间延长。",
+    "error_detail": "错误地认为饲料营养不全面对猪的生长速度没有影响。",
+    "original_question": "为什么饲料营养不全面会影响猪的生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用安乃近治疗猪病不会引起任何副作用。",
+    "reference_case": "使用安乃近治疗猪病可能引起猪过敏性休克，体温急剧下降，导致呼吸、循环衰竭而突然死亡。",
+    "error_detail": "错误地认为使用安乃近治疗猪病不会引起任何副作用。",
+    "original_question": "使用安乃近治疗猪病可能带来哪些副作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "慢性猪肺疫的症状包括体温正常，无呼吸困难，无红色斑点。",
+    "reference_case": "慢性猪肺疫的症状包括体温升高到41～42°C，呼吸困难，犬坐姿势，耳腹部出现红色斑点，颈下咽喉急剧肿大，触诊坚硬有热痛，口鼻流白色泡沫，腹泻消瘦。",
+    "error_detail": "错误地描述了慢性猪肺疫的症状。",
+    "original_question": "猪肺疫的慢性症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪瘟的主要症状包括体温正常，无任何异常表现。",
+    "reference_case": "猪瘟的主要症状包括患猪突然死亡、体温在41°C以上，持续稽留热，喜钻垫草、结膜潮红、有眼杘、跛行、初便秘、后腹泻、粪便带血。皮肤出现红斑，指压不退色。",
+    "error_detail": "错误地描述了猪瘟的主要症状。",
+    "original_question": "猪瘟的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪丹毒的主要特征是体温正常，无任何疹块。",
+    "reference_case": "猪丹毒的主要特征是体温升高到42°C以上，持续不退，体表四肢出现红色大小不等的疹块（打火印）。",
+    "error_detail": "错误地描述了猪丹毒的主要特征。",
+    "original_question": "猪丹毒的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长猪的饲养试验中，添加5%的甘蔗糖蜜在前10天有轻泻现象。",
+    "reference_case": "在生长猪的饲养试验中，添加5%的甘蔗糖蜜在前20天有轻泻现象。",
+    "error_detail": "错误地缩短了轻泻现象的时间",
+    "original_question": "在生长猪的饲养试验中，添加5%的甘蔗糖蜜对猪的轻泻现象有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长猪的饲养试验中，添加3%的甘蔗糖蜜使饲料增重比下降了5:3%。",
+    "reference_case": "在生长猪的饲养试验中，添加3%的甘蔗糖蜜使饲料增重比下降了4:3%。",
+    "error_detail": "错误地增加了饲料增重比的下降比例",
+    "original_question": "在生长猪的饲养试验中，添加3%的甘蔗糖蜜对饲料增重比有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "泰农和富乐旺分别用于母体效应基本一致的仔猪，结果显示泰农的防病效果优于富乐旺。泰农组的仔猪在7-45日龄期间的拉痢和F喘等发病频率均高于富乐旺组。",
+    "reference_case": "泰农和富乐旺分别用于母体效应基本一致的仔猪，结果显示泰农的防病效果优于富乐旺。泰农组的仔猪在7-45日龄期间的拉痢和F喘等发病频率均低于富乐旺组。",
+    "error_detail": "错误地反转了发病频率的比较结果",
+    "original_question": "泰农和富乐旺对仔猪发病率的影响有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪瘟野毒不同代次毒株的E2基因主要抗原编码区序列分析中，核苷酸和氨基酸序列的保守性较低，核苷酸及氨基酸同源性均为80%。",
+    "reference_case": "在猪瘟野毒不同代次毒株的E2基因主要抗原编码区序列分析中，每个野毒的不同代次毒株的核苷酸及氨基酸序列均呈现较高的保守性，核苷酸及氨基酸序列均无变化，核苷酸及氨基酸同源性均为100%。",
+    "error_detail": "错误地描述了序列的保守性和同源性，实际应为高度保守且同源性为100%。",
+    "original_question": "在猪瘟野毒不同代次毒株的E2基因主要抗原编码区序列分析中，核苷酸和氨基酸序列的保守性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪瘟病毒在遗传学上呈现较低的稳定性。研究表明，猪瘟病毒在体内及体外具有一定的遗传变异性，不同代次毒株的E2基因主要抗原编码区序列呈现较低的同源性。",
+    "reference_case": "猪瘟病毒在遗传学上呈现较高的稳定性。研究表明，猪瘟病毒在体内及体外具有一定的遗传稳定性，不同代次毒株的E2基因主要抗原编码区序列呈现较高的同源性。",
+    "error_detail": "错误地描述了猪瘟病毒的遗传稳定性，实际应为较高的稳定性。",
+    "original_question": "猪瘟病毒在遗传学上的稳定性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用的肝组织来自杜洛克猪。",
+    "reference_case": "使用的肝组织来自长白猪。",
+    "error_detail": "错误地描述了使用的肝组织来源，实际应为长白猪。",
+    "original_question": "猪α-干扰素基因的分子克隆与序列分析研究中，使用的肝组织来自哪种猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "测序结果表明该基因由600个核苷酸组成。",
+    "reference_case": "测序结果表明该基因由501个核苷酸组成。",
+    "error_detail": "错误地描述了基因的核苷酸数量，实际应为501个。",
+    "original_question": "猪α-干扰素基因的分子克隆与序列分析研究中，测序结果表明该基因由多少个核苷酸组成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "PCR扩增得到的特异带大小约为600 bp。",
+    "reference_case": "PCR扩增得到的特异带大小约为500 bp。",
+    "error_detail": "错误地描述了PCR扩增的特异带大小，实际应为约500 bp。",
+    "original_question": "在猪α-干扰素基因的分子克隆与序列分析研究中，PCR扩增得到的特异带大小是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "上游引物的序列是GC-GAATTC-TGTGACCTGT（C）C (T) TC。",
+    "reference_case": "上游引物的序列是GC-GAATTC-TGTGACCTGT（C）C (T) TC。",
+    "error_detail": "虽然序列描述相同，但可能在上下文中错误地应用或解释。",
+    "original_question": "在猪α-干扰素基因的分子克隆与序列分析研究中，上游引物的序列是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "PCR反应的条件为95°C变性60秒，55°C退火45秒，70°C延伸45秒，并于70°C作后延伸10分钟。",
+    "reference_case": "PCR反应的条件为94°C变性45秒，60°C退火30秒，72°C延伸30秒，并于72°C作后延伸7分钟。",
+    "error_detail": "错误地描述了PCR反应的条件，包括温度和时间。",
+    "original_question": "猪α-干扰素基因的分子克隆与序列分析研究中，PCR反应的条件是什么？",
+    "original_input": ""
+  }
+]

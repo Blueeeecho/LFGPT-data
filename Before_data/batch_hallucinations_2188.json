@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "环境温度每增加1℃，接近上市体重的猪采食量减少大约5%，体重25kg左右的猪采食量减少3%。",
+    "reference_case": "环境温度每增加1℃，接近上市体重的猪采食量减少大约2%，体重25kg左右的猪采食量减少1%。",
+    "error_detail": "数值偏差导致的数据型幻觉",
+    "original_question": "环境温度对猪采食量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "合理设计的进料器可以阻止饲料堆积，调节以最大化采食量并最小化饲料损耗，同时减少机械故障，但不影响采食量。",
+    "reference_case": "合理设计的进料器可以阻止饲料堆积，调节以最大化采食量并最小化饲料损耗，同时减少机械故障，增加采食量。",
+    "error_detail": "指令偏离导致的忠实性幻觉",
+    "original_question": "设计合理的进料器对猪的采食量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "阶段饲养法在全进全出制生产设施中的每群猪需要多种饲料输送管道和多个饲料仓。",
+    "reference_case": "阶段饲养法在全进全出制生产设施中的每群猪仅需要一种饲料输送管道和一个饲料仓。",
+    "error_detail": "概念混淆导致的事实性幻觉",
+    "original_question": "阶段饲养法在全进全出制生产设施中的每群猪需要什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "在持续流量运转中，阶段饲养计划的制定决定于猪的流动（例如，从生长圈舍到肥育圈舍）和运送饲料到各个圈舍共用的饲料输送管道的数量。",
+    "reference_case": "在持续流量运转中，阶段饲养计划的制定决定于猪的流动（例如，从生长圈舍到肥育圈舍）和运送饲料到各个圈舍单独的饲料输送管道的数量。",
+    "error_detail": "上下文断裂导致的忠实性幻觉",
+    "original_question": "阶段饲养计划如何根据猪的流动来制定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "生产目标包括每头猪的最大利润、设施中每年每猪位的最大利润和遗传性能潜力的基本表达。",
+    "reference_case": "生产目标包括每头猪的最大利润、设施中每年每猪位的最大利润和遗传性能潜力的最佳化表达。",
+    "error_detail": "时效性幻觉导致的事实性幻觉",
+    "original_question": "生产目标包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "制定饲养计划时需要考虑猪厩肥分泌的养分造成的环境污染或特定日粮原料的强迫使用，以及猪的品种差异。",
+    "reference_case": "制定饲养计划时需要考虑猪厩肥分泌的养分造成的环境污染或特定日粮原料的强迫使用。",
+    "error_detail": "假设滥用导致的忠实性幻觉",
+    "original_question": "制定饲养计划时需要考虑哪些限制因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "多种原因导致猪的实际养分摄入量与设想的或最适宜的水平不一致，因此不需要在日粮中设定安全系数。",
+    "reference_case": "多种原因导致猪的实际养分摄入量与设想的或最适宜的水平不一致，因此需要在日粮中设定安全系数。",
+    "error_detail": "因果倒置导致的事实性幻觉",
+    "original_question": "为什么需要在日粮中设定安全系数？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "对于肥育期猪日粮，重要的是确定日粮能量浓度，使之与其它养分平衡的每单位可利用的能量成本是最高的，这可以通过配合最低成本的日粮达到。",
+    "reference_case": "对于肥育期猪日粮，重要的是确定日粮能量浓度，使之与其它养分平衡的每单位可利用的能量成本是最低的，这可以通过配合最低成本的日粮达到。",
+    "error_detail": "逻辑矛盾导致的忠实性幻觉",
+    "original_question": "如何确定最适宜的日粮能量浓度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "应激环境条件可以提高猪对疾病的易感性，降低淋巴细胞增生和抗体产生数量，增加淋巴结体积，从而降低抗感染能力。",
+    "reference_case": "应激环境条件可以提高猪对疾病的易感性，降低淋巴细胞增生和抗体产生数量，减少淋巴结体积，从而降低抗感染能力。",
+    "error_detail": "空间错位导致的事实性幻觉",
+    "original_question": "应激环境条件如何影响猪的免疫系统？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "应激反应会导致血液中皮质类固醇水平升高，从而降低蛋白质合成，减慢瘦肉增长速度，但对后备母猪的怀孕率和后备公猪的性腺发育没有影响。",
+    "reference_case": "应激反应会导致血液中皮质类固醇水平升高，从而降低蛋白质合成，减慢瘦肉增长速度，降低后备母猪的怀孕率和后备公猪的性腺发育，以及增加死亡率和抑制繁殖行为。",
+    "error_detail": "优先级错乱导致的忠实性幻觉",
+    "original_question": "应激反应如何影响动物的生长和繁殖能力？",
+    "original_input": ""
+  }
+]

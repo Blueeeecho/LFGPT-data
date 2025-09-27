@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "TGEV感染的母猪乳中，抗原亚位点B(Ba, Bb, Bc)伴随抗原亚位点E(London)是抗体IgA的最佳诱发者。",
+    "reference_case": "TGEV感染的母猪乳中，抗原亚位点A(Aa, Ab, Ac)伴随抗原亚位点D(Madrid)是抗体IgA的最佳诱发者。",
+    "error_detail": "错误地改变了抗原亚位点的标识和伴随的亚位点，导致数据型幻觉。",
+    "original_question": "TGEV感染的母猪乳中，哪些抗原亚位点是抗体IgA的最佳诱发者？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PRCV感染的母猪乳中，抗原位点C和亚位点D是免疫的主导者。",
+    "reference_case": "PRCV感染的母猪乳中，抗原位点D和亚位点Ab是免疫的主导者。",
+    "error_detail": "错误地改变了抗原位点和亚位点的标识，导致概念混淆。",
+    "original_question": "PRCV感染的母猪乳中，哪些抗原亚位点是免疫的主导者？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "仅在接触PRCV的母猪乳中观察到IgA抗体，且IgA抗体能有效保护哺乳猪抵抗肠道TGEV感染，这是因为PRCV和TGEV有相同的抗原结构。",
+    "reference_case": "需要进一步研究BALT与乳腺免疫间的联系，以及为什么IgA抗体仅发生于曾接触PRCV的母猪，且IgA抗体有效保护哺乳猪抵抗肠道TGEV感染的原因。",
+    "error_detail": "添加了未经证实的假设，即PRCV和TGEV有相同的抗原结构。",
+    "original_question": "为什么仅在接触PRCV的母猪乳中观察到IgA抗体，且IgA抗体能有效保护哺乳猪抵抗肠道TGEV感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪水疱病由口蹄疫病毒、水疱性口炎病毒、猪水疱疹病毒及猪流感病毒引起。",
+    "reference_case": "猪水疱病由口蹄疫病毒、水疱性口炎病毒、猪水疱疹病毒及猪水疱病病毒引起。",
+    "error_detail": "错误地将猪水疱病病毒替换为猪流感病毒，导致概念混淆。",
+    "original_question": "猪水疱病由哪些病毒引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪水疱病病毒属于大RNA病毒科，肠道病毒属。",
+    "reference_case": "猪水疱病病毒属于小RNA病毒科，肠道病毒属。",
+    "error_detail": "错误地改变了病毒科的分类，导致概念混淆。",
+    "original_question": "猪水疱病病毒属于哪个病毒科和属？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪水疱病病毒有多个血清型，它与人的肠道病毒——柯萨奇B-5相关。",
+    "reference_case": "猪水疱病病毒只有一个血清型，它与人的肠道病毒——柯萨奇B-5相关。",
+    "error_detail": "错误地增加了血清型的数量，导致数据型幻觉。",
+    "original_question": "猪水疱病病毒的血清型情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "应考虑最高MIC及药理特性。",
+    "reference_case": "应考虑最低MIC及药理特性。",
+    "error_detail": "错误地改变了考虑的因素，从最低MIC到最高MIC，导致指令偏离。",
+    "original_question": "选择治疗猪病的抗菌药物时，应考虑哪些因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "产毒性多杀性巴氏杆菌与猪萎缩性鼻炎有关，首次由美国的Smith和Johnson于1985年描述。",
+    "reference_case": "产毒性多杀性巴氏杆菌与猪萎缩性鼻炎有关，首次由俄罗斯的Ilina和Zasukhin于1975年描述。",
+    "error_detail": "错误地改变了首次描述的国家和研究者，以及时间，导致时效性幻觉。",
+    "original_question": "产毒性多杀性巴氏杆菌与猪萎缩性鼻炎的关系是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "多杀性巴氏杆菌可诱导8-12周龄仔猪典型的鼻骨病变、鼻中隔扭曲，其致病病变的严重性随年龄增加而增强。",
+    "reference_case": "多杀性巴氏杆菌可诱导12-16周龄仔猪典型的鼻骨病变、鼻中隔扭曲，其致病病变的严重性随年龄增加而减弱；而支气管败血波氏杆菌只在3-6周龄仔猪内观察到轻微鼻骨病变，9周龄以上仔猪则无变化。",
+    "error_detail": "错误地改变了年龄范围和病变严重性的描述，导致数据型幻觉。",
+    "original_question": "不同年龄的猪对多杀性巴氏杆菌的反应有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "任何营养不良都会增加病势，导致仔猪食欲降低，可能变成弱仔或病猪，特别是缺乏维生素A的情况下。",
+    "reference_case": "任何营养不良都会增加病势，导致仔猪食欲降低，可能变成弱仔或病猪。",
+    "error_detail": "添加了未经证实的假设，即特别是缺乏维生素A的情况下。",
+    "original_question": "营养不良对猪萎缩性鼻炎有何影响？",
+    "original_input": ""
+  }
+]

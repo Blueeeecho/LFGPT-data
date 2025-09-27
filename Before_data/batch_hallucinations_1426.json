@@ -1,0 +1,47 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪瘟冻干苗应在常温条件下运输和保存，稀释后可以存放一周。",
+    "reference_case": "猪瘟冻干苗应在低温条件下运输和保存，稀释后应立即使用，不能存放过久。",
+    "error_detail": "错误地描述了猪瘟冻干苗的保存和运输条件，忽略了低温保存和立即使用的重要性。",
+    "original_question": "猪瘟疫苗的保存和运输应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪流感病毒主要存在于猪的肝脏和肾脏中。",
+    "reference_case": "猪流感病毒主要存在于猪的上呼吸道分泌物中，如鼻液及气管、支气管渗出液，肺和肺部淋巴结中，在肝脏、肾脏、脾脏、血液，肠系膜淋巴结和脑中常无病毒存在。",
+    "error_detail": "错误地描述了猪流感病毒的主要存在位置，混淆了病毒的主要和次要存在组织。",
+    "original_question": "猪流感病毒主要存在于哪些组织中？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪流感的感染率和致病性逐年下降，对养猪业的影响逐渐减小。",
+    "reference_case": "猪流感的感染率和致病性逐年增加，对养猪业构成严重威胁。",
+    "error_detail": "错误地描述了猪流感的流行趋势，与实际情况相反。",
+    "original_question": "猪流感的流行趋势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪流感病毒的复制能力导致其基因不容易发生突变。",
+    "reference_case": "猪流感病毒的RNA复制酶缺乏校正阅读能力，编码HA和NA蛋白质的基因非同义替换的积累使其基因容易发生突变，造成抗原漂移，从而导致猪流感病毒的主要优势血清型仍是H1和H3亚型。",
+    "error_detail": "错误地描述了猪流感病毒复制能力与基因突变之间的关系，因果倒置。",
+    "original_question": "猪流感病毒的复制能力有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪流感对养猪业的影响不大，是养猪业可以忽略的问题。",
+    "reference_case": "猪流感的感染率和致病性逐年增加，对养猪业构成严重威胁，是养猪业今后必需面对的严重问题之一。猪流感病毒和繁殖与呼吸综合征病毒及支原体存在协同作用，混合感染或继发感染会导致更高的死亡率。",
+    "error_detail": "错误地描述了猪流感对养猪业的影响，偏离了原始指令的严重性描述。",
+    "original_question": "猪流感对养猪业的影响如何？",
+    "original_input": ""
+  }
+]

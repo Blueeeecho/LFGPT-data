@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "宰前休息1小时可以降低PSE肉发生率，降低由于休息时间过长而导致DFD肉的可能性，降低猪体内皮质醇和β-肾上腺素的水平，改善猪的精神状态，提高猪的免疫能力。",
+    "reference_case": "宰前休息2-4小时可以降低PSE肉发生率，降低由于休息时间过长而导致DFD肉的可能性，降低猪体内皮质醇和β-肾上腺素的水平，改善猪的精神状态，提高猪的免疫能力。",
+    "error_detail": "修改了宰前休息的时间，从2-4小时改为1小时，导致数据型幻觉。",
+    "original_question": "宰前休息时间对猪的福利和肉质有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒2型毒株分离鉴定和体外增殖特性研究是由王贵华、陈义锋、汤波等研究者进行的，他们使用了PCR技术。",
+    "reference_case": "猪圆环病毒2型毒株分离鉴定和体外增殖特性研究是由王贵华、陈义锋、汤波等研究者进行的。",
+    "error_detail": "添加了未提及的PCR技术，导致概念混淆幻觉。",
+    "original_question": "猪圆环病毒2型毒株分离鉴定和体外增殖特性研究是由哪些研究者进行的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪伪狂犬病病毒（PRV）可以感染不同年龄段的猪，但以成年猪感染最为严重。",
+    "reference_case": "猪伪狂犬病病毒（PRV）可以感染不同年龄段的猪，但以妊娠母猪和哺乳仔猪感染最为严重。",
+    "error_detail": "修改了PRV的主要感染对象，从妊娠母猪和哺乳仔猪改为成年猪，导致时效性幻觉。",
+    "original_question": "猪伪狂犬病病毒（PRV）的主要感染对象有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "2011年以来，中国广东、广西、福建等3个省份的规模化猪场出现了新生仔猪神经症状和死亡的现象。",
+    "reference_case": "2011年以来，中国黑龙江、吉林、辽宁、内蒙古、河南等5个省份的规模化猪场出现了新生仔猪神经症状和死亡的现象。",
+    "error_detail": "修改了出现问题的省份，导致空间错位幻觉。",
+    "original_question": "2011年以来，中国哪些省份的规模化猪场出现了新生仔猪神经症状和死亡的现象？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "口蹄疫是由口蹄疫病毒（FMDV）引起的一种慢性、冷性、高度接触传染性动物疫病，主要影响牛、羊、猪等偶蹄类动物。",
+    "reference_case": "口蹄疫是由口蹄疫病毒（FMDV）引起的一种急性、热性、高度接触传染性动物疫病，主要影响牛、羊、猪等偶蹄类动物。",
+    "error_detail": "修改了口蹄疫的性质，从急性、热性改为慢性、冷性，导致概念混淆幻觉。",
+    "original_question": "什么是口蹄疫（FMD）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "转基因克隆猪体细胞中的shRNA通过DNA干扰（DNAi）机制抑制FMDV VP1基因的表达，从而减少病毒的复制。",
+    "reference_case": "转基因克隆猪体细胞中的shRNA通过RNA干扰（RNAi）机制抑制FMDV VP1基因的表达，从而减少病毒的复制。",
+    "error_detail": "修改了干扰机制，从RNA干扰（RNAi）改为DNA干扰（DNAi），导致概念混淆幻觉。",
+    "original_question": "转基因克隆猪体细胞中shRNA的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "转基因猪体细胞在FMDV感染后出现细胞病变（CPE）的时间延迟，细胞内病毒含量显著降低，且在感染36小时后对FMDV VP1基因的抑制效率为70%。",
+    "reference_case": "转基因猪体细胞在FMDV感染后出现细胞病变（CPE）的时间延迟，细胞内病毒含量显著降低，且在感染36小时后对FMDV VP1基因的抑制效率为53:6%。",
+    "error_detail": "修改了抑制效率的比例，从53:6%改为70%，导致数据型幻觉。",
+    "original_question": "转基因猪体细胞与非转基因猪体细胞在FMDV感染后的表现有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "Nsp2蛋白在PRRSV中具有多种功能，包括多肽处理和复制复合物的形成。它是病毒复制过程中最晚复制的特异性蛋白之一，并且是Nsp4丝氨酸蛋白酶的辅助因子。",
+    "reference_case": "Nsp2蛋白在PRRSV中具有多种功能，包括多肽处理和复制复合物的形成。它是病毒复制过程中最早复制的特异性蛋白之一，并且是Nsp4丝氨酸蛋白酶的辅助因子。",
+    "error_detail": "修改了Nsp2蛋白的复制时间，从最早改为最晚，导致概念混淆幻觉。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的Nsp2蛋白在病毒复制中起什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "特异性试验中使用了古典型猪 H1N1、类禽型 H1N1、类人型 H1N1、H1N2、H3N2、H5N1 和 H9N2 流感病毒 cDNA，以及 PRV、PRRSV 蛋白质。",
+    "reference_case": "特异性试验中使用了古典型猪 H1N1、类禽型 H1N1、类人型 H1N1、H1N2、H3N2、H5N1 和 H9N2 流感病毒 cDNA，以及 PRV、PRRSV 核酸。",
+    "error_detail": "修改了PRV、PRRSV的检测材料，从核酸改为蛋白质，导致概念混淆幻觉。",
+    "original_question": "实时荧光定量 PCR 方法的特异性试验中，使用了哪些病毒株进行检测？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪巨细胞病毒（PCMV）属于疱疹病毒科α病毒亚科。",
+    "reference_case": "猪巨细胞病毒（PCMV）属于疱疹病毒科β病毒亚科。",
+    "error_detail": "修改了PCMV的亚科，从β病毒亚科改为α病毒亚科，导致概念混淆幻觉。",
+    "original_question": "猪巨细胞病毒（PCMV）属于哪个病毒科和亚科？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的Cap蛋白是病毒的次要免疫保护性抗原，能够诱导机体产生特异性免疫应答。",
+    "reference_case": "猪圆环病毒2型（PCV2:的Cap蛋白是病毒的主要免疫保护性抗原，能够诱导机体产生特异性免疫应答。",
+    "error_detail": "修改了Cap蛋白的重要性，从主要改为次要，导致概念混淆幻觉。",
+    "original_question": "猪圆环病毒2型（PCV2:的Cap蛋白在病毒中的功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "枯草芽孢杆菌通过产生抗生素抑制病原菌的生长。",
+    "reference_case": "枯草芽孢杆菌通过消耗动物胃肠道内的游离氧，创造一个有利于有益厌氧菌生长的微环境，从而抑制需氧病原菌（如大肠杆菌、猪链球菌、梭菌）的生长。",
+    "error_detail": "修改了枯草芽孢杆菌的作用机制，从消耗游离氧改为产生抗生素，导致概念混淆幻觉。",
+    "original_question": "枯草芽孢杆菌如何通过生物夺氧机制抑制病原菌的生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "在仔猪日粮中添加枯草芽孢杆菌可以导致饲料的利用率下降，减弱仔猪免疫力，增加断奶仔猪的腹泻，从而降低仔猪的健康水平。",
+    "reference_case": "在仔猪日粮中添加枯草芽孢杆菌可以提高饲料的利用率，增强仔猪免疫力，减少断奶仔猪的腹泻，从而提高仔猪的健康水平。",
+    "error_detail": "反转了枯草芽孢杆菌的效果，从提高改为降低，导致因果倒置幻觉。",
+    "original_question": "枯草芽孢杆菌在猪饲料中的应用如何改善仔猪的健康？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "糖萜素在猪生产中的主要生物学功能包括抗应激和抗氧化性、减弱免疫力、破坏肠道微生物菌群、降低畜产品品质和污染环境。",
+    "reference_case": "糖萜素在猪生产中的主要生物学功能包括抗应激和抗氧化性、增强免疫力、调节肠道微生物菌群、改善畜产品品质和净化环境。",
+    "error_detail": "修改了糖萜素的功能，从增强改为减弱，从改善改为破坏，导致概念混淆幻觉。",
+    "original_question": "糖萜素在猪生产中的主要生物学功能有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "糖萜素中的三萜皂苷类活性物质能增加游离氧基，促进自动氧化的进行，增加游离脂肪酸的生成，加速脂肪自动氧化，增加过氧化物的生成，从而降低机体对自由基的清除能力。",
+    "reference_case": "糖萜素中的三萜皂苷类活性物质能与游离氧基结合，阻止自动氧化的进行，降低游离脂肪酸的生成，减缓脂肪自动氧化，减少过氧化物的生成，从而提高机体对自由基的清除能力。",
+    "error_detail": "反转了糖萜素的作用，从阻止改为促进，导致概念混淆幻觉。",
+    "original_question": "糖萜素如何影响猪的抗氧化能力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "糖萜素在猪饲料中的推荐添加量为100至300毫克/千克。",
+    "reference_case": "糖萜素在猪饲料中的推荐添加量为200至500毫克/千克。",
+    "error_detail": "修改了糖萜素的推荐添加量，从200至500毫克/千克改为100至300毫克/千克，导致数据型幻觉。",
+    "original_question": "糖萜素在猪饲料中的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "糖萜素中的寡糖可以破坏肠道内健康微生物菌群的形成，通过促进病原菌附植在肠壁上，从而破坏肠道菌群的平衡。",
+    "reference_case": "糖萜素中的寡糖可以促进肠道内健康微生物菌群的形成，通过与病原菌竞争性结合，阻止其附植在肠壁上，从而维持肠道菌群的平衡。",
+    "error_detail": "反转了糖萜素的作用，从促进改为破坏，导致概念混淆幻觉。",
+    "original_question": "糖萜素如何影响猪的肠道菌群？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "糖萜素能够降低猪肉的品质，包括增加肌肉胆固醇含量，降低肌苷酸和不饱和脂肪酸的含量，恶化肌肉的色泽和pH值。",
+    "reference_case": "糖萜素能够改善猪肉的品质，包括降低肌肉胆固醇含量，提高肌苷酸和不饱和脂肪酸的含量，改善肌肉的色泽和pH值。",
+    "error_detail": "反转了糖萜素的效果，从改善改为降低，导致概念混淆幻觉。",
+    "original_question": "糖萜素对猪肉品质有哪些具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "糖萜素可以降低猪的生长性能，如减少日增重，增加料肉比和腹泻率。",
+    "reference_case": "糖萜素可以提高猪的生长性能，如增加日增重，降低料肉比和腹泻率。",
+    "error_detail": "反转了糖萜素的效果，从提高改为降低，导致因果倒置幻觉。",
+    "original_question": "糖萜素在猪生产中的应用中，如何影响猪的生产性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "糖萜素中的活性成分皂甙具有减弱网状内皮细胞的吞噬功能，增加外周血白细胞移行指数，减弱中性粒细胞和肺泡巨噬细胞的吞噬率，从而减弱机体的非特异性细胞免疫功能。",
+    "reference_case": "糖萜素中的活性成分皂甙具有增强网状内皮细胞的吞噬功能，降低外周血白细胞移行指数，增强中性粒细胞和肺泡巨噬细胞的吞噬率，从而增强机体的非特异性细胞免疫功能。",
+    "error_detail": "反转了糖萜素的效果，从增强改为减弱，导致概念混淆幻觉。",
+    "original_question": "糖萜素如何增强猪的免疫力？",
+    "original_input": ""
+  }
+]

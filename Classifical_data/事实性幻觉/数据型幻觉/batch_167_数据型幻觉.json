@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2013 年全国出栏肉猪年度均价为 20 元/kg，2014 年均价为 18 元/kg，2015 年均价为 16 元/kg。",
+    "reference_case": "2013 年全国出栏肉猪年度均价为 15.12 元/kg，2014 年均价为 13.5 元/kg，大部分月份长期在 13-14 元/kg 左右小幅徘徊。2015 年 3 月中旬全国生猪价格一直处于下跌状态，一路跌到 11.6 元/kg，下跌状态持续了近 6 个多月。从 3 月份到 11 月中旬，猪价上涨了 6.8 元/kg，但在 9、10 月份猪价又回落到了 16.2 元/kg。",
+    "error_detail": "错误地高估了全国出栏肉猪的年度均价，与实际情况不符。",
+    "original_question": "2013 年至 2015 年间，全国生猪价格呈现怎样的波动趋势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丹麦在2001年的猪肉出口量是150万吨。",
+    "reference_case": "99万吨",
+    "error_detail": "错误地高估了丹麦在2001年的猪肉出口量。",
+    "original_question": "丹麦在2001年的猪肉出口量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "美国的核心母猪数量范围是500-1500头左右。",
+    "reference_case": "700-2000头左右",
+    "error_detail": "错误地低估了美国的核心母猪数量范围。",
+    "original_question": "美国的核心母猪数量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "吉林省2014年的生猪出栏量是2000万头。",
+    "reference_case": "1721.1万头",
+    "error_detail": "错误地高估了吉林省2014年的生猪出栏量。",
+    "original_question": "吉林省2014年的生猪出栏量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "吉林省2011年的能繁母猪存栏量是150万头。",
+    "reference_case": "113.1万头",
+    "error_detail": "错误地高估了吉林省2011年的能繁母猪存栏量。",
+    "original_question": "吉林省2011年的能繁母猪存栏量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "吉林省畜牧业中生猪饲养所占的比例是60%。",
+    "reference_case": "46.21%",
+    "error_detail": "错误地高估了吉林省畜牧业中生猪饲养所占的比例。",
+    "original_question": "吉林省畜牧业中生猪饲养所占的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "延吉市具有一定规模的养殖场主要集中在生猪和家禽养殖上。生猪规模养殖场数量从2011年的30%增长至2013年的40%，之后逐渐减少至2015年的30%。家禽养殖场数量则从2011年的20%增长至2015年的30%。",
+    "reference_case": "根据表9，延吉市具有一定规模的养殖场主要集中在生猪和肉牛养殖上。生猪规模养殖场数量从2011年的36.33%增长至2013年的44.31%，之后逐渐减少至2015年的36.86%。肉牛养殖场数量则从2011年的57.63%增长至2015年的52.79%。羊、奶牛和家禽养殖场的数量占比相对较小。",
+    "error_detail": "错误地将家禽养殖场作为主要养殖类型，与实际情况不符。",
+    "original_question": "延吉市畜牧业不同类型养殖场数量分布情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验结果显示，不同铜源和质量浓度显著提高了血液中IGFBP-3质量浓度，所有试验组均显著高于对照组。",
+    "reference_case": "试验结果显示，不同铜源和质量浓度有提高血液中IGFBP-3质量浓度的趋势，但升高幅度不大，除E组显著高于对照组外，其他各组均差异不显著。铜的作用时间对血液中IGFBP-3含量影响不大。",
+    "error_detail": "夸大了铜源和质量浓度对血液中IGFBP-3质量浓度的影响，错误地表示所有试验组均显著高于对照组。",
+    "original_question": "试验中铜对猪血液中IGFBP-3活性的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验使用了120头60日龄断乳仔猪，雌雄各半，随机分为10组，每组12头猪。",
+    "reference_case": "试验使用了60头60日龄断乳仔猪，雌雄各半，随机分为5组，每组12头猪。其中1组为对照组，其余4组为试验组，分别饲喂不同铜源和水平的日粮。",
+    "error_detail": "错误地增加了试验动物数量和分组数量，与原始数据不符。",
+    "original_question": "试验中使用的试验动物数量和分组情况是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中仔猪被分为5组，每组有4个重复。",
+    "reference_case": "试验中仔猪被分为4组，每组有3个重复。",
+    "error_detail": "错误地增加了组数和重复数，与原始数据不符。",
+    "original_question": "试验中仔猪被分为几组，每组有多少个重复？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中酵母核酸显著增加了断奶28日龄时仔猪血清中IgG、IgM和IgA水平。",
+    "reference_case": "试验中酵母核酸增加了断奶28日龄时仔猪血清中IgG和IgM水平，但对血清中IgA水平影响不大。",
+    "error_detail": "错误地夸大了酵母核酸对血清中IgA水平的影响，与试验结果不符。",
+    "original_question": "试验中酵母核酸对仔猪血清中免疫球蛋白水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "核酸显著增加了56日龄仔猪血清中的IgG和IgM水平，且核酸组间差异显著。",
+    "reference_case": "核酸增加了56日龄仔猪血清中的IgG和IgM水平，但核酸组间差异不显著。",
+    "error_detail": "错误地夸大了核酸对血清中IgG和IgM水平的影响，并错误地表示组间差异显著。",
+    "original_question": "核酸对56日龄仔猪血清中的IgG和IgM水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加0:2%复方中草药的试验组显著提高了仔猪血清免疫球蛋白A（IgA）含量，且显著高于添加0:1%复方中草药和0:15%安来霉素的试验组。",
+    "reference_case": "添加0:2%复方中草药的试验组显著提高了仔猪血清免疫球蛋白A（IgA）含量，但与添加0:1%复方中草药和0:15%安来霉素的试验组相比差异不显著。",
+    "error_detail": "错误地夸大了添加0:2%复方中草药对血清IgA含量的影响，错误地表示其显著高于其他试验组。",
+    "original_question": "试验中复方中草药对断奶仔猪的血清免疫球蛋白A（IgA）含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "所有试验组仔猪血清免疫球蛋白G（IgG）含量均与对照组无显著差异。",
+    "reference_case": "所有试验组仔猪血清免疫球蛋白G（IgG）含量均极显著高于对照组。",
+    "error_detail": "错误地否定了复方中草药对血清IgG含量的积极影响，与试验结果不符。",
+    "original_question": "试验中复方中草药对断奶仔猪的血清免疫球蛋白G（IgG）含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "与对照组相比，所有试验组均未显著降低仔猪的腹泻率。",
+    "reference_case": "与对照组相比，所有试验组均显著降低了仔猪的腹泻率。",
+    "error_detail": "错误地否定了复方中草药对降低仔猪腹泻率的积极影响，与试验结果不符。",
+    "original_question": "试验中复方中草药对断奶仔猪的腹泻率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加0:2%复方中草药的试验组平均日增质量显著低于对照组。",
+    "reference_case": "添加0:2%复方中草药的试验组平均日增质量显著高于对照组，但与添加0:1%复方中草药和0:15%安来霉素的试验组相比差异不显著。",
+    "error_detail": "错误地反转了添加0:2%复方中草药对平均日增质量的影响，与试验结果相反。",
+    "original_question": "试验中复方中草药对断奶仔猪的平均日增质量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低水分固体发酵豆粕对仔猪的平均日增质量没有显著影响。",
+    "reference_case": "低水分固体发酵豆粕显著提高了仔猪的平均日增质量。试验组的平均日增质量为0:84 kg，显著高于对照组的0:67 kg。",
+    "error_detail": "错误地否定了低水分固体发酵豆粕对仔猪平均日增质量的积极影响，与试验结果不符。",
+    "original_question": "低水分固体发酵豆粕对仔猪的平均日增质量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低水分固体发酵豆粕显著降低了仔猪的耗料量。",
+    "reference_case": "低水分固体发酵豆粕对仔猪的耗料量没有显著影响。试验组的耗料量为48:84 kg，与对照组的49:14 kg相比，差异不显著。",
+    "error_detail": "错误地表示低水分固体发酵豆粕对仔猪耗料量有显著影响，与试验结果不符。",
+    "original_question": "低水分固体发酵豆粕对仔猪的耗料量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低水分固体发酵豆粕对仔猪的钙消化率没有显著影响。",
+    "reference_case": "低水分固体发酵豆粕显著提高了仔猪的钙消化率。在1~2周和3~4周期间，试验组的钙消化率分别为68:03%和70:40%，显著高于对照组的62:59%和65:14%。",
+    "error_detail": "错误地否定了低水分固体发酵豆粕对仔猪钙消化率的积极影响，与试验结果不符。",
+    "original_question": "低水分固体发酵豆粕对仔猪的钙消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低水分固体发酵豆粕显著降低了仔猪的粗蛋白消化率。",
+    "reference_case": "低水分固体发酵豆粕显著提高了仔猪的粗蛋白消化率。在1~2周和3~4周期间，试验组的粗蛋白消化率分别为67:15%和69:65%，显著高于对照组的60:73%和59:57%。",
+    "error_detail": "错误地反转了低水分固体发酵豆粕对仔猪粗蛋白消化率的影响，与试验结果相反。",
+    "original_question": "低水分固体发酵豆粕对仔猪的粗蛋白消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低水分固体发酵豆粕显著提高了仔猪的平均增质量。试验组的平均增质量为30:95 kg，显著高于对照组的20:79 kg。",
+    "reference_case": "低水分固体发酵豆粕显著提高了仔猪的平均增质量。试验组的平均增质量为25:95 kg，显著高于对照组的20:79 kg。",
+    "error_detail": "数值偏差，试验组的平均增质量被错误地提高到了30:95 kg。",
+    "original_question": "低水分固体发酵豆粕对仔猪的平均增质量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低水分固体发酵豆粕显著提高了仔猪的磷消化率。在1~2周和3~4周期间，试验组的磷消化率分别为95:23%和97:04%，显著高于对照组的89:09%和90:86%。",
+    "reference_case": "低水分固体发酵豆粕显著提高了仔猪的磷消化率。在1~2周和3~4周期间，试验组的磷消化率分别为91:23%和93:04%，显著高于对照组的89:09%和90:86%。",
+    "error_detail": "数值偏差，试验组的磷消化率被错误地提高到了95:23%和97:04%。",
+    "original_question": "低水分固体发酵豆粕对仔猪的磷消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低水分固体发酵豆粕显著提高了仔猪的粗脂肪消化率。在1~2周和3~4周期间，试验组的粗脂肪消化率分别为75:15%和78:61%，显著高于对照组的65:38%和66:36%。",
+    "reference_case": "低水分固体发酵豆粕显著提高了仔猪的粗脂肪消化率。在1~2周和3~4周期间，试验组的粗脂肪消化率分别为70:15%和73:61%，显著高于对照组的65:38%和66:36%。",
+    "error_detail": "数值偏差，试验组的粗脂肪消化率被错误地提高到了75:15%和78:61%。",
+    "original_question": "低水分固体发酵豆粕对仔猪的粗脂肪消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在仔猪饲养中，添加牛至油可以显著提高仔猪的日增质量和饲料转化率，降低腹泻率和病死率，并提高经济效益。例如，添加10%牛至油预混剂的仔猪平均日增质量比添加金霉素的仔猪提高了10:82%。",
+    "reference_case": "在仔猪饲养中，添加牛至油可以显著提高仔猪的日增质量和饲料转化率，降低腹泻率和病死率，并提高经济效益。例如，添加10%牛至油预混剂的仔猪平均日增质量比添加金霉素的仔猪提高了6:82%。",
+    "error_detail": "数值偏差，仔猪平均日增质量的提高比例被错误地提高到了10:82%。",
+    "original_question": "牛至油在仔猪饲养中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "四川农业大学等单位在猪抗病营养研究方面取得了四项主要成果：创新了猪抗病营养理论，创建了猪最适免疫力营养模式，以及实现了成果的显著转化及产业化。",
+    "reference_case": "四川农业大学等单位在猪抗病营养研究方面取得了三项主要成果：创新了猪抗病营养理论，创建了猪最适免疫力营养模式，以及实现了成果的显著转化及产业化。",
+    "error_detail": "数值偏差，错误地将主要成果的数量增加到了四项。",
+    "original_question": "四川农业大学等单位在猪抗病营养研究方面取得了哪些主要成果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "四川农业大学等单位研发的猪抗病营养理论与技术成果的产业化成效显著，已开发出25个新型抗病营养饲料原料及添加剂新产品，获国家重点新产品证书1个，授权国内外发明专利16项，制订'糖萜素'国家标准1项，并在国内外市场广泛使用，产生了良好的社会经济效益。",
+    "reference_case": "四川农业大学等单位研发的猪抗病营养理论与技术成果的产业化成效显著，已开发出22个新型抗病营养饲料原料及添加剂新产品，获国家重点新产品证书1个，授权国内外发明专利16项，制订'糖萜素'国家标准1项，并在国内外市场广泛使用，产生了良好的社会经济效益。",
+    "error_detail": "数值偏差，新型抗病营养饲料原料及添加剂新产品的数量被错误地增加到了25个。",
+    "original_question": "四川农业大学等单位研发的猪抗病营养理论与技术成果的产业化成效如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪抗病营养理论与技术成果获得了20项国内外发明专利。",
+    "reference_case": "猪抗病营养理论与技术成果获得了16项国内外发明专利。",
+    "error_detail": "数值偏差，国内外发明专利的数量被错误地增加到了20项。",
+    "original_question": "猪抗病营养理论与技术成果获得了多少项国内外发明专利？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "国内高端猪肉市场的空间大约在2000亿元左右。",
+    "reference_case": "国内高端猪肉市场的空间大约在1500亿元左右。",
+    "error_detail": "数值偏差，国内高端猪肉市场的空间被错误地估计为2000亿元。",
+    "original_question": "国内高端猪肉市场的空间大约是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪抗病营养理论与技术成果开发了25个新型抗病营养饲料原料及添加剂新产品。",
+    "reference_case": "猪抗病营养理论与技术成果开发了22个新型抗病营养饲料原料及添加剂新产品。",
+    "error_detail": "数值偏差，新型抗病营养饲料原料及添加剂新产品的数量被错误地增加到了25个。",
+    "original_question": "猪抗病营养理论与技术成果开发了多少个新型抗病营养饲料原料及添加剂新产品？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪抗病营养理论与技术成果在四个方面实现了重大突破：创新了猪抗病营养理论、创建了猪最适免疫力营养模式、成果转化及产业化成效显著。",
+    "reference_case": "猪抗病营养理论与技术成果在三个方面实现了重大突破：创新了猪抗病营养理论、创建了猪最适免疫力营养模式、成果转化及产业化成效显著。",
+    "error_detail": "数值偏差，重大突破的数量被错误地增加到了四个方面。",
+    "original_question": "猪抗病营养理论与技术成果在哪些方面实现了重大突破？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "四川省猪抗病营养研究的主要参与单位包括四川农业大学、浙江大学、新希望集团和中国农业大学。",
+    "reference_case": "四川省猪抗病营养研究的主要参与单位包括四川农业大学、浙江大学和新希望集团。",
+    "error_detail": "数值偏差，错误地添加了中国农业大学为主要参与单位。",
+    "original_question": "四川省猪抗病营养研究的主要参与单位有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "四川农业大学等单位研发的猪抗病营养理论与技术成果在国内外市场上已开发出25个新型抗病营养饲料原料及添加剂新产品，获得1个国家重点新产品证书，授权16项国内外发明专利，并制定了1项'糖萜素'国家标准。",
+    "reference_case": "四川农业大学等单位研发的猪抗病营养理论与技术成果在国内外市场上已开发出22个新型抗病营养饲料原料及添加剂新产品，获得1个国家重点新产品证书，授权16项国内外发明专利，并制定了1项'糖萜素'国家标准。",
+    "error_detail": "数值偏差，新型抗病营养饲料原料及添加剂新产品的数量被错误地增加到了25个。",
+    "original_question": "四川农业大学等单位研发的猪抗病营养理论与技术成果在国内外市场上有哪些应用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲料中添加植物提取物（OE）显著提高了断奶-育肥猪的胴体价格。具体来说，来自饲喂OE日粮母猪的育肥猪胴体价格比对照组额外贵10:90美元。",
+    "reference_case": "饲料中添加植物提取物（OE）显著提高了断奶-育肥猪的胴体价格。具体来说，来自饲喂OE日粮母猪的育肥猪胴体价格比对照组额外贵4:90美元。",
+    "error_detail": "数值偏差",
+    "original_question": "饲料中添加植物提取物（OE）对断奶-育肥猪的胴体价格有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶-育肥猪的性别显著影响其生长性能和胴体品质。具体来说，育肥公猪比母猪体重高10:6 kg，生长速度快100 g/d，采食量多0:42 kg/d，脂肪厚度高0:2 mm，瘦肉率低1:7%。",
+    "reference_case": "断奶-育肥猪的性别显著影响其生长性能和胴体品质。具体来说，育肥公猪比母猪体重高5:6 kg，生长速度快80 g/d，采食量多0:32 kg/d，脂肪厚度高0:1 mm，瘦肉率低0:7%。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶-育肥猪的性别对其生长性能和胴体品质有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在断奶-育肥猪的日粮中添加植物提取物（OE）显著提高了猪的瘦肉率。具体来说，来自饲喂OE日粮母猪的肉猪瘦肉率比对照组高1:4%。",
+    "reference_case": "在断奶-育肥猪的日粮中添加植物提取物（OE）显著提高了猪的瘦肉率。具体来说，来自饲喂OE日粮母猪的肉猪瘦肉率比对照组高0:4%。",
+    "error_detail": "数值偏差",
+    "original_question": "在断奶-育肥猪的日粮中添加植物提取物（OE）对猪的瘦肉率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲料中添加植物提取物（OE）显著提高了断奶-育肥猪的平均日增重（ADG）和平均日采食量（ADFI）。具体来说，母猪日粮添加OE的仔猪ADG为917 g/d，而对照组为789 g/d；ADFI为2:02 kg/d，而对照组为1:86 kg/d。",
+    "reference_case": "饲料中添加植物提取物（OE）显著提高了断奶-育肥猪的平均日增重（ADG）和平均日采食量（ADFI）。具体来说，母猪日粮添加OE的仔猪ADG为817 g/d，而对照组为789 g/d；ADFI为1:92 kg/d，而对照组为1:86 kg/d。",
+    "error_detail": "数值偏差",
+    "original_question": "饲料中添加植物提取物（OE）对断奶-育肥猪的生长性能有哪些具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲料中添加植物提取物（OE）显著提高了断奶-育肥猪的屠宰重、腰肉厚度、瘦肉率、胴体肉质评分和胴体价格。具体来说，来自饲喂OE日粮母猪的肉猪屠宰重比对照组高5:4 kg，腰肉厚度增加15 mm，瘦肉率提高1:4%。",
+    "reference_case": "饲料中添加植物提取物（OE）显著提高了断奶-育肥猪的屠宰重、腰肉厚度、瘦肉率、胴体肉质评分和胴体价格。具体来说，来自饲喂OE日粮母猪的肉猪屠宰重比对照组高3:4 kg，腰肉厚度增加10 mm，瘦肉率提高0:4%。",
+    "error_detail": "数值偏差",
+    "original_question": "饲料中添加植物提取物（OE）对断奶-育肥猪的胴体品质有哪些具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪日粮中添加植物提取物（OE）显著增加了仔猪断奶至育肥期间的血清IGF-I水平。具体来说，来自饲喂OE日粮母猪的仔猪在14 d、26 d、33 d和54 d的血清IGF-I水平显著增加，增加了约50%。",
+    "reference_case": "母猪日粮中添加植物提取物（OE）显著增加了仔猪断奶至育肥期间的血清IGF-I水平。具体来说，来自饲喂OE日粮母猪的仔猪在14 d、26 d、33 d和54 d的血清IGF-I水平显著增加。",
+    "error_detail": "数值偏差",
+    "original_question": "母猪日粮中添加植物提取物（OE）对仔猪血清IGF-I浓度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灵芝菌糠发酵饲料使每千克增重的饲料成本下降了约10:19%。",
+    "reference_case": "灵芝菌糠发酵饲料使每千克增重的饲料成本下降了约5:19%。",
+    "error_detail": "数值偏差",
+    "original_question": "灵芝菌糠发酵饲料对育肥猪的饲料成本有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灵芝菌糠发酵饲料饲喂育肥猪每增重1kg的饲料成本比常规组少0:44元，饲料成本降低了10:19%，表明其具有良好的经济效益。",
+    "reference_case": "灵芝菌糠发酵饲料饲喂育肥猪每增重1kg的饲料成本比常规组少0:24元，饲料成本降低了5:19%，表明其具有良好的经济效益。",
+    "error_detail": "数值偏差",
+    "original_question": "灵芝菌糠发酵饲料的经济效益如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灵芝菌糠发酵饲料显著提高了育肥猪的瘦肉率（P<0:01:。",
+    "reference_case": "灵芝菌糠发酵饲料显著提高了育肥猪的瘦肉率（P<0:05:。",
+    "error_detail": "数值偏差",
+    "original_question": "灵芝菌糠发酵饲料对育肥猪的瘦肉率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灵芝菌糠发酵饲料对育肥猪的屠宰率、眼肌面积、pH和肉色等胴体指标无显著影响（P>0:10:，但显著提高了瘦肉率（P<0:01:。",
+    "reference_case": "灵芝菌糠发酵饲料对育肥猪的屠宰率、眼肌面积、pH和肉色等胴体指标无显著影响（P>0:05:，但显著提高了瘦肉率（P<0:05:。",
+    "error_detail": "数值偏差",
+    "original_question": "灵芝菌糠发酵饲料对育肥猪的胴体品质有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪胎儿成纤维细胞和耳皮肤成纤维细胞的培养过程中，细胞生长曲线的平台期出现在第10天以后。",
+    "reference_case": "猪胎儿成纤维细胞和耳皮肤成纤维细胞的培养过程中，细胞生长曲线的平台期出现在第8天以后。",
+    "error_detail": "数值偏差",
+    "original_question": "猪胎儿成纤维细胞和耳皮肤成纤维细胞的培养过程中，细胞生长曲线的平台期出现在第几天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪胎儿成纤维细胞和耳皮肤成纤维细胞的冻存液成分是80% DMEM、15% FBS和5% DMSO。",
+    "reference_case": "猪胎儿成纤维细胞和耳皮肤成纤维细胞的冻存液成分是70% DMEM、20% FBS和10% DMSO。",
+    "error_detail": "数值偏差",
+    "original_question": "猪胎儿成纤维细胞和耳皮肤成纤维细胞的冻存液成分是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "胰酶热消化法在猪胎儿成纤维细胞培养中的细胞存活率显著高于胰酶冷热结合消化法。",
+    "reference_case": "胰酶热消化法在猪胎儿成纤维细胞培养中的细胞存活率显著低于胰酶冷热结合消化法。",
+    "error_detail": "完全相反的结论",
+    "original_question": "胰酶热消化法和胰酶冷热结合消化法在猪胎儿成纤维细胞培养中的细胞存活率有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪胎儿成纤维细胞和耳皮肤成纤维细胞在冻存复苏后生长状态良好，细胞贴壁快，12小时后已有半数细胞呈现梭形或三角形，3～4天已基本汇合成单层并铺满培养瓶底部。",
+    "reference_case": "猪胎儿成纤维细胞和耳皮肤成纤维细胞在冻存复苏后生长状态良好，细胞贴壁快，24小时后已有半数细胞呈现梭形或三角形，4～5天已基本汇合成单层并铺满培养瓶底部。",
+    "error_detail": "错误地缩短了细胞贴壁和汇合的时间",
+    "original_question": "猪胎儿成纤维细胞和耳皮肤成纤维细胞在冻存复苏后的生长状态如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "黄茛多糖和白花蛇舌草多糖均能显著提高仔猪CD3+、CD4+、CD8+淋巴细胞的百分比和特异性抗体效价，且黄茛多糖提高免疫的效力与剂量有关。",
+    "reference_case": "黄茛多糖和白花蛇舌草多糖均能显著提高仔猪CD3+、CD4+、CD8+淋巴细胞的百分比和特异性抗体效价，且白花蛇舌草多糖提高免疫的效力与剂量有关。",
+    "error_detail": "错误地将白花蛇舌草多糖的作用归因于黄茛多糖",
+    "original_question": "黄茛多糖和白花蛇舌草多糖对PRRS疫苗的免疫增强作用有哪些具体表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山药多糖可显著提高PRRS灭活苗免疫猪外周血CD3+和CD8+淋巴细胞数量，并在免疫30天后显著提高PRRS灭活苗免疫抗体水平。",
+    "reference_case": "山药多糖可显著提高PRRS灭活苗免疫猪外周血CD3+和CD8+淋巴细胞数量，并在免疫34天后显著提高PRRS灭活苗免疫抗体水平。",
+    "error_detail": "错误地缩短了免疫抗体水平提高的时间",
+    "original_question": "山药多糖对PRRS疫苗的免疫增强作用有哪些具体表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "试验结果显示，第3组（阳性对照组）90%的母猪表现出发情症状，但配种妊娠率仅为70%；第2组（试验组）发情率及配种妊娠率分别为60%和85%；第1组（空白对照组）发情率最低仅为35%，但配种妊娠率却高达95%，同时所有试验母猪的妊娠分娩率均为95%。",
+    "reference_case": "试验结果显示，第3组（阳性对照组）92:31%的母猪表现出发情症状，但配种妊娠率仅为75%；第2组（试验组）发情率及配种妊娠率分别为61:54%和87:5%；第1组（空白对照组）发情率最低仅为38:46%，但配种妊娠率却高达100%，同时所有试验母猪的妊娠分娩率均为100%。",
+    "error_detail": "错误地修改了发情率、配种妊娠率和妊娠分娩率的数据",
+    "original_question": "试验结果显示，不同处理组在发情率、配种妊娠率及妊娠分娩率方面有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在通过输精促进母猪发情的试验研究中，将39头后备母猪随机分成3组，每组13头。第1组为空白对照组，向子宫内输入生理盐水20毫升，连续处理3天；第2组为试验组，向子宫内输入含有死精且未经过稀释的精液20毫升，连续处理3天；第3组为阳性对照组，每头猪肌肉注射PG600。",
+    "reference_case": "在通过输精促进母猪发情的试验研究中，将39头后备母猪随机分成3组，每组13头。第1组为空白对照组，向子宫内输入生理盐水30毫升，连续处理3天；第2组为试验组，向子宫内输入含有死精且未经过稀释的精液30毫升，连续处理3天；第3组为阳性对照组，每头猪肌肉注射PG600。",
+    "error_detail": "错误地减少了生理盐水和精液的输入量",
+    "original_question": "通过输精促进母猪发情的试验研究中，试验分组是如何进行的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "异普克组增重产生系数低于人工去势组，综合各省及大试、小试结果，得出免疫组全氮、全磷平均增重产生系数比人工去势组分别降低了5%与5%。",
+    "reference_case": "异普克组增重产生系数低于人工去势组，综合各省及大试、小试结果，得出免疫组全氮、全磷平均增重产生系数比人工去势组分别降低了7:75%与7:80%。",
+    "error_detail": "错误地降低了全氮、全磷平均增重产生系数的降低比例",
+    "original_question": "异普克疫苗对生猪平均增重全氮、全磷产生系数的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "异普克组全氮、全磷日平均产生系数分别为20,4 g/(d·头)，比人工去势组低1,0.3 g/(d·头)。",
+    "reference_case": "异普克组全氮、全磷日平均产生系数分别为25:61,5:25 g/(d·头)，比人工去势组低1:78，0:37 g/(d·头)。",
+    "error_detail": "错误地修改了全氮、全磷日平均产生系数及其降低值",
+    "original_question": "异普克疫苗对生猪全氮、全磷日平均产生系数的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪生产中，添加稀土元素盐可以提高仔猪日增重和饲料报酬。例如，在仔猪日粮中添加无机稀土200 g/t，可使仔猪全期日增重提高10%，饲料转化率提高8%，同时可提高干物质和粗蛋白消化率及蛋白质利用率。在繁殖母猪日粮中添加0:20%稀土，可提高成活率和断乳重。",
+    "reference_case": "在猪生产中，添加稀土元素盐可以提高仔猪日增重和饲料报酬。例如，在仔猪日粮中添加无机稀土150 g/t，可使仔猪全期日增重提高5:37%，饲料转化率提高4:03%，同时可提高干物质和粗蛋白消化率及蛋白质利用率。在繁殖母猪日粮中添加0:15%稀土，可提高成活率和断乳重。",
+    "error_detail": "错误地提高了稀土元素的添加量和效果",
+    "original_question": "稀土元素在猪生产中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "丁酸钠和丁酸梭菌均能降低断奶仔猪的死亡率，A组和B组的死亡率分别为2%和3%，而对照组为5%。",
+    "reference_case": "丁酸钠和丁酸梭菌均能降低断奶仔猪的死亡率，A组和B组的死亡率分别为3:17%和4:76%，而对照组为6:35%。",
+    "error_detail": "错误地降低了死亡率的数据",
+    "original_question": "丁酸钠和丁酸梭菌对断奶仔猪的死亡率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丁酸钠和丁酸梭菌均能节约成本，丁酸梭菌组（B组）对经济效益的改善更明显，A组和B组的料重比分别为1:90和1:88，而对照组为1:86。",
+    "reference_case": "丁酸钠和丁酸梭菌均能节约成本，丁酸梭菌组（B组）对经济效益的改善更明显，A组和B组的料重比分别为1:80和1:78，而对照组为1:86。",
+    "error_detail": "数值偏差，料重比数据被夸大",
+    "original_question": "丁酸钠和丁酸梭菌对断奶仔猪的经济效益有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丁酸钠和丁酸梭菌均能提高断奶仔猪的采食量，A组和B组的平均日采食量分别为900:00 g/d和910:00 g/d，而对照组为820:50 g/d。",
+    "reference_case": "丁酸钠和丁酸梭菌均能提高断奶仔猪的采食量，A组和B组的平均日采食量分别为867:10 g/d和870:50 g/d，而对照组为820:50 g/d。",
+    "error_detail": "数值偏差，平均日采食量数据被夸大",
+    "original_question": "丁酸钠和丁酸梭菌对断奶仔猪的采食量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丁酸钠和丁酸梭菌均能降低断奶仔猪的料重比，A组和B组的料重比分别为1:85和1:80，而对照组为1:86。",
+    "reference_case": "丁酸钠和丁酸梭菌均能降低断奶仔猪的料重比，A组和B组的料重比分别为1:80和1:75，而对照组为1:86。",
+    "error_detail": "数值偏差，料重比数据被夸大",
+    "original_question": "丁酸钠和丁酸梭菌对断奶仔猪的料重比有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丁酸钠和丁酸梭菌均能明显改善断奶仔猪的毛色，试验结束时A组和B组的毛色评分分别为4:00和4:12，而对照组为1:00。",
+    "reference_case": "丁酸钠和丁酸梭菌均能明显改善断奶仔猪的毛色，试验结束时A组和B组的毛色评分分别为3:00和3:12，而对照组为1:00。",
+    "error_detail": "数值偏差，毛色评分数据被夸大",
+    "original_question": "丁酸钠和丁酸梭菌对断奶仔猪的毛色有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丁酸钠和丁酸梭菌均能提高断奶仔猪的平均日增重，A组和B组的平均日增重分别为500:00 g/d和510:00 g/d，而对照组为441:77 g/d。",
+    "reference_case": "丁酸钠和丁酸梭菌均能提高断奶仔猪的平均日增重，A组和B组的平均日增重分别为481:22 g/d和489:24 g/d，而对照组为441:77 g/d。",
+    "error_detail": "数值偏差，平均日增重数据被夸大",
+    "original_question": "丁酸钠和丁酸梭菌对断奶仔猪的平均日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丁酸钠的添加量为2 kg/t，丁酸梭菌的添加量为500 g/t。",
+    "reference_case": "丁酸钠的添加量为1 kg/t，丁酸梭菌的添加量为250 g/t。",
+    "error_detail": "数值偏差，添加量数据被夸大",
+    "original_question": "丁酸钠和丁酸梭菌在断奶仔猪饲料中的添加量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丁酸钠和丁酸梭菌均能显著降低断奶仔猪的腹泻率，A组和B组的腹泻率分别为3:10%和2:87%，而对照组为15:12%。",
+    "reference_case": "丁酸钠和丁酸梭菌均能显著降低断奶仔猪的腹泻率，A组和B组的腹泻率分别为5:10%和4:87%，而对照组为15:12%。",
+    "error_detail": "数值偏差，腹泻率数据被低估",
+    "original_question": "丁酸钠和丁酸梭菌对断奶仔猪的腹泻率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒（PCV）的ORF2基因的全长是800 bp。",
+    "reference_case": "猪圆环病毒（PCV）的ORF2基因的全长是719 bp。",
+    "error_detail": "数值偏差，基因全长数据被夸大",
+    "original_question": "猪圆环病毒（PCV）的ORF2基因的全长是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪肝微粒体蛋白浓度为15:653 ± 0:256 mg/g，细胞色素P450含量为1:903 ± 0:021 nmol/mg，细胞色素b5含量为0:629 ± 0:038 nmol/mg，氨基比林-N-脱甲基酶活性为0:326 ± 0:010 μmol/(min·mg)，红霉素-N-脱甲基酶活性为0:075 ± 0:008 μmol/(min·mg)，NADPH-细胞色素C还原酶活性为5:658 ± 1:170 nmol/(min·mg)。",
+    "reference_case": "猪肝微粒体蛋白浓度为10:653 ± 0:256 mg/g，细胞色素P450含量为0:903 ± 0:021 nmol/mg，细胞色素b5含量为0:429 ± 0:038 nmol/mg，氨基比林-N-脱甲基酶活性为0:226 ± 0:010 μmol/(min·mg)，红霉素-N-脱甲基酶活性为0:055 ± 0:008 μmol/(min·mg)，NADPH-细胞色素C还原酶活性为4:658 ± 1:170 nmol/(min·mg)。",
+    "error_detail": "数值偏差，所有测量数据被夸大",
+    "original_question": "猪肝微粒体蛋白浓度及细胞色素P450酶系测定结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "细胞色素P450的活性为1:903 ± 0:021 nmol·mg−1。",
+    "reference_case": "细胞色素P450的活性为0:903 ± 0:021 nmol·mg−1。",
+    "error_detail": "数值偏差，活性数据被夸大",
+    "original_question": "在猪肝微粒体蛋白浓度及细胞色素P450酶系测定中，细胞色素P450的活性是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在肉鸡饲料中，紫花荅草粉占20%～25%的比例可以提高肉鸡的平均增重15:6%，饲料利用率提高16:3%，每千克增重饲料成本降低20:46%。在肉猪饲料中，紫花荅草粉占20%～22%的比例可以提高增重、饲料利用率和瘦肉率，降低饲料成本。",
+    "reference_case": "在肉鸡饲料中，紫花荅草粉占10%～15%的比例可以提高肉鸡的平均增重12:6%，饲料利用率提高14:3%，每千克增重饲料成本降低18:46%。在肉猪饲料中，紫花荅草粉占16%～18%的比例可以提高增重、饲料利用率和瘦肉率，降低饲料成本。",
+    "error_detail": "数值偏差，比例和效果数据被夸大",
+    "original_question": "紫花荅草粉在肉鸡和肉猪饲料中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳聚糖锌（CS-Zn）显著提高了断奶仔猪对饲料粗蛋白的消化率，而硫酸锌（ZnSO₄）则没有显著提高。添加100 mg/kg CS-Zn的仔猪粗蛋白消化率提高了15:3%，而硫酸锌组与对照组相比无显著差异。",
+    "reference_case": "壳聚糖锌（CS-Zn）显著提高了断奶仔猪对饲料粗蛋白的消化率，而硫酸锌（ZnSO₄）则没有显著提高。添加100 mg/kg CS-Zn的仔猪粗蛋白消化率提高了5:3%，而硫酸锌组与对照组相比无显著差异。",
+    "error_detail": "数值偏差，将5:3%错误地改为15:3%",
+    "original_question": "壳聚糖锌（CS-Zn）与硫酸锌（ZnSO₄）在断奶仔猪养分消化率上的效果有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "磺胺二甲嘧啶（SM2:ELISA快速检测试剂盒（SM2-Kit）在猪肉组织和猪饲料中的最低检测限为2 μg/kg，在猪尿中的最低检测限为2:8 μg/L，在牛奶中的最低检测限为2:5 μg/L。",
+    "reference_case": "磺胺二甲嘧啶（SM2:ELISA快速检测试剂盒（SM2-Kit）在猪肉组织和猪饲料中的最低检测限为1 μg/kg，在猪尿中的最低检测限为1:8 μg/L，在牛奶中的最低检测限为1:5 μg/L。",
+    "error_detail": "数值偏差，将检测限数值翻倍",
+    "original_question": "磺胺二甲嘧啶（SM2:ELISA快速检测试剂盒（SM2-Kit）在猪肉组织、猪饲料、猪尿和牛奶中的最低检测限分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PRRSV的基因组包括10个开放阅读框（ORF），分别是ORF1a、ORF1b、ORF2a、ORF2b、ORF3、ORF4、ORF5、ORF6、ORF7和ORF8。",
+    "reference_case": "PRRSV的基因组包括9个开放阅读框（ORF），分别是ORF1a、ORF1b、ORF2a、ORF2b、ORF3、ORF4、ORF5、ORF6和ORF7。",
+    "error_detail": "错误地增加了ORF的数量和列表",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组结构包括哪些开放阅读框（ORF）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪轮状病毒 DN30209 株在恒河猴肾细胞（MA-104:中培养，最佳条件为使用 40 µg/mL 胰酶在 37°C 下孵育 40 分钟，吸附 90 分钟，并在含有 2 µg/mL 胰酶的 DMEM 维持液中培养。",
+    "reference_case": "猪轮状病毒 DN30209 株在恒河猴肾细胞（MA-104:中培养，最佳条件为使用 20 µg/mL 胰酶在 37°C 下孵育 40 分钟，吸附 90 分钟，并在含有 2 µg/mL 胰酶的 DMEM 维持液中培养。",
+    "error_detail": "错误地将胰酶浓度从20 µg/mL改为40 µg/mL",
+    "original_question": "猪轮状病毒 DN30209 株的培养条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用第 60 代病毒免疫小鼠后，首次免疫后第 2 周的中和效价为 1:182，4 周后达到 1:256，加强免疫组在第 6 周的中和效价可达 1:512。",
+    "reference_case": "使用第 60 代病毒免疫小鼠后，首次免疫后第 2 周的中和效价为 1:91，4 周后达到 1:128，加强免疫组在第 6 周的中和效价可达 1:256。",
+    "error_detail": "错误地将中和效价数值翻倍",
+    "original_question": "猪轮状病毒 DN30209 株的中和试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用第 60 代病毒免疫 PRV 阴性 BALB/c 小鼠，2 周后小鼠血清中和效价为 1:182，4 周后达到 1:256。",
+    "reference_case": "使用第 60 代病毒免疫 PRV 阴性 BALB/c 小鼠，2 周后小鼠血清中和效价为 1:91，4 周后达到 1:128。",
+    "error_detail": "错误地将中和效价数值翻倍",
+    "original_question": "猪轮状病毒 DN30209 株的免疫效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "通过连续传代培养，猪轮状病毒 DN30209 株的毒力逐渐减弱，并在第 60 至 63 代时趋于稳定，TCID50 维持在 10^7:00/mL 左右。",
+    "reference_case": "通过连续传代培养，猪轮状病毒 DN30209 株的毒力逐渐减弱，并在第 60 至 63 代时趋于稳定，TCID50 维持在 10^6:00/mL 左右。",
+    "error_detail": "错误地将TCID50从10^6:00/mL改为10^7:00/mL",
+    "original_question": "猪轮状病毒 DN30209 株的传代培养对其毒力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "通过连续传代培养，猪轮状病毒 DN30209 株的免疫原性保持稳定，免疫小鼠后产生的特异性中和抗体效价在 10 周内均维持在 1:200 以上，且加强免疫组的抗体效价可达到 1:512。",
+    "reference_case": "通过连续传代培养，猪轮状病毒 DN30209 株的免疫原性保持稳定，免疫小鼠后产生的特异性中和抗体效价在 10 周内均维持在 1:100 以上，且加强免疫组的抗体效价可达到 1:256。",
+    "error_detail": "错误地将中和抗体效价数值翻倍",
+    "original_question": "猪轮状病毒 DN30209 株的传代培养对其免疫原性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在最佳培养条件下，猪轮状病毒 DN30209 株能在 MA-104 细胞中稳定增殖，经过 60 代培养后，病毒的 TCID50 从最初的 10^6:80/mL 增加到 10^9:00/mL，并在第 60 至 63 代时维持在 10^9:00/mL 左右。",
+    "reference_case": "在最佳培养条件下，猪轮状病毒 DN30209 株能在 MA-104 细胞中稳定增殖，经过 60 代培养后，病毒的 TCID50 从最初的 10^3:40/mL 增加到 10^6:00/mL，并在第 60 至 63 代时维持在 10^6:00/mL 左右。",
+    "error_detail": "错误地将TCID50数值夸大了三个数量级",
+    "original_question": "猪轮状病毒 DN30209 株在 MA-104 细胞中的增殖效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪轮状病毒 DN30209 株在 95°C 及以上温度处理 5 分钟会失去感染能力，但在 72°C 处理 5 分钟或 56°C 处理 30 分钟仍具有感染能力。此外，该病毒对氯仿具有较强的抵抗力。",
+    "reference_case": "猪轮状病毒 DN30209 株在 85°C 及以上温度处理 5 分钟会失去感染能力，但在 72°C 处理 5 分钟或 56°C 处理 30 分钟仍具有感染能力。此外，该病毒对氯仿具有较强的抵抗力。",
+    "error_detail": "错误地将失去感染能力的温度从85°C改为95°C",
+    "original_question": "猪轮状病毒 DN30209 株的理化性质如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在中猪阶段，抗生素组的添加量为120 g/t 4%黄霉素和80 g/t 50%埄烯酮；在大猪阶段，抗生素组的添加量为180 g/t 4%黄霉素。",
+    "reference_case": "在中猪阶段，抗生素组的添加量为60 g/t 4%黄霉素和40 g/t 50%埄烯酮；在大猪阶段，抗生素组的添加量为90 g/t 4%黄霉素。",
+    "error_detail": "错误地将添加量数值翻倍",
+    "original_question": "试验中使用的抗生素组在中猪和大猪阶段的添加量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中、高剂量试验组（1200 g/t和1600 g/t）可显著提高生长育肥猪的日增重（P<0:05:。",
+    "reference_case": "中、高剂量试验组（600 g/t和800 g/t）可显著提高生长育肥猪的日增重（P<0:05:。",
+    "error_detail": "错误地将剂量数值翻倍",
+    "original_question": "复合植物提取物I型对生长育肥猪的日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长育肥猪饲料中添加复合植物提取物I型的剂量有300 g/t、500 g/t和700 g/t。",
+    "reference_case": "在生长育肥猪饲料中添加复合植物提取物I型的剂量有400 g/t、600 g/t和800 g/t。",
+    "error_detail": "数值偏差",
+    "original_question": "在生长育肥猪饲料中添加复合植物提取物I型的剂量有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高剂量试验组（800 g/t）血清抗氧化指标谷胱甘肽过氧化物酶、超氧化物歧化酶含量均显著高于抗生素组（P<0:05:，而衡量机体过氧化程度的丙二醛含量则显著低于抗生素组（P<0:05:。",
+    "reference_case": "中剂量试验组（600 g/t）血清抗氧化指标谷胱甘肽过氧化物酶、超氧化物歧化酶含量均显著高于抗生素组（P<0:05:，而衡量机体过氧化程度的丙二醛含量则显著低于抗生素组（P<0:05:。",
+    "error_detail": "数值偏差",
+    "original_question": "复合植物提取物I型对大猪血清中的抗氧化指标有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "宁夏全区由政府批准的动物定点屠宰厂共有90个，其中生猪定点屠宰厂40个，牛羊定点屠宰厂30个，家禽定点屠宰厂20个。",
+    "reference_case": "宁夏全区由政府批准的动物定点屠宰厂共有80个，其中生猪定点屠宰厂38个，牛羊定点屠宰厂25个，家禽定点屠宰厂17个。",
+    "error_detail": "数值偏差",
+    "original_question": "宁夏全区由政府批准的动物定点屠宰厂有多少个？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "国家在2011年7月出台政策，对年出栏50头以上的规模化养猪场，采取自行处理模式的，每头补助100元；对年出栏50头以下的养猪户，采取集中处理模式的，每头补助80元给无害化处理营运单位，20元给养猪场。",
+    "reference_case": "国家在2011年7月出台政策，对年出栏50头以上的规模化养猪场，采取自行处理模式的，每头补助80元；对年出栏50头以下的养猪户，采取集中处理模式的，每头补助70元给无害化处理营运单位，10元给养猪场。",
+    "error_detail": "补助金额被错误地增加，导致数据型幻觉。",
+    "original_question": "国家在2011年对病死猪无害化处理提供了哪些补助政策？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在怀孕期接种猪瘟活苗的影响是猪瘟病毒能穿过胎盘屏障感染胎儿，引起胎儿持续感染猪瘟，导致肧胎死亡和仔猪成活率下降至30%。",
+    "reference_case": "母猪在怀孕期接种猪瘟活苗的影响是猪瘟病毒能穿过胎盘屏障感染胎儿，引起胎儿持续感染猪瘟，导致肧胎死亡和仔猪成活率下降。",
+    "error_detail": "错误地添加了具体的成活率下降百分比，原始输出中并未提供具体数据。",
+    "original_question": "非典型性猪瘟的发病原因中，母猪在怀孕期接种猪瘟活苗的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪在发病初期，体温升高达42~43°C左右。",
+    "reference_case": "仔猪在发病初期，精神沉郁，头低耳㚗，尾巴摇摆不停，扎堆而卧，体温升高达40~41°C左右，稽留热，眼结膜潮红，喜饮臭水，食欲不振或废绝，起初出现便秘，以后持续腹泻，粪便稍带黄绿色，具有明显的恶臭味，上面附有黏膜，耳后及四肢下皮肤有出血斑点，有的连一片，指压不褪色；后期极度消瘦、四肢麻痹站立不稳，最后衰竭死亡；耐过仔猪增重非常缓慢或者形成\"僵猪\"。母猪引起繁殖障碍，出现不孕、流产，胎儿木乃伊、畸形，死产，产出有颤抖症状的弱仔胎等症状；子宫内感染的分娩仔猪皮肤出血较多见，且初生死亡率高；新生胎儿衰弱，精神沉郁、吃奶无力或不吃奶，拉稀，陆续死亡。成年猪症状不大明显，体温略高，40°C左右，食欲不振、身体消瘦、被毛粗乱、精神萎顿、行走无力呈摇摆状，终日打堆挤卧，便秘和腹泻交替，体表通常没有出血性变化。",
+    "error_detail": "错误地提高了体温范围，与原始输出不符。",
+    "original_question": "非典型性猪瘟的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "疫苗剂量应用不当的具体表现包括每头猪一次免疫剂量应不低于1200个兔体感染量。",
+    "reference_case": "疫苗剂量应用不当的具体表现包括每头猪一次免疫剂量应不低于600个兔体感染量（相当于4头份）。有的猪场（户）盲目加大或减少，将每头猪瘟苗用到10头份，甚至每头50头份，造成免疫耐受；或疫苗剂量过少，以致产生抗体水平不够，抵抗疫病侵袭的能力不足。",
+    "error_detail": "错误地提高了兔体感染量的数值，与原始输出不符。",
+    "original_question": "猪瘟免疫失败中，疫苗剂量应用不当的具体表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "患病仔猪体温在41至42摄氏度之间。",
+    "reference_case": "患病仔猪食欲减退，喜饮水，精神沉郁，爬卧扎堆，体温在40至40:5摄氏度之间，多数病猪皮肤苍白或局部皮肤浅黄色。严重病猪精神沉郁，食欲废绝，体温高达40:5摄氏度，呼吸困难，气喘，严重腹泻或排黄白稀便。",
+    "error_detail": "错误地提高了体温范围，与原始输出不符。",
+    "original_question": "野猪附红细胞体病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "野猪肉后腿肉的脂肪只有家猪的30%。",
+    "reference_case": "野猪肉香味浓，具有\"野味\"特色，营养丰富，瘦肉率高，脂肪含量低，后腿肉的脂肪只有家猪的50%，有丰富的蛋白质和不饱和酸，并含有17种氨基酸，人体最重要和必需的脂肪酸亚油酸是家猪的2:5倍。",
+    "error_detail": "错误地降低了脂肪比例，与原始输出不符。",
+    "original_question": "野猪的营养价值有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磷酸替米考星可溶性粉在40至60 mg/L及以上剂量组显示出显著的治疗效果。",
+    "reference_case": "磷酸替米考星可溶性粉在60至80 mg/L及以上剂量组显示出显著的治疗效果。",
+    "error_detail": "错误地降低了显示显著治疗效果的剂量范围。",
+    "original_question": "磷酸替米考星可溶性粉在治疗猪支原体肺炎时，哪些剂量组显示出显著的治疗效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在磷酸替米考星可溶性粉的临床试验中，所有剂量组的受试猪死亡率为5%。",
+    "reference_case": "在磷酸替米考星可溶性粉的临床试验中，所有剂量组的受试猪死亡率均为0%。",
+    "error_detail": "错误地提高了受试猪的死亡率。",
+    "original_question": "磷酸替米考星可溶性粉的临床试验中，受试猪的死亡率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磷酸替米考星可溶性粉120 mg/L组显示出最佳的相对增重效果。",
+    "reference_case": "磷酸替米考星可溶性粉240 mg/L组显示出最佳的相对增重效果，而100、80、60 mg/L组和替米考星可溶性粉药物对照组的增重率接近。",
+    "error_detail": "错误地改变了显示最佳增重效果的剂量组。",
+    "original_question": "磷酸替米考星可溶性粉的临床试验中，受试猪的增重效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磷酸替米考星可溶性粉在40至60 mg/L剂量下的治疗效果与市售替米考星可溶性粉（75 mg/L）的效果相当。",
+    "reference_case": "磷酸替米考星可溶性粉在60至80 mg/L剂量下的治疗效果与市售替米考星可溶性粉（75 mg/L）的效果相当。",
+    "error_detail": "错误地降低了显示相当治疗效果的剂量范围。",
+    "original_question": "磷酸替米考星可溶性粉对猪支原体肺炎的治疗效果与市售替米考星可溶性粉相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磷酸替米考星可溶性粉120 mg/L组显示出最佳的治愈率。",
+    "reference_case": "磷酸替米考星可溶性粉240 mg/L组显示出最佳的治愈率，与120、80、60 mg/L组相比差异显著，与100 mg/L组效果相当。",
+    "error_detail": "错误地改变了显示最佳治愈率的剂量组。",
+    "original_question": "磷酸替米考星可溶性粉的临床试验中，受试猪的治愈率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的ORF3基因系统进化树分析显示，PEDV可以分为2组。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的ORF3基因系统进化树分析显示，PEDV可以分为3组，其中13个病毒属于PEDV 3组，另外1个属于PEDV 1组。",
+    "error_detail": "错误地减少了PEDV的分组数量。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的ORF3基因系统进化树分析显示，PEDV可以分为几组？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "依兰镇的母猪年平均提供仔猪数是25头",
+    "reference_case": "20.5 头",
+    "error_detail": "数值偏差",
+    "original_question": "依兰镇的母猪年平均提供仔猪数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在延吉市各乡镇的育肥猪饲养模式中，平均死亡率是5%",
+    "reference_case": "2.5 %",
+    "error_detail": "比例偏差",
+    "original_question": "在延吉市各乡镇的育肥猪饲养模式中，平均死亡率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "延吉市各乡镇自繁自养模式中，仔猪的总体平均死亡率是10%",
+    "reference_case": "5 %",
+    "error_detail": "比例偏差",
+    "original_question": "延吉市各乡镇自繁自养模式中，仔猪的总体平均死亡率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在延吉市各乡镇的自繁自养模式中，每头能繁母猪每年平均能提供30头育肥猪",
+    "reference_case": "每头能繁母猪每年出栏的育肥猪可达 20 头左右",
+    "error_detail": "数值偏差",
+    "original_question": "在延吉市各乡镇的自繁自养模式中，每头能繁母猪每年平均能提供多少头育肥猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪卵母细胞体外成熟过程中，核质蛋白的表达增加有助于受精后精子核的解聚和体细胞核的重编程，从而为受精后的胚胎发育提供必要的条件，促进胚胎的正常发育。然而，核质蛋白的表达量在成熟过程中实际上减少了50%。",
+    "reference_case": "在猪卵母细胞体外成熟过程中，核质蛋白的表达增加有助于受精后精子核的解聚和体细胞核的重编程，从而为受精后的胚胎发育提供必要的条件，促进胚胎的正常发育。",
+    "error_detail": "错误地描述了核质蛋白的表达量变化，实际上表达量减少而非增加。",
+    "original_question": "在猪卵母细胞体外成熟过程中，核质蛋白的表达如何影响受精后的胚胎发育？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪卵母细胞体外成熟过程中，Npm基因的表达量随着成熟时间的延长而减少。RT-PCR检测结果显示，从0小时到44小时，Npm基因的mRNA表达量逐渐减弱。",
+    "reference_case": "在猪卵母细胞体外成熟过程中，Npm基因的表达量随着成熟时间的延长而增加。RT-PCR检测结果显示，从0小时到44小时，Npm基因的mRNA表达量逐渐增强。",
+    "error_detail": "错误地描述了Npm基因的表达量变化，实际上表达量增加而非减少。",
+    "original_question": "在猪卵母细胞体外成熟过程中，Npm基因的表达如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "免疫组化技术检测结果显示，在体外成熟0小时和11小时的猪卵母细胞中未检测到核质蛋白的表达，但在22小时、33小时和44小时的卵母细胞中检测到了核质蛋白的表达。",
+    "reference_case": "免疫组化技术检测结果显示，在体外成熟0小时和11小时的猪卵母细胞中可以检测到核质蛋白的表达，但在22小时、33小时和44小时的卵母细胞中未检测到核质蛋白的表达。",
+    "error_detail": "错误地描述了核质蛋白的表达时间点，实际上在早期检测到表达，后期未检测到。",
+    "original_question": "免疫组化技术在检测猪卵母细胞核质蛋白表达中的应用结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "Western blot技术检测结果显示，在体外成熟0小时和11小时的猪卵母细胞中检测到了核质蛋白的表达，但在22小时、33小时和44小时的卵母细胞中未检测到核质蛋白的表达。",
+    "reference_case": "Western blot技术检测结果显示，在体外成熟0小时和11小时的猪卵母细胞中未检测到核质蛋白的表达，但在22小时、33小时和44小时的卵母细胞中检测到了核质蛋白的表达。",
+    "error_detail": "错误地描述了核质蛋白的表达时间点，实际上在早期未检测到表达，后期检测到。",
+    "original_question": "Western blot技术在检测猪卵母细胞核质蛋白表达中的应用结果是什么？",
+    "original_input": ""
+  }
+]

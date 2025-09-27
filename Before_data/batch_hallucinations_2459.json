@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "标准曲线的回归方程为y=-4:657x+42:78，回归系数R=0:998。",
+    "reference_case": "标准曲线的回归方程为y=-3:657x+41:78，回归系数R=0:999。",
+    "error_detail": "数值偏差",
+    "original_question": "猪流行性腹泻病毒（PEDV）的荧光定量RT-PCR检测方法的标准曲线回归方程是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该方法的灵敏度为3:02×10^2 copies/μL，能够检测出极微量的病毒RNA。",
+    "reference_case": "该方法的灵敏度为2:02×10^2 copies/μL，能够检测出极微量的病毒RNA。",
+    "error_detail": "数值偏差",
+    "original_question": "猪流行性腹泻病毒（PEDV）的荧光定量RT-PCR检测方法的灵敏度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "分离株SC-P是从四川腹泻仔猪小肠内容物中分离得到的病毒，经过PCR检测、序列比对、病毒理化试验与微量中和试验证实为猪流行性腹泻病毒，因此命名为SC-P。",
+    "reference_case": "分离株SC-P是从四川腹泻仔猪小肠内容物中分离得到的病毒，经过RT-PCR检测、序列比对、病毒理化试验与微量中和试验证实为猪流行性腹泻病毒，因此命名为SC-P。",
+    "error_detail": "术语错误",
+    "original_question": "猪流行性腹泻病毒（PEDV）的分离株SC-P是如何命名的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "分离株SC-P的S基因序列与BJ-2011-1（北京2011:株、CH18-Hainan（海南2012:株的亲缘关系较近。",
+    "reference_case": "分离株SC-P的S基因序列与BJ-2011-1（北京2011:株、CH18-Hainan（海南2012:株的亲缘关系较近。",
+    "error_detail": "地域差异",
+    "original_question": "猪流行性腹泻病毒（PEDV）的分离株SC-P的S基因序列与哪些毒株的亲缘关系较近？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "分离株SC-P的TCID50为10^5:24/mL。",
+    "reference_case": "分离株SC-P的TCID50为10^6:24/mL。",
+    "error_detail": "数值偏差",
+    "original_question": "猪流行性腹泻病毒（PEDV）的分离株SC-P的TCID50是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "在动物回归试验中，4头仔猪在攻毒后第3天均开始出现轻微的腹泻症状，第5至6天表现为腹泻加重，精神沉郁，食量减少，发病率达100%。PCR检测结果显示，攻毒组仔猪PEDV感染为阴性，对照组为阳性。",
+    "reference_case": "在动物回归试验中，4头仔猪在攻毒后第3天均开始出现轻微的腹泻症状，第5至6天表现为腹泻加重，精神沉郁，食量减少，发病率达100%。PCR检测结果显示，攻毒组仔猪PEDV感染为阳性，对照组为阴性。",
+    "error_detail": "因果错误",
+    "original_question": "猪流行性腹泻病毒（PEDV）的分离株SC-P的动物回归试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "根据GenBank中已发布的PEDV S基因序列，设计了一对特异性荧光定量检测引物，目的片段大小为105 bp，引物序列为Pl：5'-CAATACTGCCAGATTTACAA-3'；P2：5'-TAATCCCTCAACGGACCAAA-3'。",
+    "reference_case": "根据GenBank中已发布的PEDV S基因序列，设计了一对特异性荧光定量检测引物，目的片段大小为103 bp，引物序列为Pl：5'-CAATACTGCCAGATTTACAA-3'；P2：5'-TAATCCCTCAACGGACCAAA-3'。",
+    "error_detail": "术语错误",
+    "original_question": "猪流行性腹泻病毒（PEDV）的荧光定量RT-PCR检测方法的引物是如何设计的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在PEDV的分离鉴定过程中，使用了HeLa细胞进行病毒的分离和培养。",
+    "reference_case": "在PEDV的分离鉴定过程中，使用了Vero细胞进行病毒的分离和培养。",
+    "error_detail": "术语错误",
+    "original_question": "猪流行性腹泻病毒（PEDV）的分离鉴定过程中使用了哪些细胞？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PEDV的N基因编码的N蛋白结合于病毒DNA，为病毒的核酸螺旋提供结构基础，并且是病毒基因组相连的磷酸化蛋白。此外，N蛋白肽段可能介导细胞免疫（CMI）。",
+    "reference_case": "PEDV的N基因编码的N蛋白结合于病毒RNA，为病毒的核酸螺旋提供结构基础，并且是病毒基因组相连的磷酸化蛋白。此外，N蛋白肽段可能介导细胞免疫（CMI）。",
+    "error_detail": "术语错误",
+    "original_question": "猪流行性腹泻病毒（PEDV）的N基因编码的蛋白在病毒中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在制备猪细环病毒2型ORF1多克隆抗体的过程中，使用了小鼠进行免疫。",
+    "reference_case": "在制备猪细环病毒2型ORF1多克隆抗体的过程中，使用了新西兰兔进行免疫。",
+    "error_detail": "术语错误",
+    "original_question": "在制备猪细环病毒2型ORF1多克隆抗体的过程中，使用了哪种动物进行免疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪细环病毒2型ORF1基因的PCR扩增产物大小约为800 bp。",
+    "reference_case": "猪细环病毒2型ORF1基因的PCR扩增产物大小约为750 bp。",
+    "error_detail": "数值偏差",
+    "original_question": "猪细环病毒2型ORF1基因的PCR扩增产物大小是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪细环病毒2型ORF1多克隆抗体的效价为1:1800。",
+    "reference_case": "猪细环病毒2型ORF1多克隆抗体的效价为1:1600。",
+    "error_detail": "数值偏差",
+    "original_question": "猪细环病毒2型ORF1多克隆抗体的效价是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细环病毒2型ORF1基因的克隆和表达研究的主要目的是制备特异性的单克隆抗体，以进一步研究ORF1蛋白的功能及其在猪细环病毒致病机理中的作用。",
+    "reference_case": "猪细环病毒2型ORF1基因的克隆和表达研究的主要目的是制备特异性的多克隆抗体，以进一步研究ORF1蛋白的功能及其在猪细环病毒致病机理中的作用。",
+    "error_detail": "术语错误",
+    "original_question": "猪细环病毒2型ORF1基因的克隆和表达研究的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪细环病毒2型ORF1基因的克隆过程中，使用了BamH I和Xho I两种限制性内切酶。",
+    "reference_case": "在猪细环病毒2型ORF1基因的克隆过程中，使用了EcoR I和Xho I两种限制性内切酶。",
+    "error_detail": "术语错误",
+    "original_question": "在猪细环病毒2型ORF1基因的克隆过程中，使用了哪些限制性内切酶？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细环病毒2型ORF1重组蛋白的纯化使用了GST标签融合蛋白纯化柱。",
+    "reference_case": "猪细环病毒2型ORF1重组蛋白的纯化使用了HisTrapFF组氨酸标签融合蛋白纯化柱。",
+    "error_detail": "术语错误",
+    "original_question": "猪细环病毒2型ORF1重组蛋白的纯化使用了哪种纯化柱？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细环病毒2型ORF1多克隆抗体的特异性是通过ELISA分析验证的，结果显示该抗体能够特异性地识别ORF1蛋白。",
+    "reference_case": "猪细环病毒2型ORF1多克隆抗体的特异性是通过Western-blot分析验证的，结果显示该抗体能够特异性地识别ORF1蛋白。",
+    "error_detail": "术语错误",
+    "original_question": "猪细环病毒2型ORF1多克隆抗体的特异性是如何验证的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细环病毒2型（TTSuV2:的ORF1基因在大肠杆菌中的表达载体是pET-28a（+）。",
+    "reference_case": "猪细环病毒2型（TTSuV2:的ORF1基因在大肠杆菌中的表达载体是pET-32a（+）。",
+    "error_detail": "术语错误",
+    "original_question": "猪细环病毒2型（TTSuV2:的ORF1基因在大肠杆菌中的表达载体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪细环病毒2型ORF1基因的原核表达过程中，诱导表达的条件是18°C下使用终浓度为0:5 mmol/L的IPTG诱导12小时。",
+    "reference_case": "在猪细环病毒2型ORF1基因的原核表达过程中，诱导表达的条件是16°C下使用终浓度为0:5 mmol/L的IPTG诱导12小时。",
+    "error_detail": "数值偏差",
+    "original_question": "在猪细环病毒2型ORF1基因的原核表达过程中，诱导表达的条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪附红细胞体 α-烯醇化酶基因的全长是1650 bp。",
+    "reference_case": "猪附红细胞体 α-烯醇化酶基因的全长是1623 bp。",
+    "error_detail": "数值偏差",
+    "original_question": "猪附红细胞体 α-烯醇化酶基因的全长是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪附红细胞体 α-烯醇化酶基因的克隆过程中，使用了 RT-PCR 技术。",
+    "reference_case": "在猪附红细胞体 α-烯醇化酶基因的克隆过程中，使用了 Overlap PCR 技术。",
+    "error_detail": "术语错误",
+    "original_question": "在猪附红细胞体 α-烯醇化酶基因的克隆过程中，使用了哪种 PCR 技术？",
+    "original_input": ""
+  }
+]

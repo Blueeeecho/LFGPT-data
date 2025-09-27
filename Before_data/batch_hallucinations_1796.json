@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪圆环病毒2型可引起断奶仔猪多系统衰竭综合征（PMWS)、猪皮炎与肾病综合征（PDNS）及繁殖障碍，还能导致猪流感。",
+    "reference_case": "猪圆环病毒2型可引起断奶仔猪多系统衰竭综合征（PMWS)、猪皮炎与肾病综合征（PDNS）及繁殖障碍。",
+    "error_detail": "错误地添加了猪圆环病毒2型能导致猪流感的描述，这是概念混淆。",
+    "original_question": "猪圆环病毒2型（PCV2）导致哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "感染的猪可经鼻液、唾液、眼分泌物、尿液和粪排毒，粪-口途径是其传播主要途径，空气传播也是重要途径。",
+    "reference_case": "感染的猪可经鼻液、唾液、眼分泌物、尿液和粪排毒，粪-口途径是其传播主要途径。",
+    "error_detail": "错误地添加了空气传播作为重要途径，这是数据型幻觉。",
+    "original_question": "猪圆环病毒2型的传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "用猪传代细胞进行病毒分离，有助于确认病毒感染，确诊需结合宿主病变，用免疫组化及原位杂交等技术检出PCV2抗原或病毒核酸，但这种方法不准确。",
+    "reference_case": "用猪传代细胞进行病毒分离，有助于确认病毒感染，确诊需结合宿主病变，用免疫组化及原位杂交等技术检出PCV2抗原或病毒核酸。",
+    "error_detail": "错误地添加了方法不准确的描述，偏离了原始指令。",
+    "original_question": "如何确认PMWS病毒的感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "甲型流感病毒亚型如H5和H7会周期性地造成鸡和火鸡严重的临床疾病，被称为真性鸡瘟或高致病性禽流感，这种疾病是OIE规定的通报疫病，但现在已经不再通报。",
+    "reference_case": "甲型流感病毒亚型如H5和H7会周期性地造成鸡和火鸡严重的临床疾病，被称为真性鸡瘟或高致病性禽流感，这种疾病是OIE规定的通报疫病。",
+    "error_detail": "错误地添加了现在已经不再通报的描述，这是时效性幻觉。",
+    "original_question": "甲型流感病毒如何引起禽类和猪的疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪水疱疹病毒引起急性、高度传染性的水疱性疾病，临床症状与口蹄疫相似，但比口蹄疫更严重。",
+    "reference_case": "猪水疱疹病毒引起急性、高度传染性的水疱性疾病，临床症状与口蹄疫相似。",
+    "error_detail": "错误地添加了比口蹄疫更严重的描述，这是概念混淆。",
+    "original_question": "猪水疱疹病毒的临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪传染性胃肠炎通常通过粪-口途径传播，但在某些地区主要通过空气传播。",
+    "reference_case": "猪传染性胃肠炎通常通过粪-口途径传播。",
+    "error_detail": "错误地添加了在某些地区主要通过空气传播的描述，这是空间错位幻觉。",
+    "original_question": "猪传染性胃肠炎（TGE）的主要传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪传染性胃肠炎病毒（TGEV）在蛋白水解酶和pH值为3.0等条件下比较稳定，但在pH值为2.0时更稳定。",
+    "reference_case": "猪传染性胃肠炎病毒（TGEV）在蛋白水解酶和pH值为3.0等条件下比较稳定。",
+    "error_detail": "错误地添加了在pH值为2.0时更稳定的描述，这是数据型幻觉。",
+    "original_question": "TGEV在什么条件下比较稳定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "7日龄以内的仔猪常见呕吐和水样腹泻，随后很快出现脱水和体重锐减；日龄稍大的猪有食欲不振、短暂腹泻等症状；成年母猪感染后迅速获得免疫，但有时不会。",
+    "reference_case": "7日龄以内的仔猪常见呕吐和水样腹泻，随后很快出现脱水和体重锐减；日龄稍大的猪有食欲不振、短暂腹泻等症状；成年母猪感染后迅速获得免疫。",
+    "error_detail": "错误地添加了但有时不会的描述，导致逻辑矛盾。",
+    "original_question": "TGEV感染后，幼猪出现哪些临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪传染性胃肠炎病毒主要在小肠线毛处成熟的肠上皮细胞内复制，导致小肠所有的小肠线毛萎缩，影响小肠消化和吸收营养物质，引起腹泻，但腹泻也可能导致小肠线毛萎缩。",
+    "reference_case": "猪传染性胃肠炎病毒主要在小肠线毛处成熟的肠上皮细胞内复制，导致小肠所有的小肠线毛萎缩，影响小肠消化和吸收营养物质，引起腹泻。",
+    "error_detail": "错误地添加了腹泻也可能导致小肠线毛萎缩的描述，这是因果倒置。",
+    "original_question": "TGE的主要致病机理是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "补液治疗可能有一些效果；保持产房的最佳温度，提高仔猪生存率；在急性TGE疫情中，故意让妊娠母猪暴露于病毒污染的环境中，降低新生仔猪的死亡率；用改良后的弱毒活疫苗和灭活疫苗预防TGE，但这些措施在某些情况下无效。",
+    "reference_case": "补液治疗可能有一些效果；保持产房的最佳温度，提高仔猪生存率；在急性TGE疫情中，故意让妊娠母猪暴露于病毒污染的环境中，降低新生仔猪的死亡率；用改良后的弱毒活疫苗和灭活疫苗预防TGE。",
+    "error_detail": "错误地添加了这些措施在某些情况下无效的描述，这是假设滥用。",
+    "original_question": "TGE的治疗措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PRCV是TGEV的缺失变异株，在许多欧洲国家的猪群中流行；两者都是冠状病毒的一个血清型，抗原性与猫冠状病毒、犬冠状病毒非常类似；PRCV在猪群中通过气溶胶传播，母猪感染PRCV后通过初乳给仔猪强有力的保护，但PRCV不会引起任何疾病。",
+    "reference_case": "PRCV是TGEV的缺失变异株，在许多欧洲国家的猪群中流行；两者都是冠状病毒的一个血清型，抗原性与猫冠状病毒、犬冠状病毒非常类似；PRCV在猪群中通过气溶胶传播，母猪感染PRCV后通过初乳给仔猪强有力的保护。",
+    "error_detail": "错误地添加了PRCV不会引起任何疾病的描述，这是概念混淆。",
+    "original_question": "PRCV与TGEV有何异同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "主要表现为水样腹泻和呕吐，1周内仔猪的死亡率可能接近50%；部分受感染的猪约1周后痊愈，死亡率通常较低，但在某些情况下死亡率可达100%。",
+    "reference_case": "主要表现为水样腹泻和呕吐，1周内仔猪的死亡率可能接近50%；部分受感染的猪约1周后痊愈，死亡率通常较低。",
+    "error_detail": "错误地添加了在某些情况下死亡率可达100%的描述，这是数据型幻觉。",
+    "original_question": "猪流行性腹泻（PED）的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "病毒主要在小肠和结肠的上皮细胞中复制，使肠线毛缩短，但破坏程度不如猪传染性胃肠炎病毒明显，且不会引起任何临床症状。",
+    "reference_case": "病毒主要在小肠和结肠的上皮细胞中复制，使肠线毛缩短，但破坏程度不如猪传染性胃肠炎病毒明显。",
+    "error_detail": "错误地添加了且不会引起任何临床症状的描述，这是概念混淆。",
+    "original_question": "猪流行性腹泻（PED）的致病机理是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "没有特效疗法；可以通过卫生控制措施预防疾病；种猪场发生TGE疫情时，良好的卫生措施有助于减缓感染的传播，但这些都是无效的。",
+    "reference_case": "没有特效疗法；可以通过卫生控制措施预防疾病；种猪场发生TGE疫情时，良好的卫生措施有助于减缓感染的传播。",
+    "error_detail": "错误地添加了但这些都是无效的描述，偏离了原始指令。",
+    "original_question": "猪流行性腹泻（PED）的治疗和控制措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "采用改良过的细胞培养的活疫苗或含有佐剂的灭活全病毒疫苗；对6～12个月的马驹进行疫苗接种，但对猪无效。",
+    "reference_case": "采用改良过的细胞培养的活疫苗或含有佐剂的灭活全病毒疫苗；对6～12个月的马驹进行疫苗接种。",
+    "error_detail": "错误地添加了对猪无效的描述，这是概念混淆。",
+    "original_question": "预防猪繁殖与呼吸综合征（PRRS）的策略有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "最初称为Lelystad病毒，但现在已不再使用这个名称。",
+    "reference_case": "最初称为Lelystad病毒。",
+    "error_detail": "错误地添加了但现在已不再使用这个名称的描述，这是时效性幻觉。",
+    "original_question": "猪繁殖与呼吸综合征（PRRS）的病原体最初被称为什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "感染主要发生在呼吸道，病毒结合到肺泡巨噬细胞上，肺是靶器官。病毒运输到区域淋巴结后，开始传播到身体各个组织中的巨噬细胞里。病毒可经胎盘感染胎儿，但在某些地区主要通过消化道传播。",
+    "reference_case": "感染主要发生在呼吸道，病毒结合到肺泡巨噬细胞上，肺是靶器官。病毒运输到区域淋巴结后，开始传播到身体各个组织中的巨噬细胞里。病毒可经胎盘感染胎儿。",
+    "error_detail": "错误地添加了但在某些地区主要通过消化道传播的描述，这是空间错位幻觉。",
+    "original_question": "PRRSV感染后，病毒如何在猪体内传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "繁殖障碍，包括流产、早产、较多的死胎和木乃伊胎、孱弱的新生仔猪。受感染的母猪会推迟再次受孕的时间。病猪可出现耳朵发紫和外阴皮肤出现红斑。新生仔猪断奶前的呼吸窘迫和高死亡率，但这些症状不会同时出现。",
+    "reference_case": "繁殖障碍，包括流产、早产、较多的死胎和木乃伊胎、孱弱的新生仔猪。受感染的母猪会推迟再次受孕的时间。病猪可出现耳朵发紫和外阴皮肤出现红斑。新生仔猪断奶前的呼吸窘迫和高死亡率。",
+    "error_detail": "错误地添加了但这些症状不会同时出现的描述，导致逻辑矛盾。",
+    "original_question": "PRRSV感染导致的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "血清学检测方法，如ELISA和免疫过氧化物酶单层细胞培养试验；病毒分离、直接荧光染色、原位杂交或RT-PCR方法，但这些方法都不准确。",
+    "reference_case": "血清学检测方法，如ELISA和免疫过氧化物酶单层细胞培养试验；病毒分离、直接荧光染色、原位杂交或RT-PCR方法。",
+    "error_detail": "错误地添加了但这些方法都不准确的描述，这是概念混淆。",
+    "original_question": "实验室确诊猪繁殖与呼吸综合征（PRRS）的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "使用疫苗和进行有效的卫生管理措施，但疫苗的使用比卫生管理措施更重要。",
+    "reference_case": "使用疫苗和进行有效的卫生管理措施。",
+    "error_detail": "错误地添加了但疫苗的使用比卫生管理措施更重要的描述，这是优先级错乱。",
+    "original_question": "控制猪繁殖与呼吸综合征（PRRS）疾病的重要措施是什么？",
+    "original_input": ""
+  }
+]

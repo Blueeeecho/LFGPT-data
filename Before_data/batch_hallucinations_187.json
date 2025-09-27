@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在堆肥过程中，水分含量在整个过程中呈逐渐上升趋势，最终稳定在60%左右。",
+    "reference_case": "在堆肥过程中，水分含量在整个过程中呈逐渐下降趋势，最终稳定在48%左右。",
+    "error_detail": "错误地描述了水分含量的变化趋势和最终稳定值。",
+    "original_question": "猪粪好氧堆肥过程中，水分含量是如何变化的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在堆肥过程中，有机质和C/N比都随着堆制天数的增加而逐渐上升。",
+    "reference_case": "在堆肥过程中，有机质和C/N比都随着堆制天数的增加而逐渐下降。",
+    "error_detail": "错误地描述了有机质和C/N比的变化趋势。",
+    "original_question": "猪粪好氧堆肥过程中，有机质和C/N比是如何变化的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "辽宁××牧业公司主要产品以牛饲料为主，包括其他动物饲料等20多个品种。",
+    "reference_case": "辽宁××牧业公司主要产品以猪饲料为主，包括其他动物饲料等20多个品种。",
+    "error_detail": "错误地描述了公司的主要产品类型。",
+    "original_question": "辽宁××牧业公司的主要产品是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "羊粪和稻草的添加延缓了猪粪的腐熟，其中腐熟效果最差的处理配比是70%猪粪配合30%的稻草；添加羊粪的堆腐效果劣于兔粪，30%的添加量效果劣于15%。",
+    "reference_case": "羊粪和稻草的添加促进了猪粪的腐熟，其中腐熟效果最好的处理配比是70%猪粪配合30%的稻草；添加羊粪的堆腐效果优于兔粪，30%的添加量效果优于15%。",
+    "error_detail": "错误地描述了羊粪和稻草对猪粪腐熟进程的影响。",
+    "original_question": "羊粪与稻草对猪粪堆肥腐熟进程有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "翻堆可减慢堆体物料减量化、降低温度和减缓有机质降解，但减少NH3挥发，保留氮素；覆盖可缩短高温期、显著增加氨气挥发和氮素损失，但加快堆肥腐熟进程。综合考虑，冬季室外自然通风堆肥覆盖，翻堆频率为1周1次效果最好。",
+    "reference_case": "翻堆可加快堆体物料减量化、升高温度和加速有机质降解，但加剧NH3挥发，损失氮素；覆盖可延长高温期、显著减少氨气挥发和氮素损失，但减慢堆肥腐熟进程。综合考虑，冬季室外自然通风堆肥不覆盖，翻堆频率为2周1次效果最好。",
+    "error_detail": "错误地描述了翻堆和覆盖对堆肥的影响及最佳操作建议。",
+    "original_question": "冬季室外半敞开式猪粪、秸秆堆肥中，翻堆和覆盖对堆肥有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在碘量法测定中，0.04%和0.06%浓度的三裂轮簇霉菌发酵液提取物对猪油脂质过氧化表现出较弱的抑制能力，至反应终了的第10天，过氧化值分别为10.01 meq/kg和9.54 meq/kg，略低于阳性对照芦丁的12.57 meq/kg，表现出较低的稳定性和短暂的抗氧化活性。",
+    "reference_case": "在碘量法测定中，0.04%和0.06%浓度的三裂轮簇霉菌发酵液提取物对猪油脂质过氧化表现出显著的抑制能力，至反应终了的第10天，过氧化值分别为2.01 meq/kg和1.54 meq/kg，远低于阳性对照芦丁的12.57 meq/kg，表现出较高的稳定性和持久的抗氧化活性。",
+    "error_detail": "错误地描述了提取物的抑制能力和稳定性。",
+    "original_question": "文中提到的三裂轮簇霉菌发酵液提取物对猪油脂质过氧化的抑制能力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "最佳配比是20%膨化鸡毛、20%菜粕和60%猪粪堆肥。",
+    "reference_case": "最佳配比是10%膨化鸡毛、10%菜粕和80%猪粪堆肥。",
+    "error_detail": "错误地描述了最佳配比的比例。",
+    "original_question": "膨化鸡毛在生物有机肥中的最佳配比是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪粪在农业生产中的主要污染问题包括：排放量小、气味芳香、不含有病原微生物和寄生虫卵、不含有重金属元素以及可能减缓温室效应。",
+    "reference_case": "猪粪在农业生产中的主要污染问题包括：排放量大、气味恶臭、含有病原微生物和寄生虫卵、含有大量重金属元素以及可能加剧温室效应。",
+    "error_detail": "错误地描述了猪粪的污染问题，与事实相反。",
+    "original_question": "猪粪在农业生产中的主要污染问题有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "处理14号的菌株NJN-6数量最少，其配方为5%膨化鸡毛、5%菜粕和90%猪粪堆肥。",
+    "reference_case": "处理14号的菌株NJN-6数量最多，其配方为10%膨化鸡毛、10%菜粕和80%猪粪堆肥。",
+    "error_detail": "错误地描述了菌株数量和配方比例。",
+    "original_question": "哪种处理的菌株NJN-6数量最多，其配方是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "初始pH值为8.0更适合作为猪苓菌的培养pH。",
+    "reference_case": "初始pH值为6.0更适合作为猪苓菌的培养pH。",
+    "error_detail": "错误地描述了适宜的pH值。",
+    "original_question": "哪种pH值条件更适合作为猪苓菌的培养pH？",
+    "original_input": ""
+  }
+]

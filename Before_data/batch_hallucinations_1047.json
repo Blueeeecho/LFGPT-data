@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重组蛋白能够与猪戊型肝炎病毒阳性血清发生特异性结合反应，表明该蛋白具有良好的抗原性，结合率为95%。",
+    "reference_case": "重组蛋白能够与猪戊型肝炎病毒阳性血清发生特异性结合反应，表明该蛋白具有良好的抗原性。",
+    "error_detail": "添加了未提及的结合率数据",
+    "original_question": "猪源戊型肝炎病毒ORF3基因的重组蛋白在Western-blot分析中表现出什么特性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "重组质粒pET32a-ORF3经EcoR I和Xhol I双酶切鉴定，结果证明重组质粒构建成功，且表达量高。",
+    "reference_case": "重组质粒pET32a-ORF3经EcoR I和Xhol I双酶切鉴定，结果证明重组质粒构建成功。",
+    "error_detail": "添加了未提及的表达量信息",
+    "original_question": "猪源戊型肝炎病毒ORF3基因的原核表达研究中，重组质粒pET32a-ORF3的双酶切鉴定结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重组蛋白的分子量约为40 ku。",
+    "reference_case": "重组蛋白的分子量约为35 ku。",
+    "error_detail": "错误的分子量数据",
+    "original_question": "猪源戊型肝炎病毒ORF3基因的原核表达研究中，重组蛋白的分子量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "重组蛋白具有良好的抗原性，并且主要以可溶性形式存在，适合大规模生产。",
+    "reference_case": "重组蛋白具有良好的抗原性，并且主要以可溶性形式存在。",
+    "error_detail": "添加了未提及的大规模生产适用性",
+    "original_question": "猪源戊型肝炎病毒ORF3基因的原核表达研究中，重组蛋白的抗原性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "Western-blot分析结果显示，重组蛋白能够与猪戊型肝炎病毒阳性血清发生特异性结合反应，表明该蛋白具有良好的抗原性，这一结果与2010年的研究一致。",
+    "reference_case": "Western-blot分析结果显示，重组蛋白能够与猪戊型肝炎病毒阳性血清发生特异性结合反应，表明该蛋白具有良好的抗原性。",
+    "error_detail": "添加了未提及的时效性信息",
+    "original_question": "猪源戊型肝炎病毒ORF3基因的原核表达研究中，重组蛋白的Western-blot分析结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "信阳地区猪圆环病毒病的发病率较高，特别是在保育舍猪群中。2011年的调查显示，未免疫猪圆环病毒疫苗的猪场感染阳性率为50%，且二、三季度发病率较高，保育猪发病率为80%。",
+    "reference_case": "信阳地区猪圆环病毒病的发病率较高，特别是在保育舍猪群中。2011年的调查显示，未免疫猪圆环病毒疫苗的猪场感染阳性率为36:81%，且二、三季度发病率较高，保育猪发病率为71:6%。",
+    "error_detail": "错误的感染阳性率和发病率数据",
+    "original_question": "信阳地区猪圆环病毒病的流行情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒2型（PCV-2:感染会引起断奶仔猪多系统衰竭综合征（PMWS）、猪皮炎肾病综合征（PDNS）、猪呼吸系统综合征、繁殖障碍等，以及心脏疾病。",
+    "reference_case": "猪圆环病毒2型（PCV-2:感染会引起断奶仔猪多系统衰竭综合征（PMWS）、猪皮炎肾病综合征（PDNS）、猪呼吸系统综合征、繁殖障碍等。",
+    "error_detail": "添加了未提及的心脏疾病",
+    "original_question": "猪圆环病毒2型（PCV-2:感染会引起哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "信阳地区免疫过猪圆环病毒疫苗的猪场中，平均阳性率为60%，说明免疫保护水平未达到50%。其中，浉河区、潢川县、商城县猪PCV-2疫苗免疫合格率较好，分别为70%、60%和80%。",
+    "reference_case": "信阳地区免疫过猪圆环病毒疫苗的猪场中，平均阳性率为47:25%，说明免疫保护水平未达到50%。其中，浉河区、潢川县、商城县猪PCV-2疫苗免疫合格率较好，分别为57:00%、52:35%和68:00%。",
+    "error_detail": "错误的阳性率和免疫合格率数据",
+    "original_question": "信阳地区猪圆环病毒病的抗体检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "信阳地区猪圆环病毒病的病原检测使用了PCR技术和ELISA技术，检测了猪圆环病毒的感染情况，并对使用猪圆环病毒疫苗免疫的78个猪场进行了抗体水平检测。",
+    "reference_case": "信阳地区猪圆环病毒病的病原检测使用了PCR技术，检测了猪圆环病毒的感染情况，并对使用猪圆环病毒疫苗免疫的78个猪场进行了抗体水平检测。",
+    "error_detail": "添加了未提及的ELISA技术",
+    "original_question": "信阳地区猪圆环病毒病的病原检测使用了哪些技术？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "信阳地区猪圆环病毒病与链球菌、副猪嗜血杆菌混合感染较多，其次是巴氏杆菌与肺炎双球菌。具体数据显示，链球菌混合感染20例，副猪嗜血杆菌10例，巴氏杆菌5例，肺炎双球菌3例。",
+    "reference_case": "信阳地区猪圆环病毒病与链球菌、副猪嗜血杆菌混合感染较多，其次是巴氏杆菌与肺炎双球菌。具体数据显示，链球菌混合感染12例，副猪嗜血杆菌5例，巴氏杆菌2例，肺炎双球菌1例。",
+    "error_detail": "错误的混合感染数据",
+    "original_question": "信阳地区猪圆环病毒病的混合感染情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "样本采集和处理方法包括从病死或扑杀的猪中取肺脏、淋巴结等组织共170份和血清50份，对健康猪只进行前腔静脉或耳静脉采血，常规分离血清780份，保存于2~8℃备用。组织样品处理包括称取样品、剪碎、研磨、离心等步骤，且所有操作均在无菌条件下进行。",
+    "reference_case": "样本采集和处理方法包括从病死或扑杀的猪中取肺脏、淋巴结等组织共170份和血清50份，对健康猪只进行前腔静脉或耳静脉采血，常规分离血清780份，保存于2~8℃备用。组织样品处理包括称取样品、剪碎、研磨、离心等步骤。",
+    "error_detail": "添加了未提及的无菌条件",
+    "original_question": "信阳地区猪圆环病毒病的样本采集和处理方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "PCR检测步骤包括组织样品的处理、阳性对照的处理、病毒DNA的提取、PCR扩增体系和电泳。具体步骤包括称取样品、剪碎、研磨、离心、加入消化液和蛋白酶K、水浴消化、酚/氯仿/异戊醇混合液提取DNA、PCR扩增和电泳观察结果，以及结果分析。",
+    "reference_case": "PCR检测步骤包括组织样品的处理、阳性对照的处理、病毒DNA的提取、PCR扩增体系和电泳。具体步骤包括称取样品、剪碎、研磨、离心、加入消化液和蛋白酶K、水浴消化、酚/氯仿/异戊醇混合液提取DNA、PCR扩增和电泳观察结果。",
+    "error_detail": "添加了未提及的结果分析步骤",
+    "original_question": "信阳地区猪圆环病毒病的PCR检测步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "信阳地区猪圆环病毒病的抗体检测使用了ELISA抗体检测试剂盒，按照北京科兴生物制品有限责任公司的说明进行操作。",
+    "reference_case": "信阳地区猪圆环病毒病的抗体检测使用了ELISA抗体检测试剂盒，按照武汉科前生物制品有限责任公司的说明进行操作。",
+    "error_detail": "错误的公司名称",
+    "original_question": "信阳地区猪圆环病毒病的抗体检测使用了什么方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "信阳地区猪圆环病毒病的发病率在不同季度有显著差异，二季度和三季度的发病率较高。具体数据显示，一季度感染率为5%，二季度为50份，三季度为30份，四季度为20份。",
+    "reference_case": "信阳地区猪圆环病毒病的发病率在不同季度有显著差异，二季度和三季度的发病率较高。具体数据显示，一季度感染率为0，二季度为40份，三季度为27份，四季度为14份。",
+    "error_detail": "错误的感染率和发病率数据",
+    "original_question": "信阳地区猪圆环病毒病的发病率在不同季度有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "信阳地区猪圆环病毒病的防控建议包括加强饲养管理，给母猪接种灭活疫苗以提高母猪的抗体水平，使仔猪获得一定保护，同时在保育阶段添加一些敏感抗生素，降低细菌继发感染所造成的死亡率，并建议定期进行环境消毒。",
+    "reference_case": "信阳地区猪圆环病毒病的防控建议包括加强饲养管理，给母猪接种灭活疫苗以提高母猪的抗体水平，使仔猪获得一定保护，同时在保育阶段添加一些敏感抗生素，降低细菌继发感染所造成的死亡率。",
+    "error_detail": "添加了未提及的环境消毒建议",
+    "original_question": "信阳地区猪圆环病毒病的防控建议是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "美丽筒线虫可以寄生在许多反刍动物和猪、猴、熊等动物的口腔与食道黏膜和黏膜下层，以及肠道。",
+    "reference_case": "美丽筒线虫可以寄生在许多反刍动物和猪、猴、熊等动物的口腔与食道黏膜和黏膜下层。",
+    "error_detail": "添加了未提及的肠道寄生",
+    "original_question": "美丽筒线虫在哪些动物中可以寄生？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪大肠杆菌病的临床主要症状是腹泻，可表现为仔猪白痢、仔猪黄痢和仔猪水肿病3种形式，以及呕吐。",
+    "reference_case": "猪大肠杆菌病的临床主要症状是腹泻，可表现为仔猪白痢、仔猪黄痢和仔猪水肿病3种形式。",
+    "error_detail": "添加了未提及的呕吐症状",
+    "original_question": "猪大肠杆菌病（ETEC）的临床主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "优势血清型包括O60、O144、O141、O157、O149，占鉴定出血清型的80%。",
+    "reference_case": "优势血清型包括O60、O144、O141、O157、O149，占鉴定出血清型的65:4%。",
+    "error_detail": "错误的血清型占比数据",
+    "original_question": "在河南周口市淮阳、商水、西华3县的9个规模化猪场中，致病性大肠杆菌的优势血清型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在周口地区规模化猪场中，磷霉素、磺胺二甲基嘧啶、阿莫西林、洛美沙星、沙拉沙星、恩诺沙星、氧氟沙星等药物的治疗效果较差，且存在耐药性。",
+    "reference_case": "在周口地区规模化猪场中，磷霉素、磺胺二甲基嘧啶、阿莫西林、洛美沙星、沙拉沙星、恩诺沙星、氧氟沙星等药物的治疗效果较差。",
+    "error_detail": "添加了未提及的耐药性信息",
+    "original_question": "在周口地区规模化猪场中，哪些药物对致病性大肠杆菌的治疗效果较差？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在周口地区规模化猪场中，丁胺卡那霉素是首选药物，此外头孢拉定、头孢噻肜、头孢噻呋、氟苯尼考和庆大霉素也可起到较好的治疗效果，且副作用较小。",
+    "reference_case": "在周口地区规模化猪场中，丁胺卡那霉素是首选药物，此外头孢拉定、头孢噻肜、头孢噻呋、氟苯尼考和庆大霉素也可起到较好的治疗效果。",
+    "error_detail": "添加了未提及的副作用信息",
+    "original_question": "在周口地区规模化猪场中，哪些药物对致病性大肠杆菌的治疗效果较好？",
+    "original_input": ""
+  }
+]

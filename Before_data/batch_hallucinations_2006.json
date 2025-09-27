@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "取番薯藤、水浮蓬以及某些有毒青草、树叶等青饲料，进行发酵后长期密封贮存，以解决养猪的饲料供应问题。",
+    "reference_case": "取番薯藤、水浮蓬以及某些无毒青草、树叶等青饲料，进行发酵后长期密封贮存，以解决养猪的饲料供应问题。",
+    "error_detail": "将无毒青草错误地描述为有毒青草",
+    "original_question": "长效发酵饲料的制作方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "按青饲料、棣、曲种的比例，将曲种粉碎后与青饲料和棣拌匀，装缸发酵或堆放发酵，当温度达到60℃左右，表面长出白霉菌时即可喂猪。",
+    "reference_case": "按青饲料、棣、曲种的比例，将曲种粉碎后与青饲料和棣拌匀，装缸发酵或堆放发酵，当温度达到45℃左右，表面长出白霉菌时即可喂猪。",
+    "error_detail": "发酵温度错误地从45℃增加到60℃",
+    "original_question": "青饲料的发酵法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "各组间应选用同一品种的猪，年龄和体重相近，初生日龄相差不超过一个月，体重约三四十公斤，个体差异不应超过±10%，各组平均体重应相近。每组试验猪头数不应少于10头，各组头数应相同。",
+    "reference_case": "各组间应选用同一品种的猪，年龄和体重相近，初生日龄相差不超过半个月，体重约三四十公斤，个体差异不应超过±5%，各组平均体重应相近。每组试验猪头数不应少于6头，各组头数应相同。",
+    "error_detail": "初生日龄差异、个体差异和每组试验猪头数的数据错误",
+    "original_question": "选猪分组时应注意哪些事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "日粮组成、营养水平、蛋白质含量和粗纤维含量应标明日粮的组成，但不需要在不同时间段标注其变化。",
+    "reference_case": "日粮组成、营养水平、蛋白质含量和粗纤维含量应标明日粮的组成，并在不同时间段标注其变化。",
+    "error_detail": "忽略了在不同时间段标注日粮组成变化的要求",
+    "original_question": "试验猪的日粮应如何记录？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "预试期不少于30天，主要目的是给猪只编号、去势、驱虫、防瘟注射，并调整喂量及剔除不符合标准的猪只。",
+    "reference_case": "预试期不少于15天，主要目的是给猪只编号、去势、驱虫、防瘟注射，并调整喂量及剔除不符合标准的猪只。",
+    "error_detail": "预试期的时间错误地从15天增加到30天",
+    "original_question": "预试期的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "在试验结束时，必须选择几头代表该组平均体重的猪进行屠宰，除去头和蹄，求得屠宰率，并观察内脏是否正常。",
+    "reference_case": "在试验结束时，如有条件，应选择几头代表该组平均体重的猪进行屠宰，除去头和蹄，求得屠宰率，并观察内脏是否正常。",
+    "error_detail": "添加了必须进行屠宰的假设，忽略了有条件时的限制",
+    "original_question": "屠宰测定的目的和方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "补喂钴盐对猪的生长具有不良作用。",
+    "reference_case": "补喂钴盐对猪的生长具有良好作用。",
+    "error_detail": "错误地描述了补喂钴盐对猪生长的影响",
+    "original_question": "猪补喂钴盐有何好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪体能促进钴的吸收，而鸡对钴的吸收有限制，容易发生钴缺乏症。",
+    "reference_case": "猪体能限制钴的吸收，而鸡对钴的吸收没有限制，容易发生钴缺乏症。",
+    "error_detail": "错误地描述了猪和鸡对钴的吸收能力",
+    "original_question": "猪和鸡对钴的吸收有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪钴缺乏时，易发生生长加速，上皮组织湿润，不易感染疾病，母畜性周期正常，公畜精液品质提高，共济运动协调，无痉挛。",
+    "reference_case": "猪钴缺乏时，易发生生长停滞，上皮组织干燥，过度角化，易感染疾病，母畜性周期异常，公畜精液品质下降，共济运动失调，痉挛。",
+    "error_detail": "完全相反地描述了猪钴缺乏的症状",
+    "original_question": "猪钴缺乏的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪过量摄入钴会出现食欲增加，被毛完整，肝脂肪减少，肝缩小等症状。",
+    "reference_case": "猪过量摄入钴会出现厌食，被毛不全，肝脂肪浸润，肝肿胀等症状。",
+    "error_detail": "完全相反地描述了猪过量摄入钴的症状",
+    "original_question": "猪过量摄入钴的中毒症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪对锌的需求量是每公斤干料含1.0毫克。",
+    "reference_case": "猪对锌的需求量是每公斤干料含0.1毫克。",
+    "error_detail": "猪对锌的需求量错误地从0.1毫克增加到1.0毫克",
+    "original_question": "猪对锌的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "锌缺乏时，多见于泥地上饲养的生长肥育猪，病猪开始背部皮肤发红，随后发疹、结痂，称为锌缺乏不全角化症。",
+    "reference_case": "锌缺乏时，多见于水泥地上饲养的生长肥育猪，病猪开始腹部皮肤发红，随后发疹、结痂，称为锌缺乏不全角化症。",
+    "error_detail": "错误地描述了锌缺乏时的饲养环境和症状部位",
+    "original_question": "锌缺乏时的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪缺硒会与维生素 A 缺乏症相似，症状包括食欲增加，被毛完整，肝脂肪减少，肝缩小，严重时可导致死亡。",
+    "reference_case": "猪缺硒会与维生素 E 缺乏症相似，症状包括厌食，被毛不全，肝脂肪浸润，肝肿胀，严重时可导致死亡。",
+    "error_detail": "错误地将维生素 E 缺乏症描述为维生素 A 缺乏症，并完全相反地描述了症状",
+    "original_question": "猪缺硒的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "维生素 D 能抑制钙、磷的代谢，长期不足会导致矿物质代谢增强，使生长家畜形成佝偻病，成年家畜引起骨软症，仔猪因血钙升高而发生抽搐，产蛋母鸡产硬壳蛋，提高产蛋率。",
+    "reference_case": "维生素 D 能促进钙、磷的代谢，长期不足会导致矿物质代谢障碍，使生长家畜形成佝偻病，成年家畜引起骨软症，仔猪因血钙降低而发生抽搐，产蛋母鸡产软壳蛋，降低产蛋率。",
+    "error_detail": "错误地描述了维生素 D 的作用和缺乏时的症状",
+    "original_question": "维生素 D 的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "配制猪、鸡配合饲料时需要参考的项目包括：能量、蛋白质、氨基酸（如赖氨酸、蛋氨酸）、维生素（如维生素A、维生素D）、矿物质（如钙、磷）等，但不需要考虑能量。",
+    "reference_case": "配制猪、鸡配合饲料时需要参考的项目包括：能量、蛋白质、氨基酸（如赖氨酸、蛋氨酸）、维生素（如维生素A、维生素D）、矿物质（如钙、磷）等。",
+    "error_detail": "错误地排除了能量作为参考项目",
+    "original_question": "配制猪、鸡配合饲料时需要参考哪些营养成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "包括消化能、粗蛋白、赖氨酸、色氨酸、钙、磷、铁、锌、铜、镁、钠、氯、钾等营养成分，但不包括消化能。",
+    "reference_case": "包括消化能、粗蛋白、赖氨酸、色氨酸、钙、磷、铁、锌、铜、镁、钠、氯、钾等营养成分。",
+    "error_detail": "错误地排除了消化能作为营养成分",
+    "original_question": "仔猪配合饲料的营养成分包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "需考虑配制饲料的家畜种类（如仔猪、母猪、生长肥育猪、公猪）、所处的生理阶段（如母猪怀孕或哺乳期），品种和生产目的（如肉脂兼用型或肉用型），但不需要考虑生理阶段。",
+    "reference_case": "需考虑配制饲料的家畜种类（如仔猪、母猪、生长肥育猪、公猪）、所处的生理阶段（如母猪怀孕或哺乳期），品种和生产目的（如肉脂兼用型或肉用型）。",
+    "error_detail": "错误地排除了生理阶段作为考虑因素",
+    "original_question": "家畜自身需要考虑的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在配制时要注意不同饲料间的相互促进，如含草酸过多的青饲料会减少猪的腹泻风险，过多的粗料会提高精料的消化率。",
+    "reference_case": "在配制时要注意不同饲料间的相互制约，如含草酸过多的青饲料会增加猪的腹泻风险，过多的粗料会降低精料的消化率。",
+    "error_detail": "错误地描述了饲料间的相互作用",
+    "original_question": "配合饲料时如何处理饲料间的相互制约关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "应注意饲料中脂肪酸的组成，以提高猪肉品质且易于保存的情况，如以糠、麸、玉米为主的饲料可能减少猪肉的不饱和脂肪酸含量。",
+    "reference_case": "应注意饲料中脂肪酸的组成，以避免猪肉品质差且不易保存的情况，如以糠、麸、玉米为主的饲料可能增加猪肉的不饱和脂肪酸含量。",
+    "error_detail": "错误地描述了饲料对猪肉品质的影响",
+    "original_question": "如何考虑饲料对猪产品品质的影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪厩肥提供的氮量为20.8 kg，磷量为11.6 kg，钾量为73.8 kg。",
+    "reference_case": "猪厩肥提供的氮量为10.4 kg，磷量为5.8 kg，钾量为36.9 kg。",
+    "error_detail": "猪厩肥提供的氮、磷、钾养分量错误地翻倍",
+    "original_question": "使用猪厩肥提供的氮、磷、钾养分量分别是多少？",
+    "original_input": ""
+  }
+]

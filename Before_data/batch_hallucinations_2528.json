@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "病毒核酸类型的测定通过5-溴脱氧尿核苷（BUDR）试验进行。结果显示，BUDR能明显抑制SC-R分离株的增殖，表明SC-R株为DNA病毒。",
+    "reference_case": "病毒核酸类型的测定通过5-溴脱氧尿核苷（BUDR）试验进行。结果显示，BUDR不能明显抑制SC-R分离株的增殖，表明SC-R株为RNA病毒。",
+    "error_detail": "错误地将RNA病毒描述为DNA病毒",
+    "original_question": "在猪轮状病毒四川株的分离鉴定及增殖规律研究中，病毒核酸类型的测定方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "主要研究目的是探讨rpcDNA3:1/PCV2-linker-PoIL-2嵌合重组表达质粒在猪体内的免疫效果，以研制高效的PCV2核酸疫苗。",
+    "reference_case": "主要研究目的是探讨rpcDNA3:1/PCV2-linker-PoIL-2嵌合重组表达质粒在猪体内的免疫效果和免疫保护效果，以研制高效的PCV2核酸疫苗。",
+    "error_detail": "遗漏了免疫保护效果的研究目的",
+    "original_question": "猪圆环病毒2型（PCV2:ORF2/猪白介素-2（PoIL-2:嵌合表达质粒的主要研究目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用荧光素标记的小鼠抗猪不同CD分子的单抗染色外周血淋巴细胞，应用流式细胞仪单色分析法，采取FSvSS设门方法，分析并确定CD3+ CD4+辅助性T细胞（Th）和CD3+ CD8+细胞毒性T细胞（Tc）群的百分含量。",
+    "reference_case": "使用荧光素标记的小鼠抗猪不同CD分子的单抗染色外周血淋巴细胞，应用流式细胞仪双色分析法，采取FSvSS设门方法，分析并确定CD3+ CD4+辅助性T细胞（Th）和CD3+ CD8+细胞毒性T细胞（Tc）群的百分含量。",
+    "error_detail": "错误地将双色分析法描述为单色分析法",
+    "original_question": "研究中如何分析猪外周血淋巴细胞亚群？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "布鲁菌 repA-related 蛋白 ELISA 检测方法对猪种、犬种和沙林鼠种布鲁菌阳性血清有特异性反应，对牛种、羊种和绵羊种布鲁菌阳性血清也有反应，且与 SAT 试验的检测结果一致，表明其具有良好的特异性和敏感性。",
+    "reference_case": "布鲁菌 repA-related 蛋白 ELISA 检测方法对猪种、犬种和沙林鼠种布鲁菌阳性血清有特异性反应，对牛种、羊种和绵羊种布鲁菌阳性血清无反应，且与 SAT 试验的检测结果一致，表明其具有良好的特异性和敏感性。",
+    "error_detail": "错误地描述了检测方法的特异性",
+    "original_question": "布鲁菌 repA-related 蛋白 ELISA 检测方法的特异性和敏感性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "repA-related 基因存在于猪种、犬种、沙林鼠种、牛种、羊种和绵羊种布鲁菌中。",
+    "reference_case": "repA-related 基因存在于猪种、犬种和沙林鼠种布鲁菌中，而牛种、羊种和绵羊种布鲁菌中缺失该基因。",
+    "error_detail": "错误地描述了基因的分布情况",
+    "original_question": "repA-related 基因在布鲁菌中的分布情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "Western blot 结果显示，repA-related 蛋白能与布鲁菌猪种、犬种和沙林鼠种阳性血清发生特异性反应，出现 39000 大小的特异性条带，而与牛种、羊种和绵羊种阳性血清也发生反应。",
+    "reference_case": "Western blot 结果显示，repA-related 蛋白能与布鲁菌猪种、犬种和沙林鼠种阳性血清发生特异性反应，出现 39000 大小的特异性条带，而与牛种、羊种和绵羊种阳性血清不发生反应。",
+    "error_detail": "错误地描述了Western blot的检测结果",
+    "original_question": "布鲁菌 repA-related 蛋白的 Western blot 检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪 PLE1 基因启动子的克隆使用了实时荧光定量 PCR 方法。",
+    "reference_case": "猪 PLE1 基因启动子的克隆使用了巢式 PCR 方法。",
+    "error_detail": "错误地描述了PCR方法",
+    "original_question": "猪 PLE1 基因启动子的克隆使用了哪种 PCR 方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 PLE1 基因启动子区域存在 CpG 岛。",
+    "reference_case": "猪 PLE1 基因启动子区域不存在 CpG 岛。",
+    "error_detail": "错误地描述了CpG岛的存在",
+    "original_question": "猪 PLE1 基因启动子区域是否存在 CpG 岛？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 PLE1 基因启动子区域含有典型的 TATA 盒结构。",
+    "reference_case": "猪 PLE1 基因启动子区域不含有典型的 TATA 盒结构。",
+    "error_detail": "错误地描述了TATA盒的存在",
+    "original_question": "猪 PLE1 基因启动子区域是否含有典型的 TATA 盒结构？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 PLE1 基因启动子区域的长度是 1500 bp。",
+    "reference_case": "猪 PLE1 基因启动子区域的长度是 1153 bp。",
+    "error_detail": "错误地描述了启动子区域的长度",
+    "original_question": "猪 PLE1 基因启动子区域的长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪 PLE1 基因启动子区域的生物信息学分析使用了 NNPP 和 Promoter Scan 两种在线软件。",
+    "reference_case": "猪 PLE1 基因启动子区域的生物信息学分析使用了 NNPP、Promoter Scan、CpG Island Searcher、TFSEARCH Search、NSITE、Promoter Scan 以及 Motif Search 等在线软件。",
+    "error_detail": "遗漏了使用的在线软件",
+    "original_question": "猪 PLE1 基因启动子区域的生物信息学分析使用了哪些在线软件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪 PLE1 基因启动子区域中预测的转录因子结合位点包括 C/EBP、Sp1、USF。",
+    "reference_case": "猪 PLE1 基因启动子区域中预测的转录因子结合位点包括 C/EBP、Sp1、USF、CdxA、GATA-X、GATA-1、GATA-2、GATA-3、MZF1、AML-1a、SRY、Nkx-2、Lyf-1、deltaE 等。",
+    "error_detail": "遗漏了预测的转录因子结合位点",
+    "original_question": "猪 PLE1 基因启动子区域中预测的转录因子结合位点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 PLE1 基因启动子区域与人羧酸酯酶（CES1:基因启动子区域的同源性约为 50%。",
+    "reference_case": "猪 PLE1 基因启动子区域与人羧酸酯酶（CES1:基因启动子区域的同源性约为 70%。",
+    "error_detail": "错误地描述了同源性比例",
+    "original_question": "猪 PLE1 基因启动子区域与人羧酸酯酶（CES1:基因启动子区域的同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪 PLE1 基因启动子区域中发现的基序包括 EGF_1、INTEGRIN_BETA。",
+    "reference_case": "猪 PLE1 基因启动子区域中发现的基序包括 EGF_1、INTEGRIN_BETA、CTCK_1、ANAPHYLATOXIN_1、THIOLASE_3、TUBULIN、VWFC_1。",
+    "error_detail": "遗漏了发现的基序",
+    "original_question": "猪 PLE1 基因启动子区域中发现的基序有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 PLE1 基因启动子区域的转录起始位点位于翻译起始密码子 ATG 上游 -50 bp 和 -48 bp 处。",
+    "reference_case": "猪 PLE1 基因启动子区域的转录起始位点位于翻译起始密码子 ATG 上游 -39 bp 和 -37 bp 处。",
+    "error_detail": "错误地描述了转录起始位点的位置",
+    "original_question": "猪 PLE1 基因启动子区域的转录起始位点位于何处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "金霉素的主要代谢产物是4位差向异构金霉素，它在猪粪中的残留量占原形药物的80%。",
+    "reference_case": "金霉素的主要代谢产物是4位差向异构金霉素，它在猪粪中的残留量占原形药物的90%。",
+    "error_detail": "错误地描述了残留量的比例",
+    "original_question": "金霉素的主要代谢产物是什么，它在猪粪中的残留量占原形药物的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在7天的用药期内，猪粪中磺胺二甲嘧啶的平均残留量为50:00 µg/g，其主要代谢产物对位氨基乙酰化磺胺二甲嘧啶的平均残留量为10:00 µg/g。",
+    "reference_case": "在7天的用药期内，猪粪中磺胺二甲嘧啶的平均残留量为59:50 µg/g，其主要代谢产物对位氨基乙酰化磺胺二甲嘧啶的平均残留量为15:98 µg/g。",
+    "error_detail": "错误地描述了平均残留量",
+    "original_question": "在猪粪中检测到的磺胺二甲嘧啶及其主要代谢产物的平均残留量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪粪中检测到的磺胺二甲嘧啶的峰值残留量为60:00 µg/g，出现在用药期的第3天。",
+    "reference_case": "在猪粪中检测到的磺胺二甲嘧啶的峰值残留量为72:88 µg/g，出现在用药期的第2天。",
+    "error_detail": "错误地描述了峰值残留量和出现时间",
+    "original_question": "在猪粪中检测到的磺胺二甲嘧啶的峰值残留量是多少，出现在用药期的第几天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在7天的用药期内，猪粪中金霉素的平均残留量为200:00 µg/g，其主要代谢产物4位差向异构金霉素的平均残留量为180:00 µg/g。",
+    "reference_case": "在7天的用药期内，猪粪中金霉素的平均残留量为239:92 µg/g，其主要代谢产物4位差向异构金霉素的平均残留量为217:79 µg/g。",
+    "error_detail": "错误地描述了平均残留量",
+    "original_question": "金霉素及其主要代谢产物在猪粪中的平均残留量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磺胺二甲嘧啶的主要代谢产物是对位氨基乙酰化磺胺二甲嘧啶，它在猪粪中的残留量占原形药物的20%。",
+    "reference_case": "磺胺二甲嘧啶的主要代谢产物是对位氨基乙酰化磺胺二甲嘧啶，它在猪粪中的残留量占原形药物的27%。",
+    "error_detail": "错误地描述了残留量的比例",
+    "original_question": "磺胺二甲嘧啶的主要代谢产物是什么，它在猪粪中的残留量占原形药物的比例是多少？",
+    "original_input": ""
+  }
+]

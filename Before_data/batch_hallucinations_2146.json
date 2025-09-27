@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪水疱病对猪的肥育计划有严重影响，导致肥育周期延长至少一个月。",
+    "reference_case": "猪水疱病一般只对猪的肥育计划产生轻微的影响，但其症状与口蹄疫的症状难以区别，从而妨碍了生猪及其产品的流通与国际贸易。",
+    "error_detail": "夸大了猪水疱病对肥育计划的影响程度",
+    "original_question": "猪水疱病对猪的肥育计划有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪水疱病的病毒有类脂质囊膜，对乙醚、氯仿敏感。",
+    "reference_case": "猪水疱病的病毒无类脂质囊膜，对乙醚、氯仿不敏感，在pH 2.5-12.5范围内保持活力，对冷冻和干燥环境有一定的抵抗力，但不耐热，56℃1小时可灭活，对消毒液有较强的抵抗力。",
+    "error_detail": "错误地描述了病毒的结构特性",
+    "original_question": "猪水疱病的病毒有哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "非洲猪瘟病毒通过PCR检测进行检测。",
+    "reference_case": "将猪的血液或组织悬液接种到原代白细胞培养物中，观察猪血细胞是否吸附到感染细胞表面。出现大量猪血细胞附着在感染细胞表面则表明存在非洲猪瘟病毒。",
+    "error_detail": "提供了与指令不符的检测方法",
+    "original_question": "非洲猪瘟病毒如何通过血细胞吸附试验进行检测？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "非洲猪瘟的诊断方法不包括血细胞吸附试验。",
+    "reference_case": "包括血细胞吸附试验、病毒分离、直接荧光抗体试验（FAT）、动物试验等。",
+    "error_detail": "与已知的诊断方法相矛盾",
+    "original_question": "非洲猪瘟的诊断有哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "非洲猪瘟是由猪流感病毒引起的一种传染病。",
+    "reference_case": "非洲猪瘟是由非洲猪瘟病毒（ASFV）引起的一种传染病，主要影响母猪的繁殖障碍和仔猪的呼吸系统疾病。",
+    "error_detail": "混淆了非洲猪瘟病毒和猪流感病毒",
+    "original_question": "什么是非洲猪瘟？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "非洲猪瘟病毒粒子呈球形，大小为100-150 nm。",
+    "reference_case": "非洲猪瘟病毒属于套式病毒目、动脉炎病毒科、动脉炎病毒属，有脂质囊膜，对乙醚和氯仿敏感，病毒粒子呈球形，大小为 45-65 nm，核衣壳呈十二面体对称，直径 25-35 nm，包含不分节段的单股正链 RNA。",
+    "error_detail": "错误地描述了病毒粒子的大小",
+    "original_question": "非洲猪瘟病毒的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "非洲猪瘟病毒导致猪群的免疫力增强。",
+    "reference_case": "经典 PRRSV 可引起母猪流产、死胎、弱胎、木乃伊胎，以及仔猪和肥育猪的呼吸困难和高死亡率。美洲型 PRRSV 变异株则表现为母猪发情滞后、坐胎率低，怀孕后期流产、死胎和弱胎，哺乳和断奶仔猪以呼吸道疾病和高死亡率为特征。",
+    "error_detail": "错误地描述了病毒对猪群的影响",
+    "original_question": "非洲猪瘟病毒如何影响猪群？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "37°C 下 24 小时或 56°C 下 30 分钟可使非洲猪瘟病毒完全失活。",
+    "reference_case": "37°C 下 48 小时或 56°C 下 45 分钟可使非洲猪瘟病毒完全失活。",
+    "error_detail": "错误地描述了病毒的灭活条件",
+    "original_question": "非洲猪瘟病毒如何进行灭活？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "非洲猪瘟病毒在 -20°C 下具有较好的稳定性。",
+    "reference_case": "非洲猪瘟病毒在 -70°C 下具有较好的稳定性，在 pH 6.5-7.5 之间相对稳定，pH 高于 7 或低于 5 时，感染力很快消失。",
+    "error_detail": "提供了过时的病毒稳定性信息",
+    "original_question": "非洲猪瘟病毒对环境的稳定性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "非洲猪瘟病毒可分为亚洲型和非洲型。",
+    "reference_case": "根据抗原和基因差异，非洲猪瘟病毒可分为美洲型和欧洲型，代表毒株分别为 VR-2332 株和 LV 株（Lelystadt）。目前在我国流行的毒株主要是美洲型，但已有分离鉴定到欧洲型 PRRSV 毒株的报道。",
+    "error_detail": "错误地描述了病毒的分型",
+    "original_question": "非洲猪瘟病毒如何进行基因分型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "非洲猪瘟的防治措施包括使用抗生素。",
+    "reference_case": "包括封锁、扑杀和消毒等措施，同时加强口岸检疫，严禁从疫区进口猪及其产品，一旦发现疫情立即上报并采取紧急防控措施。",
+    "error_detail": "提供了与指令不符的防治措施",
+    "original_question": "非洲猪瘟的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PRRSV 对猪的神经细胞具有亲嗜性。",
+    "reference_case": "PRRSV 对单核-巨噬系统的多种细胞具有亲嗜性，包括猪肺泡巨噬细胞（PAM）、外周血单核细胞、肺血管内巨噬细胞（PIM）等。",
+    "error_detail": "错误地描述了病毒的亲嗜性",
+    "original_question": "PRRSV 通常在哪些细胞类型中生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "PRRSV 的持续感染性主要通过增强机体的免疫反应来实现。",
+    "reference_case": "PRRSV 的持续感染性主要有三个方面：一是通过阻碍猪体内干扰素活性的诱导和（或）通过阻断专噬性细胞中抗病毒蛋白活性从而逃脱机体的免疫；二是突出于病毒囊膜表面之外的 GP5 胞外域产生了某些突变，从而使机体不能有效清除病毒而产生持续感染；三是 PRRSV 具有 ADE 现象，使得病毒在微量抗体存在的条件下能进一步增殖，也能导致持续性感染。",
+    "error_detail": "与已知的持续感染机制相矛盾",
+    "original_question": "PRRSV 的持续感染性有哪些机制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高致病性猪蓝耳病（HP-PRRSV）的代表毒株为 JXA1（Nsp2 基因存在 180 个碱基缺失）。",
+    "reference_case": "高致病性猪蓝耳病（HP-PRRSV）主要由变异了的 PRRSV 导致，这种毒株被称之为高致病性猪蓝耳病病毒，代表毒株为 JXA1（Nsp2 基因存在 90 个碱基缺失），这种疫情给我国养猪业造成了巨大经济损失。",
+    "error_detail": "错误地描述了毒株的基因缺失数量",
+    "original_question": "高致病性猪蓝耳病（HP-PRRSV）的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "防治猪繁殖与呼吸综合征（PRRS）的主要措施是使用抗生素。",
+    "reference_case": "主要采取免疫接种、综合防治措施及对症疗法，但最根本的办法是清除病猪、带毒猪和彻底消毒，切断传播途径。在地方流行性区域给猪接种疫苗对预防繁殖障碍是比较有效的。",
+    "error_detail": "提供了与指令不符的防治措施",
+    "original_question": "防治猪繁殖与呼吸综合征（PRRS）的主要措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪蓝耳病疫苗的主要类型包括DNA疫苗和RNA疫苗。",
+    "reference_case": "主要类型包括商品化的 PRRS弱毒疫苗和灭活苗。具体每个猪场使用何种疫苗应根据本场及周边地区的猪蓝耳病流行情况以及本场猪蓝耳病抗体和病原学检测结果为依据。",
+    "error_detail": "错误地描述了疫苗的类型",
+    "original_question": "猪蓝耳病疫苗有哪些主要类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在未流行蓝耳病地区使用蓝耳病疫苗可以预防其他疾病。",
+    "reference_case": "因为在没有猪蓝耳病流行的地区或猪场不建议使用蓝耳病疫苗，如需使用也应选择灭活疫苗。",
+    "error_detail": "添加了未经证实的假设",
+    "original_question": "为什么在未流行蓝耳病地区不建议使用蓝耳病疫苗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪在配种前进行1次免疫, 然后在进入生产群后每6个月接种一次。",
+    "reference_case": "后备母猪在配种前进行2次免疫, 然后在进入生产群后每3个月接种一次。",
+    "error_detail": "错误地描述了免疫的频率",
+    "original_question": "后备母猪如何进行蓝耳病疫苗免疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪的免疫应在15～20日龄免疫。",
+    "reference_case": "仔猪的免疫应早免疫，一般在5～10日龄免疫。",
+    "error_detail": "错误地描述了免疫的时间",
+    "original_question": "仔猪蓝耳病疫苗免疫的最佳时间是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流感（SI）是由副黏病毒科（Paramyxoviridae）的猪流感病毒引起的。",
+    "reference_case": "猪流感（SI）是由正黏病毒科（Orthomyxoviridae）流感病毒属（Influenzavirus）的猪流感病毒引起的一种急性、热性和高度接触性的呼吸道传染病。特征是突然发病，并迅速波及全群，发病率高，但能很快恢复，病死率不足1%，仅有少数病例可因发生病毒性肺炎而死亡。",
+    "error_detail": "错误地描述了病毒的科属",
+    "original_question": "猪流感（SI）的主要症状是什么？",
+    "original_input": ""
+  }
+]

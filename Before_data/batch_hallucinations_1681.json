@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每头公猪每天交配的次数不要超过五头，连续交配几天后，应该休息一天。母猪在一年四季都能发情，发情可以持续5-7天。",
+    "reference_case": "每头公猪每天交配的次数不要超过两头，连续交配几天后，应该休息一天。母猪在一年四季都能发情，发情可以持续2-3天。",
+    "error_detail": "数值偏差，公猪每天交配次数和母猪发情持续时间被夸大。",
+    "original_question": "公猪和母猪的交配频率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟的病原是猪瘟细菌，存在于病猪的血液、肌肉、内脏、尿、粪、眼屎、鼻涕、唾液等中。",
+    "reference_case": "猪瘟的病原是猪瘟病毒，存在于病猪的血液、肌肉、内脏、尿、粪、眼屎、鼻涕、唾液等中。",
+    "error_detail": "术语错误，将病毒误称为细菌。",
+    "original_question": "猪瘟的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪瘟的传播途径包括运输和贩卖病猪、泔水残留、公猪交配、受污染的饲料和用具，以及人和其它动物等，特别是在非洲地区。",
+    "reference_case": "猪瘟的传播途径包括运输和贩卖病猪、泔水残留、公猪交配、受污染的饲料和用具，以及人和其它动物等。",
+    "error_detail": "添加了不相关的地域信息。",
+    "original_question": "猪瘟的主要传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪瘟病毒在低温时特别强，冬天极冷时也冻不死它，太阳光晒九小时也杀不死它；在尿里可以生活六个月，在腌肉内可以生活一百天以上。",
+    "reference_case": "猪瘟病毒在低温时特别强，冬天极冷时也冻不死它，太阳光晒九小时也杀不死它；在尿里可以生活三个月，在腌肉内可以生活八十天以上。",
+    "error_detail": "数据更新错误，延长了病毒的存活时间。",
+    "original_question": "猪瘟病毒的抵抗力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "感染猪瘟病毒后潜伏期一般为2-4天，最短1天，最长可达15-30天。",
+    "reference_case": "感染猪瘟病毒后潜伏期一般为5-8天，最短3天，最长可达10-20天。",
+    "error_detail": "数值偏差，潜伏期时间被缩短和延长。",
+    "original_question": "感染猪瘟病毒后潜伏期一般为多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "发现猪瘟病猪时，要及早治疗，按猪的体重每斤注射抗猪瘟血清1.5-2毫升，每日3-4次，连续5-6次。",
+    "reference_case": "发现猪瘟病猪时，要及早治疗，按猪的体重每斤注射抗猪瘟血清0.75-1毫升，每日1-2次，连续3-4次。",
+    "error_detail": "指令偏离，增加了注射剂量和频率。",
+    "original_question": "如何治疗猪瘟？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "主要通过预防注射，用猪瘟结晶紫疫苗皮内注射1毫升，皮下注射2-5毫升，可以免疫六个月以上。注射前需进行健康检查，注射时要严格消毒，并注意保存疫苗的温度。此外，还需要定期给猪喂食抗生素。",
+    "reference_case": "主要通过预防注射，用猪瘟结晶紫疫苗皮内注射1毫升，皮下注射2-5毫升，可以免疫六个月以上。注射前需进行健康检查，注射时要严格消毒，并注意保存疫苗的温度。",
+    "error_detail": "添加了不必要的假设，即定期喂食抗生素。",
+    "original_question": "如何预防猪瘟？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "上海市畜牧部门为猪、牛、羊等畜产品建立了健康档案。",
+    "reference_case": "依据上海市出台了《上海市动物免疫标识管理办法》。",
+    "error_detail": "术语错误，将免疫标识管理办法误称为健康档案。",
+    "original_question": "上海市畜牧部门为猪、牛、羊等畜产品建立了什么档案？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "根据猪的售价和成本计算得出，每头母猪和年产一胎的猪的净价格系数为300.00美元。",
+    "reference_case": "根据猪的售价和成本计算得出，每头母猪和年产一胎的猪的净价格系数为211.20美元。",
+    "error_detail": "数值偏差，净价格系数被夸大。",
+    "original_question": "在模型中，如何计算猪的饲养与出售活动的净价格系数？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "牲畜饲养业对环境恶化有一定责任，例如在中国，猪的粪肥成为主要的生态威胁。",
+    "reference_case": "牲畜饲养业对环境恶化有一定责任，例如在荷兰，猪的粪肥成为主要的生态威胁。",
+    "error_detail": "地域信息错误，将荷兰误改为中国。",
+    "original_question": "牲畜饲养业对环境恶化应承担多少责任？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "MaxiMat®猪饲喂器具有简单坚固的结构，符合猪的自然进食习惯，采用塑料制成，无焊接缝隙，卫生条件好，能够通过添加脂肪或药丸满足不同需求，适用于家庭混合饲养，能够经济地饲养50头即将屠宰的猪或60头断奶或成长中的猪。",
+    "reference_case": "MaxiMat®猪饲喂器具有简单坚固的结构，符合猪的自然进食习惯，采用不锈钢制成，无焊接缝隙，卫生条件好，能够通过添加脂肪或药丸满足不同需求，适用于家庭混合饲养，能够经济地饲养50头即将屠宰的猪或60头断奶或成长中的猪。",
+    "error_detail": "逻辑矛盾，材料描述前后不一致。",
+    "original_question": "MaxiMat®猪饲喂器的主要特点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "该公司擅长猪的育种期饲养和通风系统，并提供包括猪饲养系统、供水系统、通风和气候控制系统以及农场建筑设计在内的技术产品和服务。此外，还提供宠物美容服务。",
+    "reference_case": "该公司擅长猪的育种期饲养和通风系统，并提供包括猪饲养系统、供水系统、通风和气候控制系统以及农场建筑设计在内的技术产品和服务。",
+    "error_detail": "指令偏离，添加了不相关的服务内容。",
+    "original_question": "埃奇伯格·福特尔昂莱格公司在牲畜饲养系统领域有哪些专长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "MaxiMat®猪饲喂器通过强调先进的饲养技术帮助农民在农场业务中获得成功，它能够为猪生产者提供向猪供给饲料和水的最理想方法，从而增加经济效益。此外，还能自动清洁猪舍。",
+    "reference_case": "MaxiMat®猪饲喂器通过强调先进的饲养技术帮助农民在农场业务中获得成功，它能够为猪生产者提供向猪供给饲料和水的最理想方法，从而增加经济效益。",
+    "error_detail": "添加了不必要的假设，即自动清洁猪舍。",
+    "original_question": "MaxiMat®猪饲喂器如何帮助农民增加利润？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "MaxiMat®猪饲喂器结合了湿式和干式饲养方法，采用刚性不锈钢材料制成，无焊接缝隙，符合猪的自然进食习惯，并提供卫生的饲养条件。此外，还能播放音乐给猪听。",
+    "reference_case": "MaxiMat®猪饲喂器结合了湿式和干式饲养方法，采用刚性不锈钢材料制成，无焊接缝隙，符合猪的自然进食习惯，并提供卫生的饲养条件。",
+    "error_detail": "上下文断裂，添加了不相关的功能描述。",
+    "original_question": "埃奇伯格·福特尔昂莱格公司提供的MaxiMat®猪饲喂器有哪些独特之处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的'强化'饲养法是指在户外养猪，这与野生猪的自然生长方式相同。",
+    "reference_case": "猪的'强化'饲养法是指在猪栏里养猪，这与野生猪的自然生长方式不同。",
+    "error_detail": "术语错误，将猪栏养猪误称为户外养猪。",
+    "original_question": "什么是猪的'强化'饲养法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "许多人认为在猪栏养猪是'不自然'的，因为这与野猪的自然生长方式不同，野猪可以自由漫步，但会遇到更多天敌的威胁。此外，猪栏养猪还会导致猪的心理压力增大。",
+    "reference_case": "许多人认为在猪栏养猪是'不自然'的，因为这与野猪的自然生长方式不同，野猪可以自由漫步，但会遇到更多天敌的威胁。",
+    "error_detail": "添加了不必要的假设，即猪的心理压力增大。",
+    "original_question": "为什么有人反对在猪栏养猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "猪栏养猪可以减少猪仔的死亡率，因为小猪可以避免危险，且饲养环境可以避免疾病和寒冷。此外，还能提高猪肉的口感。",
+    "reference_case": "猪栏养猪可以减少猪仔的死亡率，因为小猪可以避免危险，且饲养环境可以避免疾病和寒冷。",
+    "error_detail": "优先级错乱，添加了不相关的优点。",
+    "original_question": "猪栏养猪有哪些优点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪栏养猪可能会导致猪脚沾上泥巴，使土地变得泥泞，影响作物生长。此外，还会增加猪的肥胖率。",
+    "reference_case": "猪栏养猪可能会导致猪脚沾上泥巴，使土地变得泥泞，影响作物生长。",
+    "error_detail": "添加了不必要的假设，即增加猪的肥胖率。",
+    "original_question": "猪栏养猪有哪些限制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "户外养猪可以让动物自由活动，给公众留下较好的印象，但需要较高素质的饲养人员来处理各种难题。此外，还需要定期进行兽医检查。",
+    "reference_case": "户外养猪可以让动物自由活动，给公众留下较好的印象，但需要较高素质的饲养人员来处理各种难题。",
+    "error_detail": "指令偏离，添加了不相关的要求。",
+    "original_question": "在户外养猪有哪些好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "户外养猪需要饲养人员有很高的素质，因为涉及喂养和商业行为的难题。此外，还需要应对极端天气条件。",
+    "reference_case": "户外养猪需要饲养人员有很高的素质，因为涉及喂养和商业行为的难题。",
+    "error_detail": "添加了不必要的假设，即应对极端天气条件。",
+    "original_question": "户外养猪面临哪些挑战？",
+    "original_input": ""
+  }
+]

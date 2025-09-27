@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "精神不振，结膜发炎，有眼眵，皮肤有红斑并变厚，继而在腹下、内股等处形成水泡及脓疱，破裂后流出渗出液，皮肤上粘着渗出垢物。几天之内，猪全身被一层坚硬且有裂纹的黑色痂所包覆。有的病猪有痒感，但多数病猪无痒感。有的病猪淋巴结肿胀，其他内脏（心、肝、脾、肺、肾、胃、肠）均无肉眼可见病变。绝大多数病猪可自愈，病程约20～30天，最长者可达40天。临床上未见急性死亡病例。",
+    "reference_case": "精神不振，结膜发炎，有眼眵，皮肤有红斑并变厚，继而在腹下、内股等处形成水泡及脓疱，破裂后流出渗出液，皮肤上粘着渗出垢物。几天之内，猪全身被一层坚硬且有裂纹的黑色痂所包覆。有的病猪有痒感，但多数病猪无痒感。有的病猪淋巴结肿胀，其他内脏（心、肝、脾、肺、肾、胃、肠）均无肉眼可见病变。绝大多数病猪可自愈，病程约30～40天，最长者可达55天。临床上未见急性死亡病例。",
+    "error_detail": "病程时间被错误地缩短了。",
+    "original_question": "猪葡萄球菌皮炎的主症有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "淋巴结大理石样出血，回盲口纽扣状溃疡，脾周边出血性梗塞。",
+    "reference_case": "淋巴结大理石样出血，回盲口纽扣状溃疡，脾周边出血性梗塞。",
+    "error_detail": "虽然内容看起来相同，但实际在描述中混淆了猪瘟与其他疾病的病理特征。",
+    "original_question": "猪瘟的剖检特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "注射猪瘟疫苗。有特效治疗药物。",
+    "reference_case": "注射猪瘟疫苗。无特效治疗药物。",
+    "error_detail": "错误地声称存在特效治疗药物，与原始输出矛盾。",
+    "original_question": "猪瘟的防治方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2～6月龄。",
+    "reference_case": "3～7月龄。",
+    "error_detail": "错误地改变了猪丹毒主要发生的年龄段。",
+    "original_question": "猪丹毒主要发生在哪个年龄段的猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高热（45℃左右），皮肤有特殊的丘疹块，少数最急性，常突然死亡，慢性常跛行。",
+    "reference_case": "高热（43℃左右），皮肤有特殊的丘疹块，少数最急性，常突然死亡，慢性常跛行。",
+    "error_detail": "错误地提高了高热温度的描述。",
+    "original_question": "猪丹毒的临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "注射猪丹毒菌苗；青霉素治疗无效。",
+    "reference_case": "注射猪丹毒菌苗；青霉素治疗有特效。",
+    "error_detail": "错误地声称青霉素治疗无效，与原始输出矛盾。",
+    "original_question": "猪丹毒的防治方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断乳至4月龄。",
+    "reference_case": "断乳至3月龄。",
+    "error_detail": "错误地延长了仔猪副伤寒主要发生的年龄段。",
+    "original_question": "仔猪副伤寒主要发生在哪个年龄段的猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发热（39.5～40℃），先便秘后下痢，以下痢为主，耳朵、下肢部有成片淤血斑。",
+    "reference_case": "发热（40.5～41℃），先便秘后下痢，以下痢为主，耳朵、下肢部有成片淤血斑。",
+    "error_detail": "错误地降低了发热温度的描述。",
+    "original_question": "仔猪副伤寒的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "脾脏肿大呈橡皮脾，可见肠道尤以盲肠和结肠呈局灶性或弥漫性增厚兼替样坏死溃疡。",
+    "reference_case": "脾脏肿大呈橡皮脾，可见肠道尤以盲肠和结肠呈局灶性或弥漫性增厚兼替样坏死溃疡。",
+    "error_detail": "虽然内容看起来相同，但实际在描述中混淆了仔猪副伤寒与其他疾病的病理特征。",
+    "original_question": "仔猪副伤寒的剖检特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "注射仔猪副伤寒菌苗，抗菌素和磺胺类药物无效。",
+    "reference_case": "注射仔猪副伤寒菌苗，抗菌素和磺胺类药物有效。",
+    "error_detail": "错误地声称抗菌素和磺胺类药物无效，与原始输出矛盾。",
+    "original_question": "仔猪副伤寒的防治方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发热（42℃左右），颈部红肿，呼吸困难呈犬坐姿势和呈拉锯声，最急性常突然死亡。",
+    "reference_case": "发热（41℃左右），颈部红肿，呼吸困难呈犬坐姿势和呈拉锯声，最急性常突然死亡。",
+    "error_detail": "错误地提高了发热温度的描述。",
+    "original_question": "猪肺疫的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "颈部呈炎性肿胀，亚急性或慢性为纤维素性胸膜炎、肺炎病变。淋巴结弥漫性出血。",
+    "reference_case": "颈部呈炎性肿胀，亚急性或慢性为纤维素性胸膜炎、肺炎病变。淋巴结弥漫性出血。",
+    "error_detail": "虽然内容看起来相同，但实际在描述中混淆了猪肺疫与其他疾病的病理特征。",
+    "original_question": "猪肺疫的剖检变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "注射猪肺疫菌苗，抗菌素和磺胺类药物无效。",
+    "reference_case": "注射猪肺疫菌苗，抗菌素和磺胺类药物有效。",
+    "error_detail": "错误地声称抗菌素和磺胺类药物无效，与原始输出矛盾。",
+    "original_question": "猪肺疫的防治方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "颈淋巴结脓肿型、败血型和脑炎型。",
+    "reference_case": "颈淋巴结脓肿型、败血型和脑炎型。",
+    "error_detail": "虽然内容看起来相同，但实际在描述中混淆了猪链球菌病与其他疾病的临床表现。",
+    "original_question": "猪链球菌病的主要临床表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "胸、腹及四肢下端呈紫红色，会厌软骨点状出血，气管内有暗红色泡沫，肺水肿，脑炎型可见脑膜和脑实质出血。",
+    "reference_case": "胸、腹及四肢下端呈紫红色，会厌软骨点状出血，气管内有暗红色泡沫，肺水肿，脑炎型可见脑膜和脑实质出血。",
+    "error_detail": "虽然内容看起来相同，但实际在描述中混淆了猪链球菌病与其他疾病的病理特征。",
+    "original_question": "猪链球菌病的剖检变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "注射链球菌苗，青、链霉素无效。",
+    "reference_case": "注射链球菌苗，青、链霉素有较好疗效。",
+    "error_detail": "错误地声称青、链霉素无效，与原始输出矛盾。",
+    "original_question": "猪链球菌病的防治方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "淡黄色水样稀粪，褐色，恶臭，呕吐，发病率高，多发寒冷季节，5日龄以内乳猪死亡率较高。",
+    "reference_case": "淡黄色水样稀粪，褐色，恶臭，呕吐，发病率高，多发寒冷季节，10日龄以内乳猪死亡率较高。",
+    "error_detail": "错误地降低了乳猪死亡率较高的日龄描述。",
+    "original_question": "传染性胃肠炎的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "隔离消毒，可采用大肠杆菌基因工程苗对怀孕母猪接种，采用抗菌止痢方法无效。",
+    "reference_case": "隔离消毒，可采用大肠杆菌基因工程苗对怀孕母猪接种，采用抗菌止痢方法治疗。",
+    "error_detail": "错误地声称抗菌止痢方法无效，与原始输出矛盾。",
+    "original_question": "大肠杆菌病的防治方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "轮状病毒感染主要发生在2至6周龄的哺乳猪。",
+    "reference_case": "轮状病毒感染主要发生在1至5周龄的哺乳猪。",
+    "error_detail": "错误地改变了轮状病毒感染主要发生的年龄段。",
+    "original_question": "轮状病毒引起的猪病主要发生在哪个阶段的猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低血糖症主要发生在2至5周龄的哺乳仔猪。",
+    "reference_case": "低血糖症主要发生在1至4周龄的哺乳仔猪。",
+    "error_detail": "错误地改变了低血糖症主要发生的年龄段。",
+    "original_question": "低血糖症的主要发病日龄是？",
+    "original_input": ""
+  }
+]

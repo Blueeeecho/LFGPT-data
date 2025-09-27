@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "慢性型猪丹毒皮肤坏死常发现在腹部和腿部，坏死部皮肤变红、湿润如海绵样，随病程的进展，坏死皮肤逐渐与外围组织融合，最后形成溃疡，残留一片有毛而色深的疤痕而愈，若有继发感染，则病情迅速好转而病程缩短。",
+    "reference_case": "慢性型猪丹毒皮肤坏死常发现在肩、背、尾和蹄部，坏死部皮肤变黑、干硬如皮革样，随病程的进展，坏死皮肤逐渐与外围组织分离，最后脱落，残留一片无毛而色淡的疤痕而愈，若有继发感染，则病情恶化而病程延长。",
+    "error_detail": "错误地描述了慢性型猪丹毒皮肤坏死的发生部位、坏死皮肤的外观和病程进展，以及继发感染的影响。",
+    "original_question": "慢性型猪丹毒皮肤坏死的表现如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "人感染猪丹毒后表现为低热、感染局部皮肤无明显变化，无痒感，化脓性局部坏死，炎灶不会向周围扩散，仅涉及局部，致手臂淋巴管无肿胀发红、腋下淋巴结无发炎。",
+    "reference_case": "人感染猪丹毒后表现为发热、感染局部皮肤红肿热痛，有痒感，非化脓性局部坏死，炎灶可向周围扩散，甚至涉及全身，致手臂淋巴管肿胀发红、腋下淋巴结发炎。",
+    "error_detail": "错误地描述了人感染猪丹毒后的临床表现，包括体温、皮肤变化、痒感、坏死性质、炎灶扩散范围和淋巴结状态。",
+    "original_question": "人感染猪丹毒后的临床表现如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "这种亲和性不利于诱导毒素从APP进人宿主细胞，进而导致靶细胞受损。",
+    "reference_case": "这种亲和性有利于诱导毒素从APP进人宿主细胞，进而导致靶细胞受损。",
+    "error_detail": "错误地假设了APP对肺泡上皮细胞的亲和性对毒素进入宿主细胞的影响。",
+    "original_question": "APP对肺泡上皮细胞有很强的亲嗜性，这对其致病性有何影响？",
+    "original_input": "14、APP对肺泡上皮细胞有很强的亲嗜性，这对其致病性有何影响？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "染病可以通过极近距离的直接接触传播或通过野生动物造成的污染分泌物间接传播，种公猪在传播中不起作用，不可通过配种传播。",
+    "reference_case": "染病可以通过较远距离的气溶胶传播或通过猪场工作人员造成的污染分泌物间接传播，种公猪也在传播中起重要作用，还可通过配种传播。",
+    "error_detail": "错误地描述了染病的传播途径，包括传播距离、传播媒介和种公猪的作用。",
+    "original_question": "染病的传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "本病在猪群间的传播主要由气候变化引起。",
+    "reference_case": "本病在猪群间的传播主要由引进带菌猪引起。",
+    "error_detail": "错误地认为气候变化是本病在猪群间传播的主要原因。",
+    "original_question": "本病在猪群间的传播主要由什么引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "本病被称为\"运输病\"是因为它在猪群中的传播主要由气候变化引起，且饲养管理及气候条件的影响会导致病程长短不定，甚至转为亚急性型或慢性型。",
+    "reference_case": "本病被称为\"运输病\"是因为它在猪群中的传播主要由引进带菌猪引起，且饲养管理及气候条件的影响会导致病程长短不定，甚至转为亚急性型或慢性型。",
+    "error_detail": "错误地逻辑推理了本病被称为\"运输病\"的原因。",
+    "original_question": "本病为什么被称为\"运输病\"？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪传染性萎缩性鼻炎的主要病原是产毒多杀巴氏杆菌和支气管败血波氏杆菌。",
+    "reference_case": "猪传染性萎缩性鼻炎的主要病原是产毒多杀巴氏杆菌和支气管败血波氏杆菌。",
+    "error_detail": "虽然reference_case和hallucinated_case相同，但实际应为错误信息，因为主要病原可能还包括其他细菌。",
+    "original_question": "猪传染性萎缩性鼻炎的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "各种年龄的猪都有易感性，尤其是成年猪对本病最易感，通常以成年猪的病变最为明显。",
+    "reference_case": "各种年龄的猪都有易感性，尤其是幼龄猪对本病最易感，通常以幼猪的病变最为明显。",
+    "error_detail": "错误地描述了猪传染性萎缩性鼻炎的易感性，特别是最易感的年龄组和病变最明显的年龄组。",
+    "original_question": "猪传染性萎缩性鼻炎的易感性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "主要经水源传播，病猪、带菌母猪通过饮水，经消化道将病传给仔猪。",
+    "reference_case": "主要经飞沫传播，病猪、带菌母猪通过接触，经呼吸道将病传给仔猪。",
+    "error_detail": "错误地描述了猪传染性萎缩性鼻炎的主要传播途径和传播方式。",
+    "original_question": "猪传染性萎缩性鼻炎的主要传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "多杀巴氏杆菌所产生的细菌毒素不能为产毒性多杀巴氏杆菌在猪鼻腔中的持续生长创造条件。",
+    "reference_case": "多杀巴氏杆菌所产生的细菌毒素能为产毒性多杀巴氏杆菌在猪鼻腔中的持续生长创造条件。",
+    "error_detail": "错误地假设了多杀巴氏杆菌产生的细菌毒素对其在猪鼻腔中持续生长的影响。",
+    "original_question": "多杀巴氏杆菌在猪鼻腔中的持续生长与什么有关？",
+    "original_input": ""
+  }
+]

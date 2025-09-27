@@ -1,0 +1,65 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每头断奶仔猪的总成本约为600元，包括饲料成本550元、防疫保健费15元和其他杂费35元。",
+    "reference_case": "每头断奶仔猪的总成本约为517元，包括饲料成本502.7元、防疫保健费10元和其他杂费5元。",
+    "error_detail": "数值偏差",
+    "original_question": "每头断奶仔猪的总成本是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "2015年吉林省一头仔猪的纯利润为500元，计算方式为市场平均价格70元/公斤乘以15公斤减去总成本550元。",
+    "reference_case": "2015年吉林省一头仔猪的纯利润为473元，计算方式为市场平均价格66元/公斤乘以15公斤减去总成本517元。",
+    "error_detail": "过时标准",
+    "original_question": "2015年吉林省一头仔猪的纯利润是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "吉林省养猪产业的优势包括地理环境优势、基础条件优势、品种优势、产业优势、技术优势以及政策优势，但没有提到市场优势。",
+    "reference_case": "吉林省养猪产业的优势包括地理环境优势、基础条件优势（丰富的粮食产量，尤其是玉米）、品种优势（拥有多种生猪品种）、产业优势（悠久的养殖历史和经验）、技术优势（科研院校和单位提供技术支持）以及政策优势（国家出台多项扶持政策）。",
+    "error_detail": "需求冲突",
+    "original_question": "吉林省养猪产业有哪些优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "山东省是中国生猪饲养规模较大的省份，生猪出栏量和猪肉产量排名全国第三位。",
+    "reference_case": "山东省是中国生猪饲养规模较大的省份，生猪出栏量和猪肉产量排名全国第四位。",
+    "error_detail": "地域差异",
+    "original_question": "山东省生猪饲养在全国处于什么地位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "生猪饲养成本在实践中分为直接成本和间接成本。",
+    "reference_case": "生猪饲养成本在实践中分为生产成本和总成本。",
+    "error_detail": "术语错误",
+    "original_question": "生猪饲养成本在实践中是如何分类的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "现代生猪饲养成本核算中引入了环境成本、质量成本和交易成本，但这些成本目前已经完全量化并纳入核算。",
+    "reference_case": "现代生猪饲养成本核算中引入了环境成本、质量成本和交易成本。尽管环境成本目前尚未完全量化并纳入核算，但随着会计核算方法的改进和对生态环境的关注，环境成本核算的研究正在推进。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "现代生猪饲养成本核算中有哪些新的成本概念？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2015年青岛市生猪养殖中，饲料费占生产成本的比重是70%。",
+    "reference_case": "64.78%",
+    "error_detail": "数值偏差",
+    "original_question": "2015年青岛市生猪养殖中，饲料费占生产成本的比重是多少？",
+    "original_input": ""
+  }
+]

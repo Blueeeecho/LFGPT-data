@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "DDGS的添加可能导致屠宰率显著降低，这可能是由于日粮中纤维含量增加导致肠道重量显著增加。",
+    "reference_case": "DDGS的添加可能导致屠宰率降低，这可能是由于日粮中纤维含量增加导致肠道重量增加。也有研究表明，添加DDGS对胴体性能无显著影响。",
+    "error_detail": "夸大了屠宰率降低的程度和肠道重量增加的影响",
+    "original_question": "DDGS添加对生长育肥猪胴体性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "日粮中添加DDGS对生长育肥猪生产性能的影响在所有研究中都是一致的。",
+    "reference_case": "不同研究对日粮中添加DDGS对生长育肥猪生产性能的影响结论不一致，需进一步试验验证。",
+    "error_detail": "错误地声称所有研究结论一致，与原始output矛盾",
+    "original_question": "在日粮中添加不同比例的DDGS对生长育肥猪生产性能的影响是否一致？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "添加DDGS提高屠宰率，因为日粮纤维含量减少导致肠道重量减少。",
+    "reference_case": "添加DDGS可能会降低屠宰率，这可能是由于日粮纤维含量增加导致肠道重量增加，或是粗蛋白含量增加导致肠道组织重量增加。",
+    "error_detail": "错误地反转了因果关系和效果",
+    "original_question": "添加DDGS对生长育肥猪的屠宰率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在育肥猪日粮中添加15%的DDGS对眼肌面积有显著影响。",
+    "reference_case": "在育肥猪（88~105kg）日粮中添加5%或10%的DDGS，或在生长猪（30~60kg）日粮中添加19%的DDGS，对眼肌面积无显著影响。",
+    "error_detail": "错误地声称15%的DDGS对眼肌面积有显著影响",
+    "original_question": "添加DDGS对生长育肥猪的眼肌面积有无显著影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长育肥猪日粮中添加10%、20%及30%的DDGS线性提高平均日增重。",
+    "reference_case": "在生长育肥猪日粮中添加10%、20%及30%的DDGS线性降低平均日增重，而添加40%的DDGS进一步降低平均日增重。",
+    "error_detail": "错误地反转了DDGS添加比例对平均日增重的影响",
+    "original_question": "在生长育肥猪日粮中添加不同比例的DDGS对平均日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长育肥猪日粮中添加10%、20%及30%的DDGS线性提高平均日采食量。",
+    "reference_case": "在生长育肥猪日粮中添加10%、20%及30%的DDGS线性降低平均日采食量。",
+    "error_detail": "错误地反转了DDGS添加比例对平均日采食量的影响",
+    "original_question": "添加不同比例的DDGS对猪的采食量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "生产性能的降低是由于试验所使用的DDGS品质优良、营养物质消化率比期望值高造成的。",
+    "reference_case": "生产性能的降低可能是由于试验所使用的DDGS品质较差、营养物质消化率比期望值低造成的，如试验使用的DDGS赖氨酸含量低，导致试验猪的生产性能降低。",
+    "error_detail": "错误地反转了DDGS品质和营养物质消化率的影响",
+    "original_question": "含有DDGS的日粮对猪的生产性能降低的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲喂含20%和30%的DDGS日粮组的胴体重较重，是由于生长速度和活重提高。",
+    "reference_case": "饲喂含0和10%的DDGS日粮组猪的胴体重和屠宰率相同，但高于饲喂含20%和30%的DDGS日粮组。饲喂含20%和30%的DDGS日粮组的胴体重较轻，是由于生长速度和活重下降。",
+    "error_detail": "错误地反转了DDGS添加比例对胴体重的影响",
+    "original_question": "不同比例DDGS对生长育肥猪胴体重的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同DDGS饲喂水平下的背膘厚有显著差异。",
+    "reference_case": "不同DDGS饲喂水平下的背膘厚没有显著差异。",
+    "error_detail": "错误地声称背膘厚有显著差异",
+    "original_question": "不同比例DDGS对生长育肥猪背膘厚的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲喂含30%DDGS日粮组的眼肌厚度大于0%的DDGS日粮组。",
+    "reference_case": "饲喂含0DDGS日粮组的眼肌厚度大于30%的DDGS日粮组，10%和20%的DDGS组的眼肌厚度居中。眼肌厚度的差异受到4种日粮处理组的屠体重的影响。",
+    "error_detail": "错误地反转了DDGS添加比例对眼肌厚度的影响",
+    "original_question": "不同比例DDGS对生长育肥猪眼肌厚度的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "含0%、10%、20%和30%DDGS的日粮对腹肉厚度、腹肉坚实度评分、校正腹肉坚实度评分和碘值均无影响。",
+    "reference_case": "含0%、10%、20%和30%DDGS的日粮对腹肉厚度、腹肉坚实度评分、校正腹肉坚实度评分和碘值均有一定影响。含20%和30%DDGS的组腹肉厚度显著下降，含30%DDGS的组腹肉坚实度评分和校正腹肉坚实度评分显著降低，各组碘值与对照组相比显著升高。",
+    "error_detail": "错误地否认了DDGS添加比例对脂肪质量特性的影响",
+    "original_question": "饲喂含不同比例DDGS的日粮对上市猪脂肪质量特性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "DDGS中含有较低的饱和脂肪酸，导致胴体饱和脂肪酸含量增加。",
+    "reference_case": "DDGS中含有较高的不饱和脂肪酸，且不经过加氢作用直接沉积在猪胴体中，导致胴体不饱和脂肪酸含量增加，进而使得脂肪碘值升高。随着日粮中DDGS浓度增加，碘值线性增加。",
+    "error_detail": "错误地混淆了不饱和脂肪酸和饱和脂肪酸的影响",
+    "original_question": "DDGS如何影响猪肉脂肪中的不饱和脂肪酸含量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "日粮中添加高达50%的DDGS对猪肉质量没有显著影响。",
+    "reference_case": "日粮中添加高达30%的DDGS对猪肉质量没有显著影响。",
+    "error_detail": "错误地夸大了DDGS添加比例的上限",
+    "original_question": "日粮中添加多少比例的DDGS对猪肉质量没有显著影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "含30%DDGS的日粮组的猪肉碘值高于80。",
+    "reference_case": "含30%DDGS的日粮组的猪肉碘值高于70但低于74。",
+    "error_detail": "错误地夸大了碘值的范围",
+    "original_question": "含30%DDGS的日粮组的猪肉碘值范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "添加不饱和脂肪酸会使猪肉的碘值显著降低，进而延长猪肉的货架期。",
+    "reference_case": "添加不饱和脂肪酸会使猪肉的碘值显著升高，进而缩短猪肉的货架期，提高储藏条件要求，影响口感。",
+    "error_detail": "错误地反转了不饱和脂肪酸对碘值和货架期的影响",
+    "original_question": "添加不饱和脂肪酸对猪肉脂肪质量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "添加共轭亚油酸（CLA）可以增加脂肪组织中硬脂酰辅酶A去饱和酶（SCD）基因的表达。",
+    "reference_case": "添加共轭亚油酸（CLA）可以降低脂肪组织中硬脂酰辅酶A去饱和酶（SCD）基因的表达，降低SCD的活性，减少饱和脂肪酸向不饱和脂肪酸的转化，提高脂肪的饱和度。",
+    "error_detail": "错误地反转了CLA对SCD基因表达的影响",
+    "original_question": "添加共轭亚油酸（CLA）对猪肉脂肪质量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "含超过10%的DDGS日粮会使猪腹肉厚度显著下降。",
+    "reference_case": "含超过20%的DDGS日粮会使猪腹肉厚度显著下降。",
+    "error_detail": "错误地降低了DDGS添加比例对腹肉厚度影响的阈值",
+    "original_question": "含20%DDGS的日粮对猪腹肉厚度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在第一个繁殖周期，妊娠期饲喂50%DDGS和泌乳期饲喂20%DDGS的日粮组合组的断奶前死亡率较低。",
+    "reference_case": "在第一个繁殖周期，妊娠期饲喂50%DDGS和泌乳期饲喂20%DDGS的日粮组合组的断奶前死亡率较高，妊娠期饲喂50%DDGS的母猪消耗更多的能量、氮、硫和钾，氮、硫和磷的存留量较高。",
+    "error_detail": "错误地反转了DDGS对断奶前死亡率的影响",
+    "original_question": "DDGS对妊娠母猪的繁殖性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "泌乳日粮中含30%DDGS能支持较好的母猪生产性能。",
+    "reference_case": "泌乳日粮中含15%DDGS能支持较好的母猪生产性能，同时能维持或减少粪便中磷的排泄。",
+    "error_detail": "错误地夸大了DDGS添加比例的上限",
+    "original_question": "DDGS对泌乳母猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长-育肥猪日粮中DDGS的用量不超过30%。",
+    "reference_case": "生长-育肥猪日粮中DDGS的用量不超过20%。",
+    "error_detail": "错误地夸大了DDGS推荐用量的上限",
+    "original_question": "生长-育肥猪日粮中DDGS的推荐用量是多少？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "来源于具有种用价值，体型外貌和生产性能符合种用要求、三代系谱资料齐全、体质健康的种牛。",
+    "reference_case": "来源于具有种用价值，体型外貌和生产性能符合种用要求、三代系谱资料齐全、体质健康的种猪。",
+    "error_detail": "将种猪错误地替换为种牛，导致概念混淆。",
+    "original_question": "原精液的来源要求是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "生产方抽样按照GB/T 2828.2采用极限质量(LQ)=10，孤立批模式A抽样；监督抽样按照GB/T 15482采用监督质量水平(DO)=8，选用第二检验等级进行抽样。",
+    "reference_case": "生产方抽样按照GB/T 2828.2采用极限质量(LQ)=8，孤立批模式A抽样；监督抽样按照GB/T 15482采用监督质量水平(DO)=10，选用第二检验等级进行抽样。",
+    "error_detail": "错误地交换了极限质量(LQ)和监督质量水平(DO)的数值。",
+    "original_question": "种猪常温精液的抽样方案是如何规定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "后备公猪5至6月龄可开始调教，有配种经验的公猪也可进行采精调教。",
+    "reference_case": "后备公猪7至8月龄可开始调教，有配种经验的公猪也可进行采精调教。",
+    "error_detail": "错误地提前了后备公猪开始调教的年龄。",
+    "original_question": "公猪调教的最佳年龄是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "需要准备集精器、清洁公猪包皮的纸巾或消毒清洁的干纱布、配置好的稀释液、显微镜、精子密度测定仪、精液分装器、精液瓶或袋、温度计。",
+    "reference_case": "需要准备集精器、清洁公猪包皮的纸巾或消毒清洁的干纱布、配置好的稀释液、显微镜、精子密度测定仪、精液分装器、精液瓶或袋。",
+    "error_detail": "添加了未提及的温度计，偏离了原始指令。",
+    "original_question": "采集猪精液前需要准备哪些物品？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "用母猪的精液、包皮部分泌物或发情公猪尿液涂在假台猪后部，将公猪引至假台猪训练其爬跨。",
+    "reference_case": "用公猪的精液、包皮部分泌物或发情母猪尿液涂在假台猪后部，将公猪引至假台猪训练其爬跨。",
+    "error_detail": "错误地交换了公猪和母猪的角色，导致概念混淆。",
+    "original_question": "采精时如何刺激公猪进行爬跨？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "需要剪去公猪包皮的长毛，冲洗并擦干体表赃物和水渍，使用消毒液进行消毒。",
+    "reference_case": "需要剪去公猪包皮的长毛，冲洗并擦干体表赃物和水渍。",
+    "error_detail": "添加了未提及的消毒步骤，偏离了原始指令。",
+    "original_question": "采精前需要对公猪进行哪些清洗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "用大拇指与龟头相同方向紧握伸出的公猪阴茎螺旋状龟头，握紧阴茎龟头防止其旋转。",
+    "reference_case": "用大拇指与龟头相反方向紧握伸出的公猪阴茎螺旋状龟头，握紧阴茎龟头防止其旋转。",
+    "error_detail": "错误地描述了握紧阴茎龟头的方向，导致概念混淆。",
+    "original_question": "采精过程中如何防止公猪阴茎旋转？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "正常的精液是透明无色，异常颜色应废弃。",
+    "reference_case": "正常的精液是乳白色或浅灰色，异常颜色应废弃。",
+    "error_detail": "错误地描述了精液的颜色，导致概念混淆。",
+    "original_question": "猪精液的正常颜色是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪精液无味，有异常气味应废弃。",
+    "reference_case": "猪精液略带腥味，有异常气味应废弃。",
+    "error_detail": "错误地描述了精液的气味，导致概念混淆。",
+    "original_question": "猪精液的正常气味是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "以单位时间内获得最多的有效精子数来决定，成年公猪每周采精不超过3至4次，青年公猪每周采精2至3次。",
+    "reference_case": "以单位时间内获得最多的有效精子数来决定，成年公猪每周采精不超过2至3次，青年公猪每周采精1至2次。",
+    "error_detail": "错误地增加了采精频率的数值。",
+    "original_question": "采精频率如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "母猪输精记录表记录了母猪耳号、胎次、发情日期，以及第一次、第二次和第三次输精的相关信息，包括公猪号、输精时间、精液倒流情况和输精员信息。还记录了预产期和配种成功率。",
+    "reference_case": "母猪输精记录表记录了母猪耳号、胎次、发情日期，以及第一次、第二次和第三次输精的相关信息，包括公猪号、输精时间、精液倒流情况和输精员信息。还记录了预产期。",
+    "error_detail": "添加了未提及的配种成功率，偏离了原始指令。",
+    "original_question": "母猪输精记录表记录了哪些信息？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "《无规定动物疫病区标准》《集约化猪场防疫基本要求》《病害动物和病害动物产品生物安全处理规程》《畜禽场场区设计规范》《畜禽场环境质量及卫生控制规范》《畜禽场环境污染控制技术规范》《动物免疫接种技术规范》《动物检疫技术规范》等标准的出台加强了动物防疫工作的标准化。",
+    "reference_case": "《无规定动物疫病区标准》《集约化猪场防疫基本要求》《病害动物和病害动物产品生物安全处理规程》《畜禽场场区设计规范》《畜禽场环境质量及卫生控制规范》《畜禽场环境污染控制技术规范》《动物免疫接种技术规范》等标准的出台加强了动物防疫工作的标准化。",
+    "error_detail": "添加了未提及的《动物检疫技术规范》，导致概念混淆。",
+    "original_question": "哪些国家标准和农业标准的出台加强了动物防疫工作的标准化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "养殖档案和防疫档案的保存时间分别为：商品猪、禽为3年，牛为25年，羊为15年，种畜禽长期保存。",
+    "reference_case": "养殖档案和防疫档案的保存时间分别为：商品猪、禽为2年，牛为20年，羊为10年，种畜禽长期保存。",
+    "error_detail": "错误地增加了档案保存时间的数值。",
+    "original_question": "养殖档案和防疫档案的保存时间分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "测量发酵粪便生物发热达50-60°C，经1-2昼夜可杀死巴氏杆菌、布鲁氏杆菌、沙门氏菌及口蹄疫病毒，24小时可杀灭猪丹毒杆菌，12小时可杀死猪瘟病毒。",
+    "reference_case": "测量发酵粪便生物发热达60-70°C，经1-2昼夜可杀死巴氏杆菌、布鲁氏杆菌、沙门氏菌及口蹄疫病毒，24小时可杀灭猪丹毒杆菌，12小时可杀死猪瘟病毒。",
+    "error_detail": "错误地降低了发酵粪便生物发热的温度范围。",
+    "original_question": "如何用测温法检查粪便消毒效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "皮内接种选择皮肤致密、被毛多的部位，如大家畜的颈侧、尾根、眼睑，猪的耳根后，羊的颈侧或耳根部，鸡的肉胗部位。",
+    "reference_case": "皮内接种选择皮肤致密、被毛少的部位，如大家畜的颈侧、尾根、眼睑，猪的耳根后，羊的颈侧或耳根部，鸡的肉胗部位。",
+    "error_detail": "错误地描述了皮内接种部位的特征，导致概念混淆。",
+    "original_question": "皮内接种的适用范围是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "肌内注射多用于灭活疫苗的接种，选择肌肉丰满、血管少、远离神经干的部位，如牛、马、羊的颈侧中部上1/3处，猪的耳根后，禽的胸肌或大腿外侧肌肉。",
+    "reference_case": "肌内注射多用于弱毒疫苗的接种，选择肌肉丰满、血管少、远离神经干的部位，如牛、马、羊的颈侧中部上1/3处，猪的耳根后，禽的胸肌或大腿外侧肌肉。",
+    "error_detail": "错误地描述了肌内注射的疫苗类型，导致概念混淆。",
+    "original_question": "肌内注射的适用范围是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "胸腔注射主要用于猪瘟弱毒冻干疫苗的免疫。",
+    "reference_case": "胸腔注射主要用于猪支原体肺炎弱毒冻干疫苗的免疫。",
+    "error_detail": "错误地描述了胸腔注射的疫苗类型，导致概念混淆。",
+    "original_question": "胸腔注射主要用于哪种疫苗的免疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪支原体肺炎的免疫主要以全身免疫为主，必须通过静脉注射。",
+    "reference_case": "猪支原体肺炎的免疫主要以局部细胞免疫为主，必须通过肺内注射。",
+    "error_detail": "错误地描述了猪支原体肺炎的免疫途径和类型，导致概念混淆。",
+    "original_question": "猪支原体肺炎的主要免疫途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "将猪支原体肺炎弱毒冻干疫苗用灭菌生理盐水、注射用水或5%葡萄糖生理盐水溶解，用12号短针头与金属注射器或连续注射枪按规定剂量接种，注射部位为左侧肩胛骨后缘（中上部）1cm处肋间隙，溶解疫苗在2h内用完。",
+    "reference_case": "将猪支原体肺炎弱毒冻干疫苗用灭菌生理盐水、注射用水或5%葡萄糖生理盐水溶解，用12号短针头与金属注射器或连续注射枪按规定剂量接种，注射部位为右侧肩胛骨后缘（中上部）1cm处肋间隙，溶解疫苗在2h内用完。",
+    "error_detail": "错误地描述了注射部位的方向，导致概念混淆。",
+    "original_question": "胸腔注射的具体操作步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "用乳头滴管吸取疫苗，将鸡眼或鼻孔向下，呈垂直位置，滴头距离眼或鼻孔1cm左右，滴于眼或鼻孔内。",
+    "reference_case": "用乳头滴管吸取疫苗，将鸡眼或鼻孔向上，呈水平位置，滴头距离眼或鼻孔1cm左右，滴于眼或鼻孔内。",
+    "error_detail": "错误地描述了滴鼻时的姿势和方向，导致概念混淆。",
+    "original_question": "猪支原体肺炎弱毒冻干疫苗滴鼻的具体操作是什么？",
+    "original_input": ""
+  }
+]

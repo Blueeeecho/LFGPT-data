@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "精子经 TritonX-100 处理后，EGFP 阳性胚胎率显著增加，卵裂率与对照组无显著差异。TritonX-100 处理组的囊胚发育率也显著高于对照组，可能反映出 TritonX-100 对胚胎的促进作用。",
+    "reference_case": "精子经 TritonX-100 处理后，EGFP 阳性胚胎率有所增加，但卵裂率显著低于对照组。TritonX-100 处理组的囊胚发育率也显著低于对照组，可能反映出 TritonX-100 对胚胎的毒性作用。",
+    "error_detail": "错误地改变了数据趋势和结论，将毒性作用误报为促进作用",
+    "original_question": "精子经 TritonX-100 处理后，对猪 ICSI 转基因胚胎的发育有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "精子经液氮反复冻融处理后，EGFP 阳性胚胎率显著增加，卵裂率与对照组无显著差异。反复冻融组的囊胚发育率也显著高于对照组，可能反映出精子质膜修复对胚胎发育的正面影响。",
+    "reference_case": "精子经液氮反复冻融处理后，EGFP 阳性胚胎率略高于对照组，但卵裂率显著低于对照组。反复冻融组的囊胚发育率也低于对照组，可能反映出精子质膜损伤对胚胎发育的负面影响。",
+    "error_detail": "错误地将质膜损伤理解为质膜修复，并错误地改变了数据趋势",
+    "original_question": "精子经液氮反复冻融处理后，对猪 ICSI 转基因胚胎的发育有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "TSA 是一种组蛋白乙酰化酶激活剂，通过降低组蛋白乙酰化水平，诱导核小体与 DNA 和/或连接组蛋白的结合变得较紧密，从而抑制与发育有关的关键基因的转录活性。适当的 TSA 处理有利于抑制胚胎发育及相关基因的表达。",
+    "reference_case": "TSA 是一种组蛋白去乙酰化酶抑制剂，通过提高组蛋白乙酰化水平，诱导核小体与 DNA 和/或连接组蛋白的结合变得较松散，从而增强与发育有关的关键基因的转录活性。适当的 TSA 处理有利于促进胚胎发育及相关基因的表达。",
+    "error_detail": "错误地将TSA的作用机制和效果完全颠倒",
+    "original_question": "在猪 ICSI 转基因胚胎的体外培养中，TSA 处理对胚胎发育的影响机制是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV-2:的基因组长度为1867 bp。",
+    "reference_case": "猪圆环病毒2型（PCV-2:的基因组长度为1767 bp。",
+    "error_detail": "错误地改变了基因组长度数据",
+    "original_question": "猪圆环病毒2型（PCV-2:的基因组长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在口蹄疫病毒中，1D蛋白大部分隐藏在病毒的内部，是决定病毒稳定性的主要成分。",
+    "reference_case": "在口蹄疫病毒中，1D蛋白大部分暴露在病毒的表面，是决定病毒抗原性的主要成分。",
+    "error_detail": "错误地改变了1D蛋白的位置和作用",
+    "original_question": "猪萨佩罗病毒（PSV）的1D蛋白在口蹄疫病毒中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪萨佩罗病毒YC2011株的1D基因的PCR扩增产物大小为755 bp。",
+    "reference_case": "猪萨佩罗病毒YC2011株的1D基因的PCR扩增产物大小为855 bp。",
+    "error_detail": "错误地改变了PCR扩增产物大小数据",
+    "original_question": "猪萨佩罗病毒（PSV）YC2011株的1D基因的PCR扩增产物大小是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪萨佩罗病毒YC2011株的1D基因的克隆和表达研究的主要目的是研究1D蛋白的结构和功能。",
+    "reference_case": "猪萨佩罗病毒YC2011株的1D基因的克隆和表达研究的主要目的是获得大量纯化的重组1D蛋白，以建立PSV特异性ELISA检测方法，并开发PSV血清诊断试剂盒。",
+    "error_detail": "错误地改变了研究的主要目的",
+    "original_question": "猪萨佩罗病毒（PSV）YC2011株的1D基因的克隆和表达研究的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪萨佩罗病毒的基因组全长约为8:5 kb，其多聚蛋白与一般的小RNA病毒的L-4-3-4布局不一致。",
+    "reference_case": "猪萨佩罗病毒的基因组全长约为7:5 kb，其多聚蛋白与一般的小RNA病毒的L-4-3-4布局相一致，包含一条前导肽引领着4个结构多肽（1A、1B、1C和1D）和7个非结构多肽（2A、2B、2C、3A、3B、3C和3D）。",
+    "error_detail": "错误地改变了基因组长度和布局描述",
+    "original_question": "猪萨佩罗病毒（PSV）的基因组结构是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪萨佩罗病毒在野猪群和人工饲养猪群中的感染率分别为37:8%和23:8%，其中人工饲养猪群中的哺乳仔猪感染率达到24:6%。",
+    "reference_case": "猪萨佩罗病毒在野猪群和人工饲养猪群中的感染率分别为27:8%和33:8%，其中人工饲养猪群中的哺乳仔猪感染率达到14:6%。",
+    "error_detail": "错误地改变了感染率数据",
+    "original_question": "猪萨佩罗病毒（PSV）的感染率在不同猪群中有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪萨佩罗病毒YC2011株的1D基因是通过基因合成方法克隆的。",
+    "reference_case": "猪萨佩罗病毒YC2011株的1D基因是通过RT-PCR方法克隆的。首先从病毒中提取RNA，然后反转录成cDNA，接着使用特异性引物进行PCR扩增，最终将扩增产物克隆到pMD18-T载体中。",
+    "error_detail": "错误地改变了克隆方法",
+    "original_question": "猪萨佩罗病毒（PSV）YC2011株的1D基因是如何克隆的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪萨佩罗病毒YC2011株的1D蛋白在Western blot检测中与PSV阴性血清发生了特异性反应。",
+    "reference_case": "猪萨佩罗病毒YC2011株的1D蛋白在Western blot检测中与PSV阳性血清发生了特异性反应，表明所表达的1D融合蛋白保持良好的反应性。",
+    "error_detail": "错误地改变了血清反应性描述",
+    "original_question": "猪萨佩罗病毒（PSV）YC2011株的1D蛋白的Western blot检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪萨佩罗病毒YC2011株的1D基因在原核表达系统中成功表达，表达的融合蛋白分子质量约为61 ku。",
+    "reference_case": "猪萨佩罗病毒YC2011株的1D基因在原核表达系统中成功表达，表达的融合蛋白分子质量约为51 ku，并且能够被猪萨佩罗病毒阳性血清识别。",
+    "error_detail": "错误地改变了融合蛋白分子质量数据",
+    "original_question": "猪萨佩罗病毒（PSV）YC2011株的1D基因在原核表达系统中的表达结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪萨佩罗病毒的1D蛋白位于病毒粒子内部，能够诱导细胞免疫，是决定病毒稳定性的主要成分。",
+    "reference_case": "猪萨佩罗病毒的1D蛋白位于病毒粒子表面，能够诱导抗体产生体液免疫，是决定病毒抗原性的主要成分，并且含有细胞受体的结合位点，是病毒入侵细胞的关键蛋白。",
+    "error_detail": "错误地改变了1D蛋白的位置和免疫作用",
+    "original_question": "猪萨佩罗病毒（PSV）的1D蛋白在病毒中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪萨佩罗病毒YC2011株的1D基因的原核表达载体是通过将1D基因插入到pET-28a(+)载体中构建的。",
+    "reference_case": "猪萨佩罗病毒YC2011株的1D基因的原核表达载体是通过将1D基因插入到pET-32a(+)载体中构建的。首先用限制性内切酶Not I和Sal I对1D基因和pET-32a(+)载体进行双酶切，然后将1D基因与线性化的pET-32a(+)载体连接，最终转化到BL21感受态细胞中。",
+    "error_detail": "错误地改变了表达载体",
+    "original_question": "猪萨佩罗病毒（PSV）YC2011株的1D基因的原核表达载体是如何构建的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "副猪嗜血杆菌的血清型分类法不存在大范围交叉反应的局限性，且血清型之间不存在交叉反应。",
+    "reference_case": "副猪嗜血杆菌的血清型分类法存在大范围交叉反应的局限性，且血清型之间存在广泛的交叉反应。此外，血清型分类法无法对未确定血清型的菌株进行分型。",
+    "error_detail": "错误地否定了血清型分类法的局限性",
+    "original_question": "副猪嗜血杆菌的血清型分类法有哪些局限性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "副猪嗜血杆菌的菌株分型方法仅包括血清型分类法。",
+    "reference_case": "副猪嗜血杆菌的菌株分型方法包括血清型分类法和基因分型方法。基因分型方法如限制性内切酶指纹图谱（REF）、多位点酶电泳（MEE）、重复序列PCR（Rep-PCR）、肠杆菌基因间重复一致序列聚合酶链反应（ERIC-PCR）以及限制性片段长度多态性聚合酶链反应（PCR-RFLP）等。",
+    "error_detail": "错误地忽略了基因分型方法",
+    "original_question": "副猪嗜血杆菌的菌株分型方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "副猪嗜血杆菌的基因分型方法如REF不适用于研究菌株的存在和分布。",
+    "reference_case": "副猪嗜血杆菌的基因分型方法如REF适用于研究菌株的存在和分布，MEE可以对菌群多样性进行研究，Rep-PCR主要用于描述副猪嗜血杆菌分离菌株的多样性以及猪场内和猪场间副猪嗜血杆菌感染的流行病学研究，ERIC-PCR可用于菌株的描述和菌株间比较的区分能力很高，PCR-RFLP具有特异性好、操作方便和分型时间短等优点。",
+    "error_detail": "错误地否定了REF的应用",
+    "original_question": "副猪嗜血杆菌的基因分型方法有哪些应用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "副猪嗜血杆菌的PCR检测方法具有特异性弱和灵敏度低的特点。",
+    "reference_case": "副猪嗜血杆菌的PCR检测方法具有特异性强和灵敏度高的特点。由于PCR反应灵敏，实验室操作中一旦有外源DNA污染或是各种实验条件控制不当就会出现假阳性结果或非特异性条带。引物的设计至关重要，只有特异性的引物才能扩增出相应特异性的条带。",
+    "error_detail": "错误地改变了PCR检测方法的特点",
+    "original_question": "副猪嗜血杆菌的PCR检测方法有哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "副猪嗜血杆菌的分子生物学诊断技术不包括PCR技术。",
+    "reference_case": "副猪嗜血杆菌的分子生物学诊断技术包括PCR技术和环介导等温扩增技术（LAMP）。PCR技术特异性强和灵敏度高，而LAMP技术具有灵敏度高、反应时间短、操作简单等优点。",
+    "error_detail": "错误地排除了PCR技术",
+    "original_question": "副猪嗜血杆菌的分子生物学诊断技术有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "副猪嗜血杆菌的多位点序列分型（MLST）不适用于副猪嗜血杆菌病暴发流行病学调查。",
+    "reference_case": "副猪嗜血杆菌的多位点序列分型（MLST）可用于副猪嗜血杆菌病暴发流行病学调查，追踪副猪嗜血杆菌的进化，以及找出毒力、交叉免疫性和基因型之间的关系。MLST数据库的建立为Hps临床诊断提供强大的信息保障。",
+    "error_detail": "错误地否定了MLST的应用",
+    "original_question": "副猪嗜血杆菌的多位点序列分型（MLST）有哪些应用？",
+    "original_input": ""
+  }
+]

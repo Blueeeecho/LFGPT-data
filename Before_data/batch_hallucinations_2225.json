@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "啤酒酵母含有最高的粗蛋白质，达到60%，而苜蓿草粉、酒糟、蔗糖、猪油、菜籽油和大豆油的粗蛋白质含量较低。",
+    "reference_case": "啤酒酵母含有最高的粗蛋白质，达到52.4%，而苜蓿草粉、酒糟、蔗糖、猪油、菜籽油和大豆油的粗蛋白质含量较低。",
+    "error_detail": "粗蛋白质含量的数值被夸大",
+    "original_question": "哪些饲料含有较高的粗蛋白质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "苜蓿草粉含有3.3%的粗脂肪，酒糟含有6.3%，啤酒酵母含有1.4%，蔗糖的粗脂肪含量大于或等于99%，猪油、菜籽油和大豆油的粗脂肪含量分别为",
+    "reference_case": "苜蓿草粉含有2.3%的粗脂肪，酒糟含有5.3%，啤酒酵母含有0.4%，蔗糖的粗脂肪含量大于或等于98%，猪油、菜籽油和大豆油的粗脂肪含量分别为",
+    "error_detail": "粗脂肪含量的数值被夸大",
+    "original_question": "饲料中的粗脂肪含量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "苜蓿草粉的钙含量为1.60%，而其它饲料如酒糟、啤酒酵母、蔗糖、猪油、菜籽油和大豆油的钙含量较低。",
+    "reference_case": "苜蓿草粉的钙含量为1.40%，而其它饲料如酒糟、啤酒酵母、蔗糖、猪油、菜籽油和大豆油的钙含量较低。",
+    "error_detail": "钙含量的数值被夸大",
+    "original_question": "4、哪种饲料的钙含量最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "蔗糖的总磷含量为0.61%，有效磷含量也为0.61%，而猪油、菜籽油和大豆油的磷含量为0。",
+    "reference_case": "蔗糖的总磷含量为0.51%，有效磷含量也为0.51%，而猪油、菜籽油和大豆油的磷含量为0。",
+    "error_detail": "磷含量的数值被夸大",
+    "original_question": "哪几种饲料含有较高的磷？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪口蹄疫主要发生于散养的养猪场，猪易感而牛羊极少易感；猪水泡病大小猪基本不死亡，猪口蹄疫大猪致死率3—5%，仔猪致死率60%以上。",
+    "reference_case": "猪口蹄疫主要发生于集中饲养的养猪场，猪易感而牛羊极少易感；猪水泡病大小猪基本不死亡，猪口蹄疫大猪致死率3—5%，仔猪致死率60%以上。",
+    "error_detail": "养猪场的饲养方式被错误描述",
+    "original_question": "口蹄疫与猪水泡病的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "口蹄疫O型、A型鼠化弱毒苗用于牛羊，肌肉注射，剂量按动物年龄调整；猪口蹄疫O型灭活苗耳根皮下注射，剂量为10毫升；高免血清或痊愈血清用于幼猪和正在调运的猪。",
+    "reference_case": "口蹄疫O型、A型鼠化弱毒苗用于牛羊，皮下注射，剂量按动物年龄调整；猪口蹄疫O型灭活苗耳根皮下注射，剂量为5毫升；高免血清或痊愈血清用于幼猪和正在调运的猪。",
+    "error_detail": "注射方式和剂量被错误修改",
+    "original_question": "口蹄疫疫苗的使用方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "蠕形螨主要寄生在犬、牛、猪、羊、马等动物及人类的皮肤表面。",
+    "reference_case": "蠕形螨主要寄生在犬、牛、猪、羊、马等动物及人类的皮肤毛囊和皮脂腺内。",
+    "error_detail": "寄生部位被错误描述",
+    "original_question": "蠕形螨主要寄生在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "实验动物包括羊、猪、牛等家畜，以及实验室常用的小鼠和大鼠。",
+    "reference_case": "实验动物包括羊、猪、牛等家畜。",
+    "error_detail": "添加了未被提及的实验动物",
+    "original_question": "驱虫实验需要哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验组动物按药物说明上的推荐剂量，给予驱虫药物，如伊维菌素或阿维菌素，有效成分剂量：牛羊为0.3 mg/kg体重，猪为0.4 mg/kg体重。",
+    "reference_case": "试验组动物按药物说明上的推荐剂量，给予驱虫药物，如伊维菌素或阿维菌素，有效成分剂量：牛羊为0.2 mg/kg体重，猪为0.3 mg/kg体重。",
+    "error_detail": "药物剂量被夸大",
+    "original_question": "驱虫药物如何给药？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "适用于北方平原地区推广应用。",
+    "reference_case": "适用于南方丘陵山区推广应用。",
+    "error_detail": "适用地区被错误描述",
+    "original_question": "粮食喂鸡一鸡粪喂猪一粪入鱼塘一塘泥肥田的模式适用于哪个地区？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "高粱用作猪饲料时需加粉碎，细度以粗为宜，过细会影响适口性。必须与优质的蛋白质饲料配合使用，同时补充维生素A。",
+    "reference_case": "高粱用作猪饲料时需加粉碎，细度以中等为宜，过细会影响适口性。必须与优质的蛋白质饲料配合使用，同时补充维生素A。",
+    "error_detail": "粉碎细度被错误修改",
+    "original_question": "高粱作为猪饲料时需要注意哪些事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "啤酒糟适于喂猪，尤其是肥育猪，可改善尿素的利用率，也有防止瘤胃角化不全和消化障碍的效果，喂量可占日粮的40%-45%。啤酒糟也可用于喂牛，用于喂鸡的适口性差，代谢能值低，通常不能多喂。",
+    "reference_case": "啤酒糟适于喂猪，尤其是肥育猪，可改善尿素的利用率，也有防止瘤胃角化不全和消化障碍的效果，喂量可占日粮的30%-35%。啤酒糟也可用于喂牛，用于喂鸡的适口性差，代谢能值低，通常不能多喂。",
+    "error_detail": "喂量比例被夸大",
+    "original_question": "啤酒糟的主要用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "白酒糟用于喂猪营养不全，称\"火性峒料\"，喂量过多容易引起便秘，最大喂量不得超过日粮的50%。在饲喂时应搭配玉米、糠敖、饼类等精料，补充骨粉、贝粉，并要多喂一些青饲料，以纠正营养成分不全和防止便秘。",
+    "reference_case": "白酒糟用于喂猪营养不全，称\"火性峒料\"，喂量过多容易引起便秘，最大喂量不得超过日粮的40%。在饲喂时应搭配玉米、糠敖、饼类等精料，补充骨粉、贝粉，并要多喂一些青饲料，以纠正营养成分不全和防止便秘。",
+    "error_detail": "最大喂量比例被夸大",
+    "original_question": "白酒糟对猪的适口性和营养影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "马铃薯茎叶开始变黄时块茎已成熟，即可收获，但兼收茎叶青贮或留作种薯则应推迟收获。",
+    "reference_case": "马铃薯茎叶开始变黄时块茎已成熟，即可收获，但兼收茎叶青贮或留作种薯则应提早收获。",
+    "error_detail": "收获时间被错误修改",
+    "original_question": "马铃薯的收获适期是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "打浆后的秸秆主要用于饲喂猪、禽，可生喂、熟喂或发酵、青贮后饲喂，但不适用于反刍动物。",
+    "reference_case": "打浆后的秸秆主要用于饲喂猪、禽，可生喂、熟喂或发酵、青贮后饲喂。",
+    "error_detail": "添加了不适用于反刍动物的错误信息",
+    "original_question": "秸秆打浆的主要用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长育肥猪日粮中添加15%的脱水苜蓿草粉，猪的背膘厚度减少5%。",
+    "reference_case": "在生长育肥猪日粮中添加10%的脱水苜蓿草粉，猪的背膘厚度减少3%。",
+    "error_detail": "添加比例和效果被夸大",
+    "original_question": "苜蓿草粉对猪胴体瘦肉率的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的消化生理特点是杂食性、粗纤维消化率高、具有发达的消化器官和较强的消化机能、吃得快消化快。",
+    "reference_case": "猪的消化生理特点是杂食性、粗纤维消化率低、具有发达的消化器官和较强的消化机能、吃得快消化快。",
+    "error_detail": "粗纤维消化率被错误描述",
+    "original_question": "猪的消化生理特点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪对饲料的适应性强，能更广泛地利用各种饲料，充分挖掘猪的杂食性，广辟饲料来源，节约粮食，提高经济效益，尤其是在无抗生素饲养条件下。",
+    "reference_case": "猪对饲料的适应性强，能更广泛地利用各种饲料，充分挖掘猪的杂食性，广辟饲料来源，节约粮食，提高经济效益。",
+    "error_detail": "添加了无抗生素饲养条件的假设",
+    "original_question": "猪对饲料的适应性体现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪消化液中含有分解纤维素的酶，粗纤维主要靠大肠内的微生物分解发酵进行消化。",
+    "reference_case": "猪消化液中不含分解纤维素的酶，粗纤维主要靠大肠内的微生物分解发酵进行消化。",
+    "error_detail": "消化液成分被错误描述",
+    "original_question": "猪的粗纤维消化率低的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的小肠发达，长18~22米，是消化吸收的主要部分。",
+    "reference_case": "猪的小肠发达，长16~20米，是消化吸收的主要部分。",
+    "error_detail": "小肠长度被夸大",
+    "original_question": "猪的小肠有哪些特点？",
+    "original_input": ""
+  }
+]

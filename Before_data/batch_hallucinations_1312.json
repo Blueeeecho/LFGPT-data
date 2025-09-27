@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪流感疫苗包含了H1N1、H3N2和H5N1三个血清型的抗原。",
+    "reference_case": "由于免疫保护具有血清型特异性，疫苗包含了H1N1和H3N2两个血清型的抗原。",
+    "error_detail": "错误地添加了H5N1血清型，实际上疫苗只包含H1N1和H3N2。",
+    "original_question": "猪流感疫苗包含哪些血清型的抗原？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "实验动物在疫苗生产中主要用于生产人类的天花疫苗和口蹄疫疫苗，其中猫用于生产猪瘟疫苗。",
+    "reference_case": "牛用于生产人类的天花疫苗和口蹄疫疫苗；兔用于生产猪瘟疫苗；鸡和鸡胚用于生产人类疫苗和禽类疫苗；猴子用于生产人类疫苗，如消除传染性小儿麻痹症。",
+    "error_detail": "错误地将猫用于生产猪瘟疫苗，实际上兔用于生产猪瘟疫苗。",
+    "original_question": "实验动物在疫苗生产中有哪些应用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "副禽嗜血杆菌疫苗的佐剂包括明矾、氢氧化铝和皂苷，但现在主要使用新型佐剂如MF59。",
+    "reference_case": "与大肠杆菌疫苗一样，嗜血杆菌疫苗也限用于产蛋鸡群和种鸡群，疫苗中加入明矾或氢氧化铝进行吸附或者以皂苷为佐剂配制疫苗。",
+    "error_detail": "错误地声称现在主要使用新型佐剂如MF59，实际上仍使用明矾、氢氧化铝和皂苷。",
+    "original_question": "副禽嗜血杆菌疫苗的佐剂有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "新生犊牛和仔猪腹泻相关的ETEC的毒力因子在美国主要包括黏附素K88ab和肠毒素LT。",
+    "reference_case": "新生犊牛和仔猪腹泻相关的ETEC的毒力因子包括黏附素（如K88ab, K88ac, K88ad, K99, 987P, F41等）和肠毒素（如LT, ST等）。",
+    "error_detail": "错误地将毒力因子限定为美国主要包含的K88ab和LT，实际上包括多种黏附素和肠毒素。",
+    "original_question": "新生犊牛和仔猪腹泻相关的产肠毒素大肠杆菌（ETEC）的毒力因子有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "抗ZP抗体能促进卵泡的发育，因为精子附着在ZP的表面有助于卵泡的成熟。",
+    "reference_case": "抗ZP抗体能抑制精子附着在ZP的表面，从而中断卵泡的发育。",
+    "error_detail": "错误地声称抗ZP抗体能促进卵泡的发育，实际上它会抑制精子附着并中断卵泡发育。",
+    "original_question": "抗ZP抗体如何影响卵泡的发育？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母源抗体在猫和狗中主要通过初乳获得，而在猪体内持续存在8至10周，在其他家畜体内持续存在10至12个月。",
+    "reference_case": "母源抗体在猫和狗中主要通过初乳获得，而在猪体内持续存在4至6周，在其他家畜体内持续存在6至8个月。",
+    "error_detail": "错误地延长了母源抗体在猪和其他家畜体内的持续时间。",
+    "original_question": "母源抗体对不同动物群体免疫接种的影响有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "摄入多量维生素E可增强猪对大肠杆菌苗的应答，增强牛对大肠杆菌J5乳腺炎疫苗的应答，但对鸡无效。",
+    "reference_case": "摄入多量维生素E可增强猪对大肠杆菌苗的应答，增强牛对大肠杆菌J5乳腺炎疫苗的应答。",
+    "error_detail": "错误地添加了对鸡无效的陈述，原输出未提及鸡。",
+    "original_question": "过度摄入维生素E如何影响免疫反应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "引起免疫抑制的病毒包括传染性法氏囊病、马立克氏病、淋巴样白血病、传染性喉气管炎、牛病毒性腹泻、牛白血病、传染性牛鼻气管炎、犬瘟热、犬细小病毒、猫泛白细胞缺乏症、猫白血病、猫免疫缺陷症、非洲猪瘟、流感病毒、梅迪—维斯纳病毒、马传染性贫血、马疱疹病毒I和IV等，以及新发现的病毒X。",
+    "reference_case": "传染性法氏囊病、马立克氏病、淋巴样白血病、传染性喉气管炎、牛病毒性腹泻、牛白血病、传染性牛鼻气管炎、犬瘟热、犬细小病毒、猫泛白细胞缺乏症、猫白血病、猫免疫缺陷症、非洲猪瘟、流感病毒、梅迪—维斯纳病毒、马传染性贫血、马疱疹病毒I和IV等。",
+    "error_detail": "错误地添加了新发现的病毒X，原输出未提及。",
+    "original_question": "哪些病毒会引起免疫抑制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "现在需要广大兽医机构严格控制的疫病包括口蹄疫、牛瘟、经典猪瘟、牛传染性胸膜肺炎、牛结核、狂犬病、新城疫、小反刍兽布氏杆菌病、伪狂犬病和各种节肢动物传播性疫病，尤其是在非洲地区。",
+    "reference_case": "现在需要广大兽医机构严格控制的疫病包括口蹄疫、牛瘟、经典猪瘟、牛传染性胸膜肺炎、牛结核、狂犬病、新城疫、小反刍兽布氏杆菌病、伪狂犬病和各种节肢动物传播性疫病。",
+    "error_detail": "错误地将疫病控制限定为非洲地区，实际上这些疫病需要全球控制。",
+    "original_question": "现在需要广大兽医机构严格控制的疫病有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "A类疫病包括口蹄疫、水泡性口炎、猪水泡病、牛瘟、小反刍兽疫、牛传染性胸膜肺炎、牛皮肤结节病、裂谷热、蓝舌病、绵羊痘和山羊痘、非洲马瘟、经典猪瘟、禽流感、新城疫和猪瘟。",
+    "reference_case": "A类疫病包括口蹄疫、水泡性口炎、猪水泡病、牛瘟、小反刍兽疫、牛传染性胸膜肺炎、牛皮肤结节病、裂谷热、蓝舌病、绵羊痘和山羊痘、非洲马瘟、经典猪瘟、禽流感、新城疫。",
+    "error_detail": "错误地添加了猪瘟，实际上A类疫病中已包含经典猪瘟。",
+    "original_question": "A类疫病包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪水泡病有一种实验性疫苗正在测试中。",
+    "reference_case": "猪水泡病没有疫苗。",
+    "error_detail": "错误地声称有一种实验性疫苗正在测试中，实际上没有疫苗。",
+    "original_question": "猪水泡病的疫苗情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "目前非洲猪瘟有一种新型疫苗正在研发中。",
+    "reference_case": "目前没有疼苗可用。",
+    "error_detail": "错误地声称有一种新型疫苗正在研发中，实际上没有疫苗可用。",
+    "original_question": "非洲猪瘟的疫苗情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "布氏杆菌病的疫苗生产和使用主要是在欧洲和非洲地区。",
+    "reference_case": "疫苗的生产和使用主要是在美洲、亚洲和中东地区。",
+    "error_detail": "错误地将疫苗生产和使用地区限定为欧洲和非洲，实际上是在美洲、亚洲和中东地区。",
+    "original_question": "布氏杆菌病的疫苗生产使用情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "发展中国家对疫苗的特殊要求包括经济动物和禽类的疫苗需求量，以及动物疫病防控策略正在发生变化，迫于发达国家的压力和动物卫生改善而慢慢改变，现在主要使用DNA疫苗。",
+    "reference_case": "主要涉及经济动物（牛、一些小反刍动物和猪）和禽类的疫苗需求量，以及动物疫病防控策略正在发生变化，迫于发达国家的压力和动物卫生改善而慢慢改变。",
+    "error_detail": "错误地声称现在主要使用DNA疫苗，原输出未提及。",
+    "original_question": "发展中国家对疫苗有何特殊要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "疫苗免疫接种在口蹄疫、牛传染性胸膜肺炎、非洲马瘟、经典猪瘟、新城疼病、猪伪狂犬病、狂犬病、布氏杆菌病和结核病的控制中最为常用，尤其是在猪和牛中。",
+    "reference_case": "根据表4-46，口蹄疫、牛传染性胸膜肺炎、非洲马瘟、经典猪瘟、新城疼病、猪伪狂犬病、狂犬病、布氏杆菌病和结核病的疫苗免疫接种是常用方法。",
+    "error_detail": "错误地将疫苗免疫接种限定为猪和牛中，原输出未提及。",
+    "original_question": "疫苗免疫接种在哪些主要动物疫病控制中最为常用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "油佐剂疫苗被广泛用于猪的免疫接种，因为它们能减少猪对病毒的免疫反应。",
+    "reference_case": "油佐剂疫苗能有效提高猪对病毒的免疫反应。",
+    "error_detail": "错误地声称油佐剂疫苗能减少免疫反应，实际上它能提高免疫反应。",
+    "original_question": "油佐剂疫苗为什么被广泛用于猪的免疫接种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "几丁质水解产物N-乙酰氨基葡萄糖是肠道中双歧乳酸杆菌的生长因子，在仔猪料中大量添加可起到抗病促生长作用。",
+    "reference_case": "几丁质水解产物N-乙酰氨基葡萄糖是肠道中双歧乳酸杆菌的生长因子，在仔猪料中适量添加可起到抗病促生长作用。",
+    "error_detail": "错误地建议大量添加，实际上应适量添加。",
+    "original_question": "几丁质水解产物N-乙酰氨基葡萄糖对动物有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "日粮中能量和蛋白质水平会影响水溶性维生素的添加量，可能导致维生素缺乏症如猪的下承、鸡的产蛋率下降等，尤其是维生素A缺乏。",
+    "reference_case": "日粮中能量和蛋白质水平会影响水溶性维生素的添加量，可能导致维生素缺乏症如猪的下承、鸡的产蛋率下降等。",
+    "error_detail": "错误地提及维生素A缺乏，原输出未提及。",
+    "original_question": "日粮中能量和蛋白质水平对水溶性维生素添加量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "缺乏水溶性维生素可能导致猪的脱毛、皮炎、后肢痉率，鸡的皮茧、口炎、羽毛损伤、产蛋及孵化率下降等症状，现在主要通过注射补充。",
+    "reference_case": "缺乏水溶性维生素可能导致猪的脱毛、皮炎、后肢痉率，鸡的皮茧、口炎、羽毛损伤、产蛋及孵化率下降等症状。",
+    "error_detail": "错误地声称现在主要通过注射补充，原输出未提及。",
+    "original_question": "缺乏水溶性维生素可能导致哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "高粱饲料价值约为玉米的 95%，单宁酸宜控制在 0.2% 以下，含单宁高的高粱喂鸡易引起关节肿胀，添加 DL-蛋氨酸可预防脚弱症，尤其是在亚洲地区。",
+    "reference_case": "高粱饲料价值约为玉米的 95%，单宁酸宜控制在 0.2% 以下，含单宁高的高粱喂鸡易引起关节肿胀，添加 DL-蛋氨酸可预防脚弱症。",
+    "error_detail": "错误地将情况限定为亚洲地区，实际上普遍适用。",
+    "original_question": "高粱作为家禽饲料的价值如何？",
+    "original_input": ""
+  }
+]

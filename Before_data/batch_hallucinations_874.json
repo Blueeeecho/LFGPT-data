@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "传统方法需要从活体采卵，耗时长且花费大，而该实验采用孤雌激活的猪囊胚作为胚胎来源，大大降低了成本，并且卵母细胞的质量决定了胚胎的发育潜力，提高了分离培养的效率，效率提高了50%。",
+    "reference_case": "传统方法需要从活体采卵，耗时长且花费大，而该实验采用孤雌激活的猪囊胚作为胚胎来源，大大降低了成本，并且卵母细胞的质量决定了胚胎的发育潜力，提高了分离培养的效率。",
+    "error_detail": "添加了未经证实的效率提高百分比",
+    "original_question": "猪滋养层干细胞样细胞的分离培养实验中，滋养层干细胞样细胞的分离培养方法与传统方法相比有何优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在大白猪和杜洛克猪群体中，单倍型B的频率较高，分别为0:60和0:70。",
+    "reference_case": "在大白猪和杜洛克猪群体中，单倍型B的频率较高，分别为0:40和0:53。",
+    "error_detail": "错误地提高了单倍型B的频率数值",
+    "original_question": "在大白猪和杜洛克猪群体中，哪些单倍型的频率较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "马身猪群体中除了A、B、C单倍型外，还检测到了单倍型D，频率为0:16。",
+    "reference_case": "马身猪群体中除了A、B、C单倍型外，还检测到了单倍型E，频率为0:16。",
+    "error_detail": "错误地将单倍型E替换为单倍型D",
+    "original_question": "马身猪群体中除了A、B、C单倍型外，还检测到了哪种单倍型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "长白猪群体中检测到了B和C两种单倍型，且单倍型B的频率较高，为0:72。",
+    "reference_case": "长白猪群体中检测到了B和C两种单倍型，且单倍型C的频率较高，为0:72。",
+    "error_detail": "错误地将高频单倍型从C改为B",
+    "original_question": "长白猪群体中检测到了哪些单倍型，且哪种单倍型的频率较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "山西白猪的单倍型分布与长白猪相似，主要是B和C两种单倍型，且单倍型B频率较高，为0:73；山西黑猪的单倍型分布与杜洛克猪一致，主要是A、B和C三种单倍型，频率分别为0:51、0:35和0:21。",
+    "reference_case": "山西白猪的单倍型分布与长白猪相似，主要是B和C两种单倍型，且单倍型C频率较高，为0:73；山西黑猪的单倍型分布与杜洛克猪一致，主要是A、B和C三种单倍型，频率分别为0:41、0:35和0:21。",
+    "error_detail": "错误地修改了单倍型频率和主导单倍型",
+    "original_question": "山西白猪和山西黑猪的单倍型分布与其遗传组成有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "统计分析结果表明，CAST基因单倍型对山西白猪6月龄活体背膘厚有显著影响，特别是单倍型C。",
+    "reference_case": "统计分析结果表明，CAST基因单倍型对山西白猪6月龄活体背膘厚无显著影响。",
+    "error_detail": "错误地添加了CAST基因单倍型对背膘厚有显著影响的假设",
+    "original_question": "CAST基因单倍型对山西白猪6月龄活体背膘厚有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "免疫刺激复合物（ISCOMs）在疫苗中的应用包括：Homhuan等（2004:将ISCOMs和含有凝血素一神经氨酸酶蛋白（HN）和融合蛋白（F）制备成疫苗对鸡进行皮下注射，该疫苗对新城疫强毒攻击的保护率大于90%。熊祺琰等（2011:将ISCOM-基质与猪肺炎支原体168株活疫苗混合培养，发现ISCOM-基质可显著增强免疫猪的细胞免疫反应和体液免疫反应。",
+    "reference_case": "免疫刺激复合物（ISCOMs）在疫苗中的应用包括：Homhuan等（2004:将ISCOMs和含有凝血素一神经氨酸酶蛋白（HN）和融合蛋白（F）制备成疫苗对鸡进行皮下注射，该疫苗对新城疫强毒攻击的保护率大于80%。熊祺琰等（2011:将ISCOM-基质与猪肺炎支原体168株活疫苗混合培养，发现ISCOM-基质可显著增强免疫猪的细胞免疫反应和体液免疫反应。",
+    "error_detail": "错误地提高了保护率数值",
+    "original_question": "免疫刺激复合物（ISCOMs）在疫苗中的应用有哪些具体例子？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "Parasail 疫苗对血清 4、5 和 14 型的副猪嗜血杆菌具有交叉保护作用。",
+    "reference_case": "Parasail 疫苗对血清 4、5 和 13 型的副猪嗜血杆菌具有交叉保护作用。",
+    "error_detail": "错误地将血清型13改为14",
+    "original_question": "Parasail 疫苗对哪些血清型的副猪嗜血杆菌具有交叉保护作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "目前预防副猪嗜血杆菌病的主要疫苗类型是活疫苗。",
+    "reference_case": "目前预防副猪嗜血杆菌病的主要疫苗类型是灭活疫苗。",
+    "error_detail": "错误地将灭活疫苗改为活疫苗",
+    "original_question": "目前预防副猪嗜血杆菌病的主要疫苗类型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "副猪嗜血杆菌病疫苗的研制理论基础是母代提供的免疫力和天然形成的免疫力是控制疾病过程的关键性因素，以及基因工程技术的应用。",
+    "reference_case": "副猪嗜血杆菌病疫苗的研制理论基础是母代提供的免疫力和天然形成的免疫力是控制疾病过程的关键性因素。",
+    "error_detail": "错误地添加了基因工程技术的应用作为理论基础",
+    "original_question": "副猪嗜血杆菌病疫苗的研制理论基础是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "副猪嗜血杆菌病主要引起猪的多发性浆膜炎、纤维素性心包炎、关节炎和肺炎。",
+    "reference_case": "副猪嗜血杆菌病主要引起猪的多发性浆膜炎、纤维素性心包炎、关节炎和脑膜炎。",
+    "error_detail": "错误地将脑膜炎改为肺炎",
+    "original_question": "副猪嗜血杆菌病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "自家灭活苗是指从健康猪体内分离的非致病性菌株，经实验室的分离培养鉴定，大规模制备、灭活、添加免疫佐剂，并经田间初步试验后供发病猪场使用的疫苗。",
+    "reference_case": "自家灭活苗是指从发病猪体内分离的致病性毒力菌株，经实验室的分离培养鉴定，大规模制备、灭活、添加免疫佐剂，并经田间初步试验后供发病猪场使用的疫苗。",
+    "error_detail": "错误地将致病性毒力菌株改为非致病性菌株",
+    "original_question": "什么是自家灭活苗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "目前市场上商业化的副猪嗜血杆菌病灭活疫苗主要有副猪嗜血杆菌病灭活疫苗 Z-1517株、副猪嗜血杆菌病灭活疫苗 SV-1 株+ SV-6 株、副猪嗜血杆菌病灭活疫苗 4 型 MD0332株 +5 型 SH0165株和6型。",
+    "reference_case": "目前市场上商业化的副猪嗜血杆菌病灭活疫苗主要有副猪嗜血杆菌病灭活疫苗 Z-1517株、副猪嗜血杆菌病灭活疫苗 SV-1 株+ SV-6 株、副猪嗜血杆菌病灭活疫苗 4 型 MD0332株 +5 型 SH0165株。",
+    "error_detail": "错误地添加了6型疫苗",
+    "original_question": "目前市场上商业化的副猪嗜血杆菌病灭活疫苗有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "因为不同血清型之间的交叉保护性不强或无交叉保护作用，且现有疫苗的保护期短，所以需要发展新的广谱疫苗。",
+    "reference_case": "因为不同血清型之间的交叉保护性不强或无交叉保护作用，所以需要发展新的广谱疫苗。",
+    "error_detail": "错误地添加了现有疫苗保护期短的假设",
+    "original_question": "为什么需要发展新的广谱疫苗来预防副猪嗜血杆菌病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "副猪嗜血杆菌病疫苗的佐剂对疫苗效力没有影响，不同的佐剂制成的疫苗刺激动物体产生抗体及时间机制相同。",
+    "reference_case": "副猪嗜血杆菌病疫苗的佐剂对疫苗效力有很大影响，不同的佐剂制成的疫苗刺激动物体产生抗体及时间机制也不相同。",
+    "error_detail": "错误地否定了佐剂对疫苗效力的影响",
+    "original_question": "副猪嗜血杆菌病疫苗的佐剂对疫苗效力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "药敏试验中，先锋霉素、氯霉素、环丙沙星和青霉素对猪链球菌表现出高敏性。",
+    "reference_case": "药敏试验中，先锋霉素、氯霉素、环丙沙星和阿莫西林对猪链球菌表现出高敏性。",
+    "error_detail": "错误地将阿莫西林改为青霉素",
+    "original_question": "药敏试验中，哪些药物对猪链球菌表现出高敏性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "该研究使用了流行病学调查、临床症状观察和病理解剖诊断等方法进行诊断。",
+    "reference_case": "该研究使用了流行病学调查、临床症状观察、病理解剖诊断、细菌培养分离、生化特性鉴定、动物致病性试验和RT-PCR检测等方法进行诊断。",
+    "error_detail": "错误地省略了部分诊断方法",
+    "original_question": "贵州省某规模化猪场暴发猪瘟与链球菌病混合感染的诊断研究中，使用了哪些方法进行诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪链球菌的生化特性鉴定中，葡萄糖、蔗糖、乳糖、菊糖、MR试验、甘露糖和纤维素的试验结果为阳性。",
+    "reference_case": "猪链球菌的生化特性鉴定中，葡萄糖、蔗糖、乳糖、菊糖、MR试验、甘露糖和水杨苷的试验结果为阳性。",
+    "error_detail": "错误地将水杨苷改为纤维素",
+    "original_question": "猪链球菌的生化特性鉴定中，哪些试验项目结果为阳性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "发病后猪场使用了青霉素、链霉素和四环素等抗生素进行治疗。",
+    "reference_case": "发病后猪场使用了青霉素、链霉素等抗生素进行治疗。",
+    "error_detail": "错误地添加了四环素",
+    "original_question": "贵州省某规模化猪场断奶仔猪发病后，使用了哪些抗生素进行治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪链球菌病的发病高峰期通常在断奶及混群时和冬季。",
+    "reference_case": "猪链球菌病的发病高峰期通常在断奶及混群时。",
+    "error_detail": "错误地添加了冬季作为发病高峰期",
+    "original_question": "猪链球菌病的发病高峰期通常在什么时期？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪细小病毒VP2基因的克隆和表达研究中，使用了各种限制性内切酶、T4DNA连接酶、蛋白酶K、Taq DNA聚合酶、PCR反应缓冲液、MgCl2、dNTPs、DNA快速回收试剂盒等酶和试剂盒，其中Taq DNA聚合酶的使用量是其他酶的10倍。",
+    "reference_case": "在猪细小病毒VP2基因的克隆和表达研究中，使用了各种限制性内切酶、T4DNA连接酶、蛋白酶K、Taq DNA聚合酶、PCR反应缓冲液、MgCl2、dNTPs、DNA快速回收试剂盒等酶和试剂盒。",
+    "error_detail": "错误地增加了Taq DNA聚合酶的使用量比例，导致数据型幻觉。",
+    "original_question": "猪细小病毒VP2基因的克隆和表达研究中，使用了哪些酶和试剂盒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细小病毒的VP2基因编码的蛋白是构成病毒粒子的次要衣壳蛋白，约占病毒衣壳蛋白总量的20%。",
+    "reference_case": "猪细小病毒的VP2基因编码的蛋白是构成病毒粒子的主要衣壳蛋白，约占病毒衣壳蛋白总量的80%。VP2可以诱导产生血凝抑制及中和抗体，并且细小病毒的主要抗原决定簇也位于VP2上。",
+    "error_detail": "错误地将VP2蛋白描述为次要衣壳蛋白，并错误地降低了其在病毒衣壳蛋白中的比例。",
+    "original_question": "猪细小病毒（PPV）的VP2基因在病毒中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在猪细小病毒VP2基因的原核表达研究中，使用了pET15(b)、pET17(b)和pET28(b)质粒构建表达载体，分别构建成表达质粒pET15bVP2、pET17bVP2和pET28bVP2。这些质粒是2000年以前的标准。",
+    "reference_case": "在猪细小病毒VP2基因的原核表达研究中，使用了pET15(b)、pET17(b)和pET28(b)质粒构建表达载体，分别构建成表达质粒pET15bVP2、pET17bVP2和pET28bVP2。",
+    "error_detail": "错误地添加了关于质粒时效性的信息，导致时效性幻觉。",
+    "original_question": "在猪细小病毒VP2基因的原核表达研究中，哪些质粒被用于构建表达载体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在猪细小病毒VP2基因的原核表达研究中，只有pET17bVP2f质粒在大肠杆菌BL21中成功表达了VP2蛋白，在45 kD处出现一明显的特异性蛋白带。这一结果仅在欧洲实验室中得到验证。",
+    "reference_case": "在猪细小病毒VP2基因的原核表达研究中，只有pET17bVP2f质粒在大肠杆菌BL21中成功表达了VP2蛋白，在45 kD处出现一明显的特异性蛋白带。",
+    "error_detail": "错误地添加了地域限制信息，导致空间错位幻觉。",
+    "original_question": "猪细小病毒VP2基因的原核表达研究中，哪些质粒在大肠杆菌BL21中成功表达了VP2蛋白？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "在猪大脑中，Ob-Rb mRNA 主要分布在大脑皮质、梨状叶、海马、齿状回和杏仁核，这些区域的分布导致了猪的肥胖。",
+    "reference_case": "在猪大脑中，Ob-Rb mRNA 主要分布在大脑皮质、梨状叶、海马、齿状回和杏仁核。",
+    "error_detail": "错误地建立了Ob-Rb mRNA分布与猪肥胖之间的因果关系，导致因果倒置幻觉。",
+    "original_question": "在猪大脑中，Ob-Rb mRNA 主要分布在哪些区域？",
+    "original_input": ""
+  }
+]

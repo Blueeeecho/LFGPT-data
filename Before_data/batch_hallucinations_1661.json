@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脑心肌炎病毒感染仔猪脊髓中的髓鞘质比同龄表面正常的猪要少50%，年龄大些的猪很少有髓鞘形成减少。",
+    "reference_case": "脑心肌炎病毒感染仔猪脊髓中的髓鞘质比同龄表面正常的猪要少，年龄大些的猪很少有髓鞘形成减少。所有被检猪的脾、心、肺、肝、肾脏、小肠和肠系膜淋巴结都正常。",
+    "error_detail": "添加了不存在的具体比例数据",
+    "original_question": "脑心肌炎病毒感染仔猪的病变特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "时效性幻觉",
+    "sub_type": "过时标准",
+    "hallucinated_case": "美国已有商品化生产的预防性生物制品或化学制剂。",
+    "reference_case": "美国还没有商品化生产的预防性生物制品或化学制剂。可通过管理来避免本病的发生，以达到预防的目的。防止公猪将感染传给易感母猪，要了解原引入猪场ICT的情况，并采取相应措施防止母猪感染。",
+    "error_detail": "错误地声称已有商品化生产的预防性生物制品",
+    "original_question": "脑心肌炎病毒感染的预防方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "因果倒置幻觉",
+    "sub_type": "因果错误",
+    "hallucinated_case": "胎儿的死亡导致病毒使很多组织和器官包括胎盘都受到了损伤。",
+    "reference_case": "妊娠过程中母猪感染PPV后，常见同窝胎儿中仅有部分胎儿经胎盘感染，然后该病毒在子宫内传播，常使同胎的一个或多个胎儿感染。早期死亡的肧胎被迅速吸收，有效地清除了子宫内病毒的贮所，子宫内发生PPV扩散可能是少见的。胎儿的死亡可能是由于病毒使很多组织和器官包括胎盘都受到了损伤而引起的。",
+    "error_detail": "颠倒了因果关系",
+    "original_question": "妊娠过程中母猪感染PPV后，对胎儿的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在非妊娠母猪发现大体病变和显微镜下病变。",
+    "reference_case": "在非妊娠母猪没有发现大体病变和显微镜下病变。",
+    "error_detail": "错误地声称存在病变",
+    "original_question": "PPV感染对非妊娠母猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在妊娠晚期，胎儿感染PPV后，100%会出现肉眼病变。",
+    "reference_case": "在妊娠晚期，胎儿感染PPV后，可出现很多肉眼病变，包括不同程度的发育不良、充血、水肿和出血等。",
+    "error_detail": "添加了不存在的具体比例数据",
+    "original_question": "感染PPV的母猪在妊娠晚期对胎儿的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "母猪在妊娠期感染PPV后，所有组织和器官会受到广泛细胞坏死的影响。",
+    "reference_case": "母猪在妊娠期感染PPV后，大多数组织和器官会受到广泛细胞坏死的影响。",
+    "error_detail": "错误地声称所有组织和器官都会受到影响",
+    "original_question": "母猪在妊娠期感染PPV后，哪些组织和器官会受到广泛细胞坏死的影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "主要病理变化是化脓性脑膜炎、胸膜炎、心包炎、腹膜炎和关节炎。",
+    "reference_case": "主要病理变化是纤维素性或浆液纤维素性脑膜炎、胸膜炎、心包炎、腹膜炎和关节炎。",
+    "error_detail": "错误地改变了病理变化的性质",
+    "original_question": "猪多发性浆膜炎与关节炎的主要病理变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "诊断依据仅包括临床症状和剖检。",
+    "reference_case": "诊断依据包括病史（不同来源的猪只混养）、临床症状和剖检，以及细菌学证实。",
+    "error_detail": "遗漏了重要的诊断依据",
+    "original_question": "猪多发性浆膜炎与关节炎的诊断依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "最好的分离培养基是含有鸡血液的琼脂。",
+    "reference_case": "最好的分离培养基是含有绵羊、马或牛血液的琼脂，之前已划线接种过一种葡萄球菌。",
+    "error_detail": "错误地改变了培养基的成分",
+    "original_question": "猪多发性浆膜炎与关节炎的最佳分离培养基是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "尽早开始治疗可以降低治疗效果。",
+    "reference_case": "尽早开始治疗可以提高治疗效果，因为药物需要渗透到脑脊髓液和感染的关节中。",
+    "error_detail": "逻辑上与原始输出矛盾",
+    "original_question": "治疗猪多发性浆膜炎与关节炎时，为什么需要在临床症状出现后尽早开始治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪副嗜血杆菌对所有抗生素都敏感。",
+    "reference_case": "猪副嗜血杆菌对青霉素、Ampicillin、氯霉素、Cotrimoxazole（trimethoprim + sulfonamide）和四环素最敏感。",
+    "error_detail": "错误地扩大了敏感药物的范围",
+    "original_question": "猪副嗜血杆菌对哪些药物最敏感？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "预防方法仅包括接种菌苗。",
+    "reference_case": "预防方法包括减少应激因素和接种菌苗，自家菌苗皮下注射一次（最好二次）可获得良好的保护作用。",
+    "error_detail": "遗漏了重要的预防措施",
+    "original_question": "预防猪多发性浆膜炎与关节炎的有效方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪胸膜肺炎的病原是多杀性巴氏杆菌。",
+    "reference_case": "猪胸膜肺炎的病原是胸膜肺炎嗜血杆菌（H.pleuropneumoniae）。",
+    "error_detail": "错误地改变了病原体的名称",
+    "original_question": "猪胸膜肺炎的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "多杀性巴氏杆菌毒素会引起猪的临床症状，如打喷嚏、流鼻涕、鼻甲萎缩、鼻吻变短、鼻甲发育受阻、脸部变形等，并且会导致猪立即死亡。",
+    "reference_case": "多杀性巴氏杆菌毒素会引起猪的临床症状，如打喷嚏、流鼻涕、鼻甲萎缩、鼻吻变短、鼻甲发育受阻、脸部变形等。",
+    "error_detail": "添加了不存在的严重后果",
+    "original_question": "多杀性巴氏杆菌的毒素如何影响猪的临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪在妊娠最后一个月内喂含磺胺嘧啶或土霉素的药物饲料，仔猪在出生后1周内注射增效磺胺或多效土霉素。",
+    "reference_case": "母猪在妊娠最后一个月内喂含磺胺嘧啶或土霉素的药物饲料，仔猪在出生后3周内注射增效磺胺或多效土霉素。",
+    "error_detail": "错误地改变了时间框架",
+    "original_question": "如何使用药物饲料来控制母猪和仔猪的萎缩性鼻炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "可通过饲料或饮水中添加抗菌素进行控制，理想组合仅包括磺胺药。",
+    "reference_case": "可通过饲料或饮水中添加抗菌素进行控制，理想组合包括磺胺药、金雷素与青霉素G、泰勒菌素与磺胺噁唑等。",
+    "error_detail": "遗漏了重要的治疗组合",
+    "original_question": "如何处理断奶仔猪和生长发育猪的萎缩性鼻炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "改善饲养管理，如全进全出、提高母猪群年龄、减少猪群密度、保持良好通风和避免应激因素，对控制疾病没有帮助。",
+    "reference_case": "改善饲养管理，如全进全出、提高母猪群年龄、减少猪群密度、保持良好通风和避免应激因素，有助于控制疾病。",
+    "error_detail": "错误地否定了改善饲养管理的效果",
+    "original_question": "改善猪舍条件对控制萎缩性鼻炎有何帮助？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肺炎支原体感染的初始病变包括大量多形核细胞在管腔内、气管周围及肺泡内积聚。",
+    "reference_case": "猪肺炎支原体感染的初始病变包括少量多形核细胞在管腔内、气管周围及肺泡内积聚，以及动、静脉外膜及气管周围增生的淋巴细胞。随着病程发展，支气管周围出现袖套状淋巴细胞增生，肺泡内积聚大量水肿液，单核细胞及多形核细胞增加，肺泡膈增厚。后期表现为血管周围及支气管周围泛发性淋巴网状内皮组织增生，呼吸道狭窄，单核细胞增生，导致呼吸道狭窄，肺泡凹陷及肺泡气肿，淋巴结节增生。",
+    "error_detail": "错误地改变了病变的严重程度",
+    "original_question": "猪肺炎支原体感染的主要病理变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "MPS的血清学诊断方法仅包括间接血凝试验（IHA）。",
+    "reference_case": "MPS的血清学诊断方法包括间接血凝试验（IHA）、补体结合试验（CF）、酶联免疫吸附试验（ELISA）等。CF试验在与絮状支原体及猪鼻支原体之间有交叉反应，但对MPS相当特异和敏感。IHA似乎是敏感和特异的，但尚未广泛应用。ELISA试验具有很高的敏感性和相当的特异性，但存在交叉反应问题。",
+    "error_detail": "错误地缩小了诊断方法的范围",
+    "original_question": "MPS病猪的血清学诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "四环素类抗生素可以完全治愈猪肺炎支原体病。",
+    "reference_case": "四环素类抗生素可以控制猪肺炎支原体病，但不能阻止感染发生，停药后仍会表现出明显病变。泰勒菌素磷酸盐在体内吸收量不足以影响猪肺炎支原体的病程。",
+    "error_detail": "错误地夸大了治疗效果",
+    "original_question": "猪肺炎支原体感染的治疗效果如何？",
+    "original_input": ""
+  }
+]

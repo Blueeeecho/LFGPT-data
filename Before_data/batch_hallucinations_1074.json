@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪感冒、肺炎和呼吸道症状类疾病的推荐用药包括阿司匹林、青霉素、链霉素等。风寒感冒者可用阿司匹林、青霉素共煎汤喂服；风热感冒者可用链霉素、青霉素共煎汤喂服；肺炎和呼吸道疾病可用阿司匹林、链霉素、青霉素共煎汤分多次饮用。",
+    "reference_case": "仔猪感冒、肺炎和呼吸道症状类疾病的推荐用药包括柴胡、板蓝根、银花、鱼腥草、薄荷、生姜等。风寒感冒者可用柴胡、板蓝根、银花、生姜、葱白共煎汤喂服；风热感冒者可用板蓝根、银花、薄荷、鱼腥草共煎汤喂服；肺炎和呼吸道疾病可用柴胡、黄茫、板蓝根、银花、鱼腥草共煎汤分多次饮用。",
+    "error_detail": "将中药推荐用药错误地替换为西药，导致概念混淆。",
+    "original_question": "仔猪感冒、肺炎和呼吸道症状类疾病的推荐用药有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪肠炎类疾病的推荐用药包括黄连素、诺氟沙星，煎汤饮或粉碎拌料喂服，糖醋蒜饮料、VC辅助之。",
+    "reference_case": "仔猪肠炎类疾病的推荐用药包括黄芪、穿心莲、黄连，煎汤饮或粉碎拌料喂服，糖醋蒜饮料、VC辅助之。",
+    "error_detail": "错误地将中药推荐用药替换为西药，导致数据型幻觉。",
+    "original_question": "仔猪肠炎类疾病的推荐用药有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪外伤类疾病的推荐用药包括碘酒、红药水、紫药水，可加以醋蒜调和为糊状，敷于患部，具有抗菌、收敛、拔脓、排毒的效果。",
+    "reference_case": "仔猪外伤类疾病的推荐用药包括鱼腥草、侧柏、蒲公英、吴荣英干品共研末，可加以醋蒜调和为糊状，敷于患部，具有抗菌、收敛、拔脓、排毒的效果。",
+    "error_detail": "将中药推荐用药错误地替换为西药，导致概念混淆。",
+    "original_question": "仔猪外伤类疾病的推荐用药有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "冬春季节仔猪细菌性腹泻的发病率高达50%～60%，死亡率高达40%～60%。",
+    "reference_case": "冬春季节仔猪细菌性腹泻的发病率高达30%～40%，死亡率高达30%～50%。",
+    "error_detail": "错误地提高了发病率和死亡率的数据，导致数据型幻觉。",
+    "original_question": "冬春季节仔猪细菌性腹泻的发病率和死亡率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪在出生后1-3天发生腹泻的主要症状是不吃奶，排黑色或绿色稀粪，之后稀粪变为黄色糊状，恶臭，体温升至42°C以上，病程短，死亡率高。",
+    "reference_case": "仔猪在出生后1-3天发生腹泻的主要症状是不吃奶，排灰黄色或灰绿色稀粪，之后稀粪变为红色糊状，恶臭，体温升至41°C以上，病程短，死亡率高。",
+    "error_detail": "错误地描述了腹泻的颜色和体温，导致概念混淆。",
+    "original_question": "仔猪在出生后1-3天发生腹泻的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "冬春季节诱发仔猪细菌性腹泻的主要病原菌是沙门氏菌和志贺氏菌。",
+    "reference_case": "冬春季节诱发仔猪细菌性腹泻的主要病原菌是大肠杆菌和C型魏氏梭菌。",
+    "error_detail": "错误地替换了病原菌的种类，导致概念混淆。",
+    "original_question": "冬春季节诱发仔猪细菌性腹泻的主要病原菌有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "通过保持猪舍内温度相对恒定，保持充足光照，防止贼风侵袭，保持垫草干净松软和地面干燥，定期消毒、灭菌，确保饮水充足、洁净等措施来预防仔猪细菌性腹泻。此外，还应定期给仔猪注射疫苗。",
+    "reference_case": "通过保持猪舍内温度相对恒定，保持充足光照，防止贼风侵袭，保持垫草干净松软和地面干燥，定期消毒、灭菌，确保饮水充足、洁净等措施来预防仔猪细菌性腹泻。",
+    "error_detail": "添加了额外的预防措施（注射疫苗），导致指令偏离。",
+    "original_question": "如何通过饲养管理预防仔猪细菌性腹泻？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪断奶后3-5天进行限饲，平均采食量为200g/d，5天后自由采食。",
+    "reference_case": "仔猪断奶后3-5天进行限饲，平均采食量为160g/d，5天后自由采食。",
+    "error_detail": "错误地提高了平均采食量的数据，导致数据型幻觉。",
+    "original_question": "仔猪断奶后如何进行限饲？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "减少仔猪的环境应激可以通过避免温度忽高忽低，避免突然更换饲料，避免变动饲喂程序，饲养人员定岗定舍，防止噪音过大，保持猪舍安静等措施。此外，还应定期给仔猪进行按摩。",
+    "reference_case": "减少仔猪的环境应激可以通过避免温度忽高忽低，避免突然更换饲料，避免变动饲喂程序，饲养人员定岗定舍，防止噪音过大，保持猪舍安静等措施。",
+    "error_detail": "添加了额外的减少应激的措施（按摩），导致指令偏离。",
+    "original_question": "如何减少仔猪的环境应激？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "通过早期强制性补料，饲料要柔细适口、易于消化，少添勤喂，做好饲料和饲喂方法的双重过渡，控制仔猪饲料中粗蛋白含量在19%以内，适当提高饲料中能量的供应，选用添加优质油脂的饲料，确保饲料中维生素和微量元素含量达到仔猪的营养标准。此外，还应定期给仔猪注射维生素。",
+    "reference_case": "通过早期强制性补料，饲料要柔细适口、易于消化，少添勤喂，做好饲料和饲喂方法的双重过渡，控制仔猪饲料中粗蛋白含量在19%以内，适当提高饲料中能量的供应，选用添加优质油脂的饲料，确保饲料中维生素和微量元素含量达到仔猪的营养标准。",
+    "error_detail": "添加了额外的饲料管理措施（注射维生素），导致指令偏离。",
+    "original_question": "如何通过饲料管理预防仔猪细菌性腹泻？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "及早发现和隔离病猪可以通过坚持自繁自养，尽量不从场外购猪，严禁从疫区、疫场购猪，减少运输时间，防止因人员、车辆及狗、猫流动而造成疫病传播。此外，还应定期对猪舍进行消毒。",
+    "reference_case": "及早发现和隔离病猪可以通过坚持自繁自养，尽量不从场外购猪，严禁从疫区、疫场购猪，减少运输时间，防止因人员、车辆及狗、猫流动而造成疫病传播。",
+    "error_detail": "添加了额外的发现和隔离病猪的措施（定期消毒），导致指令偏离。",
+    "original_question": "如何及早发现和隔离病猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）主要引起母猪流产、死胎等繁殖障碍，以及新生仔猪的高致死率和生长猪的消化系统症状。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）主要引起母猪流产、死胎等繁殖障碍，以及新生仔猪的高致死率和生长猪的呼吸道症状。",
+    "error_detail": "错误地将呼吸道症状替换为消化系统症状，导致概念混淆。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的主要危害是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪繁殖与呼吸综合征病毒抗性研究中，MBL-C基因的外显子6第300位点A/G突变（MBL-C-exon6-A300G）被分析。",
+    "reference_case": "在猪繁殖与呼吸综合征病毒抗性研究中，MBL-C基因的外显子6第296位点A/G突变（MBL-C-exon6-A296G）被分析。",
+    "error_detail": "错误地改变了突变位点的位置，导致数据型幻觉。",
+    "original_question": "在猪繁殖与呼吸综合征病毒抗性研究中，MBL-C基因的哪个突变位点被分析？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪繁殖与呼吸综合征病毒抗性研究中，DUSP1基因的外显子4第310位点C/T突变（DUSP1-exon4-C310T）被分析。",
+    "reference_case": "在猪繁殖与呼吸综合征病毒抗性研究中，DUSP1基因的外显子4第308位点C/T突变（DUSP1-exon4-C308T）被分析。",
+    "error_detail": "错误地改变了突变位点的位置，导致数据型幻觉。",
+    "original_question": "在猪繁殖与呼吸综合征病毒抗性研究中，DUSP1基因的哪个突变位点被分析？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在大约克猪群体中，MBL-C基因的AG基因型发病风险是GG基因型的0:50倍（P=0:039:，表明AG基因型的发病风险显著低于GG基因型。",
+    "reference_case": "在大约克猪群体中，MBL-C基因的AG基因型发病风险是GG基因型的0:37倍（P=0:039:，表明AG基因型的发病风险显著低于GG基因型。",
+    "error_detail": "错误地改变了发病风险的倍数，导致数据型幻觉。",
+    "original_question": "在大约克猪群体中，MBL-C基因的AG基因型与GG基因型相比，发病风险有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在长大猪群体中，MBL-C基因的AA基因型发病风险是GG基因型的0:20倍（P=0:04:，表明AA基因型的发病风险显著低于GG基因型。",
+    "reference_case": "在长大猪群体中，MBL-C基因的AA基因型发病风险是GG基因型的0:11倍（P=0:04:，表明AA基因型的发病风险显著低于GG基因型。",
+    "error_detail": "错误地改变了发病风险的倍数，导致数据型幻觉。",
+    "original_question": "在长大猪群体中，MBL-C基因的AA基因型与GG基因型相比，发病风险有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在猪繁殖与呼吸综合征病毒抗性研究中，DUSP1基因的突变位点（DUSP1-exon4-C308T）对病毒抗性有显著影响。",
+    "reference_case": "在猪繁殖与呼吸综合征病毒抗性研究中，DUSP1基因的突变位点（DUSP1-exon4-C308T）对病毒抗性没有显著影响。",
+    "error_detail": "错误地描述了突变位点的影响，导致概念混淆。",
+    "original_question": "在猪繁殖与呼吸综合征病毒抗性研究中，DUSP1基因的突变位点对病毒抗性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "AS-PCR技术的优点是节约成本、方便快捷，缺点是容易造成假阴性和假阳性，导致结果不太准确。此外，该技术还需要专业的操作人员。",
+    "reference_case": "AS-PCR技术的优点是节约成本、方便快捷，缺点是容易造成假阴性和假阳性，导致结果不太准确。",
+    "error_detail": "添加了额外的技术缺点（需要专业操作人员），导致指令偏离。",
+    "original_question": "在猪繁殖与呼吸综合征病毒抗性研究中，AS-PCR技术的优点和缺点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在猪繁殖与呼吸综合征病毒抗性研究中，MBL-C基因的A等位基因可能具有促病毒作用，能够增加猪对猪繁殖与呼吸综合征病毒的易感性。",
+    "reference_case": "在猪繁殖与呼吸综合征病毒抗性研究中，MBL-C基因的A等位基因可能具有抗病毒作用，能够降低猪对猪繁殖与呼吸综合征病毒的易感性。",
+    "error_detail": "错误地描述了A等位基因的作用，导致概念混淆。",
+    "original_question": "在猪繁殖与呼吸综合征病毒抗性研究中，MBL-C基因的A等位基因可能具有什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "副猪嗜血杆菌 RfaF 基因的功能是编码脂多糖庚糖基转移酶 I，该酶参与了细菌的黏附入侵和抗血清中补体杀菌作用。",
+    "reference_case": "副猪嗜血杆菌 RfaF 基因编码脂多糖庚糖基转移酶 II，该酶参与了细菌的黏附入侵和抗血清中补体杀菌作用。",
+    "error_detail": "错误地描述了RfaF基因编码的酶类型，导致概念混淆。",
+    "original_question": "副猪嗜血杆菌 RfaF 基因的功能是什么？",
+    "original_input": ""
+  }
+]

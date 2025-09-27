@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "合理接种疫苗可使猪获得短期抗病能力。",
+    "reference_case": "合理接种疫苗可使猪获得长期甚至终身的抗病能力。",
+    "error_detail": "错误地缩短了疫苗效果的持续时间",
+    "original_question": "疫苗接种在猪场疫病防治中有什么重要性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "主要发生于冬、春寒冷的季节里。",
+    "reference_case": "主要发生于冬、春寒冷的季节里。",
+    "error_detail": "过时的季节描述",
+    "original_question": "猪病毒性腹泻主要发生于什么季节？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "断奶仔猪的碳水化合物饲料需求的最新研究表明，需要增加纤维素的含量。",
+    "reference_case": "断奶仔猪的碳水化合物饲料需求的新进展。",
+    "error_detail": "添加了未经验证的最新研究内容，偏离了原始output的简洁表述。",
+    "original_question": "仔猪对碳水化合物饲料的需求有哪些新进展？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "新生仔猪从母体获得肠道微生物群系，现代化养猪设备促进了新生仔猪时体、粪便和泥土的接触，从而帮助其肠道内特定完整的微生物群系的建立和维持。",
+    "reference_case": "新生仔猪从母体获得肠道微生物群系，但现代化养猪设备限制了新生仔猪时体、粪便和泥土的接触，从而妨碍其肠道内特定完整的微生物群系的建立和维持。",
+    "error_detail": "错误地描述了现代化养猪设备对新生仔猪肠道微生物群系建立的影响。",
+    "original_question": "新生仔猪如何获得肠道保护性微生物群系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "Cr₂O₃被广泛应用于猪的消化率试验中，使用时无需注意其回收率变异、致癌可能、氧化不饱和脂肪酸、改变日粮颜色、适口性下降、对环境有污染、可能影响其他金属离子利用率等问题。",
+    "reference_case": "Cr₂O₃被广泛应用于猪的消化率试验中，但在使用时需注意其回收率变异较大、具有致癌可能、氧化不饱和脂肪酸、改变日粮颜色、适口性下降、对环境有污染、可能影响其他金属离子利用率等问题。",
+    "error_detail": "错误地描述了使用Cr₂O₃时无需注意的问题。",
+    "original_question": "如何使用Cr₂O₃作为指示剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "L-肉碱影响了不同来源脂肪在28日龄断奶仔猪中的利用效果。",
+    "reference_case": "L-肉碱影响了不同来源脂肪在35日龄断奶仔猪中的利用效果。",
+    "error_detail": "错误地改变了断奶仔猪的日龄，从35日龄变为28日龄。",
+    "original_question": "不同来源脂肪对断奶仔猪的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "仔猪有效磷的需要量在猪增长潜力高时减少。",
+    "reference_case": "仔猪有效磷的需要量在猪增长潜力高时增加，特别是瘦肉型猪的增长速度增加时，有效磷的需要量也相应增加。",
+    "error_detail": "错误地认为仔猪有效磷的需要量在增长潜力高时减少，与当前研究结果相反。",
+    "original_question": "仔猪有效磷的需要量会如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "研究表明，母猪日粮中添加叶酸或在妊娠早期肌肉注射叶酸能够显著提高窝产仔数和产活仔数。NRC建议妊娠和哺乳母猪日粮添加叶酸13.0 mg/kg。",
+    "reference_case": "研究表明，母猪日粮中添加叶酸或在妊娠早期肌肉注射叶酸能够显著提高窝产仔数和产活仔数。NRC建议妊娠和哺乳母猪日粮添加叶酸1.30 mg/kg。",
+    "error_detail": "将叶酸的添加建议量从1.30 mg/kg错误地改为13.0 mg/kg。",
+    "original_question": "母猪日粮中添加叶酸的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "断奶后母猪需要低能量、低蛋白质的饲料以适应断奶后的压力。",
+    "reference_case": "为了促进母猪在断奶后6~8天内发情配种，提高繁殖效率。",
+    "error_detail": "与当前饲养标准相悖",
+    "original_question": "断奶后母猪为何需要高能量、高蛋白质的饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "影响饲料企业效益的因素包括生猪品种、资源投入条件、饲料市场和产品市场的完善程度、产品的市场需求规模、饲料投入结构、经济发展水平、疫病、生猪价格、生产主体受教育水平及科技水平、管理、饲料、品种、防疫、产业政策、市场因素、科技水平、消费习惯、资金投入、市场变化、技术进步、产业化服务等，但这些因素在2023年已经不再适用。",
+    "reference_case": "影响饲料企业效益的因素包括生猪品种、资源投入条件、饲料市场和产品市场的完善程度、产品的市场需求规模、饲料投入结构、经济发展水平、疫病、生猪价格、生产主体受教育水平及科技水平、管理、饲料、品种、防疫、产业政策、市场因素、科技水平、消费习惯、资金投入、市场变化、技术进步、产业化服务等。",
+    "error_detail": "时效性错误，错误地描述了这些因素在2023年不再适用",
+    "original_question": "有哪些因素被认为会影响饲料企业的效益？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "生猪养殖成本主要包括人工成本和饲料成本。人工成本逐年降低，2013年生猪养殖工人月均工资为1500元，比去年同期下降10%左右。饲料成本也逐年递减，2013年烘干玉米、豆粕和育肥猪饲料价格分别为1.22元/公斤、2.96元/公斤和2.00元/公斤，同比分别下降1.7%、14.7%和8.6%。",
+    "reference_case": "生猪养殖成本主要包括人工成本和饲料成本。人工成本逐年提高，2013年生猪养殖工人月均工资为2500元，比去年同期增长10%左右。饲料成本也逐年递增，2013年烘干玉米、豆粕和育肥猪饲料价格分别为2.22元/公斤、3.96元/公斤和3.00元/公斤，同比分别上涨1.7%、14.7%和8.6%。",
+    "error_detail": "时效性错误，错误地描述了成本和价格的趋势",
+    "original_question": "生猪养殖成本主要包括哪些部分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "福建省农村居民消费牛肉数量从0.28公斤增长到0.83公斤，增幅196%；羊肉数量从0.19公斤增长到0.43公斤，增幅126%。这些数据反映了2023年的消费趋势。",
+    "reference_case": "福建省农村居民消费牛肉数量从0.28公斤增长到0.83公斤，增幅196%；羊肉数量从0.19公斤增长到0.43公斤，增幅126%。",
+    "error_detail": "错误地标注了数据的年份，原始输出未提及具体年份。",
+    "original_question": "牛羊肉等替代品对猪肉消费的影响体现在哪些数据上？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "生猪价格的季节性特征主要体现在每年的8月、9月、10月和11月。这一模式在2023年发生了变化。",
+    "reference_case": "生猪价格的季节性特征主要体现在每年的8月、9月、10月和11月。",
+    "error_detail": "错误地声称季节性特征在2023年发生了变化，原始输出未提及具体年份。",
+    "original_question": "生猪价格的季节性特征主要体现在哪些月份？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在 100°C 下膨化的全脂大豆，氮消化率、赖氨酸、蛋氨酸和异亮氨酸的回肠表观消化率显著高于在 110°C 下膨化的全脂大豆。",
+    "reference_case": "在 130°C 下膨化的全脂大豆，氮消化率、赖氨酸、蛋氨酸和异亮氨酸的回肠表观消化率显著高于在 110°C 下膨化的全脂大豆，而经 150°C 膨化处理的大豆，氮存留量和氮消化率没有进一步的改善。",
+    "error_detail": "错误地改变了膨化温度，将‘130°C’改为‘100°C’。",
+    "original_question": "不同温度下蒸汽膨化处理的全脂大豆对仔猪的影响有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "不同纤维来源对断奶猪的总肠道消化率、盲肠挥发性脂肪酸和消化道传输时间的影响已被最新研究否定。",
+    "reference_case": "不同纤维来源影响断奶猪的总肠道消化率、盲肠挥发性脂肪酸和消化道传输时间。",
+    "error_detail": "错误地引用了不存在的'最新研究'来否定原始结论。",
+    "original_question": "不同纤维来源对断奶猪的总肠道消化率、盲肠挥发性脂肪酸和消化道传输时间有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "乳糖合成酶 LALBA 及 β4 GALT1 的 mRNA 表达随泌乳天数的增加而降低。",
+    "reference_case": "乳糖合成酶 LALBA 及 β4 GALT1 的 mRNA 表达随泌乳天数的增加而升高。",
+    "error_detail": "错误地将'升高'改为'降低'，与最新研究结果相反。",
+    "original_question": "泌乳期母猪乳腺中乳糖合成酶 LALBA 及 β4 GALT1 的 mRNA 表达如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "中链脂肪酸和短链有机酸对断奶仔猪的回肠形态和上皮内免疫细胞没有影响。",
+    "reference_case": "中链脂肪酸和短链有机酸对断奶仔猪的回肠形态和上皮内免疫细胞有影响。",
+    "error_detail": "错误地否定了中链脂肪酸和短链有机酸的影响，与最新研究结果不符。",
+    "original_question": "中链脂肪酸和短链有机酸对断奶仔猪的回肠形态和上皮内免疫细胞有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "通过测定饲料的化学成分并结合NE实测值建立预测模型，如Noblet（2004）建立的11个NE预测模型。",
+    "reference_case": "通过测定饲料的化学成分并结合NE实测值建立预测模型，如Noblet（1994）建立的11个NE预测模型。",
+    "error_detail": "错误地更改了Noblet模型的建立年份，从1994年改为2004年。",
+    "original_question": "如何预测猪的净能值（NE）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "21世纪初，喹恶啉类药物如喹乙醇和卡巴氧等品种被广泛用作猪等养殖动物的饲料药物添加剂，用以改善动物的生长性能和饲料利用率。",
+    "reference_case": "20世纪80至90年代，喹恶啉类药物如喹乙醇和卡巴氧等品种被广泛用作猪等养殖动物的饲料药物添加剂，用以改善动物的生长性能和饲料利用率。",
+    "error_detail": "过时标准",
+    "original_question": "喹恶啉类药物在养殖业中的应用情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "公猪常发生睾丸炎，初期睾丸肿胀，触诊有热痛感，数日后炎症消退，睾丸逐渐萎缩变硬，性欲减退，并通过精液排出病毒，精液品质下降，失去配种能力，这一过程通常需要数月。",
+    "reference_case": "公猪常发生睾丸炎，初期睾丸肿胀，触诊有热痛感，数日后炎症消退，睾丸逐渐萎缩变硬，性欲减退，并通过精液排出病毒，精液品质下降，失去配种能力。",
+    "error_detail": "错误地延长了病程时间，原输出未提供具体时间框架。",
+    "original_question": "公猪感染乙型脑炎后会出现什么症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "根据临床症状和粪便检查发现虫卵及病理剖检确诊。直接涂片查虫卵：一般1克粪便中虫卵数量大于等于500个时可以诊断为蛙虫病。",
+    "reference_case": "根据临床症状和粪便检查发现虫卵及病理剖检确诊。直接涂片查虫卵：一般1克粪便中虫卵数量大于等于1000个时可以诊断为蛙虫病。",
+    "error_detail": "过时标准",
+    "original_question": "猪蛙虫病的诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "虫卵检査（用饱和硫酸镁溶液或水洗沉淀法检查粪便）、变态反应（皮内注射抗原反应）。",
+    "reference_case": "虫卵检査（用饱和硫酸镁溶液或水洗沉淀法检查粪便）、变态反应（皮内注射抗原反应）。",
+    "error_detail": "过时标准",
+    "original_question": "猪线虫病的诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "每年的1月、2月、3月和4月是生猪价格和猪肉价格处于高位的阶段。",
+    "reference_case": "每年的8月、9月、10月和11月是生猪价格和猪肉价格处于高位的阶段，12月价格会出现下降，1月则小幅上扬。",
+    "error_detail": "过时标准",
+    "original_question": "猪肉价格的季节性波动主要体现在哪些月份？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "江西省南城县畜牧业在2014-2016年间呈现缓慢发展的态势。",
+    "reference_case": "江西省南城县畜牧业在2014-2016年间呈现快速发展的良好态势，规模化、标准化程度提高，同时绿色养殖初有成效，特色产业兴起，经营机制创新，生猪品种繁育体系形成。",
+    "error_detail": "过时标准",
+    "original_question": "江西省南城县畜牧业在2014-2016年间的主要发展趋势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "治疗无特效解毒药物，主要作对症处理，如停喂菜籽饼，用0.05%高锰酸钾液让猪自由饮服，必要时可灌服0.1%高锰酸钾液或蛋清、牛奶等，粪干者可用油类泻剂导泻。预防措施包括菜籽饼的去毒处理，如坑埋脱毒法、发酵中和法或热水浸泡法。",
+    "reference_case": "治疗无特效解毒药物，主要作对症处理，如停喂菜籽饼，用0.05%高锰酸钾液让猪自由饮服，必要时可灌服0.1%高锰酸钾液或蛋清、牛奶等，粪干者可用油类泻剂导泻。预防措施包括菜籽饼的去毒处理，如坑埋脱毒法、发酵中和法或热水浸泡法。",
+    "error_detail": "过时标准",
+    "original_question": "异硫鹤酸丙烯酯中毒的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "在3月份注射乙脑2头份、猪瘟18月龄前4头份、18月龄后6头份、链球菌3头份；6月份注射猪肺疫2头份；9月份注射猪瘟18月龄前4头份、18月龄后6头份、链球菌3头份。",
+    "reference_case": "在3月份注射乙脑2头份、猪瘟18月龄前4头份、18月龄后6头份、链球菌3头份；6月份注射猪肺疫2头份；9月份注射猪瘟18月龄前4头份、18月龄后6头份、链球菌3头份。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "在猪的免疫接种中，通常在哪些月份进行免疫注射？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "每头公猪每月检查一次精子畸形率。",
+    "reference_case": "每头公猪每两周检查一次精子畸形率。",
+    "error_detail": "检查频率过低，不符合当前标准。",
+    "original_question": "公猪的精子畸形率应多久检查一次？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "1986年在江苏洪泽湖地区进行了野生动物的刺颚口线虫病的流行病学调查及病原学研究，发现该地区是该病的高发区。",
+    "reference_case": "动物的刺颚口线虫病的流行病学调查及病原学研究。",
+    "error_detail": "添加了不存在的发现信息",
+    "original_question": "1986年在江苏洪泽湖地区进行了哪些流行病学调查？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "内服胱氨酸，饲喂蛋白质丰富的饲料，也可补液补糖。屠辛前至少停喂30天，使猪排出硒以达食用安全的限度。",
+    "reference_case": "内服胱氨酸，饲喂蛋白质丰富的饲料，也可补液补糖。屠辛前至少停喂60天，使猪排出硒以达食用安全的限度。",
+    "error_detail": "过时标准",
+    "original_question": "亚硒酸钠急性中毒后如何缓解？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "生猪价格的剧烈波动在2010至2011年间引发了全国性的关注。",
+    "reference_case": "生猪价格的剧烈波动给农民利益和居民生活带来了重大影响，尤其是2007至2008年间生猪价格的暴涨暴跌引发了全国性的关注。",
+    "error_detail": "错误地指出了生猪价格剧烈波动的时间段。",
+    "original_question": "近年来生猪价格的剧烈波动对我国社会产生了哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "指仔猪断奶后至再次妊娠前的母猪，通常需要3个月。",
+    "reference_case": "指仔猪断奶后至再次妊娠前的母猪。",
+    "error_detail": "添加了不准确的时效性信息，导致时效性幻觉。",
+    "original_question": "空怀母猪的定义是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "指断奶后至初配前选留为种用的小公猪，通常需要6个月。",
+    "reference_case": "指断奶后至初配前选留为种用的小公猪。",
+    "error_detail": "添加了不准确的时效性信息，导致时效性幻觉。",
+    "original_question": "后备公猪的定义是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "根据表7-3，各年龄种母猪占基础母猪比例分别为：1.5-2岁40%、2-3岁35%、3-4岁25%、4-5岁15%、5岁及以上10%；核心母猪（2-5岁）占30%。",
+    "reference_case": "根据表7-3，各年龄种母猪占基础母猪比例分别为：1.5-2岁35%、2-3岁30%、3-4岁20%、4-5岁10%、5岁及以上5%；核心母猪（2-5岁）占25%。",
+    "error_detail": "修改了种母猪群的构成比例，导致时效性幻觉。",
+    "original_question": "种母猪群的构成比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "种公猪的饲粮体积不宜过大，以防造成垂腹，影响配种，并保证其采食量不过量也不不足，这一标准已经沿用多年。",
+    "reference_case": "种公猪的饲粮体积不宜过大，以防造成垂腹，影响配种，并保证其采食量不过量也不不足。",
+    "error_detail": "添加了不准确的时效性信息，导致时效性幻觉。",
+    "original_question": "种公猪的采食量应如何控制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "在孕期的任何时间接种活疫苗都是安全的。",
+    "reference_case": "在孕期的头 1 个月内接种活疫苗，引发母猪繁殖与呼吸综合征的危险性的机率最高，欧美等国在执行消灭猪瘟计划的后期，禁用猪瘟活疫苗，以免引起胎盘感染，激发温和型和非典型猪瘟，干扰猪瘟的诊断。",
+    "error_detail": "错误地描述了接种活疫苗的安全性。",
+    "original_question": "母猪在孕期接种活疫苗有何风险？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "新猪必须从已检测为主要传染病阴性的猪群引进，需隔离至少30天，最好在外场隔离观察，在混群前还要进行1次检测。",
+    "reference_case": "新猪必须从已检测为主要传染病阴性的猪群引进，需隔离至少30天，最好在外场隔离观察，在混群前还要进行1次检测。",
+    "error_detail": "时效性幻觉（过时标准）",
+    "original_question": "新引进的猪需要进行哪些步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在乳猪未吃初乳前肌注猪瘟弱毒苗1头份，60～90分钟后开始哺喂初乳，否则免疫效果不佳。",
+    "reference_case": "在乳猪未吃初乳前肌注猪瘟弱毒苗1头份，60～90分钟后开始哺喂初乳，否则免疫效果不佳。",
+    "error_detail": "时效性幻觉（过时标准）",
+    "original_question": "集约化猪场的哺乳仔猪在未吃初乳前如何进行免疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "目前的诊断方法多采用病原分离及常规的血清学方法，所需时间较长，也有使用PCR技术进行检测的，但还没有建立稳定的操作性强的能同时鉴别3种病毒的方法。此外，现有的方法准确率低。",
+    "reference_case": "目前的诊断方法多采用病原分离及常规的血清学方法，所需时间较长，也有使用PCR技术进行检测的，但还没有建立稳定的操作性强的能同时鉴别3种病毒的方法。",
+    "error_detail": "错误地添加了关于准确率的评论，与事实不符。",
+    "original_question": "目前对口蹄疫、猪水泡病和水泡性口炎这三种病毒的诊断方法有哪些缺点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "取出培养到70%以上的Hella229细胞，用预热的无菌磷酸盐缓冲液洗涤两次。将猪衣原体菌种以无血清DMEM培养基50倍稀释，加入细胞瓶中，静置37℃、5%CO2培养箱中，2000转离心30min，加入含放线菌酮(0.5μg/mL)的2%血清DMEM培养基，直至感染60%细胞出现融合、裂解等病变现象时停止培养，收集细胞上清和贴壁细胞。",
+    "reference_case": "取出培养到90%以上的Hella229细胞，用预热的无菌磷酸盐缓冲液洗涤两次。将猪衣原体菌种以无血清DMEM培养基100倍稀释，加入细胞瓶中，静置37℃、5%CO2培养箱中，3000转离心45min，加入含放线菌酮(0.5μg/mL)的2%血清DMEM培养基，直至感染80%细胞出现融合、裂解等病变现象时停止培养，收集细胞上清和贴壁细胞。",
+    "error_detail": "错误地修改了培养条件和参数，降低了培养效率和离心速度。",
+    "original_question": "猪衣原体和肺炎衣原体的增殖培养步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "云南省生猪产业的产业基础竞争力因子、成本竞争力因子和需求竞争力因子相对较低。",
+    "reference_case": "云南省生猪产业的产业基础竞争力因子、成本竞争力因子和需求竞争力因子相对较高。",
+    "error_detail": "错误地降低了云南省生猪产业的竞争力因子的评价。",
+    "original_question": "云南省生猪产业在哪些竞争力方面具有优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪附红细胞体病是一种罕见的猪传染病，危害较小，可导致猪轻微贫血，不影响猪的生长发育和生产性能。",
+    "reference_case": "猪附红细胞体病是一种常见的猪传染病，危害较大，可导致猪贫血、黄疸等症状，影响猪的生长发育和生产性能。",
+    "error_detail": "错误地描述了猪附红细胞体病的流行状况和危害，与当前知识不符。",
+    "original_question": "猪附红细胞体病的流行状况及危害有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "全身皮肤黄染，脂肪黄染，血液稀薄如水。心外膜和心冠脂肪出血轻度黄染，有针尖大出血点，心肌苍白松软，肝脏硬化。",
+    "reference_case": "全身皮肤黄染，脂肪黄染，血液稀薄如水。心外膜和心冠脂肪出血轻度黄染，有针尖大出血点，心肌苍白松软。",
+    "error_detail": "添加了过时的病理变化'肝脏硬化'，属于时效性幻觉。",
+    "original_question": "猪附红细胞体病的剖检变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "到2020年，畜牧业基本实现良种化、产业化",
+    "reference_case": "到2010年，畜牧业基本实现良种化、产业化",
+    "error_detail": "时间目标被错误地推迟，可能导致对畜牧业发展进度的误解",
+    "original_question": "畜牧业发展的任务指标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "铁等物质的缺乏，常见于仔猪生长缓慢导致需铁量减少但未能及时补充，或饲料中铁质含量低，饲养在水泥或木板地面的猪舍也难以补充体内铁、铜等物质。",
+    "reference_case": "铁等物质的缺乏，常见于仔猪生长迅速导致需铁量增加但未能及时补充，或饲料中铁质含量低，饲养在水泥或木板地面的猪舍也难以补充体内铁、铜等物质。",
+    "error_detail": "过时标准",
+    "original_question": "铁缺乏症的主要原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "牛发病的主要传染源是鸟类和昆虫，猪、牛混牧混饲不是本病传播的原因。",
+    "reference_case": "牛发病的主要传染源是鼠和猪，猪、牛混牧混饲是本病传播的一个重要原因。",
+    "error_detail": "错误地改变了茨城病的主要传染源和传播途径。",
+    "original_question": "茨城病的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "我国生猪生产周期性波动的主要原因是粮食丰歉。",
+    "reference_case": "我国生猪生产周期性波动的主要原因在不同时期有所不同。1985年以前，粮食丰歉是主要原因；1985年以后，价格波动、需求变化和疫病成为主要原因。总体上，我国生猪生产平均每6年多就会发生一次大的波动变化。",
+    "error_detail": "错误地将粮食丰歉作为唯一原因，忽略了1985年后的其他因素。",
+    "original_question": "我国生猪生产周期性波动的主要原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "中国生猪养殖的传统可以追溯到青铜器时代。",
+    "reference_case": "可以追溯到新石器时代，大约公元前5000-前4000年。",
+    "error_detail": "错误地将时期定为青铜器时代，而非新石器时代。",
+    "original_question": "中国生猪养殖的传统可以追溯到哪个时期？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "需将妊娠母猪赶入产房，进产房前应对猪体进行清洁消毒，用冷水擦洗腹部、乳房及外阴部，然后用2%～5%的来苏尔消毒，减少母猪对产栏的污染。",
+    "reference_case": "需将妊娠母猪赶入产房，进产房前应对猪体进行清洁消毒，用温水擦洗腹部、乳房及外阴部，然后用2%～5%的来苏尔消毒，减少母猪对产栏的污染。",
+    "error_detail": "时效性错误，使用冷水而非温水。",
+    "original_question": "母猪产前一周应进行哪些准备工作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "环境过冷过热、湿度大、通风不良、拥挤等会导致血浆皮质醇浓度升高，抑制猪群免疫功能，这是根据1980年的研究得出的结论。",
+    "reference_case": "环境过冷过热、湿度大、通风不良、拥挤等会导致血浆皮质醇浓度升高，抑制猪群免疫功能。",
+    "error_detail": "引用了过时的研究数据",
+    "original_question": "环境因素如何影响猪的免疫系统？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "转人、转出猪群每月一批次，猪栏的猪群批次清楚明了。",
+    "reference_case": "转人、转出猪群每周一批次，猪栏的猪群批次清楚明了。",
+    "error_detail": "错误地改变了猪群转人、转出的频率。",
+    "original_question": "保育舍如何管理猪群批次？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪衣原体病的临床表现为高烧和快速死亡。",
+    "reference_case": "猪衣原体病的临床表现为母猪繁殖障碍，如流产、死产、胎儿死亡等；仔猪可出现多种疾病，如肺炎、肠炎、多发性关节炎、结膜炎、尿道感染及睾丸炎等。",
+    "error_detail": "错误地描述了疾病的临床表现，忽略了多样化的症状。",
+    "original_question": "猪衣原体病的临床表现有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "日本生猪养殖业在规模化过程中，主要表现为从事畜牧业的农户数逐年减少，经营规模适度扩大。例如，北海道的养猪户从1590户下降到730户，而每户的饲养规模从395.8头增加到745头。此外，生猪养殖业的资金和技术集约度不断提高，形成了以家庭农场饲养为主，适度规模、集约化经营的发展模式。目前，日本已经实现了100%的自动化养殖。",
+    "reference_case": "日本生猪养殖业在规模化过程中，主要表现为从事畜牧业的农户数逐年减少，经营规模适度扩大。例如，北海道的养猪户从1590户下降到730户，而每户的饲养规模从395.8头增加到745头。此外，生猪养殖业的资金和技术集约度不断提高，形成了以家庭农场饲养为主，适度规模、集约化经营的发展模式。",
+    "error_detail": "添加了不准确的时效性信息（100%自动化养殖）",
+    "original_question": "日本生猪养殖业在规模化过程中有哪些主要变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "根据母猪的排卵规律进行适时配种应观察母猪的发情表现，通常在发情结束后 24-48 小时内进行配种，以提高受孕率。",
+    "reference_case": "根据母猪的排卵规律进行适时配种应观察母猪的发情表现，通常在发情结束后 12-24 小时内进行配种，以提高受孕率。",
+    "error_detail": "使用了过时的配种时间标准",
+    "original_question": "如何根据母猪的排卵规律进行适时配种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "母猪分娩时会选择站立分娩，分娩过程中会大声吼叫，哺乳时会将仔猪推开。",
+    "reference_case": "临近分娩时以衔草、铺垫猪床絮窝，分娩前24小时表现神情不安，分娩多在下午16:00以后，分娩时采取侧卧位，分娩时发出尖叫声，哺乳时四肢伸直亮开乳头让仔猪吃乳。",
+    "error_detail": "错误地描述了母猪分娩时的行为，如站立分娩和将仔猪推开。",
+    "original_question": "母猪分娩时会有哪些行为？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "能量与蛋白质过多，不利于生殖器官发育。",
+    "reference_case": "能量与蛋白质不足，不利于生殖器官发育。",
+    "error_detail": "过时标准导致错误结论",
+    "original_question": "使用妊娠母猪料喂后备母猪有哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "随着经济的衰退，人们的生活水平的降低和对肥肉需求的增加，猪只的选择逐渐由瘦肉型猪向肉脂兼用型猪，再向脂肪型猪演变。",
+    "reference_case": "随着经济的腾飞，人们的生活水平的提高和对瘦肉需求的增加，猪只的选择逐渐由脂肪型猪向肉脂兼用型猪，再向瘦肉型猪演变。",
+    "error_detail": "过时标准导致错误结论",
+    "original_question": "随着经济的发展，人们对猪的选择趋势是如何演变的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "华北型猪毛色多为黑色，偶在末端出现白斑。体躯较大，四肢粗壮，头较平直，嘴筒较长，耳大下垂，额间多纵行皱纹，皮厚多皱褶，毛粗密，鬃毛发达，可长达 15 cm，冬季密生线毛，乳头 8 对左右，产仔数一般在 12 头以上，母性强，泌乳性能好，仔猪育成率较高。耐粗饲，消化能力强。",
+    "reference_case": "华北型猪毛色多为黑色，偶在末端出现白斑。体躯较大，四肢粗壮，头较平直，嘴筒较长，耳大下垂，额间多纵行皱纹，皮厚多皱褶，毛粗密，鬃毛发达，可长达 10 cm，冬季密生线毛，乳头 8 对左右，产仔数一般在 12 头以上，母性强，泌乳性能好，仔猪育成率较高。耐粗饲，消化能力强。",
+    "error_detail": "错误地将鬃毛长度描述为15 cm，实际上应为10 cm。",
+    "original_question": "华北型猪的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "夏季高温超过25°C时，母猪卵巢的性功能会受到抑制，导致母猪断奶后的不发情率增加，特别是经产母猪受影响更大。",
+    "reference_case": "夏季高温超过30°C时，母猪卵巢的性功能会受到抑制，导致母猪断奶后的不发情率增加，特别是初产母猪受影响更大。",
+    "error_detail": "错误地降低了高温的标准，并错误地指出受影响的是经产母猪而非初产母猪。",
+    "original_question": "环境高温如何影响母猪的发情？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "常温下可保存1~2天的稀释液有BTS、Kiev、Modena等，长效保存稀释液有ZorPVA，常用的稀释液为Kiev稀释液。",
+    "reference_case": "常温下可保存3~5天的稀释液有BTS、Kiev、Modena等，长效保存稀释液有ZorPVA，常用的稀释液为BTS稀释液。",
+    "error_detail": "错误地缩短了稀释液的保存时间，并错误地指出了常用的稀释液。",
+    "original_question": "猪精液的稀释液有哪些类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "母猪妊娠初期食欲渐减、背毛粗糙无光、增膘不明显、性情暴躁、行动鲁莽、少睡。",
+    "reference_case": "母猪妊娠初期食欲渐增、背毛顺滑光亮、增膘明显、性情温顺、行动谨慎稳重、贪睡。随着妊娠期的增加，腹围逐渐变大，特别是到后期腹围\"极度\"增大，可观察到胎动。随着妊娠期的增加，乳房逐渐增大，临产前会膨大下垂，向两侧开张。",
+    "error_detail": "过时标准",
+    "original_question": "母猪妊娠期间的行为表现有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "在转入保育舍10~15d阶段每吨饲料添加泰妙菌素120g、电解多维1000g、葡萄糖2000g。",
+    "reference_case": "在转入保育舍20~25d阶段每吨饲料（饮水加药剂量减半）添加泰妙菌素120g、电解多维1000g、葡萄糖2000g；或加入氟苯尼考400g、电解多维1000g、葡萄糖2000g，可有效地预防呼吸道疾病的发生。",
+    "error_detail": "错误地缩短了添加药物的时间范围",
+    "original_question": "预防保育猪呼吸道疾病的措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "信贷保险扶持政策主要包括能繁母猪保险政策、生猪信贷支持政策两项。",
+    "reference_case": "信贷保险扶持政策主要包括能繁母猪保险政策、生猪信贷支持政策、育肥猪保险补贴政策三项。",
+    "error_detail": "遗漏了最新的政策内容。",
+    "original_question": "生猪产业扶持政策中的信贷保险扶持政策主要包括哪些内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "生产工艺应激对策包括合理饲养密度，断奶前尽量少抓猪，少注射给药，可用强圣注射液作3针保健，免除土霉素和抗毒增免注射液分别注射对猪只造成人为刺激。",
+    "reference_case": "生产工艺应激对策包括合理饲养密度，断奶前尽量少抓猪，少注射给药，可用强圣注射液作3针保健，免除土霉素和抗毒增免注射液分别注射对猪只造成人为刺激。",
+    "error_detail": "时效性幻觉，错误地推荐使用强圣注射液，而没有考虑其可能的最新替代品或更新的保健方案。",
+    "original_question": "如何预防猪的生产工艺应激？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "目前已经有疫苗可供使用，可以有效治疗猪圆环病毒感染。",
+    "reference_case": "目前还没有疫苗可供使用，也没有有效的药物治疗。",
+    "error_detail": "错误地声称存在有效疫苗和治疗药物，与当前实际情况不符。",
+    "original_question": "猪圆环病毒感染的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "已经有疫苗可以预防猪圆环病毒感染，且治疗效果显著。",
+    "reference_case": "尚没有疫苗用于该病的治疗，无论对于仔猪先天性震颤还是对猪断奶多系统衰弱综合征均没有有效的预防措施。",
+    "error_detail": "错误地声称存在有效的疫苗和治疗方法，与当前实际情况不符。",
+    "original_question": "如何防治猪圆环病毒感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "母猪在产后4周进行免疫接种以预防本病。",
+    "reference_case": "母猪在产前4周进行免疫接种，应用包括国内主要流行菌株和本场分离株制成的灭活疫苗预防本病，效果更好。",
+    "error_detail": "错误地改变了疫苗接种的时间点。",
+    "original_question": "母猪在什么时间进行免疫接种以预防本病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪链球菌病的流行有明显的季节性，主要在冬季寒冷季节多发。",
+    "reference_case": "猪链球菌病的流行无明显季节性，一年四季均可发生，但在夏季炎热、潮湿季节较为多发。常呈散发和地方性流行，偶有暴发，病猪、临床康复猪和健康猪均可带菌。",
+    "error_detail": "错误地描述了猪链球菌病的流行季节性。",
+    "original_question": "猪链球菌病的流行病学特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "弓形体病多发于冬季寒冷季节。",
+    "reference_case": "猪感染弓形体病后多无明显症状，为隐性感染；本病多发于2～4月龄猪；无明显季节性，不受气候限制，但在7～9月份的夏秋炎热季节多发；病畜和带虫动物的分泌物、排泄物，特别是随猫粪排出的卵囊污染的饲料和饮水成为主要传染源。",
+    "error_detail": "错误地描述了弓形体病的流行季节性。",
+    "original_question": "弓形体病的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "生产绩效考核奖金的标准是每头生产母猪年出栏活猪数达到15头以上才开始计提。",
+    "reference_case": "生产绩效考核奖金的标准是每头生产母猪年出栏活猪数达到17头以上才开始计提，每月按基本标准的50%计提，剩余部分年度拉通核算，年底累计总出栏猪数，按实际达标提成标准结算年生产绩效考核奖金，多退少补。计算方式包括年出栏头均数和年均生产母猪平均存栏数。",
+    "error_detail": "过时标准",
+    "original_question": "生产绩效考核奖金的标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "缺乏维生素 B12 的饲粮会导致仔猪生长加快。",
+    "reference_case": "缺乏维生素 B12 的饲粮会导致仔猪生长缓慢，并出现后肢共济失调，对于大龄仔猪，还会出现皮炎、被毛粗糙和生长率下降。",
+    "error_detail": "过时标准",
+    "original_question": "缺乏维生素 B12 的饲粮会对仔猪的生长产生什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "仔猪出生初期不能吸收天然蛋白质。",
+    "reference_case": "仔猪出生初期可吸收天然蛋白质，特别是初生时乳糖酶活性很高，出生后的最初几天能从母乳中吸收 γ 球蛋白（母源抗体）。",
+    "error_detail": "错误地否定了仔猪吸收天然蛋白质的能力",
+    "original_question": "仔猪出生初期的消化特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪的能量体系无需改进。",
+    "reference_case": "随着使用更多种类的饲料喂猪，尤其是纤维性饲料副产品的增加，猪的净能体系需要进一步改进。",
+    "error_detail": "错误地否定了猪能量体系改进的必要性",
+    "original_question": "猪的能量体系是如何改进的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "黑酒糟是一种反刍动物的平衡饲料，蛋白质的降解率与干燥过程无关，对猪的营养价值不受限于加热破坏的蛋白价值。",
+    "reference_case": "黑酒糟是一种反刍动物的平衡饲料，蛋白质的降解率与干燥过程有关，对猪的营养价值受限于加热破坏的蛋白价值。",
+    "error_detail": "错误地描述了蛋白质降解率与干燥过程的关系和对猪营养价值的影响。",
+    "original_question": "黑酒糟对反刍动物和猪的营养价值如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "使用5%氢氧化钠或15%石灰乳喷酒，每周2次，作用1小时以上。",
+    "reference_case": "使用3%氢氧化钠或10%石灰乳喷酒，每周1次，作用2小时以上。",
+    "error_detail": "消毒剂浓度和作用时间与现行标准不符。",
+    "original_question": "猪舍环境在疫情静止期的消毒方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "reference_case": "在无公害生猪生产过程中，通过危害可能性评估和危害严重性评估来确定潜在危害是否显著。危害可能性评估包括发生概率（如频繁、经常、偶尔、很少、不可能），危害严重性评估包括后果严重程度（如非常严重、较严重、一般、不严重）。通过矩阵分析，将危害的可能性和严重性结合，确定其风险等级。",
+    "hallucinated_case": "在无公害生猪生产过程中，通过危害可能性评估和危害严重性评估来确定潜在危害是否显著。危害可能性评估包括发生概率（如频繁、经常、偶尔、很少、不可能），危害严重性评估包括后果严重程度（如非常严重、较严重、一般、不严重）。通过矩阵分析，将危害的可能性和严重性结合，确定其风险等级。此外，还需参考2005年的旧标准。",
+    "error_detail": "引入了过时的参考标准",
+    "original_question": "在无公害生猪生产过程中，如何确定潜在危害是否显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "有机磷农药中毒的猪会表现出食欲不振，恶心，呕吐及全身无力，稍重的常有出汗，流涎，腹痛，拉稀，呼吸困难及肌肉震颤等，且这些症状会在24小时内消失。",
+    "reference_case": "有机磷农药中毒的猪会表现出食欲不振，恶心，呕吐及全身无力，稍重的常有出汗，流涎，腹痛，拉稀，呼吸困难及肌肉震颤等。",
+    "error_detail": "添加了不准确的时效性信息。",
+    "original_question": "有机磷农药中毒的猪会表现出哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "妊娠前期的肉脂型母猪与妊娠后期的肉脂型母猪消化能含量不同，前期为10.72 MJ，后期为11.72 MJ。",
+    "reference_case": "相同，均为11.72 MJ。",
+    "error_detail": "过时标准",
+    "original_question": "妊娠前期的肉脂型母猪与妊娠后期的肉脂型母猪消化能含量是否相同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "妊娠前期的肉脂型母猪与妊娠后期的肉脂型母猪代谢能含量不同，前期为10.09 MJ，后期为11.09 MJ。",
+    "reference_case": "相同，均为11.09 MJ。",
+    "error_detail": "过时标准",
+    "original_question": "妊娠前期的肉脂型母猪与妊娠后期的肉脂型母猪代谢能含量是否相同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "妊娠前期的肉脂型母猪与妊娠后期的肉脂型母猪维生素D的含量不同，前期为150 IU，后期为160 IU。",
+    "reference_case": "相同，均为160 IU。",
+    "error_detail": "过时标准",
+    "original_question": "妊娠前期的肉脂型母猪与妊娠后期的肉脂型母猪维生素D的含量是否相同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "妊娠前期的肉脂型母猪与妊娠后期的肉脂型母猪维生素E的含量不同，前期为7 IU，后期为8 IU。",
+    "reference_case": "相同，均为8 IU。",
+    "error_detail": "过时标准",
+    "original_question": "妊娠前期的肉脂型母猪与妊娠后期的肉脂型母猪维生素E的含量是否相同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "妊娠前期的肉脂型母猪与妊娠后期的肉脂型母猪维生素K的含量不同，前期为1.6 mg，后期为1.7 mg。",
+    "reference_case": "相同，均为1.7 mg。",
+    "error_detail": "过时标准",
+    "original_question": "妊娠前期的肉脂型母猪与妊娠后期的肉脂型母猪维生素K的含量是否相同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "应根据猪的品种、生产用途及猪群生产水平选择适当的饲养标准，如喂养地方猪种选择《四川猪饲养标准》，喂养杂交良种猪则需提高标准，喂养外来良种猪可参考美国NRC或英国ARC标准，并根据饲养效果进行调整。",
+    "reference_case": "应根据猪的品种、生产用途及猪群生产水平选择适当的饲养标准，如喂养地方猪种选择《四川猪饲养标准》，喂养杂交良种猪则需提高标准，喂养外来良种猪可参考美国NRC或英国ARC标准，并根据饲养效果进行调整。",
+    "error_detail": "未提及最新的饲养标准",
+    "original_question": "如何选择适合的饲养标准？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "春季和秋季，猪饮水量为采食风干料的6倍或体重的20%左右；夏季约为采食风干料的7倍或体重的25%左右；冬季约为采食风干料的3-4倍或体重的15%左右。",
+    "reference_case": "春季和秋季，猪饮水量为采食风干料的4倍或体重的16%左右；夏季约为采食风干料的5倍或体重的20%左右；冬季约为采食风干料的2-3倍或体重的10%左右。",
+    "error_detail": "提供了过时的饮水量标准，与实际需求不符。",
+    "original_question": "猪的饮水量如何计算？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "直线肥育法根据猪的不同生长发育阶段和营养需求，分阶段配制全价饲料，使猪保持较快的生长增重速度，要求杂交猪出生后4月龄体重达80-90公斤。",
+    "reference_case": "直线肥育法根据猪的不同生长发育阶段和营养需求，分阶段配制全价饲料，使猪保持较快的生长增重速度，要求杂交猪出生后6月龄体重达80-90公斤。",
+    "error_detail": "提供了过时的体重达标时间。",
+    "original_question": "直线肥育法的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "慢性猪瘟的特点是出血和梗死变化非常明显，这是最新的研究发现。",
+    "reference_case": "慢性猪瘟的特点是出血和梗死变化较不明显或完全没有，在回肠末端、盲肠和结肠常有特征性的坏死和溃疡变化，呈纽扣状。",
+    "error_detail": "错误地描述了慢性猪瘟的最新特点，与已知信息不符。",
+    "original_question": "慢性猪瘟的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "目前，抗PEDV的免疫机制已经非常清楚，预防PED广泛使用的方法是对怀孕母猪进行免疫接种，然后通过母源抗体使仔猪获得人工被动免疫保护。猪可溶性APN在体外能提高仔猪抗PEDV抗体水平和促进PEDV在Vero细胞中增殖。",
+    "reference_case": "目前，抗PEDV的免疫机制不清楚，预防PED广泛使用的方法是对怀孕母猪进行免疫接种，然后通过母源抗体使仔猪获得人工被动免疫保护。猪可溶性APN在体外能提高仔猪抗PEDV抗体水平和促进PEDV在Vero细胞中增殖。",
+    "error_detail": "错误地声称‘抗PEDV的免疫机制已经非常清楚’，而实际上是不清楚的，导致时效性幻觉。",
+    "original_question": "PEDV的免疫特性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "间接血凝试验（IHA）用于猪胸膜肺炎（APP）的检测与分型。敏感、特异、操作简便，可用于早期诊断和检测，便于推广应用。",
+    "reference_case": "间接血凝试验（IHA）用于猪胸膜肺炎（APP）的检测与分型。敏感、特异、操作简便，可用于早期诊断和检测，便于推广应用。",
+    "error_detail": "时效性幻觉，错误地认为IHA是最新的诊断方法，忽略了更先进的诊断技术。",
+    "original_question": "间接血凝试验（IHA）在猪胸膜肺炎的诊断中有哪些应用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "包括监测和流行病学调查、消毒卫生制度、饲养管理、疫苗免疫、市场及流通环节的检疫监管、无害化处理病死猪、及时确诊疑似疫情、向卫生部门通报并采取相应措施、不要宰杀和食用病死猪。",
+    "reference_case": "包括监测和流行病学调查、消毒卫生制度、饲养管理、疫苗免疫、市场及流通环节的检疫监管、无害化处理病死猪、及时确诊疑似疫情、向卫生部门通报并采取相应措施、不要宰杀和食用病死猪。",
+    "error_detail": "时效性幻觉，错误地认为这些预防措施是最新的，忽略了更先进的预防技术。",
+    "original_question": "猪链球菌病的预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "研制成功了牛肺疫兔化弱毒疫苗、猪瘟兔化弱毒疫苗、鸡新城疫工系疫苗、炭疽芽孢疫苗及布鲁菌疫苗等，并逐步扩大生产。弱毒菌毒株的选育成为热点。",
+    "reference_case": "研制成功了牛肺疫兔化弱毒疫苗、猪瘟兔化弱毒疫苗、鸡新城疫工系疫苗、炭疽芽孢疫苗及布鲁菌疫苗等，并逐步扩大生产。弱毒菌毒株的选育成为热点。",
+    "error_detail": "时效性幻觉，错误地认为这些疫苗是20世纪60年代的最新进展，忽略了更早的研究。",
+    "original_question": "20世纪60年代我国兽医生物制品研究有哪些进展？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "铁的主要来源为动物肝脏和全血，其次是瘦肉和鱼类。蛋黄中的铁受卵黄高磷蛋白的影响，吸收率只有3%。奶类为贫铁食物。植物性食物中以豆类和绿叶蔬菜含量较高，一般蔬菜不高，黑木耳和芝麻酱含量丰富。",
+    "reference_case": "铁的主要来源为动物肝脏和全血，其次是瘦肉和鱼类。蛋黄中的铁受卵黄高磷蛋白的影响，吸收率只有3%。奶类为贫铁食物。植物性食物中以豆类和绿叶蔬菜含量较高，一般蔬菜不高，黑木耳和芝麻酱含量丰富。",
+    "error_detail": "时效性幻觉（过时标准）",
+    "original_question": "铁的主要食物来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "鸡、小鼠、大鼠、仓鼠、雪貂、猴和猪等，其中最新研究显示兔子也被纳入评估。",
+    "reference_case": "鸡、小鼠、大鼠、仓鼠、雪貂、猴和猪等。",
+    "error_detail": "错误添加了最新的研究信息",
+    "original_question": "实验中常用的评价禽流感病毒致病力的动物模型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "公猪精液的冷冻保存的受胎效果已经达到新鲜精液的受胎效果。",
+    "reference_case": "公猪精液的冷冻保存的受胎效果仍未能达到新鲜精液的受胎效果，仍在继续研究和试用中。",
+    "error_detail": "错误地宣称冷冻保存效果已达到新鲜精液水平，与当前研究状态不符。",
+    "original_question": "公猪精液冷冻保存的受胎效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "急性型时肿大呈急性淋巴结炎，切面湿润、均质，镜检除见淋巴细胞大量增生外，还伴有水肿。慢性型时肿大更为显著，水肿区域内可见成纤维细胞和胶原纤维，且伴有大量中性粒细胞浸润。",
+    "reference_case": "急性型时肿大呈急性淋巴结炎，切面湿润、均质，镜检除见淋巴细胞大量增生外，还伴有水肿。慢性型时肿大更为显著，水肿区域内可见成纤维细胞和胶原纤维。",
+    "error_detail": "在慢性型描述中添加了不存在的症状中性粒细胞浸润",
+    "original_question": "急性型和慢性型猪支原体肺炎时，支气管淋巴结和纵隔淋巴结有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪蛔虫病常引起肝脏呈现典型的局灶性间质性肝炎，眼观可见肝表面被膜有许多不规则的白斑，镜检可见肝小叶间质显著增宽，大量嗜酸性粒细胞浸润，肝实质变性、萎缩，间质内纤维性结缔组织广泛增生，淋巴细胞聚集，有时可见幼虫残体，这些变化在感染后立即出现。",
+    "reference_case": "猪蛔虫病常引起肝脏呈现典型的局灶性间质性肝炎，眼观可见肝表面被膜有许多不规则的白斑，镜检可见肝小叶间质显著增宽，大量嗜酸性粒细胞浸润，肝实质变性、萎缩，间质内纤维性结缔组织广泛增生，淋巴细胞聚集，有时可见幼虫残体。",
+    "error_detail": "错误地描述了病变出现的时间感染后立即出现",
+    "original_question": "猪蛔虫病的主要病理变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "高剂量铜具有抗微生物效应，提高仔猪日增重和饲料利用效率，刺激促生长调节肽分泌，提高采食量，改变排泄物性状。目前推荐的高铜添加量为250ppm。",
+    "reference_case": "高剂量铜具有抗微生物效应，提高仔猪日增重和饲料利用效率，刺激促生长调节肽分泌，提高采食量，改变排泄物性状。",
+    "error_detail": "引用了过时的高铜添加量标准",
+    "original_question": "高剂量铜对仔猪的特殊效应有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪、牛维生素A的治疗剂量是133 μg/kg（440 IU/kg）体重，鸡的剂量几乎是猪、牛的3倍，约364 μg/kg（1200 IU/kg）体重。这些剂量是基于1980年的研究结果。",
+    "reference_case": "猪、牛维生素A的治疗剂量是133 μg/kg（440 IU/kg）体重，鸡的剂量几乎是猪、牛的3倍，约364 μg/kg（1200 IU/kg）体重。",
+    "error_detail": "引用了过时的研究结果作为剂量依据",
+    "original_question": "维生素A缺乏症的治疗剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "喂入霉变银耳的猪和兔会出现体温升高，达41.5-42°C，胸式呼吸，心律不整，食欲废绝，卧地不起，呕叶物呈灰黄色液体，间有血凝块，腥臭，肛门有带血粪便，且死亡率高达100%。",
+    "reference_case": "病猪表现为体温升高，达41.5-42°C，胸式呼吸，心律不整，食欲废绝，卧地不起，呕叶物呈灰黄色液体，间有血凝块，腥臭，肛门有带血粪便。",
+    "error_detail": "添加了不准确的死亡率数据",
+    "original_question": "喂入霉变银耳的猪和兔会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "红细胞减少提示机体贫血，常见于马传贫、仔猪营养性贫血、新生幼畜溶血症以及血红蛋白尿等病症，但不包括现代养殖中常见的疾病。",
+    "reference_case": "红细胞减少提示机体贫血，常见于马传贫、仔猪营养性贫血、新生幼畜溶血症以及血红蛋白尿等病症。",
+    "error_detail": "过时信息",
+    "original_question": "红细胞减少的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪应激综合征的临床表现包括食欲不振和体重下降。",
+    "reference_case": "最初表现为肌纤维颤动，特别是尾快速颤抖。背肌和腿肌也出现震颤。肌颤可发展为肌僵硬，使动物步履维艰，或卧地不动。白皮猪的皮肤可能出现一阵一阵的潮红现象，继之发展成紫线色。心跳加快，每分钟可达 200 次，气喘，张口呼吸，口吐白沫，体温升高。大约每 5-7 分钟升高 1°C，临死前可达 45°C。",
+    "error_detail": "时效性幻觉，使用了过时的临床表现描述。",
+    "original_question": "猪应激综合征的临床表现有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "不同畜、禽及不同年龄的个体，硒缺乏症有相同的临床表现，如所有动物表现为早产、臀部肌肉僵硬等。",
+    "reference_case": "不同畜、禽及不同年龄的个体，硒缺乏症有不同的特征性临床表现，如马属动物表现为早产、臀部肌肉僵硬等；猪表现为顽固性腹泻、心率加快等；家禽表现为精神不振、羽毛无光等。",
+    "error_detail": "错误地统一了不同动物的临床表现，忽略了时效性和个体差异",
+    "original_question": "不同畜、禽的硒缺乏症有无不同症状？",
+    "original_input": ""
+  }
+]

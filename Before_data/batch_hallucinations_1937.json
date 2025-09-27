@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "饲养标准作为配合日粮、检查日粮以及对饲料厂产品检验的依据，有助于合理有效利用各种饲料资源、提高配合饲料质量、提高养猪生产水平和饲料效率、促进整个饲料行业和养殖业的快速发展。此外，它还能预测天气变化。",
+    "reference_case": "饲养标准作为配合日粮、检查日粮以及对饲料厂产品检验的依据，有助于合理有效利用各种饲料资源、提高配合饲料质量、提高养猪生产水平和饲料效率、促进整个饲料行业和养殖业的快速发展。",
+    "error_detail": "添加了与饲养标准无关的功能，即预测天气变化。",
+    "original_question": "饲养标准的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "具有代表性的饲养标准包括美国NRC《猪的营养需要》、英国ARC《猪的营养需要》和中国《肉脂型猪的饲养标准》等，以及最新的2023年全球猪饲养标准。",
+    "reference_case": "具有代表性的饲养标准包括美国NRC《猪的营养需要》、英国ARC《猪的营养需要》和中国《肉脂型猪的饲养标准》等。",
+    "error_detail": "添加了一个不存在的2023年全球猪饲养标准。",
+    "original_question": "什么是具有代表性的饲养标准？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪的饲养标准具有高度的概括性和原则性，基于营养科学理论和科学试验结果，假设所有猪的生长条件完全相同。",
+    "reference_case": "猪的饲养标准具有高度的概括性和原则性，基于营养科学理论和科学试验结果。",
+    "error_detail": "添加了一个不合理的假设，即所有猪的生长条件完全相同。",
+    "original_question": "猪的饲养标准具有什么特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "在饲养实践中应力求按照饲养标准配制日粮，检测日粮，提高配合饲料质量，同时根据生产条件具体情况进行适当调整，灵活应用饲养标准。此外，还应完全忽视饲养标准。",
+    "reference_case": "在饲养实践中应力求按照饲养标准配制日粮，检测日粮，提高配合饲料质量，同时根据生产条件具体情况进行适当调整，灵活应用饲养标准。",
+    "error_detail": "添加了与指令相矛盾的陈述，即完全忽视饲养标准。",
+    "original_question": "如何正确应用猪的饲养标准？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头消化能需要量为4400 kcal/kg。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头消化能需要量为3400 kcal/kg。",
+    "error_detail": "数值偏差，将3400 kcal/kg错误地改为4400 kcal/kg。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头消化能需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪50～80kg时每日每头粗蛋白质需要量为25.5%。",
+    "reference_case": "瘦肉型生长肥育猪50～80kg时每日每头粗蛋白质需要量为15.5%。",
+    "error_detail": "数值偏差，将15.5%错误地改为25.5%。",
+    "original_question": "瘦肉型生长肥育猪50～80kg时每日每头粗蛋白质需要量百分比是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头钙的摄入量为3.25g。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头钙的摄入量为2.25g。",
+    "error_detail": "数值偏差，将2.25g错误地改为3.25g。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头钙的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪10～20kg时每日每头有效磷的摄入量为4.20g。",
+    "reference_case": "瘦肉型生长肥育猪10～20kg时每日每头有效磷的摄入量为3.20g。",
+    "error_detail": "数值偏差，将3.20g错误地改为4.20g。",
+    "original_question": "瘦肉型生长肥育猪10～20kg时每日每头有效磷的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪80～120kg时每日每头维生素A的摄入量为4998 IU。",
+    "reference_case": "瘦肉型生长肥育猪80～120kg时每日每头维生素A的摄入量为3998 IU。",
+    "error_detail": "数值偏差，将3998 IU错误地改为4998 IU。",
+    "original_question": "瘦肉型生长肥育猪80～120kg时每日每头维生素A的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪50～80kg时每日每头维生素D的摄入量为486 IU。",
+    "reference_case": "瘦肉型生长肥育猪50～80kg时每日每头维生素D的摄入量为386 IU。",
+    "error_detail": "数值偏差，将386 IU错误地改为486 IU。",
+    "original_question": "瘦肉型生长肥育猪50～80kg时每日每头维生素D的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头维生素E的摄入量为6 IU。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头维生素E的摄入量为4 IU。",
+    "error_detail": "数值偏差，将4 IU错误地改为6 IU。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头维生素E的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头维生素K的摄入量为0.23 mg。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头维生素K的摄入量为0.13 mg。",
+    "error_detail": "数值偏差，将0.13 mg错误地改为0.23 mg。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头维生素K的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头生物素的摄入量为0.04 mg。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头生物素的摄入量为0.02 mg。",
+    "error_detail": "数值偏差，将0.02 mg错误地改为0.04 mg。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头生物素的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头胆碱的摄入量为0.25 g。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头胆碱的摄入量为0.15 g。",
+    "error_detail": "数值偏差，将0.15 g错误地改为0.25 g。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头胆碱的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪50～80kg时每日每头叶酸的摄入量为1.77 mg。",
+    "reference_case": "瘦肉型生长肥育猪50～80kg时每日每头叶酸的摄入量为0.77 mg。",
+    "error_detail": "数值偏差，将0.77 mg错误地改为1.77 mg。",
+    "original_question": "瘦肉型生长肥育猪50～80kg时每日每头叶酸的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头可利用尼克酸的摄入量为7.00 g。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头可利用尼克酸的摄入量为5.00 g。",
+    "error_detail": "数值偏差，将5.00 g错误地改为7.00 g。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头可利用尼克酸的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪50～80kg时每日每头泛酸的摄入量为28.03 mg。",
+    "reference_case": "瘦肉型生长肥育猪50～80kg时每日每头泛酸的摄入量为18.03 mg。",
+    "error_detail": "数值偏差，将18.03 mg错误地改为28.03 mg。",
+    "original_question": "瘦肉型生长肥育猪50～80kg时每日每头泛酸的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头核黄素的摄入量为2.00 mg。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头核黄素的摄入量为1.00 mg。",
+    "error_detail": "数值偏差，将1.00 mg错误地改为2.00 mg。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头核黄素的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪50～80kg时每日每头维生素B1的摄入量为3.58 mg。",
+    "reference_case": "瘦肉型生长肥育猪50～80kg时每日每头维生素B1的摄入量为2.58 mg。",
+    "error_detail": "数值偏差，将2.58 mg错误地改为3.58 mg。",
+    "original_question": "瘦肉型生长肥育猪50～80kg时每日每头维生素B1的摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉型生长肥育猪3～5kg时每日每头维生素B6的摄入量为1.50 mg。",
+    "reference_case": "瘦肉型生长肥育猪3～5kg时每日每头维生素B6的摄入量为0.50 mg。",
+    "error_detail": "数值偏差，将0.50 mg错误地改为1.50 mg。",
+    "original_question": "瘦肉型生长肥育猪3～5kg时每日每头维生素B6的摄入量是多少？",
+    "original_input": ""
+  }
+]

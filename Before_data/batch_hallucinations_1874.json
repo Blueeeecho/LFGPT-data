@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪连续配种一周应休息3天。",
+    "reference_case": "公猪连续配种一周应休息1天。",
+    "error_detail": "休息时间被错误地延长了。",
+    "original_question": "公猪连续配种一周应如何休息？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "公猪配种应在晚饲后进行。",
+    "reference_case": "公猪配种应在早饲后1~2小时进行。",
+    "error_detail": "配种时间被错误地改为晚饲后。",
+    "original_question": "公猪配种的最佳时间是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "公猪太瘦会出现发情过度、排卵多、卵子活力强、受精能力高等问题。",
+    "reference_case": "公猪太瘦会出现不发情、排卵少、卵子活力弱、受精能力低等问题，并易造成母猪空怀。",
+    "error_detail": "症状被错误地描述为相反的情况。",
+    "original_question": "公猪太瘦会有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "公猪太肥会导致母猪发情过度。",
+    "reference_case": "公猪太肥也会出现不发情、排卵少、卵子活力弱、受精能力低等问题，并易造成母猪空怀。",
+    "error_detail": "错误地认为公猪太肥会导致母猪发情过度。",
+    "original_question": "公猪太肥会有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "母猪配种期的日粮中应包含大量的干饲料和浓缩饲料。",
+    "reference_case": "母猪配种期的日粮中应包含大量的青饲料和多汁饲料。",
+    "error_detail": "饲料类型被错误地改为干饲料和浓缩饲料。",
+    "original_question": "母猪配种期的日粮中应包含哪些饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪配种期的日粮中粗蛋白质含量应在8%以上。",
+    "reference_case": "母猪配种期的日粮中粗蛋白质含量应在12%以上。",
+    "error_detail": "蛋白质含量被错误地降低了。",
+    "original_question": "母猪配种期的日粮中蛋白质的要求是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪日粮中钙、磷比例应调整为10g钙和15～17g磷。",
+    "reference_case": "母猪日粮中钙、磷比例应调整为15g钙和10～12g磷。",
+    "error_detail": "钙和磷的比例被错误地颠倒了。",
+    "original_question": "母猪日粮中钙磷的比例应如何调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "母猪缺乏维生素A、维生素D和维生素E会促进卵泡成熟，使受精卵易于着床，提高受孕率。",
+    "reference_case": "母猪缺乏维生素A、维生素D和维生素E会影响卵泡成熟，使受精卵难于着床，引起不孕，或使哺乳母猪断奶后延迟发情，缺乏维生素D会影响钙磷吸收和造成代谢紊乱，缺乏维生素E会造成不育。",
+    "error_detail": "缺乏维生素的影响被错误地描述为促进作用。",
+    "original_question": "母猪缺乏维生素A、维生素D和维生素E会有什么后果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "母猪配种期应仅提供精饲料，避免使用多汁饲料和青饲料。",
+    "reference_case": "母猪配种期应提供多汁饲料和青饲料，并搭配一定数量的精饲料，同时注意营养均衡。",
+    "error_detail": "饲养管理建议被错误地改为仅提供精饲料。",
+    "original_question": "母猪配种期应如何进行饲养管理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "母猪配种期应提供阳光、运动和新鲜空气，并在配种前期在产床上铺垫冰块以降温。",
+    "reference_case": "母猪配种期应提供阳光、运动和新鲜空气，并在配种前期在产床上铺垫取暖板。",
+    "error_detail": "错误地添加了铺垫冰块的假设。",
+    "original_question": "母猪配种期应如何促进发情？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪补料的关键时期是“淡食”阶段，一般在20日龄左右。",
+    "reference_case": "仔猪补料的关键时期是“旺食”阶段，一般在35日龄左右，此时仔猪的食欲特别旺盛，生长迅速。",
+    "error_detail": "补料时期和日龄被错误地改变了。",
+    "original_question": "仔猪补料的关键时期是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "如果旺食期的饲养管理得当，40～60日龄之间仔猪体重可增加两倍，日增重可达1kg左右。",
+    "reference_case": "如果旺食期的饲养管理得当，40～60日龄之间仔猪体重可增加一倍，日增重可达0.5kg左右。",
+    "error_detail": "体重增加和日增重的数据被错误地夸大了。",
+    "original_question": "旺食期的饲养管理对仔猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "哺乳仔猪饲料配方1中，全脂奶粉和脱脂奶粉在体重5～10kg阶段使用，而在1～5kg阶段不再使用。",
+    "reference_case": "哺乳仔猪饲料配方1中，全脂奶粉和脱脂奶粉在体重1～5kg阶段使用，而在5～10kg阶段不再使用。",
+    "error_detail": "使用阶段被错误地颠倒了。",
+    "original_question": "哺乳仔猪饲料配方1中，哪些成分在体重1～5kg阶段使用，而在5～10kg阶段不再使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "哺乳仔猪饲料配方1中，全脂奶粉在体重5～10kg阶段使用，而在1～5kg阶段不再使用。",
+    "reference_case": "哺乳仔猪饲料配方1中，脱脂奶粉在体重5～10kg阶段使用，而在1～5kg阶段不再使用。",
+    "error_detail": "错误地将脱脂奶粉改为全脂奶粉。",
+    "original_question": "哺乳仔猪饲料配方1中，哪些成分在体重5～10kg阶段使用，而在1～5kg阶段不再使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "哺乳仔猪饲料配方1中，玉米、小麦、高粱、小麦敖、互饼、鱼粉、饲料酵母粉、白糖、炒黄豆、碳酸钙、骨粉、食盐、预混饲料、淀粉酶、胃蛋白酶、胰蛋白酶、乳酶生在体重1～5kg阶段使用，而在5～10kg阶段不再使用。",
+    "reference_case": "哺乳仔猪饲料配方1中，玉米、小麦、高粱、小麦敖、互饼、鱼粉、饲料酵母粉、白糖、炒黄豆、碳酸钙、骨粉、食盐、预混饲料、淀粉酶、胃蛋白酶、胰蛋白酶、乳酶生在体重1～5kg阶段和5～10kg阶段都使用。",
+    "error_detail": "错误地认为这些成分在5～10kg阶段不再使用。",
+    "original_question": "哺乳仔猪饲料配方1中，哪些成分在体重1～5kg阶段和5～10kg阶段都使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "哺乳仔猪饲料配方1中，鱼粉和饲料酵母粉在体重1～5kg阶段的含量较高。",
+    "reference_case": "哺乳仔猪饲料配方1中，玉米和互饼在体重1～5kg阶段的含量较高。",
+    "error_detail": "错误地认为鱼粉和饲料酵母粉的含量较高。",
+    "original_question": "哺乳仔猪饲料配方1中，哪些成分在体重1～5kg阶段的含量较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳仔猪饲料配方1中，每千克饲料的消化能为10.272～9.435 MJ/kg，粗蛋白质含量为15.2%～10.3%。",
+    "reference_case": "哺乳仔猪饲料配方1中，每千克饲料的消化能为15.272～14.435 MJ/kg，粗蛋白质含量为25.2%～20.3%。",
+    "error_detail": "消化能和粗蛋白质含量被错误地降低了。",
+    "original_question": "哺乳仔猪饲料配方1中，每千克饲料的消化能和粗蛋白质含量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "哺乳仔猪饲料配方2中，黄玉米、脱壳燕麦粉、黄豆粉(44%)、乳清粉、糖、油脂、碳酸钙、磷酸二钙、食盐、维生素及微量元素预混料在仔猪体重1～5kg阶段使用。",
+    "reference_case": "哺乳仔猪饲料配方2中，黄玉米、脱壳燕麦粉、黄豆粉(44%)、乳清粉、糖、油脂、碳酸钙、磷酸二钙、食盐、维生素及微量元素预混料在仔猪体重4.5～11kg阶段使用。",
+    "error_detail": "使用阶段被错误地改为1～5kg。",
+    "original_question": "哺乳仔猪饲料配方2中，哪些成分在仔猪体重4.5～11kg阶段使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪缺铁时，会发生营养过剩症，表现为皮肤和黏膜红润，被毛光滑，食欲增加，精神旺盛，生长迅速。",
+    "reference_case": "仔猪缺铁时，会发生营养性贫血症，表现为皮肤和黏膜苍白，被毛粗乱，食欲减退，轻度腹泻，精神委靡，生长停滞，严重者死亡。",
+    "error_detail": "症状被错误地描述为营养过剩的表现。",
+    "original_question": "仔猪缺铁时会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "一般于仔猪出生后10～15日龄内给仔猪补铁，可以在饲料中添加或肌注生血素、培亚铁针剂和右旋糖苷铁等。",
+    "reference_case": "一般于仔猪出生后3～4日龄内给仔猪补铁，可以在饲料中添加或肌注生血素、培亚铁针剂和右旋糖苷铁等。",
+    "error_detail": "补铁时间被错误地推迟了。",
+    "original_question": "仔猪缺铁性贫血如何预防？",
+    "original_input": ""
+  }
+]

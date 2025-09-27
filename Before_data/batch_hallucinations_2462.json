@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "灌服100、150和200 mg·kg⁻¹体重的NCG显著提高了哺乳仔猪十二指肠中CPS-I的活性（P<0:05:，其中150 mg·kg⁻¹组的CPS-I活性比对照组提高了158:57%。",
+    "reference_case": "灌服100、150和200 mg·kg⁻¹体重的NCG显著提高了哺乳仔猪十二指肠中CPS-I的活性（P<0:05:，其中150 mg·kg⁻¹组的CPS-I活性比对照组提高了58:57%。",
+    "error_detail": "数值比例被夸大，从58:57%提高到158:57%，不符合实际情况。",
+    "original_question": "NCG对哺乳仔猪十二指肠中CPS-I活性的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在伪狂犬病病毒 Guizhou-DY 株的致病性试验中，攻毒组哺乳仔猪体温突然升高，可达 42°C，72 小时内全部死亡；断奶仔猪症状较轻，体温升高，死亡 5 头，耐过猪 10 天后体温下降。",
+    "reference_case": "在伪狂犬病病毒 Guizhou-DY 株的致病性试验中，攻毒组哺乳仔猪体温突然升高，可达 41°C，72 小时内全部死亡；断奶仔猪症状较轻，体温升高，死亡 3 头，耐过猪 10 天后体温下降。",
+    "error_detail": "体温和死亡数量被错误地修改，不符合原始数据。",
+    "original_question": "伪狂犬病病毒 Guizhou-DY 株的致病性试验中，攻毒组猪的体温变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在伪狂犬病病毒 Guizhou-DY 株的致病性试验中，攻毒组猪的 PRV 抗体水平在攻毒后第 3 天开始出现低水平的中和抗体，第 10 天开始上升，第 15 天达到最高。",
+    "reference_case": "在伪狂犬病病毒 Guizhou-DY 株的致病性试验中，攻毒组猪的 PRV 抗体水平在攻毒后第 5 天开始出现低水平的中和抗体，第 13 天开始上升，第 21 天达到最高。",
+    "error_detail": "抗体出现和达到最高水平的时间被错误地提前，与实际情况不符。",
+    "original_question": "伪狂犬病病毒 Guizhou-DY 株的致病性试验中，攻毒组猪的 PRV 抗体水平如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肺脏气道上皮细胞的研究中，PAS染色的主要作用是鉴定DNA的复制与转录，PAS染色阳性细胞主要为分裂细胞，在气道上皮中可作为干细胞的标记。",
+    "reference_case": "猪肺脏气道上皮细胞的研究中，PAS染色的主要作用是鉴定黏液的分泌与沉积，PAS染色阳性细胞主要为分泌细胞，在气道上皮中可作为杯状细胞的标记。",
+    "error_detail": "PAS染色的作用和标记的细胞类型被错误地描述，与实际情况不符。",
+    "original_question": "猪肺脏气道上皮细胞的研究中，PAS染色的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪肺脏气道上皮细胞的研究采用了组织化学染色（苏木精-伊红染色和高碘酸-希夫染色）和免疫组织化学染色等方法，以及电子显微镜观察。",
+    "reference_case": "猪肺脏气道上皮细胞的研究采用了组织化学染色（苏木精-伊红染色和高碘酸-希夫染色）和免疫组织化学染色等方法。",
+    "error_detail": "添加了电子显微镜观察这一未提及的方法，偏离了原始指令。",
+    "original_question": "猪肺脏气道上皮细胞的研究采用了哪些染色方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪肺脏气道上皮细胞的免疫组织化学染色步骤包括固定、通透、封闭、一抗反应、二抗反应、显色和复染等步骤，但不需要封闭步骤。",
+    "reference_case": "猪肺脏气道上皮细胞的免疫组织化学染色步骤包括固定、通透、封闭、一抗反应、二抗反应、显色和复染等步骤。",
+    "error_detail": "步骤描述中存在逻辑矛盾，既包括封闭步骤又说不需封闭。",
+    "original_question": "猪肺脏气道上皮细胞的免疫组织化学染色步骤包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪肺脏气道上皮细胞的研究中，根据免疫染色呈阳性的某一类型上皮细胞的数量与所有观察的总上皮细胞的细胞核数比值计算出某一类型细胞在某一区段上皮细胞中的组成比例，通常使用显微镜放大1000倍观察。",
+    "reference_case": "猪肺脏气道上皮细胞的研究中，根据免疫染色呈阳性的某一类型上皮细胞的数量与所有观察的总上皮细胞的细胞核数比值计算出某一类型细胞在某一区段上皮细胞中的组成比例。",
+    "error_detail": "添加了显微镜放大倍数的具体数值，与原始描述不符。",
+    "original_question": "猪肺脏气道上皮细胞的研究中如何统计细胞组成比例？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肺脏气道上皮细胞的主要类型包括基底细胞、克拉拉细胞、纤毛细胞和杯状细胞，以及肺泡细胞。",
+    "reference_case": "猪肺脏气道上皮细胞的主要类型包括基底细胞、克拉拉细胞、纤毛细胞和杯状细胞。",
+    "error_detail": "错误地添加了肺泡细胞，与原始描述不符。",
+    "original_question": "猪肺脏气道上皮细胞的主要类型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肺脏气道上皮细胞的研究中使用了基底细胞标记抗体Keratin 14、纤毛细胞标记抗体Tuberin IV、肺泡I型细胞标记抗体Pro SP-C、克拉拉细胞标记抗体CCSP和杯状细胞标记抗体Mucin 5AC，以及平滑肌细胞标记抗体SMA。",
+    "reference_case": "猪肺脏气道上皮细胞的研究中使用了基底细胞标记抗体Keratin 14、纤毛细胞标记抗体Tuberin IV、肺泡I型细胞标记抗体Pro SP-C、克拉拉细胞标记抗体CCSP和杯状细胞标记抗体Mucin 5AC。",
+    "error_detail": "错误地添加了平滑肌细胞标记抗体SMA，与原始描述不符。",
+    "original_question": "猪肺脏气道上皮细胞的研究中使用了哪些抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪肺脏气道上皮细胞在不同区段的组成比例有所差异。例如，基底细胞在气管、支气管和细支气管中的比例分别为47:3%、42:1%和38:5%。",
+    "reference_case": "猪肺脏气道上皮细胞在不同区段的组成比例有所差异。例如，基底细胞在气管、支气管和细支气管中的比例分别为37:3%、32:1%和28:5%。",
+    "error_detail": "基底细胞的比例被错误地提高，与原始数据不符。",
+    "original_question": "猪肺脏气道上皮细胞在不同区段的组成比例有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪肺脏气道上皮细胞的研究中使用了4%多聚甲醛、樱花冷冻切片包埋剂、马血清、免疫组织化学黏附载玻片、Elite-ABC试剂盒、苏木素、DAB显色液、石蜡、盖玻片、包埋盒、湿盒、切片架、封片剂和SuperBlock（PBS）Blocking Buffer等主要试剂，假设所有试剂均为进口。",
+    "reference_case": "猪肺脏气道上皮细胞的研究中使用了4%多聚甲醛、樱花冷冻切片包埋剂、马血清、免疫组织化学黏附载玻片、Elite-ABC试剂盒、苏木素、DAB显色液、石蜡、盖玻片、包埋盒、湿盒、切片架、封片剂和SuperBlock（PBS）Blocking Buffer等主要试剂。",
+    "error_detail": "错误地添加了所有试剂均为进口的假设，与原始描述不符。",
+    "original_question": "猪肺脏气道上皮细胞的研究中使用了哪些主要试剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪肺脏气道上皮细胞的形态学特征与人类肺脏较为接近，而与小鼠肺脏气道上皮细胞形态组成有较大差异。猪肺脏比小鼠肺脏更适合用于亚洲人肺脏疾病的研究。",
+    "reference_case": "猪肺脏气道上皮细胞的形态学特征与人类肺脏较为接近，而与小鼠肺脏气道上皮细胞形态组成有较大差异。猪肺脏比小鼠肺脏更适合用于人类肺脏疾病的研究。",
+    "error_detail": "错误地限定了研究的地域范围，与原始描述不符。",
+    "original_question": "猪肺脏气道上皮细胞的形态学特征与人类和小鼠有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪肺脏气道上皮细胞的研究结果表明，猪肺脏与人类肺脏在形态学和细胞组成上具有较高的相似性，因此猪肺脏可以作为人类肺脏疾病研究的模型，尤其是肺癌研究。",
+    "reference_case": "猪肺脏气道上皮细胞的研究结果表明，猪肺脏与人类肺脏在形态学和细胞组成上具有较高的相似性，因此猪肺脏可以作为人类肺脏疾病研究的模型。",
+    "error_detail": "错误地限定了研究的具体疾病类型，与原始描述不符。",
+    "original_question": "猪肺脏气道上皮细胞的研究结果对人类的肺脏疾病研究有何意义？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪圆环病毒2型（PCV-2:是引起断奶仔猪多系统衰竭综合征（PMWS）的唯一病原，并与猪繁殖障碍、猪皮炎与肾病综合征及猪呼吸道病综合征等密切相关。",
+    "reference_case": "猪圆环病毒2型（PCV-2:是引起断奶仔猪多系统衰竭综合征（PMWS）的主要病原，并与猪繁殖障碍、猪皮炎与肾病综合征及猪呼吸道病综合征等密切相关。",
+    "error_detail": "错误地将PCV-2描述为唯一病原，与原始描述不符。",
+    "original_question": "猪圆环病毒2型（PCV-2:的主要致病性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的基因组结构包括7个开放阅读框（ORF），从5'端到3'端依次为复制酶多聚蛋白1ab（pp1ab）、纤突蛋白（S）、ORF3、小膜蛋白（sM）、膜糖蛋白（M）、核衣壳蛋白（N）基因和ORF4。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的基因组结构包括6个开放阅读框（ORF），从5'端到3'端依次为复制酶多聚蛋白1ab（pp1ab）、纤突蛋白（S）、ORF3、小膜蛋白（sM）、膜糖蛋白（M）和核衣壳蛋白（N）基因。",
+    "error_detail": "错误地添加了ORF4，与原始描述不符。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的基因组结构包括哪些主要部分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的S蛋白包含主要中和抗原表位（COE），能够刺激机体产生中和抗体，在S蛋白介导的免疫反应中发挥次要作用。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的S蛋白包含主要中和抗原表位（COE），能够刺激机体产生中和抗体，在S蛋白介导的免疫反应中发挥重要作用。",
+    "error_detail": "错误地将S蛋白的作用描述为次要，与原始描述不符。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的S蛋白在免疫反应中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪流行性腹泻病毒（PEDV）的分子生物学诊断中，S基因和N基因相对保守，具有较好的应用前景。",
+    "reference_case": "在猪流行性腹泻病毒（PEDV）的分子生物学诊断中，M基因和N基因相对保守，具有较好的应用前景。",
+    "error_detail": "错误地将S基因替换为M基因，与原始描述不符。",
+    "original_question": "在猪流行性腹泻病毒（PEDV）的分子生物学诊断中，哪些基因具有较好的应用前景？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的主要临床特征包括呕吐、腹泻和脱水。这种病毒对所有年龄段的猪的危害都同样严重，可能导致高死亡率。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的主要临床特征包括呕吐、腹泻和脱水。这种病毒对哺乳仔猪的危害尤为严重，可能导致高死亡率。",
+    "error_detail": "错误地描述了病毒对所有年龄段猪的危害，与原始描述不符。",
+    "original_question": "猪流行性腹泻病毒（PEDV）的主要临床特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "COE蛋白的纯化过程包括菌体收集、溶菌酶处理、超声波破碎、裂解液洗涤、镍柱纯化、洗脱和透析等步骤，以及最后的冷冻干燥。",
+    "reference_case": "COE蛋白的纯化过程包括菌体收集、溶菌酶处理、超声波破碎、裂解液洗涤、镍柱纯化、洗脱和透析等步骤。",
+    "error_detail": "错误地添加了冷冻干燥步骤，与原始描述不符。",
+    "original_question": "在“猪流行性腹泻病毒中和抗原表位基因的原核表达、纯化及免疫原性鉴定”研究中，COE蛋白的纯化过程包括哪些步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "布他磷在抗应激方面的应用包括改善公猪采精量和提高精液品质，阻止由热应激引起的采食量减少、增重减慢、心跳次数减少、呼吸加快、皮质醇分泌增加等。",
+    "reference_case": "布他磷在抗应激方面的应用包括改善公猪采精量和提高精液品质，阻止由热应激引起的采食量减少、增重减慢、心跳次数减少、呼吸加快、皮质醇分泌减少等。",
+    "error_detail": "错误地将皮质醇分泌描述为增加，与原始描述不符。",
+    "original_question": "布他磷在抗应激方面的应用有哪些具体表现？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪群中猪数目过多或过少都会影响猪群次序的建立。过多不易建立，建立后也不稳定；过少则失去组群的意义。一般每群以5~10头为宜，具体还需根据圈舍大小因地制宜。",
+    "reference_case": "猪群中猪数目过多或过少都会影响猪群次序的建立。过多不易建立，建立后也不稳定；过少则失去组群的意义。一般每群以10~20头为宜，具体还需根据圈舍大小因地制宜。",
+    "error_detail": "数值偏差，猪群数量建议被低估。",
+    "original_question": "猪群的大小对猪群次序的建立有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每头猪所需面积根据猪的体重不同而不同，15~60kg的肥育猪需1.2~1.5m²，60kg以上的肥育猪需2.0m²。具体数量还应根据猪舍结构、环境条件等因素确定。",
+    "reference_case": "每头猪所需面积根据猪的体重不同而不同，15~60kg的肥育猪需0.8~1.0m²，60kg以上的肥育猪需1.4m²。具体数量还应根据猪舍结构、环境条件等因素确定。",
+    "error_detail": "数值偏差，猪舍面积需求被夸大。",
+    "original_question": "如何确定猪舍的密度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "应立即将疿癣猪与健康猪混合饲养，用冷水刷洗疿癣部位后再用药液治疗，以充分发挥药液的杀虫作用。常用的杀疿螨药物包括5%敌百虫水溶液、0.1%辛硫磷、烟草木或烟叶水溶液。",
+    "reference_case": "应立即将疿癣猪与健康猪隔离饲养，用温水刷洗疿癣部位后再用药液治疗，以充分发挥药液的杀虫作用。常用的杀疿螨药物包括2%敌百虫水溶液、0.05%辛硫磷、烟草木或烟叶水溶液。",
+    "error_detail": "错误地建议混合饲养和使用冷水，药物浓度也错误。",
+    "original_question": "发现疿癣猪后应该如何处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用5%敌百虫水溶液喷雾或涂擦疿癣部位，每天2次，同时要细致喷到猪能够接触到的墙壁等地方，并更换垫草，待恢复后间隔2周再喷1次。",
+    "reference_case": "使用2%敌百虫水溶液喷雾或涂擦疿癣部位，每天1次，同时要细致喷到猪能够接触到的墙壁等地方，并更换垫草，待恢复后间隔1周再喷1次。",
+    "error_detail": "错误地提高了药物浓度和使用频率，延长了间隔时间。",
+    "original_question": "如何使用2%敌百虫水溶液来杀疿螨？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪场计划管理指标包括存栏数、饲养量、猪群结构指标（公母比例、繁殖猪群中各年龄猪比例、后备母猪与公猪比例）等，以及猪只的体重增长指标。",
+    "reference_case": "猪场计划管理指标包括存栏数、饲养量、猪群结构指标（公母比例、繁殖猪群中各年龄猪比例、后备母猪与公猪比例）等。",
+    "error_detail": "错误地添加了猪只的体重增长指标，这与原始output不符。",
+    "original_question": "猪场计划管理的指标有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "理想的母猪胎次比例结构如下：胎次0占25%，胎次1占20%，胎次2占15%，胎次3占10%，胎次4占10%，胎次5占10%，胎次6占7%，胎次7占3%。",
+    "reference_case": "理想的母猪胎次比例结构如下：胎次0占20%，胎次1占18%，胎次2占16%，胎次3占14%，胎次4占12%，胎次5占10%，胎次6占7%，胎次7占3%。",
+    "error_detail": "错误地修改了胎次比例，与原始数据不符。",
+    "original_question": "理想的母猪胎次比例结构是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉率 = 肉重 ÷ (骨重 + 皮重 + 肉重) × 100%。",
+    "reference_case": "瘦肉率 = 肉重 ÷ (骨重 + 皮重 + 肉重 + 脂重) × 100%。",
+    "error_detail": "错误地忽略了脂重在计算公式中的重要性。",
+    "original_question": "瘦肉率的计算公式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "腿臀比 = 后腿重 ÷ 胴体重 × 50%。",
+    "reference_case": "腿臀比 = 后腿重 ÷ 胴体重 × 100%。",
+    "error_detail": "错误地将百分比计算错误地减半。",
+    "original_question": "腿臀比的计算公式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每头肥猪所占用的建筑面积一般为 1.5 ~ 2.0 m²。",
+    "reference_case": "每头肥猪所占用的建筑面积一般为 0.8 ~ 1.0 m²。",
+    "error_detail": "错误地增加了每头肥猪占用的建筑面积范围。",
+    "original_question": "每头肥猪占用的建筑面积范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "劳动生产率按全员计算，每个劳动人员年生产肉猪 300 ~ 400 头，母猪 80 ~ 100 头。",
+    "reference_case": "劳动生产率按全员计算，每个劳动人员年生产肉猪 400 ~ 500 头，母猪 100 ~ 120 头。",
+    "error_detail": "错误地降低了劳动生产率的标准。",
+    "original_question": "劳动生产率的计算公式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "全群饲料利用率 = [（繁殖猪群耗料总量 ÷ 成活有效仔猪数 + 保育猪群耗料总量 ÷ 该群实际增重）× 10 + （生长肥育猪群耗料总量 ÷ 该群实际增重）× 60] ÷ 70。",
+    "reference_case": "全群饲料利用率 = [（繁殖猪群耗料总量 ÷ 成活有效仔猪数 + 保育猪群耗料总量 ÷ 该群实际增重）× 13 + （生长肥育猪群耗料总量 ÷ 该群实际增重）× 70] ÷ 90。",
+    "error_detail": "错误地修改了计算公式中的系数和分母。",
+    "original_question": "全群饲料利用率的计算公式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "商品猪的生产周期是200天。",
+    "reference_case": "商品猪的生产周期是175天。",
+    "error_detail": "错误地延长了商品猪的生产周期。",
+    "original_question": "商品猪的生产周期是多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟采用灭活苗兔化弱毒疫苗，公猪、繁殖母猪每年接种 2 次，母猪于临发情前接种，仔猪不喝初乳前接种常规剂量，2 h 后自由哺乳，20 日龄再接种常规量，60 日龄左右接种第 2 次，接种剂量为常规量的 3 倍，选留后备种猪参加配种前接种第 2 次。",
+    "reference_case": "猪瘟采用灭活苗兔化弱毒疫苗，公猪、繁殖母猪每年接种 1 次，母猪于临发情前接种，仔猪不喝初乳前接种常规剂量，2 h 后自由哺乳，20 日龄再接种常规量，60 日龄左右接种第 2 次，接种剂量为常规量的 2 倍，选留后备种猪参加配种前接种第 2 次。",
+    "error_detail": "接种次数和剂量被错误地增加",
+    "original_question": "猪瘟免疫的具体步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪细小病毒采用灭活疫苗，初产母猪每次配种前 1-2 周在颈部进行肌肉注射，每头 3 ml，种公猪 6 月龄首次免疻，以后每年免疻一次，每头 3 ml。",
+    "reference_case": "猪细小病毒采用灭活疫苗，初产母猪每次配种前 2-4 周在颈部进行肌肉注射，每头 2 ml，种公猪 8 月龄首次免疻，以后每年免疻一次，每头 2 ml。",
+    "error_detail": "接种时间和剂量被错误地更改",
+    "original_question": "猪细小病毒免疫的具体步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "链球菌病使用猪链球菌苗，6 周龄猪注射 3 头份，通常进行皮下或肌肉注射。",
+    "reference_case": "链球菌病使用猪链球菌苗，4 周龄猪注射 2 头份，通常进行皮下或肌肉注射。",
+    "error_detail": "接种年龄和剂量被错误地更改",
+    "original_question": "链球菌病免疫的具体步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪肺疫采用多杀性巴氏杆菌活疫苗，用 30% 铝胶生理盐水稀释（铝胶水用前必须摇匀），在断奶转群后 2 周左右进行皮下或肌肉注射，每头 2 ml。",
+    "reference_case": "猪肺疫采用多杀性巴氏杆菌活疫苗，用 20% 铝胶生理盐水稀释（铝胶水用前必须摇匀），在断奶转群后 1 周左右进行皮下或肌肉注射，每头 1 ml。",
+    "error_detail": "稀释比例、接种时间和剂量被错误地更改",
+    "original_question": "猪肺疫免疫的具体步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公/母猪每年接种3次，后备猪接种3次，小猪在15日龄接种1次。",
+    "reference_case": "公/母猪每年接种2次，后备猪接种2次，小猪在10日龄接种1次。",
+    "error_detail": "接种频率和年龄被错误地更改",
+    "original_question": "疫苗接种频率是如何规定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大部分驱虫剂都是注射给药，因此保证所有猪都能注射到足够剂量的驱虫药十分重要。在计算长期治疗所用的驱虫药用量时，应估计治疗初期的猪体重再用药，否则剂量不足。",
+    "reference_case": "大部分驱虫剂都是拌料饲喂，因此保证所有猪都能吃到足够剂量的驱虫药十分重要。在计算长期治疗所用的驱虫药用量时，应估计治疗末期的猪体重再用药，否则剂量不足。",
+    "error_detail": "给药方式和计算依据被错误地更改",
+    "original_question": "如何确保驱虫药的用量充足？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2004年我国生猪出栏数为60000.0万头。",
+    "reference_case": "2004年我国生猪出栏数为61800.7万头。",
+    "error_detail": "出栏数被错误地低估",
+    "original_question": "我国2004年生猪出栏数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2004年我国猪粪便的排放总量为25000.0万t。",
+    "reference_case": "2004年我国猪粪便的排放总量为24596.68万t。",
+    "error_detail": "排放总量被错误地高估",
+    "original_question": "2004年我国猪粪便的排放总量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1头猪的粪便排泄量相当于3个人的排泄量。",
+    "reference_case": "1头猪的粪便排泄量相当于2个人的排泄量。",
+    "error_detail": "排泄量比例被错误地高估",
+    "original_question": "1头猪的粪便排泄量相当于多少人的排泄量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1头猪的BOD5排泄量相当于30个人的排泄量。",
+    "reference_case": "1头猪的BOD5排泄量相当于13个人的排泄量。",
+    "error_detail": "数值偏差，夸大了猪的BOD5排泄量相当于人的排泄量的比例。",
+    "original_question": "1头猪的BOD5排泄量相当于多少人的排泄量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "我国规模化养猪场目前采用的清粪工艺主要有水冲粪、水泡粪和干清粪4种。",
+    "reference_case": "我国规模化养猪场目前采用的清粪工艺主要有水冲粪、水泡粪和干清粪3种。",
+    "error_detail": "数据错误，错误地增加了清粪工艺的种类。",
+    "original_question": "我国规模化养猪场目前采用的清粪工艺有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "水冲清粪和水泡清粪工艺的猪场污水排放量分别为45-50 L/d和30-35 L/d，而干清粪工艺的猪场污水排放量为10~15 L/d。",
+    "reference_case": "水冲清粪和水泡清粪工艺的猪场污水排放量分别为35-40 L/d和20-25 L/d，而干清粪工艺的猪场污水排放量为10~15 L/d。",
+    "error_detail": "数值偏差，错误地增加了水冲清粪和水泡清粪工艺的污水排放量。",
+    "original_question": "不同清粪工艺的猪场污水排放量有何差异？",
+    "original_input": "CODer和SS含量。"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪粪尿的水分含量分别为80.0%和99.0%。",
+    "reference_case": "猪粪尿的水分含量分别为69.4%和98.0%。",
+    "error_detail": "数值偏差，错误地增加了猪粪尿的水分含量。",
+    "original_question": "猪粪尿的水分含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪粪尿中N的含量分别为2.09 g/kg、P₂O₅的含量分别为2.76 g/kg、K₂O的含量分别为1.43 g/kg。",
+    "reference_case": "猪粪尿中N的含量分别为1.09 g/kg、P₂O₅的含量分别为1.76 g/kg、K₂O的含量分别为0.43 g/kg。",
+    "error_detail": "数值偏差，错误地增加了猪粪尿中N、P₂O₅、K₂O的含量。",
+    "original_question": "猪粪尿中N、P₂O₅、K₂O的含量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每头猪每天产生的沼气量约为250～300 L，一个万头猪场每天的沼气产生量可达250～300万 L。",
+    "reference_case": "每头猪每天产生的沼气量约为150～200 L，一个万头猪场每天的沼气产生量可达150～200万 L。",
+    "error_detail": "数值偏差，错误地增加了每头猪每天产生的沼气量。",
+    "original_question": "猪粪尿厌氧发酵可以产生多少沼气？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪在饲槽中就能饮到水时，采食量和日增重大于只能从距饲槽5m处饮到水的猪。",
+    "reference_case": "猪在饲槽中就能饮到水时，采食量和日增重大于只能从距饲槽3m处饮到水的猪。",
+    "error_detail": "错误地增加了饮水的距离，导致数据偏差。",
+    "original_question": "Walker的研究表明采用干湿饲喂器时，猪的采食量和日增重如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "向猪的饲粮中添加15%-30%的非淀粉多糖，可使尿氮的排泄量减少40%-45%，粪氮排泄量增加25%-30%。",
+    "reference_case": "向猪的饲粮中添加10%-22%的非淀粉多糖，可使尿氮的排泄量减少35%-39%，粪氮排泄量增加20%-28%。",
+    "error_detail": "错误地增加了非淀粉多糖的添加比例和效果，导致数据偏差。",
+    "original_question": "添加非淀粉多糖如何影响尿氮和粪氮排泄？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪饲料颗粒度在600-700μm时，饲料的转化率最佳，且不会发生溃胀和结块问题。饲料制粒处理可使干物质和氮的排泄量降低30%和25%。",
+    "reference_case": "猪饲料颗粒度在700-800μm时，饲料的转化率最佳，且不会发生溃胀和结块问题。饲料制粒处理可使干物质和氮的排泄量降低23%和22%。",
+    "error_detail": "错误地改变了饲料颗粒度和排泄量降低的百分比，导致数据偏差。",
+    "original_question": "饲料加工工艺如何影响饲料转化率和氮排泄？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小型沼气池每立方米成本在3万-4万元，总成本15万-20万元；大型沼气池每立方米成本至少90万元。小型沼气池可年产沼气25万立方米，价值25万元；年产沼渣80-150吨，按每吨60元计算，年收益6万元；年产沼液12000吨，按每吨3元计算，年获收益4.8万元。总计经济效益可达35.8万元。",
+    "reference_case": "小型沼气池每立方米成本在4万-5万元，总成本20万-25万元；大型沼气池每立方米成本至少100万元。小型沼气池可年产沼气30万立方米，价值30万元；年产沼渣100-200吨，按每吨65元计算，年收益7.8万元；年产沼液15000吨，按每吨4元计算，年获收益6万元。总计经济效益可达43.8万元。此外，利用沼气代替电能，可实现污水处理、清洁生产，缓解能源压力，实现可循环生产。",
+    "error_detail": "错误地降低了成本和收益的数值，导致数据偏差。",
+    "original_question": "猪场建设中使用小型沼气池和大型沼气池各有什么经济和环保优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "沼气可以用作供暖、照明、发电等，替代电能，不受停电影响。深圳市农牧实业有限公司通过将柴油发电机改装后，利用90%的沼气+10%的柴油发电，发电成本为0.4-0.5元/kWh，低于国家电网的0.6-0.9元/kWh。",
+    "reference_case": "沼气可以用作供暖、照明、发电等，替代电能，不受停电影响。深圳市农牧实业有限公司通过将柴油发电机改装后，利用85%的沼气+15%的柴油发电，发电成本为0.47-0.57元/kWh，低于国家电网的0.6-0.9元/kWh。",
+    "error_detail": "错误地改变了沼气与柴油的比例和发电成本，导致数据偏差。",
+    "original_question": "猪场零排放处理中，沼气在哪些方面可以实现可循环生产？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "沼气与柴油混合发电成本仅为0.4-0.5元/kWh，低于国家电网的0.6-0.9元/kWh，且此费用涵盖猪场的污水处理成本，实现污水处理和清洁生产的同时缓解能源压力，实现可循环生产。",
+    "reference_case": "沼气与柴油混合发电成本仅为0.47-0.57元/kWh，低于国家电网的0.6-0.9元/kWh，且此费用涵盖猪场的污水处理成本，实现污水处理和清洁生产的同时缓解能源压力，实现可循环生产。",
+    "error_detail": "错误地降低了发电成本的数值，导致数据偏差。",
+    "original_question": "猪场零排放处理中，沼气与柴油混合发电的成本优势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维持费用较高，不仅将粪便转运出猪舍，而且明显改善了舍内空气，对猪对操作员都有益处。",
+    "reference_case": "维持费用较低，不仅将粪便转运出猪舍，而且明显改善了舍内空气，对猪对操作员都有益处。",
+    "error_detail": "错误地改变了维持费用的描述，导致数据偏差。",
+    "original_question": "猪舍粪池循环系统和冲流系统的优点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要2.5kg风干料，150kg以上体重的需要3.0kg风干料。",
+    "reference_case": "90～150kg体重的种公猪每天需要1.9kg风干料，150kg以上体重的需要2.3kg风干料。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少风干料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要25.00MJ消化能，150kg以上体重的需要30.00MJ消化能。",
+    "reference_case": "90～150kg体重的种公猪每天需要23.85MJ消化能，150kg以上体重的需要28.87MJ消化能。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头的消化能需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要24.00MJ代谢能，150kg以上体重的需要29.00MJ代谢能。",
+    "reference_case": "90～150kg体重的种公猪每天需要22.90MJ代谢能，150kg以上体重的需要27.70MJ代谢能。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头的代谢能需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要250g粗蛋白质，150kg以上体重的需要300g粗蛋白质。",
+    "reference_case": "90～150kg体重的种公猪每天需要228g粗蛋白质，150kg以上体重的需要276g粗蛋白质。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少粗蛋白质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要8.0g赖氨酸，150kg以上体重的需要10.0g赖氨酸。",
+    "reference_case": "90～150kg体重的种公猪每天需要7.2g赖氨酸，150kg以上体重的需要8.7g赖氨酸。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少赖氨酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要4.5g蛋氨酸+胱氨酸，150kg以上体重的需要5.5g蛋氨酸+胱氨酸。",
+    "reference_case": "90～150kg体重的种公猪每天需要3.8g蛋氨酸+胱氨酸，150kg以上体重的需要4.6g蛋氨酸+胱氨酸。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少蛋氨酸+胱氨酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要6.5g苏氨酸，150kg以上体重的需要8.0g苏氨酸。",
+    "reference_case": "90～150kg体重的种公猪每天需要5.7g苏氨酸，150kg以上体重的需要6.9g苏氨酸。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少苏氨酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要7.0g异亮氨酸，150kg以上体重的需要8.5g异亮氨酸。",
+    "reference_case": "90～150kg体重的种公猪每天需要6.3g异亮氨酸，150kg以上体重的需要7.6g异亮氨酸。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少异亮氨酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要15.0g钙，150kg以上体重的需要18.0g钙。",
+    "reference_case": "90～150kg体重的种公猪每天需要12.5g钙，150kg以上体重的需要15.2g钙。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少钙？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要12.0g磷，150kg以上体重的需要15.0g磷。",
+    "reference_case": "90～150kg体重的种公猪每天需要10.1g磷，150kg以上体重的需要12.2g磷。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少磷？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要8.0g食盐，150kg以上体重的需要10.0g食盐。",
+    "reference_case": "90～150kg体重的种公猪每天需要6.7g食盐，150kg以上体重的需要8.1g食盐。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少食盐？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要150mg铁，150kg以上体重的需要180mg铁。",
+    "reference_case": "90～150kg体重的种公猪每天需要135mg铁，150kg以上体重的需要163mg铁。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少铁？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要100mg锌，150kg以上体重的需要120mg锌。",
+    "reference_case": "90～150kg体重的种公猪每天需要84mg锌，150kg以上体重的需要101mg锌。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少锌？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要15mg铜，150kg以上体重的需要18mg铜。",
+    "reference_case": "90～150kg体重的种公猪每天需要10mg铜，150kg以上体重的需要12mg铜。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少铜？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要20mg锰，150kg以上体重的需要25mg锰。",
+    "reference_case": "90～150kg体重的种公猪每天需要17mg锰，150kg以上体重的需要21mg锰。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少锰？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要0.30mg钴，150kg以上体重的需要0.35mg钴。",
+    "reference_case": "90～150kg体重的种公猪每天需要0.23mg钴，150kg以上体重的需要0.28mg钴。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少钴？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要0.35mg硒，150kg以上体重的需要0.40mg硒。",
+    "reference_case": "90～150kg体重的种公猪每天需要0.25mg硒，150kg以上体重的需要0.30mg硒。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少硒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要7000IU维生素A，150kg以上体重的需要8500IU维生素A。",
+    "reference_case": "90～150kg体重的种公猪每天需要6700IU维生素A，150kg以上体重的需要8100IU维生素A。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪每天每头需要多少维生素A？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要3400IU维生素D，150kg以上体重的需要4000IU维生素D。",
+    "reference_case": "90～150kg体重的种公猪每天需要340IU维生素D，150kg以上体重的需要400IU维生素D。",
+    "error_detail": "数值偏差，将IU值夸大了10倍",
+    "original_question": "种公猪每天每头需要多少维生素D？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要170.0IU维生素E，150kg以上体重的需要210.0IU维生素E。",
+    "reference_case": "90～150kg体重的种公猪每天需要17.0IU维生素E，150kg以上体重的需要21.0IU维生素E。",
+    "error_detail": "数值偏差，将IU值夸大了10倍",
+    "original_question": "种公猪每天每头需要多少维生素E？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要34mg维生素K，150kg以上体重的需要41mg维生素K。",
+    "reference_case": "90～150kg体重的种公猪每天需要3.4mg维生素K，150kg以上体重的需要4.1mg维生素K。",
+    "error_detail": "数值偏差，将mg值夸大了10倍",
+    "original_question": "种公猪每天每头需要多少维生素K？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要17mg维生素B1，150kg以上体重的需要21mg维生素B1。",
+    "reference_case": "90～150kg体重的种公猪每天需要1.7mg维生素B1，150kg以上体重的需要2.1mg维生素B1。",
+    "error_detail": "数值偏差，将mg值夸大了10倍",
+    "original_question": "种公猪每天每头需要多少维生素B1？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要49mg维生素B2，150kg以上体重的需要60mg维生素B2。",
+    "reference_case": "90～150kg体重的种公猪每天需要4.9mg维生素B2，150kg以上体重的需要6.0mg维生素B2。",
+    "error_detail": "数值偏差，将mg值夸大了10倍",
+    "original_question": "种公猪每天每头需要多少维生素B2？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要169mg烟酸，150kg以上体重的需要205mg烟酸。",
+    "reference_case": "90～150kg体重的种公猪每天需要16.9mg烟酸，150kg以上体重的需要20.5mg烟酸。",
+    "error_detail": "数值偏差，将mg值夸大了10倍",
+    "original_question": "种公猪每天每头需要多少烟酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要201mg泛酸，150kg以上体重的需要244mg泛酸。",
+    "reference_case": "90～150kg体重的种公猪每天需要20.1mg泛酸，150kg以上体重的需要24.4mg泛酸。",
+    "error_detail": "数值偏差，将mg值夸大了10倍",
+    "original_question": "种公猪每天每头需要多少泛酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要1.7mg生物素，150kg以上体重的需要2.1mg生物素。",
+    "reference_case": "90～150kg体重的种公猪每天需要0.17mg生物素，150kg以上体重的需要0.21mg生物素。",
+    "error_detail": "数值偏差，将mg值夸大了10倍",
+    "original_question": "种公猪每天每头需要多少生物素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要10.0mg叶酸，150kg以上体重的需要12.0mg叶酸。",
+    "reference_case": "90～150kg体重的种公猪每天需要1.00mg叶酸，150kg以上体重的需要1.20mg叶酸。",
+    "error_detail": "数值偏差，将mg值夸大了10倍",
+    "original_question": "种公猪每天每头需要多少叶酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "90～150kg体重的种公猪每天需要255ug维生素B12，150kg以上体重的需要305ug维生素B12。",
+    "reference_case": "90～150kg体重的种公猪每天需要25.5ug维生素B12，150kg以上体重的需要30.5ug维生素B12。",
+    "error_detail": "数值偏差，将ug值夸大了10倍",
+    "original_question": "种公猪每天每头需要多少维生素B12？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种公猪在配种前一个月，在\"标准\"基础上增加40%-50%的营养。",
+    "reference_case": "种公猪在配种前一个月，在\"标准\"基础上增加20%-25%的营养。",
+    "error_detail": "数值偏差，将增加比例夸大了",
+    "original_question": "种公猪在配种前一个月需要增加多少营养？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种公猪在冬季寒冷期，在\"标准\"基础上增加30%-40%的营养。",
+    "reference_case": "种公猪在冬季寒冷期，在\"标准\"基础上增加10%-20%的营养。",
+    "error_detail": "数值偏差，将增加比例夸大了",
+    "original_question": "种公猪在冬季寒冷期需要增加多少营养？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "90-150kg体重的种公猪每天每千克饲粮需要125.5MJ消化能。",
+    "reference_case": "90-150kg体重的种公猪每天每千克饲粮需要12.55MJ消化能。",
+    "error_detail": "数值偏差，将MJ值夸大了10倍",
+    "original_question": "种公猪每天每千克饲粮需要多少消化能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "90-150kg体重的种公猪每天每千克饲粮需要120.5MJ代谢能。",
+    "reference_case": "90-150kg体重的种公猪每天每千克饲粮需要12.05MJ代谢能。",
+    "error_detail": "数值偏差，将MJ值夸大了10倍",
+    "original_question": "种公猪每天每千克饲粮需要多少代谢能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "90-150kg体重的种公猪每天每千克饲粮需要120.0%粗蛋白质。",
+    "reference_case": "90-150kg体重的种公猪每天每千克饲粮需要12.0%粗蛋白质。",
+    "error_detail": "数值偏差，将百分比夸大了10倍",
+    "original_question": "种公猪每天每千克饲粮需要多少粗蛋白质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备公猪的饲料配方中的消化能范围为108.8~128.9 \\(M/kg\\)。",
+    "reference_case": "后备公猪的饲料配方中的消化能范围为10.88~12.89 \\(M/kg\\)。",
+    "error_detail": "数值偏差，将M/kg值夸大了10倍",
+    "original_question": "后备公猪的饲料配方中的消化能范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备公猪的饲料配方中的粗蛋白质含量范围为156%~171%。",
+    "reference_case": "后备公猪的饲料配方中的粗蛋白质含量范围为15.6%~17.1%。",
+    "error_detail": "数值偏差，将百分比夸大了10倍",
+    "original_question": "后备公猪的饲料配方中的粗蛋白质含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备公猪的饲料配方中玉米的用量最大，配方2中用量为41.0%，配方3中用量为40.8%。",
+    "reference_case": "后备公猪的饲料配方中三等枌的用量最大，配方2中用量为41.0%，配方3中用量为40.8%。",
+    "error_detail": "将三等枌错误地替换为玉米",
+    "original_question": "后备公猪的饲料配方中哪种原料的用量最大？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪在遭受热应激后，会降低精液品质，并在 2 3周后降低繁殖配种性能，主要表现为返情率高和产仔数少。",
+    "reference_case": "公猪在遭受热应激后，会降低精液品质，并在 4 6周后降低繁殖配种性能，主要表现为返情率高和产仔数少。",
+    "error_detail": "错误地缩短了热应激后影响繁殖性能的时间范围",
+    "original_question": "公猪遭受热应激后会出现什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "适宜的光照时间为每天 14 h 左右。",
+    "reference_case": "适宜的光照时间为每天 10 h 左右。",
+    "error_detail": "错误地增加了公猪的光照时间",
+    "original_question": "公猪的光照时间应控制在多少小时？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "选种后至 150 kg 体重为适应生长阶段，用高质量的饲料限制饲喂，8 月龄体重达 150 kg。",
+    "reference_case": "选种后至 130 kg 体重为适应生长阶段，用高质量的饲料限制饲喂，8 月龄体重达 130 kg。",
+    "error_detail": "错误地增加了适应生长阶段的体重目标",
+    "original_question": "公猪适应生长阶段的管理要点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每天限制饲喂 4 ~ 5 kg 的育成料，后备母猪料或哺乳料，日增重 800 g, 8 ~ 10 周后，即 8 月龄时体重达 130 kg。",
+    "reference_case": "每天限制饲喂 2 ~ 3 kg 的育成料，后备母猪料或哺乳料，日增重 600 g, 8 ~ 10 周后，即 8 月龄时体重达 130 kg。",
+    "error_detail": "错误地增加了饲喂量和日增重",
+    "original_question": "公猪适应生长阶段的饲养管理要求是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重 150 ~ 160 kg 为调教阶段，用高质量饲料限制饲喂，9 月龄体重达 160 kg。",
+    "reference_case": "体重 130 ~ 145 kg 为调教阶段，用高质量饲料限制饲喂，9 月龄体重达 145 kg。",
+    "error_detail": "错误地增加了调教阶段的体重范围",
+    "original_question": "公猪调教阶段的管理要点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每周最多配种 3 ~ 4 次，利用发情明显，静立反射明显的青年母猪或刚配过种的母猪来试配。",
+    "reference_case": "每周最多配种 1 ~ 2 次，利用发情明显，静立反射明显的青年母猪或刚配过种的母猪来试配。",
+    "error_detail": "错误地增加了每周配种次数",
+    "original_question": "公猪调教阶段的饲养管理要求是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "9 15月龄为早期配种阶段，继续控制公猪的生长和体重，每周配种 5 6次，利用发情明显的年青母猪，并记录配种情况。",
+    "reference_case": "9 12月龄为早期配种阶段，继续控制公猪的生长和体重，每周配种 2 4次，利用发情明显的年青母猪，并记录配种情况。",
+    "error_detail": "错误地延长了早期配种阶段的月龄范围和增加了每周配种次数",
+    "original_question": "公猪早期配种阶段的管理要点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "12 月龄到 40 月龄淘汰时为成熟阶段，继续控制生长和体重，每周均衡配种 8 次。",
+    "reference_case": "12 月龄到 36 月龄淘汰时为成熟阶段，继续控制生长和体重，每周均衡配种 6 次。",
+    "error_detail": "错误地延长了成熟阶段的月龄范围和增加了每周配种次数",
+    "original_question": "公猪成熟阶段的管理要点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "实施了上述的操作规程，大多数公猪的使用年限至少可达 3 a ，这样的话，公猪就在 4 岁时被淘汰。",
+    "reference_case": "实施了上述的操作规程，大多数公猪的使用年限至少可达 2 a ，这样的话，公猪就在 3 岁时被淘汰。",
+    "error_detail": "错误地延长了公猪的使用年限和淘汰年龄",
+    "original_question": "公猪在什么情况下需要淘汰？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "如果每周断奶 1 次，哺乳期 3－4周，适宜的公母比例为 1:30。",
+    "reference_case": "如果每周断奶 1 次，哺乳期 3－4周，适宜的公母比例为 1:20。",
+    "error_detail": "错误地增加了公母比例",
+    "original_question": "后备母猪的适宜公母比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪发情周期的平均长度为25天，变化范围在20-28天。",
+    "reference_case": "母猪发情周期的平均长度为21天，变化范围在18-23天。",
+    "error_detail": "错误地延长了发情周期的平均长度和变化范围",
+    "original_question": "母猪发情周期的平均长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "经产母猪在发情后12至24小时排卵，变化范围为12至48小时。",
+    "reference_case": "经产母猪在发情后24至56小时排卵，变化范围为24至72小时。",
+    "error_detail": "错误地缩短了排卵时间范围",
+    "original_question": "母猪发情后多久会排卵？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备母猪发情平均持续时间为3至4天，经产母猪为4至5天。",
+    "reference_case": "后备母猪发情平均持续时间为1至2天，经产母猪为2至3天。",
+    "error_detail": "错误地延长了发情持续时间",
+    "original_question": "母猪发情期间的平均持续时间是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "理想的查情公猪至少要18月龄以上，走动缓慢，口腔泡沫多，切除情精管的公猪也可用于查情。",
+    "reference_case": "理想的查情公猪至少要12月龄以上，走动缓慢，口腔泡沫多，切除情精管的公猪也可用于查情。",
+    "error_detail": "错误地增加了查情公猪的最小月龄",
+    "original_question": "发情检查时使用哪种公猪效果最好？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠 0~90 天母猪的平均采食量为 3.0~3.25 kg/d，经产母猪为 3.25~3.5 kg/d。",
+    "reference_case": "妊娠 0~90 天母猪的平均采食量为 2.0~2.25 kg/d，经产母猪为 2.25~2.5 kg/d。",
+    "error_detail": "错误地增加了妊娠期母猪的平均日采食量",
+    "original_question": "妊娠期母猪的平均日采食量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "因为在此期间胎儿的大多数体重生成，因此营养需求增加，日采食饲料量增加到 4.0~4.5 kg/d。",
+    "reference_case": "因为在此期间胎儿的大多数体重生成，因此营养需求增加，日采食饲料量增加到 3.0~3.5 kg/d。",
+    "error_detail": "日采食饲料量的数值被夸大",
+    "original_question": "妊娠 90~110 天时，猪的营养需求为什么增加？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "此期间日采食饲料量为 2.5 kg/头，有助于减少 MMA 综合征。",
+    "reference_case": "此期间日采食饲料量为 1.8 kg/头，有助于减少 MMA 综合征。",
+    "error_detail": "日采食饲料量的数值被夸大",
+    "original_question": "妊娠 110 天至分娩时，母猪的日采食量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "建议初产母猪的体重适宜增加量为 40.5~50.5 kg。",
+    "reference_case": "建议初产母猪的体重适宜增加量为 35.5~45.5 kg。",
+    "error_detail": "体重增加量的数值被夸大",
+    "original_question": "建议初产母猪的体重适宜增加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一般采用五点评分法，即消瘦、瘦、理想、肥、过肥。体况评定应在配种后怀孕 35 天和 90 天进行，要求 90%~95% 的母猪达到 3.5~4 分，5%~10% 的母猪为 2.5 分和 4.5 分，允许大约 5% 的母猪在配种时的评分为 2.5 分。",
+    "reference_case": "一般采用五点评分法，即消瘦、瘦、理想、肥、过肥。体况评定应在配种后怀孕 35 天和 90 天进行，要求 85%~90% 的母猪达到 3.5~4 分，10%~15% 的母猪为 2.5 分和 4.5 分，允许大约 10% 的母猪在配种时的评分为 2.5 分。",
+    "error_detail": "评分比例被错误修改",
+    "original_question": "妊娠母猪的体况评分如何评定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "怀孕 110 天至产仔应逐渐减少日粮至 2.0 kg，以缩短产仔时间，避免子宫炎、乳房炎、无乳综合征的产生，减少死胎数。",
+    "reference_case": "怀孕 110 天至产仔应逐渐减少日粮至 1.8 kg，以缩短产仔时间，避免子宫炎、乳房炎、无乳综合征的产生，减少死胎数。",
+    "error_detail": "日粮减少量的数值被夸大",
+    "original_question": "产仔前母猪的日粮应该如何调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在产前 5~7 天的理想室温为 20~25℃，限制母猪的热应激，确保充足清洁的饮水供应。",
+    "reference_case": "在产前 5~7 天的理想室温为 15~20℃，限制母猪的热应激，确保充足清洁的饮水供应。",
+    "error_detail": "室温的数值被夸大",
+    "original_question": "如何减少产仔母猪因环境因素导致的死胎率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在甘肃省的猪伪狂犬病调查中，血清学调查使用了北京兽医研究所提供的猪伪狂犬病Dot-ELISA诊断试剂盒。",
+    "reference_case": "在甘肃省的猪伪狂犬病调查中，血清学调查使用了哈尔滨兽医研究所提供的猪伪狂犬病Dot-ELISA诊断试剂盒。",
+    "error_detail": "数据型幻觉：错误地提供了诊断试剂盒的提供单位。",
+    "original_question": "在甘肃省的猪伪狂犬病调查中，血清学调查使用了哪种诊断试剂盒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "1997年台湾省口蹄疫疫情造成的经济损失总额约为40亿美元，其中直接损失约4亿美元。",
+    "reference_case": "1997年台湾省口蹄疫疫情造成的经济损失总额约为38亿美元，其中直接损失约3:86亿美元。",
+    "error_detail": "数据型幻觉：提供了错误的经济损失数据。",
+    "original_question": "1997年台湾省口蹄疫疫情对养猪业造成了多大的经济损失？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "喷雾消毒、浸液消毒、熏蒸消毒、紫外线消毒、喷撒消毒、火焰消毒、化学消毒。",
+    "reference_case": "喷雾消毒、浸液消毒、熏蒸消毒、紫外线消毒、喷撒消毒、火焰消毒。",
+    "error_detail": "添加了不存在的消毒方法",
+    "original_question": "无公害生猪饲养过程中消毒方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "温度升高会降低猪的采食量，如15°C时为100%，20°C时为96.1%，25°C时为94.7%，30°C时为90%。",
+    "reference_case": "温度升高会降低猪的采食量，如15°C时为100%，20°C时为96.1%，25°C时为94.7%。",
+    "error_detail": "添加了不存在的温度数据",
+    "original_question": "温度变化如何影响猪的采食量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "肉骨粉中氨基酸消化率最低，约40%的氨基酸不能被猪消化吸收。",
+    "reference_case": "肉骨粉中氨基酸消化率最低，约50%的氨基酸不能被猪消化吸收。",
+    "error_detail": "消化率数据错误",
+    "original_question": "动物性蛋白质饲料中，哪种饲料的氨基酸消化率最低？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "有显著影响，喂以不同粗蛋白质水平饲料对3-20kg乳猪和仔猪的平均日增重有显著影响。",
+    "reference_case": "没有显著影响，无论在同一能量水平喂以22%、20%或18%的粗蛋白质水平饲料，还是在同一蛋白水平下喂以13.81MJ、12.97MJ或12.13MJ的可消化能饲料，对3-20kg乳猪和仔猪的平均日增重无显著影响。",
+    "error_detail": "错误地认为有显著影响",
+    "original_question": "根据Dialy等的研究，不同粗蛋白质水平对3-20kg乳猪和仔猪的平均日增重有无显著影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在4~7 kg阶段，不同赖氨酸水平的日粮对仔猪生产性能无影响。",
+    "reference_case": "在4~7 kg阶段，不同赖氨酸水平的日粮影响仔猪生产性能，如日增重、日采食量和饲料转化率。",
+    "error_detail": "错误地认为无影响",
+    "original_question": "赖氨酸对早期断奶仔猪生产性能的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "日粮中蛋白质、碳水化合物和脂肪的含量与比例、饲料中的纤维素含量、维生素、钙含量以及抗生素的含量分别为50%、30%、20%、5%、2%、1%。",
+    "reference_case": "日粮中蛋白质、碳水化合物和脂肪的含量与比例、饲料中的纤维素含量、维生素、钙含量以及抗生素。",
+    "error_detail": "添加了具体的数值比例，这些数据并未在原始output中提供。",
+    "original_question": "影响生长肥育猪蛋白质利用率的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪的日摄入粗蛋白质水平在200~250g可以取得最好的繁殖成绩。",
+    "reference_case": "妊娠母猪的日摄入粗蛋白质水平在140~180g可以取得最好的繁殖成绩。",
+    "error_detail": "错误地提高了粗蛋白质的日摄入量范围。",
+    "original_question": "妊娠母猪粗蛋白质适宜的摄入量是多少？",
+    "original_input": ""
+  }
+]

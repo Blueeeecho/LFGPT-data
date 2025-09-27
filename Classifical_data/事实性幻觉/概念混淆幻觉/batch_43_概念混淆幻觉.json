@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "中链脂肪酸不具有抗菌和抗病毒的功能，对仔猪肠道微生物菌群无调节作用。",
+    "reference_case": "中链脂肪酸也具有抗菌和抗病毒的功能，可对仔猪肠道微生物菌群起到一定的调节作用。",
+    "error_detail": "错误地否定了中链脂肪酸的功能。",
+    "original_question": "中链脂肪酸如何调节仔猪肠道微生物菌群？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "辛、葵酸甘油酯可促进TLR4和NODs信号通路相关基因的mRNA表达，进而提高肠道和肝脏炎性介质的表达。",
+    "reference_case": "辛、葵酸甘油酯可抑制TLR4和NODs信号通路相关基因的mRNA表达，进而降低肠道和肝脏炎性介质的表达。",
+    "error_detail": "错误地颠倒了辛、葵酸甘油酯的作用，从'抑制'改为'促进'，'降低'改为'提高'。",
+    "original_question": "辛、葵酸甘油酯如何缓解免疫应激对仔猪肠道和肝脏的损伤？",
+    "original_input": "IL-8和细胞间黏附分子-1水平；在LPS刺激导致的小鼠回肠炎性细胞因子（TNF-α、IL-18）或趋化因子（巨噬细胞炎性蛋白-2、单核细胞趋化蛋白-1）mRNA表达量的升高。"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "丁酸钠补充剂可以完全治愈断奶仔猪因直肠给药醋酸引起的肠道损伤。",
+    "reference_case": "丁酸钠补充剂可以缓解断奶仔猪因直肠给药醋酸引起的肠道损伤。",
+    "error_detail": "错误地将'缓解'改为'完全治愈'，夸大了丁酸钠的效果。",
+    "original_question": "丁酸钠补充剂如何缓解断奶仔猪因直肠给药醋酸引起的肠道损伤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "甘草皂苷提取物可以显著提高断奶猪的生长性能和抗氧化指数。",
+    "reference_case": "甘草皂苷提取物可以改善断奶猪的生长性能和抗氧化指数。",
+    "error_detail": "错误地将'改善'改为'显著提高'，夸大了甘草皂苷提取物的效果。",
+    "original_question": "甘草皂苷提取物对断奶猪的生长性能和抗氧化指数有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "霉变日粮组母猪的卵巢会出现卵泡增生和内部充实。",
+    "reference_case": "霉变日粮组母猪的卵巢会出现卵泡萎缩退化和内部空化。",
+    "error_detail": "错误地将'卵泡萎缩退化和内部空化'改为'卵泡增生和内部充实'，完全反转了描述。",
+    "original_question": "霉变日粮组母猪的卵巢会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "含有克伦特罗残留的植物性食品可能导致人体中毒。",
+    "reference_case": "含有克伦特罗残留的猪等动物性食品可能导致人体中毒。",
+    "error_detail": "错误地将'动物性食品'改为'植物性食品'，完全改变了食物来源。",
+    "original_question": "克伦特罗中毒的食物来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "二嗪农（Diazinon）在牛/羊、牛/猪/羊的奶、肌肉、脂肪、肝、肾中的残留限量分别为2、0.75、0.3 μg/kg；在牛的残留限量为2 μg/kg。",
+    "reference_case": "二嗪农（Diazinon）在牛/羊、牛/猪/羊的奶、肌肉、脂肪、肝、肾中的残留限量分别为",
+    "error_detail": "术语错误",
+    "original_question": "二嗪农在哪些动物的哪些组织中有残留限量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "阿泊拉霉素主要用于治疗肉用小牛和猪的流感。",
+    "reference_case": "阿泊拉霉素主要用于治疗肉用小牛和猪的大肠杆菌病和沙门菌病。",
+    "error_detail": "疾病类型错误",
+    "original_question": "阿泊拉霉素用于治疗哪些动物的疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "庆大霉素主要用于治疗猪的流感。",
+    "reference_case": "庆大霉素主要用于治疗猪大肠杆菌病和痢疾。",
+    "error_detail": "疾病类型错误",
+    "original_question": "庆大霉素的主要用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "氟苯尼考主要用于鮭鱼、鳟鱼、各种虾、鳗鱼以及猪鸡等细菌感染性疾病的治疗。",
+    "reference_case": "氟苯尼考主要用于鮭鱼、鳟鱼、各种虾、鳗鱼以及猪鸡等细菌感染性疾病的防治。",
+    "error_detail": "术语错误",
+    "original_question": "氟苯尼考（FLU）在哪些动物和水产品中被用于防治细菌感染性疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "β2-受体激动剂如克伦特罗、沙丁胺醇、马布特罗等被非法添加于牛、猪、羊、家禽等动物的饲料中用于治疗疾病。",
+    "reference_case": "β2-受体激动剂如克伦特罗、沙丁胺醇、马布特罗等被非法添加于牛、猪、羊、家禽等动物的饲料中。",
+    "error_detail": "术语错误",
+    "original_question": "β2-受体激动剂在哪些动物中被非法添加用于促进生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "苯并咪唑类驱虫药具有驱虫谱窄、驱虫效果一般、毒性高等特点，广泛用作控制猪、牛、羊消化道寄生虫病的药物。",
+    "reference_case": "苯并咪唑类驱虫药具有驱虫谱广、驱虫效果好、毒性低等特点，广泛用作控制猪、牛、羊消化道寄生虫病的药物。",
+    "error_detail": "术语错误",
+    "original_question": "苯并咪唑类驱虫药有哪些优点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "欧盟对丙硫达唑、氧化丙硫达唑、苯硫达唑、苯亚砜咪唑、氧苯达唑、噻苯达唑和三氯苯达唑在牛、绵羊、猪、马等动物中的使用剂量有规定。",
+    "reference_case": "欧盟对丙硫达唑、氧化丙硫达唑、苯硫达唑、苯亚砜咪唑、氧苯达唑、噻苯达唑和三氯苯达唑在牛、绵羊、猪、马等动物中的残留限量有规定。",
+    "error_detail": "术语错误",
+    "original_question": "欧盟对动物源食品中哪些苯并咪唑类驱虫药的残留限量有规定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "乙酰丙嗪用于牛、猪、绵羊和山羊的治疗。",
+    "reference_case": "乙酰丙嗪用于牛、猪、绵羊和山羊。",
+    "error_detail": "术语错误",
+    "original_question": "乙酰丙嗪用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "喹恶啉类药物具有显著的抑制动物生长的作用，对多数革兰阳性和阴性病原菌具有较强的抑制作用，对猪密螺旋体有良好的防治作用，部分品种如卡巴氧和痢菌净是治疗猪痢疾和细菌性肠炎的首选或替代药物。",
+    "reference_case": "喹恶啉类药物具有显著的促进动物生长的作用，对多数革兰阳性和阴性病原菌具有较强的抑制作用，对猪密螺旋体有良好的防治作用，部分品种如卡巴氧和痢菌净是治疗猪痢疾和细菌性肠炎的首选或替代药物。",
+    "error_detail": "术语错误",
+    "original_question": "喹恶啉类药物的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "表格中的反射率数据反映了不同植被与土壤组合（如囊状荅草（Carex physodes）-黑顼琰（Haloxylon aphyllum）、责任荅草 (Carex physodes)-球果麻黄（Ephedra strobilacea）、近无叶猪毛菜（Salsola subaphyl-la)-黑琐顼（Haloxylon aphyllum）等）在不同波段（400, 425, 450, 475, 500, 525 nm）的反射率对比。",
+    "reference_case": "表格中的反射率数据反映了不同植被与土壤组合（如囊状荅草（Carex physodes）-黑顼琰（Haloxylon aphyllum）、责任荅草 (Carex physodes)-球果麻黄（Ephedra strobilacea）、近无叶猪毛菜（Salsola subaphyl-la)-黑琐顼（Haloxylon aphyllum）等）在不同波段（400, 425, 450, 475, 500, 525 nm）的反射率对比。",
+    "error_detail": "错误地使用了'责任荅草'这一不存在的植物名称，正确应为'囊状荅草'。",
+    "original_question": "表格中的反射率数据反映了哪些植被与土壤组合的对比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "母猪具有高水平抗体，不发病，但子宫内胎儿却因不明原因的猪瘟病毒感染而发病或死亡，导致母猪流产，产死胎、畸形胎或数天就死的弱仔，或出生健康，几天内突然死亡。",
+    "reference_case": "母猪具有高水平抗体，不发病，但子宫内胎儿却因不明原因的猪瘟病毒感染而发病或死亡，导致母猪流产，产死胎、畸形胎或数天就死的弱仔，或出生健康，几天内突然死亡。",
+    "error_detail": "错误地使用了'不明原因'，实际上猪瘟病毒感染是已知原因。",
+    "original_question": "繁殖障碍型猪瘟的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟病毒主要侵害微血管，其次是中、小血管，而大血管很少受侵害。",
+    "reference_case": "猪瘟病毒主要侵害微血管，其次是中、小血管，而大血管很少受侵害。",
+    "error_detail": "错误地描述了'大血管很少受侵害'，实际上猪瘟病毒主要侵害微血管。",
+    "original_question": "猪瘟病毒主要侵害哪些血管？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟的防控措施包括猪瘟兔化弱毒苗的预防接种，建立猪瘟免疫监测，定期进行抗体检测，指导猪场合理科学免疫，避免因疫苗质量或伪狂犬、蓝耳病等疾病干扰导致猪瘟免疫失败。",
+    "reference_case": "猪瘟的防控措施包括猪瘟兔化弱毒苗的预防接种，建立猪瘟免疫监测，定期进行抗体检测，指导猪场合理科学免疫，避免因疫苗质量或伪狂犬、蓝耳病等疾病干扰导致猪瘟免疫失败。",
+    "error_detail": "错误地使用了'伪狂犬、蓝耳病'，实际上应为'伪狂犬病、蓝耳病'。",
+    "original_question": "猪瘟的防控措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "非洲猪瘟是一种急性、致死性的病毒性传染病，发病急，病程短，死亡率极高，其临床症状和病理变化与猪瘟相似，表现全身各器官组织明显的出血性素质。",
+    "reference_case": "非洲猪瘟是一种急性、致死性的病毒性传染病，发病急，病程短，死亡率极高，其临床症状和病理变化与猪瘟相似，表现全身各器官组织明显的出血性素质。",
+    "error_detail": "错误地描述了'出血性素质'，实际上应为'出血性病变'。",
+    "original_question": "非洲猪瘟的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "主要通过流行病学及临床检查，病猪皮肤出现紫绀区，淋巴结特别是腹腔淋巴结严重出血，腹腔、胸腔、心包内液体增多，肺小叶间、结肠黏膜、肠系膜、胆囊壁水肿，淋巴结中单核细胞核破裂，瑞氏染色可见此病变。",
+    "reference_case": "主要通过流行病学及临床检查，病猪皮肤出现紫绀区，淋巴结特别是腹腔淋巴结严重出血，腹腔、胸腔、心包内液体增多，肺小叶间、结肠黏膜、肠系膜、胆囊壁水肿，淋巴结中单核细胞核破裂，瑞氏染色可见此病变。",
+    "error_detail": "错误地使用了'瑞氏染色'，实际上应为'吉姆萨染色'。",
+    "original_question": "非洲猪瘟如何诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "严格检疫进口病猪及猪肉制品，发现可疑情况立即上报，需进行动物接种试验、病毒分离培养、红细胞吸附试验、免疫荧光试验、酶联免疫吸附试验等诊断方法。",
+    "reference_case": "严格检疫进口病猪及猪肉制品，发现可疑情况立即上报，需进行动物接种试验、病毒分离培养、红细胞吸附试验、免疫荧光试验、酶联免疫吸附试验等诊断方法。",
+    "error_detail": "错误地使用了'红细胞吸附试验'，实际上应为'血凝抑制试验'。",
+    "original_question": "非洲猪瘟的防制措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "流感病毒已知对凸、猪、牛、犬、猿、熊、貂、海豹等动物和人有易感性。",
+    "reference_case": "流感病毒已知对凸、猪、牛、犬、猿、熊、貂、海豹等动物和人有易感性。",
+    "error_detail": "错误地使用了'凸'，实际上应为'禽'。",
+    "original_question": "流感病毒对哪些动物和人具有易感性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "主要通过食入被污染的饲料，经消化道传染，也可以通过空气经呼吸道传染。",
+    "reference_case": "主要通过食入被污染的饲料，经消化道传染，也可以通过空气经呼吸道传染。",
+    "error_detail": "错误地描述了'也可以通过空气经呼吸道传染'，实际上应为'主要通过消化道传染'。",
+    "original_question": "猪传染性胃肠炎主要传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "母猪发病后对新生仔猪有保护作用，说明通过初乳可使仔猪获得被动免疫。",
+    "reference_case": "母猪发病后对新生仔猪有保护作用，说明通过初乳可使仔猪获得被动免疫。",
+    "error_detail": "错误地描述了'通过初乳可使仔猪获得被动免疫'，实际上应为'通过初乳和乳汁可使仔猪获得被动免疫'。",
+    "original_question": "母猪发病后对新生仔猪有何保护作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪传染性胃肠炎的病原属于冠状病毒科、冠状病毒属，与猪传染性胃肠炎病毒没有共同的抗原性。",
+    "reference_case": "猪传染性胃肠炎的病原属于冠状病毒科、冠状病毒属，与猪传染性胃肠炎病毒没有共同的抗原性。",
+    "error_detail": "错误地描述了'与猪传染性胃肠炎病毒没有共同的抗原性'，实际上应为'与猪传染性胃肠炎病毒有共同的抗原性'。",
+    "original_question": "猪传染性胃肠炎的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "小肠病变具有特征性，通常肠管膨满扩张、充满黄色液体，肠壁变薄，肠系膜充血，肠系膜淋巴结水肿。镜下小肠线毛缩短，上皮细胞核浓缩、破碎，胞浆呈强酸性变性、坏死性变化，小肠线毛显著萎缩。",
+    "reference_case": "小肠病变具有特征性，通常肠管膨满扩张、充满黄色液体，肠壁变薄，肠系膜充血，肠系膜淋巴结水肿。镜下小肠线毛缩短，上皮细胞核浓缩、破碎，胞浆呈强酸性变性、坏死性变化，小肠线毛显著萎缩。",
+    "error_detail": "错误地使用了'小肠线毛'，实际上应为'小肠绒毛'。",
+    "original_question": "猪传染性胃肠炎的小肠病变有哪些特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "本病的流行病学、临床症状、病理变化基本上与猪传染性胃肠炎相似，诊断主要依靠临床症状观察，无需实验室检测。",
+    "reference_case": "本病的流行病学、临床症状、病理变化基本上与猪传染性胃肠炎相似，诊断主要依靠血清学诊断，常用酶联免疫吸附试验（ELISA）、荧光抗体染色、人工感染试验方法。",
+    "error_detail": "错误地认为诊断仅依靠临床症状观察，忽略了血清学诊断的重要性。",
+    "original_question": "如何进行猪传染性胃肠炎的诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "口蹄疫病毒对黄牛最易感，水牛、猪、绵羊、山羊、骆驼次之，且对人类也有高度致病性。",
+    "reference_case": "口蹄疫病毒对黄牛最易感，水牛、猪、绵羊、山羊、骆驼次之。",
+    "error_detail": "错误地添加了人类作为易感对象，原输出未提及。",
+    "original_question": "口蹄疫病毒对哪些动物具有高度致病性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪水疱疹的主要病原是猪水疱疹病毒，属于疱疹病毒科，疱疹病毒属。",
+    "reference_case": "猪水疱疹的主要病原是猪水疱疹病毒，属于杯状病毒科，杯状病毒属。",
+    "error_detail": "错误地分类了病毒科和属，原输出明确指出属于杯状病毒科，杯状病毒属。",
+    "original_question": "猪水疱疹的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪水疱疹病毒在电镜下呈球形，衣壳粒由64个组成对称的20面体，有囊膜。",
+    "reference_case": "猪水疱疹病毒在电镜下呈立方形，衣壳粒由32个组成对称的20面体，无囊膜。",
+    "error_detail": "错误地描述了病毒的形态和结构，原输出提供的信息与之不符。",
+    "original_question": "猪水疱疹病毒在电镜下呈现什么形态？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪脑心肌炎的病原是猪脑心肌炎病毒，属于疱疹病毒科，心病毒属，是一种微小的RNA病毒。",
+    "reference_case": "猪脑心肌炎的病原是猪脑心肌炎病毒，属于小核糖核酸病毒科，心病毒属，是一种微小的RNA病毒。",
+    "error_detail": "错误地分类了病毒科，原输出明确指出属于小核糖核酸病毒科。",
+    "original_question": "猪脑心肌炎的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪脑心肌炎病毒在电镜下呈球形，有囊膜，病毒粒子大小约30纳米，含有单股RNA。",
+    "reference_case": "猪脑心肌炎病毒在电镜下呈立体对称，无囊膜，病毒粒子大小约25纳米，含有单股RNA。",
+    "error_detail": "错误地描述了病毒的形态和大小，原输出提供的信息与之不符。",
+    "original_question": "猪脑心肌炎病毒在电镜下呈现什么形态？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "感染早期，患病猪表现轻微的咳嗽，呼吸加快，食欲减退，体温升高到41℃左右。",
+    "reference_case": "感染早期，患病猪表现轻微的咳嗽，呼吸加快，食欲减退，体温升高到40℃左右。",
+    "error_detail": "术语错误",
+    "original_question": "猪蛙虫病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "虫卵检查：常用新鲜粪便（夏季不超过8小时，秋季不超过20小时为宜）以直接涂片法或饱和盐水浮集法发现虫卵；幼虫检查：对已放置5～15小时的粪便可用幼虫分离法检查，发现幼虫；检查些虫：剖检时刮取小肠黏膜压片或置于温水中羳育后镜检，可査获大量崔虫。",
+    "reference_case": "虫卵检查：常用新鲜粪便（夏季不超过6小时，秋季不超过15小时为宜）以直接涂片法或饱和盐水浮集法发现虫卵；幼虫检查：对已放置5～15小时的粪便可用幼虫分离法检查，发现幼虫；检查些虫：剖检时刮取小肠黏膜压片或置于温水中羳育后镜检，可査获大量崔虫。",
+    "error_detail": "术语错误",
+    "original_question": "猪类圆线虫病的诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "类圆线虫在仔猪小肠内是营孤碓生殖。雇虫在小肠内产出含有幼虫的虫卵，卵随粪便排出体外并在14～20小时内稃化出杆虫型幼虫。",
+    "reference_case": "类圆线虫在仔猪小肠内是营孤碓生殖。雇虫在小肠内产出含有幼虫的虫卵，卵随粪便排出体外并在12～18小时内稃化出杆虫型幼虫。",
+    "error_detail": "术语错误",
+    "original_question": "猪类圆线虫的生活史是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "肺部可见部分支气管增厚、扩张，病灶肌肉样硬变，呈灰白色，微突起，切开后流出分泌物及白色丝状虫体，若与病原微生物混合感染诱发支气管肺炎则病变更复杂。",
+    "reference_case": "肺部可见部分支气管增厚、扩张，病灶肌肉样硬变，呈灰白色，微突起，切开后流出分泌物及白色丝状虫体，若与病原微生物混合感染诱发支气管肺炎则病变更复杂。",
+    "error_detail": "术语错误",
+    "original_question": "猪线虫病的病理变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "旋毛虫感染主要通过食用未经煮熟的含有旋毛虫的泔水、废弃肉渲及下脚料传播，尤其常见于放牧的猪。",
+    "reference_case": "旋毛虫感染主要通过食用未经煮熟的含有旋毛虫的泔水、废弃肉渲及下脚料传播，尤其常见于放牧的猪。",
+    "error_detail": "术语错误",
+    "original_question": "旋毛虫感染主要通过哪些途径传播给猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪会线虫病主要由旋尾目吸吩科似蜔属的圆形似蜔线虫、有齿似蜔线虫、泡首属六翼泡首线虫、西蒙属的奇异西蒙线虫和预口科领口属的刚刺预口线虫、陶氏影口线虫引起。",
+    "reference_case": "猪会线虫病主要由旋尾目吸吩科似蜔属的圆形似蜔线虫、有齿似蜔线虫、泡首属六翼泡首线虫、西蒙属的奇异西蒙线虫和预口科领口属的刚刺预口线虫、陶氏影口线虫引起。",
+    "error_detail": "术语错误",
+    "original_question": "猪会线虫病主要由哪些病原体引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪疥螨，体很小，大小为0.4-0.6毫米，肉眼勉强可见，圆形或龟形，暗灰色，背面隆起，腹面扁平，头、胸、腹合一起，前端有咀喝式口器，腹面有4对足，足末端有带柄的钟形吸盘。",
+    "reference_case": "猪疥螨，体很小，大小为0.3-0.5毫米，肉眼勉强可见，圆形或龟形，暗灰色，背面隆起，腹面扁平，头、胸、腹合一起，前端有咀喝式口器，腹面有4对足，足末端有带柄的钟形吸盘。",
+    "error_detail": "术语错误",
+    "original_question": "猪疥螨病的主要病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "2008年我国生猪产业猪肉耗粮率分为两个阶段：1991-2000年呈上升趋势，2001年后趋于平稳。",
+    "reference_case": "2008年我国生猪产业猪肉耗粮率分为三个阶段：1991-1996年呈上升趋势，1997-2000年快速下降，2001年后趋于平稳。",
+    "error_detail": "阶段划分错误",
+    "original_question": "2008年我国生猪产业猪肉耗粮率分为哪几个阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "我国猪肉进出口价格差较大，主要是因为我国出口的猪肉和进口的猪肉在质量上不同。",
+    "reference_case": "我国猪肉进出口价格差较大，主要是因为我国出口的猪肉和进口的猪肉在结构上不同。例如，我国出口的主要是优质猪肉，而进口的主要是价格较低的普通猪肉。",
+    "error_detail": "术语错误",
+    "original_question": "我国猪肉进出口价格差的主要原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "南城县畜牧业在2016年与2014年相比，猪和牛的出栏率呈下降趋势。",
+    "reference_case": "南城县畜牧业在2016年与2014年相比，猪和牛的出栏率呈上升趋势。",
+    "error_detail": "术语错误",
+    "original_question": "南城县畜牧业在2016年与2014年相比，猪和牛的出栏率呈现何种趋势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪等孢球虫病主要影响大猪，尤其是7-11日龄的乳猪。",
+    "reference_case": "猪等孢球虫病主要影响小猪，尤其是7-11日龄的乳猪。",
+    "error_detail": "将主要影响的猪的类型从小猪错误地改为大猪，造成了概念混淆幻觉。",
+    "original_question": "猪等孢球虫引起的球虫病主要影响哪类猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪等孢球虫的生活史分为孢子化阶段、脱囊阶段、内生殖阶段和外生殖阶段。",
+    "reference_case": "猪等孢球虫的生活史分为孢子化阶段、脱囊阶段和内生殖阶段。",
+    "error_detail": "错误地添加了外生殖阶段，造成了概念混淆幻觉。",
+    "original_question": "猪等孢球虫的生活史分为哪几个阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "空肠和回肠黏膜出现纤维素性坏死，肠线毛末端的柱状上皮受损，肠细胞内形成带虫空泡，肠黏膜出现出血。",
+    "reference_case": "空肠和回肠黏膜出现纤维素性坏死，肠线毛末端的柱状上皮受损，肠细胞内形成带虫空泡，肠黏膜不出现出血。",
+    "error_detail": "错误地描述了肠黏膜出现出血，与原始输出不符，造成了概念混淆幻觉。",
+    "original_question": "仔猪球虫病的主要病理变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "怀孕母猪若发生急性弓形虫病，表现为高热、不吃、精神委顿和昏睡，可产出死胎或流产，产出活仔也会发生急性死亡或畸形怪胎，母猪常在分娩后迅速死亡。",
+    "reference_case": "怀孕母猪若发生急性弓形虫病，表现为高热、不吃、精神委顿和昏睡，可产出死胎或流产，产出活仔也会发生急性死亡或畸形怪胎，母猪常在分娩后迅速自愈。",
+    "error_detail": "错误地描述了母猪的结局，从自愈改为死亡，造成了概念混淆幻觉。",
+    "original_question": "怀孕母猪感染弓形虫病的表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "新生仔猪溶血病，在生后 5 天内发生，多在吃初乳后不久发病，病程短促，伴有剧烈黄疸及血红蛋白尿。猪附红细胞体病具有传染性，各种年龄的猪都可发病，体温升高，黄疸，血液检查可发现虫体。",
+    "reference_case": "新生仔猪溶血病，在生后 3 天内发生，多在吃初乳后不久发病，病程短促，伴有剧烈黄疸及血红蛋白尿。猪附红细胞体病具有传染性，各种年龄的猪都可发病，体温升高，黄疸，血液检查可发现虫体。",
+    "error_detail": "修改了新生仔猪溶血病的发病时间，从3天内改为5天内，造成了概念混淆幻觉。",
+    "original_question": "新生仔猪溶血病和猪附红细胞体病的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "主要表现为消瘦、贫血，血液稀薄、血凝缓慢，心肌变软、变薄，心包积液，肝脾肾呈广泛性血铁黄素沉着，呈红色。",
+    "reference_case": "主要表现为消瘦、贫血，血液稀薄、血凝缓慢，心肌变软、变薄，心包积液，肝脾肾呈广泛性血铁黄素沉着，呈土黄色。",
+    "error_detail": "错误地描述了肝脾肾的颜色，从土黄色改为红色，造成了概念混淆幻觉。",
+    "original_question": "猪日粮中铜含量不足会导致哪些病理变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "根据饲料中含过多的菜籽饼，临床症状和病理变化可做出初诊。确诊可通过测定日粮饲料中的异硫氧酸丙烯酯含量。国家标准规定，肥育猪日粮中异硫氧酸丙烯酯不能超过500毫克/千克。",
+    "reference_case": "根据饲料中含过多的菜籽饼，临床症状和病理变化可做出初诊。确诊可通过测定日粮饲料中的异硫氧酸丙烯酯含量。国家标准规定，肥育猪日粮中异硫氧酸丙烯酯不能超过500毫克/千克。",
+    "error_detail": "术语错误",
+    "original_question": "如何诊断异硫鹤酸丙烯酯中毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "母猪非传染性繁殖障碍是指母猪暂时性或永久性不能繁殖，且不因传染性病原引起。",
+    "reference_case": "母猪非传染性繁殖障碍是指母猪暂时性或永久性不能繁殖，且不因传染性病原引起。",
+    "error_detail": "术语错误",
+    "original_question": "什么是母猪非传染性繁殖障碍？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "喂料量不足、饲料单一或品质不良、营养不全价导致母猪发育不良、过瘦或过肥，影响生殖机能。",
+    "reference_case": "喂料量不足、饲料单一或品质不良、营养不全价导致母猪发育不良、过瘦或过肥，影响生殖机能。",
+    "error_detail": "术语错误",
+    "original_question": "饲养管理性不育的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "根据正确的诊断结果合理使用激素或其他药物，确保治疗效果。",
+    "reference_case": "根据正确的诊断结果合理使用激素或其他药物，确保治疗效果。",
+    "error_detail": "术语错误",
+    "original_question": "治疗乏情母猪时应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "尸体剖检是对死亡猪的尸体进行解剖检查，是诊断疾病的基本方法之一，有助于确认某些传染病和寄生虫病，也可提出疾病方向。",
+    "reference_case": "尸体剖检是对死亡猪的尸体进行解剖检查，是诊断疾病的基本方法之一，有助于确认某些传染病和寄生虫病，也可提出疾病方向。",
+    "error_detail": "术语错误",
+    "original_question": "什么是尸体剖检？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "常用的精子获能方法是使用 Tyrode 液体、mTBM 液体或 BO 液体，并配合添加肝素、咖啡因或 IA。",
+    "reference_case": "常用的精子获能方法是使用 Tyrode 液体、mTBM 液体或 BO 液体，并配合添加肝素、咖啡因或 IA。",
+    "error_detail": "术语错误",
+    "original_question": "什么方法是常用的精子获能方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪精子体外获能常用的处理方法有直接离心法、离心洗涤法、Pecroll密度梯度离心法。其中，Pecroll法效果最好。",
+    "reference_case": "猪精子体外获能常用的处理方法有直接离心法、离心洗涤法、Pecroll密度梯度离心法。其中，Pecroll法效果最好。",
+    "error_detail": "术语错误",
+    "original_question": "猪精子体外获能常用的处理方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "体细胞克隆猪的方法包括使用处于 G2 / M 期的供核细胞，利用脱炭秋水仙碱处理 MII 期卵母细胞进行化学诱导去核，以及纺锤体探测技术去核。",
+    "reference_case": "体细胞克隆猪的方法包括使用处于 G2 / M 期的供核细胞，利用脱炭秋水仙碱处理 MII 期卵母细胞进行化学诱导去核，以及纺锤体探测技术去核。",
+    "error_detail": "术语错误",
+    "original_question": "哪些方法可用于体细胞克隆猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "化学激活方法包括注射钙粒子缓冲液、用7%乙醇短时间处理、用钙离子载体A23187处理、用乙基永硫代水杨酸钠和二硫苏糖醇结合处理、使用离子霉素Ino、结合6-二甲氨基嘌呤、放线菌酮或焦磷酸钠。",
+    "reference_case": "化学激活方法包括注射钙粒子缓冲液、用7%乙醇短时间处理、用钙离子载体A23187处理、用乙基永硫代水杨酸钠和二硫苏糖醇结合处理、使用离子霉素Ino、结合6-二甲氨基嘌呤、放线菌酮或焦磷酸钠。",
+    "error_detail": "术语错误",
+    "original_question": "激活猪卵母细胞的化学方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "未激活的卵母细胞有高水平MPF，有利于供体核在融合后发生核膜破裂（NEBD）和染色体超前凝集（PCC），而NEBD和PCC是猪核移植重组所必需的。",
+    "reference_case": "未激活的卵母细胞有高水平MPF，有利于供体核在融合后发生核膜破裂（NEBD）和染色体超前凝集（PCC），而NEBD和PCC是猪核移植重组所必需的。",
+    "error_detail": "术语错误",
+    "original_question": "猪重构胚激活为什么应在融合处理后进行？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "改良TCM1999中添加了0.1% PVA、0.57 mol·L-1 半胱氨酸、3.05 mmol·L-1 葡萄糖和0.91 mmol·L-1 丙酮酸钠。",
+    "reference_case": "改良TCM1999中添加了0.1% PVA、0.57 mol·L-1 半胱氨酸、3.05 mmol·L-1 葡萄糖和0.91 mmol·L-1 丙酮酸钠。",
+    "error_detail": "错误地重复了相同的成分列表，没有提供新的或不同的信息",
+    "original_question": "改良TCM1999中添加了哪些成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "eCG 和 FSH 对猪卵母细胞的体外成熟更为有效。",
+    "reference_case": "eCG 和 hCG 对猪卵母细胞的体外成熟更为有效。",
+    "error_detail": "错误地替换了激素类型",
+    "original_question": "哪些激素对猪卵母细胞的体外成熟更为有效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "不同激素处理对八眉猪卵巢反应的影响包括eCG处理组获得63.6%的发情率和14.3个平均卵泡数，FSH递减剂量处理获得不同平均卵泡数，280 IU时获得理想的超排效果。",
+    "reference_case": "不同激素处理对八眉猪卵巢反应的影响包括eCG处理组获得63.6%的发情率和14.3个平均黄体数，FSH递减剂量处理获得不同平均黄体数，280 IU时获得理想的超排效果。",
+    "error_detail": "将'黄体数'错误地改为'卵泡数'，导致概念混淆幻觉。",
+    "original_question": "不同激素处理对八眉猪卵巢反应的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "皮特兰猪的背膘厚。",
+    "reference_case": "皮特兰猪的背膘薄。",
+    "error_detail": "将'背膘薄'错误地改为'背膘厚'，导致概念混淆幻觉。",
+    "original_question": "皮特兰猪的背膘厚度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "丹育长白和丹育杜洛克被用作母系猪。",
+    "reference_case": "丹育长白和丹育大白被用作母系猪。",
+    "error_detail": "将'丹育大白'错误地改为'丹育杜洛克'，导致概念混淆幻觉。",
+    "original_question": "丹育种猪计划中，哪些猪种被用作母系猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "丹育杜洛克和丹育长白被用作父系猪。",
+    "reference_case": "丹育杜洛克和丹育汉普夏被用作父系猪。",
+    "error_detail": "将'丹育汉普夏'错误地改为'丹育长白'，导致概念混淆幻觉。",
+    "original_question": "丹育种猪计划中，哪些猪种被用作父系猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "以罗牛山人工授精中心和人工授精站为基础的三级人工授精管理机制，在种猪场内全面推广和应用人工授精技术。",
+    "reference_case": "以罗牛山人工授精中心和人工授精站为基础的两级人工授精管理机制，在种猪场内全面推广和应用人工授精技术。",
+    "error_detail": "将'两级'错误地改为'三级'，导致概念混淆幻觉。",
+    "original_question": "在选育猪群的繁殖中，配种方式是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "种猪编码由血缘关系码、出生年月日、耳号和性别码组成。",
+    "reference_case": "种猪编码由血缘关系码、出生年月日、耳号和公母性别码组成。",
+    "error_detail": "遗漏了'公母'这一关键性别区分信息",
+    "original_question": "种猪编码由哪些部分组成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "种猪性能测定的基本性状包括达100kg体重的日龄和100kg体重活体背膘厚。",
+    "reference_case": "种猪性能测定的基本性状包括达100kg体重的日龄和100kg体重活体背膘厚。",
+    "error_detail": "误将'背膘厚'写作'背膘厚'",
+    "original_question": "种猪性能测定的基本性状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "采用多性状动物模型最佳线性无偏估计法（MTBLUP）估计个体育种值。",
+    "reference_case": "采用多性状动物模型最佳线性无偏估计法（MTBLUP）估计个体育种值。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "种猪遗传评估中采用哪种方法估计个体育种值？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪永久环境效应服从（0, I）分布。",
+    "reference_case": "母猪永久环境效应服从（0, I）分布。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "繁殖性状育种值估计模型中的母猪永久环境效应服从什么分布？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "总平均数的符号是μi。",
+    "reference_case": "总平均数的符号是μi。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "种猪遗传评估模型中，总平均数的符号是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪出生的窝效应服从（0, I）分布。",
+    "reference_case": "母猪出生的窝效应服从（0, I）分布。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "母猪繁殖性能育种值估计模型中，母猪出生的窝效应服从什么分布？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "根据公猪体况、年龄等控制饲料饲喂量，保证公猪正常性机能，配合采精员的工作。",
+    "reference_case": "根据公猪体况、年龄等控制饲料饲喂量，保证公猪正常性机能，配合采精员的工作。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "公猪饲养员在人工授精技术标准中需要做什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "建议采用风扇降温系统。",
+    "reference_case": "建议采用水帘降温系统。",
+    "error_detail": "错误建议了降温系统类型",
+    "original_question": "公猪舍建议采用哪种降温系统？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "每年定期对公猪进行全面的抽血检测，检测的疫病包括：伪狂犬病、蓝耳病、猪瘟、布氏、5号病等。",
+    "reference_case": "每年定期对公猪进行全面的抽血检测，检测的疫病包括：伪狂犬病、蓝耳病、猪瘟、布氏、5号病等。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "种公猪需要定期进行哪些检测？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在调教公猪时要耐心，不准打骂公猪，同时注意公猪和调教人员的安全。",
+    "reference_case": "在调教公猪时要耐心，不准打骂公猪，同时注意公猪和调教人员的安全。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "公猪在调教过程中需要注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "采精前需要准备采精公猪、采精器件、精液稀释液、精液质检设备和精液分装器件等。",
+    "reference_case": "采精前需要准备采精公猪、采精器件、精液稀释液、精液质检设备和精液分装器件等。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "猪的采精准备工作包括哪些内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "采精员用手紧握公猪阴茎螺旋状龟头，顺其向前冲力将阴茎的'S'状弯曲拉直，并握紧龟头防止其旋转，公猪即可射精，用四层纱布过滤收集精液于保温杯内的一次性食品袋内。",
+    "reference_case": "采精员用手紧握公猪阴茎螺旋状龟头，顺其向前冲力将阴茎的'S'状弯曲拉直，并握紧龟头防止其旋转，公猪即可射精，用四层纱布过滤收集精液于保温杯内的一次性食品袋内。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "采精过程中，如何收集精液？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "公猪使用过频或处于高温环境时，可能出现精子头部带有原生质滴的畸形精子。",
+    "reference_case": "公猪使用过频或处于高温环境时，可能出现精子尾部带有原生质滴的畸形精子。",
+    "error_detail": "畸形精子的部位描述错误，应为尾部而非头部。",
+    "original_question": "公猪频繁使用或处于高温环境时，精子可能产生哪种畸形？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "阿波尔血蜱的宿主包括家猪、牛和羊等动物。",
+    "reference_case": "阿波尔血蜱的宿主包括野猪、赤麃、水鹿和猪獾等动物。",
+    "error_detail": "宿主种类描述错误，混淆了家畜和野生动物。",
+    "original_question": "阿波尔血蜱的宿主有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "住肉孢子虫广泛寄生于家养动物（马、牛、羊、猪和兔等）、野生草食动物（鹿科动物、羊科、牛科动物、河马和骆驼等）、灵长类、鼠类、鸟类、爬行类动物和海洋动物，以及昆虫。",
+    "reference_case": "住肉孢子虫广泛寄生于家养动物（马、牛、羊、猪和兔等）、野生草食动物（鹿科动物、羊科、牛科动物、河马和骆驼等）、灵长类、鼠类、鸟类、爬行类动物和海洋动物。",
+    "error_detail": "添加了不相关的宿主类型（昆虫）",
+    "original_question": "住肉孢子虫广泛寄生于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "肝片吸虫的终末宿主主要为草食动物，包括牛、绵羊和山羊等家养动物，以及黑尾鹿、驯鹿、长颈鹿、白尾鹿、驼鹿、长耳鹿、梅花鹿、印度花鹿、坡鹿、马鹿、狍、野牦牛、野牛、大羚羊、斑羚、苏门羚、扭角羚、岩羊、金丝猴、黑叶猴、白头叶猴、小熊猫、亚洲象、双峰驼、角马、野猪、海狸、长耳大野兔、棉尾兔、欧洲野兔以及山兔等野生动物，还包括人类。",
+    "reference_case": "终末宿主主要为草食动物，包括牛、绵羊和山羊等家养动物，以及黑尾鹿、驯鹿、长颈鹿、白尾鹿、驼鹿、长耳鹿、梅花鹿、印度花鹿、坡鹿、马鹿、狍、野牦牛、野牛、大羚羊、斑羚、苏门羚、扭角羚、岩羊、金丝猴、黑叶猴、白头叶猴、小熊猫、亚洲象、双峰驼、角马、野猪、海狸、长耳大野兔、棉尾兔、欧洲野兔以及山兔等野生动物。",
+    "error_detail": "错误地添加了人类作为终末宿主",
+    "original_question": "肝片吸虫的终末宿主有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪囊尾蚴病的主要病原是带科带属（Taenia）的牛带绦虫（T. saginata）的中绦期幼虫（猪囊尾蚴 Cysticercus cellulosae）。",
+    "reference_case": "猪囊尾蚴病的主要病原是带科带属（Taenia）的猪带绦虫（T. solium）的中绦期幼虫（猪囊尾蚴 Cysticercus cellulosae）。",
+    "error_detail": "错误地指定了病原的种类",
+    "original_question": "猪囊尾蚴病的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "克氏伪裸头绦虫的终末宿主包括猪、野猪和人，褐家鼠也是该虫的终末宿主，以及猫。",
+    "reference_case": "克氏伪裸头绦虫的终末宿主包括猪、野猪和人，褐家鼠也是该虫的终末宿主。",
+    "error_detail": "错误地添加了猫作为终末宿主",
+    "original_question": "克氏伪裸头绦虫的终末宿主有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "动物轻度感染者一般无明显症状，严重感染或感染时间较长者可出现食欲缺乏、消瘦、被毛无光泽、便秘与腹泻交替出现、粪便中常伴有黏液、生长发育受阻而成僵猪等症状，以及高热。",
+    "reference_case": "动物轻度感染者一般无明显症状，严重感染或感染时间较长者可出现食欲缺乏、消瘦、被毛无光泽、便秘与腹泻交替出现、粪便中常伴有黏液、生长发育受阻而成僵猪等症状。",
+    "error_detail": "错误地添加了高热作为症状",
+    "original_question": "克氏伪裸头绦虫感染的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "结合症状与流行病学资料，在野猪粪中找到虫卵和孕卵节片即可作出诊断，也可以通过血液检测。",
+    "reference_case": "结合症状与流行病学资料，在野猪粪中找到虫卵和孕卵节片即可作出诊断。",
+    "error_detail": "错误地添加了血液检测作为诊断方法",
+    "original_question": "克氏伪裸头绦虫的诊断方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "避免中间宿主吃到粪便中的虫卵是主要的预防措施，包括保管好粮食和饲料，防止生虫；野猪粪必须及时清除，并经无害化处理杀死虫卵；及时治疗病野猪，认真开展灭鼠工作，以控制传染源，以及定期给野猪接种疫苗。",
+    "reference_case": "避免中间宿主吃到粪便中的虫卵是主要的预防措施，包括保管好粮食和饲料，防止生虫；野猪粪必须及时清除，并经无害化处理杀死虫卵；及时治疗病野猪，认真开展灭鼠工作，以控制传染源。",
+    "error_detail": "错误地添加了疫苗接种作为预防措施",
+    "original_question": "预防克氏伪裸头绦虫感染的主要措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "川金丝猴体内首次发现的寄生虫是猪囊尾蚴。",
+    "reference_case": "川金丝猴体内首次发现的寄生虫是猪囊尾蜘。",
+    "error_detail": "错误地修改了寄生虫的名称",
+    "original_question": "川金丝猴体内首次发现的寄生虫是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪蛔虫的尾端向背面弯曲，形似鱼钩。",
+    "reference_case": "猪蛔虫的尾端向腹面弯曲，形似鱼钩。",
+    "error_detail": "错误地描述了尾端的弯曲方向",
+    "original_question": "猪蛔虫的尾端形状如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪蛔虫属间接发育型，完成生活史需要中间宿主。",
+    "reference_case": "猪蛔虫属直接发育型，完成生活史不需要中间宿主。",
+    "error_detail": "错误地描述了猪蛔虫的发育类型",
+    "original_question": "猪蛔虫的生活史需要中间宿主吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "感染性虫卵在野猪体内经过小肠、肝静脉、后腔静脉、右心房、右心室和肺动脉，并穿过肺泡毛细血管进入肺泡，以及心脏。",
+    "reference_case": "感染性虫卵在野猪体内经过小肠、肝静脉、后腔静脉、右心房、右心室和肺动脉，并穿过肺泡毛细血管进入肺泡。",
+    "error_detail": "错误地添加了心脏作为经过的器官",
+    "original_question": "感染性虫卵在野猪体内经过哪些器官和组织？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "成虫在小肠内以宿主黏膜表层物质及半消化的食物为食，夺取大量的营养，严重影响蛋白质、脂肪、糖类及维生素的吸收，导致野猪营养不良、贫血等症状；严重感染时可导致仔野猪发育受阻，以及死亡。",
+    "reference_case": "成虫在小肠内以宿主黏膜表层物质及半消化的食物为食，夺取大量的营养，严重影响蛋白质、脂肪、糖类及维生素的吸收，导致野猪营养不良、贫血等症状；严重感染时可导致仔野猪发育受阻。",
+    "error_detail": "错误地添加了死亡作为影响",
+    "original_question": "猪蛔虫的成虫在小肠内如何影响宿主？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪蛔虫可引起胆道蛔虫症、胰腺炎、肠梗阻、肠穿孔等并发症，以及肝炎。",
+    "reference_case": "猪蛔虫可引起胆道蛔虫症、胰腺炎、肠梗阻、肠穿孔等并发症。",
+    "error_detail": "错误地添加了肝炎作为并发症",
+    "original_question": "猪蛔虫引起哪些并发症？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "后圆线虫幼虫在野猪小肠内释出，钻入盲肠壁、结肠前段肠壁和肠淋巴结中，经1～5d发育，进行第1次蜕皮；第2期幼虫经肠壁淋巴结系统，再随血流进入肺脏，移行至支气管和气管发育为成虫。",
+    "reference_case": "后圆线虫幼虫在野猪小肠内释出，钻入盲肠壁、结肠前段肠壁和肠淋巴结中，经1～5d发育，进行第4次蜕皮；第5期幼虫经肠壁淋巴结系统，再随血流进入肺脏，移行至支气管和气管发育为成虫。",
+    "error_detail": "错误地描述了蜕皮的次数和幼虫的期数",
+    "original_question": "后圆线虫在野猪体内的移行路径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "野猪后圆线虫病的终末宿主有家猪、野猪、天山野猪，寄生于肺支气管，以及人类。",
+    "reference_case": "野猪后圆线虫病的终末宿主有家猪、野猪、天山野猪，寄生于肺支气管。",
+    "error_detail": "错误地添加了人类作为终末宿主",
+    "original_question": "野猪后圆线虫病的终末宿主有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "预防野猪后圆线虫病的措施包括保持圈舍和运动场干燥，舍内铺设水泥地面，及时清除粪便并堆积发酵，夏秋季节定期进行预防性驱虫，以及使用抗生素治疗。",
+    "reference_case": "预防野猪后圆线虫病的措施包括保持圈舍和运动场干燥，舍内铺设水泥地面，及时清除粪便并堆积发酵，夏秋季节定期进行预防性驱虫。",
+    "error_detail": "错误地将抗生素治疗作为预防措施",
+    "original_question": "预防野猪后圆线虫病的措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "蛭形巨吻棘头虫主要寄生于家猪、野猪和人类。",
+    "reference_case": "蛭形巨吻棘头虫主要寄生于家猪和野猪。",
+    "error_detail": "错误地添加了人类作为宿主",
+    "original_question": "蛭形巨吻棘头虫主要寄生在哪些动物上？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "小肠寄生虫包括牛毛细线虫（Capillaria bovis）、乳突类圆线虫（Strongyloides papillosus）、猪毛首线虫（Trichuris suis）、鹿网尾线虫（Dictyocaulus eckerti）和指形丝状线虫（Setaria digitata），以及人类蛔虫（Ascaris lumbricoides）。",
+    "reference_case": "小肠寄生虫包括牛毛细线虫（Capillaria bovis）、乳突类圆线虫（Strongyloides papillosus）、猪毛首线虫（Trichuris suis）、鹿网尾线虫（Dictyocaulus eckerti）和指形丝状线虫（Setaria digitata）。",
+    "error_detail": "错误地添加了人类蛔虫作为小肠寄生虫",
+    "original_question": "小肠寄生虫有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "肠道寄生虫包括羊夏伯特线虫（Chabertia ovina）、猪毛首线虫（Trichuris suis）、鹿网尾线虫（Dictyocaulus eckerti）、缪勒线虫（Muellerius sp.）、艾美耳球虫（Eimeria moschus）、金风山艾美耳球虫（Eimeria jinfengshanensis）和艾美耳（Eimeria sp.），以及人类钩虫（Ancylostoma duodenale）。",
+    "reference_case": "肠道寄生虫包括羊夏伯特线虫（Chabertia ovina）、猪毛首线虫（Trichuris suis）、鹿网尾线虫（Dictyocaulus eckerti）、缪勒线虫（Muellerius sp.）、艾美耳球虫（Eimeria moschus）、金风山艾美耳球虫（Eimeria jinfengshanensis）和艾美耳（Eimeria sp.）。",
+    "error_detail": "错误地添加了人类钩虫作为肠道寄生虫",
+    "original_question": "哪些寄生虫寄生于肠道？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪毛首线虫（Trichuris suis）和人类蛔虫（Ascaris lumbricoides）寄生于盲肠和结肠。",
+    "reference_case": "猪毛首线虫（Trichuris suis）寄生于盲肠和结肠。",
+    "error_detail": "错误地添加了人类蛔虫作为寄生于盲肠和结肠的寄生虫",
+    "original_question": "哪种球虫寄生于盲肠和结肠？",
+    "original_input": ""
+  }
+]

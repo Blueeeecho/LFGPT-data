@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪饲料中添加Carbadox 0.05%，给与53日后，测定肌肉、肝脏及肾脏组织中Carbadox代谢物，在检测限度0.5ppm以下。",
+    "reference_case": "在猪饲料中添加Carbadox 0.005%，给与53日后，测定肌肉、肝脏及肾脏组织中Carbadox代谢物，在检测限度0.1ppm以下。",
+    "error_detail": "数值偏差，将Carbadox的添加比例和检测限度夸大",
+    "original_question": "Carbadox的残留情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "Oleandomycin对革兰氏阳性菌、阴性菌、螺旋菌、立克次小体、大型病毒等有抗菌力，并对各种动物和家禽分离出的Bacteria有抑制力。",
+    "reference_case": "Oleandomycin对革兰氏阳性菌、阴性菌、螺旋菌、立克次小体、大型病毒等有抗菌力，并对各种动物和家禽分离出的Mycoplasma有抑制力。",
+    "error_detail": "术语错误，将Mycoplasma误写为Bacteria",
+    "original_question": "Oleandomycin的抗菌范围是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "Chlortetracycline对革兰氏阳性菌、阴性菌、螺旋菌、立克次小体、大型病毒等有广范围的抗菌力，但对耐药菌无效。",
+    "reference_case": "Chlortetracycline对革兰氏阳性菌、阴性菌、螺旋菌、立克次小体、大型病毒等有广范围的抗菌力。",
+    "error_detail": "添加了过时的信息，关于耐药菌的描述不符合当前标准",
+    "original_question": "Chlortetracycline的抗菌范围是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "Spiramycin embonate适用于动物抗生素饲料添加剂检定特殊基准，针对雉鸡、彩岛、哺乳期仔猪、仔猪、幼猪的成长促进，用量为50~200 g力价/顿。",
+    "reference_case": "Spiramycin embonate适用于动物抗生素饲料添加剂检定特殊基准，针对雉鸡、彩岛、哺乳期仔猪、仔猪、幼猪的成长促进，用量为5~20 g力价/顿，但在出售做食用前5日内，其添加用量不得超过20 g力价/顿。",
+    "error_detail": "用量偏离原始指令，夸大了推荐用量",
+    "original_question": "Spiramycin embonate的适应症和使用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "Destomycin A用于防止肠道寄生虫引起之生产性低下，用量为50~100 g力价/公斤饲料。",
+    "reference_case": "Destomycin A用于防止肠道寄生虫引起之生产性低下，用量为5~10 g力价/公斤饲料。",
+    "error_detail": "数值偏差，将用量夸大",
+    "original_question": "Destomycin A对猪有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "Hygromycin B用于防止肠道寄生虫引起之生产性低下，用量为6,600万〜13,200万单位/公斤饲料。",
+    "reference_case": "Hygromycin B用于防止肠道寄生虫引起之生产性低下，用量为660万〜1,320万单位/公斤饲料。",
+    "error_detail": "数值偏差，将用量夸大",
+    "original_question": "Hygromycin B对猪有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "油茶籽饼需经过脱毒，操作过程包括浸提、沉淀、用法。浸提是将茶籽饼粉碎后置于蒸煮锅中，加入6倍量浓度为5%的碳酸钠水溶液，拌匀加热煮沸3h；沉淀是将混合物倒入木桶或缸中静置沉淀，虹吸出上层清液，加入10-15倍清水搅拌洗涤2次；用法是滤取油茶籽饼作为猪的精饲料，喂用时搭配量可达到猪日食粮的80%。",
+    "reference_case": "油茶籽饼需经过脱毒，操作过程包括浸提、沉淀、用法。浸提是将茶籽饼粉碎后置于蒸煮锅中，加入6倍量浓度为0.5%的碳酸钠水溶液，拌匀加热煮沸3h；沉淀是将混合物倒入木桶或缸中静置沉淀，虹吸出上层清液，加入10-15倍清水搅拌洗涤2次；用法是滤取油茶籽饼作为猪的精饲料，喂用时搭配量可达到猪日食粮的40%。",
+    "error_detail": "逻辑矛盾，修改了碳酸钠浓度和搭配量，与原始逻辑不符",
+    "original_question": "利用油茶籽饼加工蛋白质饲料的过程是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "当前国内外肉副产品综合利用的发展趋势有：1. 生化制药方面，主要向低成本、增加新品种尤其是防衰老药物、营养药物的方向发展。2. 工业原料方面，主要是进行更深度的加工，提高产品质量和适用性。3. 饲料方面，主要利用猪血、猪骨等进行简单的初加工生产血粉、骨粉，今后应进行更深的精加工，充分利用各种副产品的营养成分，生产出动物性高蛋白配合饲料。4. 食品方面，开发新型肉副产品食品。",
+    "reference_case": "1. 生化制药方面，主要向低成本、增加新品种尤其是防衰老药物、营养药物的方向发展。2. 工业原料方面，主要是进行更深度的加工，提高产品质量和适用性。3. 饲料方面，主要利用猪血、猪骨等进行简单的初加工生产血粉、骨粉，今后应进行更深的精加工，充分利用各种副产品的营养成分，生产出动物性高蛋白配合饲料。",
+    "error_detail": "添加了未经证实的假设，关于食品方面的发展趋势",
+    "original_question": "当前国内外肉副产品综合利用的发展趋势有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪骨中含蛋白质64.8%，而猪肉为33.4%，猪骨含铁17.24 mg，猪肉为4.8 mg。猪骨的蛋白质、磷、钙、铁、锌等营养成分均高于猪肉，有的甚至高出数倍、数十倍。",
+    "reference_case": "猪骨中含蛋白质32.4%，而猪肉为16.7%，猪骨含铁8.62 mg，猪肉为2.4 mg。猪骨的蛋白质、磷、钙、铁、锌等营养成分均高于猪肉，有的甚至高出数倍、数十倍。",
+    "error_detail": "数值偏差，将蛋白质和铁的含量夸大",
+    "original_question": "猪骨与猪肉的营养成分对比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪、牛、马的血液可以用于制取抗炎类新药和抗生素。",
+    "reference_case": "猪、牛、马的血液可以用于制取抗炎类新药。",
+    "error_detail": "术语错误，添加了不相关的抗生素",
+    "original_question": "猪、牛、马的血液可以用于制取什么类型的药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "从猪、牛、羊的胆汁可以制作粗胆汁酸、脱氧胆酸片、胆酸钠、降血压糖衣片、人造牛黄、胆黄素等几十种药物，还可以用于食品添加剂。",
+    "reference_case": "从猪、牛、羊的胆汁可以制作粗胆汁酸、脱氧胆酸片、胆酸钠、降血压糖衣片、人造牛黄、胆黄素等几十种药物。",
+    "error_detail": "偏离原始指令，添加了不相关的食品添加剂用途",
+    "original_question": "从猪、牛、羊的胆汁可以制作哪些药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "羽毛蛋白粉可用于鸡、鸭、兔、猪、鱼等动物的蛋白饲料，添加比例在6%-8%，能提供蛋白质，降低饲料成本，防止啄癖。",
+    "reference_case": "羽毛蛋白粉可用于鸡、鸭、兔、猪、鱼等动物的蛋白饲料，添加比例在3%-4%，能提供蛋白质，降低饲料成本，防止啄癖。",
+    "error_detail": "数值偏差，将添加比例夸大",
+    "original_question": "羽毛蛋白粉在养殖业中有何应用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪饲粮中添加羽毛粉一般不超过4%，最好与赖氨酸含量高的饲料原料搭配，以达到氨基酸互补。",
+    "reference_case": "在猪饲粮中添加羽毛粉一般不超过2%，最好与赖氨酸含量高的饲料原料搭配，以达到氨基酸互补。",
+    "error_detail": "数值偏差，将添加比例夸大",
+    "original_question": "在猪饲粮中添加羽毛粉应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "羽毛粉可用于鸡、鸭、兔、猪、鱼等动物的蛋白饲料，还可以用于宠物食品。",
+    "reference_case": "羽毛粉可用于鸡、鸭、兔、猪、鱼等动物的蛋白饲料。",
+    "error_detail": "偏离原始指令，添加了不相关的宠物食品用途",
+    "original_question": "羽毛粉可以应用于哪些动物的饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "动物皮的化学组成随品种、年龄、性别、部位的不同而有差异，成年猪皮中蛋白质含量占60%左右，水分占33%，脂肪占4%，灰分占2%。",
+    "reference_case": "动物皮的化学组成随品种、年龄、性别、部位的不同而有差异，成年猪皮中蛋白质含量占30%左右，水分占66%，脂肪占2%，灰分占1%。",
+    "error_detail": "数值偏差，将蛋白质、水分、脂肪和灰分的比例错误修改",
+    "original_question": "如何界定动物皮的化学组成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "布氏杆菌病羊免疫接种使用布氏杆菌猪型5号弱毒苗或羊型2号弱毒苗。",
+    "reference_case": "布氏杆菌病羊免疫接种使用布氏杆菌猪型2号弱毒苗或羊型5号弱毒苗。",
+    "error_detail": "术语错误，将疫苗型号混淆",
+    "original_question": "布氏杆菌病羊免疫接种使用什么疫苗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "选择身体健壮、体型匀称、性情温顺、奶头排列整齐（奶头数量在6对以上）、背腰平直、腹大而不拖地的母猪。一般可进行三次选留：第一次在断奶时，选择生长发育快、奶头排列整齐，并有6对奶头以上的小母猪；第二次在发育成熟要配种时（本地猪大约8月龄、外种猪10月龄），选择生长发育快、体长、四肢粗壮、腹不下垂、膘薄的后备母猪；第三次在产一胎后，选择产仔多、母性良好的母猪。此外，还应考虑母猪的遗传背景。",
+    "reference_case": "选择身体健壮、体型匀称、性情温顺、奶头排列整齐（奶头数量在6对以上）、背腰平直、腹大而不拖地的母猪。一般可进行三次选留：第一次在断奶时，选择生长发育快、奶头排列整齐，并有6对奶头以上的小母猪；第二次在发育成熟要配种时（本地猪大约8月龄、外种猪10月龄），选择生长发育快、体长、四肢粗壮、腹不下垂、膘薄的后备母猪；第三次在产一胎后，选择产仔多、母性良好的母猪。",
+    "error_detail": "添加了未经证实的假设，关于遗传背景的考虑",
+    "original_question": "如何选择母猪作为种猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "我国猪种一般在出生12-16个月、体重120公斤左右，外国猪种在生后16-20个月、体重180公斤左右，初配为宜。",
+    "reference_case": "我国猪种一般在出生6-8个月、体重60公斤左右，外国猪种在生后8-10个月、体重90公斤左右，初配为宜。",
+    "error_detail": "数值偏差，将年龄和体重夸大",
+    "original_question": "母猪的最佳初配年龄是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪一生中3-5岁的生产力最高，6岁以后，生产力逐渐降低，产仔少，仔猪大小不均匀，饲养不经济，应有计划地更新母猪。",
+    "reference_case": "母猪一生中2-4岁的生产力最高，5岁以后，生产力逐渐降低，产仔少，仔猪大小不均匀，饲养不经济，应有计划地更新母猪。",
+    "error_detail": "数值偏差，将年龄范围错误修改",
+    "original_question": "母猪一生中哪个年龄段的生产力最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪的发情周期平均是28天。",
+    "reference_case": "母猪的发情周期平均21天。",
+    "error_detail": "数值偏差，将发情周期错误修改",
+    "original_question": "母猪的发情周期平均是多少天？",
+    "original_input": ""
+  }
+]

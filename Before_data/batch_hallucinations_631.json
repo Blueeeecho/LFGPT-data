@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "根据NRC推荐，乳猪血红蛋白浓度在120 g/L以上时比较适宜。",
+    "reference_case": "根据NRC推荐，乳猪血红蛋白浓度在100 g/L以上时比较适宜。",
+    "error_detail": "数值偏差",
+    "original_question": "根据NRC推荐，乳猪血红蛋白浓度的适宜水平是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中小肽铁组21日龄乳猪的血红蛋白浓度为78.53 g/L，处于贫血状态。",
+    "reference_case": "试验中小肽铁组21日龄乳猪的血红蛋白浓度为68.53 g/L，处于贫血状态。",
+    "error_detail": "数值偏差",
+    "original_question": "试验中小肽铁组21日龄乳猪的血红蛋白浓度处于什么状态？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "铜广泛存在于血液中，母猪缺铜受精率会受到影响，铜主要用来满足胎儿生长发育的需求。",
+    "reference_case": "铜广泛存在于酶系统和一些活性蛋白中，母猪缺铜受精率会受到影响，铜主要用来满足胎儿生长发育的需求。",
+    "error_detail": "术语错误",
+    "original_question": "铜在母猪体内的主要功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "硒是血红蛋白的组成成分，与维生素E一起起到抗氧化的作用，主要清除体内代谢已经形成的过氧化氢和有机过氧化物。",
+    "reference_case": "硒是谷胱甘肽过氧化物酶（GSHPX）的组成成分，与维生素E一起起到抗氧化的作用，主要清除体内代谢已经形成的过氧化氢和有机过氧化物。",
+    "error_detail": "术语错误",
+    "original_question": "硒在母猪体内的主要功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "增加母猪饲粮中硒的水平，可以显著提高新生仔猪肝、血清硒含量，增强GSHPX的活性，提高母乳中硒的水平，从而提高胎儿的成活率。",
+    "reference_case": "增加母猪饲粮中硒的水平，可以显著提高新生仔猪肝、血清硒含量，增强GSHPX的活性，提高母乳中硒的水平，从而提高胎儿的成活率。",
+    "error_detail": "因果错误",
+    "original_question": "母猪饲料中硒水平对新生仔猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在妊娠后期和泌乳期，母猪的负担加重，对各种微量元素的需求最小。",
+    "reference_case": "在妊娠后期和泌乳期，母猪的负担加重，对各种微量元素的需求最大。",
+    "error_detail": "过时标准",
+    "original_question": "母猪在妊娠后期和泌乳期对微量元素的需求有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "使用有机微量元素可以显著提高母猪的生产性能，如增加窝均产仔数、活仔数和断奶头数，延长母猪的生产年限，降低淘汰率。",
+    "reference_case": "使用有机微量元素可以显著提高母猪的生产性能，如增加窝均产仔数、活仔数和断奶头数，延长母猪的生产年限，降低淘汰率。",
+    "error_detail": "需求冲突",
+    "original_question": "使用有机微量元素对母猪的生产性能有何具体改善？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "铬对母猪的生产性能有重要影响，补充铬可增加出生仔猪数和断奶窝重，改善母猪的分娩能力，减少母猪流产数和自然死亡率，提高母猪的返情率。",
+    "reference_case": "铬对母猪的生产性能有重要影响，补充铬可增加出生仔猪数和断奶窝重，改善母猪的分娩能力，减少母猪流产数和自然死亡率，提高母猪的返情率。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "铬对母猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "铁是血红蛋白的组成成分，具有广泛的功能，包括与铁转运蛋白结合通过血液转运到各组织器官，以及以铁蛋白的形式储存在肝脏中。",
+    "reference_case": "铁是许多功能蛋白的组成成分，具有广泛的功能，包括与铁转运蛋白结合通过血液转运到各组织器官，以及以铁蛋白的形式储存在肝脏中。",
+    "error_detail": "术语错误",
+    "original_question": "铁在母猪体内的主要功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "锰是体内许多酶的抑制剂，参与线粒体内氧化磷酸化、脂肪酸合成，促进骨骼及软骨中酸性粘多糖的合成，也可促进体脂的利用，抑制肝脏变性。",
+    "reference_case": "锰是体内许多酶的激活剂，参与线粒体内氧化磷酸化、脂肪酸合成，促进骨骼及软骨中酸性粘多糖的合成，也可促进体脂的利用，抑制肝脏变性。",
+    "error_detail": "术语错误",
+    "original_question": "锰在母猪体内的主要功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪饲喂高锌饲粮，比饲喂低锌饲粮的母猪所产的仔猪在断奶后增重更慢。",
+    "reference_case": "母猪饲喂高锌饲粮，比饲喂低锌饲粮的母猪所产的仔猪在断奶后增重更迅速。",
+    "error_detail": "数值偏差",
+    "original_question": "母猪饲料中锌水平对仔猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "使用有机微量元素可以改善母猪的生产性能，如增加仔猪的出生重和断奶重，降低死亡率，提高血红蛋白水平。有机微量元素还可以提高母猪的窝均产仔数、活仔数和断奶头数，延长母猪的生产年限，降低淘汰率。",
+    "reference_case": "使用有机微量元素可以改善母猪的生产性能，如增加仔猪的出生重和断奶重，降低死亡率，提高血红蛋白水平。有机微量元素还可以提高母猪的窝均产仔数、活仔数和断奶头数，延长母猪的生产年限，降低淘汰率。",
+    "error_detail": "需求冲突",
+    "original_question": "使用有机微量元素对母猪的生产性能有哪些具体改善？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "我国目前只有猪、鸡、奶牛、肉牛等少数几个品种的动物具有饲养标准，大多数畜禽如鸭、鹅、水牛、羊、兔以及其它特种畜禽都有国家或行业发布或建议的饲养标准。",
+    "reference_case": "我国目前只有猪、鸡、奶牛、肉牛等少数几个品种的动物具有饲养标准，大多数畜禽如鸭、鹅、水牛、羊、兔以及其它特种畜禽都没有国家或行业发布或建议的饲养标准。",
+    "error_detail": "过时标准",
+    "original_question": "我国动物营养参数和饲养标准的研究现状如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生产含乳清粉、代乳粉、庶糖的乳猪饲料时应采用“高温低速”的制粒方法，调质时保证物料温度在65°C到75°C，制粒速度加快。",
+    "reference_case": "生产含乳清粉、代乳粉、庶糖的乳猪饲料时应采用“低温高速”的制粒方法，调质时保证物料温度在65°C到75°C，制粒速度加快。",
+    "error_detail": "数值偏差",
+    "original_question": "生产含乳清粉、代乳粉、庶糖的乳猪饲料时应采用何种调质手段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在现代规模化畜禽养殖生产中，腹泻对幼小畜禽的影响非常大，尤其是在幼小畜禽如付猪和雏鸡中，腹泻已成为生长受阻和高死亡率的主要原因。据调查，在我国，断奶仔猪腹泻率高达60%～70%，死亡率为25%～30%；鸡白痢发病率一般为30%～40%，死亡率也较高。",
+    "reference_case": "在现代规模化畜禽养殖生产中，腹泻对幼小畜禽的影响非常大，尤其是在幼小畜禽如付猪和雏鸡中，腹泻已成为生长受阻和高死亡率的主要原因。据调查，在我国，断奶仔猪腹泻率高达50%～60%，死亡率为15%～20%；鸡白痢发病率一般为20%～30%，死亡率也较高。",
+    "error_detail": "数值偏差",
+    "original_question": "在现代规模化畜禽养殖生产中，腹泻对幼小畜禽的影响有多大？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "中草药饲料添加剂在畜禽生产中的应用效果显著，能够提高生产性能、防病、治病效果很好，有些不亚于抗生素。例如，中草药对家禽和猪的生产性能有显著影响，具体效果见表1和表2。",
+    "reference_case": "中草药饲料添加剂在畜禽生产中的应用效果显著，能够提高生产性能、防病、治病效果很好，有些不亚于抗生素。例如，中草药对家禽和猪的生产性能有显著影响，具体效果见表1和表2。",
+    "error_detail": "添加假设",
+    "original_question": "中草药饲料添加剂在畜禽生产中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在猪的饲养中，微量元素氨基酸螯合物可以提高肉猪的日增重、饲料利用率和经济效益，增强仔猪抗病力，提高仔猪生长速度，改善母猪繁殖性能，降低仔猪初生死亡率等。",
+    "reference_case": "在猪的饲养中，微量元素氨基酸螯合物可以提高肉猪的日增重、饲料利用率和经济效益，增强仔猪抗病力，提高仔猪生长速度，改善母猪繁殖性能，降低仔猪初生死亡率等。",
+    "error_detail": "需求冲突",
+    "original_question": "微量元素氨基酸螯合物在猪的饲养中有哪些应用效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加除臭灵可以明显提高猪的日增重，减少背膘厚和尿素浓度，具体表现为日增重提高62%，背膘厚减少24%，尿素浓度减少22%到46%。",
+    "reference_case": "添加除臭灵可以明显提高猪的日增重，减少背膘厚和尿素浓度，具体表现为日增重提高52%，背膘厚减少14%，尿素浓度减少12%到36%。",
+    "error_detail": "数值偏差",
+    "original_question": "添加除臭灵对猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "试验组（B、C组）粪便成型较好，对照组（A组）粪便较稀。",
+    "reference_case": "试验组（B、C组）粪便成型较好，对照组（A组）粪便较稀。",
+    "error_detail": "误解上下文",
+    "original_question": "试验中仔猪的粪便情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "B、C组生长发育较为平衡，毛色较好（红润光滑），体态匀称；A组出现厌食、发烧次数较多。",
+    "reference_case": "B、C组生长发育较为平衡，毛色较好（红润光滑），体态匀称；A组出现厌食、发烧次数较多。",
+    "error_detail": "误解上下文",
+    "original_question": "试验中仔猪的生长发育情况如何？",
+    "original_input": ""
+  }
+]

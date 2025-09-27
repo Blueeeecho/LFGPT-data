@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "食盐中毒的病原是细菌感染。",
+    "reference_case": "食盐是动物生命过程中不可缺少的物质，长期缺乏食盐会使猪生长停滞，但喂量过大也会引起中毒。",
+    "error_detail": "将食盐中毒的病原错误地归因于细菌感染，实际上是由于食盐喂量过大引起的。",
+    "original_question": "食盐中毒的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "病猪体温在42-45°C之间。",
+    "reference_case": "病猪表现食欲废绝，精神萎靡，视力减退，全群口渴，喝脏水，大便干燥，体躯呈不自然姿态，步行蹒跚，呼吸正常，结膜充血，嘴不断咀嚼并流出大量白沫，有的单向转圈，多数盲目直冲，碰在障碍物上并不躲避，继而倒卧地上，有时头颈突然痉挛，头部仰起，也有时做游涾动作，这种病状多为阵发性，体温在38-40°C之间，少数猪在痉挛后体温升高到41°C以上。",
+    "error_detail": "错误地提高了病猪的体温范围，实际上体温在38-40°C之间。",
+    "original_question": "食盐中毒的猪发病症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "预防猪的消化系统疾病需要定期注射疫苗。",
+    "reference_case": "加强饲养管理，定时定量喂食，确保清洁饮水，提供足够的运动，避免长期饲喂粗硬饲料，控制饲料中的泥沙和其他异物。",
+    "error_detail": "偏离了原始指令中提到的饲养管理措施，错误地建议注射疫苗。",
+    "original_question": "如何预防猪的消化系统疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪便秘的主要症状是腹泻。",
+    "reference_case": "病猪食欲减退或废绝，频繁想喝水，腹部胀大，按压腹部有痛感，精神萎靡，腹部坚实。",
+    "error_detail": "错误地将便秘的症状描述为腹泻，实际上便秘的症状包括腹部胀大和坚实。",
+    "original_question": "猪便秘的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "治疗猪便秘的方法包括使用抗生素。",
+    "reference_case": "停止喂料，温肥皂水洗胃，使用硫酸镁或硫酸钠灌服，石蜡油或植物油灌服，甘油灌服，疼痛时可注射安乃近。",
+    "error_detail": "错误地添加了使用抗生素的假设，实际上治疗方法不包括抗生素。",
+    "original_question": "治疗猪便秘的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "预防猪口炎需要定期使用抗生素。",
+    "reference_case": "保持饲料清洁，避免饲喂粗硬或霉变饲料，使用刺激性药物时小心操作，防止损伤口腔粘膜。",
+    "error_detail": "错误地建议使用抗生素预防猪口炎，实际上预防措施主要是饲料和药物使用的管理。",
+    "original_question": "如何预防猪口炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪口炎的主要症状是食欲增加。",
+    "reference_case": "口内干燥灼热，随后出现流涎，咀嚼缓慢，舌苔脱落，口内有臭味。",
+    "error_detail": "错误地将口炎的症状描述为食欲增加，实际上症状包括口内干燥和流涎。",
+    "original_question": "猪口炎的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "治疗猪口炎的常用方法包括手术切除。",
+    "reference_case": "使用硼酸水、明矾水或高钴酸钾溶液冲洗口腔，溃烂时可用碘甘油涂布，也可试用中药黄柏、青黛和冰片撒布口腔，针疗玉堂穴。",
+    "error_detail": "偏离了原始指令中提到的治疗方法，错误地建议手术切除。",
+    "original_question": "治疗猪口炎有哪些常用方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "预防猪肠套叠需要在饲料中添加热带水果。",
+    "reference_case": "加强饲养管理，确保母猪泌乳正常，保证饲料质量，定时喂饮，避免冰冷或霉变饲料，避免粗暴处理。",
+    "error_detail": "错误地建议添加热带水果预防猪肠套叠，实际上预防措施主要是饲养管理。",
+    "original_question": "如何预防猪肠套叠？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪肠套叠的主要症状是体温显著下降。",
+    "reference_case": "突然停食，精神不安，腹痛，背部拱起，头部贴地，全身颤抖，痛苦呻吟，呼吸困难，体温正常或略升高，严重时几小时至几天内死亡。",
+    "error_detail": "错误地将肠套叠的症状描述为体温显著下降，实际上体温正常或略升高。",
+    "original_question": "猪肠套叠的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "治疗猪肠套叠的方法包括立即喂食高纤维饲料。",
+    "reference_case": "可试用1%阿托品皮下注射以缓解肠痉挛，争取尽快确诊并进行剖腹整复。",
+    "error_detail": "逻辑上矛盾，肠套叠时不应立即喂食高纤维饲料，而应缓解肠痉挛和进行剖腹整复。",
+    "original_question": "治疗猪肠套叠的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "维生素B2缺乏时，猪会出现皮肤变薄。",
+    "reference_case": "维生素B2缺乏时，猪会出现脚弯曲强直、皮肤肥厚、部分发疹、鳞屑和溃疡、脱毛、生长迟缓、呕吐、眼内障，且影响生殖和泌乳机能，在寒冷环境中对维生素B2的需求增加。",
+    "error_detail": "错误地将维生素B2缺乏的症状描述为皮肤变薄，实际上症状包括皮肤肥厚。",
+    "original_question": "维生素B2缺乏时，猪会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "维生素B6缺乏时，仔猪会出现食欲增加。",
+    "reference_case": "维生素B6缺乏时，仔猪会出现食欲不振、生长发育不良、被毛脱落、运动失调、拉稀和咳嗽，且生殖机能和泌乳机能受损。",
+    "error_detail": "错误地将维生素B6缺乏的症状描述为食欲增加，实际上症状包括食欲不振。",
+    "original_question": "维生素B6缺乏时，会导致仔猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "处理胎头姿势不正的情况需要立即进行剖腹产。",
+    "reference_case": "猪的胎头姿势不正包括头颈侧弯、头向下弯、头颈侧转，助产时将手伸入子宫内握住头部再缓慢拉出。",
+    "error_detail": "偏离了原始指令中提到的助产方法，错误地建议立即进行剖腹产。",
+    "original_question": "如何处理胎头姿势不正的情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "子宫外脱的原因包括遗传因素。",
+    "reference_case": "子宫外脱的原因包括猪舍狭窄、胎儿过大、子宫过度伸张、分娩后子宫收缩迟缓等。",
+    "error_detail": "错误地添加了遗传因素的假设，实际上原因主要是环境和生理因素。",
+    "original_question": "子宫外脱的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪乳房炎常见的细菌包括沙门氏菌。",
+    "reference_case": "常见的细菌有链球菌、葡萄球菌、大肠杆菌和绿脓杆菌等。",
+    "error_detail": "错误地添加了沙门氏菌作为常见细菌，实际上常见的细菌不包括沙门氏菌。",
+    "original_question": "母猪乳房炎常见的细菌有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪乳房炎的初期症状包括乳汁分泌增加。",
+    "reference_case": "初期常可发现母猪在哺乳时因疼痛而急速站起，不让仔猪吃奶；触诊时可感到乳腺发硬，并有红、肿、热、痛和机能障碍等症状。",
+    "error_detail": "错误地将乳房炎的初期症状描述为乳汁分泌增加，实际上症状包括乳腺发硬和疼痛。",
+    "original_question": "母猪乳房炎的初期症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪乳房炎的乳汁变化特征是乳汁变甜。",
+    "reference_case": "在发病初期乳汁稀薄，以后逐渐变为乳清样并含有絮状小块；若患脓性乳房炎，则乳汁变为粘液状，含有淡黄色或黄色的絮状物；如患坏死性乳房炎，患病乳腺肿大、皮肤充血呈紫红色，触诊发硬有热、痛，乳汁呈灰红色并含絮片状物。",
+    "error_detail": "错误地将乳汁变化描述为变甜，实际上变化包括稀薄、粘液状和灰红色。",
+    "original_question": "母猪乳房炎的乳汁变化特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "母猪发生脓性乳房炎和坏死性乳房炎时，应使用抗生素治疗。",
+    "reference_case": "应尽早切开脓肿，排出脓汁后注入3%过氧化氢溶液、0.25%雷佛奴尔或0.1%高锰酸钾液，然后以纱布保护伤口；乳腺发生坏死时，应行切除，以免引起脓毒血症，然后按上述方法治疗。",
+    "error_detail": "偏离了原始指令中提到的治疗方法，错误地建议使用抗生素治疗。",
+    "original_question": "母猪发生脓性乳房炎和坏死性乳房炎时，如何处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "母猪无奶或缺奶的原因包括过度运动。",
+    "reference_case": "母猪怀孕期和哺乳期伺喂不足或饲料营养价不全；母猪患有全身性严重疾病、热性传染病；内分泌机能失调；使用催产及泻剂等药物；母猪过早交配乳腺发育不全和母猪过老生理机能减退；乳腺管闭锁不通，乳房发炎。",
+    "error_detail": "错误地添加了过度运动的假设，实际上原因主要是饲养和生理因素。",
+    "original_question": "母猪无奶或缺奶的原因有哪些？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "王耀辉博士提出的问题是：饲料原料价格十年来已经翻倍，生猪价格却回到1997年，如何实现猪料盈利？他还提出了如何应对全球气候变化对养猪业的影响。",
+    "reference_case": "王耀辉博士提出的问题是：饲料原料价格十年来已经翻倍，生猪价格却回到1997年，如何实现猪料盈利？",
+    "error_detail": "错误地添加了不相关的问题'如何应对全球气候变化对养猪业的影响'",
+    "original_question": "泛亚太董事长王耀辉博士在2014年春天提出了什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "农业部在2014年印发了《关于做好2014年生猪屠宰行业管理工作的通知》和《2014-2015年生猪等畜禽屠宰统计报表制度》。",
+    "reference_case": "农业部在2014年印发了《关于做好2014年生猪屠宰行业管理工作的通知》和《2014-2015年生猪等畜禽屠宰统计报表制度》。",
+    "error_detail": "虽然看起来相同，但未考虑到可能已有更新的文件替代",
+    "original_question": "农业部在2014年印发了哪些文件来部署生猪屠宰行业管理工作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "生猪产业在我国经济发展中扮演了关键角色，包括促进经济发展、保持物价稳定、增加农民收入以及满足居民消费需要等方面。此外，它还是国家外汇收入的主要来源。",
+    "reference_case": "生猪产业在我国经济发展中扮演了关键角色，包括促进经济发展、保持物价稳定、增加农民收入以及满足居民消费需要等方面。",
+    "error_detail": "错误地添加了'国家外汇收入的主要来源'这一过时信息",
+    "original_question": "生猪产业在我国经济发展中扮演了哪些关键角色？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在青海省部分地区猪粪便中，仔猪粪便中锌（Zn）的超标倍数最高，达到了15:00至16:00倍。",
+    "reference_case": "在青海省部分地区猪粪便中，仔猪粪便中锌（Zn）的超标倍数最高，达到了17:12至17:86倍。",
+    "error_detail": "使用了过时的超标倍数数据",
+    "original_question": "青海省部分地区猪粪便中，哪些生长阶段的猪粪便中锌（Zn）的超标倍数最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪腹泻在夏季最为常见，冬季一般不多见。",
+    "reference_case": "猪腹泻在冬春寒冷季节最为常见，夏秋季节一般不多见。",
+    "error_detail": "错误地改变了猪腹泻最常见的季节",
+    "original_question": "猪腹泻在哪些季节最为常见？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "方药水煎，候温灌服，2剂/天。",
+    "reference_case": "方药水煎，候温灌服，1剂/天。",
+    "error_detail": "时效性幻觉（过时标准）",
+    "original_question": "在治疗断奶仔猪腹泻时，方药的服用频率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "湖北省物价局等多部门进行统一会商，将启动生猪价格一级响应，补贴养殖户，对国家确定的生猪调出大县的养殖户按每头能繁母猪200元的标准发放临时饲养补贴。",
+    "reference_case": "湖北省物价局等多部门进行统一会商，将启动生猪价格一级响应，补贴养殖户，对国家确定的生猪调出大县的养殖户按每头能繁母猪100元的标准发放临时饲养补贴。",
+    "error_detail": "时效性幻觉（过时标准）",
+    "original_question": "湖北省如何应对生猪价格下跌？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "中国停止对进口自美国的生猪发放许可证，直至美国农业部落实相关的检测和认证手续，主要是出于对一种致死性猪病毒（PED）的担心。",
+    "reference_case": "中国停止对进口自美国的生猪发放许可证，直至美国农业部落实相关的检测和认证手续，主要是出于对一种致死性猪病毒（PED）的担心。",
+    "error_detail": "时效性幻觉（过时标准）",
+    "original_question": "中国对美国生猪进口实施了哪些限制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "补饲2 g/d藻粉显著提高了仔猪35日龄的空肠和回肠绒毛长度，以及42日龄的十二指肠、空肠和回肠绒毛长度。",
+    "reference_case": "补饲2 g/d藻粉显著提高了仔猪28日龄的空肠和回肠绒毛长度，以及35日龄的十二指肠、空肠和回肠绒毛长度。",
+    "error_detail": "仔猪的日龄被错误地修改为42日龄，而原始数据为35日龄。",
+    "original_question": "补饲藻粉对仔猪小肠绒毛长度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "哺乳期补饲2 g/d藻粉显著提高了仔猪20～28日龄和28～35日龄的平均日增重，并显著降低了断奶后的腹泻率。",
+    "reference_case": "哺乳期补饲2 g/d藻粉显著提高了仔猪15～28日龄和28～35日龄的平均日增重，并显著降低了断奶后的腹泻率。",
+    "error_detail": "仔猪的日龄范围被错误地修改为20～28日龄，而原始数据为15～28日龄。",
+    "original_question": "哺乳期补饲藻粉对仔猪生长性能的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "PCR扩增的循环参数为94°C预变性5分钟；94°C变性30秒，55°C退火30秒，72°C延伸30秒，循环30次；最后72°C延伸10分钟。",
+    "reference_case": "PCR扩增的循环参数为94°C预变性5分钟；94°C变性30秒，58°C退火30秒，72°C延伸30秒，循环30次；最后72°C延伸10分钟。",
+    "error_detail": "错误地改变了退火温度",
+    "original_question": "在猪肺炎支原体168株P97基因的克隆与表达研究中，PCR扩增的循环参数是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "2013年陕西进口美国种猪的检疫过程中，对抗体阳性猪实施隔离观察并进行无害化处理。",
+    "reference_case": "2013年陕西进口美国种猪的检疫过程中，对抗体阳性猪实施扑杀并进行无害化处理。",
+    "error_detail": "错误地将扑杀改为隔离观察",
+    "original_question": "2013年陕西进口美国种猪的检疫过程中，如何处理抗体阳性猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "约束条件包括资源、资金、人员和时滞效应，这些因素影响政策的实施效果，以及2010年前的旧政策限制。",
+    "reference_case": "约束条件包括资源、资金、人员和时滞效应，这些因素影响政策的实施效果。",
+    "error_detail": "添加了过时的政策限制信息",
+    "original_question": "我国生猪价格调控政策实施中存在哪些约束条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪李氏杆菌病的发生与饲养环境差、营养水平低的散养或小型养猪场有关，尤其是在冬季多见。",
+    "reference_case": "猪李氏杆菌病的发生与饲养环境差、营养水平低的散养或小型养猪场有关，尤其是在初春季节多见。",
+    "error_detail": "错误地改变了季节信息",
+    "original_question": "猪李氏杆菌病的发生与哪些饲养条件有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在母猪繁殖管理中，后备母猪的配种适期应根据发情时间确定，一般宜在母猪发情后10至15小时交配，同时观察母猪身体外部表现，如阴部充血肿胀逐渐消退、阴门变成淡红并有少量皱纹等特征。",
+    "reference_case": "在母猪繁殖管理中，后备母猪的配种适期应根据发情时间确定，一般宜在母猪发情后20至30小时交配，同时观察母猪身体外部表现，如阴部充血肿胀逐渐消退、阴门变成淡红并有少量皱纹等特征。",
+    "error_detail": "错误地改变了配种适期的时间范围",
+    "original_question": "在母猪繁殖管理中，后备母猪的配种适期应如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "湖南省在动物产地检疫中，产地检疫申报受理后，按照《农业部关于印发〈生猪产地检疫规程〉等4个规程的通知》和《农业部关于印发〈跨省调运种禽产地检疫规程〉及〈跨省调运乳用种用动物产地检疫规程〉的通知》要求，按时到场、到户或到指定地点实施现场检疫，查验强制免疫记录档案和牲畜耳标等情况。",
+    "reference_case": "湖南省在动物产地检疫中，产地检疫申报受理后，按照《农业部关于印发〈生猪产地检疫规程〉等4个规程的通知》和《农业部关于印发〈跨省调运种禽产地检疫规程〉及〈跨省调运乳用种用动物产地检疫规程〉的通知》要求，按时到场、到户或到指定地点实施现场检疫，查验强制免疫记录档案和牲畜耳标等情况。",
+    "error_detail": "虽然内容相同，但假设使用了过时的标准或通知，属于时效性幻觉。",
+    "original_question": "湖南省在动物产地检疫中如何规范动物产地检疫行为？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "德国在猪瘟防控中采取了60天原则，即在对感染农场进行清洁和消毒后，家猪必须在其原有农场继续饲喂60天以上方可移运，并且在完成清洁和消毒后60天，根据诊断手册对农场饲喂的猪进行临床检查和实验室检测以确认猪瘟病毒是否彻底杀灭。",
+    "reference_case": "德国在猪瘟防控中采取了30天原则，即在对感染农场进行清洁和消毒后，家猪必须在其原有农场继续饲喂30天以上方可移运，并且在完成清洁和消毒后30天，根据诊断手册对农场饲喂的猪进行临床检查和实验室检测以确认猪瘟病毒是否彻底杀灭。",
+    "error_detail": "修改了时间标准，导致时效性幻觉。",
+    "original_question": "德国在猪瘟防控中采取了哪些独特的措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "欧盟2001/89/EC指令首次提出了通过设定保护区和监测区的区域化防控措施来实现猪瘟疫情的扑灭与防控，这一措施在2005年被废除。",
+    "reference_case": "欧盟2001/89/EC指令首次提出了通过设定保护区和监测区的区域化防控措施来实现猪瘟疫情的扑灭与防控。",
+    "error_detail": "添加了不存在的废除信息，导致时效性幻觉。",
+    "original_question": "欧盟2001/89/EC指令在猪瘟防控中提出了哪些新措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "2008年8月13日，某县某动物医院的执业兽医王某对李某饲养的生猪进行了初步诊断，诊断结果为生猪患有一类传染病A病。",
+    "reference_case": "2008年8月13日，某县某动物医院的执业兽医王某对李某饲养的生猪进行了初步诊断，诊断结果为生猪患有二类传染病A病。",
+    "error_detail": "过时标准",
+    "original_question": "2008年8月13日，某县某动物医院的执业兽医王某对李某饲养的生猪进行了什么诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "这些添加剂能提高育肥猪的生长性能和改善肉质，其中维生素C 100mg/kg组背膘厚高于0,50mg/kg组；维生素E 260mg/kg组显著降低屠宰率（P<0.05）；甜菜碱高水平添加量（3000,5000mg/kg）降低眼肌面积效果较好；酵母硒三个水平对胴体品质影响差异显著（P<0.05）。",
+    "reference_case": "这些添加剂能提高育肥猪的生长性能和改善肉质，其中维生素C 100mg/kg组背膘厚低于0,50mg/kg组；维生素E 260mg/kg组显著提高屠宰率（P<0.05）；甜菜碱高水平添加量（3000,5000mg/kg）提高眼肌面积效果较好；酵母硒三个水平对胴体品质影响差异不显著（P>0.05）。",
+    "error_detail": "错误地反转了多个添加剂的效果描述和统计显著性。",
+    "original_question": "维生素C、维生素E、甜菜碱和酵母硒对育肥猪胴体品质的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "橡实通过采摘成熟的橡实、去壳后高温下用水浸泡24小时，每4小时换水一次进行脱毒处理，以消除橡实中的氰化物、铅、铬等有毒有害成分以及单宁。",
+    "reference_case": "橡实通过采摘成熟的橡实、去壳后常温下用水浸泡48小时，每8小时换水一次进行脱毒处理，以消除橡实中的氰化物、铅、铬等有毒有害成分以及单宁。",
+    "error_detail": "脱毒处理条件被错误地描述",
+    "original_question": "在野生橡实替代玉米饲喂肥育猪试验中，橡实是如何进行脱毒处理的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "试验证明脱毒处理对猪的饲喂效果有显著影响，橡实必须经过脱毒处理后才能添加于配合饲料中。",
+    "reference_case": "试验证明脱毒与否对猪的饲喂效果无明显影响，橡实可以直接粉碎加工添加于配合饲料中。",
+    "error_detail": "错误地声称脱毒处理对饲喂效果有显著影响",
+    "original_question": "野生橡实替代玉米饲喂肥育猪试验中，橡实的脱毒处理对猪的饲喂效果有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "2014年首批冻肉收储的冻猪肉品种需要符合国家标准GB9959:2-2018的2、4号分割冻猪肉。",
+    "reference_case": "2014年首批冻肉收储的冻猪肉品种需要符合国家标准GB9959:2-2008的2、4号分割冻猪肉。",
+    "error_detail": "错误地将国家标准年份从2008年改为2018年",
+    "original_question": "2014年首批冻肉收储的冻猪肉品种需要符合什么标准？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "2014年1-4月份猪价呈现上涨态势，与2010年的涨势相似。",
+    "reference_case": "2014年1-4月份猪价呈现下跌态势，与2010年的跌势相似。",
+    "error_detail": "错误地描述了猪价的走势方向，与实际情况相反。",
+    "original_question": "2014年1-4月份猪价的走势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "吉林省生猪产品加工企业技术创新能力较强，大多数企业设有研发部门，技术创新意识强烈。规模以上的加工企业中进行精深加工的占大多数，且新产品开发充足。企业更倾向于自主创新，而非引进国外技术和设备。",
+    "reference_case": "吉林省生猪产品加工企业技术创新能力较弱，大多数企业缺乏研发部门，技术创新意识薄弱。规模以上的加工企业中只有少数进行精深加工，且新产品开发不足。企业更倾向于引进国外技术和设备，而非自主创新。",
+    "error_detail": "过时标准",
+    "original_question": "吉林省生猪产品加工的技术创新能力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "中国是全球最大的生猪养殖国家，每年生猪出栏量达10亿头，2020年更是达到12亿头，创历史新高。",
+    "reference_case": "中国是全球最大的生猪养殖国家，每年生猪出栏量达6亿头，2014年更是达到7.35亿头，创历史新高。种猪存栏量与生猪存栏量密切相关，随着生猪需求的增加，种猪存栏量也需要相应提升。然而，养殖成本的不断上涨对养殖场的利润空间构成了压力，亟需寻求新的管理思路以控制成本并提高收益。",
+    "error_detail": "错误地更新了生猪出栏量的数据，与原始输出的2014年数据不符。",
+    "original_question": "中国生猪养殖行业的现状如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "上届EuroTier展会中，创新评奖委员会评选出的创新金奖包括optiSCAN育肥猪移动称重系统和GEA智能全自动挤奶器。",
+    "reference_case": "上届EuroTier展会中，创新评奖委员会评选出的创新金奖包括optiSCAN育肥猪移动称重系统和GEA智能全自动挤奶器。",
+    "error_detail": "使用了过时的展会信息，未更新至最新一届的获奖名单。",
+    "original_question": "EuroTier国际畜牧展设立的“创新奖”有哪些具体例子？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "2009年农业部颁布的《全国生猪遗传改良计划（2009—2020:》的主要目标是为中国种猪选育提供纲领性、指导性文件，促进种猪产业的持续规范化、标准化发展。",
+    "reference_case": "2009年农业部颁布的《全国生猪遗传改良计划（2009—2020:》的主要目标是为中国种猪选育提供纲领性、指导性文件，促进种猪产业的持续规范化、标准化发展。",
+    "error_detail": "计划已经过期，未提供最新的遗传改良计划或成果。",
+    "original_question": "2009年农业部颁布的《全国生猪遗传改良计划（2009—2020:》的主要目标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "优质蛋白玉米可以降低饲料成本。例如，杜鸣銮先生连续两年进行肥育猪试验，用优质蛋白玉米组较普通玉米组增加15%的玉米，减少15%的豆粕，结果优质蛋白玉米组的日增重、料肉比与普通玉米组均相同，每吨饲料降低成本200元。",
+    "reference_case": "优质蛋白玉米可以降低饲料成本。例如，杜鸣銮先生连续两年进行肥育猪试验，用优质蛋白玉米组较普通玉米组增加12%的玉米，减少12%的豆粕，结果优质蛋白玉米组的日增重、料肉比与普通玉米组均相同，每吨饲料降低成本168元。",
+    "error_detail": "数值和成本被夸大，且未说明试验的具体时间，可能导致时效性幻觉。",
+    "original_question": "优质蛋白玉米对饲料成本有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "根据我国《饲料卫生标准》（GB 13078-2020:，饲料中镉的允许量（以Cd计）为：鸡、猪配合饲料0:5 mg/kg，石粉0:35 mg/kg，米糠1:0 mg/kg，鱼粉2:0 mg/kg。",
+    "reference_case": "根据我国《饲料卫生标准》（GB 13078-91:，饲料中镉的允许量（以Cd计）为：鸡、猪配合饲料0:5 mg/kg，石粉0:35 mg/kg，米糠1:0 mg/kg，鱼粉2:0 mg/kg。",
+    "error_detail": "标准年份被错误地更新为2020年，与原始信息不符。",
+    "original_question": "镉在饲料中的允许限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "李希荣用“生猪跌跌不休、家禽昏迷不醒、奶业跌宕起伏、牛羊独领风骚”四句话精辟概述了2014-2015年度畜牧生产形势。",
+    "reference_case": "李希荣用“生猪跌跌不休、家禽昏迷不醒、奶业跌宕起伏、牛羊独领风骚”四句话精辟概述了2013-2014年度畜牧生产形势。",
+    "error_detail": "时效性幻觉（过时标准）",
+    "original_question": "李希荣在报告中如何描述2013-2014年度畜牧生产形势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在猪瘟病毒（CSFV）C株的E2蛋白表达实验中，使用的表达载体是pET-28a。",
+    "reference_case": "在猪瘟病毒（CSFV）C株的E2蛋白表达实验中，使用的表达载体是pET-32a。",
+    "error_detail": "过时标准",
+    "original_question": "在猪瘟病毒（CSFV）C株的E2蛋白表达实验中，使用的表达载体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "TaqMan荧光定量PCR方法的反应条件是95°C预变性5 min；95°C变性10 s，55°C退火30 s，72°C延伸30 s，共40个循环。",
+    "reference_case": "TaqMan荧光定量PCR方法的反应条件是95°C预变性10 min；95°C变性10 s，55°C退火30 s，72°C延伸30 s，共40个循环。",
+    "error_detail": "预变性时间被错误地缩短了",
+    "original_question": "猪圆环病毒2型（PCV2:的TaqMan荧光定量PCR方法的反应条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "研究表明，日粮中添加卵黄抗体可提高仔猪生长性能，显著降低仔猪腹泻率。例如，抗猪源肠毒素大肠杆菌（ETEC）的F18和K88融合蛋白卵黄抗体可提高仔猪生长性能，降低腹泻率，这一方法已被最新研究证明无效。",
+    "reference_case": "研究表明，日粮中添加卵黄抗体可提高仔猪生长性能，显著降低仔猪腹泻率。例如，抗猪源肠毒素大肠杆菌（ETEC）的F18和K88融合蛋白卵黄抗体可提高仔猪生长性能，降低腹泻率。",
+    "error_detail": "添加了不存在的时效性信息",
+    "original_question": "卵黄抗体在饲料中的应用研究有哪些具体成果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "副猪嗜血杆菌的分离鉴定过程中使用了胰蛋白大豆琼脂（TSA）、胰蛋白大豆肉汤（TSB）、新生小牛血清、烟酰胺嘌呤二核苷酸（NAD）、19种抗生素的标准药敏纸片、2×PCR Taq Master Mix、ddH2O、DS™2000 DNA Marker和微型生化鉴定管，这些方法在2020年已被更新。",
+    "reference_case": "副猪嗜血杆菌的分离鉴定过程中使用了胰蛋白大豆琼脂（TSA）、胰蛋白大豆肉汤（TSB）、新生小牛血清、烟酰胺嘌呤二核苷酸（NAD）、19种抗生素的标准药敏纸片、2×PCR Taq Master Mix、ddH2O、DS™2000 DNA Marker和微型生化鉴定管。",
+    "error_detail": "错误地添加了方法在2020年被更新的信息，原始输出未提供时效性信息。",
+    "original_question": "副猪嗜血杆菌的分离鉴定过程中使用了哪些主要的培养基和试剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "使用的ELISA抗体检测试剂盒购自武汉科前生物制品有限责任公司，该公司已于2020年停止生产该试剂盒。",
+    "reference_case": "使用的ELISA抗体检测试剂盒购自武汉科前生物制品有限责任公司。",
+    "error_detail": "错误地添加了公司停止生产的信息，原始输出未提供时效性信息。",
+    "original_question": "猪圆环病毒病灭活疫苗免疫试验中，使用的ELISA抗体检测试剂盒来自哪家公司？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "2007年4月农业部确认H-PRRSV是“猪高热病”的元凶，这一结论在2010年被更新。",
+    "reference_case": "2007年4月农业部确认H-PRRSV是“猪高热病”的元凶。",
+    "error_detail": "错误地添加了结论被更新的信息，原始输出未提供时效性信息。",
+    "original_question": "2007年4月农业部确认了什么病毒是“猪高热病”的元凶？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "李梦元在2004年的研究中，规模化养猪场大肠杆菌的耐药性检测及血清流行病学调查发表在《中国兽医学报》上。",
+    "reference_case": "李梦元在2004年的研究中，规模化养猪场大肠杆菌的耐药性检测及血清流行病学调查发表在《中国兽医学报》上。",
+    "error_detail": "期刊名称可能已更新或变更",
+    "original_question": "李梦元在2004年的研究中，规模化养猪场大肠杆菌的耐药性检测及血清流行病学调查发表在哪个期刊上？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "当前“猪周期”暴露了政府调控的优势，一些地方政府严格控制养殖户市场行为，虽然不给予补贴刺激养殖积极性，但提供了正确、有效的市场引导，尤其是建立了全国养殖网络信息体系。",
+    "reference_case": "当前“猪周期”暴露了政府调控的软肋，一些地方政府放任养殖户市场行为，虽然给予一定补贴刺激养殖积极性，但未能提供正确、有效的市场引导，尤其是没有建立全国养殖网络信息体系。",
+    "error_detail": "错误地描述了政府调控的现状和效果。",
+    "original_question": "当前“猪周期”暴露了政府调控的哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "杨忠剑总经理认为整个世界的趋势没有起落，市场低迷时不需要守住，高峰时不需要冲刺。他提到台湾在春节前有仔猪存活等良好现状，政府、消费者和业主都不需要付出心血去调整。",
+    "reference_case": "杨忠剑总经理认为整个世界的趋势有起有落，市场低迷时要守住，高峰时要冲刺。他提到台湾在春节前有仔猪死掉等不佳现状，政府、消费者和业主都需要付出心血去调整。",
+    "error_detail": "错误地描述了市场趋势和台湾的现状。",
+    "original_question": "杨忠剑总经理对在台湾饲料行业上半年的状况有何看法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "根据我国官方资料，养殖业已成为我国第一大污染源，特别是在乳猪饲料中铜和锌的添加比例极高，导致大量金属微量元素通过动物粪便在土壤中富集，严重污染土壤和水源。",
+    "reference_case": "根据我国官方资料，养殖业已成为我国第二大污染源，特别是在乳猪饲料中铜和锌的添加比例较高，导致大量金属微量元素通过动物粪便在土壤中富集，严重污染土壤和水源。",
+    "error_detail": "错误地将养殖业列为第一大污染源，并夸大了铜和锌的添加比例",
+    "original_question": "养殖业在我国环境污染中的地位如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "检测猪源呼肠病毒的方法仅包括电子显微镜技术和细胞培养分离病毒。",
+    "reference_case": "检测猪源呼肠病毒的方法包括电子显微镜技术、细胞培养分离病毒、补体结合试验、空斑试验、聚丙烯酰胺凝胶电泳、RT-PCR和血清学诊断。RT-PCR是近年来发展最迅速的检测技术，敏感性和特异性都很高，最小检测量可达0:1 pg病毒核酸。",
+    "error_detail": "忽略了现代检测技术如RT-PCR，提供的信息不全面。",
+    "original_question": "猪呼肠病毒的检测方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "HuN4 F25代病毒不再引起断奶仔猪胸腺萎缩。",
+    "reference_case": "HuN4 F30代病毒不再引起断奶仔猪胸腺萎缩。",
+    "error_detail": "代次错误",
+    "original_question": "在HP-PRRSV HuN4株的不同代次病毒中，哪一代次病毒不再引起断奶仔猪胸腺萎缩？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "鉴别诊断猪感染牛病毒性腹泻病毒（BVDV）和猪瘟病毒（CSFV）的方法仅包括病毒中和试验和间接免疫荧光（IFA）。",
+    "reference_case": "鉴别诊断猪感染牛病毒性腹泻病毒（BVDV）和猪瘟病毒（CSFV）的方法包括病毒中和试验、间接免疫荧光（IFA）、ELISA、RT-PCR和实时荧光定量PCR等。",
+    "error_detail": "错误地限制了鉴别诊断方法，忽略了ELISA、RT-PCR和实时荧光定量PCR等现代技术。",
+    "original_question": "猪感染牛病毒性腹泻病毒（BVDV）和猪瘟病毒（CSFV）的鉴别诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "疫苗在-20°C下保存12个月、在2~8°C下保存6个月及在25°C保存5天，其安全性和效价不会发生改变。",
+    "reference_case": "疫苗在-20°C下保存15个月、在2~8°C下保存9个月及在25°C保存7天，其安全性和效价不会发生改变。",
+    "error_detail": "错误地缩短了疫苗的保存期限",
+    "original_question": "猪囊虫病基因工程疫苗的保存期在不同温度下的表现如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "创新了循环发展模式，发展了合作社+基地+农户的运作模式，并获得有机农产品认证。",
+    "reference_case": "创新了循环发展模式，发展了合作社+基地+农户的运作模式，并获得绿色、无公害农产品认证。",
+    "error_detail": "错误地将认证类型描述为有机农产品认证，与实际获得的绿色、无公害农产品认证不符。",
+    "original_question": "地控温三循环养猪模式在创新发展模式方面有哪些具体措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "生猪市场价格稳定和自然灾害对养殖户影响小，有有效的应对措施。",
+    "reference_case": "生猪市场价格波动和自然灾害对养殖户影响大，缺乏有效的应对措施。",
+    "error_detail": "错误地描述了市场风险和自然灾害的影响及应对措施。",
+    "original_question": "地控温三循环养猪模式面临哪些市场和自然灾害风险？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "传统生猪产业作业方式仍然主导市场，现代生猪作业方式和技术未被应用，外包服务业务在生猪领域没有显示生命力。",
+    "reference_case": "传统生猪产业作业方式逐渐被已注入科学技术的现代生猪作业方式所取代，具有托管性质的外包服务业务也逐渐在生猪领域显示生命力。",
+    "error_detail": "错误地描述了生猪产业作业方式的现状和发展趋势。",
+    "original_question": "随着社会产业分工的精细化发展以及信息时代的革命和网络技术的不断应用，社会业态的发展突破了传统规律，这种变化对生猪产业格局产生了哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "副猪嗜血杆菌的感染与季节和猪的日龄有关。该病主要集中于每年的1、2、3、4、5月份，说明该病在春季的发病率较高。HPS主要感染21~40日龄（即3~6周龄）的小猪。",
+    "reference_case": "副猪嗜血杆菌的感染与季节和猪的日龄有关。该病主要集中于每年的3、4、10、11、12月份，说明该病在春季、秋季、冬季的发病率较高。HPS主要感染31~50日龄（即4~7周龄）的小猪。",
+    "error_detail": "感染季节和日龄信息错误",
+    "original_question": "副猪嗜血杆菌的感染与季节和猪的日龄有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在鲟分枝杆菌病的研究中，猪分枝杆菌（Mycobacterium porcinum）和Mycobacterium arupense在国内外已有报道。",
+    "reference_case": "在鲟分枝杆菌病的研究中，猪分枝杆菌（Mycobacterium porcinum）和Mycobacterium arupense在国内外尚未见报道。",
+    "error_detail": "信息过时",
+    "original_question": "鲟分枝杆菌病的研究中，哪些分枝杆菌在国内外尚未见报道？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "增加妊娠前期采食量显著提高了母猪的产仔数、产活仔数、初生窝重、断奶仔猪数和断奶窝重（P<0:10或P<0:20:。",
+    "reference_case": "增加妊娠前期采食量显著提高了母猪的产仔数、产活仔数、初生窝重、断奶仔猪数和断奶窝重（P<0:01或P<0:05:。",
+    "error_detail": "使用了不准确的显著性水平",
+    "original_question": "妊娠前期采食量对母猪的繁殖性能有哪些具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "皮特兰初产母猪的平均产仔数为5头，平均初生重为1 kg。",
+    "reference_case": "皮特兰初产母猪的平均产仔数为7:2头，平均初生重为1:48 kg。",
+    "error_detail": "使用了过时的产仔数和初生重数据",
+    "original_question": "皮特兰猪的产仔性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪舍内氨的释放受多种因素影响，包括氨的浓度、猪舍类泉及冲洗后的污水的pH值、气温、气流速度、释放源表面积等。增加氨的浓度及pH值、气温上升、气流速度加快、释放源表面积增大都可以减少氨的释放。",
+    "reference_case": "猪舍内氨的释放受多种因素影响，包括氨的浓度、猪舍类泉及冲洗后的污水的pH值、气温、气流速度、释放源表面积等。降低氨的浓度及pH值、气温下降、气流速度减慢、释放源表面积减小都可以减少氨的释放。",
+    "error_detail": "过时标准",
+    "original_question": "猪舍内氨的释放受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "试验结果表明，γ-PGA猪口蹄疫组的猪口蹄疫疫苗免疫抗体合格率为100%，抗体效价平均值为2:483，均高于PBS猪口蹄疫组，说明γ-PGA可增强猪口蹄疫疫苗的免疫效果，这一结果与2010年的研究一致。",
+    "reference_case": "试验结果表明，γ-PGA猪口蹄疫组的猪口蹄疫疫苗免疫抗体合格率为100%，抗体效价平均值为2:483，均高于PBS猪口蹄疫组，说明γ-PGA可增强猪口蹄疫疫苗的免疫效果。",
+    "error_detail": "引用了不相关的过时研究作为支持",
+    "original_question": "试验结果表明γ-PGA对猪口蹄疫疫苗免疫效果有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "人工感染CSFV后，猪血浆中CSFV的载量在第7天达到峰值，之后逐渐降低，这一趋势与2005年的研究一致。",
+    "reference_case": "人工感染CSFV后，猪血浆中CSFV的载量在第7天达到峰值，之后逐渐降低。",
+    "error_detail": "引用了不相关的过时研究作为支持",
+    "original_question": "人工感染CSFV后，猪血浆中CSFV的载量变化趋势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "使用镍琼脂糖凝胶柱亲和层析纯化重组蛋白，这一方法自1990年以来一直未变。",
+    "reference_case": "使用镍琼脂糖凝胶柱亲和层析纯化重组蛋白。",
+    "error_detail": "错误地声称方法自1990年以来未变",
+    "original_question": "猪α干扰素与白介素-18融合蛋白的纯化方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪瘟病毒实时荧光定量 PCR 检测方法的验证依据了 OIE 发布的陆生动物诊断与疫苗手册及 ABNTNBR ISO/IEC 17025：2000 标准。",
+    "reference_case": "猪瘟病毒实时荧光定量 PCR 检测方法的验证依据了 OIE 发布的陆生动物诊断与疫苗手册及 ABNTNBR ISO/IEC 17025：2005 标准。",
+    "error_detail": "错误地使用了过时的标准版本",
+    "original_question": "猪瘟病毒实时荧光定量 PCR 检测方法的验证依据了哪些标准？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "我国生猪产业的现状是生产量和消费量均居世界第二位。",
+    "reference_case": "我国生猪产业是畜牧业中的重要支柱产业，猪肉生产量和消费量均居世界第一位，为国家食品战略安全作出了重要贡献。",
+    "error_detail": "错误地低估了我国生猪产业的地位。",
+    "original_question": "我国生猪产业的现状如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "试验日粮参照NY/T 65-2000《猪饲养标准》进行配制，分阶段配制的糙米豆粕型粉料日粮。",
+    "reference_case": "试验日粮参照NY/T 65-2004《猪饲养标准》进行配制，分阶段配制的糙米豆粕型粉料日粮。",
+    "error_detail": "使用了过时的标准NY/T 65-2000，而不是最新的NY/T 65-2004，导致时效性幻觉。",
+    "original_question": "转Bt基因糙米的试验日粮配制依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "纳米氧化锌在畜禽营养中的优势包括分散性好、生物学利用度高、杀菌作用强，能提高肠上皮细胞紧密连接的完整性，缓解断奶应激对仔猪肠黏膜的损伤，但需要频繁使用。",
+    "reference_case": "纳米氧化锌在畜禽营养中的优势包括分散性好、生物学利用度高、杀菌作用强，能提高肠上皮细胞紧密连接的完整性，缓解断奶应激对仔猪肠黏膜的损伤。",
+    "error_detail": "添加了未经证实的假设，即纳米氧化锌需要频繁使用，导致时效性幻觉。",
+    "original_question": "纳米氧化锌在畜禽营养中的优势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "哺乳期间背膘损失在3 mm至6 mm之间的母猪发情间隔最短，与背膘损失小于3 mm的母猪差异不显著（P>0:05:。背膘损失大于6 mm的母猪发情间隔最长，显著高于其他两组（P<0:05:。",
+    "reference_case": "哺乳期间背膘损失在3 mm至6 mm之间的母猪发情间隔最短，与背膘损失小于3 mm的母猪差异不显著（P>0:05:。背膘损失大于6 mm的母猪发情间隔最长，显著高于其他两组（P<0:05:。",
+    "error_detail": "研究可能基于过时的数据或标准，未能反映最新的研究成果。",
+    "original_question": "哺乳期间背膘损失对母猪发情间隔有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在北京某种猪场，SP60链盘式饲料输送机已正常运行超过1年，用户反映该机性能稳定，清洁方便，提高了饲喂效率，较好地满足了饲喂要求。",
+    "reference_case": "在北京某种猪场，SP60链盘式饲料输送机已正常运行超过1年，用户反映该机性能稳定，清洁方便，提高了饲喂效率，较好地满足了饲喂要求。",
+    "error_detail": "研究可能基于过时的数据或标准，未能反映最新的研究成果。",
+    "original_question": "SP60链盘式饲料输送机在北京某种猪场的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "实验室诊断方法包括细菌分离及抗体检测、支原体检测和药敏试验。细菌分离及抗体检测通过接种于改良链球菌培养基、血琼脂培养基和牛心浸汁巧克力琼脂培养基进行培养和观察；支原体检测通过接种肺炎支原体培养基培养；药敏试验使用5种药物对所分离得到的细菌进行药敏试验。",
+    "reference_case": "实验室诊断方法包括细菌分离及抗体检测、支原体检测和药敏试验。细菌分离及抗体检测通过接种于改良链球菌培养基、血琼脂培养基和牛心浸汁巧克力琼脂培养基进行培养和观察；支原体检测通过接种肺炎支原体培养基培养；药敏试验使用10种药物对所分离得到的细菌进行药敏试验。",
+    "error_detail": "减少了药敏试验中使用的药物种类",
+    "original_question": "猪细菌和支原体混合感染的实验室诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪博卡病毒（PBoV）于2007年由瑞典的Blomstrom等在患断奶仔猪多系统衰竭综合征（PMWS）的仔猪淋巴结中首次分离鉴定出来。",
+    "reference_case": "猪博卡病毒（PBoV）于2009年由瑞典的Blomstrom等在患断奶仔猪多系统衰竭综合征（PMWS）的仔猪淋巴结中首次分离鉴定出来。",
+    "error_detail": "错误地将发现年份从2009年改为2007年。",
+    "original_question": "猪博卡病毒（PBoV）首次是在什么情况下被发现的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "副猪嗜血杆菌病的流行病学特点表现为高病死率，主要影响4周龄至8周龄的断奶仔猪，也可感染10日龄左右的仔猪和4月龄的生长育成猪，近年来病死率已降至5%以下。",
+    "reference_case": "副猪嗜血杆菌病的流行病学特点表现为高病死率，主要影响4周龄至8周龄的断奶仔猪，也可感染10日龄左右的仔猪和4月龄的生长育成猪。",
+    "error_detail": "添加了不准确的病死率数据",
+    "original_question": "副猪嗜血杆菌病的流行病学特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "江苏省宜兴市从2000年开始实施生猪定点屠宰和集中检疫工作。",
+    "reference_case": "江苏省宜兴市从1996年开始实施生猪定点屠宰和集中检疫工作。",
+    "error_detail": "错误地将实施年份从1996年改为2000年",
+    "original_question": "江苏省宜兴市从哪一年开始实施生猪定点屠宰和集中检疫工作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "自1990年以来，国务院对上市生猪实行了‘定点屠宰、集中检疫、统一纳税、分散经营’的管理办法。",
+    "reference_case": "自1995年以来，国务院对上市生猪实行了‘定点屠宰、集中检疫、统一纳税、分散经营’的管理办法。",
+    "error_detail": "错误地将实施年份从1995年改为1990年",
+    "original_question": "自1995年以来，国务院对上市生猪实行了哪些管理办法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "发酵罐中加入GM17培养基，120°C湿热灭菌30分钟，冷却至32°C后补加红霉素（10 mg/mL）及PAMJ399-PLF/MG1363菌种（体积比1:250:，发酵24小时后无菌条件下收集菌液。",
+    "reference_case": "发酵罐中加入GM17培养基，115°C湿热灭菌30分钟，冷却至32°C后补加红霉素（10 mg/mL）及PAMJ399-PLF/MG1363菌种（体积比1:250:，发酵24小时后无菌条件下收集菌液。",
+    "error_detail": "灭菌温度错误",
+    "original_question": "表达猪乳铁蛋白的重组乳酸乳球菌的发酵培养条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在试验的第一阶段，加减四君子汤组的料肉比显著高于抗生素组（P<0:05:，但与对照组相比差异不显著（P>0:05:。在第二阶段，加减四君子汤组的料肉比与抗生素组差异不显著（P>0:05:，但显著优于对照组（P<0:05:。这一结果与2023年的最新研究结果一致。",
+    "reference_case": "在试验的第一阶段，加减四君子汤组的料肉比显著高于抗生素组（P<0:05:，但与对照组相比差异不显著（P>0:05:。在第二阶段，加减四君子汤组的料肉比与抗生素组差异不显著（P>0:05:，但显著优于对照组（P<0:05:。",
+    "error_detail": "添加了不存在的时效性信息",
+    "original_question": "加减四君子汤对仔猪的料肉比有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪病毒性腹泻的多发季节是从每年夏季到秋季。",
+    "reference_case": "猪病毒性腹泻的多发季节是从每年秋季到次年初春。",
+    "error_detail": "错误地改变了多发季节",
+    "original_question": "猪病毒性腹泻的多发季节是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "伪狂犬病的主要临床症状包括新生吮乳仔猪表现为典型神经症状，48小时内有9头仔猪死亡。成年猪症状轻微，多为隐性感染。病猪和隐性感染猪可以长带毒和排毒，特别是母猪感染后可经胎盘传播，容易引起流产、死胎、木乃伊胎等。",
+    "reference_case": "伪狂犬病的主要临床症状包括新生吮乳仔猪表现为典型神经症状，24小时内有9头仔猪死亡。成年猪症状轻微，多为隐性感染。病猪和隐性感染猪可以长带毒和排毒，特别是母猪感染后可经胎盘传播，容易引起流产、死胎、木乃伊胎等。",
+    "error_detail": "过时标准",
+    "original_question": "伪狂犬病的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "贵猪养殖模式中提到的逐步换料的目的是保护猪的胃肠道，使其换料时受到的刺激降到最低，尤其小猪料逐步换料尤为重要。此外，还需要使用最新的饲料配方。",
+    "reference_case": "逐步换料的目的是保护猪的胃肠道，使其换料时受到的刺激降到最低，尤其小猪料逐步换料尤为重要。",
+    "error_detail": "添加了不相关的时效性内容（最新饲料配方），导致时效性幻觉。",
+    "original_question": "贵猪养殖模式中提到的逐步换料的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "养猪十大细节中的第七点是早期断奶，有研究显示，早期断奶能够有效控制仔猪后期功能性衰减综合征（PCV-2 圆环病毒）的发生，建议在出生后14天进行。",
+    "reference_case": "养猪十大细节中的第七点是早期断奶，有研究显示，早期断奶能够有效控制仔猪后期功能性衰减综合征（PCV-2 圆环病毒）的发生。",
+    "error_detail": "添加了不具体的断奶时间建议",
+    "original_question": "贵猪养殖模式中提到的养猪十大细节中的第七点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "李职在2008年被评为国家改革开放养猪20年百名专家之一。",
+    "reference_case": "李职在2008年被评为国家改革开放养猪30年百名专家之一。",
+    "error_detail": "错误地更改了改革开放的年限",
+    "original_question": "李职在2008年获得了什么荣誉称号？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "福建省设施畜牧业的主要畜禽品种包括生猪、家禽和牛。2022年，福建省生猪出栏量为2069:05万头，家禽出栏量为28436:76万羽，牛出栏量为24:33万头。",
+    "reference_case": "福建省设施畜牧业的主要畜禽品种包括生猪、家禽和牛。2012年，福建省生猪出栏量为2069:05万头，家禽出栏量为28436:76万羽，牛出栏量为24:33万头。",
+    "error_detail": "错误地更新了数据年份",
+    "original_question": "福建省设施畜牧业的主要畜禽品种有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "PCR反应条件为94°C预变性3分钟，然后94°C 30秒、55°C 30秒、72°C 30秒进行30个循环，最后72°C延伸5分钟后冷却到4°C。",
+    "reference_case": "PCR反应条件为94°C预变性5分钟，然后94°C 1分钟、59°C 1分钟、72°C 1分钟进行35个循环，最后72°C延伸10分钟后冷却到4°C。",
+    "error_detail": "使用了过时的PCR反应条件。",
+    "original_question": "猪ESR基因片段的克隆与序列分析中，PCR反应的条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在猪原始生殖细胞（PGCs）的研究中，使用WZSP作为材料时，细胞克隆点的出现时间比Shim（1995:、Piedrahita（1996:和Mueller（1997:报道的提前了3天。",
+    "reference_case": "在猪原始生殖细胞（PGCs）的研究中，使用WZSP作为材料时，细胞克隆点的出现时间比Shim（1997:、Piedrahita（1998:和Mueller（1999:报道的提前了2天。",
+    "error_detail": "修改了引用的研究年份和提前的天数，导致时效性幻觉。",
+    "original_question": "猪原始生殖细胞（PGCs）的研究中，哪些因素影响了细胞克隆点的出现时间？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在ACEMA48自动饲喂记录系统的研究中，试验猪的日均采食量和日增重稍低的原因是试验期间正值2000年夏季酷热，导致试验猪有不同程度的热应激。",
+    "reference_case": "在ACEMA48自动饲喂记录系统的研究中，试验猪的日均采食量和日增重稍低的原因是试验期间正值1999年夏季酷热，导致试验猪有不同程度的热应激。",
+    "error_detail": "修改了试验年份，导致时效性幻觉。",
+    "original_question": "在ACEMA48自动饲喂记录系统的研究中，试验猪的日均采食量和日增重稍低的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "试验中各组日均采食量和日增重稍低的原因是试验期间正值2000年夏季酷热，导致试验猪有不同程度的热应激。",
+    "reference_case": "试验中各组日均采食量和日增重稍低的原因是试验期间正值1999年夏季酷热，导致试验猪有不同程度的热应激。",
+    "error_detail": "修改了试验年份，导致时效性幻觉。",
+    "original_question": "试验中各组日均采食量和日增重稍低的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "繁殖周期的计算公式是：繁殖周期 = 母猪妊娠期（120天）+ 仔猪哺乳期 + 母猪断奶至受胎时间。",
+    "reference_case": "繁殖周期的计算公式是：繁殖周期 = 母猪妊娠期（114天）+ 仔猪哺乳期 + 母猪断奶至受胎时间。",
+    "error_detail": "错误地改变了母猪妊娠期的天数。",
+    "original_question": "繁殖周期的计算公式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "里岔黑猪的起源可以追溯到明朝时期。",
+    "reference_case": "里岔黑猪的起源可以追溯到清朝时期，据清朝胶州志记载，胶州城有一条盛兴璄肉店的街道，脏肉通过胶州沙商埤运销外地，反映了胶州市曾经有过源远流长的养猪历史。",
+    "error_detail": "错误地改变了里岔黑猪的起源时期。",
+    "original_question": "里岔黑猪的起源可以追溯到哪个历史时期？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "在'八五'期间，里岔黑猪的选育提高研究完成了里岔黑猪标准的研制，该标准被定为山东省地方标准，并于1990年7月15日开始实施。此外，还建立了里岔黑猪育种群，进行了继代选育，并完成了里岔黑猪杂交组合试验，筛选出比较理想的杂交组合。",
+    "reference_case": "在'七五'期间，里岔黑猪的选育提高研究完成了里岔黑猪标准的研制，该标准被定为山东省地方标准，并于1990年7月15日开始实施。此外，还建立了里岔黑猪育种群，进行了继代选育，并完成了里岔黑猪杂交组合试验，筛选出比较理想的杂交组合。",
+    "error_detail": "错误地改变了研究完成的时期。",
+    "original_question": "里岔黑猪的选育提高研究在'七五'期间取得了哪些成果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "在'九五'期间，里岔黑猪的瘦肉型新品系培育研究完成了杂交母本选择标准，选出了100头里岔黑母猪作为杂交母本。同时，完成了杂交父本不同来源杜洛克种猪的调查，并引入了13头杜洛克种猪。此外，还完成了基础群组建和各项性能测定，新品系猪的各项性能均有较大提高。",
+    "reference_case": "在'八五'期间，里岔黑猪的瘦肉型新品系培育研究完成了杂交母本选择标准，选出了100头里岔黑母猪作为杂交母本。同时，完成了杂交父本不同来源杜洛克种猪的调查，并引入了13头杜洛克种猪。此外，还完成了基础群组建和各项性能测定，新品系猪的各项性能均有较大提高。",
+    "error_detail": "错误地改变了研究完成的时期。",
+    "original_question": "里岔黑猪的瘦肉型新品系培育研究在'八五'期间取得了哪些进展？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "reference_case": "仔猪黄痢，又称早发性大肠杆菌病，是初生仔猪在出生后一周内发生的一种急性接触感染性疾病。其特征是发病急、病程短、死亡率高，通常表现为排黄色或黄白色稀糊样粪便。",
+    "hallucinated_case": "仔猪黄痢，又称早发性大肠杆菌病，是初生仔猪在出生后一个月内发生的一种急性接触感染性疾病。其特征是发病急、病程短、死亡率高，通常表现为排黄色或黄白色稀糊样粪便。",
+    "error_detail": "将'出生后一周内'错误地修改为'出生后一个月内'，导致时效性幻觉",
+    "original_question": "什么是仔猪黄痢？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "饲料中添加2:5%到5%的活菌酶蛋白血粉对育成猪的饲料转化率有显著影响，试验组与对照组的饲料转化率差异显著。",
+    "reference_case": "饲料中添加2:5%到5%的活菌酶蛋白血粉对育成猪的饲料转化率无显著影响，试验组与对照组的饲料转化率差异不显著。",
+    "error_detail": "过时标准",
+    "original_question": "在“活菌酶蛋白血粉对育成猪饲养效果”实验中，饲料转化率有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪囊虫病治疗效果判定标准是：患猪用药后经60~72天屠宰剖检胴体肌肉虫体吸收程度进行判定。见不到囊虫体残骸或钙化者，虫体全部吸收，如同鲜肉一样，为治愈；虫体未全部吸收，尚有少数虫体可见，但见不到带有少数囊泡的完整虫体，为基本治愈；虫体在肌肉内完整无损，囊泡依然存在似活虫一样，为治疗无效。",
+    "reference_case": "猪囊虫病治疗效果判定标准是：患猪用药后经120~132天屠宰剖检胴体肌肉虫体吸收程度进行判定。见不到囊虫体残骸或钙化者，虫体全部吸收，如同鲜肉一样，为治愈；虫体未全部吸收，尚有少数虫体可见，但见不到带有少数囊泡的完整虫体，为基本治愈；虫体在肌肉内完整无损，囊泡依然存在似活虫一样，为治疗无效。",
+    "error_detail": "过时标准",
+    "original_question": "丙硫咪唑治疗猪囊虫病的疗效判定标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪传染性胃肠炎荧光抗体检测的步骤包括：取腹汲早期病猪空肠和回肠的刮削物做滼片，在温室中用甲醛固定5分钟。",
+    "reference_case": "猪传染性胃肠炎荧光抗体检测的步骤包括：取腹汲早期病猪空肠和回肠的刮削物做滼片，在温室中用丙聞固定5分钟，加入荧光抗体并在37°C染色30分钟，用pH 7:2磷酸盐缓冲液（PBS）洗10分钟，再用蒸馏水洗5分钟，最后用缓冲甘油封被后用荧光显微镜检查。如果上皮细胞及沿着线毛的细胞浆膜上呈现荧光，即为阳性，表明是发病猪。",
+    "error_detail": "错误地使用了甲醛作为固定剂，而不是丙聞。",
+    "original_question": "猪传染性胃肠炎荧光抗体检测的步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "所有剂量组的虾青素和双乙酸钠混合制剂均显著提高了空肠黏膜的总抗氧化能力（TAOC）和过氧化氢酶（CAT）活性，同时显著降低了丙二醛（MDA）含量。",
+    "reference_case": "中剂量组（2200 mg/kg）和高剂量组（4400 mg/kg）的虾青素和双乙酸钠混合制剂显著提高了空肠黏膜的总抗氧化能力（TAOC）和过氧化氢酶（CAT）活性，同时显著降低了丙二醛（MDA）含量。",
+    "error_detail": "错误地扩展了效果到所有剂量组，忽略了时效性差异。",
+    "original_question": "虾青素和双乙酸钠混合制剂对断奶仔猪的空肠黏膜氧化还原状态有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "4月龄前，FSHR基因在子宫中高度表达；4月龄之后，FSHR基因在卵巢和下丘脑中高度表达，而在子宫中均为低度表达。",
+    "reference_case": "4月龄前，FSHR基因在下丘脑中高度表达；4月龄之后，FSHR基因在卵巢和下丘脑中高度表达，而在子宫中均为低度表达。",
+    "error_detail": "错误地描述了FSHR基因在4月龄前的表达位置",
+    "original_question": "小梅山猪FSHR基因在不同组织中的表达水平在4月龄前后有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "实验中使用了DNA提取试剂盒、T4 DNA连接酶、Xba I内切酶、Hind III内切酶、Axy Prep质粒小提试剂盒、Axy Prep DNA凝胶回收试剂盒等主要试剂。",
+    "reference_case": "实验中使用了DNA提取试剂盒、T4 DNA连接酶、Xba I内切酶、Hind III内切酶、Axy Prep质粒小提试剂盒、Axy Prep DNA凝胶回收试剂盒等主要试剂。",
+    "error_detail": "时效性幻觉（过时标准）",
+    "original_question": "猪趋化因子受体5（CCR5:基因的克隆实验中使用了哪些主要试剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "试验期间对照组、酶制剂1组和酶制剂2组的仔猪成活率均为95%。",
+    "reference_case": "试验期间对照组、酶制剂1组和酶制剂2组的仔猪成活率均为100%。",
+    "error_detail": "成活率被错误地降低",
+    "original_question": "复合酶制剂对断奶仔猪的成活率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "试验母猪在哺乳期18～22天日喂3次，分别在5:00、10:00和17:30。",
+    "reference_case": "试验母猪在哺乳期18～22天日喂4次，分别在5:00、10:00、13:30和17:30。",
+    "error_detail": "饲喂次数被错误地减少",
+    "original_question": "试验中母猪的饲喂频率是如何安排的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在仔猪28日龄时进行PRRS疫苗首免效果最好，主要是因为此时母源抗体的影响最小。",
+    "reference_case": "在仔猪35日龄时进行PRRS疫苗首免效果最好，主要是因为此时母源抗体的影响较小，且仔猪的免疫系统（如T淋巴细胞和B淋巴细胞）已逐步发育成熟。",
+    "error_detail": "错误的首免日龄和原因描述",
+    "original_question": "为什么在仔猪35日龄时进行PRRS疫苗首免效果最好？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "目前国内超市主要通过存放日期和人工观察颜色来判断生鲜猪肉的新鲜程度，这是最新的科学方法。",
+    "reference_case": "目前国内超市主要通过存放日期和人工观察颜色来判断生鲜猪肉的新鲜程度，而不是采用科学的仪器测试和新兴技术进行管理。",
+    "error_detail": "过时标准",
+    "original_question": "目前国内超市如何判断生鲜猪肉的新鲜程度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "我国与欧盟国家的生猪及猪肉产品的贸易包含较高程度的产业内贸易活动，并且双边贸易近年来向产品多元化趋势发展。",
+    "reference_case": "我国与欧盟国家的生猪及猪肉产品的贸易包含较低程度的产业内贸易活动，并且双边贸易近年来向产品多元化趋势发展。",
+    "error_detail": "过时标准",
+    "original_question": "我国与欧盟的生猪及猪肉产品贸易情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "PPI公司通过基因编辑技术成功产生了5头克隆猪。",
+    "reference_case": "PPI公司通过体细胞核移植技术成功产生了5头克隆猪。",
+    "error_detail": "错误地使用了现代技术术语，而实际上使用的是体细胞核移植技术。",
+    "original_question": "2000年3月14日，PPI公司宣布通过什么技术成功产生了5头克隆猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "因为GB 10647-89的制定是根据生长肥育猪的需要，加工原料是一种，并且有标准并经工业生产的饲料，这三个方面具备了混合饲料的一切条件，因此GB 10647-89不应是配合饲料的产品标准，而是混合饲料的产品标准。",
+    "reference_case": "因为ZB B46003-88的制定是根据生长肥育猪的需要，加工原料不是一种，并且有标准并经工业生产的饲料，这三个方面具备了配合饲料的一切条件，因此ZB B46003-88不应是混合饲料的产品标准，而是配合饲料的产品标准。",
+    "error_detail": "错误地引用了标准编号和内容，导致结论错误。",
+    "original_question": "为什么GB 10647-89中的混合饲料与配合饲料的命题概念没有明显区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "乳糖甜度高、易消化、能在消化道中酵解产酸，有利于乳酸菌的繁殖，维护肠道健康；寡糖是一种易被仔猪消化利用的物质，可以为肠道益生菌提供能量来源，维持肠道微生区系的平衡，促进脂类代谢，提高免疫力、防止消化功能紊乱。",
+    "reference_case": "乳糖甜度高、易消化、能在消化道中酵解产酸，有利于乳酸菌的繁殖，维护肠道健康；寡糖是一种不易被仔猪消化利用的物质，但可以为肠道益生菌提供能量来源，维持肠道微生区系的平衡，促进脂类代谢，提高免疫力、防止消化功能紊乱。",
+    "error_detail": "错误地描述了寡糖的可消化性",
+    "original_question": "仔猪日粮中的乳糖和寡糖有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）是一种引起猪繁殖与呼吸综合征的病毒，该病毒首次于1987年在荷兰的Lelystad分离得到。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）是一种引起猪繁殖与呼吸综合征的病毒，该病毒首次于1992年在荷兰的Lelystad分离得到。",
+    "error_detail": "错误地描述了病毒的首次分离时间",
+    "original_question": "什么是猪繁殖与呼吸综合征病毒（PRRSV）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "激生 I 号疫苗对猪的免疫持续期应为5～6个月，肉牛和绵羊在免疫后第3个月时增重已有下降趋势，因此牛和羊的免疫持续期为3个月。",
+    "reference_case": "激生 I 号疫苗对猪的免疫持续期应为3～4个月，肉牛和绵羊在免疫后第3个月时增重已有下降趋势，因此牛和羊的免疫持续期为3个月。",
+    "error_detail": "猪的免疫持续期被错误地延长",
+    "original_question": "激生 I 号疫苗的免疫持续期和免疫日龄问题如何？",
+    "original_input": ""
+  }
+]

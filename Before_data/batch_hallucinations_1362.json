@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中国地方猪种肉质优良，具有特殊香味，将成为我国猪肉竞争国际市场的优势条件之一，其肉质评分高达95分。",
+    "reference_case": "中国地方猪种肉质优良，具有特殊香味，将成为我国猪肉竞争国际市场的优势条件之一。",
+    "error_detail": "添加了不存在的肉质评分数据",
+    "original_question": "中国地方猪种的肉质特点如何影响猪肉的国际市场竞争力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "中国地方猪种生长速度较慢，育肥期平均日增重大多在300~600 g，而国外引进猪种日增重750~800 g，这是因为中国猪种更注重肉质而非生长速度。",
+    "reference_case": "中国地方猪种生长速度较慢，育肥期平均日增重大多在300~600 g，而国外引进猪种日增重750~800 g。",
+    "error_detail": "错误地将生长速度与肉质关联",
+    "original_question": "中国地方猪种与国外猪种在生长速度上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "杜洛克猪生长速度快，饲料利用率高，瘦肉率高，屠宰率75%以上，瘦肉率65%~70%，肥育期间平均日增重在800 g以上，料肉比2.5：1，背膘厚2.5 cm。",
+    "reference_case": "杜洛克猪生长速度快，饲料利用率高，瘦肉率高，屠宰率72%以上，瘦肉率63%~65%，肥育期间平均日增重在700 g以上，料肉比2.91：1，背膘厚2.9 cm。",
+    "error_detail": "夸大了屠宰率、瘦肉率、日增重，低估了料肉比和背膘厚",
+    "original_question": "杜洛克猪的生长性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "杜洛克猪母猪初情期一般在5~6月龄开始发情，初产母猪产仔10~11头，经产母猪产仔12~13头，初生窝重15 kg以上。",
+    "reference_case": "杜洛克猪母猪初情期一般在6~7月龄开始发情，初产母猪产仔8~9头，经产母猪产仔10~11头，初生窝重13 kg以上。",
+    "error_detail": "提前了初情期年龄，增加了产仔数和初生窝重",
+    "original_question": "杜洛克猪的繁殖能力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "大白猪体毛全白，体型大而匀称，面宽微凹，耳向前直立，四肢较高，背腰多微弓，且具有极强的抗病能力。",
+    "reference_case": "大白猪体毛全白，体型大而匀称，面宽微凹，耳向前直立，四肢较高，背腰多微弓。",
+    "error_detail": "添加了不相关的抗病能力描述",
+    "original_question": "大白猪的体型特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "三江白猪生长快，饲料利用率高，在标准饲养条件下，肥育猪达到90 kg 需160天，20~90 kg平均日增重650 g，每千克增重耗料不超过3.0 kg。",
+    "reference_case": "三江白猪生长快，饲料利用率高，在标准饲养条件下，肥育猪达到90 kg 需182天，20~90 kg平均日增重600 g，每千克增重耗料不超过3.5 kg。",
+    "error_detail": "减少了达到90 kg所需的天数，增加了日增重，降低了每千克增重耗料",
+    "original_question": "三江白猪的生长特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "三江白猪对寒冷和亚热带高温气候均有较强的适应能力，尤其在沙漠地区表现优异。",
+    "reference_case": "三江白猪对寒冷和亚热带高温气候均有较强的适应能力。",
+    "error_detail": "错误地添加了沙漠地区的适应能力",
+    "original_question": "三江白猪的适应性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "北京黑猪体质结实，结构匀称，全身被毛黑色，头中等大小，两耳向前上方直立或平伸，面微额宽，嘴筒直，背腰平直且宽，腹部平直，四肢强健，腿臀丰满，背膘较薄，乳头一般7对以上，且具有极高的智商。",
+    "reference_case": "北京黑猪体质结实，结构匀称，全身被毛黑色，头中等大小，两耳向前上方直立或平伸，面微额宽，嘴筒直，背腰平直且宽，腹部平直，四肢强健，腿臀丰满，背膘较薄，乳头一般7对以上。",
+    "error_detail": "添加了不相关的智商描述",
+    "original_question": "北京黑猪的主要特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "北京黑猪抗病力强、耐粗饲、抗应激、生长快，6月龄后备公母猪体重分别为100 kg和95 kg，成年公母猪体重约300 kg和250 kg。",
+    "reference_case": "北京黑猪抗病力强、耐粗饲、抗应激、生长快，6月龄后备公母猪体重分别为90.1 kg和89.55 kg，成年公母猪体重约260 kg和220 kg。",
+    "error_detail": "夸大了6月龄和成年体重",
+    "original_question": "北京黑猪的生长速度和肉质如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "湖北白猪全身被毛白色，体格较大，具有典型的瘦肉型猪体形，头稍轻、直长，两耳前倾或稍下垂，背腰平直，中躯较长，腹小，腿臂丰满，肢蹄结实，且非常适合作为宠物饲养。",
+    "reference_case": "湖北白猪全身被毛白色，体格较大，具有典型的瘦肉型猪体形，头稍轻、直长，两耳前倾或稍下垂，背腰平直，中躯较长，腹小，腿臂丰满，肢蹄结实。",
+    "error_detail": "添加了不相关的宠物饲养描述",
+    "original_question": "湖北白猪的体型特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "湖北白猪20~90 kg育肥期I、II、III系平均日增重600~650 g，料重比为3.0～3.1：1；IV、V系平均日增重650~700 g，料重比为3.3:1。",
+    "reference_case": "湖北白猪20~90 kg育肥期I、II、III系平均日增重560~620 g，料重比为3.17～3.27：1；IV、V系平均日增重622~690 g，料重比为3.45:1。",
+    "error_detail": "增加了日增重，降低了料重比",
+    "original_question": "湖北白猪的生长性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "湖北白猪适应性好，对高温、湿冷的耐受能力强，耐粗饲，与杜洛克猪具有很好的杂交效果，是生产商品瘦肉猪的优良母本，且能适应极地气候。",
+    "reference_case": "湖北白猪适应性好，对高温、湿冷的耐受能力强，耐粗饲，与杜洛克猪具有很好的杂交效果，是生产商品瘦肉猪的优良母本。",
+    "error_detail": "错误地添加了极地气候的适应能力",
+    "original_question": "湖北白猪的抗逆性和杂交性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "四元杂交采用4个品种，先两两杂交，再从后代中选出优良父本和母本，最后杂交获得四元杂种商品育肥猪，这一过程仅需3个月。",
+    "reference_case": "四元杂交采用4个品种，先两两杂交，再从后代中选出优良父本和母本，最后杂交获得四元杂种商品育肥猪。",
+    "error_detail": "错误地添加了时间限制",
+    "original_question": "四元杂交如何进行？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "四元杂交能充分利用个体、母本和父本杂种优势，且能充分利用性状互补效应，同时商品代猪有更丰富的遗传基础，还有发现和培育新品系的可能，这是因为四元杂交比三元杂交更简单。",
+    "reference_case": "四元杂交能充分利用个体、母本和父本杂种优势，且能充分利用性状互补效应，同时商品代猪有更丰富的遗传基础，还有发现和培育新品系的可能。",
+    "error_detail": "错误地将复杂性作为原因",
+    "original_question": "四元杂交与三元杂交相比有哪些优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "轮回杂交可以不从其他猪群引进纯种母本，减少疫病传染的风险，充分利用杂种母猪的母体杂种优势，同时减少公猪的用量，这意味着轮回杂交的成本更低。",
+    "reference_case": "轮回杂交可以不从其他猪群引进纯种母本，减少疫病传染的风险，充分利用杂种母猪的母体杂种优势，同时减少公猪的用量。",
+    "error_detail": "错误地假设了成本更低",
+    "original_question": "轮回杂交的主要优点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "杂交繁育体系包括原种猪场、种猪场、繁育猪场、商品猪场以及种猪性能测定站、人工授精网等，这些都是由政府直接管理的。",
+    "reference_case": "杂交繁育体系包括原种猪场、种猪场、繁育猪场、商品猪场以及种猪性能测定站、人工授精网等。",
+    "error_detail": "错误地添加了政府管理的信息",
+    "original_question": "杂交繁育体系包括哪些层级的猪场？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "原种猪场的任务是利用较强的技术力量和先进的技术手段强化原种猪品质，不断选育提高原种猪生产性能，为下一级种猪群提供高质量的更新猪，这通常需要大量的资金支持。",
+    "reference_case": "原种猪场的任务是利用较强的技术力量和先进的技术手段强化原种猪品质，不断选育提高原种猪生产性能，为下一级种猪群提供高质量的更新猪。",
+    "error_detail": "错误地假设了资金需求",
+    "original_question": "原种猪场的主要任务是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "种猪性能测定站的任务主要是供种猪群选种测评用，并可以和种猪生产相结合，这是为了提高猪肉的口感。",
+    "reference_case": "种猪性能测定站的任务主要是供种猪群选种测评用，并可以和种猪生产相结合。",
+    "error_detail": "错误地关联了猪肉口感",
+    "original_question": "种猪性能测定站的任务是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "杂种母猪繁育场的任务是用基础母猪与第一父本猪杂交生产高质量的二元杂种母猪，每年可生产超过10000头。",
+    "reference_case": "杂种母猪繁育场的任务是用基础母猪与第一父本猪杂交生产高质量的二元杂种母猪。",
+    "error_detail": "添加了不存在的生产数量",
+    "original_question": "杂种母猪繁育场的主要任务是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "公猪的生殖器官包括阴囊、睾丸、附睾、输精管、附性腺（前列腺、精囊腺和尿道球腺）、阴茎、包皮等，这些器官的功能与人类完全相同。",
+    "reference_case": "公猪的生殖器官包括阴囊、睾丸、附睾、输精管、附性腺（前列腺、精囊腺和尿道球腺）、阴茎、包皮等。",
+    "error_detail": "错误地比较了人类和公猪的生殖器官功能",
+    "original_question": "公猪的生殖器官包括哪些部分？",
+    "original_input": ""
+  }
+]

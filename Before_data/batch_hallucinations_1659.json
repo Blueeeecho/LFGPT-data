@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪肠病毒可以在任何哺乳动物细胞中培养，包括人类细胞。",
+    "reference_case": "猪肠病毒易于在猪源细胞培养中培养，它们最常在原代或次代猪肾细胞培养中生长或在传代肾细胞系如IBRS-2上生长，但也可以在猪源其它细胞如SST细胞系上培养。某些病毒还可在HeLa、猴肾或小鼠肾细胞系上生长。",
+    "error_detail": "错误地声称猪肠病毒可以在任何哺乳动物细胞中培养，忽略了其特定的培养条件。",
+    "original_question": "猪肠病毒在实验室中如何培养？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪肠病毒的血清学分类依据是病毒的大小和形状。",
+    "reference_case": "猪肠病毒的血清学分类依据是病毒中和试验。血清型之间的交叉反应提示存在某种程度的有限的交叉反应。",
+    "error_detail": "错误地将血清学分类依据归因于病毒的大小和形状，而非实际的中和试验。",
+    "original_question": "猪肠病毒的血清学分类依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "PCMV是萎缩性鼻炎的主要原因。",
+    "reference_case": "PCMV导致青年猪产生温和性鼻炎，但不诱发萎缩性鼻炎。",
+    "error_detail": "错误地将PCMV与萎缩性鼻炎联系起来，而实际上它只导致温和性鼻炎。",
+    "original_question": "PCMV是否会导致猪产生鼻炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "怀孕母猪在感染PCMV后立即表现发热。",
+    "reference_case": "怀孕母猪在病毒血症阶段表现倦怠、厌食，不表现发热或其它临床异常。受感染母猪在感染后14-21天表现倦怠、厌食，并在感染后30-35天可从子宫颈洗液中分离出PCMV。",
+    "error_detail": "错误地声称怀孕母猪在感染后立即表现发热，而实际上不表现发热。",
+    "original_question": "PCMV感染对怀孕母猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "仔猪感染PCMV后主要表现为神经系统症状。",
+    "reference_case": "仔猪可能死产或生后无症状很快死亡。其他猪可能发育受阻，表现为苍白、水肿，水肿最明显部位是鄂和四肢关节周围。",
+    "error_detail": "错误地描述了仔猪感染PCMV后的症状，忽略了实际的发育受阻和水肿表现。",
+    "original_question": "PCMV感染对仔猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "PCMV感染后立即可以检测到病毒血症。",
+    "reference_case": "PCMV感染后约14-16天可检到病毒血症，但在新生猪中延长至感染后5-19天。感染性限于白细胞，32天内可从真左分沙物中分离到病毒，在咽和结膜中排毒时间较短，而病毒尿液的持续性难以确定。",
+    "error_detail": "错误地缩短了病毒血症的检测时间，忽略了实际的14-16天潜伏期。",
+    "original_question": "PCMV感染的病程如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PCMV感染的第三复制部位不随年龄变化。",
+    "reference_case": "在3周龄或3周龄后，病毒扩散到鼻粘膜腺、泪腺、副泪腺和肾小管，在副睾和食管的粘膜腺较少，还扩散到肝细胞和十二指肠上皮。在胎猪和新生猪，病毒对网状内皮细胞有偏好，尤其是毛细内皮和淋巴样组织的网状隙。",
+    "error_detail": "错误地声称PCMV感染的第三复制部位不随年龄变化，忽略了实际的年龄相关差异。",
+    "original_question": "PCMV感染的第三复制部位随年龄如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "仔猪死亡的原因是母源性病毒的直接影响。",
+    "reference_case": "生长阻留放射照相估价表明：绝大多数的死亡发生于感染后30-35天，这可能提示病毒要再经过14-20天时间在胎儿中复制，也有助于说明经官颈排泄的病毒是胎儿源而非母源性。",
+    "error_detail": "错误地将仔猪死亡归因于母源性病毒，而实际上是胎儿源病毒。",
+    "original_question": "PCMV感染导致仔猪死亡的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪的免疫效果比牛的免疫效果更令人满意。",
+    "reference_case": "猪的免疫效果不如牛的免疫效果令人满意。",
+    "error_detail": "错误地夸大了猪的免疫效果，与实际情况相反。",
+    "original_question": "猪的免疫效果与牛的免疫效果相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "所有欧洲国家都强制给猪接种免疫。",
+    "reference_case": "由于疫情连续发生，一些欧洲国家提倡给猪接种免疫。",
+    "error_detail": "错误地声称所有欧洲国家都强制接种，而实际上只是一些国家提倡。",
+    "original_question": "为什么一些欧洲国家提倡给猪接种免疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "1967年英国口蹄疫疫情的传播与感染牛的接触有关。",
+    "reference_case": "1967年英国口蹄疫疫情的传播最初与一个食过感染肉汄水的感染猪有关。",
+    "error_detail": "错误地将疫情传播归因于感染牛，而实际上是与感染猪有关。",
+    "original_question": "1967年英国口蹄疫疫情的传播与什么有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不完全福氏佐剂在接种注射部位无任何反应。",
+    "reference_case": "不完全福氏佐剂在接种注射部位有局部反应。",
+    "error_detail": "错误地否认了不完全福氏佐剂的局部反应。",
+    "original_question": "猪免疫实验中使用的不完全福氏佐剂有什么缺点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "使用水佐剂可以减少猪口蹄疫的严重性。",
+    "reference_case": "使用油佐剂促使对口蹄疫抗原的良好免疫应答，减少接种量至0.25 mL以下。",
+    "error_detail": "错误地建议使用水佐剂，而实际上应使用油佐剂。",
+    "original_question": "如何通过疫苗接种减少猪口蹄疫的严重性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪水疱病最初被诊断为猪流感。",
+    "reference_case": "最初被诊断为口蹄疫。",
+    "error_detail": "错误地将最初的误诊归因于猪流感，而实际上是口蹄疫。",
+    "original_question": "猪水疱病最初被误诊为什么疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "1970年香港试验中使用的疫苗完全无效。",
+    "reference_case": "接种了FMD灭活苗的猪发生上述被诊断为口蹄疫的水泡性疾病。",
+    "error_detail": "错误地声称疫苗完全无效，而实际上接种后发生了水泡性疾病。",
+    "original_question": "1970年香港试验中使用的疫苗效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪水疱病的病原属于DNA病毒科。",
+    "reference_case": "猪水疱病的病原属于小RNA病毒科的肠道病毒属。",
+    "error_detail": "错误地将病原归为DNA病毒科，而实际上是小RNA病毒科。",
+    "original_question": "猪水疱病的病原属于什么科？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪水疱病的病毒在100°C下稳定。",
+    "reference_case": "猪水疱病的病毒在50°C 1M MgCl中稳定。",
+    "error_detail": "错误地提高了病毒的稳定温度，远超过实际的50°C。",
+    "original_question": "猪水疱病的病毒在什么条件下稳定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪水疱病的病毒在所有哺乳动物中都能引起感染。",
+    "reference_case": "猪和人是唯一已知对猪水疱病病毒能自然感染的宿主。",
+    "error_detail": "错误地扩大了病毒的宿主范围，忽略了其特异性。",
+    "original_question": "猪水疱病的病毒在哪些动物中能引起感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪水疱病病毒在人类细胞中容易引起细胞病变。",
+    "reference_case": "猪肾原代及传代细胞是猪水疱病病毒的易感细胞。",
+    "error_detail": "错误地声称病毒在人类细胞中易感，而实际上是在猪肾细胞中。",
+    "original_question": "猪水疱病病毒在什么细胞中容易引起细胞病变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "所有动物对猪水疱病病毒都易感。",
+    "reference_case": "牛肾细胞（BK）、乳仓鼠肾细胞（BHK21)对猪水疱病病毒不易感。",
+    "error_detail": "错误地声称所有动物都易感，忽略了牛肾细胞和乳仓鼠肾细胞的不易感性。",
+    "original_question": "哪些动物对猪水疱病病毒不易感？",
+    "original_input": ""
+  }
+]

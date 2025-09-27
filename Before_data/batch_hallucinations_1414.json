@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "根据配种日期，参照预产期推算表中的月份和日期，加上120天即为预产日期。例如，5月3日配种，预产日期为9月1日。",
+    "reference_case": "根据配种日期，参照预产期推算表中的月份和日期，加上114天即为预产日期。例如，5月3日配种，预产日期为8月25日。",
+    "error_detail": "预产期推算天数错误，应为114天而非120天。",
+    "original_question": "母猪预产期如何推算？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "5月3日配种，预产日期为9月1日。",
+    "reference_case": "5月3日配种，预产日期为8月25日。",
+    "error_detail": "预产期推算错误，使用了过时的推算方法。",
+    "original_question": "猪的人工授精预产日期如何计算？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "操作时采精人员要戴上消毒手套，待公猪爬跨母猪后，用0.5%高锰酸钾溶液将公猪包皮附近洗净消毒，并用生理盐水冲洗干净。",
+    "reference_case": "操作时采精人员要戴上消毒手套，待公猪爬跨母猪后，用0.1%高锰酸钾溶液将公猪包皮附近洗净消毒，并用生理盐水冲洗干净。",
+    "error_detail": "高锰酸钾溶液浓度错误，应为0.1%而非0.5%。",
+    "original_question": "徒手采精法中如何避免精液污染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪一次射精量为100～150ml，多者可达300ml以上。",
+    "reference_case": "公猪一次射精量为200～250ml，多者可达500ml以上。",
+    "error_detail": "射精量数据错误，低估了公猪的射精量。",
+    "original_question": "公猪一次射精量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "稀释精液的目的是为了减少精液量，限制配种头数，缩短精子存活时间，便于保存和长途运输，充分发挥优良公猪的配种效能。",
+    "reference_case": "稀释精液的目的是为了增加精液量，扩大配种头数，延长精子存活时间，便于保存和长途运输，充分发挥优良公猪的配种效能。",
+    "error_detail": "目的描述完全相反，与原始指令冲突。",
+    "original_question": "稀释精液的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "常用的猪用稀释液配方有Kiev、IVI、牛奶一葡萄糖液等。",
+    "reference_case": "常用的猪用稀释液配方有Kiev、IVI、奶粉一葡萄糖液等。",
+    "error_detail": "配方名称错误，应为奶粉一葡萄糖液而非牛奶一葡萄糖液。",
+    "original_question": "常用的猪用稀释液配方有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在夏季妊娠前3周保持母猪凉爽，保证良好卫生条件，特别是对配种前的公、母猪的生殖道进行消毒，减少子宫的感染；实行复配法，提高受胎率；淘汰经常出现少产或屡配不孕的母猪、系族或配偶。此外，还应每天给母猪按摩以促进血液循环。",
+    "reference_case": "在夏季妊娠前3周保持母猪凉爽，保证良好卫生条件，特别是对配种前的公、母猪的生殖道进行消毒，减少子宫的感染；实行复配法，提高受胎率；淘汰经常出现少产或屡配不孕的母猪、系族或配偶。",
+    "error_detail": "添加了未经证实的假设，即每天给母猪按摩以促进血液循环。",
+    "original_question": "如何减少母猪妊娠期间的胚胎损失？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期，母猪的代谢减弱，对饲料的利用率降低，蛋白质合成减弱。",
+    "reference_case": "妊娠前期，母猪的代谢增强，对饲料的利用率提高，蛋白质合成增强。",
+    "error_detail": "代谢变化描述错误，与事实相反。",
+    "original_question": "妊娠前期母猪的代谢有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "妊娠母猪比空怀母猪增重较多，脂肪大部分沉积在腹壁，而肌肉大部分沉积在背膘。",
+    "reference_case": "妊娠母猪比空怀母猪增重较多，脂肪大部分沉积在背膘，而肌肉大部分沉积在腹壁。",
+    "error_detail": "脂肪和肌肉的沉积位置描述错误。",
+    "original_question": "妊娠母猪与空怀母猪在体重变化上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪比空怀母猪子宫外所增重的部分，脂肪占31%，肌肉占48%，其余21%为乳腺，这就是所谓“妊娠合成代谢”过程。",
+    "reference_case": "妊娠母猪比空怀母猪子宫外所增重的部分，脂肪占48%，肌肉占31%，其余21%为乳腺，这就是所谓“妊娠合成代谢”过程。",
+    "error_detail": "脂肪和肌肉的比例描述错误。",
+    "original_question": "妊娠母猪与空怀母猪的体管变化有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "母猪泌乳能力不受任何因素影响。",
+    "reference_case": "母猪泌乳能力受母猪泌乳生理的影响，包括乳腺泡的分泌作用、乳腺的血液供应以及催乳素的调节等。",
+    "error_detail": "完全否定了影响泌乳能力的因素，与事实矛盾。",
+    "original_question": "母猪泌乳能力受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪放乳的持续时间约60至90秒，两次排乳间隔时间约2小时，一昼夜可排乳10次以上。",
+    "reference_case": "母猪放乳的持续时间约30至60秒，两次排乳间隔时间约1小时，一昼夜可排乳20次以上。",
+    "error_detail": "放乳持续时间和间隔时间数据错误。",
+    "original_question": "母猪放乳的持续时间和间隔是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪初乳中的蛋白质含量明显低于常乳，初乳中的蛋白质含量约在5-6%，而常乳中的蛋白质含量约为18.9%、17.5%、15.2%、9.2%、7.3%。",
+    "reference_case": "母猪初乳中的蛋白质含量明显高于常乳，初乳中的蛋白质含量约在18.9%、17.5%、15.2%、9.2%、7.3%，而常乳中的蛋白质含量约为5-6%。",
+    "error_detail": "初乳和常乳的蛋白质含量描述相反。",
+    "original_question": "母猪初乳与常乳相比，蛋白质含量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "新生仔猪的肠道上皮处于原始状态，只在出生后长时间内对大分子物质有渗透作用，72小时后明显降低。",
+    "reference_case": "新生仔猪的肠道上皮处于原始状态，只在出生后短时间内对大分子物质有渗透作用，36小时后明显降低。",
+    "error_detail": "渗透作用时间描述错误。",
+    "original_question": "仔猪出生后多长时间内肠道对大分子物质有渗透作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "初乳中以IgA为主，约占80%，IgG占15%，IgM占5%。",
+    "reference_case": "初乳中以IgG为主，约占80%，IgA占15%，IgM占5%。",
+    "error_detail": "免疫球蛋白类型比例描述错误。",
+    "original_question": "母猪初乳中免疫球蛋白的类型比例是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪生后6小时吸收能力下降50%，如果生后24小时才让仔猪吃奶，则只能吸收6%的免疫球蛋白。",
+    "reference_case": "仔猪生后3小时吸收能力下降50%，如果生后12小时才让仔猪吃奶，则只能吸收6%的免疫球蛋白。",
+    "error_detail": "吸收能力下降时间描述错误。",
+    "original_question": "仔猪生后多长时间内吸收初乳的能力下降？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "随着窝产仔数的上升，仔猪初生重上升。",
+    "reference_case": "随着窝产仔数的上升，仔猪初生重下降。",
+    "error_detail": "关系描述错误，与事实矛盾。",
+    "original_question": "仔猪初生重与窝产仔数之间存在什么关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳仔猪的成活率明显低于瘦肉型猪相同仔猪初生重的成活率，达到60%，哺乳仔猪死亡率超过40%。",
+    "reference_case": "哺乳仔猪的成活率明显高于瘦肉型猪相同仔猪初生重的成活率，达到80%，哺乳仔猪死亡率不足20%。",
+    "error_detail": "成活率和死亡率数据描述错误。",
+    "original_question": "仔猪初生重对哺乳仔猪成活率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "死亡率较高的原因包括患白痢病死亡（占41.6%），肺炎病死亡（占31.3%），冻死、压死（占14.3%），以及其他原因（占12.8%）。",
+    "reference_case": "死亡率较高的原因包括患白痢病死亡（占31.3%），肺炎病死亡（占14.3%），冻死、压死（占12.8%），以及其他原因（占41.6%）。",
+    "error_detail": "死亡原因比例描述错误。",
+    "original_question": "仔猪死亡的主要原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "初生重对仔猪哺乳存活率没有影响。",
+    "reference_case": "有，初生重较低的仔猪成活率较高，而初生重较高的仔猪成活率较低。",
+    "error_detail": "完全否定了初生重对存活率的影响，与事实矛盾。",
+    "original_question": "初生重对仔猪哺乳存活率有影响吗？",
+    "original_input": ""
+  }
+]

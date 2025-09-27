@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "现代化养猪的一个特点是采用流水式饲养工艺流程，如一个万头猪场，每周有30头母猪分娩并进入产房，仔猪断乳后转入保育舍，肥育猪出栏后猪舍进行清洗消毒。",
+    "reference_case": "现代化养猪的一个特点是采用流水式饲养工艺流程，如一个万头猪场，每周有24头母猪分娩并进入产房，仔猪断乳后转入保育舍，肥育猪出栏后猪舍进行清洗消毒。",
+    "error_detail": "数值偏差，将每周分娩的母猪数量从24头错误地增加到30头。",
+    "original_question": "现代化养猪的流水式工艺具体如何操作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "实行仔猪早期断乳可以提高母猪的繁殖效率，从而增加年产仔猪窝数和数量。",
+    "reference_case": "实行仔猪早期断乳可以提高母猪的繁殖周期，从而增加年产仔猪窝数和数量。",
+    "error_detail": "术语错误，将'繁殖周期'错误地改为'繁殖效率'。",
+    "original_question": "为什么要实行仔猪早期断乳？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "直线肥育法的关键技术包括按不同体重的营养标准配制饲料，确保在两个阶段之间转换饲料时不影响猪的生长速度，猪在肥育期间尽量采用自由采食，并且每天进行两次运动。",
+    "reference_case": "直线肥育法的关键技术包括按不同体重的营养标准配制饲料，确保在两个阶段之间转换饲料时不影响猪的生长速度，猪在肥育期间尽量采用自由采食。",
+    "error_detail": "添加了不存在的假设，即'每天进行两次运动'。",
+    "original_question": "直线肥育法的关键技术有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "三段法饲养是指母猪配种妊娠、母猪分娩、仔猪断奶、仔猪保育和幼猪生长及肥育为三个阶段。",
+    "reference_case": "三段法饲养是指母猪配种妊娠、母猪分产、仔猪断奶、仔猪保育和幼猪生长及肥育为三个阶段。",
+    "error_detail": "术语错误，将'分产'错误地改为'分娩'。",
+    "original_question": "三段法饲养工艺如何定义？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "三段法饲养工艺的特点是将母猪产存、断奶和培育合二为一，在同一产床上伺养仔猪60天，减少仔猪从断奶到培育舍的应激。",
+    "reference_case": "三段法饲养工艺的特点是将母猪产存、断奶和培育合二为一，在同一产床上伺养仔猪70天，减少仔猪从断奶到培育舍的应激。",
+    "error_detail": "数值偏差，将伺养仔猪的天数从70天错误地减少到60天。",
+    "original_question": "三段法饲养工艺的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪在28天时断乳。",
+    "reference_case": "仔猪在35天时断乳。",
+    "error_detail": "数值偏差，将断乳时间从35天错误地减少到28天。",
+    "original_question": "仔猪断乳的最佳时间是多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪断乳后的成活率为85%以上。",
+    "reference_case": "仔猪断乳后的成活率为90%以上。",
+    "error_detail": "数值偏差，将成活率从90%以上错误地降低到85%以上。",
+    "original_question": "仔猪断乳后的成活率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪保育期为21-28天。",
+    "reference_case": "仔猪保育期为28-35天。",
+    "error_detail": "数值偏差，将保育期从28-35天错误地减少到21-28天。",
+    "original_question": "仔猪保育期的长度是多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断乳仔猪在哺乳28天后转入保育舍。",
+    "reference_case": "断乳仔猪在哺乳35天后转入保育舍。",
+    "error_detail": "数值偏差，将哺乳时间从35天错误地减少到28天。",
+    "original_question": "断乳仔猪转入保育舍的时间是多久后？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥育猪转入肥育舍时体重为20千克。",
+    "reference_case": "肥育猪转入肥育舍时体重为25千克。",
+    "error_detail": "数值偏差，将体重从25千克错误地减少到20千克。",
+    "original_question": "肥育猪转入肥育舍的体重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥育猪的平均出栏体重为90千克。",
+    "reference_case": "肥育猪的平均出栏体重为100千克。",
+    "error_detail": "数值偏差，将出栏体重从100千克错误地减少到90千克。",
+    "original_question": "肥育猪的平均出栏体重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每个母猪年平均产仔数为18-20窝。",
+    "reference_case": "每个母猪年平均产仔数为20-22窝。",
+    "error_detail": "数值偏差，将年产仔数从20-22窝错误地减少到18-20窝。",
+    "original_question": "每个母猪年平均产仔数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪的繁殖周期分别为150天、145天和140天。",
+    "reference_case": "母猪的繁殖周期分别为156天、149天和142天。",
+    "error_detail": "数值偏差，将繁殖周期的天数错误地减少。",
+    "original_question": "母猪的繁殖周期是多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪断新至完全配种的周期为5-7天。",
+    "reference_case": "母猪断新至完全配种的周期为7-10天。",
+    "error_detail": "数值偏差，将周期从7-10天错误地减少到5-7天。",
+    "original_question": "母猪断新至完全配种的周期是多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳仔猪的成活率为85%。",
+    "reference_case": "哺乳仔猪的成活率为90%。",
+    "error_detail": "数值偏差，将成活率从90%错误地降低到85%。",
+    "original_question": "哺乳仔猪的成活率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "育成猪的成活率为90%。",
+    "reference_case": "育成猪的成活率为92%。",
+    "error_detail": "数值偏差，将成活率从92%错误地降低到90%。",
+    "original_question": "育成猪的成活率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥育猪的成活率为95%。",
+    "reference_case": "肥育猪的成活率为98%。",
+    "error_detail": "数值偏差，将成活率从98%错误地降低到95%。",
+    "original_question": "肥育猪的成活率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪年产育成猪的数量为1200头或1260头。",
+    "reference_case": "母猪年产育成猪的数量为1320头或1380头。",
+    "error_detail": "数值偏差，将年产育成猪的数量从1320头或1380头错误地减少到1200头或1260头。",
+    "original_question": "母猪年产育成猪的数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "成年母猪与公猪的比例为1:20。",
+    "reference_case": "成年母猪与公猪的比例为1:25。",
+    "error_detail": "数值偏差，将比例从1:25错误地改为1:20。",
+    "original_question": "成年母猪与公猪的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪的配种后观察期为14天。",
+    "reference_case": "母猪的配种后观察期为21天。",
+    "error_detail": "数值偏差，将观察期从21天错误地减少到14天。",
+    "original_question": "母猪的配种后观察期是多久？",
+    "original_input": ""
+  }
+]

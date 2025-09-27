@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "临床症状的有无及严重程度与感染虫体的数量和机体的抵抗力有关。如1岁以内羊寄生180~190条，年龄较大的羊寄生400~500条时，即为严重感染。",
+    "reference_case": "临床症状的有无及严重程度与感染虫体的数量和机体的抵抗力有关。如1岁以内羊寄生80~90条，年龄较大的羊寄生200~300条时，即为严重感染。",
+    "error_detail": "数值偏差",
+    "original_question": "食道口线虫感染的临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "软蜱生活在鸡舍、猪圈、鸽巢、动物洞穴等接近宿主的地方，吸血后落回宿主体外藏匿，生活习性与臭虫相似，吸血时间一般为5至6小时，长者可达10至12天。",
+    "reference_case": "软蜱生活在鸡舍、猪圈、鸽巢、动物洞穴等接近宿主的地方，吸血后落回宿主体外藏匿，生活习性与臭虫相似，吸血时间一般为0.5至1小时，长者可达5至6天。",
+    "error_detail": "吸血时间错误",
+    "original_question": "软蜱的生活习性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "硝氯酚对牛、羊和猪的片形吸虫幼虫有效。",
+    "reference_case": "硝氯酚对牛、羊和猪的片形吸虫成虫有效。",
+    "error_detail": "成虫与幼虫混淆",
+    "original_question": "硝氯酚（Dinitrochloraphenol）对哪些动物的吸虫有效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "硫双二氯酚主要对亚洲牛和羊的肝片吸虫、同盘吸虫、莫尼茨绦虫、无卵黄腺绦虫，猪姜片吸虫、盛氏许壳绦虫，羊粗纹食道口线虫，犬、猫带绦虫和禽绦虫等有效。",
+    "reference_case": "硫双二氯酚主要对牛和羊的肝片吸虫、同盘吸虫、莫尼茨绦虫、无卵黄腺绦虫，猪姜片吸虫、盛氏许壳绦虫，羊粗纹食道口线虫，犬、猫带绦虫和禽绦虫等有效。",
+    "error_detail": "地域限制错误",
+    "original_question": "硫双二氯酚对哪些动物的吸虫和绦虫有效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "马20～30mg/kg；牛50～70mg/kg；羊、猪85～110mg/kg；犬、猫220mg/kg；鸡110～210mg/kg；鸭40～60mg/kg。",
+    "reference_case": "马10～20mg/kg；牛40～60mg/kg；羊、猪75～100mg/kg；犬、猫200mg/kg；鸡100～200mg/kg；鸭30～50mg/kg。",
+    "error_detail": "剂量偏差",
+    "original_question": "硫双二氯酚在内服时对不同动物的使用剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪内服五味子油的常用剂量为90~110 mg/kg。",
+    "reference_case": "猪内服五味子油的常用剂量为80~100 mg/kg。",
+    "error_detail": "剂量偏差",
+    "original_question": "猪内服五味子油的常用剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "哈罗松对猪蛔虫及食道口线虫成虫及第4期幼虫有驱虫效果。",
+    "reference_case": "哈罗松对猪蛔虫及食道口线虫成虫及第",
+    "error_detail": "信息不完整",
+    "original_question": "哈罗松对猪的哪些寄生虫有驱虫效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "左旋咪唑对猪蛔虫，兰氏类圆线虫，后圆线虫效果极佳；对食道口线虫，红色猪圆线虫亦有良好效果；对毛首线虫，冠尾线虫效果不稳定；对猪蜔虫，后圆线虫和食道口线虫等的成熟虫体有较好作用。",
+    "reference_case": "左旋咪唑对猪蛔虫，兰氏类圆线虫，后圆线虫效果极佳；对食道口线虫，红色猪圆线虫亦有良好效果；对毛首线虫，冠尾线虫效果不稳定；对猪蜔虫，后圆线虫和食道口线虫等的未成熟虫体有较好作用。",
+    "error_detail": "成熟与未成熟混淆",
+    "original_question": "左旋咪唑对猪的哪些寄生虫有驱虫效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "除鞭虫外，噻苯咪唑对有齿食道口线虫、红色猪圆线虫和兰氏类圆线虫等均无驱虫效果。",
+    "reference_case": "除鞭虫外，噻苯咪唑对有齿食道口线虫、红色猪圆线虫和兰氏类圆线虫等均有较好的驱虫效果。",
+    "error_detail": "效果描述错误",
+    "original_question": "噻苯咪唑对猪的驱虫效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "甲苯咪唑对猪鞭虫效果差。",
+    "reference_case": "甲苯咪唑对猪鞭虫效果好。",
+    "error_detail": "效果描述错误",
+    "original_question": "甲苯咪唑对猪的驱虫效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "通过RFID技术实现母猪养殖过程自动供料、自动管理、自动数据传输和自动报警。谢琪、耿丽微等人分别设计并实现了基于RFID的养猪管理与监控系统和奶牛身份识别系统，但这些系统现已不再使用。",
+    "reference_case": "通过RFID技术实现母猪养殖过程自动供料、自动管理、自动数据传输和自动报警。谢琪、耿丽微等人分别设计并实现了基于RFID的养猪管理与监控系统和奶牛身份识别系统。",
+    "error_detail": "时效性错误",
+    "original_question": "RFID技术在畜禽养殖中的应用有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "TEAM系统通过RFID电子耳牌识别母猪个体，根据母猪的怀孕日程和体况，结合天气温度自动计算出每头母猪每天应采食的饲料定额，并投放相应的饲料量给该母猪，假设所有母猪都能适应这种饲喂方式。",
+    "reference_case": "TEAM系统通过RFID电子耳牌识别母猪个体，根据母猪的怀孕日程和体况，结合天气温度自动计算出每头母猪每天应采食的饲料定额，并投放相应的饲料量给该母猪。",
+    "error_detail": "添加假设",
+    "original_question": "TEAM系统的工作原理是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "TEAM系统通过自动饲喂站控制怀孕母猪的采食量，母猪采食完自己当天的饲料定额后，饲喂站会继续投放饲料给它，以满足其额外需求。",
+    "reference_case": "TEAM系统通过自动饲喂站控制怀孕母猪的采食量，母猪采食完自己当天的饲料定额后，饲喂站不会再投放饲料给它，从而控制怀孕母猪的采食量和保持母猪体况。",
+    "error_detail": "指令偏离",
+    "original_question": "TEAM系统如何控制怀孕母猪的采食量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "部分脱出常在阴道内塞有大小不等的球状物，或部分外露于阴户之外；完全脱出，则大多和阴道一起暴露于阴户之外，在牛如袋状，马似筒状，猪是两个分叉很长的袋子。",
+    "reference_case": "部分脱出常在阴道内塞有大小不等的球状物，或部分外露于阴户之外；完全脱出，则大多和阴道一起暴露于阴户之外，在牛如筒状，马似袋状，猪是两个分叉很长的袋子。",
+    "error_detail": "形状描述错误",
+    "original_question": "子宫脱出时的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "常用茅草决明汤、银谐解毒丸、双花等中药方剂，以及复方大青CppClass注射液和复方氨基比林注射液等西药，但这些方法现已不再推荐使用。",
+    "reference_case": "常用茅草决明汤、银谐解毒丸、双花等中药方剂，以及复方大青CppClass注射液和复方氨基比林注射液等西药。",
+    "error_detail": "时效性错误",
+    "original_question": "治疗猪流感常用哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病猪食微减少，排白色或乳白色、灰白色或淡黄色绿色稀粪，后期病重时，仔猪不吃奶，大便失禁，眼窝凹陷，四肢凉，寒颤，喜钻草窝。最后卧地不起，因过度兴奋死亡。",
+    "reference_case": "病猪食微减少，排白色或乳白色、灰白色或淡黄色绿色稀粪，后期病重时，仔猪不吃奶，大便失禁，眼窝凹陷，四肢凉，寒颤，喜钻草窝。最后卧地不起，衰竭死亡。",
+    "error_detail": "死亡原因错误",
+    "original_question": "仔猪白痢的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病势凶猛，粪便很稀，黄色，排粪次数多，常成射状；继则粪便成半透明胶水稀液或带粘液，气味芳香；排粪失禁，不吃奶，病猪极易脱水衰竭；死亡率很低。",
+    "reference_case": "病势凶猛，粪便很稀，黄色，排粪次数多，常成射状；继则粪便成半透明胶水稀液或带粘液，气味难闻；排粪失禁，不吃奶，病猪极易脱水衰竭；死亡率很高。",
+    "error_detail": "气味和死亡率描述错误",
+    "original_question": "仔猪黄痢的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "喂母猪腐植酸钠粉、瞿麦、苍术、水杨酸钠，但这些药物对预防和治疗仔猪白痢无效。",
+    "reference_case": "喂母猪腐植酸钠粉、瞿麦、苍术、水杨酸钠。",
+    "error_detail": "效果描述错误",
+    "original_question": "母猪服用哪些药物可以预防和治疗仔猪白痢？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "将药研成粉或煎水拌料中喂给，如腐植酸钠粉每日2-3次，15-20克；瞿麦和苍术每日2次，600-800克。",
+    "reference_case": "将药研成粉或煎水拌料中喂给，如腐植酸钠粉每日1-2次，5-10克；瞿麦和苍术每日1次，300-500克。",
+    "error_detail": "剂量和频率偏差",
+    "original_question": "如何给哺乳母猪服药预防仔猪白痢？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪白痢多发于5-15天，排白色或乳白色、灰白色或淡黄色绿色稀粪；仔猪黄痢发病极快，排黄色稀粪，常成射状，粪便成半透明胶水稀液或带粘液，气味芳香。",
+    "reference_case": "仔猪白痢多发于10-20天，排白色或乳白色、灰白色或淡黄色绿色稀粪；仔猪黄痢发病极快，排黄色稀粪，常成射状，粪便成半透明胶水稀液或带粘液，气味难闻。",
+    "error_detail": "发病时间和气味描述错误",
+    "original_question": "仔猪白痢和黄痢的区别是什么？",
+    "original_input": ""
+  }
+]

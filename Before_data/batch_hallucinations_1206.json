@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在检测猪口蹄疫O型灭活疫苗的免疫抗体时，LB-ELISA和IHA试剂盒的相关性达到95:5%。",
+    "reference_case": "在检测猪口蹄疫O型灭活疫苗的免疫抗体时，LB-ELISA和IHA试剂盒的相关性达到93:7%。",
+    "error_detail": "数值比例被错误地修改，导致数据型幻觉。",
+    "original_question": "在检测猪口蹄疫O型灭活疫苗的免疫抗体时，LB-ELISA和IHA试剂盒的相关性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "VP1-ELISA试剂盒可以用于检测猪口蹄疫O型灭活疫苗的免疫抗体。",
+    "reference_case": "VP1-ELISA试剂盒不能用于检测猪口蹄疫O型灭活疫苗的免疫抗体。",
+    "error_detail": "错误地改变了试剂盒的适用性，导致概念混淆。",
+    "original_question": "VP1-ELISA试剂盒能否用于检测猪口蹄疫O型灭活疫苗的免疫抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在接种猪口蹄疫O型灭活疫苗的猪场中，LB-ELISA和IHA试剂盒检测的抗体合格符合率为95:5%。",
+    "reference_case": "在接种猪口蹄疫O型灭活疫苗的猪场中，LB-ELISA和IHA试剂盒检测的抗体合格符合率为93:7%。",
+    "error_detail": "数值比例被错误地修改，导致数据型幻觉。",
+    "original_question": "接种猪口蹄疫O型灭活疫苗的猪场中，LB-ELISA和IHA试剂盒检测的抗体合格符合率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在检测猪口蹄疫O型合成肽疫苗的免疫抗体时，VP1-ELISA试剂盒的抗体效价判定标准为≥2^6。",
+    "reference_case": "在检测猪口蹄疫O型合成肽疫苗的免疫抗体时，VP1-ELISA试剂盒的抗体效价判定标准为≥2^5。",
+    "error_detail": "抗体效价判定标准被错误地提高，导致数据型幻觉。",
+    "original_question": "在检测猪口蹄疫O型合成肽疫苗的免疫抗体时，VP1-ELISA试剂盒的抗体效价判定标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "2012年8月至9月，全球发生的重大动物疫病包括禽流感、非洲猪瘟、蓝耳病、新城疫、水泡性口炎、西尼罗河热、结节性皮肤病、炭疽和施马伦贝格病等，以及新发现的猪流感。",
+    "reference_case": "2012年8月至9月，全球发生的重大动物疫病包括禽流感、非洲猪瘟、蓝耳病、新城疫、水泡性口炎、西尼罗河热、结节性皮肤病、炭疽和施马伦贝格病等。",
+    "error_detail": "添加了不存在的疫病，导致时效性幻觉。",
+    "original_question": "2012年8月至9月，全球发生了哪些重大动物疫病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "俄罗斯在2012年8月至9月期间报告了12个地区发生了非洲猪瘟疫情。",
+    "reference_case": "俄罗斯在2012年8月至9月期间报告了10个地区发生了非洲猪瘟疫情，包括斯塔夫罗波尔边疆区、克拉斯诺达尔边疆区、阿斯特拉罕州、伏尔加格勒州、卡累利阿共和国、卡尔梅克共和国、诺夫哥罗德州、特维尔州、雅罗斯拉夫尔州和罗斯托夫州。",
+    "error_detail": "错误地增加了报告的地区数量，导致数据型幻觉。",
+    "original_question": "俄罗斯在2012年8月至9月期间报告了多少个地区发生了非洲猪瘟疫情？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "越南在2012年9月3日报告了南定省发生了猪蓝耳病疫情。",
+    "reference_case": "越南在2012年9月3日报告了北干省发生了猪蓝耳病疫情。",
+    "error_detail": "错误地改变了疫情发生的地点，导致空间错位幻觉。",
+    "original_question": "越南在2012年9月3日报告了哪个省份发生了猪蓝耳病疫情？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "农业部门对死亡的6000头（只）畜禽全部进行了无害化处理，发放了1500千克高浓度消毒药品，消毒了60万平方米的畜禽圈舍。",
+    "reference_case": "农业部门对死亡的6231头（只）畜禽全部进行了无害化处理，发放了2000千克高浓度消毒药品，消毒了64万平方米的畜禽圈舍，包括牛舍20万平方米、猪舍40万平方米、羊舍2万平方米和禽舍2万平方米。",
+    "error_detail": "错误地减少了处理的数量和消毒的面积，导致数据型幻觉。",
+    "original_question": "云南彝良地震灾后，农业部门在消毒灭源防疫方面采取了哪些具体措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "农业部门对死亡的6000头（只）畜禽全部进行了无害化处理，发放高浓度消毒药品1500千克，消毒畜禽圈舍60万平方米。",
+    "reference_case": "农业部门对死亡的6231头（只）畜禽全部进行了无害化处理，发放高浓度消毒药品2000千克，消毒畜禽圈舍64万平方米，包括牛舍20万平方米、猪舍40万平方米、羊舍2万平米、禽舍2万平方米。",
+    "error_detail": "错误地减少了处理的数量和消毒的面积，导致数据型幻觉。",
+    "original_question": "云南彝良地震灾后，农业部门如何加强灾区消毒灭源防疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "合作猪肌肉中的氨基酸含量低于FAO/WHO的模式标准，表明合作猪肉不是优质蛋白质来源。",
+    "reference_case": "合作猪肌肉中的氨基酸含量高于FAO/WHO的模式标准，表明合作猪肉是优质蛋白质来源。",
+    "error_detail": "错误地改变了氨基酸含量的比较结果，导致概念混淆。",
+    "original_question": "合作猪肌肉中的氨基酸含量与FAO/WHO的模式标准相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "蒸煮后，合作猪肌肉中的总氨基酸、必需氨基酸、非必需氨基酸以及鲜味氨基酸含量均有所增加。",
+    "reference_case": "蒸煮后，合作猪肌肉中的总氨基酸、必需氨基酸、非必需氨基酸以及鲜味氨基酸含量均有所下降，但EAA/TAA和EAA/NEAA的比例上升。",
+    "error_detail": "错误地改变了氨基酸含量的变化趋势，导致数据型幻觉。",
+    "original_question": "蒸煮处理对合作猪肌肉中的氨基酸含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "蒸煮后，合作猪肌肉中的赖氨酸、苏氨酸和色氨酸含量有所增加。",
+    "reference_case": "蒸煮后，合作猪肌肉中的丙氨酸、缬氨酸和组氨酸含量有所增加。",
+    "error_detail": "错误地改变了增加的氨基酸种类，导致概念混淆。",
+    "original_question": "合作猪肌肉中哪些氨基酸在蒸煮后含量增加？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "合作猪肌肉中的赖氨酸、苏氨酸、缬氨酸、异亮氨酸、亮氨酸、蛋氨酸、苯丙氨酸和色氨酸等8种必需氨基酸的含量显著低于八眉猪。",
+    "reference_case": "合作猪肌肉中的赖氨酸、苏氨酸、缬氨酸、异亮氨酸、亮氨酸、蛋氨酸、苯丙氨酸和色氨酸等8种必需氨基酸的含量显著高于八眉猪。",
+    "error_detail": "错误地改变了氨基酸含量的比较结果，导致概念混淆。",
+    "original_question": "合作猪肌肉中哪些必需氨基酸的含量显著高于八眉猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "合作猪肌肉中的鲜味氨基酸包括赖氨酸、苏氨酸和色氨酸。",
+    "reference_case": "合作猪肌肉中的鲜味氨基酸包括脯氨酸、丝氨酸、谷氨酸和丙氨酸。",
+    "error_detail": "错误地改变了鲜味氨基酸的种类，导致概念混淆。",
+    "original_question": "合作猪肌肉中的鲜味氨基酸有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "蒸煮后，合作猪肌肉中的氨基酸总量有所增加，增幅在30:25%到32:11%之间。",
+    "reference_case": "蒸煮后，合作猪肌肉中的氨基酸总量有所下降，降幅在30:25%到32:11%之间。",
+    "error_detail": "错误地改变了氨基酸总量的变化趋势，导致数据型幻觉。",
+    "original_question": "合作猪肌肉中的氨基酸总量在蒸煮前后有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "蒸煮后，合作猪肌肉中的谷氨酸含量减少最多，降幅达到78:39%。",
+    "reference_case": "蒸煮后，合作猪肌肉中的酪氨酸含量减少最多，降幅达到78:39%。",
+    "error_detail": "错误地改变了减少最多的氨基酸种类，导致概念混淆。",
+    "original_question": "合作猪肌肉中的哪些氨基酸在蒸煮后含量减少最多？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "根据FAO/WHO的理想蛋白质中人体必需氨基酸含量模式和评分标准，合作猪肌肉中的赖氨酸、缬氨酸和异亮氨酸为其非限制性氨基酸，表明其营养价值较低。",
+    "reference_case": "根据FAO/WHO的理想蛋白质中人体必需氨基酸含量模式和评分标准，合作猪肌肉中的赖氨酸、缬氨酸和异亮氨酸为其限制性氨基酸，表明其营养价值较高。",
+    "error_detail": "错误地改变了限制性氨基酸的判定，导致概念混淆。",
+    "original_question": "合作猪肌肉中的氨基酸计分如何评价其营养价值？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "合作猪肌肉中的谷氨酸含量较低，不是猪肉中的主要鲜味物质。",
+    "reference_case": "合作猪肌肉中的谷氨酸含量较高，是猪肉中的主要鲜味物质，具有形成肉鲜味以及缓冲咸、酸等不良味道的特殊作用，为其肉味的香郁提供了物质基础。",
+    "error_detail": "错误地改变了谷氨酸含量的描述，导致数据型幻觉。",
+    "original_question": "合作猪肌肉中的谷氨酸含量对其风味有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用了PCR-SSCP技术来检测猪Nramp1基因第6内含子的多态性。",
+    "reference_case": "使用了PCR-RFLP技术来检测猪Nramp1基因第6内含子的多态性。",
+    "error_detail": "错误地改变了检测技术的种类，导致概念混淆。",
+    "original_question": "在猪Nramp1基因的第6内含子研究中，使用了哪种技术来检测多态性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "杜洛克猪、合作猪和长白猪处于Hardy-Weinberg不平衡状态，而大白猪处于Hardy-Weinberg平衡状态。",
+    "reference_case": "杜洛克猪、合作猪和长白猪处于Hardy-Weinberg平衡状态，而大白猪处于Hardy-Weinberg不平衡状态。",
+    "error_detail": "错误地改变了猪种的Hardy-Weinberg平衡状态，导致概念混淆。",
+    "original_question": "在Nramp1基因的第6内含子研究中，哪些猪种处于Hardy-Weinberg平衡状态？",
+    "original_input": ""
+  }
+]

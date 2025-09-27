@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪传染性胃肠炎的主要症状包括水泻，粪便里大部分是水，开始灰色，逐渐带黄色或绿色，伴随食欲不振、呕吐、口渴，母猪停止泌乳，体重减轻，体温升高。",
+    "reference_case": "主要症状包括水泻，粪便里大部分是水，开始灰色，逐渐带黄色或绿色，伴随食欲不振、呕吐、口渴，母猪停止泌乳，体重减轻。",
+    "error_detail": "错误地添加了体温升高这一症状。",
+    "original_question": "猪传染性胃肠炎的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "钩端螺旋体病主要危害1-2月龄的小猪。",
+    "reference_case": "钩端螺旋体病主要危害2-4月龄的小猪。",
+    "error_detail": "错误地缩小了危害对象的年龄范围。",
+    "original_question": "钩端螺旋体病的主要危害对象是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪钩端螺旋体病主要危害1-3月龄的小猪。",
+    "reference_case": "猪钩端螺旋体病主要危害各个年龄段的猪，但实践证明气温稳定，饲养管理维持在一定水平上，虽有此病流行，也能显著降低发病率和死亡率。",
+    "error_detail": "错误地限定了危害的年龄段，忽略了该病对所有年龄段猪的潜在危害。",
+    "original_question": "猪钩端螺旋体病主要危害哪个年龄段的猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪蛔虫病主要危害1-2月龄的小猪。",
+    "reference_case": "猪蛔虫病主要危害3-6月龄的小猪。",
+    "error_detail": "错误地提前了危害的月龄范围。",
+    "original_question": "猪蛔虫病主要危害哪个月龄的小猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪蛔虫的发育周期是1个月。",
+    "reference_case": "一个感染性虫卵从被猪吃进体内到发育为成虫，约需两个至两个半月。",
+    "error_detail": "错误地缩短了发育周期的时间。",
+    "original_question": "猪蛔虫的发育周期是多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪蛔虫在猪小肠中的寄生期大约为3-5个月。",
+    "reference_case": "猪蛔虫在猪小肠中的寄生期大约为7-10个月，衰老的虫体随猪粪自然排出。",
+    "error_detail": "错误地缩短了寄生期的时间。",
+    "original_question": "猪蛔虫如何从猪体内排出？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "将生石灰2份、硫黄粉8份和水50份混合，煮沸20分钟。",
+    "reference_case": "将生石灰4份、硫黄粉6份和水100份混合，煮沸30-40分钟至呈棕红色，冷却后取上清液喷雾患部。小猪使用时需稀释一倍。",
+    "error_detail": "错误地改变了配方比例和煮沸时间。",
+    "original_question": "治疗猪疿癣的药物如何配置和使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "第一次治疗后3天再治疗一次。",
+    "reference_case": "第一次治疗后7天再治疗一次。",
+    "error_detail": "错误地缩短了治疗间隔时间。",
+    "original_question": "猪疿癣治疗间隔多久进行第二次治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪氢氰酸中毒主要表现为大量进食后半小时内兴奋不安，张口伸颈，流涎，呕吐，腹疼，起卧不安，呼吸困难，皮肤及可视粘膜鲜红色。随后表现沉郁，行走无力、不稳，卧地不起，头弯向一侧，两眼直视，瞳孔散大，心脏活动微弱，呼吸浅而慢，最后空息死亡。",
+    "reference_case": "猪氢氰酸中毒主要表现为大量进食后半小时内兴奋不安，张口伸颈，流涎，呕吐，腹疼，起卧不安，呼吸困难，皮肤及可视粘膜鲜红色。随后表现沉郁，行走无力、不稳，卧地不起，头弯向一侧，两眼直视，瞳孔散大，心脏活动微弱，呼吸浅而慢，最后空息死亡。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "猪氢氰酸中毒的主要临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪对食盐特别敏感，只需摄入50-100克就会引起中毒死亡，成年猪需要摄入100-250克才会中毒死亡。",
+    "reference_case": "仔猪对食盐特别敏感，只需摄入50-100克就会引起中毒死亡，成年猪需要摄入100-250克才会中毒死亡。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "猪对食盐的敏感度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "霉玉米表面或粒内生长的黑、褐、红或白色菌丝会产生毒素，如茄病镰刀菌、串珠镰刀菌、红色青霉素等，大量食用可引起中毒。",
+    "reference_case": "霉玉米表面或粒内生长的黑、褐、红或白色菌丝会产生毒素，如茄病镰刀菌、串珠镰刀菌、红色青霉素等，大量食用可引起中毒。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "霉玉米为什么容易引起猪中毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "病初排粪时直肠粘膜翻出，可以自行缩回，随着病情发展，直肠粘膜持续脱垂于肛门外，肿胀物呈圆球形或圆筒状，严重时粘膜发生出血、糜烂和坏死，表面污秽不洁。",
+    "reference_case": "病初排粪时直肠粘膜翻出，可以自行缩回，随着病情发展，直肠粘膜持续脱垂于肛门外，肿胀物呈圆球形或圆筒状，严重时粘膜发生出血、糜烂和坏死，表面污秽不洁。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "猪脱肛的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "可分为先天性疝、后天性疝和创伤性疝三类。",
+    "reference_case": "可分为先天性疝和后天性疝两类。",
+    "error_detail": "错误地添加了不存在的疝气病分类。",
+    "original_question": "猪的疝气病分为哪两类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "采食程度为+++的植物有黄菠萝、紫丁香、山楂、黄花忍冬、野火球、全莲花、东北猪殃殃、委陵菜、龙牙草、地榆、芦苇、核桃树、山葡萄、柳兰、鼠李、睡莱、夏枯草、紫花地丁、益母草、细叶百合、土三七、狗椒猕猴桃、猪毛菜、苋菜、马齿苋、水珠草、酸浆、东北接骨木、桔梗、和尚菜、山中旁、蒲公英、小叶樟、羊胡苔草、绣线菊、龙胆、柳叶菜、红花鹿啼草、狼尾草、狗舌草、宽叶菝葜、苔藓、黑杨。",
+    "reference_case": "黄菠萝、紫丁香、山楂、黄花忍冬、野火球、全莲花、东北猪殃殃、委陵菜、龙牙草、地榆、芦苇、核桃树、山葡萄、柳兰、鼠李、睡莱、夏枯草、紫花地丁、益母草、细叶百合、土三七、狗椒猕猴桃、猪毛菜、苋菜、马齿苋、水珠草、酸浆、东北接骨木、桔梗、和尚菜、山中旁、蒲公英、小叶樟、羊胡苔草、绣线菊、龙胆、柳叶菜、红花鹿啼草、狼尾草、狗舌草、宽叶菝葜、苔藓、黑杨。",
+    "error_detail": "错误地重复了相同的植物列表，没有提供新的或不同的信息。",
+    "original_question": "采食程度为+++的植物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "棉籽饼粕是猪的良好蛋白质来源，品质优良的棉籽粕可取代全部的豆粕而无不良影响；对反刍动物的毒性小，是反刍动物良好的蛋白质来源，大量使用可提高奶牛乳脂率，且不影响适口性。",
+    "reference_case": "棉籽饼粕是猪的良好蛋白质来源，品质优良的棉籽粕可取代一半的豆粕而无不良影响；对反刍动物的毒性小，是反刍动物良好的蛋白质来源，少量使用可提高奶牛乳脂率，但采食太多会影响适口性，且使乳脂变硬。",
+    "error_detail": "错误地提高了棉籽粕取代豆粕的比例和对反刍动物的使用量，忽略了过量使用的影响。",
+    "original_question": "棉籽饼粕对猪和反刍动物的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肥育猪饲粮中麦芽根的用量为20%-30%。",
+    "reference_case": "肥育猪饲粮中麦芽根的用量为8%-16%。",
+    "error_detail": "错误地提高了麦芽根的用量比例。",
+    "original_question": "肥育猪饲粮中麦芽根的适宜用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鱼粉在猪饲粮中的用量一般不超过10%，对于断奶前后仔猪可使用10%-15%的优质鱼粉。",
+    "reference_case": "鱼粉在猪饲粮中的用量一般不超过3%，对于断奶前后仔猪可使用3%-5%的优质鱼粉。",
+    "error_detail": "错误地提高了鱼粉的用量比例。",
+    "original_question": "鱼粉在猪饲粮中的适宜用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "血粉适口性好，氨基酸组成平衡，并具有黏性，过量添加不易引起腹泻。因此，铝粮中血粉的添加量可以较高，一般仔鸡、仔猪饲粮中用量应小于5%，成年猪、鸡饲粮中用量不超过8%。",
+    "reference_case": "血粉适口性差，氨基酸组成不平衡，并具有黏性，过量添加易引起腹泻。因此，铝粮中血粉的添加量不宜过高，一般仔鸡、仔猪饲粮中用量应小于2%，成年猪、鸡饲粮中用量不超过4%。",
+    "error_detail": "错误地描述了血粉的适口性和氨基酸组成，并提高了添加量的比例。",
+    "original_question": "血粉的添加量如何控制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生素 B1 在养殖动物中的推荐添加量是猪为10~20 mg/kg，家禽为10~20 mg/kg，鱼类为20~50 mg/kg（以干基计）。",
+    "reference_case": "猪为2~8 mg/kg，家禽为2~8 mg/kg，鱼类为10~25 mg/kg（以干基计）。",
+    "error_detail": "错误地提高了维生素 B1 的推荐添加量。",
+    "original_question": "维生素 B1 在养殖动物中的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生素 B6 在养殖动物中的推荐添加量是猪为5~10 mg/kg，家禽为10~20 mg/kg，鱼类为50~100 mg/kg。",
+    "reference_case": "猪为1~3 mg/kg，家禽为3~5 mg/kg，鱼类为3~50 mg/kg。",
+    "error_detail": "错误地提高了维生素 B6 的推荐添加量。",
+    "original_question": "维生素 B6 在养殖动物中的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "维生素 C（抗坏血酸）在养殖动物中的推荐添加量是猪为300~600 mg/kg，家禽为200~400 mg/kg，犊牛为250~1000 mg/kg，罗非鱼、鲫鱼、鱼苗为600 mg/kg，鱼种为400 mg/kg，青鱼、虹鳟鱼、蛙类为200~300 mg/kg，草鱼、鲤鱼为600~1000 mg/kg。",
+    "reference_case": "猪为150~300 mg/kg，家禽为50~200 mg/kg，犊牛为125~500 mg/kg，罗非鱼、鲫鱼、鱼苗为300 mg/kg，鱼种为200 mg/kg，青鱼、虹鳟鱼、蛙类为100~150 mg/kg，草鱼、鲤鱼为300~500 mg/kg。",
+    "error_detail": "错误地提高了维生素 C 的推荐添加量。",
+    "original_question": "维生素 C（抗坏血酸）在养殖动物中的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "L-肉碱盐酸盐的推荐添加量为猪2000 mg/kg，家禽400 mg/kg，鱼类5000 mg/kg（以维生素计）。",
+    "reference_case": "L-肉碱盐酸盐的推荐添加量为猪1000 mg/kg，家禽200 mg/kg，鱼类2500 mg/kg（以维生素计）。",
+    "error_detail": "错误地提高了 L-肉碱盐酸盐的推荐添加量。",
+    "original_question": "L-肉碱盐酸盐在配合饲料或全混合日粮中的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "铁化合物的推荐添加量为猪80~200 mg/kg，鸡70~240 mg/kg，牛20~100 mg/kg，羊60~100 mg/kg，鱼类60~400 mg/kg（以元素计）。",
+    "reference_case": "铁化合物的推荐添加量为猪40~100 mg/kg，鸡35~120 mg/kg，牛10~50 mg/kg，羊30~50 mg/kg，鱼类30~200 mg/kg（以元素计）。",
+    "error_detail": "错误地提高了铁化合物的推荐添加量。",
+    "original_question": "铁化合物在配合饲料或全混合日粮中的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪对碱式氯化铜的添加量范围是5.0～10.0。",
+    "reference_case": "猪对碱式氯化铜的添加量范围是2.6～5.0。",
+    "error_detail": "错误地提高了碱式氯化铜的添加量范围。",
+    "original_question": "猪对碱式氯化铜的添加量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪（≤30 kg）对碱式氯化铜的推荐添加量是400，生长肥育猪（30～60 kg）推荐添加量是300，生长肥育猪（≥60 kg）推荐添加量是70，种猪推荐添加量是70。",
+    "reference_case": "仔猪（≤30 kg）对碱式氯化铜的推荐添加量是200，生长肥育猪（30～60 kg）推荐添加量是150，生长肥育猪（≥60 kg）推荐添加量是35，种猪推荐添加量是35。",
+    "error_detail": "错误地提高了碱式氯化铜的推荐添加量。",
+    "original_question": "不同生长阶段的猪对碱式氯化铜的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪对硫酸锌的添加量范围是80～220。",
+    "reference_case": "猪对硫酸锌的添加量范围是40～110。",
+    "error_detail": "错误地提高了硫酸锌的添加量范围。",
+    "original_question": "猪对硫酸锌的添加量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪80～220，肉鸡110～240，蛋鸡80～160，肉鸭40～120，蛋鸭60～120，鹅120，肉牛60，奶牛80，鱼类40～60，虾类30。",
+    "reference_case": "猪40～110，肉鸡55～120，蛋鸡40～80，肉鸭20～60，蛋鸭30～60，鹅60，肉牛30，奶牛40，鱼类20～30，虾类15。",
+    "error_detail": "错误地提高了硫酸锌的添加量范围。",
+    "original_question": "不同养殖动物对硫酸锌的添加量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "磷酸氢二钠在畜禽饲料中的适宜添加量是猪0～2.0, 家禽0～3.0, 牛0～3.2, 淡水鱼2.0～4.0 (以NaH2PO4计)。",
+    "reference_case": "猪0～1.0, 家禽0～1.5, 牛0～1.6, 淡水鱼1.0～2.0 (以NaH2PO4计)。",
+    "error_detail": "错误地提高了磷酸氢二钠的适宜添加量。",
+    "original_question": "磷酸氢二钠在畜禽饲料中的适宜添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "氯化镁在猪和家禽饲料中的适宜添加量是猪0～0.08, 家禽0～0.12。",
+    "reference_case": "猪0～0.04, 家禽0～0.06。",
+    "error_detail": "错误地提高了氯化镁的适宜添加量。",
+    "original_question": "氯化镁在猪和家禽饲料中的适宜添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪应激综合征表现为肌肉松弛、尾静止、呼吸缓慢、心跳减慢、皮肤苍白或蓝斑、体温下降、可视黏膜发白；最终缓慢死亡，死后尸僵慢，尸体碱度高，肉质无变化",
+    "reference_case": "猪应激综合征表现为肌肉震颤、尾抖、呼吸困难、心悸、皮肤红斑或紫斑、体温上升、可视黏膜发绀；最终衰竭死亡，死后尸僵快，尸体酸度高，肉质变化（如水猪肉、暗猪肉、背最长肌坏死等）。",
+    "error_detail": "错误地描述了猪应激综合征的症状，包括肌肉状态、体温变化等",
+    "original_question": "猪应激综合征的主要表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪对牧草的消化率最高，羊次之，牛较低，家禽能完全消化牧草中的粗纤维",
+    "reference_case": "牛对牧草的消化率最高，羊次之，猪较低，家禽几乎不能消化牧草中的粗纤维。",
+    "error_detail": "错误地描述了不同动物种类对牧草的消化率",
+    "original_question": "不同动物种类对牧草的消化率有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同种类的家畜在放牧地所占的草地面积根据畜群类型相同，最小宽度需求也相同，如牛群为0.5m，1~2岁小牛为0.5m，1岁以下犊牛为0.5m，母羊群为0.5m，未孕羊、处女羊为0.5m，羯羊为0.5m，马（成年）为0.5m，猪为0.5m",
+    "reference_case": "不同种类的家畜在放牧地所占的草地面积根据畜群类型不同，最小宽度需求也不同，如牛群为1.5~2.0m，1~2岁小牛为1.0~0.4m，1岁以下犊牛为0.5~1.0m，母羊群为0.3~0.5m，未孕羊、处女羊为0.3~0.4m，羯羊为0.3~0.4m，马（成年）为1.5~2.0m，猪为0.5~1.25m。",
+    "error_detail": "错误地描述了不同种类的家畜在放牧地所占的草地面积",
+    "original_question": "不同种类的家畜在放牧地所占的草地面积有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用配合饲料可以减缓生长、延长育肥期5-6个月，降低生猪出栏率50%左右，增加饲料50%-100公斤，增加疫病，增加人工和燃料",
+    "reference_case": "使用配合饲料可以加速生长、缩短育肥期2-3个月，提高生猪出栏率30%左右，节约饲料30%-50公斤，减少疫病，节约人工和燃料。",
+    "error_detail": "错误地描述了使用配合饲料的优点",
+    "original_question": "使用配合饲料有哪些优点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "30-55公斤的猪使用玉米70.5%，豆饼23.0%，麦秸5.0%，高贸10.0%，石粉1.2%，食盐0.3%；55-90公斤的猪使用玉米76.2%，豆饼17.0%，麦秸5.0%，高贸10.0%，石粉1.4%，食盐0.3%。",
+    "reference_case": "30-55公斤的猪使用玉米60.5%，豆饼23.0%，麦秸5.0%，高贸10.0%，石粉1.2%，食盐0.3%；55-90公斤的猪使用玉米66.2%，豆饼17.0%，麦秸5.0%，高贸10.0%，石粉1.4%，食盐0.3%。",
+    "error_detail": "玉米的比例被错误地增加，导致数据型幻觉。",
+    "original_question": "不同体重的猪使用怎样的日粮配方？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "30-55公斤的猪饲料中的钙含量为0.765%，55-90公斤的猪饲料中的钙含量为0.875%；而华南农学院的饲料配方中分别为0.73%、0.71%、0.64%。",
+    "reference_case": "30-55公斤的猪饲料中的钙含量为0.565%，55-90公斤的猪饲料中的钙含量为0.675%；而华南农学院的饲料配方中分别为0.53%、0.51%、0.44%。",
+    "error_detail": "钙含量被错误地增加，导致数据型幻觉。",
+    "original_question": "不同饲料配方中钙的含量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "30-55公斤的猪饲料中的赖氨酸含量为0.955%，55-90公斤的猪饲料中的赖氨酸含量为0.801%；而华南农学院的饲料配方中分别为0.86%、0.71%、0.64%。",
+    "reference_case": "30-55公斤的猪饲料中的赖氨酸含量为0.855%，55-90公斤的猪饲料中的赖氨酸含量为0.701%；而华南农学院的饲料配方中分别为0.76%、0.61%、0.54%。",
+    "error_detail": "赖氨酸含量被错误地增加，导致数据型幻觉。",
+    "original_question": "不同饲料配方中的赖氨酸含量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用东北农学的饲料配方，日增重为669克（饲养杜哈杂猪）。使用华南农学院的饲料配方，日增重为7.86克。",
+    "reference_case": "使用东北农学的饲料配方，日增重为569克（饲养杜哈杂猪）。使用华南农学院的饲料配方，日增重为6.86克。",
+    "error_detail": "日增重被错误地增加，导致数据型幻觉。",
+    "original_question": "使用不同饲料配方的猪的日增重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪在五日时可进行去势，六十日后犍时也可进行。",
+    "reference_case": "猪在三日时可进行去势，六十日后犍时也可进行。",
+    "error_detail": "去势日龄被错误地增加，导致数据型幻觉。",
+    "original_question": "古代猪的适宜去势日龄是？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "年猪肺疫导致死亡890万头。",
+    "reference_case": "年猪肺疫导致死亡790万头。",
+    "error_detail": "死亡数量被错误地增加，导致数据型幻觉。",
+    "original_question": "年猪肺疫导致了什么后果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "现代家猪因经过长期喂养，头部明显缩短，犬齿退化，头长与体长之比约1:5，而野猪的头长与体长比例约1:3。",
+    "reference_case": "现代家猪因经过长期喂养，头部明显缩短，犬齿退化，头长与体长之比约1:6，而野猪的头长与体长比例约1:3。",
+    "error_detail": "头长与体长之比被错误地修改，导致数据型幻觉。",
+    "original_question": "家猪与野猪在体形方面有何区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "中国猪肉产业链的组织模式主要有三种类型：一种是面向低端市场的模式，另一种是面向中高端市场的模式，还有一种是面向超高端市场的模式。",
+    "reference_case": "中国猪肉产业链的组织模式主要有两种类型：一种是面向低端市场的模式，产业链各环节以纯粹的市场交易联结，目标市场为价格低廉、产品差异性小的低端市场；另一种是面向中高端市场的模式，产业链各环节通过契约或合同进行生产，甚至通过一体化进行内部契约生产，目标市场为注重质量、对产品有特定要求的中高端消费者。",
+    "error_detail": "错误地增加了面向超高端市场的模式，数据型幻觉。",
+    "original_question": "中国猪肉产业链的组织模式有哪些类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在差异性指标方面，契约模式最优，纵向一体化模式次之，混合纵向一体化模式最差。",
+    "reference_case": "纵向一体化模式最优，混合纵向一体化模式次之，契约模式最差。",
+    "error_detail": "错误地颠倒了模式优劣顺序，数据型幻觉。",
+    "original_question": "在差异性指标方面，哪种中高档猪肉产业链组织模式表现最优？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在成本指标方面，契约模式最优，纵向一体化模式次之，混合纵向一体化模式最低。",
+    "reference_case": "纵向一体化模式最优，混合纵向一体化模式次之，契约模式最低。",
+    "error_detail": "错误地颠倒了模式优劣顺序，数据型幻觉。",
+    "original_question": "在成本指标方面，哪种中高档猪肉产业链组织模式表现最优？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "采用拴系式饲养时，给饲除粪可以使用一个共同通道，而无拴系式则需要更大的空间和更多的设施，因此两者投资差异不明显。",
+    "reference_case": "采用拴系式饲养时，给饲除粪可以使用一个共同通道，而无拴系式则需要更大的空间和更多的设施，因此两者投资差异明显。",
+    "error_detail": "错误地减小了投资差异的程度",
+    "original_question": "拴系式母猪栏与无拴系式母猪栏的投资差异体现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "无拴系式母猪栏的猪舍跨度为5至8英尺（单列）或10至15英尺（双列）。",
+    "reference_case": "无拴系式母猪栏的猪舍跨度为9至13英尺（单列）或15至24英尺（双列）。",
+    "error_detail": "错误地减小了猪舍跨度的数值",
+    "original_question": "无拴系式母猪栏的猪舍跨度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪栏的长度取决于食槽设计，当猪卧下后能利用食槽上部的空间时，5英尺即可，而在设置高起来的食槽时，6英尺至6英尺6英寸才合适。",
+    "reference_case": "猪栏的长度取决于食槽设计，当猪卧下后能利用食槽上部的空间时，6英尺6英寸即可，而在设置高起来的食槽时，7英尺3英寸至7英尺6英寸才合适。",
+    "error_detail": "错误地减小了猪栏长度的数值",
+    "original_question": "猪栏的长度应根据什么来确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "当猪栏铺有垫草时，门下有至少0.5英寸的空隙以使粪尿通过。",
+    "reference_case": "当猪栏铺有垫草时，门下有至少1英寸的空隙以使粪尿通过。",
+    "error_detail": "错误地减小了门下空隙的数值",
+    "original_question": "当猪栏铺有垫草时，门下需要满足什么条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用防压栏，隔栏与墙之间有5英寸以上的距离，限制母猪活动范围。",
+    "reference_case": "使用防压栏，隔栏与墙之间有10英寸以上的距离，限制母猪活动范围。",
+    "error_detail": "错误地减小了隔栏与墙之间的距离",
+    "original_question": "如何防止母猪压死仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "集中自然光线于排粪区，当隔墙砌到顶时会增加舍内容积，降低温度，但也减少了造价和通风难度。",
+    "reference_case": "集中自然光线于排粪区，当隔墙砌到顶时会减少舍内容积，提高温度，但也增加了造价和通风难度。",
+    "error_detail": "错误地描述了隔墙砌到顶对舍内容积、温度、造价和通风难度的影响。",
+    "original_question": "猪舍平面设计中，如何利用自然光线？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "适宜的周围气温与气流速度对育成猪的作用是影响其生长速度和饲料转化率，一般推荐育成猪适宜气温为25～33°C。",
+    "reference_case": "适宜的周围气温与气流速度对育成猪的作用是影响其生长速度和饲料转化率，一般推荐育成猪适宜气温为15～23°C。",
+    "error_detail": "错误地推荐了育成猪的适宜气温范围，与事实不符。",
+    "original_question": "适宜的周围气温与气流速度对育成猪的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "一个良好的饲养员能在超过两个长小时内看管300头猪，这样可以节省劳动力。",
+    "reference_case": "一个良好的饲养员能在不到一个长小时内看管300头猪，这样可以节省劳动力。",
+    "error_detail": "错误地描述了饲养员看管猪所需的时间，与事实不符。",
+    "original_question": "一个良好装备的饲养员看管300头猪需要多长时间？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "当粪稀在局部篮漏式或全篮漏式圈下贮存时，有害气体成为问题，应避免搅动粪稀，猪舍应充分通气，通风速度应达到200立方英尺/分钟。",
+    "reference_case": "当粪稀在局部篮漏式或全篮漏式圈下贮存时，有害气体成为问题，应避免搅动粪稀，猪舍应充分通气。",
+    "error_detail": "添加了不正确的通风速度数据",
+    "original_question": "有害气体在粪稀贮存时对猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "夏季通风速度为150立方英尺/分钟，冬季通风速度为35立方英尺/分钟。",
+    "reference_case": "夏季通风速度为100立方英尺/分钟，冬季通风速度为25立方英尺/分钟。",
+    "error_detail": "提供了不正确的通风速度数据",
+    "original_question": "夏季和冬季猪舍的通风速度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒侵害猪体后引起多系统进行性功能衰弱，在临床症状表现为生长发育不良和消瘦、皮肤苍白、肌肉衰弱无力、精神差、食欲不振、呼吸困难，有50%的病例出现贫血、黄疸。",
+    "reference_case": "猪圆环病毒侵害猪体后引起多系统进行性功能衰弱，在临床症状表现为生长发育不良和消瘦、皮肤苍白、肌肉衰弱无力、精神差、食欲不振、呼吸困难，有20%的病例出现贫血、黄疸。",
+    "error_detail": "错误地提高了贫血和黄疸病例的比例。",
+    "original_question": "猪圆环病毒病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "盲肠和结肠黏膜充血和出血点，多数病例见盲肠壁水肿而明显增厚。",
+    "reference_case": "盲肠和结肠黏膜充血和出血点，少数病例见盲肠壁水肿而明显增厚。",
+    "error_detail": "错误地将少数病例描述为多数病例。",
+    "original_question": "猪圆环病毒病在盲肠和结肠黏膜有哪些病变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大蒜酸内服量：牛、马 100-200 ml；猪、羊 20-40 ml；禽 4-8 ml；兔 10-20 ml。",
+    "reference_case": "大蒜酸内服量：牛、马 50-100 ml；猪、羊 10-20 ml；禽 2-4 ml；兔 5-10 ml。",
+    "error_detail": "数值偏差",
+    "original_question": "大蒜酸的内服量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "板蓝根内服量：牛、马 60-180 g；猪、羊 30-60 g；家禽 2-4 g。",
+    "reference_case": "板蓝根内服量：牛、马 30-90 g；猪、羊 15-30 g；家禽 1-2 g。",
+    "error_detail": "数值偏差",
+    "original_question": "板蓝根内服量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "硫酸亚铁内服量：牛、马 4.0-20.0 g；猪、羊 1.0-4.0 g（配成 0.4-2% 溶液）。",
+    "reference_case": "牛、马 2.0-10.0 g；猪、羊 0.5-2.0 g（配成 0.2-1% 溶液）。",
+    "error_detail": "数值偏差",
+    "original_question": "硫酸亚铁内服量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "硫酸锌内服量：牛 110 mg/100 kg，混入饲料内服。以 0.04% 混入饲料内为猪预防用。",
+    "reference_case": "牛 55 mg/100 kg，混入饲料内服。以 0.02% 混入饲料内为猪预防用。",
+    "error_detail": "数值偏差",
+    "original_question": "硫酸锌内服量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "亚硒酸钠内服量：牛、马 60-100 mg；犊牛、驹 10-20 mg；仔猪、羔羊 2-4 mg。",
+    "reference_case": "牛、马 30-50 mg；犊牛、驹 5-10 mg；仔猪、羔羊 1-2 mg。",
+    "error_detail": "数值偏差",
+    "original_question": "亚硒酸钠内服量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "醋酸可的松注射液的肌注剂量为：牛、马 1.0-20 g；猪、羊 0.1-0.2 g；禽 4-8 mg/kg。",
+    "reference_case": "醋酸可的松注射液的肌注剂量为：牛、马 0.5-10 g；猪、羊 0.05-0.1 g；禽 2-4 mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "不同动物使用醋酸可的松注射液的肌注剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "食盐用于牛、马拌入饲草的剂量为50-100g；猪、羊的剂量为20-50g。",
+    "reference_case": "食盐用于牛、马拌入饲草的剂量为10-20g；猪、羊的剂量为2-10g。",
+    "error_detail": "数值偏差",
+    "original_question": "食盐用于拌入饲草的剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "胃蛋白酶用于牛、马的内服剂量为20-30g；猪、羊的剂量为5-10g。",
+    "reference_case": "胃蛋白酶用于牛、马的内服剂量为5-10g；猪、羊的剂量为1-2g。",
+    "error_detail": "数值偏差",
+    "original_question": "胃蛋白酶的内服剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "液体石蜡的内服量为：牛、马2000-3000ml；猪200-300ml；羊500-700ml；禽20-30ml。",
+    "reference_case": "液体石蜡的内服量为：牛、马500-1000ml；猪50-100ml；羊100-300ml；禽5-10ml。",
+    "error_detail": "数值偏差",
+    "original_question": "常用的液体石蜡内服量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪口蹄疫灭活疫苗注射在耳根后颈部皮下，剂量为每头猪10 ml。",
+    "reference_case": "猪口蹄疫灭活疫苗注射在耳根后颈部皮下，剂量为每头猪5 ml。",
+    "error_detail": "数值偏差",
+    "original_question": "猪口蹄疫灭活疫苗的注射部位和剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "羊香猪瘟弱毒疫苗保存于15-20℃，有效期为两年。",
+    "reference_case": "羊香猪瘟弱毒疫苗保存于4-10℃，有效期为一年。",
+    "error_detail": "数值偏差",
+    "original_question": "羊香猪瘟弱毒疫苗的保存条件和有效期是多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "先用5%高锰酸钾清洗患部，将坏死组织清除，然后用木焦油—福尔马林（1:1）合剂、抗生素软膏或10%碘酊涂抹，经5—6次处理可以痊愈。",
+    "reference_case": "先用1%高锰酸钾清洗患部，将坏死组织清除，然后用木焦油—福尔马林（2:1）合剂、抗生素软膏或5%碘酊涂抹，经2—3次处理可以痊愈。",
+    "error_detail": "数值偏差",
+    "original_question": "猪坏死性皮炎如何进行药物治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "引进新猪时应隔离观察3-4个月，并进行结核菌素试验，证明无病后才能混群。",
+    "reference_case": "引进新猪时应隔离观察1-2个月，并进行结核菌素试验，证明无病后才能混群。",
+    "error_detail": "数值偏差",
+    "original_question": "引进新猪时应进行何种处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪痘主要发生在2-3周龄的仔猪，病初体温升高到42—42.5℃，精神不振，不愿行动，呈卡他性鼻炎症状。若无并发症，则很少死亡，病程一般约为2周。",
+    "reference_case": "仔猪痘主要发生在4-6周龄的仔猪，病初体温升高到41.5—41.8℃，精神不振，不愿行动，呈卡他性鼻炎症状。若无并发症，则很少死亡，病程一般约为3周。",
+    "error_detail": "修改了仔猪痘发生的周龄、体温升高范围和病程时间，导致数据型幻觉。",
+    "original_question": "仔猪痘的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "链球菌为圆形或卵圆形的球状菌，呈链状排列，长短不一，革兰氏染色一般为阴性。",
+    "reference_case": "链球菌为圆形或卵圆形的球状菌，呈链状排列，长短不一，革兰氏染色一般为阳性。",
+    "error_detail": "将革兰氏染色的结果从阳性错误地改为阴性，导致数据型幻觉。",
+    "original_question": "猪链球菌的形态特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "急性型可见脾肿大呈蓝紫色，全身浆膜和粘膜有出血点；亚急性型和慢性型肠道可见纤维素性坏死性肠炎，肠粘膜表面粗糙，有伪膜覆盖，形成溃疡。",
+    "reference_case": "急性型可见脾肿大呈蓝紫色，全身浆膜和粘膜有出血点；亚急性型和慢性型肠道可见纤维素性坏死性肠炎，肠粘膜表面粗糙，有伪膜覆盖，形成溃疡。",
+    "error_detail": "错误地描述了脾肿大的颜色为蓝紫色，实际上应为暗红色。",
+    "original_question": "猪副伤寒的病理剖检变化主要有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "氯霉素按每公斤体重10-30mg，每日1-2次肌肉注射；土霉素按每公斤体重10-30mg，每日1-2次，肌肉或静脉注射。",
+    "reference_case": "氯霉素按每公斤体重10-30mg，每日1-2次肌肉注射；土霉素按每公斤体重10-30mg，每日1-2次，肌肉或静脉注射。",
+    "error_detail": "错误地提供了氯霉素和土霉素的剂量范围，实际上应根据具体病情调整。",
+    "original_question": "猪副伤寒的抗生素治疗方案是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪痢疾密螺旋体在电镜下可见细胞壁与外膜之间具有7-9根ofilament。",
+    "reference_case": "猪痢疾密螺旋体在电镜下可见细胞壁与外膜之间具有7-9根ofilament。",
+    "error_detail": "错误地描述了ofilament的数量，实际上数量可能有所不同。",
+    "original_question": "猪痢疾密螺旋体在电镜下的细胞结构特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "油菜籽饼中毒的症状包括体温显著升高。",
+    "reference_case": "病猪精神萎靡，站立不稳，时作排尿状，排尿次数增加，有时排血尿，腹痛、肚胀、多下泻，有时大便带血，耳尖、脚部发凉，口鼻等可视黏膜发紫，两鼻孔流出粉红色泡沫状液体，呼吸频数、困难，心率加快，体温变化不大或稍偏低，怀孕母猪可发生流产。",
+    "error_detail": "错误地描述了体温变化，实际上体温变化不大或稍偏低。",
+    "original_question": "油菜籽饼中毒的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "维生素B1缺乏症在猪中的症状包括体温显著升高。",
+    "reference_case": "猪表现为易于疲劳，食欲消失，心跳加快，肌肉萎缩，四脑麻痹，消瘦，有时出现水肿。",
+    "error_detail": "错误地描述了症状，实际上是易于疲劳，食欲消失等。",
+    "original_question": "维生素B1缺乏症在猪中的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪肠阻塞的典型症状包括体温显著升高。",
+    "reference_case": "病初食欲降低，饮水增加，排便减少，粪便干硬呈球状。进而食欲消失，腹围增大，腹痛不安，虽常作排粪动作但排出粪便很少或排不出，粪球表面附有粘液或少许血液，肛门常见红肿。直肠指诊时，直肠内常有多量粗硬而干硬的积粪。瘦小的猪只腹壁触诊时，可触及充满积粪的肠段，并有痛感。病程长的，可继发肠坏死、肠破裂及腹膜炎。",
+    "error_detail": "错误地描述了症状，实际上是食欲降低，饮水增加等。",
+    "original_question": "猪肠阻塞的典型症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪子宫完全脱出时应从䱣结节下10cm处作15cm长垂直切口。",
+    "reference_case": "采用\"剖腹内拉外托手术\"，从䱣结节下5cm处作12cm长垂直切口，依次分离肌肉、剪开腹膜，术者从腹腔内牵拉子宫，助手从阴门名自子宫基部内翻托送，将子宫还纳，术后腹腔内注入青霉素100万单位。",
+    "error_detail": "错误地增加了切口的位置和长度。",
+    "original_question": "猪子宫完全脱出时应采取哪种手术方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "豪猪亚目动物的妊娠期通常为50天左右。",
+    "reference_case": "豪猪亚目动物的妊娠期较长，通常为100天左右。",
+    "error_detail": "错误地缩短了豪猪亚目动物的妊娠期。",
+    "original_question": "豪猪亚目动物的妊娠期与其它啮齿动物相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "南城猪的杂合度为0.4057。",
+    "reference_case": "南城猪的杂合度为0.3057。",
+    "error_detail": "错误地提高了南城猪的杂合度数值。",
+    "original_question": "南城猪的杂合度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "清平猪与其他品种的遗传距离分别为0.174、0.243、0.109、0.162。",
+    "reference_case": "清平猪与其他品种的遗传距离分别为0.074、0.143、0.009、0.062。",
+    "error_detail": "错误地增加了清平猪与其他品种的遗传距离数值。",
+    "original_question": "清平猪与其他品种的遗传距离是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2004年，荆州市生猪瘦肉率是65%",
+    "reference_case": "58%",
+    "error_detail": "数值偏差",
+    "original_question": "2004年，荆州市生猪瘦肉率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2004年，荆州市优质三元猪出栏量是250万头",
+    "reference_case": "212万头",
+    "error_detail": "数值偏差",
+    "original_question": "2004年，荆州市优质三元猪出栏量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2004年，荆州市规模化养猪户的年出栏生猪量是150头以上",
+    "reference_case": "100头以上",
+    "error_detail": "数值偏差",
+    "original_question": "2004年，荆州市规模化养猪户的年出栏生猪量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公安县夹竹园镇在2003年下半年以来，共吸引外出打工人员、棉花加工老板、粮食加工老板等100户投资300余万元，发展优质二元母猪700多头",
+    "reference_case": "公安县夹竹园镇在2003年下半年以来，共吸引外出打工人员、棉花加工老板、粮食加工老板等89户投资200余万元，发展优质二元母猪630多头",
+    "error_detail": "数值偏差",
+    "original_question": "公安县夹竹园镇在吸引外出打工人员和老板投资发展畜牧业方面有哪些具体成果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "荆州市畜牧生产结构调整的近期目标（2005年）包括：生猪出栏400万头，家禽出笼4000万只，草食畜出栏20万头（只），其中牛出栏5万头，羊出栏15万只，水禽出笼900万只，其中鸭出笼800万只，鹅出笼200万只，奶牛发展到1500头，畜牧业产值30亿元（现价），农民人均畜牧业增收30元",
+    "reference_case": "荆州市畜牧生产结构调整的近期目标（2005年）包括：生猪出栏350万头，家禽出笼3800万只，草食畜出栏15万头（只），其中牛出栏4万头，羊出栏11万只，水禽出笼800万只，其中鸭出笼700万只，鹅出笼100万只，奶牛发展到1000头，畜牧业产值24亿元（现价），农民人均畜牧业增收25元",
+    "error_detail": "数值偏差",
+    "original_question": "荆州市畜牧生产结构调整的近期目标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "世界主要畜产品中，肉类总产量最高的品种是牛肉，占比50%",
+    "reference_case": "猪肉，占总量的 44.99 %",
+    "error_detail": "品种和比例错误",
+    "original_question": "世界主要畜产品中，肉类总产量最高的品种是什么，占比多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "从 2000 年到 2006 年，建平地区生猪的数量依然在总的畜种数量中占有优势，并由 00 年的 20 万头增至 06 年的 50 万头，是数量增幅最大的畜种",
+    "reference_case": "从 2000 年到 2006 年，建平地区生猪的数量依然在总的畜种数量中占有优势，并由 00 年的 18.9 万头增至 06 年的 44.4 万头，是数量增幅最大的畜种",
+    "error_detail": "数值偏差",
+    "original_question": "建平地区畜种的数量和结构如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2004年，中国猪肉产量占全球猪肉总产量的50%",
+    "reference_case": "2004年，中国猪肉产量占全球猪肉总产量的47.57%",
+    "error_detail": "比例偏差",
+    "original_question": "中国猪肉行业在世界猪肉市场中所占比重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "通常模板量在 0.1 — 100 ng/μg 之间，大多数情况下为 10-1000 ng。",
+    "reference_case": "通常模板量在 0.1 — 10 ng/μg 之间，大多数情况下为 10-100 ng。",
+    "error_detail": "数值范围被夸大，导致数据型幻觉。",
+    "original_question": "适合我国地方猪品种的 RAPD 反应体系对模板量有何要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在河南某猪场47份母猪血清中，有47份血清呈猪瘟强毒抗体阳性，阳性率为100%。",
+    "reference_case": "在河南某猪场47份母猪血清中，有5份血清呈猪瘟强毒抗体阳性，阳性率为10%。",
+    "error_detail": "错误地夸大了阳性率和阳性数量。",
+    "original_question": "检测河南某猪场母猪血清中的猪瘟抗体阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪瘟弱毒抗体效价OD值较低，保护率有50%。",
+    "reference_case": "猪瘟弱毒抗体效价OD值较高，保护率有93%。",
+    "error_detail": "错误地降低了OD值描述和保护率。",
+    "original_question": "猪瘟弱毒抗体保护率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在9份仔猪血清中，猪瘟弱毒抗体效价OD值很高，保护率有90%。",
+    "reference_case": "在9份仔猪血清中，猪瘟弱毒抗体效价OD值很低，保护率只有17%。",
+    "error_detail": "错误地提高了OD值描述和保护率。",
+    "original_question": "仔猪血清中的猪瘟弱毒抗体保护率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "后备母猪的蓝耳病抗体较高，阳性率为70%。",
+    "reference_case": "后备母猪的蓝耳病抗体较低，阳性率为34%。",
+    "error_detail": "错误地提高了抗体水平和阳性率。",
+    "original_question": "后备母猪的蓝耳病抗体阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "经产母猪的蓝耳病抗体水平较低，阳性率为30%。",
+    "reference_case": "经产母猪的蓝耳病抗体水平较高，阳性率为75%。",
+    "error_detail": "错误地降低了抗体水平和阳性率。",
+    "original_question": "经产母猪的蓝耳病抗体阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "后各猪的阳性率为30%，经产猪的阳性率为20%，仔猪中未发现强毒抗体阳性者。",
+    "reference_case": "后各猪的阳性率为12%，经产猪的阳性率为8.3%，仔猪中未发现强毒抗体阳性者。",
+    "error_detail": "错误地提高了阳性率。",
+    "original_question": "后各猪群中猪瘟强毒抗体阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪中猪瘟弱毒抗体的阳性率为50%。",
+    "reference_case": "仔猪中猪瘟弱毒抗体的阳性率为22%。",
+    "error_detail": "错误地提高了阳性率。",
+    "original_question": "仔猪中猪瘟弱毒抗体阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "后备猪的阳性率为80%，经产猪的阳性率为70%。",
+    "reference_case": "后备猪的阳性率为97%，经产猪的阳性率为91%。",
+    "error_detail": "错误地降低了阳性率。",
+    "original_question": "后备猪和经产猪的猪瘟弱毒抗体阳性率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "光明斯格种猪2～6月龄日增重达800克以上。",
+    "reference_case": "光明斯格种猪2～6月龄日增重达600克以上。",
+    "error_detail": "数值偏差",
+    "original_question": "光明斯格种猪2～6月龄日增重多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "光明斯格种猪的瘦肉率为70%。",
+    "reference_case": "光明斯格种猪的瘦肉率为63.4%。",
+    "error_detail": "数值偏差",
+    "original_question": "光明斯格种猪的瘦肉率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪背脂厚度的临界点是15毫米。",
+    "reference_case": "母猪背脂厚度的临界点是10毫米，低于此厚度会引发繁殖障碍。",
+    "error_detail": "数值偏差",
+    "original_question": "母猪背脂厚度的临界点是多少？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "贵州省生猪养殖的耗粮数量不断增加。无论是散养还是规模养殖，耗粮数量都在不断增加，特别是大规模养殖耗粮数量增加50:1%，每50 kg主产品多消耗粮食35:9 kg。",
+    "reference_case": "贵州省生猪养殖的耗粮数量不断增加。无论是散养还是规模养殖，耗粮数量都在不断增加，特别是大规模养殖耗粮数量增加43:1%，每50 kg主产品多消耗粮食32:9 kg。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "贵州省生猪养殖的耗粮数量有何变化趋势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "贵州省生猪养殖的比较优势可能面临的挑战包括单位主产品耗粮数量增加、玉米总产量有限以及周边省份大力发展生猪的影响。这些因素可能导致贵州发展生猪现有比较优势有强化的倾向。",
+    "reference_case": "贵州省生猪养殖的比较优势可能面临的挑战包括单位主产品耗粮数量增加、玉米总产量有限以及周边省份大力发展生猪的影响。这些因素可能导致贵州发展生猪现有比较优势有弱化的倾向。",
+    "error_detail": "将'弱化'误用为'强化'",
+    "original_question": "贵州省生猪养殖的比较优势可能面临哪些挑战？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "贵州省生猪养殖的规模效应体现在大规模养殖具有明显的规模效应和成本优势，而散养则凭借产品质量和特色以高价获得相对较高的利润。尽管规模养殖每50 kg生猪主产品的总成本要高于散养，但散养的平均出售价格显著高于规模养殖，因而散养的单位净利润反而高于规模养殖。",
+    "reference_case": "贵州省生猪养殖的规模效应体现在大规模养殖具有明显的规模效应和成本优势，而散养则凭借产品质量和特色以高价获得相对较高的利润。尽管规模养殖每50 kg生猪主产品的总成本要低于散养，但散养的平均出售价格显著高于规模养殖，因而散养的单位净利润反而高于规模养殖。",
+    "error_detail": "逻辑矛盾，规模养殖成本被错误描述为高于散养",
+    "original_question": "贵州省生猪养殖的规模效应如何体现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "贵州省生猪养殖的成本收益数据来源于《全国农产品成本收益资料汇编》的历史数据。这些数据用于分析贵州省生猪养殖的成本收益情况。",
+    "reference_case": "贵州省生猪养殖的成本收益数据来源于《全国农产品成本收益资料汇编》的调查数据。这些数据用于分析贵州省生猪养殖的成本收益情况。",
+    "error_detail": "将'调查数据'误用为'历史数据'",
+    "original_question": "贵州省生猪养殖的成本收益数据来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "贵州省生猪养殖的政策建议包括：一是现阶段贵州省可适度扩大生猪养殖的发展规模，但由于饲料原料及饲料价格等问题，未来的前景非常乐观；二是当前既要坚持优质生猪品种散养，以优质特色产品取胜，同时也应适时推进大规模的工厂化养殖，取得规模经济。",
+    "reference_case": "贵州省生猪养殖的政策建议包括：一是现阶段贵州省可适度扩大生猪养殖的发展规模，但由于饲料原料及饲料价格等问题，未来的前景不容乐观；二是当前既要坚持优质生猪品种散养，以优质特色产品取胜，同时也应适时推进大规模的工厂化养殖，取得规模经济。",
+    "error_detail": "将'不容乐观'误用为'非常乐观'",
+    "original_question": "贵州省生猪养殖的政策建议有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "口蹄疫是一种由口蹄疫病毒引起的严重影响牛、羊、猪等偶蹄动物养殖业发展的传染病，被国际兽医局（OIE）列为'B 类烈性传染病'的第一位。",
+    "reference_case": "口蹄疫是一种由口蹄疫病毒引起的严重影响牛、羊、猪等偶蹄动物养殖业发展的传染病，被国际兽医局（OIE）列为'A 类烈性传染病'的第一位。",
+    "error_detail": "将'A 类'误用为'B 类'",
+    "original_question": "什么是口蹄疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "水泡粪模式下的保育猪平均日增重比人工清粪模式降低了8:67%。",
+    "reference_case": "水泡粪模式下的保育猪平均日增重比人工清粪模式降低了6:67%。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "水泡粪模式和人工清粪模式对保育猪的平均日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "水泡粪模式下的保育猪料重比比人工清粪模式上升了8:51%。",
+    "reference_case": "水泡粪模式下的保育猪料重比比人工清粪模式上升了6:51%。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "水泡粪模式和人工清粪模式对保育猪的料重比有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "水泡粪工艺的主要缺点包括增加了粪污处理量及固液分离的设备投资与能耗，固体物料肥效大大降低，增加了粪污水处理的成本，粪便长时间在猪舍中停留会进行厌氧发酵产生有害气体NH3和H2S，并且可能导致猪只生长速度下降。",
+    "reference_case": "水泡粪工艺的主要缺点包括增加了粪污处理量及固液分离的设备投资与能耗，固体物料肥效大大降低，增加了粪污水处理的成本，粪便长时间在猪舍中停留会进行厌氧发酵产生有害气体NH3和H2S。",
+    "error_detail": "添加了未经证实的假设'可能导致猪只生长速度下降'",
+    "original_question": "水泡粪工艺的主要缺点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "试验中保育猪的基础日粮组成包括小麦、玉米、豆粕、膨化大豆、豆油、乳清粉、鱼粉、盐酸赖氨酸、DL-蛋氨酸、食盐、石粉、磷酸氢钙和复合预混料，以及维生素E。",
+    "reference_case": "试验中保育猪的基础日粮组成包括小麦、玉米、豆粕、膨化大豆、豆油、乳清粉、鱼粉、盐酸赖氨酸、DL-蛋氨酸、食盐、石粉、磷酸氢钙和复合预混料。",
+    "error_detail": "添加了未提及的成分'维生素E'",
+    "original_question": "试验中保育猪的基础日粮组成包括哪些主要成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "猪生物发酵床养猪技术的核心原理是利用功能微生物与垫料（如木屑、锯末、米糠、谷壳等）混合发酵，猪只饲养在发酵床上，其排泄的粪尿与垫料在猪只翻拱或人工翻耕下混合发酵，从而实现猪只饲养与粪尿处理同步进行的环保养猪技术，同时提高猪只的生长速度。",
+    "reference_case": "猪生物发酵床养猪技术的核心原理是利用功能微生物与垫料（如木屑、锯末、米糠、谷壳等）混合发酵，猪只饲养在发酵床上，其排泄的粪尿与垫料在猪只翻拱或人工翻耕下混合发酵，从而实现猪只饲养与粪尿处理同步进行的环保养猪技术。",
+    "error_detail": "添加了未经证实的假设'提高猪只的生长速度'",
+    "original_question": "猪生物发酵床养猪技术的核心原理是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪生物发酵床保育期垫料中，分离出的效应细菌包括枯草芽孢杆菌（Bacillus subtilis）、嗜热脂肪芽孢杆菌（Bacillus stearothermophilus）、蜡样芽孢杆菌（Bacillus cereus）、地衣芽孢杆菌（Bacillus licheniformis）、粘质沙雷氏菌（Serratia marcescens）和假单胞杆菌（Pseudomonas），以及大肠杆菌（Escherichia coli）。",
+    "reference_case": "在猪生物发酵床保育期垫料中，分离出的效应细菌包括枯草芽孢杆菌（Bacillus subtilis）、嗜热脂肪芽孢杆菌（Bacillus stearothermophilus）、蜡样芽孢杆菌（Bacillus cereus）、地衣芽孢杆菌（Bacillus licheniformis）、粘质沙雷氏菌（Serratia marcescens）和假单胞杆菌（Pseudomonas）。",
+    "error_detail": "添加了未提及的细菌'大肠杆菌'",
+    "original_question": "在猪生物发酵床保育期垫料中，哪些效应细菌被分离出来？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "枯草芽孢杆菌和蜡样芽孢杆菌在猪生物发酵床中不仅能高效降解猪排泄物和垫料中的有机质，还能产生抗生素，抑制病原菌的繁殖，改善生态环境，但同时也可能抑制有益菌的生长。",
+    "reference_case": "枯草芽孢杆菌和蜡样芽孢杆菌在猪生物发酵床中不仅能高效降解猪排泄物和垫料中的有机质，还能产生抗生素，抑制病原菌的繁殖，改善生态环境。",
+    "error_detail": "添加了未经证实的假设'可能抑制有益菌的生长'",
+    "original_question": "枯草芽孢杆菌和蜡样芽孢杆菌在猪生物发酵床中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪生物发酵床保育期垫料中，菌株B4、B6、B10和B15属于芽孢杆菌属（Bacillus sp.），以及菌株B20。",
+    "reference_case": "在猪生物发酵床保育期垫料中，菌株B4、B6、B10和B15属于芽孢杆菌属（Bacillus sp.）。",
+    "error_detail": "添加了未提及的菌株'B20'",
+    "original_question": "在猪生物发酵床保育期垫料中，哪些菌株属于芽孢杆菌属？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "地衣芽孢杆菌被猪只舔食后，进入消化道能促进肠道内正常生理性厌氧菌的生长，调整肠道菌群失调，恢复肠道功能，提高饲料利用率，增强猪的免疫力，并且可能减少猪只的死亡率。",
+    "reference_case": "地衣芽孢杆菌被猪只舔食后，进入消化道能促进肠道内正常生理性厌氧菌的生长，调整肠道菌群失调，恢复肠道功能，提高饲料利用率，增强猪的免疫力。",
+    "error_detail": "添加了未经证实的假设'可能减少猪只的死亡率'",
+    "original_question": "地衣芽孢杆菌对猪只的肠道健康有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪生物发酵床保育期垫料中，粘质沙雷氏菌（Serratia marcescens）和假单胞杆菌（Pseudomonas）被鉴定为条件致病菌，以及大肠杆菌（Escherichia coli）。",
+    "reference_case": "在猪生物发酵床保育期垫料中，粘质沙雷氏菌（Serratia marcescens）和假单胞杆菌（Pseudomonas）被鉴定为条件致病菌。",
+    "error_detail": "添加了未提及的细菌'大肠杆菌'",
+    "original_question": "在猪生物发酵床保育期垫料中，哪些菌株被鉴定为条件致病菌？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "硒在猪体内的主要吸收部位是胃，少量在小肠其他部位吸收。",
+    "reference_case": "硒在猪体内的主要吸收部位是十二指肠，少量在小肠其他部位吸收。",
+    "error_detail": "将'十二指肠'误用为'胃'",
+    "original_question": "硒在猪体内的主要吸收部位是哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "酵母硒可以改善仔猪的生产性能，提高平均日增重、日采食量和饲料转化率。例如，添加0:5 mg/kg酵母硒可以极显著提高这些指标。",
+    "reference_case": "酵母硒可以改善仔猪的生产性能，提高平均日增重、日采食量和饲料转化率。例如，添加0:3 mg/kg酵母硒可以极显著提高这些指标。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "酵母硒对仔猪生产性能的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "酵母硒可以显著改善猪的繁殖性能，提高产仔数、仔猪体重、成活率和初产母猪受精率。例如，添加0:5 mg/kg酵母硒可以增加母猪体内硒的滞留并转移到孕体组织。",
+    "reference_case": "酵母硒可以显著改善猪的繁殖性能，提高产仔数、仔猪体重、成活率和初产母猪受精率。例如，添加0:3 mg/kg酵母硒可以增加母猪体内硒的滞留并转移到孕体组织。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "酵母硒对猪繁殖性能的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "酵母硒可以增强猪的免疫功能，提高抗氧化能力。例如，添加0:8~1:0 mg/kg酵母硒可以提高谷胱甘肽过氧化物酶（GSH-Px）、超氧化物岐化酶（SOD）和过氧化氢酶（CAT）活性，降低丙二醛（MDA）含量。",
+    "reference_case": "酵母硒可以增强猪的免疫功能，提高抗氧化能力。例如，添加0:2~0:6 mg/kg酵母硒可以提高谷胱甘肽过氧化物酶（GSH-Px）、超氧化物岐化酶（SOD）和过氧化氢酶（CAT）活性，降低丙二醛（MDA）含量。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "酵母硒对猪免疫力和抗氧化能力的影响是什么？",
+    "original_input": ""
+  }
+]

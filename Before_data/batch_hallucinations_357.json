@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加0:02%和0:03%复合酶制剂的仔猪头均毛利分别比对照组高300:05元和400:42元，每千克增重成本分别为60:09元和50:83元，比对照组的60:62元降低。",
+    "reference_case": "添加0:02%和0:03%复合酶制剂的仔猪头均毛利分别比对照组高30:05元和40:42元，每千克增重成本分别为6:09元和5:83元，比对照组的6:62元降低。",
+    "error_detail": "数值被错误地放大了10倍",
+    "original_question": "复合酶制剂对断奶仔猪的经济效益有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "试验期间对照组、酶制剂1组和酶制剂2组的仔猪成活率均为95%。",
+    "reference_case": "试验期间对照组、酶制剂1组和酶制剂2组的仔猪成活率均为100%。",
+    "error_detail": "成活率被错误地降低",
+    "original_question": "复合酶制剂对断奶仔猪的成活率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加0:02%和0:03%复合酶制剂的仔猪料重比分别为3:20和3:10，比对照组的3:40分别提高了8%和12%。",
+    "reference_case": "添加0:02%和0:03%复合酶制剂的仔猪料重比分别为2:20和2:10，比对照组的2:40分别提高了8%和12%。",
+    "error_detail": "料重比数值被错误地增加",
+    "original_question": "复合酶制剂对断奶仔猪的饲料转化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "添加酶制剂可以降低断奶仔猪的饲料转化率。酶制剂1组和酶制剂2组的料重比比对照组分别增加了8%和12%。",
+    "reference_case": "添加酶制剂可以提高断奶仔猪的饲料转化率。酶制剂1组和酶制剂2组的料重比比对照组分别降低了8%和12%。",
+    "error_detail": "指令被完全相反地执行",
+    "original_question": "添加酶制剂对断奶仔猪的饲料转化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加酶制剂可以显著降低仔猪增重的饲料成本，提高经济效益。酶制剂1组和酶制剂2组的头均毛利分别比对照组（400:11元）高300:05元和400:42元。",
+    "reference_case": "添加酶制剂可以显著降低仔猪增重的饲料成本，提高经济效益。酶制剂1组和酶制剂2组的头均毛利分别比对照组（40:11元）高30:05元和40:42元。",
+    "error_detail": "数值被错误地放大了10倍",
+    "original_question": "在断奶仔猪日粮中添加酶制剂对经济效益有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加酶制剂可以明显降低断奶仔猪的腹泻率。试验期间，对照组的腹泻率为47:30%，酶制剂1组为40:00%，酶制剂2组为33:30%。",
+    "reference_case": "添加酶制剂可以明显降低断奶仔猪的腹泻率。试验期间，对照组的腹泻率为27:30%，酶制剂1组为20:00%，酶制剂2组为13:30%。",
+    "error_detail": "腹泻率数值被错误地增加",
+    "original_question": "添加酶制剂对断奶仔猪的腹泻率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在断奶仔猪日粮中添加酶制剂可以显著提高仔猪的日增重。对照组、酶制剂1组和酶制剂2组的平均日增重分别为402克、576克和620克，比对照组分别增加了274克和318克，提高了67:61%和82:18%。",
+    "reference_case": "在断奶仔猪日粮中添加酶制剂可以显著提高仔猪的日增重。对照组、酶制剂1组和酶制剂2组的平均日增重分别为302克、476克和520克，比对照组分别增加了174克和218克，提高了57:61%和72:18%。",
+    "error_detail": "日增重数值被错误地增加",
+    "original_question": "在断奶仔猪日粮中添加酶制剂对仔猪的日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "添加酶制剂后，酶制剂1组和酶制剂2组的仔猪皮肤红润、被毛有光泽，生长整齐度、精神状态等比对照组仔猪好，且食欲旺盛，无应激死亡。此外，酶制剂组的仔猪还表现出更高的社交行为。",
+    "reference_case": "添加酶制剂后，酶制剂1组和酶制剂2组的仔猪皮肤红润、被毛有光泽，生长整齐度、精神状态等比对照组仔猪好，且食欲旺盛，无应激死亡。",
+    "error_detail": "添加了未经证实的社交行为描述",
+    "original_question": "在断奶仔猪日粮中添加酶制剂对仔猪的行为有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "试验母猪在哺乳期18～22天日喂3次，分别在5:00、10:00和17:30。",
+    "reference_case": "试验母猪在哺乳期18～22天日喂4次，分别在5:00、10:00、13:30和17:30。",
+    "error_detail": "饲喂次数被错误地减少",
+    "original_question": "试验中母猪的饲喂频率是如何安排的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "试验猪场位于湖南省农业科学院畜牧兽医研究所科研实验示范基地湖南长沙健丰牧业有限公司和通猪场。",
+    "reference_case": "试验猪场位于湖北省农业科学院畜牧兽医研究所科研实验示范基地湖北黄石健丰牧业有限公司和通猪场。",
+    "error_detail": "地理位置被错误地更改",
+    "original_question": "试验中使用的猪场位于哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "日粮组成包括小麦、43豆粕、次粉、米糠、鱼粉、膨化大豆、膨化菜籽、一级猪油和预混料。",
+    "reference_case": "日粮组成包括玉米、43豆粕、次粉、米糠、鱼粉、膨化大豆、膨化菜籽、一级猪油和预混料。",
+    "error_detail": "主要成分玉米被错误地替换为小麦",
+    "original_question": "试验中母猪的日粮组成包括哪些成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在哺乳期18～22天，母猪的日均采食量1组最高，对照组最低，1组、2组分别比对照组高1:90 kg/d和1:38 kg/d。",
+    "reference_case": "在哺乳期18～22天，母猪的日均采食量1组最高，对照组最低，1组、2组分别比对照组高0:90 kg/d和0:38 kg/d。",
+    "error_detail": "采食量差异被错误地增加",
+    "original_question": "试验中母猪的采食量在哺乳期18～22天有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "产后4～10天适当控制喂料量，逐渐增加喂料量至5:50～6:00 kg，10天后充分自由采食，13天可达到7:00 kg左右。",
+    "reference_case": "产后4～10天适当控制喂料量，逐渐增加喂料量至4:50～5:00 kg，10天后充分自由采食，13天可达到6:00 kg左右。",
+    "error_detail": "喂料量数值被错误地增加",
+    "original_question": "试验中母猪的采食量在产后4～10天如何控制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "日喂4次可有效提高哺乳母猪采食量，使日喂量达到9:00 kg左右（每次喂料3 kg左右）。",
+    "reference_case": "日喂4次可有效提高哺乳母猪采食量，使日喂量达到8:00 kg左右（每次喂料2 kg左右）。",
+    "error_detail": "日喂量和每次喂料量被错误地增加",
+    "original_question": "试验中母猪的采食量在日喂4次时有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在HP-PRRSV GP5蛋白的B细胞表位研究中，区段61～66和146～151被认为是新的表位。",
+    "reference_case": "在HP-PRRSV GP5蛋白的B细胞表位研究中，区段51～56和136～141被认为是新的表位。",
+    "error_detail": "表位区段被错误地更改",
+    "original_question": "高致病性猪繁殖与呼吸综合征病毒（HP-PRRSV）GP5蛋白的B细胞表位研究中，哪些区段被认为是新的表位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PRRSV的主要结构蛋白有核衣壳蛋白（N蛋白）、基质蛋白（M蛋白）和囊膜蛋白（E蛋白，亦称GP3蛋白）。",
+    "reference_case": "PRRSV的主要结构蛋白有核衣壳蛋白（N蛋白）、基质蛋白（M蛋白）和囊膜蛋白（E蛋白，亦称GP5蛋白）。",
+    "error_detail": "囊膜蛋白名称被错误地更改",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的主要结构蛋白有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "HP-PRRSV GP5蛋白的氨基酸序列共有250个氨基酸残基。",
+    "reference_case": "HP-PRRSV GP5蛋白的氨基酸序列共有200个氨基酸残基。",
+    "error_detail": "氨基酸残基数量被错误地增加",
+    "original_question": "高致病性猪繁殖与呼吸综合征病毒（HP-PRRSV）GP5蛋白的氨基酸序列有多少个氨基酸残基？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "PRRSV的GP5蛋白能诱导机体产生中和抗体和细胞凋亡，具有用于研制亚单位疫苗的价值。此外，GP5蛋白还能增强疫苗的免疫持久性。",
+    "reference_case": "PRRSV的GP5蛋白能诱导机体产生中和抗体和细胞凋亡，具有用于研制亚单位疫苗的价值。",
+    "error_detail": "添加了未经证实的免疫持久性描述",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的GP5蛋白在疫苗设计中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "预测HP-PRRSV GP5蛋白的B细胞表位使用了Kyte-Doolittle方案、Emini方案和Jameson-wolf方案，辅以Gamier-Robson方法、Chou-Fasman方法和Karplus-Schulz方法。此外，还使用了Smith-Waterman算法。",
+    "reference_case": "预测HP-PRRSV GP5蛋白的B细胞表位使用了Kyte-Doolittle方案、Emini方案和Jameson-wolf方案，辅以Gamier-Robson方法、Chou-Fasman方法和Karplus-Schulz方法。",
+    "error_detail": "添加了未经提及的Smith-Waterman算法",
+    "original_question": "高致病性猪繁殖与呼吸综合征病毒（HP-PRRSV）GP5蛋白的B细胞表位预测使用了哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "水貂肠炎病毒的HA效价是通过微量血凝法测定的，使用1%鸡红细胞悬液，以50%以上红细胞凝集判为凝集阳性，HA效价用出现阳性凝集的最高稀释度的倒数来表示。",
+    "reference_case": "水貂肠炎病毒的HA效价是通过微量血凝法测定的，使用1%猪红细胞悬液，以50%以上红细胞凝集判为凝集阳性，HA效价用出现阳性凝集的最高稀释度的倒数来表示。",
+    "error_detail": "红细胞来源被错误地更改",
+    "original_question": "水貂肠炎病毒的HA效价是如何测定的？",
+    "original_input": ""
+  }
+]

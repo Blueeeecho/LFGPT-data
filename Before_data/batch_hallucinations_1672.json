@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "有时猪群特别严重，最好方法就是扑杀后重建新群，且需要等待至少一年。",
+    "reference_case": "有时猪群特别严重，最好方法就是扑杀后重建新群。",
+    "error_detail": "添加了不必要的时间限制，导致数据型幻觉。",
+    "original_question": "建立无严重地方性疾病猪群的方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "重新建立猪群最好选择冬天，因为低温可以杀死病原体。",
+    "reference_case": "重新建立猪群最好选择夏天，因为许多病原在阳光充足的夏天很快就被灭活。",
+    "error_detail": "错误地推荐了冬天作为最佳时机，与当前推荐的标准相矛盾。",
+    "original_question": "重新建立猪群的最佳时机是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "重建猪群时不需要特别注意猪舍的清洗和消毒。",
+    "reference_case": "重建时间与猪群资金循环结合起来，减少费用；猪舍清洗后6周内没有新猪，且每一个空舍都贴了封条；彻底清扫猪舍，采用高压清洗器、洗涤剂、相应的消毒剂等；多孔的东西如垫草、饲料要运走，如果可能，整个猪舍可用福尔马林熏蒸；有些地方要用喷灯消毒；同时还要彻底消灭啮齿动物。",
+    "error_detail": "完全忽略了猪舍清洗和消毒的重要性，与指令严重偏离。",
+    "original_question": "重建猪群时需要注意哪些事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "治疗性早期断乳技术的主要特点是完全替代了SPF猪生产。",
+    "reference_case": "结合了治疗性早期断奶技术的一些特点，是SPF猪生产的一种替代方法。",
+    "error_detail": "错误地将治疗性早期断乳技术描述为完全替代SPF猪生产，概念混淆。",
+    "original_question": "治疗性早期断乳技术的主要特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "封闭群成年母猪对所有流行性传染病具有免疫力。",
+    "reference_case": "封闭群成年母猪对大多数流行性传染病具有免疫力。",
+    "error_detail": "夸大了免疫力的范围，从'大多数'变为'所有'，导致数据型幻觉。",
+    "original_question": "封闭群成年母猪对哪些传染病具有免疫力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "新生仔猪在出生后几天时间就能够建立一个像成年猪群那样完善的菌丛。",
+    "reference_case": "新生仔猪在出生后几周时间才能够建立一个像成年猪群那样完善的菌丛。",
+    "error_detail": "错误地缩短了建立完善菌丛所需的时间，从'几周'变为'几天'。",
+    "original_question": "新生仔猪在出生后多久才能建立完善的菌丛？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "避免仔猪受到猪群中病原微生物的感染的最佳方法是完全不进行任何隔离措施。",
+    "reference_case": "把封闭群的较大的母猪与其它交叉污染群和已经污染的环境中分开，隔离饲养在一个小范围同年龄组内，并隔离饲养他们最大的、健康状况最佳的4-5日龄断奶仔猪，可以在生前5天至产后5天的母猪和产后10-20日龄仔猪的药物治疗提供附加保护。",
+    "error_detail": "提出了与现有科学建议完全相反的措施，导致逻辑矛盾。",
+    "original_question": "哪些措施可以避免仔猪受到猪群中病原微生物的感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每窝中的仔猪在10日龄时体重超过2kg即可实施断奶。",
+    "reference_case": "每窝中的仔猪在5日龄时体重超过2kg即可实施断奶。",
+    "error_detail": "错误地延长了断奶的日龄标准，从'5日龄'变为'10日龄'。",
+    "original_question": "断奶仔猪的体重标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "SPF猪建群的宗旨是完全无菌地饲养仔猪和母猪。",
+    "reference_case": "建群的宗旨是可能无菌地把仔猪和母猪分开，仔猪的饲养始终都与那些非SPF化的猪分开，同时在自然状态下繁育建立SPF猪群。",
+    "error_detail": "错误地将'可能无菌'描述为'完全无菌'，概念混淆。",
+    "original_question": "SPF猪建群的宗旨是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "建立猪群的概念基于所有未出生临产期胎儿都没有传染性微生物的设想。",
+    "reference_case": "建立猪群的概念基于未出生临产期胎儿没有传染性微生物的设想，虽然有些病毒可以穿过胎盘屏障，这个概念适用于大多数能生存的胎儿和大多数传染性微生物。",
+    "error_detail": "添加了'所有'这一绝对化的假设，忽略了例外情况。",
+    "original_question": "建立猪群的概念基于什么假设？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "封闭猪群的基因改良方法不包括任何人工干预措施。",
+    "reference_case": "封闭猪群的基因改良方法包括自然饲养的种群更新、基因改良的其它办法（如人工授精、胚胎移植和治疗性早期断奶技术）等。",
+    "error_detail": "完全排除了人工干预措施，与指令严重偏离。",
+    "original_question": "封闭猪群的基因改良方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "更新种群的安全选择标准包括引入任何种类的公母猪进行杂交。",
+    "reference_case": "更新种群的安全选择标准包括引入纯种祖代公母猪进行杂交，减少引入疾病的危险性。",
+    "error_detail": "错误地将'纯种祖代公母猪'泛化为'任何种类的公母猪'，概念混淆。",
+    "original_question": "更新种群的安全选择标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "人工授精的缺点包括可能导致繁殖性能提高。",
+    "reference_case": "人工授精的缺点包括只携带一半基因成分，可能导致繁殖性能降低，并且容易携带疾病。",
+    "error_detail": "错误地将'繁殖性能降低'描述为'繁殖性能提高'，数据型幻觉。",
+    "original_question": "人工授精在猪群基因改良中的缺点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "人工授精过程中减少疾病危险的唯一方法是检疫公猪。",
+    "reference_case": "人工授精过程中可以通过检疫公猪、远离其它猪和性畜饲养、达到高标准卫生条件来减少疾病危险。",
+    "error_detail": "过度强调了检疫公猪的重要性，忽略了其他同等重要的措施。",
+    "original_question": "人工授精过程中如何减少疾病危险？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "外科手术和代养母猪的基因改良方法的优点包括增加了感染伪狂犬病、猪瘟及传染病的风险。",
+    "reference_case": "优点包括相对安全，主要危险是感染伪狂犬病、猪瘟及传染病。",
+    "error_detail": "错误地将危险描述为优点，因果倒置。",
+    "original_question": "外科手术和代养母猪的基因改良方法有哪些优点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "治疗性早期断奶技术（MEW）主要用于两个已经建立猪群之间的基因转移。",
+    "reference_case": "MEW主要用于运输和同步化发情，不适用于两个已经建立猪群之间的基因转移。",
+    "error_detail": "错误地描述了MEW的主要应用，概念混淆。",
+    "original_question": "治疗性早期断奶技术（MEW）的主要应用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪的根除计划不需要任何特殊措施，如限制猪的流动或消毒。",
+    "reference_case": "通过检査、通知、屠宰检验及其它措施来根除一些特殊疾病，如限制猪的流动，煮沸垃圾，房舍和车辆的消毒等。",
+    "error_detail": "完全忽略了根除计划中的关键措施，与指令严重偏离。",
+    "original_question": "什么是猪的根除计划？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "传染病排除一般是在没有疫苗免疫和临床病例通知书的基础上进行的。",
+    "reference_case": "传染病排除一般是在疫苗免疫和临床病例通知书的基础上，限制猪的流通，禁止喂一些剩饭给猪。",
+    "error_detail": "错误地描述了传染病排除的基础，概念混淆。",
+    "original_question": "什么是传染的排除？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "SPF猪指无任何疾病的猪群。",
+    "reference_case": "SPF猪指无EP（猪繁殖与呼吸综合症）、AR（猪瘟）、布氏杆菌病、螺旋体病及外寄生虫的猪群。",
+    "error_detail": "夸大了SPF猪的健康状态，从特定疾病变为'任何疾病'。",
+    "original_question": "什么是SPF猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "根除计划对养猪业带来的唯一好处是直接利益。",
+    "reference_case": "一些计划，例如，ASF和HC的根除给养猪业带来直接利益，而其它计划也涉及SVD，也给养牛业带来更多的利益。",
+    "error_detail": "忽略了根除计划对其他行业的影响，添加了不必要的限制。",
+    "original_question": "根除计划对养猪业带来什么好处？",
+    "original_input": ""
+  }
+]

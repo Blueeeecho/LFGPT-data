@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "如果饲料供给不足，猪的增重会减慢50%，饲料浪费更大，出栏也会延迟一个月。",
+    "reference_case": "如果饲料供给不足，猪的增重会减慢，饲料浪费更大，出栏也会延迟。",
+    "error_detail": "夸大了饲料供给不足对猪增重和出栏时间的影响",
+    "original_question": "如果饲料供给不足，会造成什么后果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维生素 C 具有防止齿龈、皮下、粘膜出血和解毒的作用，在实际饲养中，供给猪、禽以丰富的维生素 C，可以提高免疫力和促进生长。",
+    "reference_case": "维生素 C 具有防止齿龈、皮下、粘膜出血和解毒的作用，在实际饲养中，供给猪、禽以丰富的维生素 C，可以提高饲料利用效率和促进生长。",
+    "error_detail": "将'饲料利用效率'错误地替换为'免疫力'",
+    "original_question": "维生素 C 在畜禽饲养中有什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "钙与锌、镁、锰、铜之间存在协同关系，钙过多增加对镁、锰的吸收，并易发生和减轻猪缺锌症状。",
+    "reference_case": "钙与锌、镁、锰、铜之间存在拮抗关系，钙过多降低对镁、锰的吸收，并易发生和加重猪缺锌症状；锰过多影响钙的吸收，并易引起奶牛的钙、磷负平衡；钙过多对铜的平衡不利，可使需铜量急剧增加；锌过多易引起铜代谢紊乱，导致贫血。",
+    "error_detail": "错误地描述了钙与锌、镁、锰、铜之间的关系为协同而非拮抗",
+    "original_question": "钙与锌、镁、锰、铜之间存在何种关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用鲜草按体重 10-15% 的给量喂猪，以代替部分精料，5公斤鲜草相当于1公斤精料的效果，节省50%的饲料费用。",
+    "reference_case": "用鲜草按体重 5-8% 的给量喂猪，以代替部分精料，7公斤鲜草相当于1公斤精料的效果，节省30%的饲料费用。",
+    "error_detail": "夸大了鲜草的给量和节省的饲料费用比例",
+    "original_question": "用鲜草喂猪时，如何节省饲料成本？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "喂猪时，能提高母猪奶量及仔猪增重，4个月平均日增重0.6公斤。",
+    "reference_case": "喂猪时，能提高母猪奶量及仔猪增重，4个月平均日增重0.4公斤。",
+    "error_detail": "夸大了苦荬菜对仔猪日增重的影响",
+    "original_question": "喂猪时，如何利用苦荬菜？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "半干青贮料风干快、损失少，易切碎，且含水量适中。",
+    "reference_case": "半干青贮料风干慢、损失多，不易切碎，且含水量太高。",
+    "error_detail": "错误地描述了半干青贮料的特性",
+    "original_question": "半干青贮料为何不适合饲喂鸡、猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "直接用豆类作饲料比用豆饼作饲料更好，因为猪对大豆中氮的利用率高于豆饼，且大豆的饲养效果对仔猪初生重、断奶重及母猪产奶量有良好影响。",
+    "reference_case": "直接用豆类作饲料不如用豆饼作饲料，因为猪对大豆中氮的利用率不如豆饼，且大豆的饲养效果对仔猪初生重、断奶重及母猪产奶量有不良影响。",
+    "error_detail": "错误地描述了豆类和豆饼的饲养效果",
+    "original_question": "直接用豆类作饲料与用豆饼作饲料的饲养效果有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "苜蓿草粉中粗纤维含量少，消化能值相对较高，约为大麦的75%。",
+    "reference_case": "苜蓿草粉中粗纤维含量多，消化能值相对较低，约为大麦的55%。",
+    "error_detail": "错误地描述了苜蓿草粉的粗纤维含量和消化能值",
+    "original_question": "为什么苜蓿草粉用以喂猪时，消化能值约为大麦的55%？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "全日粮型配合饲料的特点是按照不同畜禽的生理特点和营养需要量，将单一饲料以及添加剂配成均匀一致、营养全面的混合饲料，直接饲喂畜禽，不再喂其它饲料。",
+    "reference_case": "全日粮型配合饲料的特点是按照不同畜禽的生理特点和营养需要量，将多种饲料以及添加剂配成均匀一致、营养全面的混合饲料，直接饲喂畜禽，不再喂其它饲料，多用于家禽、猪以及牛、羊肥育后期和毛皮兽，并适用于饲料和畜禽饲养的集中地区。",
+    "error_detail": "错误地将'多种饲料'描述为'单一饲料'",
+    "original_question": "全日粮型配合饲料的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "湿贮或湿处理谷实饲料的主要目的是增加干燥费用和利用阴雨天气的优势，长期贮存作饲料用。优点是损失很大，并可形成1.0—1.5%的有机酸（乳酸、醋酸）和酒精，具有酸香味，喂牛、羊、猪效果均好。",
+    "reference_case": "湿贮或湿处理谷实饲料的主要目的是减少干燥费用和避免阴雨天气的损失，短期贮存作饲料用。优点是损失很小，并可形成0.2—0.9%的有机酸（乳酸、醋酸）和酒精，具有酸香味，喂牛、羊、猪效果均好。",
+    "error_detail": "错误地描述了湿贮或湿处理谷实饲料的目的和特性",
+    "original_question": "湿贮或湿处理谷实饲料的主要目的和优点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "粗饲料粉碎后喂牛，有机物消化率一般可提高5%左右，但干物质采食量可降低15%；对猪其消化率是很高的。",
+    "reference_case": "粗饲料粉碎后喂牛，有机物消化率一般可降低5%左右，但干物质采食量可提高15%；对猪其消化率是很低的。",
+    "error_detail": "错误地描述了粗饲料粉碎后对牛和猪消化率的影响",
+    "original_question": "粉碎粗饲料对牛和猪的消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "青料打浆生喂比切碎生喂采食慢，体重55公斤左右的猪，喂切碎煮熟的红薯只吃进12公斤，但打浆生喂可吃进8.6公斤；猪日增重分别为170克和205克。",
+    "reference_case": "青料打浆生喂比切碎生喂采食快，体重55公斤左右的猪，喂切碎煮熟的红薯只吃进8.6公斤，但打浆生喂可吃进12公斤；猪日增重分别为205克和170克。",
+    "error_detail": "错误地描述了青料打浆和切碎对猪采食量和日增重的影响",
+    "original_question": "青饲料打浆和切碎相比，对猪的采食量和日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪奶中含蛋白质约为10%。",
+    "reference_case": "猪奶中含蛋白质约为6%。",
+    "error_detail": "夸大了猪奶中蛋白质的含量",
+    "original_question": "猪奶中的蛋白质含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪对可消化粗蛋白的利用效率为90%。",
+    "reference_case": "猪对可消化粗蛋白的利用效率为70%。",
+    "error_detail": "夸大了猪对可消化粗蛋白的利用效率",
+    "original_question": "猪对可消化粗蛋白的利用效率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "断奶重的差距虽然不大，但在高饲养水平下，生长补偿时间很短，悬殊较大的情况下能完全补偿。",
+    "reference_case": "断奶重的差距虽然不大，但在低饲养水平下，生长补偿时间很长，悬殊较大的情况下不能完全补偿。",
+    "error_detail": "错误地描述了饲养水平对生长补偿时间的影响",
+    "original_question": "仔猪断奶重对断奶后增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪利用代谢能的效率约为80%，用于合成体蛋白的效率平均约为60.6%，用于合成体脂肪的效率则平均可达85%。",
+    "reference_case": "生长猪利用代谢能的效率约为68%，用于合成体蛋白的效率平均约为52.6%，用于合成体脂肪的效率则平均可达75%。",
+    "error_detail": "夸大了生长猪利用代谢能的效率",
+    "original_question": "生长猪利用代谢能的效率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪早喂初乳可以减少因炎热被挤压或患高血糖症的死亡率。",
+    "reference_case": "仔猪早喂初乳可以减少因寒冷被挤压或患低血糖症的死亡率。",
+    "error_detail": "错误地描述了仔猪早喂初乳减少的死亡率原因",
+    "original_question": "仔猪早喂初乳可以减少哪些死亡率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "生长猪饲养标准中的营养需要量是根据一定体重范围内的最高需要量确定的。",
+    "reference_case": "生长猪饲养标准中的营养需要量是根据一定体重范围内的平均需要量确定的。",
+    "error_detail": "错误地描述了生长猪饲养标准中营养需要量的确定依据",
+    "original_question": "生长猪饲养标准中的营养需要量是如何确定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲料粗蛋白质转化为动物产品蛋白的效率一般以生产牛奶最高（40%），次为肉鸡（35%）、鸡蛋（30%）、肉猪（29%），而肉牛最低（15%）。",
+    "reference_case": "饲料粗蛋白质转化为动物产品蛋白的效率一般以生产牛奶最高（30%），次为肉鸡（25%）、鸡蛋（20%）、肉猪（19%），而肉牛最低（5%）。",
+    "error_detail": "夸大了饲料粗蛋白质转化为动物产品蛋白的效率",
+    "original_question": "饲料粗蛋白质转化为动物产品蛋白的效率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "育肥猪的最适宜环境温度为25至28℃。",
+    "reference_case": "育肥猪的最适宜环境温度为15至18℃。",
+    "error_detail": "错误地描述了育肥猪的最适宜环境温度",
+    "original_question": "育肥猪的最佳环境温度是多少？",
+    "original_input": ""
+  }
+]

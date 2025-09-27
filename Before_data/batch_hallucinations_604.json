@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "喷雾干燥猪血浆蛋白粉（SDPP）的作用机理包括：富含蛋白质，消化率高，能满足断奶仔猪的营养需要；含有丰富的免疫球蛋白，可以提高仔猪机体内的抗体水平；适口性好，致敏作用大；可能含有一些未知促生长因子，可以提高断奶仔猪的生长与腹泻预防。",
+    "reference_case": "喷雾干燥猪血浆蛋白粉（SDPP）的作用机理包括：富含蛋白质，消化率高，能满足断奶仔猪的营养需要；含有丰富的免疫球蛋白，可以提高仔猪机体内的抗体水平；适口性好，致敏作用小；可能含有一些未知促生长因子，可以提高断奶仔猪的生长与腹泻预防。",
+    "error_detail": "将'致敏作用小'错误地改为'致敏作用大'",
+    "original_question": "喷雾干燥猪血浆蛋白粉（SDPP）的作用机理是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "配制 20% (w/v) 的 EDTA-Na 溶液，取该溶液 100 μl 于 10 ml 离心管中作为抗凝剂。",
+    "reference_case": "配制 10% (w/v) 的 EDTA-Na 溶液，取该溶液 100 μl 于 10 ml 离心管中作为抗凝剂。",
+    "error_detail": "将'10%'错误地改为'20%'",
+    "original_question": "门静脉血流量测定中，动-静脉血液前处理方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "然后在 7500 II Spectrophotometer 分光光度计于波长 550 nm 处测定吸光度（A）",
+    "reference_case": "然后在 8500 II Spectrophotometer 分光光度计于波长 550 nm 处测定吸光度（A）",
+    "error_detail": "将'8500 II'错误地改为'7500 II'",
+    "original_question": "门静脉血流量测定中，样品 PAH 的测定步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PAH 为猪所吸收，能为肝所清除",
+    "reference_case": "PAH 不为猪所吸收，不能为肝所清除",
+    "error_detail": "将'不为'和'不能为'错误地改为'为'和'能为'",
+    "original_question": "门静脉血流量测定中，PAH 的特性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "灌注开始 5 min 内，以 4:82 ml/min 的速度通过注射泉连续不断的向猪回肠肠系膜静脉注射 1% PAH 溶液",
+    "reference_case": "灌注开始 5 min 内，以 3:82 ml/min 的速度通过注射泉连续不断的向猪回肠肠系膜静脉注射 1% PAH 溶液",
+    "error_detail": "将'3:82'错误地改为'4:82'",
+    "original_question": "门静脉血流量测定中，PAH 溶液灌注的具体步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "牛初乳的IgG浓度为51 mg/ml",
+    "reference_case": "牛初乳的IgG浓度为41 mg/ml",
+    "error_detail": "将'41'错误地改为'51'",
+    "original_question": "在初乳对新生仔猪早期生长发育影响的研究中，牛初乳的IgG浓度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "PC组和BC组在出生后体重与GS组比较差异不显著",
+    "reference_case": "PC组和BC组在出生后体重与GS组比较差异显著（P<0:01:，而PC组和BC组血清中的蛋白浓度高于GS组，这说明出生后仔猪血清中蛋白浓度与仔猪体重的变化具有一定的关系。",
+    "error_detail": "将'差异显著'错误地改为'差异不显著'",
+    "original_question": "初乳对新生仔猪血清蛋白浓度的影响与体重变化有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "摄入猪和牛初乳的PC组和BC组仔猪在生后48小时内血清总蛋白的浓度显著低于GS组",
+    "reference_case": "摄入猪和牛初乳的PC组和BC组仔猪在生后48小时内血清总蛋白的浓度显著高于GS组（P<0:01:，这表明初乳能显著提高新生仔猪的血清总蛋白浓度。",
+    "error_detail": "添加了不存在的假设'显著低于GS组'",
+    "original_question": "初乳对新生仔猪血清总蛋白浓度的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "哺喂猪初乳的PC组仔猪胃肠道的发育比哺喂牛初乳的BC组和葡萄糖盐水的GS组慢",
+    "reference_case": "哺喂猪初乳的PC组仔猪胃肠道的发育比哺喂牛初乳的BC组和葡萄糖盐水的GS组快，这可能与猪初乳中所含有的某些因子影响有关。",
+    "error_detail": "将'快'错误地改为'慢'",
+    "original_question": "初乳对新生仔猪胃肠道发育的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "哺喂初乳组的仔猪（PC组和BC组）体重增加较慢",
+    "reference_case": "哺喂初乳组的仔猪（PC组和BC组）体重增加较快，与初生时体重相比差异极显著（P<0:01:，而GS组出生后体重未有明显变化。",
+    "error_detail": "将'较快'错误地改为'较慢'",
+    "original_question": "初乳对新生仔猪体重的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "试验动物为北京金环畜牧公司提供的36头健康的杜长大新生仔猪",
+    "reference_case": "试验动物为烟台金环畜牧公司提供的36头健康的杜长大新生仔猪（杜洛克×长大）",
+    "error_detail": "将'烟台'错误地改为'北京'",
+    "original_question": "在初乳对新生仔猪早期生长发育影响的研究中，试验动物的来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "试验分为4组，每组2个重复，每个重复6头仔猪",
+    "reference_case": "试验分为3组，每组2个重复，每个重复6头仔猪。具体分组为葡萄糖盐水组（CS组）、牛初乳组（BC组）和猪初乳组（PC组），其中CS组和BC组在出生后即刻隔离并分别补喂葡萄糖盐水和牛初乳，PC组则完全自然哺乳。",
+    "error_detail": "将'3组'错误地改为'4组'",
+    "original_question": "在初乳对新生仔猪早期生长发育影响的研究中，试验是如何分组的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "初乳对新生仔猪的早期生长发育有重要影响，特别是提供营养来源和主动免疫",
+    "reference_case": "初乳对新生仔猪的早期生长发育有重要影响，特别是提供营养来源和被动免疫。初乳中含有丰富的蛋白质如酪蛋白及一些生长调节因子和活性肽，这些成分对仔猪的生长发育至关重要。",
+    "error_detail": "将'被动免疫'错误地改为'主动免疫'",
+    "original_question": "初乳对新生仔猪的早期生长发育有哪些重要影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "PC组的胃重/体重在8小时左右最大，为0:82%",
+    "reference_case": "PC组的胃重/体重在8小时左右最大，为0:72%",
+    "error_detail": "将'0:72%'错误地改为'0:82%'",
+    "original_question": "初乳对新生仔猪胃重和肠重的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "PC组和BC组在16小时左右血清蛋白浓度出现高峰，分别为29:35±4:2 mg/ml和24:62±3:8 mg/ml",
+    "reference_case": "PC组和BC组在16小时左右血清蛋白浓度出现高峰，分别为39:35±4:2 mg/ml和34:62±3:8 mg/ml，之后逐渐下降，而GS组蛋白浓度高峰不明显，在8小时左右蛋白浓度最低。",
+    "error_detail": "将'39:35'和'34:62'错误地改为'29:35'和'24:62'",
+    "original_question": "初乳对新生仔猪血清蛋白浓度的动态变化有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "山东省临朐县在畜牧强县建设中，积极引导农民创办了以奶牛、猪（仔猪）、鲜蛋、波尔山羊为主的34个畜牧专业合作社",
+    "reference_case": "山东省临朐县在畜牧强县建设中，积极引导农民创办了以奶牛、猪（仔猪）、鲜蛋、波尔山羊为主的24个畜牧专业合作社，共吸纳2万余个农户加入合作社。这些合作社提供良种、技术、防疫治病、实物供应、产品销售等系列化服务和民主化管理，帮助农民提高生产效益。",
+    "error_detail": "将'24个'错误地改为'34个'",
+    "original_question": "山东省临朐县在畜牧强县建设中采取了哪些措施来提高农民的组织化程度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "我国养殖业的生产水平较低，例如肉猪的饲料转化率国内是4:5，而世界先进水平是2:4",
+    "reference_case": "我国养殖业的生产水平较低，例如肉猪的饲料转化率国内是3:5，而世界先进水平是2:4；肉鸡国内是2:0～2:2，世界先进水平是1:6。",
+    "error_detail": "将'3:5'错误地改为'4:5'",
+    "original_question": "我国养殖业的生产水平与国际先进水平相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "锌在转基因动物生产中具有重要应用前景。例如，通过基因工程技术将锌触发因子序列整合到猪染色体的脂肪生长控制基因中",
+    "reference_case": "锌在转基因动物生产中具有重要应用前景。例如，通过基因工程技术将锌触发因子序列整合到猪染色体的非脂肪生长控制基因中，可以在屠宰前几周添加锌来启动生长基因，促进猪的非脂肪生长，提高胴体瘦肉率。",
+    "error_detail": "将'非脂肪生长控制基因'错误地改为'脂肪生长控制基因'",
+    "original_question": "锌在转基因动物生产中的应用前景如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在猪的ES细胞研究中，STO饲养层可以促进猪囊胚的贴壁和ICM克隆的形成",
+    "reference_case": "在猪的ES细胞研究中，猪成纤维细胞饲养层可以促进猪囊胚的贴壁和ICM克隆的形成，而STO饲养层虽然可以使猪囊胚附着，但ICM不增殖。",
+    "error_detail": "将'STO饲养层虽然可以使猪囊胚附着，但ICM不增殖'错误地改为'STO饲养层可以促进猪囊胚的贴壁和ICM克隆的形成'",
+    "original_question": "猪的ES细胞研究中，哪些饲养层对猪囊胚的贴壁和ICM克隆的形成有促进作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "细胞因子在动物免疫抑制中的作用包括降低免疫抑制动物的免疫功能",
+    "reference_case": "细胞因子在动物免疫抑制中的作用包括提高免疫抑制动物的免疫功能或作为一种免疫佐剂。例如，TNF-α和IL-1α能促进猪体内白细胞的运输。许多病原感染后可以引起家畜免疫功能不全或丧失，这些病原包括病毒、细菌、真菌、寄生虫等，研究表明一些病原所引起的免疫抑制与IL-2等细胞因子分泌水平降低或表达不正常有关。",
+    "error_detail": "将'提高'错误地改为'降低'",
+    "original_question": "细胞因子在动物免疫抑制中的作用是什么？",
+    "original_input": ""
+  }
+]

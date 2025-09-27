@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟病毒主要攻击猪体的心脏。",
+    "reference_case": "猪瘟病毒主要攻击猪体的扁桃体。",
+    "error_detail": "将攻击的主要器官错误地描述为心脏，而非扁桃体。",
+    "original_question": "猪瘟病毒主要攻击猪体的哪个器官？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "感染后24小时即可在扁桃体内发现病毒，48小时血液中病毒浓度达到致病程度。",
+    "reference_case": "感染后7～16小时即可在扁桃体内发现病毒，16～18小时血液中病毒浓度达到致病程度，15～24小时病毒出现于淋巴系统和血管壁，48小时后病毒出现于肝、肾、脾等各实质器官，经7～8天病毒血症达最高峰。",
+    "error_detail": "错误地描述了病毒发现和达到致病浓度的时间。",
+    "original_question": "猪瘟病毒在扁桃体内的增殖过程是如何进行的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪被猪瘟病毒感染后，其主要的病理变化是血细胞增加和免疫功能增强。",
+    "reference_case": "猪被猪瘟病毒感染后，其主要的病理变化是血细胞减少和免疫功能被抑制，表现为淋巴细胞数量丢失和免疫抑制，其中与免疫抑制有关的主要特征是白细胞减少和淋巴组织萎缩。",
+    "error_detail": "错误地描述了感染后的病理变化，将减少和抑制错误地描述为增加和增强。",
+    "original_question": "猪瘟病毒感染对猪的免疫系统有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪在猪瘟病毒感染的急性期，单核细胞的数量明显减少，IgM+细胞的数量明显增加。",
+    "reference_case": "仔猪在猪瘟病毒感染的急性期，单核细胞的数量明显增加，IgM+细胞的数量明显减少，CD4+淋巴细胞数量在感染后5天稍有减少，而CD8+淋巴细胞则无变化。",
+    "error_detail": "错误地描述了单核细胞和IgM+细胞的数量变化。",
+    "original_question": "猪瘟病毒感染对外周血细胞亚群有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪瘟病毒感染后引起严重的白细胞增加，特别是在感染后1天发现B淋巴细胞和T淋巴细胞增加。",
+    "reference_case": "猪瘟病毒感染后引起严重的白细胞减少，特别是在感染后1天发现B淋巴细胞和T淋巴细胞丢失，同时检测到血流中线粒体跨膜潜力减少（凋亡的早期标志），导致T淋巴细胞凋亡敏感性增加。",
+    "error_detail": "错误地描述了白细胞和淋巴细胞的变化趋势，将减少和丢失错误地描述为增加。",
+    "original_question": "猪瘟病毒感染导致白细胞减少的机制是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟病毒仅在CD4+和CD8+淋巴细胞中复制。",
+    "reference_case": "猪瘟病毒在所有的单核细胞亚群中复制，包括CD4+，CD8+，lgM+淋巴细胞、单核细胞和肺尘细胞，其中病毒抗原在单核细胞和肺尘细胞中的表达更加密集。",
+    "error_detail": "错误地限定了病毒复制的细胞范围，忽略了其他单核细胞亚群。",
+    "original_question": "猪瘟病毒感染的靶细胞是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "血清中前列腺素 E2 的存在与外周血单核细胞产生前列腺素 E2 量的降低有关。",
+    "reference_case": "血清中前列腺素 E2 的存在与外周血单核细胞产生前列腺素 E2 量的增高有关。",
+    "error_detail": "错误地描述了前列腺素 E2 量与血清中存在的关系。",
+    "original_question": "猪瘟病毒感染引起血清中前列腺素 E2 的存在与什么有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "单核细胞和巨细胞对于猪瘟病毒不易感。",
+    "reference_case": "单核细胞和巨细胞对于猪瘟病毒易感。",
+    "error_detail": "错误地描述了单核细胞和巨细胞对病毒的易感性。",
+    "original_question": "猪瘟病毒感染的单核细胞和巨细胞的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟病毒持续性感染多由高毒力毒株感染引起。",
+    "reference_case": "猪瘟病毒持续性感染多由低毒力毒株感染引起，分惿性型和迟发型两种。",
+    "error_detail": "错误地描述了引起持续性感染的病毒毒力。",
+    "original_question": "猪瘟病毒的持续性感染类型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "传播较快，血液和组织器官中病毒滴度较高。",
+    "reference_case": "传播较慢，血液和组织器官中病毒滴度较低，病毒存在于扁桃体、唾液腺、回肠和肾的上皮细胞中，病毒抗原和抗体可导致应答产物在肾沉着，引起肾小球肾炎。",
+    "error_detail": "错误地描述了传播速度和病毒滴度。",
+    "original_question": "低毒力毒株感染的猪瘟传播特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "先天性持续感染猪对猪瘟病毒产生中和抗体应答。",
+    "reference_case": "先天性持续感染猪对猪瘟病毒不产生中和抗体应答，表明形成了免疫耐性。",
+    "error_detail": "错误地描述了先天性持续感染猪的免疫应答。",
+    "original_question": "先天性持续感染猪对猪瘟病毒的免疫应答如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "分为两种类型：产死胎和具有典型病变的死胎；出生到死亡长期保持先天性感染的病毒血症仔猪。",
+    "reference_case": "分为三种类型：产死胎和具有典型病变的死胎；出生到死亡长期保持先天性感染的病毒血症仔猪；与同窝患病毒血症的仔猪接触而感染但无症状的健康仔猪。",
+    "error_detail": "错误地减少了分类的数量。",
+    "original_question": "Meyer 等（1987）将经胎盘感染猪瘟病毒呈持续病毒血症的仔猪分为哪几种类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "断奶后接种猪瘟疫苗 1～3 头份，产生免疫力，不会刺激引发猪瘟。",
+    "reference_case": "断奶后接种猪瘟疫苗 1～3 头份，不产生免疫力，反而刺激引发猪瘟。",
+    "error_detail": "错误地描述了接种疫苗后的免疫反应。",
+    "original_question": "持续病毒血症的仔猪在断奶后接种猪瘟疫苗会出现什么情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟病毒能增强胎儿的免疫系统，提升其免疫细胞的功能。",
+    "reference_case": "猪瘟病毒能破坏胎儿的免疫系统，损伤其免疫细胞的功能。",
+    "error_detail": "错误地描述了病毒对胎儿免疫系统的影响。",
+    "original_question": "母猪在孕期受染时，猪瘟病毒对胎儿有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "在孕期的任何时间接种活疫苗都是安全的。",
+    "reference_case": "在孕期的头 1 个月内接种活疫苗，引发母猪繁殖与呼吸综合征的危险性的机率最高，欧美等国在执行消灭猪瘟计划的后期，禁用猪瘟活疫苗，以免引起胎盘感染，激发温和型和非典型猪瘟，干扰猪瘟的诊断。",
+    "error_detail": "错误地描述了接种活疫苗的安全性。",
+    "original_question": "母猪在孕期接种活疫苗有何风险？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "自然感染潜伏期为 10～14 天。",
+    "reference_case": "自然感染潜伏期为 5～7 天，短的 2 天，长的 21 天。",
+    "error_detail": "错误地描述了潜伏期的时间范围。",
+    "original_question": "猪瘟的自然感染潜伏期有多长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "分为最急性型和急性型两种类型。",
+    "reference_case": "分为最急性型、急性型、亚急性和慢性四种类型。",
+    "error_detail": "错误地减少了临床类型的分类数量。",
+    "original_question": "猪瘟分为哪几种临床类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "淋巴结、脾脏、肾脏等处未见出血、坏死、炎症和纤维素性渗出液。",
+    "reference_case": "淋巴结、脾脏、肾脏、肺部、胸膜、膀胱等处可见出血、坏死、炎症和纤维素性渗出液；胸腺萎缩；呼吸系统和消化系统出现纤维性和化胀性肺炎、坏死性溃疡；小肠和结肠淋巴滤泡坏死，形成纽扣状溃疡；脾的骨髓样变化；淋巴细胞管套形成；肝细胞坏死；脑部弥漫性淋巴细胞性非化脓性脑炎。",
+    "error_detail": "错误地描述了病理变化的存在与否。",
+    "original_question": "猪瘟的病理变化有哪些特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "精神高度兴奋，体温正常，全身强壮，后躯有力，先腹泻后便秘。",
+    "reference_case": "精神高度沉郁，高热稽留，全身衰弱，后躯乏力，先便秘后腹泻，出现化脓性结膜炎，白细胞和血小板减少，全身各器官组织泛发性出血，特别是脾边缘出血、梗死，淋巴结断面呈大理石花纹样，肾色淡，有小点状出血，膀胱、喉头粘膜及心外膜有出血斑点。",
+    "error_detail": "错误地描述了临床症状。",
+    "original_question": "猪瘟的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "淋巴结无水肿、网状细胞无肿胀变性，淋巴滤泡无萎缩或消失。",
+    "reference_case": "淋巴结水肿、网状细胞肿胀变性，淋巴滤泡萎缩或消失，红细胞充塞于整个淋巴组织中，血管壁玻璃样变性，毛细血管内皮细胞肿胀、增生，肾小管间质出血、组织增生，肝细胞坏死，胆囊上皮细胞和网状内皮细胞有核内包涵体，脑部弥漫性淋巴细胞性非化脓性脑炎。",
+    "error_detail": "错误地描述了病理组织学变化的存在与否。",
+    "original_question": "猪瘟的病理组织学变化主要有哪些？",
+    "original_input": ""
+  }
+]

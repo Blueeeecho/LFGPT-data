@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "8月龄及其以上的猪消化系统已发育充分，可以利用相对较多的饲草，大约占总饲料的70%。",
+    "reference_case": "8月龄及其以上的猪消化系统已发育充分，可以利用相对较多的饲草。",
+    "error_detail": "添加了不存在的具体比例数据",
+    "original_question": "猪的消化系统发育完全后，可以利用多少饲草？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "家禽的消化道仅为体长的3~4倍，远短于牛(20倍)、羊(27倍)、猪(15倍)。",
+    "reference_case": "家禽的消化道仅为体长的5~6倍，远短于牛(20倍)、羊(27倍)、猪(15倍)。",
+    "error_detail": "错误地减少了家禽消化道的长度比例",
+    "original_question": "家禽消化道的长度是体长的多少倍？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "紫云英叶蛋白的氨基酸组成比较平衡，生物学效价为50%~60%，用于饲喂鸡和猪的效果接近豆粕。",
+    "reference_case": "紫云英叶蛋白的氨基酸组成比较平衡，生物学效价为70%~90%，用于饲喂鸡和猪的效果接近鱼粉。",
+    "error_detail": "错误地降低了生物学效价并混淆了比较对象",
+    "original_question": "紫云英叶蛋白的氨基酸组成如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "动物对亚硝酸盐危害的敏感性有很大的种间差异，羊最敏感，依次为牛、马、猪。",
+    "reference_case": "动物对亚硝酸盐危害的敏感性有很大的种间差异，猪最敏感，依次为马、牛、羊。",
+    "error_detail": "错误地颠倒了动物对亚硝酸盐敏感性的顺序",
+    "original_question": "动物对亚硝酸盐危害的敏感性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪对植酸磷的利用能力远高于家禽，特别是幼龄畜禽，植酸磷的利用率高。",
+    "reference_case": "猪对植酸磷的利用能力略高于家禽，但亦很有限，特别是幼龄畜禽，植酸磷的利用率低。",
+    "error_detail": "错误地夸大了猪对植酸磷的利用能力",
+    "original_question": "猪对植酸磷的利用能力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "蛋白酶抑制剂对大多数动物有影响，尤其对幼龄动物更为显著。这些抑制剂可以与动物的消化酶不可逆结合，导致蛋白质消化率下降，胰腺分泌增加，造成必需氨基酸损失增加，增加动物的蛋白质需求量；对家禽会导致胰腺肥大，猪和犊牛的胰脏无明显变化。此外，蛋白酶抑制剂还会导致动物生长停滞。",
+    "reference_case": "蛋白酶抑制剂对大多数动物有影响，尤其对幼龄动物更为显著。这些抑制剂可以与动物的消化酶不可逆结合，导致蛋白质消化率下降，胰腺分泌增加，造成必需氨基酸损失增加，增加动物的蛋白质需求量；对家禽会导致胰腺肥大，猪和犊牛的胰脏无明显变化。",
+    "error_detail": "添加了未经证实的假设，即蛋白酶抑制剂会导致动物生长停滞",
+    "original_question": "豆科植物中的蛋白酶抑制剂对动物有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "牛对玉米赤霉烯酮最敏感。",
+    "reference_case": "猪对玉米赤霉烯酮最敏感。",
+    "error_detail": "错误地改变了最敏感的动物种类",
+    "original_question": "玉米赤霉烯酮对哪些动物最为敏感？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "母猪和去势母猪的阴户红肿，阴道黏膜充血，乳房增大，乳头潮红，子宫肥大和卵巢萎缩。这些症状在接触玉米赤霉烯酮后24小时内出现。",
+    "reference_case": "母猪和去势母猪的阴户红肿，阴道黏膜充血，乳房增大，乳头潮红，子宫肥大和卵巢萎缩。",
+    "error_detail": "添加了不准确的时间框架",
+    "original_question": "玉米赤霉烯酮的急性中毒症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "不育、流产、死胎或胎儿木乃伊化、产仔数减少及仔猪体弱，存活的小公猪出现睪丸萎缩，乳腺增大等雌性化征象。然而，这些症状不会影响母猪的繁殖性能。",
+    "reference_case": "不育、流产、死胎或胎儿木乃伊化、产仔数减少及仔猪体弱，存活的小公猪出现睪丸萎缩，乳腺增大等雌性化征象。",
+    "error_detail": "添加了与前面描述矛盾的陈述",
+    "original_question": "玉米赤霉烯酮的亚慢性中毒症状对母猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "玉米赤霉烯酮可通过空气由母猪传递给仔猪。",
+    "reference_case": "玉米赤霉烯酮可通过母乳由母猪传递给仔猪。",
+    "error_detail": "错误地改变了传递途径",
+    "original_question": "玉米赤霉烯酮可通过什么途径传递给仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "玉米赤霉烯酮在猪体内主要转化为β-玉米赤霉烯醇。",
+    "reference_case": "玉米赤霉烯酮在猪体内主要转化为α-玉米赤霉烯醇。",
+    "error_detail": "错误地改变了转化产物的类型",
+    "original_question": "玉米赤霉烯酮在猪体内主要转化为什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲料中10~15 mg/kg的污染量可使猪产生临床症状。",
+    "reference_case": "饲料中1~5 mg/kg的污染量可使猪产生临床症状。",
+    "error_detail": "错误地提高了污染量的数值",
+    "original_question": "猪饲料中多少浓度的玉米赤霉烯酮可引起临床症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "伏马菌素中毒的典型症状是猪肺水肿、鸡肝坏死等。",
+    "reference_case": "伏马菌素中毒的典型症状是马脑白质软化症、猪肺水肿等。",
+    "error_detail": "错误地改变了中毒症状的描述",
+    "original_question": "伏马菌素中毒的典型症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "红色青霉毒素对小鼠经口LD50为300-400 mg/kg，对猪的致死量为100 mg/kg。",
+    "reference_case": "红色青霉毒素对小鼠经口LD50为120-200 mg/kg，对猪的致死量为64 mg/kg。",
+    "error_detail": "错误地提高了毒理学数据的数值",
+    "original_question": "红色青霉毒素对动物的毒理学数据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "牛、羊、猪、禽均可发病，症状主要是过度流涎、周期性流泪、腹泻、尿频、厌食和瘤胃臌气等副交感神经兴奋症候群。此外，还会出现心率加快和血压升高等症状。",
+    "reference_case": "牛、羊、猪、禽均可发病，症状主要是过度流涎、周期性流泪、腹泻、尿频、厌食和瘤胃臌气等副交感神经兴奋症候群。",
+    "error_detail": "添加了与副交感神经兴奋症候群相反的症状描述",
+    "original_question": "豆类丝核菌素中毒后家畜会表现出哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "砷化合物长期少量摄入主要引起慢性中毒，慢性砷中毒进展缓慢，开始不易察觉，主要表现为神经系统和消化机能衰弱和紊乱，精神沉郁，皮肤痛觉和触觉减退，四肢肌肉软弱无力和麻痹、消瘦，被毛粗乱无光泽，脱毛或脱蹄，食欲不振，消化不良，腹痛、持续性下痢，母猪不孕或流产。这些症状在停止接触砷后立即消失。",
+    "reference_case": "砷化合物长期少量摄入主要引起慢性中毒，慢性砷中毒进展缓慢，开始不易察觉，主要表现为神经系统和消化机能衰弱和紊乱，精神沉郁，皮肤痛觉和触觉减退，四肢肌肉软弱无力和麻痹、消瘦，被毛粗乱无光泽，脱毛或脱蹄，食欲不振，消化不良，腹痛、持续性下痢，母猪不孕或流产。",
+    "error_detail": "添加了不准确的时间框架",
+    "original_question": "砷引起的慢性中毒有哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鸡、猪配合饲料中砷的最大允许量为5.0 mg/kg，石粉和磷酸盐中砷的最大允许量分别为5.0 mg/kg和25.0 mg/kg。",
+    "reference_case": "鸡、猪配合饲料中砷的最大允许量为2.0 mg/kg，石粉和磷酸盐中砷的最大允许量分别为2.0 mg/kg和20.0 mg/kg。",
+    "error_detail": "错误地提高了最大允许量的数值",
+    "original_question": "我国饲料卫生标准中砷的最大允许量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "工业'三废'的排放；含镉废水排入水体；矿物饲料原料中含有镉；配合饲料生产过程中使用表面镀镉的饲料加工设备、器皿；含镉药物污染，如部分猪用驱虫药和含镉杀真菌剂的使用。此外，家庭垃圾也是饲料中镉的重要来源。",
+    "reference_case": "工业'三废'的排放；含镉废水排入水体；矿物饲料原料中含有镉；配合饲料生产过程中使用表面镀镉的饲料加工设备、器皿；含镉药物污染，如部分猪用驱虫药和含镉杀真菌剂的使用。",
+    "error_detail": "添加了未经证实的来源",
+    "original_question": "饲料中镉的来源有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "我国鸡、猪配合饲料中铬的最大允许量为20 mg/kg。",
+    "reference_case": "我国鸡、猪配合饲料中铬的最大允许量为10 mg/kg。",
+    "error_detail": "错误地提高了最大允许量的数值",
+    "original_question": "我国鸡、猪配合饲料中铬的最大允许量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牛的最大安全量为5 mg/kg BW，猪为15 mg/kg BW，兔为20 mg/kg BW，禽为50 mg/kg BW。",
+    "reference_case": "牛的最大安全量为2 mg/kg BW，猪为8 mg/kg BW，兔为11 mg/kg BW，禽为35 mg/kg BW。",
+    "error_detail": "错误地提高了最大安全量的数值",
+    "original_question": "动物每日摄入氟的最大安全量是多少？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "生猪定点屠宰集中检疫的主要目的是为了增加政府税收。",
+    "reference_case": "生猪定点屠宰集中检疫的主要目的是保障消费者食肉安全，保障养殖业健康发展和逐步实现与国际接轨。",
+    "error_detail": "错误地将检疫目的与政府税收混淆。",
+    "original_question": "生猪定点屠宰集中检疫的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用依维菌素治疗猪疥螨病后，猪需要14天后方可宰杀。",
+    "reference_case": "使用依维菌素治疗猪疥螨病后，猪需要28天后方可宰杀。",
+    "error_detail": "错误地缩短了宰杀前的等待时间。",
+    "original_question": "使用依维菌素治疗猪疥螨病后，猪多久可以宰杀？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "治疗猪疥螨病的有效药物是青霉素，通过口服进行治疗。",
+    "reference_case": "治疗猪疥螨病的有效药物是依维菌素，通过皮下注射进行治疗。",
+    "error_detail": "错误地将治疗药物和给药方式混淆。",
+    "original_question": "治疗猪疥螨病的有效药物是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "生猪定点屠宰集中检疫的主要目的是为了减少猪的运输压力。",
+    "reference_case": "生猪定点屠宰集中检疫的主要目的是保障消费者食肉安全，保障养殖业健康发展和逐步实现与国际接轨。",
+    "error_detail": "偏离了原始指令，错误地解释了检疫的目的。",
+    "original_question": "生猪定点屠宰集中检疫的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "目前生猪入场把关不严的主要原因是检疫人员数量不足。",
+    "reference_case": "目前生猪入场把关不严的主要原因包括产地检疫未开展，以及屠宰场管理制度不严或检疫环节把关不严。",
+    "error_detail": "错误地添加了未经证实的假设。",
+    "original_question": "目前生猪入场把关不严的主要原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪疥螨病的临床症状包括皮肤大面积溃烂。",
+    "reference_case": "猪疥螨病的临床症状包括皮肤点状潮红、瘙痒，皮肤龟裂、渗出浆液性、脓性液体，结成痂块，逐渐消瘦，食欲减退，且伴发下利。",
+    "error_detail": "错误地描述了临床症状的严重程度。",
+    "original_question": "猪疥螨病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪疥螨病治疗后，猪只用药后14 d方可宰杀。",
+    "reference_case": "猪疥螨病治疗后，猪只用药后28 d方可宰杀。",
+    "error_detail": "错误地缩短了宰杀前的等待时间。",
+    "original_question": "猪疥螨病治疗后，猪只何时可以宰杀？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "治疗猪疥螨病时，依维菌素的使用方法是10 kg体重5 mL耳背皮下注射。",
+    "reference_case": "治疗猪疥螨病时，依维菌素的使用方法是10 kg体重0.25～3 mL耳背皮下注射，特别严重病畜，间隔7 d，重复注射1次。",
+    "error_detail": "错误地增加了药物的使用剂量。",
+    "original_question": "治疗猪疥螨病时，依维菌素的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "检疫与屠宰不同步可能导致猪肉价格上涨。",
+    "reference_case": "检疫与屠宰不同步可能导致一旦检出染疫病猪，疫情扩散的可能无法控制在最小范围，且难以准确对号和确定范围进行处理。",
+    "error_detail": "错误地引入了与原始问题无关的经济影响。",
+    "original_question": "检疫与屠宰不同步可能导致的后果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪弓形虫病的诊断方法是通过观察猪的行为变化。",
+    "reference_case": "猪弓形虫病的诊断方法是通过采取病猪血清送市卫生防疫站进行血清学检查，结果为阳性，确诊为弓形虫病。",
+    "error_detail": "错误地将诊断方法简化为行为观察。",
+    "original_question": "猪弓形虫病的诊断方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "沙门氏菌污染的肉样为整块的猪前腿肉，颜色均匀。",
+    "reference_case": "沙门氏菌污染的肉样为小包装的猪后腿肉，大部分呈淡红色，局部颜色较深，有异味。",
+    "error_detail": "错误地描述了肉样的特征和部位。",
+    "original_question": "沙门氏菌污染的肉样有哪些特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪弓形虫病的治疗方法是每50 kg体重用复方磺胺对甲氧嘧啶钠注射液20 mL和百利通注射液20 mL。",
+    "reference_case": "猪弓形虫病的治疗方法是每50 kg体重用复方磺胺对甲氧嘧啶钠注射液10 mL和百利通注射液10 mL，分别肌肉注射，每天1次，3天为1个疗程。经过1个疗程的治疗，6头死亡，其余病猪逐渐恢复食欲，尚有部分病猪还有咳嗽症状，对该部分病猪继续治疗。每50 kg体重用百利通注射液5 mL，肌肉注射，每天1次，200多头病猪全部康复。",
+    "error_detail": "错误地增加了药物的使用剂量。",
+    "original_question": "猪弓形虫病的治疗方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪弓形虫病的发病症状包括体温升高到38.5~39.1°C。",
+    "reference_case": "猪弓形虫病的发病症状包括体温升高到40.5~42.1°C，食欲减少至不食，精神萎顿，呼吸困难，粪便干硬，有的粪便被白色粘膜包裹，病猪逐渐消瘦。约30%的发病仔猪死亡；约10%怀孕母猪发生流产，体温升高、咳涑、腹式呼吸，有的后躯麻痹。",
+    "error_detail": "错误地降低了体温升高的范围。",
+    "original_question": "猪弓形虫病的发病症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪弓形虫病的防治措施包括使用5%漂白粉溶液消毒。",
+    "reference_case": "猪弓形虫病的防治措施包括用1%来苏儿溶液和火焰对猪舍，被污染的场所与用具进行交替消毒。全场进行灭鼠、灭蚊、灭蝇工作。",
+    "error_detail": "错误地更改了消毒剂的使用浓度和类型。",
+    "original_question": "猪弓形虫病的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪弓形虫病的诊断是通过观察猪的皮肤变化确认的。",
+    "reference_case": "猪弓形虫病的诊断是通过将病猪血清送市卫生防疫站进行血清学检查，结果为阳性确认的。",
+    "error_detail": "错误地将诊断方法简化为皮肤观察。",
+    "original_question": "猪弓形虫病的诊断是通过哪种方法确认的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪弓形虫病在猪场中的死亡率约为50%。",
+    "reference_case": "猪弓形虫病在猪场中的死亡率约为30%。",
+    "error_detail": "错误地提高了死亡率的数据。",
+    "original_question": "猪弓形虫病在猪场中的死亡率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "治疗中使用了青霉素和链霉素。",
+    "reference_case": "治疗中使用了复方磺胺对甲氧嘧啶钠注射液和百利通注射液。",
+    "error_detail": "错误地更改了治疗药物的种类。",
+    "original_question": "猪弓形虫病的治疗中使用了哪些药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "断奶仔猪的体温升高到39.5至40.1摄氏度。",
+    "reference_case": "断奶仔猪的体温升高到40.5至42.1摄氏度。",
+    "error_detail": "错误地降低了体温升高的范围。",
+    "original_question": "龙海市某猪场在2001年10月3日以来，断奶仔猪的体温升高到多少度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪弓形虫病的防治措施中，除了药物治疗外，还包括增加猪的运动量。",
+    "reference_case": "猪弓形虫病的防治措施中，除了药物治疗外，还包括使用1%来苏儿溶液和火焰对猪舍、被污染的场所与用具进行交替消毒，以及全场进行灭鼠、灭蚊、灭蝇工作。",
+    "error_detail": "错误地添加了与防治无关的措施。",
+    "original_question": "猪弓形虫病的防治措施中，除了药物治疗外，还包括哪些环境管理措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪弓形虫病的治疗方案是每50 kg体重用复方磺胺对甲氧嘧啶钠注射液5 mL和百利通注射液5 mL。",
+    "reference_case": "猪弓形虫病的治疗方案是每50 kg体重用复方磺胺对甲氧嘧啶钠注射液10 mL和百利通注射液10 mL，分别肌肉注射，每天1次，3天为1个疗程。对于仍有咳嗽症状的病猪，继续使用百利通注射液5 mL，每天1次，直至康复。",
+    "error_detail": "错误地减少了药物的使用剂量。",
+    "original_question": "猪弓形虫病的治疗方案是什么？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "按仔猪的周龄配制饲粮，有利于提高仔猪的生长速度和降低生产成本，但饲料厂常难以做到这一点。",
+    "reference_case": "按仔猪的实际需要配制饲粮，有利于提高仔猪的生长速度和降低生产成本，但饲料厂常难以做到这一点。",
+    "error_detail": "将'实际需要'错误地改为'周龄'，导致信息不准确。",
+    "original_question": "断奶仔猪饲料应如何根据周龄配制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "保育猪饲料转换为普通生长猪饲料的关键技术是增加饲料中的蛋白质含量。",
+    "reference_case": "尽快使保育猪饲料转换为普通生长猪饲料，是缩短保育期，降低饲料、饲养管理和猪舍成本的最关键技术之一。",
+    "error_detail": "错误地添加了'增加饲料中的蛋白质含量'作为关键技术，偏离了原始指令。",
+    "original_question": "保育猪饲料转换为普通生长猪饲料的关键技术是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪营养方案的主要目的是提高仔猪的免疫力。",
+    "reference_case": "将仔猪的日粮尽快调整为普通的玉米一豆粕型饲料，以降低饲料成本，并且为生长育肥阶段做准备。",
+    "error_detail": "将主要目的错误地表述为'提高仔猪的免疫力'，与原始信息不符。",
+    "original_question": "仔猪营养方案的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "设计仔猪饲料配方时应注意蛋白能量比和氨基酸平衡，其他因素不重要。",
+    "reference_case": "应考虑蛋白能量比、氨基酸能量比、氨基酸平衡、必需氨基酸与蛋白质之比或必需氨基酸与非必需氨基酸之比、矿物质平衡、维生素平衡、肠道微生态平衡、离子平衡、酸碱平衡、渗透压平衡等关键因素。",
+    "error_detail": "错误地简化了营养平衡的考虑因素，导致逻辑不完整。",
+    "original_question": "设计仔猪饲料配方时应注意哪些营养平衡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪的蛋白质营养实际上指的是脂肪营养。",
+    "reference_case": "仔猪的蛋白质营养实际上指的是氨基酸营养。",
+    "error_detail": "错误地将'氨基酸营养'改为'脂肪营养'，导致概念混淆。",
+    "original_question": "仔猪的蛋白质营养实际上指的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "在日粮氨基酸平衡时，赖氨酸水平的高低不影响仔猪的生长速度和饲料利用率。",
+    "reference_case": "在日粮氨基酸平衡时，赖氨酸水平越高，仔猪的生长速度和饲料利用率越高。",
+    "error_detail": "错误地否定了赖氨酸水平对生长速度和饲料利用率的影响，导致因果倒置。",
+    "original_question": "在日粮氨基酸平衡时，赖氨酸水平的高低如何影响仔猪的生长速度和饲料利用率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "蛋白质过剩仅轻微影响猪的肝和肾功能。",
+    "reference_case": "蛋白质过剩不仅浪费有效能量，而且因需消化分解和排出它们而加重肝和肾的负担，严重时会导致肝脏结构和功能损伤，造成机体蛋白质中毒，即酸毒症。",
+    "error_detail": "低估了蛋白质过剩对猪的不良影响，导致信息不准确。",
+    "original_question": "蛋白质过剩会对猪产生哪些不良影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "影响仔猪蛋白质需要量的因素包括遗传基础、日龄、日粮能量浓度、蛋白品质和日粮粗纤维，以及环境温度。",
+    "reference_case": "影响仔猪蛋白质需要量的因素包括遗传基础、日龄、日粮能量浓度、蛋白品质和日粮粗纤维。",
+    "error_detail": "错误地添加了'环境温度'作为影响因素，偏离了原始信息。",
+    "original_question": "影响仔猪蛋白质需要量的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在高温环境中，猪的生产性能不受影响。",
+    "reference_case": "在高温环境中，由于散热困难，会影响猪的生产性能，可适当增加蛋白能量比；而在寒冷环境中，动物体内代谢加强，某些矿物元素排泄增加，从而增加矿物质需要量，冷热应激均提高代谢率，并影响消化道中微生物对某些维生素的合成。",
+    "error_detail": "错误地认为高温环境不影响猪的生产性能，与当前知识不符。",
+    "original_question": "环境温度对猪的蛋白质和氨基酸需要量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同生长阶段猪的理想DP/DE比值分别为:10kg以下乳猪为4.0~4.2, 10~50kg小猪为3.6~3.8, 50kg以上大中猪为3.0~3.2。",
+    "reference_case": "不同生长阶段猪的理想DP/DE比值分别为:10kg以下乳猪为3.68~3.89, 10~50kg小猪为3.35~3.60, 50kg以上大中猪为2.51~2.93。",
+    "error_detail": "错误地调整了DP/DE比值的数值范围，导致信息不准确。",
+    "original_question": "不同生长阶段猪的理想DP/DE比值是多少？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "葡萄糖氧化酶在仔猪饲料中的作用是将葡萄糖氧化成葡萄糖酸和过氧化氢，消耗大量二氧化碳，从而起到类似于抗生素、酸化剂和益生菌的作用，改善仔猪的肠道健康和消化能力。",
+    "reference_case": "葡萄糖氧化酶在仔猪饲料中的作用包括将葡萄糖氧化成葡萄糖酸和过氧化氢，消耗大量氧气，从而起到类似于抗生素、酸化剂和益生菌的作用，改善仔猪的肠道健康和消化能力。",
+    "error_detail": "错误地将氧气消耗描述为二氧化碳消耗。",
+    "original_question": "葡萄糖氧化酶在仔猪饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪的日增重是通过试验末平均体重减去初期平均体重，再乘以试验天数来计算的。",
+    "reference_case": "仔猪的日增重是通过试验末平均体重减去初期平均体重，再除以试验天数来计算的。",
+    "error_detail": "错误地将除法操作描述为乘法操作。",
+    "original_question": "试验中仔猪的日增重是如何计算的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "试验中仔猪的经济效益是通过断奶后仔猪的平均价格和饲料成本进行经济效益分析，性价比是通过耗料成本除以毛利润来计算的。",
+    "reference_case": "试验中仔猪的经济效益是通过断奶后仔猪的平均价格和饲料成本进行经济效益分析，性价比是通过毛利润除以耗料成本来计算的。",
+    "error_detail": "错误地将性价比的计算公式倒置。",
+    "original_question": "试验中仔猪的经济效益是如何分析的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "日增重通过增重乘以试验天数来计算，公式为：日增重=增重×试验天数。",
+    "reference_case": "日增重通过增重除以试验天数来计算，公式为：日增重=增重/试验天数。",
+    "error_detail": "错误地将除法操作描述为乘法操作。",
+    "original_question": "试验中如何计算断奶仔猪的日增重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "试验中使用的断奶仔猪是28日龄的长×大×杜三元杂交断奶仔猪。",
+    "reference_case": "试验中使用的断奶仔猪是28日龄的杜×长×大三元杂交断奶仔猪。",
+    "error_detail": "错误地改变了杂交品种的顺序。",
+    "original_question": "试验中使用的断奶仔猪的品种是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "腹泻率通过该圈日腹泻仔猪头数总和乘以仔猪总头数乘以天数再乘以100来计算，公式为：腹泻率/%=该圈日腹泻仔猪头数总和×仔猪总头数×天数×100。",
+    "reference_case": "腹泻率通过该圈日腹泻仔猪头数总和除以仔猪总头数乘以天数再乘以100来计算，公式为：腹泻率/%=该圈日腹泻仔猪头数总和/仔猪总头数×天数×100。",
+    "error_detail": "错误地将除法操作描述为乘法操作。",
+    "original_question": "试验中如何计算断奶仔猪的腹泻率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "由于多年实施以强制免疫预防为主的猪瘟防制策略，猪瘟在我国的流行形式已从急性发生和流行转变为全球性散发流行，疫点显著减少，临床症状和病理变化常变为非典型的温和型猪瘟。",
+    "reference_case": "由于多年实施以强制免疫预防为主的猪瘟防制策略，猪瘟在我国的流行形式已从急性发生和流行转变为地区性散发流行，疫点显著减少，临床症状和病理变化常变为非典型的温和型猪瘟。",
+    "error_detail": "错误地将地区性散发流行描述为全球性散发流行。",
+    "original_question": "猪瘟在我国的流行形式发生了怎样的变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "我国猪瘟病毒的分子流行病学研究发现，我国流行毒株均属于I、II群的4个基因亚群，并以I群为主，占71:66%。基因I群病毒代表一个分支，与我国1945年最早分离的石门系强毒株有很近的遗传关系，而基因II群病毒代表另一个分支，与欧洲流行的II群病毒在遗传上有亲缘关系。",
+    "reference_case": "我国猪瘟病毒的分子流行病学研究发现，我国流行毒株均属于I、II群的4个基因亚群，并以II群为主，占71:66%。基因I群病毒代表一个分支，与我国1945年最早分离的石门系强毒株有很近的遗传关系，而基因II群病毒代表另一个分支，与欧洲流行的II群病毒在遗传上有亲缘关系。",
+    "error_detail": "错误地将II群为主描述为I群为主。",
+    "original_question": "我国猪瘟病毒（CSFV）的分子流行病学研究有哪些主要发现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "我国无规定动物疫病区的建设取得了重要进展，无疫区始终保持高致病性禽流感和口蹄疫清净无疫。与建设前相比，无疫区生猪、家禽疫病死亡率分别由8%、14%下降到2006年底的2%和4%。",
+    "reference_case": "我国无规定动物疫病区的建设取得了重要进展，无疫区始终保持高致病性禽流感和口蹄疫清净无疫。与建设前相比，无疫区生猪、家禽疫病死亡率分别由8%、14%下降到2006年底的4%和8%。",
+    "error_detail": "错误地降低了死亡率数据。",
+    "original_question": "我国无规定动物疫病区的建设取得了哪些重要进展？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "自1996年我国大陆地区首次分离到PRRSV以来，猪繁殖与呼吸综合征相继在全国各主要养猪地区流行，尤其是2006年高致病性蓝耳病（HP-PRRS）的小规模暴发流行，目前已成为危害我国养猪生产的第一大病毒性疾病。",
+    "reference_case": "自1996年我国大陆地区首次分离到PRRSV以来，猪繁殖与呼吸综合征相继在全国各主要养猪地区流行，尤其是2006年高致病性蓝耳病（HP-PRRS）的大规模暴发流行，目前已成为危害我国养猪生产的第一大病毒性疾病。",
+    "error_detail": "错误地将大规模暴发流行描述为小规模暴发流行。",
+    "original_question": "猪繁殖与呼吸综合征（PRRS）在我国的流行情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪 α 干扰素（pIFN-α）属于 II 型干扰素，主要作为机体抵抗病毒感染的第一道防线。猪 γ 干扰素（pIFN-γ）属于 I 型干扰素，具有更强的免疫调节作用。研究表明，pIFN-γ 的抗病毒活性比 pIFN-α 更强。",
+    "reference_case": "猪 α 干扰素（pIFN-α）属于 I 型干扰素，主要作为机体抵抗病毒感染的第一道防线。猪 γ 干扰素（pIFN-γ）属于 II 型干扰素，具有更强的免疫调节作用。研究表明，pIFN-γ 的抗病毒活性比 pIFN-α 更强。",
+    "error_detail": "错误地交换了I型和II型干扰素的分类。",
+    "original_question": "猪 α 干扰素和 γ 干扰素在抗病毒活性上有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪 α 干扰素的基因序列来自 GenBank 登录号 DQ839398，猪 γ 干扰素的基因序列来自 GenBank 登录号 X57191。",
+    "reference_case": "猪 α 干扰素的基因序列来自 GenBank 登录号 X57191，猪 γ 干扰素的基因序列来自 GenBank 登录号 DQ839398。",
+    "error_detail": "错误地交换了两个基因序列的登录号。",
+    "original_question": "猪 α 干扰素和 γ 干扰素的基因序列分别来自哪些 GenBank 登录号？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪 α 干扰素和 γ 干扰素的串联表达是通过在 pMVAX1 质粒中插入 pIFN-α 和 pIFN-γ 的融合蛋白基因实现的，融合蛋白基因之间通过 5 个丙氨酸（Ala）序列连接。",
+    "reference_case": "猪 α 干扰素和 γ 干扰素的串联表达是通过在 pMVAX1 质粒中插入 pIFN-α 和 pIFN-γ 的融合蛋白基因实现的，融合蛋白基因之间通过 5 个甘氨酸（Gly）序列连接。",
+    "error_detail": "错误地将甘氨酸序列描述为丙氨酸序列。",
+    "original_question": "猪 α 干扰素和 γ 干扰素的串联表达是如何实现的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "目前 PRRS 的灭活疫苗免疫效果极佳，弱毒疫苗不存在毒力返强的风险。因此，研究新型抗病毒制剂（如干扰素）成为预防和治疗 PRRS 的重要方向。",
+    "reference_case": "目前 PRRS 的灭活疫苗免疫效果不佳，弱毒疫苗存在毒力返强的风险。因此，研究新型抗病毒制剂（如干扰素）成为预防和治疗 PRRS 的重要方向。",
+    "error_detail": "错误地描述了灭活疫苗和弱毒疫苗的效果和风险。",
+    "original_question": "猪繁殖与呼吸综合征（PRRS）的疫苗研究现状如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PRRSV 感染会导致母猪流产、返情、产死胎或弱仔，以及仔猪死亡和呼吸道症状。此外，PRRSV 还会增强猪的免疫系统，导致混合感染或继发感染，增加死亡率。",
+    "reference_case": "PRRSV 感染会导致母猪流产、返情、产死胎或弱仔，以及仔猪死亡和呼吸道症状。此外，PRRSV 还会破坏猪的免疫系统，导致混合感染或继发感染，增加死亡率。",
+    "error_detail": "错误地将破坏免疫系统描述为增强免疫系统。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的主要危害是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "滇南小耳猪的肌内脂肪细胞甘油三酯含量与FTO和PLIN1基因的表达量呈中度正相关。",
+    "reference_case": "滇南小耳猪的肌内脂肪细胞甘油三酯含量与FTO和PLIN2基因的表达量呈中度正相关。",
+    "error_detail": "错误地将PLIN2基因描述为PLIN1基因。",
+    "original_question": "滇南小耳猪的肌内脂肪细胞甘油三酯含量与哪些基因的表达量呈中度正相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "滇南小耳猪的肌内脂肪细胞甘油三酯含量与FSP27和PLIN2基因的表达量呈强正相关。",
+    "reference_case": "滇南小耳猪的肌内脂肪细胞甘油三酯含量与FSP27和PLIN1基因的表达量呈强正相关。",
+    "error_detail": "错误地将PLIN1基因描述为PLIN2基因。",
+    "original_question": "滇南小耳猪的肌内脂肪细胞甘油三酯含量与哪些基因的表达量呈强正相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在滇南小耳猪中，Hh基因型的FSP27基因表达量最高。",
+    "reference_case": "在滇南小耳猪中，HH基因型的FSP27基因表达量最高。",
+    "error_detail": "错误地将HH基因型描述为Hh基因型。",
+    "original_question": "在滇南小耳猪中，哪种H-FABP基因型的FSP27基因表达量最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "滇南小耳猪的肌内脂肪细胞甘油三酯含量在hh基因型中显著高于Hh和HH基因型。",
+    "reference_case": "滇南小耳猪的肌内脂肪细胞甘油三酯含量在HH基因型中显著高于Hh和hh基因型。",
+    "error_detail": "错误地将HH基因型描述为hh基因型。",
+    "original_question": "滇南小耳猪的肌内脂肪细胞甘油三酯含量在不同H-FABP基因型间有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "滇南小耳猪的肌内脂肪细胞甘油三酯含量与FTO基因表达量呈强正相关。",
+    "reference_case": "滇南小耳猪的肌内脂肪细胞甘油三酯含量与FTO基因表达量呈中度正相关。",
+    "error_detail": "错误地将中度正相关描述为强正相关。",
+    "original_question": "滇南小耳猪的肌内脂肪细胞甘油三酯含量与FTO基因表达量的相关性如何？",
+    "original_input": ""
+  }
+]

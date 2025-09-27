@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "限制饲养的母猪感染泌尿系统疾病的频率是群养母猪的2倍。",
+    "reference_case": "限制饲养的母猪感染泌尿系统疾病的频率更高，而群养母猪则更可能受到同伴伤害。",
+    "error_detail": "错误地给出了具体的倍数关系，而原始输出并未提供具体数值。",
+    "original_question": "限制饲养母猪与群养母猪的泌尿系统疾病发病率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "限位栏养母猪的大腿骨强度仅为群养母猪的50%。",
+    "reference_case": "限位栏养母猪的大腿骨强度仅为群养母猪的65%。",
+    "error_detail": "错误地降低了比例，与原始输出不符。",
+    "original_question": "限位栏养母猪的骨强度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "群养母猪受到损伤的频率高于限位栏养母猪。",
+    "reference_case": "限位栏养母猪受到损伤的频率高于群养母猪。",
+    "error_detail": "错误地颠倒了因果关系，与原始输出相反。",
+    "original_question": "限位栏养母猪受到损伤的频率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "限位饲养的猪表现出啃咬饲养栏、玩拴系绳、饮水器或空嚼等刻板行为，这些行为都是由于缺乏社交互动引起的。",
+    "reference_case": "限位饲养的猪表现出啃咬饲养栏、玩拴系绳、饮水器或空嚼等刻板行为。",
+    "error_detail": "错误地添加了未经证实的假设原因。",
+    "original_question": "限位饲养的猪因无法应对环境而表现出哪些刻板行为？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "增加产仔圈并缩小圈舍会降低仔猪的死亡率。",
+    "reference_case": "增加产仔圈并缩小圈舍会使仔猪的死亡率提高。",
+    "error_detail": "错误地颠倒了因果关系，与原始输出相反。",
+    "original_question": "增加产仔圈并缩小圈舍会如何影响仔猪的存活率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "限位栏可以降低仔猪的死亡率，尤其是在温暖的育儿箱和栏杆的辅助下，可以减少仔猪被母猪压死的几率，这是唯一有效的方法。",
+    "reference_case": "限位栏可以降低仔猪的死亡率，尤其是在温暖的育儿箱和栏杆的辅助下，可以减少仔猪被母猪压死的几率。",
+    "error_detail": "错误地添加了未经证实的绝对性陈述。",
+    "original_question": "限位栏如何降低仔猪的死亡率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "限位栏的使用在商业生产中受到生产效率的批评，因为它增加了生产成本。",
+    "reference_case": "限位栏的使用在商业生产中受到动物福利的批评，因为它限制了母猪的运动。",
+    "error_detail": "错误地偏离了原始指令，引入了不相关的批评点。",
+    "original_question": "限位栏的使用在商业生产中受到何种批评？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "现代饲养模式包括自由放养模式和密集饲养模式，前者允许母猪搭建自己的巢穴，后者则提供一些活动自由。",
+    "reference_case": "现代饲养模式包括群体分娩模式和个体单栏饲养模式，前者允许母猪搭建自己的巢穴，后者则提供一些活动自由。",
+    "error_detail": "错误地混淆了饲养模式的术语。",
+    "original_question": "现代饲养模式如何提供母猪更多的活动自由？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "仔猪在其出生后几天内需要注射铁制剂，有时还注射抗生素，进行断尾和去势等处理，这些处理都是不必要的。",
+    "reference_case": "仔猪在其出生后几天内需要注射铁制剂，有时还注射抗生素，进行断尾和去势等处理。",
+    "error_detail": "错误地添加了主观判断。",
+    "original_question": "仔猪在其出生后几天内需要经历哪些处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "去势处理会导致仔猪产生低频率的嚎叫。",
+    "reference_case": "去势处理会导致仔猪产生高频率的嚎叫，身体抵抗，心率升高，肾上腺皮质活跃，吸吮乳汁或拱母猪乳房的行为减少，动作不协调，免疫抑制反应增强，以及更多与疼痛有关的行为。",
+    "error_detail": "错误地降低了嚎叫的频率，与原始输出不符。",
+    "original_question": "去势处理对仔猪的行为和生理有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "仔猪在断奶期间会出现打斗行为，导致仔猪受伤，以及吮吸其他仔猪腹部的行为，这些都是由于缺乏适当的断奶方法引起的。",
+    "reference_case": "仔猪在断奶期间会出现打斗行为，导致仔猪受伤，以及吮吸其他仔猪腹部的行为。",
+    "error_detail": "错误地添加了未经证实的假设原因。",
+    "original_question": "仔猪在断奶期间会出现哪些福利问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪会通过吮吸其他猪的耳朵、尾巴或喝尿，以及吸吮其他仔猪肛门等行为来寻求母猪哺乳。",
+    "reference_case": "仔猪会通过吮吸其他猪的腹部下侧、舔舐外生殖器和肚脐或喝尿，以及吸吮其他仔猪肛门等行为来寻求母猪哺乳。",
+    "error_detail": "错误地混淆了仔猪寻求哺乳的具体行为。",
+    "original_question": "仔猪在断奶期间会表现出哪些行为来寻求母猪哺乳？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "仔猪获得的空间大小影响其颜色偏好和声音反应。",
+    "reference_case": "仔猪获得的空间大小影响其活动能力、体温调节能力、排粪、探索能力和躲避其他个体的能力。",
+    "error_detail": "错误地偏离了原始指令，引入了不相关的影响因素。",
+    "original_question": "仔猪获得的空间大小对其健康和行为有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "花苓散提高了猪、鸡的抗应激能力和促进健康，效果显著优于其他药物。",
+    "reference_case": "花苓散提高了猪、鸡的抗应激能力和促进健康。",
+    "error_detail": "错误地添加了未经证实的比较性陈述。",
+    "original_question": "花苓散对猪、鸡的哪些方面有较好的效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "黄白痢散对断奶仔猪能够缓解应激，改善生长性能及增强免疫作用，是所有断奶仔猪必须使用的药物。",
+    "reference_case": "黄白痢散对断奶仔猪能够缓解应激，改善生长性能及增强免疫作用。",
+    "error_detail": "错误地添加了绝对性陈述。",
+    "original_question": "黄白痢散在断奶仔猪中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "石膏常与知母、粳米、黄茶、大黄、甘草等同用，治疗猪阳明胃实热；与大黄、板蓝根、丹皮、大青叶、生地、甘草等同用，治疗猪感冒。",
+    "reference_case": "石膏常与知母、粳米、黄茶、大黄、甘草等同用，治疗猪阳明胃实热；与大黄、板蓝根、丹皮、大青叶、生地、甘草等同用，治疗猪热毒发斑。",
+    "error_detail": "错误地混淆了治疗的病症。",
+    "original_question": "石膏在治疗阳明实热时，常与哪些药物配伍？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "鱼腥草毒性较大，不建议民间使用鲜品作蔬菜鲜吃或炖服。",
+    "reference_case": "鱼腥草毒性甚小，民间使用鲜品作蔬菜鲜吃或炖服，或猪作青饲料均未见有中毒报道或毒副反应发生。",
+    "error_detail": "错误地提供了过时或错误的安全性评估。",
+    "original_question": "鱼腥草的毒性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "研究母猪喂服中药黄白痢散后对吮乳仔猪生长速度的影响。",
+    "reference_case": "研究母猪喂服中药黄白痢散后对吮乳仔猪抗氧化功能的影响。",
+    "error_detail": "错误地偏离了原始指令，研究了不相关的指标。",
+    "original_question": "母猪喂服中药黄白痢散对吮乳仔猪抗氧化功能的影响研究内容是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "研究黄花多糖和白花蛇舌草多糖对猪繁殖与呼吸综合征灭活疫苗免疫猪生长性能的影响。",
+    "reference_case": "研究黄花多糖和白花蛇舌草多糖对猪繁殖与呼吸综合征灭活疫苗免疫猪 T 细胞亚群及抗体水平的影响。",
+    "error_detail": "错误地偏离了原始指令，研究了不相关的指标。",
+    "original_question": "黄花多糖和白花蛇舌草多糖对猪繁殖与呼吸综合征灭活疫苗免疫猪 T 细胞亚群及抗体水平的影响研究方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仙鹤草中的主要成分鹤草酚对猪肉绦虫、囊尾蚴、幼虫、莫尼次绦虫和短壳绦虫均有确切的抑杀作用，还能抑制感冒病毒、阴道滴虫和血吸虫。",
+    "reference_case": "仙鹤草中的主要成分鹤草酚对猪肉绦虫、囊尾蚴、幼虫、莫尼次绦虫和短壳绦虫均有确切的抑杀作用，还能抑制疟原虫、阴道滴虫和血吸虫。",
+    "error_detail": "错误地混淆了抑制的病原体类型。",
+    "original_question": "仙鹤草中的哪些成分具有抗寄生虫作用？",
+    "original_input": ""
+  }
+]

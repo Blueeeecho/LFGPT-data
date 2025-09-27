@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪缺铜可能导致生长受阻，饲料利用率下降，被毛粗乱，死亡率升高，产蛋鸡产蛋量下降，公鸡睾丸发育受阻，种蛋孵化率下降，鸡肧胎产生营养性软骨营养障碍症。",
+    "reference_case": "猪缺铜可能导致生长受阻，饲料利用率下降，被毛粗乱，死亡率升高。",
+    "error_detail": "将鸡的相关症状错误地归因于猪",
+    "original_question": "猪缺铜可能导致哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪缺锰会产生脚跛、后踝关节肿大和腿弯曲缩短的表现，同时会导致视力下降。",
+    "reference_case": "猪缺锰会产生脚跛、后踝关节肿大和腿弯曲缩短的表现。",
+    "error_detail": "添加了不相关的症状'视力下降'",
+    "original_question": "猪缺锰会产生哪些表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "产蛋鸡缺锰时，产蛋量下降，薄壳和无壳蛋增加；公鸡睾丸发育受阻，精子数减少。同时，猪的繁殖能力也会受到影响。",
+    "reference_case": "产蛋鸡缺锰时，产蛋量下降，薄壳和无壳蛋增加；公鸡睾丸发育受阻，精子数减少。",
+    "error_detail": "错误地将猪的繁殖问题与鸡的繁殖问题混淆",
+    "original_question": "猪缺锰时，产蛋鸡和公鸡的繁殖问题是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪消化能DE的单位是kcal/kg和J/kg。",
+    "reference_case": "猪消化能DE的单位是Mcal kg和MJ/kg。",
+    "error_detail": "错误的单位表示",
+    "original_question": "猪消化能DE的单位是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "瘦肉猪具有瘦肉比例高、生长速度快和经济效益高的特点，同时它们的肉质比普通猪更鲜美。",
+    "reference_case": "瘦肉猪具有瘦肉比例高、生长速度快和经济效益高的特点。",
+    "error_detail": "添加了不相关的肉质描述",
+    "original_question": "什么是瘦肉猪的特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "饲养瘦肉猪可以提高经济效益和满足人们对高质量肉品的需求，同时还能改善环境。",
+    "reference_case": "饲养瘦肉猪可以提高经济效益和满足人们对高质量肉品的需求。",
+    "error_detail": "添加了未经证实的环保效益",
+    "original_question": "饲养瘦肉猪有什么好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "养好瘦肉猪的技术关键包括选择合适的品种、合理的营养配方、良好的饲养管理以及创造适宜的生长环境，还需要定期进行疫苗接种。",
+    "reference_case": "养好瘦肉猪的技术关键包括选择合适的品种、合理的营养配方、良好的饲养管理以及创造适宜的生长环境。",
+    "error_detail": "添加了原指令中未提及的疫苗接种",
+    "original_question": "养好瘦肉猪的技术关键有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "瘦肉型猪品种的特点是瘦肉比例高、生长速度快、饲料转化率高，同时它们的抗病能力也很强。",
+    "reference_case": "瘦肉型猪品种的特点是瘦肉比例高、生长速度快、饲料转化率高。",
+    "error_detail": "添加了未经证实的抗病能力描述",
+    "original_question": "瘦肉型猪的品种有哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "我国地方猪种适应性强，但瘦肉比例较低，生长速度较慢，饲料转化率不高，且肉质较差。",
+    "reference_case": "我国地方猪种适应性强，但瘦肉比例较低，生长速度较慢，饲料转化率不高。",
+    "error_detail": "添加了主观的肉质评价",
+    "original_question": "我国地方猪种的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "瘦肉型猪的营养需要包括蛋白质、能量、维生素和矿物质等，还需要定期补充抗生素。",
+    "reference_case": "瘦肉型猪的营养需要包括蛋白质、能量、维生素和矿物质等。",
+    "error_detail": "添加了原指令中未提及的抗生素补充",
+    "original_question": "瘦肉型猪的营养需要包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "常用的饲料包括谷物、豆类、青饲料和添加剂等，还包括鱼类饲料。",
+    "reference_case": "常用的饲料包括谷物、豆类、青饲料和添加剂等。",
+    "error_detail": "添加了不相关的鱼类饲料",
+    "original_question": "瘦肉型猪常用的饲料有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "瘦肉型种公猪应选择体型健壮、繁殖力强的个体，并需提供良好的饲养管理和适宜的生活环境，还需要定期进行运动。",
+    "reference_case": "瘦肉型种公猪应选择体型健壮、繁殖力强的个体，并需提供良好的饲养管理和适宜的生活环境。",
+    "error_detail": "添加了原指令中未提及的运动需求",
+    "original_question": "瘦肉型种公猪的选择和饲养管理应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "瘦肉型种母猪应选择繁殖力强、产仔数多、体质健壮的个体，并需提供良好的饲养管理和适宜的生活环境，还需要定期进行健康检查。",
+    "reference_case": "瘦肉型种母猪应选择繁殖力强、产仔数多、体质健壮的个体，并需提供良好的饲养管理和适宜的生活环境。",
+    "error_detail": "添加了原指令中未提及的健康检查",
+    "original_question": "瘦肉型种母猪的选择和饲养管理应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "哺乳仔猪的养育应注意保温、防潮、防病和适时断奶，还需要定期进行疫苗接种。",
+    "reference_case": "哺乳仔猪的养育应注意保温、防潮、防病和适时断奶。",
+    "error_detail": "添加了原指令中未提及的疫苗接种",
+    "original_question": "哺乳仔猪的养育应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "断奶仔猪的养育应注意过渡期饲料的转换、防病和加强管理，还需要定期进行运动。",
+    "reference_case": "断奶仔猪的养育应注意过渡期饲料的转换、防病和加强管理。",
+    "error_detail": "添加了原指令中未提及的运动需求",
+    "original_question": "断奶仔猪的养育应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "后备猪的培育应注意选择合适的品种、合理的饲养管理和适时的繁殖，还需要定期进行健康检查。",
+    "reference_case": "后备猪的培育应注意选择合适的品种、合理的饲养管理和适时的繁殖。",
+    "error_detail": "添加了原指令中未提及的健康检查",
+    "original_question": "后备猪的培育应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "商品瘦肉猪的选择标准包括体型、体重、健康状况和生长发育情况，还需要考虑其毛色。",
+    "reference_case": "商品瘦肉猪的选择标准包括体型、体重、健康状况和生长发育情况。",
+    "error_detail": "添加了不相关的毛色考虑",
+    "original_question": "商品瘦肉猪的选择标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "瘦肉猪的生长发育规律包括生长速度、体形变化和性成熟过程，还包括其行为变化。",
+    "reference_case": "瘦肉猪的生长发育规律包括生长速度、体形变化和性成熟过程。",
+    "error_detail": "添加了不相关的行为变化",
+    "original_question": "瘦肉猪的生长发育规律是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "瘦肉猪的营养水平和饲养方式直接影响其肥育效果，高营养水平和科学饲养可以提高肥育效果，但过度饲养会导致肥胖。",
+    "reference_case": "瘦肉猪的营养水平和饲养方式直接影响其肥育效果，高营养水平和科学饲养可以提高肥育效果。",
+    "error_detail": "添加了不相关的肥胖风险",
+    "original_question": "瘦肉猪的营养水平和饲养方式对肥育效果的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "瘦肉猪瘦肉多，膘薄，脂肪少，瘦肉约占胴体重的60-65%，背展只有1.5-2.0厘米，脂肪约占胴体重的20-30%。",
+    "reference_case": "瘦肉猪瘦肉多，膘薄，脂肪少，瘦肉约占胴体重的55-60%，背展只有1.8-2.5厘米，脂肪约占胴体重的25-35%。",
+    "error_detail": "错误的数据范围",
+    "original_question": "瘦肉猪的特点有哪些？",
+    "original_input": ""
+  }
+]

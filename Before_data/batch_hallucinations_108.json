@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "辽盟生猪养殖专业合作社拥有20名兽医、5名兽医师和3名大型养殖企业管理专家，并提供定期技术培训和技术指导。",
+    "reference_case": "辽盟生猪养殖专业合作社拥有16名兽医、3名兽医师和2名大型养殖企业管理专家，并提供定期技术培训和技术指导。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "辽盟生猪养殖专业合作社在技术能力方面有哪些具体表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "辽盟生猪养殖专业合作社在服务项目方面存在不足，如服务项目单一、议价能力较弱、技术培训不足。",
+    "reference_case": "辽盟生猪养殖专业合作社在服务项目方面存在不足，如服务项目单一、议价能力较弱。",
+    "error_detail": "添加了不存在的不足点",
+    "original_question": "辽盟生猪养殖专业合作社在服务项目方面存在哪些不足？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "辽盟生猪养殖专业合作社的社员管理松散，表现在社员分布零散、养殖规模不固定、管理制度不完善以及社员参与度低等方面。",
+    "reference_case": "辽盟生猪养殖专业合作社的社员管理松散，表现在社员分布零散、养殖规模不固定、管理制度不完善等方面。",
+    "error_detail": "添加了不相关的术语",
+    "original_question": "辽盟生猪养殖专业合作社的现存问题之一是社员管理松散，具体表现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "辽盟的战略定位是通过分散行业资源，实现辽盟一体化战略格局。",
+    "reference_case": "辽盟的战略定位是通过整合行业资源，实现辽盟一体化战略格局。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "辽盟的战略定位是什么？它如何通过整合行业资源实现一体化战略？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "辽盟通过横向和纵向一体化战略实现从蓝海市场向红海市场的转变。",
+    "reference_case": "辽盟通过横向和纵向一体化战略实现从红海市场向蓝海市场的转变。",
+    "error_detail": "因果倒置",
+    "original_question": "辽盟如何通过一体化战略实现从红海市场向蓝海市场的转变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "辽盟生猪养殖专业合作社目前的年种猪供应量为6000余头优良种猪和6000余头商品猪。",
+    "reference_case": "辽盟生猪养殖专业合作社目前的年种猪供应量为5000余头优良种猪和5000余头商品猪。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "辽盟生猪养殖专业合作社目前的年种猪供应量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "辽盟生猪养殖专业合作社在饲料行业面临的主要问题包括：中间费用高（流通环节多，促销、坏账、庞大销售团队导致成本增加）和产能过剩（辽宁省饲料厂数量多，市场竞争激烈），以及饲料质量不稳定。",
+    "reference_case": "辽盟生猪养殖专业合作社在饲料行业面临的主要问题包括：中间费用高（流通环节多，促销、坏账、庞大销售团队导致成本增加）和产能过剩（辽宁省饲料厂数量多，市场竞争激烈）。",
+    "error_detail": "添加了不存在的假设",
+    "original_question": "辽盟生猪养殖专业合作社在饲料行业面临哪些主要问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "辽盟生猪养殖专业合作社的战略目标包括：建立分散的集团产业链种猪基地及猪苗扩繁基地、育肥生产基地，合资绿色饲料生产基地，以及延伸至绿色品牌猪肉的产业链，以实现规模效应和市场竞争优势。",
+    "reference_case": "辽盟生猪养殖专业合作社的战略目标包括：建立一体化的集团产业链种猪基地及猪苗扩繁基地、育肥生产基地，合资绿色饲料生产基地，以及延伸至绿色品牌猪肉的产业链，以实现规模效应和市场竞争优势。",
+    "error_detail": "误解上下文",
+    "original_question": "辽盟生猪养殖专业合作社的战略目标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "陕西省牛肉消费结构中，牛肉消费量最高。",
+    "reference_case": "猪肉",
+    "error_detail": "术语错误",
+    "original_question": "陕西省牛肉消费结构中，哪种肉类消费量最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "眉山市生猪养殖业当前的主要表现包括：生产方式逐步走向集约化，良繁体系逐步完善，生猪加工企业持续发展，以及政府政策支持。",
+    "reference_case": "眉山市生猪养殖业当前的主要表现包括：生产方式逐步走向集约化，良繁体系逐步完善，生猪加工企业持续发展。",
+    "error_detail": "权重错误",
+    "original_question": "眉山市生猪养殖业当前的主要表现有哪些？",
+    "original_input": ""
+  }
+]

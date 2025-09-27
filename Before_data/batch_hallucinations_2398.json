@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在仔猪出生前和交配前很久就开始关怀母猪和公猪的准备，正确准备母猪和公猪交配，正确进行交配，并确保母猪和公猪有足够的运动。",
+    "reference_case": "在仔猪出生前和交配前很久就开始关怀母猪和公猪的准备，正确准备母猪和公猪交配，正确进行交配。",
+    "error_detail": "添加了无关的运动要求，导致概念混淆。",
+    "original_question": "提高母猪繁殖力的关键措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "需要特别多的谷物、干草、青绿饲料和根茎类作物，以及至少50%的蛋白质饲料。",
+    "reference_case": "需要特别多的谷物、干草、青绿饲料和根茎类作物。",
+    "error_detail": "错误地添加了蛋白质饲料的比例，导致数据偏差。",
+    "original_question": "妊娠母猪前朱期的日粮中，哪些饲料成分需要特别多？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "应选择含蛋白质较少的谷粒饲料和各科谷粒的碎屑，精饲料的数量不得超过全部给料的45%，并且应添加维生素补充剂。",
+    "reference_case": "应选择含蛋白质较少的谷粒饲料和各科谷粒的碎屑，精饲料的数量不得超过全部给料的45%。",
+    "error_detail": "添加了无关的维生素补充剂要求，偏离了原始指令。",
+    "original_question": "妊娠母猪精饲料中应选择哪些饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "需要特别多的蛋白质和脂肪。",
+    "reference_case": "需要特别多的蛋白质。",
+    "error_detail": "错误地添加了脂肪需求，导致概念混淆。",
+    "original_question": "妊娠母猪后车期需要特别多的营养物质是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "蛋白质在喂养妊娠母猪上有着重大的意义，必须选择在总量中含有如第一表所示数量蛋白质的饲料，并且应确保饲料中不含任何添加剂。",
+    "reference_case": "蛋白质在喂养妊娠母猪上有着重大的意义，必须选择在总量中含有如第一表所示数量蛋白质的饲料。",
+    "error_detail": "添加了无关的添加剂假设，滥用假设。",
+    "original_question": "妊娠母猪日粮中，蛋白质在喂养上的重要性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "夏季必须取得足够数量的青饲料，而冬季则应提供干草、多汁饲料和青绿饲料，以及额外的维生素D补充。",
+    "reference_case": "夏季必须取得足够数量的青饲料，而冬季则应提供干草、多汁饲料和青绿饲料。",
+    "error_detail": "添加了过时的维生素D补充要求，导致时效性错误。",
+    "original_question": "为了保证母猪所需的维生素，夏季和冬季应分别提供什么类型的饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "应考虑到钙、磷，有时还考虑到铁和锌，它们都有着很大的意义。",
+    "reference_case": "应考虑到钙、磷，有时还考虑到铁，它们都有着很大的意义。",
+    "error_detail": "错误地添加了锌的需求，导致数据偏差。",
+    "original_question": "妊娠母猪标准喂养时，应考虑到哪些矿物元素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "缺乏钙会使母猪失去食欲、贫血、胎儿死亡，接着而来的是产乳量降低，因此应减少钙的摄入。",
+    "reference_case": "缺乏钙会使母猪失去食欲、贫血、胎儿死亡，接着而来的是产乳量降低。",
+    "error_detail": "错误地建议减少钙的摄入，导致因果倒置。",
+    "original_question": "缺乏钙对妊娠母猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "所生下来的仔猪有的弱小，有的死亡，有时甚至毛发脱落（秃的），并且可能出现视力问题。",
+    "reference_case": "所生下来的仔猪有的弱小，有的死亡，有时甚至毛发脱落（秃的）。",
+    "error_detail": "错误地添加了视力问题，导致概念混淆。",
+    "original_question": "缺乏磷时，妊娠母猪所生下来的仔猪会出现什么情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "应在每公斤饲料中加入40%的骨粉和食盐，以及10%的维生素补充剂。",
+    "reference_case": "应在每公斤饲料中加入40%的骨粉和食盐。",
+    "error_detail": "错误地添加了维生素补充剂的比例，导致数据偏差。",
+    "original_question": "为了保证母猪所需的矿物质，每天应在每公斤饲料中加入多少成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "应喂以稀糊状饲料，并确保饲料中含有高比例的蛋白质。",
+    "reference_case": "应喂以稀糊状饲料。",
+    "error_detail": "添加了无关的蛋白质比例要求，偏离了原始指令。",
+    "original_question": "妊娠母猪在临产前几天应如何调整饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "整个妊娠过程，夏天母猪必须每天赶到运动场去，而冬天则必须造遥运动。冬天只有在临产前的4-5天才需要停止逍遥运动，并且应确保运动场有足够的遮阳设施。",
+    "reference_case": "整个妊娠过程，夏天母猪必须每天赶到运动场去，而冬天则必须造遥运动。冬天只有在临产前的4-5天才需要停止逍遥运动。",
+    "error_detail": "添加了无关的遮阳设施要求，导致空间错位。",
+    "original_question": "妊娠母猪分娩后，直到断奶期间应如何管理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "必须严格遵守规定的时间，以避免破坏饲料时间，导致相似的损害，并且应确保饲料的质量。",
+    "reference_case": "必须严格遵守规定的时间，以避免破坏饲料时间，导致相似的损害。",
+    "error_detail": "添加了无关的饲料质量要求，导致逻辑矛盾。",
+    "original_question": "为什么必须严格遵守猪舍内规定的时间？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "要温和对待哺乳母猪，减少噪音和混乱，以提高产乳量，并且应定期进行健康检查。",
+    "reference_case": "要温和对待哺乳母猪，减少噪音和混乱，以提高产乳量。",
+    "error_detail": "错误地添加了健康检查要求，导致概念混淆。",
+    "original_question": "怎样对待哺乳母猪才能提高产乳量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "哺乳母猪在夜间分泌的乳液比白天多，因为在六十天哺乳期中，每头被试验过的母猪平均一夜能多生产出500克乳液。",
+    "reference_case": "哺乳母猪在夜间分泌的乳液比白天多，因为在六十天哺乳期中，每头被试验过的母猪平均一夜能多生产出320克乳液。",
+    "error_detail": "错误地修改了乳液生产量，导致数据偏差。",
+    "original_question": "哺乳母猪在夜间分泌的乳液比白天多的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪乳的主要成分包括干物质、脂肪、蛋白质、糖和矿物质，其中干物质占25-30%，脂肪占10-15%，蛋白质占7-8%，糖占5.5%，矿物质占2%。",
+    "reference_case": "猪乳的主要成分包括干物质、脂肪、蛋白质、糖和矿物质，其中干物质占18-20%，脂肪占6-10%，蛋白质占5-6%，糖占4.5%，矿物质占1%。",
+    "error_detail": "错误地修改了成分比例，导致数据偏差。",
+    "original_question": "猪乳的主要成分有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "初乳能很好地预防和治疗各种胃肠道病，因此对仔猪非常重要，并且能提高仔猪的免疫力。",
+    "reference_case": "初乳能很好地预防和治疗各种胃肠道病，因此对仔猪非常重要。",
+    "error_detail": "错误地添加了免疫力提高的效果，导致概念混淆。",
+    "original_question": "初乳对仔猪的重要性体现在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "人工初乳能促进新陈代谢，使农业牲畜的仔猪健康成长，并且应确保人工初乳中不含任何添加剂。",
+    "reference_case": "人工初乳能促进新陈代谢，使农业牲畜的仔猪健康成长。",
+    "error_detail": "添加了无关的添加剂假设，滥用假设。",
+    "original_question": "人工初乳的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "优良母猪在六十天哺乳期的产乳量能达到400-450升。",
+    "reference_case": "优良母猪在六十天哺乳期的产乳量能达到300-350升。",
+    "error_detail": "错误地修改了产乳量，导致数据偏差。",
+    "original_question": "优良母猪在六十天哺乳期的产乳量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "一头仔猪每天消耗的乳液量根据仔猪的年龄和体重而定，最小为400克，最大为600克。",
+    "reference_case": "一头仔猪每天消耗的乳液量根据仔猪的年龄和体重而定，最小为320克，最大为500克。",
+    "error_detail": "错误地修改了乳液消耗量，导致数据偏差。",
+    "original_question": "仔猪每天需要多少乳液？",
+    "original_input": ""
+  }
+]

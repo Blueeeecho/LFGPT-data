@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪的胃肠道微生物主要在胃中发挥作用。",
+    "reference_case": "猪的胃肠道微生物主要在小肠和结肠中发挥作用。",
+    "error_detail": "错误地将胃肠道微生物的主要作用部位从小肠和结肠转移到了胃。",
+    "original_question": "猪的胃肠道微生物主要在哪个部位发挥作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "碳水化合物未被消化会直接导致仔猪死亡。",
+    "reference_case": "碳水化合物未被消化会导致仔猪腹泻和脱水，并产生营养缺乏症。",
+    "error_detail": "错误地将碳水化合物未被消化的后果从腹泻和脱水夸大为直接导致死亡。",
+    "original_question": "碳水化合物未被消化时对仔猪有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "将长链不饱和脂肪酸含量高的豆油和短链饱和脂肪酸含量高的椰子油按2:1的比例混合，仔猪可以获得最佳的平均日增重和饲料转化率。",
+    "reference_case": "将长链不饱和脂肪酸含量高的豆油和短链饱和脂肪酸含量高的椰子油按1:1的比例混合，仔猪可以获得最佳的平均日增重和饲料转化率，同时小肠线毛高度增加，消化吸收能力得到提高。",
+    "error_detail": "错误地改变了豆油和椰子油的混合比例，从1:1变为2:1。",
+    "original_question": "不同脂肪酸的比例如何影响仔猪的生长性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "研究主要关注五味子油、乙醇、玉米油、椰子油、猪油（lard）、牛脂（tallow）等油脂。",
+    "reference_case": "研究主要关注五味子油、甲醇、玉米油、椰子油、猪油（lard）、牛脂（tallow）等油脂。",
+    "error_detail": "错误地将甲醇替换为乙醇，混淆了两种不同的化学物质。",
+    "original_question": "生长猪对不同油脂的消化率研究主要关注哪些油脂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "研究表明添加植物油可以显著提高仔猪的免疫力。",
+    "reference_case": "研究表明添加植物油可以改善仔猪的生长性能。",
+    "error_detail": "错误地添加了植物油对仔猪免疫力的影响，这一假设未被原始输出提及。",
+    "original_question": "仔猪日粮中添加植物油的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "D-肉碱对35日龄断奶仔猪不同来源脂肪的利用效果有显著影响。",
+    "reference_case": "L-肉碱对35日龄断奶仔猪不同来源脂肪的利用效果有显著影响。",
+    "error_detail": "错误地将L-肉碱替换为D-肉碱，混淆了两种不同的肉碱形式。",
+    "original_question": "CL-肉碱对断奶仔猪脂肪利用效果的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "研究方法包括测定脂肪的消化率和猪的血液生化指标。",
+    "reference_case": "研究方法包括测定脂肪的消化率和猪的生长性能响应。",
+    "error_detail": "错误地添加了血液生化指标作为研究方法，偏离了原始指令。",
+    "original_question": "不同油脂对断奶猪消化率的影响研究有哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "植物油的添加显著提高了仔猪的肉质。",
+    "reference_case": "植物油的添加改善了仔猪的消化性能和生长表现。",
+    "error_detail": "错误地将植物油的添加效果从消化性能和生长表现转移到了肉质上，权重错误。",
+    "original_question": "植物油添加到仔猪日粮中有什么效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "L-肉碱影响了不同来源脂肪在28日龄断奶仔猪中的利用效果。",
+    "reference_case": "L-肉碱影响了不同来源脂肪在35日龄断奶仔猪中的利用效果。",
+    "error_detail": "错误地改变了断奶仔猪的日龄，从35日龄变为28日龄。",
+    "original_question": "不同来源脂肪对断奶仔猪的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每天给断奶仔猪饲喂6614或19842 µg视黄醇乙酰酯/kg体重，3周内会出现软骨内骨和膜骨损伤。",
+    "reference_case": "每天给断奶仔猪饲喂6614或19842 µg视黄醇乙酰酯/kg体重，5周内会出现软骨内骨和膜骨损伤。",
+    "error_detail": "错误地改变了出现损伤的时间，从5周变为3周。",
+    "original_question": "断奶仔猪饲喂特定剂量视黄醇乙酰酯后会有什么反应？",
+    "original_input": ""
+  }
+]

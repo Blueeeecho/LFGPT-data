@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "牛、绵羊和山羊的精液射在子宫内，而猪和马则射在子宫颈口附近。",
+    "reference_case": "牛、绵羊和山羊的精液射在子宫颈口附近，而猪和马则射入子宫内。",
+    "error_detail": "错误地交换了牛、绵羊、山羊与猪、马的射精部位。",
+    "original_question": "公畜射精时的射精部位是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "牛的射精量为10-15毫升，射精次数最大值为100-120次；绵羊为2毫升，射精次数最大值为50-60次；山羊为2毫升，射精次数最大值为20次；猪为250-300毫升，射精次数最大值为10次；马为80-120毫升，射精次数最大值为30次。",
+    "reference_case": "牛的射精量为5-8毫升，射精次数最大值为60-80次；绵羊为1毫升，射精次数最大值为30-40次；山羊为1毫升，射精次数最大值为14次；猪为150-200毫升，射精次数最大值为8次；马为60-100毫升，射精次数最大值为20次。",
+    "error_detail": "夸大了射精量和射精次数的数值。",
+    "original_question": "不同种类的公畜射精量和射精次数有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "公马和公猪的最大射精次数比公牛和公绵羊多。",
+    "reference_case": "公畜的最大射精次数因物种、品种而异，公牛和公绵羊比公马和公猪多。",
+    "error_detail": "错误地颠倒了公牛、公绵羊与公马、公猪的射精次数关系。",
+    "original_question": "公畜的最大射精次数与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "妊娠期喂缺乏蛋白质的日粮将导致初生重增加。",
+    "reference_case": "妊娠期喂缺乏蛋白质的日粮将导致初生重降低。",
+    "error_detail": "错误地改变了蛋白质摄入对仔猪初生重的影响方向。",
+    "original_question": "3胎时能产较多仔猪。\n3. 妊娠期间母猪蛋白质摄入对仔猪初生重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪的囊胚在受精后的第10-12天形成。",
+    "reference_case": "猪的囊胚在受精后的第6-8天形成。",
+    "error_detail": "错误地延长了猪囊胚形成的时间。",
+    "original_question": "猪的囊胚在受精后多久形成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在第6天，囊胚完全脱离透明带，称为胚泡化。",
+    "reference_case": "在第6天，囊胚至少部分脱离透明带，称为胚泡化。",
+    "error_detail": "错误地描述了囊胚脱离透明带的程度。",
+    "original_question": "猪的囊胚在受精后第6天发生了什么变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "公马精液中的磷脂百分比与公牛或公猪相比很高。",
+    "reference_case": "公马精液中的磷脂百分比很低。",
+    "error_detail": "错误地改变了公马精液中磷脂的百分比描述。",
+    "original_question": "公马精液中的磷脂百分比与公牛或公猪相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母马在休情末期有一大群卵泡发育，其中多个特别扩大，在随后的发情期间成熟和排卵；牛和绵羊在黄体期的最后阶段存在明显的多个卵泡的发育模式。",
+    "reference_case": "母马在休情末期有一小群卵泡发育，其中一个特别扩大，在随后的发情期间成熟和排卵；牛和绵羊在黄体期的最后阶段存在明显的一个或偶有两个卵泡的发育模式。",
+    "error_detail": "错误地增加了卵泡的数量和发育模式。",
+    "original_question": "母马的卵泡发育模式与牛、绵羊和猪有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "营养不良导致能量水平上升，促进发情，且青年生长母畜比成年母畜更为明显。",
+    "reference_case": "营养不良导致能量水平下降，抑制发情，且青年生长母畜比成年母畜更为严重。低能量水平可使哺乳肉用母牛和断乳后每猪的卵巢停止发情。",
+    "error_detail": "错误地改变了营养不良对发情的影响方向和程度。",
+    "original_question": "营养不良如何影响母畜的卵巢活动？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "矿物质和维生素缺乏对母畜的发情没有影响。",
+    "reference_case": "矿物质和维生素缺乏可引起发情不规则和不发情。例如，放牧的牛和绵羊缺磷导致卵果机能失调，初情期延迟，发情征状不明显，最终停止发情。小母猪和昌牛由于喂食缺镭饲料造成卵巢障碍，由发情不明显直至不发情。缺乏维生素A和E可引起发情周期不规则和不发情。",
+    "error_detail": "错误地否定了矿物质和维生素缺乏对发情的影响。",
+    "original_question": "矿物质和维生素缺乏如何影响母畜的发情？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "卵巢囊肿仅见于乳牛，患畜表现为不发情。囊肿仅为卵泡囊肿，含有大量雌激素。",
+    "reference_case": "卵巢囊肿常见于乳牛和猪，患畜可能表现为慕雄狂或不发情。囊肿可为卵泡囊肿或黄体囊肿，后者含有孕酮和少量雌激素，但这些激素的浓度和行为模式无关。",
+    "error_detail": "错误地限制了卵巢囊肿的动物范围和类型，以及激素的描述。",
+    "original_question": "卵巢囊肿在牛和猪中有哪些表现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "延期妊娠曾见于所有种类的猪和母羊。",
+    "reference_case": "延期妊娠曾见于近交系的猪和受胎后14天采食引致畸胎的植物（加尼福利亚葱芦）的母羊。",
+    "error_detail": "错误地扩大了延期妊娠的动物范围。",
+    "original_question": "延期妊娠在哪些动物中曾被观察到？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "控制粹丸引带发育和粹丸下降的因素已经完全明确，主要是遗传因素。",
+    "reference_case": "控制因素尚未明确，有人认为促性腺激素不足可能导致粹丸下降受阻。在猪和马中，单侧隐睾的发生率较高，可能是一种遗传缺陷。",
+    "error_detail": "错误地声称控制因素已经完全明确，并简化了原因。",
+    "original_question": "控制粹丸引带发育和粹丸下降的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "牛和绵羊的隐睾发生率高于其它家畜，可能与遗传缺陷有关。",
+    "reference_case": "猪和马的隐睾发生率高于其它家畜，可能与遗传缺陷有关。",
+    "error_detail": "错误地改变了隐睾发生率高的动物种类。",
+    "original_question": "什么样的家畜更容易发生隐睾现象？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "公猪性欲高与过肥、热应激和营养水平过高有关。",
+    "reference_case": "公猪性欲低与过肥、热应激和营养水平过高有关，青年公猪配种时的管理不当也会影呵性欲。",
+    "error_detail": "错误地改变了公猪性欲与相关因素的关系。",
+    "original_question": "公猪性欲低的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "交配行为完全正常，不会导致公畜的配种失败。",
+    "reference_case": "交配行为失常，如爬跨、插入和射精失常，可能导致公畜的配种失败，常见于老龄公牛和公猪。",
+    "error_detail": "错误地否定了交配行为失常对配种失败的影响。",
+    "original_question": "交配无力的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "老龄公牛和公猪常见的交配困难是射精困难，这些与心理因素有关。",
+    "reference_case": "老龄公牛和公猪常见的交配困难是跨困难和插入困难，这些与关节脱位、骨折、后肢和脊椎关节炎等引起的行动困难有关，后肢膝关节和踝关节表面退行性变化和胸部脊椎的外生骨瘤也能阻碍爬跨活动。",
+    "error_detail": "错误地改变了交配困难的类型和原因。",
+    "original_question": "老龄公牛和公猪常见的交配困难是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪布氏杆菌感染的常见症状包括产健康仔猪。已流产过一次的母猪，以后也能正常产仔。",
+    "reference_case": "猪布氏杆菌感染的常见症状包括流产或产体弱仔猪。已流产过一次的母猪，以后能正常产仔。",
+    "error_detail": "错误地改变了猪布氏杆菌感染的症状描述。",
+    "original_question": "猪布氏杆菌感染的常见症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "公猪感染布氏杆菌后会出现性欲增强，导致过度配种。",
+    "reference_case": "公猪感染布氏杆菌后会出现附睾炎，导致不育。",
+    "error_detail": "错误地改变了公猪感染布氏杆菌后的症状。",
+    "original_question": "公猪感染布氏杆菌后会出现什么症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "控制猪布氏杆菌病的方法主要是使用抗生素治疗感染群。",
+    "reference_case": "控制猪布氏杆菌病的方法主要是检出和消灭感染群。",
+    "error_detail": "错误地改变了控制猪布氏杆菌病的方法。",
+    "original_question": "控制猪布氏杆菌病的方法是什么？",
+    "original_input": ""
+  }
+]

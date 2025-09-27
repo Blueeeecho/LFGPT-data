@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "目前认为最有利的猪场规模为1000-1200头。",
+    "reference_case": "目前认为最有利的猪场规模为450-600头。",
+    "error_detail": "数值偏差",
+    "original_question": "目前英国最有利的猪场规模是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "南斯拉夫的猪品种主要是瑞典和西德的长白猪、大白猪，以及苏波梯卡地方猪和杜洛克猪。",
+    "reference_case": "南斯拉夫的猪品种主要是瑞典和西德的长白猪、大白猪，以及苏波梯卡地方猪。",
+    "error_detail": "添加了不存在的品种",
+    "original_question": "南斯拉夫养猪业中常用的猪品种有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "成活率为90%，初生重为1.0-1.4公斤，28日龄断奶体重约为6公斤，肥育阶段平均日增重为700克，达到100公斤体重平均需170天，每增重一公斤平均消耗混合精料3.0公斤，屠宰率为75%，背膘厚度为2.6厘米。",
+    "reference_case": "成活率为100%，初生重为1.2-1.6公斤，28日龄断奶体重约为7公斤，肥育阶段平均日增重为808克，达到100公斤体重平均需158天，每增重一公斤平均消耗混合精料2.61公斤，屠宰率为78%，背膘厚度为2.4厘米。",
+    "error_detail": "数值偏差",
+    "original_question": "苏波梯卡地方猪与大白猪、长白猪进行四代杂交后，其生长性能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "1962年有50个牛人工授精中心站，700头公牛，1966年有40个中心站，600头公牛，1970年有20个中心站，500头公牛，平均每窝产仔10.0头，受胎率为65%。",
+    "reference_case": "1962年有41个牛人工授精中心站，613头公牛，1966年有37个中心站，517头公牛，1970年有18个中心站，400头公牛，平均每窝产仔9.85头，受胎率为62%。",
+    "error_detail": "数值偏差",
+    "original_question": "南斯拉夫养猪业中的人工授精技术如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "苏联种猪场的母猪年平均产仔数为20.0-21.0头。",
+    "reference_case": "苏联种猪场的母猪年平均产仔数为22.2-23.4头。",
+    "error_detail": "数值偏差",
+    "original_question": "苏联种猪场的母猪年平均产仔数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1971年，苏联养猪业的集约化程度提高，500头以下的农场所占比重减少到40%，而1,000头以上的猪场增至35%。",
+    "reference_case": "1971年，苏联养猪业的集约化程度提高，500头以下的农场所占比重减少到35%，而1,000头以上的猪场增至40%。",
+    "error_detail": "比例偏差",
+    "original_question": "苏联养猪业的集约化程度在1971年有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "1971年苏联成功用冷冻精液为猪、鸡和牛进行了人工授精。",
+    "reference_case": "1971年苏联成功用冷冻精液为猪、鸡进行了人工授精。",
+    "error_detail": "添加了不存在的动物种类",
+    "original_question": "1971年苏联在农业领域取得了什么技术突破？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "增加精料降低了饲养效果，1962年生产每百公斤牛奶、牛肉（活重）或猪肉（活重）需1.",
+    "reference_case": "增加精料提高了饲养效果，1962年生产每百公斤牛奶、牛肉（活重）或猪肉（活重）需1.",
+    "error_detail": "逻辑矛盾",
+    "original_question": "苏联精料消费量增长对饲养效果有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "挤奶 60%，饮水 70%（牛场）和 85%（猪场），喂饲 15%（牛场）、30%（猪场）和 40%（鸡场，1969年），清粪 35%（牛场）、45%（猪场）和 35%（鸡场，1969年），剪毛 90%。",
+    "reference_case": "挤奶 56%，饮水 68%（牛场）和 81%（猪场），喂饲 12%（牛场）、28%（猪场）和 35%（鸡场，1969年），清粪 30%（牛场）、42%（猪场）和 32%（鸡场，1969年），剪毛 88%。",
+    "error_detail": "数值偏差",
+    "original_question": "1970年苏联畜牧业中主要工种的机械化程度如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "包括检疫、屠宰和疫苗接种。屠宰措施主要在原先没有口蹄疫发生的地区发病时强制实行，屠宰肉品允许经热处理后供人食，而在少数原发疫点则实行不放血扑杀焚尸，不供人食。在疫点周围、边境和其它易受传染地区，对 3 月龄以上的牛以及绵羊、山羊和猪强制预防注射，使用单价兔化弱毒疫苗或组织培养疫苗。此外，还对所有家禽进行强制预防注射。",
+    "reference_case": "包括检疫、屠宰和疫苗接种。屠宰措施主要在原先没有口蹄疫发生的地区发病时强制实行，屠宰肉品允许经热处理后供人食，而在少数原发疫点则实行不放血扑杀焚尸，不供人食。在疫点周围、边境和其它易受传染地区，对 3 月龄以上的牛以及绵羊、山羊和猪强制预防注射，使用单价兔化弱毒疫苗或组织培养疫苗。",
+    "error_detail": "添加了不存在的措施",
+    "original_question": "苏联在口蹄疫防制措施中包括哪些手段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "主要采取预防注射，扑杀病猪，在港口、边境和国内实行检疫以及其它兽医措施。苏联在没有猪瘟的地区仍使用结晶紫疫苗，在肥育猪场和受威胁地区使用活毒疫苗。活毒疫苗也应用于发病猪场。此外，还对所有家禽进行强制预防注射。",
+    "reference_case": "主要采取预防注射，扑杀病猪，在港口、边境和国内实行检疫以及其它兽医措施。苏联在没有猪瘟的地区仍使用结晶紫疫苗，在肥育猪场和受威胁地区使用活毒疫苗。活毒疫苗也应用于发病猪场。",
+    "error_detail": "添加了不存在的措施",
+    "original_question": "猪瘟的防制措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1971年加拿大的猪总头数为800.0万头。",
+    "reference_case": "1971年加拿大的猪总头数为770.3万头。",
+    "error_detail": "数值偏差",
+    "original_question": "1971年加拿大的猪总头数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "加拿大养猪业中数量最多的品种是加拿大杜洛克。",
+    "reference_case": "加拿大养猪业中数量最多的品种是加拿大约克夏。",
+    "error_detail": "术语错误",
+    "original_question": "加拿大养猪业中数量最多的品种是哪个？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "加拿大长白猪的特点是黑色，体短，腿肉肥，与约克夏杂交效果一般。",
+    "reference_case": "加拿大长白猪的特点是白色，体长，腿肉瘦，与约克夏杂交效果很好。",
+    "error_detail": "术语错误",
+    "original_question": "加拿大长白猪的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "加拿大汉普夏猪的特点是肩部有黑色宽带，体长，常用来与杜洛克和长白猪杂交。",
+    "reference_case": "加拿大汉普夏猪的特点是肩部有白色宽带，体稍短，常用来与约克夏和长白猪杂交。",
+    "error_detail": "术语错误",
+    "original_question": "加拿大汉普夏猪的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "拉康伯猪是加拿大培育成的第一个猪品种，在阿尔伯达省拉康伯试验站用吉士白公猪与杜洛克母猪交配，所生杂种母猪再与长白公猪交配，在后代中选留白猪，严格淘汰黑猪，经 10 年的选育工作育成。",
+    "reference_case": "拉康伯猪是加拿大培育成的第一个猪品种，在阿尔伯达省拉康伯试验站用吉士白公猪与巴克夏母猪交配，所生杂种母猪再与长白公猪交配，在后代中选留白猪，严格淘汰黑猪，经 10 年的选育工作育成。",
+    "error_detail": "术语错误",
+    "original_question": "拉康伯猪的培育过程是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "拉康伯公猪体重范围为 500 - 800 磅（225 - 360 公斤），母猪体重范围为 400 - 700 磅（180 - 320 公斤）。",
+    "reference_case": "拉康伯公猪体重范围为 600 - 900 磅（270 - 410 公斤），母猪体重范围为 500 - 800 磅（225 - 360 公斤）。",
+    "error_detail": "数值偏差",
+    "original_question": "拉康伯公猪和母猪的体重范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "达到90公斤体重，加拿大主要猪品种中日龄最短的是约克夏，日龄为160天。",
+    "reference_case": "达到90公斤体重，加拿大主要猪品种中日龄最短的是拉康伯，日龄为151天。",
+    "error_detail": "数值偏差",
+    "original_question": "达到90公斤体重，加拿大主要猪品种中日龄最短的是哪个？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "加拿大主要猪品种中，平均日增重最高的品种是约克夏，日增重为0.75公斤。",
+    "reference_case": "加拿大主要猪品种中，平均日增重最高的品种是拉康伯，日增重为0.82公斤。",
+    "error_detail": "数值偏差",
+    "original_question": "加拿大主要猪品种中，平均日增重最高的品种是哪个？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "加拿大较好的养猪场中，母猪的年产仔数为三窝。",
+    "reference_case": "加拿大较好的养猪场中，母猪的年产仔数为两窝。",
+    "error_detail": "数值偏差",
+    "original_question": "加拿大较好的养猪场中，母猪的年产仔数是多少？",
+    "original_input": ""
+  }
+]

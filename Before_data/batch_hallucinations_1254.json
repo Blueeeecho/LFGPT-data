@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）的毒力差异表现在病毒复制、肺脏损伤、淋巴结肿大、发热反应、增重变慢及肺脏的细胞因子反应等方面，以及心脏功能异常。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）的毒力差异表现在病毒复制、肺脏损伤、淋巴结肿大、发热反应、增重变慢及肺脏的细胞因子反应等方面。",
+    "error_detail": "添加了不相关的心脏功能异常作为毒力差异的表现。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的毒力差异表现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组序列分析结果显示，SDSU73与JA142的核苷酸序列同源性最高，达到99.9%。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组序列分析结果显示，SDSU73与JA142的核苷酸序列同源性最高。",
+    "error_detail": "添加了具体的同源性百分比，原始信息中未提供。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组序列分析结果显示，哪些分离株的核苷酸序列同源性最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）的毒力与NSP2基因的大小有直接关系，NSP2基因的大小减少会导致分离株的毒力增强。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）的毒力与NSP2基因的大小没有必然关系，虽然随着时间的推移，PRRSV的NSP2基因的大小在减少，但这并不意味着分离株必然具有更强的毒力。",
+    "error_detail": "错误地建立了NSP2基因大小与毒力之间的直接因果关系。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的毒力与NSP2基因的大小有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪圆环病毒II型（PCV2）的病毒粒子直径平均为20纳米，是目前发现的最小动物病毒。",
+    "reference_case": "猪圆环病毒II型（PCV2）的病毒粒子直径平均为17纳米，是目前发现的最小动物病毒。",
+    "error_detail": "错误地增加了病毒粒子的直径。",
+    "original_question": "猪圆环病毒II型（PCV2）的病毒粒子直径是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "断奶仔猪多系统衰竭综合征（PMWS）的发病主要与猪体内PCV2的含量有关，以及饲养环境的卫生条件。",
+    "reference_case": "断奶仔猪多系统衰竭综合征（PMWS）的发病主要与猪体内PCV2的含量有关。",
+    "error_detail": "添加了饲养环境的卫生条件作为发病因素，原始信息中未提及。",
+    "original_question": "断奶仔猪多系统衰竭综合征（PMWS）的发病与什么因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PCV2特异抗体对猪群的PCV2感染具有治疗作用。",
+    "reference_case": "PCV2特异抗体对猪群的PCV2感染具有保护作用。",
+    "error_detail": "将保护作用错误地描述为治疗作用。",
+    "original_question": "PCV2特异抗体对猪群的PCV2感染有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "影响PCV2感染结果的因素包括病毒、宿主、混合感染、免疫调节以及饲料质量。",
+    "reference_case": "影响PCV2感染结果的因素包括病毒、宿主、混合感染和免疫调节等。",
+    "error_detail": "添加了饲料质量作为影响因素，原始信息中未提及。",
+    "original_question": "PCV2感染猪后，哪些因素会影响感染结果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "PCV2的传染源包括病猪、感染但不发病猪、发病后痊愈猪及公猪精液、流产胎儿等，以及污染的饲料和水源。",
+    "reference_case": "PCV2的传染源包括病猪、感染但不发病猪、发病后痊愈猪及公猪精液、流产胎儿等。",
+    "error_detail": "添加了污染的饲料和水源作为传染源，原始信息中未提及。",
+    "original_question": "PCV2的传染源有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "与PCV2相关性最强且目前正在对猪场造成经济损失的疾病主要有副猪嗜血杆菌病、链球菌病、附红细胞体病和猪喘气病等，以及猪流感。",
+    "reference_case": "与PCV2相关性最强且目前正在对猪场造成经济损失的疾病主要有副猪嗜血杆菌病、链球菌病、附红细胞体病和猪喘气病等。",
+    "error_detail": "添加了猪流感作为相关疾病，原始信息中未提及。",
+    "original_question": "PCV2感染猪后，哪些疾病与其相关性最强？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "用免疫组化技术可在巨噬细胞和树突状细胞胞浆中检测到大量的PCV2抗原，而在淋巴细胞中检测不到PCV2抗原。",
+    "reference_case": "用免疫组化技术可在巨噬细胞和树突状细胞胞浆中检测到大量的PCV2抗原，而在淋巴细胞中只检测到微量PCV2抗原。",
+    "error_detail": "错误地声称在淋巴细胞中检测不到PCV2抗原。",
+    "original_question": "PCV2感染猪后，哪些细胞中能检测到PCV2抗原？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "免疫刺激可能促进PCV2感染成为发病猪，并形成PCVAD特征性的病变。此外，免疫抑制剂也可促进PCV2在体内的复制和病变的形成，以及气候变化。",
+    "reference_case": "免疫刺激可能促进PCV2感染成为发病猪，并形成PCVAD特征性的病变。此外，免疫抑制剂也可促进PCV2在体内的复制和病变的形成。",
+    "error_detail": "添加了气候变化作为促进因素，原始信息中未提及。",
+    "original_question": "PCV2感染猪后，哪些因素可能促进PCV2相关疾病的发生？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "新型多元化猪生产系统是一种在充分保证猪福利的基础上发展起来的生产方式，能够为猪提供更多自由活动的空间和展现自然行为的设备，包括玩具、咬链、供拱食的泥土等。生产者可以采用舍内大圈群养、户外自由放养或新型的限位栏限位饲养，以及完全放养。",
+    "reference_case": "新型多元化猪生产系统是一种在充分保证猪福利的基础上发展起来的生产方式，能够为猪提供更多自由活动的空间和展现自然行为的设备，包括玩具、咬链、供拱食的泥土等。生产者可以采用舍内大圈群养、户外自由放养或新型的限位栏限位饲养。",
+    "error_detail": "添加了完全放养作为生产方式，原始信息中未提及。",
+    "original_question": "什么是新型多元化猪生产系统？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "新型多元化猪生产系统通过提供更多的自由活动空间和自然行为展示设备，有助于减少猪的打斗和伤害，保持猪群的清洁和舒适，从而提高猪的健康和福利水平，以及增加生产效率。",
+    "reference_case": "新型多元化猪生产系统通过提供更多的自由活动空间和自然行为展示设备，有助于减少猪的打斗和伤害，保持猪群的清洁和舒适，从而提高猪的健康和福利水平。",
+    "error_detail": "添加了增加生产效率作为影响，原始信息中未提及。",
+    "original_question": "新型多元化猪生产系统对猪的健康和福利有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪智能化饲喂系统主要包括母猪智能化精确饲喂系统、母猪智能化分离系统和母猪智能化发情鉴定系统，以及环境控制系统。",
+    "reference_case": "母猪智能化饲喂系统主要包括母猪智能化精确饲喂系统、母猪智能化分离系统和母猪智能化发情鉴定系统。",
+    "error_detail": "添加了环境控制系统作为组成部分，原始信息中未提及。",
+    "original_question": "母猪智能化饲喂系统的主要组成部分有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "加热地面技术可以使仔猪的断奶日龄从28-35日龄提前到18-20日龄，断奶仔猪育成率从低于90%提高到98%以上。",
+    "reference_case": "加热地面技术可以使仔猪的断奶日龄从28-35日龄提前到21-23日龄，断奶仔猪育成率从低于90%提高到98%以上。",
+    "error_detail": "错误地减少了断奶日龄的范围。",
+    "original_question": "加热地面技术对仔猪的断奶日龄和育成率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "乳头式饮水器的水流速率约为500 mL/min，安装高度在高出圈舍内最小猪肩部5 cm，每个饮水器为8-10头猪提供饮水时，是最适宜猪饮水需要的，这有助于提高猪的生产性能。",
+    "reference_case": "乳头式饮水器的水流速率约为700 mL/min，安装高度在高出圈舍内最小猪肩部5 cm，每个饮水器为8-10头猪提供饮水时，是最适宜猪饮水需要的，这有助于提高猪的生产性能。",
+    "error_detail": "错误地减少了水流速率。",
+    "original_question": "乳头式饮水器的水流速率、安装高度和数量对猪的饮水量和生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "大群体饲养方式可以节省土地和圈栏费用，减少动物之间的争斗，提供更多的选择权，减少动物体热损失，从而提高猪的福利和生产性能，以及减少饲料成本。",
+    "reference_case": "大群体饲养方式可以节省土地和圈栏费用，减少动物之间的争斗，提供更多的选择权，减少动物体热损失，从而提高猪的福利和生产性能。",
+    "error_detail": "添加了减少饲料成本作为影响，原始信息中未提及。",
+    "original_question": "大群体饲养方式对猪的福利和生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "地面空间占有量的三种表示方法是：每头猪的占地面积（m²/头）、每平方米上猪的重量（kg/m²）和公式表达（A=k×BW^0:667），其中A代表占地面积，k代表占地面积系数，BW代表体重，以及猪的年龄。",
+    "reference_case": "地面空间占有量的三种表示方法是：每头猪的占地面积（m²/头）、每平方米上猪的重量（kg/m²）和公式表达（A=k×BW^0:667），其中A代表占地面积，k代表占地面积系数，BW代表体重。",
+    "error_detail": "添加了猪的年龄作为公式中的变量，原始信息中未提及。",
+    "original_question": "地面空间占有量的三种表示方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "环境富集可以提高猪的日增重，降低猪的应激水平，增加猪的活性，提高动物福利。富集材料如稻草、木头、锯屑、玩具等可以满足猪的探究行为，以及改善肉质。",
+    "reference_case": "环境富集可以提高猪的日增重，降低猪的应激水平，增加猪的活性，提高动物福利。富集材料如稻草、木头、锯屑、玩具等可以满足猪的探究行为。",
+    "error_detail": "添加了改善肉质作为影响，原始信息中未提及。",
+    "original_question": "环境富集对猪的生产性能和福利有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "不去势公猪育肥的优点是生产性能和胴体性能较高，尤其是胴体瘦肉率较高。缺点是肉中可能含有膻味，令人不愉快，以及生长速度较慢。",
+    "reference_case": "不去势公猪育肥的优点是生产性能和胴体性能较高，尤其是胴体瘦肉率较高。缺点是肉中可能含有膻味，令人不愉快。",
+    "error_detail": "添加了生长速度较慢作为缺点，原始信息中未提及。",
+    "original_question": "不去势公猪育肥的优缺点是什么？",
+    "original_input": ""
+  }
+]

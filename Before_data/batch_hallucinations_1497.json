@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "无公害肉猪的饲养标准包括使用抗生素促进生长。",
+    "reference_case": "按照不同种类、不同生长阶段猪的营养需求，结合生产绿色猪肉的实际需要以及本地饲料资源状况，利用计算机技术，配制科学合理、营养平衡的全价日粮。",
+    "error_detail": "错误地将抗生素使用纳入无公害肉猪饲养标准，与绿色猪肉生产理念冲突。",
+    "original_question": "无公害肉猪的饲养标准包括哪些内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "环境净化仅需在猪场建设初期进行一次。",
+    "reference_case": "环境净化包括对外部和内部环境的净化，防止外来污染和内部污染的产生；通过定期与不定期的消毒措施，确保猪场环境的清洁。",
+    "error_detail": "错误地认为环境净化是一次性工作，忽视了定期消毒的必要性。",
+    "original_question": "环境净化在猪场疫病防控中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "制定猪场消毒制度的目的是为了减少饲料成本。",
+    "reference_case": "制定并执行严格的消毒制度，定期或不定期对猪场环境、猪舍、用具和猪体进行消毒，以实现疫病防控。",
+    "error_detail": "错误地将消毒制度的目的与饲料成本挂钩，偏离了疫病防控的核心目标。",
+    "original_question": "制定猪场消毒制度的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "实行'全进全出'的饲养制度会导致疫病增加。",
+    "reference_case": "实行'全进全出'的饲养制度，按照现代养猪工艺流程调控繁殖节律，实现早期断奶，按周安排生产，有利于疫病的控制与净化。",
+    "error_detail": "错误地认为'全进全出'制度会增加疫病，实际上该制度有助于疫病控制。",
+    "original_question": "如何通过'全进全出'的饲养制度来控制疫病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪场粪尿及废弃物的处理方法包括直接排放到河流中。",
+    "reference_case": "对粪尿和废弃物进行固液分离，采用自然堆腐或高温堆腐处理固形物，采用沉淀、曝光、生物膜和光合细菌设施处理污水，然后分别进行发酵降解，利用发酵产物生产专用有机肥料。",
+    "error_detail": "错误地提出了直接排放的处理方法，忽视了环境保护和资源回收的重要性。",
+    "original_question": "猪场粪尿及废弃物的处理方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "疫病监测只是为了减少兽医的工作量。",
+    "reference_case": "疫病监测结果是制定猪群免疫接种程序、药物预防程序和寄生虫控制程序的重要依据，兽医技术人员通过监测结果提出综合防控措施。",
+    "error_detail": "错误地假设疫病监测的主要目的是减少工作量，忽视了其在疫病防控中的核心作用。",
+    "original_question": "在猪场疫病防控中，为何要重视疫病监测？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "一个100头母猪的猪场，每周应该配种20头母猪。",
+    "reference_case": "一个100头母猪的猪场，每周应该配种5头母猪。",
+    "error_detail": "错误地高估了每周配种数量，与实际生产需求不符。",
+    "original_question": "一个规模化猪场每周应该配种多少头母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每头母猪平均年产5窝，每窝平均产活仔15头。",
+    "reference_case": "每头母猪平均年产2窝，每窝平均产活仔10头。",
+    "error_detail": "错误地高估了母猪的年产窝数和每窝产仔数，与实际情况不符。",
+    "original_question": "规模化猪场每头母猪平均年产仔数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪在35日龄断奶时的成活率应达到70%以上。",
+    "reference_case": "仔猪在35日龄断奶时的成活率应达到90%以上。",
+    "error_detail": "错误地低估了断奶仔猪的成活率标准。",
+    "original_question": "仔猪在35日龄断奶时的成活率应达到多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪在断奶后转入培育舍前需要饲养10周。",
+    "reference_case": "仔猪在断奶后转入培育舍前需要饲养5-6周。",
+    "error_detail": "错误地延长了饲养时间，与标准饲养周期不符。",
+    "original_question": "仔猪在断奶后转入培育舍前需要饲养多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "生长肥育阶段每头猪平均体重达到120kg左右时出售。",
+    "reference_case": "生长肥育阶段每头猪平均体重达到90kg左右时出售。",
+    "error_detail": "错误地高估了出售体重，与市场标准不符。",
+    "original_question": "生长肥育阶段每头猪平均体重达到多少时出售？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "一个有100头成年母猪的规模化猪场年产商品猪1000头以上。",
+    "reference_case": "一个有100头成年母猪的规模化猪场年产商品猪1500头以上。",
+    "error_detail": "错误地低估了年产商品猪数量，与生产潜力不符。",
+    "original_question": "一个有100头成年母猪的规模化猪场年产商品猪多少头以上？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "规模化猪场的猪群结构应包括宠物猪。",
+    "reference_case": "规模化猪场的猪群结构应包括种公猪、种母猪、后备猪、哺乳仔猪、培育仔猪、生长肥育猪等。",
+    "error_detail": "错误地将宠物猪纳入规模化猪场的猪群结构，与生产目的不符。",
+    "original_question": "规模化猪场的猪群结构应包括哪些类型猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "成年母猪200头；后备母猪40-50头；成年公猪4头；后备公猪2头；哺乳仔猪400-440头；培育仔猪430-480头；生长肥育猪1020-1100头；合计存栏2096-2276头。",
+    "reference_case": "成年母猪100头；后备母猪20-25头；成年公猪2头；后备公猪1头；哺乳仔猪200-220头；培育仔猪215-240头；生长肥育猪510-550头；合计存栏1048-1138头。",
+    "error_detail": "错误地翻倍了所有猪群的存栏标准，与实际情况不符。",
+    "original_question": "规模化猪场的猪群结构应保持相对稳定，如何计算其存栏标准？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "规模化养猪生产的主要工艺流程分为两段法。",
+    "reference_case": "规模化养猪生产的主要工艺流程分为四段法、五段法和六段法。",
+    "error_detail": "错误地简化了工艺流程，忽视了多种分段方法的存在。",
+    "original_question": "规模化养猪生产的主要工艺流程分为几个阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "四段法包括配种阶段、妊娠阶段、哺乳阶段、肥育阶段。",
+    "reference_case": "四段法包括配种妊娠阶段、产仔哺乳阶段、断奶仔猪培育阶段、生长肥育阶段。",
+    "error_detail": "错误地重新定义了四段法的内容，与标准流程不符。",
+    "original_question": "四段法的各阶段包括哪些内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "五段法包括配种舍、妊娠舍、分娩舍、保育舍、肥育舍。",
+    "reference_case": "五段法包括空怀妊娠舍、分娩哺乳舍、断奶仔猪保育舍、生长猪舍、肥育猪舍。",
+    "error_detail": "错误地重新定义了五段法的内容，与标准流程不符。",
+    "original_question": "五段法的各阶段包括哪些内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "六段法在五段法的基础上增加了宠物猪舍。",
+    "reference_case": "六段法在五段法的基础上把空怀与妊娠母猪分开，单独组群，便于实施全进全出的流水式作业；断奶母猪复膘快、发情集中、易于配种；猪只生长快、养猪效率高。",
+    "error_detail": "错误地将宠物猪舍纳入六段法改进内容，与生产目的不符。",
+    "original_question": "六段法在五段法的基础上做了哪些改进？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "规模化养猪实现全年均衡生产、均衡上市可以增加猪的幸福感。",
+    "reference_case": "规模化养猪实现全年均衡生产、均衡上市可以最大限度地降低生产成本，提高劳动生产率和经济效益。",
+    "error_detail": "错误地将猪的幸福感作为均衡生产的好处，偏离了经济效益的核心目标。",
+    "original_question": "规模化养猪实现全年均衡生产、均衡上市有什么好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "种公猪的配合饲料要求每千克含消化能15.0～16.0 MJ，粗蛋白25%，钙1.5%，磷1.2%。",
+    "reference_case": "种公猪的配合饲料要求每千克含消化能12.5～13.0 MJ，粗蛋白18%，钙0.83%，磷0.66%。",
+    "error_detail": "错误地高估了种公猪饲料的营养成分需求，与实际标准不符。",
+    "original_question": "种公猪的配合饲料应包含哪些营养成分？",
+    "original_input": ""
+  }
+]

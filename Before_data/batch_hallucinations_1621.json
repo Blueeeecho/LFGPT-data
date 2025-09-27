@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪在运输过程中因为不想饮水，所以车辆会震动。",
+    "reference_case": "猪在运输过程中受到车辆震动的影响，即使口渴也不会顺利饮水。",
+    "error_detail": "将车辆震动作为猪不饮水的结果，而非原因。",
+    "original_question": "为什么猪在运输过程中即使口渴也不会顺利饮水？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "欧盟No. 3820 / 85指令要求猪在运输过程中每4小时提供一次饮水。",
+    "reference_case": "经过8小时运输后应当给猪提供清洁的饮水，并在车辆静止时提供饮水。",
+    "error_detail": "错误地缩短了提供饮水的时间间隔。",
+    "original_question": "欧盟No. 3820 / 85指令对猪的饮水供给有何要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪的正常休温为35.0-37.0℃，呼吸20-30次/分，心搏80-100次/分。",
+    "reference_case": "猪的正常休温为38.0-40.0℃，呼吸12-20次/分，心搏60-80次/分；生羊的正常休温为37.5-39.5℃，呼吸10-30次/分，心搏40-80次/分；羊的正常休温为38.0-40.0℃，呼吸12-20次/分，心搏70-80次/分；马的正常休温为37.5-38.5℃，呼吸8-16次/分，心搏26-44次/分；骆驼的正常休温为36.5-38.5℃，呼吸5-12次/分，心搏32-52次/分。",
+    "error_detail": "提供了错误的生理数据范围。",
+    "original_question": "正常休温、呼吸和心搏频率的范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "患口蹄疫的动物症状表现在全身皮肤发生水泡和烂斑。",
+    "reference_case": "患口蹄疫的动物症状表现在口腔粘膜、蹄部和乳房皮肤发生水泡和烂斑，牛表现发热，以口腔粘膜、蹄部和乳房皮肤形成水泡和烂斑为特征，绵羊、山羊和猪的表现各有侧重。",
+    "error_detail": "错误地将症状扩大到全身皮肤。",
+    "original_question": "患口蹄疫的动物症状表现如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "布氏杆菌病的处理原则是腌制30天后出场。",
+    "reference_case": "宰前发现症状或宰后发现病变者，其胴体和内脏应经高温处理，或腌制60天后出场。毛被也应腌渍60天。生殖器官及乳房等作工业用或销毁。宰前血清学反应阳性而无症状，宰后检验又无病变者，其生殖器官及乳房作工业用或销毁；公牛、犏牛、猪的胴体和内脏不受限制利用, 但母牛、母羊的胴体和内脏须经高温处理后利用。",
+    "error_detail": "错误地缩短了腌制时间。",
+    "original_question": "布氏杆菌病的处理原则是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "白肌肉猪肉在宰后检验中表现为肌肉色泽深红、质地坚硬。",
+    "reference_case": "白肌肉猪肉在宰后检验中表现为肌肉色泽苍白、质地松软、切面有液体渗出，肌肉松软、明显水肿，弹性差，手指容易戳入。",
+    "error_detail": "错误地描述了白肌肉猪肉的特征。",
+    "original_question": "白肌肉猪肉有何特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "白肌肉猪肉的产生原因是宰后处理不当。",
+    "reference_case": "白肌肉猪肉的产生与宰前外界环境中的各种物理的和机械的应激性刺激（如高温运输、疲劳、电击、泡淋过久等）以及品种及个体差异有关。",
+    "error_detail": "错误地将宰后处理作为原因。",
+    "original_question": "白肌肉猪肉的产生原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪肉的肌肉暗红色，切面无光泽。",
+    "reference_case": "猪肉的肌肉鲜红色或淡红色，切面有光泽，质地坚实，肌间脂肪富有，瘦肉型断面呈大理石样。",
+    "error_detail": "错误地描述了猪肉的颜色和光泽。",
+    "original_question": "猪的肉质特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "羊骨与胸骨相连处呈钝角，助骨15对。",
+    "reference_case": "羊骨与胸骨相连处呈锐角，楔形，助骨13对，真助3对；猪骨的助骨扁圆14-15对，7对真助弯曲度没有狗的大。",
+    "error_detail": "错误地描述了羊骨的特征。",
+    "original_question": "羊骨与猪骨在哪些特征上有所不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "集贸市场肉品检验中只需要关注肉新鲜度的检验。",
+    "reference_case": "肉新鲜度的检验、病死畜禽肉的检验、中毒畜禽肉的检验、各种劣质肉的检验以及公、母猪肉的检验。",
+    "error_detail": "错误地缩小了检验范围。",
+    "original_question": "集贸市场肉品检验中需要关注哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟的宰后病变特征是肝脏肿大。",
+    "reference_case": "急性病例呈败血症变化，全身各器官组织明显出血，全身淋巴结呈大理石样外观，脾肚有楔形梗死等变化；慢性病例的特征性变化是盲肠、结肠及回盲瓣处出现钮扣状溃疡。",
+    "error_detail": "错误地描述了猪瘟的宰后病变特征。",
+    "original_question": "猪瘟的宰后病变有哪些特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "旋毛虫主要寄生在猪的心脏和肺部。",
+    "reference_case": "旋毛虫主要寄生在猪的膈肌、舌肌、肋间肌等处，以膈肌感染率最高。",
+    "error_detail": "错误地描述了旋毛虫的寄生部位。",
+    "original_question": "旋毛虫病主要寄生在猪的哪些部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪肉中肉孢子虫多寄生在心脏和肺部。",
+    "reference_case": "猪肉中肉孢子虫多见于腹肌、股部肌、肋间肌、咽喉肌和膈肌。",
+    "error_detail": "错误地描述了肉孢子虫的寄生部位。",
+    "original_question": "猪肉中肉孢子虫多寄生在哪些部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "高压蒸煮是在1.5个大气压下蒸煮1小时。",
+    "reference_case": "对有条件食用产品的无害化处理方法有高温处理、冷冻处理、盐腌处理和产酸处理。高温处理的方法有高压蒸煮法和常压烧煮法。高压蒸煮是在特制的高压锅内进行，将肉块切成约重2公斤、厚度不超过8厘米的肉块，在1.3个大气压下蒸煮1.5小时。常压烧煮是将肉块切成上述大小的肉块，在普通铁锅内烧煮2-2.5小时（以水沸腾时间为准），要求肉块中心温度达到80°C; 切开肉块, 当深部切面呈灰白色（猪肉）或灰色（牛羊肉），且无血水残存者，即可认为已达到无害。",
+    "error_detail": "错误地描述了高压蒸煮的条件。",
+    "original_question": "对有条件食用产品的无害化处理有哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪排泄物处理1000L/d时，沼气的发生量为50m³（标）/d。",
+    "reference_case": "首先计算投入猪排泄物VS量（70kg/d），然后利用VS成分分解率（50%）和甲烷转化率（0.650）进行推算，得到沼气的发生量为35m³（标）/d。",
+    "error_detail": "错误地高估了沼气的发生量。",
+    "original_question": "猪排泄物（VS含量7%）处理1000L/d时，如何推算沼气的发生量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "家畜粪便甲烷发酵消化液的氨氮含量为 5000 mg/kg（牛粪便）和 2000 mg/kg（猪粪便）。",
+    "reference_case": "家畜粪便甲烷发酵消化液的氨氮含量为 3310 mg/kg（牛粪便）和 1100 mg/kg（猪粪便）。",
+    "error_detail": "错误地高估了氨氮含量。",
+    "original_question": "家畜粪便甲烷发酵消化液的氨氮含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每头B母猪每年能够提供10头商品场的AB小母猪。",
+    "reference_case": "每头B母猪每年能够提供5头商品场的AB小母猪。",
+    "error_detail": "错误地高估了提供的小母猪数量。",
+    "original_question": "杂种母猪繁殖场每头母猪每年能够提供多少头商品场的小母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每年需要从纯种母猪繁殖场购买约15000头B小母猪。",
+    "reference_case": "每年需要从纯种母猪繁殖场购买约13000头B小母猪。",
+    "error_detail": "错误地高估了购买的小母猪数量。",
+    "original_question": "每年杂种母猪繁殖场需要从纯种母猪繁殖场购买多少头B小母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "需养3000头A公猪。",
+    "reference_case": "需养2000头A公猪。",
+    "error_detail": "错误地高估了需要的公猪数量。",
+    "original_question": "公、母猪比为1:20时，杂种母猪繁殖场需养多少头A公猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每年需要从原种场购买1000头A小公猪。",
+    "reference_case": "每年需要从原种场购买700头A小公猪。",
+    "error_detail": "错误地高估了购买的小公猪数量。",
+    "original_question": "每年杂种母猪繁殖场需要从原种场购买多少头A小公猪？",
+    "original_input": ""
+  }
+]

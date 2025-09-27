@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "重组蛋白的相对分子质量是 65000。",
+    "reference_case": "重组蛋白的相对分子质量是 61000。",
+    "error_detail": "错误地提供了重组蛋白的相对分子质量。",
+    "original_question": "猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达实验中，重组蛋白的相对分子质量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在 37°C、IPTG 终浓度为 1:0 mmol/L 的条件下诱导 5 小时，重组蛋白的表达量最高。",
+    "reference_case": "在 28°C、IPTG 终浓度为 0:1 mmol/L 的条件下诱导 10 小时，重组蛋白的表达量最高。",
+    "error_detail": "错误地提供了诱导条件，包括温度、IPTG浓度和诱导时间。",
+    "original_question": "猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达实验中，重组蛋白的表达量在什么条件下最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "通过免疫 8 周龄的雌性昆明系小鼠，使用 200 μg 的抗原与等体积佐剂完全乳化后，背部多点皮下注射，每 21 天加强免疫一次，首次免疫使用弗氏不完全佐剂，后续使用弗氏完全佐剂。",
+    "reference_case": "通过免疫 6 周龄的雌性昆明系小鼠，使用 100 μg 的抗原与等体积佐剂完全乳化后，背部多点皮下注射，每 14 天加强免疫一次，首次免疫使用弗氏完全佐剂，后续使用弗氏不完全佐剂。",
+    "error_detail": "错误地提供了免疫实验的具体参数，包括小鼠年龄、抗原量、免疫间隔和佐剂使用顺序。",
+    "original_question": "在猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达实验中，如何制备多克隆抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "通过 Western blot 分析，在 65000 的位置上出现了特异性杂交条带，证明制备的抗体与 TsCL-1 重组蛋白特异性结合，说明重组蛋白具有较好的抗原性。",
+    "reference_case": "通过 Western blot 分析，在 61000 的位置上出现了特异性杂交条带，证明制备的抗体与 TsCL-1 重组蛋白特异性结合，说明重组蛋白具有较好的抗原性。",
+    "error_detail": "错误地提供了特异性杂交条带的位置。",
+    "original_question": "猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达实验中，重组蛋白的抗原性如何验证？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "通过间接 ELISA 法检测免疫后小鼠血清的抗体滴度，抗体滴度为 1:6400，显示了 TsCL-1 重组蛋白有较好的免疫原性。",
+    "reference_case": "通过间接 ELISA 法检测免疫后小鼠血清的抗体滴度，抗体滴度为 1:12800，显示了 TsCL-1 重组蛋白有较好的免疫原性。",
+    "error_detail": "错误地提供了抗体滴度的数值。",
+    "original_question": "猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达实验中，重组蛋白的免疫原性如何评估？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2011年中国生猪、蛋鸡和奶牛规模化养殖的比重分别是40%、85%和35%，与2002年相比分别提高了30、30和23个百分点。",
+    "reference_case": "2011年中国生猪、蛋鸡和奶牛规模化养殖的比重分别是37%、80%和33%，与2002年相比分别提高了27、27和21个百分点。",
+    "error_detail": "错误地提供了规模化养殖的比重和提升的百分点。",
+    "original_question": "2011年中国生猪、蛋鸡和奶牛规模化养殖的比重分别是多少，与2002年相比分别提高了多少个百分点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2012年11月全国生猪产品的价格有所上升。具体来说，全国活猪月平均价格为15:83元/公斤，比上月上升0:1%，比去年同期上升14:5%。猪肉月平均价格为24:76元/公斤，比上月上升0:7%，同比上升15:0%。仔猪月平均价格为26:86元/公斤，比上月上升6:7%，同比上升18:5%。",
+    "reference_case": "2012年11月全国生猪产品的价格有所下降。具体来说，全国活猪月平均价格为14:83元/公斤，比上月下降0:1%，比去年同期下降14:5%。猪肉月平均价格为23:76元/公斤，比上月下降0:7%，同比下降15:0%。仔猪月平均价格为25:86元/公斤，比上月下降6:7%，同比下降18:5%。",
+    "error_detail": "错误地描述了生猪产品价格的变化趋势和具体数值。",
+    "original_question": "2012年11月全国生猪产品的价格变化情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2012年11月全国育肥猪配合饲料、肉鸡配合饲料和蛋鸡配合饲料月平均价格分别为3:34元/公斤、3:44元/公斤和3:16元/公斤，分别比上月上升1:2%、0:6%和1:0%，同比分别下降6:9%、6:0%和5:5%。",
+    "reference_case": "2012年11月全国育肥猪配合饲料、肉鸡配合饲料和蛋鸡配合饲料月平均价格分别为3:24元/公斤、3:34元/公斤和3:06元/公斤，分别比上月下降1:2%、0:6%和1:0%，同比分别上涨6:9%、6:0%和5:5%。",
+    "error_detail": "错误地提供了饲料价格的具体数值和变化趋势。",
+    "original_question": "2012年11月全国饲料价格的变化情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2012年11月全国猪粮比价为5:10:1，比上月减少0:18个点。",
+    "reference_case": "2012年11月全国猪粮比价为6:10:1，比上月增加0:18个点。",
+    "error_detail": "错误地提供了猪粮比价的具体数值和变化趋势。",
+    "original_question": "2012年11月全国猪粮比价是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "苏钟猪LPL基因编码的蛋白质的分子量为128 ku，理论等电点为5:99。",
+    "reference_case": "苏钟猪LPL基因编码的蛋白质的分子量为118 ku，理论等电点为4:99。",
+    "error_detail": "错误地提供了蛋白质的分子量和等电点。",
+    "original_question": "苏钟猪LPL基因编码的蛋白质的分子量和等电点是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "苏钟猪LPL蛋白的信号肽预测结果显示，存在信号肽序列的概率为99:9%，存在信号锚点的概率为1:0%，存在信号肽切割位点的概率为30:0%，表明该蛋白很可能存在信号肽，并且是分泌型蛋白。",
+    "reference_case": "苏钟猪LPL蛋白的信号肽预测结果显示，存在信号肽序列的概率为98:4%，存在信号锚点的概率为0:7%，存在信号肽切割位点的概率为24:8%，表明该蛋白很可能存在信号肽，并且是分泌型蛋白。",
+    "error_detail": "数值比例被夸大",
+    "original_question": "苏钟猪LPL蛋白的信号肽预测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪卵巢卵泡颗粒细胞的体外培养中，CART对FSH诱导的雌激素产生有显著抑制作用。特别是在FSH浓度为25和50 ng·mL⁻¹时，随着CART浓度的升高，雌激素浓度显著下降。",
+    "reference_case": "在猪卵巢卵泡颗粒细胞的体外培养中，CART对FSH诱导的雌激素产生有抑制作用，但抑制效果并不显著。特别是在FSH浓度为25和50 ng·mL⁻¹时，随着CART浓度的升高，雌激素浓度有下降的趋势，但各组间差异不显著。",
+    "error_detail": "抑制效果被夸大",
+    "original_question": "可卡因-苯丙胺调控转录肽（CART）对猪卵巢卵泡颗粒细胞雌激素产生的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "统计分析显示，FSH和CART的交互作用显著（P<0:05:，表明两者在猪卵巢卵泡颗粒细胞的雌激素产生中有显著的协同或拮抗作用。",
+    "reference_case": "统计分析显示，FSH和CART的交互作用不显著（P>0:05:，表明两者在猪卵巢卵泡颗粒细胞的雌激素产生中没有显著的协同或拮抗作用。",
+    "error_detail": "交互作用的显著性被错误地更改",
+    "original_question": "在猪卵巢卵泡颗粒细胞的体外培养中，CART和FSH的交互作用如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在FSH浓度为0 ng·mL⁻¹时，CART对猪卵巢卵泡颗粒细胞的增殖有明显促进作用。然而，在FSH浓度为25 ng·mL⁻¹时，CART浓度为0:1和1 μmol·L⁻¹时，颗粒细胞的增殖受到明显促进。",
+    "reference_case": "在FSH浓度为0 ng·mL⁻¹时，CART对猪卵巢卵泡颗粒细胞的增殖没有明显影响。然而，在FSH浓度为25 ng·mL⁻¹时，CART浓度为0:1和1 μmol·L⁻¹时，颗粒细胞的增殖受到明显抑制。",
+    "error_detail": "CART的作用被错误地反转",
+    "original_question": "猪卵巢卵泡颗粒细胞体外培养168小时后，CART对细胞增殖的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在CART浓度为0 μmol·L⁻¹时，随着FSH浓度的增加，猪卵巢卵泡颗粒细胞的密度显著减少，特别是在FSH浓度为25和50 ng·mL⁻¹时，颗粒细胞大量减少形成分散的细胞群。",
+    "reference_case": "在CART浓度为0 μmol·L⁻¹时，随着FSH浓度的增加，猪卵巢卵泡颗粒细胞的密度显著增加，特别是在FSH浓度为25和50 ng·mL⁻¹时，颗粒细胞大量聚集形成成串的细胞群。",
+    "error_detail": "FSH的作用被错误地反转",
+    "original_question": "猪卵巢卵泡颗粒细胞体外培养168小时后，FSH对细胞增殖的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在FSH浓度为25 ng·mL⁻¹时，雌激素浓度达到最低（10000:00 ± 100:00 pg·mL⁻¹）。随着CART浓度的增加，雌激素浓度有上升的趋势，但各组间差异不显著。",
+    "reference_case": "在FSH浓度为25 ng·mL⁻¹时，雌激素浓度达到最高（17295:57 ± 184:03 pg·mL⁻¹）。随着CART浓度的增加，雌激素浓度有下降的趋势，但各组间差异不显著。",
+    "error_detail": "雌激素浓度的趋势被错误地反转",
+    "original_question": "猪卵巢卵泡颗粒细胞体外培养168小时后，雌激素浓度的变化趋势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在FSH浓度为25 ng·mL⁻¹时，CART浓度为0:1和1 μmol·L⁻¹时，与对照组相比，颗粒细胞雌激素的产生明显受到促进（P<0:05:，但整体上CART的促进效果并不显著。",
+    "reference_case": "在FSH浓度为25 ng·mL⁻¹时，CART浓度为0:1和1 μmol·L⁻¹时，与对照组相比，颗粒细胞雌激素的产生明显受到抑制（P<0:05:，但整体上CART的抑制效果并不显著。",
+    "error_detail": "CART的作用被错误地反转",
+    "original_question": "猪卵巢卵泡颗粒细胞体外培养168小时后，CART对FSH诱导的雌激素产生的抑制作用是否显著？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "统计分析显示，FSH的主效应不显著（P>0:05:，CART的主效应不显著（P>0:05:，表明FSH和CART在猪卵巢卵泡颗粒细胞的雌激素产生中各自没有显著影响，但两者的交互作用显著。",
+    "reference_case": "统计分析显示，FSH的主效应极显著（P<0:01:，CART的主效应显著（P<0:05:，表明FSH和CART在猪卵巢卵泡颗粒细胞的雌激素产生中各自有显著影响，但两者的交互作用不显著。",
+    "error_detail": "主效应和交互作用的显著性被错误地更改",
+    "original_question": "猪卵巢卵泡颗粒细胞体外培养168小时后，FSH和CART的主效应如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁中地区猪高热性疾病的病理变化主要包括淋巴组织急性炎症、间质性肺炎和病毒性脑炎，其病变率分别为80:0%、60:0%和50:0%。",
+    "reference_case": "鲁中地区猪高热性疾病的病理变化主要包括淋巴组织急性炎症、间质性肺炎和病毒性脑炎，其病变率分别为92:3%、76:1%和66:1%。",
+    "error_detail": "病变率被错误地降低",
+    "original_question": "鲁中地区猪高热性疾病的病理变化主要包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁中地区猪高热性疾病中，CSFV、PRRSV和PCV2的病原检出率分别为20:00%、50:00%和30:00%。",
+    "reference_case": "鲁中地区猪高热性疾病中，CSFV、PRRSV和PCV2的病原检出率分别为30:27%、66:97%和41:28%。",
+    "error_detail": "检出率被错误地降低",
+    "original_question": "鲁中地区猪高热性疾病中，CSFV、PRRSV和PCV2的病原检出率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁中地区猪高热性疾病中，CSFV与PRRSV、CSFV与PCV2、PRRSV与PCV2的二重感染检出率分别为10:00%、5:00%和20:00%。",
+    "reference_case": "鲁中地区猪高热性疾病中，CSFV与PRRSV、CSFV与PCV2、PRRSV与PCV2的二重感染检出率分别为16:51%、6:42%和28:44%。",
+    "error_detail": "二重感染检出率被错误地降低",
+    "original_question": "鲁中地区猪高热性疾病中，CSFV与PRRSV、CSFV与PCV2、PRRSV与PCV2的二重感染检出率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁中地区猪高热性疾病中，CSFV流行株的基因序列与猪瘟兔化弱毒疫苗株的相似性高达95%到96%。",
+    "reference_case": "鲁中地区猪高热性疾病中，CSFV流行株的基因序列与猪瘟兔化弱毒疫苗株的相似性仅为82:8%到83:5%。",
+    "error_detail": "夸大了基因序列的相似性比例",
+    "original_question": "鲁中地区猪高热性疾病中，CSFV流行株的基因序列与猪瘟兔化弱毒疫苗株的相似性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁中地区猪高热性疾病中，PRRSV流行株的基因序列与高致病性PRRSV分离株的相似性较低，分别为80%到85%。",
+    "reference_case": "鲁中地区猪高热性疾病中，PRRSV流行株的基因序列与高致病性PRRSV分离株的相似性较高，分别为94:6%到97:3%和94:1%到99:2%。",
+    "error_detail": "低估了基因序列的相似性比例",
+    "original_question": "鲁中地区猪高热性疾病中，PRRSV流行株的基因序列与高致病性PRRSV分离株的相似性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鲁中地区猪高热性疾病中，PCV2流行株的基因序列与PCV2b型的相似性仅为85%到90%。",
+    "reference_case": "鲁中地区猪高热性疾病中，PCV2流行株的基因序列与PCV2b型的相似性高达95:5%到98:3%。",
+    "error_detail": "低估了基因序列的相似性比例",
+    "original_question": "鲁中地区猪高热性疾病中，PCV2流行株的基因序列与PCV2b型的相似性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在低温处理过程中，HSP90 mRNA的转录量在各温度均显著增加（P<0:05:。",
+    "reference_case": "在低温处理过程中，HSP90 mRNA的转录量在各温度均未见显著增加（P>0:05:。在冷应激的复温培养过程中，HSP90 mRNA转录量在4和15°C处理4小时后复温培养8小时内显著增加（P<0:05:，峰值出现在6小时，而在25和32°C处理4小时后复温培养8小时内未见显著增加。",
+    "error_detail": "错误地报告了转录量的变化",
+    "original_question": "东北野猪成纤维细胞在冷应激过程中HSP90 mRNA的转录量有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在4和15°C处理4小时后复温培养8小时内，HSP90 mRNA的转录量在4小时达到峰值。",
+    "reference_case": "在4和15°C处理4小时后复温培养8小时内，HSP90 mRNA的转录量在6小时达到峰值。",
+    "error_detail": "错误地报告了转录量达到峰值的时间",
+    "original_question": "东北野猪成纤维细胞在冷应激后的复温培养过程中，HSP90 mRNA的转录量何时达到峰值？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在25和32°C条件下，HSP90 mRNA的转录量在低温处理过程中显著增加。",
+    "reference_case": "在25和32°C条件下，HSP90 mRNA的转录量在低温处理过程中未见显著增加，复温培养过程中也未见显著增加。",
+    "error_detail": "错误地报告了转录量的变化",
+    "original_question": "东北野猪成纤维细胞在冷应激过程中，HSP90 mRNA的转录量在25和32°C条件下有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在15°C处理8小时后复温培养4小时，HSP90 mRNA的转录量未见显著增加。",
+    "reference_case": "在15°C处理8小时后复温培养4小时，HSP90 mRNA的转录量显著增加，最大增加量为对照组的3:36倍。",
+    "error_detail": "错误地报告了转录量的变化",
+    "original_question": "东北野猪成纤维细胞在冷应激实验中，HSP90 mRNA的转录量在15°C处理8小时后复温培养4小时的变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在32°C处理4小时后复温培养8小时，HSP90 mRNA的转录量显著增加，最大增加量为对照组的3:00倍。",
+    "reference_case": "在32°C处理4小时后复温培养8小时，HSP90 mRNA的转录量有所增加，最大增加量为对照组的1:75倍，但与对照组没有统计学差异。",
+    "error_detail": "错误地报告了转录量的变化和统计学意义",
+    "original_question": "东北野猪成纤维细胞在冷应激实验中，HSP90 mRNA的转录量在32°C处理4小时后复温培养8小时的变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "茴香和大蒜素显著提高了母猪初乳中的总超氧化物歧化酶（T-SOD）水平，但茴香显著增加了初乳中的丙二醛（MDA）含量。",
+    "reference_case": "茴香和大蒜素显著提高了母猪初乳中的总超氧化物歧化酶（T-SOD）水平，并且茴香显著降低了初乳中的丙二醛（MDA）含量。",
+    "error_detail": "错误地报告了MDA含量的变化",
+    "original_question": "茴香和大蒜素对母猪初乳抗氧化特性的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "茴香组母猪所产仔猪的初生重和7天重均与对照组相比无显著差异。",
+    "reference_case": "茴香组母猪所产仔猪的初生重和7天重均显著高于对照组，而大蒜组仔猪的初生重和7天重与对照组相比无显著差异。",
+    "error_detail": "错误地报告了仔猪的生长性能",
+    "original_question": "茴香和大蒜素对仔猪早期生长性能的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对照组母猪在怀孕期间饲喂的日粮配方为玉米50%、豆粕20%、敖皮25%、预混料5%。",
+    "reference_case": "对照组母猪在怀孕期间饲喂的日粮配方为玉米61%、豆粕15%、敖皮20%、预混料4%；分娩后改喂哺乳日粮，配方为玉米61%、豆粕23%、效皮8%、鱼粉2%、豆油2%、预混料4%。",
+    "error_detail": "错误地报告了日粮配方",
+    "original_question": "试验中母猪的日粮配方是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "茴香组母猪初乳中的GSH含量显著低于大蒜组。",
+    "reference_case": "茴香组母猪初乳中的GSH含量显著高于大蒜组，但与对照组相比无显著差异。",
+    "error_detail": "错误地报告了GSH含量的比较",
+    "original_question": "茴香和大蒜素对初乳中GSH含量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "茴香组和大蒜组母猪初乳中的GSH-Px活性与对照组相比显著增加。",
+    "reference_case": "茴香组和大蒜组母猪初乳中的GSH-Px活性与对照组相比无显著差异。",
+    "error_detail": "错误地报告了GSH-Px活性的变化",
+    "original_question": "茴香和大蒜素对初乳中GSH-Px活性的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小梅山猪及其杂种一代后备母猪的初配日龄分别为：梅×梅组150:00天，大×梅组180:00天，长×梅组190:00天，杜×梅组200:00天。",
+    "reference_case": "小梅山猪及其杂种一代后备母猪的初配日龄分别为：梅×梅组145:06天，大×梅组182:75天，长×梅组186:92天，杜×梅组197:25天。",
+    "error_detail": "数值偏差",
+    "original_question": "小梅山猪及其杂种一代后备母猪的初配日龄分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小梅山猪及其杂种一代后备母猪的6月龄体重分别为：梅×梅组50:00公斤，大×梅组80:00公斤，长×梅组80:00公斤，杜×梅组85:00公斤。",
+    "reference_case": "小梅山猪及其杂种一代后备母猪的6月龄体重分别为：梅×梅组45:56公斤，大×梅组79:45公斤，长×梅组77:73公斤，杜×梅组83:21公斤。",
+    "error_detail": "数值偏差",
+    "original_question": "小梅山猪及其杂种一代后备母猪的6月龄体重分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小梅山猪及其杂种一代后备母猪的6月龄体长分别为：梅×梅组85:00厘米，大×梅组105:00厘米，长×梅组106:00厘米，杜×梅组104:00厘米。",
+    "reference_case": "小梅山猪及其杂种一代后备母猪的6月龄体长分别为：梅×梅组82:70厘米，大×梅组103:80厘米，长×梅组105:30厘米，杜×梅组103:40厘米。",
+    "error_detail": "数值偏差",
+    "original_question": "小梅山猪及其杂种一代后备母猪的6月龄体长分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小梅山猪及其杂种一代后备母猪的6月龄腿臀围分别为：梅×梅组55:00厘米，大×梅组60:00厘米，长×梅组60:00厘米，杜×梅组65:00厘米。",
+    "reference_case": "小梅山猪及其杂种一代后备母猪的6月龄腿臀围分别为：梅×梅组56:41厘米，大×梅组61:21厘米，长×梅组61:17厘米，杜×梅组63:46厘米。",
+    "error_detail": "数值偏差",
+    "original_question": "小梅山猪及其杂种一代后备母猪的6月龄腿臀围分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小梅山猪及其杂种一代后备母猪的6月龄日增重分别为：梅×梅组250克，大×梅组440克，长×梅组430克，杜×梅组460克。",
+    "reference_case": "小梅山猪及其杂种一代后备母猪的6月龄日增重分别为：梅×梅组249克，大×梅组436克，长×梅组427克，杜×梅组457克。",
+    "error_detail": "数值偏差",
+    "original_question": "小梅山猪及其杂种一代后备母猪的6月龄日增重分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小梅山猪及其杂种一代后备母猪的6月龄胸围分别为：梅×梅组75:00厘米，大×梅组90:00厘米，长×梅组89:00厘米，杜×梅组92:00厘米。",
+    "reference_case": "小梅山猪及其杂种一代后备母猪的6月龄胸围分别为：梅×梅组76:44厘米，大×梅组89:58厘米，长×梅组88:08厘米，杜×梅组91:50厘米。",
+    "error_detail": "数值偏差",
+    "original_question": "小梅山猪及其杂种一代后备母猪的6月龄胸围分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "南京地区奶牛、猪、兔和犬的隐孢子虫感染率之间存在显著差异（χ²>3:00, P<0:05:。",
+    "reference_case": "南京地区奶牛、猪、兔和犬的隐孢子虫感染率之间差异均不显著（χ²<2:70, P>0:05:。",
+    "error_detail": "数值偏差",
+    "original_question": "南京地区奶牛、猪、兔和犬的隐孢子虫感染率之间是否存在显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪日粮中适宜的纤维水平是15%～20%。",
+    "reference_case": "目前关于母猪日粮纤维水平尚没有统一的标准，但欧盟国家推荐的母猪粗纤维水平较高，如荷兰对怀孕母猪粗纤维的最低推荐水平为12%。中国的研究表明，妊娠母猪8%～10%粗纤维比较合适。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "母猪日粮中适宜的纤维水平是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "焙烤教槽料能使刚断奶仔猪采食速度明显加快，断奶第1天的采食量达到200克/头，是传统颗粒料的3倍。",
+    "reference_case": "焙烤教槽料能使刚断奶仔猪采食速度明显加快，断奶第1天的采食量达到139:95克/头，是传统颗粒料的2倍。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "焙烤教槽料对仔猪的诱食效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在哺乳期7～20日龄内，焙烤教槽料的饲料摄入量是传统颗粒料的3倍。",
+    "reference_case": "在哺乳期7～20日龄内，焙烤教槽料的饲料摄入量是传统颗粒料的2倍。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "焙烤教槽料与传统颗粒料在哺乳期仔猪的饲料摄入量上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在17～22日龄哺乳期间，焙烤教槽料日均饲料摄入量为20克/头，比传统颗粒料增加了15克/头，日均增重则比传统颗粒料增加了60克/头。",
+    "reference_case": "在17～22日龄哺乳期间，焙烤教槽料日均饲料摄入量为11:1克/头，比传统颗粒料增加了10克/头，日均增重则比传统颗粒料增加了50克/头。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "焙烤教槽料对哺乳仔猪的生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "焙烤教槽料在断奶第1天的采食量达到150克/头，超过了维持需要的120克/头，因此仔猪不仅不会出现断奶失重现象，而且有增重。",
+    "reference_case": "焙烤教槽料在断奶第1天的采食量达到139:95克/头，超过了维持需要的110克/头，因此仔猪不仅不会出现断奶失重现象，而且有增重。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "焙烤教槽料如何解决仔猪断奶初期失重的问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶第1天的仔猪对焙烤教槽料的采食量达150克/头，为传统颗粒料的3倍。",
+    "reference_case": "断奶第1天的仔猪对焙烤教槽料的采食量达139:95克/头，为传统颗粒料的2倍。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "焙烤教槽料与传统颗粒料在断奶第1天的采食量上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "焙烤教槽料在哺乳期日均增重比传统颗粒料增加了60克/头，显示出极高的饲料转化效率。",
+    "reference_case": "焙烤教槽料在哺乳期日均增重比传统颗粒料增加了50克/头，显示出极高的饲料转化效率。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "焙烤教槽料如何影响仔猪的饲料转化效率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟病毒 E2 蛋白的 ABCD 抗原结构域位于 E2 蛋白的 C 末端，具体位置在氨基酸残基 900 到 1000 之间。",
+    "reference_case": "猪瘟病毒 E2 蛋白的 ABCD 抗原结构域位于 E2 蛋白的 N 末端，具体位置在氨基酸残基 690 到 866 之间。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "猪瘟病毒 E2 蛋白的 ABCD 抗原结构域位于 E2 蛋白的哪个部分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟病毒 E2 蛋白 ABCD 抗原结构域在大肠杆菌 BL21（DE3:中的表达量占总蛋白量的 20%，而在 Rosseta（DE3:中的表达量占总蛋白量的 30%。",
+    "reference_case": "猪瘟病毒 E2 蛋白 ABCD 抗原结构域在大肠杆菌 BL21（DE3:中的表达量占总蛋白量的 11:4%，而在 Rosseta（DE3:中的表达量占总蛋白量的 19:7%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "猪瘟病毒 E2 蛋白 ABCD 抗原结构域在大肠杆菌 BL21（DE3:和 Rosseta（DE3:中的表达量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪瘟病毒 E2 蛋白 ABCD 抗原结构域的表达实验中，重组蛋白的分子量大约为 60 kDa。",
+    "reference_case": "在猪瘟病毒 E2 蛋白 ABCD 抗原结构域的表达实验中，重组蛋白的分子量大约为 40 kDa。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "在猪瘟病毒 E2 蛋白 ABCD 抗原结构域的表达实验中，重组蛋白的分子量大约是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪瘟病毒 E2 蛋白 ABCD 抗原结构域的表达实验中，重组蛋白的反应原性通过胶体金免疫层析和蛋白质免疫印迹法（Western blot）进行鉴定，结果显示反应原性为95%。",
+    "reference_case": "在猪瘟病毒 E2 蛋白 ABCD 抗原结构域的表达实验中，重组蛋白的反应原性通过胶体金免疫层析和蛋白质免疫印迹法（Western blot）进行鉴定。",
+    "error_detail": "添加了不存在的反应原性百分比数据",
+    "original_question": "在猪瘟病毒 E2 蛋白 ABCD 抗原结构域的表达实验中，重组蛋白的反应原性是如何鉴定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）的ORF4/ORF5基因间隔区的长度是15个核苷酸（nt）。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）的ORF4/ORF5基因间隔区的长度是10个核苷酸（nt）。",
+    "error_detail": "错误的核苷酸长度",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的ORF4/ORF5基因间隔区的长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "纳米磷酸钙对猪瘟多肽的吸附率为90%。",
+    "reference_case": "纳米磷酸钙对猪瘟多肽的吸附率为70%。",
+    "error_detail": "错误的吸附率数据",
+    "original_question": "纳米磷酸钙（NCaP）作为猪瘟多肽疫苗佐剂的吸附率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "最佳吸附条件为30°C，多肽浓度150 μg/mL，吸附3小时。",
+    "reference_case": "最佳吸附条件为25°C或4°C，多肽浓度100 μg/mL，吸附2小时。",
+    "error_detail": "错误的吸附条件数据",
+    "original_question": "在纳米磷酸钙吸附猪瘟多肽疫苗的制备过程中，最佳吸附条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "纳米磷酸钙佐剂组的抗体水平高于弗氏佐剂组。",
+    "reference_case": "纳米磷酸钙佐剂组的抗体水平低于弗氏佐剂组，但高于游离猪瘟多肽疫苗组。",
+    "error_detail": "错误的抗体水平比较",
+    "original_question": "纳米磷酸钙佐剂组与弗氏佐剂组在抗体水平上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "纳米磷酸钙佐剂组在攻毒后体温升高的时间比游离猪瘟多肽组推迟24小时。",
+    "reference_case": "纳米磷酸钙佐剂组在攻毒后体温升高的时间比游离猪瘟多肽组推迟16小时。",
+    "error_detail": "错误的体温升高推迟时间",
+    "original_question": "纳米磷酸钙佐剂组在攻毒试验中的体温变化与游离猪瘟多肽组相比有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在4°C和25°C吸附1小时后，纳米磷酸钙对多肽的吸附性有较大差异。",
+    "reference_case": "在4°C和25°C吸附2小时后，纳米磷酸钙对多肽的吸附性无较大差异，说明吸附温度不影响佐剂和多肽间的吸附。在25°C吸附0:5、1、2、4小时后，多肽吸附性在2小时达到最大吸附后不再提高。",
+    "error_detail": "错误的吸附时间和温度影响描述",
+    "original_question": "在纳米磷酸钙吸附猪瘟多肽疫苗的制备过程中，吸附时间和温度对吸附率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟病毒TaqMan实时荧光定量PCR方法的最低检测极限为1×10^3 copies/μL。",
+    "reference_case": "猪瘟病毒TaqMan实时荧光定量PCR方法的最低检测极限为1×10^2 copies/μL。",
+    "error_detail": "错误的检测极限数据",
+    "original_question": "猪瘟病毒TaqMan实时荧光定量PCR方法的最低检测极限是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟病毒TaqMan实时荧光定量PCR方法的批内及批间重复试验变异系数均低于5%。",
+    "reference_case": "猪瘟病毒TaqMan实时荧光定量PCR方法的批内及批间重复试验变异系数均低于2%，表明该方法具有较好的重复性和稳定性。",
+    "error_detail": "错误的变异系数数据",
+    "original_question": "猪瘟病毒TaqMan实时荧光定量PCR方法的重复性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟病毒TaqMan实时荧光定量PCR方法的标准曲线斜率为-4.0，截距为50.0，相关系数（R2:为0.998。",
+    "reference_case": "猪瘟病毒TaqMan实时荧光定量PCR方法的标准曲线斜率为-3:97，截距为47:41，相关系数（R2:为0:999779。",
+    "error_detail": "错误的标准曲线参数",
+    "original_question": "猪瘟病毒TaqMan实时荧光定量PCR方法的标准曲线参数是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该方法对3份猪瘟临床组织样品进行定量检测，结果显示不同样品中的病毒拷贝数差异显著。",
+    "reference_case": "该方法对3份猪瘟临床组织样品进行定量检测，结果显示不同样品中的病毒拷贝数差异不大，表明该方法适用于临床样品的早期检测。",
+    "error_detail": "错误的病毒拷贝数差异描述",
+    "original_question": "猪瘟病毒TaqMan实时荧光定量PCR方法在临床样品检测中的应用结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该方法对6家企业生产的5种细胞苗及2种脾淋苗进行定量检测，结果显示不同疫苗产品每头份含有的病毒拷贝数差异不大。",
+    "reference_case": "该方法对6家企业生产的5种细胞苗及2种脾淋苗进行定量检测，结果显示不同疫苗产品每头份含有的病毒拷贝数差异较大，表明该方法适用于疫苗生产过程中的质控及疫苗制品的效价评估。",
+    "error_detail": "错误的病毒拷贝数差异描述",
+    "original_question": "猪瘟病毒TaqMan实时荧光定量PCR方法在疫苗检测中的应用结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "上海地区发病猪群中PCV2阳性样本的主要混合感染细菌包括大肠杆菌、沙门氏菌、链球菌及副猪嗜血杆菌，占比分别为50%、30%、15%和5%。",
+    "reference_case": "上海地区发病猪群中PCV2阳性样本的主要混合感染细菌包括大肠杆菌、沙门氏菌、链球菌及副猪嗜血杆菌。",
+    "error_detail": "添加了不存在的比例数据。",
+    "original_question": "上海地区发病猪群中PCV2阳性样本的主要混合感染细菌有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "《种猪常温精液标准》中规定的剂量是地方猪种≥50 mL，引进猪种和培育猪种80-100 mL。",
+    "reference_case": "《种猪常温精液标准》中规定的剂量是地方猪种≥40 mL，引进猪种和培育猪种80-100 mL。",
+    "error_detail": "错误地将地方猪种的剂量从≥40 mL改为≥50 mL。",
+    "original_question": "《种猪常温精液标准》中规定的剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "《种猪常温精液标准》中每剂量中直线前进运动精子数的要求是地方猪种≥15亿个，引进猪种和培育猪种≥25亿个。",
+    "reference_case": "《种猪常温精液标准》中每剂量中直线前进运动精子数的要求是地方猪种≥10亿个，引进猪种和培育猪种≥25亿个。",
+    "error_detail": "错误地将地方猪种的直线前进运动精子数从≥10亿个改为≥15亿个。",
+    "original_question": "《种猪常温精液标准》中每剂量中直线前进运动精子数的要求是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "《种猪常温精液标准》中精子活力的要求是正常的精子（呈直线运动精子数）比例不低于50%。",
+    "reference_case": "《种猪常温精液标准》中精子活力的要求是正常的精子（呈直线运动精子数）比例不低于60%。",
+    "error_detail": "错误地将精子活力比例从不低于60%改为不低于50%。",
+    "original_question": "《种猪常温精液标准》中精子活力的要求是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "《种猪常温精液标准》中精子畸形率的要求是精子畸形率≤30%。",
+    "reference_case": "《种猪常温精液标准》中精子畸形率的要求是精子畸形率≤20%。",
+    "error_detail": "错误地将精子畸形率从≤20%改为≤30%。",
+    "original_question": "《种猪常温精液标准》中精子畸形率的要求是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "《种猪常温精液标准》实施后，种猪常温精液产品质量有了明显的变化，输精剂量由20 mL提升到100 mL（地方品种40 mL），每剂量中直线前进运动精子数由5亿个提高到25亿个（地方品种10亿个），精液产品有效期由24小时提高到72小时。",
+    "reference_case": "《种猪常温精液标准》实施后，种猪常温精液产品质量有了明显的变化，输精剂量由20 mL提升到80 mL（地方品种40 mL），每剂量中直线前进运动精子数由5亿个提高到25亿个（地方品种10亿个），精液产品有效期由24小时提高到72小时。",
+    "error_detail": "错误地将引进猪种和培育猪种的输精剂量从80 mL改为100 mL。",
+    "original_question": "《种猪常温精液标准》的实施效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "《种猪常温精液标准》的宣贯工作由农业部业务主管部门、全国畜牧总站在各省、市生猪良种补贴项目区开展，组织了15期培训班，培训了上千名相关的技术骨干。",
+    "reference_case": "《种猪常温精液标准》的宣贯工作由农业部业务主管部门、全国畜牧总站在各省、市生猪良种补贴项目区开展，组织了10期培训班，培训了上千名相关的技术骨干。",
+    "error_detail": "错误地将培训班期数从10期改为15期。",
+    "original_question": "《种猪常温精液标准》的宣贯工作是如何进行的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "《种猪常温精液标准》实施后，抽样检测合格率由2009年的89:0%提升到2011年的95:0%。",
+    "reference_case": "《种猪常温精液标准》实施后，抽样检测合格率由2009年的89:0%提升到2011年的92:3%。",
+    "error_detail": "错误地将2011年的合格率从92:3%改为95:0%。",
+    "original_question": "《种猪常温精液标准》实施后的抽样检测合格率有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "细菌多样性指数（如H′、dM、R和λ）的变异系数在5:65%到18:87%之间，其中Simpson指数λ的变异系数最大，表明细菌群落优势度是本实验中最敏感的指标。",
+    "reference_case": "细菌多样性指数（如H′、dM、R和λ）的变异系数在2:65%到18:87%之间，其中Simpson指数λ的变异系数最大，表明细菌群落优势度是本实验中最敏感的指标。",
+    "error_detail": "错误地将变异系数的下限从2:65%改为5:65%。",
+    "original_question": "猪牛沼液施用实验中，土壤细菌多样性的变异系数如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2011年美国生猪存栏量排名第一的州是衣阿华州，存栏量为2000万头。",
+    "reference_case": "2011年美国生猪存栏量排名第一的州是衣阿华州，存栏量为1980万头。",
+    "error_detail": "错误地将存栏量从1980万头改为2000万头。",
+    "original_question": "2011年美国生猪存栏量排名第一的州是哪个？存栏量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "液体乳酸菌制剂的含菌量为1:3×10^8 CFU/mL，固体乳酸菌制剂的含菌量为2:5×10^9 CFU/mL。",
+    "reference_case": "液体乳酸菌制剂的含菌量为1:3×10^9 CFU/mL，固体乳酸菌制剂的含菌量为2:5×10^10 CFU/mL。",
+    "error_detail": "数值偏差",
+    "original_question": "在治疗仔猪运输应激腹泻时，液体乳酸菌制剂和固体乳酸菌制剂的含菌量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在灌服液体乳酸菌制剂第1天，仔猪拉稀次数增多且粪便颜色逐渐变浅、变黄，从水样腹泻转变为稀粪；第3天粪便为稀软粪，第6天粪便恢复正常。",
+    "reference_case": "在灌服液体乳酸菌制剂第1天，仔猪拉稀次数变少且粪便颜色逐渐变深、变黑，从水样腹泻转变为稀粪；第2天粪便为稀软粪，第4天粪便恢复正常。",
+    "error_detail": "粪便变化描述错误",
+    "original_question": "在灌服液体乳酸菌制剂后，仔猪的粪便变化情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "研究发现，光照强度从 20 Lx 增加到 60 Lx 时对猪的视觉辨别能力有显著影响，而且与光照水平相比，物体的颜色及其大小对猪的视觉辨别能力影响更大。",
+    "reference_case": "研究发现，光照强度从 12 Lx 增加到 40 Lx 时对猪的视觉辨别能力没有什么影响，而且与光照水平相比，物体的形状及其大小对猪的视觉辨别能力影响更大。",
+    "error_detail": "光照强度影响描述错误",
+    "original_question": "猪在不同光照强度下的视觉辨别能力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "河南牧原养猪模式在生产上注重科技创新和资源的循环利用，特别是在废弃物的再利用和达标排放方面。该模式通过科技创新实现了资源的高效利用，解决了养猪业中废弃物处理和环境污染的问题，减少了90%的废弃物排放。",
+    "reference_case": "河南牧原养猪模式在生产上注重科技创新和资源的循环利用，特别是在废弃物的再利用和达标排放方面。该模式通过科技创新实现了资源的高效利用，解决了养猪业中废弃物处理和环境污染的问题。",
+    "error_detail": "添加了不存在的具体数据（减少了90%的废弃物排放）",
+    "original_question": "河南牧原养猪模式在生产上注重哪些方面的科技创新和资源循环利用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牧原公司通过一体化模式减少交易中间环节并控制成本的方式包括：（1）自有曾祖代、祖代种猪群繁育仔猪，满足自身需求并供应社会，减少仔猪购买成本；（2）通过有机肥项目和种植业项目减少对社会饲料原材料的依赖，生猪饲料全部来自自建饲料加工厂，降低中间交易成本；（3）参股龙大牧原屠宰场，使生猪直接在屠宰场宰杀流向消费者，减少中间贩运成本；（4）通过大规模一体化产业链在生产和经营各环节控制成本，保证食品安全，同时将成本降至最低，每年节省成本约10亿元。",
+    "reference_case": "牧原公司通过一体化模式减少交易中间环节并控制成本的方式包括：（1）自有曾祖代、祖代种猪群繁育仔猪，满足自身需求并供应社会，减少仔猪购买成本；（2）通过有机肥项目和种植业项目减少对社会饲料原材料的依赖，生猪饲料全部来自自建饲料加工厂，降低中间交易成本；（3）参股龙大牧原屠宰场，使生猪直接在屠宰场宰杀流向消费者，减少中间贩运成本；（4）通过大规模一体化产业链在生产和经营各环节控制成本，保证食品安全，同时将成本降至最低。",
+    "error_detail": "添加了不存在的具体数据（每年节省成本约10亿元）",
+    "original_question": "牧原公司如何通过一体化模式减少交易中间环节并控制成本？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪在出生后几小时便能鉴别气味，依靠嗅觉寻找乳头，在 3 d 内就能固定乳头，任何情况下都不会出错。用溶剂将哺乳母猪皮肤上的气味洗去，仔猪就会拒绝哺乳。",
+    "reference_case": "仔猪在出生后几小时便能鉴别气味，依靠嗅觉寻找乳头，在 3 d 内就能固定乳头，任何情况下都不会出错。用溶剂将哺乳母猪皮肤上的气味洗去，仔猪就会拒绝哺乳。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "母猪与仔猪之间的识别是如何依靠嗅觉完成的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲料香味剂是利用 '香味物质'刺激嗅觉器官，再由大脑发出指令，使猪产生食欲，启动采食行为。在基础日粮中添加 1:00% 的奶味香精仅在仔猪断奶前有明显诱食效果，而添加 1:00% 的草莓香精在仔猪断奶前后均有诱食作用。",
+    "reference_case": "饲料香味剂是利用 '香味物质'刺激嗅觉器官，再由大脑发出指令，使猪产生食欲，启动采食行为。在基础日粮中添加 1:00% 的奶味香精仅在仔猪断奶前有明显诱食效果，而添加 1:00% 的草莓香精在仔猪断奶前后均有诱食作用。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "猪对饲料气味的偏爱是如何影响其采食行为的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在音乐刺激条件下，试验组仔猪平均卧息时间较对照组提高 7:74%，活动时间下降 5:26%，群体表现安静，活动时间和发生咬斗的频率减少，并对外界声源刺激的敏感性降低；平均口增重提高 10:07%，饲料利用率提高 5:76%。",
+    "reference_case": "在音乐刺激条件下，试验组仔猪平均卧息时间较对照组提高 7:74%，活动时间下降 5:26%，群体表现安静，活动时间和发生咬斗的频率减少，并对外界声源刺激的敏感性降低；平均口增重提高 10:07%，饲料利用率提高 5:76%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "音乐刺激对断奶仔猪的行为和生理有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "S0101标记对6月龄体高有显著影响（P<0:05:，对6月龄体重的影响也接近显著水平（P=0:0854:。",
+    "reference_case": "S0101标记对6月龄体高有显著影响（P<0:05:，对6月龄体重的影响也接近显著水平（P=0:0854:。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "S0101标记对山西白猪的哪些性状有显著影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在山西白猪群体中，SW240座位检测到的等位基因最多，为22个。",
+    "reference_case": "在山西白猪群体中，SW240座位检测到的等位基因最多，为22个。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "山西白猪群体中，哪个微卫星座位检测到的等位基因最多？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "山西白猪的微卫星标记研究中，S0101座位与6月龄体高有显著关系（P<0:05:。",
+    "reference_case": "山西白猪的微卫星标记研究中，S0101座位与6月龄体高有显著关系（P<0:05:。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "山西白猪的微卫星标记研究中，哪些微卫星座位与6月龄体高有显著关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "四种植物对猪源大肠杆菌的抑菌圈在15到20毫米之间。",
+    "reference_case": "四种植物对猪源大肠杆菌的抑菌圈在10到14毫米之间。",
+    "error_detail": "错误地扩大了抑菌圈的范围",
+    "original_question": "四种植物提取物对猪源大肠杆菌的抑菌圈范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "忍冬藤提取物对猪源大肠杆菌的最小杀菌浓度（MBC）是100 mg/mL。",
+    "reference_case": "忍冬藤提取物对猪源大肠杆菌的最小杀菌浓度（MBC）是250 mg/mL。",
+    "error_detail": "错误地降低了最小杀菌浓度",
+    "original_question": "忍冬藤提取物对猪源大肠杆菌的最小杀菌浓度（MBC）是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "野猪一般5～10月龄性成熟，华南野猪性成熟可配种年龄雌雄分别为3～4月龄和4～5月龄，雌野猪比雄野猪性成熟稍晚。",
+    "reference_case": "野猪一般10～20月龄性成熟，华南野猪性成熟可配种年龄雌雄分别为5～6月龄和6～7月龄，雌野猪比雄野猪性成熟稍早。",
+    "error_detail": "错误地改变了野猪的性成熟年龄",
+    "original_question": "野猪的性成熟年龄是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "野猪具有野生环境的生活习性，行动迟缓，其活动空间小，运动量小，围栏面积较家猪要小，每亩放养10～15头野猪为宜，如果有条件人为轮牧可增加至每亩放养15～20头，这降低了规模化养殖的难度。",
+    "reference_case": "野猪具有野生环境的生活习性，行动敏捷，其活动空间大，运动量大，围栏面积较家猪要大，每亩放养2～3头野猪为宜，如果有条件人为轮牧可增加至每亩放养3～5头，这增加了规模化养殖的难度。",
+    "error_detail": "错误地描述了野猪规模化养殖的挑战",
+    "original_question": "野猪的规模化养殖有哪些挑战？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在莱克多巴胺残留限量协调过程中，中国提供了莱克多巴胺在猪肺脏中的风险评估结果，显示残留量为0.1ppm。",
+    "reference_case": "在莱克多巴胺残留限量协调过程中，中国提供了莱克多巴胺在猪肺脏中的风险评估结果。",
+    "error_detail": "添加了具体的数值数据，原始输出中未提及具体数值。",
+    "original_question": "在莱克多巴胺残留限量协调过程中，中国提供了哪些数据？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪11ß-HSD1基因的PCR扩增中，使用了Taq DNA聚合酶，反应温度为72°C。",
+    "reference_case": "在猪11ß-HSD1基因的PCR扩增中，使用了LA Taq DNA聚合酶。",
+    "error_detail": "错误地更改了DNA聚合酶的类型和反应温度。",
+    "original_question": "在猪11ß-HSD1基因的PCR扩增中，使用了哪种DNA聚合酶？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组为双股正链RNA，全长约为20 kb，共有12个开放阅读框。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组为单股正链RNA，全长约为15 kb，共有9个开放阅读框。",
+    "error_detail": "错误地更改了基因组的类型、长度和开放阅读框的数量。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组结构是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因长度为500 bp。",
+    "reference_case": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因长度为603 bp。",
+    "error_detail": "错误地更改了基因长度。",
+    "original_question": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因扩增反应中，退火温度为60°C。",
+    "reference_case": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因扩增反应中，退火温度为57°C。",
+    "error_detail": "错误地更改了退火温度。",
+    "original_question": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因扩增反应中，退火温度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因与国内高致病性强毒株SY0608的氨基酸序列一致性为95%。",
+    "reference_case": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因与国内高致病性强毒株SY0608的氨基酸序列一致性为100%。",
+    "error_detail": "错误地降低了氨基酸序列一致性。",
+    "original_question": "猪繁殖与呼吸综合征病毒GZ-KY1株的ORF5基因与国内高致病性强毒株SY0608的氨基酸序列一致性是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冷应激导致猪脂肪和肝脏组织中SOCS3 mRNA的表达量随着温度的降低而逐渐降低。",
+    "reference_case": "冷应激导致猪脂肪和肝脏组织中SOCS3 mRNA的表达量随着温度的降低而逐渐升高，且总体差异显著（P<0:05:。",
+    "error_detail": "错误地反转了表达量的变化趋势。",
+    "original_question": "冷应激对猪脂肪和肝脏组织中SOCS3 mRNA表达的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在冷应激条件下，SOCS3 mRNA在猪肝脏组织中的表达量随着温度的降低而逐渐降低。",
+    "reference_case": "在冷应激条件下，SOCS3 mRNA在猪肝脏组织中的表达量随着温度的降低而逐渐升高，-5°C和-10°C试验组与正常对照组相比表达差异极显著（P<0:01:。",
+    "error_detail": "错误地反转了表达量的变化趋势。",
+    "original_question": "在冷应激条件下，SOCS3 mRNA在猪肝脏组织中的表达变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冷应激导致猪腹腔脂肪组织中SOCS3 mRNA的表达量显著降低。",
+    "reference_case": "冷应激导致猪腹腔脂肪组织中SOCS3 mRNA的表达量显著升高，0°C和5°C试验组与正常对照组相比差异显著（P<0:05:，-5°C和-10°C试验组与正常对照组相比差异极显著（P<0:01:。",
+    "error_detail": "错误地反转了表达量的变化趋势。",
+    "original_question": "冷应激对猪腹腔脂肪组织中SOCS3 mRNA表达的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冷应激导致猪颈部皮下脂肪组织中SOCS3 mRNA的表达量在0°C条件下开始有变化，-5°C和-10°C条件下表达量迅速下降。",
+    "reference_case": "冷应激导致猪颈部皮下脂肪组织中SOCS3 mRNA的表达量在0°C条件下开始有变化，-5°C和-10°C条件下表达量迅速上升，且与正常组相比差异均极显著（P<0:01:。",
+    "error_detail": "错误地反转了表达量的变化趋势。",
+    "original_question": "冷应激对猪颈部皮下脂肪组织中SOCS3 mRNA表达的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冷应激导致猪胸部皮下脂肪组织中SOCS3 mRNA的表达量在不同冷应激温度下逐渐下降。",
+    "reference_case": "冷应激导致猪胸部皮下脂肪组织中SOCS3 mRNA的表达量在不同冷应激温度下逐渐上升，5°C、0°C、-5°C试验组与正常对照组相比差异极显著（P<0:01:，-10°C试验组与正常对照组相比差异显著（P<0:05:。",
+    "error_detail": "错误地反转了表达量的变化趋势。",
+    "original_question": "冷应激对猪胸部皮下脂肪组织中SOCS3 mRNA表达的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "三聚氰胺和三聚氰酸混合物对猪的毒性影响包括仔猪日增重、采食量、日粮粗蛋白质、钙和磷消化率及谷丙转氨酶浓度随三聚氰胺添加量的增加而增加。",
+    "reference_case": "三聚氰胺和三聚氰酸混合物对猪的毒性影响包括仔猪日增重、采食量、日粮粗蛋白质、钙和磷消化率及谷丙转氨酶浓度随三聚氰胺添加量的增加而降低，胃和十二指肠内容物的 pH、血清肌酐和胱抑素 C 含量随三聚氰胺剂量的增加而升高，肾脏肿胀、毛细血管扩张、充血，部分细胞变性坏死。",
+    "error_detail": "错误地描述了毒性影响的方向，与原始output中的降低相反。",
+    "original_question": "三聚氰胺和三聚氰酸混合物对猪的毒性影响有哪些？",
+    "original_input": ""
+  }
+]

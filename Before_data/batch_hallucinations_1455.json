@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同猪场的劳动定额可能有很大差别，例如育肥猪的单人饲养头数可以定为1000头或1200头，根据实际情况调整。",
+    "reference_case": "不同猪场的劳动定额可能有很大差别，例如育肥猪的单人饲养头数可以定为400头或600头，根据实际情况调整。",
+    "error_detail": "数值偏差",
+    "original_question": "如何根据猪场情况调整劳动定额？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "通过减少猪群数量和降低饲料质量来节省成本，解决劳动定额不足的问题。",
+    "reference_case": "通过环境控制和猪群保健增加任务，提高猪群生产性能和健康指标，或在繁忙时期补充临时人员。",
+    "error_detail": "指令偏离",
+    "original_question": "如何通过组合配给解决劳动定额不足的问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "根据劳动成效计算固定工资，不考虑职工的组织纪律性、协作态度和全场生产效益，实行平均主义。",
+    "reference_case": "根据劳动成效计算浮动工资和奖金，同时考虑职工的组织纪律性、协作态度和全场生产效益，防止平均主义，体现职工劳动价值。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "猪场如何建立激励机制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪场应对畜牧兽医技术实行分离管理，技术力量分为操作责任和咨询顾问两个层次。",
+    "reference_case": "猪场应对畜牧兽医技术实行一体化管理，技术力量分为操作责任、指导责任和咨询顾问三个层次，确保技术支持的灵活性和有效性。",
+    "error_detail": "概念混淆",
+    "original_question": "如何组织技术力量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在猪价低谷期，应完全停止种猪的引入和淘汰，以节省成本。",
+    "reference_case": "提高种猪的选留标准，加大种猪的淘汰力度，适当缩小饲养规模，尽量减少饲养费用；保留优良种群，提高种群的生产能力和生产水平；适当多引入一部分优良种猪；培育后备母猪，在其培育过程中，可以更多地使用青饲料，以节约精饲料的用量。",
+    "error_detail": "添加假设",
+    "original_question": "如何在猪价低谷期提高种群生产能力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪价下降时，种猪价会上升。",
+    "reference_case": "猪价下降时，种猪价也随之下调。",
+    "error_detail": "因果倒置",
+    "original_question": "在猪粮比价低谷期，种猪价格如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "在猪粮比价上扬期，应减少饲养费用的投入，降低饲料品位档次，延长饲养周期，减少出栏销售头数。",
+    "reference_case": "加大对职工的管理力度，增加职工的报酬支出；增加饲养费用的投入，提高饲料品位档次，缩短饲养周期，增加出栏销售头数；发挥猪场的技术与管理优势以及人力资源和种猪资源的优势去争取更多的盈利，并将盈利的一部分用于建立猪场的风险基金。",
+    "error_detail": "优先级错乱",
+    "original_question": "如何在猪粮比价上扬期提高经济效益？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "规模化养猪场可以迅速调整饲养规模，以适应猪价低谷期。",
+    "reference_case": "规模化养猪场不能很快做出减少饲养规模的反应，否则会遭致更大的损失。",
+    "error_detail": "时效性错误",
+    "original_question": "规模化养猪场在猪价低谷期难以迅速调整的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "在猪粮比价上扬期，应减少饲养费用的投入，降低饲料品位档次，延长饲养周期，减少出栏销售头数。",
+    "reference_case": "增加饲养费用的投入，提高饲料品位档次，缩短饲养周期，增加出栏销售头数；发挥猪场的技术与管理优势以及人力资源和种猪资源的优势去争取更多的盈利，并将盈利的一部分用于建立猪场的风险基金。",
+    "error_detail": "上下文断裂",
+    "original_question": "在猪粮比价上扬期，应采取哪些措施增加盈利？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在猪价低谷期，应扩大饲养规模，增加饲养费用。",
+    "reference_case": "提高种猪的选留标准，加大种猪的淘汰力度，适当缩小饲养规模，尽量减少饲养费用；保留优良种群，提高种群的生产能力和生产水平。",
+    "error_detail": "空间错位",
+    "original_question": "如何在猪价低谷期保持种群的生产能力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在猪粮比价低谷期，应避免引入任何种猪。",
+    "reference_case": "利用猪价下降、种猪价也随之下调的机遇，适当多引入一部分优良种猪。",
+    "error_detail": "指令偏离",
+    "original_question": "在猪粮比价低谷期，应如何利用种猪价格变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "我国养猪业目前面临的主要问题是饲料供应不足。",
+    "reference_case": "猪肉产品的卫生质量普遍不能达到外贸出口的要求。",
+    "error_detail": "时效性错误",
+    "original_question": "我国养猪业目前面临的主要问题是？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "我国养猪业在加入 WTO 后应减少对活猪和猪肉产品质量的关注，重点扩大生产规模。",
+    "reference_case": "练好内功, 从根本上提高活猪和猪肉产品的卫生质量，应用系统工程的技术体系大力控制疾病的发生，大幅度提高猪群的健康水平，杜绝病猪肉和被污染猪肉上市，在生产中杜绝一切违禁的药物、激素和违禁化合物的使用。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "我国养猪业在加入 WTO 后应采取的对策是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "我国养猪业面临的机遇是技术先进，挑战是劳动力成本高昂。",
+    "reference_case": "机遇是养猪历史悠久，劳动力成本低廉；挑战是养猪技术并不先进，猪肉产品出口贸易份额很少，猪肉产品的卫生质量普遍不能达到外贸出口的要求。",
+    "error_detail": "概念混淆",
+    "original_question": "我国养猪业面临的机遇和挑战有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "提高养猪生产的经济效益的关键是忽视数学模型，依靠经验。",
+    "reference_case": "利用数学模型中各个参数之间的内在联系建立质量保障体系。",
+    "error_detail": "添加假设",
+    "original_question": "如何提高养猪生产的经济效益？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "品种资源、环境条件及饲料供应是养猪的无形的软件部分。",
+    "reference_case": "品种资源、环境条件及饲料供应是养猪的物质基础，是有形的硬件部分。",
+    "error_detail": "概念混淆",
+    "original_question": "品种资源、环境条件及饲料供应是养猪的哪些部分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "技术与管理两个子系统是养猪的有形的硬件部分。",
+    "reference_case": "技术与管理两个子系统是养猪的无形的软件部分。",
+    "error_detail": "概念混淆",
+    "original_question": "技术与管理两个子系统在养猪中是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "养猪系统工程的五个子系统之间互不关联、互相独立。",
+    "reference_case": "养猪系统工程的五个子系统即是五大生产要素，各要素之间互相关联、互相依存、缺一不可。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "养猪生产链条结构中，五大生产要素如何关联？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "提高经营决策者的素质是基础环节，提高全体从业人员的素质是关键环节。",
+    "reference_case": "提高全体从业人员的素质是基础环节，提高经营决策者的素质是关键环节。",
+    "error_detail": "因果倒置",
+    "original_question": "提高养猪生产水平的关键是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "养猪学、兽医学和经济学是养猪高效益管理技术的主要基础。",
+    "reference_case": "养猪学、兽医学和管理学是养猪高效益管理技术的主要基础。",
+    "error_detail": "数据偏差",
+    "original_question": "养猪高效益管理技术涉及哪些学科？",
+    "original_input": ""
+  }
+]

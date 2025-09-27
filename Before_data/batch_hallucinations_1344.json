@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "三江白猪被毛全黑，毛丛稍密，头轻嘴直，耳下垂，背腰宽平，腿臀丰满，四肢粗壮，蹄质坚实，乳头7对，具有瘦肉型猪的体躯结构。",
+    "reference_case": "三江白猪被毛全白，毛丛稍密，头轻嘴直，耳下垂，背腰宽平，腿臀丰满，四肢粗壮，蹄质坚实，乳头7对，具有瘦肉型猪的体躯结构。",
+    "error_detail": "错误地将三江白猪的被毛颜色描述为全黑，实际上应为全白。",
+    "original_question": "三江白猪的主要特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在标准饲养条件下，三江白猪6月龄肥育猪活重为70千克。",
+    "reference_case": "在标准饲养条件下，三江白猪6月龄肥育猪活重为90千克。",
+    "error_detail": "错误地将三江白猪6月龄肥育猪的活重描述为70千克，实际上应为90千克。",
+    "original_question": "三江白猪在标准饲养条件下6月龄肥育猪的活重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "三江白猪平均背膘厚3.5厘米。",
+    "reference_case": "三江白猪平均背膘厚2.9厘米。",
+    "error_detail": "错误地将三江白猪的平均背膘厚描述为3.5厘米，实际上应为2.9厘米。",
+    "original_question": "三江白猪的背膘厚是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "三江白猪的胴体瘦肉率50%以上。",
+    "reference_case": "三江白猪的胴体瘦肉率58%以上。",
+    "error_detail": "错误地将三江白猪的胴体瘦肉率描述为50%以上，实际上应为58%以上。",
+    "original_question": "三江白猪的胴体瘦肉率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "用杜洛克公猪与三江白猪杂交所得杂种后裔的胴体瘦肉率达55%；并具有抗寒力强，生长快，瘦肉率高，肉质好等优点。",
+    "reference_case": "用杜洛克公猪与三江白猪杂交所得杂种后裔的胴体瘦肉率达62%；并具有抗寒力强，生长快，瘦肉率高，肉质好等优点。",
+    "error_detail": "错误地将杂种后裔的胴体瘦肉率描述为55%，实际上应为62%。",
+    "original_question": "三江白猪与杜洛克公猪杂交的后代表现如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪体重增长呈现先快后慢再快的趋势，绝对增长在幼年时较快，中年时较慢，成年后相对增长速率上升并稳定。",
+    "reference_case": "猪体重增长呈现先慢后快再慢的趋势，绝对增长在幼年时较慢，中年时较快，成年后相对增长速率下降并稳定。",
+    "error_detail": "错误地描述了猪体重增长的趋势，实际上应为先慢后快再慢。",
+    "original_question": "猪体重增长呈现怎样的规律？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "瘦肉型猪种体组织增长顺序和强度是脂肪 > 肌肉 > 皮 > 骨骼，地方猪种则是脂肪 > 皮 > 肌肉 > 骨骼，脂肪是发育最早的组织，且主要储存于皮下。",
+    "reference_case": "瘦肉型猪种体组织增长顺序和强度是骨骼 > 皮 > 肌肉 > 脂肪，地方猪种则是骨骼 > 肌肉 > 皮 > 脂肪，脂肪是发育最晚的组织，且主要储存于皮下。",
+    "error_detail": "错误地描述了猪体组织增长顺序和强度，实际上脂肪是发育最晚的组织。",
+    "original_question": "猪体组织在不同生长阶段的增长顺序和强度有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "随着猪体组织及体重的增长，水分、蛋白质和矿物质的含量逐渐增加，脂肪含量减少，不饱和脂肪酸含量逐渐增加，饱和脂肪酸含量减少。",
+    "reference_case": "随着猪体组织及体重的增长，水分、蛋白质和矿物质的含量逐渐下降，脂肪含量增加，不饱和脂肪酸含量逐渐减少，饱和脂肪酸含量增加。",
+    "error_detail": "错误地描述了猪体组织及体重增长对化学成分的影响，实际上水分、蛋白质和矿物质的含量逐渐下降，脂肪含量增加。",
+    "original_question": "猪体组织和体重的增长对化学成分有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "影响生猪生长发育的主要因素是环境因素和遗传因素，前者包括品种、性别和杂交优势，后者包括饲养管理、母体大小、自然条件等。",
+    "reference_case": "影响生猪生长发育的主要因素是遗传因素和环境因素，前者包括品种、性别和杂交优势，后者包括饲养管理、母体大小、自然条件等。",
+    "error_detail": "错误地将遗传因素和环境因素的顺序颠倒。",
+    "original_question": "影响生猪生长发育的主要因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "二元杂交不利于育肥性状和胴体品质，若继续留二元杂种猪作亲本，繁殖力的杂种优势不可被利用，二元杂种母本与另两个品种的二元杂种公猪交配效果差，正反交杂种优势可能相同。",
+    "reference_case": "二元杂交有利于育肥性状和胴体品质，若继续留二元杂种猪作亲本，繁殖力的杂种优势可被利用，二元杂种母本与另两个品种的二元杂种公猪交配效果好，正反交杂种优势可能不同。",
+    "error_detail": "错误地描述了二元杂交的效果和杂种优势的利用。",
+    "original_question": "杂交方式对杂种优势有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "繁殖性状的杂交优势主要体现在增加断奶仔猪数、提高断奶窝重（提高10%~20%）。",
+    "reference_case": "繁殖性状的杂交优势主要体现在增加断奶仔猪数、提高断奶窝重（提高20%~30%）。",
+    "error_detail": "错误地将繁殖性状的杂交优势提高的断奶窝重比例描述为10%~20%，实际上应为20%~30%。",
+    "original_question": "繁殖性状的杂交优势主要体现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "生长性状的杂交优势表现低，可使商品猪的增重速度和饲料转化率提高5%~10%。",
+    "reference_case": "生长性状的杂交优势表现中等，可使商品猪的增重速度和饲料转化率提高10%~20%。",
+    "error_detail": "错误地将生长性状的杂交优势描述为低，实际上应为中等，且提高的增重速度和饲料转化率应为10%~20%。",
+    "original_question": "生长性状的杂交优势如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "温度过高或过低都不会影响猪的健康生长。",
+    "reference_case": "温度过高或过低都会影响猪的健康生长。",
+    "error_detail": "错误地描述了温度对猪健康生长的影响，实际上温度过高或过低都会影响。",
+    "original_question": "温度过高和过低对猪的生长有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "不同品种和阶段的猪对温度有不同的要求，具体见表3-1。",
+    "reference_case": "不同品种和阶段的猪对温度有不同的要求，具体见表4-1。",
+    "error_detail": "错误地引用了表格编号，实际上应为表4-1。",
+    "original_question": "猪的适宜生长温度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "气温升高时猪的饮水减少、采食增加；气温下降时猪的饮水增加、采食减少。",
+    "reference_case": "气温升高时猪的饮水增加、采食减少；气温下降时猪的饮水减少、采食增加。",
+    "error_detail": "错误地描述了气温变化对猪饮水和采食的影响。",
+    "original_question": "温度对猪的饮水和采食有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "湿度过高或过低，尤其是在高温或低温情况下，不会影响猪的增重。",
+    "reference_case": "湿度过高或过低，尤其是在高温或低温情况下，会影响猪的增重。",
+    "error_detail": "错误地描述了湿度对猪增重的影响，实际上会影响。",
+    "original_question": "湿度对猪的增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪舍温度25℃，空气相对湿度45%~60%，为生猪生长发育的最佳温湿度。",
+    "reference_case": "猪舍温度20℃，空气相对湿度55%~70%，为生猪生长发育的最佳温湿度。",
+    "error_detail": "错误地描述了猪舍的最佳温湿度，实际上应为温度20℃，相对湿度55%~70%。",
+    "original_question": "猪舍的最佳温湿度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "适量光照不可促进猪的生长发育，紫外线不可促使体内合成维生素D2和D3。",
+    "reference_case": "适量光照可促进猪的生长发育，紫外线可促使体内合成维生素D2和D3。",
+    "error_detail": "错误地描述了光照和紫外线对猪生长发育和维生素合成的影响。",
+    "original_question": "光照对猪生长发育有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "有毒有害气体如氨气、硫化氢、二氧化碳等不会威胁猪的健康，不影响生长发育，不会引发疾病。",
+    "reference_case": "有毒有害气体如氨气、硫化氢、二氧化碳等可威胁猪的健康，影响生长发育，严重时可引发疾病。",
+    "error_detail": "错误地描述了有毒有害气体对猪健康的影响。",
+    "original_question": "有毒有害气体对猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪舍内氨气浓度达0.01%时开始对猪产生有害影响，达0.02%~0.025%时，会降低猪的日增重和饲料利用率。",
+    "reference_case": "猪舍内氨气浓度达0.005%时开始对猪产生有害影响，达0.01%~0.015%时，会降低猪的日增重和饲料利用率。",
+    "error_detail": "错误地描述了氨气浓度对猪有害影响的阈值，实际上应为0.005%开始有害，0.01%~0.015%降低日增重和饲料利用率。",
+    "original_question": "猪舍内氨气浓度对猪有何影响？",
+    "original_input": ""
+  }
+]

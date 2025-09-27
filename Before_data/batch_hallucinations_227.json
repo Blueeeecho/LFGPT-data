@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "Mark Lyons博士认为未来20年的中国食品和饲料工业将是非常令人兴奋的，预计生产效率的提高将减少母猪数量，并提高每头母猪的年产小猪数量至30头。",
+    "reference_case": "Mark Lyons博士认为未来20年的中国食品和饲料工业将是非常令人兴奋的，预计生产效率的提高将减少母猪数量，并提高每头母猪的年产小猪数量。",
+    "error_detail": "错误地增加了每头母猪的年产小猪数量的具体数值，而原始输出中并未提供具体数字。",
+    "original_question": "Mark Lyons博士对未来20年中国食品和饲料工业的看法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "2014年现代生物技术与猪营养研究高端论坛的会议地点在北京市。",
+    "reference_case": "2014年现代生物技术与猪营养研究高端论坛的会议地点在广东省江门市五邑碧桂园凤凰酒店。",
+    "error_detail": "错误地改变了会议地点，而原始输出中明确指出会议地点在广东省江门市。",
+    "original_question": "2014年现代生物技术与猪营养研究高端论坛的会议地点在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "会议中，母猪营养专家张教授做了关于种母猪营养新技术的专题报告。",
+    "reference_case": "会议中，母猪营养专家吴德教授做了关于种母猪营养新技术的专题报告。",
+    "error_detail": "错误地改变了专家的姓名，而原始输出中明确指出是吴德教授。",
+    "original_question": "会议中哪位专家做了关于种母猪营养新技术的专题报告？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "冯自科博士的专题报告内容是《经济\"后高速发展\" 时期中国猪产业发展探讨》，他对未来中国养猪业的发展趋势做了预测。",
+    "reference_case": "冯自科博士的专题报告内容是《经济\"后高速发展\" 时期中国猪产业发展探讨》，他对当前中国养猪业的现状进行了深入分析，并对经济低迷时期养猪业的发展趋势做了新的分享。",
+    "error_detail": "错误地改变了报告内容的描述，忽略了原始输出中对当前现状的分析和经济低迷时期的分享。",
+    "original_question": "会议中，冯自科博士的专题报告内容是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "陈国顺博士的专题报告内容是《中国猪营养研究进展与展望》，他仅探讨了当前中国猪的营养参数。",
+    "reference_case": "陈国顺博士的专题报告内容是《中国猪营养研究进展与展望》，他深入探讨了当前中国猪的营养参数、营养标准、饲喂模式等。",
+    "error_detail": "错误地简化了报告内容，忽略了原始输出中提到的营养标准和饲喂模式。",
+    "original_question": "会议中，陈国顺博士的专题报告内容是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "对于商品猪，猪伪狂犬病的免疫程序是在60日龄左右时进行一次免疫。",
+    "reference_case": "对于商品猪，猪伪狂犬病的免疫程序是在55日龄左右时进行一次免疫。",
+    "error_detail": "错误地改变了免疫日龄，而原始输出中明确指出是在55日龄左右。",
+    "original_question": "猪伪狂犬病的免疫程序对商品猪和种母猪、种公猪有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪乙型脑炎的免疫时间是在每年蚊虫出现前3个月，根据具体情况确定免疫时间。",
+    "reference_case": "猪乙型脑炎的免疫时间是在每年蚊虫出现前1～2个月，根据具体情况确定免疫时间，对猪等易感家畜进行两次免疫，间隔1～2个月。",
+    "error_detail": "错误地改变了免疫时间的前置期，而原始输出中明确指出是1～2个月。",
+    "original_question": "猪乙型脑炎的免疫时间是如何确定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "对于种母猪，猪繁殖与呼吸综合征（经典猪蓝耳病）的免疫程序是使用灭活疫苗于断奶前后进行免疫。",
+    "reference_case": "对于种母猪，150日龄前免疫程序同商品猪，可根据实际情况，配种前使用灭活疫苗进行免疫。",
+    "error_detail": "错误地改变了免疫程序的时间点，而原始输出中明确指出是在配种前使用灭活疫苗。",
+    "original_question": "猪繁殖与呼吸综合征（经典猪蓝耳病）的免疫程序对商品猪和种母猪、种公猪有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "上海新农集团主要业务包括研究、开发、生产、销售特色教槽料、乳猪料、预混料和添加剂，提供优质种猪和高档原料等全方位服务，并且还涉及猪肉加工。",
+    "reference_case": "上海新农集团主要业务包括研究、开发、生产、销售特色教槽料、乳猪料、预混料和添加剂，提供优质种猪和高档原料等全方位服务。",
+    "error_detail": "错误地添加了业务范围，而原始输出中并未提到猪肉加工。",
+    "original_question": "上海新农集团的主要业务是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪伪狂犬病病毒的TK基因是病毒复制的必需基因和主要毒力基因。",
+    "reference_case": "猪伪狂犬病病毒的TK基因是病毒复制的非必需基因和主要毒力基因，与潜伏感染有关。",
+    "error_detail": "错误地改变了TK基因的性质，而原始输出中明确指出是非必需基因。",
+    "original_question": "猪伪狂犬病病毒的TK基因的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪伪狂犬病病毒三基因缺失疫苗的安全性试验中，新生仔猪的接种剂量是10⁶ TCID₅₀病毒液。",
+    "reference_case": "在猪伪狂犬病病毒三基因缺失疫苗的安全性试验中，新生仔猪的接种剂量是10⁵ TCID₅₀病毒液。",
+    "error_detail": "错误地改变了接种剂量，而原始输出中明确指出是10⁵ TCID₅₀。",
+    "original_question": "猪伪狂犬病病毒三基因缺失疫苗的安全性试验中，新生仔猪的接种剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪伪狂犬病病毒中，gB、gD、gH、gL和gM是病毒增殖所必需的糖蛋白。",
+    "reference_case": "在猪伪狂犬病病毒中，gB、gD、gH、gL和gK是病毒增殖所必需的糖蛋白。",
+    "error_detail": "错误地改变了必需糖蛋白的列表，而原始输出中明确指出是gK而非gM。",
+    "original_question": "在猪伪狂犬病病毒中，哪些糖蛋白是病毒增殖所必需的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪伪狂犬病病毒三基因缺失疫苗的TCID₅₀值为6:75至7:125。",
+    "reference_case": "猪伪狂犬病病毒三基因缺失疫苗的TCID₅₀值为5:75至6:125。",
+    "error_detail": "错误地改变了TCID₅₀值的范围，而原始输出中明确指出是5:75至6:125。",
+    "original_question": "猪伪狂犬病病毒三基因缺失疫苗的TCID₅₀值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪伪狂犬病病毒三基因缺失疫苗的研究中，使用了双基因缺失株gI⁻/gE⁻ PRV SA738、TK基因缺失载体pBTK、幼仓鼠肾细胞（BHK-21细胞）和PRV Bartha k62株。",
+    "reference_case": "在猪伪狂犬病病毒三基因缺失疫苗的研究中，使用了双基因缺失株gI⁻/gE⁻ PRV SA738、TK基因缺失载体pBTK、幼仓鼠肾细胞（BHK-21细胞）和PRV Bartha k61株。",
+    "error_detail": "错误地改变了病毒株的名称，而原始输出中明确指出是PRV Bartha k61株。",
+    "original_question": "在猪伪狂犬病病毒三基因缺失疫苗的研究中，使用了哪些病毒株和细胞？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪伪狂犬病病毒的gE和gI基因形成复合体gE/gI，与病毒在消化系统中的侵袭和扩散密切相关。",
+    "reference_case": "猪伪狂犬病病毒的gE和gI基因形成复合体gE/gI，与病毒在神经系统中的侵袭和扩散密切相关，是影响PRV生长的功能成分。",
+    "error_detail": "错误地改变了gE/gI复合体的作用部位，而原始输出中明确指出是在神经系统中。",
+    "original_question": "猪伪狂犬病病毒的gE和gI基因的功能是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在猪伪狂犬病病毒三基因缺失疫苗的研究中，通过电穿孔法将构建好的质粒pBTK与gI⁻/gE⁻ PRV SA738双基因缺失株基因组共转染BHK-21细胞。",
+    "reference_case": "在猪伪狂犬病病毒三基因缺失疫苗的研究中，通过脂质体介导法将构建好的质粒pBTK与gI⁻/gE⁻ PRV SA738双基因缺失株基因组共转染BHK-21细胞，然后通过蚀斑法进行筛选，直至阳性率达100%。",
+    "error_detail": "错误地改变了转染方法，而原始输出中明确指出是通过脂质体介导法。",
+    "original_question": "在猪伪狂犬病病毒三基因缺失疫苗的研究中，如何筛选重组病毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪伪狂犬病病毒三基因缺失疫苗的攻毒保护试验中，注射生理盐水的对照组在攻毒后第3天开始出现典型的PRV症状。",
+    "reference_case": "在猪伪狂犬病病毒三基因缺失疫苗的攻毒保护试验中，注射生理盐水的对照组在攻毒后第2天开始出现典型的PRV症状，7天后全部死亡。",
+    "error_detail": "错误地改变了症状出现的时间，而原始输出中明确指出是第2天。",
+    "original_question": "猪伪狂犬病病毒三基因缺失疫苗的攻毒保护试验中，对照组的结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪伪狂犬病病毒（PRV）的基因组为环状双链DNA。",
+    "reference_case": "猪伪狂犬病病毒（PRV）的基因组为线性双链DNA，可编码70至100种蛋白质，其中包括11种糖蛋白，如gB、gC、gD、gE、gG、gH、gI、gK、gL、gM和gN。",
+    "error_detail": "错误地改变了基因组的形状，而原始输出中明确指出是线性双链DNA。",
+    "original_question": "猪伪狂犬病病毒（PRV）的基因组结构是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）是一种引起猪流行性腹泻的病毒，主要特征是导致猪出现腹泻、呕吐和脱水等症状，并且还能引起猪的死亡。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）是一种引起猪流行性腹泻的病毒，主要特征是导致猪出现腹泻、呕吐和脱水等症状。",
+    "error_detail": "错误地添加了病毒的影响，而原始输出中并未提到能引起猪的死亡。",
+    "original_question": "什么是猪流行性腹泻病毒（PEDV）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪氨基肽酶（pAPN）是PEDV的一种细胞内蛋白受体。",
+    "reference_case": "猪氨基肽酶（pAPN）是PEDV的一种跨膜糖蛋白受体，它在小肠上皮细胞中高效表达，并占膜蛋白总量的8%。pAPN是PEDV感染细胞的受体，对PEDV的入侵和增殖有促进作用。",
+    "error_detail": "错误地改变了pAPN的性质，而原始输出中明确指出是跨膜糖蛋白受体。",
+    "original_question": "猪氨基肽酶（pAPN）在猪流行性腹泻病毒（PEDV）感染中的作用是什么？",
+    "original_input": ""
+  }
+]

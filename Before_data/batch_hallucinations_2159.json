@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "FATS检测可以在30分钟内完成，且有典型临床症状的新生猪的FATS结果与VI结果相同。",
+    "reference_case": "FATS检测可以在1小时内完成，且有典型临床症状的新生猪的FATS结果与VI结果相同。",
+    "error_detail": "将FATS检测完成时间从1小时错误地缩短为30分钟。",
+    "original_question": "FATS检测的优点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "老龄猪的临床症状和病史表明动物可能患有PR，而FATS检测结果呈阳性时，必须采用VI给以确诊。",
+    "reference_case": "老龄猪的临床症状和病史表明动物可能患有PR，而FATS检测结果呈阴性时，必须采用VI给以确诊。",
+    "error_detail": "将FATS检测结果呈阴性错误地改为阳性。",
+    "original_question": "为什么FATS检测在老龄猪的敏感性不如VI？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母源抗体可持续至6月龄，从PR免疫母猪初乳获得的母源抗体半衰期约为18天。",
+    "reference_case": "母源抗体可持续至4月龄，从PR免疫母猪初乳获得的母源抗体半衰期约为18天。",
+    "error_detail": "将母源抗体持续时间从4月龄错误地延长至6月龄。",
+    "original_question": "PR免疫母猪所产仔猪的母源抗体可持续至多长时间？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "MLV疫苗在猪以外的其它动物身上表现的毒力一样，给其它动物接种其它疫苗时，可以使用接种过PRMLV疫苗的注射器和针头。",
+    "reference_case": "MLV疫苗在猪以外的其它动物身上表现的毒力不一样，给其它动物接种其它疫苗时，不能使用接种过PRMLV疫苗的注射器和针头，以免造成MLV和野毒重组对动物不利。",
+    "error_detail": "错误地认为MLV疫苗在所有动物身上毒力表现相同，且可以共用注射器和针头。",
+    "original_question": "为什么给猪以外的其它动物接种MLV疫苗时应谨慎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪轮状病毒可引起所有猪发生严重的胃肠炎和线毛萎缩。",
+    "reference_case": "猪轮状病毒可引起悉生猪和未食初乳的猪发生严重的胃肠炎和线毛萎缩。",
+    "error_detail": "错误地扩大了猪轮状病毒的致病范围，忽略了特定条件。",
+    "original_question": "猪轮状病毒的致病性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在自然条件下，无其它病原时，猪轮状病毒可以引起疾病。",
+    "reference_case": "在实验条件下，无其它病原时，猪轮状病毒可以引起疾病。",
+    "error_detail": "将实验条件错误地改为自然条件，添加了不存在的假设。",
+    "original_question": "猪轮状病毒在什么条件下可以引起疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "仅在亚洲和欧洲的养猪国家发现存在猪轮状病毒。",
+    "reference_case": "在许多养猪的国家均发现存在猪轮状病毒。",
+    "error_detail": "错误地限定了猪轮状病毒的地理分布范围。",
+    "original_question": "猪轮状病毒在哪些国家被发现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪轮状病毒的血清分型依据是表面蛋白VP4和VP6的类型，也称为P型和G型。",
+    "reference_case": "猪轮状病毒的血清分型依据是表面蛋白VP4和VP7的类型，也称为P型和G型。",
+    "error_detail": "错误地将VP7蛋白替换为VP6蛋白。",
+    "original_question": "猪轮状病毒的血清分型依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪轮状病毒中已知有12种G型，包括G1, G2, G3, G4, G5, G6, G7, G8, G9, G10, G11 和 G12。",
+    "reference_case": "猪轮状病毒中已知有10种G型，包括G1, G2, G3, G4, G5, G6, G8, G9, G10 和 G11。",
+    "error_detail": "错误地增加了G型的数量，并添加了不存在的G7和G12型。",
+    "original_question": "猪轮状病毒中已知有多少种G型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪轮状病毒中已知有6种P型。",
+    "reference_case": "猪轮状病毒中已知有4种P型。",
+    "error_detail": "错误地增加了P型的数量。",
+    "original_question": "猪轮状病毒的P型有哪些类型？",
+    "original_input": ""
+  }
+]

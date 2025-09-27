@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "注射器注射药液前需要先回抽注射器针芯，见有空气回流时再缓缓推进药液。",
+    "reference_case": "注射器注射药液前需要先回抽注射器针芯，见有血液回流时再缓缓推进药液。",
+    "error_detail": "将血液回流错误地描述为空气回流",
+    "original_question": "在猪耳静脉注射过程中，注射器注射药液前需要做什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "将病毒接种于 8 周龄 SPF 鸡，IVPI 大于 1.5 或病毒的 HA 切割位点处有一系列连续的碱性氨基酸则判定为高致病力毒株。",
+    "reference_case": "将病毒接种于 6 周龄 SPF 鸡，IVPI 大于 1.2 或病毒的 HA 切割位点处有一系列连续的碱性氨基酸则判定为高致病力毒株。",
+    "error_detail": "错误的周龄和IVPI数值",
+    "original_question": "如何确定流感病毒静脉接种指数（IVPI）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "琼脂扩散实验可用来检测 B 型流感病毒核蛋白和基质的抗原。",
+    "reference_case": "琼脂扩散实验可用来检测 A 型流感病毒核蛋白和基质的抗原。",
+    "error_detail": "错误的病毒类型",
+    "original_question": "琼脂扩散实验主要用于检测哪些抗原？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "通过采集大脑、气管、脾脏、肝脏等病料，接种于 7-8 日龄 SPF 鸡胚或非免疫鸡胚的尿囊腔，观察强毒株在 30-60 小时内的死亡情况。",
+    "reference_case": "通过采集大脑、气管、脾脏、肝脏等病料，接种于 9-10 日龄 SPF 鸡胚或非免疫鸡胚的尿囊腔，观察强毒株在 30-60 小时内的死亡情况。",
+    "error_detail": "错误的鸡胚日龄",
+    "original_question": "病鸡体内如何分离 NDV？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "切片后固定在载玻片上，利用免疫酶染色，可以检测到 HIV，ELISA 和免疫荧光也可用于 HIV 的鉴定。",
+    "reference_case": "切片后固定在载玻片上，利用免疫酶染色，可以检测到 NDV，ELISA 和免疫荧光也可用于 NDV 的鉴定。",
+    "error_detail": "错误的病毒类型",
+    "original_question": "如何通过免疫组织化学染色鉴定 NDV？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "ICPI (1.0-1.5)、IVPI (1.0-2.0) 和 MDT (≤50) 表示强毒株；ICPI (0.5-1.0)、IVPI (0.0-0.5) 和 MDT (51-80) 表示中毒株；ICPI (0.0-0.5)、IVPI (0.00) 和 MDT (>80) 表示弱毒株。",
+    "reference_case": "ICPI (1.5-20)、IVPI (2.0-3.0) 和 MDT (≤60) 表示强毒株；ICPI (1.0-1.5)、IVPI (0.0-0.5) 和 MDT (61-90) 表示中毒株；ICPI (0.0-0.5)、IVPI (0.00) 和 MDT (>90) 表示弱毒株。",
+    "error_detail": "错误的数值范围",
+    "original_question": "如何通过检测 ICPI、IVPI 和 MDT 区分 NDV 强弱毒株？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "制备抗 HIV 的单抗，建立 PEG 夹心 ELISA，用以检测病鸡肛门带毒情况，阳性则为强毒感染。",
+    "reference_case": "制备抗 NDV 的单抗，建立 PEG 夹心 ELISA，用以检测病鸡肛门带毒情况，阳性则为强毒感染。",
+    "error_detail": "错误的病毒类型",
+    "original_question": "如何区分强毒感染和弱毒感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "设计 F 基因的引物 PA、PB、PC，强毒株扩出 400bp、150bp 两条带，弱毒株则扩出 400bp、300bp 两条带。",
+    "reference_case": "设计 F 基因的引物 PA、PB、PC，强毒株扩出 362bp、133bp 两条带，弱毒株则扩出 362bp、252bp 两条带。",
+    "error_detail": "错误的扩增片段大小",
+    "original_question": "如何通过 RT-PCR 鉴别 NDV 强弱毒株？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟病毒与牛黏膜病病毒有共同的保护性抗原，可用抗 BVDV 的特异单抗进行区分。",
+    "reference_case": "猪瘟病毒与牛黏膜病病毒有共同的保护性抗原，可用抗 HCV 的特异单抗进行区分。",
+    "error_detail": "错误的抗体类型",
+    "original_question": "猪瘟病毒与牛黏膜病病毒有何区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "在右腹下部右侧倒数第二、第三对乳头之间的外缘,距离右侧乳头1~2厘米，与右侧髄结节（八字骨）内相对处。",
+    "reference_case": "在左腹下部左侧倒数第二、第三对乳头之间的外缘,距离左侧乳头1~2厘米，与左侧髄结节（八字骨）内相对处。",
+    "error_detail": "错误的手术部位",
+    "original_question": "猪去势术的手术部位如何确定？",
+    "original_input": ""
+  }
+]

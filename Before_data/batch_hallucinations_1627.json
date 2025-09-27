@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "排泄不费力，粪便呈乳白色小球后渐变成腊肠或香蕉状，20kg时粪便长度为10-12cm，直径2.5-2.8cm，随着年龄增长，粪便变粗长，1岁后呈长12-17cm、直径9cm的大块。",
+    "reference_case": "排泄不费力，粪便呈乳白色小球后渐变成腊肠或香蕉状，20kg时粪便长度为8-10cm，直径2.3-2.6cm，随着年龄增长，粪便变粗长，1岁后呈长10-15cm、直径8cm的大块。",
+    "error_detail": "数值偏差",
+    "original_question": "健康的猪的粪便特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "粪尿异常，排泄费力，粪便带血、黏液、脓汁，稀软，颜色异常，含有大量未消化饲料、恶臭或黑硬干燥如算盘珠样，均表明呼吸系统异常。",
+    "reference_case": "粪尿异常，排泄费力，粪便带血、黏液、脓汁，稀软，颜色异常，含有大量未消化饲料、恶臭或黑硬干燥如算盘珠样，均表明胃肠道异常。",
+    "error_detail": "术语错误",
+    "original_question": "不健康的猪的粪便特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体温39.0-40.0℃，心率每分钟70-90次。",
+    "reference_case": "体温38.7-39.8℃，心率每分钟60-80次。",
+    "error_detail": "数值偏差",
+    "original_question": "健康的猪的体温和心率范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "体温升高，心率过速，根据旧标准。",
+    "reference_case": "体温升高，心率过速。",
+    "error_detail": "过时标准",
+    "original_question": "不健康的猪的体温和心率状况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "生产力正常，但有时会出现异常。",
+    "reference_case": "生产力正常。",
+    "error_detail": "需求冲突",
+    "original_question": "健康的猪的生产力状况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "生产力下降，繁殖机能不正常，流产、死胎、木乃伊胎，产仔数少，产弱小仔猪，公猪生长慢，饲料利用率低，但有时会正常。",
+    "reference_case": "生产力下降，繁殖机能不正常，流产、死胎、木乃伊胎，产仔数少，产弱小仔猪，公猪生长慢，饲料利用率低。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "不健康的猪的生产力状况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "包含种公猪、空怀母猪、后备母猪、不妊猪、䟤乳母猪、哺乳仔猪、断乳仔猪、生长猪、育肥猪的转出、销售、产出、存活仔猪、死亡、下床、实际存栏、配种、耗料及料内比，根据美国标准。",
+    "reference_case": "包含种公猪、空怀母猪、后备母猪、不妊猪、䟤乳母猪、哺乳仔猪、断乳仔猪、生长猪、育肥猪的转出、销售、产出、存活仔猪、死亡、下床、实际存栏、配种、耗料及料内比。",
+    "error_detail": "地域差异",
+    "original_question": "猪场猪只存栏周统计报表中包含哪些内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "应该随带猪只的原始档案资料，假设所有资料都完整。",
+    "reference_case": "应该随带猪只的原始档案资料。",
+    "error_detail": "添加假设",
+    "original_question": "在猪只转移过程中，应该随带哪些原始资料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪群周转存栏动态总表按猪的生产流程将猪群分为配种舍、妊娠舍、分娩舍、仔培舍、生长育肥舍，每种猪舍有一份表，按各舍实际需要设计具体项目，称为表13-4。",
+    "reference_case": "猪群周转存栏动态总表按猪的生产流程将猪群分为配种舍、妊娠舍、分娩舍、仔培舍、生长育肥舍，每种猪舍有一份表，按各舍实际需要设计具体项目。",
+    "error_detail": "术语错误",
+    "original_question": "猪群周转存栏动态总表（表 13-3）有什么特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "35 日龄之前的乳猪每头每天消耗 4 kg 饲料（哺乳期平均增重 6 kg ，料重比 0.5：1）。",
+    "reference_case": "35 日龄之前的乳猪每头每天消耗 3 kg 饲料（哺乳期平均增重 6 kg ，料重比 0.5：1）。",
+    "error_detail": "数值偏差",
+    "original_question": "乳猪的饲料消耗指标是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪每头供料 30 kg（料重比为 2:1，饲养期增重 12.75 kg)。",
+    "reference_case": "仔猪每头供料 25.5 kg（料重比为 2:1，饲养期增重 12.75 kg)。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪的饲料消耗指标是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉猪每天消耗 3 kg 饲料。",
+    "reference_case": "肉猪每天消耗 2.5 kg 饲料。",
+    "error_detail": "数值偏差",
+    "original_question": "肉猪的饲料消耗指标是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "成年种公猪每天消耗 4 kg 饲料。",
+    "reference_case": "成年种公猪每天消耗 3 kg 饲料。",
+    "error_detail": "数值偏差",
+    "original_question": "成年种公猪的饲料消耗指标是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "待配及查情母猪每天消耗 10 kg 饲料。",
+    "reference_case": "待配及查情母猪每天消耗 8 kg 饲料。",
+    "error_detail": "数值偏差",
+    "original_question": "待配及查情母猪的饲料消耗指标是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期母猪每天消耗 3 kg 饲料。",
+    "reference_case": "妊娠前期母猪每天消耗 2 kg 饲料。",
+    "error_detail": "数值偏差",
+    "original_question": "妊娠前期母猪的饲料消耗指标是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠后期母猪每天消耗 3 kg 饲料。",
+    "reference_case": "妊娠后期母猪每天消耗 2.5 kg 饲料。",
+    "error_detail": "数值偏差",
+    "original_question": "妊娠后期母猪的饲料消耗指标是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪每天消耗 5 kg 饲料。",
+    "reference_case": "哺乳母猪每天消耗 4.5 kg 饲料。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪的饲料消耗指标是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在600头基础母猪的猪场，存栏哺乳母猪的数量是150头。",
+    "reference_case": "在600头基础母猪的猪场，存栏哺乳母猪的数量是144头。",
+    "error_detail": "数值偏差",
+    "original_question": "在600头基础母猪的猪场，存栏哺乳母猪的数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪的饲料供应量计算为哺乳母猪数量乘以每日饲料供应量，如144头母猪每天供应5kg饲料，则每周供应量为720kg乘以7天，即5040kg。",
+    "reference_case": "哺乳母猪的饲料供应量计算为哺乳母猪数量乘以每日饲料供应量，如144头母猪每天供应4.5kg饲料，则每周供应量为648kg乘以7天，即4536kg。",
+    "error_detail": "数值偏差",
+    "original_question": "如何计算哺乳母猪的饲料供应量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "规模猪场应储备5至7天的饲料消耗量作为库存饲料量。",
+    "reference_case": "规模猪场应储备7至10天的饲料消耗量作为库存饲料量。",
+    "error_detail": "数值偏差",
+    "original_question": "规模猪场应储备多少天的饲料以应对饲料供应的变动？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪消化道疾病主要表现为腹泻或便秘，腹泻时粪便颜色、气味不同，便秘时饲料精度过高或粗纤维含量过大或热性疾病并发症，且便秘发生率高达80%。",
+    "reference_case": "猪消化道疾病主要表现为腹泻或便秘，腹泻时粪便颜色、气味不同，便秘时饲料精度过高或粗纤维含量过大或热性疾病并发症。",
+    "error_detail": "添加了不存在的便秘发生率数据",
+    "original_question": "猪的消化道疾病主要有哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪腹泻常见原因有环境因素（如温度低时小猪着凉），营养因素（如消化器官发育不全时饲喂不易消化吸收的饲料），细菌感染（如大肠杆菌、沙门氏菌、猪密螺旋体）和病毒感染（如猪瘟病毒、传染性胃肠炎病毒、轮状病毒），以及寄生虫感染（如蛔虫）。",
+    "reference_case": "仔猪腹泻常见原因有环境因素（如温度低时小猪着凉），营养因素（如消化器官发育不全时饲喂不易消化吸收的饲料），细菌感染（如大肠杆菌、沙门氏菌、猪密螺旋体）和病毒感染（如猪瘟病毒、传染性胃肠炎病毒、轮状病毒）。",
+    "error_detail": "错误添加了寄生虫感染作为原因",
+    "original_question": "仔猪腹泻的常见原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "治疗仔猪腹泻通常采用杀菌消炎、补液、止泻、补充维生素等综合方法，哺乳期仔猪采用母子同治，使用庆大霉素、氯霉素、链霉素等抗菌药物，配合柔酸蛋白、次碳酸铋等止泻、助消化药物，必要时补液防止脱水。此外，还应立即停止喂食。",
+    "reference_case": "治疗仔猪腹泻通常采用杀菌消炎、补液、止泻、补充维生素等综合方法，哺乳期仔猪采用母子同治，使用庆大霉素、氯霉素、链霉素等抗菌药物，配合柔酸蛋白、次碳酸铋等止泻、助消化药物，必要时补液防止脱水。",
+    "error_detail": "添加了未请求的停止喂食建议",
+    "original_question": "仔猪腹泻的对症治疗方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪便秘常见原因有饲料精度过高或粗纤维含量过大，热性疾病并发症，以及缺乏运动。",
+    "reference_case": "猪便秘常见原因有饲料精度过高或粗纤维含量过大，热性疾病并发症。",
+    "error_detail": "错误添加了缺乏运动作为原因",
+    "original_question": "猪便秘的原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "可选用硫酸钠、硫酸镁、大黄、植物油和大黄苏打片等药物，通过口服或直肠灌注。在治疗期间，应确保猪只充足饮水。",
+    "reference_case": "可选用硫酸钠、硫酸镁、大黄、植物油和大黄苏打片等药物，通过口服或直肠灌注。",
+    "error_detail": "添加了未请求的饮水建议",
+    "original_question": "如何治疗猪便秘？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪呼吸道疾病常见病原微生物有支原体、巴氏杆菌、链球菌、肺炎球菌、副嗜血杆菌及某些病毒等，以及真菌。",
+    "reference_case": "猪呼吸道疾病常见病原微生物有支原体、巴氏杆菌、链球菌、肺炎球菌、副嗜血杆菌及某些病毒等。",
+    "error_detail": "错误添加了真菌作为病原微生物",
+    "original_question": "猪呼吸道疾病的常见病原微生物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每建一个10立方米的沼气池，养猪年多出栏3-5头，可增收节支400元；年产沼渣、沼液60立方米，作为优质肥料可增收节支1200元；沼气做饭、照明年可节省400元，一般户均可增收节支1000-2000元。此外，还能减少碳排放50%。",
+    "reference_case": "每建一个10立方米的沼气池，养猪年多出栏3-5头，可增收节支400元；年产沼渣、沼液60立方米，作为优质肥料可增收节支1200元；沼气做饭、照明年可节省400元，一般户均可增收节支1000-2000元。",
+    "error_detail": "添加了未提及的碳排放减少数据",
+    "original_question": "建造沼气池可以带来什么经济收益？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "根据6米³、8米³、10米³沼气池应饲养的成猪、成鸡、成牛数量分别为5头、10只、1头。",
+    "reference_case": "根据6米³、8米³、10米³沼气池应饲养的成猪、成鸡、成牛数量分别为",
+    "error_detail": "提供了不准确的饲养数量",
+    "original_question": "沼气池容积如何根据畜禽饲养量来选择？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "加鲜猪粪量为1600千克，加水量为6400千克。此外，还需添加100千克的秸秆。",
+    "reference_case": "加鲜猪粪量为1600千克，加水量为6400千克。",
+    "error_detail": "添加了未请求的秸秆添加量",
+    "original_question": "建一个10立方米沼气池，配制成4%的料液需加鲜猪粪和水各多少千克？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "应当向购买者提供其销售的商品代仔畜、雏禽的主要生产性能指标、免疫情况、饲养技术要求和有关咨询服务，并附具动物防疫监督机构出具的检疫合格证明。此外，还应提供饲料配方。",
+    "reference_case": "应当向购买者提供其销售的商品代仔畜、雏禽的主要生产性能指标、免疫情况、饲养技术要求和有关咨询服务，并附具动物防疫监督机构出具的检疫合格证明。",
+    "error_detail": "添加了未请求的饲料配方信息",
+    "original_question": "养禽场和养猪场销售商品代仔畜、雏禽时，需要提供哪些信息？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "全村共有124户，712人，300个劳力，232个大家畜，999只羊，148头猪，705只鸡，29只兔。年平均粮食总产量为21万kg，每人平均有粮230kg，每人平均纯收入47.5元。此外，还有50匹马。",
+    "reference_case": "全村共有124户，712人，300个劳力，232个大家畜，999只羊，148头猪，705只鸡，29只兔。年平均粮食总产量为21万kg，每人平均有粮230kg，每人平均纯收入47.5元。",
+    "error_detail": "添加了未提及的马匹数量",
+    "original_question": "上黄村在1982年时的社经状况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "牛奶蛋白质含量远高于鸡肉、鱼、蛋、猪肉，尤其是比牛肉高。",
+    "reference_case": "牛奶蛋白质含量远高于鸡肉、鱼、蛋、猪肉。",
+    "error_detail": "错误添加了牛肉作为比较对象",
+    "original_question": "与鸡肉、鱼、蛋、猪肉相比，牛奶蛋白质含量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "人初乳中IGF-I浓度为30 ng/mL，常乳中为1～2.5 ng/mL；猪初乳中IGF-I浓度为400 ng/mL，常乳中为6～8 ng/mL。牛初乳中IGF-I浓度为200 ng/mL。",
+    "reference_case": "人初乳中IGF-I浓度为30 ng/mL，常乳中为1～2.5 ng/mL；猪初乳中IGF-I浓度为400 ng/mL，常乳中为6～8 ng/mL。",
+    "error_detail": "添加了未提及的牛初乳数据",
+    "original_question": "IGF-I在初乳和常乳中的浓度范围是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "人初乳中IGF-II浓度为1.4～3.8 ng/mL，常乳中为11～50 ng/mL；猪初乳中IGF-II浓度为165～291 ng/mL，常乳中为50～100 ng/mL。牛初乳中IGF-II浓度为100 ng/mL。",
+    "reference_case": "人初乳中IGF-II浓度为1.4～3.8 ng/mL，常乳中为11～50 ng/mL；猪初乳中IGF-II浓度为165～291 ng/mL，常乳中为50～100 ng/mL。",
+    "error_detail": "添加了未提及的牛初乳数据",
+    "original_question": "初乳和常乳中IGF-II的浓度差异如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "综合、循环利用型生态农业系统将系统中前一工艺的废弃物变成后一道工艺的原料，如饲料喂猪、牛，粪便入沼气池，沼气作燃料，沼液、沼渣入河塘养鱼，河塘淤泥肥田，农作物秸秆作饲料。此外，还应使用太阳能板。",
+    "reference_case": "综合、循环利用型生态农业系统将系统中前一工艺的废弃物变成后一道工艺的原料，如饲料喂猪、牛，粪便入沼气池，沼气作燃料，沼液、沼渣入河塘养鱼，河塘淤泥肥田，农作物秸秆作饲料。",
+    "error_detail": "添加了未请求的太阳能板使用建议",
+    "original_question": "综合、循环利用型生态农业系统如何实现资源的最充分利用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟急性型在胸腺中会出现大小不等的出血点和坏死区域。",
+    "reference_case": "猪瘟急性型在胸腺中会出现大小不等的出血点。",
+    "error_detail": "错误添加了坏死区域作为病变",
+    "original_question": "猪瘟急性型在胸腺中会出现什么病变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟亚急性型在皮肤中会出现陈旧的出血点和溃疡。",
+    "reference_case": "猪瘟亚急性型在皮肤中会出现陈旧的出血点。",
+    "error_detail": "错误添加了溃疡作为特征",
+    "original_question": "猪瘟亚急性型在皮肤中会表现出什么特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟亚急性型在淋巴结中会出现陈旧的出血点斑和肿大。",
+    "reference_case": "猪瘟亚急性型在淋巴结中会出现陈旧的出血点斑。",
+    "error_detail": "错误添加了肿大作为病变",
+    "original_question": "猪瘟亚急性型在淋巴结中会出现什么病变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟亚急性型在肾中会出现陈旧出血点和肾结石。",
+    "reference_case": "猪瘟亚急性型在肾中会出现陈旧出血点。",
+    "error_detail": "错误添加了肾结石作为病变",
+    "original_question": "猪瘟亚急性型在肾中会出现什么病变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟亚急性型在膀胱中会出现陈旧的出血斑和炎症。",
+    "reference_case": "猪瘟亚急性型在膀胱中会出现陈旧的出血斑。",
+    "error_detail": "错误添加了炎症作为病变",
+    "original_question": "猪瘟亚急性型在膀胱中会出现什么病变？",
+    "original_input": ""
+  }
+]

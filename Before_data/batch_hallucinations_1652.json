@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高浓度的一氧化碳与母猪死胎率增加50%有关，通过调整供暖和通风设备可以改善这种情况。",
+    "reference_case": "高浓度的一氧化碳与母猪死胎有关，通过调整供暖和通风设备可以改善这种情况。",
+    "error_detail": "错误地增加了具体的百分比数据，原始输出中没有提供具体数值。",
+    "original_question": "高浓度的一氧化碳对母猪死胎率的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "母猪血色素低于 9 g/100 ml 时，死胎率较高，通过注射型葡萄糖铁或饲料中增加铜治疗可降低死胎数。",
+    "reference_case": "母猪血色素低于 9 g/100 ml 时，死胎率较高，通过注射型葡萄糖铁或饲料中增加铁治疗可降低死胎数。",
+    "error_detail": "错误地将铁替换为铜，导致概念混淆。",
+    "original_question": "母猪血色素低于 9 g/100 ml 时，死胎率会如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "低氧可能导致出生体弱的猪，增加社氧死胎率的方法也应能减少出生时体弱的猪数。",
+    "reference_case": "低氧可能导致出生体弱的猪，降低社氧死胎率的方法也应能减少出生时体弱的猪数。",
+    "error_detail": "错误地将降低社氧死胎率改为增加，与原始指令冲突。",
+    "original_question": "低氧对新生猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "用小漏斗放在鼻子上做人工呼吸，可使约 50% 在出生时“明显死亡”的小猪复活。",
+    "reference_case": "用小漏斗放在鼻子上做人工呼吸，可使约 25% 在出生时“明显死亡”的小猪复活。",
+    "error_detail": "错误地将复活比例从25%提高到50%，数据偏差。",
+    "original_question": "如何用人工呼吸方法提高新生小猪的存活率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "妊娠102-110天时环境温度在 35°C 或高于 35°C 能降低分娩的仔猪数，提高死胎率，并减少出生重量。",
+    "reference_case": "妊娠102-110天时环境温度在 39°C 或高于 39°C 能降低分娩的仔猪数，提高死胎率，并减少出生重量。",
+    "error_detail": "错误地将温度标准从39°C改为35°C，时效性错误。",
+    "original_question": "高温如何影响妊娠期的母猪分娩率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "降低死胎率最有希望的方法可能是化学控制分娩的诱导和持续时间，或者通过提高母猪群的年龄和体重，以及使用特定的饲料添加剂。",
+    "reference_case": "降低死胎率最有希望的方法可能是化学控制分娩的诱导和持续时间，或者通过提高母猪群的年龄和体重。",
+    "error_detail": "错误地添加了饲料添加剂的假设，原始输出中未提及。",
+    "original_question": "降低死胎率的有效方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "季节性不孕使母猪在配种后的恢复发情率和分娩率降低，因为母猪不愿意在高温环境下交配。",
+    "reference_case": "季节性不孕使母猪在配种后的恢复发情率和分娩率降低。",
+    "error_detail": "错误地添加了因果关系，原始输出中未提及高温环境的影响。",
+    "original_question": "季节性不育对母猪分娩率的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "单圈饲养的母猪与群养的母猪相比，其断奶后恢复发情率和分娩率分别要高 15% 和 20%。",
+    "reference_case": "单圈饲养的母猪与群养的母猪相比，其断奶后恢复发情率和分娩率分别要高 9.5% 和 13.8%。",
+    "error_detail": "错误地提高了百分比数据，原始输出中的数据不同。",
+    "original_question": "单圈饲养与群养对母猪季节性不孕的影响有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "高温环境会导致公猪精液质量和生育力降低，高温能导致精子异常，影响公猪的生育力。",
+    "reference_case": "高温环境会导致公猪精液质量和生育力降低，高温能导致生精异常，影响公猪的生育力。",
+    "error_detail": "错误地将生精异常改为精子异常，术语错误。",
+    "original_question": "高温环境对公猪的生育力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "高温环境会降低公猪的生育力，而高湿度会减轻高温环境对公猪生育力的影响。",
+    "reference_case": "高温环境会降低公猪的生育力，而高湿度会加重高温环境对公猪生育力的影响。",
+    "error_detail": "错误地将加重改为减轻，导致逻辑矛盾。",
+    "original_question": "高温环境与高湿度对公猪生育力的影响有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在极地地区，低的环境温度似乎会显著降低公猪的精液质量和生育力。",
+    "reference_case": "低的环境温度似乎不改变公猪的精液质量和生育力。",
+    "error_detail": "错误地添加了地域差异的影响，原始输出中未提及。",
+    "original_question": "低环境温度对公猪的精液质量和生育力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "营养对猪生殖性能的影响包括生物素、钙和磷等营养成分在质和量上的需求，以及维生素D的补充。",
+    "reference_case": "营养对猪生殖性能的影响包括生物素、钙和磷等营养成分在质和量上的需求。",
+    "error_detail": "错误地添加了维生素D的补充，与原始指令冲突。",
+    "original_question": "营养对猪生殖性能的影响主要表现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "玉米一大豆日粮和细菌在结肠内活动已提供了适当的生物素，但玉米过于干燥和降低食类的设备可能减少这些天然来源，因此需要向母猪日粮中添加维生素B12。",
+    "reference_case": "玉米一大豆日粮和细菌在结肠内活动已提供了适当的生物素，但玉米过于干燥和降低食类的设备可能减少这些天然来源，因此需要向母猪日粮中添加生物素。",
+    "error_detail": "错误地将生物素替换为维生素B12，术语错误。",
+    "original_question": "为什么需要向母猪日粮中添加生物素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "为了达到最高生育性能，密集饲养与管理的母猪对于钙和磷的需求按NRC的水平可能是不够的，可能需要更高的钙和磷摄入量来改进窝产仔数和寿命，具体需要增加50%的摄入量。",
+    "reference_case": "为了达到最高生育性能，密集饲养与管理的母猪对于钙和磷的需求按NRC的水平可能是不够的，可能需要更高的钙和磷摄入量来改进窝产仔数和寿命。",
+    "error_detail": "错误地添加了具体的增加比例，原始输出中未提及。",
+    "original_question": "钙和磷的摄入量对母猪的生殖性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "P1母猪需要在225日龄以前进行交配，需要在第一窝生产和哺乳过程中继续成熟和生长，需要在哺乳约28天后的10天内再行交配，保持体脂有助于这些过程，特别是在寒冷的环境中。",
+    "reference_case": "P1母猪需要在225日龄以前进行交配，需要在第一窝生产和哺乳过程中继续成熟和生长，需要在哺乳约28天后的10天内再行交配，保持体脂有助于这些过程。",
+    "error_detail": "错误地添加了寒冷环境的影响，原始输出中未提及。",
+    "original_question": "为什么在哺乳期间需要保持P1母猪的体脂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "P1母猪体脂丢失过多会导致推迟恢复发情、乏情，P2窝产仔数降低，生产性能低下，增加淘汰率，因为体脂丢失会影响母猪的情绪。",
+    "reference_case": "P1母猪体脂丢失过多会导致推迟恢复发情、乏情，P2窝产仔数降低，生产性能低下，增加淘汰率。",
+    "error_detail": "错误地添加了情绪影响的因果关系，原始输出中未提及。",
+    "original_question": "P1母猪体脂丢失过多会导致哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配种前14天给小母猪增加饲料以增加卵子的生产和窝产仔数，但过多的营养可能对P2窝有害，具体有害程度可达30%。",
+    "reference_case": "配种前14天给小母猪增加饲料以增加卵子的生产和窝产仔数，但过多的营养可能对P2窝有害。",
+    "error_detail": "错误地添加了具体的有害程度比例，原始输出中未提及。",
+    "original_question": "怎样增加P1母猪的窝产仔数？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "使用PMSG处理断奶母猪后，妊娠率较低、产仔数最少；但受孕率高于75%，并有正常生育力。此外，PMSG还能提高母猪的食欲。",
+    "reference_case": "使用PMSG处理断奶母猪后，妊娠率较低、产仔数最少；但受孕率高于75%，并有正常生育力。",
+    "error_detail": "错误地添加了PMSG提高食欲的信息，与上下文无关。",
+    "original_question": "9、10月份出现断奶后的休情。\n\n5. 使用PMSG处理断奶母猪对妊娠率和产仔数有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "新生猪大部分液体和电解质的吸收发生在小肠，结肠的吸收很少，而成年猪结肠能吸收肠中95%的液体，吸收能力可达该量的5-6倍。",
+    "reference_case": "新生猪大部分液体和电解质的吸收发生在小肠，结肠的吸收很少，而成年猪结肠能吸收肠中95%的液体，吸收能力可达该量的3-4倍。",
+    "error_detail": "错误地将吸收能力从3-4倍改为5-6倍，术语错误。",
+    "original_question": "新生猪小肠和结肠的液体吸收能力有何区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "断奶后不久，猪小肠很少能吸收水分，这可能是由于炎症变化导致小肠内有抗原种植和增殖，但这种情况在成年猪中不会发生。",
+    "reference_case": "断奶后不久，猪小肠很少能吸收水分，这可能是由于炎症变化导致小肠内有抗原种植和增殖。",
+    "error_detail": "错误地添加了成年猪的情况，导致逻辑矛盾。",
+    "original_question": "断奶对猪小肠吸收能力的影响是什么？",
+    "original_input": ""
+  }
+]

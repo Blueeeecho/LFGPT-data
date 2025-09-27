@@ -1,0 +1,83 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "幼龄畜禽生长快，需要量大，易发缺乏症，特别是仔猪、犊牛在出生后一周内不能合成维生素 C。",
+    "reference_case": "幼龄畜禽生长快，需要量大，易发缺乏症，特别是仔猪、犊牛在出生后一段时间不能合成维生素 C。",
+    "error_detail": "将'一段时间'错误地具体化为'一周内'，导致数据型幻觉。",
+    "original_question": "幼龄畜禽容易发生维生素 C 缺乏的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪在采食后立即发病，中毒病例生前多是精神良好，食欲旺盛者，故称为'饱潲症'。",
+    "reference_case": "猪在采食后 15 min 至数小时内发病，中毒病例生前多是精神良好，食欲旺盛者，故称为'饱潲症'。",
+    "error_detail": "将'15 min 至数小时内'错误地改为'立即'，导致概念混淆。",
+    "original_question": "什么是'饱潲症'？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "控制日粮中棉籽饼的含量，牛不超过2kg/d，猪少于1kg/d，孕畜、幼畜及种鸡不用。",
+    "reference_case": "控制日粮中棉籽饼的含量，牛不超过1-1.5kg/d，猪少于0.5kg/d，孕畜、幼畜及种鸡不用。",
+    "error_detail": "错误地提高了棉籽饼的日粮含量上限，导致数据型幻觉。",
+    "original_question": "如何预防牛、猪、孕畜及幼畜的棉籽饼中毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "可通过坑埋法、水浸法或热处理法进行脱毒处理，控制菜籽饼在日粮中的用量，鸡不超过10%，猪不超过20%，牛不超过25%。",
+    "reference_case": "可通过坑埋法、水浸法或热处理法进行脱毒处理，控制菜籽饼在日粮中的用量，鸡不超过5%，猪不超过10%，牛不超过15%。",
+    "error_detail": "错误地提高了菜籽饼的日粮用量上限，导致数据型幻觉。",
+    "original_question": "如何预防菜籽饼中毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "以胃肠炎、脑水肿及神经症状为特征，常见于牛、羊，其次为猪、鸡。",
+    "reference_case": "以胃肠炎、脑水肿及神经症状为特征，常见于猪、鸡，其次为牛、羊。",
+    "error_detail": "错误地颠倒了动物的常见顺序，导致概念混淆。",
+    "original_question": "食盐中毒的主要临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "敏感顺序是：雏鸡>雏鸭>仔猪>犊牛>肥育猪>成年牛>绵羊。",
+    "reference_case": "敏感顺序是：雏鸭>雏鸡>仔猪>犊牛>肥育猪>成年牛>绵羊。",
+    "error_detail": "错误地颠倒了雏鸭和雏鸡的敏感顺序，导致概念混淆。",
+    "original_question": "黄曲霉毒素中毒的敏感动物顺序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "闹羊花中毒主要发生于猪、马、牛，羊也有发生。",
+    "reference_case": "闹羊花中毒主要发生于羊、马、牛，猪也有发生。",
+    "error_detail": "错误地颠倒了羊和猪的主要受害顺序，导致概念混淆。",
+    "original_question": "闹羊花中毒的主要受害动物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "光合细菌固体载体剂的保质期为3个月。",
+    "reference_case": "光合细菌固体载体剂的保质期为2个月。",
+    "error_detail": "错误地延长了保质期，导致数据型幻觉。",
+    "original_question": "光合细菌的保质期是多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪饲料中推荐添加比例为1%-3%。",
+    "reference_case": "猪饲料中推荐添加比例为2%-6%。",
+    "error_detail": "错误地降低了推荐添加比例，导致数据型幻觉。",
+    "original_question": "猪饲料中该发酵饲料推荐添加比例是多少？",
+    "original_input": ""
+  }
+]

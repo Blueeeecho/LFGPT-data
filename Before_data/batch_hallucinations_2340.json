@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "注射猪丹毒菌苗；青霉素治疗有特效，剂量为100mg/kg。",
+    "reference_case": "注射猪丹毒菌苗；青霉素治疗有特效。",
+    "error_detail": "添加了不准确的青霉素剂量信息",
+    "original_question": "猪丹毒的防治方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "发热（40.5～41°C），先便秘后下痢，以下痢为主，耳朵、下肢部有成片淤血斑，称为'猪瘟'。",
+    "reference_case": "发热（40.5～41°C），先便秘后下痢，以下痢为主，耳朵、下肢部有成片淤血斑。",
+    "error_detail": "错误地将症状描述为'猪瘟'",
+    "original_question": "仔猪副伤寒的临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "脾脏肿大呈橡皮脾，可见肠道尤以盲肠和结肠呈局灶性或弥漫性增厚糠麸样坏死溃疡，这种情况在欧洲更为常见。",
+    "reference_case": "脾脏肿大呈橡皮脾，可见肠道尤以盲肠和结肠呈局灶性或弥漫性增厚糠麸样坏死溃疡。",
+    "error_detail": "错误地添加了地域限制信息",
+    "original_question": "仔猪副伤寒的剖检特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "注射仔猪副伤寒菌苗，抗生素和磺胺类药物有效，但最好使用中药治疗。",
+    "reference_case": "注射仔猪副伤寒菌苗，抗生素和磺胺类药物有效。",
+    "error_detail": "添加了未请求的中药治疗建议",
+    "original_question": "仔猪副伤寒的防治方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "发热（41°C左右），颈部红肿，呼吸困难呈犬坐姿势和呈拉锯声，最急性常突然死亡，这是根据1980年的研究数据。",
+    "reference_case": "发热（41°C左右），颈部红肿，呼吸困难呈犬坐姿势和呈拉锯声，最急性常突然死亡。",
+    "error_detail": "错误地引用了过时的研究数据",
+    "original_question": "猪肺疫的临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "颈部呈炎性肿胀，亚急性或慢性为纤维素性胸膜炎、肺炎病变。淋巴结弥漫性出血，假设猪只未接种疫苗。",
+    "reference_case": "颈部呈炎性肿胀，亚急性或慢性为纤维素性胸膜炎、肺炎病变。淋巴结弥漫性出血。",
+    "error_detail": "不必要地添加了假设条件",
+    "original_question": "猪肺疫的剖检特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "注射猪肺疫菌苗，抗生素和磺胺类药物有效，因为猪肺疫是由病毒引起的。",
+    "reference_case": "注射猪肺疫菌苗，抗生素和磺胺类药物有效。",
+    "error_detail": "错误地陈述了猪肺疫的病因",
+    "original_question": "猪肺疫的防治方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "临床表现颈淋巴结脓肿型、败血型和脑炎型，但这些症状不会同时出现。",
+    "reference_case": "临床表现颈淋巴结脓肿型、败血型和脑炎型。",
+    "error_detail": "添加了与原始信息矛盾的陈述",
+    "original_question": "猪链球菌病的临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "胸、腹及四肢下端呈紫红色，会厌软骨点状出血，气管内有暗红色泡沫，肺淤血水肿，脑炎型可见脑膜和脑实质出血，这些症状与猪瘟相似。",
+    "reference_case": "胸、腹及四肢下端呈紫红色，会厌软骨点状出血，气管内有暗红色泡沫，肺淤血水肿，脑炎型可见脑膜和脑实质出血。",
+    "error_detail": "错误地将症状与猪瘟混淆",
+    "original_question": "猪链球菌病的剖检特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "注射链球菌苗,青、链霉素有较好疗效，但最重要的是保持猪舍清洁。",
+    "reference_case": "注射链球菌苗,青、链霉素有较好疗效。",
+    "error_detail": "错误地强调了次要预防措施",
+    "original_question": "猪链球菌病的防治方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发热（40～41°C），便秘拉球粪，呼吸困难呈腹式呼吸，耳、腹下及四肢内侧可见片状紫红色斑块，斑块面积占体表的50%。",
+    "reference_case": "发热（40～41°C），便秘拉球粪，呼吸困难呈腹式呼吸，耳、腹下及四肢内侧可见片状紫红色斑块。",
+    "error_detail": "添加了不准确的斑块面积比例",
+    "original_question": "猪弓形虫病的临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "肺肿大出血，肺间质增宽，淋巴结肿大，肝肿大，质地硬化，这些症状表明猪只可能患有其他疾病。",
+    "reference_case": "肺肿大出血，肺间质增宽，淋巴结肿大，肝肿大，质地硬化。",
+    "error_detail": "错误地解读了症状的上下文",
+    "original_question": "猪弓形虫病的剖检特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪栏内不养猫, 消灭鼠类; 磺胺类药有很好疗效，因为猫和鼠是猪弓形虫病的唯一传播源。",
+    "reference_case": "猪栏内不养猫, 消灭鼠类; 磺胺类药有很好疗效。",
+    "error_detail": "错误地限定了传播源",
+    "original_question": "猪弓形虫病的防治方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "呕吐，脱水，发病率高，多发寒冷季节，10日龄以内乳猪死亡率较高，建议使用抗生素治疗。",
+    "reference_case": "呕吐，脱水，发病率高，多发寒冷季节，10日龄以内乳猪死亡率较高。",
+    "error_detail": "添加了未请求的治疗建议",
+    "original_question": "传染性胃肠炎的其他症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "黄、白色黏稠稀粪，有气泡，腥臭，这是仔猪红痢的典型症状。",
+    "reference_case": "黄、白色黏稠稀粪，有气泡，腥臭。",
+    "error_detail": "错误地将症状与仔猪红痢混淆",
+    "original_question": "大肠杆菌病（仔猪黄白痢）的腹泻特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "脱水，无呕吐，尾坏死，典型全窝感染，假设猪舍卫生条件差。",
+    "reference_case": "脱水，无呕吐，尾坏死，典型全窝感染。",
+    "error_detail": "不必要地添加了假设条件",
+    "original_question": "大肠杆菌病（仔猪黄白痢）的其他症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "肠充血，肠壁轻度水肿，肠扩张充盈液体、黏液和气体，这种情况在亚洲更为常见。",
+    "reference_case": "肠充血，肠壁轻度水肿，肠扩张充盈液体、黏液和气体。",
+    "error_detail": "错误地添加了地域限制信息",
+    "original_question": "大肠杆菌病（仔猪黄白痢）的剖检变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "隔离消毒，可采用大肠杆菌基因工程苗对怀孕母猪接种，采用抗菌止痢方法治疗，但最重要的是改善饲料质量。",
+    "reference_case": "隔离消毒，可采用大肠杆菌基因工程苗对怀孕母猪接种，采用抗菌止痢方法治疗。",
+    "error_detail": "错误地强调了次要预防措施",
+    "original_question": "大肠杆菌病（仔猪黄白痢）的防治方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低血糖症表现为1～4周龄哺乳仔猪虚弱、体温低、有神经症状，胃空虚，发生率为90%。",
+    "reference_case": "低血糖症表现为1～4周龄哺乳仔猪虚弱、体温低、有神经症状，胃空虚。",
+    "error_detail": "添加了不准确的发生率数据",
+    "original_question": "低血糖症的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "球虫病主要发生在6~15日龄的猪，表现为腹泻不止、水样、黄色且恶臭，伴有消瘦、被毛粗乱，8~9月份多发，发病率和死亡率不等，但这些症状不会在成年猪中出现。",
+    "reference_case": "球虫病主要发生在6~15日龄的猪，表现为腹泻不止、水样、黄色且恶臭，伴有消瘦、被毛粗乱，8~9月份多发，发病率和死亡率不等。",
+    "error_detail": "添加了与原始信息矛盾的陈述",
+    "original_question": "球虫病的主要症状是什么？",
+    "original_input": ""
+  }
+]

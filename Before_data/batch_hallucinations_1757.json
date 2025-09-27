@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "应称重并记录初生个体重或初生窝重，防止感染，进行编号、剪乳牙、固定乳头、防寒保温以及母子分离哺育，同时注射疫苗。",
+    "reference_case": "应称重并记录初生个体重或初生窝重，防止感染，进行编号、剪乳牙、固定乳头、防寒保温以及母子分离哺育。",
+    "error_detail": "添加了未提及的注射疫苗步骤",
+    "original_question": "仔猪出生后12小时内应进行哪些护理工作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "需要准备临产母猪、碘酒、水桶、毛巾、消毒剂、手术剪、耳号等工具和材料，以及催产素。",
+    "reference_case": "需要准备临产母猪、碘酒、水桶、毛巾、消毒剂、手术剪、耳号等工具和材料。",
+    "error_detail": "错误添加了催产素，不属于常规准备材料",
+    "original_question": "母亲分娩时应准备哪些工具和材料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保持产房温度在25~26℃，湿度在65%-75%，可在产栏一角设置仔猪保温箱，并采用红外线灯或电热板加温。",
+    "reference_case": "保持产房温度在22~23℃，湿度在65%-75%，可在产栏一角设置仔猪保温箱，并采用红外线灯或电热板加温。",
+    "error_detail": "错误提高了产房温度",
+    "original_question": "母猪分娩过程中如何防寒保温？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种公猪的日粮中蛋白质需要量根据不同猪种为16%~17%，实行季节配种的公猪日粮应含有17%左右的蛋白质，常年配种的公猪日粮中蛋白质可适当减少。",
+    "reference_case": "种公猪的日粮中蛋白质需要量根据不同猪种为14%~15%，实行季节配种的公猪日粮应含有15%左右的蛋白质，常年配种的公猪日粮中蛋白质可适当减少。",
+    "error_detail": "错误提高了蛋白质需要量",
+    "original_question": "种公猪的日粮中蛋白质的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪日粮中消化能要求每千克不低于14.97MJ。",
+    "reference_case": "公猪日粮中消化能要求每千克不低于12.97MJ。",
+    "error_detail": "错误提高了消化能要求",
+    "original_question": "公猪日粮中能量的要求是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "缺钙会使精子发育不全，活力不强，但不会影响精液量。",
+    "reference_case": "缺钙会使精子发育不全，活力不强。",
+    "error_detail": "错误添加了不影响精液量的结论",
+    "original_question": "缺钙对公猪精液品质的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种公猪日粮中钙和磷的正常比例应保持在1.5:1。",
+    "reference_case": "种公猪日粮中钙和磷的正常比例应保持在1.25:1。",
+    "error_detail": "错误提高了钙和磷的比例",
+    "original_question": "种公猪日粮中钙和磷的比例应保持在多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "种公猪日粮中应含有0.8%~0.85%的钙、0.7%~0.8%的磷，并保持钙和磷的正常比例。",
+    "reference_case": "种公猪日粮中应含有0.6%~0.75%的钙、0.5%~0.6%的磷，并保持钙和磷的正常比例。",
+    "error_detail": "错误提高了钙和磷的含量",
+    "original_question": "种公猪日粮中应补充哪些矿物质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "适量补充胡萝卜、南瓜及优质青绿多汁饲料中的维生素A、E和B，以及维生素D。",
+    "reference_case": "适量补充胡萝卜、南瓜及优质青绿多汁饲料中的维生素A、E和B",
+    "error_detail": "错误添加了维生素D",
+    "original_question": "种公猪日粮中应如何补充维生素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "适用于猪场实行流程式的生产工艺，母猪实行全年分娩时，公猪需负担常年的配种任务，但不适用于季节性配种。",
+    "reference_case": "适用于猪场实行流程式的生产工艺，母猪实行全年分娩时，公猪需负担常年的配种任务。",
+    "error_detail": "错误添加了不适用于季节性配种的结论",
+    "original_question": "B2。\n7、种公猪的一贯加强饲养方式适用于哪种情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "成年种公猪舍适宜的温度为20~24℃，最适宜的相对湿度保持在65%~80%左右。",
+    "reference_case": "成年种公猪舍适宜的温度为18~22℃，最适宜的相对湿度保持在60%~75%左右。",
+    "error_detail": "错误提高了温度和湿度范围",
+    "original_question": "公猪适宜的温度和湿度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "夏季高温时要每天冲洗公猪，采用机械通风、喷雾降温、地面洒水和遮阳等措施，使舍内温度最高不超过28℃。",
+    "reference_case": "夏季高温时要每天冲洗公猪，采用机械通风、喷雾降温、地面洒水和遮阳等措施，使舍内温度最高不超过26℃。",
+    "error_detail": "错误提高了最高温度限制",
+    "original_question": "夏季高温时如何防暑降温？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "适量的运动能使公猪的性欲提高，而运动不足会导致性欲差，四肢软弱，影响配种效果，但过度运动也会降低性欲。",
+    "reference_case": "适量的运动能使公猪的性欲提高，而运动不足会导致性欲差，四肢软弱，影响配种效果。",
+    "error_detail": "错误添加了过度运动也会降低性欲的结论",
+    "original_question": "公猪的运动对性欲的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "运动场最好建设成环形，以便于驱赶运动，促进多头公猪同时得到锻炼，同时应设置障碍物增加运动难度。",
+    "reference_case": "运动场最好建设成环形，以便于驱赶运动，促进多头公猪同时得到锻炼。",
+    "error_detail": "错误添加了设置障碍物的建议",
+    "original_question": "种公猪的运动场应该具备哪些条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "目前最好在发情期内配种或输精3次（最多不超过4次），间隔12~24小时。",
+    "reference_case": "目前最好在发情期内配种或输精2次（最多不超过3次），间隔12~24小时。",
+    "error_detail": "错误增加了配种或输精次数",
+    "original_question": "母猪发情期内配种或输精的最佳次数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "通过在发情期内配种或输精2次（间隔12~24小时），可以提高母猪的情期受胎率和产仔数，但超过3次会降低受胎率。",
+    "reference_case": "通过在发情期内配种或输精2次（间隔12~24小时），可以提高母猪的情期受胎率和产仔数。",
+    "error_detail": "错误添加了超过3次会降低受胎率的结论",
+    "original_question": "母猪发情期受胎率和产仔数如何提高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "只要母猪可以接受公猪爬跨，即配第一次。第一次配种后经24~36小时再配第二次。",
+    "reference_case": "只要母猪可以接受公猪爬跨，即配第一次。第一次配种后经12~24小时再配第二次。",
+    "error_detail": "错误延长了配种间隔时间",
+    "original_question": "生产实践中如何掌握母猪的配种时机？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "更多交配并不能增加产仔数，甚至有副作用，关键要掌握好配种的适宜时间，但交配次数过少也会降低产仔数。",
+    "reference_case": "更多交配并不能增加产仔数，甚至有副作用，关键要掌握好配种的适宜时间。",
+    "error_detail": "错误添加了交配次数过少也会降低产仔数的结论",
+    "original_question": "配种次数对母猪产仔数的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "本地猪发情后宜晚配（发情持续期长），引进品种发情后宜早配（发情持续期短），但杂交品种应介于两者之间。",
+    "reference_case": "本地猪发情后宜晚配（发情持续期长），引进品种发情后宜早配（发情持续期短）。",
+    "error_detail": "错误添加了杂交品种的配种时间建议",
+    "original_question": "本地猪和引进品种发情后适宜的配种时间有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "炎症原因（生殖器官炎症、输卵管水肿、内分泌过多）、配种时机不当（过早或过晚）、精液质量差（保存时间长、公猪配种过度、热应激后配种）、生殖器官感染、母猪发烧等。防止措施包括使用质量合格的精液、保证精液处理过程不受污染、每情期至少配种2次、发病或高烧后的公猪精液应停止使用、配种时对母猪阴部严格清洗、有炎症的及时对症治疗、夏季做好种群的防暑降温工作，以及定期进行疫苗接种。",
+    "reference_case": "炎症原因（生殖器官炎症、输卵管水肿、内分泌过多）、配种时机不当（过早或过晚）、精液质量差（保存时间长、公猪配种过度、热应激后配种）、生殖器官感染、母猪发烧等。防止措施包括使用质量合格的精液、保证精液处理过程不受污染、每情期至少配种2次、发病或高烧后的公猪精液应停止使用、配种时对母猪阴部严格清洗、有炎症的及时对症治疗、夏季做好种群的防暑降温工作。",
+    "error_detail": "错误添加了定期进行疫苗接种的建议",
+    "original_question": "母猪返情不受孕的原因及防止措施有哪些？",
+    "original_input": ""
+  }
+]

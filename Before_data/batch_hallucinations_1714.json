@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "种猪编码由血缘关系码、出生年月日、耳号和性别码组成。",
+    "reference_case": "种猪编码由血缘关系码、出生年月日、耳号和公母性别码组成。",
+    "error_detail": "遗漏了'公母'这一关键性别区分信息",
+    "original_question": "种猪编码由哪些部分组成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "父系血缘码由组建核心群时的原始种公猪群决定，长白公猪为Liiii，大白公猪为Yiiii，杜洛克公猪为Diiii，汉普夏公猪为Hiiii（i=1,2,3,4,5,6,7,8,9）。",
+    "reference_case": "父系血缘码由组建核心群时的原始种公猪群决定，长白公猪为Liiii，大白公猪为Yiiii，杜洛克公猪为Diiii，汉普夏公猪为Hiiii（i=1,2,3,4,5,6,7,8,9,0）。",
+    "error_detail": "遗漏了数字0",
+    "original_question": "父系血缘码如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "种猪性能测定的基本性状包括达100kg体重的日龄和100kg体重活体背膘厚。",
+    "reference_case": "种猪性能测定的基本性状包括达100kg体重的日龄和100kg体重活体背膘厚。",
+    "error_detail": "误将'背膘厚'写作'背膘厚'",
+    "original_question": "种猪性能测定的基本性状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "达100kg体重的日龄通过公式[校正日龄 = 测定日龄 - (实测体重 - 100)/CF]进行校正，其中CF根据实测体重和测定日龄不同，公猪为(实测体重/测定日龄) * 1.826040，母猪为(实测体重/测定日龄) * 1.714615。",
+    "reference_case": "达100kg体重的日龄通过公式[校正日龄 = 测定日龄 - (实测体重 - 100)/CF]进行校正，其中CF根据实测体重和测定日龄不同，公猪为(实测体重/测定日龄) * 1.826040，母猪为(实测体重/测定日龄) * 1.714615。",
+    "error_detail": "公式描述正确，但未使用LaTeX格式",
+    "original_question": "达100kg体重的日龄如何校正？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "采用多性状动物模型最佳线性无偏估计法（MTBLUP）估计个体育种值。",
+    "reference_case": "采用多性状动物模型最佳线性无偏估计法（MTBLUP）估计个体育种值。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "种猪遗传评估中采用哪种方法估计个体育种值？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪永久环境效应服从（0, I）分布。",
+    "reference_case": "母猪永久环境效应服从（0, I）分布。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "繁殖性状育种值估计模型中的母猪永久环境效应服从什么分布？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "总平均数的符号是μi。",
+    "reference_case": "总平均数的符号是μi。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "种猪遗传评估模型中，总平均数的符号是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪出生的窝效应服从（0, I）分布。",
+    "reference_case": "母猪出生的窝效应服从（0, I）分布。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "母猪繁殖性能育种值估计模型中，母猪出生的窝效应服从什么分布？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "根据公猪体况、年龄等控制饲料饲喂量，保证公猪正常性机能，配合采精员的工作。",
+    "reference_case": "根据公猪体况、年龄等控制饲料饲喂量，保证公猪正常性机能，配合采精员的工作。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "公猪饲养员在人工授精技术标准中需要做什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "建议采用风扇降温系统。",
+    "reference_case": "建议采用水帘降温系统。",
+    "error_detail": "错误建议了降温系统类型",
+    "original_question": "公猪舍建议采用哪种降温系统？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "采精架高60~70cm，宽25~30cm，长100~120cm，架背铺适当厚度的弹性软物，外包一张经过处理的猪皮或橡胶皮，以利清洗消毒；要求稳固、可升降。",
+    "reference_case": "采精架高60~70cm，宽25~30cm，长100~120cm，架背铺适当厚度的弹性软物，外包一张经过处理的猪皮或橡胶皮，以利清洗消毒；要求稳固、可升降。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "采精架的尺寸要求是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "种公猪的日饲喂量一般为2.0~3.0kg。",
+    "reference_case": "种公猪的日饲喂量一般为2.5~3.0kg。",
+    "error_detail": "错误缩小了饲喂量范围",
+    "original_question": "种公猪的饲养日粮量一般是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "种公猪最适宜的温度为20~22°C。",
+    "reference_case": "种公猪最适宜的温度为18~20°C。",
+    "error_detail": "错误提高了适宜温度范围",
+    "original_question": "种公猪适宜的温度范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "每年定期对公猪进行全面的抽血检测，检测的疫病包括：伪狂犬病、蓝耳病、猪瘟、布氏、5号病等。",
+    "reference_case": "每年定期对公猪进行全面的抽血检测，检测的疫病包括：伪狂犬病、蓝耳病、猪瘟、布氏、5号病等。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "种公猪需要定期进行哪些检测？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每个公猪栏面积约5m²，要求有三条以上赶猪通道。",
+    "reference_case": "每个公猪栏面积约6m²，要求有三条以上赶猪通道。",
+    "error_detail": "错误缩小了公猪栏面积",
+    "original_question": "公猪舍内公猪栏的面积要求是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "在3月份注射乙脑2头份、猪瘟18月龄前4头份、18月龄后6头份、链球菌3头份；6月份注射猪肺疫2头份；9月份注射猪瘟18月龄前4头份、18月龄后6头份、链球菌3头份。",
+    "reference_case": "在3月份注射乙脑2头份、猪瘟18月龄前4头份、18月龄后6头份、链球菌3头份；6月份注射猪肺疫2头份；9月份注射猪瘟18月龄前4头份、18月龄后6头份、链球菌3头份。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "在猪的免疫接种中，通常在哪些月份进行免疫注射？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每年对猪进行3次驱虫。",
+    "reference_case": "每年对猪进行2次驱虫。",
+    "error_detail": "错误增加了驱虫次数",
+    "original_question": "每年对猪进行几次驱虫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在调教公猪时要耐心，不准打骂公猪，同时注意公猪和调教人员的安全。",
+    "reference_case": "在调教公猪时要耐心，不准打骂公猪，同时注意公猪和调教人员的安全。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "公猪在调教过程中需要注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "采精前需要准备采精公猪、采精器件、精液稀释液、精液质检设备和精液分装器件等。",
+    "reference_case": "采精前需要准备采精公猪、采精器件、精液稀释液、精液质检设备和精液分装器件等。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "猪的采精准备工作包括哪些内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "采精员用手紧握公猪阴茎螺旋状龟头，顺其向前冲力将阴茎的'S'状弯曲拉直，并握紧龟头防止其旋转，公猪即可射精，用四层纱布过滤收集精液于保温杯内的一次性食品袋内。",
+    "reference_case": "采精员用手紧握公猪阴茎螺旋状龟头，顺其向前冲力将阴茎的'S'状弯曲拉直，并握紧龟头防止其旋转，公猪即可射精，用四层纱布过滤收集精液于保温杯内的一次性食品袋内。",
+    "error_detail": "正确，无幻觉",
+    "original_question": "采精过程中，如何收集精液？",
+    "original_input": ""
+  }
+]

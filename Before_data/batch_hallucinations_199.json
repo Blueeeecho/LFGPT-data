@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌 VtaA1M 和 VtaA1C 蛋白的免疫原性较差，ELISA 检测结果显示 VtaA1M 和 VtaA1C 血清效价分别在 1:10^3 和 1:20^4 以上。",
+    "reference_case": "副猪嗜血杆菌 VtaA1M 和 VtaA1C 蛋白具有良好的免疫原性，ELISA 检测结果显示 VtaA1M 和 VtaA1C 血清效价分别在 1:10^5 和 1:40^4 以上。",
+    "error_detail": "错误地降低了血清效价的数值，导致对免疫原性的评估出现偏差。",
+    "original_question": "副猪嗜血杆菌 VtaA1M 和 VtaA1C 蛋白的免疫原性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "白洗猪线粒体DNA控制区的全长在1500到1600个碱基对之间。",
+    "reference_case": "白洗猪线粒体DNA控制区的全长在1254到1314个碱基对之间。",
+    "error_detail": "错误地扩大了线粒体DNA控制区的全长范围，导致数据不准确。",
+    "original_question": "白洗猪线粒体DNA控制区的全长是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "白洗猪线粒体DNA控制区的聚类分析结果显示其与非洲野猪有较近的亲缘关系。",
+    "reference_case": "白洗猪线粒体DNA控制区的聚类分析结果显示其与华南野猪有较近的亲缘关系。",
+    "error_detail": "错误地将亲缘关系对象从华南野猪更改为非洲野猪，导致概念混淆。",
+    "original_question": "白洗猪线粒体DNA控制区的聚类分析结果显示其与哪些野猪有较近的亲缘关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "白洗猪线粒体DNA控制区的遗传距离变化范围在0:01到0:05之间。",
+    "reference_case": "白洗猪线粒体DNA控制区的遗传距离变化范围在0:003到0:007之间。",
+    "error_detail": "错误地扩大了遗传距离的变化范围，导致数据不准确。",
+    "original_question": "白洗猪线粒体DNA控制区的遗传距离变化范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "白洗猪线粒体DNA控制区可以分为两个区域：5'端长701bp的I区和3'端长333bp的II区。",
+    "reference_case": "白洗猪线粒体DNA控制区可以分为三个区域：5'端长701bp的I区，3'端长333bp的III区，以及中间的串联重复区域II区。",
+    "error_detail": "错误地将控制区划分为两个区域，忽略了中间的串联重复区域II区，导致概念混淆。",
+    "original_question": "白洗猪线粒体DNA控制区可以分为哪几个区域？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "白洗猪线粒体DNA控制区的碱基组成特点是A+T的含量为50:0%，C+G的含量为50:0%，不符合脊椎动物mtDNA D-loop区碱基组成的特点。",
+    "reference_case": "白洗猪线粒体DNA控制区的碱基组成特点是A+T的含量为57:7%，C+G的含量为42:3%，符合脊椎动物mtDNA D-loop区碱基组成的特点。",
+    "error_detail": "错误地调整了碱基组成的比例，导致数据不准确且不符合已知特点。",
+    "original_question": "白洗猪线粒体DNA控制区的碱基组成特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "白洗猪线粒体DNA控制区的单倍型多样性（Hd）为0:5000，核苷酸多样度（Pi）为0:0020。",
+    "reference_case": "白洗猪线粒体DNA控制区的单倍型多样性（Hd）为0:6368，核苷酸多样度（Pi）为0:0035。",
+    "error_detail": "错误地降低了单倍型多样性和核苷酸多样度的数值，导致数据不准确。",
+    "original_question": "白洗猪线粒体DNA控制区的单倍型多样性和核苷酸多样度分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "白洗猪线粒体DNA控制区的遗传多样性降低可能由以下原因造成：白洗猪产于苗族人民聚居地，交通闭塞，成为一个自然闭锁区域，近交繁殖、基因交流充分；白洗猪种群数量骤减，由于瓶颈效应及小群体繁殖所导致的基因丢失和遗传漂变可能导致该种群遗传多样性的降低。此外，环境污染也可能是导致遗传多样性降低的原因之一。",
+    "reference_case": "白洗猪线粒体DNA控制区的遗传多样性降低可能由以下原因造成：白洗猪产于苗族人民聚居地，交通闭塞，成为一个自然闭锁区域，近交繁殖、基因交流充分；白洗猪种群数量骤减，由于瓶颈效应及小群体繁殖所导致的基因丢失和遗传漂变可能导致该种群遗传多样性的降低。",
+    "error_detail": "错误地添加了环境污染作为可能的原因，缺乏原始依据。",
+    "original_question": "白洗猪线粒体DNA控制区的遗传多样性降低可能由哪些原因造成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "白洗猪线粒体DNA控制区的串联重复区分为X型和Y型两种类型。",
+    "reference_case": "白洗猪线粒体DNA控制区的串联重复区分为A型和B型两种类型。",
+    "error_detail": "错误地将串联重复区的类型从A型和B型更改为X型和Y型，导致概念混淆。",
+    "original_question": "白洗猪线粒体DNA控制区的串联重复区分为哪两种类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "白洗猪线粒体DNA控制区的串联重复序列的重复数目为15到20个不等。",
+    "reference_case": "白洗猪线粒体DNA控制区的串联重复序列的重复数目为22到28个不等。",
+    "error_detail": "错误地减少了串联重复序列的重复数目，导致数据不准确。",
+    "original_question": "白洗猪线粒体DNA控制区的串联重复序列的重复数目是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "梅山猪Mx1基因第14外显子的多态性检测中使用的限制性内切酶是EcoR I。",
+    "reference_case": "梅山猪Mx1基因第14外显子的多态性检测中使用的限制性内切酶是Hin6 I。",
+    "error_detail": "错误地将限制性内切酶从Hin6 I更改为EcoR I，导致概念混淆。",
+    "original_question": "梅山猪Mx1基因第14外显子的多态性检测中使用的限制性内切酶是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "梅山猪Mx1基因第14外显子的多态性检测到两种基因型，分别是AA和BB型。",
+    "reference_case": "梅山猪Mx1基因第14外显子的多态性检测到三种基因型，分别是AA、AB和BB型。",
+    "error_detail": "错误地减少了检测到的基因型数量，忽略了AB型，导致概念混淆。",
+    "original_question": "梅山猪Mx1基因第14外显子的多态性有哪几种基因型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "梅山猪Mx1基因第14外显子的多态性与早期生长性能（初生重、20日龄重和40日龄重）的关系显著，AA基因型个体的早期生长性能显著优于AB和BB基因型个体。",
+    "reference_case": "梅山猪Mx1基因第14外显子的多态性与早期生长性能（初生重、20日龄重和40日龄重）的关系不显著，三种基因型个体间的早期生长性能差异不显著。",
+    "error_detail": "错误地添加了基因型与早期生长性能之间的显著关系，缺乏原始依据。",
+    "original_question": "梅山猪Mx1基因第14外显子的多态性与早期生长性能的关系如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "梅山猪Mx1基因第14外显子的多态性对IFN-γ水平有显著影响，AA基因型个体的IFN-γ水平显著低于AB基因型个体，也低于BB基因型个体。",
+    "reference_case": "梅山猪Mx1基因第14外显子的多态性对IFN-γ水平有显著影响，AA基因型个体的IFN-γ水平显著高于AB基因型个体，也高于BB基因型个体。",
+    "error_detail": "错误地反转了IFN-γ水平的比较结果，导致数据不准确。",
+    "original_question": "梅山猪Mx1基因第14外显子的多态性对IFN-γ水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "梅山猪Mx1基因第14外显子的多态性与IFN-α、IFN-γ、IL-2、IL-6、IL-10和IL-12等免疫指标相关，尤其是与IL-4和IL-8也有显著相关性。",
+    "reference_case": "梅山猪Mx1基因第14外显子的多态性与IFN-α、IFN-γ、IL-2、IL-6、IL-10和IL-12等免疫指标相关。",
+    "error_detail": "错误地添加了IL-4和IL-8作为相关免疫指标，缺乏原始依据。",
+    "original_question": "梅山猪Mx1基因第14外显子的多态性与哪些免疫指标相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "梅山猪Mx1基因第14外显子的多态性检测中，PCR反应的总体系是25 μL，包括基因组DNA 2 μL，上、下游引物各1:5 μL，PCR Master Mix 12:5 μL，加灭菌蒸馏水补足至25 μL。",
+    "reference_case": "梅山猪Mx1基因第14外显子的多态性检测中，PCR反应的总体系是20 μL，包括基因组DNA 1 μL，上、下游引物各1 μL，PCR Master Mix 10 μL，加灭菌蒸馏水补足至20 μL。",
+    "error_detail": "错误地调整了PCR反应的总体系和各成分的体积，导致数据不准确。",
+    "original_question": "梅山猪Mx1基因第14外显子的多态性检测中，PCR反应的总体系是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "梅山猪Mx1基因第14外显子的多态性检测中使用的上游引物序列是5'-AGCTAGCTAGCTAGCTAG-3'，下游引物序列是5'-TCGATCGATCGATCGAT-3'。",
+    "reference_case": "梅山猪Mx1基因第14外显子的多态性检测中使用的上游引物序列是5'-TGAAGGAGCGGCTGATGC-3'，下游引物序列是5'-GGCGGGGCTCATTC-AAGT-3'。",
+    "error_detail": "错误地更改了引物序列，导致概念混淆。",
+    "original_question": "梅山猪Mx1基因第14外显子的多态性检测中使用的引物序列是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "梅山猪Mx1基因第14外显子的多态性检测中，PCR扩增的条件是90°C预变性3分钟；90°C变性20秒，55°C退火30秒，70°C延伸30秒，共进行25个循环；然后70°C延伸5分钟；最后放入4°C保存备用。",
+    "reference_case": "梅山猪Mx1基因第14外显子的多态性检测中，PCR扩增的条件是95°C预变性5分钟；95°C变性30秒，58°C退火45秒，72°C延伸45秒，共进行30个循环；然后72°C延伸10分钟；最后放入4°C保存备用。",
+    "error_detail": "错误地调整了PCR扩增的温度、时间和循环次数，导致数据不准确。",
+    "original_question": "梅山猪Mx1基因第14外显子的多态性检测中，PCR扩增的条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "梅山猪Mx1基因第14外显子的多态性检测中，酶切反应的总体系是15 μL，包括PCR产物3:5 μL，限制性内切酶Hin6 I（5 U/μL）0:3 μL，10×Buffer 1:5 μL，双蒸水9:7 μL，置37°C恒温反应4小时。",
+    "reference_case": "梅山猪Mx1基因第14外显子的多态性检测中，酶切反应的总体系是10 μL，包括PCR产物2:5 μL，限制性内切酶Hin6 I（5 U/μL）0:2 μL，10×Buffer 1 μL，双蒸水6:3 μL，置37°C恒温反应3小时。",
+    "error_detail": "错误地调整了酶切反应的总体系和各成分的体积及反应时间，导致数据不准确。",
+    "original_question": "梅山猪Mx1基因第14外显子的多态性检测中，酶切反应的总体系是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "梅山猪Mx1基因第14外显子的多态性是通过PCR-SSCP方法检测的。该方法包括PCR扩增目标基因片段，然后通过单链构象多态性分析检测多态性。",
+    "reference_case": "梅山猪Mx1基因第14外显子的多态性是通过PCR-RFLP方法检测的。该方法包括PCR扩增目标基因片段，然后使用限制性内切酶Hin6 I进行酶切，最后通过电泳分析酶切产物。",
+    "error_detail": "错误地将检测方法从PCR-RFLP更改为PCR-SSCP，导致概念混淆。",
+    "original_question": "梅山猪Mx1基因第14外显子的多态性是如何检测的？",
+    "original_input": ""
+  }
+]

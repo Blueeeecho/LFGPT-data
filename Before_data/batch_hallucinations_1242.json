@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "QD-FISH技术为猪肺炎支原体的检测、定位和致病机理研究提供了一种间接且不敏感的方法，也为其他病原的研究提供了参考。",
+    "reference_case": "QD-FISH技术为猪肺炎支原体的检测、定位和致病机理研究提供了一种直观且敏感的方法，也为其他病原的研究提供了参考。",
+    "error_detail": "错误地描述了QD-FISH技术的特性，将'直观且敏感'误改为'间接且不敏感'。",
+    "original_question": "量子点荧光原位杂交（QD-FISH）技术在猪肺炎支原体研究中的意义是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "实验中使用的表达系统是大肠杆菌 DH5α 和 pET-28a-TsCL-1 重组质粒。",
+    "reference_case": "实验中使用的表达系统是大肠杆菌 BL21 和 pGEX-4T-TsCL-1 重组质粒。",
+    "error_detail": "错误地提供了表达系统的具体型号和质粒名称。",
+    "original_question": "猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达条件优化实验中，使用的表达系统是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "重组蛋白的相对分子质量是 65000。",
+    "reference_case": "重组蛋白的相对分子质量是 61000。",
+    "error_detail": "错误地提供了重组蛋白的相对分子质量。",
+    "original_question": "猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达实验中，重组蛋白的相对分子质量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "通过免疫印迹法（Southern blot）和植物试验来检测重组蛋白的抗原性。",
+    "reference_case": "通过免疫印迹法（Western blot）和动物试验来检测重组蛋白的抗原性。",
+    "error_detail": "错误地描述了检测方法，将'Western blot'误改为'Southern blot'，并将'动物试验'误改为'植物试验'。",
+    "original_question": "在猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达实验中，如何检测重组蛋白的抗原性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在 37°C、IPTG 终浓度为 1:0 mmol/L 的条件下诱导 5 小时，重组蛋白的表达量最高。",
+    "reference_case": "在 28°C、IPTG 终浓度为 0:1 mmol/L 的条件下诱导 10 小时，重组蛋白的表达量最高。",
+    "error_detail": "错误地提供了诱导条件，包括温度、IPTG浓度和诱导时间。",
+    "original_question": "猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达实验中，重组蛋白的表达量在什么条件下最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "使用的培养液是 LB 培养液。",
+    "reference_case": "使用的培养液是 2×YT 培养液。",
+    "error_detail": "错误地提供了培养液的名称。",
+    "original_question": "猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达实验中，使用的培养液是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "通过免疫 8 周龄的雌性昆明系小鼠，使用 200 μg 的抗原与等体积佐剂完全乳化后，背部多点皮下注射，每 21 天加强免疫一次，首次免疫使用弗氏不完全佐剂，后续使用弗氏完全佐剂。",
+    "reference_case": "通过免疫 6 周龄的雌性昆明系小鼠，使用 100 μg 的抗原与等体积佐剂完全乳化后，背部多点皮下注射，每 14 天加强免疫一次，首次免疫使用弗氏完全佐剂，后续使用弗氏不完全佐剂。",
+    "error_detail": "错误地提供了免疫实验的具体参数，包括小鼠年龄、抗原量、免疫间隔和佐剂使用顺序。",
+    "original_question": "在猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达实验中，如何制备多克隆抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "使用直接 ELISA 法测定抗体的效价，将猪囊尾蚴囊液按 1:100 稀释后包被 ELISA 检测板，一抗为不同稀释度的制备血清和未经免疫的小鼠血清，二抗为 AP-兔抗鼠 IgG，最后用酶标仪测定 A450。",
+    "reference_case": "使用间接 ELISA 法测定抗体的效价，将猪囊尾蚴囊液按 1:50 稀释后包被 ELISA 检测板，一抗为不同稀释度的制备血清和未经免疫的小鼠血清，二抗为 HRP-兔抗鼠 IgG，最后用酶标仪测定 A450。",
+    "error_detail": "错误地描述了ELISA法的类型、稀释比例和二抗类型。",
+    "original_question": "猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达实验中，如何测定抗体的效价？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "通过 Western blot 分析，在 65000 的位置上出现了特异性杂交条带，证明制备的抗体与 TsCL-1 重组蛋白特异性结合，说明重组蛋白具有较好的抗原性。",
+    "reference_case": "通过 Western blot 分析，在 61000 的位置上出现了特异性杂交条带，证明制备的抗体与 TsCL-1 重组蛋白特异性结合，说明重组蛋白具有较好的抗原性。",
+    "error_detail": "错误地提供了特异性杂交条带的位置。",
+    "original_question": "猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达实验中，重组蛋白的抗原性如何验证？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "通过间接 ELISA 法检测免疫后小鼠血清的抗体滴度，抗体滴度为 1:6400，显示了 TsCL-1 重组蛋白有较好的免疫原性。",
+    "reference_case": "通过间接 ELISA 法检测免疫后小鼠血清的抗体滴度，抗体滴度为 1:12800，显示了 TsCL-1 重组蛋白有较好的免疫原性。",
+    "error_detail": "错误地提供了抗体滴度的数值。",
+    "original_question": "猪囊尾蚴半胱氨酸蛋白酶 TsCL-1 基因的原核表达实验中，重组蛋白的免疫原性如何评估？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2011年中国生猪、蛋鸡和奶牛规模化养殖的比重分别是40%、85%和35%，与2002年相比分别提高了30、30和23个百分点。",
+    "reference_case": "2011年中国生猪、蛋鸡和奶牛规模化养殖的比重分别是37%、80%和33%，与2002年相比分别提高了27、27和21个百分点。",
+    "error_detail": "错误地提供了规模化养殖的比重和提升的百分点。",
+    "original_question": "2011年中国生猪、蛋鸡和奶牛规模化养殖的比重分别是多少，与2002年相比分别提高了多少个百分点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "王欧提到发达省份配合饲料使用比重偏高的原因包括：一是配合饲料厂家少、选择余地小、质量不稳定；二是玉米的主产区，饲料运输、储存成本低，原料采购稳定。",
+    "reference_case": "王欧提到发达省份配合饲料使用比重偏高的原因包括：一是配合饲料厂家多、选择余地大、质量稳定；二是非玉米的主产区，饲料运输、储存成本高，原料采购不稳定。",
+    "error_detail": "错误地描述了配合饲料使用比重偏高的原因。",
+    "original_question": "王欧在《生猪规模化养殖场饲料消费结构和成本构成》报告中提到的发达省份配合饲料使用比重偏高的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "马闯预测2013年前5个月的生猪出栏和猪肉产量同比将有所下降，供不应求的态势加剧。同时，经济发展加速，猪肉消费旺盛，养猪业需要再平衡。2013年中国肉鸡市场祖代种鸡存栏量持续下降，父母代种鸡产量2013年上半年进入低谷期。商品苗鸡和肉鸡产量还将继续下降，增速回落到5%。",
+    "reference_case": "马闯预测2013年前5个月的生猪出栏和猪肉产量同比将有所增长，供过于求的态势加剧。同时，经济发展降速，猪肉消费依然清淡，养猪业需要再平衡。2013年中国肉鸡市场祖代种鸡存栏量持续增长，父母代种鸡产量2013年上半年进入高峰期。商品苗鸡和肉鸡产量还将继续增长，增速回落到5%。",
+    "error_detail": "错误地描述了2013年畜禽养殖形势的预测。",
+    "original_question": "马闯在《2013年中国猪业及家禽业发展趋势研究》报告中预测的2013年畜禽养殖形势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2012年11月全国生猪产品的价格有所上升。具体来说，全国活猪月平均价格为15:83元/公斤，比上月上升0:1%，比去年同期上升14:5%。猪肉月平均价格为24:76元/公斤，比上月上升0:7%，同比上升15:0%。仔猪月平均价格为26:86元/公斤，比上月上升6:7%，同比上升18:5%。",
+    "reference_case": "2012年11月全国生猪产品的价格有所下降。具体来说，全国活猪月平均价格为14:83元/公斤，比上月下降0:1%，比去年同期下降14:5%。猪肉月平均价格为23:76元/公斤，比上月下降0:7%，同比下降15:0%。仔猪月平均价格为25:86元/公斤，比上月下降6:7%，同比下降18:5%。",
+    "error_detail": "错误地描述了生猪产品价格的变化趋势和具体数值。",
+    "original_question": "2012年11月全国生猪产品的价格变化情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2012年11月全国育肥猪配合饲料、肉鸡配合饲料和蛋鸡配合饲料月平均价格分别为3:34元/公斤、3:44元/公斤和3:16元/公斤，分别比上月上升1:2%、0:6%和1:0%，同比分别下降6:9%、6:0%和5:5%。",
+    "reference_case": "2012年11月全国育肥猪配合饲料、肉鸡配合饲料和蛋鸡配合饲料月平均价格分别为3:24元/公斤、3:34元/公斤和3:06元/公斤，分别比上月下降1:2%、0:6%和1:0%，同比分别上涨6:9%、6:0%和5:5%。",
+    "error_detail": "错误地提供了饲料价格的具体数值和变化趋势。",
+    "original_question": "2012年11月全国饲料价格的变化情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2012年11月全国猪粮比价为5:10:1，比上月减少0:18个点。",
+    "reference_case": "2012年11月全国猪粮比价为6:10:1，比上月增加0:18个点。",
+    "error_detail": "错误地提供了猪粮比价的具体数值和变化趋势。",
+    "original_question": "2012年11月全国猪粮比价是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "苏钟猪的LPL基因在心脏、肝脏、脾脏、皮下脂肪和背最长肌五种组织中进行了mRNA表达水平的分析。",
+    "reference_case": "苏钟猪的LPL基因在心脏、肝脏、肾脏、皮下脂肪和背最长肌五种组织中进行了mRNA表达水平的分析。",
+    "error_detail": "错误地描述了进行分析的组织类型，将'肾脏'误改为'脾脏'。",
+    "original_question": "苏钟猪的LPL基因在哪些组织中进行了mRNA表达水平的分析？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "苏钟猪LPL基因的mRNA表达量在不同组织中的排序为：心脏 > 皮下脂肪 > 肾脏 > 背最长肌 > 肝脏。",
+    "reference_case": "苏钟猪LPL基因的mRNA表达量在不同组织中的排序为：皮下脂肪 > 心脏 > 肾脏 > 背最长肌 > 肝脏。",
+    "error_detail": "错误地描述了mRNA表达量在不同组织中的排序。",
+    "original_question": "苏钟猪LPL基因的mRNA表达量在不同组织中的排序是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "苏钟猪LPL基因编码的蛋白质的分子量为128 ku，理论等电点为5:99。",
+    "reference_case": "苏钟猪LPL基因编码的蛋白质的分子量为118 ku，理论等电点为4:99。",
+    "error_detail": "错误地提供了蛋白质的分子量和等电点。",
+    "original_question": "苏钟猪LPL基因编码的蛋白质的分子量和等电点是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "苏钟猪LPL蛋白的疏水性通过ExPASy的Protparam程序进行分析，结果显示该蛋白整体表现为亲水性，亲水性氨基酸均匀分布在整个肽链中，且多于疏水性氨基酸。",
+    "reference_case": "苏钟猪LPL蛋白的疏水性通过ExPASy的Protscale程序进行分析，结果显示该蛋白整体表现为疏水性，疏水性氨基酸均匀分布在整个肽链中，且多于亲水性氨基酸。",
+    "error_detail": "错误地描述了分析程序和疏水性结果。",
+    "original_question": "苏钟猪LPL蛋白的疏水性是如何分析的？",
+    "original_input": ""
+  }
+]

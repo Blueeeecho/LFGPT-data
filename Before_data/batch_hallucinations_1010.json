@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪水泡病的病死率很高。",
+    "reference_case": "猪水泡病的病死率很低。",
+    "error_detail": "错误地提高了猪水泡病的病死率。",
+    "original_question": "猪水泡病的病死率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟是由流感病毒引起的一种高度传染性和致死性传染病。",
+    "reference_case": "猪瘟是由猪瘟病毒引起的一种高度传染性和致死性传染病。",
+    "error_detail": "错误地将猪瘟病毒替换为流感病毒。",
+    "original_question": "猪瘟是由什么病毒引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪瘟主要感染牛。",
+    "reference_case": "猪瘟主要感染猪，不同品种、年龄、性别的猪均易感染。",
+    "error_detail": "错误地将猪瘟的主要感染对象从猪改为牛。",
+    "original_question": "猪瘟主要感染哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "健康猪是猪瘟的主要传染源。",
+    "reference_case": "患病猪和感染猪是猪瘟的主要传染源。",
+    "error_detail": "错误地将健康猪作为猪瘟的主要传染源。",
+    "original_question": "猪瘟的主要传染源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "检疫时一旦发现猪丹毒，应按照GB16549等规定要求处理。",
+    "reference_case": "按照GB16548等规定要求处理。",
+    "error_detail": "错误地使用了过时的标准GB16549。",
+    "original_question": "检疫时一旦发现猪丹毒，应按照哪些规定要求处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪丹毒的主要传染源是病猪和带菌猪，但也可以通过空气传播。",
+    "reference_case": "病猪和带菌猪是猪丹毒的主要传染源。",
+    "error_detail": "错误地添加了空气传播的信息，偏离了原始指令。",
+    "original_question": "猪丹毒的主要传染源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪丹毒的主要传播途径有消化道感染、损伤的皮肤接触传播及吸血昆虫传播，特别是在夏季。",
+    "reference_case": "猪丹毒主要通过消化道感染，也可通过损伤的皮肤接触传播及吸血昆虫传播。",
+    "error_detail": "错误地添加了季节性假设。",
+    "original_question": "猪丹毒的主要传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪丹毒的临床症状包括急性败血型或亚急性疹块型，但亚急性疹块型更为常见。",
+    "reference_case": "病程多为急性败血型或亚急性疹块型。急性败血型死亡率较高，亚急性疹块型皮肤表面出现菱形、方形或圆形稍突出于皮肤表面的疹块。",
+    "error_detail": "错误地添加了亚急性疹块型更为常见的信息，与原始信息矛盾。",
+    "original_question": "猪丹毒的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肺疫是由流感病毒引起的一种急性热性传染病。",
+    "reference_case": "猪肺疫是由多杀性巴氏杆菌引起的一种急性热性传染病。",
+    "error_detail": "错误地将多杀性巴氏杆菌替换为流感病毒。",
+    "original_question": "猪肺疫的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "猪肺疫可经消化道、呼吸道、损伤的皮肤及吸血昆虫的媒介传播，其中消化道传播是最主要的途径。",
+    "reference_case": "猪肺疫可经消化道、呼吸道、损伤的皮肤及吸血昆虫的媒介传播。",
+    "error_detail": "错误地强调了消化道传播的重要性，改变了原始信息的权重。",
+    "original_question": "猪肺疫的主要传播途径有哪些？",
+    "original_input": ""
+  }
+]

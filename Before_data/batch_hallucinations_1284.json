@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验猪应选择体重20~50公斤、健康状况正常的去势公猪，且免疫驱虫后备用。",
+    "reference_case": "试验猪应选择体重30~60公斤、健康状况正常的去势公猪，且免疫驱虫后备用。",
+    "error_detail": "体重范围错误",
+    "original_question": "试验猪应满足哪些条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪舍应符合卫生防疫要求，温度10~25℃，采用自然光照，试验猪应置于代谢笼内，并适应后供试验用，非试验期按每日给料量的2~3倍给水。",
+    "reference_case": "猪舍应符合卫生防疫要求，温度15~27℃，采用自然光照，试验猪应置于代谢笼内，并适应后供试验用，非试验期按每日给料量的3~4倍给水。",
+    "error_detail": "温度范围和给水量错误",
+    "original_question": "试验猪的饲养管理方式有哪些要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "喂给全价配合饲料1~3天，观察并记录每头试验猪的自由采食量，按自由采食量的75%确定预试期和正试期每日给饲饲料量。",
+    "reference_case": "喂给全价配合饲料3~5天，观察并记录每头试验猪的自由采食量，按自由采食量的85%确定预试期和正试期每日给饲饲料量。",
+    "error_detail": "饲料喂给天数和采食量比例错误",
+    "original_question": "适应期的具体要求是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "准确收集猪每日排粪并充分混匀，晒干或冻干后回潮12小时，粉碎后取样并测定样本干物质含量。",
+    "reference_case": "准确收集猪每日排粪并充分混匀，烘干或冻干后回潮24小时，粉碎后取样并测定样本干物质含量。",
+    "error_detail": "干燥方法和回潮时间错误",
+    "original_question": "如何收集和处理排粪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "离体法适用于测定猪配合饲料、能量饲料、粗饲料及动物性蛋白质饲料的表观消化能值。",
+    "reference_case": "离体法适用于测定猪配合饲料、能量饲料、粗饲料及植物性蛋白质饲料的表观消化能值。",
+    "error_detail": "饲料类型错误",
+    "original_question": "离体法测定猪饲料表观消化能的技术规程适用于哪些饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪饲料表观消化能 = 饲料总能 + 粪中的总能。",
+    "reference_case": "猪饲料表观消化能 = 饲料总能 - 粪中的总能。",
+    "error_detail": "计算公式错误",
+    "original_question": "猪饲料表观消化能的定义是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪小肠液的收集与制备，猪小肠液冻干粉的制备与贮存，以及猪小肠液的分析。",
+    "reference_case": "猪小肠液的收集与制备，猪小肠液冻干粉的制备与贮存。",
+    "error_detail": "添加了未请求的分析步骤",
+    "original_question": "猪小肠冻干粉的制备过程包括哪些步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "套管呈\"L\"型，用硬质硅胶在车床上加工而成，内壁光滑，外壁铣成螺纹，用于插入猪的小肠。",
+    "reference_case": "套管呈\"T\"型，用硬质硅胶在车床上加工而成，内壁光滑，外壁铣成螺纹，用于插入猪的小肠。",
+    "error_detail": "套管形状错误",
+    "original_question": "小肠瘘管设计的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "室温下保持 6 个月效价不变，0~4℃下可保持一年效价不变。",
+    "reference_case": "室温下保持 3 个月效价不变，0~4℃下可保持半年效价不变。",
+    "error_detail": "保存时间错误",
+    "original_question": "猪小肠液冻干粉的保存条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验猪的体重范围为20至25公斤。",
+    "reference_case": "试验猪的体重范围为25至30公斤。",
+    "error_detail": "体重范围错误",
+    "original_question": "试验猪的体重范围是多少？",
+    "original_input": ""
+  }
+]

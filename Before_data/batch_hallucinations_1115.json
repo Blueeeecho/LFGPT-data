@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪白细胞介素6（pIL-6:作为核酸免疫佐剂的效果是通过检测免疫小鼠血清中特异性TGEV IgG抗体和外周血T淋巴细胞亚群数量来评估的，其中IgG抗体水平提高了50%。",
+    "reference_case": "猪白细胞介素6（pIL-6:作为核酸免疫佐剂的效果是通过检测免疫小鼠血清中特异性TGEV IgG抗体和外周血T淋巴细胞亚群数量来评估的。",
+    "error_detail": "添加了未经证实的IgG抗体水平提高50%的数据",
+    "original_question": "猪白细胞介素6（pIL-6:作为核酸免疫佐剂的效果是如何评估的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪白细胞介素6（pIL-6:基因在克隆过程中使用了BamH I和Hind III限制性内切酶。",
+    "reference_case": "猪白细胞介素6（pIL-6:基因在克隆过程中使用了BamH I和EcoR I限制性内切酶。",
+    "error_detail": "错误地将EcoR I替换为Hind III",
+    "original_question": "猪白细胞介素6（pIL-6:基因在克隆过程中使用了哪些限制性内切酶？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪白细胞介素6（pIL-6:基因在COS-7细胞中的表达产物大小约为50 ku。",
+    "reference_case": "猪白细胞介素6（pIL-6:基因在COS-7细胞中的表达产物大小约为33 ku。",
+    "error_detail": "错误地改变了表达产物的大小",
+    "original_question": "猪白细胞介素6（pIL-6:基因在COS-7细胞中的表达产物大小是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪白细胞介素6（pIL-6:基因在克隆过程中使用的引物序列是L1：5'-GCG GATCCGCTATGAACTCCCTCTCCACAA-3'和L2：5'-GCGAATTCCTACATTATCCGAATGGCCC TC-3'，其中L1是反向引物。",
+    "reference_case": "猪白细胞介素6（pIL-6:基因在克隆过程中使用的引物序列是L1：5'-GCG GATCCGCTATGAACTCCCTCTCCACAA-3'和L2：5'-GCGAATTCCTACATTATCCGAATGGCCC TC-3'。",
+    "error_detail": "错误地指定了L1为反向引物",
+    "original_question": "猪白细胞介素6（pIL-6:基因在克隆过程中使用的引物序列是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪白细胞介素6（pIL-6:基因在克隆过程中使用的反转录试剂盒是SuperScript III反转录试剂盒。",
+    "reference_case": "猪白细胞介素6（pIL-6:基因在克隆过程中使用的反转录试剂盒是BcaBEST RNA反转录试剂盒。",
+    "error_detail": "错误地改变了反转录试剂盒的名称",
+    "original_question": "猪白细胞介素6（pIL-6:基因在克隆过程中使用的反转录试剂盒是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪白细胞介素6（pIL-6:基因在克隆过程中使用的PCR扩增条件是：94°C 4 min；94°C 45 s、53°C 40 s、72°C 40 s，35个循环；72°C 10 min。",
+    "reference_case": "猪白细胞介素6（pIL-6:基因在克隆过程中使用的PCR扩增条件是：94°C 4 min；94°C 45 s、53°C 40 s、72°C 40 s，30个循环；72°C 10 min。",
+    "error_detail": "错误地改变了循环次数",
+    "original_question": "猪白细胞介素6（pIL-6:基因在克隆过程中使用的PCR扩增条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在体外培养的猪肺泡细胞（PAM）中，接种高致病性PRRSV NSP1重组腺病毒（rAd-NSP1:72小时后，细胞上清中IFN-γ的水平显著提高，而IL-10的含量显著降低。",
+    "reference_case": "在体外培养的猪肺泡细胞（PAM）中，接种高致病性PRRSV NSP1重组腺病毒（rAd-NSP1:72小时后，细胞上清中IFN-γ的水平显著降低，而IL-10的含量显著提高。",
+    "error_detail": "错误地反转了IFN-γ和IL-10的水平变化",
+    "original_question": "高致病性猪繁殖与呼吸综合征病毒（PRRSV）的NSP1蛋白在体外培养的猪肺泡细胞（PAM）中如何影响IFN-γ和IL-10的水平？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高致病性PRRSV NSP1蛋白显著提高了30日龄商品仔猪的外周血液淋巴细胞增殖和IFN-γ的表达，同时降低了IL-10的反应。",
+    "reference_case": "高致病性PRRSV NSP1蛋白显著降低了30日龄商品仔猪的外周血液淋巴细胞增殖和IFN-γ的表达，同时诱导产生了较强的IL-10反应。",
+    "error_detail": "错误地反转了淋巴细胞增殖和IFN-γ的表达以及IL-10的反应",
+    "original_question": "高致病性PRRSV NSP1蛋白对30日龄商品仔猪的外周血液淋巴细胞增殖有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在接种高致病性PRRSV NSP1重组腺病毒（rAd-NSP1:后，猪瘟疫苗的抗体水平显著高于接种野生型腺病毒（wtAd）的对照组。",
+    "reference_case": "在接种高致病性PRRSV NSP1重组腺病毒（rAd-NSP1:后，猪瘟疫苗的抗体水平显著低于接种野生型腺病毒（wtAd）的对照组。",
+    "error_detail": "错误地反转了抗体水平的变化",
+    "original_question": "在接种高致病性PRRSV NSP1重组腺病毒（rAd-NSP1:后，猪瘟疫苗的抗体水平有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在接种高致病性PRRSV NSP1重组腺病毒（rAd-NSP1:后，猪肺泡细胞（PAM）中IFN-γ的mRNA水平显著提高，而IL-10的mRNA水平显著降低。",
+    "reference_case": "在接种高致病性PRRSV NSP1重组腺病毒（rAd-NSP1:后，猪肺泡细胞（PAM）中IFN-γ的mRNA水平显著降低，而IL-10的mRNA水平显著提高。",
+    "error_detail": "错误地反转了IFN-γ和IL-10的mRNA水平变化",
+    "original_question": "高致病性PRRSV NSP1蛋白如何影响猪肺泡细胞（PAM）中IFN-γ和IL-10的mRNA水平？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "高致病性PRRSV NSP1蛋白在猪体内的免疫抑制作用通过体外培养的猪肺泡细胞（PAM）和猪体内免疫试验被证实，结果显示NSP1显著提高了淋巴细胞增殖和IFN-γ的表达，同时降低了IL-10的反应。",
+    "reference_case": "高致病性PRRSV NSP1蛋白在猪体内的免疫抑制作用通过体外培养的猪肺泡细胞（PAM）和猪体内免疫试验被证实，结果显示NSP1显著降低了淋巴细胞增殖和IFN-γ的表达，同时诱导产生了较强的IL-10反应。",
+    "error_detail": "错误地反转了淋巴细胞增殖和IFN-γ的表达以及IL-10的反应",
+    "original_question": "高致病性PRRSV NSP1蛋白在猪体内的免疫抑制作用是如何被证实的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高致病性PRRSV NSP1蛋白显著提高了猪瘟疫苗的免疫效果，接种NSP1后猪瘟疫苗的抗体水平显著高于对照组。",
+    "reference_case": "高致病性PRRSV NSP1蛋白显著降低了猪瘟疫苗的免疫效果，接种NSP1后猪瘟疫苗的抗体水平显著低于对照组。",
+    "error_detail": "错误地反转了抗体水平的变化",
+    "original_question": "高致病性PRRSV NSP1蛋白如何影响猪瘟疫苗的免疫效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高致病性PRRSV NSP1蛋白显著提高了猪肺泡细胞（PAM）中IFN-γ的分泌，同时显著降低了IL-10的分泌。",
+    "reference_case": "高致病性PRRSV NSP1蛋白显著降低了猪肺泡细胞（PAM）中IFN-γ的分泌，同时显著提高了IL-10的分泌。",
+    "error_detail": "错误地反转了IFN-γ和IL-10的分泌变化",
+    "original_question": "高致病性PRRSV NSP1蛋白如何影响猪肺泡细胞（PAM）中IFN-γ和IL-10的分泌？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "高致病性PRRSV NSP1蛋白对猪瘟疫苗免疫抗体水平的影响通过Western blot法检测，结果显示接种NSP1后猪瘟疫苗的抗体水平显著低于对照组。",
+    "reference_case": "高致病性PRRSV NSP1蛋白对猪瘟疫苗免疫抗体水平的影响通过阻断ELISA法检测，结果显示接种NSP1后猪瘟疫苗的抗体水平显著低于对照组。",
+    "error_detail": "错误地改变了检测方法",
+    "original_question": "高致病性PRRSV NSP1蛋白对猪瘟疫苗免疫抗体水平的影响是如何被检测的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "喷雾干燥的最佳工艺条件是进风温度200°C、进料速度15 mL/min、干燥速度10秒、出口温度80°C。",
+    "reference_case": "喷雾干燥的最佳工艺条件是进风温度180°C、进料速度10 mL/min、干燥速度5秒、出口温度70°C。",
+    "error_detail": "错误地改变了工艺条件的所有参数",
+    "original_question": "抗仔猪腹泻高免全蛋粉的制备过程中，喷雾干燥的最佳工艺条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在早期断奶仔猪日粮中添加高免全蛋粉的主要目的是提高仔猪的肉质。",
+    "reference_case": "在早期断奶仔猪日粮中添加高免全蛋粉的主要目的是有效降低仔猪腹泻发生率，并明显提高仔猪的生产性能。",
+    "error_detail": "错误地改变了添加高免全蛋粉的主要目的",
+    "original_question": "在早期断奶仔猪日粮中添加高免全蛋粉的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "高免全蛋粉中的卵黄抗体主要针对猪流感病毒（SIV）和猪圆环病毒（PCV）。",
+    "reference_case": "高免全蛋粉中的卵黄抗体主要针对猪传染性胃肠炎病毒（TGEV）、猪流行性腹泻病毒（PEDV）、轮状病毒（RV）以及大肠杆菌K88、K99、P987。",
+    "error_detail": "错误地改变了卵黄抗体针对的病原体",
+    "original_question": "高免全蛋粉中的卵黄抗体主要针对哪些病原体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在预防仔猪腹泻的动物试验中，添加高免全蛋粉的仔猪腹泻率显著提高，采食量和日增重明显降低，料肉比也有所恶化。",
+    "reference_case": "在预防仔猪腹泻的动物试验中，添加高免全蛋粉的仔猪腹泻率显著降低，采食量和日增重明显提高，料肉比也有所改善。",
+    "error_detail": "错误地反转了腹泻率、采食量、日增重和料肉比的变化",
+    "original_question": "在预防仔猪腹泻的动物试验中，添加高免全蛋粉的仔猪与对照组相比有何显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高免全蛋粉的经济效益不显著，每头仔猪多盈利1:00元。此外，由于增加了仔猪因腹泻治疗费用及饲料中添加抗生素的费用，经济效益更为有限。",
+    "reference_case": "高免全蛋粉的经济效益显著，每头仔猪多盈利9:27元。此外，由于减少了仔猪因腹泻治疗费用及饲料中添加抗生素的费用，经济效益更为可观。",
+    "error_detail": "错误地改变了经济效益的描述和数据",
+    "original_question": "高免全蛋粉的经济效益如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "综合经济效益考虑，仔猪日粮中推荐添加2%的高免全蛋粉。对于管理较差、腹泻严重的猪场，可适当降低添加量。",
+    "reference_case": "综合经济效益考虑，仔猪日粮中推荐添加0:5%的高免全蛋粉。对于管理较差、腹泻严重的猪场，可适当提高添加量。",
+    "error_detail": "错误地改变了推荐添加量和调整方向",
+    "original_question": "高免全蛋粉在仔猪日粮中的推荐添加量是多少？",
+    "original_input": ""
+  }
+]

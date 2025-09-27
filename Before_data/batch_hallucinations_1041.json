@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪的青绿饲料与混合精料的重量比为1:2，肥育猪的青绿饲料与混合精料的重量比为1:(0.8~1.0)。",
+    "reference_case": "生长猪的青绿饲料与混合精料的重量比为1:1，肥育猪的青绿饲料与混合精料的重量比为1:(0.5~0.7)。小猪不宜喂粗饲料，体重在10~20 kg的猪要求不超过日粮干物质总量的15%，生长肥育猪的日粮中粗纤维含量不宜超过10%（体重30 kg以下时不超过8%，体重在30 kg以上时不超过10%）。",
+    "error_detail": "修改了青绿饲料与混合精料的重量比，导致数据偏差。",
+    "original_question": "青绿饲料与混合精料的重量比对猪日粮的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在设计猪日粮配方时不需要考虑青绿饲料和混合精料的比例。",
+    "reference_case": "在设计猪日粮配方时需要考虑青绿饲料和混合精料的比例，粗饲料的营养价值，小猪不宜喂粗饲料，体重在10~20 kg的猪要求不超过日粮干物质总量的15%，生长肥育猪的日粮中粗纤维含量不宜超过10%（体重30 kg以下时不超过8%，体重在30 kg以上时不超过10%）。",
+    "error_detail": "忽略了设计猪日粮配方时需要考虑的重要因素。",
+    "original_question": "设计猪日粮配方时需要考虑哪些特殊因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪饲料配方的制定方法与鸡饲料配方的制定方法完全不同。",
+    "reference_case": "猪饲料配方的制定方法与鸡饲料配方的制定方法相同。",
+    "error_detail": "错误地陈述了猪和鸡饲料配方制定方法的差异。",
+    "original_question": "猪饲料配方的制定方法与鸡饲料配方的制定方法是否相同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在生长肥育猪的日粮中，粗纤维含量不宜超过15%。",
+    "reference_case": "在生长肥育猪的日粮中，粗纤维含量不宜超过10%（体重30 kg以下时不超过8%，体重在30 kg以上时不超过10%）。",
+    "error_detail": "错误地提高了粗纤维含量的上限。",
+    "original_question": "日粮中粗纤维的含量对猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "应按每头动物每周的营养需要量来设计日粮配方。",
+    "reference_case": "应按每头动物每天的营养需要量来设计日粮配方，从附录二的附表2-2\"肉脂型生长肥育猪营养需要量\"中查得相应需要量。",
+    "error_detail": "错误地改变了营养需要量的计算周期。",
+    "original_question": "如何确定猪的营养需要量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "常用的饲料包括小麦、燕麦、高粱、棉籽饼、虾粉、骨粉、硫酸铜及维生素和微量元素添加剂。",
+    "reference_case": "常用的饲料包括大麦、玉米、教皮、豆饼、秘鲁鱼粉、石粉、食盐及维生素和微量元素添加剂。青绿饲料有甘薯藤、莧菜、甜菜等。",
+    "error_detail": "错误地列出了不常用的饲料原料。",
+    "original_question": "猪饲料配方中常用的饲料有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "通过使用大量的动（植）物油脂提高能量水平，无需调整其他原料的用量。",
+    "reference_case": "通过使用适量的动（植）物油脂提高能量水平，同时调整其他能量水平较高的原料（如花生饼、整粒炒或膨化大豆）的用量，放宽对这些原料的约束条件。",
+    "error_detail": "错误地假设可以无需调整其他原料的用量。",
+    "original_question": "在设计肉鸡料和乳猪料时，如何确保饲料配方有较高的能量水平？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过添加硫酸铜、硫酸锌或硫酸铁来调节猪、鸡饲料的DCAB值。",
+    "reference_case": "通过添加氯化钙、碳酸氢钾或碳酸氢钠来调节猪、鸡饲料，而对于反刍动物，则可通过添加硫酸钙、硫酸镁、硫酸铵、氯化钙、氯化铵等阴离子添加剂来进行调节。",
+    "error_detail": "错误地列出了不适用于调节DCAB值的添加剂。",
+    "original_question": "如何通过调节饲料中的成分来控制DCAB值？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在饲料产品的条形码编码规则中，畜禽品种用小写字母表示。",
+    "reference_case": "在饲料产品的条形码编码规则中，畜禽品种用大写字母表示，例如猪用A表示，蛋鸡用B表示，肉鸡用C表示，依此类推。",
+    "error_detail": "错误地改变了畜禽品种的表示方法。",
+    "original_question": "饲料产品的条形码编码规则中，畜禽品种如何表示？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "膨化大豆具有低蛋白、低能量、难消化及抑制生长等特点。",
+    "reference_case": "膨化大豆具有高蛋白、高能量、易消化及促生长等特点，因此成为高档乳猪料的优质蛋白质原料。",
+    "error_detail": "错误地描述了膨化大豆的特点。",
+    "original_question": "膨化大豆的主要特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "经过长时间低温处理后，大豆能够消除大部分抗营养物质。",
+    "reference_case": "经过短时高温挤压处理后，大豆能够最大程度地保留大豆中的营养成分，同时消除大部分抗营养物质。膨化加工的大豆粕能降低仔猪血清中抗大豆球蛋白和β-伴大豆球蛋白抗体的效价，减轻仔猪对大豆蛋白的过敏反应程度。",
+    "error_detail": "错误地描述了消除抗营养物质的处理方法。",
+    "original_question": "膨化大豆加工过程中，抗营养物质如何被消除？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "口蹄疫病毒主要影响禽类动物。",
+    "reference_case": "口蹄疫病毒主要影响猪、牛、羊以及其他偶蹄动物。",
+    "error_detail": "错误地描述了口蹄疫病毒的影响范围。",
+    "original_question": "口蹄疫病毒（FMDV）主要影响哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "A组的免疫程序是应用FMD灭活疫苗免疫，每12个月免疫一次。",
+    "reference_case": "A组的免疫程序是应用FMD灭活疫苗免疫，每6个月免疫一次。",
+    "error_detail": "错误地延长了免疫间隔时间。",
+    "original_question": "在辽宁省进行的猪 O 型口蹄疫免疫抗体水平调查中，A组的免疫程序是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "B组的免疫程序是应用FMD灭活疫苗免疫，首免后间隔2个月加强免疫，然后每6个月免疫一次。",
+    "reference_case": "B组的免疫程序是应用FMD灭活疫苗免疫，首免后间隔1个月加强免疫，然后每6个月免疫一次。",
+    "error_detail": "错误地延长了首免和加强免疫之间的间隔时间。",
+    "original_question": "在辽宁省进行的猪 O 型口蹄疫免疫抗体水平调查中，B组的免疫程序与A组有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "C组的免疫程序是应用FMD灭活疫苗免疫，首免后间隔1个月加强免疫，然后每6个月免疫一次。",
+    "reference_case": "C组的免疫程序是应用FMD灭活疫苗免疫，首免后间隔1个月加强免疫，然后每4个月免疫一次。",
+    "error_detail": "错误地延长了加强免疫后的免疫间隔时间。",
+    "original_question": "在辽宁省进行的猪 O 型口蹄疫免疫抗体水平调查中，C组的免疫程序是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "抗体效价≥32时判为抗体合格。",
+    "reference_case": "抗体效价≥64时判为抗体合格。",
+    "error_detail": "错误地降低了抗体效价的合格标准。",
+    "original_question": "在辽宁省进行的猪 O 型口蹄疫免疫抗体水平调查中，抗体效价达到多少时判为抗体合格？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "A组的抗体离散度最低。",
+    "reference_case": "C组的抗体离散度最低。",
+    "error_detail": "错误地标识了抗体离散度最低的组别。",
+    "original_question": "在辽宁省进行的猪 O 型口蹄疫免疫抗体水平调查中，哪一组的抗体离散度最低？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用的检测方法是气相色谱法。",
+    "reference_case": "使用的检测方法是液相阻断ELISA（LPB-ELISA）。",
+    "error_detail": "错误地描述了检测方法。",
+    "original_question": "在辽宁省进行的猪 O 型口蹄疫免疫抗体水平调查中，使用的检测方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "抗体效价≥32时，被免动物99%以上受保护；抗体效价<2时，被免动物不受保护；抗体效价在2到32之间时，被免疫动物50%受保护。",
+    "reference_case": "抗体效价≥64时，被免动物99%以上受保护；抗体效价<4时，被免动物不受保护；抗体效价在4到45之间时，被免疫动物50%受保护。",
+    "error_detail": "错误地修改了抗体效价与保护力的对应关系。",
+    "original_question": "在辽宁省进行的猪 O 型口蹄疫免疫抗体水平调查中，抗体效价与保护力的关系是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "壳聚糖对断奶仔猪的免疫器官指数有显著影响。",
+    "reference_case": "壳聚糖对断奶仔猪的免疫器官指数没有显著影响。尽管在14天和28天时，添加壳聚糖的组别胸腺、肝脏和脾脏指数均高于对照组，但这些差异并不呈现明显的剂量依赖关系。",
+    "error_detail": "错误地陈述了壳聚糖对免疫器官指数的影响。",
+    "original_question": "壳聚糖对断奶仔猪免疫器官指数有何影响？",
+    "original_input": ""
+  }
+]

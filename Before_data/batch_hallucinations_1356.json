@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2852520",
+    "reference_case": "285252",
+    "error_detail": "数值被错误地放大了10倍",
+    "original_question": "可食下水（猪杂碎）的出口贸易量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2358850",
+    "reference_case": "235885",
+    "error_detail": "数值被错误地放大了10倍",
+    "original_question": "可食下水（猪杂碎）的出口金额是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2183220",
+    "reference_case": "218322",
+    "error_detail": "数值被错误地放大了10倍",
+    "original_question": "猪肉灌肠的进口贸易量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "8613260",
+    "reference_case": "861326",
+    "error_detail": "数值被错误地放大了10倍",
+    "original_question": "猪肉灌肠的进口金额是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "提高我国猪肉生产能力的主要途径是增加进口",
+    "reference_case": "进一步提高生猪的个体生产能力和群体生产水平，优化饲料资源结构确保饲料供应，调整区域结构，挖掘地区潜力，建立现代化的瘦肉型猪商品生产基地",
+    "error_detail": "回答偏离了提高生产能力的主题，错误地提出了增加进口的建议",
+    "original_question": "提高我国猪肉生产能力的主要途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "良种化可以完全替代饲料投入",
+    "reference_case": "良种化可以有效地提高养猪业的生产能力，降低饲养成本，以少量的饲料获取较多的产品，以较少的物化劳动和活劳动取得较大的经济效益",
+    "error_detail": "错误地假设良种化可以完全替代饲料投入",
+    "original_question": "良种化在养猪业可持续发展中起到什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "我国的饲料资源丰富，尤其是蛋白质饲料资源",
+    "reference_case": "我国的饲料资源，尤其是蛋白质饲料资源紧缺，猪饲料转化率也低于发达国家，肉猪每千克增重多消耗饲料约1千克，出栏饲养天数多20~40天",
+    "error_detail": "错误地描述了饲料资源的状况",
+    "original_question": "我国养猪业在饲料资源方面存在哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "通过减少生猪区域结构的调整来提高生产效率",
+    "reference_case": "通过调整生猪区域结构，有计划地将生猪区域由沿海和经济发达地区适当向中西部延伸和发展，发挥地区自然资源和经济技术的优势，将饲料粮基地与生猪生产结合起来，扩大和建立新的开发型生猪商品生产基地县",
+    "error_detail": "逻辑矛盾，减少调整与提高生产效率的目标相矛盾",
+    "original_question": "如何调整生猪区域结构？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "建立现代化的瘦肉型猪商品生产基地不需要科学技术",
+    "reference_case": "要加强基地县的配套建设，使生产力诸要素有机结合起来，大大提高养猪科学技术和综合生产能力，提高基地县生产的商品率和经济效益，使其成为扩大示范和应用最新科学技术的样板，成为养猪科学技术转化为现实生产力的载体",
+    "error_detail": "回答偏离了建立基地需要科学技术的主题",
+    "original_question": "如何建立现代化的瘦肉型猪商品生产基地？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "促进养猪业的技术进步和基础设施建设不包含疫病防疫体系建设",
+    "reference_case": "建立和完善良种繁育体系，建设完备的饲料生产和饲料工业体系，加强疫病防疫体系建设，畜牧、兽医基层服务体系建设，流通体系建设",
+    "error_detail": "错误地排除了疫病防疫体系建设",
+    "original_question": "促进养猪业的技术进步和基础设施建设包含哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "优化我国猪肉产品生产与贸易结构不需要考虑国际市场需求",
+    "reference_case": "国家要充分利用世界贸易组织的\"绿箱\"政策，发挥我国生猪生产成本低的优势，加大对生猪优势生产地区的资金支持力度，以提高猪肉产品质量为中心，针对国内和国际市场需求的变化，不断地调整与优化我国猪肉产品生产与贸易结构",
+    "error_detail": "错误地假设国际市场需求不重要",
+    "original_question": "如何优化我国猪肉产品生产与贸易结构？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "政府应该减少对\"龙头\"企业的支持",
+    "reference_case": "政府应该向\"龙头\"企业提供优惠的政策，以促进其加速发展，例如加大对\"龙头\"企业进行生猪生产的补贴力度，在世界贸易组织《农业协定》允许的范围内，适当加大对\"龙头\"企业进行猪肉生产的补贴",
+    "error_detail": "错误地降低了支持\"龙头\"企业的优先级",
+    "original_question": "政府如何支持龙头企业？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1991年阿根廷养猪4464万头",
+    "reference_case": "1991年阿根廷养猪446.4万头",
+    "error_detail": "数值被错误地放大了10倍",
+    "original_question": "1991年阿根廷养猪数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1991年与1971年相比，养猪头数增加178%",
+    "reference_case": "1991年与1971年相比，养猪头数增加17.8%，猪肉产量略有提高，1992年则减至14万吨，减少幅度较大",
+    "error_detail": "增长率被错误地放大了10倍",
+    "original_question": "1991年与1971年相比，阿根廷养猪头数和猪肉产量分别如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "治疗肺炎的主要药物是抗生素",
+    "reference_case": "方1：桔梗、苦参、双花、连芩、花粉、生地各15克，百合、贝母、大黄、白及、百部各9克，甘草6克，水煎，去渣内服，大猪一次量。方2：杏仁、枯梗、远志、百合、山药各30克，麻步、贝母、五味子各20克, 共为末, 蜂蜜150克混合, 开水冲调,温服",
+    "error_detail": "错误地将中药方剂替换为抗生素",
+    "original_question": "治疗肺炎的主要药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪白痢的主要症状是食欲增加",
+    "reference_case": "仔猪精神差，体温高，表现下痢，排出白色、黄绿色或灰褐色的浆糊状粪便，粘在肛门周围和后肢。后期常钻入草窝或母猪腹下。严重时结膜潮红，体温下降，全身发冷，经4~5天死亡",
+    "error_detail": "错误地描述了症状",
+    "original_question": "仔猪白痢的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "养鹿业在国民经济中没有重要意义",
+    "reference_case": "发展养鹿业不仅能提供鹿茸、鹿肉及其他副产品，为人民的医疗保健事业和出口创汇支撑国家经济建设，还能美化环境，满足人们精神生活和文化生活的需要；同时，发展养鹿不与猪、鸡争粮，不与牛、马争草, 是投资少、收益大、见效快的产业",
+    "error_detail": "回答偏离了养鹿业重要性的主题",
+    "original_question": "养鹿业在国民经济中的重要意义是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "改变肉类消费从猪肉转向鸡肉是因为鸡肉更便宜",
+    "reference_case": "建议改变肉类消费从猪肉转向鸡肉，因为养殖家禽等高转化率动物能更高效地利用宝贵的谷物资源",
+    "error_detail": "错误地添加了价格作为原因",
+    "original_question": "为什么建议中国及其他发展中国家改变肉类消费从猪肉转向鸡肉？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "禁止将动物残渣喂给反刍动物和猪是因为营养价值低",
+    "reference_case": "禁止是因为存在病害风险，如牛海绵状脑病（BSE）、羊瘙痒病和朊病毒病等",
+    "error_detail": "错误地描述了禁止的原因",
+    "original_question": "为什么禁止将动物残渣喂给反刍动物和猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "室内养殖系统主要用于鱼类养殖",
+    "reference_case": "室内养殖系统主要用于猪、家禽以及犊牛的养殖",
+    "error_detail": "错误地描述了适用动物",
+    "original_question": "室内养殖系统主要适用于哪些动物？",
+    "original_input": ""
+  }
+]

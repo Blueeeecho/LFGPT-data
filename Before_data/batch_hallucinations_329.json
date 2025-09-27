@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过普通PCR技术，以pMD18-T/poIFN-α和pMD18-T/poIL-18为模板扩增猪IFNα-IL18融合基因。",
+    "reference_case": "通过融合PCR技术，以pMD18-T/poIFN-α和pMD18-T/poIL-18为模板扩增猪IFNα-IL18融合基因。",
+    "error_detail": "错误地将融合PCR技术替换为普通PCR技术",
+    "original_question": "在猪α干扰素与白介素-18融合基因的研究中，如何扩增融合基因？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过Western blotting分析重组表达蛋白。",
+    "reference_case": "通过SDS-PAGE分析重组表达蛋白。",
+    "error_detail": "错误地将SDS-PAGE替换为Western blotting",
+    "original_question": "在猪α干扰素与白介素-18融合基因的研究中，如何检测重组蛋白的表达？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟病毒实时荧光定量 PCR 检测方法验证中使用了 150 个阳性样本和 250 个阴性对照样本。",
+    "reference_case": "猪瘟病毒实时荧光定量 PCR 检测方法验证中使用了 145 个阳性样本和 240 个阴性对照样本。",
+    "error_detail": "错误地修改了阳性样本和阴性对照样本的数量",
+    "original_question": "猪瘟病毒实时荧光定量 PCR 检测方法验证中使用了多少阳性样本和阴性对照样本？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪瘟病毒实时荧光定量 PCR 检测方法验证中，阴性对照样本来源于 80 头中国非疫源地的未患病猪。",
+    "reference_case": "猪瘟病毒实时荧光定量 PCR 检测方法验证中，阴性对照样本来源于 80 头巴西非疫源地的未患病猪。",
+    "error_detail": "错误地将巴西非疫源地替换为中国非疫源地",
+    "original_question": "猪瘟病毒实时荧光定量 PCR 检测方法验证中，阴性对照样本的来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟病毒实时荧光定量 PCR 检测方法验证中，阳性样本来源于 30 头感染 CSFV 的病猪的脾脏、肾脏、血液、扁桃体和淋巴结。",
+    "reference_case": "猪瘟病毒实时荧光定量 PCR 检测方法验证中，阳性样本来源于 29 头感染 CSFV 的病猪的脾脏、肾脏、血液、扁桃体和淋巴结。",
+    "error_detail": "错误地修改了感染CSFV的病猪数量",
+    "original_question": "猪瘟病毒实时荧光定量 PCR 检测方法验证中，阳性样本的来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪瘟病毒实时荧光定量 PCR 检测方法验证的结果表明，该方法对来自于脾脏和血液的阳性样本有效。",
+    "reference_case": "猪瘟病毒实时荧光定量 PCR 检测方法验证的结果表明，该方法对来自于不同组织的所有阳性样本均有效。",
+    "error_detail": "错误地限制了有效的样本类型",
+    "original_question": "猪瘟病毒实时荧光定量 PCR 检测方法验证的结果表明，该方法对哪些样本有效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪瘟病毒实时荧光定量 PCR 检测方法的验证依据了 OIE 发布的陆生动物诊断与疫苗手册及 ABNTNBR ISO/IEC 17025：2000 标准。",
+    "reference_case": "猪瘟病毒实时荧光定量 PCR 检测方法的验证依据了 OIE 发布的陆生动物诊断与疫苗手册及 ABNTNBR ISO/IEC 17025：2005 标准。",
+    "error_detail": "错误地使用了过时的标准版本",
+    "original_question": "猪瘟病毒实时荧光定量 PCR 检测方法的验证依据了哪些标准？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟病毒实时荧光定量 PCR 检测方法验证中，对阳性样本的 3' NTR 区域进行了基因序列测序分析。",
+    "reference_case": "猪瘟病毒实时荧光定量 PCR 检测方法验证中，对阳性样本的 5' NTR 区域进行了基因序列测序分析。",
+    "error_detail": "错误地将5' NTR区域替换为3' NTR区域",
+    "original_question": "猪瘟病毒实时荧光定量 PCR 检测方法验证中，对阳性样本的哪个区域进行了基因序列测序分析？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪瘟病毒实时荧光定量 PCR 检测方法验证的结果表明，来自巴西非疫源地的阴性对照样本的检测结果为阴性，且未发现任何假阳性结果。",
+    "reference_case": "猪瘟病毒实时荧光定量 PCR 检测方法验证的结果表明，来自巴西非疫源地的阴性对照样本的检测结果为阴性。",
+    "error_detail": "错误地添加了未提及的假阳性结果信息",
+    "original_question": "猪瘟病毒实时荧光定量 PCR 检测方法验证的结果表明，来自巴西非疫源地的阴性对照样本的检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）S1基因的PCR扩增产物大小为1200 bp，共编码400个氨基酸。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）S1基因的PCR扩增产物大小为1140 bp，共编码380个氨基酸。",
+    "error_detail": "错误地修改了PCR扩增产物的大小和编码的氨基酸数量",
+    "original_question": "猪流行性腹泻病毒（PEDV）S1基因的PCR扩增产物大小是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪流行性腹泻病毒（PEDV）S1基因的表达研究中，使用了Xho I、Xba I和BamH I三种限制性内切酶。",
+    "reference_case": "在猪流行性腹泻病毒（PEDV）S1基因的表达研究中，使用了Xho I、Xba I和Sac I三种限制性内切酶。",
+    "error_detail": "错误地将Sac I替换为BamH I",
+    "original_question": "在猪流行性腹泻病毒（PEDV）S1基因的表达研究中，使用了哪些限制性内切酶？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）S1基因在毕赤酵母中的表达产物具有良好的免疫原性，能够与PEDV阳性血清特异性结合，并且能够诱导强烈的免疫反应。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）S1基因在毕赤酵母中的表达产物具有良好的免疫原性，能够与PEDV阳性血清特异性结合。",
+    "error_detail": "错误地添加了未提及的免疫反应信息",
+    "original_question": "猪流行性腹泻病毒（PEDV）S1基因在毕赤酵母中的表达产物具有什么特性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）S1基因在毕赤酵母中的表达载体是pPIC9K。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）S1基因在毕赤酵母中的表达载体是pPICZαC。",
+    "error_detail": "错误地将pPICZαC替换为pPIC9K",
+    "original_question": "猪流行性腹泻病毒（PEDV）S1基因在毕赤酵母中的表达载体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）S1基因在毕赤酵母中的表达产物通过ELISA进行鉴定。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）S1基因在毕赤酵母中的表达产物通过SDS-PAGE和Western blotting进行鉴定。Western blotting结果显示，表达的蛋白分子质量为42 ku，且能够与PEDV阳性血清特异性结合。",
+    "error_detail": "错误地改变了鉴定方法",
+    "original_question": "猪流行性腹泻病毒（PEDV）S1基因在毕赤酵母中的表达产物如何鉴定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪流行性腹泻病毒（PEDV）S1基因在毕赤酵母中的表达研究中，阳性转化子通过G418抗性筛选得到。",
+    "reference_case": "在猪流行性腹泻病毒（PEDV）S1基因在毕赤酵母中的表达研究中，阳性转化子通过Zeocin抗性筛选得到。重组质粒pPICZαC-S1经Sac I酶切线性化后，通过电转化法转化到毕赤酵母X33中，经Zeocin抗性筛选后得到阳性转化子。",
+    "error_detail": "错误地将Zeocin抗性替换为G418抗性",
+    "original_question": "猪流行性腹泻病毒（PEDV）S1基因在毕赤酵母中的表达研究中，如何筛选阳性转化子？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的S蛋白在病毒粒子与细胞表面受体结合后通过内吞作用侵入宿主细胞。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的S蛋白在病毒粒子与细胞表面受体结合后通过膜融合侵入宿主细胞，并在感染宿主体内介导中和抗体的产生过程中发挥重要生物学作用。",
+    "error_detail": "错误地改变了侵入宿主细胞的机制",
+    "original_question": "猪流行性腹泻病毒（PEDV）的S蛋白在病毒感染过程中起什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的基因组为单股负链RNA。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的基因组为单股正链RNA，其5'端有一个帽子结构（Cap），3'端有一个Poly(A)尾。基因组从5'到3'方向依次编码复制酶多聚蛋白1ab（pp1ab）、纤突蛋白（S）、ORF3蛋白、小膜蛋白（E）、膜糖蛋白（M）和核衣壳蛋白（N）的基因。",
+    "error_detail": "错误地将单股正链RNA替换为单股负链RNA",
+    "original_question": "猪流行性腹泻病毒（PEDV）的基因组结构是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）S1基因的PCR扩增引物设计时考虑了限制性酶切位点Xho I和Xba I，并在上游引物中加入了起始密码子ATG和Kex2蛋白酶切位点，下游引物中加入了终止密码子TCA，以确保高效表达。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）S1基因的PCR扩增引物设计时考虑了限制性酶切位点Xho I和Xba I，并在上游引物中加入了起始密码子ATG和Kex2蛋白酶切位点，下游引物中加入了终止密码子TCA。",
+    "error_detail": "错误地添加了未提及的高效表达信息",
+    "original_question": "猪流行性腹泻病毒（PEDV）S1基因的PCR扩增引物设计时考虑了哪些因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "转Bt基因糙米对生长猪的肝脏指数、脾脏指数和胸腺指数均有显著影响（P<0:05:，表明其对免疫器官的生长发育有影响。",
+    "reference_case": "转Bt基因糙米对生长猪的肝脏指数、脾脏指数和胸腺指数均无显著影响（P>0:05:，表明其对免疫器官的生长发育是安全的。",
+    "error_detail": "错误地修改了统计结果和结论",
+    "original_question": "转Bt基因糙米对生长猪免疫器官指数的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪的饲养环境条件为圈舍温度20~25℃，湿度60%~65%，采用MLP自动饲喂站饲养，自由采食和饮水。",
+    "reference_case": "生长猪的饲养环境条件为圈舍温度17~20℃，湿度65%~70%，采用MLP自动饲喂站饲养，自由采食和饮水。",
+    "error_detail": "错误地修改了饲养环境的温度和湿度",
+    "original_question": "转Bt基因糙米的试验中，生长猪的饲养环境条件如何？",
+    "original_input": ""
+  }
+]

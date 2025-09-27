@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重组脂联素处理12小时后，AdipoR1和AdipoR2 mRNA表达显著升高（P<0:05:，且具有剂量依赖性。处理48小时后，AdipoR1和AdipoR2 mRNA表达无显著差异。",
+    "reference_case": "重组脂联素处理12小时后，AdipoR1和AdipoR2 mRNA表达显著升高（P<0:05:，但无剂量依赖性。处理48小时后，AdipoR1和AdipoR2 mRNA表达无显著差异。",
+    "error_detail": "错误地添加了剂量依赖性的描述，与原始数据不符。",
+    "original_question": "重组脂联素（rAdp）处理皖南花猪肌内前体脂肪细胞后，AdipoR1和AdipoR2 mRNA表达的变化是否具有剂量依赖性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "主要仪器包括CO2培养箱（Heraeus，德）、倒置显微镜（Olympus，日）、MK3酶标仪（上海仪器公司）、PCR扩增仪（Techne，英）、电脑三恒多用电泳仪（北京六一仪器厂）和Rotor-gene 6000荧光定量PCR（Corbett，美）。",
+    "reference_case": "主要仪器包括CO2培养箱（Heraeus，德）、倒置显微镜（Olympus，日）、MK3酶标仪（上海仪器公司）、PCR扩增仪（Techne，英）、电脑三恒多用电泳仪（北京六一仪器厂）和Rotor-gene 6000荧光定量PCR（Corbett，澳）。",
+    "error_detail": "错误地将Rotor-gene 6000荧光定量PCR的产地从澳大利亚改为美国。",
+    "original_question": "在重组脂联素（rAdp）处理皖南花猪肌内前体脂肪细胞的实验中，使用了哪些主要仪器？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "重组脂联素处理12小时后，AMPK mRNA表达量显著下降（P<0:05:。处理48小时后，10 mg/L rAdp处理组的AMPK mRNA表达显著升高（P<0:01:，表明AMPK mRNA表达的变化具有时间依赖性。",
+    "reference_case": "重组脂联素处理12小时后，AMPK mRNA表达量显著下降（P<0:05:。处理48小时后，10 mg/L rAdp处理组的AMPK mRNA表达显著升高（P<0:05:，表明AMPK mRNA表达的变化具有时间依赖性。",
+    "error_detail": "错误地改变了显著性水平，从P<0:05改为P<0:01，与原始数据不符。",
+    "original_question": "重组脂联素（rAdp）处理皖南花猪肌内前体脂肪细胞后，AMPK mRNA表达的变化是否具有时间依赖性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "重组脂联素处理48小时后，PPARα mRNA表达量显著升高（P<0:01:，且剂量效应明显。",
+    "reference_case": "重组脂联素处理48小时后，PPARα mRNA表达量显著升高（P<0:05:，但剂量效应不明显。",
+    "error_detail": "错误地改变了显著性水平和剂量效应的描述，与原始数据不符。",
+    "original_question": "重组脂联素（rAdp）处理皖南花猪肌内前体脂肪细胞后，PPARα mRNA表达的变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "发酵床养猪模式的主要目的是增加养殖过程中污染物的排放，通过微生物降解猪粪尿，实现粪便的无公害处理。",
+    "reference_case": "发酵床养猪模式的主要目的是减少养殖过程中污染物的排放，通过微生物降解猪粪尿，实现粪便的无公害处理。",
+    "error_detail": "错误地将减少污染物排放改为增加污染物排放，与原始目的相反。",
+    "original_question": "发酵床养猪模式的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "发酵床养猪模式中，垫料中的氮素损失主要集中在发酵的后期。",
+    "reference_case": "发酵床养猪模式中，垫料中的氮素损失主要集中在发酵的前期。",
+    "error_detail": "错误地将氮素损失的时间从前期改为后期，与原始数据不符。",
+    "original_question": "发酵床养猪模式中，垫料中的氮素损失主要发生在哪个阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在发酵床养猪模式中，垫料的初始水分含量为75%。",
+    "reference_case": "在发酵床养猪模式中，垫料的初始水分含量为65%。",
+    "error_detail": "错误地改变了初始水分含量的数值，与原始数据不符。",
+    "original_question": "在发酵床养猪模式中，垫料的初始水分含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "发酵床养猪模式中，垫料中的总氮含量在整个试验过程中呈持续下降趋势。总氮的损失主要集中在试验的前14天。",
+    "reference_case": "发酵床养猪模式中，垫料中的总氮含量在整个试验过程中呈先下降后上升并最后基本趋于平衡的趋势。总氮的损失主要集中在试验的前7天。",
+    "error_detail": "错误地改变了总氮含量的变化趋势和损失时间，与原始数据不符。",
+    "original_question": "发酵床养猪模式中，垫料中的总氮含量是如何变化的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发酵床养猪模式中，垫料中的水分含量随试验的进行呈快速下降趋势，从初始的65%左右降至试验结束时的45%左右。",
+    "reference_case": "发酵床养猪模式中，垫料中的水分含量随试验的进行呈缓慢下降趋势，从初始的65%左右降至试验结束时的55%左右。",
+    "error_detail": "错误地改变了水分含量的下降速度和最终数值，与原始数据不符。",
+    "original_question": "发酵床养猪模式中，垫料中的水分含量是如何变化的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "发酵床养猪模式中，垫料中的硝态氮含量呈持续上升趋势。发酵初期高温促进了硝化细菌的生长，后期随着温度降低，硝化细菌快速繁殖，铵态氮转化为硝态氮。",
+    "reference_case": "发酵床养猪模式中，垫料中的硝态氮含量呈先小幅下降后上升的趋势。发酵初期高温抑制了硝化细菌的生长，后期随着温度降低，硝化细菌快速繁殖，铵态氮转化为硝态氮。",
+    "error_detail": "错误地改变了硝态氮含量的变化趋势和硝化细菌的生长情况，与原始数据不符。",
+    "original_question": "发酵床养猪模式中，垫料中的硝态氮含量是如何变化的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发酵床养猪模式中，垫料中的铵态氮含量在试验前期明显下降，并在第3天达到最小值，随后因温度和pH值升高，大量铵态氮以NH3的形式释放到环境中，含量上升并趋于平衡。",
+    "reference_case": "发酵床养猪模式中，垫料中的铵态氮含量在试验前期明显升高，并在第3天达到最大值，随后因温度和pH值升高，大量铵态氮以NH3的形式释放到环境中，含量下降并趋于平衡。",
+    "error_detail": "错误地改变了铵态氮含量的变化趋势和极值点，与原始数据不符。",
+    "original_question": "发酵床养猪模式中，垫料中的铵态氮含量是如何变化的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发酵床养猪模式中，垫料温度的变化趋势是先下降后上升。添加猪粪后，垫料温度能快速上升到40°C以上，并随猪粪量的增加而升高，维持高温的时间也延长。",
+    "reference_case": "发酵床养猪模式中，垫料温度的变化趋势是先上升后下降。添加猪粪后，垫料温度能快速上升到50°C以上，并随猪粪量的增加而升高，维持高温的时间也延长。",
+    "error_detail": "错误地改变了温度的变化趋势和初始上升温度，与原始数据不符。",
+    "original_question": "发酵床养猪模式中，垫料温度的变化趋势是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "发酵床养猪模式中，垫料中的大肠菌群最可能数（MPN）随试验的进行逐渐上升，14天左右达到最大值，随后因温度下降，MPN值又有所下降。",
+    "reference_case": "发酵床养猪模式中，垫料中的大肠菌群最可能数（MPN）随试验的进行逐渐下降，14天左右达到最小值，随后因温度下降，MPN值又有所升高。",
+    "error_detail": "错误地改变了MPN值的变化趋势和极值点，与原始数据不符。",
+    "original_question": "发酵床养猪模式中，垫料中的大肠菌群最可能数（MPN）是如何变化的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发酵床养猪模式中，垫料的pH值变化趋势是先下降后上升。试验结束时，各处理组的pH值均升至8:5左右。",
+    "reference_case": "发酵床养猪模式中，垫料的pH值变化趋势是先上升后下降。试验结束时，各处理组的pH值均降至7:5左右。",
+    "error_detail": "错误地改变了pH值的变化趋势和最终数值，与原始数据不符。",
+    "original_question": "发酵床养猪模式中，垫料的pH值变化趋势是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "禽流感病毒受体研究中的一个重要实验是Smith等人在1993年进行的实验，他们发现人或猪源流感毒株更喜欢凝集含唾液酸α2,6半乳糖苷受体的红细胞，而禽源流感毒株更善于吸附含唾液酸α2,3半乳糖苷受体的红细胞。",
+    "reference_case": "禽流感病毒受体研究中的一个重要实验是Rogers等人在1983年进行的实验，他们发现人或猪源流感毒株更喜欢凝集含唾液酸α2,6半乳糖苷受体的红细胞，而禽源流感毒株更善于吸附含唾液酸α2,3半乳糖苷受体的红细胞。",
+    "error_detail": "错误地改变了实验的研究者和时间，与原始数据不符。",
+    "original_question": "禽流感病毒受体研究中的一个重要实验是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "禽流感病毒受体研究中的一个重要发现是唾液酸拓扑结构是决定禽流感病毒受体结合的次要因素，人源禽流感病毒喜欢与具备刚硬、圆锥状拓扑结构的长链唾液酸α2,6半乳糖苷受体结合，而禽源或猪源禽流感毒株更善于吸附具备松散、雨伞状拓扑结构的短链唾液酸α2,3半乳糖苷受体。",
+    "reference_case": "禽流感病毒受体研究中的一个重要发现是唾液酸拓扑结构是决定禽流感病毒受体结合的主要因素，人源禽流感病毒喜欢与具备松散、雨伞状拓扑结构的长链唾液酸α2,6半乳糖苷受体结合，而禽源或猪源禽流感毒株更善于吸附具备刚硬、圆锥状拓扑结构的短链唾液酸α2,3半乳糖苷受体。",
+    "error_detail": "错误地改变了唾液酸拓扑结构的重要性和具体描述，与原始数据不符。",
+    "original_question": "禽流感病毒受体研究中的一个重要发现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪的死亡率是通过死亡头数乘以总数，再除以100来计算的。",
+    "reference_case": "仔猪的死亡率是通过死亡头数除以总数，再乘以100来计算的。",
+    "error_detail": "错误地改变了死亡率的计算公式，与原始方法不符。",
+    "original_question": "试验中仔猪的死亡率是如何计算的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪的腹泻率是通过试验全期腹泻头次乘以试验头数除以试验天数，再乘以100来计算的。",
+    "reference_case": "仔猪的腹泻率是通过试验全期腹泻头次除以试验头数乘以试验天数，再乘以100来计算的。",
+    "error_detail": "错误地改变了腹泻率的计算公式，与原始方法不符。",
+    "original_question": "试验中仔猪的腹泻率是如何计算的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪的料重比是通过日增重除以平均日采食量来计算的。",
+    "reference_case": "仔猪的料重比是通过平均日采食量除以日增重来计算的。",
+    "error_detail": "错误地改变了料重比的计算公式，与原始方法不符。",
+    "original_question": "试验中仔猪的料重比是如何计算的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪的发病率是通过观察期间内发生的新病例数乘以同期平均猪只头数，再除以100来计算的。",
+    "reference_case": "仔猪的发病率是通过观察期间内发生的新病例数除以同期平均猪只头数，再乘以100来计算的。",
+    "error_detail": "错误地改变了发病率的计算公式，与原始方法不符。",
+    "original_question": "试验中仔猪的发病率是如何计算的？",
+    "original_input": ""
+  }
+]

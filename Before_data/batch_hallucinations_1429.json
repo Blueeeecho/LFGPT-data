@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "坚持自繁自养，引进新猪来自阴性猪场，并进行种猪检疫和隔离、消毒，采血作血清学检查，阳性才混群。",
+    "reference_case": "坚持自繁自养，引进新猪来自阴性猪场，并进行种猪检疫和隔离、消毒，采血作血清学检查，阴性才混群。",
+    "error_detail": "将阴性误写为阳性，导致完全相反的操作建议。",
+    "original_question": "阴性猪群的预防措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪场单一性饲养可以减少狂犬病传人的可能性。",
+    "reference_case": "猪场单一性饲养可以减少伪狂犬病传人的可能性。",
+    "error_detail": "将伪狂犬病误写为狂犬病，概念混淆。",
+    "original_question": "猪场单一性饲养的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长猪8周龄首免，4周后二免。",
+    "reference_case": "生长猪10周龄首免，4周后二免。",
+    "error_detail": "将10周龄误写为8周龄，时间数据错误。",
+    "original_question": "生长猪的免疫程序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "后备公母猪配种前20天接种1次。",
+    "reference_case": "后备公母猪配种前30天接种1次。",
+    "error_detail": "将30天误写为20天，时间数据错误。",
+    "original_question": "后备公母猪的免疫程序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公母猪每年免疫1次。",
+    "reference_case": "公母猪每半年免疫1次。",
+    "error_detail": "将每半年误写为每年，时间数据错误。",
+    "original_question": "公母猪的免疫程序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "紧急免疫接种可完全避免猪场经济损失。",
+    "reference_case": "紧急免疫接种可明显减少猪场经济损失。",
+    "error_detail": "添加了完全避免的假设，与实际情况不符。",
+    "original_question": "紧急免疫接种的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "不同血清型的口蹄疫病毒之间具有交叉免疫性。",
+    "reference_case": "不同血清型的口蹄疫病毒之间无交叉免疫性，例如患过O型口蹄疫的猪康复后，仅对O型病毒具有抵抗力，遇到其他型病毒的感染仍会发生口蹄疫。",
+    "error_detail": "将无交叉免疫性误写为有交叉免疫性，概念混淆。",
+    "original_question": "不同血清型的口蹄疫病毒之间是否具有交叉免疫性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母源抗体可严重干扰与抑制仔猪主动免疫的产生，只有在2-3月龄时注射疫苗，免疫应答才不会受到母源抗体干扰。",
+    "reference_case": "母源抗体可严重干扰与抑制仔猪主动免疫的产生，只有在3-4月龄时注射疫苗，免疫应答才不会受到母源抗体干扰。",
+    "error_detail": "将3-4月龄误写为2-3月龄，时间数据错误。",
+    "original_question": "母源抗体如何影响仔猪的免疫反应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪O型普通口蹄疫苗的免疫效力很好，免疫保护期可达12个月，25公斤以上的猪每12个月注射1次即可。",
+    "reference_case": "猪O型普通口蹄疫苗的免疫效力很好，免疫保护期可达6个月，25公斤以上的猪每6个月注射1次即可。",
+    "error_detail": "将6个月误写为12个月，时间数据错误。",
+    "original_question": "猪O型普通口蹄疫苗的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪口蹄疫的病原是猪瘟病毒。",
+    "reference_case": "猪口蹄疫的病原是口蹄疫病毒。",
+    "error_detail": "将口蹄疫病毒误写为猪瘟病毒，概念混淆。",
+    "original_question": "猪口蹄疫的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "各种年龄、品种的猪均易感，人不易感染。",
+    "reference_case": "各种年龄、品种的猪均易感，人亦可感染。",
+    "error_detail": "将人亦可感染误写为人不易感染，概念混淆。",
+    "original_question": "猪口蹄疫的易感动物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪口蹄疫一年四季均可发生，以夏秋两季多发，多呈流行性或大流行性。",
+    "reference_case": "猪口蹄疫一年四季均可发生，以春冬两季多发，多呈流行性或大流行性。",
+    "error_detail": "将春冬两季误写为夏秋两季，季节数据错误。",
+    "original_question": "猪口蹄疫的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻是由猪瘟病毒（PEDV）引起的。",
+    "reference_case": "猪流行性腹泻是由猪流行性腹泻病毒（PEDV）引起的。",
+    "error_detail": "将猪流行性腹泻病毒误写为猪瘟病毒，概念混淆。",
+    "original_question": "猪流行性腹泻是由什么病毒引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻的特征为呕吐、腹泻和脱水，只有成年猪易感。",
+    "reference_case": "猪流行性腹泻的特征为呕吐、腹泻和脱水，各种年龄的猪均易感。",
+    "error_detail": "将各种年龄的猪均易感误写为只有成年猪易感，概念混淆。",
+    "original_question": "猪流行性腹泻的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻病毒属于腺病毒科（Adenoviridae）腺病毒属（Adenovirus）的成员。",
+    "reference_case": "猪流行性腹泻病毒属于冠状病毒科（Coronaviridae）冠状病毒属（Coronavirus）的成员。",
+    "error_detail": "将冠状病毒科误写为腺病毒科，概念混淆。",
+    "original_question": "猪流行性腹泻病毒属于哪个科属？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪流行性腹泻病毒在粪便中的病毒粒子常呈现多形态，倾向球形，直径为50~100 nm，有囊膜，囊膜上有花瓣状纤突，长12~24 nm，由核心向四周放射，其间距较大且排列规则，呈皇冠状。",
+    "reference_case": "猪流行性腹泻病毒在粪便中的病毒粒子常呈现多形态，倾向球形，直径为95~190 nm，有囊膜，囊膜上有花瓣状纤突，长12~24 nm，由核心向四周放射，其间距较大且排列规则，呈皇冠状。",
+    "error_detail": "将直径95~190 nm误写为50~100 nm，尺寸数据错误。",
+    "original_question": "猪流行性腹泻病毒的形态特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻病毒的核酸型为DNA型。",
+    "reference_case": "猪流行性腹泻病毒的核酸型为RNA型。",
+    "error_detail": "将RNA型误写为DNA型，概念混淆。",
+    "original_question": "猪流行性腹泻病毒的核酸类型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪流行性腹泻病毒只能在肝组织中生长。",
+    "reference_case": "猪流行性腹泻病毒只能在肠上皮组织培养物内生长。",
+    "error_detail": "将肠上皮组织误写为肝组织，概念混淆。",
+    "original_question": "猪流行性腹泻病毒只能在哪些组织中生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在Vero传代细胞内培养，必须在每毫升无血清营养液中添加20 μg/mL胰蛋白酶。",
+    "reference_case": "在Vero传代细胞内培养，必须在每毫升无血清营养液中添加10 μg/mL胰蛋白酶。",
+    "error_detail": "将10 μg/mL误写为20 μg/mL，浓度数据错误。",
+    "original_question": "猪流行性腹泻病毒如何适应Vero传代细胞培养？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪流行性腹泻病毒对外界环境和消毒药抵抗力不强，对乙醚、氯仿等敏感，一般消毒药都可将其杀死。在70°C 30 min可失去感染力,但在50°C条件下相对稳定。病毒在40°C, pH 5.0~9.0或在37°C, pH 6.5~7.5时稳定。",
+    "reference_case": "猪流行性腹泻病毒对外界环境和消毒药抵抗力不强，对乙醚、氯仿等敏感，一般消毒药都可将其杀死。在60°C 30 min可失去感染力,但在50°C条件下相对稳定。病毒在40°C, pH 5.0~9.0或在37°C, pH 6.5~7.5时稳定。",
+    "error_detail": "将60°C误写为70°C，温度数据错误。",
+    "original_question": "猪流行性腹泻病毒对外界环境的抵抗力如何？",
+    "original_input": ""
+  }
+]

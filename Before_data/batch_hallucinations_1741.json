@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "因为这是免疫球蛋白的青黄不接阶段，免疫能力较弱，同时胃液缺乏游离盐酸，对病源微生物的抑制作用较弱，具体数值为50%。",
+    "reference_case": "因为这是免疫球蛋白的青黄不接阶段，免疫能力较弱，同时胃液缺乏游离盐酸，对病源微生物的抑制作用较弱。",
+    "error_detail": "添加了不存在的具体数值比例",
+    "original_question": "仔猪为什么容易在14~35日龄患下痢？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "初生仔猪怕冷是因为神经发育不健全，体温调节能力差，皮薄毛稀，皮下脂肪少，以及缺乏维生素C。",
+    "reference_case": "初生仔猪怕冷是因为神经发育不健全，体温调节能力差，皮薄毛稀，皮下脂肪少。",
+    "error_detail": "错误添加了与怕冷无关的维生素C缺乏",
+    "original_question": "初生仔猪怕冷的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "哺乳母猪能量需要包括维持需要、泌乳需要以及泌乳期增重的需要，还需要额外的运动能量。",
+    "reference_case": "哺乳母猪能量需要包括维持需要、泌乳需要以及泌乳期增重的需要。",
+    "error_detail": "添加了不相关的运动能量需求",
+    "original_question": "哺乳母猪能量需要主要包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "哺乳母猪能量需要受母猪营养水平、哺乳期体重、产仔数、哺乳期长短不一的影响，假设母猪处于极端气候条件下。",
+    "reference_case": "哺乳母猪能量需要受母猪营养水平、哺乳期体重、产仔数、哺乳期长短不一的影响。",
+    "error_detail": "添加了未提及的极端气候条件假设",
+    "original_question": "哺乳母猪能量需要受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一头哺育10头仔猪的母猪，每天排出约20 g钙和15 g磷。",
+    "reference_case": "一头哺育10头仔猪的母猪，每天排出约13 g钙和8~9 g磷。",
+    "error_detail": "夸大了钙和磷的排出量",
+    "original_question": "哺乳母猪每天排出的钙和磷量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪日粮中应供给5%的骨贝粉和0.50%的食盐。",
+    "reference_case": "母猪日粮中应供给2%的骨贝粉和0.25%~0.30%的食盐。",
+    "error_detail": "错误提高了骨贝粉和食盐的供给比例",
+    "original_question": "哺乳母猪日粮中应供给多少食盐？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "缺乏维生素A会导致产后瘫痪，缺乏维生素D会导致泌乳量和乳品质下降。",
+    "reference_case": "缺乏维生素A会导致泌乳量和乳品质下降，缺乏维生素D会导致产后瘫痪。",
+    "error_detail": "颠倒了维生素A和D缺乏的影响",
+    "original_question": "缺乏维生素A和维生素D会对母猪泌乳产生什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "哺乳仔猪的能量需要来源于母乳、仔猪料和阳光。",
+    "reference_case": "哺乳仔猪的能量需要来源于母乳和仔猪料。",
+    "error_detail": "错误添加了阳光作为能量来源",
+    "original_question": "哺乳仔猪的能量需要来源于哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "3~5 kg阶段仔猪日粮中消化能含量为20000 kJ/kg。",
+    "reference_case": "3~5 kg阶段仔猪日粮中消化能含量为14212 kJ/kg。",
+    "error_detail": "夸大了消化能含量",
+    "original_question": "3~5 kg阶段仔猪日粮中消化能含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "3~5 kg阶段仔猪日采食量为500 g，期望日增重为500 g左右。",
+    "reference_case": "3~5 kg阶段仔猪日采食量为250 g，期望日增重为250 g左右。",
+    "error_detail": "夸大了日采食量和期望日增重",
+    "original_question": "3~5 kg阶段仔猪日采食量和期望日增重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "5~10 kg阶段仔猪日粮中消化能含量为10000 kJ/kg。",
+    "reference_case": "5~10 kg阶段仔猪日粮中消化能含量仍为14212 kJ/kg。",
+    "error_detail": "低估了消化能含量",
+    "original_question": "5~10 kg阶段仔猪日粮中消化能含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "5~10 kg阶段仔猪日采食量为1000 g，期望日增重为900 g左右。",
+    "reference_case": "5~10 kg阶段仔猪日采食量为500 g，期望日增重为450 g左右。",
+    "error_detail": "夸大了日采食量和期望日增重",
+    "original_question": "5~10 kg阶段仔猪日采食量和期望日增重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "评定哺乳仔猪日粮质量的重要依据是日粮中仔猪所需的必需氨基酸，特别是限制性氨基酸的含量，以及日粮的颜色。",
+    "reference_case": "评定哺乳仔猪日粮质量的重要依据是日粮中仔猪所需的必需氨基酸，特别是限制性氨基酸的含量。",
+    "error_detail": "错误添加了日粮颜色作为评定依据",
+    "original_question": "评定哺乳仔猪日粮质量的主要依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "赖氨酸不足会导致哺乳仔猪的腹泻发病率增加，并限制生长速度。",
+    "reference_case": "赖氨酸不足会导致哺乳仔猪的生长速度受限，并增加腹泻发病率。",
+    "error_detail": "颠倒了赖氨酸不足的影响顺序",
+    "original_question": "赖氨酸不足对哺乳仔猪有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "单纯看日粮蛋白质水平高低不全面，因为有时日粮中过多使用植物性蛋白质会造成哺乳仔猪腹泻，但高蛋白质总是好的。",
+    "reference_case": "单纯看日粮蛋白质水平高低不全面，因为有时日粮中过多使用植物性蛋白质会造成哺乳仔猪腹泻。",
+    "error_detail": "添加了与前面陈述矛盾的观点",
+    "original_question": "单纯看仔猪日粮蛋白质水平高低是否全面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "减少蛋白质水平5%~6%，增加0.5%~0.6%赖氨酸可以大大降低哺乳仔猪腹泻的发生。",
+    "reference_case": "减少蛋白质水平2%~3%，增加0.1%~0.3%赖氨酸可以大大降低哺乳仔猪腹泻的发生。",
+    "error_detail": "夸大了蛋白质减少和赖氨酸增加的比例",
+    "original_question": "减少蛋白质水平增加赖氨酸水平可以降低哺乳仔猪腹泻的发生吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "应选择必需氨基酸含量高，尤其是限制性氨基酸含量高的饲料原料，如进口鱼粉等，假设所有农场都能负担得起。",
+    "reference_case": "应选择必需氨基酸含量高，尤其是限制性氨基酸含量高的饲料原料，如进口鱼粉等。",
+    "error_detail": "添加了不相关的经济能力假设",
+    "original_question": "哪些饲料原料可以作为哺乳仔猪日粮的优质选择？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "3~5kg阶段猪钙与有效磷最佳比例为2.0:1，5~10kg阶段猪钙与有效磷最佳比例为1.6:1。",
+    "reference_case": "3~5kg阶段猪钙与有效磷最佳比例为1.6:1，5~10kg阶段猪钙与有效磷最佳比例为2.0:1。",
+    "error_detail": "颠倒了两个阶段的钙磷比例",
+    "original_question": "哺乳仔猪日粮中钙磷的最佳比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "向哺乳仔猪日粮中添加0.5%的食盐可以满足哺乳仔猪对钠和氯的需要。",
+    "reference_case": "向哺乳仔猪日粮中添加0.3%的食盐可以满足哺乳仔猪对钠和氯的需要。",
+    "error_detail": "提高了食盐的添加比例",
+    "original_question": "哺乳仔猪日粮中添加食盐的推荐比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳仔猪日粮中铜的添加量一般为500~600 mg/kg。",
+    "reference_case": "哺乳仔猪日粮中铜的添加量一般为150~300 mg/kg。",
+    "error_detail": "夸大了铜的添加量",
+    "original_question": "哺乳仔猪日粮中铜的添加量一般是多少？",
+    "original_input": ""
+  }
+]

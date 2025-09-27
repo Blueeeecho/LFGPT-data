@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪需要在临产前两周上产床。",
+    "reference_case": "母猪需要在临产前一周上产床。",
+    "error_detail": "将临产前上产床的时间从一周错误地延长至两周。",
+    "original_question": "母猪在临产前需要提前多久上产床？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪分娩前3天应减少饲料摄入量至日常量的1/4。",
+    "reference_case": "母猪分娩前3天应减少饲料摄入量至日常量的1/2~1/3。",
+    "error_detail": "错误地减少了饲料摄入量的比例。",
+    "original_question": "母猪分娩前3天应减少饲料摄入量至日常量的多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "分娩前3天母猪应开始投喂食盐。",
+    "reference_case": "分娩前3天母猪应开始投喂小苏打或芒硝。",
+    "error_detail": "错误地将投喂物质从小苏打或芒硝改为食盐。",
+    "original_question": "分娩前3天母猪应开始投喂哪些物质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "分娩前应使用酒精消毒水清洗母猪的外阴和乳房。",
+    "reference_case": "分娩前应使用0.1%高锰酸钾消毒水清洗母猪的外阴和乳房。",
+    "error_detail": "错误地将消毒液从高锰酸钾改为酒精。",
+    "original_question": "母猪分娩前的外阴和乳房应使用何种消毒液清洗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "新生仔猪应在48小时内称重、剪牙、断尾，并用10%碘酊消毒剪牙钳和断尾处。",
+    "reference_case": "新生仔猪应在24小时内称重、剪牙、断尾，并用5%碘酊消毒剪牙钳和断尾处。",
+    "error_detail": "错误地延长了护理时间和改变了碘酊的浓度。",
+    "original_question": "新生仔猪初生后应进行哪些护理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪分娩后应提供哺乳母猪料，每天喂4~5次，产后5天恢复正常，直至断奶前5天。",
+    "reference_case": "母猪分娩后应提供哺乳母猪料，每天喂2~3次，产后3天恢复正常，直至断奶前3天。",
+    "error_detail": "错误地增加了喂食次数和延长了恢复正常和断奶前的时间。",
+    "original_question": "母猪分娩后应提供何种日粮？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育期结束时仔猪的出栏体重目标为15千克以上。",
+    "reference_case": "保育期结束时仔猪的出栏体重目标为20千克以上。",
+    "error_detail": "错误地降低了出栏体重的目标。",
+    "original_question": "保育期结束时仔猪的出栏体重目标是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育期仔猪转入保育舍前需要空栏消毒不少于1天。",
+    "reference_case": "保育期仔猪转入保育舍前需要空栏消毒不少于3天。",
+    "error_detail": "错误地减少了空栏消毒的时间。",
+    "original_question": "保育期仔猪转入保育舍前需要空栏消毒多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "保育期初入保育舍的仔猪前两天应自由采食。",
+    "reference_case": "保育期初入保育舍的仔猪前两天应注意限料，以防消化不良引起的下痢。",
+    "error_detail": "错误地建议自由采食，与限料的建议相冲突。",
+    "original_question": "保育期初入保育舍的仔猪前两天应如何管理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "保育期仔猪应完成训练猪群吃料、睡觉、排便“两定位”。",
+    "reference_case": "保育期仔猪应完成训练猪群吃料、睡觉、排便“三定位”。",
+    "error_detail": "错误地减少了训练的内容。",
+    "original_question": "保育期仔猪应如何进行调教？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "保育期仔猪在前一周应添加一些抗应激药物（如维力康、维生素C、多维、矿物质添加剂等），但不添加抗生素药物。",
+    "reference_case": "保育期仔猪在前一周应适当添加一些抗应激药物（如维力康、维生素C、多维、矿物质添加剂等），同时添加一些抗生素药物（如支原净、多西环素、土霉素等）。",
+    "error_detail": "错误地省略了抗生素药物的添加。",
+    "original_question": "保育期仔猪在前一周应添加哪些药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "非洲猪瘟（彩虹病毒）的检测方法有PCR和血清学检测。",
+    "reference_case": "Vl（CPE 和猪）、HAD、HA CF、FA、RIA、ELISA、IEOP。",
+    "error_detail": "错误地简化了检测方法的描述。",
+    "original_question": "非洲猪瘟（彩虹病毒）的检测方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "Spv质粒编码细胞内生长和血清抗性的能力，但不参与细菌逃避宿主免疫系统的作用。",
+    "reference_case": "Spv质粒编码细胞内生长和血清抗性的能力，并参与细菌逃避宿主免疫系统的作用。",
+    "error_detail": "错误地否定了Spv质粒在逃避宿主免疫系统中的作用。",
+    "original_question": "什么是Spv质粒的作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "未免疫的猪可以通过隔离来控制布鲁氏菌病。",
+    "reference_case": "最成功的控制方法是整群扑杀并用未感染的替代动物重新建群。清除成年家畜而保留刚断奶家畜的方法不成功。清除血清学阳性家畜的方法不能控制群中的感染。分娩操作和封闭群有助于建立和维持无布鲁氏菌病的猪群。",
+    "error_detail": "错误地提出了隔离作为控制方法。",
+    "original_question": "未免疫的猪如何控制布鲁氏菌病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "家畜皮肤癣菌病的常见症状包括发热和食欲不振。",
+    "reference_case": "宿主包括马、猪、犬、猫和鸡。症状有发干、表面非炎性脱落物、化脓、增厚、变白、\"石棉样\"病变、浅褐色硬皮、无痛的脱毛区域、鳞片状脱落、炎性反应、白垩样鳞片状脱落物、无菌性炎性病变等。",
+    "error_detail": "错误地添加了不属于皮肤癣菌病的症状。",
+    "original_question": "家畜皮肤癣菌病的常见症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "肺孢菌可引起人、犬、猫、马、猪、山羊、雪貂、小鼠和大鼠等宿主发生肺炎，但不包括鸟类。",
+    "reference_case": "肺孢菌可引起人、犬、猫、马、猪、山羊、雪貂、小鼠和大鼠等宿主发生肺炎。",
+    "error_detail": "错误地添加了不相关的排除信息。",
+    "original_question": "肺孢菌可引起哪些宿主发生肺炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "实验室诊断猪瘟和ASF的唯一方法是PCR技术。",
+    "reference_case": "实验室诊断需对猪瘟和ASF加以鉴别，这两种病产生的症状及对易感猪的损伤相似，包括发热、高致死率和内脏器官出血。检测组织应包括脾、肝、淋巴结和血液。病毒分离也可用于鉴定ASF病毒，通过血球吸附进行确定。用ASF病毒特异性抗血清对感染猪的组织切片进行免疫荧光或免疫酶染色，是一个快速诊断方法。PCR技术也可以用来快速鉴定ASF病毒的存在。",
+    "error_detail": "错误地简化了诊断方法。",
+    "original_question": "实验室诊断如何鉴别猪瘟和ASF？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "非洲猪瘟目前已有有效的疫苗和治疗方法。",
+    "reference_case": "对于非洲猪瘟，尚无有效的疫苗和治疗方法。",
+    "error_detail": "错误地声称存在有效的疫苗和治疗方法。",
+    "original_question": "非洲猪瘟目前是否有有效的疫苗和治疗方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "ASF的控制方法是通过疫苗接种。",
+    "reference_case": "可通过屠宰和处理所有进入新环境的暴露猪来消除ASF。但这些有效手段仍不能阻止病毒在大量软蜱和野猪间的扩散。消灭该病的前提是不仅要屠杀所有猪，还要用杀虫剂和含表面活性剂的对苯基苯酚消毒剂对环境进行处理，必须至少在一个月内不进行饲养。在重新饲养前，易感的警示动物应置于该环境中，以确认已消除该病毒。",
+    "error_detail": "错误地提出了疫苗接种作为控制方法。",
+    "original_question": "ASF的控制方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "马疱疹病毒4型（EHV-4）的灭活和弱毒疫苗效果非常显著。",
+    "reference_case": "马疱疹病毒4型（EHV-4）的灭活和弱毒疫苗效果雍贬不一。",
+    "error_detail": "错误地夸大了疫苗的效果。",
+    "original_question": "马疱疹病毒4型（EHV-4）的疫苗效果如何？",
+    "original_input": ""
+  }
+]

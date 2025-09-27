@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验设计了5个处理组，分别是I组（对照组）、II组（柴术抗激颗粒低剂量组）、III组（柴术抗激颗粒中剂量组）、IV组（柴术抗激颗粒高剂量组）和V组（柴术抗激颗粒超高剂量组）。",
+    "reference_case": "试验设计了4个处理组，分别是I组（对照组）、II组（柴术抗激颗粒低剂量组）、III组（柴术抗激颗粒中剂量组）和IV组（柴术抗激颗粒高剂量组）。",
+    "error_detail": "错误地增加了处理组的数量，从4个增加到5个。",
+    "original_question": "在柴术抗激颗粒对早期断奶仔猪生长性能的影响研究中，试验设计了多少个处理组？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "柴术抗激颗粒显著增加了早期断奶仔猪的腹泻率。III组和IV组的腹泻率极显著高于I组和II组，II组的腹泻率也极显著高于I组。",
+    "reference_case": "柴术抗激颗粒显著降低了早期断奶仔猪的腹泻率。III组和IV组的腹泻率极显著低于I组和II组，II组的腹泻率也极显著低于I组。",
+    "error_detail": "错误地颠倒了因果关系，将降低腹泻率改为增加腹泻率。",
+    "original_question": "柴术抗激颗粒对早期断奶仔猪的腹泻率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "柴术抗激颗粒显著降低了早期断奶仔猪血清总蛋白（TP）的含量。III组和IV组的血清TP含量显著或极显著低于I组。",
+    "reference_case": "柴术抗激颗粒显著提高了早期断奶仔猪血清总蛋白（TP）的含量。III组和IV组的血清TP含量显著或极显著高于I组。",
+    "error_detail": "错误地改变了数据趋势，从提高改为降低。",
+    "original_question": "柴术抗激颗粒对早期断奶仔猪血清总蛋白（TP）含量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "柴术抗激颗粒显著降低了早期断奶仔猪血清免疫球蛋白A（IgA）的水平。III组的IgA显著低于I组和II组，且III组的IgA与IV组相比有降低的趋势。",
+    "reference_case": "柴术抗激颗粒显著提高了早期断奶仔猪血清免疫球蛋白A（IgA）的水平。III组的IgA显著高于I组和II组，且III组的IgA与IV组相比有升高的趋势。",
+    "error_detail": "错误地改变了数据趋势，从提高改为降低。",
+    "original_question": "柴术抗激颗粒对早期断奶仔猪血清免疫球蛋白A（IgA）水平的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "柴术抗激颗粒显著提高了早期断奶仔猪血清肌酸激酶（CK）的含量。III组和IV组的血清CK含量极显著高于I组。",
+    "reference_case": "柴术抗激颗粒显著降低了早期断奶仔猪血清肌酸激酶（CK）的含量。III组和IV组的血清CK含量极显著低于I组。",
+    "error_detail": "错误地改变了数据趋势，从降低改为提高。",
+    "original_question": "柴术抗激颗粒对早期断奶仔猪血清肌酸激酶（CK）含量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "柴术抗激颗粒显著降低了早期断奶仔猪血清碱性磷酸酶（AKP）的活性。III组和IV组的血清AKP活性显著或极显著低于I组。",
+    "reference_case": "柴术抗激颗粒显著提高了早期断奶仔猪血清碱性磷酸酶（AKP）的活性。III组和IV组的血清AKP活性显著或极显著高于I组。",
+    "error_detail": "错误地改变了数据趋势，从提高改为降低。",
+    "original_question": "柴术抗激颗粒对早期断奶仔猪血清碱性磷酸酶（AKP）活性的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "柴术抗激颗粒显著提高了早期断奶仔猪血清尿素氮（BUN）的含量。III组和IV组的血清BUN含量极显著高于I组。",
+    "reference_case": "柴术抗激颗粒显著降低了早期断奶仔猪血清尿素氮（BUN）的含量。III组和IV组的血清BUN含量极显著低于I组。",
+    "error_detail": "错误地改变了数据趋势，从降低改为提高。",
+    "original_question": "柴术抗激颗粒对早期断奶仔猪血清尿素氮（BUN）含量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "柴术抗激颗粒显著提高了早期断奶仔猪血清乳酸脱氢酶（LDH）的含量。III组和IV组的血清LDH含量极显著高于I组。",
+    "reference_case": "柴术抗激颗粒显著降低了早期断奶仔猪血清乳酸脱氢酶（LDH）的含量。III组和IV组的血清LDH含量极显著低于I组。",
+    "error_detail": "错误地改变了数据趋势，从降低改为提高。",
+    "original_question": "柴术抗激颗粒对早期断奶仔猪血清乳酸脱氢酶（LDH）含量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "柴术抗激颗粒显著降低了早期断奶仔猪血清免疫球蛋白G（IgG）的水平。III组和IV组的血清IgG水平极显著低于I组和II组。",
+    "reference_case": "柴术抗激颗粒显著提高了早期断奶仔猪血清免疫球蛋白G（IgG）的水平。III组和IV组的血清IgG水平极显著高于I组和II组。",
+    "error_detail": "错误地改变了数据趋势，从提高改为降低。",
+    "original_question": "柴术抗激颗粒对早期断奶仔猪血清免疫球蛋白G（IgG）水平的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "文章中使用的是气相色谱法（GC）来检测猪肉中的地西泮、去甲羟地西泮和去甲地西泮。",
+    "reference_case": "文章中使用的是超高效液相色谱串联质谱法（UPLC-MS/MS）来检测猪肉中的地西泮、去甲羟地西泮和去甲地西泮。",
+    "error_detail": "错误地改变了检测方法，从UPLC-MS/MS改为GC。",
+    "original_question": "文章中使用的是什么方法来检测猪肉中的地西泮及其代谢物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型的基因组为双股环状DNA，长度为1766至1768个核苷酸，由3个大的开放阅读框架（ORFs）构成。ORF1编码与病毒复制相关的Rep和Rep'蛋白，ORF2编码病毒结构蛋白（Cap），ORF3编码的蛋白具有诱导细胞凋亡功能，与病毒致病性有关。",
+    "reference_case": "猪圆环病毒2型的基因组为单股环状DNA，长度为1766至1768个核苷酸，由2个大的开放阅读框架（ORFs）构成。ORF1编码与病毒复制相关的Rep和Rep'蛋白，ORF2编码病毒结构蛋白（Cap），ORF3编码的蛋白具有诱导细胞凋亡功能，与病毒致病性有关。",
+    "error_detail": "错误地改变了基因组的结构和ORFs的数量。",
+    "original_question": "猪圆环病毒2型（PCV2:的基因组结构是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪传染性胃肠炎病毒（TGEV）的临床症状包括发热、呕吐、严重腹泻和脱水，2周龄以内的仔猪死亡率较低。",
+    "reference_case": "猪传染性胃肠炎病毒（TGEV）的临床症状包括发热、呕吐、严重腹泻和脱水，2周龄以内的仔猪死亡率较高。",
+    "error_detail": "错误地改变了死亡率的高低。",
+    "original_question": "猪传染性胃肠炎病毒（TGEV）的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "主要目的是研究副猪嗜血杆菌（H. parasuis）外膜蛋白 P5（OmpP5:的物理特性，包括其分子量和等电点。",
+    "reference_case": "主要目的是研究副猪嗜血杆菌（H. parasuis）外膜蛋白 P5（OmpP5:的抗原特性，包括其交叉反应性和免疫保护作用。",
+    "error_detail": "错误地改变了研究目的，从抗原特性改为物理特性。",
+    "original_question": "副猪嗜血杆菌外膜蛋白 P5（OmpP5:的抗原特性研究的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌 OmpP5 的氨基酸序列在不同血清型之间的同源性为 50% 到 70%。",
+    "reference_case": "副猪嗜血杆菌 OmpP5 的氨基酸序列在不同血清型之间的同源性为 88:4% 到 100%。",
+    "error_detail": "错误地改变了同源性的范围。",
+    "original_question": "副猪嗜血杆菌 OmpP5 的氨基酸序列在不同血清型之间的同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "福建地区副猪嗜血杆菌的主要血清型包括血清1型、血清3型、血清6型、血清7型和未定型。",
+    "reference_case": "福建地区副猪嗜血杆菌的主要血清型包括血清13型、血清4型、血清5型、血清2型和未定型。",
+    "error_detail": "错误地改变了血清型的种类。",
+    "original_question": "福建地区副猪嗜血杆菌的主要血清型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "福建地区副猪嗜血杆菌对青霉素和氨芐青霉素表现出高耐药性，耐药率分别为93%和87%。",
+    "reference_case": "福建地区副猪嗜血杆菌对链霉素和杆菌肽表现出高耐药性，耐药率分别为93%和87%。",
+    "error_detail": "错误地改变了抗生素的种类。",
+    "original_question": "福建地区副猪嗜血杆菌对哪些抗生素表现出高耐药性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "福建地区副猪嗜血杆菌的OmpP5基因序列同源性在80%以上，氨基酸序列同源性在75%以上。",
+    "reference_case": "福建地区副猪嗜血杆菌的OmpP5基因序列同源性在93%以上，氨基酸序列同源性在91%以上。",
+    "error_detail": "错误地降低了同源性的百分比。",
+    "original_question": "福建地区副猪嗜血杆菌的OmpP5基因序列同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "福建地区副猪嗜血杆菌的分离株主要来自肝、脾、肾和脑，其中肝的分离率最高，达68%。",
+    "reference_case": "福建地区副猪嗜血杆菌的分离株主要来自肺、心血、腹水和关节囊液，其中肺表面的分离率最高，达68%。",
+    "error_detail": "错误地改变了分离株的来源。",
+    "original_question": "福建地区副猪嗜血杆菌的分离株主要来自哪些部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "福建地区副猪嗜血杆菌的致病性试验结果显示，接种血清5型、13型和未知型的小鼠在36小时后表现为精神沉郁，48小时后死亡率为50%。",
+    "reference_case": "福建地区副猪嗜血杆菌的致病性试验结果显示，接种血清5型、13型和未知型的小鼠在36小时后表现为精神沉郁，但48小时后恢复正常，死亡率为零。",
+    "error_detail": "错误地改变了死亡率的数据。",
+    "original_question": "福建地区副猪嗜血杆菌的致病性试验结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "福建地区副猪嗜血杆菌的药敏试验结果显示，链霉素和杆菌肽是最敏感的抗生素，100%的菌株对这些药物敏感。",
+    "reference_case": "福建地区副猪嗜血杆菌的药敏试验结果显示，青霉素、氨芐青霉素、新霉素和洁霉素是最敏感的抗生素，100%的菌株对这些药物敏感。",
+    "error_detail": "错误地改变了抗生素的种类。",
+    "original_question": "福建地区副猪嗜血杆菌的药敏试验结果显示哪些抗生素最敏感？",
+    "original_input": ""
+  }
+]

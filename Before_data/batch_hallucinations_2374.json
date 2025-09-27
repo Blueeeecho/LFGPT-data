@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "欧盟已于2005年禁止将喹乙醇作为饲料添加剂使用，我国也明确规定喹乙醇禁用于禽，禁用于体重超过40kg的猪，休药期为40天。",
+    "reference_case": "欧盟已于1998年禁止将喹乙醇作为饲料添加剂使用，我国也明确规定喹乙醇禁用于禽，禁用于体重超过35kg的猪，休药期为35天。",
+    "error_detail": "错误地更新了欧盟禁止使用喹乙醇的时间和我国对猪体重限制及休药期的规定。",
+    "original_question": "喹乙醇的使用是否受到限制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "高铜饲料对猪生长具有抑制作用，并可使猪粪呈白色，减少猪饲料的商业性状。",
+    "reference_case": "高铜饲料不仅对猪生长具有促进作用，还可使猪粪呈黑色，增加猪饲料的商业性状。",
+    "error_detail": "错误地描述了高铜饲料对猪生长的影响和猪粪的颜色变化。",
+    "original_question": "高铜饲料对猪生长的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "当猪饲粮添加铜50-75mg/kg时，肝铜含量升高1-2倍；添加铜150mg/kg时，肝铜含量升高约5倍；添加铜300mg/kg时，肝铜升高可达30倍。",
+    "reference_case": "当猪饲粮添加铜100-125mg/kg时，肝铜含量升高2-3倍；添加铜250mg/kg时，肝铜含量升高约10倍；添加铜500mg/kg时，肝铜升高可达70倍。",
+    "error_detail": "错误地降低了铜添加量和肝铜含量升高的倍数。",
+    "original_question": "高铜饲料添加量对猪肝脏铜含量的影响有多大？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "美国规定30 kg以下猪饲料中铜的添加上限为150 mg/kg，30~70 kg生长猪为60 mg/kg，70 kg以上猪为15 mg/kg。",
+    "reference_case": "日本规定30 kg以下猪饲料中铜的添加上限为125 mg/kg，30~70 kg生长猪为45 mg/kg，70 kg以上猪为10 mg/kg。",
+    "error_detail": "错误地将日本的铜添加上限规定误认为是美国的。",
+    "original_question": "日本对不同体重阶段的猪饲料中铜的添加上限分别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "我国农业部规定30 kg以下、30~60 kg、60 kg以上猪的配合饲料中铜的含量分别不应高于200、150和100 mg/kg。",
+    "reference_case": "我国农业部规定30 kg以下、30~60 kg、60 kg以上猪的配合饲料中铜的含量分别不应高于",
+    "error_detail": "错误地添加了具体的铜含量上限，而原始输出未提供具体数值。",
+    "original_question": "我国农业部对不同体重阶段猪饲料中铜的含量有何规定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "高剂量氧化锌（1000~2000 mg/kg）可减少断奶仔猪腹泻，促进生长。",
+    "reference_case": "高剂量氧化锌（2000~3000 mg/kg）可减少断奶仔猪腹泻，促进生长。",
+    "error_detail": "错误地降低了高剂量氧化锌的推荐添加量。",
+    "original_question": "高剂量氧化锌在断奶仔猪饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "高剂量氧化锌可使猪背最长肌锌含量显著减少。然而，动物能吸收利用超过正常生理需要的锌，导致大部分锌在体组织中残留。",
+    "reference_case": "高剂量氧化锌可使猪背最长肌锌含量显著增加。然而，动物仅能吸收利用满足正常生理需要的锌，剩下大部分未被吸收的锌最终全部通过粪便排出体外，很少在体组织中残留。",
+    "error_detail": "错误地描述了高剂量氧化锌对猪背最长肌锌含量的影响和锌的吸收利用情况。",
+    "original_question": "高剂量氧化锌对猪体组织中锌的残留有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "砷制剂可通过收缩毛细血管、降低毛细血管开放率而使肉猪皮肤发白，同时可抑制畜禽生长。",
+    "reference_case": "砷制剂可通过扩张毛细血管、提高毛细血管开放率而使肉猪皮肤发红，同时可促进畜禽生长。",
+    "error_detail": "错误地描述了砷制剂对毛细血管和畜禽生长的影响。",
+    "original_question": "砷制剂在畜禽生产中有哪些作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "低剂量赖氨酸螯合铜（50 mg/kg）的促长效果更优，且显著增加肝脏和粪便中的铜沉积量。",
+    "reference_case": "与CuSO₄相比，低剂量赖氨酸螯合铜（100 mg/kg）的促长效果更优，且显著降低肝脏和粪便中的铜沉积量。",
+    "error_detail": "错误地降低了赖氨酸螯合铜的剂量并改变了其对铜沉积量的影响。",
+    "original_question": "赖氨酸螯合铜作为生长促进剂的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪、小猪阶段：有机铁100 mg Fe/kg + 有机锌100 mg Zn/kg + 有机铜150 mg Cu/kg；生长猪阶段：有机铁80 mg Fe/kg + 有机锌100 mg Zn/kg + 有机铜120 mg Cu/kg；肥育猪阶段：有机铁60 mg Fe/kg + 有机锌80 mg Zn/kg + 有机铜60 mg Cu/kg。",
+    "reference_case": "仔猪、小猪阶段：有机铁84 mg Fe/kg + 有机锌80 mg Zn/kg + 有机铜100-125 mg Cu/kg；生长猪阶段：有机铁70 mg Fe/kg + 有机锌80 mg Zn/kg + 有机铜100 mg Cu/kg；肥育猪阶段：有机铁56 mg Fe/kg + 有机锌60 mg Zn/kg + 有机铜50 mg Cu/kg。",
+    "error_detail": "错误地提高了有机铁、锌、铜的添加量。",
+    "original_question": "特定生长阶段猪肉中有机微量元素的最佳添加量是多少？",
+    "original_input": ""
+  }
+]

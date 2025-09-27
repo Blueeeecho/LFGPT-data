@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "大白猪和长白猪的CD4基因启动子区的SNP位点可能结合转录因子Hb蛋白。",
+    "reference_case": "大白猪和长白猪的CD4基因启动子区的SNP位点可能结合转录因子Hb蛋白。",
+    "error_detail": "转录因子Hb蛋白并非已知的转录因子，存在概念混淆。",
+    "original_question": "大白猪和长白猪的CD4基因启动子区的SNP位点可能结合哪种转录因子？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "大白猪和长白猪的CD4基因启动子区的SNP位点处于Hardy-Weinberg平衡状态。",
+    "reference_case": "不处于Hardy-Weinberg平衡状态，大白猪和长白猪的CD4基因启动子区的SNP位点都不处于Hardy-Weinberg平衡状态。",
+    "error_detail": "错误地陈述了SNP位点的Hardy-Weinberg平衡状态。",
+    "original_question": "大白猪和长白猪的CD4基因启动子区的SNP位点是否处于Hardy-Weinberg平衡状态？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "大白猪和长白猪的CD4基因启动子区存在多个SNP位点。",
+    "reference_case": "大白猪和长白猪的CD4基因启动子区存在一个SNP位点，即-152 A→T。",
+    "error_detail": "错误地增加了SNP位点的数量。",
+    "original_question": "大白猪和长白猪的CD4基因启动子区存在哪种SNP位点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "大白猪和长白猪的CD4基因启动子区的SNP位点的基因频率分布存在显著性差异（χ²=3.5, P<0.05）。",
+    "reference_case": "不，大白猪和长白猪的CD4基因启动子区的SNP位点的基因频率分布差异不显著（χ²=0:87, P>0:05:。",
+    "error_detail": "错误地陈述了基因频率分布的显著性差异。",
+    "original_question": "大白猪和长白猪的CD4基因启动子区的SNP位点的基因频率分布是否存在显著性差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在猪卵母细胞体外成熟过程中，雌激素和孕激素对其成熟起到了关键作用。",
+    "reference_case": "在猪卵母细胞体外成熟过程中，FSH和LH这两种激素对其成熟起到了关键作用，FSH与卵丘的扩张和卵母细胞质成熟有关，LH可促进细胞质成熟。",
+    "error_detail": "错误地识别了关键作用的激素。",
+    "original_question": "猪卵母细胞体外成熟过程中，哪些激素对其成熟起到了关键作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪卵母细胞体外减数分裂成熟过程中，Smad3基因的mRNA表达和蛋白磷酸化水平呈现下降的趋势。",
+    "reference_case": "在猪卵母细胞体外减数分裂成熟过程中，Smad3基因的mRNA表达和蛋白磷酸化水平随着卵母细胞减数分裂成熟进程呈现上升的趋势。",
+    "error_detail": "错误地描述了Smad3基因的mRNA表达和蛋白磷酸化水平的变化趋势。",
+    "original_question": "在猪卵母细胞体外减数分裂成熟过程中，Smad3基因的mRNA表达和蛋白磷酸化水平如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪卵母细胞体外成熟过程中，GVBD和MI期的Smad3基因mRNA水平与GV期相比差异不显著。",
+    "reference_case": "在猪卵母细胞体外成熟过程中，GVBD和MI期的Smad3基因mRNA水平与GV期相比差异显著（P<0:05:，MII期mRNA水平达到峰值，与GV期相比差异极显著（P<0:01:。",
+    "error_detail": "错误地描述了Smad3基因mRNA水平的差异显著性。",
+    "original_question": "猪卵母细胞体外成熟过程中，SMAD3基因的表达在哪些阶段有显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪卵母细胞体外成熟过程中，GSH的浓度随着培养时间的延长有所降低。",
+    "reference_case": "在猪卵母细胞体外成熟过程中，GSH的浓度随着培养时间的延长有所增高，MII期时GSH水平达到峰值，与GV期相比差异极显著（P<0:01:。",
+    "error_detail": "错误地描述了GSH浓度的变化趋势。",
+    "original_question": "在猪卵母细胞体外成熟过程中，GSH的浓度如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪卵母细胞体外成熟过程中，GVBD、MI期与GV期相比GSH浓度差异不显著。",
+    "reference_case": "在猪卵母细胞体外成熟过程中，GVBD、MI期与GV期相比GSH浓度差异显著（P<0:05:，MII期时GSH浓度达到峰值，与GV期相比差异极显著（P<0:01:。",
+    "error_detail": "错误地描述了GSH浓度的差异显著性。",
+    "original_question": "猪卵母细胞体外成熟过程中，GSH的浓度在哪些阶段有显著差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在猪卵母细胞体外成熟过程中，半胱氨酸抑制GSH的合成。",
+    "reference_case": "在猪卵母细胞体外成熟过程中，半胱氨酸是GSH的前体物质，能够增加细胞内的GSH浓度，并保持GSH高浓度状态，从而提高胚胎的发育率。",
+    "error_detail": "错误地描述了半胱氨酸对GSH合成的作用。",
+    "original_question": "在猪卵母细胞体外成熟过程中，半胱氨酸对GSH的合成有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "卵丘细胞对卵母细胞的发育没有作用。",
+    "reference_case": "卵丘细胞对卵母细胞的发育有至关重要的作用，它可以提供卵母细胞发育所需的各种营养物质，并且在体外成熟过程中，卵丘细胞和卵母细胞之间存在间隙连接，可以相互传递营养物质和信息，促进卵母细胞的成熟。",
+    "error_detail": "错误地描述了卵丘细胞对卵母细胞发育的作用。",
+    "original_question": "猪卵母细胞体外成熟过程中，卵丘细胞对卵母细胞的发育有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪卵母细胞体外成熟过程中，只有温度会影响其成熟率。",
+    "reference_case": "猪卵母细胞体外成熟过程中，保存卵巢生理盐水的温度、激素（如FSH和LH）的添加、卵丘细胞的存在与否等因素都会影响其成熟率。",
+    "error_detail": "错误地简化了影响成熟率的因素。",
+    "original_question": "猪卵母细胞体外成熟过程中，哪些因素会影响其成熟率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在猪卵母细胞体外成熟过程中，SMAD3蛋白的磷酸化水平随着培养时间的延长逐渐降低。",
+    "reference_case": "在猪卵母细胞体外成熟过程中，SMAD3蛋白的磷酸化水平随着培养时间的延长逐渐升高，表明卵母细胞减数分裂成熟可能与Smad3基因的表达有关。",
+    "error_detail": "错误地描述了SMAD3蛋白磷酸化水平的变化趋势。",
+    "original_question": "在猪卵母细胞体外成熟过程中，SMAD3蛋白的磷酸化水平如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "植酸酶在五龙鹅饲粮中的应用研究背景是因为其在鹅营养中的研究已经非常充分。",
+    "reference_case": "植酸酶在猪鸡等动物生产中的研究较多，但关于其对鹅屠宰性能的影响研究较少，且我国对鹅营养的研究起步较晚，因此本研究旨在探讨植酸酶在鹅饲粮中的应用。",
+    "error_detail": "错误地描述了研究背景。",
+    "original_question": "植酸酶在五龙鹅饲粮中的应用研究背景是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磷酸钙盐中的铅含量对动物存在潜在威胁。",
+    "reference_case": "磷酸钙盐中的钒含量对动物存在潜在威胁，因为其含量接近猪、鸡的最大耐受量10 mg/kg。",
+    "error_detail": "错误地识别了潜在威胁的金属元素。",
+    "original_question": "磷酸钙盐中哪些金属元素的含量对动物存在潜在威胁？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "磷酸钙盐中的铜、铁、锌、锰含量不能满足猪鸡的营养需要。",
+    "reference_case": "磷酸钙盐中的铜、铁、锌、锰含量可以满足猪鸡的营养需要。",
+    "error_detail": "错误地描述了金属元素对营养需要的满足情况。",
+    "original_question": "磷酸钙盐中哪些金属元素的含量可以满足猪鸡的营养需要？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "添加β-甘露聚糖酶对断奶仔猪的免疫指标有显著影响。",
+    "reference_case": "添加β-甘露聚糖酶对断奶仔猪的免疫指标没有显著影响，但添加100mg/kg的β-甘露聚糖酶有增加第14天IgG、IgM、IgA和第28天IgG含量的趋势。",
+    "error_detail": "错误地描述了β-甘露聚糖酶对免疫指标的影响。",
+    "original_question": "β-甘露聚糖酶对断奶仔猪的免疫指标有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "通过PCR技术直接测定断奶仔猪肠道微生物菌群的变化。",
+    "reference_case": "通过DGGE（变性梯度凝胶电泳）技术测定断奶仔猪肠道微生物菌群的变化。首先使用粪样基因提取试剂盒提取细菌总DNA，然后进行细菌16S rDNA V6-V8区片段的PCR扩增，扩增产物进行DGGE电泳，最后采用Bio-Rad QUANTITY one软件对电泳图像进行处理。",
+    "error_detail": "错误地简化了测定方法。",
+    "original_question": "如何测定断奶仔猪肠道微生物菌群的变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "添加β-甘露聚糖酶对断奶仔猪的肠道菌群结构有显著影响。",
+    "reference_case": "添加β-甘露聚糖酶对断奶仔猪的肠道菌群结构没有显著影响，但在试验第28天添加100mg/kg的β-甘露聚糖酶有增加粪样菌群丰富度的趋势。",
+    "error_detail": "错误地描述了β-甘露聚糖酶对肠道菌群结构的影响。",
+    "original_question": "在断奶仔猪的日粮中添加β-甘露聚糖酶对肠道菌群结构有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在断奶仔猪的日粮中添加β-甘露聚糖酶对生产性能没有影响。",
+    "reference_case": "在断奶仔猪的日粮中添加100mg/kg的β-甘露聚糖酶可以显著提高仔猪的末重和日增重，分别增加9:20%和20:69%，同时降低饲料增重比8:46%，并减少死淘率49:96%。",
+    "error_detail": "错误地描述了β-甘露聚糖酶对生产性能的影响。",
+    "original_question": "在断奶仔猪的日粮中添加β-甘露聚糖酶对生产性能有何影响？",
+    "original_input": ""
+  }
+]

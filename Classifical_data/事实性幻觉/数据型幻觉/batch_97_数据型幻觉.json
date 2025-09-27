@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪伪狂犬病的典型症状是明显的神经症状，明显的其他主要症状，60%的仔猪感染，脑切片组织学检查显示神经节细胞内有内基氏小体，家兔皮下接种阳性。",
+    "reference_case": "猪伪狂犬病的典型症状是明显的神经症状，明显的其他主要症状，80%的仔猪感染，脑切片组织学检查显示神经节细胞内有内基氏小体，家兔皮下接种阳性。",
+    "error_detail": "错误地降低了仔猪感染的比例。",
+    "original_question": "猪伪狂犬病的典型症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪狂犬病的典型症状是明显的神经症状，攻击人和其他动物，80%的公猪睾丸炎母猪流产，脑切片组织学检查显示非化脓性脑炎，小鼠脑内接种阳性。",
+    "reference_case": "猪狂犬病的典型症状是明显的神经症状，攻击人和其他动物，100%的公猪睾丸炎母猪流产，脑切片组织学检查显示非化脓性脑炎，小鼠脑内接种阳性。",
+    "error_detail": "错误地降低了公猪睾丸炎和母猪流产的比例。",
+    "original_question": "猪狂犬病的典型症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪日本乙型脑炎的典型症状是明显的神经症状，仅少数出现，90%的病死率，脑切片组织学检查显示非化脓性脑炎，小鼠脑内接种阳性。",
+    "reference_case": "猪日本乙型脑炎的典型症状是明显的神经症状，仅少数出现，70%的病死率，脑切片组织学检查显示非化脓性脑炎，小鼠脑内接种阳性。",
+    "error_detail": "病死率数据被错误地从70%修改为90%。",
+    "original_question": "猪日本乙型脑炎的典型症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪水肿病的典型症状是明显的神经症状，明显的其他主要症状，80%的病死率，脑切片组织学检查显示水肿部嗜酸性细胞漫润，小鼠脑内接种阳性。",
+    "reference_case": "猪水肿病的典型症状是明显的神经症状，明显的其他主要症状，100%的病死率，脑切片组织学检查显示水肿部嗜酸性细胞漫润，小鼠脑内接种阳性。",
+    "error_detail": "病死率数据被错误地从100%修改为80%。",
+    "original_question": "猪水肿病的典型症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "按体重，牛、马 15 mg/kg，骆驼、鹿等动物 20 mg/kg，用灭菌蒸馏水或生理盐水配成 10% 溶液静脉注射。",
+    "reference_case": "按体重，牛、马 12 mg/kg，骆驼、鹿等动物 17 mg/kg，用灭菌蒸馏水或生理盐水配成 10% 溶液静脉注射。",
+    "error_detail": "药物剂量被错误地增加。",
+    "original_question": "特效药物拜耳 205的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪食用苦参后可能出现沉郁，腹痛，腹泻，呕吐，搐搦，痉挛，死亡率为100%。",
+    "reference_case": "猪食用苦参后可能出现沉郁，腹痛，腹泻，呕吐，搐搦，痉挛。马死前呼吸增数，肌肉搐搦，出汗，体温骤降，最后呼吸浅慢，麻痹死亡。",
+    "error_detail": "错误地增加了死亡率为100%的数据，实际上死亡率并未明确。",
+    "original_question": "猪食用苦参后可能出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "呕吐（猪、牛），腹痛，腹泻，随后出现神经系统症状，严重者导致中枢神经，特别是呼吸、循环中枢功能衰竭，血压下降，呼吸抑制。这些症状在90%的病例中出现。",
+    "reference_case": "呕吐（猪、牛），腹痛，腹泻，随后出现神经系统症状，严重者导致中枢神经，特别是呼吸、循环中枢功能衰竭，血压下降，呼吸抑制。",
+    "error_detail": "错误地增加了90%的病例中出现这些症状的数据，实际上无此数据。",
+    "original_question": "慢性有机硫中毒主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "李德发教授团队通过研究母猪营养，发现营养过剩和不足都会影响胎儿生长。他们用氨基酸、精氨酸解决胎盘血管发育问题，增加流经胎盘的血流量，为胎儿供给更多的营养和氧气，从而节约饲料50%。",
+    "reference_case": "李德发教授团队通过研究母猪营养，发现营养过剩和不足都会影响胎儿生长。他们用氨基酸、精氨酸解决胎盘血管发育问题，增加流经胎盘的血流量，为胎儿供给更多的营养和氧气，从而节约饲料。",
+    "error_detail": "在原始output中没有提到节约饲料的具体比例，添加了不存在的数值信息。",
+    "original_question": "李德发教授团队如何通过母猪营养解决高效问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年，安佑集团的乳猪料销量超过50万吨，全部安佑饲料销量达到120万吨。",
+    "reference_case": "2012年，安佑集团的乳猪料销量超过30万吨，全部安佑饲料销量达到90万吨。",
+    "error_detail": "夸大了销量数据，与原始output不符。",
+    "original_question": "安佑集团在2012年的乳猪料销量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "洪平先生通过安佑学堂传播养猪技术，建立了培训教室、学员宾馆、学员食堂等设施，方便养猪人学习。13年来，他在全国各地举办了近两千场次培训，八万多人受益，推动了中国养殖业的技术进步。",
+    "reference_case": "洪平先生通过安佑学堂传播养猪技术，建立了培训教室、学员宾馆、学员食堂等设施，方便养猪人学习。13年来，他在全国各地举办了近千场次培训，四万多人受益，推动了中国养殖业的技术进步。",
+    "error_detail": "夸大了培训场次和受益人数，与原始output不符。",
+    "original_question": "洪平先生如何通过安佑学堂传播养猪技术？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "网易养猪场的总投资额是5亿元。",
+    "reference_case": "网易养猪场的总投资额是3亿元。",
+    "error_detail": "夸大了总投资额，与原始output不符。",
+    "original_question": "网易养猪场的总投资额是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "马的用药剂量比例为1，黄牛为1~1.25，水牛为1~1.5，驴为1/3~1/2，羊为1/6~1/5，猪为1/8~1/5，犬为1/16~1/10，猫为1/32~1/20，兔为1/25~1/15，劝为1/40~1/20。",
+    "reference_case": "马的用药剂量比例为1，黄牛为1~1.25，水牛为1~1.5，驴为1/3~1/2，羊为1/6~1/5，猪为1/8~1/5，犬为1/16~1/10，猫为1/32~1/20，兔为1/25~1/15，劝为1/40~1/20。",
+    "error_detail": "数据型幻觉，错误地提供了不准确的用药剂量比例",
+    "original_question": "不同种类动物的用药剂量比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪的盲肠长约21 cm，直径为8 cm。",
+    "reference_case": "猪的盲肠长约21 cm，直径为8 cm。",
+    "error_detail": "数据型幻觉，错误地提供了不准确的盲肠长度和直径",
+    "original_question": "猪的盲肠长度和直径分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "绿黄隆在施药后115天对猪殃殃的株防效分别为91.5%、77.3%、68.1%和48.2%。",
+    "reference_case": "绿黄隆在施药后115天对猪殃殃的株防效分别为91.5%、77.3%、68.1%和48.2%。",
+    "error_detail": "数据型幻觉，错误地提供了不准确的株防效数据",
+    "original_question": "绿黄隆在施药后115天对猪殃殃的株防效是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "绿黄隆在施药后115天对猪殃殃的鲜重防效分别为90.7%、88.3%、87.7%和44.9%。",
+    "reference_case": "绿黄隆在施药后115天对猪殃殃的鲜重防效分别为90.7%、88.3%、87.7%和44.9%。",
+    "error_detail": "数据型幻觉，错误地提供了不准确的鲜重防效数据",
+    "original_question": "绿黄隆在施药后115天对猪殃殃的鲜重防效是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "施药后30天，四个处理对猪殃殃的防效分别为96.3%、33.4%、89.4%和88.6%。",
+    "reference_case": "施药后30天，四个处理对猪殃殃的防效分别为96.3%、33.4%、89.4%和88.6%。",
+    "error_detail": "数据型幻觉，错误地提供了不准确的防效数据",
+    "original_question": "施药后30天，四个处理对猪殃殃的防效分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "施药后90天，四个处理对猪殃殃的防效分别为98.4%、92.3%、93%和87.7%。",
+    "reference_case": "施药后90天，四个处理对猪殃殃的防效分别为98.4%、92.3%、93%和87.7%。",
+    "error_detail": "数据型幻觉，错误地提供了不准确的防效数据",
+    "original_question": "施药后90天，四个处理对猪殃殃的防效分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "施药后126天，四个处理对猪殃殃的防效分别为99.4%、97.9%、78.4%和94.1%。",
+    "reference_case": "施药后126天，四个处理对猪殃殃的防效分别为99.4%、97.9%、78.4%和94.1%。",
+    "error_detail": "数据型幻觉，错误地提供了不准确的防效数据",
+    "original_question": "施药后126天，四个处理对猪殃殃的防效分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪舍占地面积为6168平方米。",
+    "reference_case": "猪舍占地面积为6168平方米。",
+    "error_detail": "数据型幻觉，错误地提供了不准确的猪舍占地面积",
+    "original_question": "猪舍占地面积是多少平方米？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "1978~1984年，养猪共生产12152.19单位，年平均生产1736.0单位。",
+    "reference_case": "1978~1984年，养猪共生产12152.19单位，年平均生产1736.0单位。",
+    "error_detail": "数据型幻觉，错误地提供了不准确的经济效益数据",
+    "original_question": "该农场通过养猪生产获得了哪些经济效益？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "1980〜1984年，肥猪出栏共4995头，平均每头出栏重243.51斤。",
+    "reference_case": "1980〜1984年，肥猪出栏共4995头，平均每头出栏重243.51斤。",
+    "error_detail": "数据型幻觉，错误地提供了不准确的肥猪出栏量和重量",
+    "original_question": "该农场通过养猪生产的肥猪每年出栏量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "为了进行生态效益比较，以肥猪为1，公猪为2.27，母猪为2.16，仔猪为0.12折算猪单价。",
+    "reference_case": "为了进行生态效益比较，以肥猪为1，公猪为2.27，母猪为2.16，仔猪为0.12折算猪单价。",
+    "error_detail": "数据型幻觉，错误地提供了不准确的猪单价折算比例",
+    "original_question": "该农场通过养猪生产的肥猪每斤的单价如何折算？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每年生产仔猪2999—3773头。",
+    "reference_case": "每年生产仔猪2999—3773头。",
+    "error_detail": "数据型幻觉，错误地提供了不准确的仔猪生产数量",
+    "original_question": "该农场通过养猪生产每年生产多少头仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪消化蚕豆的代谢能为2.29兆卡/公斤。",
+    "reference_case": "猪消化蚕豆的代谢能为2.29兆卡/公斤。",
+    "error_detail": "数据型幻觉，错误地提供了不准确的代谢能数据",
+    "original_question": "猪消化蚕豆的代谢能是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪血液占活体重的6.0%～7.0%，牛血液占4.5%，羊血液占4.9%，禽血液占活体重的4.9%。",
+    "reference_case": "猪血液占活体重的4.6%～5.0%，牛血液占3.5%，羊血液占3.9%，禽血液占活体重的3.9%。",
+    "error_detail": "数值偏差",
+    "original_question": "猪、牛、羊和禽的血液分别占其活体重的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "蛋鸡、鸭、鹅日粮中可添加7%～8%；肉鸡可加入9%～10%；猪日粮中可添加11%～12%；牛、羊补充饲料中可占8%～9%；鱼、对虾饵料中不超过15%；其他动物饲料中可添加9%。",
+    "reference_case": "蛋鸡、鸭、鹅日粮中可添加5%～6%；肉鸡可加入6%～8%；猪日粮中可添加8%～10%；牛、羊补充饲料中可占5%～7%；鱼、对虾饵料中不超过10%；其他动物饲料中可添加6%。",
+    "error_detail": "数值偏差",
+    "original_question": "羽毛粉的添加比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小麦用于猪饲料以粗粉为宜，用量不超过60%，否则有可能导致酸中毒。",
+    "reference_case": "小麦用于猪饲料以粗粉为宜，用量不超过50%，否则有可能导致酸中毒。",
+    "error_detail": "数值偏差",
+    "original_question": "小麦在猪饲料中的用量建议是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高单宁酸含量的高粱用量应在15%~25%以下，否则会造成生长抑制和较低饲料效率，鸡猪均有同样现象。",
+    "reference_case": "高单宁酸含量的高粱用量应在10%~20%以下，否则会造成生长抑制和较低饲料效率，鸡猪均有同样现象。",
+    "error_detail": "数值偏差",
+    "original_question": "高单宁酸含量的高粱对鸡、猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪消化能为15.39 MJ/kg，代谢能为14.57 MJ/kg。",
+    "reference_case": "猪消化能为14.39 MJ/kg，代谢能为13.57 MJ/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "猪消化能和代谢能的具体数值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加大豆磷脂可提高生长效率和饲料转化率，如在断奶仔猪日粮中添加0.3%脱油大豆磷脂，仔猪的日增重提高10.5%，料重比降低8.5%；添加0.7%脱油大豆磷脂，日增重提高18.1%，料重比降低13%。添加6%大豆磷脂，生长猪日增重提高8%。添加3%改性磷脂，肉鸡增重提高8%～11%，饲料报酬提高6%～9%。添加2.5%大豆磷脂，产蛋鸡产蛋率提高10.9%，饲料报酬提高10.2%。用浓缩大豆磷脂替代蛋鸡日粮中4%的油脂，蛋鸡多产蛋8.1%，蛋白质消耗减少8.2%。",
+    "reference_case": "添加大豆磷脂可提高生长效率和饲料转化率，如在断奶仔猪日粮中添加0.2%脱油大豆磷脂，仔猪的日增重提高9.5%，料重比降低7.5%；添加0.6%脱油大豆磷脂，日增重提高17.1%，料重比降低12%。添加5%大豆磷脂，生长猪日增重提高7%。添加2%改性磷脂，肉鸡增重提高7%～10%，饲料报酬提高5%～8%。添加1.5%大豆磷脂，产蛋鸡产蛋率提高9.9%，饲料报酬提高9.2%。用浓缩大豆磷脂替代蛋鸡日粮中3%的油脂，蛋鸡多产蛋7.1%，蛋白质消耗减少7.2%。",
+    "error_detail": "数值偏差",
+    "original_question": "大豆磷脂在动物生产中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "普通豆粕的有效能指标包括消化能（猪：15.26 MJ/kg，羊：15.27 MJ/kg）、代谢能（猪：13.43 MJ/kg，鸡：2.00 MJ/kg）、维持净能（肉牛：9.71 MJ/kg）、增重净能（肉牛：7.20 MJ/kg）、产奶净能（奶牛：8.45 MJ/kg）。",
+    "reference_case": "普通豆粕的有效能指标包括消化能（猪：14.26 MJ/kg，羊：14.27 MJ/kg）、代谢能（猪：12.43 MJ/kg，鸡：1.00 MJ/kg）、维持净能（肉牛：8.71 MJ/kg）、增重净能（肉牛：6.20 MJ/kg）、产奶净能（奶牛：7.45 MJ/kg）。",
+    "error_detail": "数值偏差",
+    "original_question": "普通豆粕的有效能包括哪些指标？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "普通豆粕中的氨基酸含量及其消化率包括赖氨酸（2.78%，猪：92%，鸡：88%）、蛋氨酸（0.69%，猪：93%，鸡：88%）、苏氨酸（1.81%，猪：89%，鸡：87%）、异亮氨酸（2.09%，猪：93%，鸡：89%）、亮氨酸（3.45%，猪：90%，鸡：92%）、精氨酸（3.48%，猪：95%，鸡：95%）、䫛氨酸（2.19%，猪：89%，鸡：87%）、组氨酸（1.27%，猪：90%，鸡：92%）、酪氨酸（1.57%，猪：91%，鸡：90%）、苯丙氨酸（2.31%，猪：88%，鸡：93%）、色氨酸（0.67%，猪：92%，鸡：85%）。",
+    "reference_case": "普通豆粕中的氨基酸含量及其消化率包括赖氨酸（2.68%，猪：91%，鸡：87%）、蛋氨酸（0.59%，猪：92%，鸡：87%）、苏氨酸（1.71%，猪：88%，鸡：86%）、异亮氨酸（1.99%，猪：92%，鸡：88%）、亮氨酸（3.35%，猪：89%，鸡：91%）、精氨酸（3.38%，猪：94%，鸡：94%）、䫛氨酸（2.09%，猪：88%，鸡：86%）、组氨酸（1.17%，猪：89%，鸡：91%）、酪氨酸（1.47%，猪：90%，鸡：89%）、苯丙氨酸（2.21%，猪：87%，鸡：92%）、色氨酸（0.57%，猪：91%，鸡：84%）。",
+    "error_detail": "数值偏差",
+    "original_question": "普通豆粕中的氨基酸含量及其消化率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "氨基酸在猪和鸡中的真消化率分别为：赖氨酸（76-77%）、蛋氨酸（87-90%）、胱氨酸（80-75%）、苏氨酸（75-82%）、异亮氨酸（77-86%）、亮氨酸（82-90%）、精氨酸（87-92%）、缬氨酸（75-84%）、组氨酸（84-90%）、酪氨酸（79-87%）、苯丙氨酸（82-89%）、色氨酸（81-85%）。",
+    "reference_case": "氨基酸在猪和鸡中的真消化率分别为：赖氨酸（75-76%）、蛋氨酸（86-89%）、胱氨酸（79-74%）、苏氨酸（74-81%）、异亮氨酸（76-85%）、亮氨酸（81-89%）、精氨酸（86-91%）、缬氨酸（74-83%）、组氨酸（83-89%）、酪氨酸（78-86%）、苯丙氨酸（81-88%）、色氨酸（80-84%）。",
+    "error_detail": "数值偏差",
+    "original_question": "氨基酸在不同动物中的消化率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "菜籽饼对猪的饲料价值一般，低毒品种可用至20%，双低型可用至25%，但需注意适口性差，甲状腺及肝、肾肿大等问题。",
+    "reference_case": "菜籽饼对猪的饲料价值一般，低毒品种可用至15%，双低型可用至20%，但需注意适口性差，甲状腺及肝、肾肿大等问题。",
+    "error_detail": "数值偏差",
+    "original_question": "菜籽饼对猪的饲料价值如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "育肥猪饲料中可用至1/2左右，其他用途的猪不提倡用菜籽饼；肉鸡后期可用至15%，蛋鸡、种鸡用到10%以下。",
+    "reference_case": "育肥猪饲料中可用至1/3左右，其他用途的猪不提倡用菜籽饼；肉鸡后期可用至10%，蛋鸡、种鸡用到5%以下。",
+    "error_detail": "数值偏差",
+    "original_question": "菜籽饼在饲料中的合理添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "棉籽粕的有效能指标包括消化能（猪）、代谢能（猪）、代谢能（鸡）、维持净能（肉牛）、增重净能（肉牛）、产奶净能（奶牛）和消化能（羊），其中消化能（猪）为15.0 MJ/kg。",
+    "reference_case": "棉籽粕的有效能指标包括消化能（猪）、代谢能（猪）、代谢能（鸡）、维持净能（肉牛）、增重净能（肉牛）、产奶净能（奶牛）和消化能（羊）。",
+    "error_detail": "添加了不存在的消化能数值",
+    "original_question": "棉籽粕的有效能指标有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "国外学者推荐的饲粮中游离棉酚最高允许量为：仔猪30mg/kg，育肥猪80mg/kg，母猪80mg/kg，肉用仔鸡120mg/kg，产蛋鸡30mg/kg。",
+    "reference_case": "国外学者推荐的饲粮中游离棉酚最高允许量为：仔猪20mg/kg，育肥猪60mg/kg，母猪60mg/kg，肉用仔鸡100mg/kg，产蛋鸡20mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "国外学者推荐的饲粮中游离棉酚最高允许量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高振川提出的饲粮中游离棉酚最高限量为：母猪60mg/kg，肉猪120mg/kg，肉用仔鸡250mg/kg，产蛋鸡60mg/kg。",
+    "reference_case": "高振川提出的饲粮中游离棉酚最高限量为：母猪50mg/kg，肉猪100mg/kg，肉用仔鸡200mg/kg，产蛋鸡50mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "高振川提出的饲粮中游离棉酚最高限量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "高振川（1982）研究中，当棉仁饼作为肉猪唯一蛋白质来源时，添加合成赖氨酸的最佳添加量为1.0%。",
+    "reference_case": "高振川（1982）研究中，当棉仁饼作为肉猪唯一蛋白质来源时，添加合成赖氨酸的最佳添加量为0.5%。",
+    "error_detail": "数值偏差",
+    "original_question": "高振川（1982）研究中，当棉仁饼作为肉猪唯一蛋白质来源时，饲料中添加合成赖氨酸的最佳添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在10-25kg断奶仔猪饲粮中，棉仁饼的添加量上限为15%。",
+    "reference_case": "在10-25kg断奶仔猪饲粮中，棉仁饼的添加量上限为10%。",
+    "error_detail": "数值偏差",
+    "original_question": "棉仁饼在断奶仔猪饲粮中的添加量上限是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "游离棉酚含量在200-400mg/kg时，会影响猪的生长；超过400mg/kg时，可能导致中毒死亡。",
+    "reference_case": "游离棉酚含量在100-300mg/kg时，会影响猪的生长；超过300mg/kg时，可能导致中毒死亡。",
+    "error_detail": "数值偏差",
+    "original_question": "棉仁饼中的游离棉酚含量对猪的生长有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪对饲料中棉酚的耐受量为150mg/kg，超过此量则抑制生长，可能造成中毒死亡。",
+    "reference_case": "猪对饲料中棉酚的耐受量为100mg/kg，超过此量则抑制生长，可能造成中毒死亡。",
+    "error_detail": "数值偏差",
+    "original_question": "猪对饲料中棉酚的耐受量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "花生粕的消化能（猪）为13.0 MJ/kg，代谢能（猪）为11.0 MJ/kg，代谢能（鸡）为11.5 MJ/kg。",
+    "reference_case": "花生粕的消化能（猪）为12.43 MJ/kg，代谢能（猪）为10.71 MJ/kg，代谢能（鸡）为10.88 MJ/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "花生粕的有效能在不同动物中的具体数值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪的日粮中添加赖氨酸可以改善肉的品质，提高瘦肉率，提高幅度约为50%。",
+    "reference_case": "在猪的日粮中添加赖氨酸可以改善肉的品质，提高瘦肉率。",
+    "error_detail": "错误地夸大了赖氨酸对瘦肉率的提高幅度。",
+    "original_question": "在猪的日粮中添加赖氨酸可以带来哪些好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在仔猪日粮中，赖氨酸与苏氨酸的比例应为3:1。",
+    "reference_case": "在仔猪日粮中，赖氨酸与苏氨酸的比例应为1.5:1。",
+    "error_detail": "错误地改变了赖氨酸与苏氨酸的比例。",
+    "original_question": "如何通过调整饲料配方平衡苏氨酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "磺胺二甲嘧啶片内服，每千克体重首次量:马、牛、羊、猪、兔0.2g，维持量:0.1~0.15g，24h1~2次；家禽以0.6%~0.7%加入饲料，或以0.035%~0.065%混入饮水中，连饮6d。",
+    "reference_case": "磺胺二甲嘧啶片内服，每千克体重首次量:马、牛、羊、猪、兔0.14g，维持量:0.07~0.1g，24h1~2次；家禽以0.4%~0.5%加入饲料，或以0.025%~0.05%混入饮水中，连饮6d。",
+    "error_detail": "错误地增加了磺胺二甲嘧啶的用量。",
+    "original_question": "磺胺二甲嘧啶的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "磺胺间甲氧嘧啶片内服，每千克体重首次量:马、牛、猪、羊、兔0.15~0.2g，维持量:0.05~0.15g，24h1~2次；鸡可将药混入饲料中，治疗用0.1%~0.25%，预防用0.1%~0.15%，连续3~7d；仔猪自断奶之日起，以含本品0.3%的饲料，连续饲喂60d，可预防弓形体病。",
+    "reference_case": "磺胺间甲氧嘧啶片内服，每千克体重首次量:马、牛、猪、羊、兔0.05~0.1g，维持量:0.025~0.1g，24h1~2次；鸡可将药混入饲料中，治疗用0.05%~0.2%，预防用0.05%~0.1%，连续3~7d；仔猪自断奶之日起，以含本品0.2%的饲料，连续饲喂60d，可预防弓形体病。",
+    "error_detail": "错误地增加了磺胺间甲氧嘧啶的用量。",
+    "original_question": "磺胺间甲氧嘧啶的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "添加风味剂可提高仔猪饲料的采食量与日增重，提高幅度约为20%至30%。",
+    "reference_case": "添加风味剂可提高仔猪饲料的采食量与日增重，提高幅度约为8%至19.6%。",
+    "error_detail": "错误地夸大了风味剂对采食量和日增重的提高幅度。",
+    "original_question": "风味剂对仔猪的采食量和日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丁酸钠提高仔猪的采食量和饲料报酬，增强动物健康水平，减少非特异性腹泻，提高小、中鸡的整齐度，减少弱雏和死亡率，效果显著优于其他添加剂。",
+    "reference_case": "丁酸钠提高仔猪的采食量和饲料报酬，增强动物健康水平，减少非特异性腹泻，提高小、中鸡的整齐度，减少弱雏和死亡率。",
+    "error_detail": "错误地添加了丁酸钠效果优于其他添加剂的描述。",
+    "original_question": "丁酸钠如何改善动物的生产性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪每日每头维生素K的需求量为1 mg。",
+    "reference_case": "生长肥育猪每日每头维生素K的需求量为0.5 mg。",
+    "error_detail": "错误地增加了维生素K的需求量。",
+    "original_question": "生长肥育猪每日每头维生素K的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪每日每头硫胺素的需求量为2 mg（3～8 kg）、2 mg（8～20 kg）、2 mg（20～35 kg）、2 mg（35～60 kg）、2 mg（60～90 kg）。",
+    "reference_case": "生长肥育猪每日每头硫胺素的需求量为1 mg（3～8 kg）、1 mg（8～20 kg）、1 mg（20～35 kg）、1 mg（35～60 kg）、1 mg（60～90 kg）。",
+    "error_detail": "错误地增加了硫胺素的需求量。",
+    "original_question": "生长肥育猪每日每头硫胺素的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪每日每头核黄素的需求量为6 mg（3～8 kg）、5 mg（8～20 kg）、4 mg（20～35 kg）、3 mg（35～60 kg）、3 mg（60～90 kg）。",
+    "reference_case": "生长肥育猪每日每头核黄素的需求量为4 mg（3～8 kg）、3.5 mg（8～20 kg）、2.5 mg（20～35 kg）、2 mg（35～60 kg）、2 mg（60～90 kg）。",
+    "error_detail": "错误地增加了核黄素的需求量。",
+    "original_question": "生长肥育猪每日每头核黄素的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪每日每头生物素的需求量为0.1 mg（3～8 kg）、0.08 mg（8～20 kg）、0.08 mg（20～35 kg）、0.08 mg（35～60 kg）、0.08 mg（60～90 kg）。",
+    "reference_case": "生长肥育猪每日每头生物素的需求量为0.08 mg（3～8 kg）、0.05 mg（8～20 kg）、0.05 mg（20～35 kg）、0.05 mg（35～60 kg）、0.05 mg（60～90 kg）。",
+    "error_detail": "错误地增加了生物素的需求量。",
+    "original_question": "生长肥育猪每日每头生物素的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪每日每头叶酸的需求量为0.5 mg（3～8 kg）、0.5 mg（8～20 kg）、0.5 mg（20～35 kg）、0.5 mg（35～60 kg）、0.5 mg（60～90 kg）。",
+    "reference_case": "生长肥育猪每日每头叶酸的需求量为0.3 mg（3～8 kg）、0.3 mg（8～20 kg）、0.3 mg（20～35 kg）、0.3 mg（35～60 kg）、0.3 mg（60～90 kg）。",
+    "error_detail": "错误地增加了叶酸的需求量。",
+    "original_question": "生长肥育猪每日每头叶酸的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪每日每头维生素B12的需求量为30 μg（3～8 kg）、25 μg（8～20 kg）、15 μg（20～35 kg）、10 μg（35～60 kg）、8 μg（60～90 kg）。",
+    "reference_case": "生长肥育猪每日每头维生素B12的需求量为20 μg（3～8 kg）、17.5 μg（8～20 kg）、11 μg（20～35 kg）、8 μg（35～60 kg）、6 μg（60～90 kg）。",
+    "error_detail": "错误地增加了维生素B12的需求量。",
+    "original_question": "生长肥育猪每日每头维生素B12的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪每日每头亚油酸的需求量为0.2%（3～8 kg）、0.2%（8～20 kg）、0.2%（20～35 kg）、0.2%（35～60 kg）、0.2%（60～90 kg）。",
+    "reference_case": "生长肥育猪每日每头亚油酸的需求量为0.1%（3～8 kg）、0.1%（8～20 kg）、0.1%（20～35 kg）、0.1%（35～60 kg）、0.1%（60～90 kg）。",
+    "error_detail": "错误地增加了亚油酸的需求量。",
+    "original_question": "生长肥育猪每日每头亚油酸的需求量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "体重为3～8 kg的生长肥育猪平均体重为6 kg。",
+    "reference_case": "体重为3～8 kg的生长肥育猪平均体重为5.5 kg。",
+    "error_detail": "错误地增加了生长肥育猪的平均体重。",
+    "original_question": "体重为3～8 kg的生长肥育猪平均体重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "8～20 kg体重的生长肥育猪每日平均每头日增重为0.5 kg/d。",
+    "reference_case": "8～20 kg体重的生长肥育猪每日平均每头日增重为0.44 kg/d。",
+    "error_detail": "错误地增加了生长肥育猪的日增重。",
+    "original_question": "8～20 kg体重的生长肥育猪每日平均每头日增重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "35～60 kg体重的生长肥育猪每日平均采食量为2.2 kg/d。",
+    "reference_case": "35～60 kg体重的生长肥育猪每日平均采食量为1.9 kg/d。",
+    "error_detail": "错误地增加了生长肥育猪的采食量。",
+    "original_question": "35～60 kg体重的生长肥育猪每日平均采食量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪日粮消化能摄入量为代谢能摄入量的1.1倍，例如35～60 kg体重的猪为26.5 Mcal/d。",
+    "reference_case": "生长肥育猪日粮消化能摄入量为代谢能摄入量的1.04倍，例如35～60 kg体重的猪为24.43 Mcal/d。",
+    "error_detail": "错误地改变了消化能摄入量与代谢能摄入量的比例，并增加了消化能摄入量。",
+    "original_question": "生长肥育猪日粮消化能摄入量（Mcal/d）如何计算？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "3～8 kg体重的生长肥育猪赖氨酸需求量为5 g/d，8～20 kg为10 g/d，20～35 kg为15 g/d，35～60 kg为18 g/d，60～90 kg为20 g/d。",
+    "reference_case": "3～8 kg体重的生长肥育猪赖氨酸需求量为4.3 g/d，8～20 kg为8.6 g/d，20～35 kg为12.9 g/d，35～60 kg为15.6 g/d，60～90 kg为17.5 g/d。",
+    "error_detail": "错误地增加了赖氨酸的需求量。",
+    "original_question": "生长肥育猪赖氨酸的需求量如何随体重变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对于20-90kg的猪，赖氨酸的需要量根据生长模型估计为0.8%，其他氨基酸的需要量根据与赖氨酸的比例（理想蛋白质）估计；而3-20kg的猪，赖氨酸的每日需要量通过表中的百分率乘以采食量的估测值为1.2%，其他氨基酸的需要量同样根据其与赖氨酸的比例（理想蛋白质）进行估计。",
+    "reference_case": "对于20-90kg的猪，赖氨酸的需要量根据生长模型估计，其他氨基酸的需要量根据与赖氨酸的比例（理想蛋白质）估计；而3-20kg的猪，赖氨酸的每日需要量通过表中的百分率乘以采食量的估测值，其他氨基酸的需要量同样根据其与赖氨酸的比例（理想蛋白质）进行估计。",
+    "error_detail": "错误地添加了具体的百分比数值，而原始输出中并未提供具体数值。",
+    "original_question": "不同体重范围的猪对氨基酸的需求量有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对于发育公猪和后备母猪，钙、总磷和有效磷的需要量应提高0.15~0.2个百分点。",
+    "reference_case": "对于发育公猪和后备母猪，钙、总磷和有效磷的需要量应提高0.05~0.1个百分点。",
+    "error_detail": "错误地提高了钙、总磷和有效磷的需要量的百分比范围。",
+    "original_question": "不同体重范围的猪对矿物质的需求量有何特殊考虑？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期配种体重范围是100~130 kg、130~160 kg和>160 kg；妊娠后期配种体重范围是100~130 kg、130~160 kg和>160 kg。",
+    "reference_case": "妊娠前期配种体重范围是120~150 kg、150~180 kg和>180 kg；妊娠后期配种体重范围是120~150 kg、150~180 kg和>180 kg。",
+    "error_detail": "错误地修改了妊娠前期和妊娠后期的配种体重范围。",
+    "original_question": "妊娠母猪妊娠前期和妊娠后期的配种体重范围分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期的每日采食量是2.00 kg/d、2.00 kg/d和1.90 kg/d；妊娠后期的每日采食量是2.50 kg/d、2.70 kg/d和2.90 kg/d。",
+    "reference_case": "妊娠前期的每日采食量是2.10 kg/d、2.10 kg/d和2.00 kg/d；妊娠后期的每日采食量是2.60 kg/d、2.80 kg/d和3.00 kg/d。",
+    "error_detail": "错误地修改了妊娠前期和妊娠后期的每日采食量。",
+    "original_question": "妊娠母猪妊娠前期和妊娠后期的每日采食量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期消化能含量DE是12.50 MJ/kg（3000 kcal/kg）、12.10 MJ/kg（2900 kcal/kg）和11.90 MJ/kg（2900 kcal/kg）；妊娠后期消化能含量DE是12.50 MJ/kg（3000 kcal/kg）、12.30 MJ/kg（2950 kcal/kg）和12.30 MJ/kg（2950 kcal/kg）。",
+    "reference_case": "妊娠前期消化能含量DE是12.75 MJ/kg（3050 kcal/kg）、12.35 MJ/kg（2950 kcal/kg）和12.15 MJ/kg（2950 kcal/kg）；妊娠后期消化能含量DE是12.75 MJ/kg（3050 kcal/kg）、12.55 MJ/kg（3000 kcal/kg）和12.55 MJ/kg（3000 kcal/kg）。",
+    "error_detail": "错误地修改了妊娠前期和妊娠后期的消化能含量DE。",
+    "original_question": "妊娠母猪妊娠期间消化能含量DE分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期代谢能含量ME是12.00 MJ/kg（2900 kcal/kg）、11.60 MJ/kg（2800 kcal/kg）和11.40 MJ/kg（2800 kcal/kg）；妊娠后期代谢能含量ME是12.00 MJ/kg（2900 kcal/kg）、11.80 MJ/kg（2850 kcal/kg）和11.80 MJ/kg（2850 kcal/kg）。",
+    "reference_case": "妊娠前期代谢能含量ME是12.25 MJ/kg（2930 kcal/kg）、11.85 MJ/kg（2830 kcal/kg）和11.65 MJ/kg（2830 kcal/kg）；妊娠后期代谢能含量ME是12.25 MJ/kg（2930 kcal/kg）、12.05 MJ/kg（2880 kcal/kg）和12.05 MJ/kg（2880 kcal/kg）。",
+    "error_detail": "错误地修改了妊娠前期和妊娠后期的代谢能含量ME。",
+    "original_question": "妊娠母猪妊娠期间代谢能含量ME分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期粗蛋白质CP含量是12.0%、11.0%和11.0%；妊娠后期粗蛋白质CP含量是13.0%、12.0%和11.0%。",
+    "reference_case": "妊娠前期粗蛋白质CP含量是13.0%、12.0%和12.0%；妊娠后期粗蛋白质CP含量是14.0%、13.0%和12.0%。",
+    "error_detail": "错误地修改了妊娠前期和妊娠后期的粗蛋白质CP含量。",
+    "original_question": "妊娠母猪妊娠期间粗蛋白质CP含量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期能量蛋白比DE/CP是950 MJ/%（227 kcal/%）、1000 MJ/%（239 kcal/%）和980 MJ/%（239 kcal/%）；妊娠后期能量蛋白比DE/CP是880 MJ/%（210 kcal/%）、930 MJ/%（222 kcal/%）和1010 MJ/%（242 kcal/%）。",
+    "reference_case": "妊娠前期能量蛋白比DE/CP是981 MJ/%（235 kcal/%）、1029 MJ/%（246 kcal/%）和1013 MJ/%（246 kcal/%）；妊娠后期能量蛋白比DE/CP是911 MJ/%（218 kcal/%）、965 MJ/%（231 kcal/%）和1045 MJ/%（250 kcal/%）。",
+    "error_detail": "错误地修改了妊娠前期和妊娠后期的能量蛋白比DE/CP。",
+    "original_question": "妊娠母猪妊娠期间能量蛋白比DE/CP分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠前期赖氨酸能量比Lys/DE是0.40 g/MJ（1.67 g/Mcal）、0.38 g/MJ（1.58 g/Mcal）和0.36 g/MJ（1.50 g/Mcal）；妊娠后期赖氨酸能量比Lys/DE是0.40 g/MJ（1.67 g/Mcal）、0.39 g/MJ（1.63 g/Mcal）和0.36 g/MJ（1.53 g/Mcal）。",
+    "reference_case": "妊娠前期赖氨酸能量比Lys/DE是0.42 g/MJ（1.74 g/Mcal）、0.40 g/MJ（1.67 g/Mcal）和0.38 g/MJ（1.58 g/Mcal）；妊娠后期赖氨酸能量比Lys/DE是0.42 g/MJ（1.74 g/Mcal）、0.41 g/MJ（1.70 g/Mcal）和0.38 g/MJ（1.60 g/Mcal）。",
+    "error_detail": "错误地修改了妊娠前期和妊娠后期的赖氨酸能量比Lys/DE。",
+    "original_question": "妊娠母猪妊娠期间赖氨酸能量比Lys/DE分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的维生素K需要量为0.60 mg至1.30 mg。",
+    "reference_case": "肉脂型生长育肥猪的维生素K需要量为0.50 mg至1.10 mg。",
+    "error_detail": "错误地修改了维生素K的需要量范围。",
+    "original_question": "肉脂型生长育肥猪的维生素K需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的硫胺素需要量为1.2 mg至2.50 mg。",
+    "reference_case": "肉脂型生长育肥猪的硫胺素需要量为1.0 mg至2.20 mg。",
+    "error_detail": "错误地修改了硫胺素的需要量范围。",
+    "original_question": "硫胺素的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的核黄素需要量为4.0 mg至8.50 mg。",
+    "reference_case": "肉脂型生长育肥猪的核黄素需要量为3.5 mg至7.70 mg。",
+    "error_detail": "错误地修改了核黄素的需要量范围。",
+    "original_question": "核黄素的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的泛酸需要量为14 mg至28.0 mg。",
+    "reference_case": "肉脂型生长育肥猪的泛酸需要量为12 mg至26.4 mg。",
+    "error_detail": "错误地修改了泛酸的需要量范围。",
+    "original_question": "泛酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的烟酸需要量为12 mg至25 mg。",
+    "reference_case": "肉脂型生长育肥猪的烟酸需要量为10 mg至22 mg。",
+    "error_detail": "错误地修改了烟酸的需要量范围。",
+    "original_question": "烟酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的吡哆醇需要量为1.2 mg至2.50 mg。",
+    "reference_case": "肉脂型生长育肥猪的吡哆醇需要量为1.0 mg至2.20 mg。",
+    "error_detail": "错误地修改了吡哆醇的需要量范围。",
+    "original_question": "吡哆醇的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的生物素需要量为0.25 mg至0.50 mg。",
+    "reference_case": "肉脂型生长育肥猪的生物素需要量为0.20 mg至0.44 mg。",
+    "error_detail": "错误地修改了生物素的需要量范围。",
+    "original_question": "生物素的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的叶酸需要量为1.5 mg至3.00 mg。",
+    "reference_case": "肉脂型生长育肥猪的叶酸需要量为1.3 mg至2.86 mg。",
+    "error_detail": "错误地修改了叶酸的需要量范围。",
+    "original_question": "叶酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的维生素B12需要量为18 μg至36 μg。",
+    "reference_case": "肉脂型生长育肥猪的维生素B12需要量为15 μg至33 μg。",
+    "error_detail": "错误地修改了维生素B12的需要量范围。",
+    "original_question": "维生素B12的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的胆碱需要量为1.50 g至3.00 g。",
+    "reference_case": "肉脂型生长育肥猪的胆碱需要量为1.25 g至2.75 g。",
+    "error_detail": "错误地修改了胆碱的需要量范围。",
+    "original_question": "胆碱的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的亚油酸需要量为0.001至2.2 g。",
+    "reference_case": "肉脂型生长育肥猪的亚油酸需要量为0.001至2.2 g。",
+    "error_detail": "数值范围错误",
+    "original_question": "亚油酸的需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的采食量（ADFI）随体重增加从5～8 kg时的0.4 kg增加到60～90 kg时的2.94 kg。",
+    "reference_case": "肉脂型生长育肥猪的采食量（ADFI）随体重增加从5～8 kg时的0.4 kg增加到60～90 kg时的2.94 kg。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪每日每头的采食量如何随着体重的增加而变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的日增重（ADG）从5～8 kg阶段的0.22 kg增加到60～90 kg阶段的0.70 kg。",
+    "reference_case": "肉脂型生长育肥猪的日增重（ADG）从5～8 kg阶段的0.22 kg增加到60～90 kg阶段的0.70 kg。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪的日增重（ADG）在不同体重阶段有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的饲料转化率（F/G）从5～8 kg阶段的1.8增加到60～90 kg阶段的4.20。",
+    "reference_case": "肉脂型生长育肥猪的饲料转化率（F/G）从5～8 kg阶段的1.8增加到60～90 kg阶段的4.20。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪不同体重阶段的饲料转化率（F/G）是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的粗蛋白质（CP）含量从5～8 kg阶段的84 g/d增加到60～90 kg阶段的382.2 g/d。",
+    "reference_case": "肉脂型生长育肥猪的粗蛋白质（CP）含量从5～8 kg阶段的84 g/d增加到60～90 kg阶段的382.2 g/d。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪的饲料中粗蛋白质（CP）含量在不同体重阶段有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪赖氨酸（Lys）的摄入量从5～8 kg阶段的5.4 g/d增加到60～90 kg阶段的17.6 g/d。",
+    "reference_case": "肉脂型生长育肥猪赖氨酸（Lys）的摄入量从5～8 kg阶段的5.4 g/d增加到60～90 kg阶段的17.6 g/d。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪在不同体重阶段所需的赖氨酸（Lys）摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪蛋氨酸+胱氨酸（Met + Cys）的摄入量从5～8 kg阶段的2.6 g/d增加到60～90 kg阶段的10 g/d。",
+    "reference_case": "肉脂型生长育肥猪蛋氨酸+胱氨酸（Met + Cys）的摄入量从5～8 kg阶段的2.6 g/d增加到60～90 kg阶段的10 g/d。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪在不同体重阶段所需的蛋氨酸+胱氨酸（Met + Cys）摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的钙（Ca）含量从5～8 kg阶段的3.4 g/d增加到60～90 kg阶段的13.5 g/d。",
+    "reference_case": "肉脂型生长育肥猪的钙（Ca）含量从5～8 kg阶段的3.4 g/d增加到60～90 kg阶段的13.5 g/d。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪的日粮中钙（Ca）含量在不同体重阶段有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的总磷（Total P）含量从5～8 kg阶段的2.7 g/d增加到60～90 kg阶段的10.9 g/d。",
+    "reference_case": "肉脂型生长育肥猪的总磷（Total P）含量从5～8 kg阶段的2.7 g/d增加到60～90 kg阶段的10.9 g/d。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪的日粮中总磷（Total P）含量在不同体重阶段有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪的非植酸磷（Nonphytate P）含量从5～8 kg阶段的1.7 g/d增加到60～90 kg阶段的4.1 g/d。",
+    "reference_case": "肉脂型生长育肥猪的非植酸磷（Nonphytate P）含量从5～8 kg阶段的1.7 g/d增加到60～90 kg阶段的4.1 g/d。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪的日粮中非植酸磷（Nonphytate P）含量在不同体重阶段有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪铁（Fe）的摄入量从5～8 kg阶段的40 mg/d增加到60～90 kg阶段的108.78 mg/d。",
+    "reference_case": "肉脂型生长育肥猪铁（Fe）的摄入量从5～8 kg阶段的40 mg/d增加到60～90 kg阶段的108.78 mg/d。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪在不同体重阶段所需的铁（Fe）摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪锌（Zn）的摄入量从5～8 kg阶段的40 mg/d增加到60～90 kg阶段的132.3 mg/d。",
+    "reference_case": "肉脂型生长育肥猪锌（Zn）的摄入量从5～8 kg阶段的40 mg/d增加到60～90 kg阶段的132.3 mg/d。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪在不同体重阶段所需的锌（Zn）摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪维生素A的摄入量从5～8 kg阶段的840 IU/d增加到60～90 kg阶段的3528 IU/d。",
+    "reference_case": "肉脂型生长育肥猪维生素A的摄入量从5～8 kg阶段的840 IU/d增加到60～90 kg阶段的3528 IU/d。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪在不同体重阶段所需的维生素A摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪维生素D的摄入量从5～8 kg阶段的174 IU/d增加到60～90 kg阶段的14.7 IU/d。",
+    "reference_case": "肉脂型生长育肥猪维生素D的摄入量从5～8 kg阶段的174 IU/d增加到60～90 kg阶段的14.7 IU/d。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪在不同体重阶段所需的维生素D摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪维生素E的摄入量从5～8 kg阶段的2176 IU/d增加到60～90 kg阶段的19.1 IU/d。",
+    "reference_case": "肉脂型生长育肥猪维生素E的摄入量从5～8 kg阶段的2176 IU/d增加到60～90 kg阶段的19.1 IU/d。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪在不同体重阶段所需的维生素E摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肉脂型生长育肥猪胆碱（Choline）的摄入量从5～8 kg阶段的8 g/d增加到60～90 kg阶段的14.7 g/d。",
+    "reference_case": "肉脂型生长育肥猪胆碱（Choline）的摄入量从5～8 kg阶段的8 g/d增加到60～90 kg阶段的14.7 g/d。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪在不同体重阶段所需的胆碱（Choline）摄入量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "815kg体重时日增重为0.34kg/d，15～30kg体重时为0.45kg/d，30～60kg体重时为0.55kg/d，60～90kg体重时为0.65kg/d。",
+    "reference_case": "815kg体重时日增重为0.34kg/d，15～30kg体重时为0.45kg/d，30～60kg体重时为0.55kg/d，60～90kg体重时为0.65kg/d。",
+    "error_detail": "数值范围错误",
+    "original_question": "肉脂型生长育肥猪在不同体重阶段的日增重范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "815kg体重时F/G为2.55，15～30kg体重时为2.90，30～60kg体重时为3.55，60～90kg体重时为4.45。",
+    "reference_case": "815kg体重时F/G为2.55，15～30kg体重时为2.90，30～60kg体重时为3.55，60～90kg体重时为4.45。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "肉脂型生长育肥猪在不同体重阶段的饲料/增重比（F/G）各是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "815kg体重时为13.30MJ/kg（3180kcal/kg），15～30kg体重时为12.25MJ/kg（2930kcal/kg），30～60kg体重时也为12.25MJ/kg（2930kcal/kg），60～90kg体重时同样为12.25MJ/kg（2930kcal/kg）。",
+    "reference_case": "815kg体重时为13.30MJ/kg（3180kcal/kg），15～30kg体重时为12.25MJ/kg（2930kcal/kg），30～60kg体重时也为12.25MJ/kg（2930kcal/kg），60～90kg体重时同样为12.25MJ/kg（2930kcal/kg）。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "肉脂型生长育肥猪每千克饲粮中的消化能含量在不同体重阶段有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "815kg体重时为17.5%，15～30kg体重时为16%，30～60kg体重时为14%，60～90kg体重时为13%。",
+    "reference_case": "815kg体重时为17.5%，15～30kg体重时为16%，30～60kg体重时为14%，60～90kg体重时为13%。",
+    "error_detail": "数据型幻觉（数值/比例偏差）",
+    "original_question": "肉脂型生长育肥猪每千克饲粮中的粗蛋白含量在不同体重阶段有何变化？",
+    "original_input": ""
+  }
+]

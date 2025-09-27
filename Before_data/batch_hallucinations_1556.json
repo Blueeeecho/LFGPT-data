@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "绵羊精子获能需2小时，猪为5小时，小鼠为0.5小时，大鼠为1-2小时，仓鼠为1-3小时，家兔为4小时，雪豹为2.5-10.5小时或4-5小时，恒河猴和松鼠猴为1小时。",
+    "reference_case": "绵羊精子获能需1.5小时，猪为6小时，小鼠为1小时，大鼠为2-3小时，仓鼠为2-4小时，家兔为5小时，雪豹为3.5-11.5小时或5-6小时，恒河猴和松鼠猴为2小时。",
+    "error_detail": "数值偏差",
+    "original_question": "精子获能所需时间因动物种类而异，具体时间范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪GV期卵母细胞受精后，GC发生胞吐；GVBD或M I期卵母细胞受精后，GC不发生胞吐；M II期卵母细胞受精后，GC发生胞吐。",
+    "reference_case": "猪GV期卵母细胞受精后，GC不发生胞吐；GVBD或M I期卵母细胞受精后，26%的GC发生胞吐；M II期卵母细胞受精后，84%的GC发生胞吐。",
+    "error_detail": "概念混淆",
+    "original_question": "皮质颗粒胞吐在不同成熟阶段的卵母细胞中发生率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "绵羊在怀孕10-11天时识别妊娠，在14天时确立妊娠；奶牛则在13-14天识别妊娠，在16-20天确立妊娠；猪在9-11天识别妊娠，16天确立妊娠；马在12-14天识别妊娠，34-36天确立妊娠。",
+    "reference_case": "不同动物的妊娠识别和妊娠确立时间因畜种不同而有差异，例如绵羊在怀孕12-13天时识别妊娠，在16天时确立妊娠；奶牛则在15-16天识别妊娠，在18-22天确立妊娠；猪在11-13天识别妊娠，18天确立妊娠；马在14-16天识别妊娠，36-38天确立妊娠。",
+    "error_detail": "过时标准",
+    "original_question": "不同动物的妊娠识别和妊娠确立时间有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪在分娩过程中，子宫肌的活动在子宫体中部最为明显。",
+    "reference_case": "猪在分娩过程中，子宫肌的活动在子宫颈末端最为明显。",
+    "error_detail": "地域差异",
+    "original_question": "分娩过程中，猪子宫肌的活动在哪个部位最为明显？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "卵巢囊肿常见于奶牛和猪，马、驴次之，山羊和猫也可发生，但狗不会发生。",
+    "reference_case": "卵巢囊肿常见于奶牛和猪，马、驴次之，山羊和猫也可发生。",
+    "error_detail": "概念混淆",
+    "original_question": "卵巢囊肿常见于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "卵巢囊肿使奶牛和母猪的产仔间隔延长，比例分别为15%至35%和40.3%。",
+    "reference_case": "卵巢囊肿使奶牛和母猪的产仔间隔延长，比例分别为10%至30%和37.3%。",
+    "error_detail": "数值偏差",
+    "original_question": "卵巢囊肿对牛、猪的产仔间隔有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在周期的适当时机注射LH、hCG或GnRH会引起正常排卵并形成囊肿，关键在于LH分泌过多。",
+    "reference_case": "在周期的适当时机注射LH、hCG或GnRH会引起正常排卵而不形成囊肿，关键在于LH分泌不足。",
+    "error_detail": "概念混淆",
+    "original_question": "怎样通过注射LH、hCG或GnRH处理治疗猪卵泡囊肿？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "切除子宫的猪或注射消炎痛会使囊肿退化，而注射PGF2α可在子宫切除的猪中引起实验性囊肿化，表明卵巢囊肿可能由于子宫溶解黄体功能正常引起。",
+    "reference_case": "切除子宫的猪或注射消炎痛不会使囊肿退化，而注射PGF2α可在子宫切除的猪中引起实验性囊肿化，表明卵巢囊肿可能由于子宫溶解黄体功能缺陷引起。",
+    "error_detail": "因果错误",
+    "original_question": "卵巢囊肿与子宫有何关联？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "OT可促使母猪停止放乳，还可引起子宫松弛，并减弱肠道的紧张度和蠕动。",
+    "reference_case": "OT可促使母猪放乳，还可引起子宫收缩，并增强肠道的紧张度和蠕动。",
+    "error_detail": "概念混淆",
+    "original_question": "OT在母猪无乳症治疗中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "动物类原料多用盐酸处理，对于动物中的单纯蛋白质，如鱼粉、肉骨粉、水解羽毛粉等，只需用1.5%的盐酸溶液处理10~20分钟；而对含角蛋白质的样品，如蹄角粉、皮革粉、生羽毛粉、猪毛等需用60%的盐酸溶液处理，时间稍长。",
+    "reference_case": "动物类原料多用硫酸处理，对于动物中的单纯蛋白质，如鱼粉、肉骨粉、水解羽毛粉等，只需用1.25%的硫酸溶液处理5~15分钟；而对含角蛋白质的样品，如蹄角粉、皮革粉、生羽毛粉、猪毛等需用50%的硫酸溶液处理，时间稍长。",
+    "error_detail": "数值偏差",
+    "original_question": "如何用生物显微镜处理动物类原料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "取饲料样 1.0 g 用 0.3% 胃蛋白酶的 0.1 mol/L 盐酸溶液振荡 5 小时，中和至 pH 6.0，加 PIF 液恒温振荡 5 小时，过滤烘干称重与测热。",
+    "reference_case": "取饲料样 0.5 g 用 0.2% 胃蛋白酶的 0.075 mol/L 盐酸溶液振荡 4 小时，中和至 pH 7.0，加 PIF 液恒温振荡 4 小时，过滤烘干称重与测热。",
+    "error_detail": "概念混淆",
+    "original_question": "离体消化实验中如何测定猪饲料的干物质消化率和表观消化能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "豆粕在仔猪配合饲料及浓缩饲料中的最大允许量为35%。",
+    "reference_case": "豆粕在仔猪配合饲料及浓缩饲料中的最大允许量为30%。",
+    "error_detail": "数值偏差",
+    "original_question": "豆粕在仔猪配合饲料及浓缩饲料中的最大允许量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪、种猪配合饲料及浓缩饲料中豆粕的最大允许量为25%。",
+    "reference_case": "生长肥育猪、种猪配合饲料及浓缩饲料中豆粕的最大允许量为20%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪、种猪配合饲料及浓缩饲料中豆粕的最大允许量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鸡配合饲料和猪配合饲料中铅（Pb）的最大允许量为15 mg/kg。",
+    "reference_case": "鸡配合饲料和猪配合饲料中铅（Pb）的最大允许量为10 mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "鸡配合饲料和猪配合饲料中铅（Pb）的最大允许量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鸡配合饲料和猪配合饲料中镉（Cd）的最大允许量为1.0 mg/kg。",
+    "reference_case": "鸡配合饲料和猪配合饲料中镉（Cd）的最大允许量为0.5 mg/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "鸡配合饲料和猪配合饲料中镉（Cd）的最大允许量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪鼻黏膜溃疡与殷痕性疾病的诊断仅结合临床表现。",
+    "reference_case": "猪鼻黏膜溃疡与殷痕性疾病的诊断结合病因、发生机理和临床表现。",
+    "error_detail": "指令偏离",
+    "original_question": "猪鼻黏膜溃疡与殷痕性疾病的诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪棉子饼中毒时出现便秘，甚至便血，体温一般升高，但病史调查可迅速作出诊断。",
+    "reference_case": "仔猪棉子饼中毒时出现腹泻，甚至便血，体温一般正常，但病史调查可迅速作出诊断。",
+    "error_detail": "概念混淆",
+    "original_question": "仔猪棉子饼中毒时的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪黄疸伴有腹泻常见于钩端螺旋体病、附红细胞体病、营养性肝坏死、仔猪衰弱综合征、菜子饼中毒、棉子饼中毒、蓖麻子饼中毒、黄曲霉毒素中毒、光过敏物中毒、酒糟中毒、铜中毒、华支睾吸虫病，但不包括猪瘟。",
+    "reference_case": "猪黄疸伴有腹泻常见于钩端螺旋体病、附红细胞体病、营养性肝坏死、仔猪衰弱综合征、菜子饼中毒、棉子饼中毒、蓖麻子饼中毒、黄曲霉毒素中毒、光过敏物中毒、酒糟中毒、铜中毒、华支睾吸虫病。",
+    "error_detail": "概念混淆",
+    "original_question": "猪黄疸伴有腹泻常见于哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪钩端螺旋体病表现为便秘、粪中夹血、体温降低等特征，同时有溶血、黄疸、怀孕后期流产、血红蛋白尿的特征。",
+    "reference_case": "猪钩端螺旋体病表现为腹泻、粪中夹血、体温升高等特征，同时有溶血、黄疸、怀孕后期流产、血红蛋白尿的特征。",
+    "error_detail": "概念混淆",
+    "original_question": "猪钩端螺旋体病的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "营养性肝坏死常与硒过量症有关，因猪硒过量致肠上皮细胞代谢紊乱，引起黏膜细胞坏死和脱落。",
+    "reference_case": "营养性肝坏死常与硒缺乏症有关，因猪缺硒致肠上皮细胞代谢紊乱，引起黏膜细胞坏死和脱落。",
+    "error_detail": "因果错误",
+    "original_question": "营养性肝坏死与哪些因素有关？",
+    "original_input": ""
+  }
+]

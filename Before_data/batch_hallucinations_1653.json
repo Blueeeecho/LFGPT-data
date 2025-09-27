@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "结肠受损时，会直接导致猪的死亡。",
+    "reference_case": "结肠受损时，会增加由损坏小肠功能的疾病对生命的威胁，但限制结肠功能的疾病对生命的威胁则会增大。",
+    "error_detail": "错误地将结肠受损的影响夸大，忽略了具体的影响机制和条件。",
+    "original_question": "结肠受损时对猪的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "增生性肠炎的临床表现包括100%的死亡率和严重的下痢。",
+    "reference_case": "粘液性到透明性出血性下痢，发病率不等但死亡率低；也可能表现为急性肠出血，死亡率较高，出血型常见于50kg以上的猪。",
+    "error_detail": "错误地提高了死亡率的数值，忽略了临床表现的多样性。",
+    "original_question": "增生性肠炎的临床表现有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "鉴别出血性肠病的唯一方法是观察粪便的颜色。",
+    "reference_case": "胃溃疡常导致暗色煤焦油样硬便，伴发肠炎时粪便不硬固，除偶见的出血型增生性肠炎外，粪便都呈液状并含有其它类型的渗出物；猪痢疾、沙门氏杆菌病或鞭虫病时粪便中血量可能很多但不引起失血性贫血。",
+    "error_detail": "错误地简化了鉴别方法，忽略了其他重要的诊断标准。",
+    "original_question": "如何鉴别出血性肠病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "肠出血综合征的主要特点是明显的下痢。",
+    "reference_case": "突然死亡，临床上没有明显的下痢；常见于喂乳清的猪，易与肠扭转混淆；肠扭转时肠段局部扩张，呈暗红色，充盈血样液体。",
+    "error_detail": "错误地将下痢作为主要特点，与实际情况相反。",
+    "original_question": "肠出血综合征的主要特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "增强猪消化道的自然抵抗力的唯一方法是使用抗生素。",
+    "reference_case": "通过温度控制、无菌风、良好的卫生、舒适的环境和适当的营养等间接影响；少量多次饲喂或日粮中加纤维素成分有益。",
+    "error_detail": "错误地偏离了原始指令，提出了不相关的建议。",
+    "original_question": "如何增强猪消化道的自然抵抗力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪消化道的修复功能非常慢，新生猪每30天一次。",
+    "reference_case": "肠上皮经常替换，新生猪每4-10天一次；架子猪的大肠更快，2-3天一次；当有炎症时，再生率更快。",
+    "error_detail": "错误地延长了修复周期，忽略了不同生长阶段的差异。",
+    "original_question": "猪消化道的修复功能如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "诊断活猪的泌尿系统疾病只需观察临床症状。",
+    "reference_case": "根据临床检查及显微镜检测尿液，尿液中出现的脓汁和坏死组织的革兰氏染色涂片上可见大量细菌，许多病例中可见成串或成链状的革兰氏阳性球菌与猪棒状杆菌。应进行细菌分离培养，鉴定显微镜下见到的细菌，并在37°C条件下进行厌氧或需氧培养。",
+    "error_detail": "错误地简化了诊断过程，忽略了实验室检测的重要性。",
+    "original_question": "如何诊断活猪的泌尿系统疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪棒状杆菌感染的治疗和预防措施中，使用青霉素是无效的。",
+    "reference_case": "如果疾病发现得早，使用适当的抗菌素（如青霉素）可获得成功。如果病情严重，应用抗菌素虽可减缓临床症状，但仍有复发的可能性，因此建议紧急宰杀。隔离病猪以防止群内传染。目前尚无有效的预防方法，但可给母猪在配种时或配种后1-2天注射青霉素以防止泌尿系统感染。",
+    "error_detail": "错误地否定了青霉素的有效性，与当前的治疗标准不符。",
+    "original_question": "猪棒状杆菌感染的治疗和预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "钧端螺旋体对猪肾脏的影响仅限于急性感染期。",
+    "reference_case": "钧端螺旋体存在于肾小管和间质组织中，可通过尿液排菌长达两年。在急性感染期，肾脏出现灰白色病灶，主要由炎性细胞（淋巴细胞、单核细胞和嗜中性白细胞）组成。肾小管上皮变性，并有管型形成。",
+    "error_detail": "错误地限制了影响的时间范围，忽略了长期排菌的可能性。",
+    "original_question": "钧端螺旋体对猪肾脏有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪丹毒的肾脏病变仅包括毛细血管充血。",
+    "reference_case": "猪丹毒的肾脏病变包括由炎性细胞和细菌阻塞血管后引起的毛细血管充血、内皮肿胀、变性和动脉炎，以及栓塞性肾小球肾炎。此外，也可能出现猪瘟和非洲猪瘟病毒感染引起的肾小球肾炎后遗症。",
+    "error_detail": "错误地简化了病变的描述，忽略了其他重要的病理变化。",
+    "original_question": "猪丹毒的肾脏病变有哪些特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "有齿冠尾线虫对猪肾脏的影响在全球范围内都非常常见。",
+    "reference_case": "有齿冠尾线虫（猪肾虫）主要出现在热带和亚热带地区，其病变以肾脏及输尿管周围形成包块和化脓性病变为主。在肾脏中可进一步发展成脓肿，有时也可出现棘球蚴包囊和猪蛇虫，但非常罕见。",
+    "error_detail": "错误地扩大了影响的地理范围，忽略了地域差异。",
+    "original_question": "有齿冠尾线虫对猪肾脏的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "外源性雌二醇苯甲酸盐对猪的垂体催乳素水平没有影响。",
+    "reference_case": "外源性雌二醇苯甲酸盐可使猪长时间维持较高的垂体催乳素水平。",
+    "error_detail": "错误地否定了药物的影响，与实际情况相反。",
+    "original_question": "外源性雌二醇苯甲酸盐对猪的垂体催乳素水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "酚塞嗪衍生物安定药在母猪管理中的作用仅限于镇静。",
+    "reference_case": "酚塞嗪衍生物安定药具有使兴奋母猪镇静的优点，能作用于下丘脑释放因子而具有生乳作用。",
+    "error_detail": "错误地限制了药物的作用范围，忽略了其生乳作用。",
+    "original_question": "酚塞嗪衍生物安定药在母猪管理中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "围产期母猪应采取的管理措施包括增加噪音和兴奋的刺激。",
+    "reference_case": "应采取减少围产期应激的管理方法，如减少噪音及兴奋的刺激，控制产房的湿度，避免突然改变管理，并在进入产房前使母猪适应新的环境。",
+    "error_detail": "错误地提出了与原始指令相反的建议。",
+    "original_question": "围产期母猪应采取哪些管理措施减少应激？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "泌乳衰竭预防措施中，饲料添加药物的效果对所有猪群都一致。",
+    "reference_case": "在饲料中添加药物具有防止乳房水肿和促进肠道排空的优点，但其效果因猪群而异。",
+    "error_detail": "错误地统一了药物的效果，忽略了猪群的差异性。",
+    "original_question": "泌乳衰竭预防措施中，饲料添加药物起什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在围产期间，母猪的饲喂量应每日四次饲喂粗纤维饲料5磅。",
+    "reference_case": "在分娩前一周期限量饲喂平衡日粮，产后持续一周，每日二次饲喂粗纤维饲料2-3磅，一周后逐渐增至全饲。",
+    "error_detail": "错误地增加了饲喂次数和量，与推荐的管理措施不符。",
+    "original_question": "在围产期间，母猪的饲喂量如何调整？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "在围产期间，母猪应避免任何形式的运动。",
+    "reference_case": "母猪应尽可能在饲喂和清扫卫生时每日运动。",
+    "error_detail": "错误地提出了与原始指令相反的建议。",
+    "original_question": "如何在围产期间使母猪运动？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪骨骼系统的主要功能仅限于提供支架。",
+    "reference_case": "猪骨骼系统为躯体提供了坚强的支架，保护脑和胸腔脏器，收藏骨髓，构成使肺在呼吸时能膨胀的外廓，作为钙、磷、铋和钠的贮藏所。",
+    "error_detail": "错误地简化了骨骼系统的功能描述。",
+    "original_question": "猪骨骼系统的主要功能有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "生物素缺乏会导致猪的肝脏病变。",
+    "reference_case": "生物素缺乏会导致猪的皮肤和蹄的病变，如裂㖓、糜烂和青肿等。",
+    "error_detail": "错误地将病变部位从皮肤和蹄改为肝脏。",
+    "original_question": "生物素缺乏会导致猪的哪些病变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "通过在猪的日粮中添加D-生物素（如妊娠期每母猪每天1000 mcg）可以完全消除蹄病变。",
+    "reference_case": "通过在猪的日粮中添加D-生物素（如妊娠期每母猪每天500-600 mcg）可以减轻蹄病变，提高繁殖效能。",
+    "error_detail": "错误地提高了生物素的添加量并夸大了其效果。",
+    "original_question": "如何通过日粮补充防治生物素缺乏引起的蹄病变？",
+    "original_input": ""
+  }
+]

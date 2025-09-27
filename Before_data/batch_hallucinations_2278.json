@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对仔猪来说，日光是生长发育的必要条件，成年公猪和母猪需要强烈的自然光照，而肥育猪对光照的需要较高。",
+    "reference_case": "对仔猪来说，日光是生长发育的必要条件，成年公猪和母猪需要适当的自然光照，而肥育猪对光照的需要较低。",
+    "error_detail": "错误地提高了成年公猪、母猪和肥育猪对光照的需求量。",
+    "original_question": "不同生长阶段的猪对光照需要量有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪群饲养密度过大会导致猪之间的直接身体伤害，增加疾病传播的风险。",
+    "reference_case": "影响猪舍的空气卫生，对猪的采食、饮水、睡眠、运动及群居等行为有很大影响，从而间接地影响猪的健康和生产力。",
+    "error_detail": "添加了关于直接身体伤害和疾病传播的假设，这些在原回答中并未提及。",
+    "original_question": "猪群饲养密度过大有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟、猪链球菌病会导致皮肤溃烂。",
+    "reference_case": "猪瘟、猪链球菌病会导致浆膜出血。",
+    "error_detail": "错误地将病理变化描述为皮肤溃烂，而非浆膜出血。",
+    "original_question": "猪瘟、猪链球菌病会导致哪些病理变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "纤维素性胸膜炎及粘连通常由猪瘟、猪丹毒引起。",
+    "reference_case": "纤维素性胸膜炎及粘连通常由猪肺疫、支原体肺炎引起。",
+    "error_detail": "错误地列出了引起纤维素性胸膜炎及粘连的疾病。",
+    "original_question": "纤维素性胸膜炎及粘连通常由哪些疾病引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟兔化疫苗按瓶签服用，断奶仔猪接种后免疫力不够强，需在断奶后再注射2次，保存温度为-20°C，保存期为30天。",
+    "reference_case": "猪瘟兔化疫苗按瓶签服用，断奶仔猪接种后免疫力不够强，需在断奶后再注射1次，保存温度为-15°C，保存期为15天。",
+    "error_detail": "错误地增加了注射次数，改变了保存温度和保存期。",
+    "original_question": "猪瘟兔化疫苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "三联苗按瓶签要求用30%铝胶生理盐水稀释，每头猪肌肉注射2mL，末断奶猪注射后1个月再注射1次，注射后7～14天产生免疫力，保存温度为-20°C，保存期为2个月；0～8°C保存8个月；20～25°C保存15天。",
+    "reference_case": "三联苗按瓶签要求用20%铝胶生理盐水稀释，每头猪肌肉注射1mL，末断奶猪注射后2个月再注射1次，注射后14～21天产生免疫力，保存温度为-15°C，保存期为1个月；0～8°C保存6个月；20～25°C保存10天。",
+    "error_detail": "错误地改变了稀释比例、注射量、注射间隔、免疫力产生时间、保存温度和保存期。",
+    "original_question": "猪瘟、猪丹毒、猪肺疫三联苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "冻干苗按瓶签标明头份，30%铝胶生理盐水稀释，于猪耳后浅层肌肉注射2mL，常发病地区可在断奶前后间隔5～6周各免疫1次，注射14天产生免疫力，保存温度为-20°C，保存期为2年；2～8°C保存10个月。",
+    "reference_case": "冻干苗按瓶签标明头份，20%铝胶生理盐水稀释，于猪耳后浅层肌肉注射1mL，常发病地区可在断奶前后间隔3～4周各免疫1次，注射7天产生免疫力，保存温度为-15°C，保存期为1年；2～8°C保存8个月。",
+    "error_detail": "错误地改变了稀释比例、注射量、免疫间隔、免疫力产生时间、保存温度和保存期。",
+    "original_question": "仔猪副伤寒弱毒疫苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预防猪链球菌病，断奶后仔猪至成年猪每头肌肉或皮下注射2mL，注射14～21天产生免疫力，保存温度为-20°C，保存期为2年；2～8°C保存10个月；15～20°C保存45天。",
+    "reference_case": "预防猪链球菌病，断奶后仔猪至成年猪每头肌肉或皮下注射1mL，注射7～14天产生免疫力，保存温度为-15°C，保存期为1年；2～8°C保存8个月；15～20°C保存30天。",
+    "error_detail": "错误地改变了注射量、免疫力产生时间、保存温度和保存期。",
+    "original_question": "猪链球菌弱毒冻干菌苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "按瓶签标明头份稀释后，耳根后肌肉注射2mL，公猪1年3次，母猪配种前2个月免疫1次，保存温度为-20°C，保存期为2年。",
+    "reference_case": "按瓶签标明头份稀释后，耳根后肌肉注射1mL，公猪1年2次，母猪配种前1个月免疫1次，保存温度为-15°C，保存期为1年。",
+    "error_detail": "错误地改变了注射量、免疫次数、免疫时间、保存温度和保存期。",
+    "original_question": "猪细小病毒弱毒疫苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "预防猪传染性胃肠炎。后海穴注射，被动免疫妊娠母猪于产前14～21天注射3mL；主动免疫初生仔猪注射1mL；10～50kg注射2mL；50kg以上注射3mL。",
+    "reference_case": "预防猪传染性胃肠炎。后海穴注射，被动免疫妊娠母猪于产前21～30天注射2mL；主动免疫初生仔猪注射0.5mL；10～50kg注射1mL；50kg以上注射2mL。",
+    "error_detail": "错误地改变了注射时间和注射量。",
+    "original_question": "猪传染性胃肠炎弱毒疫苗的主要用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "0～4℃保存。",
+    "reference_case": "2～8℃保存。",
+    "error_detail": "错误地改变了保存温度范围。",
+    "original_question": "猪流行性腹泻疫苗的保存条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乳猪股内侧肌肉接种1mL；断奶仔猪股内侧肌肉或臀部肌肉接种2mL；成年猪臀部肌肉接种3mL；生产母猪于每次配种前接种2次，其所产乳猪在断奶时再接种2mL。",
+    "reference_case": "乳猪股内侧肌肉接种0.5mL；断奶仔猪股内侧肌肉或臀部肌肉接种1mL；成年猪臀部肌肉接种2mL；生产母猪于每次配种前接种1次，其所产乳猪在断奶时再接种1mL。",
+    "error_detail": "错误地增加了注射量和接种次数。",
+    "original_question": "猪伪狂犬病弱毒冻干苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "妊娠母猪K99双介基因苗在分娩前5～10天耳根深部皮下接种2mL。",
+    "reference_case": "K99双介基因苗在分娩前10～20天耳根深部皮下接种1mL。",
+    "error_detail": "错误地改变了接种时间和注射量。",
+    "original_question": "猪大肠杆菌疫苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保存期为2年。",
+    "reference_case": "保存期为1.5年。",
+    "error_detail": "错误地延长了保存期。",
+    "original_question": "猪传染性萎缩性鼻炎灭活油乳剂苗的保存期是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保存期为1.5年。",
+    "reference_case": "保存期为1年。",
+    "error_detail": "错误地延长了保存期。",
+    "original_question": "猪传染性胸膜肺炎灭活油乳剂苗的保存期是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2℃保存2年。",
+    "reference_case": "4℃保存1年。",
+    "error_detail": "错误地改变了保存温度和保存期。",
+    "original_question": "猪繁殖与呼吸综合征灭活疫苗的保存条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "免疫期为12个月。",
+    "reference_case": "免疫期为6个月。",
+    "error_detail": "错误地延长了免疫期。",
+    "original_question": "猪O型口蹄疫灭活苗的免疫期是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "怀孕母猪产前2个月肌肉注射10mL，隔30天再注射10mL。也可在产前30天左右1次注射20mL。",
+    "reference_case": "怀孕母猪产前1个月肌肉注射5mL，隔15天再注射5mL。也可在产前15天左右1次注射10mL。",
+    "error_detail": "错误地改变了注射时间和注射量。",
+    "original_question": "仔猪红痢氢氧化铝菌苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "皮下接种应选择皮厚、被毛多、皮肤紧致、皮下血管多的部位，猪一般在背部或腹部。",
+    "reference_case": "皮下接种应选择皮薄、被毛少、皮肤松驰、皮下血管少的部位，猪一般在耳根后方或股内侧。",
+    "error_detail": "错误地描述了适合皮下接种的部位和猪的接种位置。",
+    "original_question": "皮下接种法适用于哪些部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "皮内接种应选择皮肤松驰，被毛多的部位，猪多在腹部或背部。",
+    "reference_case": "皮内接种应选择皮肤致密，被毛少的部位，猪多在耳后或耳外侧。",
+    "error_detail": "错误地描述了适合皮内接种的部位和猪的接种位置。",
+    "original_question": "皮内接种法适用于哪些部位？",
+    "original_input": ""
+  }
+]

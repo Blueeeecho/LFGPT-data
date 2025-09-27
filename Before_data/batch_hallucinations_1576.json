@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "应选择易消化的、体积较大的饲粮，并注意饲料品质，不能用发霉、腐烂、变质或冰冻的饲料喂猪。",
+    "reference_case": "应选择易消化的、体积较小的饲粮，并注意饲料品质，不能用发霉、腐烂、变质或冰冻的饲料喂猪。",
+    "error_detail": "修改了饲料的体积描述，从'较小'改为'较大'，导致数据型幻觉。",
+    "original_question": "如何选择哺乳母猪的饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "哺乳母猪每天要有适当运动和嘈杂的生活环境，决不能在猪圈边大声叫喊，更不应打骂母猪。",
+    "reference_case": "哺乳母猪每天要有适当运动和安静的生活环境，决不能在猪圈边大声叫喊，更不应打骂母猪。",
+    "error_detail": "修改了生活环境的要求，从'安静'改为'嘈杂'，导致指令偏离。",
+    "original_question": "哺乳期间如何管理母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "对产仔多、泌乳力强、仔猪断奶窝重高的高产母猪采取特殊的饲养措施，喂一些低能量饲料，注意生殖器官疾病防治。",
+    "reference_case": "对产仔多、泌乳力强、仔猪断奶窝重高的高产母猪采取特殊的饲养措施，喂一些高能量饲料，注意生殖器官疾病防治。",
+    "error_detail": "修改了饲料的能量描述，从'高能量'改为'低能量'，导致概念混淆。",
+    "original_question": "如何管理高产母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "应喂给黄豆、鱼粉等蛋白质少的饲料。",
+    "reference_case": "应喂给黄豆、鱼粉等蛋白质多的饲料。",
+    "error_detail": "修改了饲料的蛋白质描述，从'多'改为'少'，导致数据型幻觉。",
+    "original_question": "哺乳母猪泌乳不足时应怎样处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "断奶后2-3天内应喂低能量饲料，以促进排泄。",
+    "reference_case": "断奶后2-3天内应喂高能量饲料，以促进排泄。",
+    "error_detail": "修改了饲料的能量描述，从'高能量'改为'低能量'，导致时效性幻觉。",
+    "original_question": "哺乳母猪断奶后应怎样管理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "钙含量分别为1.0克、2.8克和4.8克。",
+    "reference_case": "钙含量分别为2.0克、3.8克和5.8克。",
+    "error_detail": "修改了钙含量的数值，导致数据型幻觉。",
+    "original_question": "仔猪饲料中的钙含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "1号料每公斤含2.25兆卡的可消化能，2号料每公斤含2.05兆卡的可消化能。",
+    "reference_case": "1号料每公斤含3.25兆卡的可消化能，2号料每公斤含3.05兆卡的可消化能。",
+    "error_detail": "修改了可消化能的数值，导致数据型幻觉。",
+    "original_question": "1号料和2号料的可消化能含量分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪体内各组织器官的生长顺序平衡，特别是在与肌肉、骨骼和脂肪相关的组织生长发育高峰的出现阶段较为明显。",
+    "reference_case": "猪体内各组织器官的生长顺序不平衡，特别是在与肌肉、骨骼和脂肪相关的组织生长发育高峰的出现阶段较为明显。",
+    "error_detail": "修改了生长顺序的描述，从'不平衡'改为'平衡'，导致概念混淆。",
+    "original_question": "猪各组织器官的生长顺序和强度有何特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大型猪如长白猪和大约克夏等，在生后1-2月龄、体重20-30公斤时处于骨骼生长发育的高峰期。",
+    "reference_case": "大型猪如长白猪和大约克夏等，在生后2-3月龄、体重30-40公斤时处于骨骼生长发育的高峰期。",
+    "error_detail": "修改了年龄和体重的数值，导致数据型幻觉。",
+    "original_question": "不同猪种在生长发育高峰期的体重和年龄有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在正常的饲养条件下，随着年龄的增长，猪的生长强度减小，体重的绝对值也随之减小。",
+    "reference_case": "在正常的饲养条件下，随着年龄的增长，猪的生长强度增大，体重的绝对值也随之增大。",
+    "error_detail": "修改了生长强度和体重绝对值的描述，导致数据型幻觉。",
+    "original_question": "猪体重的增长规律是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "随着年龄和体重的增长，猪体内的水分、蛋白质和矿物质含量逐渐减少，而脂肪含量则随着年龄和体重的增长迅速减少。",
+    "reference_case": "随着年龄和体重的增长，猪体内的水分、蛋白质和矿物质含量逐渐增加，而脂肪含量则随着年龄和体重的增长迅速增加。",
+    "error_detail": "修改了水分、蛋白质、矿物质和脂肪含量的变化趋势，导致概念混淆。",
+    "original_question": "猪体内水分、蛋白质和矿物质的含量随年龄和体重增加如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在肥育期，当猪体重达到50-55公斤后，应增加能量水平以减少脂肪沉积，从而提高瘦肉率。",
+    "reference_case": "在肥育期，当猪体重达到50-55公斤后，应限制能量水平以减少脂肪沉积，从而提高瘦肉率。",
+    "error_detail": "修改了能量水平的处理方式，从'限制'改为'增加'，导致指令偏离。",
+    "original_question": "如何通过限制能量水平提高瘦肉率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "蛋白质水平的高低不会影响猪的生长速度和胴体品质。",
+    "reference_case": "蛋白质水平的高低会影响猪的生长速度和胴体品质。",
+    "error_detail": "否定了蛋白质水平对生长速度和胴体品质的影响，导致因果倒置。",
+    "original_question": "蛋白质水平如何影响猪的生长和胴体品质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "蛋白质水平在15.5%至27.3%之间时，随着蛋白质水平的提高，日增重持续增加。",
+    "reference_case": "蛋白质水平在15.5%至27.3%之间时，随着蛋白质水平的提高，日增重先增加后减少。",
+    "error_detail": "修改了日增重的变化趋势，导致数据型幻觉。",
+    "original_question": "不同蛋白质水平对生长肥育猪的日增重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "蛋白质水平提高会导致脂肪率上升。",
+    "reference_case": "蛋白质水平提高会导致脂肪率下降。",
+    "error_detail": "修改了脂肪率的变化趋势，导致因果倒置。",
+    "original_question": "蛋白质水平对生长肥育猪的脂肪率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "蛋白质超过22.3%时，虽然瘦肉率提高，但日增重也上升。",
+    "reference_case": "蛋白质超过22.3%时，虽然瘦肉率提高，但日增重反而下降。",
+    "error_detail": "修改了日增重的变化趋势，导致数据型幻觉。",
+    "original_question": "蛋白质水平过高对生长肥育猪有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "蛋白质水平提高对脂肪型猪的瘦肉率影响更大，瘦肉型猪影响较小。",
+    "reference_case": "蛋白质水平提高对瘦肉型猪的瘦肉率影响更大，脂肪型猪影响较小。",
+    "error_detail": "颠倒了蛋白质水平对不同猪种的影响，导致因果倒置。",
+    "original_question": "蛋白质水平对不同品种猪的瘦肉率影响有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同猪种组合的出生时个体平均重量分别为：定远猪×定远猪0.72公斤，中约克0.96公斤。",
+    "reference_case": "不同猪种组合的出生时个体平均重量分别为：定远猪×定远猪0.82公斤，中约克1.06公斤。",
+    "error_detail": "修改了出生时个体平均重量的数值，导致数据型幻觉。",
+    "original_question": "不同猪种组合出生时的个体平均重量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同猪种组合的初生个体重量百分比分别为：定远猪×定远猪90.0%，中约克96.0%。",
+    "reference_case": "不同猪种组合的初生个体重量百分比分别为：定远猪×定远猪100.0%，中约克106.0%。",
+    "error_detail": "修改了初生个体重量百分比的数值，导致数据型幻觉。",
+    "original_question": "不同猪种组合的初生个体重量百分比是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同猪种组合的日增重分别为：定远猪×定远猪341.75克，杜洛克×定远猪442.77克。",
+    "reference_case": "不同猪种组合的日增重分别为：定远猪×定远猪441.75克，杜洛克×定远猪542.77克。",
+    "error_detail": "修改了日增重的数值，导致数据型幻觉。",
+    "original_question": "不同猪种组合的日增重是多少？",
+    "original_input": ""
+  }
+]

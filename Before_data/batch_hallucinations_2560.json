@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的主要保护性抗原是E1（gp33）基因。",
+    "reference_case": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的主要保护性抗原是E2（gp55:基因。",
+    "error_detail": "错误地将主要保护性抗原从E2混淆为E1。",
+    "original_question": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的主要保护性抗原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的E2基因与Brescia株（荷兰）毒的E2基因在B区的氨基酸组成上完全相同。",
+    "reference_case": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的E2基因与Brescia株（荷兰）毒的E2基因在B区的氨基酸组成上有多个氨基酸差异。",
+    "error_detail": "错误地声称两个基因在B区的氨基酸组成完全相同，忽略了实际的差异。",
+    "original_question": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的E2基因与Brescia株（荷兰）毒的E2基因在B区的氨基酸组成上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的E2基因与国内80年代和90年代流行毒株的E2基因在A1-A2区的氨基酸组成上有显著差异。",
+    "reference_case": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的E2基因与国内80年代和90年代流行毒株的E2基因在A1-A2区的氨基酸组成上十分保守，没有明显差异。",
+    "error_detail": "错误地声称存在显著差异，而实际上氨基酸组成十分保守。",
+    "original_question": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的E2基因与国内80年代和90年代流行毒株的E2基因在A1-A2区的氨基酸组成上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的E2基因与国内流行野毒及经典强毒在B、C区的氨基酸组成上完全相同。",
+    "reference_case": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的E2基因与国内流行野毒及经典强毒在B、C区的氨基酸组成上有较大的差异。",
+    "error_detail": "错误地声称氨基酸组成完全相同，忽略了实际的较大差异。",
+    "original_question": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的E2基因与国内流行野毒及经典强毒在B、C区的氨基酸组成上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的E2基因与C-株细胞毒的E2基因在中和性抗原区A、B、C的氨基酸组成上有显著差异。",
+    "reference_case": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的E2基因与C-株细胞毒的E2基因在中和性抗原区A、B、C的氨基酸组成上差异很小甚至没有差异。",
+    "error_detail": "错误地声称存在显著差异，而实际上差异很小甚至没有。",
+    "original_question": "中国猪瘟兔化弱毒株（C-株）兔脾组织毒的E2基因与C-株细胞毒的E2基因在中和性抗原区A、B、C的氨基酸组成上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "康某的3头猪在屠宰场发生疫病的原因是猪只本身携带病毒。",
+    "reference_case": "康某的3头猪在屠宰场发生疫病的原因是屠宰场未按规定对屠宰场内外进行严格消毒，导致猪只因存放时间过长而感染疫病。",
+    "error_detail": "错误地假设疫病原因是猪只本身携带病毒，而实际原因是屠宰场的消毒不严。",
+    "original_question": "康某的3头猪在屠宰场发生疫病的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "康某向永新县动物检疫站申报了检疫。",
+    "reference_case": "康某向水新县畜牧兽医中心下属的禾川动物检疾站申报了检疫。",
+    "error_detail": "错误地将申报机构从禾川动物检疾站改为永新县动物检疫站。",
+    "original_question": "康某在将猪送往屠宰场前，向哪个机构申报了检疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "永新县畜牧兽医中心提出，农牧部门检疫要求对被检猪做病毒检查，因此应承担赔偿责任。",
+    "reference_case": "永新县畜牧兽医中心提出，农牧部门检疫依照国家检疫标准执行，产地检疫只要求对猪作临床检查，没有要求对被检猪做病毒检查，因此不应承担赔偿责任。",
+    "error_detail": "错误地偏离了原始指令，声称农牧部门要求做病毒检查并应承担赔偿责任。",
+    "original_question": "永新县畜牧兽医中心在二审中提出的上诉理由是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "康某的7头肥猪被送往吉安县食品公司生猪定点屠宰场进行宰杀。",
+    "reference_case": "康某的7头肥猪被送往永新县食品公司生猪定点屠宰场进行宰杀。",
+    "error_detail": "错误地将屠宰场从永新县改为吉安县。",
+    "original_question": "康某的7头肥猪在1998年3月15日被送往哪里进行宰杀？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "因为屠宰场设备故障，所以只能宰杀康某的2头猪，剩下的5头猪待次日再宰。",
+    "reference_case": "因为屠宰场需要先宰杀从石桥乡调来的猪只，所以只能宰杀康某的2头猪，剩下的5头猪待次日再宰。",
+    "error_detail": "错误地假设宰杀延迟的原因是设备故障，而实际原因是优先宰杀其他猪只。",
+    "original_question": "永新县食品公司屠宰场在1998年3月16日为何未能宰杀康某的所有猪？",
+    "original_input": ""
+  }
+]

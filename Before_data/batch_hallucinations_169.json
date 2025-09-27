@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "The ecological养猪模式 benefits farmers by increasing economic efficiency by 200% through integrated farming systems like '猪-沼-果' (pig-m沼泽-fruit), which also promotes environmental sustainability by reducing waste and pollution by 150%.",
+    "reference_case": "The ecological养猪模式 benefits farmers by increasing economic efficiency through integrated farming systems like '猪-沼-果' (pig-m沼泽-fruit), which also promotes environmental sustainability by reducing waste and pollution. It creates a balanced system that enhances resource utilization and ecological harmony.",
+    "error_detail": "Exaggerated the economic efficiency increase and waste reduction percentages without basis.",
+    "original_question": "How does the ecological养猪模式 (pig farming model) benefit both farmers and the environment?",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "Zhangjiagang City has faced challenges such as declining生猪存栏量 due to outdated environmental regulations from the 1990s, limited land availability, and labor shortages.",
+    "reference_case": "Zhangjiagang City has faced challenges such as declining生猪存栏量 due to stricter environmental regulations, limited land availability, and labor shortages. These factors have contributed to the reduction in both live pig inventory and output over the years.",
+    "error_detail": "Incorrectly stated the environmental regulations as outdated from the 1990s instead of acknowledging they are stricter and current.",
+    "original_question": "What challenges has Zhangjiagang City faced in maintaining its生猪存栏量 (live pig inventory)?",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "The standardized养猪模式 is based on the principles of uniformity, simplification, and optimization, ignoring coordination to ensure faster production processes.",
+    "reference_case": "The standardized养猪模式 is based on the principles of统一 (uniformity), 简化 (simplification), 协调 (coordination), and 优化 (optimization). These principles ensure consistency in production processes, quality control, and environmental management, leading to efficient and sustainable pork production.",
+    "error_detail": "Omitted the principle of coordination and falsely claimed it was ignored for faster production, which deviates from the original instruction.",
+    "original_question": "What are the key principles of the standardized养猪模式 (pork production model)?",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2010年，张家港市生猪消费量为100万头，其中本地屠宰生猪90万头，外地调入猪肉10万头；本地出栏生猪20万头，其中销往上海约5万头，销往闽浙约1万头。",
+    "reference_case": "2010年，张家港市生猪消费量为57.8万头，其中本地屠宰生猪50.6万头，外地调入猪肉7.2万头；本地出栏生猪10.6万头，其中销往上海约2万头，销往闽浙约0.3万头。",
+    "error_detail": "Significantly inflated the numbers for生猪消费量, 本地屠宰生猪, 外地调入猪肉, 本地出栏生猪, and the amounts sold to Shanghai and闽浙 without basis.",
+    "original_question": "张家港市生猪消费情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "张家港市生猪产业发展的优势包括：良好的产业基础、发达的科技教育、突出的区位优势，以及假设中的未来高铁建设将进一步增强其交通便利性。",
+    "reference_case": "张家港市生猪产业发展的优势包括：良好的产业基础（如标准化示范场和种猪生产基地）、发达的科技教育（与多所高校合作，智力资源丰富）、突出的区位优势（交通便利，靠近主要经济中心）。",
+    "error_detail": "Added an unverified assumption about future高铁建设 enhancing交通便利性, which was not part of the original output.",
+    "original_question": "张家港市生猪产业发展的优势有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "张家港市生猪产业发展的劣势包括：土地资源紧张，发展空间受限；生态环境要求低，生猪养殖成本减少。",
+    "reference_case": "张家港市生猪产业发展的劣势包括：土地资源紧张，发展空间受限；生态环境要求高，生猪养殖成本增加。",
+    "error_detail": "Incorrectly stated '生态环境要求低' and '生猪养殖成本减少', which are opposite to the original facts.",
+    "original_question": "张家港市生猪产业发展的劣势有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "张家港市生猪产业发展的机会包括：城乡居民生活水平提高，对优质猪肉的消费需求旺盛；产学研合作进程加快，科技进步为育种和标准化规模养殖带来持续动力。然而，这些机会实际上并不存在。",
+    "reference_case": "张家港市生猪产业发展的机会包括：城乡居民生活水平提高，对优质猪肉的消费需求旺盛；产学研合作进程加快，科技进步为育种和标准化规模养殖带来持续动力。",
+    "error_detail": "Added a contradictory statement '然而，这些机会实际上并不存在' that negates the previously listed opportunities, creating a logical inconsistency.",
+    "original_question": "张家港市生猪产业发展的机会有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "张家港市生猪产业发展的威胁包括：质量安全与监管体系需要进一步加强；疫病风险和市场波动较大，对产业发展环境不利，但这些实际上促进了产业的发展。",
+    "reference_case": "张家港市生猪产业发展的威胁包括：质量安全与监管体系需要进一步加强；疫病风险和市场波动较大，对产业发展环境不利。",
+    "error_detail": "Incorrectly stated that the threats '实际上促进了产业的发展', which is a causal inversion error.",
+    "original_question": "张家港市生猪产业发展的威胁有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在动物卫生监督规范化管理方面，张家港市采取了与国际标准完全一致的措施，包括强化生猪定点屠宰场的动物防疫条件设施建设等。",
+    "reference_case": "答案 3：明确了2010年为动物卫生监督规范年，围绕规范化建设，在检疫监督上主要开展了屠宰检疫规范化建设、动物检疫工作规范化建设、外来生猪产品检疫管理以及监督检查和违法事件查处等工作。具体包括：强化生猪定点屠宰场的动物防疫条件设施建设，配置必要的仪器设备，建设9项制度上墙；严格执行《动物检疫管理办法》，落实生猪产地检疫报检制度和登门检疫制度，规范生猪宰前检疫和屠宰检疫操作；加强对外地调入我市屠宰生猪的检疫管理，严格执行进场待宰制度、准宰制度和病死猪无害化处理制度；对大卖场、超市等经营生猪产品实行备案登记和索证制度，规范屠宰加工企业分销肉品检疫监管；加强监督检查，严肃查处违法事件，1—10月份共立案查处违法事件7起，罚款人民币10970元。",
+    "error_detail": "Falsely claimed the measures are '与国际标准完全一致' without providing evidence or basis for such a comparison.",
+    "original_question": "在动物卫生监督规范化管理方面，张家港市采取了哪些措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对养殖环节和屠宰环节的'瘦肉精'进行了抽检，1—10月对养殖环节抽检'瘦肉精'共500场次，对屠宰环节共抽检'瘦肉精'10000批次、抽检尿样40000份，对阳性生猪和同群生猪共2000头实行了禁宰处理。",
+    "reference_case": "答案 4：对养殖环节和屠宰环节的'瘦肉精'进行了抽检，1—10月对养殖环节抽检'瘦肉精'共320场次，对屠宰环节共抽检'瘦肉精'7321批次、抽检尿样29314份，对阳性生猪和同群生猪共1608头实行了禁宰处理；对兽药经营和使用单位进行监督检查，重点检查是否经营、使用或储存国家明令禁用的兽药、含有禁用药物成分的制剂产品及原材料药，检查饲料经营企业是否存在过期、变质的饲料或违规添加违禁药物的行为，并要求他们按照管理制度诚信经营。",
+    "error_detail": "Inflated the numbers for抽检场次, 批次, 尿样份数, and 禁宰处理头数 without basis.",
+    "original_question": "在畜牧投入品监管方面，张家港市采取了哪些措施？",
+    "original_input": ""
+  }
+]

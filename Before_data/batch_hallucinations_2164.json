@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "临床表现、牛的转移、合并牛群、配种记录以及工作人员疾病状况的良好记录为布氏杆菌病的诊断提供了必要资料，而准确的流行病学资料是实验室诊断的必要补充。",
+    "reference_case": "临床表现、猪的转移、合并猪群、配种记录以及工作人员疾病状况的良好记录为布氏杆菌病的诊断提供了必要资料，而准确的流行病学资料是实验室诊断的必要补充。",
+    "error_detail": "将猪错误地替换为牛，导致概念混淆。",
+    "original_question": "布氏杆菌病临床表现与流行病学资料对诊断有何帮助？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "抗生素治疗、饲料添加或化学疗法在治疗猪的布氏杆菌病方面已经证明非常有效且经济可行，化学治疗可完全消除B.suis繁殖，彻底缓解临床症状和细菌传播。",
+    "reference_case": "抗生素治疗、饲料添加或化学疗法在治疗猪的布氏杆菌病方面尚未证明有效且经济可行，化学治疗可抑制B.suis繁殖，缓解临床症状和减少细菌传播。",
+    "error_detail": "夸大了治疗效果，与事实不符。",
+    "original_question": "治疗布氏杆菌病是否有效？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "从猪群中根除布氏杆菌病是控制该病的唯一措施，无需其他任何预防措施。",
+    "reference_case": "从猪群中根除布氏杆菌病是控制该病的主要措施，包括专业化养殖、减少猪场间疾病传播、取消公用种公猪、建立无布氏杆菌病猪群、实施有效的监测措施等。",
+    "error_detail": "忽略了其他重要的预防措施，偏离了原始指令。",
+    "original_question": "预防布氏杆菌病的主要措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "所有猪对布氏杆菌感染都有天然抵抗力，无需通过选择性育种加强抗病性。",
+    "reference_case": "某些猪对布氏杆菌感染有天然抵抗力，通过选择性育种可加强抗病性，感染强毒后的短暂抵抗力，弱化菌株和灭活菌体一般无效，免疫持续性有限。",
+    "error_detail": "错误地认为所有猪都有天然抵抗力，忽略了选择性育种的作用。",
+    "original_question": "猪对布氏杆菌病的免疫性受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "避免深部污染性创伤，尽快全身用氨基糖苷类抗菌素治疗。",
+    "reference_case": "避免深部污染性创伤，尽快全身用青霉素或非氨基糖苷类抗菌素治疗。",
+    "error_detail": "推荐使用氨基糖苷类抗菌素，与当前治疗标准不符。",
+    "original_question": "猪产气英膜梭菌气性坏疽的预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "据推测，该菌常由创伤感染，而不是口腔感染。",
+    "reference_case": "据推测，该菌常由口腔感染，而不是创伤感染。",
+    "error_detail": "错误地颠倒了感染途径，导致空间错位。",
+    "original_question": "猪气肿疽梭菌感染的发病机理是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "减少与细菌接触。虽然还没有证明气肿疽梭菌是一种常见的土壤微生物，但是从几篇关于猪患此病的报道中有充分的证据表明，在已知污染猪场养猪或让猪采食死于黑腿病的反刍动物的尸体，都是发生此病的唯一因素。",
+    "reference_case": "减少与细菌接触。虽然还没有证明气肿疽梭菌是一种常见的土壤微生物，但是从几篇关于猪患此病的报道中有充分的证据表明，在已知污染猪场养猪或让猪采食死于黑腿病的反刍动物的尸体，都是发生此病的因素。",
+    "error_detail": "添加了'唯一因素'的假设，与原始信息不符。",
+    "original_question": "预防猪气肿疽梭菌感染的方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "死于此病的猪的明显特征是肝脏为红色，切开有大量气泡。",
+    "reference_case": "死于此病的猪的明显特征是肝脏为青铜色，切开有大量气泡。",
+    "error_detail": "错误地描述了肝脏颜色，导致概念混淆。",
+    "original_question": "诺维氏梭菌感染（猝死）的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "有关猪发生本病的发病机理和流行病学资料已经非常清楚，无需进一步研究。",
+    "reference_case": "有关猪发生本病的发病机理和流行病学资料有待于对本病的进一步研究。",
+    "error_detail": "错误地认为研究已经完成，与原始信息存在逻辑矛盾。",
+    "original_question": "诺维氏梭菌感染流行病学资料的研究方向是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "附红细胞体病的病原是细菌病原——猪附红细胞体（Eperythrozoon Suis）。",
+    "reference_case": "附红细胞体病的病原是立克次氏体病原——猪附红细胞体（Eperythrozoon Suis）。",
+    "error_detail": "错误地将立克次氏体病原描述为细菌病原，导致概念混淆。",
+    "original_question": "附红细胞体病的病原是什么？",
+    "original_input": ""
+  }
+]

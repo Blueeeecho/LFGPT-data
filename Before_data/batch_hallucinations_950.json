@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "注射位点的消除半衰期最长，为200小时。",
+    "reference_case": "注射位点的消除半衰期最长，为160:8小时。",
+    "error_detail": "数值偏差",
+    "original_question": "头孢噻呋在猪体内的消除动力学参数中，哪个组织的消除半衰期最长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "肾脏的药物浓度在最后一次给药后24小时达到最高，为2:589 μg/g。",
+    "reference_case": "肾脏的药物浓度在最后一次给药后12小时达到最高，为2:589 μg/g。",
+    "error_detail": "时间点错误",
+    "original_question": "头孢噻呋在猪体内的残留消除研究中，肾脏的药物浓度在哪个时间点达到最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "除了肝脏外，所有组织的药物浓度在3天后均低于最高残留限量（MRL）。",
+    "reference_case": "所有组织的药物浓度在3天后均低于最高残留限量（MRL）。",
+    "error_detail": "添加了不存在的例外",
+    "original_question": "头孢噻呋在猪体内的残留消除研究中，哪个组织的药物浓度在3天后低于最高残留限量（MRL）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "建议的休药期是7天。",
+    "reference_case": "建议的休药期是5天。",
+    "error_detail": "数值偏差",
+    "original_question": "头孢噻呋在猪体内的残留消除研究中，建议的休药期是多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪细小病毒（PPV）是由 Mayr 等在 1970 年首次发现的。",
+    "reference_case": "猪细小病毒（PPV）是由 Mayr 等在 1966 年首次发现的。",
+    "error_detail": "时间错误",
+    "original_question": "猪细小病毒（PPV）的首次发现是在哪一年？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细小病毒（PPV）主要引起成年母猪的繁殖障碍疾病。",
+    "reference_case": "猪细小病毒（PPV）主要引起初产母猪的繁殖障碍疾病。",
+    "error_detail": "术语错误",
+    "original_question": "猪细小病毒（PPV）主要引起哪种疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪和牛是猪细小病毒（PPV）的主要易感动物。",
+    "reference_case": "猪是猪细小病毒（PPV）的唯一易感动物。",
+    "error_detail": "术语错误",
+    "original_question": "猪细小病毒（PPV）的主要易感动物是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细小病毒（PPV）能凝集多种动物红细胞，其中对鸡和人 O 型红细胞的凝集效果最好。",
+    "reference_case": "猪细小病毒（PPV）能凝集多种动物红细胞，其中对豚鼠和人 O 型红细胞的凝集效果最好。",
+    "error_detail": "术语错误",
+    "original_question": "猪细小病毒（PPV）的血凝特性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪细小病毒（PPV）的理化特性鉴定不包括病毒核酸型鉴定和病毒囊膜鉴定。",
+    "reference_case": "猪细小病毒（PPV）的理化特性鉴定包括病毒核酸型鉴定和病毒囊膜鉴定。病毒核酸型鉴定通过 5-溴脱氧尿核苷（5-BUDR）处理试验组和未处理试验组的细胞病变观察，病毒囊膜鉴定通过氯仿处理的试验组和未处理组的细胞病变观察。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "猪细小病毒（PPV）的理化特性鉴定包括哪些内容？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪细小病毒（PPV）为单股线状 DNA 病毒，无囊膜，自主复制型病毒，核苷酸长度约为 6000 nt，含有 3 个开放阅读框（ORF），分别编码 4 个结构蛋白（VP1、VP2、VP3、VP4）和 4 个非结构蛋白（NS1、NS2、NS3、NS4）。",
+    "reference_case": "猪细小病毒（PPV）为单股线状 DNA 病毒，无囊膜，自主复制型病毒，核苷酸长度约为 5000 nt，含有 2 个开放阅读框（ORF），分别编码 3 个结构蛋白（VP1、VP2、VP3）和 3 个非结构蛋白（NS1、NS2、NS3）。",
+    "error_detail": "数值和术语错误",
+    "original_question": "猪细小病毒（PPV）的基因组结构是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪细小病毒（PPV）的分离鉴定中，使用了 Vero 细胞。",
+    "reference_case": "在猪细小病毒（PPV）的分离鉴定中，使用了 PK-15 细胞。",
+    "error_detail": "术语错误",
+    "original_question": "在猪细小病毒（PPV）的分离鉴定中，使用了哪些细胞？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "经过中和试验，PPV 分离株能与标准阳性血清发生特异性结合，血清中和抗体效价为 1:64。经过血凝效价测定，该病毒的血凝效价（HA）为 1:2^9，4 单位的血凝效价即为 1:2^7，测定该病毒血凝抑制效价（HI）为 1:2^8。",
+    "reference_case": "经过中和试验，PPV 分离株能与标准阳性血清发生特异性结合，血清中和抗体效价为 1:32。经过血凝效价测定，该病毒的血凝效价（HA）为 1:2^8，4 单位的血凝效价即为 1:2^6，测定该病毒血凝抑制效价（HI）为 1:2^7。",
+    "error_detail": "数值偏差",
+    "original_question": "猪细小病毒（PPV）的血清学鉴定结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪细小病毒（PPV）的一步生长曲线显示，感染后第 6 小时已有少量病毒吸附进入细胞内，随后细胞内的病毒缓慢增加，第 26 小时开始大量增殖，第 46 小时达到最大量，随后逐渐下降。病毒感染细胞后第 6 小时能在细胞外检测到病毒粒子，但含量较低，随后病毒粒子逐渐释放到胞外，第 26 小时开始大量释放，胞外病毒粒子呈对数增长，第 58 小时胞外病毒粒子含量达到最大值。",
+    "reference_case": "猪细小病毒（PPV）的一步生长曲线显示，感染后第 4 小时已有少量病毒吸附进入细胞内，随后细胞内的病毒缓慢增加，第 24 小时开始大量增殖，第 44 小时达到最大量，随后逐渐下降。病毒感染细胞后第 4 小时能在细胞外检测到病毒粒子，但含量较低，随后病毒粒子逐渐释放到胞外，第 24 小时开始大量释放，胞外病毒粒子呈对数增长，第 56 小时胞外病毒粒子含量达到最大值。",
+    "error_detail": "时间点错误",
+    "original_question": "猪细小病毒（PPV）的一步生长曲线显示了什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "针对 PPV 的 VP1 和 NS1 基因设计特异性引物，建立 PPV 的荧光定量 PCR 方法。使用荧光定量引物经普通 PCR 扩增后出现 200 bp 的目的片段，回收目的片段克隆测序，结果显示该片段与 PPV NS1 基因相似性为 98%。测定的重组质粒质量浓度为 300 ng/μL，根据公式计算 pMD19-T-NS1 的拷贝数为 9:00×10^10 copies/μL。",
+    "reference_case": "针对 PPV 的 VP1 和 NS1 基因设计特异性引物，建立 PPV 的荧光定量 PCR 方法。使用荧光定量引物经普通 PCR 扩增后出现 192 bp 的目的片段，回收目的片段克隆测序，结果显示该片段与 PPV NS1 基因相似性为 100%。测定的重组质粒质量浓度为 278 ng/μL，根据公式计算 pMD19-T-NS1 的拷贝数为 8:79×10^10 copies/μL。",
+    "error_detail": "数值偏差",
+    "original_question": "猪细小病毒（PPV）的荧光定量 PCR 方法是如何建立的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "PRRSV感染Marc-145细胞后，NF-κB p50和p65 mRNA的转录水平在感染后第10至14小时急剧下调，并在第14至124小时维持在较低水平，与对照组相比差异显著或极显著（P<0:05或P<0:01）。",
+    "reference_case": "PRRSV感染Marc-145细胞后，NF-κB p50和p65 mRNA的转录水平在感染后第8至12小时急剧下调，并在第12至120小时维持在较低水平，与对照组相比差异显著或极显著（P<0:05或P<0:01）。",
+    "error_detail": "时间点错误",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）感染Marc-145细胞后，NF-κB p50和p65 mRNA的转录水平在哪些时间段发生了显著变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪博卡病毒属于细小病毒科、博卡病毒亚科、细小病毒属。",
+    "reference_case": "猪博卡病毒属于细小病毒科、细小病毒亚科、博卡病毒属。",
+    "error_detail": "术语错误",
+    "original_question": "猪博卡病毒（PBoV）属于哪个病毒科和病毒属？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该方法的敏感性试验显示，检测PBoV1/PBoV2的最低限为4:0×10^-3 ng/μL，检测PBoV3/PBoV4/PBoV5的最低限为6:0×10^-3 ng/μL。",
+    "reference_case": "该方法的敏感性试验显示，检测PBoV1/PBoV2的最低限为3:6×10^-3 ng/μL，检测PBoV3/PBoV4/PBoV5的最低限为5:55×10^-3 ng/μL。",
+    "error_detail": "数值偏差",
+    "original_question": "猪博卡病毒的双重PCR检测方法的敏感性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在四川省的18份腹泻仔猪病料中，检测出12份为猪博卡病毒阳性，其中9份为PBoV3/PBoV4/PBoV5型，3份为PBoV1/PBoV2型，0份为PBoV1/PBoV2型及PBoV3/PBoV4/PBoV5型共感染。",
+    "reference_case": "在四川省的18份腹泻仔猪病料中，检测出10份为猪博卡病毒阳性，其中7份为PBoV3/PBoV4/PBoV5型，2份为PBoV1/PBoV2型，1份为PBoV1/PBoV2型及PBoV3/PBoV4/PBoV5型共感染。",
+    "error_detail": "数值偏差",
+    "original_question": "猪博卡病毒的双重PCR检测方法在四川省的应用结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "根据GenBank中公布的PBoV不同基因型序列进行同源性分析，设计出扩增PBoV1/PBoV2及PBoV3/PBoV4/PBoV5的引物，通过优化引物比例和退火温度，建立了分别检测PBoV1/PBoV2和PBoV3/PBoV4/PBoV5的单重PCR方法。",
+    "reference_case": "根据GenBank中公布的PBoV不同基因型序列进行同源性分析，设计出扩增PBoV1/PBoV2及PBoV3/PBoV4/PBoV5的引物，通过优化引物比例和退火温度，建立了同时检测PBoV1/PBoV2和PBoV3/PBoV4/PBoV5的双重PCR方法。",
+    "error_detail": "指令偏离",
+    "original_question": "猪博卡病毒的双重PCR检测方法是如何建立的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在双重PCR反应条件的优化中，确定PBoV-F1/PBoV-R1各1:5 μL，PBoV-F2/PBoV-R2各0:75 μL时扩增效果最佳。",
+    "reference_case": "在双重PCR反应条件的优化中，确定PBoV-F1/PBoV-R1各1 μL，PBoV-F2/PBoV-R2各0:5 μL时扩增效果最佳。",
+    "error_detail": "数值偏差",
+    "original_question": "猪博卡病毒的双重PCR检测方法中，引物比例是如何优化的？",
+    "original_input": ""
+  }
+]

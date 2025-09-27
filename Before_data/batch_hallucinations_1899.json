@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每公斤体重50毫克，肌肉注射，每日1次，连续7天。",
+    "reference_case": "每公斤体重25毫克，肌肉注射，每日2次，连续3-5天。",
+    "error_detail": "剂量和频率错误",
+    "original_question": "链霉素治疗猪布氏杆菌病的用法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "主要症状是咳嗽，特别是初产母猪，在怀孕第二三个月多发生咳嗽。",
+    "reference_case": "主要症状是流产，特别是初产母猪，在怀孕第二三个月多发生流产，早期流产的胎儿和胎衣常被母猪吃掉。",
+    "error_detail": "症状描述错误",
+    "original_question": "母猪感染布氏杆菌病的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "宰丸炎和附睾炎，一侧或两侧性肿大，有时开始表现全身发热，局部疼痛，不愿配种，久之睾丸发生萎缩、硬化、不能配种。治疗方法为使用青霉素。",
+    "reference_case": "宰丸炎和附睾炎，一侧或两侧性肿大，有时开始表现全身发热，局部疼痛，不愿配种，久之睾丸发生萎缩、硬化、不能配种。",
+    "error_detail": "添加了过时的治疗方法",
+    "original_question": "公猪感染布氏杆菌病的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪传染性胃肠炎的病原是猪传染性胃肠炎细菌，属于细菌科细菌属。",
+    "reference_case": "猪传染性胃肠炎的病原是猪传染性胃肠炎病毒，属于冠状病毒科冠状病毒属。",
+    "error_detail": "病原类型错误",
+    "original_question": "猪传染性胃肠炎的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪传染性胃肠炎病毒对热敏感，加热100°C 5分钟可杀灭病毒。",
+    "reference_case": "猪传染性胃肠炎病毒对热敏感，加热56°C 45分钟或65°C 10分钟可杀灭病毒。",
+    "error_detail": "温度和时间错误",
+    "original_question": "猪传染性胃肠炎病毒的热敏性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪传染性胃肠炎病毒在猪体内的胃和结肠的含毒量最高，空肠和十二指肠次之，不能在回肠内增殖。",
+    "reference_case": "猪传染性胃肠炎病毒在猪体内的空肠和十二指肠的含毒量最高，回肠次之，不能在胃和结肠内增殖。",
+    "error_detail": "病毒分布位置错误",
+    "original_question": "猪传染性胃肠炎病毒在猪体内的分布情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪传染性胃肠炎的主要特征为呕吐、严重腹泻和脱水，病情较重的仔猪2-7天内死亡率可达50-60%。",
+    "reference_case": "猪传染性胃肠炎的主要特征为呕吐、严重腹泻和脱水，病情较重的仔猪2-7天内死亡率可达95-100%。",
+    "error_detail": "死亡率数据错误",
+    "original_question": "猪传染性胃肠炎的主要临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪传染性胃肠炎的诊断方法包括血液检查和尿液分析。",
+    "reference_case": "猪传染性胃肠炎的诊断方法包括免疫荧光试验、动物试验和鉴别诊断。",
+    "error_detail": "诊断方法错误",
+    "original_question": "猪传染性胃肠炎的诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "预防措施包括加强冬季防疫工作、避免从病区引入带毒猪、限制人员和动物流动、封锁猪舍并消毒、对妊娠母猪接种疫苗等，以及定期给猪喂食抗生素。",
+    "reference_case": "预防措施包括加强冬季防疫工作、避免从病区引入带毒猪、限制人员和动物流动、封锁猪舍并消毒、对妊娠母猪接种疫苗等。",
+    "error_detail": "添加了不必要的预防措施",
+    "original_question": "如何预防猪传染性胃肠炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "对症治疗是目前唯一的治疗措施，包括维持电解质平衡、保持干燥、对2-5周龄病猪使用抗生素等，但抗生素无效。",
+    "reference_case": "对症治疗是目前唯一的治疗措施，包括维持电解质平衡、保持干燥、对2-5周龄病猪使用抗生素等。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "猪传染性胃肠炎的治疗措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "潜伏期一般为48-72小时，病猪精神沉郁，食欲缺乏，常于食后呕吐，继而发生腹泻，粪便呈黄色、灰色或黑色，呈水样或糊状，病猪严重脱水，体重减轻约50%。",
+    "reference_case": "潜伏期一般为12-24小时，病猪精神沉郁，食欲缺乏，常于食后呕吐，继而发生腹泻，粪便呈黄色、灰色或黑色，呈水样或糊状，病猪严重脱水，体重减轻约30%。",
+    "error_detail": "潜伏期和体重减轻比例错误",
+    "original_question": "猪轮状病毒病的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "轮状病毒属于冠状病毒科，轮状病毒属。",
+    "reference_case": "轮状病毒属于呼肠孤病毒科，轮状病毒属。",
+    "error_detail": "病毒科错误",
+    "original_question": "猪轮状病毒病的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "轮状病毒主要存在于病猪及带毒猪的消化道，随粪便排到外界环境后，污染饲料、饮水、垫草及土壤等，经消化道途径使易感猪感染，排毒时间可持续多天，可严重污染环境，病毒对外界环境有很强的抵抗力，使该病毒在成猪、中猪、仔猪之间反复循环感染，长期在猪场中存在。预防措施包括使用抗生素。",
+    "reference_case": "轮状病毒主要存在于病猪及带毒猪的消化道，随粪便排到外界环境后，污染饲料、饮水、垫草及土壤等，经消化道途径使易感猪感染，排毒时间可持续多天，可严重污染环境，病毒对外界环境有很强的抵抗力，使该病毒在成猪、中猪、仔猪之间反复循环感染，长期在猪场中存在。",
+    "error_detail": "添加了过时的预防措施",
+    "original_question": "猪轮状病毒病的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "采用主动免疫，用疫苗给仔猪免疫，产生主动免疫。",
+    "reference_case": "采用被动免疫，用疫苗给母猪免疫，仔猪吃到初乳，产生被动免疫；或新生仔猪口服抗血清，也能得到保护。",
+    "error_detail": "免疫方法错误",
+    "original_question": "如何进行猪轮状病毒病的免疫预防？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "常用的方法有血液检查和尿液分析。",
+    "reference_case": "常用的方法有琼脂扩散试验、荧光抗体试验和酶联免疫吸附试验等。",
+    "error_detail": "诊断方法错误",
+    "original_question": "猪轮状病毒病的实验室诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "根据流行特点、临床症状和剖检变化，与猪流感、猪丹毒和仔猪红痢等疾病相区别。",
+    "reference_case": "见表3，根据流行特点、临床症状和剖检变化，与猪传染性胃肠炎、猪流行性腹泻和仔猪黄痢、白痢等疾病相区别。",
+    "error_detail": "疾病对比错误",
+    "original_question": "如何鉴别诊断猪轮状病毒病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "发现病猪，立即进行隔离，放在干燥温暖的猪舍内，加强护理，尽量减少应激因素，及时清除粪便及其污染的垫草，及时消毒被污染的环境和用具，给病猪口服葡萄糖盐溶液，进行对症治疗，投服止泻剂，使用抗生素及磺胺类药物，以防止继发感染，静脉注射5%葡萄糖盐水和5%碳酸氢钠溶液，可防止脱水和酸中毒，并定期给猪喂食维生素。",
+    "reference_case": "发现病猪，立即进行隔离，放在干燥温暖的猪舍内，加强护理，尽量减少应激因素，及时清除粪便及其污染的垫草，及时消毒被污染的环境和用具，给病猪口服葡萄糖盐溶液，进行对症治疗，投服止泻剂，使用抗生素及磺胺类药物，以防止继发感染，静脉注射5%葡萄糖盐水和5%碳酸氢钠溶液，可防止脱水和酸中毒。",
+    "error_detail": "添加了不必要的治疗措施",
+    "original_question": "猪轮状病毒病的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪出现繁殖障碍，表现为多次发情而不受孕，或产出死胎、木乃伊胎，或只产出少数仔猪。妊娠早期感染时胚胎死亡，导致母猪不孕和反复发情。感染率高达90%。",
+    "reference_case": "妊娠母猪出现繁殖障碍，表现为多次发情而不受孕，或产出死胎、木乃伊胎，或只产出少数仔猪。妊娠早期感染时胚胎死亡，导致母猪不孕和反复发情。",
+    "error_detail": "添加了感染率数据",
+    "original_question": "猪细小病毒病的主要临床表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细小病毒属于冠状病毒科，是单股RNA病毒，能凝集豚鼠、大白鼠、鸡和猫等动物红细胞，也能凝集人的“O”型红细胞。对热、乙醚、氯仿等具有抵抗力，80℃经5分钟则丧失感染性和血凝活性。",
+    "reference_case": "猪细小病毒属于细小病毒科，是单股DNA病毒，能凝集豚鼠、大白鼠、鸡和猫等动物红细胞，也能凝集人的“O”型红细胞。对热、乙醚、氯仿等具有抵抗力，80℃经5分钟则丧失感染性和血凝活性。",
+    "error_detail": "病毒科和核酸类型错误",
+    "original_question": "猪细小病毒的病原特性有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪是唯一已知的易感动物，病猪和带毒猪是传染源，主要通过消化道、呼吸道感染，常见于初产母猪，流行于秋冬季，呈地方性流行或散发。",
+    "reference_case": "猪是唯一已知的易感动物，病猪和带毒猪是传染源，主要通过消化道、呼吸道感染，常见于初产母猪，流行于春夏季，呈地方性流行或散发。",
+    "error_detail": "流行季节错误",
+    "original_question": "猪细小病毒的流行特点是什么？",
+    "original_input": ""
+  }
+]

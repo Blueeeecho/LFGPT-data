@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "病毒N基因的核昔酸序列分析表明PEDV韩国株和比利时分离的CV777株存在着90%的同源性。",
+    "reference_case": "病毒N基因的核昔酸序列分析表明PEDV韩国株和比利时分离的CV777株存在着97%的同源性。",
+    "error_detail": "同源性比例被错误地降低。",
+    "original_question": "猪流行性腹泻病毒的电镜结构如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病毒核酸为线性单股负链RNA，具有侵染性。",
+    "reference_case": "病毒核酸为线性单股正链RNA，具有侵染性。基因组长为27000~33000个核苷酸（nt），相对分子质量为6×10^6~8×10^6。",
+    "error_detail": "RNA链的性质被错误描述。",
+    "original_question": "猪流行性腹泻病毒的遗传特征如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪感染后1～2周，抗体滴度达到高峰。",
+    "reference_case": "猪感染后3～5周，抗体滴度达到高峰。",
+    "error_detail": "抗体滴度达到高峰的时间被错误地提前。",
+    "original_question": "猪感染PEDV后抗体滴度达到高峰的时间是？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "主动免疫后保护率为70%～80%。",
+    "reference_case": "主动免疫后保护率为85%～97.6%。",
+    "error_detail": "保护率被错误地降低。",
+    "original_question": "猪流行性腹泻氢氧化铝灭活疫苗的保护率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "将病猪小肠组织及肠内容物做成悬液，每毫升加青霉素1000 IU和链霉素1000 μg，在室温放置2小时后接种实验仔猪。",
+    "reference_case": "将病猪小肠组织及肠内容物做成悬液，每毫升加青霉素2000 IU和链霉素2000 μg，在室温放置1小时后接种实验仔猪，若实验猪发病，则取小肠组织做免疫荧光检查。",
+    "error_detail": "抗生素的剂量和放置时间被错误修改。",
+    "original_question": "如何通过免疫荧光检查进行人工感染试验？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "康复母猪抗凝血或高免血清每日口服5 mL，连用5天。",
+    "reference_case": "康复母猪抗凝血或高免血清每日口服10 mL，连用3天。",
+    "error_detail": "剂量和使用天数被错误修改。",
+    "original_question": "仔猪使用康复母猪抗凝血或高免血清治疗时的剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪轮状病毒细胞培养时，某些毒株只有在培养液中加入5~10μg/mL胰蛋白酶，培养48h后通过荧光抗体技术检查才能确认获得成功。",
+    "reference_case": "猪轮状病毒细胞培养时，某些毒株只有在培养液中加入0.5~2μg/mL胰蛋白酶，培养24h后通过荧光抗体技术检查才能确认获得成功。",
+    "error_detail": "胰蛋白酶的浓度和培养时间被错误地增加。",
+    "original_question": "猪轮状病毒细胞培养时需要添加什么物质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细小病毒有多个血清型，每种血清型的毒力强弱不同。",
+    "reference_case": "猪细小病毒只有一个血清型，但大致有四种毒株类型，不同毒株的毒力强弱不同。",
+    "error_detail": "血清型的数量被错误描述。",
+    "original_question": "猪细小病毒的血清型情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪细小病毒的诊断方法包括病毒感染力测定、乳胶凝集试验、酶联免疫吸附试验等。",
+    "reference_case": "包括病毒感染力测定、乳胶凝集试验、酶联免疫吸附试验、免疫荧光显微检测、聚合酶链式反应（PCR）等。",
+    "error_detail": "诊断方法被错误地省略。",
+    "original_question": "猪细小病毒的诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细小病毒血清型多样并具有低免疫原性。",
+    "reference_case": "猪细小病毒血清型单一并具有高免疫原性，病原学的确诊最好利用病毒分离鉴定方法。",
+    "error_detail": "血清型和免疫原性的描述被错误修改。",
+    "original_question": "猪细小病毒免疫学诊断的最大特点是什么？",
+    "original_input": ""
+  }
+]

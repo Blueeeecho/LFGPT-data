@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PCR 扩增条件为：94°C 预变性 3 分钟；94°C 变性 30 秒，58°C 退火 30 秒，72°C 延伸 1 分钟，30 个循环；72°C 延伸 5 分钟。",
+    "reference_case": "PCR 扩增条件为：94°C 预变性 5 分钟；94°C 变性 45 秒，58°C 退火 45 秒，72°C 延伸 2 分钟，35 个循环；72°C 延伸 10 分钟。",
+    "error_detail": "PCR扩增的时间和循环次数被错误地减少。",
+    "original_question": "猪 Prox1 基因的克隆过程中，PCR 扩增的条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在转基因猪胚胎中，EGFP 的表达在所有缺失体片段中都能被观察到，这表明EGFP基因在所有片段中都被成功整合。",
+    "reference_case": "在转基因猪胚胎中，EGFP 的表达在所有缺失体片段中都能被观察到，表明这些片段均能启动下游 EGFP 的表达。",
+    "error_detail": "添加了未被证实的假设，即EGFP基因在所有片段中都被成功整合。",
+    "original_question": "在转基因猪胚胎中，EGFP 的表达是否在所有缺失体片段中都能被观察到？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "新型猪源 H1N1 流感病毒 A/swine/Shandong/07/2011 株的 TCID50 为 1:05 × 10^-6 · mL^-1。",
+    "reference_case": "新型猪源 H1N1 流感病毒 A/swine/Shandong/07/2011 株的 TCID50 为 1:02 × 10^-6 · mL^-1。",
+    "error_detail": "TCID50的数值被错误地修改。",
+    "original_question": "新型猪源 H1N1 流感病毒 A/swine/Shandong/07/2011 株的 TCID50 是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪场中，猪舍内空气样品中病毒 RNA 拷贝数的范围为 3:00 ~ 5:00 log10 copies · m^-3 空气；猪舍外下风向 10 m 处空气样品中病毒 RNA 拷贝数的范围为 2:00 ~ 3:00 log10 copies · m^-3 空气。",
+    "reference_case": "在猪场中，猪舍内空气样品中病毒 RNA 拷贝数的范围为 3:50 ~ 5:72 log10 copies · m^-3 空气；猪舍外下风向 10 m 处空气样品中病毒 RNA 拷贝数的范围为 2:24 ~ 3:77 log10 copies · m^-3 空气。",
+    "error_detail": "病毒RNA拷贝数的范围被错误地缩小。",
+    "original_question": "在猪场中，猪舍内和猪舍外下风向 10 m 处的空气样品中病毒 RNA 拷贝数的范围分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪场中，猪舍内空气样品的阳性率为 20:00%，病毒 RNA 拷贝数为 3:00 ~ 5:00 log10 copies · m^-3 空气；猪舍外下风向 10 m 处空气样品的阳性率为 30:00%，病毒 RNA 拷贝数为 2:00 ~ 3:00 log10 copies · m^-3 空气。",
+    "reference_case": "在猪场中，猪舍内空气样品的阳性率为 26:10%，病毒 RNA 拷贝数为 3:50 ~ 5:72 log10 copies · m^-3 空气；猪舍外下风向 10 m 处空气样品的阳性率为 40:70%，病毒 RNA 拷贝数为 2:24 ~ 3:77 log10 copies · m^-3 空气。",
+    "error_detail": "阳性率和病毒RNA拷贝数的范围被错误地修改。",
+    "original_question": "在猪场中，猪舍内和猪舍外下风向 10 m 处的空气样品中病毒气溶胶的检测结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "2012年3月21日，思南县公安局特（巡）警大队在贵铜公路段查获了一起贩运病死猪肉案件。",
+    "reference_case": "2012年3月21日，思南县公安局特（巡）警大队在遵铜公路段查获了一起贩运病死猪肉案件。",
+    "error_detail": "查获案件的地点被错误地修改。",
+    "original_question": "2012年3月21日，思南县公安局特（巡）警大队在哪个路段查获了一起贩运病死猪肉案件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在贩运病死猪肉案件中，查获的死猪肉总量是1000千克。",
+    "reference_case": "在贩运病死猪肉案件中，查获的死猪肉总量是1142千克。",
+    "error_detail": "查获的死猪肉总量被错误地减少。",
+    "original_question": "在贩运病死猪肉案件中，查获的死猪肉总量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "贩运病死猪肉案件中，死猪肉的来源地是德江县煎茶、合兴两乡镇及周边地区。",
+    "reference_case": "贩运病死猪肉案件中，死猪肉的来源地是德江县煎茶、合兴两乡镇。",
+    "error_detail": "死猪肉的来源地被错误地扩大。",
+    "original_question": "贩运病死猪肉案件中，死猪肉的来源地是哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "贩运病死猪肉案件中，死猪肉的检验结果显示为猪瘟阳性。",
+    "reference_case": "贩运病死猪肉案件中，死猪肉的检验结果显示为高致病性猪蓝耳病阳性。",
+    "error_detail": "检验结果被错误地修改为猪瘟阳性。",
+    "original_question": "贩运病死猪肉案件中，死猪肉的检验结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "贩运病死猪肉案件中，检验报告未能提供检验签字人的资质证明和检验方法的详细描述。",
+    "reference_case": "贩运病死猪肉案件中，检验报告未能提供检验签字人的资质证明。",
+    "error_detail": "添加了未被证实的假设，即检验报告还未能提供检验方法的详细描述。",
+    "original_question": "贩运病死猪肉案件中，检验报告未能提供哪些关键信息？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "贩运病死猪肉案件中，建议采取的措施包括加强法律法规的宣传，但不包括对地下窝点的查处监管。",
+    "reference_case": "贩运病死猪肉案件中，建议采取的措施包括多形式、多途径宣传《动物防疫法》《食品安全法》等法律法规，加强对生产、加工及制售腊肉、香肠、猪油等产品的地下窝点、作坊的查处监管，以及加强公安、工商、质监等部门的衔接，形成监管合力，加大打击力度，提高办案效率。",
+    "error_detail": "建议措施中遗漏了对地下窝点的查处监管。",
+    "original_question": "贩运病死猪肉案件中，建议采取哪些措施来加强食品安全监管？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "贩运病死猪肉案件中，涉案人员的行为触犯了《动物防疫法》《食品安全法》规定，但不涉嫌构成生产、销售不符合卫生标准的食品罪。",
+    "reference_case": "贩运病死猪肉案件中，涉案人员的行为触犯了《动物防疫法》《食品安全法》规定，并涉嫌构成生产、销售不符合卫生标准的食品罪，应追究其刑事责任。",
+    "error_detail": "逻辑上矛盾，既触犯了相关法律，又不涉嫌构成犯罪。",
+    "original_question": "贩运病死猪肉案件中，涉案人员的行为触犯了哪些法律？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "文章中提到的猪瘟疫情发生在2010年，在陕西省商洛市商州区的一个养殖小区。",
+    "reference_case": "文章中提到的猪瘟疫情发生在2012年，在陕西省商洛市商州区的一个养殖小区。",
+    "error_detail": "猪瘟疫情发生的年份被错误地提前。",
+    "original_question": "文章中提到的猪瘟疫情发生在哪个年份和地区？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "陈某的猪场在发现猪瘟疫情后，仅联系了当地畜牧兽医中心，未采取其他措施。",
+    "reference_case": "陈某的猪场在发现猪瘟疫情后，首先联系了当地畜牧兽医中心，随后技术专家前往进行诊断，并建议隔离病猪，对死猪进行深埋无害化处理，加强消毒灭源，并对整个小区的猪群进行紧急免疫。",
+    "error_detail": "遗漏了后续采取的多项措施。",
+    "original_question": "陈某的猪场在发现猪瘟疫情后，采取了哪些措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "文章中提到的猪瘟疫苗是在冰箱冷藏贮藏的。",
+    "reference_case": "文章中提到的猪瘟疫苗是在冰箱冷冻贮藏的，没有常温或停电断电保存的现象，贮存方法妥当，疫苗在有效期内。",
+    "error_detail": "疫苗的贮藏方式被错误地修改为冷藏。",
+    "original_question": "文章中提到的猪瘟疫苗是如何贮存的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "文章中提到的猪瘟疫情可能通过运输、配种等环节由毗邻县的猪瘟疫区传入，也可能是通过野生动物传播。",
+    "reference_case": "文章中提到的猪瘟疫情可能通过运输、配种等环节由毗邻县的猪瘟疫区传入。",
+    "error_detail": "添加了未被证实的假设，即疫情也可能是通过野生动物传播。",
+    "original_question": "文章中提到的猪瘟疫情可能通过哪些途径传入？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "文章中提到的防疫工作中，加强疫情监测和信息交流需要对辖区及周边地区加强流行病学调查和疫情监测，但不需要加强检疫监督。",
+    "reference_case": "文章中提到的防疫工作中，加强疫情监测和信息交流需要对辖区及周边地区加强流行病学调查和疫情监测，及时掌握和跟踪疫病流行情况，一旦发现问题，在第一时间发出预警，通知当地和周边地区做好防范。同时加强检疫监督，特别是运输环节，要对生猪贩运、饲料兽药运输车辆加强监管，做好登记，严格消毒，切断疫源传播途径。",
+    "error_detail": "遗漏了加强检疫监督的建议。",
+    "original_question": "文章中提到的防疫工作中，如何加强疫情监测和信息交流？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "在当前大流通背景下，影响免疫效果的因素不包括病原的快速传播。",
+    "reference_case": "在当前大流通背景下，影响免疫效果的因素包括各种病原的快速传播、新病种和变异毒株的出现、病原与病原之间的交叉感染，以及猪瘟、蓝耳病、圆环病毒（II）等免疫抑制性病。",
+    "error_detail": "逻辑上矛盾，既承认大流通背景，又否认病原快速传播的影响。",
+    "original_question": "在当前大流通背景下，哪些因素影响了免疫效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "加强疫情监测和信息交流的方法不包括对辖区及周边地区加强流行病学调查和疫情监测。",
+    "reference_case": "加强疫情监测和信息交流的方法包括对辖区及周边地区加强流行病学调查和疫情监测，及时掌握和跟踪疫病流行情况，一旦发现问题，在第一时间发出预警，通知当地和周边地区做好防范；对新添槽等应补针的畜禽，及时补针；对免疫抗体不合格的，应重新免疫或加强免疫，构筑坚强的特异性免疫屏障；同时加强检疫监督，特别是运输环节，要对生猪贩运、饲料兽药运输车辆加强监管，做好登记，严格消毒，切断疫源传播途径。",
+    "error_detail": "遗漏了对辖区及周边地区加强流行病学调查和疫情监测的建议。",
+    "original_question": "如何加强疫情监测和信息交流？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "建立和完善疫情死亡补贴办法的建议仅包括提高因疫情死亡或扑杀的赔付标准。",
+    "reference_case": "建立和完善疫情死亡补贴办法的建议包括将能繁母猪政策性补贴引入育肥猪等各类猪群，并提高因疫情死亡或扑杀的赔付标准，使因各种不可抗力因素导致疫情的损失降到最低，化解社会矛盾，维护社会稳定。",
+    "error_detail": "遗漏了将能繁母猪政策性补贴引入育肥猪等各类猪群的建议。",
+    "original_question": "如何建立和完善疫情死亡补贴办法？",
+    "original_input": ""
+  }
+]

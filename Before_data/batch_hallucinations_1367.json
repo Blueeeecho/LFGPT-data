@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪舍环境中的气候因素包括温度、湿度、风速等。",
+    "reference_case": "猪舍环境中的气候因素包括温度、湿度等。",
+    "error_detail": "添加了不相关的风速因素",
+    "original_question": "猪舍环境中的气候因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "控制猪舍温度的方法包括使用空调系统。",
+    "reference_case": "控制猪舍温度的方法包括设计合理的通风系统和使用供暖设施。",
+    "error_detail": "添加了不常见的空调系统假设",
+    "original_question": "如何控制猪舍的温度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "控制猪舍湿度的方法包括减少猪的饮水量。",
+    "reference_case": "控制猪舍湿度的方法包括设计合理的通风系统和使用除湿设备。",
+    "error_detail": "偏离了原始指令，提出了不合理的建议",
+    "original_question": "如何控制猪舍的湿度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "种猪资产按流动资产统一管理。",
+    "reference_case": "种猪资产按固定资产统一管理，采用按当期预估种猪市场价（原值）为基准，年初界定的月折旧费标准，逐月预提、年底调节、一次结算的办法进行核算。",
+    "error_detail": "错误地将种猪资产分类为流动资产",
+    "original_question": "种猪资产如何核算？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "年初时，以去年同类后备种猪购入价和本年度计划饲养数为基准，确定本年度月折旧费预提标准。",
+    "reference_case": "年初时，以当期预估同类后备种猪购入价和本年度计划饲养数为基准，确定本年度月折旧费预提标准。",
+    "error_detail": "使用了过时的价格基准",
+    "original_question": "种猪资产折旧费预提标准如何确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "种公猪和泌乳母猪饲养管理的各项成本由哺乳仔猪价值反映，妊娠母猪饲养管理的各项成本由饲养增值反映。",
+    "reference_case": "种公猪和泌乳母猪饲养管理的各项成本由哺乳仔猪价值反映，妊娠母猪饲养管理的各项成本由饲养增值反映，空怀母猪和淘汰种猪饲养管理的各项成本列制造费用处理，淘汰种猪列淘汰种猪收入。",
+    "error_detail": "遗漏了空怀母猪和淘汰种猪的成本分配",
+    "original_question": "种猪资产的饲养管理成本如何分配？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "发酵床养猪技术可以减轻对环境的污染的原因是减少了猪的排泄物。",
+    "reference_case": "有机垫料里含有相当活性的土壤微生物，能够迅速有效地降解、消化猪的排泄物，不再需要对猪粪采用清扫排放，也不会形成大量的冲圈污水。",
+    "error_detail": "错误地认为减少排泄物是减轻污染的原因",
+    "original_question": "发酵床养猪技术可以减轻对环境的污染的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "发酵床养猪技术通过使用特殊饲料提高猪肉品质。",
+    "reference_case": "发酵床结合特殊猪舍，使猪舍通风透气、阳光普照、温湿度均适合于猪的生长，再加上运动量的增加，猪能够健康地生长发育，发病减少，从而提高猪肉品质。",
+    "error_detail": "添加了不相关的特殊饲料假设",
+    "original_question": "发酵床养猪技术如何提高猪肉品质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在发酵床的制作过程中，配料和猪粪部分通过土壤微生物的发酵转化为猪的饲料，同时猪健康地生长发育，饲料的转化率提高，使得出栏相同重量的猪时可节省饲料10%~20%。",
+    "reference_case": "在发酵床的制作过程中，配料和猪粪部分通过土壤微生物的发酵转化为猪的饲料，同时猪健康地生长发育，饲料的转化率提高，使得出栏相同重量的猪时可节省饲料20%~30%。",
+    "error_detail": "低估了饲料节省的比例",
+    "original_question": "发酵床养猪技术如何提高饲料利用率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "发酵床养猪技术通过减少猪的数量来节工省本。",
+    "reference_case": "发酵床养猪技术不需要用水冲洗猪舍、不需要每天清除猪粪；生猪体内无寄生虫、无需治病；采用自动给食、自动饮水技术等，大大降低了工人的劳动强度，并能取得理想的效果。",
+    "error_detail": "偏离了原始指令，提出了不合理的建议",
+    "original_question": "发酵床养猪技术如何节工省本？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "抗生素用于防治猪的皮肤病和呼吸道疾病。",
+    "reference_case": "抗生素用于防治手癣性皮炎，由腐败梭状芽孢杆菌、其他微生物、符街球菌、大肠杆菌引起。",
+    "error_detail": "错误地扩大了抗生素的防治范围",
+    "original_question": "抗生素用于防治猪的哪几种疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "肠肉孢子虫感染的病原虫是牛肉孢子虫。",
+    "reference_case": "肠肉孢子虫感染的病原虫是猪肉孢子虫、S.suihominisi。",
+    "error_detail": "错误地标识了病原虫种类",
+    "original_question": "肠肉孢子虫感染的病原虫是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "华枝睾吸虫在狗体内每条成虫每日约产卵 2000 个左右。",
+    "reference_case": "华枝睾吸虫在狗、猫、猪、鼠、骆驼等哺乳动物和人的胆管内产卵，成虫产卵时间和数目根据宿主种类不同而异。犬感染后 25 - 30 天在粪便中发现虫卵，在犬体内每条成虫每日约产卵 1100 个左右，在猫体内每日约产卵 2400 个。鼠感染后 17 - 26 天可在粪便中发现虫卵，每虫每日约产卵 500 个，家兔感染后 22 天发现虫卵，每虫每日约产卵 4000 个，豚鼠感染后 20 天发现虫卵，每虫每日约产卵 1600 个。虫卵随宿主胆汁进入小肠，然后随粪便排出体外，需要淡水螺作为第一中间宿主，淡水鱼和虾作为第二中间宿主。",
+    "error_detail": "高估了狗体内华枝睾吸虫的产卵数量",
+    "original_question": "华枝睾吸虫的生活史是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "5 月和 9、10 月份是繁殖的主要季节，寿命不超过 2 年，若在干燥环境里可存活几个月。",
+    "reference_case": "黄牛、水牛、狗、猪、马、驴、骡、山羊、绵羊、猫、家兔、褐家鼠、家鼠、灰胸鼠、社鼠、黄胸鼠、罗赛鼠、福尔鼠、姬鼠、田鼠、小家鼠、黑腹线鼠、臭鼠、赤腹松鼠、华南山鼠、暗黑河猴、毛冠猴和猪獾等。",
+    "error_detail": "错误地描述了繁殖季节和寿命，与问题无关",
+    "original_question": "哪些动物可以自然感染日本裂体吸虫？",
+    "original_input": "4、哪些动物可以自然感染日本裂体吸虫？"
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在菲律宾莱特岛流行区，哺乳动物感染率如下：人 60%、母牛 45%、鼠 30%、大 25%、猪 20%、水牛 5%。",
+    "reference_case": "感染率最高的家畜是耕牛，野生动物中沟鼠的感染率最高。在菲律宾莱特岛流行区，哺乳动物感染率如下：人 48%、母牛 38.2%、鼠 22.7%、大 18%、猪 13%、水牛 1.5%。虽然水牛每天排出的虫卵比人多 10 倍，但人口的密度远大于动物的密度，牛和犬在传播上比人更为重要。",
+    "error_detail": "高估了各哺乳动物的感染率",
+    "original_question": "日本裂体吸虫病的人畜感染率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "裂头蚴在人体引起的症状包括皮下、眼部、口腔颌面部、脑部、内脏等处的症状；在猫和犬中引起消瘦、被毛逆乱、神经质等症状。",
+    "reference_case": "裂头蚴在人体引起的症状包括皮下、眼部、口腔颌面部、脑部、内脏等处的症状；在猫和犬中引起消瘦、被毛逆乱、神经质等症状；在猪中一般无明显症状，但在一些情况下可导致营养不良等症状。",
+    "error_detail": "遗漏了猪的症状描述",
+    "original_question": "裂头蚴在不同动物中的感染症状有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪和骆驼感染棘球蚴的症状比牛和羊明显。",
+    "reference_case": "猪和骆驼感染棘球蚴的症状不如牛和羊明显，即使肝脏和肺部寄生许多包囊，也可能无特异性症状。",
+    "error_detail": "错误地描述了症状的明显程度",
+    "original_question": "棘球蚴感染猪和骆驼的症状如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪可以使用病毒作抗原进行免疫接种，获得较强的免疫保护作用。",
+    "reference_case": "猪可以使用全鯯虫匀浆作抗原进行免疫接种，获得较强的免疫保护作用。",
+    "error_detail": "错误地标识了抗原类型",
+    "original_question": "猪进行免疫接种可以使用哪种抗原获得较强的免疫保护作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "牛囊尾蚴有顶突和小钩。",
+    "reference_case": "牛囊尾蚴无顶突和小钩。",
+    "error_detail": "错误地描述了牛囊尾蚴的结构",
+    "original_question": "牛囊尾蚴与猪囊尾蚴的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "牛囊尾蚴病的预防措施包括使用抗生素。",
+    "reference_case": "仿照猪囊尾蚴病的预防，包括改进饲养和放牧方法，使用网所管理粪便，加强肉类检验和加工。",
+    "error_detail": "偏离了原始指令，提出了不合理的建议",
+    "original_question": "牛囊尾蚴病的预防措施有哪些？",
+    "original_input": ""
+  }
+]

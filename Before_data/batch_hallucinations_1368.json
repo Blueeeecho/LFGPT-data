@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "人蛔虫的感染性虫卵可以通过空气传播使乳猪感染。",
+    "reference_case": "人蛔虫的感染性虫卵可以通过人粪便污染的猪粪使乳猪感染。",
+    "error_detail": "错误地认为人蛔虫的感染性虫卵可以通过空气传播，实际上是通过粪便污染传播。",
+    "original_question": "人蛔虫的感染性虫卵可以通过什么途径使乳猪感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪蛔虫和人蛔虫的幼虫在人体内都移行到心脏。",
+    "reference_case": "猪蛔虫和人蛔虫的幼虫在人体内都移行到肺部。",
+    "error_detail": "错误地描述了幼虫移行的目的地，实际上它们移行到肺部而非心脏。",
+    "original_question": "猪蛔虫和人蛔虫在人体内移行路线有何相似之处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "病猪可出现严重的干咳、体温降低、嗜酸性白细胞减少症。",
+    "reference_case": "病猪可出现轻微的湿咳、体温升高、嗜酸性白细胞增多症、精神沉郁、食欲减退、呼吸及心跳加快、消瘦、贫血、生长发育受阻，严重时出现呼吸困难、急促而无规律、咳嗽声音沉重而粗厉、口渴、呕吐、流涎、拉稀、疟痛，肠道阻塞时可发生肠破裂而死亡，也可发生胆道蛔虫症。",
+    "error_detail": "错误地描述了症状的性质和方向，如干咳与湿咳、体温降低与升高等。",
+    "original_question": "猪蛔虫感染的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪因吃猫粪或接触被猫粪污染的土地而散播蜔虫卵。",
+    "reference_case": "猪因吃人粪或接触被人粪污染的土地而散播蜔虫卵，从而通过外界的虫卵传播。",
+    "error_detail": "错误地描述了传播源，实际上是人粪而非猫粪。",
+    "original_question": "外界的虫卵如何通过猪传播？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "人蜔虫在猪体内能长期存活并大量产卵。",
+    "reference_case": "人蜔虫在猪体内很少能达到产卵期，而在肠道停留时间相当短。猪蜔虫在人体内有一段很长的产卵开始前期，即临症前期（prepatent period），明显的临症期（patent period）很短。",
+    "error_detail": "错误地描述了人蜔虫在猪体内的存活和产卵能力，实际上很少能达到产卵期。",
+    "original_question": "人蜔虫在猪体内的发育情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪感染蜔虫的诊断方法与人不同，主要通过血液检查。",
+    "reference_case": "猪感染蜔虫的诊断方法与人相同，包括粪检查蜔虫卵。",
+    "error_detail": "错误地描述了诊断方法，实际上与人相同，通过粪检。",
+    "original_question": "猪感染蜔虫的诊断方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪感染蜔虫的治疗药物包括青霉素和链霉素。",
+    "reference_case": "猪感染蜔虫的治疗药物包括精制敌百虫、左旋咪唑、噻苯咪唑、丙硫苯咪唑等。",
+    "error_detail": "错误地列出了不相关的抗生素作为治疗药物。",
+    "original_question": "猪感染蜔虫的治疗药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "猪蜔虫病的预防措施主要是使用抗生素。",
+    "reference_case": "猪蜔虫病的预防措施包括定期驱虫、改善饲养管理条件、保持清洁卫生、定期消毒等。",
+    "error_detail": "错误地强调了抗生素的使用，而忽略了更重要的预防措施。",
+    "original_question": "猪蜔虫病的预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "家猫和野猫是内脏利什曼病的重要保虫宿主。",
+    "reference_case": "家犬和野犬（地中海沿岸、中东、中国）、野狐（巴西）、啮齿动物（非洲）、狼、胡狼、赤狐和豪猪（前苏联中亚细亚和外高加索）。",
+    "error_detail": "错误地列出了猫作为保虫宿主，实际上主要是犬类和其他动物。",
+    "original_question": "哪些动物是内脏利什曼病的重要保虫宿主？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "狗、牛、马等动物是弓形虫的重要传染源。",
+    "reference_case": "猫、猪、羊等动物是弓形虫的重要传染源。",
+    "error_detail": "错误地列出了不相关的动物作为传染源。",
+    "original_question": "弓形虫病的主要传染源有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "弓形虫病在动物中的症状主要表现为皮肤病变。",
+    "reference_case": "山羊表现为流产和呼吸道疾病；猪表现为发热、呼吸困难、食欲减退、便秘或下痢、腹式呼吸、咳嗽、呕吐、淋巴结肿大、体表出现疼痛和发绀；牛表现为发热、呼吸困难、神经症状；猫和犬表现为全身型、肠型、脑炎和眼型症状等。",
+    "error_detail": "错误地简化了症状描述，忽略了多种具体的临床表现。",
+    "original_question": "弓形虫病在动物中的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "多杀性巴氏杆菌能引起所有哺乳动物发病。",
+    "reference_case": "多杀性巴氏杆菌不能引起大鼠、雪貂、豚鼠、绵羊、猪、犊牛等其他哺乳动物发病。",
+    "error_detail": "错误地认为多杀性巴氏杆菌能引起所有哺乳动物发病，实际上有例外。",
+    "original_question": "多杀性巴氏杆菌不能引起哪些哺乳动物发病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "改善饲养环境可以直接治疗禽结核病。",
+    "reference_case": "饲养在卫生环境中的无结核病鸡群可以增加额外利润，补偿初期的费用和劳力，同时提高禽群总体健康，减少其他疾病的发生，进而降低猪结核病的发病率。",
+    "error_detail": "错误地认为改善环境可以直接治疗疾病，实际上主要是预防和减少损失。",
+    "original_question": "如何通过改善饲养环境减少禽结核病带来的损失？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "肉毒梭菌中毒仅见于禽类。",
+    "reference_case": "肉毒梭菌中毒可见于多种禽类，包括鸡、火鸡、鸭和雉鸡以及驼鸟，也可感染哺乳动物如水貂、雪貂、牛、猪、狗、马以及动物园中的多种哺乳动物。",
+    "error_detail": "错误地限制了中毒的宿主范围，实际上包括多种哺乳动物。",
+    "original_question": "肉毒梭菌中毒的自然宿主有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪丹毒杆菌仅形成光滑型菌落。",
+    "reference_case": "猪丹毒杆菌形成光滑型和粗糙型菌落，粗糙型菌落不透明、扁平、干燥、锥尖大（1~2mm），边缘不规则或隆起。",
+    "error_detail": "错误地忽略了粗糙型菌落的存在。",
+    "original_question": "猪丹毒杆菌形成的菌落有哪些类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪丹毒杆菌在任何培养条件下都不会产生溶血环。",
+    "reference_case": "在5%~10%CO2环境中、37°C条件下，在加5%-10%马或牛血培养基中培养2-3天，大部分菌株产生狭窄的α-溶血环。",
+    "error_detail": "错误地否认了溶血环的产生，实际上在特定条件下会产生。",
+    "original_question": "猪丹毒杆菌在何种培养条件下会产生溶血环？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪丹毒杆菌在3°C下存活时间不超过1天。",
+    "reference_case": "在3°C下存活35天，30°C下2天，不同有机质含量和pH下生存时间不超过11~18天。",
+    "error_detail": "错误地低估了在低温下的存活时间。",
+    "original_question": "猪丹毒杆菌在不同温度下的存活时间是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪丹毒杆菌对所有化学因素都没有抵抗力。",
+    "reference_case": "猪丹毒杆菌对0.001%结晶紫、0.5%锑酸钾有抵抗力，在0.1%叠氮钠存在时能生长。但对0.1%升禾、0.5%氢氧化钠、3.5%煤酚溶液、5%酚溶液能很快杀灭。",
+    "error_detail": "错误地认为对所有化学因素都没有抵抗力，实际上对某些有抵抗力。",
+    "original_question": "猪丹毒杆菌对哪些化学因素具有抵抗力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪丹毒杆菌的抗原结构仅由蛋白质构成。",
+    "reference_case": "猪丹毒杆菌的抗原结构由蛋白质或脂质、碳水化合物和蛋白质复合物构成，耐热，热稳定抗原（细胞壁黏肽）被用来划分血清型。",
+    "error_detail": "错误地简化了抗原结构的组成。",
+    "original_question": "猪丹毒杆菌的抗原结构如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "预防驼鸟中禽肠道螺旋体病不需要隔离新引入的驼鸟。",
+    "reference_case": "在同一农场最好不养猪或不让沱鸟与猪接触；饲养者尽量不参观其他沱鸟场，若参加沱鸟展卖、参观其他沱鸟场或猪场，回来时应对衣服、鞋和设备进行彻底清洗和消毒处理；新引入的驼鸟应进行至少60天的隔离观察，并且通过2~3次猪痢疾苏普氏螺旋体培养阴性后，才能混群；沱鸟应根据年龄分群，并采取严格的生物安全措施。",
+    "error_detail": "错误地忽略了隔离观察的重要性。",
+    "original_question": "预防驼鸟中禽肠道螺旋体病应该注意什么？",
+    "original_input": ""
+  }
+]

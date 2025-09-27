@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "理想的猪舍最佳朝向是坐东朝西，这样可以利用自然风和阳光调节舍内温度和湿度。",
+    "reference_case": "理想的猪舍最佳朝向是坐北朝南或坐西北朝东南，这样可以利用自然风和阳光调节舍内温度和湿度。",
+    "error_detail": "错误地改变了猪舍的最佳朝向，忽略了地域差异对猪舍朝向的影响。",
+    "original_question": "猪舍的最佳朝向是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪栏按结构形式可分为实体猪栏、棚栏式猪栏和开放式猪栏。",
+    "reference_case": "猪栏按结构形式可分为实体猪栏、棚栏式猪栏和综合式猪栏。",
+    "error_detail": "错误地将综合式猪栏替换为开放式猪栏，混淆了猪栏的结构形式分类。",
+    "original_question": "猪栏按结构形式可以分为哪几种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪栏按饲养猪的种类可以分为公猪栏、配种栏、妊娠栏、分娩栏、幼猪栏和育肥栏。",
+    "reference_case": "猪栏按饲养猪的种类可以分为公猪栏、配种栏、妊娠栏、分娩栏、幼猪栏、生长栏和育肥栏。",
+    "error_detail": "遗漏了生长栏的分类，导致信息不完整。",
+    "original_question": "猪栏按饲养猪的种类可以分为哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "实体猪栏的优点是便于就地取材，防止疾病传染，相邻两栏里的猪互不相见，能保持安静，且通风良好。",
+    "reference_case": "实体猪栏的优点是便于就地取材，防止疾病传染，相邻两栏里的猪互不相见，能保持安静。",
+    "error_detail": "错误地添加了通风良好的优点，与事实不符。",
+    "original_question": "实体猪栏的优点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "实体猪栏的缺点是不便于观察猪只，通风不良，猪栏所占建筑面积较小。",
+    "reference_case": "实体猪栏的缺点是不便于观察猪只，通风不良，猪栏所占建筑面积较大。",
+    "error_detail": "错误地改变了猪栏所占建筑面积的描述，与事实相反。",
+    "original_question": "实体猪栏的缺点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "群饲猪栏主要用于饲养幼猪、生长猪、育肥猪，也可用于饲养后备猪和空怀母猪。",
+    "reference_case": "群饲猪栏主要用于饲养幼猪、生长猪、育肥猪，也可用于饲养后备猪、空怀母猪和妊娠猪。",
+    "error_detail": "遗漏了妊娠猪的分类，导致信息不完整。",
+    "original_question": "群饲猪栏主要用于饲养哪些猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "丹麦式猪栏的主要特点是把采食区和休息区分开，既有利于卫生又能减少饲料的消费。",
+    "reference_case": "丹麦式猪栏的主要特点是把采食区和排粪区分开，既有利于卫生又能减少饲料的消费。",
+    "error_detail": "错误地将排粪区替换为休息区，混淆了丹麦式猪栏的主要特点。",
+    "original_question": "丹麦式猪栏的主要特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "前排粪式猪栏的排粪区在猪栏的后方。",
+    "reference_case": "前排粪式猪栏的排粪区在猪栏的侧方。",
+    "error_detail": "错误地改变了排粪区的位置，与事实不符。",
+    "original_question": "前排粪式猪栏的排粪区在猪栏的哪个位置？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "外排粪猪栏的排粪区设置在舍内的运动场上。",
+    "reference_case": "外排粪猪栏的排粪区设置在舍外的运动场上。",
+    "error_detail": "错误地改变了排粪区的位置，与事实不符。",
+    "original_question": "外排粪猪栏的排粪区设置在哪个位置？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "全漏缝地板猪栏的特点是猪栏采用漏缝地板，猪所排粪便被踏落于粪尿沟内，猪栏内仅是躺卧区。",
+    "reference_case": "全漏缝地板猪栏的特点是猪栏采用漏缝地板，猪所排粪便被踏落于粪尿沟内，猪栏内既是躺卧区也是排粪区。",
+    "error_detail": "错误地遗漏了排粪区的描述，导致信息不完整。",
+    "original_question": "全漏缝地板猪栏的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "新生小猪最合适的环境温度是25至28°C。",
+    "reference_case": "新生小猪最合适的环境温度是29至32°C。",
+    "error_detail": "错误地降低了新生小猪的最适宜环境温度，与事实不符。",
+    "original_question": "新生小猪最适宜的环境温度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪最适宜的环境温度约为20至23°C。",
+    "reference_case": "母猪最适宜的环境温度约为15至18°C。",
+    "error_detail": "错误地提高了母猪的最适宜环境温度，与事实不符。",
+    "original_question": "母猪最适宜的环境温度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "为了减少小猪被母猪压死的机会，分娩栏应设置防护栏。",
+    "reference_case": "为了减少小猪被母猪压死的机会，分娩栏应设置扩仔架或防压杆。",
+    "error_detail": "错误地将扩仔架或防压杆替换为防护栏，混淆了分娩栏的设备设置。",
+    "original_question": "为了减少小猪被母猪压死的机会，分娩栏应设置什么设备？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "平行式分娩栏由分娩猪活动区和仔猪限位区两部分组成。",
+    "reference_case": "平行式分娩栏由分娩猪限位区和仔猪活动区两部分组成。",
+    "error_detail": "错误地交换了分娩猪和仔猪的区域描述，混淆了平行式分娩栏的组成。",
+    "original_question": "平行式分娩栏由哪两部分组成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪限位架通常采用金属制成，呈框架形，便于小猪穿爬和逃离。",
+    "reference_case": "母猪限位架通常采用木材制成，呈框架形，便于小猪穿爬和逃离。",
+    "error_detail": "错误地将木材替换为金属，混淆了母猪限位架的材料。",
+    "original_question": "母猪限位架采用什么材料制成？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪局部供暖装置有加热地板式、红外线灯、红外线加热器等形式。",
+    "reference_case": "仔猪局部供暖装置有加热地板式、红外线灯、红外线加热器、热风器等形式。",
+    "error_detail": "遗漏了热风器的形式，导致信息不完整。",
+    "original_question": "仔猪局部供暖装置有哪些形式？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "斜角式分娩栏能增大整个猪栏的面积，提高猪栏面积的利用率。",
+    "reference_case": "斜角式分娩栏能减小整个猪栏的面积，提高猪栏面积的利用率。",
+    "error_detail": "错误地改变了斜角式分娩栏对猪栏面积的影响，与事实相反。",
+    "original_question": "斜角式分娩栏相比平行式分娩栏有何优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪饮水时，浮子随液面上升带动推杆使阀杆与阀体之间形成间隙，水便从此间隙中流入浮子室直至猪的口腔中。",
+    "reference_case": "猪饮水时，浮子随液面下降带动推杆使阀杆与阀体之间形成间隙，水便从此间隙中流入浮子室直至猪的口腔中。",
+    "error_detail": "错误地改变了浮子的运动方向，混淆了吸吮式饮水器的工作原理。",
+    "original_question": "吸吮式饮水器的工作原理是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "吸吮式饮水器最适用于成年猪，因为成年猪能很快习惯，没有随意摆青的零件，减少猪的玩水现象，故障少，使用寿命长。",
+    "reference_case": "吸吮式饮水器最适用于哺乳期小猪，因为小猪能很快习惯，没有随意摆青的零件，减少猪的玩水现象，故障少，使用寿命长。",
+    "error_detail": "错误地将哺乳期小猪替换为成年猪，混淆了吸吮式饮水器的适用对象。",
+    "original_question": "吸吮式饮水器最适合哪种猪使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "连通式饮水器水槽内经常存留一些杂物，易造成饮水槽之间的连通管阻塞，需要经常清除沉淀杂物。由于水槽不连通猪栏，不易造成疾病传染，有利于防疫卫生。",
+    "reference_case": "连通式饮水器水槽内经常存留一些杂物，易造成饮水槽之间的连通管阻塞，需要经常清除沉淀杂物。由于水槽连通猪栏，易造成疾病传染，不利于防疫卫生。",
+    "error_detail": "错误地改变了水槽与猪栏的连接情况，混淆了连通式饮水器的主要缺点。",
+    "original_question": "连通式饮水器的主要缺点是什么？",
+    "original_input": ""
+  }
+]

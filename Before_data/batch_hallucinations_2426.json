@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "泌乳母猪圈舍适宜的环境温度为25~35℃，相对湿度不应超过85%。",
+    "reference_case": "泌乳母猪圈舍适宜的环境温度为15~25℃，相对湿度不应超过75%。",
+    "error_detail": "温度和湿度的数值被错误地提高，可能导致母猪不适。",
+    "original_question": "泌乳母猪圈舍适宜的环境温度和湿度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "泌乳母猪采食量和营养物质转化率受天气条件和饲料颜色的影响。",
+    "reference_case": "泌乳母猪采食量和营养物质转化率受环境条件（清洁干燥、通风良好、定期消毒）和饲养管理的影响。",
+    "error_detail": "将环境条件和饲养管理错误地替换为天气条件和饲料颜色，导致信息不准确。",
+    "original_question": "泌乳母猪采食量和营养物质转化率受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在冬季应注意防暑，防止母猪中暑。",
+    "reference_case": "在夏季应注意防暑，防止母猪中暑。",
+    "error_detail": "季节被错误地指定为冬季，与防暑的需求冲突。",
+    "original_question": "如何防止母猪中暑？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "要根据母猪体况，做好产后减料、产前逐渐增料的工作，保持良好的食欲和体况。",
+    "reference_case": "要根据母猪体况，做好产前减料、产后逐渐增料的工作，保持良好的食欲和体况。",
+    "error_detail": "产前和产后的饲料调整被颠倒，导致逻辑矛盾。",
+    "original_question": "如何通过饮食调整母猪的体况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "哺乳期母猪饲料中可适当添加干草，但需保证饲料新鲜、适口性好，并与配（混）合精饲料适当搭配。",
+    "reference_case": "哺乳期母猪饲料中可适当添加青绿多汁饲料，但需保证饲料新鲜、适口性好，并与配（混）合精饲料适当搭配。",
+    "error_detail": "青绿多汁饲料被错误地替换为干草，影响饲料的营养价值。",
+    "original_question": "哺乳期母猪应如何搭配饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "尽早吃足初乳，固定乳头，减少仔猪争斗，保证每头仔猪吃足初乳，同时需要定期注射疫苗。",
+    "reference_case": "尽早吃足初乳，固定乳头，减少仔猪争斗，保证每头仔猪吃足初乳。",
+    "error_detail": "添加了定期注射疫苗的假设，原信息中未提及。",
+    "original_question": "如何护理初生仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "初生仔猪通过吃初乳可防止便秘，促进消化道活动，增强抗病能力，获得免疫力，提高成活率。",
+    "reference_case": "初生仔猪通过吃初乳可获得免疫力，增强抗病能力，促进消化道活动，防止便秘，提高成活率。",
+    "error_detail": "因果顺序被颠倒，影响信息的逻辑性。",
+    "original_question": "初生仔猪吃初乳的意义是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "精心护理初生仔猪，减少争斗，固定乳头，尽早吃足初乳，提高全窝仔猪的成活率。",
+    "reference_case": "精心护理初生仔猪，尽早吃足初乳，固定乳头，减少争斗，提高全窝仔猪的成活率。",
+    "error_detail": "护理步骤的优先级被错误地调整，可能影响护理效果。",
+    "original_question": "如何提高仔猪的成活率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大约需要20天，期间乳猪会产生采食兴趣并形成习惯，但仍依赖母乳。",
+    "reference_case": "大约需要10天，期间乳猪会产生采食兴趣并形成习惯，但仍依赖母乳。",
+    "error_detail": "时间被错误地延长，可能导致误解。",
+    "original_question": "乳猪开始认料到正式吃料的过程需要多长时间？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "补料除了供给营养物质外，更重要的是使仔猪消化器官适应动物性饲料，为旺食期奠定基础。",
+    "reference_case": "补料除了供给营养物质外，更重要的是使仔猪消化器官适应植物性饲料，为旺食期奠定基础。",
+    "error_detail": "植物性饲料被错误地替换为动物性饲料，与补料的目的冲突。",
+    "original_question": "补料的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生物素能促进仔猪生长，提高饲料转化率，添加量为每吨60~80克，效果较好。",
+    "reference_case": "生物素能促进仔猪生长，提高饲料转化率，添加量为每吨30~50克，效果较好。",
+    "error_detail": "添加量被错误地提高，可能导致过量。",
+    "original_question": "在乳猪饲料中添加生物素的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪日粮中添加0.2%的复合酶，可提高日增重8%，饲料转化率提高35%以上。",
+    "reference_case": "断奶仔猪日粮中添加0.1%的复合酶，可提高日增重8%，饲料转化率提高35%以上。",
+    "error_detail": "添加量被错误地提高，可能导致成本增加。",
+    "original_question": "复合酶在断奶仔猪日粮中的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "调味剂如美国乳猪香、乳猪宝等可改善饲料颜色，每吨仔猪日粮中添加400~500克，可使日增重提高10%~18%，采食量提高10%~15%。",
+    "reference_case": "调味剂如美国乳猪香、乳猪宝等可改善饲料适口性，每吨仔猪日粮中添加400~500克，可使日增重提高10%~18%，采食量提高10%~15%。",
+    "error_detail": "饲料适口性被错误地替换为饲料颜色，影响信息的准确性。",
+    "original_question": "调味剂如何提高仔猪的采食量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在仔猪饲料中添加1.5%~2%的柠檬酸，可提高日增重8%，采食量提高5.2%，饲料利用率提高4.4%。",
+    "reference_case": "在仔猪饲料中添加1.5%~2%的延胡索酸，可提高日增重8%，采食量提高5.2%，饲料利用率提高4.4%。",
+    "error_detail": "延胡索酸被错误地替换为柠檬酸，影响信息的准确性。",
+    "original_question": "酸化剂如柠檬酸在仔猪饲料中的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪从出生后3~4天开始直接饲喂益生素，断奶仔猪成活率可提高4%~5%，添加量为每吨2~3千克。",
+    "reference_case": "仔猪从出生后1~2天开始直接饲喂益生素，断奶仔猪成活率可提高4%~5%，添加量为每吨2~3千克。",
+    "error_detail": "开始饲喂的时间被错误地延后，可能影响效果。",
+    "original_question": "微生物制剂在仔猪日粮中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪日粮内每吨添加300~400克，常用的抗生素有金霉素、杆菌肽、土霉素、青霉素和泰乐霉素等。",
+    "reference_case": "仔猪日粮内每吨添加60~250克，常用的抗生素有金霉素、杆菌肽、土霉素、青霉素和泰乐霉素等。",
+    "error_detail": "添加量被错误地提高，可能导致过量。",
+    "original_question": "抗生素在乳猪饲料中的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "哺乳仔猪生长迅速，代谢旺盛，需要较多水分，缺水会导致食欲下降和消化作用减缓，易引发下痢，因此需要每天注射维生素。",
+    "reference_case": "哺乳仔猪生长迅速，代谢旺盛，需要较多水分，缺水会导致食欲下降和消化作用减缓，易引发下痢。",
+    "error_detail": "添加了每天注射维生素的假设，原信息中未提及。",
+    "original_question": "哺乳仔猪为何需要经常补水？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育猪适宜的温度是18～21℃，相对湿度为55%～65%。",
+    "reference_case": "保育猪适宜的温度是22～25℃，相对湿度为65%～75%。",
+    "error_detail": "温度和湿度的数值被错误地降低，可能导致猪只不适。",
+    "original_question": "保育猪适宜的温度和湿度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "保育猪转群后，在4～5天内温度设定为28～30℃，5天后调节至26℃，以后每周降低2℃，直至10周龄时降至21℃。",
+    "reference_case": "保育猪转群后，在2～3天内温度设定为28～30℃，3天后调节至26℃，以后每周降低2℃，直至10周龄时降至21℃。",
+    "error_detail": "温度调节的时间被错误地延长，可能导致猪只不适。",
+    "original_question": "保育猪转群后温度是如何调节的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "仔猪侧卧、四肢伸展、猪群平均分布于舍内说明温度过高；猪群分散于舍内各角落并远离热源、个别猪只喘气急速说明温度适宜；仔猪趴睡、四肢收缩于腹下且猪群集中或有扎堆状态说明温度不足；若仔猪卷曲、坚毛、颤抖且猪只扎堆成群说明温度过低。",
+    "reference_case": "仔猪侧卧、四肢伸展、猪群平均分布于舍内说明温度适宜；猪群分散于舍内各角落并远离热源、个别猪只喘气急速说明温度过高；仔猪趴睡、四肢收缩于腹下且猪群集中或有扎堆状态说明温度不足；若仔猪卷曲、坚毛、颤抖且猪只扎堆成群说明温度过低。",
+    "error_detail": "温度适宜和温度过高的描述被颠倒，导致逻辑矛盾。",
+    "original_question": "如何判定保育舍内温度是否适宜？",
+    "original_input": ""
+  }
+]

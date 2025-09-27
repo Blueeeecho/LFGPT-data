@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠母猪的蛋白质需要量由过去的14%降至现在的10%。",
+    "reference_case": "由过去的14%降至现在的12%。",
+    "error_detail": "错误地降低了蛋白质需要量的百分比。",
+    "original_question": "妊娠母猪的蛋白质需要量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "种公猪的消化能需要分别为90 kg以下15.57 MJ、90~150 kg 21.85 MJ、150 kg以上26.87 MJ；每1 kg饲粮含消化能10.55 MJ。",
+    "reference_case": "我国肉脂型猪饲养标准中，种公猪的消化能需要分别为90 kg以下17.57 MJ、90~150 kg 23.85 MJ、150 kg以上28.87 MJ；每1 kg饲粮含消化能12.55 MJ。",
+    "error_detail": "错误地改变了消化能的数值和单位。",
+    "original_question": "我国肉脂型猪饲养标准中，种公猪的消化能需要如何根据不同体重范围分别供给？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "NRC对种公猪的能量需要规定与生长肥育猪相同。",
+    "reference_case": "NRC对种公猪的能量需要规定与妊娠母猪相同。",
+    "error_detail": "错误地引用了与生长肥育猪相同的标准，而非妊娠母猪。",
+    "original_question": "NRC对种公猪能量需要的规定是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "种公猪对蛋白质的需要实质上是对非必需氨基酸的需要。",
+    "reference_case": "种公猪对蛋白质的需要实质上是对必需氨基酸的需要。",
+    "error_detail": "错误地将必需氨基酸替换为非必需氨基酸。",
+    "original_question": "种公猪对蛋白质的需要实质上是对什么的需要？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "种公猪对必需氨基酸的需要影响妊娠母猪的需要。",
+    "reference_case": "种公猪对必需氨基酸的需要与妊娠母猪相同。",
+    "error_detail": "错误地暗示了种公猪的需要影响妊娠母猪的需要，而非相同。",
+    "original_question": "种公猪对必需氨基酸的需要与妊娠母猪有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每公斤公猪饲粮中硒、锰、锌含量应分别不少于0.10 mg/kg、8.0 mg/kg和40.0 mg/kg。",
+    "reference_case": "每公斤公猪饲粮中硒、锰、锌含量应分别不少于0.15 mg/kg、10.0 mg/kg和50.0 mg/kg。",
+    "error_detail": "错误地降低了硒、锰、锌的最低含量要求。",
+    "original_question": "种公猪对硒、锰、锌的需求量分别有何要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "公猪按每1 kg体重添加100~500 IU维生素A，可提高受精率。",
+    "reference_case": "公猪按每1 kg体重添加250~1000 IU维生素A，可提高受精率。",
+    "error_detail": "错误地降低了维生素A的添加量范围。",
+    "original_question": "如何通过补饲维生素A和胡萝卜素提高公猪的受精率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "NRC对种公猪的维生素A需要量与生长肥育猪相同。",
+    "reference_case": "NRC对种公猪的维生素A需要量与妊娠母猪相同。",
+    "error_detail": "错误地引用了与生长肥育猪相同的标准，而非妊娠母猪。",
+    "original_question": "NRC对种公猪维生素A的需要量有何规定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在温度超过25°C的环境中，温度每上升1°C，每头猪每天少采食饲料80~120 g。",
+    "reference_case": "在温度超过21°C的环境中，温度每上升1°C，每头猪每天少采食饲料60~100 g。",
+    "error_detail": "错误地提高了温度阈值和采食量减少的范围。",
+    "original_question": "温度变化如何影响生长肥育猪的采食量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "FVI（g 饲料/kg 活重）=50.5（±0.00031）-0.70（±0.00004）（Ta-LCT）。",
+    "reference_case": "FVI（g 饲料/kg 活重）=46.5（±0.00031）-0.66（±0.00004）（Ta-LCT）。",
+    "error_detail": "错误地改变了公式中的数值。",
+    "original_question": "如何通过LCT和环境温度估算生长猪在4~28℃时的随意采食量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "年老而肥胖的猪比年幼而瘦小的猪更容易散失体内多余的热。",
+    "reference_case": "年幼而瘦小的猪比年老而肥胖的猪更容易散失体内多余的热。",
+    "error_detail": "错误地颠倒了猪的年龄和体型对散热能力的影响。",
+    "original_question": "体型大小不同的猪在不同环境温度下的采食量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维生素E缺乏会导致猪、羔羊营养不良或黑肌病。",
+    "reference_case": "猪、羔羊营养不良或白肌病。",
+    "error_detail": "错误地将白肌病改为黑肌病。",
+    "original_question": "维生素E缺乏会导致哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维生素B2缺乏会导致猪可发皮肤炎，皮下形成脓皮及脓肿，但不影响妊娠母猪。",
+    "reference_case": "妊娠母猪早产，胚胎死亡，胎儿畸形。",
+    "error_detail": "错误地排除了维生素B2缺乏对妊娠母猪的影响。",
+    "original_question": "维生素B2缺乏会导致哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "预试期主要为正式试验做准备，包括试验猪的恢复和适应新环境。",
+    "reference_case": "预试期主要为正式试验做准备，包括试验猪的恢复、适应新环境以及通过喂相同的饲料来确定分组标准。",
+    "error_detail": "错误地省略了通过喂相同的饲料来确定分组标准的部分。",
+    "original_question": "预试期的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "预试期结束时，需要连续早晨空腹称重两天，取其平均数。",
+    "reference_case": "预试期结束时，需要连续早晨空腹称重三天，取其平均数。",
+    "error_detail": "错误地将称重天数从三天减少到两天。",
+    "original_question": "预试期结束时需要进行哪些称重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "通过实验室分析，测定各种地方饲料资源的营养成分含量，但不包括水分。",
+    "reference_case": "通过实验室分析，测定各种地方饲料资源的营养成分含量。",
+    "error_detail": "错误地排除了水分作为营养成分的一部分。",
+    "original_question": "如何进行地方饲料资源的营养成分实测？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的消化生理主要研究猪对饲料的消化吸收机制和排泄过程。",
+    "reference_case": "猪的消化生理主要研究猪对饲料的消化吸收机制。",
+    "error_detail": "错误地添加了排泄过程作为主要研究内容。",
+    "original_question": "猪的消化生理主要研究哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "口蹄疫可感染的动物多达30种。",
+    "reference_case": "口蹄疫可感染的动物多达33种。",
+    "error_detail": "错误地减少了可感染动物的种类数量。",
+    "original_question": "口蹄疫对哪些动物具有易感性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "新疫区的发病率可达90%，老疫区的发病率为40%左右。",
+    "reference_case": "新疫区的发病率可达100%，老疫区的发病率为50%左右。",
+    "error_detail": "错误地降低了新疫区和老疫区的发病率。",
+    "original_question": "口蹄疫的流行特点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "口蹄疫主要侵害单蹄动物，如马、驴等。",
+    "reference_case": "口蹄疫主要侵害偶蹄动物，如牛、猪、羊、鹿等。",
+    "error_detail": "错误地将侵害对象从偶蹄动物改为单蹄动物。",
+    "original_question": "口蹄疫主要侵害哪些动物？",
+    "original_input": ""
+  }
+]

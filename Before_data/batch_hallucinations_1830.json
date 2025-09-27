@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "自由采食法适用于一般猪群的生长肥育前期（80 kg前），也可用于一元杂交猪或杂优猪，从断奶后开始直到体重达到130 kg左右出栏上市。",
+    "reference_case": "自由采食法适用于一般猪群的生长肥育前期（60 kg前），也可用于一元杂交猪或杂优猪，从断奶后开始直到体重达到110 kg左右出栏上市。",
+    "error_detail": "数值偏差，将60 kg前改为80 kg前，110 kg改为130 kg",
+    "original_question": "自由采食法适用于哪些类型的肉猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "限饲法的具体实施方式包括每天一次性地投放两天规定日粮量；每天1~2次定时间喂规定数量的日粮；每周连续5天自由采食、2天停食，停食期间仅关闭自动饲槽而不停饮水等。",
+    "reference_case": "限饲法的具体实施方式包括每天一次性地投放一天规定日粮量；每天2~3次定时间喂规定数量的日粮；每周连续6天自由采食、1天停食，停食期间仅关闭自动饲槽而不停饮水等。",
+    "error_detail": "术语错误，将一天改为两天，2~3次改为1~2次，6天改为5天，1天改为2天",
+    "original_question": "肉猪限饲法的具体实施方式有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "合理的日喂次数和喂量应依据饲料类型、肥育阶段和方式、一天内猪的食量变化情况以及季节变化等因素合理安排。",
+    "reference_case": "合理的日喂次数和喂量应依据饲料类型、肥育阶段和方式以及一天内猪的食量变化情况等因素合理安排。",
+    "error_detail": "添加假设，增加了季节变化因素",
+    "original_question": "合理的日喂次数和喂量应依据哪些因素确定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "工厂化养猪按固定周期节奏进行生产，一般以月为单位。",
+    "reference_case": "工厂化养猪按固定周期节奏进行生产，一般以周为单位。",
+    "error_detail": "过时标准，将周改为月",
+    "original_question": "工厂化养猪按什么节奏进行生产？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "工厂化养猪包括配种、妊娠、分娩、哺乳、育成、肥育等环节，但不包括销售。",
+    "reference_case": "工厂化养猪包括配种、妊娠、分娩、哺乳、育成、肥育等环节。",
+    "error_detail": "逻辑矛盾，添加了不包括销售",
+    "original_question": "工厂化养猪包括哪些生产环节？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "工厂化养猪的特点包括流水式的工艺流程、专门化的猪舍类别、完善化的繁育体系、系列化的全价饲粮、现代化的设施设备、严密化的兽医保健、高效率的管理体制和标准化的产品生产，但不包括环保措施。",
+    "reference_case": "工厂化养猪的特点包括流水式的工艺流程、专门化的猪舍类别、完善化的繁育体系、系列化的全价饲粮、现代化的设施设备、严密化的兽医保健、高效率的管理体制和标准化的产品生产。",
+    "error_detail": "术语错误，添加了不包括环保措施",
+    "original_question": "工厂化养猪的特点有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "工厂化养猪采用全进全出、流水作业的生产方式，但也可以采用其他生产方式。",
+    "reference_case": "工厂化养猪采用全进全出、流水作业的生产方式。",
+    "error_detail": "需求冲突，添加了也可以采用其他生产方式",
+    "original_question": "工厂化养猪的生产方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "需要年初猪群结构、配种分娩的方式和时间、上年度已配种母猪的头数和时期等资料，还需要猪的品种信息。",
+    "reference_case": "需要年初猪群结构、配种分娩的方式和时间、上年度已配种母猪的头数和时期等资料。",
+    "error_detail": "数值偏差，添加了猪的品种信息",
+    "original_question": "确定配种分娩计划时需要哪些资料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "每周配种母猪数通过计算发情母猪数量、重发情母猪数量和补充的后备母猪数量得出，具体计算方法见表7-2，还需要考虑季节因素。",
+    "reference_case": "每周配种母猪数通过计算发情母猪数量、重发情母猪数量和补充的后备母猪数量得出，具体计算方法见表7-2。",
+    "error_detail": "添加假设，增加了季节因素",
+    "original_question": "配种分娩计划表中每周应配种的母猪数量如何计算？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "每周需配种30头母猪，以确保每周产仔20窝。",
+    "reference_case": "每周需配种25头母猪，以确保每周产仔20窝。",
+    "error_detail": "数值偏差，将25头改为30头",
+    "original_question": "制定配种分娩计划时应确保每周产仔20窝，那么每周需配种多少头母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "制定猪群周转计划有技术上和经济上的依据，主要考虑各类猪群的组成和变动情况，但不考虑市场需求。",
+    "reference_case": "制定猪群周转计划有技术上和经济上的依据，主要考虑各类猪群的组成和变动情况。",
+    "error_detail": "需求冲突，添加了不考虑市场需求",
+    "original_question": "制定猪群周转计划的依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪群周转计划是计算产品产量的依据之一，也是制订产品计划的基础，决定猪群再生状况，反映年终猪群结构及猪群扩大再生产任务完成状况，但不反映猪的健康状况。",
+    "reference_case": "猪群周转计划是计算产品产量的依据之一，也是制订产品计划的基础，决定猪群再生状况，反映年终猪群结构及猪群扩大再生产任务完成状况。",
+    "error_detail": "术语错误，添加了不反映猪的健康状况",
+    "original_question": "猪群周转计划的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "对体阳性猪和经多次免疫不产生猪温抗体的猪进行猪瘟抗原检查，取淋巴结进行荧光抗体检查，发现带毒猪立即隔离。",
+    "reference_case": "对体阳性猪和经多次免疫不产生猪温抗体的猪进行猪瘟抗原检查，取淋巴结进行荧光抗体检查，发现带毒猪立即扑杀。",
+    "error_detail": "术语错误，将扑杀改为隔离",
+    "original_question": "如何检测猪瘟带毒猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "感染猪群中超过12月龄的猪通常具有主动免疫力，其中HI抗体效价在1:512以上，并可持续4年。",
+    "reference_case": "感染猪群中超过12月龄的猪通常具有主动免疫力，其中HI抗体效价在1:256以上，并可持续4年。",
+    "error_detail": "数值偏差，将1:256改为1:512",
+    "original_question": "感染猪群中超过12月龄的猪通常具有什么抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪从母体获得的抗体能持续20至30周。",
+    "reference_case": "仔猪从母体获得的抗体能持续14至24周。",
+    "error_detail": "数值偏差，将14至24周改为20至30周",
+    "original_question": "仔猪从母体获得的抗体能持续多久？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "观察流行病学、临㾁症状和病理变化，与猪传染性胃肠炎相似；实验室诊断必须依赖特定方法，但也可以依赖临床症状。",
+    "reference_case": "观察流行病学、临㾁症状和病理变化，与猪传染性胃肠炎相似；实验室诊断必须依赖特定方法。",
+    "error_detail": "需求冲突，添加了也可以依赖临床症状",
+    "original_question": "如何诊断猪传染性胃肠炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "包括荧光抗体染色、酶联免疫吸附试验（ELISA）、人工感染试验和PCR检测。",
+    "reference_case": "包括荧光抗体染色、酶联免疫吸附试验（ELISA）、人工感染试验。",
+    "error_detail": "术语错误，添加了PCR检测",
+    "original_question": "实验室确诊猪传染性胃肠炎的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "选取3-4日龄不吃初乳的仔猪，喂消毒牛乳，将病猪小肠组织及肠内容物制成悬液，每毫升加青霉素3000IU和链霉素3000 μg，空温放置1 h，接种实验猪，如感染则取小肠组织做荧光抗体检查。",
+    "reference_case": "选取2-3日龄不吃初乳的仔猪，喂消毒牛乳，将病猪小肠组织及肠内容物制成悬液，每毫升加青霉素2000IU和链霉素2000 μg，空温放置1 h，接种实验猪，如感染则取小肠组织做荧光抗体检查。",
+    "error_detail": "数值偏差，将2-3日龄改为3-4日龄，2000IU改为3000IU，2000 μg改为3000 μg",
+    "original_question": "人工感染试验的具体步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "不从疫区和病猪场引进猪只，预防接种灭活苗或弱毒苗，免疫程序在开猪分群前5周和2周各免疫一次。病时消毒隔离，对部分妊娠母猪和哺乳母猪紧急接种或人工感染以刺激产生母源抗体，保护仔猪。病猪无特效治疗，采取补液疗法，防止继发感染，但也可以使用抗生素。",
+    "reference_case": "不从疫区和病猪场引进猪只，预防接种灭活苗或弱毒苗，免疫程序在开猪分群前5周和2周各免疫一次。病时消毒隔离，对部分妊娠母猪和哺乳母猪紧急接种或人工感染以刺激产生母源抗体，保护仔猪。病猪无特效治疗，采取补液疗法，防止继发感染。",
+    "error_detail": "需求冲突，添加了也可以使用抗生素",
+    "original_question": "如何防控猪传染性胃肠炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪繁殖-呼吸障碍综合征病毒，属于动炎病毒科动脉炎病毒属，为单股负链RNA病毒。",
+    "reference_case": "猪繁殖-呼吸障碍综合征病毒，属于动炎病毒科动脉炎病毒属，为单股正链RNA病毒。",
+    "error_detail": "术语错误，将单股正链RNA病毒改为单股负链RNA病毒",
+    "original_question": "猪繁殖-呼吸障碍综合征（PRRS）的病原是什么？",
+    "original_input": ""
+  }
+]

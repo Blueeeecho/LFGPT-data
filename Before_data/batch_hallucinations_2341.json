@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪红痢的主要病原是大肠杆菌",
+    "reference_case": "仔猪红痢的主要病原是魏氏梭菌，发病对象为哺乳仔猪，表现为带血性腹泻、虚脱，偶见呕吐。",
+    "error_detail": "将魏氏梭菌错误地替换为大肠杆菌",
+    "original_question": "仔猪红痢的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪痢疾的主要病原是沙门氏菌",
+    "reference_case": "猪痢疾的主要病原是密螺旋体，主要发生在7周龄以上的青年猪，表现为水样带血和黏液。",
+    "error_detail": "将密螺旋体错误地替换为沙门氏菌",
+    "original_question": "猪痢疾的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "仔猪副伤寒的主要病原是霍乱弧菌",
+    "reference_case": "仔猪副伤寒的主要病原是沙门氏菌，主要发生在4~8周龄的仔猪，表现为血性腹泻、高体温，偶见神经症状。",
+    "error_detail": "将沙门氏菌错误地替换为霍乱弧菌",
+    "original_question": "仔猪副伤寒的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪丹毒的主要病原是链球菌",
+    "reference_case": "猪丹毒的主要病原是丹毒杆菌，主要发生在大于2周龄的猪，表现为水样腹泻、高体温和全身症状。",
+    "error_detail": "将丹毒杆菌错误地替换为链球菌",
+    "original_question": "猪丹毒的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟的主要病原是细菌",
+    "reference_case": "猪瘟的主要病原是猪瘟病毒，任何年龄的猪都可发病，表现为水样带黏液血便、高体温和全身症状。",
+    "error_detail": "将猪瘟病毒错误地替换为细菌",
+    "original_question": "猪瘟的主要病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪感染结节虫病的传播途径是通过空气传播",
+    "reference_case": "感染性幼虫污染的饲料、饮水或粪土被猪吞食后，幼虫进入猪的肠腔，钻入结膜黏膜形成结节，继续发育至成虫并排卵。",
+    "error_detail": "将实际的传播途径错误地描述为空气传播",
+    "original_question": "猪感染结节虫病的传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "结节虫病的主要症状包括高烧和咳嗽",
+    "reference_case": "轻度感染不明显，重度感染可引起肠炎和溃疡，导致急性顽固性下痢，粪便绿色带血，病猪腹痛、伸展后肢、弓背、体温升高、食欲减退、消瘦，严重者可致死。",
+    "error_detail": "错误地添加了高烧和咳嗽作为主要症状",
+    "original_question": "结节虫病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪肺丝虫病的病原体是细菌",
+    "reference_case": "常见的病原体有长刺后圆线虫和短阴后圆线虫，虫体细长丝状，雌虫较雄虫短小，虫卵短椭圆形，灰白色，卵壳较厚，表面凹凸不平，卵内含有已发育成型的幼虫。",
+    "error_detail": "将线虫错误地描述为细菌",
+    "original_question": "猪肺丝虫病的病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "肺丝虫病的防治方法包括使用抗生素",
+    "reference_case": "搞好猪舍内外环境卫生，保持干燥，消灭蚚蚓；预防性驱虫，治疗可采用敌百虫溶液、左咪唑、㲵乙酰肼、伊维菌素、海群生等药物。",
+    "error_detail": "错误地建议使用抗生素，而实际应使用特定的驱虫药物",
+    "original_question": "肺丝虫病的防治方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪肾虫病的寄生位置是肺部",
+    "reference_case": "寄生于猪肾盂、肾周围脂肪和输尿管；虫体粗壮，雄虫长20-30mm，雌虫长30-50mm，成虫寄生于形成的包囊中。",
+    "error_detail": "错误地将寄生位置描述为肺部",
+    "original_question": "猪肾虫病的寄生位置和病原是什么？",
+    "original_input": ""
+  }
+]

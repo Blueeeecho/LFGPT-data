@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "胆碱是蛋白质的组成成分，有助于构筑和维持细胞结构，有利于机体利用脂肪和从肝脏输出脂肪，是肝脏脂肪代谢所必需的。",
+    "reference_case": "胆碱是磷脂的组成成分，有助于构筑和维持细胞结构，有利于机体利用脂肪和从肝脏输出脂肪，是肝脏脂肪代谢所必需的。",
+    "error_detail": "将胆碱错误地描述为蛋白质的组成成分，而非磷脂的组成成分。",
+    "original_question": "胆碱在猪体内的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "NMA通过影响神经内分泌系统功能，调节生长激素的合成与释放，提高饲料转化率、胴体瘦肉率，降低胴体脂肪率、背膘厚，提高眼肌面积。具体数值为：饲料转化率提高50%，胴体瘦肉率提高30%，胴体脂肪率降低20%，背膘厚降低15%，眼肌面积提高25%。",
+    "reference_case": "NMA通过影响神经内分泌系统功能，调节生长激素的合成与释放，提高饲料转化率、胴体瘦肉率，降低胴体脂肪率、背膘厚，提高眼肌面积。",
+    "error_detail": "添加了具体的数值比例，这些数据在原回答中并未提及。",
+    "original_question": "N-甲基 D, L-天冬氨酸(NMA)如何影响猪的生长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "养猪业禁用抗生素分为三个阶段：第一阶段是禁止所有抗生素的使用，第二阶段是限制特定抗生素的使用，第三阶段是完全禁止抗生素的使用。",
+    "reference_case": "养猪业禁用抗生素分为三个阶段：严格执行休药期制度，禁止生长、肥育猪使用药物添加剂，最后全面禁止；逐步实施，由易到难，有利于降低禁药对养猪业带来的危害。",
+    "error_detail": "错误地描述了禁用抗生素的阶段，忽略了休药期制度和逐步实施的重要性。",
+    "original_question": "养猪业禁用抗生素分为哪几个阶段？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪对苜蓿干草的消化率如下：粗蛋白质70%，粗脂肪60%，粗纤维40%，无氮浸出物80%。",
+    "reference_case": "猪对苜蓿干草的消化率如下：粗蛋白质61%，粗脂肪50%，粗纤维32%，无氮浸出物71%。",
+    "error_detail": "提高了消化率的数值，与原始数据不符。",
+    "original_question": "猪对苜蓿干草的消化率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同收割期的苜蓿干草粉消化率如下：初花期收割，粗蛋白质15%，粗纤维25%，消化率为75%；盛花期收割，粗蛋白质5%，粗纤维35%，消化率为65%。",
+    "reference_case": "不同收割期的苜蓿干草粉消化率如下：初花期收割，粗蛋白质12.4%，粗纤维23.7%，消化率为71%；盛花期收割，粗蛋白质1%，粗纤维30.9%，消化率为63%。",
+    "error_detail": "修改了消化率和成分的数值，与原始数据不符。",
+    "original_question": "不同收割期的苜蓿干草粉对猪的消化率有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "大豆皮对猪的消化率为：粗蛋白质50%，粗脂肪70%，粗纤维75%，无氮浸出物50%。",
+    "reference_case": "大豆皮对猪的消化率为：粗蛋白质45%，粗脂肪61%，粗纤维67%，无氮浸出物40%。",
+    "error_detail": "提高了消化率的数值，与原始数据不符。",
+    "original_question": "大豆皮对猪的消化率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同谷实类饲料的消化率如下：大麦煮熟，粗蛋白质70%，粗脂肪50%，粗纤维35%，无氮浸出物90%；大米粗纤维2%，消化率为90%。",
+    "reference_case": "不同谷实类饲料的消化率如下：大麦煮熟，粗蛋白质67%，粗脂肪42%，粗纤维29%，无氮浸出物87%；大米粗纤维1.5%，消化率为86%。",
+    "error_detail": "修改了消化率和成分的数值，与原始数据不符。",
+    "original_question": "不同谷实类饲料对猪的消化率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "体重在3-8kg、8-20kg、20-35kg、35-60kg和60-90kg的猪，每千克饲粮中维生素E的含量分别为20 IU、15 IU、15 IU、15 IU和15 IU。",
+    "reference_case": "体重在3-8kg、8-20kg、20-35kg、35-60kg和60-90kg的猪，每千克饲粮中维生素E的含量分别为16 IU、11 IU、11 IU、11 IU和11 IU。",
+    "error_detail": "提高了维生素E的含量数值，与原始数据不符。",
+    "original_question": "不同体重的猪每千克饲粮中维生素E的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同体重的猪每千克饲粮中维生素K的含量均为0.75 mg。",
+    "reference_case": "不同体重的猪每千克饲粮中维生素K的含量均为0.50 mg。",
+    "error_detail": "提高了维生素K的含量数值，与原始数据不符。",
+    "original_question": "不同体重的猪每千克饲粮中维生素K的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同体重的猪每千克饲粮中硫胺素的含量分别为2.00 mg、1.50 mg、1.50 mg、1.50 mg和1.50 mg。",
+    "reference_case": "不同体重的猪每千克饲粮中硫胺素的含量分别为1.50 mg、1.00 mg、1.00 mg、1.00 mg和1.00 mg。",
+    "error_detail": "提高了硫胺素的含量数值，与原始数据不符。",
+    "original_question": "不同体重的猪每千克饲粮中硫胺素的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同体重的猪每千克饲粮中核黄素的含量分别为5.00 mg、4.50 mg、3.50 mg、3.00 mg和3.00 mg。",
+    "reference_case": "不同体重的猪每千克饲粮中核黄素的含量分别为4.00 mg、3.50 mg、2.50 mg、2.00 mg和2.00 mg。",
+    "error_detail": "提高了核黄素的含量数值，与原始数据不符。",
+    "original_question": "不同体重的猪每千克饲粮中核黄素的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同体重的猪每千克饲粮中泛酸的含量分别为15.00 mg、12.00 mg、10.00 mg、9.00 mg和8.00 mg。",
+    "reference_case": "不同体重的猪每千克饲粮中泛酸的含量分别为12.00 mg、10.00 mg、8.00 mg、7.50 mg和7.00 mg。",
+    "error_detail": "提高了泛酸的含量数值，与原始数据不符。",
+    "original_question": "不同体重的猪每千克饲粮中泛酸的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同体重的猪每千克饲粮中烟酸的含量分别为25.00 mg、20.00 mg、15.00 mg、10.00 mg和9.00 mg。",
+    "reference_case": "不同体重的猪每千克饲粮中烟酸的含量分别为20.00 mg、15.00 mg、10.00 mg、8.50 mg和7.50 mg。",
+    "error_detail": "提高了烟酸的含量数值，与原始数据不符。",
+    "original_question": "不同体重的猪每千克饲粮中烟酸的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同体重的猪每千克饲粮中吡哆醇的含量分别为3.00 mg、2.00 mg、1.50 mg、1.50 mg和1.50 mg。",
+    "reference_case": "不同体重的猪每千克饲粮中吡哆醇的含量分别为2.00 mg、1.50 mg、1.00 mg、1.00 mg和1.00 mg。",
+    "error_detail": "提高了吡哆醇的含量数值，与原始数据不符。",
+    "original_question": "不同体重的猪每千克饲粮中吡哆醇的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同体重的猪每千克饲粮中生物素的含量均为0.10 mg。",
+    "reference_case": "不同体重的猪每千克饲粮中生物素的含量均为0.08 mg。",
+    "error_detail": "提高了生物素的含量数值，与原始数据不符。",
+    "original_question": "不同体重的猪每千克饲粮中生物素的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同体重的猪每千克饲粮中叶酸的含量均为0.40 mg。",
+    "reference_case": "不同体重的猪每千克饲粮中叶酸的含量均为0.30 mg。",
+    "error_detail": "提高了叶酸的含量数值，与原始数据不符。",
+    "original_question": "不同体重的猪每千克饲粮中叶酸的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同体重的猪每千克饲粮中维生素B12的含量分别为25.00 μg、20.00 μg、15.00 μg、10.00 μg和8.00 μg。",
+    "reference_case": "不同体重的猪每千克饲粮中维生素B12的含量分别为20.00 μg、17.50 μg、11.00 μg、8.00 μg和6.00 μg。",
+    "error_detail": "提高了维生素B12的含量数值，与原始数据不符。",
+    "original_question": "不同体重的猪每千克饲粮中维生素B12的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同体重的猪每千克饲粮中胆碱的含量分别为0.70 g、0.60 g、0.40 g、0.35 g和0.35 g。",
+    "reference_case": "不同体重的猪每千克饲粮中胆碱的含量分别为0.60 g、0.50 g、0.35 g、0.30 g和0.30 g。",
+    "error_detail": "提高了胆碱的含量数值，与原始数据不符。",
+    "original_question": "不同体重的猪每千克饲粮中胆碱的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同体重的猪每千克饲粮中亚油酸的含量均为0.15%。",
+    "reference_case": "不同体重的猪每千克饲粮中亚油酸的含量均为0.10%。",
+    "error_detail": "提高了亚油酸的含量数值，与原始数据不符。",
+    "original_question": "不同体重的猪每千克饲粮中亚油酸的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "不同体重的猪的平均体重分别为6.0 kg、15.0 kg、30.0 kg、50.0 kg和80.0 kg。",
+    "reference_case": "不同体重的猪的平均体重分别为5.5 kg、14.0 kg、27.5 kg、47.5 kg和75.0 kg。",
+    "error_detail": "提高了平均体重的数值，与原始数据不符。",
+    "original_question": "不同体重的猪每千克饲粮中平均体重是多少？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "根据猪舍健康状态的指标体系，通过模糊综合评判模型逐级计算得到准则层的模糊综合评价矩阵，结合权重综合评判得到猪舍的健康状况的等级，并根据健康状态等级值对猪舍的状态等级进行归类，其中健康等级分为5级。",
+    "reference_case": "根据猪舍健康状态的指标体系，通过模糊综合评判模型逐级计算得到准则层的模糊综合评价矩阵，结合权重综合评判得到猪舍的健康状况的等级，并根据健康状态等级值对猪舍的状态等级进行归类。",
+    "error_detail": "添加了健康等级分为5级的错误信息",
+    "original_question": "猪舍健康状态评价中如何确定猪舍的健康状态等级？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "青海省部分地区猪饲料中，黄曲霉毒素（AFT）和玉米赤霉烯酮（ZON）的污染最为严重。",
+    "reference_case": "青海省部分地区猪饲料中，呕吐毒素（DON）和玉米赤霉烯酮（ZON）的污染最为严重。",
+    "error_detail": "将呕吐毒素（DON）错误地替换为黄曲霉毒素（AFT）",
+    "original_question": "青海省部分地区猪饲料中，哪种霉菌毒素的污染最为严重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "时效性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "青海省部分地区猪饲料中，霉菌毒素污染的检测结果与张丞等对2005年、2006年中国饲料和原料中霉菌毒素污染情况的调查、王金勇等对2010年中国饲料和原料霉菌毒素检测的结果存在高度的一致性。",
+    "reference_case": "青海省部分地区猪饲料中，霉菌毒素污染的检测结果与张丞等对2008年、2009年中国饲料和原料中霉菌毒素污染情况的调查、王金勇等对2012年中国饲料和原料霉菌毒素检测的结果存在高度的一致性。",
+    "error_detail": "错误地引用了过时的研究年份",
+    "original_question": "青海省部分地区猪饲料中，霉菌毒素污染的检测结果与哪些研究结果一致？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "青海省部分地区猪饲料中，霉菌毒素混合污染现象严重，2种和2种以上霉菌毒素混合污染样品占总样品数的90%，其中同时检测到4种霉菌毒素的样品占总样品数的10%。",
+    "reference_case": "青海省部分地区猪饲料中，霉菌毒素混合污染现象严重，2种和2种以上霉菌毒素混合污染样品占总样品数的82:44%，其中同时检测到4种霉菌毒素的样品占总样品数的8:78%。",
+    "error_detail": "错误地修改了混合污染样品的比例",
+    "original_question": "青海省部分地区猪饲料中，霉菌毒素混合污染的现象如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "青海省部分地区猪饲料中霉菌毒素污染的主要检测方法是PCR（聚合酶链反应）方法。",
+    "reference_case": "青海省部分地区猪饲料中霉菌毒素污染的主要检测方法是ELISA（酶联免疫吸附测定）方法。",
+    "error_detail": "错误地将ELISA方法替换为PCR方法",
+    "original_question": "青海省部分地区猪饲料中霉菌毒素污染的主要检测方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "青海省部分地区猪饲料中，商品化饲料存在10%的无OTA、AFB1、DON、ZON污染饲料，而自制饲料中不存在无OTA、AFB1、DON、ZON污染的饲料。",
+    "reference_case": "青海省部分地区猪饲料中，商品化饲料存在8:97%的无OTA、AFB1、DON、ZON污染饲料，而自制饲料中不存在无OTA、AFB1、DON、ZON污染的饲料。",
+    "error_detail": "错误地修改了无污染饲料的比例",
+    "original_question": "青海省部分地区猪饲料中，商品化饲料和自制饲料在无霉菌毒素污染方面有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "青海省部分地区猪饲料中，商品化饲料中1种霉菌毒素的污染率低于自制饲料，而2种和2种以上霉菌毒素、4种霉菌毒素的污染率均高于自制饲料，表明自制饲料的混合污染现象比商品化饲料轻微。",
+    "reference_case": "青海省部分地区猪饲料中，商品化饲料中1种霉菌毒素的污染率高于自制饲料，而2种和2种以上霉菌毒素、4种霉菌毒素的污染率均低于自制饲料，表明自制饲料的混合污染现象比商品化饲料严重。",
+    "error_detail": "错误地反转了污染率的比较结果",
+    "original_question": "青海省部分地区猪饲料中，商品化饲料和自制饲料在霉菌毒素污染种类方面有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2012年青海省部分地区猪饲料样品中，商品化饲料的霉菌毒素阳性率为OTA 10%、AFB1 20%、DON 90%、ZON 80%；自制饲料的霉菌毒素阳性率为OTA 10%、AFB1 30%、DON 90%、ZON 80%。",
+    "reference_case": "2012年青海省部分地区猪饲料样品中，商品化饲料的霉菌毒素阳性率为OTA 7:05%、AFB1 16:03%、DON 83:33%、ZON 69:87%；自制饲料的霉菌毒素阳性率为OTA 6:12%、AFB1 28:57%、DON 85:71%、ZON 73:47%。",
+    "error_detail": "错误地修改了霉菌毒素阳性率的数据",
+    "original_question": "2012年青海省部分地区猪饲料样品中，商品化饲料和自制饲料的霉菌毒素阳性率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "青海省部分地区猪饲料中，霉菌毒素污染导致猪群出现厌食、生长缓慢等不适现象，尤其是AFB1、DON和ZON含量较低的猪场。",
+    "reference_case": "青海省部分地区猪饲料中，霉菌毒素污染导致猪群出现厌食、生长缓慢等不适现象，尤其是AFB1、DON和ZON含量较高的猪场。",
+    "error_detail": "错误地将含量较高改为含量较低",
+    "original_question": "青海省部分地区猪饲料中，霉菌毒素污染对猪群的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "青海省部分地区猪饲料中，自制饲料在霉菌毒素污染方面比商品化饲料严重，主要原因是自制饲料在原料选择、生产加工过程中，工作环境和条件有限，缺乏控湿装置和防霉污染设施，导致成品饲料霉变，产生大量霉菌毒素。此外，自制饲料的储存条件也比商品化饲料差。",
+    "reference_case": "青海省部分地区猪饲料中，自制饲料在霉菌毒素污染方面比商品化饲料严重，主要原因是自制饲料在原料选择、生产加工过程中，工作环境和条件有限，缺乏控湿装置和防霉污染设施，导致成品饲料霉变，产生大量霉菌毒素。",
+    "error_detail": "添加了关于储存条件的未经证实的假设",
+    "original_question": "青海省部分地区猪饲料中，自制饲料在霉菌毒素污染方面为何比商品化饲料严重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪ITGA4基因的多态性位点突变类型是A→G的转换。",
+    "reference_case": "猪ITGA4基因的多态性位点突变类型是T→C的转换。",
+    "error_detail": "错误地改变了突变类型",
+    "original_question": "猪ITGA4基因的多态性位点突变类型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪ITGA4基因的多态性位点突变属于非同义突变，改变了氨基酸序列。",
+    "reference_case": "猪ITGA4基因的多态性位点突变属于同义突变，未改变氨基酸序列。",
+    "error_detail": "错误地将同义突变改为非同义突变",
+    "original_question": "猪ITGA4基因的多态性位点突变是否改变了氨基酸序列？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在整个群体中，该突变位点处于Hardy-Weinberg平衡，但在杜洛克猪中，该突变位点不处于Hardy-Weinberg平衡。",
+    "reference_case": "在整个群体中，该突变位点不处于Hardy-Weinberg平衡，但在杜洛克猪中，该突变位点处于Hardy-Weinberg平衡。",
+    "error_detail": "错误地反转了Hardy-Weinberg平衡的状态",
+    "original_question": "猪ITGA4基因的多态性位点突变是否处于Hardy-Weinberg平衡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在杜洛克猪中，C基因频率为0.8，T基因频率为0.2。",
+    "reference_case": "在杜洛克猪中，C基因频率为0:671，T基因频率为0:329。",
+    "error_detail": "错误地修改了基因频率的数据",
+    "original_question": "猪ITGA4基因的多态性位点突变在杜洛克猪中的基因频率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在杜洛克猪中，TNB和NBA的加性方差占基因型方差的比例分别为80%和85%，说明突变个体总产仔数和产活仔数的遗传主要受基因加性效应的影响。",
+    "reference_case": "在杜洛克猪中，TNB和NBA的加性方差占基因型方差的比例分别为94:66%和90:55%，说明突变个体总产仔数和产活仔数的遗传主要受基因加性效应的影响。",
+    "error_detail": "错误地修改了加性方差的比例",
+    "original_question": "猪ITGA4基因的多态性位点突变对产仔数的遗传方差分析结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在长白猪中，CC基因型频率为0.9，TC基因型频率为0.1，TT基因型频率为0；在大白猪中，CC基因型频率为0.95，TC基因型频率为0.05，TT基因型频率为0。",
+    "reference_case": "在长白猪中，CC基因型频率为0:994，TC基因型频率为0:006，TT基因型频率为0；在大白猪中，CC基因型频率为0:973，TC基因型频率为0:013，TT基因型频率为0:014。",
+    "error_detail": "错误地修改了基因型频率的数据",
+    "original_question": "猪ITGA4基因的多态性位点突变在长白猪和大白猪中的基因型频率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪ITGA4基因的多态性位点位于第20外显子（E20）。",
+    "reference_case": "猪ITGA4基因的多态性位点位于第18外显子（E18）。",
+    "error_detail": "错误地修改了外显子的编号",
+    "original_question": "猪ITGA4基因的多态性位点位于哪个外显子？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在杜洛克猪中，CC基因型的总产仔数比TC型和TT型分别高1头和1.5头（P<0.05）。",
+    "reference_case": "在杜洛克猪中，CC基因型的总产仔数比TC型和TT型分别高0:63头和0:77头（P<0:05）。",
+    "error_detail": "错误地修改了总产仔数的差异",
+    "original_question": "在杜洛克猪中，ITGA4基因的CC基因型与TC和TT基因型相比，总产仔数有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在长白猪、大白猪和杜洛克猪中，CC基因型的总产仔数比TC型和TT型分别高1头（P<0.05）和2头（P<0.01），产活仔数比TC型和CC型分别高1头（P<0.05）和1.5头（P<0.05）。",
+    "reference_case": "在长白猪、大白猪和杜洛克猪中，CC基因型的总产仔数比TC型和TT型分别高0:86头（P<0:05）和1:56头（P<0:01），产活仔数比TC型和CC型分别高0:82头（P<0:05）和1:27头（P<0:05）。",
+    "error_detail": "错误地修改了产仔数和产活仔数的差异",
+    "original_question": "在长白猪、大白猪和杜洛克猪中，ITGA4基因的CC基因型对产仔数的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "脂肪组后备母猪的初情日龄比淀粉组提早了15到20天。",
+    "reference_case": "脂肪组后备母猪的初情日龄比淀粉组提早了8到11天。",
+    "error_detail": "错误地修改了初情日龄的差异",
+    "original_question": "脂肪组后备母猪的初情日龄比淀粉组提早了多少天？",
+    "original_input": ""
+  }
+]

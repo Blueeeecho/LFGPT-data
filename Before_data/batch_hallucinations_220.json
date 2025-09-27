@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "环境高温通过降低猪血清中甲状腺激素、胰岛素和生长激素的浓度来调控脂肪代谢。例如，高温显著降低猪血清中甲状腺激素的浓度，缓解甲状腺激素对脂肪的促分解作用，从而促进脂肪的储存。具体来说，甲状腺激素的浓度降低了50%。",
+    "reference_case": "环境高温通过降低猪血清中甲状腺激素、胰岛素和生长激素的浓度来调控脂肪代谢。例如，高温显著降低猪血清中甲状腺激素的浓度，缓解甲状腺激素对脂肪的促分解作用，从而促进脂肪的储存。",
+    "error_detail": "添加了具体的数值偏差，原始output中并未提及具体的降低百分比。",
+    "original_question": "环境高温如何通过调控内分泌影响猪的脂肪代谢？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "环境高温抑制猪脂肪组织中脂肪酸的从头合成。Kouba等研究发现，高温使猪背脂中乙酰辅酶A羧化酶（ACC）活性降低50%，肾周脂肪中ACC活性降低60%，肝脏中ACC活性降低30%。",
+    "reference_case": "环境高温抑制猪脂肪组织中脂肪酸的从头合成。Kouba等研究发现，高温使猪背脂中乙酰辅酶A羧化酶（ACC）活性降低35:1%，肾周脂肪中ACC活性降低49:3%，肝脏中ACC活性降低25:2%。",
+    "error_detail": "修改了原始数据，导致数值偏差。",
+    "original_question": "环境高温对猪脂肪组织中脂肪酸从头合成的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "试验中使用的泌乳母猪是“杜×长”二元杂交母猪，胎次为3至5胎。",
+    "reference_case": "试验中使用的泌乳母猪是“长×大”二元杂交母猪，胎次为3至5胎。",
+    "error_detail": "错误地更改了母猪的品种名称。",
+    "original_question": "试验中使用的泌乳母猪的品种和胎次是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "试验中泌乳母猪的断奶发情间隔和下一胎次总产仔数受赖氨酸水平影响，各组间差异显著。",
+    "reference_case": "试验中泌乳母猪的断奶发情间隔和下一胎次总产仔数不受赖氨酸水平影响，各组间差异不显著。",
+    "error_detail": "错误地改变了原始结论，导致与原始output冲突。",
+    "original_question": "试验中泌乳母猪的断奶发情间隔和下一胎次总产仔数是否受赖氨酸水平影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验中泌乳母猪的体重损失在1:00%组最高，显著高于其他三组。",
+    "reference_case": "试验中泌乳母猪的体重损失在0:90%组最高，显著高于其他三组。",
+    "error_detail": "错误地修改了赖氨酸水平组的数值。",
+    "original_question": "试验中泌乳母猪的体重损失在哪个赖氨酸水平组最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪断奶后，空肠中猪防御素1（pBD-1:和猪防御素2（pBD-2:的基因表达量显著增加，分别是断奶前的2:00倍和2:50倍。",
+    "reference_case": "仔猪断奶后，空肠中猪防御素1（pBD-1:和猪防御素2（pBD-2:的基因表达量显著增加，分别是断奶前的1:64倍和1:65倍。",
+    "error_detail": "错误地增加了基因表达量的倍数。",
+    "original_question": "仔猪断奶前后防御素基因的表达有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "仔猪断奶后，肠道免疫功能的增强体现在sIgA浓度显著增加，防御素基因表达量显著增加，淋巴细胞数目显著增多，以及肠道菌群结构发生显著变化。",
+    "reference_case": "仔猪断奶后，肠道免疫功能的增强体现在sIgA浓度显著增加，防御素基因表达量显著增加，以及淋巴细胞数目显著增多。",
+    "error_detail": "添加了关于肠道菌群结构的假设，原始output中未提及。",
+    "original_question": "仔猪断奶后肠道免疫功能的增强是如何体现的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪断奶后，十二指肠和空肠上皮中的淋巴细胞数目显著减少，断奶前淋巴细胞数目相对稳定，断奶后显著减少。",
+    "reference_case": "仔猪断奶后，十二指肠和空肠上皮中的淋巴细胞数目显著增加，断奶前淋巴细胞数目相对稳定，断奶后显著增多。",
+    "error_detail": "错误地改变了淋巴细胞数目的变化趋势。",
+    "original_question": "仔猪断奶前后肠上皮淋巴细胞数目的变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶前，仔猪空肠的绒毛高度显著高于十二指肠，隐窝深度显著低于十二指肠；断奶后，空肠的绒毛高度显著增加，隐窝深度显著减少，且空肠的绒毛高度/隐窝深度（V/C）显著增加。",
+    "reference_case": "断奶前，仔猪空肠的绒毛高度显著高于十二指肠，隐窝深度显著低于十二指肠；断奶后，空肠的绒毛高度显著降低，隐窝深度显著增加，且空肠的绒毛高度/隐窝深度（V/C）显著降低。",
+    "error_detail": "错误地改变了绒毛高度和隐窝深度的变化趋势。",
+    "original_question": "仔猪断奶前后十二指肠和空肠的绒毛高度和隐窝深度有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "仔猪断奶后，肠道屏障功能受损的主要表现为绒毛高度显著降低，隐窝深度显著增加，淋巴细胞数目显著减少，sIgA和防御素表达水平显著降低。",
+    "reference_case": "仔猪断奶后，肠道屏障功能受损的主要表现为绒毛高度显著降低，隐窝深度显著增加，淋巴细胞数目显著增多，sIgA和防御素表达水平显著增加。",
+    "error_detail": "错误地改变了淋巴细胞数目和sIgA及防御素表达水平的变化趋势，导致逻辑矛盾。",
+    "original_question": "仔猪断奶后肠道屏障功能受损的主要表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪断奶后，十二指肠上皮的杯状细胞数目显著减少，而空肠上皮的杯状细胞数目在断奶前后没有显著变化。",
+    "reference_case": "仔猪断奶后，十二指肠上皮的杯状细胞数目显著增加，而空肠上皮的杯状细胞数目在断奶前后没有显著变化。",
+    "error_detail": "错误地改变了十二指肠上皮杯状细胞数目的变化趋势。",
+    "original_question": "仔猪断奶前后肠上皮杯状细胞数目的变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪断奶后，空肠中sIgA的浓度显著增加，断奶后为100:00 mg/g，而断奶前为42:88 mg/g。",
+    "reference_case": "仔猪断奶后，空肠中sIgA的浓度显著增加，断奶后为71:19 mg/g，而断奶前为42:88 mg/g。",
+    "error_detail": "错误地增加了断奶后sIgA的浓度数值。",
+    "original_question": "仔猪断奶后空肠中分泌型免疫球蛋白A（sIgA）的浓度有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "仔猪断奶后，肠道形态和免疫功能的变化导致肠道屏障功能受损，绒毛萎缩，隐窝增生，淋巴细胞增多，sIgA和防御素表达增加，这些变化有助于保护肠黏膜，抵御病原微生物的入侵，但也可能导致肠道炎症和营养吸收不良，以及生长性能下降。",
+    "reference_case": "仔猪断奶后，肠道形态和免疫功能的变化导致肠道屏障功能受损，绒毛萎缩，隐窝增生，淋巴细胞增多，sIgA和防御素表达增加，这些变化有助于保护肠黏膜，抵御病原微生物的入侵，但也可能导致肠道炎症和营养吸收不良。",
+    "error_detail": "添加了关于生长性能下降的假设，原始output中未提及。",
+    "original_question": "仔猪断奶后肠道形态和免疫功能的变化对仔猪健康有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪断奶前，肠道屏障完整，sIgA和防御素表达水平较高；断奶后，肠道屏障受到破坏，绒毛萎缩，隐窝增生，淋巴细胞减少，sIgA和防御素表达水平显著降低。",
+    "reference_case": "仔猪断奶前，肠道屏障完整，sIgA和防御素表达水平较低；断奶后，肠道屏障受到破坏，绒毛萎缩，隐窝增生，淋巴细胞增多，sIgA和防御素表达水平显著增加。",
+    "error_detail": "错误地改变了sIgA和防御素表达水平及淋巴细胞数目的变化趋势。",
+    "original_question": "仔猪断奶前后肠道屏障功能的主要变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪断奶后，空肠的绒毛高度显著增加，隐窝深度显著减少，同时十二指肠和空肠上皮中的淋巴细胞数目显著减少。",
+    "reference_case": "仔猪断奶后，空肠的绒毛高度显著降低，隐窝深度显著增加，同时十二指肠和空肠上皮中的淋巴细胞数目显著增多。",
+    "error_detail": "错误地改变了绒毛高度、隐窝深度和淋巴细胞数目的变化趋势。",
+    "original_question": "仔猪断奶前后肠道形态的主要变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "筛选出的纤维素分解菌株被命名为大肠杆菌 BY-2。",
+    "reference_case": "筛选出的纤维素分解菌株被命名为枯草芽孢杆菌 BY-2。",
+    "error_detail": "错误地更改了菌株的名称。",
+    "original_question": "藏香猪源纤维素分解菌的分离鉴定及酶学特性分析实验中，筛选出的纤维素分解菌株的名称是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "实验的目的是从藏香猪盲肠内容物中分离筛选能够高效分解蛋白质的菌株，并对该菌株进行鉴定和酶学特性分析。",
+    "reference_case": "实验的目的是从藏香猪盲肠内容物中分离筛选能够高效分解纤维素的菌株，并对该菌株进行鉴定和酶学特性分析。",
+    "error_detail": "错误地改变了实验目的，从分解纤维素变为分解蛋白质。",
+    "original_question": "藏香猪源纤维素分解菌的分离鉴定及酶学特性分析的实验目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "在断奶期间，仔猪无法获得母源性Gln，容易发生Gln缺乏，导致肠道通透性增加和肠屏障功能破坏，因此补充外源性Gln对防止仔猪断奶应激具有重要意义，同时还能显著提高仔猪的生长速度。",
+    "reference_case": "在断奶期间，仔猪无法获得母源性Gln，容易发生Gln缺乏，导致肠道通透性增加和肠屏障功能破坏，因此补充外源性Gln对防止仔猪断奶应激具有重要意义。",
+    "error_detail": "添加了关于提高仔猪生长速度的假设，原始output中未提及。",
+    "original_question": "为什么在仔猪断奶期间补充外源性谷氨酰胺（Gln）具有重要意义？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "随着Ala-Gln浓度的升高，仔猪小肠上皮细胞间连接处的荧光信号逐渐减弱，细胞轮廓更加模糊，而胞质内的荧光信号逐渐增强。",
+    "reference_case": "随着Ala-Gln浓度的升高，仔猪小肠上皮细胞间连接处的荧光信号逐渐增强，细胞轮廓更加清晰，而胞质内的荧光信号逐渐减弱。",
+    "error_detail": "错误地改变了荧光信号的变化趋势。",
+    "original_question": "丙氨酰-谷氨酰胺二肽（Ala-Gln）对仔猪小肠上皮细胞间紧密连接蛋白occludin的定位有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "Ala-Gln可以下调仔猪小肠上皮细胞间紧密连接蛋白occludin的表达，抑制细胞间紧密连接结构的形成，进而减弱仔猪小肠黏膜的屏障功能。",
+    "reference_case": "Ala-Gln可以上调仔猪小肠上皮细胞间紧密连接蛋白occludin的表达，促进细胞间紧密连接结构的形成，进而增强仔猪小肠黏膜的屏障功能。",
+    "error_detail": "错误地改变了Ala-Gln对紧密连接蛋白occludin表达的影响。",
+    "original_question": "丙氨酰-谷氨酰胺二肽（Ala-Gln）对仔猪小肠上皮细胞间紧密连接结构的形成有何影响？",
+    "original_input": ""
+  }
+]

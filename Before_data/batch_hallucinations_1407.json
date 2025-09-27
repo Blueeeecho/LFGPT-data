@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的育种目标包括提高生长速度、改善肉质、增加繁殖力、提高饲料转化率等，其中饲料转化率可以提高50%。",
+    "reference_case": "猪的育种目标包括提高生长速度、改善肉质、增加繁殖力、提高饲料转化率等。",
+    "error_detail": "错误地添加了饲料转化率可以提高50%的具体数据，这是不准确的。",
+    "original_question": "猪的育种目标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的常用饲料包括能量饲料、蛋白质饲料、青绿饲料、粗饲料、矿物质饲料和饲料添加剂等，其中能量饲料主要指玉米和豆粕。",
+    "reference_case": "猪的常用饲料包括能量饲料、蛋白质饲料、青绿饲料、粗饲料、矿物质饲料和饲料添加剂等。",
+    "error_detail": "错误地将豆粕归类为能量饲料，实际上豆粕是蛋白质饲料。",
+    "original_question": "猪的常用饲料有哪些类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "养猪生产的终端产品主要是猪肉，但在某些文化中，猪的其他部分也被广泛食用。",
+    "reference_case": "养猪生产的终端产品主要是猪肉。",
+    "error_detail": "添加了关于文化差异的假设信息，这不是原始问题的重点。",
+    "original_question": "养猪生产的主要终端产品是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪是城乡居民的主要肉食品，猪肉占肉类消费的80%左右，对改善我国居民的饮食结构具有重大作用。",
+    "reference_case": "猪是城乡居民的主要肉食品，猪肉占肉类消费的67%左右，对改善我国居民的饮食结构具有重大作用。",
+    "error_detail": "错误地将猪肉占肉类消费的比例从67%提高到80%。",
+    "original_question": "猪在人类饮食中的重要性体现在哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪粪尿含有大量农作物必需的氮、磷、钾等元素和有机质，能够改良土壤理化性状及其结构、提高土壤肥力和吸肥保墒能力，是最佳的有机肥料。",
+    "reference_case": "猪粪尿含有大量农作物必需的氮、磷、钾等元素和有机质，能够改良土壤理化性状及其结构、提高土壤肥力和吸肥保墒能力，优于无机化学肥料。",
+    "error_detail": "错误地将猪粪尿描述为最佳的有机肥料，这是主观判断，不是事实。",
+    "original_question": "猪粪尿作为有机肥料有哪些优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪的肉、脂、皮、骨、毛、脑、内脏等可作为食品、油脂、毛纺、制革、医药、国防等工业原料，其中猪皮是制作皮鞋的主要原料。",
+    "reference_case": "猪的肉、脂、皮、骨、毛、脑、内脏等可作为食品、油脂、毛纺、制革、医药、国防等工业原料。",
+    "error_detail": "添加了关于猪皮是制作皮鞋的主要原料的具体信息，偏离了原始问题的范围。",
+    "original_question": "猪的哪些部位可以作为工业原料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "发展养猪生产可以扩大对外贸易，增加外汇收入；年出栏肥猪100头以上的场（户）虽有所增加，但分散饲养仍占较大比例，发展养猪有助于农民增收、农业结构调整和振兴农村经济。",
+    "reference_case": "发展养猪生产可以扩大对外贸易，增加外汇收入；年出栏肥猪50头以上的场（户）虽有所增加，但分散饲养仍占较大比例，发展养猪有助于农民增收、农业结构调整和振兴农村经济。",
+    "error_detail": "错误地将年出栏肥猪的数量从50头提高到100头。",
+    "original_question": "发展养猪生产对出口创汇和增加收入有何意义？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "野猪体重较小，成年公野猪50~150kg，母猪25~100kg；家猪体重较大，成年猪体重200~300kg，个别可达500kg。",
+    "reference_case": "野猪体重较小，成年公野猪75~200kg，母猪35~150kg；家猪体重较大，成年猪体重200~300kg，个别可达500kg。",
+    "error_detail": "错误地减少了野猪的体重范围。",
+    "original_question": "野猪和家猪在体重上存在什么差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "野猪头强大伸直，呈圆锥状，头与体长之比1:2；家猪头较短而宽，面侧常弯曲，头与体长之比1:6~9。",
+    "reference_case": "野猪头强大伸直，呈圆锥状，头与体长之比1:3；家猪头较短而宽，面侧常弯曲，头与体长之比1:6~9。",
+    "error_detail": "错误地改变了野猪头与体长之比。",
+    "original_question": "野猪和家猪的头部特征有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "野猪体幅较窄，后躯小，前躯较发达，背线短；家猪背线长而宽平，后躯较发达，肋骨拱圆、丰满，具有良好肉用体型，这使得家猪更适合于商业化养殖。",
+    "reference_case": "野猪体幅较窄，后躯小，前躯较发达，背线短；家猪背线长而宽平，后躯较发达，肋骨拱圆、丰满，具有良好肉用体型。",
+    "error_detail": "添加了关于家猪更适合于商业化养殖的主观判断。",
+    "original_question": "野猪和家猪的体形有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "野猪乳头3-4对，很少超过此数；家猪乳头一般为6对，多者可达7对以上。",
+    "reference_case": "野猪乳头4-5对，很少超过此数；家猪乳头一般为6对，多者可达7对以上。",
+    "error_detail": "错误地减少了野猪的乳头对数。",
+    "original_question": "野猪和家猪的乳头数量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "野猪四肢管状、细长、坚实，行动灵活；家猪四肢管状、短而宽圆，质地细致，行动不及野猪灵活，这限制了家猪在野外的生存能力。",
+    "reference_case": "野猪四肢管状、细长、坚实，行动灵活；家猪四肢管状、短而宽圆，质地细致，行动不及野猪灵活。",
+    "error_detail": "添加了关于家猪在野外生存能力受限的主观判断。",
+    "original_question": "野猪和家猪的四肢有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "野猪性成熟较晚，24~30月龄才能达到性成熟；家猪性成熟期提前，一般3~6个月龄即达性成熟。",
+    "reference_case": "野猪性成熟较晚，18~20月龄才能达到性成熟；家猪性成熟期提前，一般3~6个月龄即达性成熟。",
+    "error_detail": "错误地延长了野猪的性成熟时间。",
+    "original_question": "野猪和家猪的性成熟时期有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "野猪中躯短而后躯小，后躯较前躯发达；家猪后躯较前躯发达，背腰部增长，腿部肌肉变得丰满，肉用体型更为典型，这使得家猪在市场上更受欢迎。",
+    "reference_case": "野猪中躯短而后躯小，后躯较前躯发达；家猪后躯较前躯发达，背腰部增长，腿部肌肉变得丰满，肉用体型更为典型。",
+    "error_detail": "添加了关于家猪在市场上更受欢迎的主观判断。",
+    "original_question": "野猪和家猪在体型结构上有哪些不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "野猪神经系统发达；家猪由于人工选择，大脑皮层面积缩小50%，行动变得迟缓。",
+    "reference_case": "野猪神经系统发达；家猪由于人工选择，大脑皮层面积缩小30%，行动变得迟缓。",
+    "error_detail": "错误地增加了家猪大脑皮层面积缩小的比例。",
+    "original_question": "野猪和家猪在神经系统方面有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "野猪消化道长度较短，肠长与体长之比为7:1；家猪消化道长度较长，中国地方猪可达16:1，胃肠容积也较野猪大。",
+    "reference_case": "野猪消化道长度较短，肠长与体长之比为9:1；家猪消化道长度较长，中国地方猪可达16:1，胃肠容积也较野猪大。",
+    "error_detail": "错误地改变了野猪肠长与体长之比。",
+    "original_question": "野猪和家猪的消化系统有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "野猪性活动发生在一定的季节（秋冬），一年产一次，每胎产仔2-4头；家猪一年四季都可发情，每胎产仔10头左右，也有20多头的。",
+    "reference_case": "野猪性活动发生在一定的季节（秋冬），一年产一次，每胎产仔4-6头；家猪一年四季都可发情，每胎产仔10头左右，也有20多头的。",
+    "error_detail": "错误地减少了野猪每胎产仔的数量。",
+    "original_question": "野猪和家猪的性活动有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪一般在6-7月龄达到性成熟。",
+    "reference_case": "猪一般在4-5月龄达到性成熟。",
+    "error_detail": "错误地延长了猪的性成熟年龄。",
+    "original_question": "猪一般在什么年龄段达到性成熟？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的妊娠期为120天。",
+    "reference_case": "猪的妊娠期为114天。",
+    "error_detail": "错误地延长了猪的妊娠期。",
+    "original_question": "猪的妊娠期有多长？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪一年能分娩三胎，若缩短哺乳期，母猪进行激素处理，可以达到两年五胎或一年三胎。",
+    "reference_case": "母猪一年能分娩两胎，若缩短哺乳期，母猪进行激素处理，可以达到两年五胎或一年三胎。",
+    "error_detail": "错误地增加了母猪一年能分娩的胎数。",
+    "original_question": "母猪一年可以产仔多少胎？",
+    "original_input": ""
+  }
+]

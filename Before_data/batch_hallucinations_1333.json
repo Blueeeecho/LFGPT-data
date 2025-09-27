@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "日粮纤维水平可以显著提高猪的营养物质表观消化率。",
+    "reference_case": "日粮纤维水平可以影响猪的营养物质表观消化率。",
+    "error_detail": "错误地增加了'显著提高'这一具体效果描述，而原始输出仅提到'影响'。",
+    "original_question": "日粮纤维水平对猪的营养物质表观消化率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "净能密度和标准化真胃消化赖氨酸:净能比可以影响喂高粗蛋白补充结晶氨基酸饲料的生长育肥猪的表现和胴体特性。",
+    "reference_case": "净能密度和标准化真胃消化赖氨酸:净能比可以影响喂低粗蛋白补充结晶氨基酸饲料的生长育肥猪的表现和胴体特性。",
+    "error_detail": "错误地将'低粗蛋白'改为'高粗蛋白'，导致概念混淆。",
+    "original_question": "净能密度和标准化真胃消化赖氨酸:净能比对猪的表现和胴体特性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "饲粮能量水平可以显著降低乌金猪脂肪组织脂类合成代谢相关基因的表达。",
+    "reference_case": "饲粮能量水平可以影响乌金猪脂肪组织脂类合成代谢相关基因的表达。",
+    "error_detail": "错误地增加了'显著降低'这一具体效果描述，而原始输出仅提到'影响'。",
+    "original_question": "饲粮能量水平对乌金猪脂肪组织脂类合成代谢相关基因表达有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "饲粮蛋白质水平可以影响肥育猪背最长肌的嫩度及骨骼特异性蛋白-核转录因子 κ B 信号通路，因为嫩度影响了蛋白质水平。",
+    "reference_case": "饲粮蛋白质水平可以影响肥育猪背最长肌的嫩度及骨骼特异性蛋白-核转录因子 κ B 信号通路。",
+    "error_detail": "错误地颠倒了因果关系，将'嫩度影响了蛋白质水平'作为原因。",
+    "original_question": "饲粮蛋白质水平对肥育猪背最长肌嫩度有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "精准饲养技术可以评估生长育肥猪的赖氨酸需要量，并且可以提高生长速度。",
+    "reference_case": "精准饲养技术可以评估生长育肥猪的赖氨酸需要量。",
+    "error_detail": "错误地添加了'可以提高生长速度'这一无关信息，偏离了原始指令。",
+    "original_question": "精准饲养技术评估生长育肥猪的赖氨酸需要量有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "低蛋白质饲粮条件下，生长猪对色氨酸的需要量在亚洲地区有所研究。",
+    "reference_case": "低蛋白质饲粮条件下，生长猪对色氨酸的需要量有所研究。",
+    "error_detail": "错误地限定了研究地域为'亚洲地区'，而原始输出未提及地域限制。",
+    "original_question": "低蛋白质饲粮条件下生长猪对色氨酸需要量的研究有哪些发现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "低蛋白日粮下赖氨酸水平可以显著提高生长猪的氮平衡和生长性能。",
+    "reference_case": "低蛋白日粮下赖氨酸水平可以影响生长猪的氮平衡和生长性能。",
+    "error_detail": "错误地增加了'显著提高'这一具体效果描述，而原始输出仅提到'影响'。",
+    "original_question": "低蛋白日粮下赖氨酸水平对生长猪氮平衡和生长性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "贵州香猪不同生长阶段的氨基酸沉积规律与需要量研究可以揭示不同阶段的氨基酸吸收和利用情况，但这些研究并不存在。",
+    "reference_case": "贵州香猪不同生长阶段的氨基酸沉积规律与需要量研究可以揭示不同阶段的氨基酸吸收和利用情况。",
+    "error_detail": "错误地添加了'但这些研究并不存在'，导致逻辑矛盾。",
+    "original_question": "贵州香猪不同生长阶段的氨基酸沉积规律与需要量研究有哪些发现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "运输应激可以影响猪淋巴结中 IL-6 和 IL-10 及其受体 mRNA 的转录，因为运输应激增加了猪的食欲。",
+    "reference_case": "运输应激可以影响猪淋巴结中 IL-",
+    "error_detail": "错误地添加了'因为运输应激增加了猪的食欲'这一无关且错误的原因。",
+    "original_question": "运输应激对猪淋巴结中某些细胞因子及其受体 mRNA 转录有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "宰前饮水短期添加硫酸镁可以显著改善肥育猪肉品质。",
+    "reference_case": "宰前饮水短期添加硫酸镁可以改善肥育猪肉品质。",
+    "error_detail": "错误地增加了'显著'这一程度描述，而原始输出未提及。",
+    "original_question": "硫酸镁对肥育猪肉品质有何影响？",
+    "original_input": ""
+  }
+]

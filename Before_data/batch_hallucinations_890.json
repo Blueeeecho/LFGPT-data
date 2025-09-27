@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2）疫苗的免疫合格率在200～500头母猪规模的猪场中最高，达到80%，而在10头母猪以下规模的猪场中最低，仅为20%。",
+    "reference_case": "猪圆环病毒2型（PCV2:疫苗的免疫合格率在200～500头母猪规模的猪场中最高，达到61:45%，而在10头母猪以下规模的猪场中最低，仅为29:07%。",
+    "error_detail": "数值比例被夸大，导致数据型幻觉",
+    "original_question": "猪圆环病毒2型（PCV2:疫苗的免疫合格率在不同规模的猪场中有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）疫苗的免疫合格率在不同规模的猪场中有显著差异，10～50头母猪规模的猪场抗体水平最高，达到90%，而10头母猪以下规模的猪场合格率仅为30%。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）疫苗的免疫合格率在不同规模的猪场中有显著差异，10～50头母猪规模的猪场抗体水平最高，达到78:08%，而10头母猪以下规模的猪场合格率仅为44:09%。",
+    "error_detail": "数值比例被夸大，导致数据型幻觉",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）疫苗的免疫合格率在不同规模的猪场中有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "种猪群的四种疫苗免疫合格率最低，而商品猪中，断奶仔猪群的PRRSV抗体合格率明显低于哺乳仔猪，育肥猪群的抗体合格率则比哺乳仔猪群和断奶仔猪群高。",
+    "reference_case": "种猪群的四种疫苗免疫合格率最高，而商品猪中，断奶仔猪群的PRRSV抗体合格率明显高于哺乳仔猪，育肥猪群的抗体合格率则比哺乳仔猪群和断奶仔猪群低。",
+    "error_detail": "逻辑关系被颠倒，导致逻辑完整性幻觉",
+    "original_question": "种猪群的四种疫苗免疫合格率与商品猪相比有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在断奶仔猪饲粮中添加3%的脂肪粉可以显著提高仔猪的日增重（ADG），与对照组相比提高了20%（P<0:05:。",
+    "reference_case": "在断奶仔猪饲粮中添加3%的脂肪粉可以显著提高仔猪的日增重（ADG），与对照组相比提高了12:67%（P<0:05:。",
+    "error_detail": "数值比例被夸大，导致数据型幻觉",
+    "original_question": "脂肪粉对断奶仔猪的日增重（ADG）有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "试验I、II和III组的血清三碘甲状腺原氨酸（T3:含量与对照组相比均有显著提高（P<0:05:。",
+    "reference_case": "试验I、II和III组的血清三碘甲状腺原氨酸（T3:含量与对照组相比均有提高，但差异不显著（P>0:05:。",
+    "error_detail": "添加了显著性差异的假设，导致假设滥用型幻觉",
+    "original_question": "脂肪粉对断奶仔猪的血清三碘甲状腺原氨酸（T3:含量有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "添加紫花苜蓿后，杂交猪骨骼肌细胞中瘦素基因的表达量上升（P<0:05:，且与日增重呈轻度正相关（r=0:314:。",
+    "reference_case": "添加紫花苜蓿后，杂交猪骨骼肌细胞中瘦素基因的表达量下降（P<0:05:，且与日增重呈轻度负相关（r=-0:314:。",
+    "error_detail": "逻辑关系被颠倒，导致逻辑完整性幻觉",
+    "original_question": "紫花苜蓿对杂交猪的瘦素基因表达有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "添加紫花苜蓿后，杂交猪的肉质性状有所改善，特别是肌内脂肪含量显著提高（P<0:01:，且与脂联素、PPARr等基因的表达量变化高度相关。",
+    "reference_case": "添加紫花苜蓿后，杂交猪的肉质性状有所改善，特别是肌内脂肪含量提高（P<0:05:，且与脂联素、PPARr等基因的表达量变化相关。",
+    "error_detail": "添加了显著性水平和相关性的假设，导致假设滥用型幻觉",
+    "original_question": "紫花苜蓿对杂交猪的肉质性状有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "添加紫花苜蓿后，杂交猪的CEBPβ基因和蛋白的表达量显著上调（P<0:05:。",
+    "reference_case": "添加紫花苜蓿后，杂交猪的CEBPβ基因和蛋白的表达量变化不明显。",
+    "error_detail": "添加了显著性差异的假设，导致假设滥用型幻觉",
+    "original_question": "紫花苜蓿对杂交猪的CEBPβ基因表达有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "添加紫花苜蓿后，杂交猪的ADFP基因（P<0:05:和蛋白（P<0:01:表达量显著上调，且与肉质、体增重等指标高度相关。",
+    "reference_case": "添加紫花苜蓿后，杂交猪的ADFP基因（P>0:05:和蛋白（P<0:05:表达量上调，但与肉质、体增重等指标相关性不大。",
+    "error_detail": "添加了显著性水平和相关性的假设，导致假设滥用型幻觉",
+    "original_question": "紫花苜蓿对杂交猪的ADFP基因表达有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "添加紫花苜蓿后，杂交猪的LPL基因和蛋白表达量显著上调（P<0:05:，且与各项屠宰指标高度相关。",
+    "reference_case": "添加紫花苜蓿后，杂交猪的LPL基因和蛋白变化不明显，与各项屠宰指标不相关。",
+    "error_detail": "添加了显著性水平和相关性的假设，导致假设滥用型幻觉",
+    "original_question": "紫花苜蓿对杂交猪的LPL基因表达有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "添加紫花苜蓿后，杂交猪的屠宰率与对照组相比显著提高（P<0:05:，且脂联素mRNA表达量与屠宰率呈正相关（r=0:500:。",
+    "reference_case": "添加紫花苜蓿后，杂交猪的屠宰率与对照组相比差异不明显（P>0:05:，但脂联素mRNA表达量与屠宰率呈负相关（r=-0:500:。",
+    "error_detail": "添加了显著性差异和相关性的假设，导致假设滥用型幻觉",
+    "original_question": "紫花苜蓿对杂交猪的屠宰率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪 C/EBP β 基因的编码区序列与人的 C/EBP β 基因编码区序列的相似性达 99%。",
+    "reference_case": "猪 C/EBP β 基因的编码区序列与人的 C/EBP β 基因编码区序列的相似性达 95%。",
+    "error_detail": "数值比例被夸大，导致数据型幻觉",
+    "original_question": "猪 C/EBP β 基因的编码区序列与人的 C/EBP β 基因编码区序列的相似性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪核转录因子 C/EBP β 基因的编码区序列长度为 1500 bp，编码 500 个氨基酸。",
+    "reference_case": "猪核转录因子 C/EBP β 基因的编码区序列长度为 1041 bp，编码 346 个氨基酸。",
+    "error_detail": "数值比例被夸大，导致数据型幻觉",
+    "original_question": "猪核转录因子 C/EBP β 基因的编码区序列长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "在猪的不同组织中，C/EBP β 基因在心肌中表达量最多，显著高于脂肪组织和背最长肌（P<0:05:。",
+    "reference_case": "在猪的不同组织中，C/EBP β 基因在脂肪组织中表达量最多，显著高于心肌和背最长肌（P<0:05:。",
+    "error_detail": "逻辑关系被颠倒，导致逻辑完整性幻觉",
+    "original_question": "在猪的不同组织中，C/EBP β 基因的表达量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "配种体重对后备母猪的生产性能没有影响。",
+    "reference_case": "配种体重对后备母猪的生产性能有重要影响。适当的配种体重可以确保第1胎的分娩率，并影响母猪断奶至再次发情配种的时间间隔。过轻或过重的配种体重都可能导致不良的生产性能。",
+    "error_detail": "添加了无影响的假设，导致假设滥用型幻觉",
+    "original_question": "配种体重对后备母猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "发情周期数对后备母猪的生产性能没有影响。",
+    "reference_case": "发情周期数对后备母猪的生产性能有影响。第一个情期由于后备母猪卵巢功能发育尚不完善，所以不能配种，一般选择在第二、三情期再配种。",
+    "error_detail": "添加了无影响的假设，导致假设滥用型幻觉",
+    "original_question": "发情周期数对后备母猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "初配日龄对后备母猪的生产性能没有影响。",
+    "reference_case": "初配日龄对后备母猪的生产性能有显著影响。配种过早可能导致母猪产仔少、仔猪弱，并影响母猪的生长发育和终生生产性能；配种过晚则可能导致母猪过肥，分娩率下降，淘汰率上升，并影响母猪的生殖系统和性机能活动。",
+    "error_detail": "添加了无影响的假设，导致假设滥用型幻觉",
+    "original_question": "初配日龄对后备母猪生产性能有哪些影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "后备母猪培育过程中涉及的6个关键控制参数包括初配日龄、配种体重、配种背膘厚、发情周期数、初情日龄和催情补饲，但这些参数对生产性能没有影响。",
+    "reference_case": "后备母猪培育过程中涉及的6个关键控制参数包括初配日龄、配种体重、配种背膘厚、发情周期数、初情日龄和催情补饲。",
+    "error_detail": "添加了无影响的假设，导致假设滥用型幻觉",
+    "original_question": "后备母猪培育过程中涉及的6个关键控制参数是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "配种背膘厚对后备母猪的生产性能没有影响。",
+    "reference_case": "配种背膘厚对后备母猪的生产性能有显著影响。中等膘情（背膘厚度15:5~20 mm）的大白母猪产活仔数最高，初生窝重也最重，且哺乳期背膘不损失或损失较少能够缩短断奶到发情间隔，提高下一胎产活仔数及仔猪初生窝重。",
+    "error_detail": "添加了无影响的假设，导致假设滥用型幻觉",
+    "original_question": "配种背膘厚对后备母猪的生产性能有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "催情补饲对后备母猪的生产性能没有影响。",
+    "reference_case": "催情补饲是在配种前2周提高饲喂水平以增加排卵数的措施。通过催情补饲，可以控制后备母猪的体况，使其在配种时体况达到理想值，从而消除限制饲喂对排卵的负面影响。",
+    "error_detail": "添加了无影响的假设，导致假设滥用型幻觉",
+    "original_question": "催情补饲对后备母猪的生产性能有何影响？",
+    "original_input": ""
+  }
+]

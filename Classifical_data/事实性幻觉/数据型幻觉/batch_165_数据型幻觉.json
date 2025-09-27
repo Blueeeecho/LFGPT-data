@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪每损失1头相当于损失近60公斤的饲料。",
+    "reference_case": "仔猪每损失1头相当于损失近50公斤的饲料。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪每损失1头相当于损失多少饲料量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "施用30 t/hm²的猪粪产量最高，每穗总粒数174，结实率为84%，千粒重为26.8 g，实产为9.54 t/hm²。增加有机肥用量至45 t/hm²时，每穗总粒数和千粒重略有下降，但实产减少至9.51 t/hm²。",
+    "reference_case": "施用30 t/hm²的猪粪产量最高，每穗总粒数174，结实率为84%，千粒重为26.8 g，实产为9.54 t/hm²。增加有机肥用量至45 t/hm²时，每穗总粒数和千粒重略有下降，但实产增加至9.51 t/hm²。",
+    "error_detail": "数值偏差",
+    "original_question": "不同有机肥用量对水稻产量及穗粒结构有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用依维菌素治疗猪疥螨病后，猪需要14天后方可宰杀。",
+    "reference_case": "使用依维菌素治疗猪疥螨病后，猪需要28天后方可宰杀。",
+    "error_detail": "错误地缩短了宰杀前的等待时间。",
+    "original_question": "使用依维菌素治疗猪疥螨病后，猪多久可以宰杀？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪疥螨病治疗后，猪只用药后14 d方可宰杀。",
+    "reference_case": "猪疥螨病治疗后，猪只用药后28 d方可宰杀。",
+    "error_detail": "错误地缩短了宰杀前的等待时间。",
+    "original_question": "猪疥螨病治疗后，猪只何时可以宰杀？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "治疗猪疥螨病时，依维菌素的使用方法是10 kg体重0.5～4 mL耳背皮下注射。",
+    "reference_case": "治疗猪疥螨病时，依维菌素的使用方法是10 kg体重0.25～3 mL耳背皮下注射，特别严重病畜，间隔7 d，重复注射1次。",
+    "error_detail": "错误地调整了药物剂量范围。",
+    "original_question": "治疗猪疥螨病时，依维菌素的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪弓形虫病的治疗方法是每50 kg体重用复方磺胺对甲氧嘧啶钠注射液5 mL和百利通注射液5 mL。",
+    "reference_case": "猪弓形虫病的治疗方法是每50 kg体重用复方磺胺对甲氧嘧啶钠注射液10 mL和百利通注射液10 mL，分别肌肉注射，每天1次，3天为1个疗程。经过1个疗程的治疗，6头死亡，其余病猪逐渐恢复食欲，尚有部分病猪还有咳嗽症状，对该部分病猪继续治疗。每50 kg体重用百利通注射液5 mL，肌肉注射，每天1次，200多头病猪全部康复。",
+    "error_detail": "错误地减少了药物剂量。",
+    "original_question": "猪弓形虫病的治疗方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪弓形虫病在猪场中的死亡率约为50%。",
+    "reference_case": "猪弓形虫病在猪场中的死亡率约为30%。",
+    "error_detail": "错误地提高了死亡率数据。",
+    "original_question": "猪弓形虫病在猪场中的死亡率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "断奶仔猪的体温升高到39至40摄氏度。",
+    "reference_case": "断奶仔猪的体温升高到40.5至42.1摄氏度。",
+    "error_detail": "错误地降低了体温数据。",
+    "original_question": "龙海市某猪场在2001年10月3日以来，断奶仔猪的体温升高到多少度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪弓形虫病的治疗方案是每50 kg体重用复方磺胺对甲氧嘧啶钠注射液5 mL和百利通注射液5 mL。",
+    "reference_case": "猪弓形虫病的治疗方案是每50 kg体重用复方磺胺对甲氧嘧啶钠注射液10 mL和百利通注射液10 mL，分别肌肉注射，每天1次，3天为1个疗程。对于仍有咳嗽症状的病猪，继续使用百利通注射液5 mL，每天1次，直至康复。",
+    "error_detail": "错误地减少了药物剂量。",
+    "original_question": "猪弓形虫病的治疗方案是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "印记基因可以影响动物的数量性状。例如，在梅山猪和Dutch猪杂交中，发现了影响身体组成的6个QTL中有5个是印记的，这些QTL影响背膘厚度、肌肉深度和肌肉内的脂肪含量。",
+    "reference_case": "印记基因可以影响动物的数量性状。例如，在梅山猪和Dutch猪杂交中，发现了影响身体组成的5个QTL中有4个是印记的，这些QTL影响背膘厚度、肌肉深度和肌肉内的脂肪含量。",
+    "error_detail": "错误地增加了QTL的总数和印记QTL的数量",
+    "original_question": "印记基因如何影响动物的数量性状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪球虫病的主要发病日龄范围是5到10日龄。",
+    "reference_case": "仔猪球虫病的主要发病日龄范围是7到14日龄。",
+    "error_detail": "错误地缩小了发病日龄的范围",
+    "original_question": "仔猪球虫病的主要发病日龄范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "百球清在仔猪中的使用效果较好，仔猪出生后第3到5日龄口服可控制球虫病的发生，2到3周龄时仔猪腹泻明显减少，从而提高成活率，3到4周龄断奶时全窝仔猪发育匀称一致，体重比对照组高约1000克，并减少了用于控制断奶前仔猪继发感染的抗生素用量。",
+    "reference_case": "百球清在仔猪中的使用效果较好，仔猪出生后第3到5日龄口服可控制球虫病的发生，2到3周龄时仔猪腹泻明显减少，从而提高成活率，3到4周龄断奶时全窝仔猪发育匀称一致，体重比对照组高约500克，并减少了用于控制断奶前仔猪继发感染的抗生素用量。",
+    "error_detail": "错误地增加了体重增加的数值",
+    "original_question": "百球清在仔猪中的使用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "从1993年初开始，德国采取了注射疫苗使猪群转变为无伪狂犬病群体，用Elisa检测并扑杀病毒携带者，进行第3次加强免疫注射，再次用Elisa检测并扑杀病毒携带者，重新免疫，保持无伪狂犬状态的群体，加强血清学监控，以及停止疫苗注射并储存没注射过疫苗的猪群。",
+    "reference_case": "从1993年初开始，德国采取了注射疫苗使猪群转变为无伪狂犬病群体，用Elisa检测并扑杀病毒携带者，进行第2次加强免疫注射，再次用Elisa检测并扑杀病毒携带者，重新免疫，保持无伪狂犬状态的群体，加强血清学监控，以及停止疫苗注射并储存没注射过疫苗的猪群。",
+    "error_detail": "错误地增加了加强免疫注射的次数",
+    "original_question": "德国在消除伪狂犬病计划中，1993年初开始采取了哪些步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "意大利在2002年2月报告了3起猪水泡病爆发，3月报告了2起猪水泡病爆发。",
+    "reference_case": "意大利在2002年2月报告了2起猪水泡病爆发，3月报告了1起猪水泡病爆发。",
+    "error_detail": "错误地增加了爆发的数量",
+    "original_question": "意大利在2002年2月和3月分别报告了多少起猪水泡病爆发？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "卢森堡爆发的古典猪瘟涉及200头猪，其中包括60头母猪、5头公猪和135头仔猪。",
+    "reference_case": "卢森堡爆发的古典猪瘟涉及148头猪，其中包括49头母猪、2头公猪和97头仔猪。",
+    "error_detail": "错误地增加了涉及的猪的数量",
+    "original_question": "2002年3月，卢森堡爆发的古典猪瘟涉及多少头猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "罗马尼亚采取的控制措施包括扑杀并掩埋了150头猪，将剩余的100头猪屠宰并作热处理后供人类消费。",
+    "reference_case": "罗马尼亚采取的控制措施包括扑杀并掩埋了132头猪，将剩余的120头猪屠宰并作热处理后供人类消费。",
+    "error_detail": "错误地改变了扑杀和屠宰的猪的数量",
+    "original_question": "罗马尼亚在2002年4月报告的古典猪瘟爆发中，采取了哪些控制措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "德国在2002年4月报告的古典猪瘟爆发中，采取了屠宰销毁感染猪场的猪只，禁止感染猪场周围地区的易感动物移运，并对感染猪场的猪只移运进出情况进行回溯性调查，共销毁了1000头猪。",
+    "reference_case": "德国采取的控制措施包括屠宰销毁感染猪场的猪只，禁止感染猪场周围地区的易感动物移运，并对感染猪场的猪只移运进出情况进行回溯性调查。",
+    "error_detail": "添加了不存在的具体销毁猪只数量",
+    "original_question": "德国在2002年4月报告的古典猪瘟爆发中，采取了哪些控制措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "2002年4月，韩国爆发古典猪瘟的易感动物数量为500头猪，包括50头母猪、100头仔猪和350头肥育猪。",
+    "reference_case": "2002年4月，韩国爆发古典猪瘟的易感动物数量为354头猪，包括40头母猪、94头仔猪和220头肥育猪。",
+    "error_detail": "错误地增加了易感动物的数量",
+    "original_question": "2002年4月，韩国爆发古典猪瘟的易感动物数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "酶制剂在猪饲料中的应用效果包括：在早期断奶仔猪中添加以消化酶为主的饲用酶制剂，补充了仔猪内源酶分泌量的不足，提高了机体的抵抗力；在生长肥育猪日粮中添加复合酶制剂，可使饲料的能量利用率提高15%，日粮的蛋白质吸收率提高25%。",
+    "reference_case": "酶制剂在猪饲料中的应用效果包括：在早期断奶仔猪中添加以消化酶为主的饲用酶制剂，补充了仔猪内源酶分泌量的不足，提高了机体的抵抗力；在生长肥育猪日粮中添加复合酶制剂，可使饲料的能量利用率提高13%，日粮的蛋白质吸收率提高21%。",
+    "error_detail": "错误地提高了能量利用率和蛋白质吸收率的数据",
+    "original_question": "酶制剂在猪饲料中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "袁海春、周俊其（2000）的研究表明，添加铜、铁、锰、锌系羟基蛋氨酸络合物的生长肥育猪比对照组提高6%，料肉比降低8%，且无发病死亡现象。",
+    "reference_case": "袁海春、周俊其（2000）的研究表明，添加铜、铁、锰、锌系羟基蛋氨酸络合物的生长肥育猪比对照组提高4.8%，料肉比降低6.17%，且无发病死亡现象。",
+    "error_detail": "错误地提高了增长百分比和降低了料肉比",
+    "original_question": "袁海春、周俊其（2000）在生长肥育猪日粮中添加铜、铁、锰、锌系羟基蛋氨酸络合物的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "徐建雄等（1998）发现，添加蛋氨酸铁的母猪所产仔猪出生时红细胞含量显著高于添加蛋白铁组，并能有效预防仔猪缺铁性贫血的发生，红细胞含量提高了50%。",
+    "reference_case": "徐建雄等（1998）发现，添加蛋氨酸铁的母猪所产仔猪出生时红细胞含量显著高于添加蛋白铁组，并能有效预防仔猪缺铁性贫血的发生。",
+    "error_detail": "错误地添加了红细胞含量提高的具体百分比",
+    "original_question": "徐建雄等（1998）在妊娠后期和哺乳母猪口粮中添加蛋氨酸铁的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪日粮中鸡粪的添加量应控制在不超过25%。",
+    "reference_case": "猪日粮中鸡粪的添加量应控制在不超过20%。",
+    "error_detail": "错误地提高了鸡粪的添加量上限",
+    "original_question": "鸡粪用作饲料时，猪日粮中鸡粪的添加量应控制在多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一个万头猪场每年大约排放150万吨污水。",
+    "reference_case": "一个万头猪场每年大约排放109.5万吨污水。",
+    "error_detail": "错误地增加了污水排放量",
+    "original_question": "一个万头猪场每年大约排放多少污水？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "确诊球虫感染引起的仔猪腹泻可以通过粪便中虫卵沉淀浓集法或直接涂片法检查，在显微镜下可见近乎圆形的淡黄褐色的等孢球虫卵囊，其检出率高达90%。",
+    "reference_case": "确诊球虫感染引起的仔猪腹泻可以通过粪便中虫卵沉淀浓集法或直接涂片法检查，在显微镜下可见近乎圆形的淡黄褐色的等孢球虫卵囊。",
+    "error_detail": "添加了不存在的检出率数据",
+    "original_question": "如何确诊球虫感染引起的仔猪腹泻？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "前苏联学者的试验表明，注射初乳的试验仔猪平均日增重为300g，比对照组仔猪日增重的184.7g提高62.3%；同时给小公牛注射初乳制剂乳球蛋白3次，在3个月内试验组平均日增重为1200g，比对照组的805g提高49%。",
+    "reference_case": "前苏联学者的试验表明，注射初乳的试验仔猪平均日增重为223.3g，比对照组仔猪日增重的184.7g提高20.7%；同时给小公牛注射初乳制剂乳球蛋白3次，在3个月内试验组平均日增重为977g，比对照组的805g提高21%。",
+    "error_detail": "夸大了日增重数据",
+    "original_question": "初乳对仔猪和幼牛的生长强度有什么影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "天祝藏族自治县饲养各类畜禽90余万头只，其中牦牛15万头、黄（犏、奶）牛3.1万头、山羊15.5万只、绵羊40.9万只、猪7.4万头、鸡25万羽、马属动物2.5万头（匹）。",
+    "reference_case": "天祝藏族自治县饲养各类畜禽90余万头只，其中牦牛11万头、黄（犏、奶）牛2.1万头、山羊11.5万只、绵羊37.9万只、猪5.4万头、鸡21万羽、马属动物1.5万头（匹）。",
+    "error_detail": "夸大了畜禽数量",
+    "original_question": "天祝藏族自治县的畜牧业结构如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "乡村集市在实施生猪定点屠宰时面临的主要问题包括市场大、集中、屠宰量多，以及如何有效实施和管理乡村生猪定点屠宰。",
+    "reference_case": "乡村集市在实施生猪定点屠宰时面临的主要问题包括市场小、分散、屠宰量少，以及如何有效实施和管理乡村生猪定点屠宰。",
+    "error_detail": "修改了市场的大小、集中度和屠宰量的描述，与实际情况相反。",
+    "original_question": "乡村集市在实施生猪定点屠宰时面临哪些主要问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "新街镇2001年屠宰上市的生猪数量是10000头。",
+    "reference_case": "新街镇2001年屠宰上市的生猪数量是8217头。",
+    "error_detail": "错误地增加了生猪屠宰的数量，与实际情况不符。",
+    "original_question": "新街镇2001年屠宰上市的生猪数量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "隐性病猪肉与正常肥猪肉的主要区别在于体重、胴体重，隐性病猪肉一般在80 kg以上，未经猪瘟等预防；正常出栏肥猪肉一般体重在60 kg、胴体重30 kg以下，经猪瘟等预防。",
+    "reference_case": "隐性病猪肉与正常肥猪肉的主要区别在于体重、胴体重，隐性病猪肉一般在60.30 kg以下，未经猪瘟等预防；正常出栏肥猪肉一般体重在75 kg、胴体重35 kg以上，经猪瘟等预防。",
+    "error_detail": "错误地修改了隐性病猪肉和正常肥猪肉的体重和胴体重数据，与实际情况相反。",
+    "original_question": "隐性病猪肉与正常肥猪肉的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "昌吉州养猪业2014年的产值是314495万元，占畜牧业产值的20.11%。",
+    "reference_case": "昌吉州养猪业2014年的产值是314495万元，占畜牧业产值的17.11%。",
+    "error_detail": "数值比例偏差",
+    "original_question": "昌吉州养猪业2014年的产值占全州畜牧业产值的百分比是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "隐性病猪肉的处理意见是根据宰前病情、检验胴体状况及用药诊疗情况综合判断确定。若检验确认用药的，胴体、内脏及头蹄高温处理。若用药次数较多的，胴体、内脏、头蹄销毁处理。销毁处理的比例高达90%。",
+    "reference_case": "隐性病猪肉的处理意见是根据宰前病情、检验胴体状况及用药诊疗情况综合判断确定。若检验确认用药的，胴体、内脏及头蹄高温处理。若用药次数较多的，胴体、内脏、头蹄销毁处理。",
+    "error_detail": "添加了不存在的销毁处理比例数据",
+    "original_question": "隐性病猪肉的处理意见是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "感染附红体较多的红细胞呈圆形或椭圆形，感染时间较长的红细胞出现膨胀变形。",
+    "reference_case": "感染附红体较多的红细胞呈星芒状或锯齿轮状，感染时间较长的红细胞出现萎缩皱变，形成典型的星芒状或锯齿轮状外观。",
+    "error_detail": "错误地描述了红细胞感染后的形态变化，将星芒状或锯齿轮状误描述为圆形或椭圆形，萎缩皱变误描述为膨胀变形。",
+    "original_question": "猪附红体病的红细胞感染后呈现哪些形态变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪亚硝酸盐中毒的治疗方法是使用2%美兰溶液0.4 mL/kg体重肌肉注射。",
+    "reference_case": "猪亚硝酸盐中毒的治疗方法是使用1%美兰溶液0.2 mL/kg体重肌肉注射，同时静脉注射25%葡萄糖溶液300 mL，维生素C 20 mg/kg体重。",
+    "error_detail": "错误地增加了美兰溶液的浓度和剂量。",
+    "original_question": "猪亚硝酸盐中毒的治疗方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪出生后2～3天需要肌注含硒牲血素2 mL/头和亚硒酸钠VE 1～2 mL/头。",
+    "reference_case": "仔猪出生后2～3天需要肌注含硒牲血素1 mL/头和亚硒酸钠VE 0.5～1 mL/头。",
+    "error_detail": "错误地增加了药物的注射剂量。",
+    "original_question": "仔猪黄痢、白痢的预防措施中，仔猪出生后需要注射哪些药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "产前30 d、15 d分别肌注亚硒酸钠VE 20 mL/头。",
+    "reference_case": "产前30 d、15 d分别肌注亚硒酸钠VE 10 mL/头。",
+    "error_detail": "错误地增加了亚硒酸钠VE的注射剂量。",
+    "original_question": "母猪产前应如何进行预防措施以防止仔猪黄痢、白痢？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "亚硝酸盐中毒的猪只应使用2%美兰溶液0.3 mL/kg体重，肌肉注射，同时静脉注射30%葡萄糖溶液400 mL，维生素C 30 mg/kg体重。",
+    "reference_case": "亚硝酸盐中毒的猪只应使用1%美兰溶液0.2 mL/kg体重，肌肉注射，同时静脉注射25%葡萄糖溶液300 mL，维生素C 20 mg/kg体重。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "亚硝酸盐中毒的猪只应如何治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "措高乡的畜群结构中，藏猪的能繁母猪比例为10.64%。",
+    "reference_case": "措高乡的畜群结构中，藏猪的能繁母猪比例为7.64%。",
+    "error_detail": "数据型幻觉",
+    "original_question": "措高乡的畜群结构中，藏猪的能繁母猪比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪霉形体肺炎灭活苗的免疫保护率为90%，弱毒冻干苗的免疫保护率为73.8%。",
+    "reference_case": "猪霉形体肺炎灭活苗的免疫保护率为100%，弱毒冻干苗的免疫保护率为83.8%。",
+    "error_detail": "数据型幻觉",
+    "original_question": "猪霉形体肺炎灭活苗和弱毒冻干苗的免疫保护率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "治喘灵按0.3mL/kg体重在猪颈部两侧分点深部肌肉注射，每7天注射1次，一般2~3次，重症4次。",
+    "reference_case": "治喘灵按0.2mL/kg体重在猪颈部两侧分点深部肌肉注射，每5天注射1次，一般1~2次，重症3次。",
+    "error_detail": "数据型幻觉",
+    "original_question": "药物治疗试验中，治喘灵的使用方法和剂量是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "安普霉素的休药期根据剂型和动物种类不同，口服粉剂犊牛30天，猪20天，家禽10天；口服合剂羔羊40天，仔猪35天；口服预混剂猪20天；针剂犊牛40天。",
+    "reference_case": "安普霉素的休药期根据剂型和动物种类不同，口服粉剂犊牛28天，猪14天，家禽7天；口服合剂羔羊35天，仔猪28天；口服预混剂猪14天；针剂犊牛35天。",
+    "error_detail": "数据型幻觉",
+    "original_question": "安普霉素的休药期是如何规定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "安普霉素在猪生产中的推荐用量为90～110 mg/kg，至少用25天，用于40 kg以下仔猪。",
+    "reference_case": "安普霉素在猪生产中的推荐用量为80～100 mg/kg，至少用21天，用于30 kg以下仔猪。",
+    "error_detail": "数据型幻觉",
+    "original_question": "安普霉素在猪生产中的推荐用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "西宁地区仔猪大肠杆菌病的发病率为20.11%。",
+    "reference_case": "西宁地区仔猪大肠杆菌病的发病率为15.11%。",
+    "error_detail": "数据型幻觉",
+    "original_question": "西宁地区仔猪大肠杆菌病的发病率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "治疗猪蓖麻籽中毒的常用药物包括强力解毒敏注射液、2%硫酸阿托品注射液、硫酸庆大霉素和20%安钠咖注射液。",
+    "reference_case": "治疗猪蓖麻籽中毒的常用药物包括强力解毒敏注射液、1%硫酸阿托品注射液、硫酸庆大霉素和10%安钠咖注射液。",
+    "error_detail": "错误地修改了药物浓度",
+    "original_question": "治疗猪蓖麻籽中毒的常用药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪锁肛症手术后的护理措施包括保持猪圈清洁卫生以防伤口污染，预防继发感染可肌注青霉素和链霉素，伤口感染有脓汁时要及时清除脓汁并用碘酒清洗消毒后涂布消炎粉。",
+    "reference_case": "仔猪锁肛症手术后的护理措施包括保持猪圈清洁卫生以防伤口污染，预防继发感染可肌注青霉素和链霉素，伤口感染有脓汁时要及时清除脓汁并用酒精清洗消毒后涂布消炎粉。",
+    "error_detail": "错误地修改了消毒剂类型",
+    "original_question": "仔猪锁肛症手术后的护理措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪锁肛症手术后的护理措施包括保持猪圈清洁卫生以防伤口污染，预防继发感染可肌注青霉素和链霉素，伤口感染有脓汁时要及时清除脓汁并用酒精清洗消毒后涂布消炎粉，每日需注射抗生素3次。",
+    "reference_case": "仔猪锁肛症手术后的护理措施包括保持猪圈清洁卫生以防伤口污染，预防继发感染可肌注青霉素和链霉素，伤口感染有脓汁时要及时清除脓汁并用酒精清洗消毒后涂布消炎粉。",
+    "error_detail": "添加了不存在的每日注射抗生素3次的护理措施",
+    "original_question": "仔猪锁肛症手术后的护理措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪细小病毒（PPV）SY-99株的NS1基因全长是2000bp。",
+    "reference_case": "猪细小病毒（PPV）SY-99株的NS1基因全长是1989bp。",
+    "error_detail": "错误地给出了NS1基因的全长",
+    "original_question": "猪细小病毒（PPV）SY-99株的NS1基因全长是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪霍乱沙门氏菌的动物实验结果显示其具有较强的致病性，感染鸭和小鼠后均出现100%死亡率。",
+    "reference_case": "猪霍乱沙门氏菌的动物实验结果显示其具有较强的致病性，感染鸭和小鼠后均出现高死亡率。",
+    "error_detail": "错误地给出了具体的100%死亡率",
+    "original_question": "猪霍乱沙门氏菌的动物实验结果显示其致病性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪链球菌病氢氧化铝二联灭活疫苗的二免是在免疫后40天进行的。",
+    "reference_case": "二免是在免疫后35天进行的。",
+    "error_detail": "错误地给出了二免的时间",
+    "original_question": "猪链球菌病氢氧化铝二联灭活疫苗的二免是在免疫后多少天进行的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "免疫后7天开始产生抗体。",
+    "reference_case": "免疫后4天开始产生抗体。",
+    "error_detail": "错误地给出了抗体产生的时间",
+    "original_question": "猪链球菌病氢氧化铝二联灭活疫苗的抗体水平在免疫后何时开始产生？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "抗体效价在1:600（含1:600）以上能抵抗强毒攻击。",
+    "reference_case": "抗体效价在1:800（含1:800）以上能抵抗强毒攻击。",
+    "error_detail": "错误地给出了抗体效价的标准",
+    "original_question": "猪链球菌病氢氧化铝二联灭活疫苗的抗体效价在什么水平以上能抵抗强毒攻击？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "血清效价在1:600（含1:600）以上时才能保证疫苗效果，此数值可作为该链球菌二联灭活苗的免疫保护临界值。",
+    "reference_case": "血清效价在1:800（含1:800）以上时才能保证疫苗效果，此数值可作为该链球菌二联灭活苗的免疫保护临界值。",
+    "error_detail": "错误地给出了免疫保护临界值",
+    "original_question": "猪链球菌病氢氧化铝二联灭活疫苗的免疫保护临界值是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "疫苗的保护率在85%以上。",
+    "reference_case": "疫苗的保护率在90%以上。",
+    "error_detail": "错误地给出了疫苗的保护率",
+    "original_question": "猪链球菌病氢氧化铝二联灭活疫苗的免疫保护率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "二免后7天抗体效价显著升高。",
+    "reference_case": "二免后5天抗体效价显著升高。",
+    "error_detail": "错误地给出了抗体效价显著升高的时间",
+    "original_question": "猪链球菌病氢氧化铝二联灭活疫苗的抗体效价在二免后何时显著升高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "免疫后20到35天抗体效价达到高峰。",
+    "reference_case": "免疫后15到30天抗体效价达到高峰。",
+    "error_detail": "错误地给出了抗体效价达到高峰的时间范围",
+    "original_question": "猪链球菌病氢氧化铝二联灭活疫苗的抗体效价在免疫后何时达到高峰？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "免疫后6个月时血清抗体仍维持在1:1200。",
+    "reference_case": "免疫后6个月时血清抗体仍维持在1:1600。",
+    "error_detail": "错误地给出了血清抗体的维持水平",
+    "original_question": "猪链球菌病氢氧化铝二联灭活疫苗的抗体效价在免疫后6个月时维持在什么水平？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪二免后，仔猪的母源抗体在35日龄时保持在1:600。",
+    "reference_case": "母猪二免后，仔猪的母源抗体在35日龄时保持在1:800。",
+    "error_detail": "错误地给出了母源抗体的水平",
+    "original_question": "母猪二免后，仔猪的母源抗体在35日龄时保持在什么水平？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "该疫苗二免后对猪的免疫保护期至少可达一年。",
+    "reference_case": "该疫苗二免后对猪的免疫保护期至少可达半年。",
+    "error_detail": "免疫保护期的时间被错误地延长了。",
+    "original_question": "猪链球菌病氢氧化铝二联灭活疫苗的免疫保护期至少可达多长时间？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪传染性胃肠炎病毒（TGEV）和猪呼吸道冠状病毒（PRCV）在基因组上的主要区别在于PRCV在S基因的5'端约300bp处存在一约0.8 kb的碱基缺失。",
+    "reference_case": "猪传染性胃肠炎病毒（TGEV）和猪呼吸道冠状病毒（PRCV）在基因组上的主要区别在于PRCV在S基因的5'端约200bp处存在一约0.6 kb的碱基缺失。",
+    "error_detail": "碱基缺失的位置和长度被错误地更改。",
+    "original_question": "猪传染性胃肠炎病毒（TGEV）和猪呼吸道冠状病毒（PRCV）在基因组上的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟病毒（CSFV）的基因组长度约为15 kb。",
+    "reference_case": "猪瘟病毒（CSFV）的基因组长度约为12.5 kb。",
+    "error_detail": "基因组长度被错误地增加。",
+    "original_question": "猪瘟病毒（CSFV）的基因组长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪瘟病毒（CSFV）的基因组包含4000个氨基酸残基。",
+    "reference_case": "猪瘟病毒（CSFV）的基因组包含3898个氨基酸残基。",
+    "error_detail": "氨基酸残基的数量被错误地增加。",
+    "original_question": "猪瘟病毒（CSFV）的基因组包含多少个氨基酸残基？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "RT-PCR技术具有检出率高、特异性强，极微量的病料即可用于诊断，且灵敏性可达10^6 TCID50。",
+    "reference_case": "RT-PCR技术具有检出率高、特异性强，极微量的病料即可用于诊断，且灵敏性可达10^4 TCID50。",
+    "error_detail": "灵敏性的数值被错误地增加。",
+    "original_question": "RT-PCR技术在猪瘟病毒（CSFV）诊断中的优势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "肠相关性淋巴组织在伤寒、肠结核、克罗恩病、猪瘟病和新城疫等疾病中起到决定性作用。",
+    "reference_case": "肠相关性淋巴组织在伤寒、肠结核、克罗恩病、猪瘟病和新城疫等疾病中起到重要作用。",
+    "error_detail": "错误地将肠相关性淋巴组织的作用夸大为决定性作用，忽略了其他可能的因素和机制。",
+    "original_question": "肠相关性淋巴组织在哪些疾病中起到重要作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪带绦虫卵由全国各地医院提供。",
+    "reference_case": "猪带绦虫卵由黑龙江省\"驱绦灭囊\"办公室、哈尔滨医科大学寄生虫教研室、吉林农业大学囊虫病研究所提供，病人服用\"驱绦丸\"后排出的新鲜、成熟的孕卵节片作为供试虫卵。",
+    "error_detail": "错误地扩大了猪带绦虫卵的来源范围，忽略了具体的提供单位。",
+    "original_question": "研究中使用的猪带绦虫卵是如何获得的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "实验中使用的猪囊尾蚴的年龄是1个月，体重约为10公斤。",
+    "reference_case": "实验中使用的猪囊尾蚴的年龄是2至3个月，体重约为20公斤。",
+    "error_detail": "错误地提供了猪囊尾蚴的年龄和体重数据，与实际情况不符。",
+    "original_question": "实验中使用的猪囊尾蚴的年龄和体重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "研究中重点关注的基因是gyrB和parE。",
+    "reference_case": "研究中重点关注的基因是gyrA和parC，这两个基因分别编码DNA旋转酶和拓扑异构酶IV，其喹诺酮耐药决定区（QRDR）的突变与耐药性相关。",
+    "error_detail": "错误地提供了研究中重点关注的基因名称，与实际情况不符。",
+    "original_question": "猪链球菌2型对氟喹诺酮类药物的耐药机制研究中，哪些基因的突变被重点关注？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "H3N2 亚型犬流感病毒对所有种类红细胞的凝集性相同。",
+    "reference_case": "H3N2 亚型犬流感病毒对鸡和犬红细胞的凝集性最好，对小鼠、猪和牛红细胞的凝集性较差。",
+    "error_detail": "错误地声称H3N2 亚型犬流感病毒对所有种类红细胞的凝集性相同，忽略了不同红细胞之间的凝集性差异。",
+    "original_question": "H3N2 亚型犬流感病毒对不同种类红细胞的凝集性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪博卡病毒的检测反应体系仅需要模板DNA和引物。",
+    "reference_case": "猪博卡病毒的检测反应体系包括10×buffer、4种dNTP混合物、模板DNA、TaqDNA聚合酶、UNG酶Tris-HCl缓冲液、Mg2+、引物、探针和双或三蒸水。",
+    "error_detail": "错误地简化了检测反应体系的成分，忽略了其他必要的组成部分。",
+    "original_question": "猪博卡病毒的检测反应体系包括哪些成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在上海市猪博卡病毒感染的调查中，仔猪、商品肉猪和经产母猪的阳性率分别为30%、20%和15%。",
+    "reference_case": "在上海市猪博卡病毒感染的调查中，仔猪、商品肉猪和经产母猪的阳性率分别为18%、12%和10%。",
+    "error_detail": "错误地提供了阳性率数据，与实际情况不符。",
+    "original_question": "在上海市猪博卡病毒感染的调查中，仔猪、商品肉猪和经产母猪的阳性率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪博卡病毒与猪流感病毒存在混合感染。",
+    "reference_case": "猪博卡病毒与猪繁殖与呼吸综合征病毒（PRRSV）和猪圆环病毒2型（PCV2:存在混合感染，阳性率分别为83%和100%。",
+    "error_detail": "错误地提供了与猪博卡病毒混合感染的病毒种类，与实际情况不符。",
+    "original_question": "猪博卡病毒与哪些其他病毒存在混合感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在上海市猪博卡病毒感染的调查中，仅检测了猪血清样品。",
+    "reference_case": "在上海市猪博卡病毒感染的调查中，检测了猪血清、猪粪便、猪鼻棉拭和猪内脏等类型的样品。",
+    "error_detail": "错误地简化了检测的样品类型，忽略了其他类型的样品。",
+    "original_question": "上海市猪博卡病毒感染的调查中，哪些类型的猪样品被检测？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在上海市猪博卡病毒感染的调查中，原南汇区、奉贤区和青浦区的血清样品阳性率分别为30%、25%和28%。",
+    "reference_case": "在上海市猪博卡病毒感染的调查中，原南汇区、奉贤区和青浦区的血清样品阳性率较高，分别为25%、18%和20%。",
+    "error_detail": "错误地提供了血清样品阳性率数据，与实际情况不符。",
+    "original_question": "在上海市猪博卡病毒感染的调查中，哪些区（县）的血清样品阳性率较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在上海市猪博卡病毒感染的调查中，猪血清样品的阳性率为34%。",
+    "reference_case": "在上海市猪博卡病毒感染的调查中，猪血清样品的阳性率为24%。",
+    "error_detail": "数值偏差",
+    "original_question": "在上海市猪博卡病毒感染的调查中，猪血清样品的阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的ORF3基因编码200个氨基酸。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的ORF3基因编码224个氨基酸。",
+    "error_detail": "数值偏差",
+    "original_question": "猪流行性腹泻病毒（PEDV）的ORF3基因编码多少个氨基酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的ORF3基因与attenuate DR13弱毒株相比，多了10个氨基酸。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的ORF3基因与attenuate DR13弱毒株相比，多了17个氨基酸。",
+    "error_detail": "数值偏差",
+    "original_question": "猪流行性腹泻病毒（PEDV）的ORF3基因与attenuate DR13弱毒株相比，多了多少个氨基酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在福建省的猪场中，PEDV的ORF3基因与GenBank中登录的代表性PEDV核苷酸的同源性范围为80%到90%。",
+    "reference_case": "在福建省的猪场中，PEDV的ORF3基因与GenBank中登录的代表性PEDV核苷酸的同源性范围为89:7%到100:0%。",
+    "error_detail": "数值偏差",
+    "original_question": "在福建省的猪场中，PEDV的ORF3基因与GenBank中登录的代表性PEDV核苷酸的同源性范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的M基因与GenBank中登录的代表性PEDV氨基酸的同源性范围为85%到95%。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的M基因与GenBank中登录的代表性PEDV氨基酸的同源性范围为94:8%到99:6%。",
+    "error_detail": "数值偏差",
+    "original_question": "猪流行性腹泻病毒（PEDV）的M基因与GenBank中登录的代表性PEDV氨基酸的同源性范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪流行性腹泻病毒（PEDV）的M基因编码200个氨基酸。",
+    "reference_case": "猪流行性腹泻病毒（PEDV）的M基因编码226个氨基酸。",
+    "error_detail": "数值偏差",
+    "original_question": "猪流行性腹泻病毒（PEDV）的M基因编码多少个氨基酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV-2:的基因组大小为1800 bp。",
+    "reference_case": "猪圆环病毒2型（PCV-2:的基因组大小为1767 bp或1768 bp。",
+    "error_detail": "数值偏差",
+    "original_question": "猪圆环病毒2型（PCV-2:的基因组大小是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PCR反应的条件是：95°C预变性10分钟；95°C变性60秒，60°C退火60秒，72°C延伸180秒，共40个循环；72°C延伸15分钟后，4°C保存。",
+    "reference_case": "PCR反应的条件是：94°C预变性5分钟；94°C变性50秒，58°C退火50秒，72°C延伸120秒，共34个循环；72°C延伸10分钟后，4°C保存。",
+    "error_detail": "数值偏差",
+    "original_question": "上海市猪圆环病毒2型（PCV-2:的研究中，PCR反应的条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "两株 H9N2 亚型猪流感病毒的 HA 基因长度均为 1800 bp。",
+    "reference_case": "两株 H9N2 亚型猪流感病毒的 HA 基因长度均为 1701 bp。",
+    "error_detail": "数值偏差",
+    "original_question": "两株 H9N2 亚型猪流感病毒（Swine/Henan/Y1/09 和 Swine/Shanghai/Y1/09:的 HA 基因长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪链球菌2型的III型溶血素基因缺失突变菌株Δslyrp的溶血能力完全丧失。",
+    "reference_case": "猪链球菌2型的III型溶血素基因缺失突变菌株Δslyrp的溶血能力有所下降，但仍能裂解部分红细胞。这表明III型溶血素具有一定的溶血活性，但不如sly的溶血能力强。",
+    "error_detail": "错误地描述了溶血能力为完全丧失，实际上仍能裂解部分红细胞。",
+    "original_question": "猪链球菌2型的III型溶血素基因缺失突变菌株Δslyrp的溶血能力如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪链球菌2型的III型溶血素基因缺失突变菌株Δslyrp对小鼠的致病力显著增强。",
+    "reference_case": "猪链球菌2型的III型溶血素基因缺失突变菌株Δslyrp对小鼠的致病力没有显著影响。实验结果表明，III型溶血素并不是猪链球菌2型的重要毒力相关基因。",
+    "error_detail": "错误地描述了致病力显著增强，实际上没有显著影响。",
+    "original_question": "猪链球菌2型的III型溶血素基因缺失突变菌株Δslyrp对小鼠的致病力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "抗原捕获ELISA方法的最佳工作条件是：猪多抗1:1000稀释，单抗1:2000稀释，酶标抗体1:2000稀释。",
+    "reference_case": "抗原捕获ELISA方法的最佳工作条件是：猪多抗1:2000稀释，单抗1:4000稀释，酶标抗体1:4000稀释。",
+    "error_detail": "错误地降低了抗体的稀释比例。",
+    "original_question": "抗原捕获ELISA方法的最佳工作条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪血凝性脑脊髓炎病毒（HEV）主要侵害成年猪，临床上感染猪以腹泻为主要特征。",
+    "reference_case": "猪血凝性脑脊髓炎病毒（HEV）主要侵害1至3周龄的仔猪，临床上感染猪以呕吐、衰竭和明显的神经症状为主要特征，死亡率高达20%至100%。",
+    "error_detail": "错误地描述了侵害对象和临床症状。",
+    "original_question": "猪血凝性脑脊髓炎病毒（HEV）的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "感染后14天和35天，感染组的仔猪仅出现轻微的淋巴结肿大。",
+    "reference_case": "感染后14天和35天，感染组的仔猪出现全身淋巴结肿大、肺脏间质性肺炎和实变、肝脏斑驳状肿大、肾脏苍白、表面出血或淤血斑点、脾脏表面有砂粒大小的红色丘疹、心内膜和胸腺表面出血斑点、胃肠道黏膜卡他性炎症等肉眼病变。",
+    "error_detail": "错误地低估了病变的严重程度。",
+    "original_question": "PCV2-SD/2008株对仔猪的致病性实验中，感染组的仔猪在感染后14天和35天的肉眼病变有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪链球菌2型（SS2:的溶菌酶释放蛋白（MRP）的相对分子质量约为100000。",
+    "reference_case": "猪链球菌2型（SS2:的溶菌酶释放蛋白（MRP）是一种存在于菌体胞壁的保护性抗原，具有高度的检出率和氨基酸序列保守性，相对分子质量约为136000。",
+    "error_detail": "错误地低估了MRP的相对分子质量。",
+    "original_question": "什么是猪链球菌2型（SS2:的溶菌酶释放蛋白（MRP）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪再克隆胚胎的体细胞核移植过程中，卵母细胞采集自直径为1-2 mm的卵泡。",
+    "reference_case": "猪再克隆胚胎的体细胞核移植过程中，卵母细胞采集自直径为3-6 mm的卵泡，经过42小时的成熟培养，培养条件为39°C、5% CO2和饱和湿度的二氧化碳培养箱。",
+    "error_detail": "错误地低估了卵泡的直径。",
+    "original_question": "猪再克隆胚胎的体细胞核移植过程中，卵母细胞的采集和成熟过程是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丙戊酸钠（VPA）处理对猪再克隆胚胎多能性相关基因（Oct4、Nanog、Sox2和Klf4:的表达水平有显著影响。",
+    "reference_case": "丙戊酸钠（VPA）处理对猪再克隆胚胎多能性相关基因（Oct4、Nanog、Sox2和Klf4:的表达水平没有显著影响。",
+    "error_detail": "错误地声称VPA处理对基因表达有显著影响，而实际上没有显著影响。",
+    "original_question": "丙戊酸钠（VPA）处理对猪再克隆胚胎多能性相关基因（Oct4、Nanog、Sox2和Klf4:的表达水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丙戊酸钠（VPA）处理对猪再克隆胚胎的体外发育能力没有显著影响。",
+    "reference_case": "丙戊酸钠（VPA）处理显著提高了猪再克隆胚胎的体外发育能力，特别是在囊胚形成率和囊胚细胞数方面。",
+    "error_detail": "错误地声称VPA处理对体外发育能力没有显著影响，而实际上显著提高了发育能力。",
+    "original_question": "丙戊酸钠（VPA）处理对猪再克隆胚胎的体外发育能力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丙戊酸钠（VPA）在猪再克隆胚胎体外发育中的最佳处理时间是24小时，最佳处理浓度是2 mmol/L。",
+    "reference_case": "丙戊酸钠（VPA）在猪再克隆胚胎体外发育中的最佳处理时间是16小时，最佳处理浓度是1 mmol/L。",
+    "error_detail": "错误地提供了不准确的VPA最佳处理时间和浓度。",
+    "original_question": "丙戊酸钠（VPA）在猪再克隆胚胎体外发育中的最佳处理时间和浓度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丙戊酸钠（VPA）处理对猪再克隆胚胎的囊胚形成率没有显著影响。",
+    "reference_case": "丙戊酸钠（VPA）处理显著提高了猪再克隆胚胎的囊胚形成率，1 mmol/L VPA处理组的囊胚形成率为29:6%，显著高于非处理组的12:4%。",
+    "error_detail": "错误地声称VPA处理对囊胚形成率没有显著影响，而实际上显著提高了形成率。",
+    "original_question": "丙戊酸钠（VPA）处理对猪再克隆胚胎囊胚形成率有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "丙戊酸钠（VPA）处理组的囊胚时期acH3K9的乙酰化水平显著低于非处理组。",
+    "reference_case": "丙戊酸钠（VPA）处理组的囊胚时期acH3K9的乙酰化水平显著高于非处理组。",
+    "error_detail": "错误地声称VPA处理降低了acH3K9的乙酰化水平，而实际上提高了乙酰化水平。",
+    "original_question": "丙戊酸钠（VPA）处理对猪再克隆胚胎囊胚时期acH3K9的乙酰化水平有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪再克隆胚胎的体细胞核移植过程中，融合和激活的参数为2 kV/cm、60 μs直流电，电击1次。",
+    "reference_case": "猪再克隆胚胎的体细胞核移植过程中，融合和激活的参数为1:2 kV/cm、30 μs直流电，电击2次。",
+    "error_detail": "错误地提供了不准确的融合和激活参数。",
+    "original_question": "猪再克隆胚胎的体细胞核移植过程中，融合和激活的参数是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪饲料中添加外源乳化剂对饲料脂肪及能量的消化率没有显著影响。",
+    "reference_case": "在猪饲料中添加外源乳化剂可以显著提高饲料脂肪及能量的消化率，促进猪增重。研究表明，乳化剂能显著提高生长猪日粮干物质、粗蛋白、粗脂肪、粗灰分和能量的粪消化率，其中脂肪消化率提高幅度最大。",
+    "error_detail": "错误地声称乳化剂对消化率没有显著影响，而实际上显著提高了消化率。",
+    "original_question": "乳化剂在猪饲料中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "云南地区猪场中，最常见的二重感染形式是猪瘟病毒（CSF）与猪伪狂犬病毒（PR）的混合感染，占20%。",
+    "reference_case": "云南地区猪场中，最常见的二重感染形式是猪瘟病毒（CSF）与猪繁殖与呼吸综合征病毒（PRRS）的混合感染，占15:24%。",
+    "error_detail": "错误地提供了不常见的二重感染形式和错误的比例。",
+    "original_question": "云南地区猪场中，哪种二重感染形式最为常见？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "云南地区猪场中，猪瘟病毒（CSF）的单独感染率最高，占40%。",
+    "reference_case": "云南地区猪场中，猪繁殖与呼吸综合征病毒（PRRS）的单独感染率最高，占35:24%。",
+    "error_detail": "错误地声称CSF的单独感染率最高，而实际上是PRRS。",
+    "original_question": "云南地区猪场中，哪种疫病的单独感染率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "云南地区2008～2011年部分猪场中，猪瘟病毒（CSF）的检出率最高，为60%。",
+    "reference_case": "云南地区2008～2011年部分猪场中，猪繁殖与呼吸综合征病毒（PRRS）的检出率最高，为55:88%。",
+    "error_detail": "错误地声称CSF的检出率最高，而实际上是PRRS。",
+    "original_question": "云南地区2008～2011年部分猪场中，哪种疫病的检出率最高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "云南地区猪场中，三重感染的主要形式是猪瘟病毒（CSF）、猪伪狂犬病毒（PR）和猪圆环病毒2型（PCV-2:的混合感染，占10%。",
+    "reference_case": "云南地区猪场中，三重感染的主要形式是猪瘟病毒（CSF）、猪伪狂犬病毒（PR）和猪繁殖与呼吸综合征病毒（PRRS）的混合感染，占8:08%。",
+    "error_detail": "错误地提供了不准确的三重感染形式和比例。",
+    "original_question": "云南地区猪场中，三重感染的主要形式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在多元线性回归模型中，仔猪单价对生猪养殖效益的影响方向是反向的。具体而言，仔猪单价每增加1元，散户每头生猪成本纯收益率将减少6.83个百分点。",
+    "reference_case": "在多元线性回归模型中，仔猪单价对生猪养殖效益的影响方向是正向的。具体而言，仔猪单价每增加1元，散户每头生猪成本纯收益率将增加6.83个百分点。",
+    "error_detail": "错误地改变了影响方向和数据效果",
+    "original_question": "在多元线性回归模型中，仔猪单价对生猪养殖效益的影响方向是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "精饲料价格对生猪养殖效益的影响方向是正向的。精饲料价格每下降0.1元，散户每头生猪成本纯收益率将减少6.21个百分点，反之则会增加6.21个百分点。",
+    "reference_case": "精饲料价格对生猪养殖效益的影响方向是反向的。精饲料价格每下降0.1元，散户每头生猪成本纯收益率将增加6.21个百分点，反之则会减少6.21个百分点。",
+    "error_detail": "错误地改变了影响方向和数据效果",
+    "original_question": "精饲料价格对生猪养殖效益的影响方向是什么？其影响程度如何？",
+    "original_input": ""
+  }
+]

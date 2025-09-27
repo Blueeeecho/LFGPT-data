@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "成年公猪每周采精3-4次，青年公猪每周采精2次。",
+    "reference_case": "成年公猪每周采精1.5-2次，青年公猪每周采精1次。",
+    "error_detail": "采精频率的数据被夸大，不符合实际情况。",
+    "original_question": "成年公猪和青年公猪的采精频率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "公猪使用过频或处于高温环境时，可能出现精子头部带有原生质滴的畸形精子。",
+    "reference_case": "公猪使用过频或处于高温环境时，可能出现精子尾部带有原生质滴的畸形精子。",
+    "error_detail": "畸形精子的部位描述错误，应为尾部而非头部。",
+    "original_question": "公猪频繁使用或处于高温环境时，精子可能产生哪种畸形？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "每头公猪每月检查一次精子畸形率。",
+    "reference_case": "每头公猪每两周检查一次精子畸形率。",
+    "error_detail": "检查频率过低，不符合当前标准。",
+    "original_question": "公猪的精子畸形率应多久检查一次？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "应在瓶或袋上用手写标明公猪品种、耳号、生产日期。",
+    "reference_case": "应在瓶或袋上用标签机打上标明公猪品种、耳号、生产日期、保存有效期、稀释液名称和生产单位等。",
+    "error_detail": "信息标注方式和要求不符，缺少必要信息。",
+    "original_question": "精液瓶或袋上应标明哪些信息？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "输精后的母猪应饲养在嘈杂的环境中，以增强其应激能力。",
+    "reference_case": "输精后的母猪应饲养在安静的环境中，防止强应激，夏季防暑降温，冬季保温。",
+    "error_detail": "环境要求完全相反，误解了母猪的管理需求。",
+    "original_question": "输精后应如何管理母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "输精管以30°角向下插入，进入5~6cm后逆时针旋转。",
+    "reference_case": "输精管以45°角向上插入，进入3~4cm后顺时针旋转，当感觉有阻力时继续缓慢旋转并前后移动，直到前端被锁定。",
+    "error_detail": "插入角度、方向和深度描述错误，不符合实际操作。",
+    "original_question": "输精过程中输精管插入母猪生殖道的角度和深度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "阿波尔血蜱的宿主包括家猪、牛和羊等动物。",
+    "reference_case": "阿波尔血蜱的宿主包括野猪、赤麃、水鹿和猪獾等动物。",
+    "error_detail": "宿主种类描述错误，混淆了家畜和野生动物。",
+    "original_question": "阿波尔血蜱的宿主有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "缅何血蜱的宿主包括赤䴢、打尾豪猪和苏门羚等10种动物。",
+    "reference_case": "缅何血蜱的宿主包括赤䴢、打尾豪猪和苏门羚等动物。",
+    "error_detail": "宿主数量被夸大，添加了不存在的数量描述。",
+    "original_question": "缅何血蜱的宿主有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "豪猪腹股沟脱毛是由于过度角化导致的。",
+    "reference_case": "豪猪腹股沟脱毛明显，感染皮肤变厚、出现皱纹和大范围的皮肤过度角化。",
+    "error_detail": "因果关系描述错误，脱毛是症状而非原因。",
+    "original_question": "豪猪腹股沟脱毛的原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "豪猪皮肤感染的症状包括腹股沟脱毛、感染皮肤变薄。",
+    "reference_case": "豪猪皮肤感染的症状包括腹股沟脱毛、感染皮肤变厚、出现皱纹和大范围的皮肤过度角化。",
+    "error_detail": "症状描述自相矛盾，皮肤不可能同时变厚和变薄。",
+    "original_question": "豪猪皮肤感染的症状有哪些？",
+    "original_input": ""
+  }
+]

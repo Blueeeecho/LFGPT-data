@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "生长猪急性出血性肝坏死和白色水肿的骨骼肌及心肌（白肌病），较大猪则以皮下组织，如肌肉、肺和结肠的水肿较常见，同时伴有严重的神经系统症状。",
+    "reference_case": "生长猪急性出血性肝坏死和白色水肿的骨骼肌及心肌（白肌病），较大猪则以皮下组织，如肌肉、肺和结肠的水肿较常见。",
+    "error_detail": "添加了不存在的神经系统症状，属于概念混淆。",
+    "original_question": "维生素E-硒缺乏症在猪上的典型解剖病变有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "维生素E和硒缺乏会导致多种病变和临床表现，包括繁殖、泌乳失调，肝脏和肌肉变性，以及可能的无乳毒血症，发生率高达90%。",
+    "reference_case": "维生素E和硒缺乏会导致多种病变和临床表现，包括繁殖、泌乳失调，肝脏和肌肉变性，以及可能的无乳毒血症。",
+    "error_detail": "添加了不准确的发生率数据。",
+    "original_question": "维生素E和硒缺乏会导致猪出现哪些病变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "维生素E和硒缺乏会影响母猪的泌乳能力，可能导致泌乳低下，减少每窝活仔数和断奶猪数，降低仔猪21日龄时的存活率，尤其是在高温环境下更为明显。",
+    "reference_case": "维生素E和硒缺乏会影响母猪的泌乳能力，可能导致泌乳低下，减少每窝活仔数和断奶猪数，降低仔猪21日龄时的存活率。",
+    "error_detail": "添加了未经证实的假设，即高温环境的影响。",
+    "original_question": "维生素E和硒缺乏对母猪的泌乳能力有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "补充维生素E和硒可以增加每窝产仔的活仔数和断奶猪数，提高仔猪21日龄时的存活率，同时还能显著提高母猪的繁殖性能。",
+    "reference_case": "补充维生素E和硒可以增加每窝产仔的活仔数和断奶猪数，提高仔猪21日龄时的存活率。",
+    "error_detail": "偏离了原始指令，添加了无关的繁殖性能信息。",
+    "original_question": "补充维生素E和硒对母猪产仔有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "维生素E和硒缺乏会导致血液中维生素E、硒和谷胱甘肽过氧化物酶值较低，这是最新的研究发现。",
+    "reference_case": "维生素E和硒缺乏会导致血液中维生素E、硒和谷胱甘肽过氧化物酶值较低。",
+    "error_detail": "添加了不准确的时效性信息。",
+    "original_question": "维生素E和硒缺乏会导致母猪哪些生化变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "维生素E和硒缺乏会增加母猪对病原，特别是大肠杆菌和毒性物质的易感性，但不会影响其他病原体。",
+    "reference_case": "维生素E和硒缺乏会增加母猪对病原，特别是大肠杆菌和毒性物质的易感性。",
+    "error_detail": "添加了逻辑上不完整的陈述，即不影响其他病原体。",
+    "original_question": "维生素E和硒缺乏会影响母猪对哪些病原的易感性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "母猪MMA-泌乳低下综合征主要是由维生素E和硒缺乏引起的，但维生素E和硒缺乏是由MMA-泌乳低下综合征引起的。",
+    "reference_case": "母猪MMA-泌乳低下综合征主要是由维生素E和硒缺乏引起的。",
+    "error_detail": "因果倒置，错误地描述了因果关系。",
+    "original_question": "母猪MMA-泌乳低下综合征的病因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "硫胺素缺乏时，猪会出现食欲显著下降、生长不良、呕吐、腹泻、皮肤和粘膜发绀及突然死亡等症状，这些症状在热带地区更为常见。",
+    "reference_case": "硫胺素缺乏时，猪会出现食欲显著下降、生长不良、呕吐、腹泻、皮肤和粘膜发绀及突然死亡等症状。",
+    "error_detail": "添加了不准确的地域差异信息。",
+    "original_question": "硫胺素缺乏时，猪会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "猪的生长因子包括肌醇和对氨基苯甲酸，但猪不需要这些因子，同时也需要维生素 C。其他天然来源的生长因子还包括'乳清因子'、'草汁因子'、'鱼可溶性因子'和'苜葆因子'，这些都是猪生长所必需的。",
+    "reference_case": "猪的生长因子包括肌醇和对氨基苯甲酸，但猪不需要这些因子，同时也需要维生素 C。其他天然来源的生长因子还包括'乳清因子'、'草汁因子'、'鱼可溶性因子'和'苜葆因子'。",
+    "error_detail": "上下文断裂，错误地陈述了这些因子是猪生长所必需的。",
+    "original_question": "猪的生长因子有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的社群组织类型包括乳头顺序和断奶后的等级顺序，以及性别决定的社会结构。",
+    "reference_case": "猪的社群组织类型包括乳头顺序和断奶后的等级顺序。",
+    "error_detail": "添加了不存在的概念，即性别决定的社会结构。",
+    "original_question": "猪的社群组织类型有哪些？",
+    "original_input": ""
+  }
+]

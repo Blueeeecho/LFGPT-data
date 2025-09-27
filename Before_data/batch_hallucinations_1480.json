@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "流行病学调查主要通过血液检测和基因测序进行。",
+    "reference_case": "流行病学调查主要通过问诊和现场观察，了解病猪的生活史和病史，包括饲养管理情况、既往病史及周边环境。",
+    "error_detail": "将问诊和现场观察错误地替换为血液检测和基因测序，导致概念混淆。",
+    "original_question": "流行病学调查通过哪些方法进行？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "夏季气温高，育肥猪100%会发生中暑；冬季若保温不好，仔猪100%会发生腹泻。",
+    "reference_case": "夏季气温高，育肥猪易发生中暑；冬季若保温不好，仔猪易发生腹泻。通风不良，易发生呼吸系统疾病，如传染性胸膜肺炎、气喘病等常在寒冷的季节发生或加重病情。",
+    "error_detail": "将'易发生'错误地量化为'100%会发生'，导致数据型幻觉。",
+    "original_question": "环境因素如何影响猪的健康？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "所有的动物对同一病原因素易感程度相同。",
+    "reference_case": "不同的动物存在种别差异，种别对同一病原因素易感程度不同。例如，巴氏杆菌病、沙门氏菌病、大肠杆菌病、链球菌病、痘病、流感等，对猪、牛、羊、禽等动物都能感染。而猪气喘病、猪瘟、仔猪红痢、猪流行性腹泻、繁殖障碍与呼吸综合征等，仅感染猪。",
+    "error_detail": "错误地认为所有动物对同一病原因素易感程度相同，忽略了种别差异。",
+    "original_question": "种属差异对疾病易感性的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "不同年龄的猪感染的疾病完全相同。",
+    "reference_case": "不同年龄的猪可以感染不同的疾病。例如，哺乳仔猪易感仔猪红痢、仔猪黄痢、仔猪白痢、轮状病毒病、新生仔猪溶血病、仔猪低血糖、渗出性皮炎、球虫病等。断奶仔猪、保育猪易感传染性胃肠炎、流行性腹泻、副伤寒、痢疾、水肿病、气喘病、猪瘟、链球菌病、伪狂犬病、李氏杆菌病、传染性脑脊髓炎、弓形虫病、猪痘、传染性萎缩性鼻炎、皮肤真菌病、疝、霉饲料中毒、小袋纤毛虫病、肺炎、断奶仔猪多系统衰竭综合征等。",
+    "error_detail": "错误地认为不同年龄的猪感染的疾病完全相同，忽略了年龄差异对疾病易感性的影响。",
+    "original_question": "年龄差异对疾病易感性的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "猪流产与死胎的主要原因是因为猪不喜欢它们的饲养环境。",
+    "reference_case": "猪流产与死胎的主要原因包括感染、营养不良、遗传因素、环境压力等。",
+    "error_detail": "将猪的主观喜好错误地作为流产与死胎的原因，导致因果倒置。",
+    "original_question": "猪流产与死胎的主要原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "预防猪流产与死胎的唯一方法是给猪播放轻松的音乐。",
+    "reference_case": "预防措施包括改善饲养管理、保证适宜的环境条件、定期健康检查、合理配种和营养补充等。",
+    "error_detail": "将多种预防措施简化为单一且不相关的方法，偏离了原始指令。",
+    "original_question": "如何预防猪流产与死胎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "猪群临诊检查时的着眼点及可能的疫病范围包括猪的心理健康状况。",
+    "reference_case": "猪群临诊检查时的着眼点及可能的疫病范围见表8-13。",
+    "error_detail": "错误地将心理健康状况纳入疫病范围，误解了上下文。",
+    "original_question": "猪群临诊检查时的着眼点及可能的疫病范围是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪感染人N1H1或N2H3亚型流感后，会迅速产生对新冠病毒的特异性抗体。",
+    "reference_case": "猪感染人N1H1或N2H3亚型流感后，会迅速产生对这些病毒的特异性抗体。",
+    "error_detail": "将流感病毒错误地替换为新冠病毒，导致概念混淆。",
+    "original_question": "猪感染流感病毒后会产生什么抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪感染流感病毒后，临诊症状常常不会引起任何呼吸道疾病。",
+    "reference_case": "猪感染流感病毒后，临诊症状常常可引起某种最流行的猪的呼吸道疾病，且感染时间短而不能总会产生可检测到的抗体应答。",
+    "error_detail": "错误地认为流感病毒感染不会引起呼吸道疾病，忽略了其常见症状。",
+    "original_question": "猪感染流感病毒后会产生什么症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "针灸治疗猪病常用的方法包括激光治疗和磁疗。",
+    "reference_case": "白针疗法、血针疗法、水针疗法、卡耳（尾）疗法等。",
+    "error_detail": "将非针灸方法错误地纳入针灸治疗，导致概念混淆。",
+    "original_question": "针灸治疗猪病常用哪些方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪常见病防治的原则是'治疗为主，防为辅'。",
+    "reference_case": "加强饲养管理，减少应激，提高猪只免疫力，关注生物安全，坚持'预防为主，防重于治'方针，牢记原则：传染性强者不治；无法治疗者不治；费时费工者不治；愈后无价者不治；费用昂贵者不治。",
+    "error_detail": "将'预防为主，防重于治'错误地改为'治疗为主，防为辅'，偏离了原始指令。",
+    "original_question": "猪常见病防治的原则是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "红痢的主要症状是仔猪便秘，粪便干燥，后躯沾满干粪。",
+    "reference_case": "红痢的主要症状是仔猪腹泻，粪便有气泡，后躯沾满血样稀粪，消瘦，脱水，最后死亡。",
+    "error_detail": "将腹泻错误地描述为便秘，粪便有气泡和血样稀粪错误地描述为干燥和干粪，导致数据型幻觉。",
+    "original_question": "红痢的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "红痢的防治措施包括给猪喂食巧克力以提高其免疫力。",
+    "reference_case": "红痢的防治措施包括注射疫苗；加强消毒，母猪进产房前洗刷等；新生乳猪注射或口服抗生素（青霉素十链霉素）；血清治疗。",
+    "error_detail": "添加了不相关且有害的防治措施，滥用了假设。",
+    "original_question": "红痢的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪黄痢、白痢的病原是沙门氏菌。",
+    "reference_case": "仔猪黄痢、白痢的病原是大肠杆菌。",
+    "error_detail": "将大肠杆菌错误地替换为沙门氏菌，导致概念混淆。",
+    "original_question": "仔猪黄痢、白痢的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪黄痢、白痢的主要症状是幼龄猪最易感，患猪因机体脱水、酸中毒而致死亡，黄痢粪便绿色，白痢粪便黑色。",
+    "reference_case": "仔猪黄痢、白痢的主要症状是幼龄猪最易感，患猪因机体脱水、酸中毒而致死亡，黄痢粪便黄色，白痢粪便白色，共征是粪便沾附肛门、消瘦、脱水死亡。",
+    "error_detail": "将黄痢粪便黄色和白痢粪便白色错误地描述为绿色和黑色，导致数据型幻觉。",
+    "original_question": "仔猪黄痢、白痢的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪黄痢、白痢的剖检结果是心脏肥大，肺部积水。",
+    "reference_case": "仔猪黄痢、白痢的剖检结果是肠道臌气，肠壁薄，肠系膜淋巴结肿胀、出血，肝、肾有凝固性坏死灶。",
+    "error_detail": "将肠道、肠系膜淋巴结、肝、肾的病变错误地描述为心脏和肺部的病变，导致概念混淆。",
+    "original_question": "仔猪黄痢、白痢的剖检结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "仔猪黄痢、白痢的实验室诊断方法包括观察猪的行为。",
+    "reference_case": "仔猪黄痢、白痢的实验室诊断方法包括血清学检查，酶联免疫吸附试验。黄痢、白痢的粪便pH偏碱性。",
+    "error_detail": "将实验室诊断方法错误地替换为行为观察，偏离了原始指令。",
+    "original_question": "仔猪黄痢、白痢的实验室诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "仔猪黄痢、白痢的防治措施包括给猪喂食人类抗生素。",
+    "reference_case": "仔猪黄痢、白痢的防治措施包括注射疫苗（K",
+    "error_detail": "错误地将人类抗生素纳入防治措施，误解了上下文。",
+    "original_question": "仔猪黄痢、白痢的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "水肿病的病原是沙门氏菌分泌的VT毒素。",
+    "reference_case": "水肿病的病原是溶血性大肠杆菌分泌的VT毒素。",
+    "error_detail": "将溶血性大肠杆菌错误地替换为沙门氏菌，导致概念混淆。",
+    "original_question": "水肿病的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "链球菌病的主要症状包括100%的猪会立即死亡。",
+    "reference_case": "链球菌病的主要症状包括败血型、淋巴脓肿型、脑膜脑炎型、心肌内膜型及子宫炎型，有的表现局部感染，关节腔内有炎性化脓液，子宫炎型易使怀孕母猪发生阴道炎及流产或产死胎现象。",
+    "error_detail": "将多样化的症状错误地量化为'100%的猪会立即死亡'，导致数据型幻觉。",
+    "original_question": "链球菌病的主要症状是什么？",
+    "original_input": ""
+  }
+]

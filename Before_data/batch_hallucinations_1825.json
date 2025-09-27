@@ -1,0 +1,236 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "水合氯醛常作为马、牛、猪、犬的全身麻醉药，镇静、解痉药，用于手术麻醉、家畜保定、马、骡疝痛、脑炎、破伤风、士的宁中毒和其他中枢兴奋药中毒，以及人类的失眠治疗。",
+    "reference_case": "水合氯醛常作为马、牛、猪、犬的全身麻醉药，镇静、解痉药，用于手术麻醉、家畜保定、马、骡疝痛、脑炎、破伤风、士的宁中毒和其他中枢兴奋药中毒。",
+    "error_detail": "添加了不适用于人类的用途",
+    "original_question": "水合氯醛用于哪些疾病的麻醉？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "产仔数与产仔数呈负相关，与初生重呈正相关。",
+    "reference_case": "产仔数与产仔数呈负相关。",
+    "error_detail": "错误地添加了与初生重的正相关关系",
+    "original_question": "产仔数与哪些性状呈负相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "初生重的遗传力约为0.20，初生窝重的遗传力为0.30~0.50。",
+    "reference_case": "初生重的遗传力约为0.10，初生窝重的遗传力为0.24~0.42。",
+    "error_detail": "数值偏差",
+    "original_question": "初生重和初生窝重的遗传力分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "初生重与断奶窝重的相关系数为0.80，为中等正相关。",
+    "reference_case": "初生重与断奶窝重的相关系数为0.96，为强正相关。",
+    "error_detail": "数值偏差",
+    "original_question": "初生重与哪些性状呈正相关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "泌乳力的遗传力为0.25左右。",
+    "reference_case": "泌乳力的遗传力为0.15左右。",
+    "error_detail": "数值偏差",
+    "original_question": "泌乳力的遗传力是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "21日龄断奶窝重的遗传力为0.30左右。",
+    "reference_case": "21日龄断奶窝重的遗传力为0.20左右。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶窝重的遗传力是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "选择断奶窝重可使许多繁殖性状得到提高，因为它与其他繁殖性状密切相关，同时也能提高肉质。",
+    "reference_case": "选择断奶窝重可使许多繁殖性状得到提高，因为它与其他繁殖性状密切相关。",
+    "error_detail": "添加了不相关的信息",
+    "original_question": "选择断奶窝重的目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "可以利用家系指数选择、高繁殖力选择、后裔测定、产仔数的间接选择、母猪生产力指数、BLUP法等方法进行繁殖性状的选择，以及基因编辑技术。",
+    "reference_case": "可以利用家系指数选择、高繁殖力选择、后裔测定、产仔数的间接选择、母猪生产力指数、BLUP法等方法进行繁殖性状的选择。",
+    "error_detail": "添加了未经证实的假设",
+    "original_question": "通过哪些方法可以提高猪的繁殖性状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "核心群为留种数的10倍，繁殖群为5~6倍。",
+    "reference_case": "核心群为留种数的8倍，繁殖群为3~4倍。",
+    "error_detail": "数值偏差",
+    "original_question": "在种猪性能测定中，如何确定测定数量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "种猪性能测定分为精密式场内测定和粗放式场内测定，按测定项目分为生产性能测定、其他性能测定和肉质测定。",
+    "reference_case": "种猪性能测定分为精密式场内测定和粗放式场内测定，按测定项目分为生产性能测定和其他性能测定。",
+    "error_detail": "添加了不存在的分类",
+    "original_question": "种猪性能测定有哪些类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "种猪性能测定的主要目的是评估种猪的遗传能力，筛选符合要求的个体，以提高整个猪群的生产性能，同时改善肉质。",
+    "reference_case": "种猪性能测定的主要目的是评估种猪的遗传能力，筛选符合要求的个体，以提高整个猪群的生产性能。",
+    "error_detail": "添加了不相关的信息",
+    "original_question": "种猪性能测定的主要目的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "送检猪的选择取决于测定类型，若个体测定，则挑选健康、体重高的个体；若同胞测定，则以窝为单位，选择接近平均性能的个体；若原裔测定，则以父母家族为单位，按同胞测定方式选择送检猪，同时考虑其肉质。",
+    "reference_case": "送检猪的选择取决于测定类型，若个体测定，则挑选健康、体重高的个体；若同胞测定，则以窝为单位，选择接近平均性能的个体；若原裔测定，则以父母家族为单位，按同胞测定方式选择送检猪。",
+    "error_detail": "添加了未经证实的假设",
+    "original_question": "在种猪性能测定中，如何选择送检猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "记录包括初测体重、初测日龄、经测体重、经测日龄、采食量、背膘厚度、体长、体高等指标，以及肉质评分。",
+    "reference_case": "记录包括初测体重、初测日龄、经测体重、经测日龄、采食量、背膘厚度、体长、体高等指标。",
+    "error_detail": "添加了不相关的信息",
+    "original_question": "在种猪性能测定中，如何记录测定数据？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "在测定过程中需每天记录舍内环境和被测猪群的表现，确保无食欲异状，同时监测水质。",
+    "reference_case": "在测定过程中需每天记录舍内环境和被测猪群的表现，确保无食欲异状。",
+    "error_detail": "添加了未经证实的假设",
+    "original_question": "种猪性能测定过程中需要注意哪些事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "杂交亲本指的是杂交用的公猪和母猪，其中公猪称为父本，母猪称为母本，以及它们的杂交后代。",
+    "reference_case": "杂交亲本指的是杂交用的公猪和母猪，其中公猪称为父本，母猪称为母本。",
+    "error_detail": "添加了不相关的信息",
+    "original_question": "什么是杂交亲本？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "第一父本通常选择日增重高、瘦肉率高、生长快、饲料转化率好、整合作用好的品种；第二父本或终端父本应重点考虑生长速度和胴体品质，如选择杜洛克猪，同时考虑其抗病能力。",
+    "reference_case": "第一父本通常选择日增重高、瘦肉率高、生长快、饲料转化率好、整合作用好的品种；第二父本或终端父本应重点考虑生长速度和胴体品质，如选择杜洛克猪。",
+    "error_detail": "添加了不相关的信息",
+    "original_question": "选择第一父本和第二父本或终端父本时应考虑哪些因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "种母猪分为初产母猪和经产母猪。初产母猪是指生产第一胎仔猪的母猪至第一胎仔猪断奶的母猪；经产母猪是指一胎产仔经检定合格，留作种用的母猪，以及未产仔的母猪。",
+    "reference_case": "种母猪分为初产母猪和经产母猪。初产母猪是指生产第一胎仔猪的母猪至第一胎仔猪断奶的母猪；经产母猪是指一胎产仔经检定合格，留作种用的母猪。",
+    "error_detail": "添加了不相关的信息",
+    "original_question": "种母猪分为哪几类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "种母猪根据牛产阶段的不同分为空怀母猪、妊娠母猪和哺乳母猪，以及断奶母猪。",
+    "reference_case": "种母猪根据牛产阶段的不同分为空怀母猪、妊娠母猪和哺乳母猪。",
+    "error_detail": "添加了不相关的信息",
+    "original_question": "种母猪根据牛产阶段的不同又分为哪几类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "生长猪指体重在 30~70 kg 的猪；肥育猪指体重在 70~110 kg 以上的猪。",
+    "reference_case": "生长猪指体重在 25~60 kg 的猪；肥育猪指体重在 60~100 kg 以上的猪。",
+    "error_detail": "数值偏差",
+    "original_question": "生长猪和肥育猪的区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "公猪在养猪生产中所起的作用远远超过母猪，无论是本交还是人工授精，1头公猪1年可以产生500-800头或5000头左右的后代。",
+    "reference_case": "公猪在养猪生产中所起的作用远远超过母猪，无论是本交还是人工授精，1头公猪1年可以产生400-700头或4000头左右的后代。",
+    "error_detail": "数值偏差",
+    "original_question": "公猪在养猪生产中的重要性是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "种公猪有纯种和杂种之分，常用纯种公猪有长白猪、大白猪、杜洛克猪、皮特兰猪；常用杂种公猪有长白×大白、杜洛克×汉普夏、皮特兰×杜洛克，以及大白×长白。",
+    "reference_case": "种公猪有纯种和杂种之分，常用纯种公猪有长白猪、大白猪、杜洛克猪、皮特兰猪；常用杂种公猪有长白×大白、杜洛克×汉普夏、皮特兰×杜洛克。",
+    "error_detail": "添加了不相关的信息",
+    "original_question": "种公猪的种类有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用生长速度快、胴体瘦肉率高的公猪可以降低养猪生产综合成本，提高肉猪瘦肉率，增加市场销售价格和受市场欢迎程度，1头肉猪可增加收入40-60元。",
+    "reference_case": "使用生长速度快、胴体瘦肉率高的公猪可以降低养猪生产综合成本，提高肉猪瘦肉率，增加市场销售价格和受市场欢迎程度，1头肉猪可增加收入35-50元。",
+    "error_detail": "数值偏差",
+    "original_question": "使用生长速度快、胴体瘦肉率高的公猪对猪生产有哪些好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "杂种公猪具有应激性小、性欲旺盛等优点，因此日益被养猪生产者所接受，同时其肉质也更好。",
+    "reference_case": "杂种公猪具有应激性小、性欲旺盛等优点，因此日益被养猪生产者所接受。",
+    "error_detail": "添加了不相关的信息",
+    "original_question": "杂种公猪与纯种公猪相比有哪些优点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "种公猪有射精量大，本交配种时间长的特点，每次射精量为400-500ml，个别高产者可达600ml，每次本交配种时间一般为10-15min，个别长者达20-25min。",
+    "reference_case": "种公猪有射精量大，本交配种时间长的特点，每次射精量为300-400ml，个别高产者可达500ml，每次本交配种时间一般为5-10min，个别长者达15-20min。",
+    "error_detail": "数值偏差",
+    "original_question": "种公猪的生产特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "种公猪的营养需要包括维持、配种活动、精液生成和自身生长发育需要，所需主要营养包括能量、蛋白质（实质是氨基酸）、矿物质、维生素等，以及水分。",
+    "reference_case": "种公猪的营养需要包括维持、配种活动、精液生成和自身生长发育需要，所需主要营养包括能量、蛋白质（实质是氨基酸）、矿物质、维生素等。",
+    "error_detail": "添加了不相关的信息",
+    "original_question": "种公猪的营养需要包括哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "能量供给过低会使公猪身体消瘦，体质下降，性欲降低，导致配种能力降低；能量供给过高会使公猪过于肥胖，自慰频率增加或不爱运动、性欲不强，精子质量降低，影响配种能力，同时影响肉质。",
+    "reference_case": "能量供给过低会使公猪身体消瘦，体质下降，性欲降低，导致配种能力降低；能量供给过高会使公猪过于肥胖，自慰频率增加或不爱运动、性欲不强，精子质量降低，影响配种能力。",
+    "error_detail": "添加了不相关的信息",
+    "original_question": "公猪能量供给过低或过高分别会带来什么影响？",
+    "original_input": ""
+  }
+]

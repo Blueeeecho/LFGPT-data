@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪、牛、羊的肝脏和肾脏中多不饱和脂肪酸含量超过90%。",
+    "reference_case": "猪、牛、羊的肝脏和肾脏都富含多不饱和脂肪酸。",
+    "error_detail": "夸大了多不饱和脂肪酸的含量比例",
+    "original_question": "不同动物的肝脏和肾脏中多不饱和脂肪酸含量如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "不同品种的畜禽在肉品质上的差异主要体现在肌肉的颜色和味道上。",
+    "reference_case": "不同品种之间以及相同品种不同个体之间的肉品质存在差异，如约克夏猪、杂交猪（约克夏猪×野猪）及野猪的腰肉在脂肪酸组成、颜色和嫩度等方面存在差异。",
+    "error_detail": "错误地将肉品质差异简化为颜色和味道",
+    "original_question": "不同品种的畜禽在肉品质上有哪些差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "雄性动物肌肉中肌内脂肪含量比雌性动物高，因为雄性动物更活跃。",
+    "reference_case": "雄性动物肌肉中肌内脂肪含量比雌性动物低，但阉割后肌肉中肌内脂肪含量增加。未去势的公畜肉质地较粗硬，具有特殊的性臭味，而阉割后的猪肉质较好，瘦肉率高。",
+    "error_detail": "错误地认为雄性动物肌内脂肪含量高是因为更活跃",
+    "original_question": "雄性和雌性畜禽在肉品质上有何区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "在宰后0至32小时内，猪背最长肌中胱天蛋白酶3/7和9的活性与其底物血影蛋白α2的水解成反比，而与肉的剪切力成正比。",
+    "reference_case": "在宰后0至32小时内，猪背最长肌中胱天蛋白酶3/7和9的活性与其底物血影蛋白α2的水解成正比，而与肉的剪切力成反比，说明胱天蛋白酶可能参与了宰后成熟过程中猪肉的嫩化。",
+    "error_detail": "错误地颠倒了胱天蛋白酶活性与肉剪切力的关系",
+    "original_question": "胱天蛋白酶活性与肉的剪切力之间存在何种关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪PSE肉造成的经济影响是每年给全球养猪业带来200亿美元的损失。",
+    "reference_case": "猪PSE肉（苍白、松软、渗液肉）造成的经济影响是每年给全球养猪业带来20亿美元的损失。",
+    "error_detail": "夸大了经济损失的数值",
+    "original_question": "猪PSE肉的经济影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "Hal 基因与 RN 基因在肉色、致密性、大理石花纹、剪切力上不存在互作效应。",
+    "reference_case": "Hal 基因与 RN 基因在肉色、致密性、大理石花纹、剪切力上存在显著的互作效应，其中正常单倍型（NN / rn+ rn+）的评分最高，表明这两个基因对鲜猪肉品质有负面影响，且对肉最终pH、肉色和系水力的负面作用具有相加性。",
+    "error_detail": "错误地否认了基因间的互作效应",
+    "original_question": "Hal 基因和 RN 基因在猪胴体品质上有哪些互作效应？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "H-FABP基因多态性与肌内脂肪含量有关系，aa / dd / HH单倍型猪的肌内脂肪含量在各种基因型猪中最高，能提高肌内脂肪含量4个百分点。",
+    "reference_case": "H-FABP基因多态性与肌内脂肪含量有关系，aa / dd / HH单倍型猪的肌内脂肪含量在各种基因型猪中最高，能提高肌内脂肪含量0.4个百分点。",
+    "error_detail": "夸大了肌内脂肪含量的提高比例",
+    "original_question": "H-FABP 基因多态性与肌内脂肪含量的关系是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "A - FABP基因多态性与肌内脂肪沉积有关系，不同基因型的猪肌内脂肪含量差异超过10%。",
+    "reference_case": "A - FABP基因多态性与肌内脂肪沉积有关系，不同基因型的猪肌内脂肪含量差异超过1%，因此被认为是肌内脂肪沉积的候选基因。",
+    "error_detail": "夸大了肌内脂肪含量的差异比例",
+    "original_question": "A - FABP 基因多态性与肌内脂肪含量的关系是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肌内脂肪沉积的主效基因包括Hal 基因、A - FABP 基因和XYZ基因。",
+    "reference_case": "猪肌内脂肪沉积的主效基因包括Hal 基因（氟烷基因）、A - FABP 基因、ADD",
+    "error_detail": "错误地添加了不相关的主效基因",
+    "original_question": "猪肌内脂肪沉积的主效基因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "商业育种公司利用分子标记辅助选育（MAS）的方法结合传统的表型选育方法，来提高畜牧业养殖水平。PIC 猪育种公司已经利用了100个DNA标记进行分子育种。",
+    "reference_case": "商业育种公司利用分子标记辅助选育（MAS）的方法结合传统的表型选育方法，来提高畜牧业养殖水平。PIC 猪育种公司已经利用了多个DNA标记进行分子育种，其中生长和抗病各1个，肉质和产子数各4个。",
+    "error_detail": "夸大了DNA标记的数量",
+    "original_question": "分子标记辅助选育（MAS）的方法如何应用于猪育种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "目前关于猪肉质的基因专利涉及60项基因。",
+    "reference_case": "目前关于猪肉质的基因专利涉及6项基因，包括CAST、PIR3C",
+    "error_detail": "夸大了基因专利的数量",
+    "original_question": "猪肉质性状的基因专利有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "杜洛克猪和皮特兰猪在肉质性状上的差异主要体现在肌肉的颜色和味道上。",
+    "reference_case": "杜洛克猪和皮特兰猪在肉质性状上的差异主要体现在能量代谢相关基因和脂肪酸代谢相关基因的表达量上。",
+    "error_detail": "错误地将肉质性状差异简化为颜色和味道",
+    "original_question": "杜洛克猪和皮特兰猪在肉质性状上的差异主要体现在哪些基因表达上？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "基因工具应用于猪的性状发现和基因组结构理解，包括基因编辑和克隆技术。",
+    "reference_case": "基因工具应用于猪的性状发现和基因组结构理解。",
+    "error_detail": "添加了未提及的基因编辑和克隆技术",
+    "original_question": "基因工具在猪性状发现和基因组结构理解中的应用有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "QTL定位在猪中的进展研究已取得重大突破，发现了1000个QTL。",
+    "reference_case": "QTL定位在猪中的进展研究已取得成果。",
+    "error_detail": "添加了未提及的具体成果和数据",
+    "original_question": "QTL（数量性状位点）定位在猪种的进展如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪的生长和胴体性能性状与7号染色体上的遗传标记有关，特别是与生长速度相关的标记。",
+    "reference_case": "猪的生长和胴体性能性状与7号染色体上的遗传标记有关。",
+    "error_detail": "添加了未提及的具体标记类型",
+    "original_question": "猪的生长和胴体性能性状与7号染色体的遗传标记有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在DUROC猪中，背最长肌中内脏脂肪含量主要受环境因素影响。",
+    "reference_case": "在DUROC猪中，背最长肌中内脏脂肪含量主要受一个主要基因的影响。",
+    "error_detail": "错误地将内脏脂肪含量的主要影响因素归因于环境因素",
+    "original_question": "猪的背最长肌中内脏脂肪含量主要受什么基因影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的初级肌纤维是在妊娠期的前 20 天内形成，次级肌纤维是在妊娠期的第 30 到 60 天形成。",
+    "reference_case": "猪的初级肌纤维是在妊娠期的前 38 天内形成，次级肌纤维是在妊娠期的第 46 到 95 天形成；牛的初级肌纤维是在妊娠期的前 2 个月内形成，次级肌纤维是在妊娠期的第 2 到 7 个月之间形成。",
+    "error_detail": "错误地缩短了肌纤维形成的时间范围",
+    "original_question": "初级肌纤维和次级肌纤维的形成时间分别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "母猪妊娠期营养不良会导致仔猪出生后生长速度较快，因为仔猪需要更快地适应环境。",
+    "reference_case": "母猪妊娠期营养不良会导致仔猪出生后生长速度较慢，长成矮小猪，发育不良。这些仔猪在后期生长中日增重较低，胴体的肥胖程度较高，肌纤维数量也少于正常仔猪。",
+    "error_detail": "错误地认为营养不良会加快仔猪生长速度",
+    "original_question": "母猪妊娠期营养不良对仔猪的生长发育有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "早期生长阻滞的仔猪肌纤维数量多于正常仔猪，需要10天才能达到正常仔猪一样的106kg屠宰体重。",
+    "reference_case": "早期生长阻滞的仔猪肌纤维数量少于正常仔猪，需要23天才能达到正常仔猪一样的106kg屠宰体重。",
+    "error_detail": "错误地认为早期生长阻滞的仔猪肌纤维数量更多且达到屠宰体重的时间更短",
+    "original_question": "早期生长阻滞的仔猪与正常仔猪在肌纤维数量上存在哪些差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "母体营养缺乏或营养过剩都会程序化地使后代更不易于沉积脂肪。",
+    "reference_case": "母体营养缺乏或营养过剩都会程序化地使后代更易于沉积脂肪。营养不良的母羊生产的小羊，比对照组小羊肥，瘦肉与脂肪的比例也低。出生重低的仔猪胴体更肥，皮下脂肪细胞更大。",
+    "error_detail": "错误地认为母体营养状况会使后代不易于沉积脂肪",
+    "original_question": "母猪妊娠期营养不良如何影响胎儿的脂肪和胶原蛋白沉积？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "动物摄入过多碘会发生什么症状？摄入超过生理需要量的100-1000倍时，动物可能发生磺中毒，表现为产蛋率下降、蓝化率下降、胚胎早期死亡（禽类）；生长抑制、采食量减少、血红蛋白含量下降、肝脏存铁量降低（猪）；流泪、咳嗽、食量降低、唾液分泌增加、血红蛋白含量降低（反刍动物），以及皮肤病变（犬类）",
+    "reference_case": "摄入超过生理需要量的100-1000倍时，动物可能发生磺中毒，表现为产蛋率下降、蓝化率下降、胚胎早期死亡（禽类）；生长抑制、采食量减少、血红蛋白含量下降、肝脏存铁量降低（猪）；流泪、咳嗽、食量降低、唾液分泌增加、血红蛋白含量降低（反刍动物）",
+    "error_detail": "添加了未提及的犬类皮肤病变",
+    "original_question": "动物摄入过多碘会发生什么症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "五加皮粉碎混饲或煎汁自饮，马、牛15~90g/次，羊、猪9~15g/次，犬3~5g/次，兔、禽1.5~3g/次。此外，还可以用于治疗皮肤病。",
+    "reference_case": "五加皮粉碎混饲或煎汁自饮，马、牛15~90g/次，羊、猪9~15g/次，犬3~5g/次，兔、禽1.5~3g/次。",
+    "error_detail": "添加了未请求的额外信息",
+    "original_question": "五加皮的用法用量是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "使用猪催乳添加剂混饲，按2.5%添加在产后母猪的日粮中，添加至仔猪20日龄时结束，可提高泌乳力22.7%，仔猪35日龄断奶窝重提高19.7%。此外，还能提高母猪的繁殖性能。",
+    "reference_case": "使用猪催乳添加剂混饲，按2.5%添加在产后母猪的日粮中，添加至仔猪20日龄时结束，可提高泌乳力22.7%，仔猪35日龄断奶窝重提高19.7%。",
+    "error_detail": "添加了未请求的额外信息",
+    "original_question": "母猪产后缺乳如何治疗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "仔猪出生后24小时内进行预防性投药，注射敏感的长效抗菌药如氟喹诺酮类药物、氟苯尼考、利高霉素等，或在吃奶前投服促菌生、调菌生、乳菌生等微生态制剂。",
+    "reference_case": "仔猪出生后12小时内进行预防性投药，注射敏感的长效抗菌药如氟喹诺酮类药物、氟苯尼考、利高霉素等，或在吃奶前投服促菌生、调菌生、乳菌生等微生态制剂。",
+    "error_detail": "需求冲突",
+    "original_question": "对存在黄痢的猪场，如何预防仔猪发病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪丹毒病菌的致病力与菌型和环境温度有关，1型菌多分离自慢性病猪，致病力较弱。",
+    "reference_case": "猪丹毒病菌的致病力及抗原性与菌型有一定关系，1型菌多分离自急性败血型猪，致病力较强，可作为攻毒菌种；2型菌常见于关节类型病猪，致病力较弱，免疫原性较好，可作为制菌菌种。",
+    "error_detail": "错误地添加了环境温度作为影响因素，并错误描述了1型菌的来源和致病力。",
+    "original_question": "猪丹毒病菌的致病力与哪些因素相关？",
+    "original_input": "1a、1b、2、2a、2b、3、4等29个血清型。"
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "预防布氏杆菌病的措施包括仅进行疫苗接种。",
+    "reference_case": "加强饲养、疫情监视和卫生管理，自繁自养，从清净地区引进猪只，进行检疫，确信健康才能入群，对疫区划分水源，驱虫、灭鼠和消毒，定期免疫接种等。",
+    "error_detail": "错误地简化了预防措施，仅提到疫苗接种。",
+    "original_question": "预防布氏杆菌病的措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "药物应在充分混匀饲料或饮水后加入，因为药物的预防剂量很小，不充分混匀可能导致猪摄入不足或过量，影响预防效果或引发中毒。此外，还应该根据猪的体重调整药物剂量。",
+    "reference_case": "药物应在充分混匀饲料或饮水后加入，因为药物的预防剂量很小，不充分混匀可能导致猪摄入不足或过量，影响预防效果或引发中毒。",
+    "error_detail": "添加了不相关的指令（根据猪的体重调整药物剂量）",
+    "original_question": "药物在饲喂过程中应如何使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪气喘病的预防措施包括定期注射疫苗和隔离病猪。",
+    "reference_case": "自然分娩或剖腹取胎，人工哺乳或健康母猪带仔法培育健康仔猪，配合消毒切断传播因素；仔猪按窝隔离，防止混栏；育肥猪和断奶小猪分舍饲养；利用各种检疫方法清除病猪和可疑病猪，逐步扩大健康猪群。",
+    "error_detail": "添加了未提及的预防措施",
+    "original_question": "猪气喘病的预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在断奶仔猪饲料中添加有机酸可以酸化铝料，激活消化酶并影响肠道微生物的数量，降低仔猪下痢发生率，但不影响饲料转化率和日增重。",
+    "reference_case": "在断奶仔猪饲料中添加有机酸可以酸化铝料，激活消化酶并影响肠道微生物的数量，降低仔猪下痢发生率，提高仔猪健康水平、饲料转化率和日增重。",
+    "error_detail": "错误地否定了有机酸对饲料转化率和日增重的积极影响",
+    "original_question": "在断奶仔猪饲料中添加有机酸有何好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "对个别发情征兆不明显的母猪，应直接进行人工授精，无需发情鉴定。",
+    "reference_case": "对个别发情征兆不明显的母猪，可采用手压背部观察静立反应，或使用试情公猪进行发情鉴定。",
+    "error_detail": "需求冲突",
+    "original_question": "对个别发情征兆不明显的母猪，如何进行发情鉴定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "输精时无需刺激母猪，直接进行输精操作即可。",
+    "reference_case": "一只手抓住输精管和精液袋并使之稍高于外阴，另一只手不断地刺激母猪，按压背部或按摩乳房、大腿内侧，也可以通过坐于母猪背上来完成。同时按摩会阴部位，使母猪伸腰、翘臀、举尾。",
+    "error_detail": "需求冲突",
+    "original_question": "输精时如何刺激母猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "需要准备集精器、清洁公猪包皮的纸巾或消毒清洁的干纱布、配置好的稀释液、显微镜、精子密度测定仪、精液分装器、精液瓶或袋、温度计。",
+    "reference_case": "需要准备集精器、清洁公猪包皮的纸巾或消毒清洁的干纱布、配置好的稀释液、显微镜、精子密度测定仪、精液分装器、精液瓶或袋。",
+    "error_detail": "添加了未提及的温度计，偏离了原始指令。",
+    "original_question": "采集猪精液前需要准备哪些物品？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "需要剪去公猪包皮的长毛，冲洗并擦干体表赃物和水渍，使用消毒液进行消毒。",
+    "reference_case": "需要剪去公猪包皮的长毛，冲洗并擦干体表赃物和水渍。",
+    "error_detail": "添加了未提及的消毒步骤，偏离了原始指令。",
+    "original_question": "采精前需要对公猪进行哪些清洗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "母猪输精记录表记录了母猪耳号、胎次、发情日期，以及第一次、第二次和第三次输精的相关信息，包括公猪号、输精时间、精液倒流情况和输精员信息。还记录了预产期和配种成功率。",
+    "reference_case": "母猪输精记录表记录了母猪耳号、胎次、发情日期，以及第一次、第二次和第三次输精的相关信息，包括公猪号、输精时间、精液倒流情况和输精员信息。还记录了预产期。",
+    "error_detail": "添加了未提及的配种成功率，偏离了原始指令。",
+    "original_question": "母猪输精记录表记录了哪些信息？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "口蹄疫O型、A型鼠化弱毒苗用于牛羊，肌肉注射，剂量按动物年龄调整；猪口蹄疫O型灭活苗耳根皮下注射，剂量为10毫升；高免血清或痊愈血清用于幼猪和正在调运的猪。",
+    "reference_case": "口蹄疫O型、A型鼠化弱毒苗用于牛羊，皮下注射，剂量按动物年龄调整；猪口蹄疫O型灭活苗耳根皮下注射，剂量为5毫升；高免血清或痊愈血清用于幼猪和正在调运的猪。",
+    "error_detail": "注射方式和剂量被错误修改",
+    "original_question": "口蹄疫疫苗的使用方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "高粱用作猪饲料时需加粉碎，细度以粗为宜，过细会影响适口性。必须与优质的蛋白质饲料配合使用，同时补充维生素A。",
+    "reference_case": "高粱用作猪饲料时需加粉碎，细度以中等为宜，过细会影响适口性。必须与优质的蛋白质饲料配合使用，同时补充维生素A。",
+    "error_detail": "粉碎细度被错误修改",
+    "original_question": "高粱作为猪饲料时需要注意哪些事项？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "打浆后的秸秆主要用于饲喂猪、禽，可生喂、熟喂或发酵、青贮后饲喂，但不适用于反刍动物。",
+    "reference_case": "打浆后的秸秆主要用于饲喂猪、禽，可生喂、熟喂或发酵、青贮后饲喂。",
+    "error_detail": "添加了不适用于反刍动物的错误信息",
+    "original_question": "秸秆打浆的主要用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "牛、羊、猪、禽均可发病，症状主要是过度流涎、周期性流泪、腹泻、尿频、厌食和瘤胃臌气等副交感神经兴奋症候群。此外，还会出现心率加快和血压升高等症状。",
+    "reference_case": "牛、羊、猪、禽均可发病，症状主要是过度流涎、周期性流泪、腹泻、尿频、厌食和瘤胃臌气等副交感神经兴奋症候群。",
+    "error_detail": "添加了与副交感神经兴奋症候群相反的症状描述",
+    "original_question": "豆类丝核菌素中毒后家畜会表现出哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "可通过检查猪粪便来检测猪后圆线虫感染。",
+    "reference_case": "可通过检查猪肺脏来检测猪后圆线虫感染。",
+    "error_detail": "检测方法错误，将肺脏改为粪便。",
+    "original_question": "如何检测猪后圆线虫感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "仔猪出生后，立即掏出口鼻黏液，用毛巾将全身顺毛擦净，红外线灯下烤干，然后立即进行疫苗接种。",
+    "reference_case": "仔猪出生后，立即掏出口鼻黏液，用毛巾将全身顺毛擦净，红外线灯下烤干。",
+    "error_detail": "添加了不存在的疫苗接种步骤",
+    "original_question": "仔猪出生后应立即进行哪些处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "每日喂1次与分5次喂，日增重没有差别，但分5次喂的猪体较瘦，喂2次的饲料报酬较高，且猪的肉质更好。",
+    "reference_case": "每日喂1次与分5次喂，日增重没有差别，但分5次喂的猪体较瘦，喂2次的饲料报酬较高。",
+    "error_detail": "添加了不存在的肉质信息",
+    "original_question": "饲喂次数对生长肥育猪的影响有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "调教要根据猪的生活习性进行，一般在猪刚调入新圈时要立即开始调教，可采用守候、勤赶、放猪粪引诱、加垫草等方法，并且需要每天重复这些步骤。",
+    "reference_case": "调教要根据猪的生活习性进行，一般在猪刚调入新圈时要立即开始调教，可采用守候、勤赶、放猪粪引诱、加垫草等方法。",
+    "error_detail": "添加了不存在的每天重复的步骤",
+    "original_question": "如何调教猪养成吃食、睡觉、排便三角定位的习惯？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "取少量粪便加入清水，搅匀后静置5分钟，取表层液滴入载玻片上，镜检，若有大量球虫卵囊即可确诊。",
+    "reference_case": "取少量粪便加入饱和盐水，搅匀后静置10分钟，取表层液滴入载玻片上，镜检，若有大量球虫卵囊即可确诊。",
+    "error_detail": "修改了诊断方法中的关键步骤，导致指令偏离型幻觉。",
+    "original_question": "猪球虫病的诊断方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "规模化养猪生产的主要工艺流程包括种猪繁殖、仔猪培育和肉猪饲养。",
+    "reference_case": "规模化养猪生产的主要工艺流程包括种猪繁殖、仔猪培育、肉猪饲养和屠宰加工。",
+    "error_detail": "遗漏了屠宰加工这一重要环节，未能完全回答指令。",
+    "original_question": "规模化养猪生产的主要工艺流程是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "公畜通过外激素气味、声音、行为等对母畜中枢神经系统刺激，使母猪发情提前。",
+    "reference_case": "公畜通过外激素气味、声音、行为等对母畜中枢神经系统刺激，使母猪发情提前，使发情征候更为明显。",
+    "error_detail": "遗漏了使发情征候更为明显这一重要信息，未能完全回答指令。",
+    "original_question": "使用公畜试情鉴定发情时需要注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "用于母猪的保胎、安胎，以及促进母猪的食欲。",
+    "reference_case": "用于母猪的保胎、安胎。",
+    "error_detail": "添加了与指令无关的促进食欲的功能",
+    "original_question": "黄体酮在母猪繁殖用药中用于什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "磺胺二甲基嘧啶SMZ广谱合成抗菌药，对猪附红细胞体、弓形体病效果好，还能促进猪的生长。",
+    "reference_case": "磺胺二甲基嘧啶SMZ广谱合成抗菌药，对猪附红细胞体、弓形体病效果好。",
+    "error_detail": "添加了与指令无关的促进生长的功能",
+    "original_question": "磺胺二甲基嘧啶SMZ的主要用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "泰乐菌素对猪的喘气病效果较好，同时有一定的促生长作用，还能提高猪的免疫力。",
+    "reference_case": "泰乐菌素对猪的喘气病效果较好，同时有一定的促生长作用。",
+    "error_detail": "添加了与指令无关的提高免疫力的功能",
+    "original_question": "泰乐菌素的主要用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "改善环境及饲养管理，母猪配种前2个月接种伪狂犬病灭活苗可以预防，同时还需要定期给猪注射抗生素。",
+    "reference_case": "改善环境及饲养管理，母猪配种前2个月接种伪狂犬病灭活苗可以预防。",
+    "error_detail": "添加了与指令无关的定期注射抗生素的要求",
+    "original_question": "伪狂犬病的预防措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "有计划的免疫是预防和控制猪繁殖障碍性传染病发生的唯一措施，可以构成生物安全体系的重要部分。",
+    "reference_case": "有计划的免疫是预防和控制猪繁殖障碍性传染病发生的关键措施，可以构成生物安全体系的重要部分。",
+    "error_detail": "将'关键措施'错误地改为'唯一措施'，导致指令偏离。",
+    "original_question": "有计划的免疫对于预防和控制猪繁殖障碍性传染病有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "多重PCR技术可以同时检测两种或两种以上的病种，但无法有效鉴定病例是由哪种病毒引起的。",
+    "reference_case": "多重PCR技术可以同时检测两种或两种以上的病种，能够有效鉴定病例是由哪种病毒引起的。",
+    "error_detail": "将'能够有效鉴定病例是由哪种病毒引起的'错误地改为'无法有效鉴定病例是由哪种病毒引起的'，导致指令偏离。",
+    "original_question": "多重PCR技术在猪繁殖与呼吸综合征检测中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "实验室诊断最简单实用的方法为PCR检测，4分钟之内出现凝集的判为阳性。",
+    "reference_case": "实验室诊断最简单实用的方法为平板凝集试验，4分钟之内出现凝集的判为阳性。",
+    "error_detail": "改变了诊断方法，与指令不符",
+    "original_question": "布氏杆菌病的诊断方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "纳米氧化锌通过提高动物的生长性能，如增加日增质量（ADG）和改善料肉比，来提高动物的生产性能。例如，研究表明，添加500 mg/kg的纳米氧化锌能显著提高断奶仔猪的日增质量，同时减少水的消耗。",
+    "reference_case": "纳米氧化锌通过提高动物的生长性能，如增加日增质量（ADG）和改善料肉比，来提高动物的生产性能。例如，研究表明，添加500 mg/kg的纳米氧化锌能显著提高断奶仔猪的日增质量。",
+    "error_detail": "添加了减少水的消耗的信息，与原始问题无关。",
+    "original_question": "纳米氧化锌如何提高动物的生产性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "采取各种措施使应激降到最小化，如减少饲养管理、限制饮水、增加饲养密度以及人工提高舍内环境温度等。",
+    "reference_case": "采取各种措施使应激降到最小化，如加强饲养管理、保证充足饮水、降低饲养密度以及人工控制舍内环境温度等。",
+    "error_detail": "指令偏离，措施与减少应激的目标相矛盾。",
+    "original_question": "如何减少猪群的应激因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "每千克体重使用40mg土霉素，拌于饲料中让猪自由采食，连用3d。",
+    "reference_case": "每千克体重使用20~30mg土霉素，拌于饲料中让猪自由采食，连用5~7d。",
+    "error_detail": "指令偏离，错误地增加了土霉素的用量并减少了用药时间。",
+    "original_question": "土霉素治疗猪附红细胞体病的方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "预防公猪包皮炎的措施包括减少饲养密度和增加运动量。",
+    "reference_case": "加强饲养管理和卫生消毒工作，酸化公猪尿液，空栏后地板消毒净化，适龄公猪单栏饲养，公猪围栏要求稍高，防止公猪自淫。",
+    "error_detail": "措施偏离了原始指令，忽略了卫生消毒和酸化尿液等关键点。",
+    "original_question": "预防公猪包皮炎的措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "每圈饲养1～2头为宜，单圈饲养对母猪的发情有积极影响。",
+    "reference_case": "每圈饲养4～6头为宜，单圈饲养1头对母猪的发情有不利影响，避免过分拥挤及频繁打斗。",
+    "error_detail": "建议的饲养数量与原始指令相反，且错误地认为单圈饲养有积极影响。",
+    "original_question": "如何预防后备母猪的初情期延迟？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "配种后25~38d内母猪返情说明配种时间刚好。",
+    "reference_case": "配种后25~38d内母猪返情说明怀孕但不能怀胎，可能是因为应激、发霉的饲料、有怀孕能力的卵子太少或子宫感染等。",
+    "error_detail": "错误地将返情解释为配种时间刚好的标志，忽略了实际原因。",
+    "original_question": "配种后25~38d内母猪返情说明什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "预防全身感染，减少运动和补充机体能量。",
+    "reference_case": "预防全身感染，强心并补充机体能量。",
+    "error_detail": "措施偏离了原始指令，错误地建议减少运动。",
+    "original_question": "母猪产后感染全身感染的治疗方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "要重视母猪围产期保健，母猪分娩前一周喂加药料，产后给母猪静脉滴注保健药，并严格消毒体表，同时减少运动量。",
+    "reference_case": "要重视母猪围产期保健，母猪分娩前一周喂加药料，产后给母猪静脉滴注保健药，并严格消毒体表。",
+    "error_detail": "添加了与预防措施无关的运动量建议",
+    "original_question": "如何预防产后疾病导致的流产？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "先剥离子宫切口周围的胎衣，并尽可能将胎衣留在切口内撕破，放出全部胎水，然后握住胎儿两后肢（正生时）或两前肢及头部（倒生时），缓缓地拉出胎儿。",
+    "reference_case": "先剥离子宫切口周围的胎衣，并尽可能将胎衣引出切口之外撕破，放出全部胎水，然后握住胎儿两后肢（正生时）或两前肢及头部（倒生时），缓缓地拉出胎儿。",
+    "error_detail": "错误地描述了胎衣的处理方式，实际上应尽可能将胎衣引出切口之外撕破。",
+    "original_question": "猪剖腹取胎术中拉出胎儿的方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "术部消毒后，术者屈膝位于猪的腹侧，左手捏起膝皱褶，使术部紧张，右手持刀将皮肤切开3~5cm的弧形口，用右手指垂直戳破腹肌及腹膜，伸入腹腔，并沿脊柱、侧腹壁，由前向后探摸。",
+    "reference_case": "术部消毒后，术者屈膝位于猪的背侧，左手捏起膝皱褶，使术部紧张，右手持刀将皮肤切开3~5cm的弧形口，用右手指垂直戳破腹肌及腹膜，伸入腹腔，并沿脊柱、侧腹壁，由前向后探摸。",
+    "error_detail": "错误地描述了术者的位置，实际上应位于猪的背侧。",
+    "original_question": "小母猪大挑花劁割术中卵巢摘除的方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "种公猪应达到营养、运动、使用的平衡，以最大限度地发挥生长性能。",
+    "reference_case": "种公猪应达到营养、运动、使用的平衡，以最大限度地发挥繁殖性能。",
+    "error_detail": "错误地将'繁殖性能'改为'生长性能'",
+    "original_question": "种公猪合理饲养、管理、配种需要注意哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "需从病猪体内检出非洲猪瘟病毒或抗体，并进行动物接种和血清学检查，同时还需要进行PCR检测。",
+    "reference_case": "需从病猪体内检出非洲猪瘟病毒或抗体，并进行动物接种和血清学检查。",
+    "error_detail": "错误地添加了PCR检测的要求，原始指令中未提及。",
+    "original_question": "如何诊断非洲猪瘟？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "需进行动物接种、血清学检查及组织培养，同时还需要进行基因测序。",
+    "reference_case": "需进行动物接种、血清学检查及组织培养，见表3-1—3。",
+    "error_detail": "错误地添加了基因测序的要求，原始指令中未提及。",
+    "original_question": "如何鉴别诊断猪水疱病和猪口蹄疫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "预防马传染性贫血病的方法包括自繁自养，不从外地引进猪只，改善饲养管理，严格隔离病猪，彻底消毒圈舍，及时处理病猪不作种用，以及使用疫苗预防。",
+    "reference_case": "预防方法包括自繁自养，不从外地引进猪只，改善饲养管理，严格隔离病猪，彻底消毒圈舍，及时处理病猪不作种用。",
+    "error_detail": "添加了未提及的疫苗预防方法，偏离了原始指令。",
+    "original_question": "预防马传染性贫血病的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "防止猪误食苦参种子，可以增加苦参的饲料比例。",
+    "reference_case": "防止猪误食苦参种子，药用勿过量。",
+    "error_detail": "错误地建议增加苦参的饲料比例，实际上应避免猪误食苦参。",
+    "original_question": "如何预防猪食用苦参？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪最好用硫酸铜0.5~1g配成2%溶液内服，牛、马可用2%硫酸铜溶液或0.1%高锰酸钾溶液洗胃并内服。也可用松节油乳剂内服，促进肠中毒物排出，并用碳酸氢钠溶液静脉注射以防止血液碱贮下降，同时给予高渗葡萄糖溶液。局部损伤可用2%硫酸铜溶液和2%碳酸氢钠溶液交替洗涤和湿敷。此外，还可以尝试使用传统草药治疗。",
+    "reference_case": "猪最好用硫酸铜0.5~1g配成2%溶液内服，牛、马可用2%硫酸铜溶液或0.1%高锰酸钾溶液洗胃并内服。也可用松节油乳剂内服，促进肠中毒物排出，并用碳酸氢钠溶液静脉注射以防止血液碱贮下降，同时给予高渗葡萄糖溶液。局部损伤可用2%硫酸铜溶液和2%碳酸氢钠溶液交替洗涤和湿敷。",
+    "error_detail": "错误地添加了传统草药治疗的建议，偏离了原始指令。",
+    "original_question": "无机磷中毒的治疗措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "加强饲养管理，增加蛋白质和青饲料，将患病仔猪与健康猪群隔离饲养，注意环境卫生，彻底清理猪舍并作消毒。",
+    "reference_case": "加强饲养管理，增加蛋白质和青饲料，将患病仔猪与健康猪群隔离饲养，注意环境卫生，彻底清理猪舍并作消毒。",
+    "error_detail": "指令偏离型，未明确指出预防措施的具体实施细节",
+    "original_question": "预防渗出性皮炎应注意哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在稳定生猪存栏、提高猪肉产量和品质的前提下，努力扩大耗粮多、转化率低的畜禽的饲养规模，以适应城乡人民对畜产品的需求。",
+    "reference_case": "在稳定生猪存栏、提高猪肉产量和品质的前提下，努力扩大耗粮少、转化率高的畜禽的饲养规模，以适应城乡人民对畜产品的需求。",
+    "error_detail": "需求冲突",
+    "original_question": "调整畜牧业结构的目标是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "用FMDV7个血清型146S抗原的兔抗血清将血清稀释成最适浓度做先期捕获抗体。用BHK-21细胞培养增殖的口蹄疫选择毒株制备抗原。对未纯化的上清液按VN程序的规定使用，并进行预滴定，达到某一稀释度后加入等体积稀释剂，将其稀释成最适浓度。用含0.05%吐温-",
+    "reference_case": "用FMDV7个血清型146S抗原的兔抗血清将血清稀释成最适浓度做先期捕获抗体。用BHK-21细胞培养增殖的口蹄疫选择毒株制备抗原。对未纯化的上清液按VN程序的规定使用，并进行预滴定，达到某一稀释度后加入等体积稀释剂，将其稀释成最适浓度。用含0.05%吐温-",
+    "error_detail": "需求冲突",
+    "original_question": "液相阻断酶联免疫吸附试验（ELISA）如何检测豚鼠的口蹄疫抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "诊断猪瘟病毒的方法包括通过电镜检测观察病毒，进行病灶提取物的核酸检测，使用猪肾、Vero、MRC-",
+    "reference_case": "诊断猪瘟病毒的方法包括通过电镜检测观察病毒，进行病灶提取物的核酸检测，使用猪肾、Vero、MRC-",
+    "error_detail": "需求冲突",
+    "original_question": "诊断猪瘟病毒的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "通过购买无沙门氏菌的动物或卵，隔离新进动物，实行种群全进全出管理，控制鼠类，保持饲料和水源清洁，清洗消毒污染的房舍和设备，处理污染的原料等措施降低沙门氏菌进入的群体风险。",
+    "reference_case": "通过购买无沙门氏菌的动物或卵，隔离新进动物，实行种群全进全出管理，控制鼠类，保持饲料和水源清洁，清洗消毒污染的房舍和设备，处理污染的原料等措施降低沙门氏菌进入的群体风险。",
+    "error_detail": "指令偏离型，错误地添加了处理污染的原料的措施，实际上这与防控猪沙门氏菌感染无关。",
+    "original_question": "如何防控猪沙门氏菌感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪副伤寒的临床症状包括消瘦、持续性或周期性下痢。病猪表现为精神萎靡、闭眼、缩颈等，以及高烧不退。",
+    "reference_case": "猪副伤寒的临床症状包括消瘦、持续性或周期性下痢。病猪表现为精神萎靡、闭眼、缩颈等。",
+    "error_detail": "错误地添加了高烧不退的症状，原输出中未提及。",
+    "original_question": "猪副伤寒的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "平时预防措施包括加强饲养管理，定期消毒，检疫和预防接种。发病后的扑灭措施包括隔离病猪、消毒猪圈和用具、处理病死猪等，以及定期进行血液检查。",
+    "reference_case": "平时预防措施包括加强饲养管理，定期消毒，检疫和预防接种。发病后的扑灭措施包括隔离病猪、消毒猪圈和用具、处理病死猪等。",
+    "error_detail": "错误地添加了定期进行血液检查的措施，原输出中未提及。",
+    "original_question": "猪丹毒的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "提高饲料利用效率的方法包括减少饲料用量、延长饲喂间隔、使用低质量饲料等。",
+    "reference_case": "提高饲料利用效率的方法包括提高饲料转化率、合理搭配饲料、改善管理措施等。",
+    "error_detail": "建议的方法与提高饲料利用效率的目标相冲突，可能导致效率下降。",
+    "original_question": "如何提高猪饲料利用效率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "\"以精饲料为主，适当搭配青粗饲料\"。",
+    "reference_case": "\"以青粗饲料为主，适当搭配精饲料\"。",
+    "error_detail": "饲料方针被错误地颠倒，与养猪业的实际饲料方针不符。",
+    "original_question": "养猪业的饲料方针是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "解决饲料问题的途径包括减少猪的饲养数量、降低饲料质量标准、依赖进口饲料等。",
+    "reference_case": "解决饲料问题的途径包括政府政策支持、开辟饲料来源、提高饲料利用效率等。",
+    "error_detail": "建议的解决途径与解决饲料问题的目标相冲突，可能导致问题加剧。",
+    "original_question": "如何解决我国养猪业的饲料问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "解决养猪饲料问题的根本方针是以青粗饲料为主，适当搭配精饲料，并且每天给猪播放音乐。",
+    "reference_case": "解决养猪饲料问题的根本方针是以青粗饲料为主，适当搭配精饲料。",
+    "error_detail": "添加了无关的播放音乐的建议，偏离了原始指令。",
+    "original_question": "解决养猪饲料问题的根本方针是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "青饲料应按不同种类进行加工处理，加工方法见表103；根据不同季节和猪的生理需求，采用不同性味的青饲料，配合方法见表104，同时还需要考虑猪的情绪。",
+    "reference_case": "青饲料应按不同种类进行加工处理，加工方法见表103；根据不同季节和猪的生理需求，采用不同性味的青饲料，配合方法见表104。",
+    "error_detail": "添加了无关的考虑猪的情绪的建议，偏离了原始指令。",
+    "original_question": "提高青饲料适口性和利用效率的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "定时定量喂养，夏天喂五次，冬天喂三次；铜料调制成稀粥状，每顿要喂得饱，留十成即可；每天还需提供少量饮水。",
+    "reference_case": "定时定量喂养，夏天喂三次，冬天喂两次；铜料调制成稠粥状，每顿不要喂得太饱，留九成即可；每天还需提供充足饮水。",
+    "error_detail": "喂养次数、饲料状态和饮水量的建议与原始指令冲突",
+    "original_question": "种公猪的喂养技术有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "母猪在配种准备期应调热日粮组成和给量，使它保持有十成膘。",
+    "reference_case": "母猪在配种准备期应调热日粮组成和给量，使它保持有六至八成膘。",
+    "error_detail": "膘情建议与原始指令冲突",
+    "original_question": "母猪在配种准备期应如何调热日粮组成和给量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "母猪在配种前应进行健康检查，对病猪迅速进行治疗；对瘦弱母猪加强营养；对过肥母猪，改变日粮组成，加强运动，并确保每天至少2小时的阳光照射。",
+    "reference_case": "母猪在配种前应进行健康检查，对病猪迅速进行治疗；对瘦弱母猪加强营养；对过肥母猪，改变日粮组成，加强运动。",
+    "error_detail": "添加了不必要的阳光照射要求",
+    "original_question": "母猪在配种前应进行哪些管理措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "配制好的人工乳需经充分搅拌，利用哺乳器按时喂饲仔猪，哺乳器种类多样，桶式哺乳器高23.5厘米，直径66厘米，不宜过高或过小，乳嘴安装时最好在乳嘴周围涂抹柔软的橡胶，乳嘴距离为11-13厘米，底部应垫上合适的木板，且每次使用前需消毒。",
+    "reference_case": "配制好的人工乳需经充分搅拌，利用哺乳器按时喂饲仔猪，哺乳器种类多样，桶式哺乳器高23.5厘米，直径66厘米，不宜过高或过小，乳嘴安装时最好在乳嘴周围涂抹柔软的橡胶，乳嘴距离为11-13厘米，底部应垫上合适的木板。",
+    "error_detail": "添加了不必要的消毒要求",
+    "original_question": "喂养仔猪时，人工乳应该如何配制和使用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "夏季应当把后备幼猪驱入草地或草场进行放牧，并且每天至少放牧8小时。",
+    "reference_case": "夏季应当把后备幼猪驱入草地或草场进行放牧。",
+    "error_detail": "添加了关于放牧时间的指令，导致指令偏离型幻觉。",
+    "original_question": "夏季如何进行后备幼猪的放牧管理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "根据幼猪发育情况，定期调整饲料，并且每次调整前需进行健康检查。",
+    "reference_case": "根据幼猪发育情况，定期调整饲料。",
+    "error_detail": "添加了关于健康检查的指令，导致指令偏离型幻觉。",
+    "original_question": "如何根据幼猪的发育情况调整饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在猪放牧前的半个月，应当对所有猪只进行彻底的健康检查，同时进行预防注射和驱虫以及修蹄工作，并且记录每头猪的健康状况。",
+    "reference_case": "在猪放牧前的半个月，应当对所有猪只进行彻底的健康检查，同时进行预防注射和驱虫以及修蹄工作。",
+    "error_detail": "添加了关于记录健康状况的指令，导致指令偏离型幻觉。",
+    "original_question": "在猪放牧前需要进行哪些准备工作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "小猪阶段的管理重点是采取特别措施，使仔猪维持奶膘，每日给予的总营养分按单位体重来说比较高，并且需要定期进行健康检查。",
+    "reference_case": "小猪阶段的管理重点是采取特别措施，使仔猪维持奶膘，每日给予的总营养分按单位体重来说比较高。",
+    "error_detail": "添加了关于健康检查的指令，导致指令偏离型幻觉。",
+    "original_question": "小猪阶段的管理重点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "催肥期应适当多给些含碳水化合物高的精饲料，使猪能够迅速沉积脂肪，加快肥育，并且需要限制运动量。",
+    "reference_case": "催肥期应适当多给些含碳水化合物高的精饲料，使猪能够迅速沉积脂肪，加快肥育。",
+    "error_detail": "添加了关于限制运动量的指令，导致指令偏离型幻觉。",
+    "original_question": "催肥期应如何调整饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "选择猪柰时应注意其品种和价格。",
+    "reference_case": "不要到疫区里去选購猪電。",
+    "error_detail": "错误地偏离了原始指令，提到了品种和价格，而不是避免疫区。",
+    "original_question": "选择猪柰时应注意什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "汽车装运猪时不需要特别注意什么。",
+    "reference_case": "在车厢内加设活动木栏或采用装猪笼，控制猪的跳跃，开停和转弯要平稳，保证猪的安全。",
+    "error_detail": "错误地偏离了原始指令，忽略了安全措施的重要性。",
+    "original_question": "汽车装运猪时需要注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "编制猪群周转计划的主要任务是确保猪群的饮食健康。",
+    "reference_case": "确定各类猪只头数的增长变化和使年终保持有合理的结构，以防止生产中产生混乱现象和杜绝一切浪费。",
+    "error_detail": "错误地偏离了原始指令，提到了饮食健康而不是猪群结构和防止浪费。",
+    "original_question": "编制猪群周转计划的主要任务是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "编制财务计划时不需要考虑生产任务。",
+    "reference_case": "养猪场必须编制年度财务计划。财务计划也是根据生产任务来编制的，通过财务预算，便于全场职工理解计划年度内资金的来源和运用，以及经营活动的情况，便于职工对财务工作的民主管理和监督，启发他们的积极性。",
+    "error_detail": "错误地偏离了原始指令，忽略了生产任务的重要性。",
+    "original_question": "如何编制财务计划？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "必须满足猪的生物学特性要求；按不同季节特点安排不同工作内容及时间；明确安排每日主要工作项目，如喂料、运动、清扫等；特别护理工作项目应根据具体情况分别列入表中；合理安排工作人员的学习和休息。此外，还需考虑猪的音乐喜好。",
+    "reference_case": "必须满足猪的生物学特性要求；按不同季节特点安排不同工作内容及时间；明确安排每日主要工作项目，如喂料、运动、清扫等；特别护理工作项目应根据具体情况分别列入表中；合理安排工作人员的学习和休息。",
+    "error_detail": "指令偏离，错误地添加了与工作日程制订无关的猪的音乐喜好。",
+    "original_question": "工作日程的制订需遵循哪些原则？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "冯自科博士的专题报告内容是《经济\"后高速发展\" 时期中国猪产业发展探讨》，他对未来中国养猪业的发展趋势做了预测。",
+    "reference_case": "冯自科博士的专题报告内容是《经济\"后高速发展\" 时期中国猪产业发展探讨》，他对当前中国养猪业的现状进行了深入分析，并对经济低迷时期养猪业的发展趋势做了新的分享。",
+    "error_detail": "错误地改变了报告内容的描述，忽略了原始输出中对当前现状的分析和经济低迷时期的分享。",
+    "original_question": "会议中，冯自科博士的专题报告内容是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "在猪伪狂犬病病毒三基因缺失疫苗的研究中，通过电穿孔法将构建好的质粒pBTK与gI⁻/gE⁻ PRV SA738双基因缺失株基因组共转染BHK-21细胞。",
+    "reference_case": "在猪伪狂犬病病毒三基因缺失疫苗的研究中，通过脂质体介导法将构建好的质粒pBTK与gI⁻/gE⁻ PRV SA738双基因缺失株基因组共转染BHK-21细胞，然后通过蚀斑法进行筛选，直至阳性率达100%。",
+    "error_detail": "错误地改变了转染方法，而原始输出中明确指出是通过脂质体介导法。",
+    "original_question": "在猪伪狂犬病病毒三基因缺失疫苗的研究中，如何筛选重组病毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪疥螨病的初步诊断依据是观察病畜的行为。",
+    "reference_case": "根据流行特点和典型症状可作出初步诊断，确诊需要刮取患部表层皮痂下湿润的皮屑镜检。",
+    "error_detail": "偏离了原始指令，提出了不相关的诊断依据。",
+    "original_question": "猪疥螨病的初步诊断依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪肺线虫病的诊断方法是通过血液检测。",
+    "reference_case": "用硫酸镁或硫代硫酸钠饱和溶液漂浮法检查虫卵即可确诊。",
+    "error_detail": "提出了不相关的诊断方法。",
+    "original_question": "猪肺线虫病的诊断方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪、羊、犬、猫、兔的乳房炎治疗方法与奶牛完全不同。",
+    "reference_case": "临床症状和治疗方法大同小异，但用药剂量需根据不同的畜种和情况加以把握。",
+    "error_detail": "需求冲突",
+    "original_question": "猪、羊、犬、猫、兔的乳房炎治疗方法与奶牛有何异同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "怀柔县应完全停止饲养山羊，转而发展猪、绵羊、牛、鸡等。",
+    "reference_case": "调整家畜种类比例构成，多发展饲养猪、绵羊、牛、鸡等，控制山羊数量，发展多种自留畜，在北部山区利用山场发展菜牛生产。",
+    "error_detail": "需求冲突",
+    "original_question": "怀柔县如何调整牧业结构？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "3龄后的螳螂若虫食量较大，只靠有限的活饵料很难满足需要，必须配制人工饲料。推荐三个配方：鸡蛋黄、蜂蜜、蔗糖、酵母片蒸煮后的混合物；鲜猪肝和蔗糖拌匀；水、鲜猪肝、蚜虫粉、豆粉、蔗糖、琼脂、酵母片的混合物。此外，还可以添加维生素和矿物质补充剂。",
+    "reference_case": "3龄后的螳螂若虫食量较大，只靠有限的活饵料很难满足需要，必须配制人工饲料。推荐三个配方：鸡蛋黄、蜂蜜、蔗糖、酵母片蒸煮后的混合物；鲜猪肝和蔗糖拌匀；水、鲜猪肝、蚜虫粉、豆粉、蔗糖、琼脂、酵母片的混合物。",
+    "error_detail": "添加了额外的维生素和矿物质补充剂建议，偏离了原始指令",
+    "original_question": "如何人工饲养3龄后的螳螂若虫？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "青霉素 G 用于治疗哪些疾病？主要用于对青霉素敏感的病原菌所引起的各种感染，如马腺疫、坏死杆菌病、炭疽、破伤风、恶性水肿、气肿疽、猪丹毒、各种呼吸道感染、牛肾盂肾炎、尿道炎、乳腺炎、子宫炎、败血症、化脓感染、放线菌病、钩端螺旋体病等。此外，还可以用于治疗狗的皮肤病。",
+    "reference_case": "主要用于对青霉素敏感的病原菌所引起的各种感染，如马腺疫、坏死杆菌病、炭疽、破伤风、恶性水肿、气肿疽、猪丹毒、各种呼吸道感染、牛肾盂肾炎、尿道炎、乳腺炎、子宫炎、败血症、化脓感染、放线菌病、钩端螺旋体病等。",
+    "error_detail": "添加了未经证实的狗的皮肤病治疗用途",
+    "original_question": "青霉素 G 用于治疗哪些疾病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "使用生物发酵饲料配合料喂猪，不需添加其他添加剂，不需蒸煮，用水拌湿适量直接饲喂，饲喂时保证30分钟内吃完，槽内不剩料。",
+    "reference_case": "使用生物发酵饲料配合料喂猪，不需添加其他添加剂，不需蒸煮，用水拌湿适量直接饲喂，饲喂时保证30分钟内吃完，槽内不剩料。",
+    "error_detail": "错误地偏离了原始指令，添加了不必要的饲喂时间限制。",
+    "original_question": "生物发酵饲料的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "绝对不可以，因为发霉饲料或原料可能导致畜禽生产性能的巨大损失，应符合国家强制执行的《饲料卫生标准》。",
+    "reference_case": "绝对不可以，因为发霉饲料或原料可能导致畜禽生产性能的巨大损失，应符合国家强制执行的《饲料卫生标准》。",
+    "error_detail": "错误地偏离了原始指令，添加了不必要的法律标准引用。",
+    "original_question": "发霉饲料或原料是否可以喂猪鸡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "不同用途猪的专门管理方法在文中提及，具体内容在第290页。",
+    "reference_case": "不同用途猪的专门管理方法在文中提及，具体内容在第288页。",
+    "error_detail": "错误地改变了页码，偏离了原始指令。",
+    "original_question": "不同用途猪的专门管理方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "根据猪群类别、任务所占天数和单元数计算出猪群的栏位数，并考虑季节性变化。",
+    "reference_case": "根据猪群类别、任务所占天数和单元数计算出猪群的栏位数。",
+    "error_detail": "错误地添加了季节性变化的考虑。",
+    "original_question": "猪群的栏位数如何计算？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "外部观察法的优点是结合了解母畜以往发情、配种、妊娠情况；输精时间及输精后表现，如有无不明显发情等情况。缺点是不能早期和准确地进行妊娠诊断，但对牛马等大家畜来说并不重要。对猪、羊、兔等中小动物，在妊娠中期后，可隔着腹壁直接触及胎儿，较为实用可靠。此外，外部观察法还可以用于判断母畜的健康状况。",
+    "reference_case": "外部观察法的优点是结合了解母畜以往发情、配种、妊娠情况；输精时间及输精后表现，如有无不明显发情等情况。缺点是不能早期和准确地进行妊娠诊断，但对牛马等大家畜来说并不重要。对猪、羊、兔等中小动物，在妊娠中期后，可隔着腹壁直接触及胎儿，较为实用可靠。",
+    "error_detail": "添加了与原始问题无关的信息'判断母畜的健康状况'",
+    "original_question": "外部观察法在妊娠诊断中的优缺点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪耳静脉注射法的操作步骤是：将针头与药液连接，右手按住针头结合部，左手推进药液，注射完毕用碘酊棉球压住针孔，左手迅速拔针，然后涂擦酒精。",
+    "reference_case": "将针头与药液连接，左手按住针头结合部，右手推进药液，注射完毕用酒精棉球压住针孔，右手迅速拔针，然后涂擦碘酊。",
+    "error_detail": "左右手操作和消毒步骤颠倒，导致指令偏离。",
+    "original_question": "猪耳静脉注射法的操作步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪腹腔注射的操作步骤是：将猪两前肢提起倒立保定，局部剪毛消毒，操作者右手捏起腹侧壁，左手持注射器垂直刺入 5 cm ，快速注入药液或输液，拔出针头，消毒局部。",
+    "reference_case": "将猪两后肢提起倒立保定，局部剪毛消毒，操作者左手捏起腹侧壁，右手持注射器垂直刺入 2~3 cm ，缓慢注入药液或输液，拔出针头，消毒局部。",
+    "error_detail": "操作步骤和刺入深度错误，导致指令偏离。",
+    "original_question": "猪腹腔注射的操作步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪的灌药法的操作步骤是：助手固定猪，术者以右手打开口腔，左手持喂药匙或不接针头的金属注射器从口角插入口腔，快速注入药液，大猪时应将猪做适当保定，助手用木棍将嘴张开，操作者用灌药瓶自口角插入迅速灌入药液。",
+    "reference_case": "助手固定猪，术者以左手打开口腔，右手持喂药匙或不接针头的金属注射器从口角插入口腔，注人药液，大猪时应将猪做适当保定，助手用木棍将嘴张开，操作者用喂药匙或灌药瓶自口角插入缓缓灌人药液。",
+    "error_detail": "左右手操作和注入速度错误，导致指令偏离。",
+    "original_question": "猪的灌药法的操作步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "改变环境温度可以显著提高生长育肥猪的体重增长速度。",
+    "reference_case": "改变环境温度可以影响生长育肥猪的性能。",
+    "error_detail": "指令偏离，添加了具体的性能指标（体重增长速度），而原始输出更为通用。",
+    "original_question": "如何通过改变环境温度来影响生长育肥猪的性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪的预防用生物制品用于提高猪的生长速度。",
+    "reference_case": "猪的预防用生物制品用于防治猪病。",
+    "error_detail": "指令偏离，改变了生物制品的主要用途。",
+    "original_question": "猪病防制中使用生物制品的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪场布局要求生产区、生活区和隔离区应混合布置。",
+    "reference_case": "猪场布局要求生产区、生产管理区、生活区和隔离区应严格分开。生产区要建在地势较高，离生活区、生产管理区100 m以外的上风处。",
+    "error_detail": "指令偏离，建议混合布置区域，与严格分开的要求冲突。",
+    "original_question": "猪场布局应如何安排？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "如何防止猪舍内的有害气体？通过增加猪舍内的猪只密度。",
+    "reference_case": "除通风换气外，还应采取及时清除粪、尿、污水等综合性措施。",
+    "error_detail": "指令偏离，提出了与防止有害气体相反的建议。",
+    "original_question": "如何防止猪舍内的有害气体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "妊娠母猪K99双介基因苗在分娩前5～10天耳根深部皮下接种2mL。",
+    "reference_case": "K99双介基因苗在分娩前10～20天耳根深部皮下接种1mL。",
+    "error_detail": "错误地改变了接种时间和注射量。",
+    "original_question": "猪大肠杆菌疫苗的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "双重 RT-PCR 方法在临床检测中表现出低特异性和敏感性，不适用于猪瘟病毒和牛病毒性腹泻病毒的临床分子检测。",
+    "reference_case": "双重 RT-PCR 方法在临床检测中表现出高特异性和敏感性，可以用于猪瘟病毒和牛病毒性腹泻病毒的临床分子检测，也可用于猪瘟疫苗的质量控制。",
+    "error_detail": "错误地改变了方法的评价和应用范围。",
+    "original_question": "双重 RT-PCR 方法在临床检测中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "生化鉴定方法包括V因子依赖性试验、溶血性试验、尿素酶试验、接触酶试验、靛基质试验。",
+    "reference_case": "生化鉴定方法包括V因子依赖性试验、溶血性试验、尿素酶试验、接触酶试验、靛基质试验、山梨醇试验、葡萄糖试验、半乳糖试验、蔗糖试验、甘露糖试验、麦芽糖试验、木糖试验、果糖试验和阿拉伯糖试验。",
+    "error_detail": "错误地省略了多种生化鉴定方法。",
+    "original_question": "猪胸膜肺炎放线杆菌、副猪嗜血杆菌和多杀性巴氏杆菌的生化鉴定方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "通过病料的革兰氏染色镜检和PCR检测可以诊断猪接触传染性胸膜肺炎。",
+    "reference_case": "通过病料的革兰氏染色镜检，直接镜检，细菌分离鉴定，血清学检查等方法可以诊断猪接触传染性胸膜肺炎。",
+    "error_detail": "错误地添加了PCR检测方法，原始输出中并未提及。",
+    "original_question": "猪接触传染性胸膜肺炎的诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪弓形虫病的主要病变部位包括肝、肺、胃、膀胱，以及心包积液，病变组织器官可检出虫体，特别是在使用显微镜观察时。",
+    "reference_case": "猪弓形虫病的主要病变部位包括肝、肺、胃、膀胱，以及心包积液，病变组织器官可检出虫体。",
+    "error_detail": "错误地添加了使用显微镜观察的细节，原始输出中并未提及。",
+    "original_question": "猪弓形虫病的主要病变部位有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "应注意观察病猪是否出现鼻膜溃疡、黄白色假膜形成以及坏死病变是否波及鼻甲软骨、面骨等。若出现这些症状则为猪传染性坏死鼻炎，而非营养缺乏症—骨软病，特别是在饲料中缺乏维生素D的情况下。",
+    "reference_case": "应注意观察病猪是否出现鼻膜溃疡、黄白色假膜形成以及坏死病变是否波及鼻甲软骨、面骨等。若出现这些症状则为猪传染性坏死鼻炎，而非营养缺乏症—骨软病。",
+    "error_detail": "错误地添加了饲料中缺乏维生素D的情况，原始输出中并未提及。",
+    "original_question": "如何鉴别猪传染性坏死鼻炎与其他疾病？",
+    "original_input": ""
+  }
+]

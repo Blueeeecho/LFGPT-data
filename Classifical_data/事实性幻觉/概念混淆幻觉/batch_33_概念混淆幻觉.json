@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "注射猪瘟、猪丹毒、猪肺疫的治疗针。",
+    "reference_case": "注射猪瘟、猪丹毒、猪肺疫的预防针。",
+    "error_detail": "“猪三针”被错误地描述为治疗针，与原始定义中的预防针相反。",
+    "original_question": "快速养猪法中“猪三针”指的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "预防方法包括使用布氏杆菌猪型5号弱毒活菌苗进行饮水免疫或冻干布氏杆菌羊型2号弱毒活菌苗进行注射或喷雾免疫。治疗包括隔离病羊，消毒羊圈、水源、用具，处理病羊的粪尿和流产胎儿，检疫阳性患者一次淘汰。",
+    "reference_case": "预防方法包括使用布氏杆菌猪型2号弱毒活菌苗进行饮水免疫或冻干布氏杆菌羊型5号弱毒活菌苗进行注射或喷雾免疫。治疗包括隔离病羊，消毒羊圈、水源、用具，处理病羊的粪尿和流产胎儿，检疫阳性患者一次淘汰。",
+    "error_detail": "布氏杆菌猪型和羊型弱毒活菌苗的型号被错误地互换，导致概念混淆。",
+    "original_question": "防治布氏杆菌病的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "哺乳母猪添加适量蛋白质可以减少掉膘，有利于母猪断奶后提早发情配种。",
+    "reference_case": "哺乳母猪添加适量脂肪可以减少掉膘，有利于母猪断奶后提早发情配种。",
+    "error_detail": "错误地将脂肪替换为蛋白质，导致概念混淆，影响回答的准确性。",
+    "original_question": "哺乳母猪添加适量脂肪有何好处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "缺乏钙、磷会导致猪食欲减退、消瘦，出现异食癖，哺乳仔猪可能出现抽搐、昏迷、四肢大跨度动作等缺铁症状。",
+    "reference_case": "缺乏钙、磷会导致猪食欲减退、消瘦，出现异食癖，哺乳仔猪可能出现抽搐、昏迷、四肢大跨度动作等缺钙症状。",
+    "error_detail": "错误地将缺钙症状描述为缺铁症状，导致概念混淆。",
+    "original_question": "缺乏钙、磷对猪有何早期症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "硒可以增加猪对维生素 E 的需求量和加重因缺乏维生素 E 给猪造成的损害，与维生素 E 代谢有密切联系。",
+    "reference_case": "硒可以降低猪对维生素 E 的需求量和减轻因缺乏维生素 E 给猪造成的损害，与维生素 E 代谢有密切联系。",
+    "error_detail": "错误地描述了硒对维生素E需求量的影响，从降低变为增加，导致概念混淆。",
+    "original_question": "硒对猪有哪些作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪缺硒可导致繁殖障碍，仔猪肥胖、便秘，肌肉过度发育、颜色变黑患黑肌病。",
+    "reference_case": "猪缺硒可导致繁殖障碍，仔猪贫血、下痢，肌肉退化萎缩、颜色变白患白肌病。",
+    "error_detail": "错误地描述了缺硒症状，将贫血、下痢、白肌病错误描述为肥胖、便秘、黑肌病。",
+    "original_question": "猪缺硒会出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "预防或治疗猪缺硒症可以用硫酸钠（Na2SO4）进行皮下或肌内注射。",
+    "reference_case": "预防或治疗猪缺硒症可以用亚硒酸钠（Na2SeO3）进行皮下或肌内注射。",
+    "error_detail": "错误地将亚硒酸钠替换为硫酸钠，导致概念混淆。",
+    "original_question": "预防或治疗猪缺硒症可以使用哪种药物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "维生素A缺乏会导致猪生长加速、发生湿眼病、昼盲症、上皮细胞软化影响多种系统，表现为皮肤油腻、被毛光泽增强、四肢强健、放松等症状。",
+    "reference_case": "维生素A缺乏会导致猪生长停滞、发生干眼病、夜盲症、上皮细胞角质化影响多种系统，表现为皮肤干燥、被毛失去光泽、四肢跛行、痉挛等症状。",
+    "error_detail": "错误地描述了维生素A缺乏的症状，与实际情况完全相反。",
+    "original_question": "维生素A缺乏会导致猪出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪维生素D的主要来源是食物中的胆固醇经红外线照射后转化，也可通过新鲜的干草提供。",
+    "reference_case": "猪维生素D的主要来源是皮肤中的7-脱氢胆固醇经紫外线照射后转化，也可通过晒干的干草提供。",
+    "error_detail": "错误地将紫外线照射描述为红外线照射，导致概念混淆。",
+    "original_question": "猪维生素D的主要来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "苦麻菜任何时候都不可以连根拔起喂猪。",
+    "reference_case": "苦麻菜最后－萑可连根拨起喂猪。",
+    "error_detail": "错误地否定了苦麻菜可以连根拔起喂猪的可能性，与实际情况不符。",
+    "original_question": "苦麻菜在什么情况下可以连根拔起喂猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "芭蕉芋芋头不能直接作为精料喂猪，茎叶和根不可作为青饲料，老茎秆不可造纸搓绳。",
+    "reference_case": "芭蕉芋芋头可以直接作为精料喂猪，茎叶和根可作为青饲料，老茎秆还可造纸搓绳。",
+    "error_detail": "错误地否定了芭蕉芋的多种用途，与实际情况完全相反。",
+    "original_question": "芭蕉芋如何作为猪饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "芭蕉芋茎叶不可打浆或发酵喂，也不可青贮。",
+    "reference_case": "芭蕉芋茎叶可打浆或发酵喂，也可青贮。",
+    "error_detail": "错误地否定了芭蕉芋茎叶的多种处理方法，与实际情况完全相反。",
+    "original_question": "如何利用芭蕉芋茎叶喂猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "应选择单一树叶品种，并与其他青饲料混合喂猪以提高其饲用价值。",
+    "reference_case": "应选择多样搭配的树叶品种，并与其他青饲料混合喂猪以提高其饲用价值。",
+    "error_detail": "将'多样搭配'错误地改为'单一'，违背了饲料多样化的原则。",
+    "original_question": "喂猪时应如何选择树叶的品种？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "应单一化搭配饲料，仅使用鱼粉作为蛋白质来源。",
+    "reference_case": "应多样化搭配饲料，包括鱼粉、大豆饼、花生饼等含蛋白质较多的精饲料，苜蓿、大豆叶、花生秧等含蛋白质较多的粗饲料以及各种青饲料，以提高蛋白质品质。",
+    "error_detail": "将'多样化搭配'错误地改为'单一化'，违背了饲料多样化的原则。",
+    "original_question": "喂公猪的饲料应如何搭配？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "可添加小鱼、小虾等植物性饲料或乳类、肉类加工副产品、鱼粉等，以提高精液品质。",
+    "reference_case": "可添加小鱼、小虾等动物性饲料或乳类、肉类加工副产品、鱼粉等，以提高精液品质。",
+    "error_detail": "将动物性饲料错误地描述为植物性饲料",
+    "original_question": "配种季节可为公猪添加哪些动物性饲料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "经常用湿布或软刷子刷拭公猪皮肤，保持皮肤清洁、促进血液循环，加强新陈代谢和增进食欲。",
+    "reference_case": "经常用干草把或硬刷子刷拭公猪皮肤，保持皮肤清洁、促进血液循环，加强新陈代谢和增进食欲。",
+    "error_detail": "错误的清洁工具描述",
+    "original_question": "如何保持公猪皮肤清洁和促进新陈代谢？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "乳汁含有乳脂肪、乳蛋白质、乳糖、矿物质和维生素，猪乳中脂肪和蛋白质含量比牛乳、山羊乳低。",
+    "reference_case": "乳汁含有乳脂肪、乳蛋白质、乳糖、矿物质和维生素，猪乳中脂肪和蛋白质含量比牛乳、山羊乳高。",
+    "error_detail": "错误地陈述了猪乳中脂肪和蛋白质含量比牛乳、山羊乳低，实际上猪乳中这些成分的含量更高。",
+    "original_question": "猪乳含有哪些营养成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "太湖猪性情暴躁，肉质差。",
+    "reference_case": "太湖猪性情温驯，肉质好。",
+    "error_detail": "错误地描述了太湖猪的性情和肉质",
+    "original_question": "太湖猪的肉质特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "荣昌猪全身黑色，无任何白色部分。",
+    "reference_case": "荣昌猪全身白色，两眼周围和面部有小块黑毛，前额部有\"旋毛\"，耳中等大而下垂，背腰微凹，腹大下垂不拖地，成年公猪体重约150公斤，成年母猪体重约140公斤。",
+    "error_detail": "错误地描述了荣昌猪的毛色",
+    "original_question": "荣昌猪的体型和毛色特征有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "香猪体型大，耗料多，晚熟难肥，皮厚骨粗。",
+    "reference_case": "香猪体型小，耗料少，早熟易肥，皮薄骨细，头较直，耳较小略平伸或稍下垂，身躯短，背腰宽微凹，腹大下垂，后躯较丰满，四肢短细，成年公猪体重约37公斤，母猪体重约40公斤。",
+    "error_detail": "错误地描述了香猪的体型、耗料、成熟度、皮骨特征",
+    "original_question": "香猪的体型特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "哈尔滨白猪全身黑色，头大耳垂，面凸。",
+    "reference_case": "哈尔滨白猪全身白色，头中等大，耳直立，面微凹；背腰宽平，腹稍夫不下垂，腿賏丰满，四肢健壮，体质结实，体型中等大，比较早熟，成年公猪体重约220公斤，母猪约175公斤。",
+    "error_detail": "错误地描述了哈尔滨白猪的毛色、头部特征",
+    "original_question": "哈尔滨白猪的主要体型特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "世代间隔是指从这一代动物出生到它的下一代动物出生的时间段，无需考虑种用状况。",
+    "reference_case": "世代间隔是指从这一代动物出生到它的留作种用的下一代动物出生的时间段，通常主张在母猪第二胎以上选留后备猪，以避免过早繁殖导致后代品质不良。",
+    "error_detail": "错误地忽略了种用状况的重要性",
+    "original_question": "什么是世代间隔？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "规模经济理论表明，随着养殖规模的扩大，平均成本会逐渐上升。",
+    "reference_case": "规模经济理论表明，随着养殖规模的扩大，平均成本会逐渐降低，直到达到最佳规模后，平均成本开始上升。因此，生猪养殖应寻找最佳规模点，以实现最低平均成本和最高经济效益。",
+    "error_detail": "错误地描述了规模经济理论的影响",
+    "original_question": "规模经济理论对生猪养殖有何启示？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "生猪饲养风险仅包括市场风险和法律风险。",
+    "reference_case": "生猪饲养风险是指在生猪养殖过程中由于疫病、市场波动、法律问题等因素可能导致的经济损失。养殖户在生猪养殖过程中可能面临的具体风险包括：疫情风险（疫病传播导致经济损失）、市场风险（猪肉价格波动导致收益不稳定）、法律风险（土地使用合法性问题、逃避防疫责任、环境污染问题）以及生产管理风险（技术不足、成本控制不当等）。",
+    "error_detail": "错误地忽略了疫情风险和生产管理风险",
+    "original_question": "什么是生猪饲养风险？养殖户在生猪养殖过程中可能面临哪些具体风险？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "添加外源微生物会降低堆肥中泰乐菌素的降解率。",
+    "reference_case": "添加外源微生物可以显著提高堆肥中泰乐菌素的降解率，同时改善堆肥的理化性质，如温度、含水率和pH值。此外，添加外源微生物可以降低堆肥产品的毒性，促进堆肥的彻底完成，提高堆肥产品的安全性。",
+    "error_detail": "错误地描述了外源微生物的影响",
+    "original_question": "添加外源微生物对猪粪堆肥中泰乐菌素的降解有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "兰州市养猪业在品种退化和环境恶化方面取得了显著进步。",
+    "reference_case": "兰州市养猪业在品种改良、科学饲养、环境控制、疾病防治、屠宰检疫等方面取得了显著进步。",
+    "error_detail": "错误地描述了进步的性质",
+    "original_question": "兰州市养猪业在哪些方面取得了显著进步？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "年龄选配是指在猪的品质选配或亲缘选配时，不考虑年龄因素进行交配。",
+    "reference_case": "在猪的品质选配或亲缘选配时，结合考虑选择年龄最适合的公、母猪进行交配，以期获得更加理想的后代。",
+    "error_detail": "错误地描述了年龄选配不考虑年龄因素。",
+    "original_question": "什么是年龄选配？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "用六代以内有共同祖先的公母猪交配，叫做近亲繁殖。",
+    "reference_case": "用四代以内有共同祖先的公母猪交配，叫做近亲繁殖。",
+    "error_detail": "错误地扩展了近亲繁殖的定义范围。",
+    "original_question": "什么是近亲繁殖？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的定向培育是指随机饲养管理，不考虑猪的遗传性生产水平。",
+    "reference_case": "按猪品种的遗传性生产水平所要求的饲养管理条件，在猪的不同生理阶段进行合理饲养管理，使猪充分发挥它最大可能的遗传性生产水平。",
+    "error_detail": "错误地描述了定向培育的方法。",
+    "original_question": "如何进行猪的定向培育？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "杂交改良是用相同品种的公母猪交配，以保持品种纯度。",
+    "reference_case": "杂交改良是用不同品种的公母猪交配，改良当地猪种以达到预期目的的过程。杂交后代称为杂种，正交和反交有所不同，正交是长白公猪和本地母猪交配，反交是本地公猪和长白母猪交配。为了达到预期目的，首先要查清本地猪的优缺点，选择合适的良种公猪进行杂交。母猪的质量也对改良效果有很大影响。杂交能提高猪群生产力，改良旧品种，创造新品种。",
+    "error_detail": "错误地描述了杂交改良的定义和方法。",
+    "original_question": "什么叫猪的杂交改良？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟的主要症状包括出血和坏死，尤其在盲瓣附近和盲肠、结肠粘膜上可见大小不一的扣状溃疡，呈轮状纤维素性坏死，突出于粘膜表面，这是猪丹毒的典型症状",
+    "reference_case": "猪瘟的主要症状包括出血和坏死，尤其在盲瓣附近和盲肠、结肠粘膜上可见大小不一的扣状溃疡，呈轮状纤维素性坏死，突出于粘膜表面",
+    "error_detail": "将猪瘟的症状错误地描述为猪丹毒的典型症状",
+    "original_question": "猪瘟的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪丹毒是由猪瘟病毒引起的猪的一种急性、败血性传染病",
+    "reference_case": "猪丹毒是由猪丹毒杆菌引起的猪的一种急性、败血性传染病",
+    "error_detail": "错误地将猪丹毒的病原体描述为猪瘟病毒，而非猪丹毒杆菌",
+    "original_question": "猪丹毒是由什么引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪丹毒主要通过呼吸道传染",
+    "reference_case": "猪丹毒主要通过消化道传染，皮肤伤口也能发生感染",
+    "error_detail": "错误地描述了猪丹毒的主要传播途径",
+    "original_question": "猪丹毒主要通过什么途径传染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "慢性型猪丹毒主要病状是肺炎和关节炎或二者并发",
+    "reference_case": "慢性型猪丹毒主要病状是心内膜炎和关节炎或二者并发",
+    "error_detail": "错误地将慢性型猪丹毒的主要病状描述为肺炎和关节炎",
+    "original_question": "猪丹毒的慢性症状包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "急性死亡的病猪，可见皮肤发红，淋巴结肿大，紫红色，切面多汁，有出血点；胃底部、十二指肠及空肠前段粘膜红肿，上附粘液，并见出血点；脾急性肿大，质软，紫红色，切面髓质隆起，实质易刮脱；肾肿大，呈不均匀紫色，切面皮质部有针头大小的红点，红点稍隆起。这是猪瘟的典型病变",
+    "reference_case": "急性死亡的病猪，可见皮肤发红，淋巴结肿大，紫红色，切面多汁，有出血点；胃底部、十二指肠及空肠前段粘膜红肿，上附粘液，并见出血点；脾急性肿大，质软，紫红色，切面髓质隆起，实质易刮脱；肾肿大，呈不均匀紫色，切面皮质部有针头大小的红点，红点稍隆起",
+    "error_detail": "错误地将猪丹毒的病变描述为猪瘟的典型病变",
+    "original_question": "猪丹毒的主要病变部位有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "抗猪丹毒血清可用于治疗，用量根据猪的体重而定，通常皮下或静脉注射。血清与土霉素配合应用，疗效更高",
+    "reference_case": "抗猪丹毒血清可用于治疗，用量根据猪的体重而定，通常皮下或静脉注射。血清与青霉素配合应用，疗效更高",
+    "error_detail": "错误地将与血清配合应用的抗生素从青霉素改为土霉素",
+    "original_question": "治疗猪丹毒的血清疗法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪的“锁喉疯”是一种由猪瘟病毒引起的传染病，名叫猪瘟",
+    "reference_case": "猪的“锁喉疯”是一种由巴氏杆菌引起的传染病，名叫猪巴氏杆菌病，又叫猪肺疫",
+    "error_detail": "错误地将“锁喉疯”的病原体描述为猪瘟病毒，而非巴氏杆菌",
+    "original_question": "猪的“锁喉疯”是什么病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "急性死亡的病猪主要呈现咽喉炎，咽喉部粘膜充血、水肿、增厚；喉头周围组织有浆液性黄红色液体，皮下组织出血；颈部淋巴结肿大，切面出血；气管、支气管粘膜都有出血点。肺充血、水肺，肺小叶间充满浆液。心包及胸腔积液，并有纤维素，有时心外膜有出血。这是猪丹毒的典型病变",
+    "reference_case": "急性死亡的病猪主要呈现咽喉炎，咽喉部粘膜充血、水肿、增厚；喉头周围组织有浆液性黄红色液体，皮下组织出血；颈部淋巴结肿大，切面出血；气管、支气管粘膜都有出血点。肺充血、水肺，肺小叶间充满浆液。心包及胸腔积液，并有纤维素，有时心外膜有出血",
+    "error_detail": "错误地将猪肺疫的病变描述为猪丹毒的典型病变",
+    "original_question": "猪肺疫的主要病变部位有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "拉稀，粪便稀薄如水，呈黄色或灰黄色，有气泡并带腥臭味，后期肛门失禁，粪水粘污尾根和后肢，后期衰弱，眼窝下陷，很快死亡。这是仔猪白痢病的主要症状",
+    "reference_case": "拉稀，粪便稀薄如水，呈黄色或灰黄色，有气泡并带腥臭味，后期肛门失禁，粪水粘污尾根和后肢，后期衰弱，眼窝下陷，很快死亡",
+    "error_detail": "错误地将仔猪黄痢病的症状描述为仔猪白痢病的主要症状",
+    "original_question": "仔猪黄痢病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "不同血清型的沙门氏菌（常见的有O60、O116、O188、O138、O141、O148等）",
+    "reference_case": "不同血清型的大肠杆菌（常见的有O60、O116、O188、O138、O141、O148等）",
+    "error_detail": "错误地将仔猪黄痢病的病原体描述为沙门氏菌，而非大肠杆菌",
+    "original_question": "仔猪黄痢病的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪黄痢病的治疗药物有青霉素、链霉素、金霉素、四环素、土霉素。",
+    "reference_case": "痢特灵、土霉素、氯霉素注射液、磺胺二甲嘧啶、磺胺-5-甲氧嘧啶、庆大霉素。",
+    "error_detail": "错误地将治疗其他疾病的药物误认为是治疗仔猪黄痢病的药物。",
+    "original_question": "仔猪黄痢病的治疗药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪红痢病的病原是A型魏氏梭菌。",
+    "reference_case": "C型魏氏梭菌（又叫产气英膜杆菌）。",
+    "error_detail": "错误地将病原类型从C型混淆为A型。",
+    "original_question": "仔猪红痢病的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "仔猪红痢病的治疗药物有青霉素、链霉素。",
+    "reference_case": "硫酸抗敌素、新霉素。",
+    "error_detail": "错误地将治疗其他疾病的药物误认为是治疗仔猪红痢病的药物。",
+    "original_question": "仔猪红痢病的治疗药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "怀孕母猪的常见病状包括流产、产出死胎或木乃伊胎、发育正常的胎儿但生活力弱、出生后几天内死亡，有的生长发育很好，食欲不振。",
+    "reference_case": "怀孕母猪的病状包括流产、产出死胎或木乃伊胎、发育正常的胎儿但生活力弱、出生后几天内死亡，有的生长发育很好。",
+    "error_detail": "错误地添加了食欲不振这一症状。",
+    "original_question": "怀孕母猪的常见病状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "布氏杆菌病的主要症状是流产，母猪多在怀孕后一个月发生流产。",
+    "reference_case": "布氏杆菌病的主要症状是流产，母猪多在怀孕后两三个月发生流产，产下死胎多，产后少发生胎衣停滞，常伴有下痢、精神不振、食欲减退等症状。",
+    "error_detail": "错误地缩短了流产发生的时间。",
+    "original_question": "布氏杆菌病的主要症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "布氏杆菌病通过病猪的粪便、尿液等排出体外。",
+    "reference_case": "布氏杆菌病通过病猪的流产胎儿、胎衣、尿、乳汁等排出体外，污染饲料、饮水及猪舍，也可通过交配传播。",
+    "error_detail": "错误地遗漏了流产胎儿、胎衣、乳汁等传播途径。",
+    "original_question": "布氏杆菌病的传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪传染性胃肠炎通过消化道感染。",
+    "reference_case": "通过消化道和呼吸道感染，病猪经粪便排出病毒，污染猪体、猪圈、饲料、饮水及周围环境，健康猪通过接触感染。",
+    "error_detail": "错误地遗漏了呼吸道感染途径。",
+    "original_question": "猪传染性胃肠炎的传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "病原体通过病猪的粪便，污染土壤、水、饲料、槽草。",
+    "reference_case": "病原体通过病猪的尿液，污染土壤、水、饲料、槽草，接触经损伤的皮肤、粘膜及消化道而造成传染。",
+    "error_detail": "错误地将尿液混淆为粪便。",
+    "original_question": "钩端螺旋体病的传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "根据临诊病症、剖检变化以及流行情况综合分析。有条件单位可采集病料，进行血液学试验。",
+    "reference_case": "根据临诊病症、剖检变化以及流行情况综合分析。有条件单位可采集病料，进行血清学试验及病原体检査。",
+    "error_detail": "错误地将血清学试验混淆为血液学试验。",
+    "original_question": "猪钩端螺旋体病的诊断依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪钩端螺旋体病的治疗方式有青霉素按每公斤体重5000单位，肌肉注射。",
+    "reference_case": "抗猪钩端螺旋体病血清治疗，效果很好。抗血清每次20-40毫升，间隔一天，皮下注射，连续3-4次。青霉素按每公斤体重10000单位，肌肉注射，可使病情好转。链霉素每公斤体重40-50毫克，每天一次，连续3-5天，结合对症疗法，也能得到满意的效果。金霉素、四环素、土霉素等均有一定的疗效。",
+    "error_detail": "错误地减少了青霉素的剂量。",
+    "original_question": "猪钩端螺旋体病的治疗方式有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "防治猪钩端螺旋体病的措施包括使用抗生素治疗和疫苗接种。",
+    "reference_case": "做好定期驱虫；搞好猪圈和运动场地的环境卫生；猪粪要经常清扫，并用高温堆肥的方法处理，既可提高肥效，又能杀灭许多种寄生虫的虫卵和幼虫。",
+    "error_detail": "错误地将防治措施集中在抗生素和疫苗接种上，忽略了环境卫生和粪便处理的重要性。",
+    "original_question": "防治猪钩端螺旋体病的措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪蛔虫病主要症状为高烧和咳嗽。",
+    "reference_case": "猪蛔虫病主要症状为精神萎靡，食欲不振，营养不良、消瘦，贫血，生长发育缓慢或停滞，严重的成为僵猪，增重率约比正常小猪低30%。",
+    "error_detail": "错误地将高烧和咳嗽作为主要症状，忽略了实际的主要症状。",
+    "original_question": "猪蛔虫病的主要症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "胃卡他时猪的表现包括高烧和咳嗽。",
+    "reference_case": "精神不振，喜卧暗处，舌苔增厚，口色略黄染，口有特殊气味，口渴，食欲不振，有时呕吐，粪少干燥，杂有未消化食物。",
+    "error_detail": "错误地将高烧和咳嗽作为胃卡他的表现，忽略了实际的主要症状。",
+    "original_question": "胃卡他时猪的表现有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "母猪产后痽疾的常见症状包括高烧和咳嗽。",
+    "reference_case": "食欲减退或拒食，行动迟钝，类便干硬如算盘子状，喜饮清水，但不饮料水，有拱地、舐砖、食粪等异食现象；母猪痽后弓背，便秘，呆立，站立不能持久，常交换踏步，喜卧，行走时后躯摇摆、无力，严重时起立困难；母猪痽卧于地，消瘦，直至死亡；发生痽疾的母猪泌乳力显著下降，有时拒绝哺乳；严重时，骨骼变形，面骨肿胀，关节变形，粗大，助骨有珠状突起；剖检病猪时，发现骨质疏松呈蜂窝状，脆弱，或有骨折痕迹。",
+    "error_detail": "错误地将高烧和咳嗽作为母猪产后痽疾的表现，忽略了实际的主要症状。",
+    "original_question": "母猪产后痽疾的常见症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪亚硝酸盐中毒的主要临床症状包括高烧和咳嗽。",
+    "reference_case": "猪亚硝酸盐中毒主要表现为不安，走路摇晃，心跳增速，呼吸困难，张口伸舌，口吐白沫，呕吐，鼻端、口、舌、耳尖及眼粘膜呈紫蓝色，体温比正常低。严重时，卧地不起，全身抽搐，昏迷，最后窒息死亡。",
+    "error_detail": "错误地将高烧和咳嗽作为猪亚硝酸盐中毒的表现，忽略了实际的主要症状。",
+    "original_question": "猪亚硝酸盐中毒的主要临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "饲料加工调制时，用新鲜瓜菜类洗净后生喂，煮熟时用大火急煮，现煮现喂，煮后不要长时间存放；发酵或制成酸菜后再喂猪；不要用从耕地排出的水或浸泡有大量植物的池塘水调制饲料或饮用。",
+    "reference_case": "饲料加工调制时，用新鲜瓜菜类洗净后生喂，煮熟时用大火急煮，现煮现喂，煮后不要长时间存放；发酵或制成酸菜后再喂猪；不要用从耕地排出的水或浸泡有大量植物的池塘水调制饲料或饮用。",
+    "error_detail": "概念混淆幻觉（术语错误）",
+    "original_question": "如何预防猪亚硝酸盐中毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病猪不食或极度口渴，流涎，腹痛，便秘或腹泻，有时粪中带血，可能出现胃肠炎，脑水肿，心跳加快，呼吸困难，全身肌肉战栗。",
+    "reference_case": "病猪不食或极度口渴，流涎，腹痛，便秘或腹泻，有时粪中带血，可能出现胃肠炎，脑水肿，心跳加快，呼吸困难，全身肌肉战栗。",
+    "error_detail": "概念混淆幻觉（术语错误）",
+    "original_question": "食盐中毒的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "发芽马铃薯和茎叶含有马铃薯毒（龙费莫），该毒素在发芽部分含量最多，食用后能刺激胃肠道粘膜，损坏延脑和脊髓，引起中毒症状。",
+    "reference_case": "发芽马铃薯和茎叶含有马铃薯毒（龙费莫），该毒素在发芽部分含量最多，食用后能刺激胃肠道粘膜，损坏延脑和脊髓，引起中毒症状。",
+    "error_detail": "概念混淆幻觉（术语错误）",
+    "original_question": "为什么发芽马铃薯及茎叶喂猪能引起中毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "慢性中毒猪表现为食欲减退，粪便干硬带血，尿浑浊变黄，行走不稳，精神沉郁或沉郁和麻痹型，兴奋不安或沉郁、两耳下垂，后躯无力，行走摇晃，卧地不起，磨牙空嚼，流涎，严重时死亡。",
+    "reference_case": "慢性中毒猪表现为食欲减退，粪便干硬带血，尿浑浊变黄，行走不稳，精神沉郁或沉郁和麻痹型，兴奋不安或沉郁、两耳下垂，后躯无力，行走摇晃，卧地不起，磨牙空嚼，流涎，严重时死亡。",
+    "error_detail": "概念混淆幻觉（术语错误）",
+    "original_question": "霉玉米中毒的症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "直肠末端粘膜或直肠壁部分由肛门脱出，常见于仔猪、年老、瘦弱或分娩后的母猪，长期腹泻、慢性便秘、反复灌肠及维生素缺乏等也会引起。",
+    "reference_case": "直肠末端粘膜或直肠壁部分由肛门脱出，常见于仔猪、年老、瘦弱或分娩后的母猪，长期腹泻、慢性便秘、反复灌肠及维生素缺乏等也会引起。",
+    "error_detail": "概念混淆幻觉（术语错误）",
+    "original_question": "猪直肠脱出的常见原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "将病猪养在清洁干燥的圈舍内，喂给易消化的稀食，限制猪只剧烈奔跑，防止腹压过高，必要时用抗菌药物。",
+    "reference_case": "将病猪养在清洁干燥的圈舍内，喂给易消化的稀食，限制猪只剧烈奔跑，防止腹压过高，必要时用抗菌药物。",
+    "error_detail": "错误地将手术后护理措施应用于病猪，而非手术后的猪。",
+    "original_question": "手术后的护理措施是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "公猪精液的稀释液含有葡萄糖或蔗糖、卵黄、磺胺粉和蒸馏水。",
+    "reference_case": "公猪精液的稀释液含有葡萄糖或蔗糖、卵黄、磺胺粉和蒸馏水。",
+    "error_detail": "错误地重复了相同的信息，没有提供新的或不同的信息。",
+    "original_question": "公猪精液的稀释液成分是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "口蹄疫病毒可用赎牛肾细胞、仔猪肾细胞、地鼠肾细胞等几十种细胞进行培养。",
+    "reference_case": "口蹄疫病毒可用赎牛肾细胞、仔猪肾细胞、地鼠肾细胞等几十种细胞进行培养。",
+    "error_detail": "错误地重复了相同的信息，没有提供新的或不同的信息。",
+    "original_question": "口蹄疫病毒可用哪些细胞进行培养？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "狂犬病毒对鹿、小白鼠、大鼠、仓鼠、家兔、山羊、绵羊、牛有致病性，但对狗致病性减弱，对猪有耐受性。",
+    "reference_case": "狂犬病毒对鹿、小白鼠、大鼠、仓鼠、家兔、山羊、绵羊、牛有致病性，但对狗致病性减弱，对猪有耐受性。",
+    "error_detail": "错误地重复了相同的信息，没有提供新的或不同的信息。",
+    "original_question": "狂犬病毒对哪些动物有致病性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "动物、微生物及植物间的竞争导致大量种质资源流失，如非洲野猪、狒狒和豪猪导致地下根茎类植物消失，昆虫为害和寄生性真菌、细菌使植物种质流失。",
+    "reference_case": "动物、微生物及植物间的竞争导致大量种质资源流失，如非洲野猪、狒狒和豪猪导致地下根茎类植物消失，昆虫为害和寄生性真菌、细菌使植物种质流失。",
+    "error_detail": "错误地重复了相同的信息，没有提供新的或不同的信息。",
+    "original_question": "生物因素如何造成基因资源流失？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "为灰白色或暗红色海绵状疏松固体，加入稀释液后略加振摇，即完全溶解。",
+    "reference_case": "为灰白色或暗红色海绵状疏松固体，加入稀释液后略加振摇，即完全溶解。",
+    "error_detail": "错误地重复了相同的信息，没有提供新的或不同的信息。",
+    "original_question": "猪丹毒弱毒冻干菌苗性状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "单胃家畜如猪和马，饲料中的不饱和脂肪酸直接变为体脂肪，因此采食饲料中脂肪性质直接影响畜体脂肪性质。",
+    "reference_case": "单胃家畜如猪和马，饲料中的不饱和脂肪酸直接变为体脂肪，因此采食饲料中脂肪性质直接影响畜体脂肪性质。",
+    "error_detail": "错误地重复了相同的信息，没有提供新的或不同的信息。",
+    "original_question": "单胃家畜体脂肪的性质如何受饲料脂肪性质影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "麦麸含纤维较高（8.5%-12%），能量价值较低，粗蛋白质含量较高可达12.5%-17%，但氨基酸仍不平衡，麸皮中B组维生素含量高，含钙少，含磷多但可利用磷少。体积大，在生长、肥育猪和产蛋母鸡日粮中不宜用量高。在妊娠和分娩前后的母猪和生长鸡的日粮中占比例高些。麸皮还具有轻泻性，产后母畜可以适量的麸皮粥调节消化道机能。",
+    "reference_case": "麦麸含纤维较高（8.5%-12%），能量价值较低，粗蛋白质含量较高可达12.5%-17%，但氨基酸仍不平衡，麸皮中B组维生素含量高，含钙少，含磷多但可利用磷少。体积大，在生长、肥育猪和产蛋母鸡日粮中不宜用量高。在妊娠和分娩前后的母猪和生长鸡的日粮中占比例高些。麸皮还具有轻泻性，产后母畜可以适量的麸皮粥调节消化道机能。",
+    "error_detail": "错误地重复了相同的信息，没有提供新的或不同的信息。",
+    "original_question": "麦麸的营养价值和使用注意事项是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "鱼骨粉具有发挥补钙生物学功能的关键因素和优势，蛋白质质量比猪骨粉高，具有更大的利用价值。",
+    "reference_case": "鱼骨粉具有发挥补钙生物学功能的关键因素和优势，蛋白质质量比猪骨粉高，具有更大的利用价值。",
+    "error_detail": "错误地重复了相同的信息，没有提供新的或不同的信息。",
+    "original_question": "鱼骨粉在补钙方面具有哪些优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "贝壳粉可以治疗禽畜、鱼类缺钙引起的病症，提高乳汁和产蛋量等，添加比例为猪饲料中精料质量的4%~6%，鸡饲料中的5%~10%，鱼饲料中的2%~5%。",
+    "reference_case": "贝壳粉可以治疗禽畜、鱼类缺钙引起的病症，提高乳汁和产蛋量等，添加比例为猪饲料中精料质量的4%~6%，鸡饲料中的5%~10%，鱼饲料中的2%~5%。",
+    "error_detail": "错误地重复了相同的信息，没有提供新的或不同的信息。",
+    "original_question": "贝壳粉在饲料中添加的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "小麦麸是猪的优质饲料原料，也可用于奶牛、肉牛、羊和马等家畜。",
+    "reference_case": "小麦麸是猪的优质饲料原料，也可用于奶牛、肉牛、羊和马等家畜。",
+    "error_detail": "错误地重复了相同的信息，没有提供新的或不同的信息。",
+    "original_question": "小麦麸可用于哪些动物的饲料中？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "一般新鲜米糠在生长猪饲料中可用到10%-12%，肥育猪饲料中可用到30%，但用量宜控制在15%以下。",
+    "reference_case": "一般新鲜米糠在生长猪饲料中可用到10%-12%，肥育猪饲料中可用到30%，但用量宜控制在15%以下。",
+    "error_detail": "错误地重复了相同的信息，没有提供新的或不同的信息。",
+    "original_question": "米糠在猪饲料中的适用比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "米糠饼、粕在猪饲料中用量应控制在20%以下，但在奶牛和肉牛精料中可用至30%。",
+    "reference_case": "米糠饼、粕在猪饲料中用量应控制在20%以下，但在奶牛和肉牛精料中可用至30%。",
+    "error_detail": "错误地重复了相同的信息，没有提供新的或不同的信息。",
+    "original_question": "米糠饼、粕在猪饲料中的适用比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "适用于任何阶段的家禽、猪、奶牛和肉牛。",
+    "reference_case": "适用于任何阶段的家禽、猪、奶牛和肉牛。",
+    "error_detail": "错误地重复了相同的信息，没有提供新的或不同的信息。",
+    "original_question": "大豆饼和大豆粕处理后添加蛋氨酸后适用于哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "干啤酒糟是肉猪饲料的主要原料。",
+    "reference_case": "干啤酒糟一般不作为肉猪饲料原料。",
+    "error_detail": "错误地将干啤酒糟描述为肉猪饲料的主要原料。",
+    "original_question": "干啤酒糟在肉猪饲粮中的使用情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "适用于奶牛、肉牛、家禽和猪的微量元素类饲料添加剂包括硫酸锌、硫酸铜、硫酸锰。",
+    "reference_case": "适用于奶牛、肉牛、家禽和猪的微量元素类饲料添加剂包括羟基蛋氨酸类似物络（螯）合锌、羟基蛋氨酸类似物络（螯）合锰、羟基蛋氨酸类似物络（螯）合铜。",
+    "error_detail": "错误地列出了不适用于该分类的微量元素类饲料添加剂。",
+    "original_question": "适用于奶牛、肉牛、家禽和猪的微量元素类饲料添加剂有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "适用于猪的微量元素类饲料添加剂包括硫酸锌、硫酸铜、硫酸锰。",
+    "reference_case": "适用于猪的微量元素类饲料添加剂包括烟酸铬、酵母铬、蛋氨酸铬、吡啶甲酸铬、丙酸铬、甘氨酸锌、丙酸锌。",
+    "error_detail": "错误地列出了不适用于猪的微量元素类饲料添加剂。",
+    "original_question": "适用于猪的微量元素类饲料添加剂有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "适用于生长育肥猪和家禽的微量元素类饲料添加剂包括硫酸锌、硫酸铜、硫酸锰。",
+    "reference_case": "适用于生长育肥猪和家禽的微量元素类饲料添加剂包括乳酸锌（α —羟基丙酸锌）。",
+    "error_detail": "错误地列出了不适用于生长育肥猪和家禽的微量元素类饲料添加剂。",
+    "original_question": "适用于生长育肥猪和家禽的微量元素类饲料添加剂有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "碱式氯化铜适用于猪、鸡和鱼类。",
+    "reference_case": "碱式氯化铜适用于猪和鸡。",
+    "error_detail": "错误地将鱼类包括在适用动物中。",
+    "original_question": "碱式氯化铜适用于哪些养殖动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "反刍动物需要补充维生素 C 和 E，限制饲养的猪需要补充维生素 B、E、D、烟酸，应激和高产的猪需要补充维生素 C，家禽需要补充除维生素 A 外的各种维生素，犊牛代乳粉中需要补充维生素 B，猪饲粮容易缺乏维生素 B、D、E、C",
+    "reference_case": "反刍动物需要补充维生素 A 和 E，限制饲养的猪需要补充维生素 A、E、D、烟酸，应激和高产的猪需要补充烟酸，家禽需要补充除维生素 C 外的各种维生素，犊牛代乳粉中需要补充各种维生素，猪饲粮容易缺乏维生素 A、D、E、B",
+    "error_detail": "错误地修改了需要补充的维生素种类，导致概念混淆",
+    "original_question": "不同种类的动物需要补充哪些维生素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PSE猪肉色泽深红，质地紧实，弹性好，切面干燥，肌纤维细，横纹明显，肌纤维紧密连接，好发部位为腹部肌肉",
+    "reference_case": "PSE猪肉色泽灰白，质地松软，缺乏弹性，切面多汁，肌纤维变粗，横纹消失，肌纤维分离坏死，好发部位为背最长肌、半腱肌、半膜肌等。",
+    "error_detail": "错误地描述了PSE猪肉的特征，包括色泽、质地等",
+    "original_question": "PSE猪肉的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "DFD猪肉色泽浅白，质地细腻，切面湿润，主要见于强度大而时间短的应激反应，肌糖原消耗少，活体糖原储备多，糖元酵解快速，乳酸产生较多",
+    "reference_case": "DFD猪肉色泽深暗，质地粗硬，切面干燥，主要见于强度较小而时间较长的应激反应，肌糖原消耗过多，活体糖原储备少，糖元酵解缓慢，乳酸产生较少。",
+    "error_detail": "错误地描述了DFD猪肉的特征，包括色泽、质地等",
+    "original_question": "DFD猪肉的特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "成年猪背肌坏死表现为双侧或单侧背肌疼痛性肿胀，背肌呈深红色变性坏死，所有猪都会因碱中毒死亡",
+    "reference_case": "成年猪背肌坏死表现为双侧或单侧背肌无痛性肿胀，背肌呈苍白色变性坏死，个别猪可因酸中毒死亡。",
+    "error_detail": "错误地描述了成年猪背肌坏死的症状，包括疼痛感和颜色",
+    "original_question": "成年猪背肌坏死的症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "心死猪的心肌表现为深红、黑色或绿白色条纹或斑点，心肌增生",
+    "reference_case": "心死猪的心肌表现为苍白、灰白或黄白色条纹或斑点，心肌变性。",
+    "error_detail": "错误地描述了心死猪的心肌变化，包括颜色和状态",
+    "original_question": "心死猪的心肌变化是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "氟烷试验中，猪对氟烷麻醉低敏感性表现为恶性低温综合征症状，如体温突然下降，肌肉松弛或软化，严重碱中毒，呼吸缓慢。凡氟烷试验阴性反应的猪称为应激易感猪，阳性反应的猪称为应激抵抗猪",
+    "reference_case": "氟烷试验中，猪对氟烷麻醉高敏感性表现为恶性高温综合征症状，如体温突然升高，肌肉震颤或僵直，严重酸中毒，呼吸困难。凡氟烷试验阳性反应的猪称为应激易感猪，阴性反应的猪称为应激抵抗猪。",
+    "error_detail": "错误地描述了氟烷试验的反应和术语",
+    "original_question": "如何通过氟烷试验鉴别猪是否对应激敏感？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "膀胱黏膜出现大量大小不一蓝色斑点及斑块，小的称为蓝点，大的称为蓝斑，这些出血点或出血斑新鲜的呈蓝色，陈旧的呈绿色",
+    "reference_case": "膀胱黏膜出现大量大小不一红色斑点及斑块，小的称为疮点，大的称为瘀斑，这些出血点或出血斑新鲜的呈鲜红色，陈旧的呈暗红色。",
+    "error_detail": "错误地描述了急性猪瘟时膀胱黏膜的特征，包括颜色和术语",
+    "original_question": "急性猪瘟时，膀胱黏膜出现哪些特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "表面可见大小不一深红色或深黄色病灶，即充血性梗死灶，梗死灶稍凹陷、柔软，周围出现一明亮的充血、出血带。梗死灶切面呈圆形，大小一致，与周围界限模糊",
+    "reference_case": "表面可见大小不一灰白色或灰黄色病灶，即贫血性梗死灶，梗死灶稍隆起、硬实，周围出现一暗红色的充血、出血带。梗死灶切面呈三角形，大小不一，与周围界限清晰。",
+    "error_detail": "错误地描述了慢性猪丹毒肾脏大体标本的特征，包括颜色和形状",
+    "original_question": "慢性猪丹毒肾脏大体标本有何特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "脾体积明显肿大，边缘或表面分布有亮红色，大小一致，凹陷或略低于周围组织的病灶，此即为充血性梗死灶。梗死灶质地柔软，从不互相融合。梗死灶切面呈圆形，底部位于中心，锥尖指向脾表面",
+    "reference_case": "脾体积正常或稍肿大，边缘或表面分布有暗红色，大小不等，隆起或略高于周围组织的病灶，此即为出血性梗死灶。梗死灶质地硬实，有时互相融合。梗死灶切面呈雉形，底部位于表面，锥尖指向脾中心。",
+    "error_detail": "错误地描述了急性猪瘟时脾的病变特征，包括颜色和形状",
+    "original_question": "急性猪瘟时，脾的病变特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "胃壁变薄，黏膜干燥无光泽，透明感减弱。切面内翻，流出少量深黄色不透明液体，黏膜下层明显变窄，呈不透明硬块样。胃壁黏膜固有层、黏膜下层、甚至肌层和浆膜层的间质中有少量不均质蓝染的水肿液蓄积，组织紧密，黏膜上皮细胞、胶原纤维、平滑肌彼此连接",
+    "reference_case": "胃壁增厚，黏膜湿润有光泽，透明感增强。切面外翻，流出大量无色或浅黄色透明液体，黏膜下层明显增宽，呈透明胶冻样。胃壁黏膜固有层、黏膜下层、甚至肌层和浆膜层的间质中有大量均质红染的水肿液蓄积，组织松散，黏膜上皮细胞、胶原纤维、平滑肌彼此分离。",
+    "error_detail": "错误地描述了猪水肿病时胃的病变特征，包括质地和液体",
+    "original_question": "猪水肿病时，胃的病变特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "皮肤收缩，弹性上升，指压不留痕，如石头状。切面流出深绿色不透明、浑浊液体，皮下结缔组织缺乏液体，呈不透明硬块样。皮下结缔组织紧密，胶原纤维紧密，彼此连接，组织间隙含少量不均质蓝染的水肿液",
+    "reference_case": "皮肤肿胀，弹性下降，指压留痕，如生面团状。切面流出淡黄色透明、清亮液体，皮下结缔组织富含液体，呈透明胶冻样。皮下结缔组织疏松，胶原纤维松散，彼此分离，组织间隙含大量均质红染的水肿液。",
+    "error_detail": "错误地描述了猪水肿病时皮下水肿的病理特征，包括皮肤状态和液体",
+    "original_question": "猪水肿病时，皮下水肿的病理特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "晚期鼻黏膜收缩、缺血、干燥，鼻腔中有气体。中期黏膜增生、修复，鼻甲骨增生，上下伸直，极度增厚，鼻腔变成小腔洞。早期，鼻中隔直，厚薄均匀，鼻筒正直",
+    "reference_case": "早期鼻黏膜肿胀、充血、水肿，鼻腔中有浆液性、黏液性或化脓性分泌物。中期黏膜脱落、坏死，鼻甲骨退化，上下卷曲，极度萎缩，鼻腔变成大腔洞。后期，鼻中隔弯曲，厚薄不均，鼻筒歪斜不正。",
+    "error_detail": "错误地描述了猪传染性萎缩性鼻炎的病理特征，包括黏膜状态和鼻甲骨变化",
+    "original_question": "猪传染性萎缩性鼻炎的病理特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪是终末宿主，人是中间宿主",
+    "reference_case": "人是终末宿主，猪是中间宿主。",
+    "error_detail": "错误地描述了猪囊虫病的终末宿主和中间宿主",
+    "original_question": "猪囊虫病的终末宿主和中间宿主分别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "人用丙硫苯咈唑内服，猪用吡喹酮给颈部肌肉注射，按说明书使用",
+    "reference_case": "人用吡喹酮给颈部肌肉注射，猪用丙硫苯咈唑内服，按说明书使用。",
+    "error_detail": "错误地描述了猪囊虫病的治疗方法",
+    "original_question": "猪囊虫病的治疗方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "配合饲料的组成包括能量饲料、蛋白质饲料、粗饲料、矿物质、维生素和水分，这些成分分别具有不同的功能，确保鸡的生长和健康。",
+    "reference_case": "配合饲料的组成包括能量饲料、蛋白质饲料、粗饲料、矿物质、维生素和水分，这些成分分别具有不同的功能，确保猪的生长和健康。",
+    "error_detail": "将猪错误地替换为鸡，导致概念混淆。",
+    "original_question": "配合饲料的组成包括哪些部分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "古代兽医根据家畜种类不同，在马上以尾脉为主，羊、猪、犬等则以切翏股脉为宜。",
+    "reference_case": "古代兽医根据家畜种类不同，在牛上以尾脉为主，羊、猪、犬等则以切翏股脉为宜。",
+    "error_detail": "将牛错误地替换为马，导致概念混淆。",
+    "original_question": "古代兽医在哪些动物上采用了不同的脉诊方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "中国最早将野牛驯化为家牛。",
+    "reference_case": "中国最早将野猪驯化为家猪。",
+    "error_detail": "将野猪错误地替换为野牛，导致概念混淆。",
+    "original_question": "中国最早将哪种动物驯化为家畜？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "中国家猪的起源可分华东猪和华北猪两大类型。",
+    "reference_case": "中国家猪的起源可分华南猪和华北猪两大类型。",
+    "error_detail": "将华南猪错误地替换为华东猪，导致概念混淆。",
+    "original_question": "家猪的起源可分哪两大类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "我国原始畜牧业的显著特点是牛在各种家畜中占有首要地位，牛是中国原始时代饲养最普遍的家畜。",
+    "reference_case": "我国原始畜牧业的显著特点是猪在各种家畜中占有首要地位，猪是中国原始时代饲养最普遍的家畜。",
+    "error_detail": "将猪错误地替换为牛，导致概念混淆。",
+    "original_question": "我国原始畜牧业的显著特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "斯堪第那维亚地区母猪栏养的趋势分为拴系与无拴系两种，每一种又有许多差异，包括有给饲通道和无给饲通道，硬地面排粪和笼漏式地面排粪等。",
+    "reference_case": "斯堪第那维亚地区母猪栏养的趋势分为拴系与无拴系两种，每一种又有许多差异，包括有给饲通道和无给饲通道，硬地面排粪和笼漏式地面排粪等。",
+    "error_detail": "虽然内容相同，但错误地暗示了概念混淆，实际上没有变化。",
+    "original_question": "斯堪第那维亚地区母猪栏养的趋势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "中高档猪肉产业链组织模式的核心特征是通过分散经营，各自为政，保障猪肉产品的质量供给。",
+    "reference_case": "中高档猪肉产业链组织模式的核心特征是通过一体化经营，协调产业链各环节的功能主体，保障猪肉产品的质量供给。这种模式注重从种猪繁育、生猪饲养、屠宰加工到贮运销售的全过程质量控制，采用先进的技术工艺和严格的标准化管理，确保猪肉产品的安全、卫生、营养和健康特性，满足消费者对中高档猪肉的需求。",
+    "error_detail": "将一体化经营错误描述为分散经营，概念混淆。",
+    "original_question": "中高档猪肉产业链组织模式的核心特征是什么？",
+    "original_input": ""
+  }
+]

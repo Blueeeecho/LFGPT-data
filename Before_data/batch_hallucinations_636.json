@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪场C的猪只在治疗过程中，连续用药1天后体温恢复正常，猪能采食，但停药后温度又上升，食欲下降。",
+    "reference_case": "猪场C的猪只在治疗过程中，连续用药2天后体温恢复正常，猪能采食，但停药后温度又上升，食欲下降。",
+    "error_detail": "用药天数从2天错误地改为1天",
+    "original_question": "猪场C的猪只在治疗过程中出现了什么现象？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪场C的发病率、病死率和死亡率均显著高于猪场A和B。",
+    "reference_case": "猪场C的发病率、病死率和死亡率均显著低于猪场A和B。",
+    "error_detail": "将'低于'错误地改为'高于'",
+    "original_question": "猪场C的发病率、病死率和死亡率与猪场A和B相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪场C的猪只表现出的主要症状包括突然不食、流脓鼻涕、母猪流产。",
+    "reference_case": "猪场C的猪只表现出的主要症状包括突然不食、流脓鼻涕、母猪流产、产死胎、耳朵肿胀、耳尖或边缘发紫、全身皮肤发紫、咳嗽气喘、皮肤苍白、尿液呈深褐色、严重时呈血红蛋白尿、关节肿胀等。",
+    "error_detail": "遗漏了大部分症状",
+    "original_question": "猪场C的猪只表现出了哪些主要症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪场B的猪只死亡率较低，特别是种母猪的流产率较低，且有一定的死亡率。",
+    "reference_case": "猪场B的猪只死亡率较高，特别是种母猪的流产率较高，且有一定的死亡率。",
+    "error_detail": "将'较高'错误地改为'较低'",
+    "original_question": "猪场B的猪只死亡率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪场B的猪只在发病前，全部猪实行自繁自养。",
+    "reference_case": "猪场B的猪只在发病前，大部分猪实行自繁自养，少部分大猪从外购进放在猪场中暂养10到20天，然后出售。",
+    "error_detail": "忽略了部分猪是从外购进的事实",
+    "original_question": "猪场B的猪只在发病前有哪些特殊的管理措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪场C在猪只发病后立即将健康猪运到另一猪场，并连续带猪消毒3天。",
+    "reference_case": "猪场C在猪只发病后立即将健康猪运到另一猪场，并连续带猪消毒5天。",
+    "error_detail": "消毒天数从5天错误地改为3天",
+    "original_question": "猪场C在猪只发病后采取了哪些措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "使用了3.8%柠檬酸钠、犬五联疫苗、CPV抗体、0.8%猪红细胞悬液、CPV抗原。",
+    "reference_case": "使用了3.8%柠檬酸钠、犬五联疫苗、CPV抗体、0.8%猪红细胞悬液、CPV抗原和犬CPV诊断试纸。",
+    "error_detail": "遗漏了'犬CPV诊断试纸'",
+    "original_question": "犬细小病毒免疫血清的制备过程中使用了哪些药物及制剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "样本来自全区20个种猪场猪瘟免疫期内的猪血清，共1000份，包括种母猪、后备母猪、种公猪和断奶仔猪的血清。",
+    "reference_case": "样本来自全区28个种猪场猪瘟免疫期内的猪血清，共1065份，包括种母猪、后备母猪、种公猪和断奶仔猪的血清。",
+    "error_detail": "种猪场数量和血清数量错误",
+    "original_question": "广西部分种猪场猪瘟抗体监测的样本来源是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "影响猪瘟免疫效果的主要因素包括疫苗质量低下、运输保存温度过高。",
+    "reference_case": "影响猪瘟免疫效果的主要因素包括疫苗质量低下、运输保存温度过高、时间过长、剂量不足、操作方法不当以及猪只本身带毒、遗传等各种因素。",
+    "error_detail": "遗漏了多个影响因素",
+    "original_question": "影响猪瘟免疫效果的主要因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪衣原体病的病原体是立克次体。",
+    "reference_case": "猪衣原体病的病原体是介于立克次体和病毒之间的鹦鹉热衣原体。",
+    "error_detail": "错误地将病原体归类为立克次体",
+    "original_question": "猪衣原体病的病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪衣原体病的临床症状包括食欲下降、体温升高。",
+    "reference_case": "猪衣原体病的临床症状包括食欲下降、体温升高、咳嗽、气喘、叫声嘶哑、结膜潮红、关节肿胀、跛行、消化不良、排红褐色或灰白色稀粪、流产、产木乃伊胎、弱胎、新生仔猪体表有出血点、种公猪性欲下降、尿道炎、拉血尿、不能配种、弓背。",
+    "error_detail": "遗漏了大部分临床症状",
+    "original_question": "猪衣原体病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在来自28个种猪场所有猪血清中，免疫合格率为80%。",
+    "reference_case": "在来自28个种猪场所有猪血清中，免疫合格率为76.9%。",
+    "error_detail": "免疫合格率从76.9%错误地改为80%",
+    "original_question": "广西部分种猪场猪瘟免疫合格率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "抗体效价达到1:20为免疫合格，1:20以下视为免疫不合格。",
+    "reference_case": "抗体效价达到1:16为免疫合格，1:16以下视为免疫不合格。群体免疫合格率越高、抗体效价几何平均数越高，表示群体免疫效果越好。",
+    "error_detail": "错误地将免疫合格标准从1:16改为1:20",
+    "original_question": "猪瘟抗体效价的判定标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "提高猪瘟免疫效果的措施包括加强监测、实施超前免疫。",
+    "reference_case": "提高猪瘟免疫效果的措施包括加强监测、实施超前免疫、加大剂量免疫、加强疫苗的管理和规范操作，以及考虑换另一个厂家的疫苗。",
+    "error_detail": "遗漏了多个提高免疫效果的措施",
+    "original_question": "猪瘟免疫效果不理想时，应采取哪些措施提高免疫效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪衣原体病通过水传播，经消化道感染。",
+    "reference_case": "猪衣原体病通过含有粉尘的空气传播，经呼吸道感染，也可以经口或交配感染。",
+    "error_detail": "错误地改变了传播途径和感染方式",
+    "original_question": "猪衣原体病的传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "免疫合格率在90%以上的猪场有10个，占35%。",
+    "reference_case": "免疫合格率在90%以上的猪场有7个，占25%。",
+    "error_detail": "猪场数量和比例错误",
+    "original_question": "猪瘟免疫合格率在90%以上的猪场占多少比例？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "防制措施包括将阳性猪隔离饲养、治疗。",
+    "reference_case": "防制措施包括将阳性猪隔离饲养、治疗，使用中药复方和抗生素治疗，彻底清扫猪舍、用具、周围环境，进行消毒，无害化处理病死猪和流产胎儿、胎衣等染疫物品，严禁在猪场内部饲养家禽和鸟类，设立防护网防止野鸟飞进猪舍。",
+    "error_detail": "遗漏了大部分防制措施",
+    "original_question": "猪衣原体病的防制措施包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪衣原体病的病原体是病毒。",
+    "reference_case": "猪衣原体病的病原体是鹦鹉热衣原体。",
+    "error_detail": "错误地将病原体归类为病毒",
+    "original_question": "猪衣原体病的病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪衣原体病可以通过直接接触传播。",
+    "reference_case": "猪衣原体病可以通过含有粉尘的空气传播，经呼吸道感染，也可以经口或交配感染。",
+    "error_detail": "错误地改变了传播途径",
+    "original_question": "猪衣原体病的传播途径有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪衣原体病的防制措施中，猪舍消毒包括用1:1000消毒威带猪消毒。",
+    "reference_case": "猪衣原体病的防制措施中，猪舍消毒包括用1:1200消毒威带猪消毒，空栏用火焰喷枪进行火焰消毒。",
+    "error_detail": "错误地改变了消毒威的稀释比例",
+    "original_question": "猪衣原体病的防制措施中，如何进行猪舍消毒？",
+    "original_input": ""
+  }
+]

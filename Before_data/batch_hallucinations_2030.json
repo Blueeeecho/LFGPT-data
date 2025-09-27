@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪、禽饲料中添加稀土矿微的推荐添加量为5%。",
+    "reference_case": "猪、禽饲料中添加稀土矿微的推荐添加量为1%。",
+    "error_detail": "数值偏差，推荐添加量被夸大",
+    "original_question": "饲料中添加稀土矿微的推荐添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "缺乏维生素A会导致心脏病和高血压。",
+    "reference_case": "缺乏维生素A会导致干眼病和夜目症，引起上皮组织干燥、增生和过度角化，发生支气管炎，抗感染能力下降，公畜性机能减退，母畜不能受精或卵子不能植入，幼畜、幼禽缺乏维生素A发生眼炎，出现生长发育障碍，猪引起消化不良和下痢。",
+    "error_detail": "错误地将维生素A缺乏与心脏病和高血压联系起来",
+    "original_question": "缺乏维生素A会导致哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "缺乏维生素D会导致成年动物发生佝偻病。",
+    "reference_case": "缺乏维生素D会导致幼畜发生佝偻病，成畜发生软骨症，母畜和哺乳母畜容易发生缺乏症，产蛋鸡缺乏则产蛋率和孵化率下降、生软壳蛋，仔猪缺乏VD则生长发育不良、发生跛行。",
+    "error_detail": "错误地认为成年动物会患佝偻病，实际上成畜患的是软骨症",
+    "original_question": "缺乏维生素D会导致哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "畜禽用多维中维生素A的含量为1亿国际单位。",
+    "reference_case": "畜禽用多维中维生素A的含量为5400万国际单位，猪用多维和禽用多维中均为4500万国际单位，鱼用多维中为600万国际单位。",
+    "error_detail": "数值夸大，维生素A含量被错误地提高",
+    "original_question": "彼得多维配方中维生素A的含量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "添加量对所有动物种类和生长阶段均为0.5%。",
+    "reference_case": "添加量根据不同动物种类和生长阶段有所不同，例如雉鸡鸭的添加量为0.2%~0.25%，乳猪为0.35%~0.4%，肉小鸡为0.25%~0.3%，罗非鱼为1%~1.5%。",
+    "error_detail": "忽略了不同动物种类和生长阶段的添加量差异",
+    "original_question": "如何使用彼得多维？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "京牧猪用多维配方中仅包含维生素A。",
+    "reference_case": "京牧猪用多维配方中包含维生素A、维生素D",
+    "error_detail": "遗漏了配方中的维生素D",
+    "original_question": "京牧猪用多维的配方主要包含哪些维生素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "添加赖氨酸会导致仔猪腹泻。",
+    "reference_case": "在蛋白质含量过高的人工乳和仔猪前期饲料中减少蛋白质而添加赖氨酸，可防止仔猪腹泻。",
+    "error_detail": "错误地认为添加赖氨酸会导致腹泻，实际上是为了防止腹泻",
+    "original_question": "减少蛋白质添加赖氨酸对仔猪有何益处？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "甘氨酸主要用于提高动物的运动能力。",
+    "reference_case": "甘氨酸是动物特别是禽类必需的氨基酸之一，是饲料添加剂，也可用于防治仔猪和犊牛的腹泻，还可用作血液的诱食剂。",
+    "error_detail": "错误地将甘氨酸的作用与提高运动能力联系起来",
+    "original_question": "甘氨酸在动物饲料中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪饲料中苏氨酸与赖氨酸的最佳比为100:100。",
+    "reference_case": "苏氨酸对仔猪是第二限制性氨基酸，仔猪饲料中苏氨酸与赖氨酸的最佳比为65-70:100时，能明显改善生产成绩。",
+    "error_detail": "比例错误，最佳比被错误地设定为1:1",
+    "original_question": "苏氨酸对仔猪的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "虫基（酸）鱼粉主要用于提高动物的免疫力。",
+    "reference_case": "作为乳猪及名贵鱼类（鲉、鰻、罗非鱼）、对虾的营养性饲料添加剂和诱食剂。",
+    "error_detail": "错误地将虫基（酸）鱼粉的主要作用与提高免疫力联系起来",
+    "original_question": "虫基（酸）鱼粉在饲料中的主要作用是什么？",
+    "original_input": ""
+  }
+]

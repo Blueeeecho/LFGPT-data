@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PSS基因杂合体猪群死亡率为5%，而纯合体猪群死亡率为20%。",
+    "reference_case": "PSS基因杂合体猪群死亡率为零，而纯合体猪群死亡率为15%。",
+    "error_detail": "错误地提高了杂合体和纯合体猪群的死亡率数值。",
+    "original_question": "PSS基因杂合体猪群和纯合体猪群的死亡率有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "机体状况不良或肌肉发育不良可增加猪对氟烷的敏感性。",
+    "reference_case": "机体状况不良或肌肉发育不良可降低但不能完全消除猪对氟烷的敏感性。",
+    "error_detail": "错误地改变了机体状况不良或肌肉发育不良对猪对氟烷敏感性的影响方向。",
+    "original_question": "机体状况不良或肌肉发育不良对猪对氟烷的敏感性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "吸入麻醉前服用兴奋剂、去极化肌松剂、钙制剂及全身麻醉可增加猪对氟烷的敏感性。",
+    "reference_case": "吸入麻醉前服用镇静剂、非去极化肌松剂、镁制剂及硬膜外麻醉可降低猪对氟烷的敏感性。",
+    "error_detail": "完全偏离了原始指令，提供了相反的信息。",
+    "original_question": "哪些药物或处理可以降低猪对氟烷的敏感性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪的年龄影响其对氟烷的反应性，小于12周龄的猪阳性反应频率显著降低。",
+    "reference_case": "猪的年龄影响其对氟烷的反应性，小于8周龄的猪阳性反应频率显著降低。",
+    "error_detail": "错误地延长了年龄限制，使用了过时的标准。",
+    "original_question": "猪的年龄如何影响其对氟烷的反应性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "氟烷试验中阳性猪在24小时内可能存活，反应阳性猪的存活率因品种和品系而异。",
+    "reference_case": "氟烷试验中阳性猪在24小时内可能死亡，反应阳性猪的死亡率因品种和品系而异。",
+    "error_detail": "错误地反转了因果关系，将死亡改为存活。",
+    "original_question": "氟烷试验中阳性猪在24小时内可能的反应是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "DNA检测法更准确、更经济、无需氟烷试验配合，但需要昂贵的设备，已取代血型分析法用于检测PSS易感猪。",
+    "reference_case": "DNA检测法更准确、更经济、无需氟烷试验配合，已取代血型分析法用于检测PSS易感猪。",
+    "error_detail": "添加了未经证实的假设，即需要昂贵的设备。",
+    "original_question": "DNA检测法与血型分析法相比有哪些优势？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "若无维持和控制策略，PSS基因可能在猪群中失控，影响猪的生长速度和饲料转化率。",
+    "reference_case": "若无维持和控制策略，PSS基因可能在猪群中失控，影响胴体质量和猪肉品质。",
+    "error_detail": "错误地改变了PSS基因失控的影响，反映了不同地域的关注点。",
+    "original_question": "PSS基因在猪群中的失控可能带来哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "育成猪直肠脱垂的长度为5~8 cm。",
+    "reference_case": "育成猪直肠脱垂的长度为10~13 cm。",
+    "error_detail": "错误地减少了直肠脱垂的长度数值。",
+    "original_question": "育成猪直肠脱垂的常见长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪直肠脱垂最常用的复位方法是药物治疗。",
+    "reference_case": "猪直肠脱垂最常用的复位方法是胃肠道的外科手术方法。",
+    "error_detail": "完全偏离了原始指令，提供了不同的治疗方法。",
+    "original_question": "直肠脱垂的复位方法通常是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "猪直肠脱垂最常用的复位方法是胃肠道的外科手术方法，但也可以使用非手术方法。",
+    "reference_case": "猪直肠脱垂最常用的复位方法是胃肠道的外科手术方法。",
+    "error_detail": "添加了与原始信息矛盾的非手术方法。",
+    "original_question": "猪直肠脱垂最常见的复位方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪直肠脱垂的发病率在3~6周龄猪时最高。",
+    "reference_case": "猪直肠脱垂的发病率在6~12周龄猪时最高，特别是在寒冷天气到潮湿天气变化时发病率增加，一般自然散发，且难于确定病因，但也可暴发，偶尔流行延长。",
+    "error_detail": "错误地改变了年龄范围，使用了过时的标准。",
+    "original_question": "猪直肠脱垂的发病率在不同年龄阶段有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在一项对56363头猪长达7年的研究中，Garden（1988）报道全年直肠脱垂的发病率为1.0%~5.0%。",
+    "reference_case": "在一项对56363头猪长达7年的研究中，Garden（1988）报道全年直肠脱垂的发病率为0.7%~4.7%。",
+    "error_detail": "错误地调整了发病率数值。",
+    "original_question": "育肥猪群中直肠脱垂的全年发病率为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在6个月的研究中，Gardner等（1988）报道，2862头12~28周龄猪中有50头发生直肠脱垂，发病高峰为16~18周龄。",
+    "reference_case": "在6个月的研究中，Gardner等（1988）报道，2862头12~28周龄猪中有30头发生直肠脱垂，发病高峰为14~16周龄。",
+    "error_detail": "错误地增加了发病数量和调整了发病高峰年龄。",
+    "original_question": "12~28周龄猪中直肠脱垂的发病情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "Becker和Van der Leek（1998）报道，在125头母猪群中，12个月中2~4月龄猪的直肠脱垂发病率估计为5%~10%。",
+    "reference_case": "Becker和Van der Leek（1998）报道，在125头母猪群中，12个月中2~4月龄猪的直肠脱垂发病率估计为10%~15%。",
+    "error_detail": "错误地降低了发病率数值。",
+    "original_question": "125头母猪群中直肠脱垂的发病率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "作者观察到，3~5月龄猪最常发生直肠脱垂，3个1000头、600头和1200头母猪群的发病率分别为1.0%、1.2%和0.8%。",
+    "reference_case": "作者观察到，3~5月龄猪最常发生直肠脱垂，3个1000头、600头和1200头母猪群的发病率分别为0.7%、0.9%和0.6%。",
+    "error_detail": "错误地提高了发病率数值。",
+    "original_question": "3~5月龄猪直肠脱垂的发病率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "直肠脱垂前，猪未发生疾病，惟一常见的因素是轻度便秘和饲料变化。",
+    "reference_case": "直肠脱垂前，猪未发生疾病，惟一常见的因素是轻度便秘。",
+    "error_detail": "添加了未经证实的假设，即饲料变化也是常见因素。",
+    "original_question": "直肠脱垂前猪未出现的常见症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "Daniel（1975）报道，母猪直肠脱垂在分娩期间发病率为1.0%~2%，约1/3病例发生在分娩期间。",
+    "reference_case": "Daniel（1975）报道，母猪直肠脱垂在分娩期间发病率为0.5%~1%，约1/2病例发生在分娩期间。",
+    "error_detail": "错误地提高了发病率和调整了病例比例。",
+    "original_question": "直肠脱垂与分娩有何关联？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "尽管苏格兰报道了许多结肠炎的暴发，但猪瘟继发直肠脱垂的报道很多，超过1%的腹泻仔猪出现直肠脱垂，但脱垂的暴发与猪瘟无关。",
+    "reference_case": "尽管苏格兰报道了许多结肠炎的暴发，但还没有报道猪瘟继发直肠脱垂，不足0.1%的腹泻仔猪出现直肠脱垂，但脱垂的暴发与猪瘟有关。",
+    "error_detail": "错误地反转了因果关系和调整了数据。",
+    "original_question": "直肠脱垂与猪瘟有何关联？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "日粮中的异常成分可以产生抑制作用，预防直肠脱垂。",
+    "reference_case": "日粮中的异常成分可以产生刺激作用，导致直肠脱垂。例如，异常高水平的钙会引起结石，堵塞尿道，最终因尿毒症而死。",
+    "error_detail": "完全偏离了原始指令，提供了相反的信息。",
+    "original_question": "日粮中的异常成分如何导致猪的直肠脱垂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "通过减少饲料中的纤维含量，增加钙的含量，或者使用高纤维饲料时每日饲喂大量秸秆，可以预防猪的直肠脱垂。",
+    "reference_case": "通过增加饲料中的纤维含量，减少钙的含量，或者使用低纤维饲料时每日饲喂少量秸秆，可以预防猪的直肠脱垂。",
+    "error_detail": "提供了与原始信息矛盾的预防措施。",
+    "original_question": "如何通过改变饲料成分预防猪的直肠脱垂？",
+    "original_input": ""
+  }
+]

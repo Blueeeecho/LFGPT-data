@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "疫苗制备过程中使用的主要试剂包括明胶和PRRSV抗体检测试剂盒以及DNA聚合酶。",
+    "reference_case": "疫苗制备过程中使用的主要试剂包括明胶和PRRSV抗体检测试剂盒。",
+    "error_detail": "添加了不相关的试剂DNA聚合酶，导致概念混淆。",
+    "original_question": "高致病性猪繁殖与呼吸综合征（HP-PRRS）活疫苗（TJM-F92株）的制备过程中使用了哪些主要试剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在安全性试验中，每头猪接种的疫苗剂量为5 mL，病毒含量为10^6:4 TCID50/mL。",
+    "reference_case": "在安全性试验中，每头猪接种的疫苗剂量为2 mL，病毒含量为10^6:4 TCID50/mL。",
+    "error_detail": "错误地增加了接种剂量，导致数据型幻觉。",
+    "original_question": "高致病性猪繁殖与呼吸综合征（HP-PRRS）活疫苗（TJM-F92株）的安全性试验中，接种疫苗的剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在免疫保护效果试验中，每头猪接种的疫苗剂量为2 mL，病毒含量为10^5:0 TCID50/mL。",
+    "reference_case": "在免疫保护效果试验中，每头猪接种的疫苗剂量为1 mL，病毒含量为10^5:0 TCID50/mL。",
+    "error_detail": "错误地增加了接种剂量，导致数据型幻觉。",
+    "original_question": "高致病性猪繁殖与呼吸综合征（HP-PRRS）活疫苗（TJM-F92株）的免疫保护效果试验中，接种疫苗的剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "攻毒后，接种疫苗的仔猪体温正常，未表现出任何临床症状，而对照组仔猪体温升高，表现出明显临床症状，且部分仔猪出现死亡。",
+    "reference_case": "攻毒后，接种疫苗的仔猪体温正常，未表现出任何临床症状，而对照组仔猪体温升高，表现出明显临床症状。",
+    "error_detail": "添加了未提及的死亡情况，属于假设滥用。",
+    "original_question": "高致病性猪繁殖与呼吸综合征（HP-PRRS）活疫苗（TJM-F92株）的免疫保护效果试验中，攻毒后仔猪的临床症状如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "攻毒后，接种疫苗的仔猪肺脏正常，无病理组织学改变，而对照组仔猪肺脏出现大面积实变，病理组织学表现为肺泡间隔增宽，有大量炎性细胞侵润，且部分仔猪出现肺出血。",
+    "reference_case": "攻毒后，接种疫苗的仔猪肺脏正常，无病理组织学改变，而对照组仔猪肺脏出现大面积实变，病理组织学表现为肺泡间隔增宽，有大量炎性细胞侵润。",
+    "error_detail": "添加了未提及的肺出血情况，属于假设滥用。",
+    "original_question": "高致病性猪繁殖与呼吸综合征（HP-PRRS）活疫苗（TJM-F92株）的免疫保护效果试验中，攻毒后仔猪的肺脏病理变化如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "疫苗的最小免疫剂量为10^5:5 TCID50/mL，接种该剂量后对强毒攻击的保护率可达100%。",
+    "reference_case": "疫苗的最小免疫剂量为10^4:5 TCID50/mL，接种该剂量后对强毒攻击的保护率可达100%。",
+    "error_detail": "错误地增加了最小免疫剂量，导致数据型幻觉。",
+    "original_question": "高致病性猪繁殖与呼吸综合征（HP-PRRS）活疫苗（TJM-F92株）的最小免疫剂量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "接种疫苗后，仔猪的攻毒保护率为70%至100%，具体取决于疫苗批次。",
+    "reference_case": "接种疫苗后，仔猪的攻毒保护率为80%至100%，具体取决于疫苗批次。",
+    "error_detail": "错误地降低了保护率的下限，导致数据型幻觉。",
+    "original_question": "高致病性猪繁殖与呼吸综合征（HP-PRRS）活疫苗（TJM-F92株）的免疫保护效果试验中，接种疫苗后仔猪的攻毒保护率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "非洲猪瘟病毒的主要结构蛋白是VP72蛋白。",
+    "reference_case": "非洲猪瘟病毒的主要结构蛋白是VP73蛋白。",
+    "error_detail": "错误地更改了主要结构蛋白的名称，导致概念混淆。",
+    "original_question": "非洲猪瘟病毒（ASFV）的主要结构蛋白是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "广西猪源沙门菌的血清型包括德尔卑沙门菌、鼠伤寒沙门菌、伦敦沙门菌、拉古什沙门菌、里森沙门菌、乙型副伤寒沙门菌、牛沙门菌、布雷登尼沙门菌、鸭沙门菌、乌盖利沙门菌、斯坦利沙门菌、纽兰沙门菌和阿雷查瓦莱塔沙门菌，共13种。",
+    "reference_case": "广西猪源沙门菌的血清型包括德尔卑沙门菌、鼠伤寒沙门菌、伦敦沙门菌、拉古什沙门菌、里森沙门菌、乙型副伤寒沙门菌、牛沙门菌、布雷登尼沙门菌、鸭沙门菌、乌盖利沙门菌、斯坦利沙门菌、纽兰沙门菌和阿雷查瓦莱塔沙门菌，共14种。",
+    "error_detail": "错误地减少了血清型的数量，导致数据型幻觉。",
+    "original_question": "广西猪源沙门菌的血清型有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪 IL-2 的诱导表达过程中，诱导培养的时间是 4 小时。",
+    "reference_case": "在猪 IL-2 的诱导表达过程中，诱导培养的时间是 3 小时。",
+    "error_detail": "错误地增加了诱导培养的时间，导致数据型幻觉。",
+    "original_question": "在猪 IL-2 的诱导表达过程中，诱导培养的时间是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪 IL-2 基因在大肠杆菌中的表达系统使用了乳糖作为诱导剂。",
+    "reference_case": "猪 IL-2 基因在大肠杆菌中的表达系统使用了 IPTG 作为诱导剂。",
+    "error_detail": "错误地更改了诱导剂的名称，导致概念混淆。",
+    "original_question": "猪 IL-2 基因在大肠杆菌中的表达系统使用了哪种诱导剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪 IL-2 的纯化过程中，使用了离子交换层析法。",
+    "reference_case": "在猪 IL-2 的纯化过程中，使用了固化金属亲和层析法（IMAC）。",
+    "error_detail": "错误地更改了层析技术的名称，导致概念混淆。",
+    "original_question": "在猪 IL-2 的纯化过程中，使用了哪种层析技术？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪 IL-2 的复性过程中，复性体系中的 EDTA 浓度是 3 mmol/L。",
+    "reference_case": "猪 IL-2 的复性过程中，复性体系中的 EDTA 浓度是 2 mmol/L。",
+    "error_detail": "错误地增加了EDTA的浓度，导致数据型幻觉。",
+    "original_question": "猪 IL-2 的复性过程中，复性体系中的 EDTA 浓度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪 IL-2 的复性过程中使用了还原型谷胱甘肽（GSH）和氧化型谷胱甘肽（GSSG）以及尿素来帮助蛋白质复性。",
+    "reference_case": "猪 IL-2 的复性过程中使用了还原型谷胱甘肽（GSH）和氧化型谷胱甘肽（GSSG）来帮助蛋白质复性。",
+    "error_detail": "添加了未提及的尿素，属于假设滥用。",
+    "original_question": "猪 IL-2 的复性过程中，使用了哪些化学物质来帮助蛋白质复性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪 IL-2 的复性过程中，复性体系的温度是 18°C。",
+    "reference_case": "猪 IL-2 的复性过程中，复性体系的温度是 12°C（10°C 到 16°C）。",
+    "error_detail": "错误地提高了复性体系的温度，导致数据型幻觉。",
+    "original_question": "猪 IL-2 的复性过程中，复性体系的温度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪 IL-2 的生物学活性是通过 ELISA 法检测的。",
+    "reference_case": "猪 IL-2 的生物学活性是通过 MTT 法检测的。",
+    "error_detail": "错误地更改了检测方法的名称，导致概念混淆。",
+    "original_question": "猪 IL-2 的生物学活性是通过哪种方法检测的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪 IL-2 的复性体系中，尿素的浓度是 2 mol/L。",
+    "reference_case": "猪 IL-2 的复性体系中，尿素的浓度是 1 mol/L。",
+    "error_detail": "错误地增加了尿素的浓度，导致数据型幻觉。",
+    "original_question": "猪 IL-2 的复性体系中，尿素的浓度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在长白猪和大白猪中，MSTN基因的BB基因型的初生重显著高于AB型（P<0:01:，而对杜洛克猪的初生重无显著影响（P>0:05:。",
+    "reference_case": "在长白猪和大白猪中，MSTN基因的BB基因型的初生重显著高于AB型（P<0:05:，而对杜洛克猪的初生重无显著影响（P>0:05:。",
+    "error_detail": "错误地更改了P值，导致数据型幻觉。",
+    "original_question": "在长白猪和大白猪中，MSTN基因的BB基因型对初生重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在大白猪中，MyoG基因的BB基因型的初生重显著高于AA型（P<0:01:，而对长白猪和杜洛克猪的初生重无显著影响（P>0:05:。",
+    "reference_case": "在大白猪中，MyoG基因的BB基因型的初生重显著高于AA型（P<0:05:，而对长白猪和杜洛克猪的初生重无显著影响（P>0:05:。",
+    "error_detail": "错误地更改了P值，导致数据型幻觉。",
+    "original_question": "在大白猪中，MyoG基因的BB基因型对初生重有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "猪肌肉生长抑制素基因（MSTN）和肌细胞生成素基因（MyoG）的多态性对猪的初生重和断奶重有显著影响。",
+    "reference_case": "猪肌肉生长抑制素基因（MSTN）和肌细胞生成素基因（MyoG）的多态性对猪的初生重有显著影响，但对断奶重无显著影响。",
+    "error_detail": "添加了对断奶重的显著影响，属于假设滥用。",
+    "original_question": "猪肌肉生长抑制素基因（MSTN）和肌细胞生成素基因（MyoG）的多态性对哪些早期生长性状有显著影响？",
+    "original_input": ""
+  }
+]

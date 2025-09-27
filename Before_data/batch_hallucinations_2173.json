@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "通过查找仔猪粪便中的卵囊进行诊断，特别是卵囊壁和孢子体之间的清晰体结构和成对的2型裂殖子。",
+    "reference_case": "通过查找仔猪粪便中的卵囊进行诊断，特别是卵囊壁和孢子体之间的模糊体结构和成对的1型裂殖子。",
+    "error_detail": "错误地描述了卵囊壁和孢子体之间的结构以及裂殖子的类型。",
+    "original_question": "猪等孢球虫的诊断主要依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "可以通过粪便涂片或粪便漂浮检查、粘膜涂片染色、组织切片染色等方法进行诊断，其中粪便漂浮检查的准确率高达95%。",
+    "reference_case": "可以通过粪便涂片或粪便漂浮检查、粘膜涂片染色、组织切片染色等方法进行诊断。",
+    "error_detail": "添加了不准确的准确率数据。",
+    "original_question": "哪些方法可用于猪等孢球虫的诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪等孢球虫感染哺乳仔猪的传播途径已经明确，而艾美耳球虫在人工感染条件下对猪有致病性。",
+    "reference_case": "猪等孢球虫感染哺乳仔猪的传播途径尚不明确，而艾美耳球虫在人工感染条件下对猪没有致病性。",
+    "error_detail": "错误地陈述了传播途径的明确性和艾美耳球虫的致病性。",
+    "original_question": "猪等孢球虫和艾美耳球虫在致病性上有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "包囊在冰冻(-12°C)时可存活5天，在烹煮猪排时只有当内部温度达70°C时才能将包囊杀死。",
+    "reference_case": "包囊在冰冻(-12°C)时可存活3天，在烹煮猪排时只有当内部温度达60°C时才能将包囊杀死。",
+    "error_detail": "错误地延长了存活时间和提高了杀死温度。",
+    "original_question": "猪排中的弓形虫包囊在什么条件下可以存活？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "低剂量的γ辐射（1.0 kGy 137Cs）可杀灭猪排中的包囊。",
+    "reference_case": "低剂量的γ辐射（0.5 kGy 137Cs）可杀灭猪排中的包囊。",
+    "error_detail": "错误地提高了辐射剂量。",
+    "original_question": "低剂量的γ辐射是否可以杀灭猪排中的弓形虫包囊？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "通过科学管理防止感染，包括定期给猪注射疫苗，应用杀鼠药控制鼠类，及时移走猪死亡后的尸体，不使用野生动物的尸体和未煮熟的泔水喂猪，防止猫在饲料中拉粪应将饲料盖住。",
+    "reference_case": "通过科学管理防止感染，包括不要让猫进入养猪或存放饲料的房舍中，应用杀鼠药控制鼠类，及时移走猪死亡后的尸体，不使用野生动物的尸体和未煮熟的泔水喂猪，防止猫在饲料中拉粪应将饲料盖住。",
+    "error_detail": "添加了不存在的疫苗注射措施。",
+    "original_question": "如何防止猪刚第弓形虫的感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "四种住肉孢子虫可以以猪为中间宿主，并且在肌肉中形成包囊。",
+    "reference_case": "三种住肉孢子虫可以以猪为中间宿主，并且在肌肉中形成包囊。",
+    "error_detail": "错误地增加了住肉孢子虫的种类数量。",
+    "original_question": "有哪些猪住肉孢子虫可以以猪为中间宿主？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "米氏猪住肉孢子虫有猪一猫循环的生活史，猫排出的粪便中的孢囊有感染性。",
+    "reference_case": "米氏猪住肉孢子虫有猪一犬循环的生活史，犬排出的粪便中的孢囊有感染性。",
+    "error_detail": "错误地将犬替换为猫。",
+    "original_question": "米氏猪住肉孢子虫的生活史如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "通过给猪注射疫苗可以防止米氏猪住肉孢子虫的感染。",
+    "reference_case": "通过阻止猪接触犬粪便可以防止米氏猪住肉孢子虫的感染。",
+    "error_detail": "完全偏离了原始指令，提出了不相关的解决方案。",
+    "original_question": "如何防止米氏猪住肉孢子虫感染猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用某些杀虫药前应先移开猪和饲料，触杀性杀虫剂每天喷雾三次效果较好。",
+    "reference_case": "使用某些杀虫药前应先移开猪和饲料，触杀性杀虫剂每天喷雾两次效果较好。",
+    "error_detail": "错误地增加了喷雾次数。",
+    "original_question": "使用杀虫药时需要注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "突然中断饲料摄取会减少胃溃疡的发生率。饲喂制度的稳定性不如每天固定喂1次、2次或自由采食重要。",
+    "reference_case": "突然中断饲料摄取会增加胃溃疡的发生率。饲喂制度的稳定性比每天固定喂1次、2次或自由采食更为重要。",
+    "error_detail": "错误地反转了因果关系和重要性。",
+    "original_question": "饲喂方法对猪胃溃疡的发生有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "停饲会导致猪突然增加摄取饲料，从而诱发胃溃疡。",
+    "reference_case": "停饲会导致猪突然中断摄取饲料，从而诱发胃溃疡。",
+    "error_detail": "错误地描述了停饲对饲料摄取的影响。",
+    "original_question": "为什么停饲是一种实验性诱发猪胃溃疡的方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "胃溃疡的发病与圈舍密度、混养、疾病等因素有关。低密度饲养的猪胃溃疡发生率较低。",
+    "reference_case": "胃溃疡的发病与圈舍密度、混养、疾病等因素有关。高密度饲养的猪胃溃疡发生率较低。",
+    "error_detail": "错误地反转了饲养密度与胃溃疡发生率的关系。",
+    "original_question": "胃溃疡的发生与圈舍和管理因素有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "胃溃疡的发病率受饲养密度、疾病、遗传因素等影响。现代圈养管理办法饲养的猪发病率可达50%。",
+    "reference_case": "胃溃疡的发病率受饲养密度、疾病、遗传因素等影响。现代圈养管理办法饲养的猪发病率可达90%。",
+    "error_detail": "错误地降低了发病率数据。",
+    "original_question": "猪胃溃疡的发病率受哪些因素影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "一些研究表明，饲喂两次比自由采食的猪较少发生胃溃疡，但也有研究显示，一天饲喂两次与自由采食的发病情况类似。因此，饲喂次数对胃溃疡的发生没有影响。",
+    "reference_case": "一些研究表明，饲喂两次比自由采食的猪较少发生胃溃疡，但也有研究显示，一天饲喂两次与自由采食的发病情况类似。",
+    "error_detail": "错误地得出了饲喂次数对胃溃疡发生没有影响的结论。",
+    "original_question": "饲喂次数对胃溃疡的发生有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪胃的活动力较强，胃经常是空的，且最近摄取的饲料远离食管开口处并不覆盖在先前摄取的食物上面，食物的混合主要发生在胃底。",
+    "reference_case": "猪胃的活动力较弱，胃很少是空的，且最近摄取的饲料紧位于食管开口处并覆盖在先前摄取的食物上面，食物的混合主要发生在幽门窦。",
+    "error_detail": "错误地描述了猪胃的活动力和食物混合的位置。",
+    "original_question": "引起猪食管区损伤的功能性因素是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪先天性缺陷的发病率至少为5%至6%，某些品种或品系可能更高。",
+    "reference_case": "猪先天性缺陷的发病率至少为2%至3%，某些品种或品系可能更高。",
+    "error_detail": "错误地提高了发病率数据。",
+    "original_question": "猪先天性缺陷的发病率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "导致猪先天性缺陷的主要因素包括营养不足、管理不当、遗传因素和其他未知因素。",
+    "reference_case": "导致猪先天性缺陷的主要因素包括染色体异常、遗传因素、环境因素和其他未知因素。",
+    "error_detail": "错误地替换了主要因素。",
+    "original_question": "导致猪先天性缺陷的主要因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "Huston等人（1978）将猪先天性缺陷分为5种染色体异常导致的，150种遗传、环境和未知因素导致的。",
+    "reference_case": "Huston等人（1978）将猪先天性缺陷分为4种染色体异常导致的，144种遗传、环境和未知因素导致的。",
+    "error_detail": "错误地增加了分类数量。",
+    "original_question": "猪先天性缺陷的病因分类如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "是的，某些品种或品系的猪比其他品种或品系的先天性缺陷发病率更高，这主要是由于饲养环境的不同。",
+    "reference_case": "是的，某些品种或品系的猪比其他品种或品系的先天性缺陷发病率更高。",
+    "error_detail": "添加了不相关的饲养环境因素。",
+    "original_question": "先天性缺陷的发病率在品种间是否有差异？",
+    "original_input": ""
+  }
+]

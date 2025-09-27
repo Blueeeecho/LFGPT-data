@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "取新鲜粪便或大肠黏膜直接抹片，观察5个视野，多数视野中有1条以上猪痢疾蛇形螺旋体时，可判为猪痢疾。",
+    "reference_case": "取新鲜粪便或大肠黏膜直接抹片，观察10个视野，多数视野中有3条以上猪痢疾蛇形螺旋体时，可判为猪痢疾。慢性型及用药后检出率低，有条件者可进行分离培养鉴定。",
+    "error_detail": "观察视野数量和判定标准被错误地减少，可能导致诊断不准确。",
+    "original_question": "如何诊断猪痢疾？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病死猪主要局限于小肠，小肠黏膜肿胀，覆盖黏液和带血块的纤维素。",
+    "reference_case": "病死猪主要局限于大肠，大肠黏膜肿胀，覆盖黏液和带血块的纤维素，严重者黏膜表面坏死，形成假膜，大肠内容物稀薄，混有黏液、血液和组织碎片。",
+    "error_detail": "将大肠错误地描述为小肠，导致病变特征的描述不准确。",
+    "original_question": "猪痢疾的病变特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "传播快速，流行期短，一旦传人容易清除。",
+    "reference_case": "传播缓慢，流行期长，一旦传人很难清除；各种应激因素，如阴雨潮湿、猪舍积粪、气候多变、拥挤、长途运输及饲料突变，均可使本病发生和流行。",
+    "error_detail": "错误地描述了猪痢疾的传播速度和流行期，与实际情况不符。",
+    "original_question": "猪痢疾的流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肺炎支原体因有细胞壁，呈固定形状，且容易着色。",
+    "reference_case": "猪肺炎支原体因无细胞壁，呈多形性，且不易着色，对培养条件要求严格，对低温抵抗力较强，青霉素、磺胺类药物不敏感，但对壮观霉素、土霉素、卡那霉素、泰乐菌素、恩诺沙星敏感。",
+    "error_detail": "错误地描述了猪肺炎支原体的细胞壁存在和形状固定性，与实际情况不符。",
+    "original_question": "猪支原体肺炎的病原是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "间接血凝试验大于1:5为阳性，小于1:2为阴性。",
+    "reference_case": "间接血凝试验大于1:10为阳性，小于1:5为阴性，介于两者之间为可疑，阴性和可疑者4周后重检，如两次为阴性，判为无喘气病，两次结果为可疑，判为阳性。",
+    "error_detail": "错误地调整了间接血凝试验的判定标准，可能导致诊断结果不准确。",
+    "original_question": "如何诊断猪支原体肺炎？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "皮疽组织胞浆菌主要感染狗、猫、兔、鼠，人也偶能感染。",
+    "reference_case": "皮疽组织胞浆菌主要感染马、驴、骡、骆驼、水牛、猪，人也偶能感染。",
+    "error_detail": "错误地列出了皮疽组织胞浆菌的主要感染动物，与实际情况不符。",
+    "original_question": "皮疽组织胞浆菌主要感染哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "犬细小病毒不具有血凝活性，不能在任何温度下凝集任何动物的红细胞。",
+    "reference_case": "犬细小病毒具有较强的血凝活性，能在4°C和25°C时凝集猪和恒河猴的红细胞，但不能凝集其他动物的红细胞。",
+    "error_detail": "错误地否认了犬细小病毒的血凝活性，与实际情况不符。",
+    "original_question": "犬细小病毒的血凝活性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "牛结核菌素皮内注射的观察反应时间是注射后24 h、48 h进行再次观察。",
+    "reference_case": "于注射后48 h、72 h进行再次观察。",
+    "error_detail": "错误地调整了观察反应的时间点，可能导致判定结果不准确。",
+    "original_question": "马、绵羊、山羊和猪进行结核菌素皮内注射的观察反应时间是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪丹毒杆菌和李氏杆菌在鲜血琼脂培养上均呈强β型溶血。",
+    "reference_case": "猪丹毒杆菌在鲜血琼脂培养上呈弱α型溶血，李氏杆菌呈弱β型溶血；",
+    "error_detail": "错误地描述了猪丹毒杆菌和李氏杆菌的溶血类型，与实际情况不符。",
+    "original_question": "猪丹毒杆菌和李氏杆菌的区别有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪痢疾密螺旋体的细菌培养基只有胰酶化酪蛋白胨豆胨琼脂（TSA）。",
+    "reference_case": "胰酶化酪蛋白胨豆胨琼脂（TSA）和胰酶大豆胨汤（TSB）。",
+    "error_detail": "错误地遗漏了胰酶大豆胨汤（TSB）作为猪痢疾密螺旋体的细菌培养基，与实际情况不符。",
+    "original_question": "猪痢疾密螺旋体的细菌培养基有哪些？",
+    "original_input": ""
+  }
+]

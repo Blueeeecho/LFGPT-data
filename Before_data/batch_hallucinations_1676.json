@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "70年代，养猪地区的许多兽医开始提供疫苗接种服务。",
+    "reference_case": "70年代，养猪地区的许多兽医制定了猪群保健计划，他们按照计划定期到这类猪场去探访，提供更为全面的服务。",
+    "error_detail": "错误地添加了疫苗接种服务，而原始输出中并未提及。",
+    "original_question": "70年代，养猪地区的许多兽医开始提供什么样的服务？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "80年代，兽医需要具备控制疾病的知识，还要具备养猪生产各个方面的知识，这些知识包括遗传、营养、环境、人事和财务管理，以及计算机编程。",
+    "reference_case": "80年代，兽医需要具备控制疾病的知识，还要具备养猪生产各个方面的知识，这些知识包括遗传、营养、环境、人事和财务管理。",
+    "error_detail": "错误地添加了计算机编程作为必要知识，与原始输出不符。",
+    "original_question": "80年代，兽医需要具备哪些知识才能胜任养猪生产中的疾病控制？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "制定猪群保健计划时，兽医需要与猪场的经理或场主以及政府官员一起合作。",
+    "reference_case": "制定猪群保健计划时，兽医需要与猪场的经理或场主一起合作。",
+    "error_detail": "错误地添加了政府官员作为合作对象，原始输出中未提及。",
+    "original_question": "制定猪群保健计划时，兽医需要与谁合作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "兽医需要检查所要探访的猪场的记录，包括上一次探访报告，最近的生产记录，实验室检查报告，屠宰检查报告以及日粮和营养方面的资料，还需要检查猪场的空气质量报告。",
+    "reference_case": "兽医需要检查所要探访的猪场的记录，包括上一次探访报告，最近的生产记录，实验室检查报告，屠宰检查报告以及日粮和营养方面的资料。",
+    "error_detail": "错误地添加了空气质量报告作为检查内容，偏离了原始指令。",
+    "original_question": "兽医在探访猪场时需要做哪些准备工作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "兽医需要进行一般检查和巡视，特殊检查、尸体剖检、公猪检查以及为了诊断疾病或提高整个生产效益所做的其他工作，但不包括疫苗接种。",
+    "reference_case": "兽医需要进行一般检查和巡视，特殊检查、尸体剖检、公猪检查以及为了诊断疾病或提高整个生产效益所做的其他工作。",
+    "error_detail": "错误地排除了疫苗接种，而原始输出中并未明确排除。",
+    "original_question": "兽医在猪场探访时需要进行哪些工作？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "1976年母猪每年每头的仔猪数为20.",
+    "reference_case": "1976年母猪每年每头的仔猪数为18.",
+    "error_detail": "错误地修改了仔猪数，与原始数据不符。",
+    "original_question": "13. 母猪每年每头的仔猪数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "1976年母猪的仔猪死亡率为20%、15%和16%，平均为17%。",
+    "reference_case": "1976年母猪的仔猪死亡率为18%、13%和14%，平均为15%。",
+    "error_detail": "错误地修改了仔猪死亡率，与原始数据不符。",
+    "original_question": "14. 仔猪死亡率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "记录配种和干奶母猪，用于监控分娩时的死胎率，前列腺素和催产素的使用有助于将死胎率保持在5%以下。",
+    "reference_case": "记录配种和干奶母猪，用于监控分娩时的死胎率，前列腺素和催产素的使用有助于将死胎率保持在3%以下。",
+    "error_detail": "错误地修改了死胎率的目标值，与原始指令不符。",
+    "original_question": "如何通过记录表监控配种和干奶母猪的情况？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "母猪在板条或有孔金属地板上分娩时，死胎率会特别低，因为这种地板在新生仔猪上空造成对流，导致这种死亡数量减少。",
+    "reference_case": "母猪在板条或有孔金属地板上分娩时，死胎率会特别高，因为这种地板在新生仔猪上空造成对流，导致这种死亡数量增加。",
+    "error_detail": "错误地颠倒了地板类型对死胎率的影响，与原始因果关系相反。",
+    "original_question": "母猪在分娩时使用地板类型会如何影响死胎率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "难产时死胎率可以急剧上升到25.9%，这取决于母猪的年龄，年龄增大，死胎率也会升高。",
+    "reference_case": "难产时死胎率可以急剧上升到19.9%，这取决于母猪的年龄，年龄增大，死胎率也会升高。",
+    "error_detail": "错误地修改了死胎率的上限，与原始数据不符。",
+    "original_question": "难产时死胎率会有什么变化？",
+    "original_input": ""
+  }
+]

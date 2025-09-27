@@ -1,0 +1,902 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "瘦肉型猪在80千克体重阶段上市的饲料配方中赖氨酸的添加量为0.75%。",
+    "reference_case": "瘦肉型猪在80千克体重阶段上市的饲料配方中赖氨酸的添加量为0.55%。",
+    "error_detail": "数值偏差",
+    "original_question": "瘦肉型猪在80千克体重阶段上市的饲料配方中赖氨酸的添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "兔肉的脂肪含量为12.5%，远低于猪肉（30.0%）、牛肉（20.0%）、羊肉（22.0%）和鸡肉（10.0%）。",
+    "reference_case": "兔肉的脂肪含量为9.76%，远低于猪肉（26.73%）、牛肉（15.83%）、羊肉（17.98%）和鸡肉（7.8%）。",
+    "error_detail": "数值偏差",
+    "original_question": "兔肉的脂肪含量与其他肉类相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "兔肉的能量含量为800 kJ/kg，低于猪肉（1500 kJ/kg）、牛肉（1400 kJ/kg）、羊肉（1200 kJ/kg）和鸡肉（600 kJ/kg）。",
+    "reference_case": "兔肉的能量含量为676 kJ/kg，低于猪肉（1284 kJ/kg）、牛肉（1255 kJ/kg）、羊肉（1097 kJ/kg）和鸡肉（517 kJ/kg）。",
+    "error_detail": "数值偏差",
+    "original_question": "兔肉的能量含量与其他肉类相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "兔肉的胆固醇含量为60 mg/100 g，低于猪肉（150 mg/100 g）、牛肉（130 mg/100 g）、羊肉（80-100 mg/100 g）和鸡肉的平均值（80-100 mg/100 g）。",
+    "reference_case": "兔肉的胆固醇含量为45 mg/100 g，低于猪肉（126 mg/100 g）、牛肉（106 mg/100 g）、羊肉（70-90 mg/100 g）和鸡肉的平均值（69-90 mg/100 g）。",
+    "error_detail": "数值偏差",
+    "original_question": "兔肉的胆固醇含量与其他肉类相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪需要各种营养物质的最低量，反映个体的平均需要量，未加安全系数。",
+    "reference_case": "猪需要各种营养物质的最低量，反映群体的平均需要量，未加安全系数。",
+    "error_detail": "数值偏差",
+    "original_question": "猪的营养需要指的是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "柠檬酸、延胡索酸、甲酸钙、琥珀酸等，主要用于调节消化道pH值，抑制病原微生物繁殖，提高消化吸收能力，常用于成年猪饲料中。",
+    "reference_case": "柠檬酸、延胡索酸、甲酸钙、琥珀酸等，主要用于调节消化道pH值，抑制病原微生物繁殖，提高消化吸收能力，常用于仔猪饲料中。",
+    "error_detail": "将仔猪错误地替换为成年猪，导致数据型幻觉。",
+    "original_question": "常用的酸味剂有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "泌乳期初产母猪的仔猪断奶时窝重为150千克左右。",
+    "reference_case": "泌乳期初产母猪的仔猪断奶时窝重为115千克左右。",
+    "error_detail": "将窝重从115千克错误地增加到150千克，导致数据型幻觉。",
+    "original_question": "泌乳期初产母猪的仔猪断奶时窝重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪空怀期的饲料配方中玉米的比例范围是10.0%至38.5%。",
+    "reference_case": "母猪空怀期的饲料配方中玉米的比例范围是20.0%至48.5%。",
+    "error_detail": "错误地减少了玉米的比例范围，导致数据型幻觉。",
+    "original_question": "母猪空怀期的饲料配方中玉米的比例范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪空怀期的饲料配方中的消化能范围是10.67兆焦/千克至12.31兆焦/千克。",
+    "reference_case": "母猪空怀期的饲料配方中的消化能范围是11.67兆焦/千克至13.31兆焦/千克。",
+    "error_detail": "错误地减少了消化能的范围，导致数据型幻觉。",
+    "original_question": "母猪空怀期的饲料配方中的消化能范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪人工乳配方中的牛乳比例为500毫升。",
+    "reference_case": "仔猪人工乳配方中的牛乳比例为1000毫升。",
+    "error_detail": "将牛乳比例从1000毫升错误地减少到500毫升，导致数据型幻觉。",
+    "original_question": "仔猪人工乳配方中的牛乳比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪人工乳配方中的全脂奶粉比例范围是30克至150克。",
+    "reference_case": "仔猪人工乳配方中的全脂奶粉比例范围是50克至200克。",
+    "error_detail": "错误地减少了全脂奶粉的比例范围，导致数据型幻觉。",
+    "original_question": "仔猪人工乳配方中的全脂奶粉比例范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪空怀期的饲料配方中的钙含量范围是0.50%至1.00%。",
+    "reference_case": "母猪空怀期的饲料配方中的钙含量范围是0.66%至1.16%。",
+    "error_detail": "错误地减少了钙含量的范围，导致数据型幻觉。",
+    "original_question": "母猪空怀期的饲料配方中的钙含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "配方7中玉米含量为15.0%，配方8中为30.2%，配方9中为65.0%，配方10中为12.0%，配方11中为18.0%，配方12中为55.0%。",
+    "reference_case": "配方7中玉米含量为11.0%，配方8中为24.2%，配方9中为58.0%，配方10中为9.0%，配方11中为13.0%，配方12中为48.0%。",
+    "error_detail": "错误地修改了玉米含量的数据，导致数据型幻觉。",
+    "original_question": "仔猪饲料配方中的玉米含量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "配方8适用于7～15日龄的仔猪。",
+    "reference_case": "配方9适用于7～15日龄的仔猪。",
+    "error_detail": "错误地修改了适用的配方编号，导致数据型幻觉。",
+    "original_question": "适用于7～15日龄仔猪的饲料配方编号是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "配方11适用于5～10千克重的仔猪。",
+    "reference_case": "配方10适用于5～10千克重的仔猪。",
+    "error_detail": "错误地修改了适用的配方编号，导致数据型幻觉。",
+    "original_question": "适用于5～10千克重仔猪的饲料配方编号是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "配方12需要额外添加0.5%的食盐。",
+    "reference_case": "配方12需要额外添加0.2%的食盐。",
+    "error_detail": "错误地增加了食盐的添加比例，导致数据型幻觉。",
+    "original_question": "配方12需要额外添加什么成分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "配方19适用于早期断奶的仔猪。",
+    "reference_case": "配方18适用于早期断奶的仔猪。",
+    "error_detail": "错误地修改了适用的配方编号，导致数据型幻觉。",
+    "original_question": "适用于早期断奶仔猪的饲料配方编号是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "配方18适用于5～10千克重的仔猪。",
+    "reference_case": "配方18适用于10～20千克重的仔猪。",
+    "error_detail": "错误地修改了适用的体重范围，导致数据型幻觉。",
+    "original_question": "配方18适用于哪些体重范围的仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "配方18可以使仔猪的日增重达到600克。",
+    "reference_case": "配方18可以使仔猪的日增重达到472克。",
+    "error_detail": "错误地增加了日增重的数据，导致数据型幻觉。",
+    "original_question": "配方18可以使仔猪的日增重达到多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "配方13适用于5～10千克重的仔猪。",
+    "reference_case": "配方13适用于10～20千克重的仔猪。",
+    "error_detail": "错误地修改了适用的体重范围，导致数据型幻觉。",
+    "original_question": "配方13适用于哪些体重范围的仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "配方13可以使仔猪的日增重达到700克。",
+    "reference_case": "配方13可以使仔猪的日增重达到566克。",
+    "error_detail": "错误地增加了日增重的数据，导致数据型幻觉。",
+    "original_question": "配方13可以使仔猪的日增重达到多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "配方7中粗蛋白质含量为30.0%，配方8中为28.1%，配方9中为25.6%，配方10中为29.9%，配方11中为30.6%，配方12中为26.5%。",
+    "reference_case": "配方7中粗蛋白质含量为25.0%，配方8中为23.1%，配方9中为20.6%，配方10中为24.9%，配方11中为25.6%，配方12中为21.5%。",
+    "error_detail": "错误地增加了粗蛋白质含量的数据，导致数据型幻觉。",
+    "original_question": "仔猪饲料配方中的粗蛋白质含量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "太湖猪包括二花脸猪、梅山猪、横泾猪、枫泾猪、米猪、沙鸟头猪、嘉兴黑猪和金华猪八个大的类群。",
+    "reference_case": "太湖猪包括二花脸猪、梅山猪、横泾猪、枫泾猪、米猪、沙鸟头猪和嘉兴黑猪七个大的类群。",
+    "error_detail": "添加了不存在的类群'金华猪'，导致类群数量错误。",
+    "original_question": "太湖猪包括哪些主要的类群？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "太湖猪于2005年6月被列入我国国家级畜禽遗传资源保护名录。",
+    "reference_case": "太湖猪于2006年6月被列入我国国家级畜禽遗传资源保护名录。",
+    "error_detail": "错误地将时间提前了一年。",
+    "original_question": "太湖猪被列入国家级保护名录的时间是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方19适用于5～10日龄的仔猪。",
+    "reference_case": "配方19适用于7～15日龄的仔猪。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪饲料配方19适用于多大的仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方20适用于10～20日龄的仔猪。",
+    "reference_case": "配方20适用于16～30日龄的仔猪。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪饲料配方20适用于多大的仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方23适用于1～5千克重的长白猪，日增重150克。",
+    "reference_case": "配方23适用于1～5千克重的三江白猪，日增重200克。",
+    "error_detail": "数值偏差和术语错误",
+    "original_question": "配方23适用于哪种仔猪，日增重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方24用于5～10千克重的长白猪，日增重300克。",
+    "reference_case": "配方24用于5～10千克重的三江白猪，日增重398克。",
+    "error_detail": "数值偏差和术语错误",
+    "original_question": "配方24适用于哪种仔猪，日增重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪饲料配方中玉米的比例范围是从30.0%到50.0%。",
+    "reference_case": "仔猪饲料配方中玉米的比例范围是从42.5%到62.0%。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪饲料配方中玉米的比例范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方25中使用了2毫升的“富铁力”补铁制剂，7日龄开始诱食，添加剂包括维生素配方8和微量元素配方20。",
+    "reference_case": "配方25中使用了1毫升的“富铁力”补铁制剂，7日龄开始诱食，添加剂包括维生素配方7和微量元素配方19。",
+    "error_detail": "数值偏差和术语错误",
+    "original_question": "仔猪配方25中添加了哪些添加剂？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方28中1.5%的添加剂，包括微量元素与复合多种维生素0.7%、酸化剂0.3%、复合酶制剂0.3%、食盐0.2%。",
+    "reference_case": "配方28中1.3%的添加剂，包括微量元素与复合多种维生素0.6%、酸化剂0.2%、复合酶制剂0.2%、食盐0.3%。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪配方28中的添加剂比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方29中1.2%的添加剂，除没有食盐，其他与配方28相同。",
+    "reference_case": "配方29中1%的添加剂，除没有食盐，其他与配方28相同。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪配方29中的添加剂比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪饲料配方的消化能范围为 9.0 至 12.0 兆焦/千克。",
+    "reference_case": "断奶仔猪饲料配方的消化能范围为 10.79 至 13.81 兆焦/千克。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪饲料配方的消化能范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪饲料配方中粗蛋白质的含量范围为 12.0% 至 18.0%。",
+    "reference_case": "断奶仔猪饲料配方中粗蛋白质的含量范围为 15.3% 至 20.0%。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪饲料配方中粗蛋白质的含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪饲料配方中的赖氨酸含量范围为 0.50% 至 0.70%。",
+    "reference_case": "断奶仔猪饲料配方中的赖氨酸含量范围为 0.76% 至 0.88%。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪饲料配方中的赖氨酸含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪饲料配方中的钙含量范围为 0.40% 至 0.70%。",
+    "reference_case": "断奶仔猪饲料配方中的钙含量范围为 0.54% 至 0.89%。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪饲料配方中的钙含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪饲料配方中的磷含量范围为 0.30% 至 0.60%。",
+    "reference_case": "断奶仔猪饲料配方中的磷含量范围为 0.45% 至 0.88%。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪饲料配方中的磷含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪饲料配方中的蛋氨酸含量范围为 0.15% 至 0.50%。",
+    "reference_case": "断奶仔猪饲料配方中的蛋氨酸含量范围为 0.25% 至 0.66%。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪饲料配方中的蛋氨酸含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪饲料配方中的胱氨酸含量范围为 0.10% 至 0.20%。",
+    "reference_case": "断奶仔猪饲料配方中的胱氨酸含量范围为 0.20% 至 0.29%。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪饲料配方中的胱氨酸含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪的饲料配方中玉米的含量范围是20.0%至50.0%。",
+    "reference_case": "断奶仔猪的饲料配方中玉米的含量范围是28.5%至59.0%。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪的饲料配方中玉米的含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪的饲料配方中麸皮的含量范围是3.0%至30.0%。",
+    "reference_case": "断奶仔猪的饲料配方中麸皮的含量范围是5.0%至40.0%。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪的饲料配方中麸皮的含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪的饲料配方中大豆饼的含量范围是3.0%至20.0%。",
+    "reference_case": "断奶仔猪的饲料配方中大豆饼的含量范围是5.0%至25.0%。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪的饲料配方中大豆饼的含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪的饲料配方中鱼粉的含量范围是1.0%至5.0%。",
+    "reference_case": "断奶仔猪的饲料配方中鱼粉的含量范围是3.0%至10.0%。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪的饲料配方中鱼粉的含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪饲料配方中的消化能范围为10.22兆焦/千克至11.89兆焦/千克。",
+    "reference_case": "断奶仔猪饲料配方中的消化能范围为13.22兆焦/千克至13.89兆焦/千克。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪饲料配方中的消化能范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪饲料配方中粗蛋白质含量范围为10.5%至15.5%。",
+    "reference_case": "断奶仔猪饲料配方中粗蛋白质含量范围为14.5%至25.5%。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪饲料配方中粗蛋白质含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪饲料配方中的钙含量范围为0.30%至0.48%。",
+    "reference_case": "断奶仔猪饲料配方中的钙含量范围为0.60%至0.78%。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪饲料配方中的钙含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪饲料配方中的磷含量范围为0.30%至0.46%。",
+    "reference_case": "断奶仔猪饲料配方中的磷含量范围为0.50%至0.76%。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪饲料配方中的磷含量范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方23用于内江猪，日增重为320克。",
+    "reference_case": "配方23用于内江猪，日增重为220克。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪饲料配方中的日增重情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶仔猪饲料配方中玉米的比例在40.0%到50.2%之间。",
+    "reference_case": "断奶仔猪饲料配方中玉米的比例在53.0%到57.2%之间。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪饲料配方中玉米的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪的饲料配方中，玉米的比例从37号配方的30.0%逐渐变化，到42号配方增加至50.5%。",
+    "reference_case": "生长肥育猪的饲料配方中，玉米的比例从37号配方的40.0%逐渐变化，到42号配方增加至60.5%。",
+    "error_detail": "数值偏差",
+    "original_question": "生长肥育猪的饲料配方中玉米的比例变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "菜籽饼作为蛋白质饲料，但在配方中限制其用量，以防猪中毒，建议用量为15%。",
+    "reference_case": "菜籽饼作为蛋白质饲料，但在配方中限制其用量，以防猪中毒。",
+    "error_detail": "错误地给出了菜籽饼的具体用量比例，而原始输出并未提供具体数值。",
+    "original_question": "菜籽饼在饲料配方中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "这一组配合饲料是按饲料标准配制的典型日粮，猪日增重在800~1000克。",
+    "reference_case": "这一组配合饲料是按饲料标准配制的典型日粮，猪日增重在500~700克。",
+    "error_detail": "错误地提高了猪日增重的数值范围。",
+    "original_question": "配方 \\(55 \\sim 60\\) 的饲料标准是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪的饲料配方中，玉米的比例分别为67号配方58.0%，68号配方67.0%，69号配方63.0%，70号配方57.5%。",
+    "reference_case": "生长肥育猪的饲料配方中，玉米的比例分别为67号配方48.0%，68号配方57.0%，69号配方53.0%，70号配方47.5%。",
+    "error_detail": "错误地提高了玉米的比例数值。",
+    "original_question": "生长肥育猪的饲料配方中，玉米的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方 91 的平均日增重为 652 克，配方 92 为 670 克，配方 93 为 636 克，配方 94 为 614 克。",
+    "reference_case": "配方 91 的平均日增重为 552 克，配方 92 为 570 克，配方 93 为 536 克，配方 94 为 514 克。",
+    "error_detail": "错误地提高了平均日增重的数值。",
+    "original_question": "92、93、94 中菜籽饼比例的平均日增重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "建议菜籽饼用量以 18% 最好，以加速早期生长。",
+    "reference_case": "建议菜籽饼用量以 8% 最好，以加速早期生长。",
+    "error_detail": "错误地提高了菜籽饼的建议用量比例。",
+    "original_question": "建议菜籽饼用量以多少比例最好？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方30适用于25～50千克体重的生长肥育猪。",
+    "reference_case": "配方30适用于35～60千克体重的生长肥育猪。",
+    "error_detail": "体重范围错误",
+    "original_question": "配方30适用于哪些体重的生长肥育猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "玉米的比例从10%增加到50%。",
+    "reference_case": "玉米的比例从0%增加到40%。",
+    "error_detail": "比例变化错误",
+    "original_question": "玉米在35～60千克体重生长肥育猪的饲料配方中比例如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用配方62的肥育猪日增重600克。",
+    "reference_case": "使用配方62的肥育猪日增重574克。",
+    "error_detail": "日增重数值错误",
+    "original_question": "使用配方62的肥育猪日增重多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用配方63的肥育猪日增重550克。",
+    "reference_case": "使用配方63的肥育猪日增重600克。",
+    "error_detail": "日增重数值错误",
+    "original_question": "使用配方63的肥育猪日增重多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "使用配方64的肥育猪日增重500克。",
+    "reference_case": "使用配方64的肥育猪日增重579克。",
+    "error_detail": "日增重数值错误",
+    "original_question": "使用配方64的肥育猪日增重多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "建议用量控制在10%左右，使用15%则可能对甲状腺功能产生影响。",
+    "reference_case": "建议用量控制在13%左右，使用18%则可能对甲状腺功能产生影响。",
+    "error_detail": "用量比例错误",
+    "original_question": "白菜型菜籽饼对生长肥育猪饲养有何建议用量范围？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "小麦和燕麦的比例相对较高，其中小麦的含量从50.0%到15.0%不等，燕麦的含量则从25.0%到35.0%不等。",
+    "reference_case": "大麦和麸皮的比例相对较高，其中大麦的含量从45.0%到10.0%不等，麸皮的含量则从21.0%到30.0%不等。",
+    "error_detail": "成分和比例错误",
+    "original_question": "60～90千克体重生长肥育猪的饲料配方中，哪些饲料的成分比例较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "钙的比例范围为0.15%至0.20%，磷的比例则为0.50%至0.70%。",
+    "reference_case": "钙的比例范围为0.19%至0.25%，磷的比例则为0.64%至0.82%。",
+    "error_detail": "矿物质比例错误",
+    "original_question": "60～90千克体重生长肥育猪的饲料配方中，哪些矿物质的比例较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "需要额外添加0.5%的食盐。",
+    "reference_case": "需要额外添加0.3%的食盐。",
+    "error_detail": "食盐添加比例错误",
+    "original_question": "26和29需要额外添加多少食盐？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "生长肥育猪饲料配方中需要添加0.5%的食盐。",
+    "reference_case": "生长肥育猪饲料配方中需要添加0.3%的食盐。",
+    "error_detail": "食盐添加比例错误",
+    "original_question": "生长肥育猪饲料配方中需要添加什么比例的食盐？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "配方115日增重600克；配方116日增重600克；配方117用于长白猪×广东地方猪，日增重700克；配方118用于大白猪×广东地方猪，日增重600克；配方119日增重700克；配方120用于长杂猪，日增重700克。",
+    "reference_case": "配方115日增重693克；配方116日增重653克；配方117用于长白猪×广东地方猪，日增重754克；配方118用于大白猪×广东地方猪，日增重690克；配方119日增重754克；配方120用于长杂猪，日增重788克。",
+    "error_detail": "日增重数值错误",
+    "original_question": "不同配方的饲料在杂种猪中的日增重要求如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验猪应选择体重20~50公斤、健康状况正常的去势公猪，且免疫驱虫后备用。",
+    "reference_case": "试验猪应选择体重30~60公斤、健康状况正常的去势公猪，且免疫驱虫后备用。",
+    "error_detail": "体重范围错误",
+    "original_question": "试验猪应满足哪些条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "喂给全价配合饲料1~3天，观察并记录每头试验猪的自由采食量，按自由采食量的75%确定预试期和正试期每日给饲饲料量。",
+    "reference_case": "喂给全价配合饲料3~5天，观察并记录每头试验猪的自由采食量，按自由采食量的85%确定预试期和正试期每日给饲饲料量。",
+    "error_detail": "饲料喂给天数和采食量比例错误",
+    "original_question": "适应期的具体要求是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "室温下保持 6 个月效价不变，0~4℃下可保持一年效价不变。",
+    "reference_case": "室温下保持 3 个月效价不变，0~4℃下可保持半年效价不变。",
+    "error_detail": "保存时间错误",
+    "original_question": "猪小肠液冻干粉的保存条件是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验猪的体重范围为20至25公斤。",
+    "reference_case": "试验猪的体重范围为25至30公斤。",
+    "error_detail": "体重范围错误",
+    "original_question": "试验猪的体重范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪采用湿粉料，鸡统一采用颗粒料或粉料。人工定量投料，自由采食，自由饮水。",
+    "reference_case": "猪采用干粉料，鸡统一采用颗粒料或粉料。人工定量投料，自由采食，自由饮水。",
+    "error_detail": "将干粉料错误地改为湿粉料",
+    "original_question": "饲养管理中如何投料？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "日增重 (g/头) = 全期增重 (g/只) / 饲养日数。",
+    "reference_case": "日增重 (g/头) = 全期增重 (g/只) / 铝养日数。",
+    "error_detail": "将铝养日数错误地改为饲养日数",
+    "original_question": "如何计算猪/鸡的日增重？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "耗料比 = 试验期总饲料量 (kg) / (猪/鸡) 总重 (kg) - 试验期始猪/鸡总重 (kg)。",
+    "reference_case": "耗料比 = 试验期总险期末料量 (kg) / (猪/鸡) 总重 (kg) - 试验期始猪/鸡总重 (kg)。",
+    "error_detail": "将总险期末料量错误地改为总饲料量",
+    "original_question": "如何计算猪/鸡的耗料比？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "成活率 (%) = (试验初猪/鸡数 - 试验期死亡淘汰猪/鸡数) / 试验初猪/鸡数 × 1000。",
+    "reference_case": "成活率 (%) = (试验初猪/鸡数 - 试验期死亡淘汰猪/鸡数) / 试验初猪/鸡数 × 100。",
+    "error_detail": "将乘以100错误地改为乘以1000",
+    "original_question": "如何计算猪/鸡的成活率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验猪应为纯种仔猪，来源于饲养管理规范和防疫措施严格的猪群，且来源于1~3胎母猪后代，体重差异不超过平均体重10%，公母比例相同。",
+    "reference_case": "试验猪应为二元或三元杂交仔猪，来源于饲养管理规范和防疫措施严格的猪群，且来源于2~4胎母猪后代，体重差异不超过平均体重5%，公母比例相同。",
+    "error_detail": "将二元或三元杂交仔猪错误地改为纯种仔猪，胎次和体重差异比例也错误",
+    "original_question": "试验猪应满足哪些条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "试验用猪遗传基础相同，父本为不同品种公猪，母本为相同的杂交组合，来源于饲养管理规范和防疫措施严格的猪场，来源于1~3胎母猪后代，各处理组间和重复组间平均体重差异不超过平均体重10%，公母比例相同。",
+    "reference_case": "试验用猪遗传基础相同，父本为同一品种公猪，母本为相同的杂交组合，来源于饲养管理规范和防疫措施严格的猪场，来源于2~4胎母猪后代，各处理组间和重复组间平均体重差异不超过平均体重5%，公母比例相同。",
+    "error_detail": "将父本为同一品种公猪错误地改为不同品种公猪，胎次和体重差异比例也错误",
+    "original_question": "试验用猪应符合哪些条件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "从平均体重20kg±1.0kg开始，50kg±1.5kg结束，试验猪60日龄转群，统一喂转群前日粮，体重20kg±1.0kg时按试验设计进行分组，开始试验时各组间平均体重应无显著差异（P>0.05）。",
+    "reference_case": "从平均体重25kg±1.0kg开始，60kg±1.5kg结束，试验猪70日龄转群，统一喂转群前日粮，体重25kg±1.0kg时按试验设计进行分组，开始试验时各组间平均体重应无显著差异（P>0.05）。",
+    "error_detail": "将体重和日龄数据错误地改为较低的值",
+    "original_question": "试验期是如何规定的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "以重复组日增重和耗料比的测值计算处理组相应指标的平均值、标准差和处理组间最小显著差值，所有数据均进行方差分析或t检验，以α=0.01为显著水平，计算耗料比及增重的饲料成本时，对死亡、淘汰猪的耗料量和增重值进行校正，计算试验组和对照组间各项测值的最小显著差值 (LSD0.01)。",
+    "reference_case": "以重复组日增重和耗料比的测值计算处理组相应指标的平均值、标准差和处理组间最小显著差值，所有数据均进行方差分析或t检验，以α=0.05为显著水平，计算耗料比及增重的饲料成本时，对死亡、淘汰猪的耗料量和增重值进行校正，计算试验组和对照组间各项测值的最小显著差值 (LSD0.05)。",
+    "error_detail": "将显著水平α=0.05错误地改为α=0.01",
+    "original_question": "数据处理方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "妊娠中期，母猫食量比平时增加80%~100%，特别爱吃植物性饲料，每天每只可增加150~200克鲜鱼或猪肺、肠。临产前，食欲减退，可适当补充牛奶100~120毫升和鸡蛋2个。",
+    "reference_case": "妊娠中期，母猫食量比平时增加30%~50%，特别爱吃动物性饲料，每天每只可增加50~100克鲜鱼或猪肺、肠。临产前，食欲减退，可适当补充牛奶60~70毫升和鸡蛋1个。",
+    "error_detail": "数值/比例偏差",
+    "original_question": "妊娠期母猫的饮食有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "科学养猪依据是每圈养10头猪，这符合科学养猪的道理，可以减少维持需要，使更多的能量投入生长。",
+    "reference_case": "科学养猪依据是每圈养5头猪，这符合科学养猪的道理，可以减少维持需要，使更多的能量投入生长。",
+    "error_detail": "修改了每圈养猪的数量，从5头增加到10头，导致数据型幻觉。",
+    "original_question": "现代化养猪的科学依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "鸭粪的氮、磷、钾含量分别比猪粪高2倍、3.5倍和1.5倍，对水稻的生长发育非常有利。",
+    "reference_case": "鸭粪的氮、磷、钾含量分别比猪粪高1倍、2.5倍和0.5倍，对水稻的生长发育非常有利。",
+    "error_detail": "修改了鸭粪与猪粪的氮、磷、钾含量比例，导致数据型幻觉。",
+    "original_question": "鸭粪作为肥料对水稻生长有何作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "呆立不动，精神萎靡，呼吸急促，口流涎沫，全身肌肉颤抖、出汗、呕吐食物、拒食、强迫行走则步态不稳或突然倒地，大小便失禁，瞳孔散大，反射减弱，四肢冰凉，偶有鼻腔出血，猪有时可见皮疹，体温升高3～4℃，心率增快，脉沉细数。",
+    "reference_case": "呆立不动，精神萎靡，呼吸急促，口流涎沫，全身肌肉颤抖、出汗、呕吐食物、拒食、强迫行走则步态不稳或突然倒地，大小便失禁，瞳孔散大，反射减弱，四肢冰凉，偶有鼻腔出血，猪有时可见皮疹，体温升高1～2℃，心率增快，脉沉细数。",
+    "error_detail": "修改了体温升高的范围，从1～2℃增加到3～4℃，导致数据型幻觉。",
+    "original_question": "急性过敏的临床表现有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肌肉或皮下注射。按瓶签注明头份，用生理盐水稀释成每头份 2 mL ，每头注射 2.0 mL 。在无猪瘟流行的地区断奶后无母源抗体的仔猪，接种 1 次即可。有疫情威胁时，仔猪可在 21 ~ 30 日龄和 65 日龄左右各接种 1次。断奶仔猪可接种 4 头份疫苗。",
+    "reference_case": "肌肉或皮下注射。按瓶签注明头份，用生理盐水稀释成每头份 1 mL ，每头注射 1.0 mL 。在无猪瘟流行的地区断奶后无母源抗体的仔猪，接种 1 次即可。有疫情威胁时，仔猪可在 21 ~ 30 日龄和 65 日龄左右各接种 1次。断奶仔猪可接种 4 头份疫苗。",
+    "error_detail": "修改了稀释和注射的量，从1 mL增加到2 mL，导致数据型幻觉。",
+    "original_question": "猪瘟活疫苗（兔源）的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "免疫期为 18 个月。",
+    "reference_case": "免疫期为 12 个月。",
+    "error_detail": "修改了免疫期，从12个月增加到18个月，导致数据型幻觉。",
+    "original_question": "猪瘟活疫苗（兔源）的免疫期是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "-20°C 保存，有效期为 18 个月。",
+    "reference_case": "-15°C 保存，有效期为 12 个月。",
+    "error_detail": "修改了保存温度和有效期，导致数据型幻觉。",
+    "original_question": "猪瘟活疫苗（兔源）的储存条件和有效期是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "肌肉或皮下注射。按瓶签注明头份，用生理盐水稀释成每头份 2 mL ，每头注射 2.0 mL 。在无猪瘟流行的地区断奶后无母源抗体的仔猪，接种 1 次即可。有疫情威胁时，仔猪可在 21 ~ 30 日龄和 65 日龄左右各接种 1次。断奶仔猪可接种 4 头份疫苗。",
+    "reference_case": "肌肉或皮下注射。按瓶签注明头份，用生理盐水稀释成每头份 1 mL ，每头注射 1.0 mL 。在无猪瘟流行的地区断奶后无母源抗体的仔猪，接种 1 次即可。有疫情威胁时，仔猪可在 21 ~ 30 日龄和 65 日龄左右各接种 1次。断奶仔猪可接种 4 头份疫苗。",
+    "error_detail": "修改了稀释和注射的量，从1 mL增加到2 mL，导致数据型幻觉。",
+    "original_question": "猪瘟活疫苗（脾淋源）的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "肌肉注射每头200亿CFU活菌，在母猪预产期前5～10天进行；口服每头1000亿CFU活菌，在预产期10～20天前进行。",
+    "reference_case": "肌肉注射每头100亿CFU活菌，在母猪预产期前10～20天进行；口服每头500亿CFU活菌，在预产期15～25天前进行，将疫苗与2.0g小苏打及少量饲料拌匀空腹喂给母猪。",
+    "error_detail": "错误地增加了疫苗的剂量和改变了使用时间。",
+    "original_question": "仔猪大肠杆菌K88、LTB状双价基因加工程活疫苗的用法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "每瓶疫苗用注射用水2mL溶解，再与30%氢氧化铝胶生理盐水3.0mL混匀。",
+    "reference_case": "每瓶疫苗用注射用水1mL溶解，再与20%氢氧化铝胶生理盐水2.0mL混匀，怀孕母猪在临产前21天左右注射1次即可。",
+    "error_detail": "错误地增加了溶解疫苗的注射用水和氢氧化铝胶生理盐水的量。",
+    "original_question": "仔猪大肠杆菌K88 K99双价基因工程灭活疫苗的用法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "后海穴注射，进针深度根据猪龄大小为1.0～5.0cm，母猪在产前10～15天注射5.0mL。",
+    "reference_case": "后海穴注射，进针深度根据猪龄大小为0.5～4.0cm，母猪在产前20～30天注射4.0mL，所产仔猪在断奶后7天内注射疫苗1mL，体重25kg注射1mL/头，25～50kg注射2.0mL/头，50kg以上注射4.0mL/头。",
+    "error_detail": "错误地改变了注射深度、时间和剂量。",
+    "original_question": "猪传染性胃肠炎、猪流行性腹泻二联灭活疫苗的用法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "用于主动免疫时，仔猪接种后7天产生免疫力，免疫期为3个月。",
+    "reference_case": "用于主动免疫时，仔猪接种后14天产生免疫力，免疫期为6个月。通过初乳获得被动免疫力的仔猪，免疫力期为哺乳期至断奶后7天。",
+    "error_detail": "错误地缩短了免疫产生时间和免疫期。",
+    "original_question": "猪传染性胃肠炎、猪流行性腹泻二联灭活疫苗的免疫期为多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "肌肉注射。每头每日注射2次，病重者可注射3次，每次乳猪2万单位，仔猪4万单位。",
+    "reference_case": "肌肉注射。每头每日注射1次，病重者可注射2次，每次乳猪1万单位，仔猪2万单位，连续3～5天为一个疗程。",
+    "error_detail": "错误地增加了注射次数和剂量。",
+    "original_question": "猪白细胞干扰素的用法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "新生仔猪在5～10日龄和40～50日龄接种猪瘟活疫苗。",
+    "reference_case": "新生仔猪在1～7日龄和35～45日龄接种猪瘟活疫苗。",
+    "error_detail": "错误地改变了接种时间。",
+    "original_question": "新生仔猪在什么时间需要接种猪瘟活疫苗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在检测卡的加样孔加入4滴待检血清或血液样品，室温下静置10至30分钟内判定结果。",
+    "reference_case": "在检测卡的加样孔加入2滴待检血清或血液样品，室温下静置5至20分钟内判定结果，超时20分钟结果仅供参考。",
+    "error_detail": "错误地增加了样品量和改变了判定时间。",
+    "original_question": "猪口蹄疫抗体快速金标检测卡的操作方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "用于检测猪瘟兔化弱毒疼苗免疼抗体和猪瘟病毒强毒抗体的比例为1:100。",
+    "reference_case": "用于检测猪瘟兔化弱毒疼苗免疼抗体和猪瘟病毒强毒抗体。",
+    "error_detail": "错误地添加了不存在的比例数据。",
+    "original_question": "猪瘟单克隆抗体纯化酶联免疫吸附试验的作用与用途是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "高致病性猪蓝耳病的临床症状包括体温明显升高，可达42℃以上。",
+    "reference_case": "高致病性猪蓝耳病的临床症状包括体温明显升高，可达41℃以上。",
+    "error_detail": "错误地提高了体温数据。",
+    "original_question": "高致病性猪蓝耳病的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "明清时期太湖猪的饲料种类非常有限，主要包括青饲料和泔水。",
+    "reference_case": "明清时期太湖猪的饲料种类丰富，包括青饲料、水生饲料、枝叶饲料、发酵饲料、块根块茎、菜秕饲料、糠麸饲料、籽实饲料、矿物饲料以及泔水、糟水等。太湖地区充分利用水域优势，采取采集、种植、贮藏和加工等多种方法获取饲料，形成了以青粗饲料为主、适当搭配精料的营养结构，既保证了经济原则，又满足了猪只的营养需求。",
+    "error_detail": "错误地减少了饲料种类的描述，忽略了多种饲料类型和综合利用水域优势的策略。",
+    "original_question": "明清时期太湖猪的饲料有哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "太湖猪被列入国家级畜禽遗传资源保护名录的具体年份是2008年。",
+    "reference_case": "2006年",
+    "error_detail": "错误地将太湖猪被列入国家级畜禽遗传资源保护名录的年份从2006年改为2008年。",
+    "original_question": "太湖猪被列入国家级畜禽遗传资源保护名录的具体年份是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "太湖猪在20世纪90年代末面临的主要挑战是生长速度过快，无法满足市场需求。",
+    "reference_case": "太湖猪在20世纪90年代末面临的主要挑战是生长速度缓慢（日增重不到400克），无法满足市场需求。",
+    "error_detail": "错误地将太湖猪的生长速度从缓慢改为过快，完全颠倒了事实。",
+    "original_question": "太湖猪在20世纪90年代末面临哪些主要挑战？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中国生猪存栏量在全球排名第二，占全球生猪存栏的30%以上。",
+    "reference_case": "中国生猪存栏量在全球排名第一，接近五亿的数量，占全球生猪存栏的50%以上。",
+    "error_detail": "错误地将中国生猪存栏量的全球排名和占比从第一和50%以上改为第二和30%以上。",
+    "original_question": "根据文本中的数据，中国生猪存栏量在全球排名如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "从1999年到2002年，年出栏头数在100头以下的农户大幅增加，而年出栏头数在100头以上的农户大幅减少。",
+    "reference_case": "从1999年到2002年，年出栏头数在100头以下的农户大幅减少，而年出栏头数在100头以上的农户大幅增加。",
+    "error_detail": "错误地颠倒了年出栏头数在100头以下和以上农户的变化趋势。",
+    "original_question": "文中提到的中国养猪业的规模化趋势是什么？",
+    "original_input": ""
+  }
+]

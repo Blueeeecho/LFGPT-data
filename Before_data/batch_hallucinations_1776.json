@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "慢性猪瘟的出血和梗死变化非常明显，尤其在心脏和肺部。",
+    "reference_case": "慢性猪瘟的出血和梗死变化较不明显或完全没有，在回肠末端、盲肠和结肠常有特征性的坏死和溃疡变化，呈纽扣状。",
+    "error_detail": "错误地描述了慢性猪瘟的出血和梗死变化，与实际情况相反。",
+    "original_question": "慢性猪瘟的出血和梗死变化有何特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪瘟的实验室诊断方法包括检查病毒抗原、病毒分离以及检查特异抗体，但这些方法的准确率只有50%。",
+    "reference_case": "猪瘟的实验室诊断方法包括检查病毒抗原、病毒分离以及检查特异抗体。",
+    "error_detail": "错误地添加了诊断方法的准确率数据，缺乏依据。",
+    "original_question": "猪瘟的实验室诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "急性猪瘟容易与禽流感和口蹄疫混淆，应进行鉴别诊断。",
+    "reference_case": "急性猪瘟容易与非洲猪瘟、PRRS、败血性副伤寒、猪丹毒、链球菌病、猪肺疫、弓形虫病和副猪嗜血杆菌病等混淆，应进行鉴别诊断。",
+    "error_detail": "错误地列出了与猪瘟相似的病原，与实际情况不符。",
+    "original_question": "哪些病原与猪瘟有相似之处，但需进行鉴别诊断？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "慢性猪瘟的特点是出血和梗死变化非常明显，这是最新的研究发现。",
+    "reference_case": "慢性猪瘟的特点是出血和梗死变化较不明显或完全没有，在回肠末端、盲肠和结肠常有特征性的坏死和溃疡变化，呈纽扣状。",
+    "error_detail": "错误地描述了慢性猪瘟的最新特点，与已知信息不符。",
+    "original_question": "慢性猪瘟的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "美国的兔化弱毒疫苗（C-株）是全世界使用最为广泛，同时也是最优秀的疫苗。",
+    "reference_case": "中国的兔化弱毒疫苗（C-株）是全世界使用最为广泛，同时也是最优秀的疫苗。",
+    "error_detail": "错误地将疫苗的产地从中国改为美国。",
+    "original_question": "猪瘟疫苗有哪些种类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "接种疫苗后3天可产生免疫力，免疫期持续6个月。",
+    "reference_case": "接种疫苗后1周可产生免疫力，免疫期持续1年以上。接种疫苗不仅保护种猪不发生猪瘟，而且大大减少受CSFV强毒攻击时强毒的复制，并防止强毒向接触猪传播。",
+    "error_detail": "错误地修改了免疫产生的时间和持续时间。",
+    "original_question": "猪瘟疫苗免疫后有何效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "短时间的胰酶处理对病毒悬液感染性有严重影响，会降低其感染效价。",
+    "reference_case": "短时间的胰酶处理对病毒悬液感染性不仅没有影响，反而能提高其感染效价。",
+    "error_detail": "错误地描述了胰酶处理对病毒悬液感染性的影响，与指令要求相反。",
+    "original_question": "什么条件下PPV的感染性会提高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪繁殖与呼吸综合征主要以急性感染、临床显著症状、免疫增强和不易继发感染为流行特点。",
+    "reference_case": "猪繁殖与呼吸综合征主要以持续感染、亚临床感染、免疫抑制和易继发感染为流行特点。",
+    "error_detail": "错误地描述了猪繁殖与呼吸综合征的流行特点，与实际情况相反。",
+    "original_question": "猪繁殖与呼吸综合征的主要流行特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "引种时无需搞清所引猪场的疫情，直接引入即可，无需隔离检疫。",
+    "reference_case": "引种时首先要搞清所引猪场的疫情，进行血清学检测，确认为阴性猪方可引入，坚决禁止引入阳性带毒猪，引入后必须建立适当的隔离区，做好监测工作，一般仍需隔离检疫3~4周，确认健康后方可混群饲养。",
+    "error_detail": "错误地简化了引种时的防控措施，忽略了必要的步骤。",
+    "original_question": "如何进行引种时的防控措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "规模化猪场无需实现全进全出原则，可以随意混养不同阶段的猪。",
+    "reference_case": "规模化猪场应彻底实现全进全出，至少要做到产房和保育两个阶段的全进全出。",
+    "error_detail": "错误地否定了全进全出原则的重要性，与最佳实践相悖。",
+    "original_question": "规模化猪场应如何实现全进全出原则？",
+    "original_input": ""
+  }
+]

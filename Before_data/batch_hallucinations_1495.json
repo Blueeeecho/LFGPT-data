@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪的妊娠期为100至110天，平均为105天。",
+    "reference_case": "母猪的妊娠期为111至117天，平均为114天。",
+    "error_detail": "数值偏差",
+    "original_question": "母猪的妊娠期是多少天？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "母猪的配种日期月上减7，日上减8。",
+    "reference_case": "母猪的配种日期月上减8，日上减7。如果月份不够减8，或日期不够减7，可在月份上加11，或在日期上加30，再分别减，得出的时间就是母猪的预产期。",
+    "error_detail": "术语错误",
+    "original_question": "八、七法的具体计算步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "需要准备毛巾、抹布、水桶、水盆、消毒药品、5%的碘酊、催产药物、剪刀、缝合针和缝合线。",
+    "reference_case": "需要准备毛巾、抹布、水桶、水盆、消毒药品、5%的碘酊、催产药物、剪刀、缝合针和缝合线，备用保险丝、灯泡及风灯（产房内禁点明火），冬季分娩还应准备防寒用品，最好再预备些25%的葡萄糖液，以做抢救仔猪用。",
+    "error_detail": "需求冲突",
+    "original_question": "母猪的分娩前需要准备哪些物品？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "如果某月有闰2月，计算时应在对应天数上加2天。",
+    "reference_case": "如果某月有闰2月，计算时应在对应天数上加1天。",
+    "error_detail": "过时标准",
+    "original_question": "计算猪的分娩日期时，如果某月有闰2月，应该如何处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "哺乳母猪的减重程度与泌乳量、饲料营养水平和采食量无关。",
+    "reference_case": "哺乳母猪的减重程度与泌乳量、饲料营养水平和采食量有关。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "哺乳母猪减重的程度与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪产后体重下降应为产后体重的10%~15%，主要集中在前一个月。",
+    "reference_case": "哺乳母猪产后体重下降应为产后体重的15%~20%，主要集中在前一个月。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪产后体重下降应为多少比例？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "补喂动物性蛋白饲料主要是为了增加母猪的体重。",
+    "reference_case": "补喂动物性蛋白饲料主要是为了满足母猪蛋白质和必需氨基酸的需要。",
+    "error_detail": "添加假设",
+    "original_question": "哺乳母猪补喂动物性蛋白饲料的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "补喂青绿多汁饲料则由于其中维生素、水分含量丰富，可以减少泌乳能力。",
+    "reference_case": "补喂青绿多汁饲料则由于其中维生素、水分含量丰富，并含有多酚氧化酶，可以增加泌乳能力。",
+    "error_detail": "误解上下文",
+    "original_question": "哺乳母猪补喂青绿多汁饲料的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "哺乳母猪应饲喂单一饲料，原料要单一化。",
+    "reference_case": "哺乳母猪应饲喂优质饲料，原料要多样化，尽量选择营养丰富、保存良好、无毒的饲料，且饲料的体积不能太大，适口性好，增加采食量。",
+    "error_detail": "需求冲突",
+    "original_question": "哺乳母猪的饲料应如何安排？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "哺乳母猪应增加饲喂次数，每次要少喂勤添，一般日喂5~6次。",
+    "reference_case": "哺乳母猪应增加饲喂次数，每次要少喂勤添，一般日喂3~4次，每次间隔时间要均匀，做到定时、定量。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪的饲喂次数应如何安排？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "哺乳母猪产后几天体质较弱，消化力不强，应给予干料。",
+    "reference_case": "哺乳母猪产后几天体质较弱，消化力不强，应给予稀料，2~3天后饲料喂量逐渐增多，5~7天改喂湿拌料，按标准规定量饲喂。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "哺乳母猪的饲料喂量如何逐步增加？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "哺乳母猪的饲料可以突然改变，不会引起消化不良。",
+    "reference_case": "哺乳母猪的饲料切忌突然改变，以免引起消化不良，影响乳的产量及质量。",
+    "error_detail": "添加假设",
+    "original_question": "哺乳母猪突然改变饲料的危害是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "在带仔数少于乳头数时，应减少仔猪的数量。",
+    "reference_case": "在带仔数少于乳头数时，应训练仔猪吮吸几个乳头，特别是要训练仔猪吮吸母猪乳房后部的乳头，必要时可采取并窝措施。",
+    "error_detail": "误解上下文",
+    "original_question": "哺乳母猪的数量与乳头数不匹配时应如何处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "圈栏可以有尖锐物，不会伤害乳头。",
+    "reference_case": "圈栏应平坦，特别是产床不能有尖锐物，以防止别伤、刺伤乳头。",
+    "error_detail": "需求冲突",
+    "original_question": "哺乳母猪保护乳头应采取哪些措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "乳房肿胀，体温上升，乳汁停止分泌时，不应进行任何处理。",
+    "reference_case": "乳房肿胀，体温上升，乳汁停止分泌时，可使用手或湿布按摩乳房，将残存乳汁挤出，每天挤4~5次，2~3天乳房出现皱褶，逐渐上缩。如乳房已变硬，挤出的乳汁呈脓状，可注射抗生素或磺胺类药物进行治疗。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "哺乳母猪出现乳房炎时应如何处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "母猪产后感染，体温上升到42°C，全身痉挛，停止泌乳时，必须把全窝仔猪进行寄养，并对母猪及时治疗。",
+    "reference_case": "母猪产后感染，体温上升到41°C，全身痉挛，停止泌乳时，必须把全窝仔猪进行寄养，并对母猪及时治疗。",
+    "error_detail": "数值偏差",
+    "original_question": "哺乳母猪产后感染，体温上升时应如何处理？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "哺乳母猪产后奶少或无奶的原因只有母猪年老体弱。",
+    "reference_case": "最常见的原因有：母猪妊娠期间饲养管理不善，特别是妊娠后期饲养水平太低，母猪消瘦，乳腺发育不良；母猪年老体弱，食欲不振，消化不良，营养不足；母猪妊娠期间喂给大量碳水化合物饲料，而蛋白质、维生素和矿物质供给不足；母猪过胖，内分泌失调，母猪体质差，产圈未消毒，分娩时容易发生产道和子宫感染。",
+    "error_detail": "添加假设",
+    "original_question": "哺乳母猪产后奶少或无奶的原因有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "母猪产后感染可用5%的温盐水灌洗子宫，同时注射抗生素治疗。",
+    "reference_case": "母猪产后感染可用2%的温盐水灌洗子宫，同时注射抗生素治疗。",
+    "error_detail": "术语错误",
+    "original_question": "哺乳母猪产后感染的治疗方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "确保公猪提供优良的精子，母猪少排出可受精的卵子，并在不适宜的时间内交配，使卵子有机会受精。",
+    "reference_case": "确保公猪提供优良的精子，母猪多排出可受精的卵子，并在适宜的时间内交配，使卵子有机会受精。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "如何提高母猪的受胎率和增加胚胎数量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "线毛膜促性腺激素可以有效抑制母猪排卵。",
+    "reference_case": "线毛膜促性腺激素可以有效催情和促进母猪排卵。",
+    "error_detail": "误解上下文",
+    "original_question": "线毛膜促性腺激素对母猪有何作用？",
+    "original_input": ""
+  }
+]

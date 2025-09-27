@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "黄浦江漂流死猪事件揭示了国内养殖业畜禽尸体处理的薄弱与无力，以及如何做好病死动物无害化处理工作成为整个畜牧养殖行业面临的迫切难题，其中病死猪无害化处理率仅为30%。",
+    "reference_case": "黄浦江漂流死猪事件揭示了国内养殖业畜禽尸体处理的薄弱与无力，以及如何做好病死动物无害化处理工作成为整个畜牧养殖行业面临的迫切难题。",
+    "error_detail": "添加了不存在的病死猪无害化处理率数据",
+    "original_question": "黄浦江漂流死猪事件揭示了什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "2011年《国务院办公厅关于促进生猪生产平稳健康持续发展防止市场供应和价格大幅波动的通知》中提到，对标准化规模养殖场（小区）养殖环节病死猪无害化处理给予每头100元的补助。",
+    "reference_case": "2011年《国务院办公厅关于促进生猪生产平稳健康持续发展防止市场供应和价格大幅波动的通知》中提到，对标准化规模养殖场（小区）养殖环节病死猪无害化处理给予每头80元的补助。",
+    "error_detail": "错误地提高了补助金额",
+    "original_question": "2011年《国务院办公厅关于促进生猪生产平稳健康持续发展防止市场供应和价格大幅波动的通知》中对病死猪无害化处理有何规定？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "2013年欧盟猪肉产量下降的主要原因是养殖户根据欧盟动物福利法规调整生猪养殖量，导致能繁母猪数量下降，尤其是德国和西班牙分别下降了5%和6%。",
+    "reference_case": "2013年欧盟猪肉产量下降的主要原因是养殖户根据欧盟动物福利法规调整生猪养殖量，导致能繁母猪数量下降，尤其是德国和西班牙分别下降了5:4%和6:5%。",
+    "error_detail": "错误地修改了百分比表示方式",
+    "original_question": "2013年欧盟猪肉产量下降的主要原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "适合中国国情的经营规模是户养500-700只鸡，或户养30-50头猪，或户养20-30头牛，或户养50-70只羊的小型规模化。",
+    "reference_case": "适合中国国情的经营规模是户养300-500只鸡，或户养20-30头猪，或户养10-20头牛，或户养30-50只羊的小型规模化。",
+    "error_detail": "错误地提高了养殖数量",
+    "original_question": "本文中提到的适合中国国情的畜牧业经营规模是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "测定指标包括最大风速、平均风速、空气温度、相对湿度、热应激指数和二氧化碳浓度。",
+    "reference_case": "测定指标包括最大风速、平均风速、空气温度、相对湿度、热应激指数和氨气浓度。",
+    "error_detail": "错误地将氨气浓度替换为二氧化碳浓度",
+    "original_question": "华南地区夏季猪舍内外环境条件的测定指标有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "研究中主要研究了完全开放式猪舍、半开放式猪舍和自动化猪舍三种类型的猪舍。",
+    "reference_case": "研究中主要研究了完全开放式猪舍、半开放式猪舍和密闭式猪舍三种类型的猪舍。",
+    "error_detail": "错误地将密闭式猪舍替换为自动化猪舍",
+    "original_question": "华南地区夏季猪舍的防暑降温效果研究中，主要研究了哪三种类型的猪舍？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "完全开放式猪舍和密闭式猪舍在夏季没有有效的防暑降温效果。",
+    "reference_case": "完全开放式猪舍和半开放式猪舍在夏季没有有效的防暑降温效果。",
+    "error_detail": "错误地将半开放式猪舍替换为密闭式猪舍",
+    "original_question": "在华南地区，哪种类型的猪舍在夏季没有有效的防暑降温效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "密闭式猪舍在夏季的舍内温度显著或极显著高于舍外，而舍内湿度显著或极显著低于舍外。",
+    "reference_case": "密闭式猪舍在夏季的舍内温度显著或极显著低于舍外，而舍内湿度显著或极显著高于舍外。",
+    "error_detail": "错误地反转了温度和湿度的比较结果",
+    "original_question": "密闭式猪舍在夏季的舍内温度和湿度与舍外相比有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "密闭式猪舍在夏季采用了风扇降温和正压机械通风的降温措施。",
+    "reference_case": "密闭式猪舍在夏季采用了水帘降温和负压机械通风的降温措施。",
+    "error_detail": "错误地修改了降温措施的描述",
+    "original_question": "密闭式猪舍在夏季采用了哪些降温措施？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在密闭式猪舍中，育肥舍的舍内风速显著高于舍外。",
+    "reference_case": "在密闭式猪舍中，空怀妊娠舍的舍内风速显著高于舍外。",
+    "error_detail": "错误地将空怀妊娠舍替换为育肥舍",
+    "original_question": "在密闭式猪舍中，哪种猪舍的舍内风速显著高于舍外？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "半开放式猪舍在夏季的通风效果较好，舍内平均风速显著或极显著高于舍外。",
+    "reference_case": "半开放式猪舍在夏季的通风效果较差，舍内平均风速显著或极显著低于舍外。",
+    "error_detail": "错误地反转了通风效果的描述",
+    "original_question": "半开放式猪舍在夏季的通风效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在完全开放式猪舍中，母猪舍的氨气浓度显著高于外界。",
+    "reference_case": "在完全开放式猪舍中，肥猪舍的氨气浓度显著高于外界。",
+    "error_detail": "错误地将肥猪舍替换为母猪舍",
+    "original_question": "在完全开放式猪舍中，哪种猪舍的氨气浓度显著高于外界？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "数据的统计分析采用了SAS软件进行两样本均数的t检验。",
+    "reference_case": "数据的统计分析采用了SPSS12:0软件进行两样本均数的t检验。",
+    "error_detail": "错误地将SPSS12:0替换为SAS",
+    "original_question": "华南地区猪舍的防暑降温效果研究中，数据的统计分析采用了什么软件？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "常山碱对猪附红细胞体病有良好的治疗效果，用药3天后红细胞的感染率下降至30%～40%。",
+    "reference_case": "常山碱对猪附红细胞体病有良好的治疗效果，用药3天后红细胞的感染率下降至50%～60%。",
+    "error_detail": "错误地降低了红细胞的感染率",
+    "original_question": "常山碱及其衍生物在治疗猪附红细胞体病方面的效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "复方中药制剂对猪大肠杆菌K88的抑菌直径为25毫米。",
+    "reference_case": "复方中药制剂对猪大肠杆菌K88的抑菌直径为20毫米。",
+    "error_detail": "错误地提高了抑菌直径",
+    "original_question": "复方中药制剂对猪大肠杆菌K88的抑菌直径是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "复方中药制剂对猪大肠杆菌 K88、K99、987P，猪沙门氏菌 SM2，鸡大肠杆菌 O18、O37、O39，鸡沙门氏菌 SM1 和 SM503 以及鸭大肠杆菌进行了体外抑菌试验。",
+    "reference_case": "复方中药制剂对猪大肠杆菌 K88、K99、987P，猪沙门氏菌 SM2，鸡大肠杆菌 O18、O37、O39，鸡沙门氏菌 SM1 和 SM503 进行了体外抑菌试验。",
+    "error_detail": "错误地添加了鸭大肠杆菌",
+    "original_question": "复方中药制剂对哪些畜禽肠道病原菌进行了体外抑菌试验？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "黄芪、当归、党参在畜牧与动物医学领域的主要饲喂或治疗对象包括鸡、猪、牛、鼠、犬、猫等。",
+    "reference_case": "黄芪、当归、党参在畜牧与动物医学领域的主要饲喂或治疗对象包括鸡、猪、牛、鼠、犬等。",
+    "error_detail": "错误地添加了猫",
+    "original_question": "黄芪、当归、党参在畜牧与动物医学领域的主要饲喂或治疗对象有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "党参在畜牧与动物医学领域的研究文献中，主要治疗对象包括鸡、牛、猪、小鼠、鸭、羊、马、猫等。",
+    "reference_case": "党参在畜牧与动物医学领域的研究文献中，主要治疗对象包括鸡、牛、猪、小鼠、鸭、羊、马等。",
+    "error_detail": "错误地添加了猫",
+    "original_question": "黄芪、当归、党参在畜牧与动物医学领域的研究文献中，党参的主要治疗对象有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "黄芪在畜牧与动物医学领域的研究文献中，主要治疗对象包括鸡、猪、兔、犬、牛、鼠、鸭、猫等。",
+    "reference_case": "黄芪在畜牧与动物医学领域的研究文献中，主要治疗对象包括鸡、猪、兔、犬、牛、鼠、鸭等。",
+    "error_detail": "错误地添加了猫",
+    "original_question": "黄芪、当归、党参在畜牧与动物医学领域的研究文献中，黄芪的主要治疗对象有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "当归在畜牧与动物医学领域的研究文献中，主要治疗对象包括牛、鸡、猪、马、鼠、猫、犬等。",
+    "reference_case": "当归在畜牧与动物医学领域的研究文献中，主要治疗对象包括牛、鸡、猪、马、鼠、猫等。",
+    "error_detail": "错误地添加了犬",
+    "original_question": "黄芪、当归、党参在畜牧与动物医学领域的研究文献中，当归的主要治疗对象有哪些？",
+    "original_input": ""
+  }
+]

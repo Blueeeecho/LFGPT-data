@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "急性死亡的猪，中枢神经系统病变可能在感染后的24小时内出现，伴有心肌的重度病变和肝脏病变的加剧。",
+    "reference_case": "急性死亡的猪，中枢神经系统病变可能不会出现，而脑部病变在感染后的48小时开始出现，伴有心肌的中度病变和肝脏病变的消退。",
+    "error_detail": "错误地缩短了脑部病变出现的时间，并夸大了心肌和肝脏病变的严重程度。",
+    "original_question": "急性死亡的猪会出现哪些病变？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "存活猪的血清学检测状况，是EEEV活动性的唯一指示。",
+    "reference_case": "存活猪的血清学检测状况，仍然是EEEV活动性的很好指示。",
+    "error_detail": "错误地将血清学检测状况描述为EEEV活动性的唯一指示，忽略了其他可能的指示方法。",
+    "original_question": "存活猪的血清学检测对EEEV活动性有何指示作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "应取新鲜的福尔马林固定的脑、脊索、肝、心和扁桃体组织样品供组织病理学检测，但不需要用新鲜材料进行病毒分离。",
+    "reference_case": "应取新鲜的福尔马林固定的脑、脊索、肝、心和扁桃体组织样品供组织病理学检测，并用新鲜材料进行病毒分离。",
+    "error_detail": "错误地省略了使用新鲜材料进行病毒分离的步骤，与指令需求冲突。",
+    "original_question": "在疑似猪群发生EEE时，应采取哪些步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "EMCV能感染多种脊椎动物，包括墨猩猩、猴、象、狮、松鼠、蒙古鹅、浣熊和猪，在自然感染病例中，象是最易感染的家畜。",
+    "reference_case": "EMCV能感染多种脊椎动物，包括墨猩猩、猴、象、狮、松鼠、蒙古鹅、浣熊和猪，在自然感染病例中，猪是最易感染的家畜。",
+    "error_detail": "错误地将象描述为最易感染的家畜，忽略了地域差异和实际情况。",
+    "original_question": "EMCV能感染哪些动物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肠病毒与灰质脑脊髓炎、雌性生殖障碍、肠疫病和心脏病有关。",
+    "reference_case": "猪肠病毒与灰质脑脊髓炎、雌性生殖障碍、肠疫病和肺炎有关。",
+    "error_detail": "错误地将心脏病与猪肠病毒关联，而实际上是与肺炎有关。",
+    "original_question": "猪肠病毒与哪些临床现象有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "感染的主要特征为有症状感染。",
+    "reference_case": "感染的主要特征为无症状感染。",
+    "error_detail": "错误地将感染的主要特征描述为有症状感染，与实际情况相反。",
+    "original_question": "猪肠病毒感染的主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "用感染的精液使母猪受精后，会显著提高其生殖力。",
+    "reference_case": "不会影响其生殖力。",
+    "error_detail": "错误地认为感染的精液会提高生殖力，与实际情况相反。",
+    "original_question": "用感染的精液使母猪受精后，是否会影响其生殖力？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "据报道，猪肠病毒可能与类似猪水疱病的皮下病变有关，尤其是在高温环境下。",
+    "reference_case": "据报道，猪肠病毒可能与类似猪水疱病的皮下病变有关。",
+    "error_detail": "错误地添加了高温环境作为条件，缺乏依据。",
+    "original_question": "猪肠病毒是否可能与类似猪水疱病的皮下病变有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪肠病毒的最初报道是捷申病（Teschen disease），一种30年前发生于捷克斯洛伐克的高死亡率的脑脊髓灰质炎。",
+    "reference_case": "猪肠病毒的最初报道是捷申病（Teschen disease），一种60年前发生于捷克斯洛伐克的高死亡率的脑脊髓灰质炎。",
+    "error_detail": "错误地缩短了捷申病发生的时间，与历史事实不符。",
+    "original_question": "猪肠病毒的最初报道是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在过去35年中，猪肠病毒表现为重型的脑脊髓灰质炎，主要由与血清学无关但毒性较强的猪肠病毒引发。",
+    "reference_case": "在过去35年中，猪肠病毒表现为轻型的脑脊髓灰质炎（泰法病、良性流行性麻痹），主要由与血清学有关但毒性较弱的猪肠病毒引发。",
+    "error_detail": "错误地描述了猪肠病毒的表现和毒性，与实际情况相反。",
+    "original_question": "猪肠病毒在过去的35年中表现出什么特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肠病毒呈球状，直径为50~60 nm，有囊膜，在氯化铯中的浮密度为1.50，核心为双链核糖核酸（RNA），外包立方状核衣壳，含有脂蛋白，对热和pH 2~9不稳定。",
+    "reference_case": "猪肠病毒呈球状，直径为25~31 nm，无囊膜，在氯化铯中的浮密度为1.34，核心为单链核糖核酸（RNA），外包立方状核衣壳，缺乏脂蛋白，对热和pH 2~9相对稳定。",
+    "error_detail": "错误地描述了猪肠病毒的物理和化学特性，与实际情况不符。",
+    "original_question": "猪肠病毒的理化特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "猪肠病毒可以在人类肾原代或次代细胞中培养，也可以用人类源性的其它细胞株培养病毒。",
+    "reference_case": "猪肠病毒可以在猪肾原代或次代细胞（PK），或者建立的猪肾细胞株（如IBRS-2）中培养，也可以用猪源性的其它细胞株（如SST细胞）培养病毒。",
+    "error_detail": "错误地描述了猪肠病毒的培养条件，与实际情况不符。",
+    "original_question": "猪肠病毒在哪些细胞株中可以培养？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肠病毒的传播主要是通过空气途径，也存在通过直接接触传播的可能性。",
+    "reference_case": "猪肠病毒的传播主要是通过粪便一口腔途径，也存在通过污染物间接传播的可能性。",
+    "error_detail": "错误地描述了猪肠病毒的传播途径，与实际情况不符。",
+    "original_question": "猪肠病毒的传播途径是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "捷申病的发病率和死亡率较低。",
+    "reference_case": "捷申病的发病率和死亡率较高。",
+    "error_detail": "错误地降低了捷申病的发病率和死亡率，与实际情况相反。",
+    "original_question": "捷申病对猪的发病率和死亡率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "严重病例可能出现食欲增加、活动过度和快速恢复，随后患猪完全康复。",
+    "reference_case": "严重病例可能出现眼球震颤、痉挛、突眼和昏迷，随后患猪麻痹，可能呈犬坐式或者卧地不起。声音或接触刺激可引起不协调的四肢体运动或眼球突出。",
+    "error_detail": "错误地描述了捷申病严重病例的症状，与实际情况不符。",
+    "original_question": "捷申病严重病例可能出现哪些症状？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "在急性发作期过后，患猪食欲下降，通过细心照料，所有患猪都无法存活。",
+    "reference_case": "在急性发作期过后，患猪食欲恢复，通过细心照料，一些患猪可以存活，但那些有肌肉消耗和遗留麻痹的猪除外。",
+    "error_detail": "错误地描述了患猪的存活情况，与实际情况相反。",
+    "original_question": "哪些因素可能影响患猪的存活率？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "捷申病主要影响老年猪。",
+    "reference_case": "捷申病主要影响年轻仔猪。",
+    "error_detail": "错误地描述了捷申病影响的年龄段，与实际情况不符。",
+    "original_question": "捷申病主要影响哪个年龄段的猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肠病毒与SMEDI（死胎、木乃伊胎、死肧和不育）无关，特别是在怀孕的早期和中期。",
+    "reference_case": "猪肠病毒与SMEDI（死胎、木乃伊胎、死肧和不育）有关，特别是在怀孕的早期和中期。",
+    "error_detail": "错误地否定了猪肠病毒与SMEDI的关系，与实际情况不符。",
+    "original_question": "猪肠病毒与生殖障碍的关系如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪肠病毒对肠道的致病作用明确，可实验性诱导重度下痢。",
+    "reference_case": "猪肠病毒对肠道的致病作用不明确，但可实验性诱导轻度下痢。",
+    "error_detail": "错误地夸大了猪肠病毒对肠道的致病作用和下痢的严重程度。",
+    "original_question": "猪肠病毒对肠道的致病作用如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪肠病毒单独感染可引起呼吸系统病的临床症状，但不会引起对肺脏的亚临床性肺炎和心包炎。",
+    "reference_case": "猪肠病毒单独感染不引起呼吸系统病的临床症状，但可引起一些毒株对肺脏的亚临床性肺炎和心包炎。",
+    "error_detail": "错误地描述了猪肠病毒对呼吸系统的影响，与实际情况不符。",
+    "original_question": "猪肠病毒对呼吸系统的致病作用如何？",
+    "original_input": ""
+  }
+]

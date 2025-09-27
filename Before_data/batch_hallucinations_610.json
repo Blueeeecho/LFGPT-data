@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "通径分析用于直接增加台系杜洛克母猪的繁殖性状，如断奶窝重。",
+    "reference_case": "通径分析用于探索各繁殖性状对台系杜洛克断奶窝重的直接作用和间接作用的大小，以便在选种过程中对断奶窝重进行早期估测。",
+    "error_detail": "错误地将通径分析的作用描述为直接增加繁殖性状，而非分析其作用大小。",
+    "original_question": "通径分析在台系杜洛克母猪繁殖性状研究中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "当饲料中DON的含量超过5 mg/kg时，会引起猪的呕吐现象。",
+    "reference_case": "当饲料中DON的含量超过15 mg/kg时，会引起猪的呕吐现象。",
+    "error_detail": "错误地降低了引起猪呕吐的DON含量阈值。",
+    "original_question": "饲料中DON的含量达到多少时会引起猪的呕吐现象？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "ZEN毒素对猪的主要毒副作用是导致肝脏损伤。",
+    "reference_case": "ZEN毒素对猪的主要毒副作用包括雌激素中毒症，引起不孕或流产，初情前期的小母猪可能出现阴道红肿、发情延期或假发情，严重时可引起阴道脱出、直肠外翻、子宫肿胀、肧胎发育不良或流产。",
+    "error_detail": "错误地将ZEN毒素的主要毒副作用描述为肝脏损伤，而非雌激素中毒症。",
+    "original_question": "ZEN毒素对猪的主要毒副作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "绿源肉类批发市场的肉贩于某最终将发红、发绀的猪膘丢弃在垃圾桶中。",
+    "reference_case": "绿源肉类批发市场的肉贩于某最终对发红、发绀的猪膘进行了无害化处理。",
+    "error_detail": "错误地假设了处理方式，而非进行无害化处理。",
+    "original_question": "绿源肉类批发市场的肉贩于某最终如何处理了发红、发绀的猪膘？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "在绿源肉类批发市场的检查中，发现了一名男子购买的猪肥膘中有发红、发绀的猪膘。",
+    "reference_case": "在绿源肉类批发市场的检查中，发现一名妇女刘某购买的猪肥膘中有发红、发绀的猪膘，要求肉贩于某更换，但于某否认并发生争吵。",
+    "error_detail": "错误地改变了购买者的性别，导致上下文断裂。",
+    "original_question": "在绿源肉类批发市场的检查中，发现了什么问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "绿源肉类批发市场的肉贩于某被责令改正，因为他拒绝出售猪膘给刘某。",
+    "reference_case": "绿源肉类批发市场的肉贩于某被责令改正，因为他未按要求对发红、发绀的猪膘进行无害化处理，而是偷偷带到市场出售。",
+    "error_detail": "错误地偏离了原始指令，描述了不相关的改正原因。",
+    "original_question": "绿源肉类批发市场的肉贩于某为何被责令改正？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "瘦肉精在猪体内的主要作用是增加猪的食欲。",
+    "reference_case": "瘦肉精是一种人工合成的β-肾上腺素能受体兴奋剂克仑特罗（Clenbuterol）的商品名，常用于防治哮喘性慢性支气管炎、肺气肿等呼吸系统疾病。当使用5～10倍治疗量时，可重新分配脂肪与肌肉的比例，提高畜牧生产效益。",
+    "error_detail": "错误地将瘦肉精的主要作用描述为增加食欲，而非重新分配脂肪与肌肉的比例。",
+    "original_question": "在某市肉猪中瘦肉精残留的检测中，瘦肉精在猪体内的主要作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "尿液采样方法是在一集中时段内，对某市27个养猪场各随机采集1～5头猪尿液。",
+    "reference_case": "尿液采样方法是在一集中时段内，对某市27个养猪场各随机采集3～10头猪尿液，共采集猪的尿液102份。血液和毛发采样方法是随机采集3个养猪场的各10头屠宰猪血液和毛发，共采集到30份猪血液和30份猪毛发。",
+    "error_detail": "错误地减少了每养猪场采集的猪尿液数量。",
+    "original_question": "在某市肉猪中瘦肉精残留的检测中，尿液、血液和毛发的采样方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "瘦肉精残留于动物组织中，人在食用后从未发生中毒事件。",
+    "reference_case": "瘦肉精残留于动物组织中，人在食用后曾多次发生中毒事件，严重威胁着人类健康。",
+    "error_detail": "错误地否认了瘦肉精残留对人体健康的影响。",
+    "original_question": "在某市肉猪中瘦肉精残留的检测中，瘦肉精残留对人体健康的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "ELISA法的最低检出限为0.5 ng/g，GC/MS/MS法的最低检出限为0.1 ng/g。",
+    "reference_case": "ELISA法和GC/MS/MS法在检测灵敏度上基本相似，ELISA法的最低检出限为0:1 ng/g，GC/MS/MS法的最低检出限为0:2 ng/g。",
+    "error_detail": "错误地交换了两种方法的最低检出限数值。",
+    "original_question": "在某市肉猪中瘦肉精残留的检测中，ELISA法和GC/MS/MS法的灵敏度比较如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "使用了SA-1000型酶标仪（美国），37600型混合器（奥地利）。",
+    "reference_case": "使用了SA-1000型酶标仪（奥地利），37600型混合器（美国），800型离心沉淀器（上海手术器械十厂），RIDA C18柱（Art. No. R2002:，Satum2000型气-质联用仪及工作站（美国 Varian），CP-Sil 8CB低流失毛细管柱（0:32 mm × 1:0 μm × 30 m）。",
+    "error_detail": "错误地交换了酶标仪和混合器的生产国家。",
+    "original_question": "在某市肉猪中瘦肉精残留的检测中，使用了哪些主要仪器？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "GC/MS/MS法在信噪比为5:1时，克仑特罗的最低检出限为0:2 ng/g。",
+    "reference_case": "GC/MS/MS法在信噪比为10:1时，克仑特罗的最低检出限为0:2 ng/g。",
+    "error_detail": "错误地改变了信噪比的数值。",
+    "original_question": "在某市肉猪中瘦肉精残留的检测中，GC/MS/MS法的最低检出限是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪尿中瘦肉精的检出率最低，血液次之，毛发最高。",
+    "reference_case": "猪血中瘦肉精的检出率最低，尿液次之，毛发最高。血液中检出的2份，对应的那头猪的毛发浓度是最高的，提示瘦肉精在猪毛中有较大的蓄积作用。",
+    "error_detail": "错误地交换了猪血和猪尿的检出率顺序。",
+    "original_question": "在某市肉猪中瘦肉精残留的检测中，猪血、猪尿和猪毛中瘦肉精的蓄积情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "分别吸取浓度为0,200,400,600,800,1000,1500,3000 ng/kg的瘦肉精标准各20 μL。",
+    "reference_case": "分别吸取浓度为0,100,300,450,600,900,1350,2700 ng/kg的瘦肉精标准各20 μL，以百分吸光度值B对克仑特罗浓度C（ng/kg）的常用对数作图或进行线性回归，得回归方程为lgC=4:002513-2:23607 A/A0, r=0:999。",
+    "error_detail": "错误地改变了瘦肉精标准的浓度序列。",
+    "original_question": "在某市肉猪中瘦肉精残留的检测中，ELISA法的标准曲线是如何绘制的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪附红细胞体病的诊断方法是通过观察猪的行为变化来诊断。",
+    "reference_case": "猪附红细胞体病的诊断方法是通过采集病猪的血液，制成涂片，使用姬姆萨染色后镜检，观察红细胞表面是否有园盘状、球状、环状呈淡紫色的猪附红细胞体。",
+    "error_detail": "错误地将诊断方法描述为观察行为变化，而非血液涂片镜检。",
+    "original_question": "猪附红细胞体病的诊断方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪附红细胞体病的临床症状包括食欲增加、精神亢奋。",
+    "reference_case": "猪附红细胞体病的临床症状包括食欲减退或停止、精神萎顿、体温40至42摄氏度、流水样鼻涕、呼吸迫促、皮肤发红、结膜苍白、心悸亢进、全身虚弱，个别母猪全身皮肤重度黄染，乳房和阴部水肿，尿液呈茶色。",
+    "error_detail": "错误地描述了临床症状，与实际情况相反。",
+    "original_question": "猪附红细胞体病的临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪附红细胞体病的治疗方法包括全群猪用尼克苏拌料1000克/吨。",
+    "reference_case": "猪附红细胞体病的治疗方法包括全群猪用尼克苏拌料500克/吨，肌内注射附红灭每千克体重0:1毫升，第1天上、下午各注射1次，第2、3天肌注1次，长效土霉素注射液2天1次，氨基比林1天1次，以上3种药物联合使用，并对体质虚弱的猪配合补血剂和能量剂使用。",
+    "error_detail": "错误地增加了尼克苏拌料的用量。",
+    "original_question": "猪附红细胞体病的治疗方法包括哪些步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪附红细胞体病的剖检变化包括血液浓稠、全身脂肪白染。",
+    "reference_case": "猪附红细胞体病的剖检变化包括血液稀薄呈水样、全身脂肪黄染、胸、腹腔及心包积液、肝脏肿大呈棕黄色、胆汁粘稠、心脏和肾脏苍白松驰、淋巴结水肿、膀胱粘膜有点状出血。",
+    "error_detail": "错误地描述了剖检变化，与实际情况相反。",
+    "original_question": "猪附红细胞体病的剖检变化有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪附红细胞体病的防治措施包括增加猪的日粮蛋白质含量。",
+    "reference_case": "猪附红细胞体病的防治措施包括消除应激、驱除蜱、虫、蚤等吸血昆虫及消毒针头和手术器械，发现病情应及早治疗。",
+    "error_detail": "错误地偏离了原始指令，描述了不相关的防治措施。",
+    "original_question": "猪附红细胞体病的防治措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PSE肉的发生与所有品种的猪无关。",
+    "reference_case": "PSE肉的发生与含有氟烷敏感基因的猪品种有关，如长白猪、约克夏猪、特兰、杂交猪等，这些品种比本地猪更容易发生PSE肉。",
+    "error_detail": "错误地否认了PSE肉与特定猪品种的关联。",
+    "original_question": "PSE肉的发生与哪些品种的猪有关？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪舍温度应保持在25°C~30°C之间。",
+    "reference_case": "猪舍温度是否适合猪的年龄，通风情况，湿度是否适中，有无气体与尘埃污染。",
+    "error_detail": "错误地给出了具体的温度范围，而原始输出并未提供具体数值。",
+    "original_question": "检查猪舍环境时应注意哪些因素？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪舍的温度应该通过观察猪的行为来评价。",
+    "reference_case": "考虑所有影响环境温度的因素。",
+    "error_detail": "错误地简化了评价方法，忽略了原始输出中提到的全面考虑因素的要求。",
+    "original_question": "如何评价猪舍的温度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪舍的湿度应保持在30%~50%之间。",
+    "reference_case": "湿度在40%~60%范围内波动都是适宜的。",
+    "error_detail": "错误地缩小了适宜的湿度范围。",
+    "original_question": "如何评价猪舍的湿度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "饲槽和饮水装置应建在猪栏的中央位置。",
+    "reference_case": "应建在动物容易接近的地方，不能有破损的部件和带有尖锐突起的棱角。",
+    "error_detail": "错误地添加了关于位置的假设，而原始输出并未指定具体位置。",
+    "original_question": "猪栏内设置的饲槽和饮水装置应如何设置？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "观察猪的排粪情况时应注意排粪的颜色和形状。",
+    "reference_case": "注意排粪是否在躺卧区，以及猪栏中是否有蹄浴池及其状况。",
+    "error_detail": "错误地引入了颜色和形状的概念，而原始输出关注的是位置和设施状况。",
+    "original_question": "观察猪的排粪情况时应注意什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "猪场管理情况的检查应关注饲料的质量和供应。",
+    "reference_case": "了解猪的流动是否实行全进全出，混群、分级和移动的具体数量和时间，发情和配种记录。",
+    "error_detail": "错误地将关注点转向饲料，而原始输出关注的是猪的流动和繁殖记录。",
+    "original_question": "猪场管理情况的检查应关注哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "未断奶仔猪的死亡率是5%，断奶仔猪是3%，生长肥育猪是2%，母猪和公猪是1%。",
+    "reference_case": "原文未提供具体死亡率数据。",
+    "error_detail": "错误地提供了具体的死亡率数据，而原始输出明确表示未提供。",
+    "original_question": "未断奶仔猪、断奶仔猪、生长肥育猪、母猪和公猪的死亡率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "兽医诊断试验仅用于评估猪群的健康状态。",
+    "reference_case": "兽医诊断试验评估单个猪和猪群的健康、生产性能和繁殖状况。",
+    "error_detail": "错误地限制了评估的范围，忽略了单个猪和生产性能及繁殖状况的评估。",
+    "original_question": "兽医诊断试验通常用于评估猪和猪群的哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "实验室试验仅用于检测病原。",
+    "reference_case": "实验室试验可用于检测与疾病暴发有关的病原或毒素；估测单个猪的感染/接触状况；测定畜群是否感染或接触病原，以及其所影响的年龄段或生产群（亚群）；估计对病原产生抗体的猪群或猪的百分比；监测畜群对免疫接种的血清学反应；监测疾病控制及根除程序的进展和成效。",
+    "error_detail": "错误地简化了实验室试验的用途，忽略了原始输出中提到的多种用途。",
+    "original_question": "实验室试验可以用于哪些目的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "试验的可靠性在试验选择中是最重要的考虑因素。",
+    "reference_case": "尽管开发者通常声称他们的试验具有高度敏感性和特异性，但许多用于猪病的试验的可靠性评估并未公布，实验室之间和实验室内不同试验的可复制性（可重复性）数据也无法得到，因此试验的可靠性在试验选择中通常考虑较少。",
+    "error_detail": "错误地提高了可靠性的优先级，而原始输出指出可靠性通常考虑较少。",
+    "original_question": "试验的可靠性在试验选择中通常考虑较少的原因是什么？",
+    "original_input": ""
+  }
+]

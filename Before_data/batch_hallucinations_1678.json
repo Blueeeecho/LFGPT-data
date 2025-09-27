@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不死症病床导致500头仔猪的死亡和淘汰，生产率损失为超过饲料花费的损失，净花费为8000英镑/年。",
+    "reference_case": "不死症病床导致402头仔猪的死亡和淘汰，生产率损失为超过饲料花费的损失，净花费为7506英镑/年。",
+    "error_detail": "数值偏差",
+    "original_question": "不死症病床对英国农场的经济影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪喘气病导致2%的死亡和淘汰，生产率损失为FCR, DLG，净花费为5000英镑/年。",
+    "reference_case": "猪喘气病导致1%的死亡和淘汰，生产率损失为FCR, DLG，净花费为4800英镑/年。",
+    "error_detail": "术语错误",
+    "original_question": "猪喘气病对英国农场的经济影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "产仔率导致2%的死亡和淘汰，生产率损失为350头猪，净花费为8500英镑/年，目标水平为90%。",
+    "reference_case": "产仔率导致1%的死亡和淘汰，生产率损失为330头猪，净花费为8250英镑/年，目标水平为89%。",
+    "error_detail": "过时标准",
+    "original_question": "产仔率对英国农场的经济影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "复配导致2%的死亡和淘汰，生产率损失为110头猪，净花费为2700英镑/年，目标水平为7%-9%。",
+    "reference_case": "复配导致1%的死亡和淘汰，生产率损失为106头猪，净花费为2650英镑/年，目标水平为6%-8%。",
+    "error_detail": "地域差异",
+    "original_question": "复配对英国农场的经济影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "流产导致生产率损失为230头猪，1%的死亡和淘汰，净花费为5756英镑/年，目标水平为1.0%。",
+    "reference_case": "流产导致1%的死亡和淘汰，生产率损失为230头猪，净花费为5756英镑/年，目标水平为1.0%。",
+    "error_detail": "因果错误",
+    "original_question": "流产对英国农场的经济影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "不争母猪导致2%的死亡和淘汰，生产率损失为80头猪，净花费为2000英镑/年，目标水平为3.0%。",
+    "reference_case": "不争母猪导致1%的死亡和淘汰，生产率损失为75头猪，净花费为1880英镑/年，目标水平为2.0%。",
+    "error_detail": "需求冲突",
+    "original_question": "不争母猪对英国农场的经济影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型（误解上下文）",
+    "hallucinated_case": "死胎导致2%的死亡和淘汰，生产率损失为90头猪，净花费为2200英镑/年，目标水平为6%-8%。",
+    "reference_case": "死胎导致1%的死亡和淘汰，生产率损失为84头猪，净花费为2113英镑/年，目标水平为5%-7%。",
+    "error_detail": "误解上下文",
+    "original_question": "死胎对英国农场的经济影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "母猪压死导致100头猪的死亡和淘汰，生产率损失为超过饲料花费的损失，净花费为2500英镑/年，目标水平为4%。",
+    "reference_case": "母猪压死导致96头猪的死亡和淘汰，生产率损失为超过饲料花费的损失，净花费为2415英镑/年，目标水平为3%。",
+    "error_detail": "逻辑矛盾",
+    "original_question": "母猪压死对英国农场的经济影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "生活力低导致130头猪的死亡和淘汰，生产率损失为超过饲料花费的损失，净花费为3100英镑/年，目标水平为1.5%。",
+    "reference_case": "生活力低导致120头猪的死亡和淘汰，生产率损失为超过饲料花费的损失，净花费为3018英镑/年，目标水平为1.0%。",
+    "error_detail": "添加假设",
+    "original_question": "生活力低对英国农场的经济影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型（权重错误）",
+    "hallucinated_case": "仔猪腹泻导致70头猪的死亡和淘汰，生产率损失为超过饲料花费的损失，净花费为1900英镑/年，目标水平为1.0%。",
+    "reference_case": "仔猪腹泻导致60头猪的死亡和淘汰，生产率损失为超过饲料花费的损失，净花费为1824英镑/年，目标水平为0.5%。",
+    "error_detail": "权重错误",
+    "original_question": "仔猪腹泻对英国农场的经济影响是什么？",
+    "original_input": ""
+  }
+]

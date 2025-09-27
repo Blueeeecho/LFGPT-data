@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "2012年下半年，研究人员从广东省的猪场分离出了伪狂犬病毒。",
+    "reference_case": "2012年下半年，研究人员从江苏省的猪场分离出了伪狂犬病毒。",
+    "error_detail": "错误地将伪狂犬病毒的分离地点从江苏省改为广东省。",
+    "original_question": "2012年下半年，研究人员从哪个省份的猪场分离出了伪狂犬病毒？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "大肠杆菌 O157:H7 的主要宿主包括鸡、鸭、鹅等家禽，其中鸡和鸭是主要的宿主。",
+    "reference_case": "大肠杆菌 O157:H7 的主要宿主包括牛、羊、猪等家畜，其中牛和猪是主要的宿主。",
+    "error_detail": "错误地将大肠杆菌 O157:H7 的主要宿主从家畜改为家禽。",
+    "original_question": "大肠杆菌 O157:H7 的主要宿主有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）属于冠状病毒科，为双股RNA病毒，主要引起母猪的消化系统症状。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）属于套式病毒目、动脉炎病毒科、动脉炎病毒属成员，为单股正链RNA病毒，主要引起母猪的繁殖障碍，如流产、早产、死胎、木乃伊胎和呼吸道症状等。",
+    "error_detail": "错误地将PRRSV的分类和引起的症状进行了错误的描述。",
+    "original_question": "什么是猪繁殖与呼吸综合征病毒（PRRSV）？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "莱芜黑猪是我国华北型地方猪种黄淮海黑猪的一个类群，具有繁殖率低、哺育力弱、耐粗料、抗病性弱、杂交优势不明显、肉质粗糙等特性。",
+    "reference_case": "莱芜黑猪是我国华北型地方猪种黄淮海黑猪的一个类群，具有繁殖率高、哺育力强、耐粗料、抗病性强、杂交优势明显、肉质细嫩香醇等特性。",
+    "error_detail": "错误地描述了莱芜黑猪的特性，与其实际特性相反。",
+    "original_question": "莱芜黑猪有哪些特性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PRRSV攻毒后，莱芜黑猪的病毒载量在攻毒后1到3天达到最高水平。",
+    "reference_case": "PRRSV攻毒后，莱芜黑猪的病毒载量在攻毒后7到21天达到最高水平。",
+    "error_detail": "错误地将病毒载量达到最高水平的时间提前。",
+    "original_question": "PRRSV攻毒后，莱芜黑猪的病毒载量在哪个时间段达到最高水平？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "共免疫这两种疫苗对小鼠体液免疫反应影响较大，且有抑制作用，但是细胞免疫应答受到了促进。",
+    "reference_case": "共免疫这两种疫苗对小鼠体液免疫反应影响较小，甚至有促进作用，但是细胞免疫应答受到了抑制。",
+    "error_detail": "错误地描述了共免疫对小鼠体液免疫和细胞免疫的影响，与实际情况相反。",
+    "original_question": "在共免疫口蹄疫疫苗和猪瘟疫苗的小鼠中，体液免疫反应和细胞免疫反应有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "共免疫组产生的IFN-γ比单独免疫口蹄疫疫苗组的要高，但比单独免疫猪瘟疫苗组的要低。",
+    "reference_case": "共免疫组产生的IFN-γ比单独免疫口蹄疫疫苗组的要低，但比单独免疫猪瘟疫苗组的要高。",
+    "error_detail": "错误地描述了共免疫组产生的IFN-γ水平与其他组的比较。",
+    "original_question": "在共免疫口蹄疫疫苗和猪瘟疫苗的小鼠中，IFN-γ的水平如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪瘟是由猪流感病毒引起猪的一种慢性、冷性、低度接触性传染病，具有传染性弱，致死率低等特点。",
+    "reference_case": "猪瘟是由猪瘟病毒引起猪的一种急性、热性、高度接触性传染病，具有传染性强，致死率高等特点。",
+    "error_detail": "错误地将猪瘟的病原体和疾病特性进行了错误的描述。",
+    "original_question": "猪瘟病毒引起的猪瘟有哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "共免疫组产生的IL-4比其他各组要少。",
+    "reference_case": "共免疫组产生的IL-4比其他各组要多。",
+    "error_detail": "错误地描述了共免疫组产生的IL-4水平与其他组的比较。",
+    "original_question": "在共免疫口蹄疫疫苗和猪瘟疫苗的小鼠中，IL-4的水平如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "共免疫组小鼠脾CD3+CD4+淋巴细胞亚群占门内淋巴细胞比例低于两个单独免疫组，而CD3+CD8+淋巴细胞亚群占门内淋巴细胞比例高于两个单独免疫组。",
+    "reference_case": "共免疫组小鼠脾CD3+CD4+淋巴细胞亚群占门内淋巴细胞比例位于两个单独免疫组之间，而CD3+CD8+淋巴细胞亚群占门内淋巴细胞比例低于两个单独免疫组。",
+    "error_detail": "错误地描述了共免疫组小鼠脾淋巴细胞亚群的比例变化。",
+    "original_question": "共免疫口蹄疫疫苗和猪瘟疫苗对小鼠脾淋巴细胞亚群分化有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "共免疫这两种疫苗可以有效控制口蹄疫及猪瘟疫情的发生和流行，提高免疫质量和动物福利以及减少劳动力损耗，但会增加疫苗的成本。",
+    "reference_case": "共免疫这两种疫苗可以有效控制口蹄疫及猪瘟疫情的发生和流行，提高免疫质量和动物福利以及减少劳动力损耗。",
+    "error_detail": "错误地添加了关于疫苗成本增加的假设。",
+    "original_question": "口蹄疫和猪瘟疫苗共免疫的潜在好处是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "共免疫口蹄疫疫苗和猪瘟疫苗的小鼠产生的口蹄疫抗体效价比单独免疫口蹄疫疫苗的要高，但产生的猪瘟抗体效价比单独免疫猪瘟疫苗的要低很多。",
+    "reference_case": "共免疫口蹄疫疫苗和猪瘟疫苗的小鼠产生的口蹄疫抗体效价比单独免疫口蹄疫疫苗的要低，但产生的猪瘟抗体效价比单独免疫猪瘟疫苗的要高很多。",
+    "error_detail": "错误地描述了共免疫对小鼠抗体效价的影响。",
+    "original_question": "口蹄疫疫苗和猪瘟疫苗共免疫对小鼠抗体效价的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV2:的ORF3基因编码的蛋白质分子质量约为64 ku。",
+    "reference_case": "猪圆环病毒2型（PCV2:的ORF3基因编码的蛋白质分子质量约为32 ku。",
+    "error_detail": "错误地将ORF3基因编码的蛋白质分子质量翻倍。",
+    "original_question": "猪圆环病毒2型（PCV2:的ORF3基因编码的蛋白质分子质量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "胃肠道黏膜免疫途径的主要应用包括禽用传染性法氏囊病活疫苗、球虫苗以及新城疫四系苗、猪用增生性肠炎疫苗以及人用口服脊髓灰质炎疫苗等。",
+    "reference_case": "胃肠道黏膜免疫途径的主要应用包括禽用传染性法氏囊病灭活疫苗、球虫苗以及新城疫四系苗、猪用增生性肠炎疫苗以及人用口服脊髓灰质炎疫苗等。这些疫苗通过胃肠道黏膜免疫途径接种，可以诱导全身性的黏膜免疫反应。",
+    "error_detail": "错误地将禽用传染性法氏囊病灭活疫苗改为活疫苗。",
+    "original_question": "胃肠道黏膜免疫途径的主要应用有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "呼吸道黏膜免疫途径的主要应用包括猪伪狂犬病灭活疫苗。",
+    "reference_case": "呼吸道黏膜免疫途径的主要应用包括猪伪狂犬病基因缺失疫苗。气管内注射和肺内注射疫苗直接作用于呼吸道和肺黏膜，免疫效果好，但应激性较大，严重时易引起或加重呼吸道疾病。点眼滴鼻喷雾接种也是一种常见的呼吸道黏膜免疫方法，在禽类疾病防治中应用比较广泛。",
+    "error_detail": "错误地将猪伪狂犬病基因缺失疫苗改为灭活疫苗。",
+    "original_question": "呼吸道黏膜免疫途径的主要应用有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在滇南小耳猪中，HL基因型的个体表现出最高的CPT-1、LPL和PPARγ基因mRNA表达量。",
+    "reference_case": "在滇南小耳猪中，HH基因型的个体表现出最高的CPT-1、LPL和PPARγ基因mRNA表达量。",
+    "error_detail": "错误地将表现出最高mRNA表达量的基因型从HH改为HL。",
+    "original_question": "在滇南小耳猪中，哪种H-FABP基因型的个体表现出最高的CPT-1、LPL和PPARγ基因mRNA表达量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "滇南小耳猪的肌内脂肪含量明显低于国外猪种，国外猪种肌肉的IMF含量较高，为6%左右，而滇南小耳猪背最长肌IMF含量在2%以上。",
+    "reference_case": "滇南小耳猪的肌内脂肪含量明显高于国外猪种，国外猪种肌肉的IMF含量较低，为2%左右，而滇南小耳猪背最长肌IMF含量在6%以上。",
+    "error_detail": "错误地描述了滇南小耳猪与国外猪种肌内脂肪含量的比较。",
+    "original_question": "滇南小耳猪的肌内脂肪含量与国外猪种相比如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "滇南小耳猪的肌内脂肪细胞中TG含量的测定方法是使用胆固醇试剂盒进行测定。",
+    "reference_case": "滇南小耳猪的肌内脂肪细胞中TG含量的测定方法是使用甘油三酯试剂盒进行测定，操作方法严格按照试剂盒说明书执行。",
+    "error_detail": "错误地将甘油三酯试剂盒改为胆固醇试剂盒。",
+    "original_question": "滇南小耳猪的肌内脂肪细胞中TG含量的测定方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "滇南小耳猪的肌内脂肪细胞中总RNA的提取方法是使用DNA提取试剂盒进行提取。",
+    "reference_case": "滇南小耳猪的肌内脂肪细胞中总RNA的提取方法是使用TRIzol-A+ Reagent进行提取，提取的总RNA通过琼脂糖凝胶电泳检测其完整性，并通过OD260nm/OD280nm测定其浓度。",
+    "error_detail": "错误地将RNA提取方法改为DNA提取试剂盒。",
+    "original_question": "滇南小耳猪的肌内脂肪细胞中总RNA的提取方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "滇南小耳猪的肌内脂肪细胞中CPT-1、LPL和PPARγ基因mRNA表达量的测定方法是使用Western blot方法进行检测。",
+    "reference_case": "滇南小耳猪的肌内脂肪细胞中CPT-1、LPL和PPARγ基因mRNA表达量的测定方法是使用RT-qPCR方法进行检测，反应体系为20μL，反应程序包括预变性、变性、退火和延伸等步骤。",
+    "error_detail": "错误地将mRNA表达量的测定方法从RT-qPCR改为Western blot。",
+    "original_question": "滇南小耳猪的肌内脂肪细胞中CPT-1、LPL和PPARγ基因mRNA表达量的测定方法是什么？",
+    "original_input": ""
+  }
+]

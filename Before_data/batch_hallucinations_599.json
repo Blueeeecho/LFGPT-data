@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪旋毛虫、T.spiralis、犬旋毛虫和T.nativa的成虫主要分布在小肠的后段。犬旋毛虫和T.nativa在小肠后段的比例明显高于猪旋毛虫和T.spiralis，差异极显著（P<0:01:）。",
+    "reference_case": "猪旋毛虫、T.spiralis、犬旋毛虫和T.nativa的成虫主要分布在小肠的前、中段。犬旋毛虫和T.nativa在小肠前、中段的比例明显高于猪旋毛虫和T.spiralis，差异极显著（P<0:01:）。",
+    "error_detail": "错误地改变了旋毛虫成虫在小肠中的分布位置，从小肠的前、中段改为后段。",
+    "original_question": "旋毛虫各隔离株成虫在小肠中的分布有何特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪旋毛虫、T.spiralis、犬旋毛虫和T.nativa的幼虫主要分布在小肠的前、中段。犬旋毛虫和T.nativa在小肠前、中段的比例明显高于猪旋毛虫和T.spiralis，差异极显著（P<0:01:）。",
+    "reference_case": "猪旋毛虫、T.spiralis、犬旋毛虫和T.nativa的成虫主要分布在小肠的前、中段。犬旋毛虫和T.nativa在小肠前、中段的比例明显高于猪旋毛虫和T.spiralis，差异极显著（P<0:01:）。",
+    "error_detail": "错误地将成虫分布改为幼虫分布，混淆了生命周期的不同阶段。",
+    "original_question": "旋毛虫各隔离株在小鼠小肠中的分布位置有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪旋毛虫、犬旋毛虫、T.spiralis和T.nativa的性别比例（雌：雄）分别为3:04、3:31、2:05和2:06。猪旋毛虫与犬旋毛虫的性别比例接近，T.spiralis与T.nativa的性别比例接近。",
+    "reference_case": "猪旋毛虫、犬旋毛虫、T.spiralis和T.nativa的性别比例（雌：雄）分别为2:04、2:31、1:05和1:06。猪旋毛虫与犬旋毛虫的性别比例接近，T.spiralis与T.nativa的性别比例接近。",
+    "error_detail": "错误地改变了性别比例的数值，导致数据偏差。",
+    "original_question": "旋毛虫各隔离株在小鼠小肠中的性别比例有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪旋毛虫和T.spiralis在小鼠膈肌中出现保姆细胞的时间分别为感染后第20天和第22天，而犬旋毛虫和T.nativa分别为感染后第24天和第26天。所有肌型幼虫形成保姆细胞的时间，猪旋毛虫和T.spiralis分别为第40天和第38天，犬旋毛虫和T.nativa为第34天。",
+    "reference_case": "猪旋毛虫和T.spiralis在小鼠膈肌中出现保姆细胞的时间分别为感染后第16天和第18天，而犬旋毛虫和T.nativa分别为感染后第20天和第22天。所有肌型幼虫形成保姆细胞的时间，猪旋毛虫和T.spiralis分别为第38天和第36天，犬旋毛虫和T.nativa为第32天。",
+    "error_detail": "错误地延长了保姆细胞形成的时间，使用了过时的数据。",
+    "original_question": "旋毛虫各隔离株在小鼠膈肌中形成保姆细胞的时间有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪旋毛虫、T.spiralis、犬旋毛虫和T.nativa在小肠前、中段的分布比例分别为70:3%、75:67%、80:18%和85:30%。犬旋毛虫和T.nativa在小肠前、中段的比例明显高于猪旋毛虫和T.spiralis，差异极显著（P<0:01:）。",
+    "reference_case": "猪旋毛虫、T.spiralis、犬旋毛虫和T.nativa在小肠前、中段的分布比例分别为76:3%、80:67%、86:18%和88:30%。犬旋毛虫和T.nativa在小肠前、中段的比例明显高于猪旋毛虫和T.spiralis，差异极显著（P<0:01:）。",
+    "error_detail": "错误地降低了分布比例的数值，导致数据偏差。",
+    "original_question": "旋毛虫各隔离株在小鼠小肠中的分布比例有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪旋毛虫和犬旋毛虫在小鼠体内传代60次，而T.spiralis和T.nativa仅传代20次。传代次数不同影响了旋毛虫在小鼠体内的适应性和成虫寿命，猪旋毛虫和犬旋毛虫的适应性较好，寿命较长。",
+    "reference_case": "猪旋毛虫和犬旋毛虫在小鼠体内传代50次，而T.spiralis和T.nativa仅传代16次。传代次数不同影响了旋毛虫在小鼠体内的适应性和成虫寿命，猪旋毛虫和犬旋毛虫的适应性较好，寿命较长。",
+    "error_detail": "错误地改变了传代次数的数值，导致数据偏差。",
+    "original_question": "旋毛虫各隔离株在小鼠体内的传代次数对其生物学特性有何影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "猪旋毛虫和T.spiralis的保姆细胞形成速度较快，分别于感染后第30天和第28天完全形成。犬旋毛虫和T.nativa的保姆细胞形成速度较慢，分别于感染后第34天完全形成。",
+    "reference_case": "猪旋毛虫和T.spiralis的保姆细胞形成速度较慢，分别于感染后第38天和第36天完全形成。犬旋毛虫和T.nativa的保姆细胞形成速度较快，分别于感染后第32天完全形成。",
+    "error_detail": "错误地改变了保姆细胞形成速度的描述，与实际情况相反。",
+    "original_question": "旋毛虫各隔离株在小鼠体内的保姆细胞形成速度有何不同？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "阿莫西林在猪体内的最低检测限为 0:2 μg/mL。",
+    "reference_case": "阿莫西林在猪体内的最低检测限为 0:1 μg/mL。",
+    "error_detail": "错误地提高了最低检测限的数值，导致数据偏差。",
+    "original_question": "阿莫西林在猪体内的最低检测限是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "阿莫西林在猪体内的药代动力学模型为二级速率二室模型。",
+    "reference_case": "阿莫西林在猪体内的药代动力学模型为一级速率一室模型。",
+    "error_detail": "错误地改变了药代动力学模型的类型，混淆了不同模型的概念。",
+    "original_question": "阿莫西林在猪体内的药代动力学模型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "阿莫西林和丙磺舒在肾近曲小管的弱酸性药物通道中非竞争性抑制，导致它们的半衰期缩短。",
+    "reference_case": "阿莫西林和丙磺舒在肾近曲小管的弱酸性药物通道中竞争性抑制，导致它们的半衰期延长。",
+    "error_detail": "错误地改变了抑制类型和半衰期的影响，因果倒置。",
+    "original_question": "阿莫西林和丙磺舒在猪体内的竞争性抑制作用是如何发生的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "阿莫西林在猪体内的半衰期与肾小管上皮细胞对其分泌的主动转运过程有关，同时还受到肝脏代谢的影响。",
+    "reference_case": "阿莫西林在猪体内的半衰期与肾小管上皮细胞对其分泌的主动转运过程有关。",
+    "error_detail": "错误地添加了肝脏代谢的影响，这一假设在原信息中未提及。",
+    "original_question": "阿莫西林在猪体内的半衰期与哪些因素有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪水肿病的临床症状包括病猪头、颈部水肿，腿部水肿，步态不稳，喜卧，体温约39°C。",
+    "reference_case": "仔猪水肿病的临床症状包括病猪头、颈部水肿，腿部水肿，步态不稳，喜卧，体温约40°C。",
+    "error_detail": "错误地降低了体温的数值，导致数据偏差。",
+    "original_question": "仔猪水肿病的临床症状包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病原菌的血清型鉴定结果为O142。",
+    "reference_case": "病原菌的血清型鉴定结果为O141。",
+    "error_detail": "错误地改变了血清型的编号，混淆了不同的血清型。",
+    "original_question": "在仔猪水肿病的研究中，病原菌的血清型鉴定结果是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "病原菌对硫酸卡那霉素、磺胺甲基异恶唑、红霉素和安芐西林不敏感，同时对青霉素也不敏感。",
+    "reference_case": "病原菌对硫酸卡那霉素、磺胺甲基异恶唑、红霉素和安芐西林不敏感。",
+    "error_detail": "错误地添加了对青霉素的不敏感性，这一假设在原信息中未提及。",
+    "original_question": "在仔猪水肿病的研究中，病原菌对哪些抗生素不敏感？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病原菌在三糖铁培养基上产酸不产气，产生H2S。",
+    "reference_case": "病原菌在三糖铁培养基上产酸产气，不产生H2S。",
+    "error_detail": "错误地改变了病原菌在三糖铁培养基上的表现，混淆了不同的生化反应。",
+    "original_question": "仔猪水肿病的病原菌在三糖铁培养基上的表现如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病原菌在麦康凯培养基上长出黄色菌落。",
+    "reference_case": "病原菌在麦康凯培养基上长出红色菌落。",
+    "error_detail": "错误地改变了菌落的颜色，混淆了不同的培养基表现。",
+    "original_question": "仔猪水肿病的病原菌在麦康凯培养基上的表现如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "病原菌对庆大霉素、丁胺卡那霉素和氧氟沙星高度敏感，同时对链霉素也高度敏感。",
+    "reference_case": "病原菌对庆大霉素、丁胺卡那霉素和氧氟沙星高度敏感。",
+    "error_detail": "错误地添加了对链霉素的高度敏感性，这一假设在原信息中未提及。",
+    "original_question": "在仔猪水肿病的研究中，病原菌的药敏试验结果显示对哪些抗生素高度敏感？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "仔猪水肿病的防治措施包括使用仔猪水肿病蜂胶疫苗预防健康仔猪，以及用庆大霉素和速尿治疗病仔猪，同时还需要隔离病猪。",
+    "reference_case": "仔猪水肿病的防治措施包括使用仔猪水肿病蜂胶疫苗预防健康仔猪，以及用庆大霉素和速尿治疗病仔猪。",
+    "error_detail": "错误地添加了隔离病猪的措施，这一假设在原信息中未提及。",
+    "original_question": "仔猪水肿病的防治措施包括哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "病原菌的生理生化反应结果显示，水杨苷、肌醇、V.P反应、尿素酶试验为阳性，葡萄糖产酸产气、蔗糖、乳糖、果糖、阿拉伯糖、麦芽糖、甘露醇发酵试验结果为阴性，MR试验为阴性。",
+    "reference_case": "病原菌的生理生化反应结果显示，水杨苷、肌醇、V.P反应、尿素酶试验为阴性，葡萄糖产酸产气、蔗糖、乳糖、果糖、阿拉伯糖、麦芽糖、甘露醇发酵试验结果为阳性，MR试验为阳性。",
+    "error_detail": "错误地改变了生理生化反应的结果，混淆了不同的反应类型。",
+    "original_question": "在仔猪水肿病的研究中，病原菌的生理生化反应结果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "仔猪水肿病的病原菌是沙门氏菌。",
+    "reference_case": "仔猪水肿病的病原菌是大肠埃希菌。",
+    "error_detail": "错误地改变了病原菌的种类，混淆了不同的细菌。",
+    "original_question": "仔猪水肿病的病原菌是什么？",
+    "original_input": ""
+  }
+]

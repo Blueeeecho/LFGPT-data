@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪附红细胞体病的主要临床特征包括发热、贫血和黄疸，以及皮肤出现红斑。",
+    "reference_case": "猪附红细胞体病的主要临床特征包括发热、贫血和黄疸。",
+    "error_detail": "添加了不存在的临床特征'皮肤出现红斑'",
+    "original_question": "猪附红细胞体病的主要临床特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪附红细胞体病的病理组织学检查结果包括肾小球肿胀、细胞发生空泡变性和气球样变，肾小管及集合管出现不同类型的黄染管型，腹股沟淋巴结发生浆液性淋巴结炎，脾脏淤血、红髓区扩大、白髓区明显减少，肝中心区肝细胞坏死、周围肝细胞核肿胀，以及心脏肌肉纤维断裂。",
+    "reference_case": "猪附红细胞体病的病理组织学检查结果包括肾小球肿胀、细胞发生空泡变性和气球样变，肾小管及集合管出现不同类型的黄染管型，腹股沟淋巴结发生浆液性淋巴结炎，脾脏淤血、红髓区扩大、白髓区明显减少，肝中心区肝细胞坏死、周围肝细胞核肿胀。",
+    "error_detail": "添加了不存在的病理发现'心脏肌肉纤维断裂'",
+    "original_question": "猪附红细胞体病的病理组织学检查结果有哪些主要发现？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪附红细胞体病的预防措施包括对未发病猪实施药物预防，可选用金霉素、土霉素或强力霉素进行抖料或饮水，连用1～2周，间隔一周重复一次；在母猪分娩前对其注射长效土霉素，或对1日龄新生仔猪肌注盐酸土霉素，以及使用新型疫苗进行预防接种。",
+    "reference_case": "猪附红细胞体病的预防措施包括对未发病猪实施药物预防，可选用金霉素、土霉素或强力霉素进行抖料或饮水，连用1～2周，间隔一周重复一次；在母猪分娩前对其注射长效土霉素，或对1日龄新生仔猪肌注盐酸土霉素。",
+    "error_detail": "添加了不存在的预防措施'使用新型疫苗进行预防接种'",
+    "original_question": "猪附红细胞体病的预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在光镜下，猪附红细胞体病的病原体呈环形、小球状、卵圆形或杯状等多种形态，可以单独或链状紧密附着于红细胞表面，也可游离于血浆中，有时还会形成大型聚合体。",
+    "reference_case": "在光镜下，猪附红细胞体病的病原体呈环形、小球状、卵圆形或杯状等多种形态，可以单独或链状紧密附着于红细胞表面，也可游离于血浆中。",
+    "error_detail": "添加了不存在的形态描述'有时还会形成大型聚合体'",
+    "original_question": "猪附红细胞体病的病原体在光镜下的形态有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "猪附红细胞体病一年四季均可发生，但以温暖炎热的多雨季节尤其是吸血昆虫大量滋生的夏秋季节多发，且在冬季也有较高的发病率。",
+    "reference_case": "猪附红细胞体病一年四季均可发生，但以温暖炎热的多雨季节尤其是吸血昆虫大量滋生的夏秋季节多发。",
+    "error_detail": "错误地增加了冬季的高发病率",
+    "original_question": "猪附红细胞体病的流行季节是什么时候？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用了Qiagen的DNeasy Blood & Tissue Kit试剂盒进行病毒DNA的提取。",
+    "reference_case": "使用了Roche的High Pure Viral Nucleic Acid Kit试剂盒进行病毒DNA的提取。",
+    "error_detail": "错误的试剂盒品牌和型号",
+    "original_question": "青岛地区猪细环病毒II型（TTV2:的分子流行病学调查中，使用了哪种技术进行病毒DNA的提取？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "莱西2、胶州、城阳和平度的猪场没有检测到TTV2。",
+    "reference_case": "莱西2、胶州和城阳的猪场没有检测到TTV2。",
+    "error_detail": "错误地添加了'平度'地区",
+    "original_question": "青岛地区猪细环病毒II型（TTV2:的分子流行病学调查中，TTV2的检测结果统计显示，哪个地区的猪场没有检测到TTV2？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "PCR反应体系的总体积为50 μL。",
+    "reference_case": "PCR反应体系的总体积为25 μL。",
+    "error_detail": "错误的PCR反应体系体积",
+    "original_question": "在青岛地区猪细环病毒II型（TTV2:的分子流行病学调查中，PCR反应体系的总体积是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "PCR检测的预期扩增片段长度为500 bp。",
+    "reference_case": "PCR检测的预期扩增片段长度为468 bp。",
+    "error_detail": "错误的预期扩增片段长度",
+    "original_question": "在青岛地区猪细环病毒II型（TTV2:的分子流行病学调查中，PCR检测的预期扩增片段长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "PCR反应的程序包括95°C预变性10分钟，95°C变性30秒，56°C退火30秒，72°C延伸30秒，进行35个循环，最后72°C延伸10分钟，于4°C保存。",
+    "reference_case": "PCR反应的程序包括95°C预变性5分钟，95°C变性30秒，56°C退火30秒，72°C延伸30秒，进行35个循环，最后72°C延伸7分钟，于4°C保存。",
+    "error_detail": "错误的预变性和最后延伸时间",
+    "original_question": "青岛地区猪细环病毒II型（TTV2:的分子流行病学调查中，PCR反应的程序包括哪些步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "PCR反应的退火温度为60°C。",
+    "reference_case": "PCR反应的退火温度为56°C。",
+    "error_detail": "错误的退火温度",
+    "original_question": "青岛地区猪细环病毒II型（TTV2:的分子流行病学调查中，PCR反应的退火温度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在青岛地区4个猪场的59份血清样品中，只有莱西的一个猪场检测到TTV2，阳性率为20%。",
+    "reference_case": "在青岛地区4个猪场的59份血清样品中，只有莱西的一个猪场检测到TTV2，阳性率为13:8%。",
+    "error_detail": "错误的阳性率",
+    "original_question": "青岛地区4个猪场的猪细环病毒II型（TTV2:的分子流行病学调查中，检测到的阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "莱西1猪场的阳性检出样品数为5份。",
+    "reference_case": "莱西1猪场的阳性检出样品数为4份。",
+    "error_detail": "错误的阳性检出样品数",
+    "original_question": "在青岛地区猪细环病毒II型（TTV2:的分子流行病学调查中，TTV2的检测结果统计显示，莱西1猪场的阳性检出样品数是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在青岛地区进行的TTV2感染情况调查中，有两家猪场检测到了TTV2阳性。",
+    "reference_case": "在青岛地区进行的TTV2感染情况调查中，仅有一家猪场检测到了TTV2阳性。",
+    "error_detail": "错误的检测到TTV2阳性的猪场数量",
+    "original_question": "在青岛地区进行的TTV2感染情况调查中，有多少家猪场检测到了TTV2阳性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在病料检测中，该方法检测到了5份猪瘟强毒感染。",
+    "reference_case": "在病料检测中，该方法检测到了4份猪瘟强毒感染。",
+    "error_detail": "错误的检测到的猪瘟强毒感染数量",
+    "original_question": "该RT-PCR检测方法在病料检测中检测到了多少份猪瘟强毒感染？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "该方法的特异性通过扩增猪伪狂犬病毒（PRV）、猪细小病毒（PPV）、猪圆环病毒（PCV）、猪蓝耳病病毒（PRRSV）和牛病毒性腹泻病毒（BVDV）的基因组进行验证，结果显示这些病毒均未扩增出特异性片段，表明该方法具有高度特异性。此外，还验证了猪流感病毒（SIV）的基因组。",
+    "reference_case": "该方法的特异性通过扩增猪伪狂犬病毒（PRV）、猪细小病毒（PPV）、猪圆环病毒（PCV）、猪蓝耳病病毒（PRRSV）和牛病毒性腹泻病毒（BVDV）的基因组进行验证，结果显示这些病毒均未扩增出特异性片段，表明该方法具有高度特异性。",
+    "error_detail": "添加了未验证的病毒'猪流感病毒（SIV）'",
+    "original_question": "该RT-PCR检测方法的特异性如何验证？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "该方法的引物设计依据是Genbank上发表的猪瘟病毒（CSFV）全基因组序列，选择强毒株和兔化弱毒疫苗株序列存在的差异区域设计特异性上游引物，并选择高保守区域序列设计共用的下游引物，同时还参考了其他病毒的基因组序列。",
+    "reference_case": "该方法的引物设计依据是Genbank上发表的猪瘟病毒（CSFV）全基因组序列，选择强毒株和兔化弱毒疫苗株序列存在的差异区域设计特异性上游引物，并选择高保守区域序列设计共用的下游引物。",
+    "error_detail": "错误地添加了'参考了其他病毒的基因组序列'",
+    "original_question": "该RT-PCR检测方法的引物设计依据是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "该方法的敏感性通过检测猪瘟兔化弱毒疫苗株基因组总RNA的稀释系列进行验证，结果显示最低可检测到0:1 pg的猪瘟病毒RNA，表明该方法具有高度的敏感性。",
+    "reference_case": "该方法的敏感性通过检测猪瘟兔化弱毒疫苗株基因组总RNA的稀释系列进行验证，结果显示最低可检测到0:5 pg的猪瘟病毒RNA，表明该方法具有高度的敏感性。",
+    "error_detail": "错误的敏感性检测下限",
+    "original_question": "该RT-PCR检测方法的敏感性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "该方法应用于从天津某地区采集的5份疑似猪瘟感染的病料检测，结果显示其中3份为猪瘟强毒感染，表明该方法在实际应用中具有较高的检测效果。",
+    "reference_case": "该方法应用于从天津某地区采集的5份疑似猪瘟感染的病料检测，结果显示其中4份为猪瘟强毒感染，表明该方法在实际应用中具有较高的检测效果。",
+    "error_detail": "错误的检测到的猪瘟强毒感染数量",
+    "original_question": "该RT-PCR检测方法在病料检测中的应用效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "在特异性试验中，该方法使用了猪伪狂犬病毒（PRV）、猪细小病毒（PPV）、猪圆环病毒（PCV）、猪蓝耳病病毒（PRRSV）和牛病毒性腹泻病毒（BVDV）的基因组进行验证，同时还使用了猪流感病毒（SIV）的基因组。",
+    "reference_case": "在特异性试验中，该方法使用了猪伪狂犬病毒（PRV）、猪细小病毒（PPV）、猪圆环病毒（PCV）、猪蓝耳病病毒（PRRSV）和牛病毒性腹泻病毒（BVDV）的基因组进行验证。",
+    "error_detail": "错误地添加了'猪流感病毒（SIV）'",
+    "original_question": "该RT-PCR检测方法在特异性试验中使用了哪些病毒？",
+    "original_input": ""
+  }
+]

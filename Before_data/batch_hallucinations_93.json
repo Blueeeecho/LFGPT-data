@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪肉在我国食品结构中具有类似黄金的重要战略地位，需求弹性呈刚性",
+    "reference_case": "猪肉已经具备类似粮食的重要战略地位，需求弹性呈刚性",
+    "error_detail": "将猪肉的战略地位错误地类比为黄金，而非粮食",
+    "original_question": "猪肉在我国食品结构中具有何种特殊地位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "1996年我国生猪养殖中农户散养的普及率是75.5%",
+    "reference_case": "54.5%",
+    "error_detail": "错误地提高了农户散养的普及率数据",
+    "original_question": "1996年我国生猪养殖中农户散养的普及率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "2001年我国年出栏生猪的97.1%来自年出栏1000头以上的养猪场",
+    "reference_case": "年出栏500头以下的养猪场",
+    "error_detail": "错误地改变了养猪场的规模分类",
+    "original_question": "2001年我国年出栏生猪的97.1%来自哪种规模的养猪场？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2006年我国农户散养模式在养猪业中的比重是45.95%",
+    "reference_case": "58.95%",
+    "error_detail": "错误地降低了农户散养模式的比重数据",
+    "original_question": "2006年我国农户散养模式在养猪业中的比重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "我国生猪养殖业的门槛较高，养殖户需经过严格审批",
+    "reference_case": "门槛较低，养殖户可自由进出",
+    "error_detail": "错误地描述了生猪养殖业的门槛",
+    "original_question": "我国生猪养殖业的门槛如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "种猪和母猪被作为免疫的重点，是因为它们的经济价值高",
+    "reference_case": "种猪和母猪被作为免疫的重点，是因为它们在生猪养殖中具有重要地位，对疫情的防控和传播具有决定性作用。通过优先免疫种猪和母猪，可以有效控制疫情的扩散，保障生猪生产的安全性和稳定性。",
+    "error_detail": "错误地添加了经济价值高的假设，忽略了其在疫情防控中的决定性作用",
+    "original_question": "在疫情防治工作中，为什么种猪和母猪被作为免疫的重点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "安徽省生猪养殖的收益是我省农民收入的唯一来源",
+    "reference_case": "生猪养殖的收益是我省农民收入的重要组成部分。",
+    "error_detail": "错误地将生猪养殖的收益描述为农民收入的唯一来源，偏离了原意",
+    "original_question": "安徽省生猪养殖在该省农民收入中占据什么地位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "生猪价格的不正常波动对养殖户和消费者没有负面影响",
+    "reference_case": "生猪价格的不正常波动给养殖户和消费者带来巨大的负面影响，包括养殖户收入不稳定和消费者购买力下降。",
+    "error_detail": "错误地否定了生猪价格波动带来的负面影响，与事实矛盾",
+    "original_question": "生猪价格的不正常波动对养殖户和消费者有哪些负面影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "影响安徽省生猪价格的因素只有消费习惯和饲料价格",
+    "reference_case": "影响安徽省生猪价格的因素包括消费习惯、猪肉替代品价格、经济周期、疫病疫情、饲料价格、生猪养殖成本、政策调控和国际市场环境。",
+    "error_detail": "错误地简化了影响生猪价格的因素，忽略了其他重要因素",
+    "original_question": "影响安徽省生猪价格的因素有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "綦颖和吕杰认为生猪价格周期性波动的形成机理来自市场垄断和政府干预",
+    "reference_case": "綦颖和吕杰认为生猪价格周期性波动的形成机理来自两个方面：一是内部传导机制，二是外部冲击机制。内部传导机制决定波动的持续性，外部冲击机制影响波动周期的波幅和波长。他们建议人们要对生猪产业链内部结构做出相应调整，同时需要国家在宏观调控和疫病防治等外部环境方面加强建设，以减少外部冲击，有效缓解波动幅度。",
+    "error_detail": "错误地添加了市场垄断和政府干预的假设，偏离了原意",
+    "original_question": "綦颖和吕杰认为生猪价格周期性波动的形成机理来自哪两个方面？他们对缓解生猪价格周期性波动提出了哪些建议？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "刘春芳和王济民预测我国生猪产业未来的发展趋势是养殖门槛降低，利润增加",
+    "reference_case": "刘春芳和王济民认为我国生猪产业会逐步向规模化、产业化发展，养殖门槛会进一步提高，养殖成本不断上升，养殖的利润会继续缩小。",
+    "error_detail": "错误地预测了生猪产业的发展趋势，与原文相反",
+    "original_question": "刘春芳和王济民预测我国生猪产业未来的发展趋势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "生猪市场价格波动的周期性表现是价格持续上涨",
+    "reference_case": "生猪市场价格波动的周期性表现是：当市场价格处于波谷时，养殖户增加补栏，导致价格上升至波峰；随后，供应过剩导致价格下跌至波谷，形成新一轮周期。",
+    "error_detail": "错误地描述了生猪市场价格波动的周期性表现，忽略了价格下跌的阶段",
+    "original_question": "生猪市场价格波动的周期性表现是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "安徽省生猪市场的发展历史表明，养猪业是我国新兴的畜牧产业",
+    "reference_case": "安徽省生猪市场的发展历史表明，养猪业是我国历史悠久的畜牧产业，目前猪肉消费量占肉类消费总量的60%以上。我国是世界上猪肉生产和消费的第一大国，生猪存栏和出栏数量庞大，猪肉在居民食用肉食中占比高达94%，属于生活必需品。",
+    "error_detail": "错误地将养猪业描述为新兴产业，忽略了其历史悠久的事实",
+    "original_question": "安徽省生猪市场的发展历史如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "安徽省生猪规模养殖户是指存栏量超过100头的大规模户",
+    "reference_case": "安徽省生猪规模养殖户是指存栏量不足100头的中小规模户。",
+    "error_detail": "错误地改变了规模养殖户的定义",
+    "original_question": "安徽省生猪养殖的规模户是如何定义的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "安徽省生猪养殖业在饲料、兽医等产业支持上非常强大",
+    "reference_case": "安徽省生猪养殖业在饲料、兽医等产业支持上相对薄弱，下游猪肉产品加工业在提高产品附加值和产业链延伸方面能力不足，缺乏大型龙头企业的带动作用。",
+    "error_detail": "错误地夸大了安徽省生猪养殖业的产业支持",
+    "original_question": "安徽省生猪养殖业在哪些方面表现出产业链条短、竞争力弱的特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "上下文断裂型",
+    "hallucinated_case": "主要影响因素只有人口数量和结构变化",
+    "reference_case": "主要影响因素包括人口数量和结构变化、城市化进程、消费者收入水平、替代品价格波动以及疫情和自然灾害等。",
+    "error_detail": "错误地简化了影响安徽省生猪需求的因素",
+    "original_question": "哪些因素主要影响安徽省生猪的需求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "安徽省生猪规模养殖户主要依靠政府补贴",
+    "reference_case": "安徽省生猪规模养殖户主要依靠自由资金滚动发展，难以从金融部门获得信贷支持。",
+    "error_detail": "错误地改变了资金来源的描述",
+    "original_question": "进入生猪养殖行业的资金来源主要是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "安徽省生猪养殖业在所有方面都非常完善",
+    "reference_case": "安徽省生猪养殖业在饲料、兽医等产业支持上相对薄弱，下游加工能力不足，缺乏龙头企业带动，同时面临养殖成本上升、疫情风险和市场信息不对称等挑战。",
+    "error_detail": "错误地否定了安徽省生猪养殖业的不足",
+    "original_question": "安徽省生猪养殖业在哪些方面存在不足？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "安徽省生猪价格波动的内部传导机制是市场操纵",
+    "reference_case": "生猪的生长周期对价格波动有显著影响，养殖周期较长导致供应调整滞后，市场信息不对称和养殖户预期也加剧了价格波动。",
+    "error_detail": "错误地添加了市场操纵的假设",
+    "original_question": "安徽省生猪价格波动的内部传导机制是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "养殖成本主要包括政府税收和政策调整",
+    "reference_case": "养殖成本主要包括饲料成本（占60%以上）、仔猪价格、劳动成本、疫情风险以及生产者价格预期等。",
+    "error_detail": "错误地改变了养殖成本的主要组成部分",
+    "original_question": "安徽省生猪养殖成本的主要组成部分是什么？",
+    "original_input": ""
+  }
+]

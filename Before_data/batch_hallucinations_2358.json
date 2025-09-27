@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲用大豆的猪代谢能为15.77 MJ/kg。",
+    "reference_case": "饲用大豆的猪代谢能为14.77 MJ/kg。",
+    "error_detail": "数值偏差",
+    "original_question": "饲用大豆的猪代谢能是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "鱼粉对鸡的饲养效果很好，适口性好，可以补充必需氨基酸、C族维生素及其他矿物质元素。",
+    "reference_case": "对鸡的饲养效果很好，适口性好，可以补充必需氨基酸、B族维生素及其他矿物质元素，促进肉鸡快速生长，提高产蛋率和孵化率，用量过多会引起鸡蛋、鸡肉异味。",
+    "error_detail": "术语错误，将B族维生素误写为C族维生素",
+    "original_question": "鱼粉对鸡的饲养效果如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "干酵母在鸡饲料中的使用量通常为1%-3%，主要用于补充部分蛋白质来源。",
+    "reference_case": "干酵母在鸡饲料中的使用量通常为2%-5%，主要用于补充部分蛋白质来源。",
+    "error_detail": "数值偏差",
+    "original_question": "干酵母在鸡饲料中的使用量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪和禽类通过内源维生素来获取烟酸。",
+    "reference_case": "猪和禽类通过添加外源维生素来获取烟酸，因为它们常用的谷物及其副产品中的烟酸几乎不能被利用。",
+    "error_detail": "术语错误，将外源维生素误写为内源维生素",
+    "original_question": "猪和禽类通常通过什么方式获得烟酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "发芽谷料可作为家禽、种用家畜及高产乳牛的维生素补充饲料，用发芽谷料喂空怀母猪可促进母猪发情；喂妊娠母猪可减少死胎与流产，提高乳猪初生重；喂公猪可改善精液品质；喂仔猪可促进仔猪生长发育；在鸡日粮中喂10%大麦芽代替维生素添加剂，可提高产蛋率、降低饲料消耗。",
+    "reference_case": "发芽谷料可作为家禽、种用家畜及高产乳牛的维生素补充饲料，用发芽谷料喂空怀母猪可促进母猪发情；喂妊娠母猪可减少死胎与流产，提高乳猪初生重；喂公猪可改善精液品质；喂仔猪可促进仔猪生长发育；在鸡日粮中喂20%大麦芽代替维生素添加剂，可提高产蛋率、降低饲料消耗。",
+    "error_detail": "过时标准，将20%大麦芽误写为10%",
+    "original_question": "发芽谷料具有哪些实际应用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉（因果错误）",
+    "hallucinated_case": "全脂大豆应用于猪饲粮时，能降低蛋重，改变蛋黄中脂肪酸组成，显著降低亚麻酸和亚油酸含量，提高饱和脂肪酸含量，从而降低鸡蛋的营养价值。",
+    "reference_case": "全脂大豆应用于猪饲粮时，能提高蛋重，改变蛋黄中脂肪酸组成，显著提高亚麻酸和亚油酸含量，降低饱和脂肪酸含量，从而提高鸡蛋的营养价值。全脂大豆因其良好的效果在养猪生产中得到越来越多的应用。",
+    "error_detail": "因果错误，将提高误写为降低",
+    "original_question": "全脂大豆应用于猪饲粮时有哪些效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "去皮豆粕的代谢能比带皮豆粕高出5.4%，对于家禽和猪来说，代谢能分别高出5.4%和3.1%。",
+    "reference_case": "去皮豆粕的代谢能比带皮豆粕高出9.4%，对于家禽和猪来说，代谢能分别高出9.4%和5.1%。",
+    "error_detail": "数值偏差",
+    "original_question": "去皮豆粕与带皮豆粕在代谢能方面的差异如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "是的，康玉凡等（2005）的研究表明，去皮豆粕的营养物质利用率高于普通豆粕，改善了猪的生产性能。",
+    "reference_case": "是的，康玉凡等（2003）的研究表明，去皮豆粕的营养物质利用率高于普通豆粕，改善了猪的生产性能。",
+    "error_detail": "过时标准，将2003年误写为2005年",
+    "original_question": "去皮豆粕是否能提高猪肉生产性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "是的，余斌等（2000）的研究表明，去皮豆粕组哺乳期仔猪日增重显著高于普通豆粕组，母猪失重也显著高于普通豆粕组。",
+    "reference_case": "是的，余斌等（2000）的研究表明，去皮豆粕组哺乳期仔猪日增重显著高于普通豆粕组，母猪失重也显著低于普通豆粕组。",
+    "error_detail": "数值偏差，将低于误写为高于",
+    "original_question": "去皮豆粕是否能提高哺乳期母猪及其仔猪的生产性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "是的，Jhung等（1999）的研究表明，去皮豆粕组猪的生产性能得到改善。",
+    "reference_case": "是的，Jhung等（1989）的研究表明，去皮豆粕组猪的生产性能得到改善。",
+    "error_detail": "过时标准，将1989年误写为1999年",
+    "original_question": "去皮豆粕是否能改善仔猪的生产性能？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "是的，王建新等（1999）的研究表明，去皮豆粕组与其他组相比，全期日增重提高14～24 g，全期饲料转化率改善1.1%～2.7%，每头猪全期增重成本降低5～11元。",
+    "reference_case": "是的，王建新等（1999）的研究表明，去皮豆粕组与其他组相比，全期日增重提高24～34 g，全期饲料转化率改善2.1%～4.7%，每头猪全期增重成本降低11～17元。",
+    "error_detail": "数值偏差",
+    "original_question": "去皮豆粕是否能替代鱼粉以降低仔猪的生产成本？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "叶蛋白饲料可作为鸡、猪等的蛋白质和维生素补充饲料，用其取代部分或全部蛋白质饲料时，效果良好。研究表明，添加1.5%-3.0%的叶蛋白对增重有良好效果。",
+    "reference_case": "叶蛋白饲料可作为鸡、猪等的蛋白质和维生素补充饲料，用其取代部分或全部蛋白质饲料时，效果良好。研究表明，添加2.5%-5.0%的叶蛋白对增重有良好效果。",
+    "error_detail": "数值偏差",
+    "original_question": "叶蛋白饲料的饲用价值如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "饲料效率提高0.5%~1.0%。",
+    "reference_case": "饲料效率提高1%~1.5%。",
+    "error_detail": "数值偏差",
+    "original_question": "当玉米型饲粮对猪来说，平均粒度在400至1200μm范围内时，粒度每降低100μm，饲料效率会提高多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "最适合范围是400~600μm。",
+    "reference_case": "最适合范围是300~500μm。",
+    "error_detail": "数值偏差",
+    "original_question": "仔猪谷物的粉碎粒度最适合范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "断奶后0~14天最适合400μm，15天以后适合600μm。",
+    "reference_case": "断奶后0~14天最适合300μm，15天以后适合500μm。",
+    "error_detail": "数值偏差",
+    "original_question": "断奶仔猪在断奶后0~14天和15天以后，最适合的粉碎粒度分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "大麦需粉碎为较小的粒度（400~500μm）更合适。",
+    "reference_case": "大麦需粉碎为较大的粒度（600~700μm）更合适。",
+    "error_detail": "数值偏差",
+    "original_question": "大麦粉碎为多大粒度更适合仔猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "平均日采食量由4.09kg/d增加到4.33kg/d。",
+    "reference_case": "平均日采食量由4.19kg/d增加到4.43kg/d。",
+    "error_detail": "数值偏差",
+    "original_question": "将玉米粉碎为不同粒度配制成日粮饲喂初产母猪，粒度由1200μm降低到400μm时，平均日采食量有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "能量消化率由83.8%增加到85%。",
+    "reference_case": "能量消化率由83.8%增加到90%。",
+    "error_detail": "数值偏差",
+    "original_question": "将玉米粉碎为不同粒度配制成日粮饲喂初产母猪，粒度由1200μm降低到400μm时，能量消化率有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "消化能摄入量由57.54MJ/d增加到60.52MJ/d。",
+    "reference_case": "消化能摄入量由57.54MJ/d增加到65.52MJ/d。",
+    "error_detail": "数值偏差",
+    "original_question": "将玉米粉碎为不同粒度配制成日粮饲喂初产母猪，粒度由1200μm降低到400μm时，消化能摄入量有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "窝增重由34.9kg增加到36.6kg。",
+    "reference_case": "窝增重由34.9kg增加到38.6kg。",
+    "error_detail": "数值偏差",
+    "original_question": "将玉米粉碎为不同粒度配制成日粮饲喂初产母猪，粒度由1200μm降低到400μm时，窝增重有何变化？",
+    "original_input": ""
+  }
+]

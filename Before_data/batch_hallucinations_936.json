@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "G2:1亚型包括我国的JS-2004-2株和泰国的M-NIAH100541和KU06RB株，以及美国的US-2013株。",
+    "reference_case": "G2:1亚型包括我国的JS-2004-2株和泰国的M-NIAH100541和KU06RB株。",
+    "error_detail": "添加了不存在的美国毒株",
+    "original_question": "猪流行性腹泻病毒（PEDV）的M基因的进化树分析中，G2:1亚型包括哪些毒株？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "G2:3亚型包括我国向GenBank中提交的2010年的流行毒株、韩国2010年检测到的毒株和泰国2007年分离鉴定的毒株。",
+    "reference_case": "G2:3亚型包括我国向GenBank中提交的2011年的流行毒株、韩国2011年检测到的毒株和泰国2008年分离鉴定的毒株。",
+    "error_detail": "错误地提前了毒株的年份",
+    "original_question": "猪流行性腹泻病毒（PEDV）的M基因的进化树分析中，G2:3亚型包括哪些毒株？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "G1:1亚型包括比利时的CV777、英国的Br1/87、中国的LZC、俄罗斯的Samara/A和泰国的M-NIAH2013-95，以及日本的83P-5。",
+    "reference_case": "G1:1亚型包括比利时的CV777、英国的Br1/87、中国的LZC、俄罗斯的Samara/A和泰国的M-NIAH2013-95。",
+    "error_detail": "错误地将G1:3亚型的毒株包含在G1:1亚型中",
+    "original_question": "猪流行性腹泻病毒（PEDV）的M基因的进化树分析中，G1:1亚型包括哪些毒株？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "G1:3亚型包括日本的疫苗株83P-5以及我国2006、2007年和2011年等年份分离的毒株各1株，还有美国的US-2012株。",
+    "reference_case": "G1:3亚型包括日本的疫苗株83P-5以及我国2006、2007年和2011年等年份分离的毒株各1株。",
+    "error_detail": "添加了不存在的美国毒株",
+    "original_question": "在猪流行性腹泻病毒（PEDV）的M基因的进化树分析中，G1:3亚型包括哪些毒株？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "G1:4亚型包括我国的CH/S株和2006年分离的PEDV流行毒株，以及2008年分离的另一株。",
+    "reference_case": "G1:4亚型包括我国的CH/S株和2006年分离的PEDV流行毒株。",
+    "error_detail": "添加了不存在的2008年毒株",
+    "original_question": "在猪流行性腹泻病毒（PEDV）的M基因的进化树分析中，G1:4亚型包括哪些毒株？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "G1型主要包括2007年以前的经典毒株，如CV777、Br1/87等，而G2型则主要包括近年分离的毒株，如GDXS5、JS-2004-2等。G1型毒株在第285位的碱基为A，而G2型则为G。",
+    "reference_case": "G1型主要包括2007年以前的经典毒株，如CV777、Br1/87等，而G2型则主要包括近年分离的毒株，如GDXS5、JS-2004-2等。G1型毒株在第285位的碱基为T，而G2型则为C。",
+    "error_detail": "错误地改变了碱基的描述",
+    "original_question": "在猪流行性腹泻病毒（PEDV）的进化树分析中，G1型和G2型的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "猪流行性腹泻病毒的M基因编码的M蛋白在病毒粒子的组装和出芽过程中具有重要作用，并且能诱导产生针对病毒的中和抗体，还能直接杀死病毒。",
+    "reference_case": "猪流行性腹泻病毒的M基因编码的M蛋白在病毒粒子的组装和出芽过程中具有重要作用，并且能诱导产生针对病毒的中和抗体。",
+    "error_detail": "添加了不存在的功能描述",
+    "original_question": "猪流行性腹泻病毒（PEDV）的M基因在病毒中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "6株流行毒株之间的同源性为95%到100%。",
+    "reference_case": "6株流行毒株之间的同源性为98:2%到100%。",
+    "error_detail": "错误地降低了同源性的下限",
+    "original_question": "在猪流行性腹泻病毒（PEDV）的M基因同源性分析中，6株流行毒株之间的同源性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在副猪嗜血杆菌的培养过程中，葡萄糖作为碳源对其生长效果最好。",
+    "reference_case": "在副猪嗜血杆菌的培养过程中，乳糖作为碳源对其生长效果最好。",
+    "error_detail": "错误地改变了最佳碳源的描述",
+    "original_question": "在副猪嗜血杆菌的培养过程中，哪种碳源对其生长效果最好？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌对阿奇霉素表现出高敏感度，而对头孢曲松表现出低敏感度。其他药物如氟苯尼考、替米考星、新霉素、庆大霉素、阿米卡星、左氧氟沙星、阿莫西林和环丙沙星均为敏感药物。",
+    "reference_case": "副猪嗜血杆菌对阿奇霉素表现出低敏感度，而对头孢曲松表现出高敏感度。其他药物如氟苯尼考、替米考星、新霉素、庆大霉素、阿米卡星、左氧氟沙星、阿莫西林和环丙沙星均为敏感药物。",
+    "error_detail": "错误地反转了敏感度的描述",
+    "original_question": "副猪嗜血杆菌对哪些药物表现出耐药性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "不同动物来源的血清（牛血清、马血清和猪血清）对副猪嗜血杆菌的生长影响有显著性差异，且较高浓度的血清（100 mL/L）对菌株的生长有较好的促进作用。",
+    "reference_case": "不同动物来源的血清（牛血清、马血清和猪血清）对副猪嗜血杆菌的生长影响无显著性差异，且较高浓度的血清（50 mL/L）对菌株的生长有较好的促进作用。",
+    "error_detail": "错误地改变了血清浓度和影响的描述",
+    "original_question": "副猪嗜血杆菌对不同动物来源的血清反应如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "副猪嗜血杆菌的毒力基因capD编码多糖生物合成蛋白，该基因的存在与否决定了副猪嗜血杆菌的毒力和血清抵抗力，可以作为鉴别副猪嗜血杆菌毒力的标记，并且能够预测疾病的严重程度。",
+    "reference_case": "副猪嗜血杆菌的毒力基因capD编码多糖生物合成蛋白，该基因的存在与否决定了副猪嗜血杆菌的毒力和血清抵抗力，可以作为鉴别副猪嗜血杆菌毒力的标记。",
+    "error_detail": "添加了不存在的预测功能",
+    "original_question": "副猪嗜血杆菌的毒力基因capD的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "副猪嗜血杆菌在添加NAD的TSA培养基上生长48小时后，形成粗糙、有色、不透明、直径2毫米的大菌落。革兰染色显示为阳性，形态多为长杆状。",
+    "reference_case": "副猪嗜血杆菌在添加NAD的TSA培养基上生长48小时后，形成光滑、无色透明、露珠状、扁平的、直径1毫米的小菌落。革兰染色显示为阴性，形态多为短杆状或球杆状。",
+    "error_detail": "错误地改变了菌落的描述",
+    "original_question": "副猪嗜血杆菌（HPS）在培养基中的生长特性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌的分离株在培养基中添加NAD的最佳浓度为50 mg/L，这一浓度能够满足其生长需求。",
+    "reference_case": "副猪嗜血杆菌的分离株在培养基中添加NAD的最佳浓度为27:5 mg/L，这一浓度能够满足其生长需求。",
+    "error_detail": "错误地提高了NAD的最佳浓度",
+    "original_question": "副猪嗜血杆菌的分离株在培养基中添加NAD的最佳浓度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "LAMP（环介导等温扩增）检测方法使副猪嗜血杆菌的检测更加便捷，适用于快速诊断和现场检测，并且能够区分不同的血清型。",
+    "reference_case": "LAMP（环介导等温扩增）检测方法使副猪嗜血杆菌的检测更加便捷，适用于快速诊断和现场检测。",
+    "error_detail": "添加了不存在的区分血清型的功能",
+    "original_question": "副猪嗜血杆菌的检测方法LAMP的特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "副猪嗜血杆菌的外膜蛋白（OMPs）如rGAPDH、rOapA和rHPS-0675能够诱导针对副猪嗜血杆菌SH0165的免疫保护，这些蛋白在灭活疫苗的研发中具有重要作用。",
+    "reference_case": "副猪嗜血杆菌的外膜蛋白（OMPs）如rGAPDH、rOapA和rHPS-0675能够诱导针对副猪嗜血杆菌SH0165的免疫保护，这些蛋白在亚单位疫苗的研发中具有重要作用。",
+    "error_detail": "错误地改变了疫苗类型的描述",
+    "original_question": "副猪嗜血杆菌的外膜蛋白（OMPs）在疫苗研发中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在中国南部地区，副猪嗜血杆菌的主要流行血清型是5型和4型，分别占30%和20%。此外，血清2型、15型、13型和12型也占一定比例。",
+    "reference_case": "在中国南部地区，副猪嗜血杆菌的主要流行血清型是5型和4型，分别占23%和17%。此外，血清2型、15型、13型和12型也占一定比例。",
+    "error_detail": "错误地提高了血清型的比例",
+    "original_question": "副猪嗜血杆菌的血清型分布在中国南部地区的主要流行类型是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "副猪嗜血杆菌对豚鼠具有较强的致病性。在致病性试验中，高剂量接种的豚鼠在攻毒后第一天死亡3只，第二天死亡2只，死亡的豚鼠肝脏中能够分离到副猪嗜血杆菌。",
+    "reference_case": "副猪嗜血杆菌对豚鼠具有较强的致病性。在致病性试验中，高剂量接种的豚鼠在攻毒后第一天死亡2只，第二天死亡1只，死亡的豚鼠肝脏中能够分离到副猪嗜血杆菌。",
+    "error_detail": "错误地增加了死亡豚鼠的数量",
+    "original_question": "副猪嗜血杆菌对豚鼠的致病性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "是的，福建省猪瘟野毒分离株FJ-1的E2基因的变异与福建省猪瘟疫苗免疫失败有关，因为该毒株的抗原表位发生了漂移，可能导致疫苗的免疫保护效果降低，并且这种变异已经在全国范围内传播。",
+    "reference_case": "是的，福建省猪瘟野毒分离株FJ-1的E2基因的变异与福建省猪瘟疫苗免疫失败有关，因为该毒株的抗原表位发生了漂移，可能导致疫苗的免疫保护效果降低。",
+    "error_detail": "添加了不存在的全国传播的描述",
+    "original_question": "福建省猪瘟野毒分离株FJ-1的E2基因的变异是否与福建省猪瘟疫苗免疫失败有关？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "是的，福建省猪瘟野毒分离株FJ-1的E2基因的变异可能导致疫苗免疫失败，因为该毒株正在向远离疫苗株的方向变异，并且这种变异速度正在加快。",
+    "reference_case": "是的，福建省猪瘟野毒分离株FJ-1的E2基因的变异可能导致疫苗免疫失败，因为该毒株正在向远离疫苗株的方向变异。",
+    "error_detail": "添加了不存在的变异速度的描述",
+    "original_question": "福建省猪瘟野毒分离株FJ-1的E2基因的变异是否可能导致疫苗免疫失败？",
+    "original_input": ""
+  }
+]

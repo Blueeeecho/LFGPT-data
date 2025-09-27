@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "目前，猪场养肥猪大都采用传统的自由采食方法，不进行任何限量饲喂。",
+    "reference_case": "目前，猪场养肥猪大都采用直线肥育法，或采用前期自由采食、后期限量饲喂的肥育方法。",
+    "error_detail": "错误地描述了现代猪场肥育方法，忽略了后期限量饲喂的实践。",
+    "original_question": "现在猪场养肥猪主要采用什么肥育方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "猪舍建筑水平显著提高，采用了全自动化设备。",
+    "reference_case": "未提及猪舍建筑水平的具体变化，但现代养猪场的设备和技术水平有所提升。",
+    "error_detail": "添加了未提及的全自动化设备的假设。",
+    "original_question": "猪舍建筑水平有何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "20世纪50年代的猪舍大多采用现代钢结构，内设多个大圈。",
+    "reference_case": "20世纪50年代的猪舍大多采用土坯矮墙结构，内设一个小圈，不利于猪的生产性能发挥。",
+    "error_detail": "错误地将现代钢结构应用于20世纪50年代的猪舍描述。",
+    "original_question": "20世纪50年代的猪舍主要特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "20世纪70年代以前，猪舍多采用全封闭结构。",
+    "reference_case": "20世纪70年代以前，猪舍多采用三面围护拱顶式的半开放结构。",
+    "error_detail": "错误地将全封闭结构概念应用于半开放结构的描述。",
+    "original_question": "20世纪70年代以前的猪舍结构如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "目前部分猪场采用的全封闭舍，每头母猪使用面积为20~25平方米，肥猪占圈面积为3~4平方米。",
+    "reference_case": "目前部分猪场采用改进后的半封闭舍，外设运动场，水泥地面，砖墙围护，以自然采光、自然通风为主，每头母猪使用面积为10~15平方米，肥猪占圈面积为1~2平方米，外界气候对猪的影响降低。",
+    "error_detail": "错误地增加了母猪和肥猪的使用面积数据。",
+    "original_question": "目前部分猪场采用的猪舍形式有哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "大中型猪场多采用开放舍，完全依赖自然气候。",
+    "reference_case": "大中型猪场多采用封闭舍，猪的生活环境基本不受自然气候的影响，猪舍根据猪栏排列分为单列式、双列式和多列式，部分或全部采用漏缝地板，机械或水冲清粪，机械或人工送料，自动食槽，自动饮水，自然采光与人工采光相结合，自然通风与机械通风相结合。",
+    "error_detail": "完全偏离了封闭舍的描述，错误地描述了开放舍。",
+    "original_question": "大中型猪场常用的猪舍形式是什么样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "仔猪保育箱内仍普遍使用普通灯泡采暖。",
+    "reference_case": "仔猪保育箱内普通灯泡采暖逐步改用红外线灯甚至自动控制电热板采暖。",
+    "error_detail": "错误地描述了当前仍普遍使用普通灯泡的情况，忽略了技术进步。",
+    "original_question": "仔猪保育箱的采暖方式经历了什么变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "密闭环境养猪没有任何问题，完全适合猪的生长。",
+    "reference_case": "密闭环境可能使肉猪出现咬尾癖，母猪发情征状不明显，运动不足及肢蹄受损等问题。",
+    "error_detail": "错误地假设密闭环境没有任何问题，忽略了实际可能存在的问题。",
+    "original_question": "密闭环境养猪可能带来哪些问题？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "1971-1981年发达国家猪存栏数增长50%，猪肉产量增长60%。",
+    "reference_case": "1971-1981年发达国家猪存栏数增长24.44%，猪肉产量增长34.52%；1981-1992年存栏数减少2.77%，猪肉产量增加7.75%。",
+    "error_detail": "错误地夸大了猪存栏数和猪肉产量的增长率。",
+    "original_question": "20世纪50年代至80年代发达国家猪存栏数和猪肉产量的增长率分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的经济类型主要分为脂用型、肉用型和奶用型。",
+    "reference_case": "猪的经济类型主要分为脂用型、肉用型和兼用型。",
+    "error_detail": "错误地将兼用型替换为奶用型，混淆了猪的经济类型分类。",
+    "original_question": "猪的经济类型主要分为哪几种？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪预混合饲料中，咪达唑仑的回收率范围是50%到110%。",
+    "reference_case": "在猪预混合饲料中，咪达唑仑的回收率范围是60%到100%。",
+    "error_detail": "回收率范围被错误地扩大，超出了合理的范围。",
+    "original_question": "在猪预混合饲料中，咪达唑仑的回收率范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在猪浓缩饲料中，咪达唑仑的回收率范围是55%到105%。",
+    "reference_case": "在猪浓缩饲料中，咪达唑仑的回收率范围是65%到100%。",
+    "error_detail": "回收率范围被错误地调整，不符合实际数据。",
+    "original_question": "在猪浓缩饲料中，咪达唑仑的回收率范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "营养对猪胚胎期肌肉发育的影响主要体现在初级纤维的数量上。",
+    "reference_case": "营养对猪胚胎期肌肉发育的影响主要体现在次级纤维的数量上，早期营养缺乏会导致次级纤维数量减少，而增加营养可以提高次级纤维数量。",
+    "error_detail": "错误地将次级纤维混淆为初级纤维。",
+    "original_question": "营养对猪胚胎期肌肉发育的影响主要体现在哪些方面？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "中国兽医发展论坛包括“宠物医院管理及心脏病”、“昆物诊疗”、“猪病诊疗”、“牛羊病诊疗”、“禽病诊疗”、“水生动物诊疗”和“中兽医”7个技术专场。",
+    "reference_case": "中国兽医发展论坛包括“宠物医院管理及心脏病”、“昆物诊疗”、“猪病诊疗”、“牛羊病诊疗”、“禽病诊疗”、“水生动物诊疗”和“中兽医”8个技术专场和1个“动物福利论坛”。",
+    "error_detail": "错误地减少了技术专场的数量，并遗漏了“动物福利论坛”。",
+    "original_question": "中国兽医发展论坛包括哪些技术专场？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "方定一先生在兽医微生物学领域的主要成就包括在国际上第一个发现、分离并鉴定小鹅瘟病毒，成功研制出有效防控方法；首创NY-10制剂防治仔猪黄痢；在国内首先用人工哺乳方法建立了无气喘病猪群。",
+    "reference_case": "方定一先生在兽医微生物学领域的主要成就包括在国际上第一个发现、分离并鉴定小鹅瘟病毒，成功研制出有效防控方法；首创NY-10制剂防治仔猪黄痢；在国内首先用人工哺乳方法建立了无气喘病猪群。",
+    "error_detail": "虽然内容看似正确，但实际上是重复了原始输出，没有提供新的错误信息。",
+    "original_question": "方定一先生在兽医微生物学领域的主要成就有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PRRSV的基因组为不分节段的单股正链RNA，全长约14:1至14:5 kb。",
+    "reference_case": "PRRSV的基因组为不分节段的单股正链RNA，全长约15:1至15:5 kb，包括10个开放读码框（ORF1a、ORF1b、ORF2～7:。基因组两端为对RNA合成过程起调控作用的非编码区，其中5'端具有甲基化的帽状结构和3' poly(A)尾。",
+    "error_detail": "错误地减少了基因组的长度。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组结构是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "特异性验证通过使用猪伪狂犬病毒（PRV）、猪细小病毒（PPV）、沙门菌、大肠杆菌、猪链球菌、副猪嗜血杆菌、巴氏杆菌、支气管败血波氏杆菌的基因组模板进行PCR检测，结果显示有非特异性扩增。",
+    "reference_case": "特异性验证通过使用猪伪狂犬病毒（PRV）、猪细小病毒（PPV）、沙门菌、大肠杆菌、猪链球菌、副猪嗜血杆菌、巴氏杆菌、支气管败血波氏杆菌的基因组模板进行PCR检测，结果显示没有任何非特异性扩增。",
+    "error_detail": "错误地声称有非特异性扩增。",
+    "original_question": "猪圆环病毒2型（PCV2:和猪肺炎支原体（Mhp）双重PCR检测方法的特异性是如何验证的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "调查结果显示，所有仔猪在产房就已经感染PCV2和Mhp。",
+    "reference_case": "调查结果显示，有一定比例的仔猪在产房就已经感染PCV2和Mhp，大部分猪是在保育和育肥阶段被感染，但不同猪场表现出不同的感染动态。",
+    "error_detail": "错误地声称所有仔猪在产房就已经感染。",
+    "original_question": "在湖北省的猪场中，PCV2和Mhp的感染动态如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "在湖北省的猪场中，PCV2和Mhp的混合感染非常罕见。",
+    "reference_case": "在湖北省的猪场中，PCV2和Mhp的混合感染非常普遍，双重PCR检测方法检出的PCV2和Mhp双阳性样品与单项PCR检测方法的结果完全一致。",
+    "error_detail": "错误地声称混合感染非常罕见。",
+    "original_question": "在湖北省的猪场中，PCV2和Mhp的混合感染情况如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "双重PCR检测方法通过调查不同猪群的感染比例，帮助猪场了解PCV2和Mhp的感染动态，为制定疾病防控策略和免疫程序提供了关键数据支持，并且可以预测未来的疫情爆发。",
+    "reference_case": "双重PCR检测方法通过调查不同猪群的感染比例，帮助猪场了解PCV2和Mhp的感染动态，为制定疾病防控策略和免疫程序提供了关键数据支持。",
+    "error_detail": "错误地添加了可以预测未来疫情爆发的假设。",
+    "original_question": "双重PCR检测方法在猪场中的应用如何帮助了解PCV2和Mhp的感染动态？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "广东省增城和从化地区的猪场TTSuV1和TTSuV2的感染率较低，增城猪场TTSuV1的阳性率为50:19%，TTSuV2的阳性率为20:74%；从化猪场TTSuV1的阳性率为40:91%，TTSuV2的阳性率为20:83%。",
+    "reference_case": "广东省增城和从化地区的猪场TTSuV1和TTSuV2的感染率较高，增城猪场TTSuV1的阳性率为85:19%，TTSuV2的阳性率为40:74%；从化猪场TTSuV1的阳性率为73:91%，TTSuV2的阳性率为47:83%。",
+    "error_detail": "错误地降低了感染率和阳性率。",
+    "original_question": "广东省哪些地区的猪场TTSuV1和TTSuV2的感染率较高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "TTSuV1和TTSuV2的感染率可能与猪的养殖状况有密切相关性，感染严重的猪场细菌性疾病发病率也高，且难以控制，反之则少，这表明养殖环境是唯一影响因素。",
+    "reference_case": "TTSuV1和TTSuV2的感染率可能与猪的养殖状况有密切相关性，感染严重的猪场细菌性疾病发病率也高，且难以控制，反之则少。",
+    "error_detail": "错误地添加了养殖环境是唯一影响因素的假设。",
+    "original_question": "广东省猪群中TTSuV1和TTSuV2的感染率与猪的养殖状况有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组为单股正链 RNA，全长约 14 kb。",
+    "reference_case": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组为单股正链 RNA，全长约 15 kb。",
+    "error_detail": "错误地减少了基因组的长度。",
+    "original_question": "猪繁殖与呼吸综合征病毒（PRRSV）的基因组长度是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪细小病毒（PPV）感染初产母猪后，主要临床症状包括不孕、流产、少产、死胎、木乃伊胎、畸形胎及弱仔等症状。仔猪和母猪被感染通常有明显症状。",
+    "reference_case": "猪细小病毒（PPV）感染初产母猪后，主要临床症状包括不孕、流产、少产、死胎、木乃伊胎、畸形胎及弱仔等症状。仔猪和母猪被感染通常没有明显症状，但其体内很多组织器官均有病毒存在。",
+    "error_detail": "错误地声称仔猪和母猪被感染通常有明显症状。",
+    "original_question": "猪细小病毒（PPV）的主要临床症状是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PPV-HJ毒株是通过从初产母猪流产胎儿的肠系膜淋巴结中分离到一株猪细小病毒（PPV），并采用污染的猪睾丸传代细胞系（ST）对该毒株进行传代培育而成的。",
+    "reference_case": "PPV-HJ毒株是通过从初产母猪流产胎儿的肠系膜淋巴结中分离到一株猪细小病毒（PPV），并采用无污染的猪睾丸传代细胞系（ST）对该毒株进行传代培育而成的。",
+    "error_detail": "错误地声称使用了污染的细胞系。",
+    "original_question": "PPV-HJ毒株是通过什么方法培育的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "PPV-HJ毒株接种35日龄仔猪后，PCR法在猪的肺脏、扁桃体、腹股沟淋巴结、下领淋巴结、小肠和心脏中检测到了病毒核酸。",
+    "reference_case": "PPV-HJ毒株接种35日龄仔猪后，PCR法在猪的肺脏、扁桃体、腹股沟淋巴结、下领淋巴结、小肠中检测到了病毒核酸。",
+    "error_detail": "错误地添加了心脏作为检测到病毒核酸的组织。",
+    "original_question": "PPV-HJ毒株接种35日龄仔猪后，PCR法在哪些组织中检测到了病毒核酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PPV-HJ毒株的病毒回归动物试验中，接种试验猪后第5天检测到病毒血症。",
+    "reference_case": "PPV-HJ毒株的病毒回归动物试验中，接种试验猪后第7天检测到病毒血症。",
+    "error_detail": "错误地提前了检测到病毒血症的时间。",
+    "original_question": "PPV-HJ毒株的病毒回归动物试验中，接种试验猪后第几天检测到病毒血症？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "PPV-HJ毒株的病毒回归动物试验中，接种试验猪后第10天检测到血清抗体。",
+    "reference_case": "PPV-HJ毒株的病毒回归动物试验中，接种试验猪后第14天检测到血清抗体。",
+    "error_detail": "错误地提前了检测到血清抗体的时间。",
+    "original_question": "PPV-HJ毒株的病毒回归动物试验中，接种试验猪后第几天检测到血清抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪圆环病毒2型（PCV-2:疫苗免疫后，母猪的窝产仔数和窝产活仔数分别增加了0:50头和0:60头。",
+    "reference_case": "猪圆环病毒2型（PCV-2:疫苗免疫后，母猪的窝产仔数和窝产活仔数分别增加了0:36头和0:43头，差异极显著（P<0:01:；窝产弱仔数减少了0:11头，差异显著（P<0:05:。",
+    "error_detail": "错误地增加了窝产仔数和窝产活仔数的增加量。",
+    "original_question": "猪圆环病毒2型（PCV-2:疫苗免疫对母猪的繁殖性能有哪些具体影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪在吮初乳后5日龄时抗体水平达到最高。",
+    "reference_case": "仔猪在吮初乳后10日龄时抗体水平达到最高，之后迅速下降，至30日龄时母源抗体水平显著降低，之后随着日龄增长逐渐下降。",
+    "error_detail": "错误地提前了抗体水平达到最高的时间。",
+    "original_question": "在猪圆环病毒2型（PCV-2:疫苗免疫后，仔猪的母源抗体水平如何变化？",
+    "original_input": ""
+  }
+]

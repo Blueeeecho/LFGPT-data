@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "应采集病猪的心脏、肝脏、肺脏等组织。",
+    "reference_case": "应采集病猪扁桃体、淋巴结、脾脏等组织。",
+    "error_detail": "错误地替换了应采集的组织类型，导致概念混淆。",
+    "original_question": "采集急性猪瘟病料时应采集哪些组织？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "将病料接种于猪睾丸单层细胞，37°C培养2d后接种NDV强毒，培养2d后检查CPE。",
+    "reference_case": "将病料接种于猪睾丸单层细胞，37°C培养4d后接种NDV强毒，培养4d后检查CPE。",
+    "error_detail": "错误地修改了培养时间，导致数据型幻觉。",
+    "original_question": "实验室检疫中，非洲猪瘟病毒的细胞培养方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "包括细胞培养、鸡胚接种。",
+    "reference_case": "包括细胞培养、鸡胚接种、血清学试验（琼脂免疫扩散试验、补体结合试验、中和试验、凝胶溶血试验、间接荧光抗体染色试验、需要联免疫吸附试验、直挂荧光抗体法等）。",
+    "error_detail": "遗漏了血清学试验的详细内容，导致指令偏离。",
+    "original_question": "非洲猪瘟的实验室检疫方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "非洲猪瘟与猪瘟病原相同，都是由非洲猪瘟病毒引起。",
+    "reference_case": "非洲猪瘟与猪瘟病原不同，非洲猪瘟由非洲猪瘟病毒引起，而猪瘟由猪瘟病毒引起。",
+    "error_detail": "错误地认为两种疾病的病原相同，导致概念混淆。",
+    "original_question": "非洲猪瘟与猪瘟的主要区别是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "土拉杆菌病主要在热带地区流行。",
+    "reference_case": "易感及带菌的动物种类非常广泛。包括啮齿动物（长尾鼠、地鼠等）、毛皮兽（野兔、黄鼠、水鼠等）、禽类（鹗、鹰、麻雀、鸽、鸡、鸭、鹅等）、家畜（绵羊、山羊、牛、水牛、猪、马、骆驼、兔、猫、犬等），人类也可感染。患病及带菌动物，特别是啮齿动物是本病的自然传染源，可经吸血昆虫、外寄生虫（如蚤、螨、蚊和蝇等）及患病和带菌动物（尤以鼠类为主）的排泄物污染的饲料、饮水而传播，野生食肉目动物（包括动物园中的）多因摄入患病啮齿动物或畜禽肉及下杂料而引起爆发流行，一般在春秋季节多发。",
+    "error_detail": "错误地指定了疾病的流行地区，导致空间错位幻觉。",
+    "original_question": "土拉杆菌病的流行病学特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "检测猪水泡病的方法只有ELISA。",
+    "reference_case": "国际贸易中规定的检测方法为VN，可供选择的检测方法为ELISA。",
+    "error_detail": "错误地忽略了国际贸易中规定的检测方法，导致时效性幻觉。",
+    "original_question": "检测猪水泡病的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "检测非洲猪瘟的方法为PCR和IFA。",
+    "reference_case": "国际贸易中规定的检测方法为ELISA，可供选择的检测方法为IFA和CIEP。",
+    "error_detail": "错误地添加了PCR方法，导致数据型幻觉。",
+    "original_question": "检测非洲猪瘟的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "检测猪瘟的方法为ELISA。",
+    "reference_case": "国际贸易中规定的检测方法为NPLA、FAVN、ELISA。",
+    "error_detail": "遗漏了NPLA和FAVN方法，导致指令偏离。",
+    "original_question": "检测猪瘟的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "检测猪萎缩性鼻炎的方法为PCR。",
+    "reference_case": "未规定国际贸易中的检测方法。",
+    "error_detail": "错误地添加了PCR方法，假设滥用。",
+    "original_question": "检测猪萎缩性鼻炎的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "检测猪布氏杆菌病的方法为PCR和ELISA。",
+    "reference_case": "国际贸易中规定的检测方法为BBAT和CF，其他检测方法为Brucellin test和ELISA。",
+    "error_detail": "错误地添加了PCR方法，导致概念混淆。",
+    "original_question": "检测猪布氏杆菌病的方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "一头猪一年平均出20担粪，一担粪增产2-5斤。",
+    "reference_case": "猪粪出的多，质量高。一头猪一年平均出40担，一担粪增产5-10斤。猪粪含氦量高，生成的有机质多，肥效比较匀而长。",
+    "error_detail": "错误地减少了猪粪的产量和增产效果，导致数据型幻觉。",
+    "original_question": "为什么猪粪是增加肥料的重要来源？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "优先级错乱型",
+    "hallucinated_case": "养猪主要关系到出口换取外汇。",
+    "reference_case": "养猪不仅关系到增加肥料，还提高了人民的生活水平和能够出口换取外汇。",
+    "error_detail": "错误地强调了出口换取外汇的重要性，忽略了其他方面，导致优先级错乱。",
+    "original_question": "猪在农业生产中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "随着农业的发展，猪的地位将要大大提高，因为猪可以用于实验研究。",
+    "reference_case": "随着农业的发展，猪的地位将要大大提高，因为养猪不仅可以增加肥料，而且猪全身是宝。",
+    "error_detail": "错误地添加了实验研究的用途，假设滥用。",
+    "original_question": "在农业和畜牧业的关系中，猪的地位为什么在提高？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "利用猪吃百样草的特点，通过猪将各种资源集中到河里。",
+    "reference_case": "利用猪吃百样草的特点，通过猪将各种资源集中到地里，实现农副产品和饲料的综合利用。",
+    "error_detail": "错误地将资源集中到河里，导致概念混淆。",
+    "original_question": "如何利用猪吃草的特点来促进农业生产？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "“养猪图损粪”是指通过养猪来减少粪便中的养分。",
+    "reference_case": "“养猪图损粪”是指通过养猪来集中和改造粪便中的养分，这些养分原本来自饲料，饲料中的养分又来源于土地。",
+    "error_detail": "错误地解释了“养猪图损粪”的含义，导致概念混淆。",
+    "original_question": "什么是“养猪图损粪”的作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉",
+    "hallucinated_case": "“农和牧互相促进”是指通过养猪、种豆类作物等方式，提高地力。",
+    "reference_case": "“农和牧互相促进”是指通过养猪、种豆类作物等方式，集中和改造养分，提高地力，从而促进农业和畜牧业的共同发展。",
+    "error_detail": "遗漏了集中和改造养分的关键步骤，导致逻辑不完整。",
+    "original_question": "什么是“农和牧互相促进”的关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "桑基鱼塘的主要生产方式是在沙漠地区种桑与养蚕、养鱼、养猪相结合。",
+    "reference_case": "种桑与养蚕、养鱼、养猪相结合，生产上有紧密的联系；植物与动物互养，形成良性的生态循环；塘与基合理分布，水陆资源相结合。",
+    "error_detail": "错误地将桑基鱼塘的生产方式定位在沙漠地区，导致空间错位幻觉。",
+    "original_question": "桑基鱼塘的主要生产方式是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "PSE（Pale, Soft, Exudative）猪肉是指肉的颜色深、质地硬、保水力好的异常猪肉。",
+    "reference_case": "PSE（Pale, Soft, Exudative）猪肉是指肉的颜色淡、质地软、保水力差的异常猪肉，其指标包括肉色、pH值和保水力。",
+    "error_detail": "错误地描述了PSE猪肉的特征，导致概念混淆。",
+    "original_question": "什么是PSE猪肉？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "当猪肉中肌内脂肪含量低于3%时，肉的风味和嫩度较差。",
+    "reference_case": "当猪肉中肌内脂肪含量低于1.5%时，肉的风味和嫩度较差。",
+    "error_detail": "错误地提高了肌内脂肪含量的阈值，导致数据型幻觉。",
+    "original_question": "肌内脂肪含量低于多少时，猪肉风味和嫩度较差？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘦肉中的亚油酸含量显著低于牛肉和羊肉。",
+    "reference_case": "猪瘦肉中的亚油酸含量显著高于牛肉和羊肉，而肝脏和肾脏中亚油酸含量也是如此。",
+    "error_detail": "错误地比较了亚油酸含量，导致概念混淆。",
+    "original_question": "肉用动物肌肉组织中的多不饱和脂肪酸含量如何？",
+    "original_input": ""
+  }
+]

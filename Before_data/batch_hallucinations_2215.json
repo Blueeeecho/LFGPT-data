@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "可采取用抗生素进行彻底消毒，做好分娭后到出槽的消毒，防止水平感染；禁止使用锯末作垫草，饲养密度不要太大；尽量采取自繁自养原则，必须引进猪种时，先隔离观察一段时间，再入大群。",
+    "reference_case": "可采取用卤素族药剂进行彻底消毒，做好分娭后到出槽的消毒，防止水平感染；禁止使用锯末作垫草，饲养密度不要太大；尽量采取自繁自养原则，必须引进猪种时，先隔离观察一段时间，再入大群。",
+    "error_detail": "将卤素族药剂错误地替换为抗生素，导致概念混淆。",
+    "original_question": "如何预防猪结核病？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "无毒炭疽芽胞苗的注射剂量为每头猪皮下注射1.0ml，免疫期为2年。",
+    "reference_case": "无毒炭疽芽胞苗的注射剂量为每头猪皮下注射0.5ml，免疫期为1年。",
+    "error_detail": "注射剂量和免疫期的数值被错误地增加。",
+    "original_question": "无毒炭疽芽胞苗的注射剂量和免疫期是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪囊虫病的病原体是猪带绦虫的成虫。",
+    "reference_case": "猪囊虫病的病原体是猪带绦虫的幼虫——猪囊尾蚴。",
+    "error_detail": "将病原体错误地描述为成虫而非幼虫。",
+    "original_question": "猪囊虫病的病原体是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "猪囊虫病主要寄生在猪的肝脏和心脏。",
+    "reference_case": "猪囊虫病主要寄生在猪的肌肉组织和脑中。",
+    "error_detail": "错误地描述了猪囊虫病的寄生部位。",
+    "original_question": "猪囊虫病主要寄生在猪的哪些部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "猪囊虫病可引起严重的囊虫病，尤其是当囊虫寄生于脑、眼等部位时，这是因为人类食用了未煮熟的猪肉。",
+    "reference_case": "猪囊虫病可引起严重的囊虫病，尤其是当囊虫寄生于脑、眼等部位时。",
+    "error_detail": "错误地添加了因果关系，将人类食用未煮熟的猪肉作为原因。",
+    "original_question": "猪囊虫病对人的危害有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "诊断猪囊虫病的方法包括生前诊断（如皮肤变态反应）、改良ELISA试验、死后胴体检查等，但这些方法已经过时。",
+    "reference_case": "诊断猪囊虫病的方法包括生前诊断（如皮肤变态反应）、改良ELISA试验、死后胴体检查等。",
+    "error_detail": "错误地声称这些诊断方法已经过时。",
+    "original_question": "猪囊虫病的诊断方法有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "预防措施包括严格进行肉品卫生检验，对患有猪囊虫的猪肉做无害化处理，宣传科普知识，彻底消灭连则圈，防止猪吃人粪而感染囊虫病，以及定期给猪注射疫苗。",
+    "reference_case": "预防措施包括严格进行肉品卫生检验，对患有猪囊虫的猪肉做无害化处理，宣传科普知识，彻底消灭连则圈，防止猪吃人粪而感染囊虫病。",
+    "error_detail": "错误地添加了定期给猪注射疫苗的预防措施。",
+    "original_question": "猪囊虫病的预防措施有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "治疗猪囊虫病的药物包括丙硫苯咪唑片和吡喹酮片，剂量分别为每千克体重10mg和5mg。",
+    "reference_case": "治疗猪囊虫病的药物包括丙硫苯咪唑片和吡喹酮片。",
+    "error_detail": "错误地添加了药物的剂量信息。",
+    "original_question": "猪囊虫病的治疗药物有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪蛔虫病主要侵害1至2月龄的仔猪。",
+    "reference_case": "猪蛔虫病主要侵害3至6月龄的仔猪。",
+    "error_detail": "错误地描述了猪蛔虫病的主要侵害对象年龄。",
+    "original_question": "猪蛔虫病的主要侵害对象是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪蛔虫的生活史需要中间宿主。",
+    "reference_case": "猪蛔虫的生活史不需要中间宿主。",
+    "error_detail": "错误地描述了猪蛔虫的生活史需要中间宿主。",
+    "original_question": "猪蛔虫的生活史需要中间宿主吗？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪蛔虫的虫卵呈长椭圆形，红褐色，大小为100至150×60至80 µm，卵壳由2层膜构成。",
+    "reference_case": "猪蛔虫的虫卵呈短椭圆形，黄褐色，大小为50至75×40至50 µm，卵壳由4层膜构成，外面一层为厚而粗糙不平的蛋白质膜。",
+    "error_detail": "错误地描述了猪蛔虫虫卵的形状、颜色、大小和卵壳结构。",
+    "original_question": "猪蛔虫的虫卵具有哪些特点？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪蛔虫的卵随粪便排出体外，在适宜的外界环境中开始发育，约经5至10天发育成含有感染性幼虫的卵。",
+    "reference_case": "猪蛔虫的卵随粪便排出体外，在适宜的外界环境中开始发育，约经15至30天发育成含有感染性幼虫的卵。",
+    "error_detail": "错误地缩短了猪蛔虫卵发育成含有感染性幼虫的卵的时间。",
+    "original_question": "猪蛔虫的生活史中，卵如何发育成含有感染性幼虫的卵？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪蛔虫病流行的原因包括蜔虫卵对外界环境和化学药品抵抗力弱、生活史复杂、繁殖能力低等。",
+    "reference_case": "猪蛔虫病流行的原因包括蜔虫卵对外界环境和化学药品抵抗力强、生活史简单、强大的繁殖能力等。",
+    "error_detail": "错误地描述了猪蛔虫病流行的原因。",
+    "original_question": "猪蛔虫病的流行原因是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "驱猪蛔虫时，每千克体重内服20mg。",
+    "reference_case": "驱猪蛔虫时，每千克体重内服10mg。",
+    "error_detail": "错误地增加了驱虫净的使用剂量。",
+    "original_question": "驱虫净用于驱猪蛔虫时的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "用于猪亚硝酸盐和实化物中毒的解毒和解除磺胺类药物引起的药物反应。2%～3%美蓝溶液静脉注射（也可肌注）2ml/kg（亚硝酸盐中毒时，2%美蓝，1ml/kg体重）。",
+    "reference_case": "用于猪亚硝酸盐和实化物中毒的解毒和解除磺胺类药物引起的药物反应。1%～2%美蓝溶液静脉注射（也可肌注）1ml/kg（亚硝酸盐中毒时，1%美蓝，0.5ml/kg体重）。",
+    "error_detail": "错误地增加了美蓝溶液的浓度和注射剂量。",
+    "original_question": "亚甲蓝（美蓝）注射液用于解毒时的使用方法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的浅层肌包括臂头肌、斜方肌、皮下组织、背阔肌、后背侧锯肌、腰骼肋肌、阔筋膜张肌、馨中肌、肾股二头肌、半膜肌、半腱肌、腓骨长肌、趾浅屈肌、趾浅屈肌腱、腹内斜肌、腹横肌、腹外斜肌、胸腹侧锯肌、胸浅肌、腕桡侧伸肌、臂三头肌、胸骨舌骨肌、胸头肌、咬肌等部位，但不包括心脏。",
+    "reference_case": "猪的浅层肌包括臂头肌、斜方肌、皮下组织、背阔肌、后背侧锯肌、腰骼肋肌、阔筋膜张肌、馨中肌、肾股二头肌、半膜肌、半腱肌、腓骨长肌、趾浅屈肌、趾浅屈肌腱、腹内斜肌、腹横肌、腹外斜肌、胸腹侧锯肌、胸浅肌、腕桡侧伸肌、臂三头肌、胸骨舌骨肌、胸头肌、咬肌等部位。",
+    "error_detail": "错误地添加了不包括心脏的描述，导致概念混淆。",
+    "original_question": "猪的浅层肌包括哪些部位？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的头部皮肌特别发达，面皮肌色深、厚，易于与皮肤分离，位于面部前上部两侧和上颌间隙。",
+    "reference_case": "猪的头部皮肌特别发达，面皮肌色浅、薄，难以与皮肤分离，位于面部后下部两侧和下颌间隙。颈皮肌分深浅两层，浅层位于颈下部，起于胸骨柄，前行止于腮腺区；深层起于肩峰的前上方，肌纤维前后向走行，前方连接面皮肌。肩臂皮肌位于肩臂部浅层表面，呈扁带状，后上方连躯干皮肌。躯干皮肌薄，位于胸腹侧壁的下2/3，向后伸至腹胁部。",
+    "error_detail": "错误地描述了猪头部皮肌的颜色、厚度、位置和与皮肤的关系。",
+    "original_question": "猪的头部皮肌有何特征？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的膝关节两侧有膝前、后副韧带。",
+    "reference_case": "猪的膝关节两侧有膝内、外侧副韧带。",
+    "error_detail": "错误地描述了猪膝关节两侧的韧带名称。",
+    "original_question": "猪的膝关节两侧有何结构？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的趾关节构造与后肢趾关节相同。",
+    "reference_case": "猪的趾关节构造与前肢指关节相同。",
+    "error_detail": "错误地描述了猪趾关节的构造与前肢指关节的关系。",
+    "original_question": "猪的趾关节构造如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪的髋关节与马的相似。",
+    "reference_case": "猪的髋关节与牛的相似。",
+    "error_detail": "错误地描述了猪髋关节与哪种动物的相似。",
+    "original_question": "猪的髋关节结构如何？",
+    "original_input": ""
+  }
+]

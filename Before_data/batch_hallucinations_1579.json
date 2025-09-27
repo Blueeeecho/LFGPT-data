@@ -1,0 +1,47 @@
+[
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "试差法的基本步骤包括确定目标、选择原料、计算比例、调整配方和验证效果。",
+    "reference_case": "试差法的基本步骤同技能一。",
+    "error_detail": "错误地添加了具体的步骤描述，偏离了原始指令的简洁回答要求。",
+    "original_question": "试差法设计乳猪配合饲料的基本步骤是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "第一步，打开Excel软件，选择新建工作簿。",
+    "reference_case": "第一步，单击程序中的Microsoft Excel，完成新建。",
+    "error_detail": "错误地描述了操作步骤，混淆了打开软件和新建工作簿的概念。",
+    "original_question": "使用Excel法设计3-8kg乳猪配合饲料的第一步是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "第二步，建立表格模型，输入错误的指标名称和饲料原料名称。",
+    "reference_case": "第二步，建立表格模型，输入相应的指标名称和饲料原料名称。",
+    "error_detail": "错误地添加了'错误的'这一描述，导致数据型幻觉。",
+    "original_question": "使用Excel法设计3-8kg乳猪配合饲料的第二步是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "应添加维生素A（15000 IU/kg）、维生素D3（3000 IU/kg）、维生素E（25 mg/kg）、维生素K3（5 mg/kg）、维生素B1（3 mg/kg）、维生素B2（5 mg/kg）、维生素B6（1.5 mg/kg）、维生素B12（0.03 mg/kg）、烟酸（30 mg/kg）、泛酸（15 mg/kg）、叶酸（0.3 mg/kg）、生物素（0.02 mg/kg）。",
+    "reference_case": "应添加维生素A（10000 IU/kg）、维生素D3（2500 IU/kg）、维生素E（20 mg/kg）、维生素K3（4 mg/kg）、维生素B1（2 mg/kg）、维生素B2（4.5 mg/kg）、维生素B6（1.2 mg/kg）、维生素B12（0.02 mg/kg）、烟酸（26 mg/kg）、泛酸（13 mg/kg）、叶酸（0.25 mg/kg）、生物素（0.01 mg/kg）。",
+    "error_detail": "错误地修改了维生素的添加量，导致数据型幻觉。",
+    "original_question": "在设计15～30kg仔猪维生素预混料时，应添加哪些维生素及其添加量是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "使用Excel的设计功能进行维生素预混料配方设计，可以快速准确地完成计算，避免手工计算错误，并能长期使用同一计算模式，只需复制原表格即可。",
+    "reference_case": "使用Excel的计算功能进行维生素预混料配方设计，可以快速准确地完成计算，避免手工计算错误，并能长期使用同一计算模式，只需复制原表格即可。",
+    "error_detail": "错误地将'计算功能'改为'设计功能'，偏离了原始指令。",
+    "original_question": "如何使用Excel设计体重为15~30kg仔猪的维生素预混料配方？",
+    "original_input": ""
+  }
+]

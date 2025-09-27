@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "饲养在邻近畜栏内的切除输精管的或正常公猪的声音、形象和气味有助于母猪的发情鉴定，但主要应观察母猪的食欲变化。",
+    "reference_case": "饲养在邻近畜栏内的切除输精管的或正常公猪的声音、形象和气味有助于母猪的发情鉴定。",
+    "error_detail": "错误地添加了食欲变化作为发情鉴定的主要观察指标，与原始output不符。",
+    "original_question": "猪在发情鉴定时应观察哪些行为？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "母猪在断奶后1—2天开始发情。",
+    "reference_case": "母猪在断奶后3—8天开始发情。",
+    "error_detail": "错误地缩短了母猪开始发情的时间范围，与原始output不符。",
+    "original_question": "母猪在什么时间开始发情？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在断奶时注射PMSG能使母猪的这一间隔时间缩短3-4天。",
+    "reference_case": "在断奶时注射PMSG能使母猪的这一间隔时间缩短1-2天。",
+    "error_detail": "错误地夸大了PMSG对缩短发情间隔时间的效果，与原始output不符。",
+    "original_question": "如何缩短母猪产后发情间隔时间？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "对断奶后仍不发情的母猪，一次合并注射PMSG和HCG，5天内有80%以上的受试母猪发情，且90%以上可以受精。",
+    "reference_case": "对断奶后仍不发情的母猪，一次合并注射PMSG和HCG，10天内有80%以上的受试母猪发情，且90%以上可以受精。",
+    "error_detail": "错误地缩短了发情反应的时间，与原始output不符。",
+    "original_question": "孕激素处理与PMSG联合使用对母猪有何效果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "长期应用孕酮可控制牛、绵羊、山羊和马的排卵时间，但对猪无影响。",
+    "reference_case": "长期应用孕酮可控制牛、绵羊、山羊和马的排卵时间，但猪容易造成卵巢囊肿。",
+    "error_detail": "错误地认为孕酮对猪无影响，与原始output不符。",
+    "original_question": "长期应用孕酮对家畜排卵的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "超声波检查法在诊断猪的妊娠时，可以通过耳朵和尾巴进行检查。",
+    "reference_case": "超声波检查法在诊断猪的妊娠时，可以通过阴道粘膜、子宫中动脉、尿液等部位进行检查。",
+    "error_detail": "错误地添加了耳朵和尾巴作为检查部位，与原始output不符。",
+    "original_question": "超声波检查法在诊断猪的妊娠时，可以通过哪些部位进行检查？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "超声波检查法在诊断母猪妊娠时，可以在100-200天提供准确结果，在晚期妊娠时容易进行且准确。",
+    "reference_case": "超声波检查法在诊断母猪妊娠时，可以在150-250天提供准确结果，在晚期妊娠时容易进行且准确。",
+    "error_detail": "错误地调整了提供准确结果的时间范围，与原始output不符。",
+    "original_question": "超声波检查法在诊断母猪妊娠时，可以在哪些时间段提供准确结果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "超声波诊断通过检测猪妊娠子宫内容物、腹腔内脏和食物之间的声阻抗差异来进行，使用5兆赫探头探测站立的杂猪右下胶乳头腺外侧脐后约5厘米处。",
+    "reference_case": "超声波诊断通过检测猪妊娠子宫内容物、腹腔内脏和食物之间的声阻抗差异来进行，使用2兆赫探头探测站立的杂猪右下胶乳头腺外侧脐后约5厘米处。",
+    "error_detail": "错误地更改了探头的频率，与原始output不符。",
+    "original_question": "超声波诊断如何用于检测猪的胎动？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "给妊娠30-90天的经产或头产青年母猪进行超声波妊娠诊断，准确率可达85%。",
+    "reference_case": "给妊娠30-90天的经产或头产青年母猪进行超声波妊娠诊断，准确率可达95%。",
+    "error_detail": "错误地降低了超声波诊断的准确率，与原始output不符。",
+    "original_question": "超声波诊断在妊娠早期猪胎动的准确率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "在农畜中，第一个成功的肧胎移植是在几百年前由Warwick和Berry用绵羊和山羊进行的，Kvansnickii用猪进行胚胎移植成功，Willett等用牛进行肧胎移植成功。",
+    "reference_case": "在农畜中，第一个成功的肧胎移植是在几十年前由Warwick和Berry用绵羊和山羊进行的，Kvansnickii用猪进行胚胎移植成功，Willett等用牛进行肧胎移植成功。",
+    "error_detail": "错误地将时间范围从几十年前改为几百年前，与原始output不符。",
+    "original_question": "在农畜中，第一个成功的肧胎移植是在什么时候和用什么动物进行的？",
+    "original_input": ""
+  }
+]

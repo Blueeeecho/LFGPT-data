@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪选拔高每窝仔猪数的遗传变异率是50%。",
+    "reference_case": "现有遗传变异率为25%，较高，导致对于每窝仔猪数的直接选拔效果受到悲观论者的质疑。",
+    "error_detail": "遗传变异率被夸大，从25%增加到50%。",
+    "original_question": "猪选拔高每窝仔猪数的遗传变异率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "排卵数与每窝仔猪数之间存在高度遗传负相关。",
+    "reference_case": "排卵数与每窝仔猪数之间存在高度遗传正相关。",
+    "error_detail": "遗传相关性被错误地描述为负相关而非正相关。",
+    "original_question": "排卵数与每窝仔猪数之间的遗传相关性如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "选拔排卵数显著改善了小鼠的每窝仔猪数。",
+    "reference_case": "选拔排卵数并未改善小鼠的每窝仔猪数。",
+    "error_detail": "结果被错误地描述为有显著改善，与原始输出相反。",
+    "original_question": "排卵数的选择是否能改善每窝仔猪数？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "猪的排卵数现有遗传变异率为20%。",
+    "reference_case": "猪的排卵数现有遗传变异率为10%。",
+    "error_detail": "遗传变异率被夸大，从10%增加到20%。",
+    "original_question": "排卵数的遗传变异率在猪中是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在猪中，排卵数的选择对于每窝仔猪数产生了显著变化。",
+    "reference_case": "在猪中，排卵数的选择对于每窝仔猪数没有产生显著变化。",
+    "error_detail": "结果被错误地描述为有显著变化，与原始输出相反。",
+    "original_question": "排卵数的选择能否改善猪的每窝仔猪数？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "保存公猪精子在液态时，只有养分和渗透压对其受精能力有影响。",
+    "reference_case": "保存公猪精子在液态时，合适的养分、抵抗迅速冷却的保护、抵抗pH变化的缓冲作用、适当的渗透压、平衡的电解质、抑制细菌生长以及提供多次授精所需的精液体积等因素对其受精能力有影响。",
+    "error_detail": "忽略了多个重要因素，仅提到了养分和渗透压。",
+    "original_question": "保存公猪精子在液态时，哪些因素对其受精能力有影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "逻辑完整性幻觉（逻辑矛盾）",
+    "hallucinated_case": "公猪精液稀释剂在保存过程中仅提供养分和抑制细菌生长的作用。",
+    "reference_case": "公猪精液稀释剂在保存过程中提供了适当的养分、抵抗迅速冷却的保护、抵抗pH变化的缓冲作用、适当的渗透压、平衡的电解质、抑制细菌生长以及提供多次授精所需的精液体积等作用。",
+    "error_detail": "忽略了稀释剂的多种作用，仅提到了养分和抑制细菌生长。",
+    "original_question": "公猪精液稀释剂在保存过程中起到什么作用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉（地域差异）",
+    "hallucinated_case": "在液态保存公猪精液时，维持温度在20-25℃的困难，对于所有国家都限制了精液被保存为液态的应用。",
+    "reference_case": "在液态保存公猪精液时，维持温度在15-18℃的困难，对于具有适当运输包装的国家，略微限制了精液被保存为液态的应用。",
+    "error_detail": "温度范围和影响范围被错误地扩大。",
+    "original_question": "在液态保存公猪精液时，维持适当温度的困难如何影响应用？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉（过时标准）",
+    "hallucinated_case": "1975年，首次成功发展了可重复使用的公猪精液冷冻方法。",
+    "reference_case": "1971年，首次成功发展了可重复使用的公猪精液冷冻方法。",
+    "error_detail": "年份被错误地从1971年改为1975年。",
+    "original_question": "哪种方法在1971年首次成功用于公猪精液的重复冷冻？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型（添加假设）",
+    "hallucinated_case": "解冻后的公猪精子，其最理想授精时间是在排卵后24小时。",
+    "reference_case": "解冻后的公猪精子，其最理想授精时间是在接近排卵时。",
+    "error_detail": "添加了不存在的授精时间假设，即排卵后24小时。",
+    "original_question": "解冻公猪精子的理想授精时间是什么时候？",
+    "original_input": ""
+  }
+]

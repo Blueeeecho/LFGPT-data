@@ -1,0 +1,92 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "断奶猪多系统衰弱综合征（PMWS）是由1型环状病毒（porcine circovirus, PCV-1）引起的。",
+    "reference_case": "断奶猪多系统衰弱综合征（PMWS）是由2型环状病毒（porcine circovirus, PCV-2）引起的。",
+    "error_detail": "混淆了PCV-1和PCV-2的概念",
+    "original_question": "断奶猪多系统衰弱综合征（PMWS）是由哪种病毒引起的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "PMWS的主要临床症状包括断奶猪发育不良、渐进性消瘦、黄疸、咳喘，有时还有腹泻，但没有报道有仔猪先天性震颤。",
+    "reference_case": "PMWS的主要临床症状包括断奶猪发育不良、渐进性消瘦、黄疸、咳喘，有时还有腹泻，有的报道有仔猪先天性震颤。",
+    "error_detail": "遗漏了仔猪先天性震颤的报道",
+    "original_question": "PMWS的主要临床症状有哪些？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "在PMWS的流行病学中，PCV-2的抗体阳性率与猪的年龄有一定的相关性，猪的年龄越小，PMWS的抗体阳性率越高。",
+    "reference_case": "在PMWS的流行病学中，PCV-2的抗体阳性率与猪的年龄有一定的相关性，猪的年龄越大，PMWS的抗体阳性率越高。",
+    "error_detail": "错误地颠倒了年龄与抗体阳性率的关系",
+    "original_question": "在PMWS的流行病学中，PCV-2的抗体阳性率与猪的年龄有何关系？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "2002年10月加纳发生的非洲猪瘟爆发地区是Accra。",
+    "reference_case": "2002年10月加纳发生的非洲猪瘟爆发地区是Zabzugu-Tatale县。",
+    "error_detail": "错误地指定了爆发地区",
+    "original_question": "2002年10月加纳发生的非洲猪瘟爆发地区是哪里？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2002年11月比利时在野猪中检测到的古典猪瘟涉及20头野猪，其中2头病毒学试验呈阳性。",
+    "reference_case": "2002年11月比利时在野猪中检测到的古典猪瘟涉及12头野猪，其中1头病毒学试验呈阳性。",
+    "error_detail": "错误地增加了野猪数量和阳性检测结果",
+    "original_question": "2002年11月比利时在野猪中检测到的古典猪瘟涉及多少头野猪，其中有多少头检测结果为阳性？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2002年10月委内瑞拉发生的古典猪瘟涉及100头猪，其中10头发病，5头死亡。",
+    "reference_case": "2002年10月委内瑞拉发生的古典猪瘟涉及66头猪，其中4头发病，1头死亡。",
+    "error_detail": "错误地增加了猪的数量、发病和死亡数量",
+    "original_question": "2002年10月委内瑞拉发生的古典猪瘟涉及多少头猪，其中有多少头发病和死亡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "保加利亚在2002年12月通报的古典猪瘟疫情中，有30头猪被销毁。",
+    "reference_case": "保加利亚在2002年12月通报的古典猪瘟疫情中，有18头猪被销毁。",
+    "error_detail": "错误地增加了被销毁的猪的数量",
+    "original_question": "保加利亚在2002年12月通报的古典猪瘟疫情中，有多少头猪被销毁？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "加纳在2002年12月通报的非洲猪瘟疫情中，有8000头猪死亡。",
+    "reference_case": "加纳在2002年12月通报的非洲猪瘟疫情中，有7061头猪死亡。",
+    "error_detail": "错误地增加了死亡猪的数量",
+    "original_question": "加纳在2002年12月通报的非洲猪瘟疫情中，有多少头猪死亡？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "2000年中国的猪肉产量占世界总产量的50%。",
+    "reference_case": "2000年中国的猪肉产量占世界总产量的47%。",
+    "error_detail": "错误地增加了中国猪肉产量的比例",
+    "original_question": "中国畜牧业在2000年的猪肉产量占世界总产量的比例是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "饲喂青贮饲料的猪肉与常规饲养的猪肉相比，肌内脂肪（IMF）、饱和脂肪酸（SAFA）和单不饱和脂肪酸（MUFA）含量较高，多不饱和脂肪酸（PUFA，ω6, ω3）含量较低。",
+    "reference_case": "饲喂青贮饲料的猪肉与常规饲养的猪肉相比，肌内脂肪（IMF）、饱和脂肪酸（SAFA）和单不饱和脂肪酸（MUFA）含量较低，多不饱和脂肪酸（PUFA，ω6, ω3）含量较高。",
+    "error_detail": "错误地颠倒了脂肪酸含量的比较结果",
+    "original_question": "饲喂青贮饲料对猪肉的脂肪含量和脂肪酸组成有何影响？",
+    "original_input": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "聚类分析中东乡猪与修水杭猪聚成同一大类。",
+    "reference_case": "聚类分析中东乡猪与修水杭猪聚成另一大类。",
+    "error_detail": "将'另一大类'错误地改为'同一大类'，导致概念混淆。",
+    "original_question": "聚类分析中东乡猪与哪些品种聚为一类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "通常模板量在 0.1 — 100 ng/μg 之间，大多数情况下为 10-1000 ng。",
+    "reference_case": "通常模板量在 0.1 — 10 ng/μg 之间，大多数情况下为 10-100 ng。",
+    "error_detail": "数值范围被夸大，导致数据型幻觉。",
+    "original_question": "适合我国地方猪品种的 RAPD 反应体系对模板量有何要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪胸膜肺炎放线杆菌5型在LB液体培养基中培养48小时，加入5%甲醛灭活48小时，然后以5000 rpm离心10分钟，沉淀物用pH7.",
+    "reference_case": "猪胸膜肺炎放线杆菌5型在LB液体培养基中培养24小时，加入3%甲醛灭活24小时，然后以3000 rpm离心6分钟，沉淀物用pH7.",
+    "error_detail": "时间和条件被错误修改，偏离了原始指令。",
+    "original_question": "建立抗猪胸膜肺炎放线杆菌5型抗体检测的凝集试验需要进行哪些步骤？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "乳胶颗粒在25℃下敏感化60分钟。",
+    "reference_case": "乳胶颗粒在37℃下敏感化40分钟。",
+    "error_detail": "温度和时间的错误，反映了过时的实验条件。",
+    "original_question": "在建立抗猪胸膜肺炎放线杆菌5型抗体检测的凝集试验中，乳胶颗粒在什么条件下进行敏感化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "猪瘟是由猪流感病毒（H1N1）引起的一种高度接触性传染病。",
+    "reference_case": "猪瘟是由猪瘟病毒（HCV 或 CSFV）引起的一种高度接触性传染病。",
+    "error_detail": "错误地将猪瘟病毒混淆为猪流感病毒。",
+    "original_question": "猪瘟是由哪种病毒引起？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "我国是世界上养猪最少的国家，也是猪瘟流行轻微的国家。",
+    "reference_case": "我国是世界上养猪最多的国家，也是猪瘟流行严重的国家。",
+    "error_detail": "错误地描述了我国养猪数量和猪瘟流行情况。",
+    "original_question": "猪瘟在我国的地位如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "近几十年来，猪瘟的流行和发病特点没有发生任何变化。",
+    "reference_case": "近几年来，猪瘟的流行和发病特点发生了较大的变化，从频发的大流行转为周期性、波浪性的地区性散发流行，临床症状和病理变化由典型变为非典型，并出现了亚临床感染、母猪繁殖障碍和新生仔猪先天性感染。",
+    "error_detail": "错误地否认了猪瘟流行特点的变化，反映了过时的信息。",
+    "original_question": "猪瘟的流行特点有哪些变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "蓝耳病是由猪流感病毒引起的母猪以发热、厌食、流产、死胎、木乃伊胎、弱仔等繁殖障碍及仔猪的呼吸道症状和高死亡率为特征的一种疾病。",
+    "reference_case": "蓝耳病（Porcine Reproductive and Respiratory Syndrome，PRRS）是由猪繁殖与呼吸综合症病毒（PRRSV）引起的母猪以发热、厌食、流产、死胎、木乃伊胎、弱仔等繁殖障碍及仔猪的呼吸道症状和高死亡率为特征的一种疾病。",
+    "error_detail": "错误地将蓝耳病的病原体混淆为猪流感病毒。",
+    "original_question": "蓝耳病的症状和特征是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "运用猪瘟强毒单克隆抗体酶联免疫吸附试验检测猪体内猪瘟弱毒抗体效价水平。",
+    "reference_case": "运用猪瘟弱毒单克隆抗体酶联免疫吸附试验检测猪体内猪瘟弱毒抗体效价水平。",
+    "error_detail": "错误地使用了强毒单克隆抗体而非弱毒单克隆抗体，偏离了原始指令。",
+    "original_question": "如何检测猪瘟弱毒抗体效价？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "猪瘟弱毒单克隆抗体酶联免疫附试实验是用来检验猪体内强毒抗体水平的。",
+    "reference_case": "猪瘟强毒单克隆抗体酶联免疫附试实验是用来检验猪体内强毒抗体水平的。",
+    "error_detail": "错误地使用了弱毒单克隆抗体而非强毒单克隆抗体，偏离了原始指令。",
+    "original_question": "如何检测猪瘟强毒抗体？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在河南某猪场47份母猪血清中，有47份血清呈猪瘟强毒抗体阳性，阳性率为100%。",
+    "reference_case": "在河南某猪场47份母猪血清中，有5份血清呈猪瘟强毒抗体阳性，阳性率为10%。",
+    "error_detail": "错误地夸大了阳性率和阳性数量。",
+    "original_question": "检测河南某猪场母猪血清中的猪瘟抗体阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪瘟弱毒抗体效价OD值较低，保护率有50%。",
+    "reference_case": "猪瘟弱毒抗体效价OD值较高，保护率有93%。",
+    "error_detail": "错误地降低了OD值描述和保护率。",
+    "original_question": "猪瘟弱毒抗体保护率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "在9份仔猪血清中，猪瘟弱毒抗体效价OD值很高，保护率有90%。",
+    "reference_case": "在9份仔猪血清中，猪瘟弱毒抗体效价OD值很低，保护率只有17%。",
+    "error_detail": "错误地提高了OD值描述和保护率。",
+    "original_question": "仔猪血清中的猪瘟弱毒抗体保护率如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "后备母猪的蓝耳病抗体较高，阳性率为70%。",
+    "reference_case": "后备母猪的蓝耳病抗体较低，阳性率为34%。",
+    "error_detail": "错误地提高了抗体水平和阳性率。",
+    "original_question": "后备母猪的蓝耳病抗体阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "经产母猪的蓝耳病抗体水平较低，阳性率为30%。",
+    "reference_case": "经产母猪的蓝耳病抗体水平较高，阳性率为75%。",
+    "error_detail": "错误地降低了抗体水平和阳性率。",
+    "original_question": "经产母猪的蓝耳病抗体阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "该猪场的猪瘟免疫程序包括：哺乳仔猪10日龄注射2头份猪瘟弱毒疫苗，断奶仔猪30日龄注射2头份猪瘟弱毒疫苗，种母猪在配种前和产仔后10天注射2头份猪瘟弱毒疫苗，种公猪每年一次注射2头份猪瘟弱毒疫苗。",
+    "reference_case": "该猪场的猪瘟免疫程序包括：哺乳仔猪20日龄注射4头份猪瘟弱毒疫苗，断奶仔猪60日龄注射4头份猪瘟弱毒疫苗，种母猪在配种前和产仔后20天注射4头份猪瘟弱毒疫苗，种公猪每年两次注射4头份猪瘟弱毒疫苗。",
+    "error_detail": "错误地修改了免疫程序的时间和剂量，偏离了原始指令。",
+    "original_question": "该猪场的猪瘟免疫程序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "该猪场蓝耳病的免疫程序是在仔猪20日龄时每头猪注射2头份猪蓝耳病弱毒活疫苗。",
+    "reference_case": "该猪场蓝耳病的免疫程序是在仔猪10日龄时每头猪注射1头份猪蓝耳病弱毒活疫苗。",
+    "error_detail": "错误地修改了免疫程序的时间和剂量，偏离了原始指令。",
+    "original_question": "该猪场蓝耳病免疫程序是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "后各猪的阳性率为30%，经产猪的阳性率为20%，仔猪中未发现强毒抗体阳性者。",
+    "reference_case": "后各猪的阳性率为12%，经产猪的阳性率为8.3%，仔猪中未发现强毒抗体阳性者。",
+    "error_detail": "错误地提高了阳性率。",
+    "original_question": "后各猪群中猪瘟强毒抗体阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "仔猪中猪瘟弱毒抗体的阳性率为50%。",
+    "reference_case": "仔猪中猪瘟弱毒抗体的阳性率为22%。",
+    "error_detail": "错误地提高了阳性率。",
+    "original_question": "仔猪中猪瘟弱毒抗体阳性率是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "后备猪的阳性率为80%，经产猪的阳性率为70%。",
+    "reference_case": "后备猪的阳性率为97%，经产猪的阳性率为91%。",
+    "error_detail": "错误地降低了阳性率。",
+    "original_question": "后备猪和经产猪的猪瘟弱毒抗体阳性率分别是多少？",
+    "original_input": ""
+  }
+]

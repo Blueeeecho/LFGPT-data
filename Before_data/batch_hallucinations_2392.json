@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "家畜粪的毒性大小依次为鸡粪 > 猪粪 > 羊粪 > 马粪 > 牛粪 > 狗粪。",
+    "reference_case": "家畜粪的毒性大小依次为鸡粪 > 猪粪 > 羊粪 > 马粪 > 牛粪。",
+    "error_detail": "添加了不存在的家畜粪类型（狗粪）",
+    "original_question": "不同家畜粪的毒性大小如何排列？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "对照组猪日增重为0.66kg，氨浓度为50ppm时日增重为0.62kg，氨浓度为50ppm且存在尘埃时日增重为0.60kg。",
+    "reference_case": "对照组猪日增重为0.66kg，氨浓度为50ppm时日增重为0.62kg，氨浓度为50ppm且存在尘埃时日增重为0.62kg。",
+    "error_detail": "错误地修改了氨浓度为50ppm且存在尘埃时的日增重数据",
+    "original_question": "氨浓度对猪增重的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "一个1000头出栏猪的养殖场，需要30亩～50亩土地才能完全消纳猪粪。",
+    "reference_case": "一个1000头出栏猪的养殖场，需要50亩～100亩土地才能完全消纳猪粪。",
+    "error_detail": "错误地减少了所需的土地面积",
+    "original_question": "一个1000头出栏猪的养殖场，需要多少亩土地才能完全消纳猪粪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在通气条件下，猪粪尿可产生较多的NH3、MeSH及二硫化二甲基（MeSSMe），但H2S产生量较多。",
+    "reference_case": "在通气条件下，猪粪尿可产生较多的NH3、MeSH及二硫化二甲基（MeSSMe），但H2S产生量较少。",
+    "error_detail": "错误地陈述了H2S的产生量",
+    "original_question": "在通气条件下，猪粪尿会产生哪些含硫化合物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "在厌氧条件下，特别是高温时，猪粪尿会产生较多的NH3，并产生VFA，而H2S的产生很少。",
+    "reference_case": "在厌氧条件下，特别是高温时，猪粪尿会产生较多的H2S，并产生VFA，而NH3的产生很少。",
+    "error_detail": "错误地交换了NH3和H2S的产生量",
+    "original_question": "在厌氧条件下，猪粪尿会产生哪些含硫化合物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "堆积猪粪中测得了C1～C9的低级脂肪酸。",
+    "reference_case": "堆积猪粪中测得了C2～C9的低级脂肪酸。",
+    "error_detail": "错误地包括了C1脂肪酸",
+    "original_question": "堆积猪粪中测得了哪些低级脂肪酸？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "检出了ROH(R=Me、Et、n-Pr、i-Bu、n-Bu、i-Am、n-Am)的低级醇类。",
+    "reference_case": "检出了ROH(R=Me、Et、n-Pr、i-Bu、n-Bu、i-Am)的低级醇类。",
+    "error_detail": "错误地添加了n-Am醇类",
+    "original_question": "测定猪舍液态粪尿混合物的臭气成分时，检出了哪些低级醇类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "检出了2-丁醇、2-戊醇、3-戊醇、3-己醇、3-庚醇、3-辛醇、3-壬醇等中、高级醇类。",
+    "reference_case": "检出了2-丁醇、2-戊醇、3-戊醇、3-己醇、3-庚醇、3-辛醇等中、高级醇类。",
+    "error_detail": "错误地添加了3-壬醇",
+    "original_question": "测定猪舍液态粪尿混合物的臭气成分时，检出了哪些中、高级醇类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "检出了C1、C2、C4、C6、C8、C10、C12、C14的饱和脂肪酸乙酯。",
+    "reference_case": "检出了C1、C2、C4、C6、C8、C10、C12的饱和脂肪酸乙酯。",
+    "error_detail": "错误地添加了C14脂肪酸乙酯",
+    "original_question": "测定猪舍液态粪尿混合物的臭气成分时，检出了哪些酯类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "检出了甲基酮MeCOR(R=i-Bu、i-Am、Am-壬基、C6H5、C7H7)。",
+    "reference_case": "检出了甲基酮MeCOR(R=i-Bu、i-Am、Am-壬基、C6H5)。",
+    "error_detail": "错误地添加了C7H7甲基酮",
+    "original_question": "测定猪舍液态粪尿混合物的臭气成分时，检出了哪些羟基化合物？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "检出了苯酚、p-甲苯酚、p-乙烯苯酚、(三甲基苯酚)、o-甲苯酚。",
+    "reference_case": "检出了苯酚、p-甲苯酚、p-乙烯苯酚、(三甲基苯酚)。",
+    "error_detail": "错误地添加了o-甲苯酚",
+    "original_question": "测定猪舍液态粪尿混合物的臭气成分时，检出了哪些酚类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "检出了C2、C3、C4、C6、C8、C10、C12、C14、C16、C18、C20饱和脂肪酸，以及较多的安息香酸、苯乙酸、苯丙酸等。",
+    "reference_case": "检出了C2、C3、C4、C6、C8、C10、C12、C14、C16、C18饱和脂肪酸，以及较多的安息香酸、苯乙酸、苯丙酸等。",
+    "error_detail": "错误地添加了C20饱和脂肪酸",
+    "original_question": "测定猪舍液态粪尿混合物的臭气成分时，检出了哪些游离羧酸类？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "堆积猪粪加热干燥产生的臭气有n-C2～C5、i-C4～C5的VFA及乙醛、丙醇、丁醇等。",
+    "reference_case": "堆积猪粪加热干燥产生的臭气有n-C2～C5、i-C4～C5的VFA及乙醛、丙醇等。",
+    "error_detail": "错误地添加了丁醇",
+    "original_question": "堆积猪粪加热干燥产生的臭气中含有哪些VFA及乙醛、丙醇等？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "从经干燥的猪粪和猪舍中检测到了上述的VFA和Me3N、Et3N、Me2N、丁醇、丁酮、n-己烷、苯、甲苯、乙苯、二甲苯类及p-甲苯酚、o-甲苯酚等。",
+    "reference_case": "从经干燥的猪粪和猪舍中检测到了上述的VFA和Me3N、Et3N、Me2N、丁醇、丁酮、n-己烷、苯、甲苯、乙苯、二甲苯类及p-甲苯酚等。",
+    "error_detail": "错误地添加了o-甲苯酚",
+    "original_question": "从经干燥的猪粪和猪舍中检测到了哪些物质？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉（术语错误）",
+    "hallucinated_case": "猪尿中含有的大量酚类物质主要是以游离体的形式存在。",
+    "reference_case": "猪尿中含有的大量酚类物质主要是以内聚体的形式（主要是葡萄糖苷酸）存在。",
+    "error_detail": "错误地改变了酚类物质的存在形式",
+    "original_question": "猪尿中含有的大量酚类物质主要是什么形式存在？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "仔猪为5%，生长猪前期为6%~9%，后期可适当提高，母猪为13%。",
+    "reference_case": "仔猪为4%，生长猪前期为5%~8%，后期可适当提高，母猪为12%。",
+    "error_detail": "错误地修改了粗纤维含量的适宜范围",
+    "original_question": "猪的日粮中粗纤维含量的适宜范围是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "粗纤维可节约成本、满足饱感，并增加排粪量，但采用干粪处理时加大处理负荷，采用水冲清粪时带来工艺上的麻烦且不易腐化。此外，增加粗纤维还会使粪便中的吲哚和粪臭素减少，减轻恶臭污染。",
+    "reference_case": "粗纤维可节约成本、满足饱感，并增加排粪量，但采用干粪处理时加大处理负荷，采用水冲清粪时带来工艺上的麻烦且不易腐化。此外，增加粗纤维还会使粪便中的吲哚和粪臭素增多，加剧恶臭污染。",
+    "error_detail": "错误地陈述了增加粗纤维对粪便中吲哚和粪臭素的影响",
+    "original_question": "为什么母猪日粮中添加粗纤维具有重要意义？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "酶制剂可提高氮的消化率，使氮的潴留率提高10%~20%，每头猪的氮排出量可减少15%~20%，即相当于少排300g，每头猪可少排出干物质10kg，粪便20kg~25kg。",
+    "reference_case": "酶制剂可提高氮的消化率，使氮的潴留率提高5%~15%，每头猪的氮排出量可减少10%~15%，即相当于少排200g，每头猪可少排出干物质5kg，粪便15kg~20kg。",
+    "error_detail": "错误地提高了酶制剂的效果数据",
+    "original_question": "日粮中添加酶制剂可以提高哪些指标？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型（需求冲突）",
+    "hallucinated_case": "因为植物籽实中的磷大部分以无机磷形式存在，猪对其利用率很高，加入植酸酶则可减缓这一过程，对防止土壤氮磷过剩和污染有重要意义。",
+    "reference_case": "因为植物籽实中的磷大部分以植酸磷形式存在，猪对其利用率很低，加入植酸酶则可减缓这一过程，对防止土壤氮磷过剩和污染有重要意义。",
+    "error_detail": "错误地陈述了植物籽实中磷的形式和猪对其的利用率",
+    "original_question": "为何在饲料中添加植酸酶可显著降低磷的排泄量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉（数值/比例偏差）",
+    "hallucinated_case": "何明清用需氧芽孢杆菌喂猪后，日增重提高10%~25%和5%~12%。",
+    "reference_case": "何明清用需氧芽孢杆菌喂猪后，日增重提高7.8%~21.6%和2.8%~9.6%。",
+    "error_detail": "错误地提高了日增重的提高比例",
+    "original_question": "何明清用需氧芽孢杆菌喂猪后，日增重提高了多少？",
+    "original_input": ""
+  }
+]

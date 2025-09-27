@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "配合饲料的组成包括能量饲料、蛋白质饲料、粗饲料、矿物质、维生素和水分，这些成分分别具有不同的功能，确保鸡的生长和健康。",
+    "reference_case": "配合饲料的组成包括能量饲料、蛋白质饲料、粗饲料、矿物质、维生素和水分，这些成分分别具有不同的功能，确保猪的生长和健康。",
+    "error_detail": "将猪错误地替换为鸡，导致概念混淆。",
+    "original_question": "配合饲料的组成包括哪些部分？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "30-55公斤的猪使用玉米70.5%，豆饼23.0%，麦秸5.0%，高贸10.0%，石粉1.2%，食盐0.3%；55-90公斤的猪使用玉米76.2%，豆饼17.0%，麦秸5.0%，高贸10.0%，石粉1.4%，食盐0.3%。",
+    "reference_case": "30-55公斤的猪使用玉米60.5%，豆饼23.0%，麦秸5.0%，高贸10.0%，石粉1.2%，食盐0.3%；55-90公斤的猪使用玉米66.2%，豆饼17.0%，麦秸5.0%，高贸10.0%，石粉1.4%，食盐0.3%。",
+    "error_detail": "玉米的比例被错误地增加，导致数据型幻觉。",
+    "original_question": "不同体重的猪使用怎样的日粮配方？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "30-55公斤的猪日粮中的粗蛋白质含量为18.04%，55-90公斤的猪日粮中的粗蛋白质含量为15.92%，而华南农学院的饲料配方中分别为17.50%、15.30%、14.20%。",
+    "reference_case": "30-55公斤的猪日粮中的粗蛋白质含量为16.04%，55-90公斤的猪日粮中的粗蛋白质含量为13.92%，而华南农学院的饲料配方中分别为15.50%、13.30%、12.20%。",
+    "error_detail": "粗蛋白质含量被错误地更新为更高的数值，导致时效性幻觉。",
+    "original_question": "不同体重的猪日粮中的粗蛋白质含量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "30-55公斤的猪饲料中的钙含量为0.765%，55-90公斤的猪饲料中的钙含量为0.875%；而华南农学院的饲料配方中分别为0.73%、0.71%、0.64%。",
+    "reference_case": "30-55公斤的猪饲料中的钙含量为0.565%，55-90公斤的猪饲料中的钙含量为0.675%；而华南农学院的饲料配方中分别为0.53%、0.51%、0.44%。",
+    "error_detail": "钙含量被错误地增加，导致数据型幻觉。",
+    "original_question": "不同饲料配方中钙的含量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "30-55公斤的猪饲料中的赖氨酸含量为0.955%，55-90公斤的猪饲料中的赖氨酸含量为0.801%；而华南农学院的饲料配方中分别为0.86%、0.71%、0.64%。",
+    "reference_case": "30-55公斤的猪饲料中的赖氨酸含量为0.855%，55-90公斤的猪饲料中的赖氨酸含量为0.701%；而华南农学院的饲料配方中分别为0.76%、0.61%、0.54%。",
+    "error_detail": "赖氨酸含量被错误地增加，导致数据型幻觉。",
+    "original_question": "不同饲料配方中的赖氨酸含量如何变化？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "使用东北农学的饲料配方，日增重为669克（饲养杜哈杂猪）。使用华南农学院的饲料配方，日增重为7.86克。",
+    "reference_case": "使用东北农学的饲料配方，日增重为569克（饲养杜哈杂猪）。使用华南农学院的饲料配方，日增重为6.86克。",
+    "error_detail": "日增重被错误地增加，导致数据型幻觉。",
+    "original_question": "使用不同饲料配方的猪的日增重是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "古代兽医根据家畜种类不同，在马上以尾脉为主，羊、猪、犬等则以切翏股脉为宜。",
+    "reference_case": "古代兽医根据家畜种类不同，在牛上以尾脉为主，羊、猪、犬等则以切翏股脉为宜。",
+    "error_detail": "将牛错误地替换为马，导致概念混淆。",
+    "original_question": "古代兽医在哪些动物上采用了不同的脉诊方法？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "去势术的起源可能在周代或其以前，最早可能始于猪。",
+    "reference_case": "去势术的起源可能在殷代或其以前，最早可能始于猪。",
+    "error_detail": "将殷代错误地替换为周代，导致时效性幻觉。",
+    "original_question": "去势术最早出现在哪个朝代？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "猪在五日时可进行去势，六十日后犍时也可进行。",
+    "reference_case": "猪在三日时可进行去势，六十日后犍时也可进行。",
+    "error_detail": "去势日龄被错误地增加，导致数据型幻觉。",
+    "original_question": "古代猪的适宜去势日龄是？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "年猪肺疫导致死亡890万头。",
+    "reference_case": "年猪肺疫导致死亡790万头。",
+    "error_detail": "死亡数量被错误地增加，导致数据型幻觉。",
+    "original_question": "年猪肺疫导致了什么后果？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "中国最早将野牛驯化为家牛。",
+    "reference_case": "中国最早将野猪驯化为家猪。",
+    "error_detail": "将野猪错误地替换为野牛，导致概念混淆。",
+    "original_question": "中国最早将哪种动物驯化为家畜？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "中国家猪的起源可分华东猪和华北猪两大类型。",
+    "reference_case": "中国家猪的起源可分华南猪和华北猪两大类型。",
+    "error_detail": "将华南猪错误地替换为华东猪，导致概念混淆。",
+    "original_question": "家猪的起源可分哪两大类型？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "现代家猪因经过长期喂养，头部明显缩短，犬齿退化，头长与体长之比约1:5，而野猪的头长与体长比例约1:3。",
+    "reference_case": "现代家猪因经过长期喂养，头部明显缩短，犬齿退化，头长与体长之比约1:6，而野猪的头长与体长比例约1:3。",
+    "error_detail": "头长与体长之比被错误地修改，导致数据型幻觉。",
+    "original_question": "家猪与野猪在体形方面有何区别？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "我国原始畜牧业的显著特点是牛在各种家畜中占有首要地位，牛是中国原始时代饲养最普遍的家畜。",
+    "reference_case": "我国原始畜牧业的显著特点是猪在各种家畜中占有首要地位，猪是中国原始时代饲养最普遍的家畜。",
+    "error_detail": "将猪错误地替换为牛，导致概念混淆。",
+    "original_question": "我国原始畜牧业的显著特点是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "空间错位幻觉",
+    "hallucinated_case": "在山区用橡实或药苗，水乡用萍藻及近水诸物，在平原种马齿苋发酵后饲喂。",
+    "reference_case": "在山区用橡实或药苗，水乡用萍藻及近水诸物，在平原种马齿苋发酵后饲喂。",
+    "error_detail": "虽然内容相同，但错误地暗示了空间错位，实际上没有变化。",
+    "original_question": "宋元时期如何广辟猪的饲料来源？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "因为每组小群中总会有一头性格较弱的母猪受到其他强势母猪的欺负，这是由于母猪之间的社会等级制度。",
+    "reference_case": "因为每组小群中总会有一头性格较弱的母猪受到其他强势母猪的欺负。",
+    "error_detail": "添加了关于社会等级制度的假设，导致假设滥用型幻觉。",
+    "original_question": "为什么小群饲养母猪时总会有一头受气猪？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "斯堪第那维亚地区母猪栏养的趋势分为拴系与无拴系两种，每一种又有许多差异，包括有给饲通道和无给饲通道，硬地面排粪和笼漏式地面排粪等。",
+    "reference_case": "斯堪第那维亚地区母猪栏养的趋势分为拴系与无拴系两种，每一种又有许多差异，包括有给饲通道和无给饲通道，硬地面排粪和笼漏式地面排粪等。",
+    "error_detail": "虽然内容相同，但错误地暗示了概念混淆，实际上没有变化。",
+    "original_question": "斯堪第那维亚地区母猪栏养的趋势是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "为了限制母猪活动，拴系螺栓的位置和颈带类型需要谨慎设计。猪栏隔断设有几根栏杆，以防止相邻母猪互相咬伤。可使用焊接金属网或铁板代替管子作栏杆。此外，还需要考虑母猪的舒适度。",
+    "reference_case": "为了限制母猪活动，拴系螺栓的位置和颈带类型需要谨慎设计。猪栏隔断设有几根栏杆，以防止相邻母猪互相咬伤。可使用焊接金属网或铁板代替管子作栏杆。",
+    "error_detail": "添加了关于母猪舒适度的额外信息，导致指令偏离型幻觉。",
+    "original_question": "拴系式母猪栏的设计有何要求？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "假设滥用型",
+    "hallucinated_case": "给饲通道用于给母猪喂食，同时便于除粪，减少母猪活动空间，从而提高饲养效率。",
+    "reference_case": "给饲通道用于给母猪喂食，同时便于除粪，减少母猪活动空间。",
+    "error_detail": "添加了关于提高饲养效率的假设，导致假设滥用型幻觉。",
+    "original_question": "给饲通道在拴系式母猪栏中的作用是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "无拴系式母猪栏要求在较大跨度的猪舍内提供不同大小的猪栏，猪栏有对头式或对尾式布置方式，还需要考虑母猪的社交需求。",
+    "reference_case": "无拴系式母猪栏要求在较大跨度的猪舍内提供不同大小的猪栏，猪栏有对头式或对尾式布置方式。",
+    "error_detail": "添加了关于母猪社交需求的额外信息，导致指令偏离型幻觉。",
+    "original_question": "无拴系式母猪栏的设计要求是什么？",
+    "original_input": ""
+  }
+]

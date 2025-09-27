@@ -1,0 +1,182 @@
+[
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "精子上游法是一种用于获得纯净精子样本的技术，通过将精液与PBS稀释后，在37°C的CO2培养箱中上游2小时，收集上层精子，离心后收集沉淀，用于RNA提取。",
+    "reference_case": "精子上游法是一种用于获得纯净精子样本的技术，通过将精液与CXM稀释后，在39°C的CO2培养箱中上游1小时，收集上层精子，离心后收集沉淀，用于RNA提取。",
+    "error_detail": "错误地使用了PBS作为稀释液和37°C的温度，以及2小时的上游时间，与原始描述不符。",
+    "original_question": "猪精子RNA提取实验中使用的精子上游法是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "RNA的浓度约为300 ng/μL，OD260/280值为1.8。",
+    "reference_case": "RNA的浓度约为203 ng/μL，OD260/280值为1:99。",
+    "error_detail": "错误地报告了RNA的浓度和OD260/280值，与原始数据不符。",
+    "original_question": "猪精子RNA提取实验中，RNA的浓度和OD260/280值分别是多少？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "使用NanoDrop测定RNA在260 nm和280 nm处的吸光度值（OD值），并计算OD260/280值以确认RNA的产量和质量，同时还需要测定230 nm处的吸光度值。",
+    "reference_case": "使用NanoDrop测定RNA在260 nm和280 nm处的吸光度值（OD值），并计算OD260/280值以确认RNA的产量和质量。",
+    "error_detail": "错误地添加了测定230 nm处吸光度值的步骤，与原始指令不符。",
+    "original_question": "猪精子RNA提取实验中，如何通过NanoDrop测定RNA的质量相关参数？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "通过精子上游法去除体细胞污染，并结合PCR检测所制备的RNA纯度，确保没有体细胞cDNA污染。",
+    "reference_case": "通过精子上游法去除体细胞污染，并结合体细胞标记基因分析检测所制备的RNA纯度，确保没有体细胞cDNA污染。",
+    "error_detail": "错误地使用了PCR检测而非体细胞标记基因分析，与原始描述不符。",
+    "original_question": "猪精子RNA提取实验中，如何确保RNA的纯度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "忠实性幻觉",
+    "sub_type": "指令偏离型",
+    "hallucinated_case": "RNA的纯度和质量通过核酸测定仪测定260 nm和280 nm处的吸光度值（OD值），并计算OD260/280值来确认。此外，还使用2%琼脂糖凝胶电泳和溴化乙啶（EB）染色观察RNA的完整性。",
+    "reference_case": "RNA的纯度和质量通过核酸测定仪测定260 nm和280 nm处的吸光度值（OD值），并计算OD260/280值来确认。此外，还使用1%琼脂糖凝胶电泳和溴化乙啶（EB）染色观察RNA的完整性。",
+    "error_detail": "错误地使用了2%琼脂糖凝胶电泳，与原始描述的1%不符。",
+    "original_question": "在猪精子RNA提取实验中，如何检测RNA的纯度和质量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "上浮精子的RNA含量、OD260值、OD280值、OD260/280值和OD260/230值均显著高于未处理精子。",
+    "reference_case": "上浮精子的RNA含量、OD260值、OD280值、OD260/280值和OD260/230值均高于未处理精子，但所有参数均没有显著差异。",
+    "error_detail": "错误地报告了参数之间的显著差异，与原始数据不符。",
+    "original_question": "猪精子RNA提取实验中，上浮精子和未处理精子的RNA质量有何差异？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "通过RT-PCR检测E-Cadherin、CD4和c-kit基因的扩增产物，使用β-actin作为阳性对照，未反转录的精子RNA作为阴性对照，以排除基因组DNA污染。",
+    "reference_case": "通过RT-PCR检测E-Cadherin、CD4和c-kit基因的扩增产物，使用GAPDH作为阳性对照，未反转录的精子RNA作为阴性对照，以排除基因组DNA污染。",
+    "error_detail": "错误地使用了β-actin作为阳性对照，而非GAPDH，与原始描述不符。",
+    "original_question": "猪精子RNA提取实验中，如何通过RT-PCR检测cDNA的质量？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "时效性幻觉",
+    "hallucinated_case": "使用SuperScript™反转录试剂盒，在指形管中加入总RNA、Oligo(dT)18引物和DEPC处理水，经过65°C孵育10分钟后冷却，再加入反应缓冲液、dNTP、RiboLock™ Ribonuclease抑制剂和SuperScript™，在45°C孵育50分钟，最后在75°C终止反应，得到第1链cDNA。",
+    "reference_case": "使用RevertAID™反转录试剂盒，在指形管中加入总RNA、Oligo(dT)18引物和DEPC处理水，经过70°C孵育5分钟后冷却，再加入反应缓冲液、dNTP、RiboLock™ Ribonuclease抑制剂和RevertAid™，在42°C孵育60分钟，最后在70°C终止反应，得到第1链cDNA。",
+    "error_detail": "错误地使用了SuperScript™反转录试剂盒，以及不同的温度和时间参数，与原始描述不符。",
+    "original_question": "猪精子RNA提取实验中，如何合成第1链cDNA？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "RT-PCR检测了E-Cadherin、CD4和c-kit基因，这些基因分别作为肌肉细胞、血液淋巴细胞和生殖细胞的污染标记。",
+    "reference_case": "RT-PCR检测了E-Cadherin、CD4和c-kit基因，这些基因分别作为表皮细胞、血液淋巴细胞和生殖细胞的污染标记。",
+    "error_detail": "错误地将E-Cadherin描述为肌肉细胞的标记，而非表皮细胞，与原始描述不符。",
+    "original_question": "猪精子RNA提取实验中，RT-PCR检测了哪些体细胞标记基因？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "外源性环腺核苷酸（cAMP）在注射后48小时内显著提高了育肥猪的血糖浓度，但在其他时间段内差异不显著。",
+    "reference_case": "外源性环腺核苷酸（cAMP）在注射后72小时内显著提高了育肥猪的血糖浓度，但在其他时间段内差异不显著。",
+    "error_detail": "错误地报告了显著提高血糖浓度的时间段，与原始数据不符。",
+    "original_question": "外源性环腺核苷酸（cAMP）对育肥猪血糖浓度的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "外源性环腺核苷酸（cAMP）显著提高了育肥猪血清总胆固醇浓度，这一效果在240小时内持续存在。",
+    "reference_case": "外源性环腺核苷酸（cAMP）显著降低了育肥猪血清总胆固醇浓度，这一效果在240小时内持续存在。",
+    "error_detail": "错误地报告了cAMP对血清总胆固醇浓度的影响方向，与原始数据不符。",
+    "original_question": "外源性环腺核苷酸（cAMP）对育肥猪总胆固醇含量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "外源性环腺核苷酸（cAMP）在注射后12小时内显著提高了育肥猪胰岛素含量，但在其他时间段内差异不显著。",
+    "reference_case": "外源性环腺核苷酸（cAMP）在注射后24小时内显著提高了育肥猪胰岛素含量，但在其他时间段内差异不显著。",
+    "error_detail": "错误地报告了显著提高胰岛素含量的时间段，与原始数据不符。",
+    "original_question": "外源性环腺核苷酸（cAMP）对育肥猪胰岛素含量的影响如何？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "外源性环腺核苷酸（cAMP）在注射后48小时内显著提高了育肥猪血清生长激素质量浓度。",
+    "reference_case": "外源性环腺核苷酸（cAMP）在注射后72小时内显著提高了育肥猪血清生长激素质量浓度。",
+    "error_detail": "错误地报告了显著提高生长激素质量浓度的时间段，与原始数据不符。",
+    "original_question": "外源性环腺核苷酸（cAMP）对育肥猪生长激素含量的影响是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "外源性环腺核苷酸（cAMP）通过抑制动物机体内脂肪的分解代谢，导致血清总胆固醇浓度显著降低。",
+    "reference_case": "外源性环腺核苷酸（cAMP）通过促进动物机体内脂肪的分解代谢，导致血清总胆固醇浓度显著降低。",
+    "error_detail": "错误地描述了cAMP的作用机制，与原始描述不符。",
+    "original_question": "外源性环腺核苷酸（cAMP）对育肥猪的血清总胆固醇浓度影响机制是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "外源性环腺核苷酸（cAMP）可能通过抑制骨骼中的一种蛋白酶，减少肌肉中糖元的分解和加强糖元合成的抑制，从而使血糖升高。",
+    "reference_case": "外源性环腺核苷酸（cAMP）可能通过活化骨骼中的一种蛋白酶，促进肌肉中糖元的分解和加强糖元合成的抑制，从而使血糖升高。",
+    "error_detail": "错误地描述了cAMP的作用机制，与原始描述不符。",
+    "original_question": "外源性环腺核苷酸（cAMP）对育肥猪的血糖浓度影响机制是什么？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "外源性环腺核苷酸（cAMP）通过抑制育肥猪体内生长激素和胰岛素的分泌、代谢，进而抑制蛋白质、脂肪的合成与储存，从而减慢育肥猪的生长速度。",
+    "reference_case": "外源性环腺核苷酸（cAMP）通过促进育肥猪体内生长激素和胰岛素的分泌、代谢，进而促进蛋白质、脂肪的合成与储存，从而加快育肥猪的生长速度。",
+    "error_detail": "错误地描述了cAMP的作用机制，与原始描述不符。",
+    "original_question": "外源性环腺核苷酸（cAMP）如何影响育肥猪的生长速度？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "因果倒置幻觉",
+    "hallucinated_case": "外源性环腺核苷酸（cAMP）通过cAMP载体蛋白进入脑垂体细胞，使生长激素释放激素分泌减弱，从而抑制生长激素（GH）的释放。",
+    "reference_case": "外源性环腺核苷酸（cAMP）通过cAMP载体蛋白进入脑垂体细胞，使生长激素释放激素分泌加强，从而诱导生长激素（GH）的释放。",
+    "error_detail": "错误地描述了cAMP的作用机制，与原始描述不符。",
+    "original_question": "外源性环腺核苷酸（cAMP）如何影响育肥猪的生长激素分泌？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "试验中，24头香猪随机分为4组，对照组饲喂基础日粮，1、2、3组分别在基础日粮基础上添加1%、2%、3%的复方中草药添加剂。",
+    "reference_case": "试验中，24头香猪随机分为4组，对照组饲喂基础日粮，1、2、3组分别在基础日粮基础上添加0:5%、1%、2%的复方中草药添加剂。",
+    "error_detail": "错误地报告了复方中草药添加剂的添加比例，与原始数据不符。",
+    "original_question": "试验中香猪的分组设计是怎样的？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "概念混淆幻觉",
+    "hallucinated_case": "复方中草药添加剂对香猪的屠宰率、膘厚和眼肌面积有显著影响，显著降低了这些指标。",
+    "reference_case": "复方中草药添加剂对香猪的屠宰率、膘厚和眼肌面积有显著影响，显著提高了这些指标。",
+    "error_detail": "错误地描述了复方中草药添加剂的影响方向，与原始描述不符。",
+    "original_question": "复方中草药添加剂对香猪的哪些生化指标有显著影响？",
+    "original_input": ""
+  },
+  {
+    "hallucination_type": "事实性幻觉",
+    "sub_type": "数据型幻觉",
+    "hallucinated_case": "复方中草药添加剂显著提高了香猪的屠宰率、膘厚和眼肌面积。与对照组相比，1、2、3组的屠宰率分别提高了2:50%、4:83%、5:99%，膘厚分别增加了20:36%、30:4%、35:79%，眼肌面积分别提高了10:10%、15:42%、20:92%。",
+    "reference_case": "复方中草药添加剂显著提高了香猪的屠宰率、膘厚和眼肌面积。与对照组相比，1、2、3组的屠宰率分别提高了1:50%、3:83%、4:99%，膘厚分别增加了15:36%、24:4%、26:79%，眼肌面积分别提高了6:10%、8:42%、13:92%。",
+    "error_detail": "错误地报告了复方中草药添加剂对屠宰率、膘厚和眼肌面积的具体提高比例，与原始数据不符。",
+    "original_question": "复方中草药添加剂对香猪胴体品质的影响如何？",
+    "original_input": ""
+  }
+]
